@@ -1,0 +1,279 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.row::before,
+.row::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.one,
+.one-third,
+.two-thirds,
+.one-fourth,
+.half {
+  width: 100%;
+}
+
+body {
+	background-color: #0E0E0E;
+	font-family: Helvetica, sans-serif;
+	color: #fff;
+	line-height: 1.7em;
+	margin: 0px 0px 0px 0px;
+}
+
+/* WHEN ELEMENT CENTERING IS NEEDED */
+a.container {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    position: absolute;
+	display: table;
+}
+
+#intro {
+	text-align: center;
+	display: table-cell; /* THE KEY TO VERTICAL ALIGNMENT */
+	vertical-align: middle;
+	background-color: #FCC920;
+	color: #0E0E0E;
+}
+
+.menu {
+	display: flex;
+}
+
+@media only screen and (min-width: 800px) {
+  .one {
+    width: 80%;
+  }
+  .half {
+    width: 50%;
+  }
+  .one-third {
+    width: calc(100% / 3);
+  }
+  .one-fourth {
+    width: 25%;
+  }
+  .two-thirds {
+    width: calc(100% / 3 * 2);
+  }
+  .column {
+    float: left;
+  }
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#first-row {
+	margin-top: 80px; /* 50 + (10+20)*/
+}
+
+article {
+	padding: 8%;
+}
+
+h1 {
+	font-size: 300%;
+	line-height: 98%;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #FCC920;
+}
+
+a:hover {
+	padding: 0px 0px 1px 0px;
+	border-bottom: 1px dashed;
+}
+
+
+
+
+
+
+
+
+/* HEADER */
+
+.navigation {
+  top: 10px;
+  left: 2%;
+  width: 96%;
+  height: 50px;
+  background: #FCC920;
+  position: fixed;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.xplosionmind{
+  position: absolute;
+  padding: 3px 11px;
+  float: left;
+  line-height: 50px;
+  font-size: 2em;
+  background-color: #0E0E0E;
+}
+.xplosionmind a,
+.xplosionmind a:visited {
+  color: #FCC920;
+  text-decoration: none;
+}
+
+.nav-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  float: right;
+  margin-right: 10px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  position: relative;
+}
+nav ul li a,
+nav ul li a:visited {
+  display: block;
+  padding: 0 15px;
+  line-height: 50px;
+  color: #0E0E0E;
+  text-decoration: none;
+  background-color: #FCC920;
+  font-size: 1.3em;
+}
+
+nav ul li a:hover,
+nav ul li a:visited:hover {
+  background: #0E0E0E;
+  color: #FCC920;
+  text-decoration: none !important;
+}
+nav ul li a:not(:only-child):after,
+nav ul li a:visited:not(:only-child):after {
+  padding-left: 5px;
+  content: "▾";
+}
+nav ul li ul li {
+  min-width: 190px;
+}
+nav ul li ul li a {
+  padding: 15px;
+  line-height: 20px;
+}
+
+.nav-dropdown {
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+
+/* Mobile navigation */
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #FCC920;
+  height: 50px;
+  width: 50px;
+}
+
+@media only screen and (max-width: 798px) {
+  .nav-mobile {
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+  nav {
+    margin-top: 50px;
+    margin-right: 0px;
+    padding: none;
+    text-align: right;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    float: none;
+  }
+  nav ul li a {
+    padding: 12px 30px;
+    line-height: 20px;
+  }
+  nav ul li ul li a {
+    padding-right: 70px;
+  }
+  .nav-dropdown {
+    position: static;
+  }
+}
+
+@media screen and (min-width: 799px) {
+  .nav-list {
+    display: block !important;
+  }
+}
+#nav-toggle {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  cursor: pointer;
+  padding: 10px 35px 16px 0px;
+}
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  height: 4px;
+  width: 30px;
+  background: #0E0E0E;
+  position: absolute;
+  display: block;
+  content: "";
+  transition: all 200ms ease-in-out;
+}
+#nav-toggle span:before {
+  top: -11px;
+}
+#nav-toggle span:after {
+  bottom: -11px;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
