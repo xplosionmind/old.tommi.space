@@ -96,12 +96,12 @@ h1 {
 	font-color: #000;
 }
 
-a {
+.row a {
 	text-decoration: none;
 	color: #FCC920;
 }
 
-a:hover {
+.row a:hover {
 	padding: 0px 0px 1px 0px;
 	border-bottom: 1px dashed;
 }
@@ -126,6 +126,10 @@ a:hover {
   font-weight: bolder;
 }
 
+.navigation a, .navigation a:hover {
+	text-decoration: none;
+}
+
 .xplosionmind{
   position: absolute;
   padding: 3px 11px;
@@ -134,8 +138,7 @@ a:hover {
   font-size: 2em;
   background-color: #0E0E0E;
 }
-.xplosionmind a,
-.xplosionmind a:visited {
+.xplosionmind a, .xplosionmind a:visited {
   color: #FCC920;
   text-decoration: none;
 }
@@ -207,76 +210,76 @@ nav ul li ul li a {
 }
 
 @media only screen and (max-width: 798px) {
-  .nav-mobile {
-    display: block;
-    height: 50px;
-    width: 50px;
-  }
-  nav {
-    margin-top: 50px;
-    margin-right: 0px;
-    padding: none;
-    text-align: right;
-  }
-  nav ul {
-    display: none;
-  }
-  nav ul li {
-    float: none;
-  }
-  nav ul li a {
-    padding: 12px 30px;
-    line-height: 20px;
-  }
-  nav ul li ul li a {
-    padding-right: 70px;
-  }
-  .nav-dropdown {
-    position: static;
-  }
+	.nav-mobile {
+		display: block;
+		height: 50px;
+		width: 50px;
+	}
+	nav {
+		margin-top: 50px;
+		margin-right: 0px;
+		padding: none;
+		text-align: right;
+	}
+	nav ul {
+		display: none;
+	}
+	nav ul li {
+	  float: none;
+	}
+	nav ul li a {
+		padding: 12px 30px;
+		line-height: 20px;
+	}
+	nav ul li ul li a {
+		padding-right: 70px;
+	}
+	.nav-dropdown {
+		position: static;
+	}
 }
 
 @media screen and (min-width: 799px) {
-  .nav-list {
-    display: block !important;
-  }
+	.nav-list {
+		display: block !important;
+	}
 }
 #nav-toggle {
-  position: absolute;
-  left: 10px;
-  top: 12px;
-  cursor: pointer;
-  padding: 10px 35px 16px 0px;
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	cursor: pointer;
+	padding: 10px 35px 16px 0px;
 }
 #nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
-  cursor: pointer;
-  height: 4px;
-  width: 30px;
-  background: #0E0E0E;
-  position: absolute;
-  display: block;
-  content: "";
-  transition: all 200ms ease-in-out;
+	cursor: pointer;
+	height: 4px;
+	width: 30px;
+	background: #0E0E0E;
+	position: absolute;
+	display: block;
+	content: "";
+ 	transition: all 200ms ease-in-out;
 }
 #nav-toggle span:before {
-  top: -11px;
+	top: -11px;
 }
 #nav-toggle span:after {
-  bottom: -11px;
+	bottom: -11px;
 }
 #nav-toggle.active span {
-  background-color: transparent;
+	background-color: transparent;
 }
 #nav-toggle.active span:before, #nav-toggle.active span:after {
-  top: 0;
+	top: 0;
 }
 #nav-toggle.active span:before {
-  transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 #nav-toggle.active span:after {
-  transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 
 footer {
