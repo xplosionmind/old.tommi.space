@@ -18,8 +18,13 @@ html {
 .one-third,
 .two-thirds,
 .one-fourth,
-.half {
+.half
+.two-fifths {
   width: 100%;
+}
+
+.one-fifth {
+	width: 50%;
 }
 
 body {
@@ -68,6 +73,12 @@ a.container {
 	}
 	.two-thirds {
 		width: calc(100% / 3 * 2);
+	}
+	.one-fifth {
+		width: 20%;
+	}
+	.two-fifths {
+		width: 40%;
 	}
 	.column {
 		float: left;
@@ -132,7 +143,7 @@ h1 {
 
 .xplosionmind{
   position: absolute;
-  padding: 3px 11px;
+  padding: 0px 11px;
   float: left;
   line-height: 50px;
   font-size: 2em;
@@ -140,7 +151,6 @@ h1 {
 }
 .xplosionmind a, .xplosionmind a:visited {
   color: #FCC920;
-  text-decoration: none;
 }
 
 .nav-container {
@@ -209,7 +219,7 @@ nav ul li ul li a {
   width: 50px;
 }
 
-@media only screen and (max-width: 798px) {
+@media only screen and (max-width: 800px) {
 	.nav-mobile {
 		display: block;
 		height: 50px;
@@ -239,7 +249,7 @@ nav ul li ul li a {
 	}
 }
 
-@media screen and (min-width: 799px) {
+@media screen and (min-width: 800px) {
 	.nav-list {
 		display: block !important;
 	}
@@ -282,34 +292,83 @@ nav ul li ul li a {
 	transform: rotate(-45deg);
 }
 
+/* FOOTER */
 footer {
-	font-weight: lighter;
-	background-color: #262626;
+	background-color: #000;
 	margin-bottom: 10px;
 	width: 96%;
 	margin-left: 2%;
+	text-align: center;
 }
 
 footer .row {
-	opacity: 60%;
-	line-height: 1em;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0px auto;
 }
 
 footer p {
-	margin-left: 20px;
+	opacity: .55;
+	margin: 30px auto 0px;
 }
 
 #license {
-	width: 90%;
+	width: 90%; /* override one column width */
 	margin-left: 5%;
-	text-align: center;
+	margin-bottom: 0px;
+	line-height: 1em;
+}
+
+footer form {
+	margin: 20px auto;
 }
 
 footer img {
 	display: block;
 	height: 1.2em;
 	width: auto;
-	margin: 0px auto 10px;
+	margin: 0px auto 20px;
+	opacity: .45;
+	position: relative;
+	top: -2px;
+}
+
+input#email {
+	font-size: 130%;
+	line-height: 150%;
+	font-weight: bolder;
+	color: #0E0E0E;
+	width: 350px;
+	height: 50px;
+	background-color: #FCC920;
+	border: none;
+	opacity: 100%;
+	padding-left: 5px;
+}
+
+input#email:focus {
+	background-color: transparent;
+	color: #FCC920;
+	border: 5px dashed #FCC920;
+}
+
+input#submit {
+	font-size: 130%;
+	line-height: 150%;
+	font-weight: bolder;
+	color: #FCC920;
+	height: 50px;
+	width: 50px;
+	background-color: transparent;
+	border: none;
+	opacity: 100%;
+}
+
+input#submit:hover {
+	background-color: #FCC920;
+	color: #0E0E0E;
+}
+
+::placeholder {
+	color: #0E0E0E;
+	opacity: 1;
+	text-align: center;
 }

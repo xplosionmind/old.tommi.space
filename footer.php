@@ -1,12 +1,17 @@
 <footer>
 	<div class="row">
-		<div class="one-third column">
+		<div class="two-fifths column">
+			<form action="!#" method="post">
+				<input type="email" name="email" id="email" placeholder="SUBSCRIBE TO NEWSLETTER"/>
+				<input type="submit" id="submit" value="GO" />
+		</div>
+		<div class="one-fifth column">
 			<p>prova</p>
 		</div>
-		<div class="one-third column">
+		<div class="one-fifth column">
 			<p>prova</p>
 		</div>
-		<div class="one-third column">
+		<div class="one-fifth column">
 			<p>prova</p>
 		</div>
 	</div>
