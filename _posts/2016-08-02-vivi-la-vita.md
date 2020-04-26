@@ -1,4 +1,5 @@
 ---
+title: "Vivi la vita"
 layout: "post"
 ---
 
