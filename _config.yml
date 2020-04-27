@@ -36,9 +36,17 @@ defaults:
     -
         scope:
             path: ""
-            type: "post"
+        values:
+            layout: "wrapper"
+            permalink: "/:title"
+
+    -
+        scope:
+            path: ""
+            type: "posts"
         values:
             layout: "post"
+            lang: "ita"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
