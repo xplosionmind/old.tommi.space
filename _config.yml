@@ -34,12 +34,11 @@ plugins:
 
 defaults:
     -
-        scope:
+       scope:
             path: ""
-        values:
+       values:
             layout: "wrapper"
-            permalink: "/:title"
-
+    
     -
         scope:
             path: ""
@@ -47,6 +46,7 @@ defaults:
         values:
             layout: "post"
             lang: "ita"
+            permalink: "/:title"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

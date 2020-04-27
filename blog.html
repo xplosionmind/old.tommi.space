@@ -1,0 +1,21 @@
+---
+---
+{% for post in site.posts %}
+    {% if forloop.first == true %}
+		<div class="row" id="first-row">
+			<div class="one column">
+				<div class="half column">
+					<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+				</div>
+			</div>
+		</div>
+    {% else %}
+		<div class="row">
+			<div class="one column">
+				<div class="half column">
+					<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+				</div>
+			</div>
+		</div>
+	{% endif %}
+{% endfor %}
