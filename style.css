@@ -1,17 +1,17 @@
 html {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 .row::before,
 .row::after {
-  display: table;
-  content: " ";
-  clear: both;
+	display: table;
+	content: " ";
+	clear: both;
 }
 
 .one,
@@ -21,7 +21,7 @@ html {
 .half
 .two-fifths
 .one-fifth {
-  width: 100%;
+	width: 100%;
 }
 
 body {
@@ -57,8 +57,8 @@ a.container {
 
 @media only screen and (min-width: 800px) {
 	.one {
-		width: 80%;
-		margin-left: 10%;
+		width: 60%;
+		margin-left: 20%;
 	}
 	.half {
 		width: 50%;
@@ -90,7 +90,7 @@ img {
 }
 
 #first-row {
-	margin-top: 70px; /* 50 + (10+10)*/
+	margin-top: 70px !important; /* 50 + (10+10)*/
 }
 
 article {
@@ -104,7 +104,7 @@ h1 {
 	text-decoration: none;
 }
 
-p a {
+p a, img {
 	text-decoration: none;
 	color: #FCC920;
 }
@@ -115,23 +115,16 @@ p a:hover {
 }
 
 
-
-
-
-
-
-
 /* HEADER */
-
 .navigation {
-  top: 10px;
-  left: 2%;
-  width: 96%;
-  height: 50px;
-  background: #FCC920;
-  position: fixed;
-  text-transform: uppercase;
-  font-weight: bolder;
+	top: 10px;
+	left: 2%;
+	width: 96%;
+	height: 50px;
+	background: #FCC920;
+	position: fixed;
+	text-transform: uppercase;
+	font-weight: bolder;
 }
 
 .navigation a, .navigation a:hover {
@@ -139,81 +132,81 @@ p a:hover {
 }
 
 .xplosionmind{
-  position: absolute;
-  padding: 0px 11px;
-  float: left;
-  line-height: 50px;
-  font-size: 2em;
-  background-color: #0E0E0E;
+	position: absolute;
+	padding: 0px 11px;
+	float: left;
+	line-height: 50px;
+	font-size: 2em;
+	background-color: #0E0E0E;
 }
 .xplosionmind a, .xplosionmind a:visited {
-  color: #FCC920;
+	color: #FCC920;
 }
 
 .nav-container {
-  max-width: 100%;
-  margin: 0 auto;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 nav {
-  float: right;
-  margin-right: 10px;
+	float: right;
+	margin-right: 10px;
 }
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 nav ul li {
-  float: left;
-  position: relative;
+	float: left;
+	position: relative;
 }
 nav ul li a,
 nav ul li a:visited {
-  display: block;
-  padding: 0 15px;
-  line-height: 50px;
-  color: #0E0E0E;
-  text-decoration: none;
-  background: #FCC920;
-  font-size: 1.3em;
+	display: block;
+	padding: 0 15px;
+	line-height: 50px;
+	color: #0E0E0E;
+	text-decoration: none;
+	background: #FCC920;
+	font-size: 1.3em;
 }
 
 nav ul li a:hover,
 nav ul li a:visited:hover {
-  background: #0E0E0E;
-  color: #FCC920;
-  transition: background .2s, color .2s;
+	background: #0E0E0E;
+	color: #FCC920;
+	transition: background .2s, color .2s;
 }
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
-  padding-left: 5px;
-  content: "▾";
+	padding-left: 5px;
+	content: "▾";
 }
 nav ul li ul li {
-  min-width: 190px;
+	min-width: 190px;
 }
 nav ul li ul li a {
-  padding: 15px;
-  line-height: 20px;
+	padding: 15px;
+	line-height: 20px;
 }
 
 .nav-dropdown {
-  position: absolute;
-  z-index: 1;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-  display: none;
+	position: absolute;
+	z-index: 1;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+	display: none;
 }
 
 /* Mobile navigation */
 .nav-mobile {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: #FCC920;
-  height: 50px;
-  width: 50px;
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #FCC920;
+	height: 50px;
+	width: 50px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -287,6 +280,17 @@ nav ul li ul li a {
 }
 #nav-toggle.active span:after {
 	transform: rotate(-45deg);
+}
+
+/* SOCIAL SHARING BUTTONS */
+#sharing-box {
+	margin: 40px 0px;
+}
+
+#sharing-box span {
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 25px;
 }
 
 /* FOOTER */
@@ -363,11 +367,11 @@ input#submit:hover {
 	margin: 20px auto;
 }
 
-#social-box a:hover {
+.button-box a:hover {
 	border-bottom: none;
 }
 
-.social {
+.button {
 	display: inline;
 	height: 50px;
 	width: auto;
@@ -375,8 +379,8 @@ input#submit:hover {
 	transition: transform .1s;
 }
 
-.social:hover, .social:focus {
-	transform: scale(1.2);
+.button:hover, .button:focus {
+	transform: scale(1.1);
 }
 
 #license {
@@ -399,188 +403,4 @@ input#submit:hover {
 #CClogo:hover {
 	opacity: 100%;
 	transition: opacity .1s;
-}
-
-
-
-/* TEST SHARING BUTTONS */
-
-.resp-sharing-button__link,
-.resp-sharing-button__icon {
-  display: inline-block
-}
-
-.resp-sharing-button__link {
-  text-decoration: none;
-  color: #fff;
-  margin: 0.5em
-}
-
-.resp-sharing-button {
-  border-radius: 5px;
-  transition: 25ms ease-out;
-  padding: 0.5em 0.75em;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
-}
-
-.resp-sharing-button__icon svg {
-  width: 1em;
-  height: 1em;
-  margin-right: 0.4em;
-  vertical-align: top
-}
-
-.resp-sharing-button--small svg {
-  margin: 0;
-  vertical-align: middle
-}
-
-/* Non solid icons get a stroke */
-.resp-sharing-button__icon {
-  stroke: #fff;
-  fill: none
-}
-
-/* Solid icons get a fill */
-.resp-sharing-button__icon--solid,
-.resp-sharing-button__icon--solidcircle {
-  fill: #fff;
-  stroke: none
-}
-
-.resp-sharing-button--twitter {
-  background-color: #55acee
-}
-
-.resp-sharing-button--twitter:hover {
-  background-color: #2795e9
-}
-
-.resp-sharing-button--pinterest {
-  background-color: #bd081c
-}
-
-.resp-sharing-button--pinterest:hover {
-  background-color: #8c0615
-}
-
-.resp-sharing-button--facebook {
-  background-color: #3b5998
-}
-
-.resp-sharing-button--facebook:hover {
-  background-color: #2d4373
-}
-
-.resp-sharing-button--tumblr {
-  background-color: #35465C
-}
-
-.resp-sharing-button--tumblr:hover {
-  background-color: #222d3c
-}
-
-.resp-sharing-button--reddit {
-  background-color: #5f99cf
-}
-
-.resp-sharing-button--reddit:hover {
-  background-color: #3a80c1
-}
-
-.resp-sharing-button--google {
-  background-color: #dd4b39
-}
-
-.resp-sharing-button--google:hover {
-  background-color: #c23321
-}
-
-.resp-sharing-button--linkedin {
-  background-color: #0077b5
-}
-
-.resp-sharing-button--linkedin:hover {
-  background-color: #046293
-}
-
-.resp-sharing-button--email {
-  background-color: #777
-}
-
-.resp-sharing-button--email:hover {
-  background-color: #5e5e5e
-}
-
-.resp-sharing-button--xing {
-  background-color: #1a7576
-}
-
-.resp-sharing-button--xing:hover {
-  background-color: #114c4c
-}
-
-.resp-sharing-button--whatsapp {
-  background-color: #25D366
-}
-
-.resp-sharing-button--whatsapp:hover {
-  background-color: #1da851
-}
-
-.resp-sharing-button--hackernews {
-background-color: #FF6600
-}
-.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
-
-.resp-sharing-button--vk {
-  background-color: #507299
-}
-
-.resp-sharing-button--vk:hover {
-  background-color: #43648c
-}
-
-.resp-sharing-button--facebook {
-  background-color: #3b5998;
-  border-color: #3b5998;
-}
-
-.resp-sharing-button--facebook:hover,
-.resp-sharing-button--facebook:active {
-  background-color: #2d4373;
-  border-color: #2d4373;
-}
-
-.resp-sharing-button--twitter {
-  background-color: #55acee;
-  border-color: #55acee;
-}
-
-.resp-sharing-button--twitter:hover,
-.resp-sharing-button--twitter:active {
-  background-color: #2795e9;
-  border-color: #2795e9;
-}
-
-.resp-sharing-button--reddit {
-  background-color: #5f99cf;
-  border-color: #5f99cf;
-}
-
-.resp-sharing-button--reddit:hover,
-.resp-sharing-button--reddit:active {
-  background-color: #3a80c1;
-  border-color: #3a80c1;
-}
-
-.resp-sharing-button--whatsapp {
-  background-color: #25D366;
-  border-color: #25D366;
-}
-
-.resp-sharing-button--whatsapp:hover,
-.resp-sharing-button--whatsapp:active {
-  background-color: #1DA851;
-  border-color: #1DA851;
 }
