@@ -1,7 +1,6 @@
-2020.02.07 L'Avanguardia
-
-# L'Avanguardia
-[articolo originale](https://www.xplosionmind.tk/post/avanguardia)
+---
+title: "L’avanguardia"
+---
 
 Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per
 nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in

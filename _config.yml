@@ -27,10 +27,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xplosionmind
 github_username: xplosionmind
 
+#collections:
+#    categories:
+#        output: true
+
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+    - jekyll-feed
+    - jekyll-paginate
 
 defaults:
     -
@@ -47,6 +52,12 @@ defaults:
             layout: "post"
             lang: "it"
             permalink: "/:title"
+            # -
+            #    scope:
+            #         path: ""
+            #     values:
+            #        layout: "categories"
+       #    permalink: "/category/:title"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

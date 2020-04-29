@@ -1,6 +1,8 @@
-2018.04.14 Sogno ad occhi aperti
+---
+categories: "Inchiostro digitale"
+tags: ext
+---
 
-# Sogno ad occhi aperti
 [articolo originale](https://www.rivieratime.news/sogno-occhi-aperti/)
 
 ![fleeting floating evening](../../_resources/8a1fc07cfff3414aa3185c1e177f3dc4.png)

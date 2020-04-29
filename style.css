@@ -310,7 +310,7 @@ nav ul li ul li a {
 
 /* FOOTER */
 footer {
-	background-color: var(--black-ish);
+	background-color: var(--dark-secondary);
 	margin-bottom: 10px;
 	width: 96%;
 	margin-left: 2%;
@@ -322,8 +322,18 @@ footer .row {
 }
 
 footer p {
-	opacity: .70;
+	opacity: .7;
 	margin: 30px auto 0px;
+}
+
+/* "Privacy" in footer */
+footer .one-fifth { 
+	margin-top: 35px;
+}
+
+footer .one-fifth a {
+	opacity: .7;
+	color: var(--white-ish);
 }
 
 footer p:hover {

@@ -1,6 +1,8 @@
-2017.07.30 Le torce non servono nello spazio
+---
+categories: "Inchiostro digitale"
+tags: ext
+---
 
-# Le torce non servono nello spazio
 [articolo originale](https://www.rivieratime.news/torce-non-servono-nello-spazio/)
 
 

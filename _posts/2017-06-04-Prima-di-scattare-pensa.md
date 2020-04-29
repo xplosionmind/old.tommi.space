@@ -1,6 +1,6 @@
 ---
-categories: [inchiostro-digitale]
-tags: [ext]
+categories: "inchiostro digitale"
+tags: ext
 ---
 È un attimo, un istante fulmineo che può passare alla storia o può essere dimenticato 0.1 secondi dopo averlo scattato. È quell’immagine che hai rincorso per tutta la vita, è la perfezione, oppure è l’ennesima, sfocata e -forse- senza senso.
 

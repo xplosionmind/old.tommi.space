@@ -1,5 +1,5 @@
 ---
-categories: [radioimmaginaria]
+categories: radioimmaginaria
 ---
 
 ![un migrante disegna con un gesso per terra](/images/2017-07-10-1.jpg)
