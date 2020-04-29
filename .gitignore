@@ -1,3 +1,5 @@
+_site
+
 # Ignore ruby files
 .ruby-version
 .bundle
