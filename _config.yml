@@ -45,7 +45,7 @@ defaults:
             type: "posts"
         values:
             layout: "post"
-            lang: "ita"
+            lang: "it"
             permalink: "/:title"
 
 # Exclude from processing.

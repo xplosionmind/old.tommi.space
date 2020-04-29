@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="/style.css" type="text/css" rel="stylesheet" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" href="https://media.giphy.com/media/3oz8xDp5mAEOAZXEPe/source.gif" sizes="32x32" />
+	<link rel="icon" href="https://media.giphy.com/media/3oz8xDp5mAEOAZXEPe/source.gif" sizes="192x192" />
+	<title>XPLOSIONMIND | Giffoni</title>
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script>
+(function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
+</script>
+<body>
+	<section class="navigation">
+		<div class="nav-container">
+			<div class="xplosionmind">
+				<a href="#!">xplosionmind</a>
+			</div>
+		<nav>
+			<div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+				<ul class="nav-list">
+	        		<li><a href="home.html">Home</a></li>
+ 	       			<li><a href="about.html">About</a></li>
+					<li><a href="#!">Services</a>
+ 	         			<ul class="nav-dropdown">
+ 	           				<li><a href="#!">Web Design</a></li>
+  	          				<li><a href="#!">Web Development</a></li>
+							<li><a href="#!">Graphic Design</a></li>
+  	        			</ul>
+        			</li>
+        			<li><a href="blog.html">Blog</a></li>
+					<li><a href="#!">Portfolio</a>
+						<ul class="nav-dropdown">
+							<li><a href="#!">Web Design</a></li>
+							<li><a href="#!">Web Development</a></li>
+							<li><a href="#!">Graphic Design</a></li>
+						</ul>
+        			</li>
+        			<li><a href="#!">Contact</a></li>
+    			</ul>
+			</nav>
+		</div>
+	</section>
+</body>
+
+	<div id="first-row" class="row">
+	<div class="one column">
+		<article>
+			<h1>Giffoni</h1>
+			<br />
+			<br />
+			<p>Poche lire, un piccolo paesino campano, un grande sogno ed enorme ambizione. Questo aveva nella testa e fra le mani Claudio Gubitosi, 47 anni fa a Giffoni Valle Piana. Ora <a href="http://www.giffonifilmfestival.it/">Giffoni Film Festival</a> da lui creato è uno fra i più grandi festival cinematografici in Italia, con la peculiarità di ospitare come giurati e trasformare per una settimana in critici cinematografici bambini e ragazzi provenienti da tutto il mondo – quest’anno 4800 – da 3 fino a 20 anni. È difficilissimo, aggirandosi per la cittadella e nella piazza Altiero Spinelli, costruita con contributi europei, riuscire a distinguere infinite le infinite lingue parlate: dal dialetto strettissimo del Sud Italia fino all’armeno o al Turco. L’atmosfera è carica di entusiasmo e di magia. Proprio questo è il tema centrale di Giffoni 2017: “Into the Magic”. Tutto quello che avviene, tutte le interviste e le sfilate degli ospiti italiani ed esteri – da Claudio Amendola e Marco Giallini ad Amy Adams, Julianne Moore, kit Harrington e Bryan Cranston – possono essere seguiti in live streaming sul sito del festival.</p>
+
+<p>A raccontare ciò che accade con occhi coetanei a quelli dei protagonisti del festival – i giovani – c’è anche <a href="http://www.radioimmaginaria.it/">Radioimmaginaria</a>, il network degli adolescenti, che ha redazioni in tutta Europa ed è interamente gestito, solo con la supervisione di qualche adulto, da ragazzi under 18. È possibile tuffarsi in questo, letteralmente, magico mondo ascoltando sul sito della radio i vari programmi, sia in italiano che in lingua: alle 15:00, il programma UsTeens, con interviste a Giurati, quiz e curiosità, alle 18:30 SpaccaTutto, il programma che se ascoltato dall’inizio alla fine può stravolgere – in positivo – la giornata, con contenuti demenziali e continue risate, alle 22 Gli Sdraiati, con radiodrammi, critiche cinematografiche di alto livello e contenuti di approfondimento. Ad alternarsi a queste dirette ci sono quelle in inglese, spagnolo e francese.</p>
+
+<p>Una grande bolla felice, un continuo scambio di opinioni, culture e sorrisi. Questo è Giffoni Experience (così è stata rinominato il festival, essendo una vera e propria esperienza per chi ne è protagonista). Dal più attraente al più brutto, dal più estroverso al meno socievole, tutti gli adolescenti si riuniscono condividendo le emozioni che solo immergersi nel grande schermo può fornire.</p>
+
+<p>Tommi Boom – Liceo G.D. Cassini Sanremo</p>
+
+<p><br />
+<br /></p>
+
+<p><a href="https://www.rivieratime.news/lentusiasmo-la-magia-del-giffoni-film-festival/">articolo originale su Inchiostro Digitale</a></p>
+
+		</article>
+	</div>
+</div>
+
+<div class="row">
+	<div class="one column">
+		<div id="sharing-box" class="button-box">
+			<div>share this article</div>
+
+			<!-- Sharingbutton Facebook -->
+			<a href="https://facebook.com/sharer/sharer.php?u=xplosionmind.tk" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/facebook.svg" alt="Facebook logo" title="share on Facebook" />
+			</a>
+
+			<!-- Sharingbutton Twitter -->
+			<a href="https://twitter.com/intent/tweet/?text=prova%20di%20descrizione&amp;url=xplosionmind.tk" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/twitter.svg" alt="Twitter logo" title="share on Twitter" />
+			</a>
+
+			<!-- Sharingbutton WhatsApp -->
+			<a href="whatsapp://send?text=prova%20di%20descrizione%20xplosionmind.tk" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/whatsapp.svg" alt="WhatsApp logo" title="share on Whatsapp" />
+			</a>
+
+			<!-- Telegram -->
+			<a href="https://t.me/share/url?url=http%3A%2F%2Fxplosionmind.tk&text=" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/telegram.svg" alt="Telegram logo" title="share on Telegram" />
+				</a>
+
+		</div>
+	</div>
+</div>
+
+	<footer>
+	<div class="row">
+		<div class="two-fifths column">
+			<form action="!#" method="post">
+				<input type="email" name="email" id="email" placeholder="SUBSCRIBE TO NEWSLETTER"/>
+				<input type="submit" id="submit" value="GO" />
+			</form>
+		</div>
+		<div class="two-fifths column">
+			<div class="button-box" id="social-box">
+				<a href="/feed.xml" target="_blank" rel="noopener"><img class="button" title="subscribe to RSS feed" alt="RSS feed" src="/social-logos/rss.svg" /></a>
+				<a href="https://www.flickr.com/tommiboom" title="look at my shots on Flickr" target="_blank" rel="noopener"><img class="button" alt="Flickr" src="/social-logos/flickr.svg" /></a>
+				<a href="https://keybase.io/xplosionmind" title="my Keybase profile" target="_blank" rel="noopener"><img class="button" alt="Keybase" src="/social-logos/keybase.svg" /></a>
+				<a href="https://github.com/xplosionmind" target="_blank" rel="noopener" title="my GitHub profile"><img class="button" alt="GitHub" src="/social-logos/github.svg" /></a>
+				<a href="!#" target="_blank" rel="noopener" title="read my crazy thoughts on Mastodon"><img class="button" alt="Mastodon"  src="/social-logos/mastodon.svg" /></a>
+				<a href="!#" target="_blank" rel="noopener" title="check out my videos on Vimeo!"><img class="button" alt="Vimeo" src="/social-logos/vimeo.svg" /></a>
+				<a href="!#" target="_blank" rel="noopener" title="join my Telegram channel!"><img class="button" alt="Telegram" src="/social-logos/telegram.svg" /></a>
+			</div>
+		</div>
+		<div class="one-fifth column">
+			<p>prova</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="one column" id="license">
+			<p>Everything in this website, including its source code, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img id="CClogo" alt="Creative Commons License" src="/cc-by-nc-sa-little.svg" /></a>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>

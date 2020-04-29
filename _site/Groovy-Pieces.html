@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="/style.css" type="text/css" rel="stylesheet" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" href="https://media.giphy.com/media/3oz8xDp5mAEOAZXEPe/source.gif" sizes="32x32" />
+	<link rel="icon" href="https://media.giphy.com/media/3oz8xDp5mAEOAZXEPe/source.gif" sizes="192x192" />
+	<title>XPLOSIONMIND | Groovy Pieces</title>
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script>
+(function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
+</script>
+<body>
+	<section class="navigation">
+		<div class="nav-container">
+			<div class="xplosionmind">
+				<a href="#!">xplosionmind</a>
+			</div>
+		<nav>
+			<div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+				<ul class="nav-list">
+	        		<li><a href="home.html">Home</a></li>
+ 	       			<li><a href="about.html">About</a></li>
+					<li><a href="#!">Services</a>
+ 	         			<ul class="nav-dropdown">
+ 	           				<li><a href="#!">Web Design</a></li>
+  	          				<li><a href="#!">Web Development</a></li>
+							<li><a href="#!">Graphic Design</a></li>
+  	        			</ul>
+        			</li>
+        			<li><a href="blog.html">Blog</a></li>
+					<li><a href="#!">Portfolio</a>
+						<ul class="nav-dropdown">
+							<li><a href="#!">Web Design</a></li>
+							<li><a href="#!">Web Development</a></li>
+							<li><a href="#!">Graphic Design</a></li>
+						</ul>
+        			</li>
+        			<li><a href="#!">Contact</a></li>
+    			</ul>
+			</nav>
+		</div>
+	</section>
+</body>
+
+	<div id="first-row" class="row">
+	<div class="one column">
+		<article>
+			<h1>Groovy Pieces</h1>
+			<br />
+			<br />
+			<p>2019.11.16 Groovy Pieces</p>
+
+<h1 id="groovy-pieces">Groovy Pieces</h1>
+<p><a href="https://www.xplosionmind.tk/post/groovypieces">articolo originale</a></p>
+
+<p><img src="../../_resources/0f38b88f00f4430195ee84347caadcc9.png" alt="Pezzetti gialli di carta in un carruggio a Genova" /></p>
+
+<p>Vabbè, insomma, sono qui sul treno e mi sono accorto che non scrivo qui da un po’. Però, a dire la verità, avrei molto da raccontare, ma ben poco su cui riflettere, o almeno, nulla di particolarmente profondo ed interessante (per quanto interessante possa essere ciò che scrivo in generale).</p>
+
+<p>Tuttavia, dato che comunque curiosi spunti su cui vorrei ragionare e pubblicare ci sono eccome, ma purtroppo tutto il tempo che potrei dedicargli è soffocato da una quantità asfissiante di reazioni RedOx, dimostrazioni matematiche e creazione di programmini che individuano i numeri primi, mi limiterò, così, un po’ a caso (come sempre, d’altra parte) a elencare alcuni pezzetti carini (perché usare “cose” mi ha un piuttosto stufato, ma non trovo alternative, non sono sufficientemente dotto da permettermi di eliminare questo termine dal mio vocabolario).</p>
+
+<p>Ah, sono sicuro vi mancassero le mie spaventose incomprensibili subordinate.</p>
+
+<h3 id="pezzetto-uno">PEZZETTO UNO</h3>
+<p>Una bella canzone per prenderla alla leggera (fortemente biografica per me): <a href="https://open.spotify.com/track/619hP9A3KpAzJA6f8iHGJz?si=3dF-uk6hSdSqQ4J0gP7EzQ">Groovy Movies by The Kniks</a>,</p>
+
+<p>anche se poi <a href="https://open.spotify.com/album/00ao0DAIYS0BNEbnbH0UCf?si=ct6pRlDhSXe3DZtguxZq1A">tutto l’album rimasterizzato</a> uscito recentemente mi sta davvero facendo impazzire, non me li ricordavo così forti (anche se si sente mooolto l’impronta dei Beatles). Già che nel primo pezzetto si parla di musica, vi rilancio <a href="https://open.spotify.com/playlist/5BlTNSfjxRYrJ2nJ9dl9WX?si=itErVJBOQQi1bPVmrhKhgA">una playlist</a> un po’ pazza, eterogenea ed insensata, composta dalle canzoni che sono la colonna sonora della mia vita.</p>
+
+<h3 id="pezzetto-due">PEZZETTO DUE</h3>
+<p>Quando l’intelligenza artificiale sarà davvero intelligente, nel senso di quasi cosciente, quali scelte dovrà prendere quando ci sono di mezzo <a href="https://www.theguardian.com/science/head-quarters/2016/dec/12/the-trolley-problem-would-you-kill-one-person-to-save-many-others">vite umane</a>?</p>
+
+<p>Sono rimasto affascinato dall’incontro con <a href="https://it.wikipedia.org/wiki/Stefano_Zamagni">Stefano Zamagni</a> al Politecnico di Torino qualche settimana fa. In sintesi (è difficile riassumere, non ho mai riempito quattro pagine del mio quadernino di appunti in 90 minuti di conferenza) dobbiamo renderci conto che <strong>scienza e filosofia non possono continuare a evolvere su binari paralleli</strong> e a non influenzarsi mai. Se riesco a studiare quando dovrei e a costruire il percorso giusto, vorrei specializzarmi in etica dell’intelligenza artificiale, perché qui ci troviamo di fronte ad un’evoluzione tecnologica spaventosa ma con un’infinità di paradossi nell’umanità, che dovrebbe controllarla.</p>
+
+<h3 id="pezzetto-tre">PEZZETTO TRE</h3>
+<p>Sono in treno perché sto tornando dalla <a href="https://radioimmaginaria.it/teenparade2019">Teen Parade</a> di <a href="https://radioimmaginaria.it/">Radioimmaginaria</a>, quest’anno tenutasi a Genova. Oltre alla felicità di incontrare di nuovo tutti i fantastici tipi immaginari, ho comprato e letto stanotte tutto d’un fiato <a href="http://www.marcosymarcos.com/libri/noi-abbiamo-futuro/"><strong><em>Noi Abbiamo Futuro</em></strong></a>, il romanzo che racconta l’incredibile viaggio <strong>in Ape</strong> di una decina di adolescenti <strong>da Bologna a Stoccolma</strong>. È una storia bellissima, emozionante, realmente accaduta ma quasi verosimile. Dentro questo libro non c’è solo il viaggio, anche la filosofia e un po’ della storia di Radioimmaginaria. Potete <a href="https://www.ibs.it/noi-abbiamo-futuro-libro-michele-ferrari/e/9788871689067">preordinarlo</a> oppure scrivetemi che ve lo presto. Va letto per capire chi è questa gente che dice “siamo in missione per conto del futuro”.</p>
+
+<h3 id="pezzetto-quattro">PEZZETTO QUATTRO</h3>
+<p>Per una serie di incredibili eventi che ancora non completamente metabolizzato ieri ho preso un caffè con Marco Ponti, regista del film che più ho amato nella mia vita: <a href="https://www.imdb.com/title/tt0289432/"><em><strong>Santa Maradona</strong></em></a> (2001). Il DVD non è facile da trovare ma dovete guardare questo film fa vo lo so. Marco mi ha raccontato alcuni aneddoti incredibili dei dietro le quinte sorprendentemente simili a tutto il casino che abbiamo fatto per girare <a href="xplosionmind.tk/everyone">Everyone</a>. Lui al suo primo film, io al mio primo corto. A livelli decisamente diversi, tutti e due abbiamo raccontato storie di ragazzi un po’ svitati, con poco in cui credere ma tanto da fare. È stato bellissimo chiacchierare con lui ed io continuerò a guardare Santa Maradona in loop. Ah, avete presente <a href="https://genius.com/16419580">quella canzone</a> di Willie Peyote? Sì, l’inizio è proprio un dialogo di questo film.</p>
+
+<h3 id="pezzetto-cinque">PEZZETTO CINQUE</h3>
+<p>Ho ricominciato -ritagliandomi striminziti angoli di tempo nelle mie giornate di studio- a fare qualche foto. Dato che sono davvero innamorato di questa cosa (vedete? ora cosa potrei scrivere al posto di “cosa”?) che è girare e fermare con uno scatto emozioni che vedo di fronte a me, vorrei davvero sapere se per voi questi scatti hanno un senso, vi colpiscono, vi emozionano, vi comunicano qualcosa oppure no. Non mi frega niente se vi piacciono.</p>
+
+<h3 id="pezzetto-finale">PEZZETTO FINALE</h3>
+<p>Uff, alla fine credo che sia proprio una cavolata questa cosa dei pezzetti, perché si dice tutto e niente, probabilmente si capisce anche poco, non ha molto senso e appare come uno show off delle mie robe (sembra sempre così, temo, ma non è questa la mia intenzione). In ogni caso, come sempre, vi ringrazio di essere arrivati fino a qui e di avermi cagato. Vi voglio bene e vi prometto che mi impegno a trattare in maniera più approfondita e meno soggettiva queste tematiche. Per ora, un abbraccio e a presto.</p>
+
+		</article>
+	</div>
+</div>
+
+<div class="row">
+	<div class="one column">
+		<div id="sharing-box" class="button-box">
+			<div>share this article</div>
+
+			<!-- Sharingbutton Facebook -->
+			<a href="https://facebook.com/sharer/sharer.php?u=xplosionmind.tk" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/facebook.svg" alt="Facebook logo" title="share on Facebook" />
+			</a>
+
+			<!-- Sharingbutton Twitter -->
+			<a href="https://twitter.com/intent/tweet/?text=prova%20di%20descrizione&amp;url=xplosionmind.tk" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/twitter.svg" alt="Twitter logo" title="share on Twitter" />
+			</a>
+
+			<!-- Sharingbutton WhatsApp -->
+			<a href="whatsapp://send?text=prova%20di%20descrizione%20xplosionmind.tk" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/whatsapp.svg" alt="WhatsApp logo" title="share on Whatsapp" />
+			</a>
+
+			<!-- Telegram -->
+			<a href="https://t.me/share/url?url=http%3A%2F%2Fxplosionmind.tk&text=" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/telegram.svg" alt="Telegram logo" title="share on Telegram" />
+				</a>
+
+		</div>
+	</div>
+</div>
+
+	<footer>
+	<div class="row">
+		<div class="two-fifths column">
+			<form action="!#" method="post">
+				<input type="email" name="email" id="email" placeholder="SUBSCRIBE TO NEWSLETTER"/>
+				<input type="submit" id="submit" value="GO" />
+			</form>
+		</div>
+		<div class="two-fifths column">
+			<div class="button-box" id="social-box">
+				<a href="/feed.xml" target="_blank" rel="noopener"><img class="button" title="subscribe to RSS feed" alt="RSS feed" src="/social-logos/rss.svg" /></a>
+				<a href="https://www.flickr.com/tommiboom" title="look at my shots on Flickr" target="_blank" rel="noopener"><img class="button" alt="Flickr" src="/social-logos/flickr.svg" /></a>
+				<a href="https://keybase.io/xplosionmind" title="my Keybase profile" target="_blank" rel="noopener"><img class="button" alt="Keybase" src="/social-logos/keybase.svg" /></a>
+				<a href="https://github.com/xplosionmind" target="_blank" rel="noopener" title="my GitHub profile"><img class="button" alt="GitHub" src="/social-logos/github.svg" /></a>
+				<a href="!#" target="_blank" rel="noopener" title="read my crazy thoughts on Mastodon"><img class="button" alt="Mastodon"  src="/social-logos/mastodon.svg" /></a>
+				<a href="!#" target="_blank" rel="noopener" title="check out my videos on Vimeo!"><img class="button" alt="Vimeo" src="/social-logos/vimeo.svg" /></a>
+				<a href="!#" target="_blank" rel="noopener" title="join my Telegram channel!"><img class="button" alt="Telegram" src="/social-logos/telegram.svg" /></a>
+			</div>
+		</div>
+		<div class="one-fifth column">
+			<p>prova</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="one column" id="license">
+			<p>Everything in this website, including its source code, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img id="CClogo" alt="Creative Commons License" src="/cc-by-nc-sa-little.svg" /></a>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
