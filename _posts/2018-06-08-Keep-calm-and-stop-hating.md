@@ -1,8 +1,8 @@
-2018.06.08 Keep calm and stop hating
-
-# Keep calm and stop hating
-###### Articolo Finale di Inchiostro Digitale
-[articolo originale](https://www.rivieratime.news/keep-calm-and-stop-hating-blog/)
+---
+categories: "Inchiostro digitale"
+---
+#### Articolo Finale di Inchiostro Digitale
+{% include image.html url='/images/2018-06-08-Keep-calm-and-stop-hating.jpg' alt='folla a Firenze, non mi ricordo quando ho fatto la foto' description='folla a Firenze, non mi ricordo quando ho fatto la foto' %}
 
 Mi dispiace per i pianti disperati dei nostri due lettori -è bene essere schietti: sono, o meglio, siamo pochi- poiché questo è l’ultimo articolo di Inchiostro Digitale per quest’anno scolastico. Lo sto scrivendo con forte entusiasmo e egocentrismo avendo interpretato la richiesta scriverlo da parte di Anna Mastrantuono, caporedattrice del blog che ringrazio pubblicamente per il lavoro svolto durante l’anno, come uno speciale editoriale conclusivo. Abbiamo fatto del nostro meglio, abbiamo mantenuto il ritmo, abbiamo scritto con passione, ma forse non abbiamo avuto la risposta che avremmo desiderato. In ogni caso abbiamo perseverato in quanto redazione appassionata e convinta nella forza del medium più vecchio del mondo, quale è la scrittura su Inchiostro, ora divenuto Digitale. Abbiamo condiviso i nostri pensieri, le nostre perplessità riguardanti il mondo attorno a noi nel miglior modo possibile, consapevoli del fatto che scrivere non ha fatto bene a chi ha letto ma ne ha fatto a noi, persone nuove dopo la stesura di un articolo del quale siamo soddisfatti.
 
@@ -26,3 +26,8 @@ Scappiamo allora su un prato e con gli occhi persi nel blu del cielo fermo, calm
 
 
 Tommaso Marmo – Direttore dell’Ufficio Stampa del Liceo G.D. Cassini di Sanremo
+
+<br />
+<br />
+
+<a href="https://www.rivieratime.news/keep-calm-and-stop-hating-blog" rel="noopener" target="_blank">articolo originale</a>

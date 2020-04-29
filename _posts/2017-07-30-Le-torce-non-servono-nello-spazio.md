@@ -1,19 +1,14 @@
 ---
 categories: "Inchiostro digitale"
-tags: ext
 ---
-
-[articolo originale](https://www.rivieratime.news/torce-non-servono-nello-spazio/)
-
-
-![l'occhio di un astronauta viene immortalato a gaurdare il suo pianeta, pochi istanti prima di decollare](../../_resources/8dadaf9565504c3a99306da902a9fd3d.png)
+{% include image.html url='https://live.staticflickr.com/3670/12867121084_9676747a60_3k.jpg' description='oltre' alt='un astronauta guarda fuori dal finestrino della Soyuz appena atterrata' %}
 
 
 Non è solo adrenalina, scienza, scoperta, desiderio, speranza, orbita, è Vita.
 Il buon vecchio Paolo Nespoli ritorna sulla ISS (International Space Station): ha 60 anni, due figli e potrebbe dirsi soddisfatto.
 
 
-No, risposta sbagliata, anzi, una risposta incresciosa se sei un astronauta; Paolo infatti non solo si dice, ma si dimostra assetato, energico e curioso, avendo appena cominciato la missione europea VITA (Vitality, Innovation, Technology, Ability) orbitando a 400.000 metri dal suolo terrestre. Tutti i dettagli di ciò che farà e che ha in testa l’astronauta italiano più anziano sono esaustivamente contemplati nell’indimenticabile [intervista di Wired](https://www.wired.it/scienza/spazio/2017/07/27/intervista-paolo-nespoli-astronauta/).
+No, risposta sbagliata, anzi, una risposta incresciosa se sei un astronauta; Paolo infatti non solo si dice, ma si dimostra assetato, energico e curioso, avendo appena cominciato la missione europea VITA (Vitality, Innovation, Technology, Ability) orbitando a 400.000 metri dal suolo terrestre. Tutti i dettagli di ciò che farà e che ha in testa l’astronauta italiano più anziano sono esaustivamente contemplati nell’indimenticabile <a href="https://www.wired.it/scienza/spazio/2017/07/27/intervista-paolo-nespoli-astronauta/" rel="noopener" target"_blank">questa intervista</a> su Wired.
 
 
 Vorrei però concentrarmi, al di là di questa missione, sulla permanenza nello spazio, sulla brama di scoperta, sul desiderio di conoscenza che mai nessuno è riuscito né, credo, riuscirà ad esaurire. Perché andiamo nello spazio? Alzare gli occhi al cielo è sempre stato naturale ed istintivo per gli uomini, eppure le spiegazioni che ci siamo dati nell’antichità sono state quasi totalmente inventate, frutto di ragionamenti teorici e dogmi non confutati.
@@ -26,3 +21,8 @@ Soli, al buio, fluttuando ad osservare da una cupola di vetro ed acciaio l’imm
 
 
 Tommi Boom – Ufficio Stampa Liceo G.D. Cassini Sanremo
+
+<br />
+
+
+<a href="https://web.archive.org/web/20200429143659/https://www.rivieratime.news/torce-non-servono-nello-spazio/" rel="noopener" target="_blank">articolo originale</a>

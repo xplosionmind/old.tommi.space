@@ -1,10 +1,6 @@
-2019.04.25 Frammenti
-
-# Frammenti
-[articolo originale](https://www.xplosionmind.tk/post/frammenti)
-
-
-![Non c'è nulla di più frammentato di due persone che fanno una foto allo stesso tipo in posa. L'ho scattata a Montjuic Castle, Barcellona.](../../_resources/459b45a5b7f54d629c445b4cced2d241.png)
+---
+---
+{% include image.html url='https://live.staticflickr.com/65535/46766121875_412e52d079_k.jpg' description='Non c’è nulla di più frammentato di due persone che fanno una foto allo stesso tipo in posa. L’ho scattata a Montjuic Castle, Barcellona' alt='una persona che fa una foto a un’altra persona da un punto lontano' %}
 
 
 Alla fine mi trovo sempre a scrivere, fra l’altro di cose di poco conto e riflessioni personalissime prive di fondamento concreto o oggettivo, nei momenti in cui ciò di cui tratto più mi manca. Meglio: scrivo di tutto quello che vorrei sistemare nella mia bellissima, fortunata, peraltro confusa, scombussolata ed incerta vita solo nei periodi in cui la sua confusione è massima. In pratica, butto giù due parole per me, per confortarmi, per dimostrarmi che anche se non combino un fico secco a **blaterare** e fare bella figura sono ancora in grado.
@@ -50,10 +46,10 @@ Ci sono tre fondamentali differenze, però:
 
 Non aggiungo altro, spero di aver reso l’idea della mia preoccupazione e soprattutto spero non risulti esagerata una similitudine così potente.
 
+<br />
 
 Concludo con Mirko, che ha capito tutto e con questa canzone trasmette questo messaggio d’allarme meglio di me con millemila parole.
 
-
 (Ci sono alcuni mondi che sono rimasti protetti e resistono alla frammentazione, ma ora si era fatta troppo lunga e vado a sentire Giancarlo Caselli che parla qui a Riva per il 25 aprile e sono in ritardo, alla prossima, dunque.)
 
-[Mirkoeilcane - Per Fortuna](https://youtu.be/hGRjoBY7DkU)
+<iframe src="https://www.youtube-nocookie.com/embed/hGRjoBY7DkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

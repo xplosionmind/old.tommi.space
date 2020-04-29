@@ -1,9 +1,9 @@
 ---
 ---
-Premetto che segue un articolo estremamente personale, oserei quasi dire egoista, in cui parlo molto di me stesso ed espongo alcune riflessioni profonde che riguardano me.
-Forse nemmeno è un articolo, è più il flusso di pensieri che sta tormentando me e condizionando la mia stessa esistenza {posso sembrare esagerato e temo di esserlo effettivamente, ma non sto enfatizzando: è così} non solo durante questo viaggio in bus interminabile, con meraviglioso bianco panorama bavarese, ascoltando musica africana ([Expensive Shit](https://youtu.be/bmXvpuseXWU) di Fela Kuti in questo momento), ma da qualche mese a questa parte.
+{% include image.html url='/images/2018-03-23-Iter-per-mentis-casinum.jpg' description='uno scorcio del paesaggio tedesco' alt='uno scorcio del paesaggio tedesco'  %}
 
-![uno scorcio del paesaggio tedesco](../../_resources/73e3f9657e68427993b7fe770d90b302.png)
+Premetto che segue un articolo estremamente personale, oserei quasi dire egoista, in cui parlo molto di me stesso ed espongo alcune riflessioni profonde che riguardano me.
+Forse nemmeno è un articolo, è più il flusso di pensieri che sta tormentando me e condizionando la mia stessa esistenza {posso sembrare esagerato e temo di esserlo effettivamente, ma non sto enfatizzando: è così} non solo durante questo viaggio in bus interminabile, con meraviglioso bianco panorama bavarese, ascoltando musica africana (<a href="https://youtu.be/bmXvpuseXWU" rel="noopener" target="_blank">Expensive Shit</a>) di Fela Kuti in questo momento), ma da qualche mese a questa parte.
 
 È un periodo in cui non so più cosa voglio e, forse, non dovrei chiedermelo per peggiorare le cose, quando ho un'idea -seppur vaga- di ciò a cui aspiro mi chiedo **perché** lo voglio e non so rispondere. Il problema a monte è l'insoddisfazione che innegabilmente mi perseguita nonostante abbia infinite opportunità e fortune per le quali non dovrei mai smettere di ringraziare Dio ed i miei genitori, figure paterne peraltro non così distinte come abbiamo l'impressione siano, ma questo è un altro discorso.
 
@@ -14,7 +14,7 @@ Sono insoddisfatto perché potrei forse fare di più, ma soprattutto dovrei fare
 ~ È qui necessario aprire una parentesi sul fatto che a mio parere è innegabile, a pensarla da cristiani o alla Spinoza, che sin dal principio c'è un posto, uno scopo, un sogno per ciascuno, necessariamente. ~
 
 
-Derivano di conseguenza pensieri più strettamente connessi alla società attuale e più soggettivi: oltre alla tristezza indotta da quanto scritto fin ora, la domanda più concreta che mi pongo è quale sia la mia **identità** pubblica e sui social. Persino i miei più stretti amici possono riconoscere che, almeno per il 30%, non sono come loro credono io sia. Alcuni mi credono un personaggio, (in questo esatto momento, dopo Fela Kuti, è partita [Still **Fenomeno**](https://youtu.be/iDbIPQjkcGg) di Coez; coincidenze?) uno che in futuro farà roba grandiosa in campo scientifico o più semplicemente un Rappresentante d'Istituto in gamba.
+Derivano di conseguenza pensieri più strettamente connessi alla società attuale e più soggettivi: oltre alla tristezza indotta da quanto scritto fin ora, la domanda più concreta che mi pongo è quale sia la mia **identità** pubblica e sui social. Persino i miei più stretti amici possono riconoscere che, almeno per il 30%, non sono come loro credono io sia. Alcuni mi credono un personaggio, (in questo esatto momento, dopo Fela Kuti, è partita <a href="https://youtu.be/iDbIPQjkcGg" rel="noopener" target="_blank">Still **Fenomeno**</a>) di Coez; coincidenze?) uno che in futuro farà roba grandiosa in campo scientifico o più semplicemente un Rappresentante d'Istituto in gamba.
 
 FALSO.
 

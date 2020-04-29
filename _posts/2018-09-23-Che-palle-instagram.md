@@ -1,15 +1,10 @@
-2018.09.23 Che palle instagram
-
-# Che palle Instagram
-[articolo originale](https://www.xplosionmind.tk/post/che-palle-instagram)
-
-
-![flowchart di spiegazione della mia uscita da instagram](../../_resources/751abd6f0eb04e249f4588564c528a8c.png)
-
+---
+---
+{% include image.html url='/images/2018-09-23-Che-palle-instagram.jpg' description='una specie di stupido flowchart a spiegazione della mia scelta' alt='una specie di stupido flowchart a spiegazione della mia scelta' %}
 
 Stamattina presto continuavo a rigirarmi nel letto e non trovavo pace. Un po’ come Zeno, che, seppur consapevole della sua assurdità, soffre disperatamente di una malattia "immaginaria", forse unicamente frutto della sua fantasia. Se però nel suo caso distrazioni di carattere amoroso e, come noi diremmo, trip mentali assurdi lo distraevano dal suo dolore, nel mio caso -e, credo, nel nostro- sono quelle che in fondo mancano e quelle che noi riteniamo distrazioni se non proprio la causa, sono ciò che più enfatizza la nostra sofferenza.
 
-Non nego, anche se io stesso me ne stupisco, che sto convivendo da qualche giorno con la grandissima delusione di esser stato bocciato all’esame di teoria della patente. Sto dunque vivendo un po’ nel limbo: non concludo quasi nulla, sono assonnato, debole e deluso. È inevitabile dunque rifugiarsi nell’ozio e nella nullafacenza, particolarmente nocivi in questo caso perché nel ventunesimo secolo corrispondono con lo [**scrollare**](https://www.instagram.com/scrollordie/) il feed di instagram.
+Non nego, anche se io stesso me ne stupisco, che sto convivendo da qualche giorno con la grandissima delusione di esser stato bocciato all’esame di teoria della patente. Sto dunque vivendo un po’ nel limbo: non concludo quasi nulla, sono assonnato, debole e deluso. È inevitabile dunque rifugiarsi nell’ozio e nella nullafacenza, particolarmente nocivi in questo caso perché nel ventunesimo secolo corrispondono con lo <a href="https://www.instagram.com/scrollordie/" rel="noopener" target="_blank">scrollare</a> il feed di instagram.
 
 Giungo dunque al punto, che vuole essere la motivazione della mia astensione da instagram per un po’; sono diventato una bambolina, un omino di didò che prende la forma di chi lo modella. A modellarmi è il continuo ricevere surrogati di informazioni, l'aggiornare continuamente lo schermo vedendo che succede. Dico "surrogati" perché in realtà non ottengo nulla; tutti voi potete realizzare, come io ora mi sono accorto, che vediamo centinaia di foto al giorno ma leggiamo solo una didascalia su dieci. Questo è sintomatico di quanto non riceviamo effettivamente stimoli, ma finti input che ci fanno credere di acquisire qualcosa, ma, una volta spento lo schermo del telefono, non cambia nulla. Così i miei muscoli si sono atrofizzati, le meningi non si spremono più, sono in grado unicamente di ricevere e incapace di produrre qualunque cosa.
 
@@ -21,33 +16,32 @@ Tornando all’annichilimento che i social ci provocano, ci sono centinaia di mi
 
 Mi sento però in dovere di condividere alcuni articoli invece non polemici che non solo mi hanno messo la pulce nell’orecchio fino a decidermi ad un periodo di pausa, ma danno una grandissima ispirazione ed espongono molto meglio di quanto io possa riuscire la gigantesca e preoccupante entità del problema.
 
-###### ONE.
+### ONE.
 Per prima condivido qui la breve lettera di Michele Ferrari, mio mentore e fondatore di Radioimmaginaria, su Avvenire dell’11 settembre 2018:
 
 _Non so quanto sia corretto pubblicare uno screenshot, però Mic mi ha dato il permesso e tutta la mia famiglia è abbonata ad Avvenire quindi se a Marco Tarquinio capiterà di leggere -comunque assai improbabile- gli chiedo di chiudere un occhio e ricordarsi delle belle foto che ho fatto per la festa di Avvenire l’anno scorso a Ventimiglia…_
 
-![Siamo tutti, ma i giovani un po'più, cavie inconsapevoli dei social network](../../_resources/a8af135b96ea4d70b23dd64f39a5dc95.png)
+{% include image.html url='/images/2018-09-23-Che-palle-instagram-1.jpg' description='siamo tutti, ma i giovani un po’più, cavie inconsapevoli dei social network' alt='siamo tutti, ma i giovani un po’più, cavie inconsapevoli dei social network' %}
 
 
+Io da poco, ahimé, ho deciso di abbandonare Radioimmaginaria per cominciare nuove avventure, ma sono cresciuto molto grazie al progetto e quello che dice Mic è troppo vero. Assolutamente bisogna ascoltare e girare un po’ su <a href="https://radioimmaginaria.it/" rel"noopener" target="_blank">Radioimmaginaria</a> per capire quanto, anche senza social, si possa fare sul serio.
 
-Io da poco, ahimé, ho deciso di abbandonare Radioimmaginaria per cominciare nuove avventure, ma sono cresciuto molto grazie al progetto e quello che dice Mic è troppo vero. Assolutamente bisogna ascoltare e girare un po’ su [radioimmaginaria.it](http://radioimmaginaria.it/) per capire quanto, anche senza social, si possa fare sul serio.
+<br />
 
+### TWO.
+Per secondo consiglio <a href="https://www.wired.com/story/wired-guide-to-internet-addiction/" rel="noopener" target="_blank">questa guida</a> su Wired, che approfondisce con dati e testimonianze tutta la questione della "Smartphone Addiction"; da leggere per vederci chiaro e comprendere come le compagnie ci studiano per ottenere da noi il massimo profitto. Giusto per dare un’idea, in una parte dell’articolo Steve Jobs dichiara di non permettere ai suoi figli di utilizzare gli iPad da lui stesso concepiti. **Mind-blowing**.
 
+<br />
 
+### THREE.
 
-###### TWO.
-Per secondo consiglio [questo articolo](https://www.wired.com/story/wired-guide-to-internet-addiction/) su Wired, che approfondisce con dati e testimonianze tutta la questione della "Smartphone Addiction"; da leggere per vederci chiaro e comprendere come le compagnie ci studiano per ottenere da noi il massimo profitto. Giusto per dare un’idea, in una parte dell’articolo Steve Jobs dichiara di non permettere ai suoi figli di utilizzare gli iPad da lui stesso concepiti. **Mind-blowing**.
-
-
-
-
-
-###### THREE.
-![Cavolo che capelli avevo](../../_resources/1d4558314901450db602e8d14ec3b70d.png)
+{% include image.html url='/images/2018-09-23-Che-palle-instagram-2.jpg' description='io e il grande Giuseppe Montesano al Salone del Libro di Torino 2018 (non mi assumo nessuna responsabilità sullo stato dei miei capelli)' alt='io e il grande Giuseppe Montesano al Salone del Libro di Torino 2018' %}
 
 Per concludere, cito un passo di uno dei miei libri preferiti, che VA LETTO assolutamente se si vuole almeno provare a diventare persone serie: _Come diventare Vivi - Vademecum per lettori selvaggi_ di Giuseppe Montesano che, oltre ad essere scrittore, è un prof. di filosofia ed io ho avuto il piacere di conoscerlo al Salone del Libro di Torino lo scorso maggio. Approfitto di questa parentesi per salutarlo e ringraziarlo per essere stato l’unico ad avermi convinto a terminare _Delitto e Castigo_ di Dostoevskij, che all’inizio mi ha fatto impazzire e lo avrei subito abbandonato, altrimenti.
 
-![la scansione di due pagine di _Come diventare Vivi - Vademecum per lettori selvaggi_ di Giuseppe Montesano](../../_resources/e377267b117e454484ba2d038722d228.png)
+
+
+{% include image.html url='/images/2018-09-23-Che-palle-instagram-3.jpg' description='la scansione di due pagine di _Come diventare Vivi - Vademecum per lettori selvaggi_ di Giuseppe Montesano' alt='la scansione di due pagine di _Come diventare Vivi - Vademecum per lettori selvaggi_ di Giuseppe Montesano' %}
 
 
 

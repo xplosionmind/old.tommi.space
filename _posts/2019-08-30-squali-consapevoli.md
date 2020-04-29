@@ -1,8 +1,6 @@
-2019.08.30 squali consapevoli
-
-# Squali consapevoli
-[articolo originale](https://www.xplosionmind.tk/post/squali)
-
+---
+---
+{% include image.html url='/images/2019-08-30-squali-consapevoli.jpg' description='la classica fuga in pigiama, romantica però (da un frame di “Everyone”)' alt='una fuga romantica in pigiama' %}
 
 Qual è il prezzo che dobbiamo pagare
 
@@ -102,7 +100,7 @@ Everyone è uno squalo, finito intrappolato nella rete dell’amore
 e non vuole più muoversi, né uscire.
 
 
-[Qui](xplosionmind.tk) il sito ufficiale del corto
+[Qui](/everyone.html) il sito ufficiale del corto.
 
 
-(Squalo Consapevole è anche sinonimo di Stambecco Cinetico, che è il mio [totem](https://it.wikipedia.org/wiki/Totem_(nome_scout)) (è davvero bello e ne sono orgoglioso))
+(Squalo Consapevole è anche sinonimo di Stambecco Cinetico, che è il mio <a href="https://it.wikipedia.org/wiki/Totem_(nome_scout)" rel="noopener" target="_blank">totem</a> (è davvero bello e ne sono orgoglioso))

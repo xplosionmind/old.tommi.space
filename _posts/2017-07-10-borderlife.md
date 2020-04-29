@@ -1,9 +1,17 @@
 ---
 categories: radioimmaginaria
+src:
+  - "/images/2017-07-10-borderlife-1.jpg"
+  - "/images/2017-07-10-borderlife-2.jpg"
+  - "/images/2017-07-10-borderlife-3.jpg"
+  - "/images/2017-07-10-borderlife-4.jpg"
+  - "/images/2017-07-10-borderlife-5.jpg"
+  - "/images/2017-07-10-borderlife-6.jpg"
+  - "/images/2017-07-10-borderlife-7.jpg"
+  - "/images/2017-07-10-borderlife-8.jpg"
 ---
 
-![un migrante disegna con un gesso per terra](/images/2017-07-10-1.jpg)
-
+{% include image.html url='/images/2017-07-10-borderlife-3.jpg' description='un migrante disegna a terra con un gesso' alt='un migrante disegna a terra con un gesso' %}
 
 Io ho 16 anni, quasi 17, è estate, sono contento di essere in vacanza e me la godo.
 
@@ -13,12 +21,11 @@ Sono stato promosso, tutto ok, ho una gran voglia di fare qualcosa, per questo f
 
 Poi unicamente dopo essere tornato a casa, stremato e bollito, mi rendo conto della fortuna di cui ho parlato prima: a parte la condizione in cui si trovano ora, ci sono miei coetanei che, mentre io mi organizzo per una festa con gli amici fra una settimana, loro con il sorriso mi dicono “I’m goin tu stai tri monfs her and then try tu go in Inghilterr”. Io li stimo. Le conversazioni non sono dialoghi: sono spettacolari esibizioni teatrali dove tre parole su quattro sono in arabo, le mani si agitano velocemente e gli occhi mi scrutano per osservare la mia reazione. **La tensione è palpabile**, è facile che nasca un litigio, che scoppino discussioni per piccole incomprensioni, è comprensibile, eppure regna una **perenne armonia**, positività, voglia di vivere.
 
-Si gioca a calcio sotto il sole di mezzogiorno, si stringono migliaia di mani, si ride per una clamorosa perdita a carte. Ne ho parlato anche in [questa puntata](https://www.spreaker.com/user/ariaimmaginaria/smo-vita-di-confine).
+Si gioca a calcio sotto il sole di mezzogiorno, si stringono migliaia di mani, si ride per una clamorosa perdita a carte. Ne ho parlato anche in <a href="https://www.spreaker.com/user/ariaimmaginaria/smo-vita-di-confine" rel="noopener" target="blank">questa puntata</a>.
 
 Ci sono coloro che rompono, come sempre, dicendo che i ragazzi che arrivano da laggiù **sprecano** le nostre risorse, passano il tempo **facendo nulla**. Dico loro due cose:
 
 1. Andate a **Casa Papa Francesco**, a Sanremo. Lì ci sono persone che sono arrivate dai più strani posti del mondo e in casa vanno solo per dormire, il resto del giorno sono a fare tirocini. Sono coloro che al posto di tentare di proseguire verso mete più lontane hanno deciso di restare in Italia, vivere qui.
-
 2. Come volete impiegare il tempo di ragazzi che hanno viaggiato per mesi su deserti di sabbia e poi sul deserto blu più pericoloso di tutti?
 
 Io sono ottimista, so che un giorno, qualcuno di quelli che si vedono in TV riesca ad avere un’illuminazione per riuscire a far cessare le gravi controversie che costringono i nativi ad emigrare, non costringendo vite ad essere interrotte o drasticamente cambiate.
@@ -28,4 +35,6 @@ Noi siamo fortunati, noi possiamo fare qualcosa, dobbiamo farci sentire, **dobbi
 <br />
 <br />
 
-P.S.: la mia amica Anna, che è venuta con me per qualche giorno, ha scritto qualcosa di più profondo ed importante che dovete leggere, [qui](https://web.archive.org/web/20171008172851/https://www.rivieratime.news/qual-futuro-dellumanita-vive-al-ponte/).
+P.S.: la mia amica Anna, che è venuta con me per qualche giorno, ha scritto qualcosa di più profondo ed importante che dovete leggere, <a href="https://web.archive.org/web/20171008172851/https://www.rivieratime.news/qual-futuro-dellumanita-vive-al-ponte/" rel="noopener" target="blank">qui</a>.
+
+{% include lightbox.html %}

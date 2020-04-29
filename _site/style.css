@@ -36,8 +36,12 @@ body {
 	background-color: var(--black-ish);
 	font-family: Helvetica, sans-serif;
 	color: var(--white-ish);
-	line-height: 1.7em;
+	line-height: 1.5em;
 	margin: 0px 0px 0px 0px;
+}
+
+figcaption {
+	font-style: italic;
 }
 
 /* WHEN ELEMENT CENTERING IS NEEDED */
@@ -102,7 +106,22 @@ img {
 }
 
 article {
-	padding: 8%;
+	padding: 20px 8% 100px 8%;
+}
+
+p {
+	margin 20px 0px !important; /* NOT WORKING*/
+}
+
+.image {
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+
+.image img {
+	object-fit: cover;
+	margin: 0px;
 }
 
 h1 {

@@ -1,11 +1,7 @@
 ---
 categories: "Inchiostro digitale"
-tags: ext
 ---
-
-[articolo originale](https://www.rivieratime.news/sogno-occhi-aperti/)
-
-![fleeting floating evening](../../_resources/8a1fc07cfff3414aa3185c1e177f3dc4.png)
+{% include image.html url='https://live.staticflickr.com/790/41347581362_928eb47eb4_k.jpg' description='fleeting floating evening' alt='la luna sospesa sul picco di una montagna' %}
 
 Qui nel letto in camera mia si sta bene.
 
@@ -27,3 +23,8 @@ In conclusione, è inconfutabile la presenza in noi di emozioni, più o meno for
 
 
 Ufficio Stampa Liceo G.D. Cassini – Tommaso Marmo
+
+<br />
+<br />
+
+<a href="https://www.rivieratime.news/sogno-occhi-aperti/" rel="noopener" target="_blank">articolo originale</a>

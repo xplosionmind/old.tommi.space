@@ -1,10 +1,6 @@
-2019.06.16 Maturandi
-
-# Maturandi
-[articolo originale](https://www.xplosionmind.tk/post/maturandi)
-
-
-![Screenshot di una scena in classe del mio corto "Everyone", che dovremmo finire di girare appena conclusa la maturità](../../_resources/fc7943a1c7d344a48fdc8f09c66ca282.png)
+---
+---
+{% include image.html url='/images/2019-06-16-Maturandi.jpg' description='Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità' alt='Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità' %}
 
 
 Questo è proprio il momento chiave, QUEL momento.
