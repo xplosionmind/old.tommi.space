@@ -1,5 +1,5 @@
 ---
-categories: "Inchiostro digitale"
+categories: inchiostro-digitale
 ---
 {% include image.html url='https://live.staticflickr.com/790/41347581362_928eb47eb4_k.jpg' description='fleeting floating evening' alt='la luna sospesa sul picco di una montagna' %}
 

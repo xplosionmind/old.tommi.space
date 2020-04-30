@@ -3,7 +3,7 @@
 	--white-ish: #E0E0E0;
 	--primary: #FCC920;
 	--secondary: #B12D2C;
-	--dark-secondary: #5C314B;
+	--dark-secondary: #111;
 }
 
 
@@ -26,8 +26,9 @@ html {
 .one-third,
 .two-thirds,
 .one-fourth,
-.half
-.two-fifths
+.half,
+.two-fifths,
+.four-fifths,
 .one-fifth {
 	width: 100%;
 }
@@ -38,6 +39,32 @@ body {
 	color: var(--white-ish);
 	line-height: 1.5em;
 	margin: 0px 0px 0px 0px;
+	word-wrap: break-word;
+}
+
+.date {
+	text-align: center;
+}
+
+.categories {
+	width: 98%;
+	margin-bottom: 30px;
+	margin-left: 2%;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.categories span {
+	font-size: 25px;
+	position: relative;
+	top: 3px;
+}
+
+.category {
+	display: inline-block;
+	padding: 5px 6px 3px 6px;
+	margin-left: 3px;
+	margin-top: 10px;
 }
 
 figcaption {
@@ -90,8 +117,24 @@ a.container {
 	.two-fifths {
 		width: 40%;
 	}
+	.four-fifths {
+		width: 80%;
+		text-align: left;
+	}
 	.column {
 		float: left;
+	}
+	.categories {
+		font-size: 25px;
+	}
+	.category {
+		height: 50px;
+		padding-top: 13px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.date {
+		text-align: right;
 	}
 }
 
@@ -111,6 +154,14 @@ article {
 
 p {
 	margin 20px 0px !important; /* NOT WORKING*/
+}
+
+.preview {
+	margin-bottom: 40px;
+}
+
+.preview a {
+/*	color: var(--white-ish) !important; */
 }
 
 .image {
@@ -151,7 +202,7 @@ p a:hover {
 
 /* HEADER */
 .navigation {
-	top: 10px;
+	top: 0px;
 	width: 100%;
 	height: 50px;
 	background: transparent;
@@ -160,22 +211,15 @@ p a:hover {
 	font-weight: bolder;
 }
 
-.nav-space {
-	width: 10px;
-	height: 50px;
-	background-color: transparent;
-	display: inline;
-}
-
 .navigation a, .navigation a:hover {
 	text-decoration: none;
 }
 
 .xplosionmind{
-	position: absolute;
-	padding: 0px 11px;
+	padding: 3px 15px 0px 15px;
 	float: left;
 	line-height: 50px;
+	height: 50px;
 	font-size: 2em;
 	background-color: var(--black-ish);
 }
@@ -187,7 +231,6 @@ p a:hover {
 	max-width: 100%;
 	height: 50px;
 	background-color: var(--primary);
-	margin: 0 auto;
 }
 
 nav {
@@ -235,8 +278,8 @@ nav ul li ul li a {
 
 .nav-dropdown {
 	position: absolute;
-	z-index: 1;
-	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+	z-index: 5;
+/*	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15); */
 	display: none;
 }
 
@@ -278,6 +321,10 @@ nav ul li ul li a {
 	}
 	.nav-dropdown {
 		position: static;
+	}
+	.post-title {
+		width: 96%;
+		margin-left: 2%;
 	}
 }
 

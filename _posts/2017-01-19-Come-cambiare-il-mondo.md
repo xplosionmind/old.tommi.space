@@ -1,5 +1,5 @@
 ---
-categories: [radioimmaginaria]
+categories: radioimmaginaria
 ---
 {% include image.html url='/images/2017-01-19-Come-cambiare-il-mondo.jpg' alt='io in piedi su un molo con il mio skateboard in mano' description='' %}
 

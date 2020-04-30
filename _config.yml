@@ -21,37 +21,38 @@
 title: xplosionmind
 email: tommiboom@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Tommi's personal blog
+  Tommi's personal blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xplosionmind
 github_username: xplosionmind
 
-#collections:
-#    categories:
-#        output: true
+collections:
+  categories:
+    output: true
 
 # Build settings
 theme: minima
 plugins:
-    - jekyll-feed
-    - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 defaults:
-    -
-       scope:
-            path: ""
-       values:
-            layout: "wrapper"
-    
-    -
-        scope:
-            path: ""
-            type: "posts"
-        values:
-            layout: "post"
-            lang: "it"
-            permalink: "/:title"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "wrapper"
+
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      lang: "it"
+      permalink: "/:title"
             # -
             #    scope:
             #         path: ""

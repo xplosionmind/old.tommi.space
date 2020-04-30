@@ -1,5 +1,5 @@
 ---
-categories: "Inchiostro digitale"
+categories: inchiostro-digitale
 ---
 #### Articolo Finale di Inchiostro Digitale
 {% include image.html url='/images/2018-06-08-Keep-calm-and-stop-hating.jpg' alt='folla a Firenze, non mi ricordo quando ho fatto la foto' description='folla a Firenze, non mi ricordo quando ho fatto la foto' %}

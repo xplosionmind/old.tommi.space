@@ -1,19 +1,33 @@
 ---
+title: blog
 ---
+<div class="row" id="first-row">
+		<div class="categories">
+			<span>LANGUAGE:&nbsp;</span>
+				<a href="/en-blog.html" style="color: #000"><div class="category" style="background-color: #FFF;">english</div></a>
+				<a href="/it-blog.html" style="color: #FFF"><div class="category" style="background-color: #000;">italiano</div></a>
+		</div>
+</div>
 
-<!--<div class="row" id="first-row">
-	<div class="one column">
-		{% for category in site.categories %}
-			<div class="category"><p>&bull;{{ category.title }}</p></div>
-		{% endfor %}
-	</div>
-</div> -->
+<div class="row">
+		<div class="categories">
+			<span>TOPICS:&nbsp;</span>
+			{% for category in site.categories %}
+				<a href="{{ category.url }}" style="color: {{ category.color }};"><div class="category" style="background-color: {{ category.background-color }};">{{ category.title }}</div></a>
+			{% endfor %}
+		</div>
+</div>
+
 
 {% for post in site.posts %}
-	<div class="row">
+<!--{% assign color = site.categories[post.category].color %} -->
+	<div class="row preview">
 		<div class="one column">
-			<div class="two-thirds column">
-				<h2 class="post-title">&bull; <a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<div class="four-fifths column">
+				<h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			</div>
+			<div class="one-fifth column date">
+				{{ post.date | date: "%d %B %Y" }}
 			</div>
 		</div>
 	</div>

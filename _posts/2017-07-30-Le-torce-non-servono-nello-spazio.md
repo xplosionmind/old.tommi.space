@@ -1,5 +1,5 @@
 ---
-categories: "Inchiostro digitale"
+categories: inchiostro-digitale
 ---
 {% include image.html url='https://live.staticflickr.com/3670/12867121084_9676747a60_3k.jpg' description='oltre' alt='un astronauta guarda fuori dal finestrino della Soyuz appena atterrata' %}
 
