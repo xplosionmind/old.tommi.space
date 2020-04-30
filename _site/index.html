@@ -1,68 +1,4 @@
 <!DOCTYPE html>
-
-	<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<link href="/style.css" type="text/css" rel="stylesheet" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="icon" href="https://media.giphy.com/media/3oz8xDp5mAEOAZXEPe/source.gif" sizes="32x32" />
-	<link rel="icon" href="https://media.giphy.com/media/3oz8xDp5mAEOAZXEPe/source.gif" sizes="192x192" />
-	<title>XPLOSIONMIND | </title>
-</head>
-<body>
-	<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-<script>
-(function($) { // Begin jQuery
-  $(function() { // DOM ready
-    // If a link has a dropdown, add sub menu toggle.
-    $('nav ul li a:not(:only-child)').click(function(e) {
-      $(this).siblings('.nav-dropdown').toggle();
-      // Close one dropdown when selecting another
-      $('.nav-dropdown').not($(this).siblings()).hide();
-      e.stopPropagation();
-    });
-    // Clicking away from dropdown will remove the dropdown class
-    $('html').click(function() {
-      $('.nav-dropdown').hide();
-    });
-    // Toggle open and close nav styles on click
-    $('#nav-toggle').click(function() {
-      $('nav ul').slideToggle();
-    });
-    // Hamburger to X toggle
-    $('#nav-toggle').on('click', function() {
-      this.classList.toggle('active');
-    });
-  }); // end DOM ready
-})(jQuery); // end jQuery
-</script>
-<body>
-	<section class="navigation">
-		<div class="nav-container">
-			<div class="xplosionmind">
-				<a href="/home.html">xplosionmind</a>
-			</div>
-		<nav>
-			<div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-				<ul class="nav-list">
- 	       			<li><a href="about.html">About</a></li>
-        			<li><a href="blog.html">Blog</a></li>
-					<li><a href="#!">Portfolio</a>
-						<ul class="nav-dropdown">
-							<li><a href="#!">Web Design</a></li>
-							<li><a href="#!">Web Development</a></li>
-							<li><a href="#!">Graphic Design</a></li>
-						</ul>
-        			</li>
-        			<li><a href="#!">Contact</a></li>
-    			</ul>
-			</nav>
-		</div>
-	</section>
-</body>
-
-	<!DOCTYPE html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta charset="UTF-8">
@@ -75,39 +11,5 @@
 		<h1>xplosionmind</h1>
 		</div>
 	</a>
-</body>
-</html>
-
-	<footer>
-	<div class="row">
-		<div class="two-fifths column">
-			<form action="!#" method="post">
-				<input type="email" name="email" id="email" placeholder="SUBSCRIBE TO NEWSLETTER"/>
-				<input type="submit" id="submit" value="GO" />
-			</form>
-		</div>
-		<div class="two-fifths column">
-			<div class="button-box" id="social-box">
-				<a href="/feed.xml" target="_blank" rel="noopener"><img class="button" title="subscribe to RSS feed" alt="RSS feed" src="/social-logos/rss.svg" /></a>
-				<a href="https://www.flickr.com/tommiboom" title="look at my shots on Flickr" target="_blank" rel="noopener"><img class="button" alt="Flickr" src="/social-logos/flickr.svg" /></a>
-				<a href="https://keybase.io/xplosionmind" title="my Keybase profile" target="_blank" rel="noopener"><img class="button" alt="Keybase" src="/social-logos/keybase.svg" /></a>
-				<a href="https://github.com/xplosionmind" target="_blank" rel="noopener" title="my GitHub profile"><img class="button" alt="GitHub" src="/social-logos/github.svg" /></a>
-				<a href="!#" target="_blank" rel="noopener" title="read my crazy thoughts on Mastodon"><img class="button" alt="Mastodon"  src="/social-logos/mastodon.svg" /></a>
-				<a href="!#" target="_blank" rel="noopener" title="check out my videos on Vimeo!"><img class="button" alt="Vimeo" src="/social-logos/vimeo.svg" /></a>
-				<a href="!#" target="_blank" rel="noopener" title="join my Telegram channel!"><img class="button" alt="Telegram" src="/social-logos/telegram.svg" /></a>
-			</div>
-		</div>
-		<div class="one-fifth column">
-			<a href="privacy.html" target="_blank">Privacy</a>
-		</div>
-	</div>
-	<div class="row">
-		<div class="one column" id="license">
-			<p>Everything in this website, including its source code, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
-			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img id="CClogo" alt="Creative Commons License" src="/cc-by-nc-sa-little.svg" /></a>
-		</div>
-	</div>
-</footer>
-
 </body>
 </html>
