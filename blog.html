@@ -12,6 +12,7 @@ title: blog
 <div class="row">
 		<div class="categories">
 			<span>TOPICS:&nbsp;</span>
+				<a href="/poetry.html" style="color: purple;"><div class="category" style="background-color: pink;">Fake Poetry</div></a>
 			{% for category in site.categories %}
 				<a href="{{ category.url }}" style="color: {{ category.color }};"><div class="category" style="background-color: {{ category.background-color }};">{{ category.title }}</div></a>
 			{% endfor %}

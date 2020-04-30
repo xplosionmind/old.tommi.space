@@ -30,6 +30,10 @@ github_username: xplosionmind
 collections:
   categories:
     output: true
+  poetry:
+    output: true
+  stuff:
+    output: true
 
 # Build settings
 theme: minima
@@ -52,13 +56,24 @@ defaults:
     values:
       layout: "post"
       lang: "it"
-      permalink: "/:title"
-            # -
-            #    scope:
-            #         path: ""
-            #     values:
-            #        layout: "categories"
-       #    permalink: "/category/:title"
+      permalink: "/:title/"
+
+  -
+    scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
+      permalink: "/category/:title/"
+
+  -
+    scope:
+      path: ""
+      type: "poetry"
+    values:
+      layout: "poetry"
+      lang: "it"
+      permalink: "/:title/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

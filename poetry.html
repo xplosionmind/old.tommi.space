@@ -1,0 +1,17 @@
+---
+title: blog
+---
+<div class="row" id="first-row">
+	<div class="one column">
+		<p class="page-description">non ti preoccupare se non capisci un cavolo, ciò che è scritto qui corrisponde a quello che si trova nella mia test, bbuona fortuna.</p>
+	</div>
+</div>
+
+{% for poem in site.poetry %}
+<!--{% assign color = site.categories[post.category].color %} -->
+	<div class="row preview">
+		<div class="one column">
+				<h2 class="post-title"><a href="{{ poem.url }}">{{ poem.title }}</a></h2>
+		</div>
+	</div>
+{% endfor %}

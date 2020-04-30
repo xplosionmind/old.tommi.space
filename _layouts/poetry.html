@@ -1,0 +1,42 @@
+---
+layout: wrapper
+permalink: "/:title/"
+---
+
+<div id="first-row" class="row">
+	<div class="one column">
+		<article>
+			<h1>{{ page.title }}</h1>
+			{{ content }}
+		</article>
+	</div>
+</div>
+
+<div class="row">
+	<div class="one column">
+		<div id="sharing-box" class="button-box">
+			<div>share this article</div>
+
+			<!-- Sharingbutton Facebook -->
+			<a href="https://facebook.com/sharer/sharer.php?u={{ site.baseurl | url_encode }}{{ post.permalink }}" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/facebook.svg" alt="Facebook logo" title="share on Facebook" />
+			</a>
+
+			<!-- Sharingbutton Twitter -->
+			<a href="https://twitter.com/intent/tweet/?text={{ post.title | url_encode }}%20&amp;url={{ site.baseurl | url_encode }}{{ post.permalink }}" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/twitter.svg" alt="Twitter logo" title="share on Twitter" />
+			</a>
+
+			<!-- Sharingbutton WhatsApp -->
+			<a href="whatsapp://send?text={{ post.title | url_encode }}%20{{ site.baseurl | url_encode }}{{ post.permalink }}" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/whatsapp.svg" alt="WhatsApp logo" title="share on Whatsapp" />
+			</a>
+
+			<!-- Telegram -->
+			<a href="https://t.me/share/url?url={{ site.baseurl | url_encode }}{{ post.permalink }}&text={{ post.title | url_encode }}%20" target="_blank" rel="noopener">
+				<img class="button" src="/social-logos/telegram.svg" alt="Telegram logo" title="share on Telegram" />
+				</a>
+
+		</div>
+	</div>
+</div>
