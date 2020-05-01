@@ -3,9 +3,8 @@ title: blog
 ---
 <div class="page-header">
 	<h1>non.miami</h1>
-	<div class="first row labels">
+	<div class="row labels">
 		<div class="one column">
-			<div class="topics-indicator">LANGUAGE</div>
 			<a href="/en-blog.html" style="color: #000"><div class="category" style="background-color: #FFF;">english</div></a>
 			<a href="/it-blog.html" style="color: #FFF"><div class="category" style="background-color: #000;">italiano</div></a>
 		</div>
@@ -13,8 +12,8 @@ title: blog
 
 	<div class="row">
 		<div class="one column labels">
-			<div class="topics-indicator">SCROLL TOPICS</div>
-			<div class="categories">
+			<div class="one-fourth column topics-indicator">SCROLL TOPICS</div>
+			<div class="three-fourths column categories">
 				<a href="/poetry.html" style="color: purple;"><div class="category" style="background-color: pink;">Fake Poetry</div></a>
 				{% for category in site.categories %}
 					<a href="{{ category.url }}" style="color: {{ category.color }};"><div class="category" style="background-color: {{ category.background-color }};">{{ category.title }}</div></a>

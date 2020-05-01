@@ -35,7 +35,7 @@
 - [ ] unsorted photos moving
 - [ ] horizontal instead of vertical scrolling of the gallery
 - [ ] animated mini-logo in tab header (see ipleak.net)
-- [ ] customize 404 page
+- [x] customize 404 page
 - [x] Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
 - [ ] global search button
 - [x] SVG buttons
@@ -49,8 +49,13 @@
 - [x] list of belonging categories at the top of the post page
 - [ ] final color palette
 	- [ ] check [colors repository](https.//github.com/xplosionmind/colors)
+- [ ] `id` anchor links
 
-### POTENTIAL CREATIVE IDEAS
+### CREATIVE IDEAS
 
 - everything center-aligned, also on desktop
 - color palettes improvement
+
+### EXTRA ESPERIMENTS
+
+- DESKTOP: floating "categories" column on the right

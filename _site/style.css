@@ -56,6 +56,7 @@ body {
 	font-size: var(--regular);
 	margin: 0px;
 	overflow-wrap: break-word;
+	scroll-behavior: smooth;
 }
 
 .date {
@@ -69,32 +70,37 @@ body {
 .page-header {
 	margin-top: 8rem; /* second time, if added to "" */
 	text-align: center;
-	margin-bottom: 5rem;
+	margin-bottom: 6rem;
 }
 
 .labels {
-}
-
-.categories, .languages {
-	height: var(--height);
 	text-transform: uppercase;
 	font-weight: bolder;
+	height: var(--height);
 	font-size: var(--morethan-regular);
+	display: inline-block;
+}
+
+.categories {
 	overflow-x: scroll;
 	white-space: nowrap;
-	-webkit-overflow-scrolling: touch;
-	display: inline-block;
+	border: var(--small) solid;
+	padding: var(--small);
 }
 
 .topics-indicator {
 	font-size: var(--big);
-	top: var(--tiny);
-	display: inline-block;
+	line-height: var(--height);
+	background-color: var(--white-ish);
+	color: var(--dark-background);
+	border: var(--small) solid var(--white-ish);
+	padding: var(--small);
 }
 
 .category {
 	display: inline-block;
 	padding: var(--small);
+	margin-right: var(--tiny);
 }
 
 figcaption {
@@ -104,7 +110,7 @@ figcaption {
 pre {
 	overflow-x: scroll;
 /*	border-radius: var(--small); */
-	border: dashed 5px;
+	outline: dashed 5px;
 }
 
 /* WHEN ELEMENT CENTERING IS NEEDED */
@@ -123,6 +129,10 @@ a.container {
 	display: table-cell; /* THE KEY TO VERTICAL ALIGNMENT */
 	vertical-align: middle;
 	background-color: var(--primary);
+	color: var(--background-color);
+}
+
+#intro h1, #intro a, #intro a:visited {
 	color: var(--dark-background);
 }
 
@@ -157,6 +167,9 @@ a.container {
 		width: 80%;
 		text-align: left;
 	}
+	.three-fourths {
+		width: 75%;
+	}
 	.column {
 		float: left;
 	}
@@ -188,7 +201,7 @@ p {
 }
 
 .preview {
-	margin-bottom: var(--huge);
+	margin-bottom: var(--bigger);
 }
 
 .preview a {
@@ -360,6 +373,9 @@ nav ul li ul li a {
 	}
 	h1, h2 {
 		text-align: center;
+	}
+	#intro h1 {
+		font-size: 2rem;
 	}
 }
 

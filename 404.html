@@ -1,25 +1,44 @@
 ---
 permalink: /404.html
-layout: default
+layout: none
+sitemap: false
 ---
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="UTF-8">
+	<link href="style.css" type="text/css" rel="stylesheet" />
+	<title>404 | XPLOSIONMIND</title>
+<style>
+	h1, a, .container, #intro {
+		text-align: center;
+		color: var(--white-ish);
+		background-color: var(--dark-background);
+	}
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+	#intro h1 {
+		font-size: 8rem;
+		color: var(--dark-background);
+		background-color: var(--primary);
+		padding-top: var(--lessthan-regular);
+		margin: 0px auto;
+		width: 17rem;
+	}
+	pre {
+		width: 32rem;
+		height: var(--big);
+		margin: 0px auto;
+		padding: var(--tiny);
+		outline: dashed 5px var(--primary);
+	}
 </style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+</head>
+<body>
+	<a class="container" href="home.html">
+		<div id="intro">
+		<h1>404</h1>
+		<br /><pre>page not found. Click anywhere to go back home</pre>
+		</div>
+	</a>
+</body>
+</html>

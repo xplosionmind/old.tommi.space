@@ -1,125 +1,39 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>xplosionmind | Tommi’s personal blog</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="xplosionmind" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Tommi’s personal blog" />
-<meta property="og:description" content="Tommi’s personal blog" />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
-<meta property="og:site_name" content="xplosionmind" />
-<script type="application/ld+json">
-{"url":"http://localhost:4000/404.html","headline":"xplosionmind","description":"Tommi’s personal blog","@type":"WebPage","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="xplosionmind" /></head>
-<body><script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-<script>
-(function($) { // Begin jQuery
-  $(function() { // DOM ready
-    // If a link has a dropdown, add sub menu toggle.
-    $('nav ul li a:not(:only-child)').click(function(e) {
-      $(this).siblings('.nav-dropdown').toggle();
-      // Close one dropdown when selecting another
-      $('.nav-dropdown').not($(this).siblings()).hide();
-      e.stopPropagation();
-    });
-    // Clicking away from dropdown will remove the dropdown class
-    $('html').click(function() {
-      $('.nav-dropdown').hide();
-    });
-    // Toggle open and close nav styles on click
-    $('#nav-toggle').click(function() {
-      $('nav ul').slideToggle();
-    });
-    // Hamburger to X toggle
-    $('#nav-toggle').on('click', function() {
-      this.classList.toggle('active');
-    });
-  }); // end DOM ready
-})(jQuery); // end jQuery
-</script>
-<body>
-	<section class="navigation">
-		<div class="nav-container">
-			<div class="xplosionmind">
-				<a href="/home.html">xplosionmind</a>
-			</div>
-		<nav>
-			<div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-				<ul class="nav-list">
- 	       			<li><a href="/about.html">About</a></li>
-        			<li><a href="/blog.html">Blog</a></li>
-					<li><a href="#!">Portfolio</a>
-						<ul class="nav-dropdown">
-							<li><a href="#!">Web Design</a></li>
-							<li><a href="#!">Web Development</a></li>
-							<li><a href="#!">Graphic Design</a></li>
-						</ul>
-        			</li>
-        			<li><a href="#!">Contact</a></li>
-    			</ul>
-			</nav>
-		</div>
-	</section>
-</body>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="UTF-8">
+	<link href="style.css" type="text/css" rel="stylesheet" />
+	<title>404 | XPLOSIONMIND</title>
+<style>
+	h1, a, .container, #intro {
+		text-align: center;
+		color: var(--white-ish);
+		background-color: var(--dark-background);
+	}
+
+	#intro h1 {
+		font-size: 8rem;
+		color: var(--dark-background);
+		background-color: var(--primary);
+		padding-top: var(--lessthan-regular);
+		margin: 0px auto;
+		width: 17rem;
+	}
+	pre {
+		width: 32rem;
+		height: var(--big);
+		margin: 0px auto;
+		padding: var(--tiny);
+		outline: dashed 5px var(--primary);
+	}
 </style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
-
-      </div>
-    </main><footer>
-	<div class="row">
-		<div class="two-fifths column">
-			<form action="!#" method="post" data-netlify="true">
-				<input type="email" name="email" id="email" placeholder="SUBSCRIBE TO NEWSLETTER"/>
-				<input type="submit" id="submit" value="GO" />
-			</form>
+</head>
+<body>
+	<a class="container" href="home.html">
+		<div id="intro">
+		<h1>404</h1>
+		<br /><pre>page not found. Click anywhere to go back home</pre>
 		</div>
-		<div class="two-fifths column">
-			<div class="button-box" id="social-box">
-				<a href="/feed.xml" target="_blank" rel="noopener"><img class="button" title="subscribe to RSS feed" alt="RSS feed" src="/social-logos/rss.svg" /></a>
-				<a href="https://www.flickr.com/tommiboom" title="look at my shots on Flickr" target="_blank" rel="noopener"><img class="button" alt="Flickr" src="/social-logos/flickr.svg" /></a>
-				<a href="https://keybase.io/xplosionmind" title="my Keybase profile" target="_blank" rel="noopener"><img class="button" alt="Keybase" src="/social-logos/keybase.svg" /></a>
-				<a href="https://github.com/xplosionmind" target="_blank" rel="noopener" title="my GitHub profile"><img class="button" alt="GitHub" src="/social-logos/github.svg" /></a>
-				<a href="!#" target="_blank" rel="noopener" title="read my crazy thoughts on Mastodon"><img class="button" alt="Mastodon"  src="/social-logos/mastodon.svg" /></a>
-				<a href="!#" target="_blank" rel="noopener" title="check out my videos on Vimeo!"><img class="button" alt="Vimeo" src="/social-logos/vimeo.svg" /></a>
-				<a href="!#" target="_blank" rel="noopener" title="join my Telegram channel!"><img class="button" alt="Telegram" src="/social-logos/telegram.svg" /></a>
-			</div>
-		</div>
-		<div class="one-fifth column">
-			<a href="privacy.html" target="_blank">Privacy</a>
-		</div>
-	</div>
-	<div class="row">
-		<div class="one column" id="license">
-			<p>Everything in this website, including its source code, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
-			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img id="CClogo" alt="Creative Commons License" src="/cc-by-nc-sa-little.svg" /></a>
-		</div>
-	</div>
-</footer>
+	</a>
 </body>
-
 </html>
