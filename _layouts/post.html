@@ -2,7 +2,11 @@
 layout: wrapper
 permalink: "/:title/"
 ---
-
+{% if page.code == true %}
+	<link rel="stylesheet" type="text/css" href="/highlight_atom-one-dark-reasonable.css" />
+	<script src="/highlight.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+{% endif %}
 <div id="first-row" class="row">
 	<div class="one column">
 		<article>

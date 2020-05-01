@@ -19,8 +19,9 @@
 	--bigger: 1.9rem;
 	--huge: 2.2rem;
 	--height: 3.1rem;
+	--mastodon: 4rem;
+	--margin: 6.5rem;
 }
-
 
 html {
 	box-sizing: border-box;
@@ -54,36 +55,56 @@ body {
 	color: var(--dark-font);
 	font-size: var(--regular);
 	margin: 0px;
-	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 .date {
 	text-align: center;
 }
 
-.categories {
-	width: 98%;
-	margin-bottom: var(--big);
-	margin-left: 2%;
-	text-transform: uppercase;
-	font-weight: bolder;
+.page-header h1 {
+	font-size: var(--mastodon);
 }
 
-.categories span {
+.page-header {
+	margin-top: 8rem; /* second time, if added to "" */
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.labels {
+}
+
+.categories, .languages {
+	height: var(--height);
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: var(--morethan-regular);
+	overflow-x: scroll;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+	display: inline-block;
+}
+
+.topics-indicator {
 	font-size: var(--big);
-	position: relative;
 	top: var(--tiny);
+	display: inline-block;
 }
 
 .category {
 	display: inline-block;
-	padding: 5px 6px 3px 6px;
-	margin-left: var(--tiny);
-	margin-top: var(--tiny);
+	padding: var(--small);
 }
 
 figcaption {
 	font-style: italic;
+}
+
+pre {
+	overflow-x: scroll;
+/*	border-radius: var(--small); */
+	border: dashed 5px;
 }
 
 /* WHEN ELEMENT CENTERING IS NEEDED */
@@ -141,12 +162,7 @@ a.container {
 	}
 	.categories {
 		font-size: var(--big);
-	}
-	.category {
-		height: var(--height);
-		padding-top: 13px;
-		padding-left: 10px;
-		padding-right: 10px;
+		line-height: var(--big)
 	}
 	.date {
 		text-align: right;
@@ -159,8 +175,8 @@ img {
 	object-fit: cover;
 }
 
-#first-row {
-	margin-top: var(--height) !important; /* 50 + (10+10)*/
+.first {
+	margin-top: var(--height); /* 50 + (10+10)*/
 }
 
 article {
@@ -196,7 +212,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: var(--huge);
+	color: white;
+	font-size: var(--height);
 	text-decoration: none;
 }
 
@@ -335,10 +352,14 @@ nav ul li ul li a {
 	}
 	.nav-dropdown {
 		position: static;
+		overflow: scroll;
 	}
 	.post-title {
 		width: 96%;
 		margin-left: 2%;
+	}
+	h1, h2 {
+		text-align: center;
 	}
 }
 

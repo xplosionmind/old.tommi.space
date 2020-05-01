@@ -1,6 +1,7 @@
 ---
 title: "L’avanguardia"
 permalink: "/avanguardia/"
+code: true
 ---
 Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in
 quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su exercise.polito.it nella speranza di osservare un'ispirazione per risolvere un equazione.
@@ -25,10 +26,15 @@ Sono così, gli ingegneri. Hanno questa malattia strana per cui possiedono l'eti
 
 In questo mondo, uno ammira le penne agitarsi, come all'impazzata girano le rotelle di chi le impugna, dita esili e sicure digitare nugae dettate dall'esasperazione come:
 
-```c
+```
 printf("how tired are you from one to ten: ");
 scanf("%d", &a);
-if (a\>=2) printf("you are too tired, go and have a break\\n\\n");
+if (a>=2) {
+	printf("you are too tired, go and have a break\n\n");
+}
+else {
+	printf("wtf? Impossible.\n\n");
+}
 ```
 
 Poi uno va a fare la pipì. Probabilmente, della sua giornata tipo in aula studio, che comincia alle 7:30 per assicurarsi il posto quello bello e finisce alle 19:30 con un numero di neuroni attivi a malapena sufficiente per portarsi a casa intero, il momento più rilassante. Scende le scale e va nel bagno. Si concede un lavaggio di mani lungo e con abbondante sapone. Per viziarsi proprio e concedersi una pausa di qualità, uno schiaccia due volte il pulsante dell’asciuga mani, lasciandosi coccolare dal calore rassicurante del suo unico vero consolatore in tutto il Politecnico. Successivamente, risale le scale e se proprio gli va di culo (potevo dire “se gli va bene”. La parolaccia l’ho messa per te, nonna. Un bacio) incontra uno o due arabi che lo salutano sorridendo, altrimenti si trascina nuovamente in aula verde per tornare a studiare.
