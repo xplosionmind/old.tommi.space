@@ -1,7 +1,6 @@
 ---
 ---
 {% include image.html url='https://live.staticflickr.com/65535/49066858996_f9e4c2f1bd_k.jpg' description='pezzetti di carta gialli in un carrugio - Genova, 13 novembre 2019' alt='un carrugio con bandierine gialle' %}
-
 Vabbè, insomma, sono qui sul treno e mi sono accorto che non scrivo qui da un po'. Però, a dire la verità, avrei molto da raccontare, ma ben poco su cui riflettere, o almeno, nulla di particolarmente profondo ed interessante (per quanto interessante possa essere ciò che scrivo in generale).
 
 Tuttavia, dato che comunque curiosi spunti su cui vorrei ragionare e pubblicare ci sono eccome, ma purtroppo tutto il tempo che potrei dedicargli è soffocato da una quantità asfissiante di reazioni RedOx, dimostrazioni matematiche e creazione di programmini che individuano i numeri primi, mi limiterò, così, un po' a caso (come sempre, d'altra parte) a elencare alcuni pezzetti carini (perché usare "cose" mi ha un piuttosto stufato, ma non trovo alternative, non sono sufficientemente dotto da permettermi di eliminare questo termine dal mio vocabolario).

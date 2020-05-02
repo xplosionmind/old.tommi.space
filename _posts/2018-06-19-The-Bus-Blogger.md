@@ -2,7 +2,6 @@
 ---
 {% include image.html url='/image/2018-06-19-The-Bus-Blogger.jpg' alt='Tommi in posa davanti a un bus “double-deck”' %}
 Chi non conosce o almeno una volta nella vita non vuole fare un giro sui mitici **bus "double-deck"** (a due piani) di Londra? Allora tenetevi forte, perché questi mezzi caratteristici stanno diventando sempre più avanzati e soprattutto ecocompatibili!
-
 È davvero incredibile quanto i trasporti siano efficienti e tecnologicamente integrati a Londra: sono qui da quasi due settimane per un viaggio studio e devo riconoscere che mi basta dare un occhio su Citymapper o Google Maps per sapere perfettamente il percorso che devo fare ed i vari ritardi, con una gran precisione! Tanto di cappello alla TFL (Transport for London)!
 
 Tornando ai bus, devo ammettere che sono rimasto sbalordito leggendo sul sito della TFL quanto rapidamente si stiano diffondendo i bus ecosostenibili.

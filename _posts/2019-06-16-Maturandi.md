@@ -1,8 +1,6 @@
 ---
 ---
 {% include image.html url='/images/2019-06-16-Maturandi.jpg' description='Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità' alt='Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità' %}
-
-
 Questo è proprio il momento chiave, QUEL momento.
 
 È la volta de _Gli Anni_ e di _Notte prima degli esami_.

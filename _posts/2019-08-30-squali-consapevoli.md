@@ -1,7 +1,6 @@
 ---
 ---
 {% include image.html url='/images/2019-08-30-squali-consapevoli.jpg' description='la classica fuga in pigiama, romantica però (da un frame di “Everyone”)' alt='una fuga romantica in pigiama' %}
-
 Qual è il prezzo che dobbiamo pagare
 
 

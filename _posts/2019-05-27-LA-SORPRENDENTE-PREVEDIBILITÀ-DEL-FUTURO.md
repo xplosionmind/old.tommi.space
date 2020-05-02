@@ -1,9 +1,7 @@
 ---
 permalink: "/futuro/"
 ---
-{% include image.html url='/images/2019-05-27-LA-SORPRENDENTE-PREVEDIBILITÀ-DEL-FUTURO.jpg' description='Il rivelatore CMS dell’LHC al CERN di Ginevra, unico posto in cui non si ripete proprio nulla: tutto quello che succede è una scoperta. Qui si SVELA, letteralmente, il futuro (in realtà ho messo questa immagine solo perché è troppo figa e sembra una macchina del tempo (&copy CERN)' alt='Una foto del rivaletore CMS dell’LHC al CERN di Ginevra' %}
-
-
+{% include image.html url='/images/2019-05-27-LA-SORPRENDENTE-PREVEDIBILITÀ-DEL-FUTURO.jpg' description='Il rivelatore CMS dell’LHC al CERN di Ginevra, unico posto in cui non si ripete proprio nulla: tutto quello che succede è una scoperta. Qui si SVELA, letteralmente, il futuro (in realtà ho messo questa immagine solo perché è troppo figa e sembra una macchina del tempo  -  &copy;CERN' alt='Una foto del rivaletore CMS dell’LHC al CERN di Ginevra' %}
 Ci sono state anche le elezioni, certo, ma soprattutto è stato fondere il mio cervello: così oggi, mentre ero in biblioteca, proprio a metà del mio pomeriggio di studio certosino dell’intero programma di letteratura latina su cui domani sarò interrogato, la lampadina ("la" perché è sempre la stessa, solo che di solito sta spenta) si è accesa ed ho finalmente preso totale conoscenza di quello che è un cliché, una sententia (oggi me lo sono studiato quindi un termine latino lo dovevo proprio infilare) ormai sentita talmente spesso da essere ignorata.
 
 _È tutto scritto sui libri di storia_

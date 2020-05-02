@@ -11,16 +11,16 @@
 	--light-background: var(--white-ish);
 	--light-font: var(--black-ish);
 	--link: var(--primary);
-	--tiny: 0.2rem;
-	--small: 0.5rem;
+	--tiny: 0.225rem;
+	--small: 0.45rem;
 	--lessthan-regular: 0.9rem;
 	--regular: 1.1rem;
 	--morethan-regular: 1.3rem;
 	--big: 1.6rem;
-	--bigger: 1.9rem;
-	--huge: 2.2rem;
+	--bigger: 1.8rem;
+	--twice: 2.2rem;
 	--height: 3.1rem;
-	--mastodon: 4rem;
+	--mastodon: 4.4rem;
 	--margin: 6.5rem;
 }
 
@@ -78,11 +78,11 @@ body {
 .page-header {
 	margin-top: 8rem; /* second time, if added to "" */
 	text-align: center;
-	margin-bottom: 6rem;
+	margin-bottom: 10rem;
 }
 
 .labels {
-	margin-top: var(--huge);
+	margin-top: var(--regular);
 	text-transform: uppercase;
 	font-weight: bolder;
 	height: var(--height);
@@ -117,10 +117,6 @@ body {
 
 figcaption {
 	font-style: italic;
-}
-
-article figure {
-	margin-bottom: var(--huge);
 }
 
 pre {
@@ -217,7 +213,7 @@ img {
 }
 
 article {
-	padding: 20px 8% 100px 8%;
+	padding: var(--twice) 8% 6rem 8%;
 }
 
 p {
@@ -225,13 +221,13 @@ p {
 }
 
 .preview {
-	margin-bottom: var(--huge);
+	margin-bottom: var(--twice);
 }
 
 .image {
 	width: 100%;
 	height: auto;
-	margin: 0px;
+	margin: 0px 0px var(--mastodon) 0px;
 }
 
 .image img {
@@ -248,6 +244,7 @@ h1 {
 	color: white;
 	font-size: var(--height);
 	text-decoration: none;
+	text-align: center;
 }
 
 h2 {
@@ -322,7 +319,7 @@ nav ul li a:visited {
 	color: var(--black-ish);
 	text-decoration: none;
 	background: var(--primary);
-	font-size: 0.9em;
+	font-size: var(--morethan-regular);
 }
 
 nav ul li a:hover,
@@ -543,7 +540,6 @@ input::placeholder {
 	display: inline;
 	height: var(--height);
 	width: auto;
-	margin: var(--tiny);
 	transition: transform .1s;
 }
 

@@ -52,6 +52,7 @@
 - [ ] `id` anchor links
 - [ ] final header configuration
 - [ ] Serif font styling in posts
+- [ ] page image preview when sending link
 
 ### CREATIVE IDEAS
 
