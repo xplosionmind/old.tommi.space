@@ -50,6 +50,8 @@
 - [ ] final color palette
 	- [ ] check [colors repository](https.//github.com/xplosionmind/colors)
 - [ ] `id` anchor links
+- [ ] final header configuration
+- [ ] Serif font styling in posts
 
 ### CREATIVE IDEAS
 

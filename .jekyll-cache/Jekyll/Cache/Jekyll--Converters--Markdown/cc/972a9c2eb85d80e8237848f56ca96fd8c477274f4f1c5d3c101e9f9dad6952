@@ -1,0 +1,243 @@
+I"g)<figure class="image">
+	<img src="https://live.staticflickr.com/4448/36845088713_3d0b9ee30a_6k.jpg" alt="Giffoni 2017 - into the magic" title="" />
+	<figcaption></figcaption>
+</figure>
+
+<p>Poche lire, un piccolo paesino campano, un grande sogno ed enorme ambizione. Questo aveva nella testa e fra le mani Claudio Gubitosi, 47 anni fa a Giffoni Valle Piana. Ora <a href="http://www.giffonifilmfestival.it/" rel="noopener" target="_blank">Giffoni Film Festival</a> da lui creato è uno fra i più grandi festival cinematografici in Italia, con la peculiarità di ospitare come giurati e trasformare per una settimana in critici cinematografici bambini e ragazzi provenienti da tutto il mondo – quest’anno 4800 – da 3 fino a 20 anni. È difficilissimo, aggirandosi per la cittadella e nella piazza Altiero Spinelli, costruita con contributi europei, riuscire a distinguere infinite le infinite lingue parlate: dal dialetto strettissimo del Sud Italia fino all’armeno o al Turco. L’atmosfera è carica di entusiasmo e di magia. Proprio questo è il tema centrale di Giffoni 2017: “Into the Magic”. Tutto quello che avviene, tutte le interviste e le sfilate degli ospiti italiani ed esteri – da Claudio Amendola e Marco Giallini ad Amy Adams, Julianne Moore, kit Harrington e Bryan Cranston – possono essere seguiti in live streaming sul sito del festival.</p>
+
+<p>A raccontare ciò che accade con occhi coetanei a quelli dei protagonisti del festival – i giovani – c’è anche <a href="http://www.radioimmaginaria.it/" rel="noopener" target="_blank">Radioimmaginaria</a>, il network degli adolescenti, che ha redazioni in tutta Europa ed è interamente gestito, solo con la supervisione di qualche adulto, da ragazzi under 18. È possibile tuffarsi in questo, letteralmente, magico mondo ascoltando sul sito della radio i vari programmi, sia in italiano che in lingua: alle 15:00, il programma UsTeens, con interviste a Giurati, quiz e curiosità, alle 18:30 SpaccaTutto, il programma che se ascoltato dall’inizio alla fine può stravolgere – in positivo – la giornata, con contenuti demenziali e continue risate, alle 22 Gli Sdraiati, con radiodrammi, critiche cinematografiche di alto livello e contenuti di approfondimento. Ad alternarsi a queste dirette ci sono quelle in inglese, spagnolo e francese.</p>
+
+<p>Una grande bolla felice, un continuo scambio di opinioni, culture e sorrisi. Questo è Giffoni Experience (così è stata rinominato il festival, essendo una vera e propria esperienza per chi ne è protagonista). Dal più attraente al più brutto, dal più estroverso al meno socievole, tutti gli adolescenti si riuniscono condividendo le emozioni che solo immergersi nel grande schermo può fornire.</p>
+
+<p>Tommi Boom – Liceo G.D. Cassini Sanremo</p>
+
+<p><br />
+<br /></p>
+
+<p><a href="https://web.archive.org/web/20200428134502/https://www.rivieratime.news/lentusiasmo-la-magia-del-giffoni-film-festival/">articolo originale su Inchiostro Digitale</a></p>
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+<style>
+.row > .lightbox-column {
+  padding: 0 8px;
+}
+
+/* Create four equal lightbox-columns that floats next to eachother */
+.lightbox-column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
+
+<body>
+<div class="row">
+	
+		<div class="lightbox-column">
+			<img src="https://live.staticflickr.com/4485/37255814190_7757779b27_6k.jpghttps://live.staticflickr.com/4482/36802541534_c53c3835c9_6k.jpghttps://live.staticflickr.com/876/41347107772_117bbe1b10_6k.jpghttps://live.staticflickr.com/870/41347355172_3276540d96_6k.jpghttps://live.staticflickr.com/871/40675844014_194a3d51f0_6k.jpg" onclick="openModal();currentSlide(0)" class="hover-shadow" />
+  		</div>
+	
+		<div class="lightbox-column">
+			<img src="https://live.staticflickr.com/4485/37255814190_7757779b27_6k.jpghttps://live.staticflickr.com/4482/36802541534_c53c3835c9_6k.jpghttps://live.staticflickr.com/876/41347107772_117bbe1b10_6k.jpghttps://live.staticflickr.com/870/41347355172_3276540d96_6k.jpghttps://live.staticflickr.com/871/40675844014_194a3d51f0_6k.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" />
+  		</div>
+	
+		<div class="lightbox-column">
+			<img src="https://live.staticflickr.com/4485/37255814190_7757779b27_6k.jpghttps://live.staticflickr.com/4482/36802541534_c53c3835c9_6k.jpghttps://live.staticflickr.com/876/41347107772_117bbe1b10_6k.jpghttps://live.staticflickr.com/870/41347355172_3276540d96_6k.jpghttps://live.staticflickr.com/871/40675844014_194a3d51f0_6k.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" />
+  		</div>
+	
+		<div class="lightbox-column">
+			<img src="https://live.staticflickr.com/4485/37255814190_7757779b27_6k.jpghttps://live.staticflickr.com/4482/36802541534_c53c3835c9_6k.jpghttps://live.staticflickr.com/876/41347107772_117bbe1b10_6k.jpghttps://live.staticflickr.com/870/41347355172_3276540d96_6k.jpghttps://live.staticflickr.com/871/40675844014_194a3d51f0_6k.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" />
+  		</div>
+	
+		<div class="lightbox-column">
+			<img src="https://live.staticflickr.com/4485/37255814190_7757779b27_6k.jpghttps://live.staticflickr.com/4482/36802541534_c53c3835c9_6k.jpghttps://live.staticflickr.com/876/41347107772_117bbe1b10_6k.jpghttps://live.staticflickr.com/870/41347355172_3276540d96_6k.jpghttps://live.staticflickr.com/871/40675844014_194a3d51f0_6k.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" />
+  		</div>
+	
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+
+	
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+    	<p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="lightbox-column">
+		
+			<img class="demo" src="https://live.staticflickr.com/4485/37255814190_7757779b27_6k.jpghttps://live.staticflickr.com/4482/36802541534_c53c3835c9_6k.jpghttps://live.staticflickr.com/876/41347107772_117bbe1b10_6k.jpghttps://live.staticflickr.com/870/41347355172_3276540d96_6k.jpghttps://live.staticflickr.com/871/40675844014_194a3d51f0_6k.jpg" onclick="currentSlide(1)" />
+		
+			<img class="demo" src="https://live.staticflickr.com/4485/37255814190_7757779b27_6k.jpghttps://live.staticflickr.com/4482/36802541534_c53c3835c9_6k.jpghttps://live.staticflickr.com/876/41347107772_117bbe1b10_6k.jpghttps://live.staticflickr.com/870/41347355172_3276540d96_6k.jpghttps://live.staticflickr.com/871/40675844014_194a3d51f0_6k.jpg" onclick="currentSlide(2)" />
+		
+			<img class="demo" src="https://live.staticflickr.com/4485/37255814190_7757779b27_6k.jpghttps://live.staticflickr.com/4482/36802541534_c53c3835c9_6k.jpghttps://live.staticflickr.com/876/41347107772_117bbe1b10_6k.jpghttps://live.staticflickr.com/870/41347355172_3276540d96_6k.jpghttps://live.staticflickr.com/871/40675844014_194a3d51f0_6k.jpg" onclick="currentSlide(3)" />
+		
+			<img class="demo" src="https://live.staticflickr.com/4485/37255814190_7757779b27_6k.jpghttps://live.staticflickr.com/4482/36802541534_c53c3835c9_6k.jpghttps://live.staticflickr.com/876/41347107772_117bbe1b10_6k.jpghttps://live.staticflickr.com/870/41347355172_3276540d96_6k.jpghttps://live.staticflickr.com/871/40675844014_194a3d51f0_6k.jpg" onclick="currentSlide(4)" />
+		
+			<img class="demo" src="https://live.staticflickr.com/4485/37255814190_7757779b27_6k.jpghttps://live.staticflickr.com/4482/36802541534_c53c3835c9_6k.jpghttps://live.staticflickr.com/876/41347107772_117bbe1b10_6k.jpghttps://live.staticflickr.com/870/41347355172_3276540d96_6k.jpghttps://live.staticflickr.com/871/40675844014_194a3d51f0_6k.jpg" onclick="currentSlide(5)" />
+		
+	</div>
+  </div>
+</div>
+</body>
+
+:ET

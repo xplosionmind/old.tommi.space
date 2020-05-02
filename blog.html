@@ -2,12 +2,10 @@
 title: blog
 ---
 <div class="page-header">
-	<h1>non.miami</h1>
+	<h1 style="margin-bottom: var(--margin);">non.miami</h1>
 	<div class="row labels">
-		<div class="one column">
-			<a href="/en-blog.html" style="color: #000"><div class="category" style="background-color: #FFF;">english</div></a>
-			<a href="/it-blog.html" style="color: #FFF"><div class="category" style="background-color: #000;">italiano</div></a>
-		</div>
+			<a href="/en-blog.html" class="language"><div>english</div></a>
+			<a href="/it-blog.html" class="language"><div>italiano</div></a>
 	</div>
 
 	<div class="row">
@@ -28,14 +26,17 @@ title: blog
 <!--{% assign color = site.categories[post.category].color %} -->
 	<a href="{{ post.url }}">
 		<div class="row preview" style="color: var(--white-ish);">
-			<div class="one column">
-				<div class="four-fifths column">
-					<h2 class="post-title">{{ post.title }}</h2>
-				</div>
-				<div class="one-fifth column date">
-					{{ post.date | date: "%d %B %Y" }}
+			<div class="row">
+				<div class="one column">
+					<div class="four-fifths column">
+						<h2 class="post-title">{{ post.title }}</h2>
+					</div>
+					<div class="one-fifth column date">
+						{{ post.date | date: "%d %B %Y" }}
+					</div>
 				</div>
 			</div>
+			<div class="line"></div>
 		</div>
 	</a>
 {% endfor %}

@@ -1,10 +1,11 @@
 :root {
 	--black-ish: #111;
 	--white-ish: #E0E0E0;
+	--grey: #878787;
 	--primary: #FCC920;
 	--secondary: #B12D2C;
 	--dark-secondary: #111;
-	--dark-background: var(--black-ish);
+	--dark-background: black;
 	--dark-font: var(--white-ish);
 	--dark-color-background: var(--dark-secondary);
 	--light-background: var(--white-ish);
@@ -59,6 +60,13 @@ body {
 	scroll-behavior: smooth;
 }
 
+.line {
+	height: 5px;
+	background-color: var(--primary);
+	width: 20%;
+	margin: var(--tiny) auto;
+}
+
 .date {
 	text-align: center;
 }
@@ -74,37 +82,45 @@ body {
 }
 
 .labels {
+	margin-top: var(--huge);
 	text-transform: uppercase;
 	font-weight: bolder;
 	height: var(--height);
-	font-size: var(--morethan-regular);
-	display: inline-block;
 }
 
 .categories {
 	overflow-x: scroll;
 	white-space: nowrap;
-	border: var(--small) solid;
+	border: var(--small) solid var(--dark-font);
 	padding: var(--small);
 }
 
 .topics-indicator {
 	font-size: var(--big);
 	line-height: var(--height);
-	background-color: var(--white-ish);
+	background-color: var(--dark-font);
 	color: var(--dark-background);
-	border: var(--small) solid var(--white-ish);
-	padding: var(--small);
 }
 
-.category {
+.category, .language {
 	display: inline-block;
 	padding: var(--small);
 	margin-right: var(--tiny);
 }
 
+.language {
+	color: var(--dark-font);
+	border: var(--small) solid var(--dark-font);
+	margin-bottom: var(--big);
+	font-size: var(--big);
+}
+
 figcaption {
 	font-style: italic;
+}
+
+article figure {
+	margin-bottom: var(--huge);
 }
 
 pre {
@@ -180,6 +196,14 @@ a.container {
 	.date {
 		text-align: right;
 	}
+	.line {
+		margin: var(--tiny) auto var(--tiny) 15%;
+		width: 70%;
+	}
+	.topics-indicator {
+		border: var(--small) solid var(--dark-font);
+		padding: var(--small) var(--small) 0px var(--small);
+	}
 }
 
 img {
@@ -201,11 +225,7 @@ p {
 }
 
 .preview {
-	margin-bottom: var(--bigger);
-}
-
-.preview a {
-/*	color: var(--white-ish) !important; */
+	margin-bottom: var(--huge);
 }
 
 .image {
@@ -237,6 +257,9 @@ h2 {
 
 a, a:visited {
 	text-decoration: none;
+}
+
+p a, p a:visited {
 	color: var(--link);
 }
 
@@ -244,7 +267,6 @@ p a:hover {
 	padding: 0px 0px 1px 0px;
 	border-bottom: 1px dashed;
 }
-
 
 /* HEADER */
 .navigation {

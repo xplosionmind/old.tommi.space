@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-02T09:04:00+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">xplosionmind</title><subtitle>Tommi's personal blog</subtitle><entry xml:lang="en"><title type="html">Test English</title><link href="http://localhost:4000/test-english/" rel="alternate" type="text/html" title="Test English" /><published>2020-04-30T00:00:00+02:00</published><updated>2020-04-30T00:00:00+02:00</updated><id>http://localhost:4000/test-english</id><content type="html" xml:base="http://localhost:4000/test-english/">&lt;p&gt;Questo è un post di prova&lt;/p&gt;</content><author><name></name></author><summary type="html">Questo è un post di prova</summary></entry><entry xml:lang="it"><title type="html">L’avanguardia</title><link href="http://localhost:4000/avanguardia/" rel="alternate" type="text/html" title="L’avanguardia" /><published>2020-02-07T00:00:00+01:00</published><updated>2020-02-07T00:00:00+01:00</updated><id>http://localhost:4000/Avanguardia</id><content type="html" xml:base="http://localhost:4000/avanguardia/">&lt;p&gt;Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-02T10:12:55+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">xplosionmind</title><subtitle>Tommi's personal blog</subtitle><entry xml:lang="en"><title type="html">Test English</title><link href="http://localhost:4000/test-english/" rel="alternate" type="text/html" title="Test English" /><published>2020-04-30T00:00:00+02:00</published><updated>2020-04-30T00:00:00+02:00</updated><id>http://localhost:4000/test-english</id><content type="html" xml:base="http://localhost:4000/test-english/">&lt;p&gt;Questo è un post di prova&lt;/p&gt;</content><author><name></name></author><summary type="html">Questo è un post di prova</summary></entry><entry xml:lang="it"><title type="html">L’avanguardia</title><link href="http://localhost:4000/avanguardia/" rel="alternate" type="text/html" title="L’avanguardia" /><published>2020-02-07T00:00:00+01:00</published><updated>2020-02-07T00:00:00+01:00</updated><id>http://localhost:4000/Avanguardia</id><content type="html" xml:base="http://localhost:4000/avanguardia/">&lt;p&gt;Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in
 quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su exercise.polito.it nella speranza di osservare un’ispirazione per risolvere un equazione.&lt;/p&gt;
 
 &lt;p&gt;E intorno.&lt;/p&gt;
@@ -15,8 +15,6 @@ quello stato per cui viene annullata anche la forza di chiudere gli occhi, costr
 	&lt;img src=&quot;/images/2020-02-07-Avanguardia.jpg&quot; alt=&quot;l’aula verde&quot; title=&quot;pensa te se uno deve farsi guardare male facendo una figura imbarazzante mettendosi a scattare una foto per il suo stupido blog in mezzo all’aula verde&quot; /&gt;
 	&lt;figcaption&gt;pensa te se uno deve farsi guardare male facendo una figura imbarazzante mettendosi a scattare una foto per il suo stupido blog in mezzo all’aula verde&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Fisica II, Analisi II, Ingegneria Strutturale, Analisi I, Elettrotecnica, Fisiologia, Circuiti, Idrologia, Impianti Industriali, uno sbircia curioso con troppa indiscrezione e riesce a leggere alcuni dei libri furiosamente sfogliati dagli avanguardisti, che ogni tanto schiantano la propria schiena sullo schienale, sbuffando scoraggiati. Poi, ad un orario variabile, entrano gli arabi. Ah, gli arabi. Uno si aggorge che arrivano perché probabilmente non hanno mai imparato a parlare sottovoce. Cominciano ad andare a salutare le persone (gli arabi sono amici di tutti, ti salutano e stringono la mano anche se non li hai mai visti prima) fanno il giro dell’aula per guardare il codice di quelli che stanno programmando, valutano un po’ l’atmosfera, poi se ne vanno. Non si sa dove. Forse nell’aula studio con i vetri (che forse ha un numero ma uno non lo sa, in gergo è così).&lt;/p&gt;
 
@@ -104,8 +102,6 @@ else {
 	&lt;img src=&quot;/images/2020-01-14-Domodossola.jpg&quot; alt=&quot;alberi capillari (anche se in un momento di particolare luce e colore)&quot; title=&quot;capillari (anche se in un momento di particolare luce e colore)&quot; /&gt;
 	&lt;figcaption&gt;capillari (anche se in un momento di particolare luce e colore)&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;alcune-note&quot;&gt;Alcune note&lt;/h3&gt;
 &lt;p&gt;Chiedo perdono se non so più usare le virgole ma quelle che mancano se le è mangiate &lt;a href=&quot;https://it.wikipedia.org/wiki/Un_amore_(romanzo)&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Dino Buzzati&lt;/a&gt;.&lt;/p&gt;
@@ -133,8 +129,6 @@ else {
 	&lt;img src=&quot;/images/2019-11-30-Sono-innamorato.jpg&quot; alt=&quot;rassegna stampa de Il Post, con Francesco Costa e Luca Sofri, presso il circolo dei lettori&quot; title=&quot;la rassegna stampa di questa mattina al Circolo dei Lettori di Torino, con Luca Sofri e Francesco Costa, durante cui mi sono venute in mente queste domande&quot; /&gt;
 	&lt;figcaption&gt;la rassegna stampa di questa mattina al Circolo dei Lettori di Torino, con Luca Sofri e Francesco Costa, durante cui mi sono venute in mente queste domande&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Vorrei indagare, studiare, scoprire come la capacità di scrittura, la “buona penna”, funzionino. Come riescono ad influenzare chi legge. Vorrei studiare le parole, capirle, innamorarmene, ripeterle, pronunciarle con voce profonda, sussurrarle, scriverle, rileggerle, innamorarmene ancora di più e farle mie. Vorrei spezzare le catene che mi legano e mi soffocano quando devo esprimere un’emozione ma nessuna parola riesce anche solo ad avvicinarsi al significato che è ben impresso nella mia mente e vorrei fermarlo su un foglio prima che possa scappare e fuggire per sempre. Eppure so perfettamente che quella parola c’è, non sulla punta della mia lingua, dove dovrebbe stare se “sapessi scrivere”, ma intrappolata nel sentimento stesso che descrive ed io sono incapace di liberarla, perché non la conosco abbastanza da ricordarmene, o meglio, non conosco sufficienti trucchi per sedurla, solleticarla, smuoverla e farla uscire fuori. Perché non sono capace, non riesco a darle il valore che Jimi Hendrix riesce ad attribuire alle vibrazioni intense di ogni singola nota che suona. Non riesco a modellare una frase e farla scivolare naturalmente dall’inchiostro della penna, o farla apparire magicamente sul mio display esattamente come l’ho pensata. Lo faccio lo stesso, però. Scrivo, e sbaglio, e metto le “e” dopo la virgola, e utilizzo termini letterari fuori luogo o invento forme sintattiche complesse solo per ovviare alla mia mancanza, facendo sempre un sacco di errori. Invece non muore, anzi cresce, sempre più importante e rispettata, la mia ammirazione per ciò che nasce da tutto questo pasticcio. Quello che viene fuori dalle parole, quelle che compongono l’essenza della nostra comunicazione diventando l’essenza di noi stessi. Le parole sono chi siamo. Sapere trovare quelle giuste, associarle e confonderle con maestria è un’arte che deve perdere automatismo e meccanicità, ma acquistare consapevolezza e passione. Poterle leggere è un’onore, un rito, un momento unico e inviolabile, sorprendente ed entusiasmante. L’entusiasmo, benzina del lettore selvaggio che smette di curarsi delle formalità e ignora totalmente tutti i crucci di cui ho parlato finora perché concentrato nella totale venerazione dell’effetto stupefacente che anche solo una decina di pagine possono avere su di lui.&lt;/p&gt;
 
@@ -149,8 +143,6 @@ else {
 	&lt;img src=&quot;/images/2019-11-26-Vorrei-avere-culo.jpg&quot; alt=&quot;un simpatico cartello che mostra che in qualunque direzione vai, arrivi a Salerno&quot; title=&quot;Non è difficile scegliere di andare a Salerno (cartello reale: ho scattato questa foto a Giffoni Valle Piana due anni fa)&quot; /&gt;
 	&lt;figcaption&gt;Non è difficile scegliere di andare a Salerno (cartello reale: ho scattato questa foto a Giffoni Valle Piana due anni fa)&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Scegliere. La difficoltà di una scelta è data da una quantità spesso soffocante di differenti aspetti di cui tenere conto. Credo però ci sia solo un particolare ricorrente e determinante in ogni caso: il tempo. In una prospettiva di tempo illimitato ogni scelta sarebbe estremamente più semplice se non addirittura inesistente. Di conseguenza, affrontare problemi con un approccio prevalentemente temporale potrebbe consentire di valutare con più semplicità ogni altro dettaglio. Prendendo in esame un’ipotetica scelta di vita, anche la più decisiva e complessa, si può immediatamente riconoscere quanto, eliminando la variabile del tempo trascorso a perseguire il risultato della risoluzione individuata, ogni alternativa appaia ugualmente interessante e fattibile. Al contrario, avendo fretta ed essendo completamente intrappolati dall’impossibilità di tornare sui propri passi - come per me in questo momento - porta a distorcere la propria concezione di tempo e conseguentemente ad intraprendere percorsi assurdi.&lt;/p&gt;
 
@@ -182,8 +174,6 @@ else {
 	&lt;img src=&quot;https://live.staticflickr.com/65535/49066858996_f9e4c2f1bd_k.jpg&quot; alt=&quot;un carrugio con bandierine gialle&quot; title=&quot;pezzetti di carta gialli in un carrugio - Genova, 13 novembre 2019&quot; /&gt;
 	&lt;figcaption&gt;pezzetti di carta gialli in un carrugio - Genova, 13 novembre 2019&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Vabbè, insomma, sono qui sul treno e mi sono accorto che non scrivo qui da un po’. Però, a dire la verità, avrei molto da raccontare, ma ben poco su cui riflettere, o almeno, nulla di particolarmente profondo ed interessante (per quanto interessante possa essere ciò che scrivo in generale).&lt;/p&gt;
 
@@ -215,8 +205,6 @@ else {
 	&lt;img src=&quot;/images/2019-08-30-squali-consapevoli.jpg&quot; alt=&quot;una fuga romantica in pigiama&quot; title=&quot;la classica fuga in pigiama, romantica però (da un frame di “Everyone”)&quot; /&gt;
 	&lt;figcaption&gt;la classica fuga in pigiama, romantica però (da un frame di “Everyone”)&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Qual è il prezzo che dobbiamo pagare&lt;/p&gt;
 
@@ -290,8 +278,6 @@ else {
 	&lt;img src=&quot;/images/2019-06-29-inciampare.jpg&quot; alt=&quot;una lupetta che percorre in qeuilibrio una manichetta (sì sembra strano ma se vedeste la foto capireste)&quot; title=&quot;&quot; /&gt;
 	&lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Chi non sarò sarà sempre l’ombra di chi sono.&lt;/p&gt;
 
@@ -317,8 +303,6 @@ else {
 	&lt;img src=&quot;/images/2019-06-16-Maturandi.jpg&quot; alt=&quot;Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità&quot; title=&quot;Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità&quot; /&gt;
 	&lt;figcaption&gt;Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Questo è proprio il momento chiave, QUEL momento.&lt;/p&gt;
 
@@ -362,8 +346,6 @@ else {
 	&lt;img src=&quot;/images/2019-05-27-LA-SORPRENDENTE-PREVEDIBILITÀ-DEL-FUTURO.jpg&quot; alt=&quot;Una foto del rivaletore CMS dell’LHC al CERN di Ginevra&quot; title=&quot;Il rivelatore CMS dell’LHC al CERN di Ginevra, unico posto in cui non si ripete proprio nulla: tutto quello che succede è una scoperta. Qui si SVELA, letteralmente, il futuro (in realtà ho messo questa immagine solo perché è troppo figa e sembra una macchina del tempo (&amp;amp;copy CERN)&quot; /&gt;
 	&lt;figcaption&gt;Il rivelatore CMS dell’LHC al CERN di Ginevra, unico posto in cui non si ripete proprio nulla: tutto quello che succede è una scoperta. Qui si SVELA, letteralmente, il futuro (in realtà ho messo questa immagine solo perché è troppo figa e sembra una macchina del tempo (&amp;amp;copy CERN)&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ci sono state anche le elezioni, certo, ma soprattutto è stato fondere il mio cervello: così oggi, mentre ero in biblioteca, proprio a metà del mio pomeriggio di studio certosino dell’intero programma di letteratura latina su cui domani sarò interrogato, la lampadina (“la” perché è sempre la stessa, solo che di solito sta spenta) si è accesa ed ho finalmente preso totale conoscenza di quello che è un cliché, una sententia (oggi me lo sono studiato quindi un termine latino lo dovevo proprio infilare) ormai sentita talmente spesso da essere ignorata.&lt;/p&gt;
 
