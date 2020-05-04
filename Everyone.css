@@ -1,0 +1,34 @@
+body {
+	background: linear-gradient(135deg, #9DB5C1, #415462);
+	color: white;
+}
+
+.page-header {
+	margin-bottom: var(--mastodon);
+}
+
+h1 {
+	letter-spacing: 0.3rem;
+	font-size: var(--mastodon);
+}
+
+h2 {
+	font-weight: lighter;
+	color: #D8E9F0;
+}
+
+p {
+	padding: var(--regular) var(--margin);
+	text-align: center;
+}
+
+.category {
+	position: fixed;
+	top: var(--morethan-regular);
+	right: var(--morethan-regular);
+}
+
+iframe {
+	display: block;
+	margin: 0px auto;
+}

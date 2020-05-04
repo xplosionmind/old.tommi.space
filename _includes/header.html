@@ -36,13 +36,17 @@
  	       			<li><a href="/home#about">About</a></li>
         			<li><a href="/blog">Blog</a></li>
         			<li><a href="/stuff">stuff</a></li>
-					<li><a href="#!">Portfolio</a>
+					<li><a href="#!">Language</a>
 						<ul class="nav-dropdown">
-							<li><a href="#!">Web Design</a></li>
-							<li><a href="#!">Web Development</a></li>
-							<li><a href="#!">Graphic Design</a></li>
+							{% for cosa in site.pages %}
+							{% if cosa.ref == page.ref %}
+								<li>
+									<a href="{{ cosa.url }}" class="{{ cosa.lang }}">{{ cosa.lang }}</a>
+								</li>
+							{% endif %}
+							{% endfor %}
 						</ul>
-        			</li>
+					</li>
         			<li><a href="#!">Contact</a></li>
     			</ul>
 			</nav>

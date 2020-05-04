@@ -2,7 +2,7 @@
 lang: en
 title: "LIBERA"
 alt: "a LIBERA live event"
-src: "https://live.staticflickr.com/65535/46792379345_3d6abc8a52_h.jpg"
+src: "https://live.staticflickr.com/65535/49854137792_8e7ff31b63_b.jpg"
 color: "#0D1833"
 background-color: "#B5D5E2"
 current: true
