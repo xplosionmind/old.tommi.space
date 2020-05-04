@@ -1,17 +1,30 @@
 ---
-title: blog
+title: poetry
+permalink: /poetry
 ---
-<div class="row" id="first-row">
-	<div class="one column">
-		<p class="page-description">non ti preoccupare se non capisci un cavolo, ciò che è scritto qui corrisponde a quello che si trova nella mia test, bbuona fortuna.</p>
+<div class="page-header">
+	<div class="row">
+		<div class="one column">
+			<p class="page-description">ci sono molti pasticci qui. Film mentali e roba varia. Leggere con attenzione. (con attenzione nel senso di prestare attenzione per riuscire a non uscirne pazzi, non inteso come “leggere attentamente”)</p>
+		</div>
 	</div>
 </div>
 
-{% for poem in site.poetry %}
+{% for poem in site.poetry reversed %}
 <!--{% assign color = site.categories[post.category].color %} -->
 	<div class="row preview">
 		<div class="one column">
-				<h2 class="post-title"><a href="{{ poem.url }}">{{ poem.title }}</a></h2>
+				<h2 class="post-title" style="text-align: center;"><a href="{{ poem.url }}" style="color: var(--dark-font);">{{ poem.title }}</a></h2>
+				<div class="line" style="width: 5%; margin: var(--tiny) auto; background-color: var(--secondary);"></div>
 		</div>
 	</div>
 {% endfor %}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

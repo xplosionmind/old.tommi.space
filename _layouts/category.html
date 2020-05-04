@@ -2,13 +2,8 @@
 layout: wrapper
 permalink: "/category/:title/"
 ---
-<div class="row" id="first-row" style="width: 100%;">
-	<div class="one column">
-		<div class="post-title">
-			<h1 style="text-align: center;">{{ page.title }}</h1>
-		</div>
-	</div>
-</div>
+<div class="page-header">
+	<h1 style="color: {{ page.color }}; background-color: {{ page.background-color }}; padding-top: var(--small);">{{ page.title }}</h1>
 
 {{ content }}
 
@@ -17,15 +12,30 @@ permalink: "/category/:title/"
 
 {% for post in site.posts %}
 	{% if post.categories contains page.title %}
-		<div class="row preview">
-			<div class="one column">
-				<div class="four-fifths column">
-					<h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<a href="{{ post.url }}">
+			<div class="row preview" style="color: var(--white-ish);">
+				<div class="row">
+					<div class="one column">
+						<div class="four-fifths column">
+							<h2 class="post-title">{{ post.title }}</h2>
+						</div>
+						<div class="one-fifth column date">
+							{{ post.date | date: "%d %B %Y" }}
+						</div>
+					</div>
 				</div>
-				<div class="one-fifth column date">
-					{{ post.date | date: "%d %B %Y" }}
-				</div>
+				<div class="line"></div>
 			</div>
-		</div>
+		</a>
 	{% endif %}
 {% endfor %}
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

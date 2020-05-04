@@ -57,11 +57,14 @@ body {
 	font-size: var(--regular);
 	margin: 0px;
 	overflow-wrap: break-word;
+}
+
+.scrolling-page {
 	scroll-behavior: smooth;
 }
 
 .line {
-	height: 5px;
+	height: var(--tiny);
 	background-color: var(--primary);
 	width: 20%;
 	margin: var(--tiny) auto;
@@ -81,11 +84,13 @@ body {
 	margin-bottom: 10rem;
 }
 
+.page-description {
+	margin: 0px auto;
+	width: 80%;
+}
+
 .labels {
 	margin-top: var(--regular);
-	text-transform: uppercase;
-	font-weight: bolder;
-	height: var(--height);
 }
 
 .categories {
@@ -93,6 +98,7 @@ body {
 	white-space: nowrap;
 	border: var(--small) solid var(--dark-font);
 	padding: var(--small);
+	scroll-behavior: smooth;
 }
 
 .topics-indicator {
@@ -106,6 +112,9 @@ body {
 	display: inline-block;
 	padding: var(--small);
 	margin-right: var(--tiny);
+	text-transform: uppercase;
+	font-weight: bolder;
+	height: var(--height);
 }
 
 .language {
@@ -256,13 +265,38 @@ a, a:visited {
 	text-decoration: none;
 }
 
-p a, p a:visited {
+#stuff-tree a, p a, p a:visited, #stuff-tree a:visited {
 	color: var(--link);
 }
 
-p a:hover {
+#stuff-tree a:hover, p a:hover {
 	padding: 0px 0px 1px 0px;
 	border-bottom: 1px dashed;
+}
+
+.stuff {
+	padding: 0px 10%;
+	display: block;
+}
+
+.stuff img {
+	height: var(--margin);
+	width: auto;
+	max-width: 100%;
+	margin: var(--mastodon) auto var(--height);
+	display: inherit;
+	object-fit: contain;
+}
+
+.stuff .category {
+	margin: var(--height) auto;
+	line-height: var(--height);
+	padding: 0.17rem var(--lessthan-regular) 0px;
+	font-size: var(--morethan-regular);
+}
+
+.link-container {
+	text-align: center;
 }
 
 /* HEADER */
@@ -401,6 +435,7 @@ nav ul li ul li a {
 @media screen and (min-width: 800px) {
 	.nav-list {
 		display: block !important;
+		margin-right: var(--regular);
 	}
 }
 #nav-toggle {

@@ -1,18 +1,19 @@
 ---
-title: blog
+title: "blog"
+permalink: /blog
 ---
 <div class="page-header">
 	<h1 style="margin-bottom: var(--margin);">non.miami</h1>
 	<div class="row labels">
-			<a href="/en-blog.html" class="language"><div>english</div></a>
-			<a href="/it-blog.html" class="language"><div>italiano</div></a>
+			<a href="/blog/en" class="language"><div>english</div></a>
+			<a href="/blog/it" class="language"><div>italiano</div></a>
 	</div>
 
 	<div class="row">
 		<div class="one column labels">
 			<div class="one-fourth column topics-indicator">SCROLL TOPICS</div>
 			<div class="three-fourths column categories">
-				<a href="/poetry.html" style="color: purple;"><div class="category" style="background-color: pink;">Fake Poetry</div></a>
+				<a href="/poetry" style="color: purple;"><div class="category" style="background-color: pink;">Fake Poetry</div></a>
 				{% for category in site.categories %}
 					<a href="{{ category.url }}" style="color: {{ category.color }};"><div class="category" style="background-color: {{ category.background-color }};">{{ category.title }}</div></a>
 				{% endfor %}
@@ -23,20 +24,28 @@ title: blog
 
 
 {% for post in site.posts %}
-<!--{% assign color = site.categories[post.category].color %} -->
-	<a href="{{ post.url }}">
-		<div class="row preview" style="color: var(--white-ish);">
-			<div class="row">
-				<div class="one column">
-					<div class="four-fifths column">
-						<h2 class="post-title">{{ post.title }}</h2>
-					</div>
-					<div class="one-fifth column date">
-						{{ post.date | date: "%d %B %Y" }}
+		<a href="{{ post.url }}">
+			<div class="row preview" style="color: var(--white-ish);">
+				<div class="row">
+					<div class="one column">
+						<div class="four-fifths column">
+							<h2 class="post-title">{{ post.title }}</h2>
+						</div>
+						<div class="one-fifth column date">
+							{{ post.date | date: "%d %B %Y" }}
+						</div>
 					</div>
 				</div>
+				<div class="line"></div>
 			</div>
-			<div class="line"></div>
-		</div>
-	</a>
+		</a>
 {% endfor %}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

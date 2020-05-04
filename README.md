@@ -53,6 +53,7 @@
 - [ ] final header configuration
 - [ ] Serif font styling in posts
 - [ ] page image preview when sending link
+- [ ] categories description and link to stuff
 
 ### CREATIVE IDEAS
 

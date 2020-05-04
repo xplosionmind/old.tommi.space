@@ -1,0 +1,67 @@
+---
+title: home
+permalink: /home/
+---
+	<div class="row">
+		<div class="one column">
+			<div class="page-header">
+				<h1>WARNING</h1>
+				<p class="page-description"><a href="#about">about</a>ahah it's so funny to make it look like you just landed in a spam site. Don't worry, it's not (completely), this warning is here to tell you to pay attention to this website content. It's dangerous and you may get crazy as its owner. Not so good.<p/>
+						<p class="page-description">this is Tommi's website. You can find out more about him and about his stuff by browsing around. Just one last thing: all of these pages are programmed by Tommi. He's not a pro developer and he's not so good with web design. Thus, feel free to share any thoughts by opening a <a href="https://github.com/xplosionmind/xplosionmind/issues" rel="noopener" target="_blank">GitHub issue</a>. Have fun!</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row" id="about">
+		<div class="half column">
+			<img src="/images/tencoascolta.jpg" alt="a photo of me with a microphone in my hand presenting an event" title="me speaking">
+		</div>
+		<div class="half column">
+			<article>
+				<h1>who is this ugly guy</h1>
+				<br />
+				<p>My name is Tommi.
+	
+				<br />
+
+				I'm an enthusiast, I love getting involved in new stuff and I speak endlessly, definitely too much. I'm an happy guy, but this doesn't mean I don't cry (just make me watch any of these movies and I'll never stop).
+	
+				<br />
+
+				When not studying, I do pretty much everything. This means, like Leibnitz said, _in my life I started everything and concluded nothing_ (you got it: a lot of quotes and very little knowledge, that's me). Among the things I do, you can find the coolest ones (or just the ones I'm most proud of) browsing this website. Speaking of which: sorry if these pages don't please you or if they're too messy, I just got started with web programming. If you need a cleaner way to browse: this is <a href="https://xplosionmind.tk" rel="noopener" target="_blank">my old, soon-to-be-deprecated website</a>.
+
+				<br />
+
+			There's nothing much else to say, anything you'd want to know you can discover it by reading my crazy blog.
+
+				<br />
+
+				Ok, about the technical stuff you may be looking for to get in touch:
+
+				- my Linkedin profile
+				- my Curriculum Vitae (maybe you know it as "resume". Yep, that thing)
+				- my email aaaand my public PGP key
+
+				<br />
+	
+				I tweet a lot.
+				</p>
+			</article>
+		</div>
+	</div>
+	
+	{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
+	{% for thing in stuff %}
+		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }};" id="{{ thing.title | slugify }}">
+			<div class="half column">
+			<img src="images/stuff/{{ thing.title | slugify }}.svg" alt="{{ thing.alt }}" title="{{ thing.title }}" />
+			</div>
+			<div class="half column thing-description">
+				<div class="stuff-logo">
+					<img src="stuff-logos/{{ thing.title | slugify }}.svg" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
+				</div>
+				<p>{{ thing.content }}</p>
+				<div class="category" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div>
+			</div>
+		</div>
+	{% endfor %}
