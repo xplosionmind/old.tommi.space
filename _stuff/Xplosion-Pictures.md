@@ -11,5 +11,6 @@ button: "portfolio"
 link: "https://flic.kr/s/aHsm9QmZRj"
 personal: true
 logo: "Xplosion-Pictures.svg"
+ref: xplosionpic
 ---
 videos and photos I shoot around the world or just when people ask me to

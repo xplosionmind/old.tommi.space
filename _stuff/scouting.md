@@ -11,5 +11,6 @@ button: "discover"
 link: "https://scout.org"
 personal: false
 logo: "Scouting.svg"
+ref: scout
 ---
 I'm a scout since when I was 8. I love scouting and I'm proud to be part of this wonderful association.

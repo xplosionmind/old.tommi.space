@@ -11,5 +11,6 @@ button: "discover"
 link: "https://web.archive.org/web/20160602122044/http://www.sanremonews.it/2016/06/01/leggi-notizia/argomenti/eventi-1/articolo/gli-allievi-del-progetto-orchestrando-yamaha-di-sanremo-e-arma-di-taggia-al-festival-nazionale.html"
 personal: false
 logo: "OrchestranDo.svg"
+ref: orchestrando
 ---
 I used to play trumpet and I was part of a small orchestra of young woodwinds players a few years ago. We took part to several music festivals around Italy

@@ -11,6 +11,7 @@ button: "LIBERA"
 link: "https://libera.it"
 personal: false
 logo: "LIBERA.png"
+ref: LIBERA
 ---
 Libera is an association that **fights mafia** in a non-violent way, promoting events and educating people to legality.
 

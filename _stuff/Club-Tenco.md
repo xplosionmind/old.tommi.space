@@ -11,5 +11,6 @@ button: "listen"
 link: "https://clubtenco.it"
 personal: false
 logo: "Tenco.png"
+ref: Tenco
 ---
 The Tenco Prize by Club Tenco is the most important prize for songwriters in Italy. I have the honour to work there and join with my friends the wonderful team of the organisers of the Festival.

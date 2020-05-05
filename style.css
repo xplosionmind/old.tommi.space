@@ -245,6 +245,13 @@ p {
 	margin: 0px;
 }
 
+.section-title {
+	background-color: var(--secondary);
+	padding: var(--small);
+	margin: var(--margin) auto 0px;
+	text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	line-height: 0.97em;

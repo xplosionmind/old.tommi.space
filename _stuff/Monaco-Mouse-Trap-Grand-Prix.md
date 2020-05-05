@@ -11,5 +11,6 @@ button: "discover"
 link: "https://mousetraprace.com"
 personal: false
 logo: "Mouse-trap.svg"
+ref: mousetrap
 ---
 I unexpectedly won the 2018 edition of the Monaco Mouse Trap Grand Prix, building and running the fastest car powered just by the force of a mouse trap

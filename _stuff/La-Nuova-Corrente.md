@@ -11,5 +11,6 @@ button: "discover"
 link: "https://lanuovacorrente.it"
 personal: false
 logo: "La-Nuova-Corrente.svg"
+ref: lanuovacorrente
 ---
 La Nuova Corrente is a school **journalism project** by Ufficio Stampa Liceo G.D. Cassini in Sanremo. We wrote articles, shot videos, conducted interviews, and do a ton of other cool stuff.

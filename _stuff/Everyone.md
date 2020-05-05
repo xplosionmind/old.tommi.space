@@ -8,8 +8,9 @@ background-color: "#425462"
 current: false
 order: 6
 button: "wake up"
-link: "https://xplosionmind.tk/everyone"
+link: "/Everyone.html"
 personal: true
 logo: "Everyone.svg"
+ref: Everyone
 ---
 A short movie I made. My first one and my worst one yet.

@@ -2,12 +2,9 @@
 title: stuff
 lang: en
 permalink: "/stuff"
+ref: stuff
 ---
 	<style>
-		h2 {
-			text-align: center;
-			margin: var(--mastodon) auto var(--regular) auto;
-		}
 		ul, h3 {
 			margin-left: 25%;
 		}
@@ -54,13 +51,15 @@ permalink: "/stuff"
 		</div>
 	</div>
 
-	<h2>CURRENT</h2>
+	<h2 class="section-title">current</h2>
 
 	{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
 	{% for thing in stuff %}
 		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
 			<div class="half column">
-				<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
+				<div class="stuff-image">
+					<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
+				</div>
 			</div>
 			<div class="half column stuff">
 				<div class="stuff-logo">
@@ -74,13 +73,15 @@ permalink: "/stuff"
 		</div>
 	{% endfor %}
 
-	<h2>PAST</h2>
+	<h2 class="section-title">past</h2>
 	
 	{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "false" %}
 	{% for thing in stuff %}
 		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
 			<div class="half column">
-				<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
+				<div class="stuff-image">
+					<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
+				</div>
 			</div>
 			<div class="half column stuff">
 				<div class="stuff-logo">

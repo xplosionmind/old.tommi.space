@@ -1,69 +1,111 @@
 ---
-title: tuffo
-permalink: /tuffo/
+title: home
+permalink: /it/home/
 lang: it
 ref: home
 ---
+</style>
 	<div class="row">
 		<div class="one column">
 			<div class="page-header">
 				<h1>ATTENZIONE</h1>
-				<p class="page-description"><a href="#about">about</a>ahah it's so funny to make it look like you just landed in a spam site. Don't worry, it's not (completely), this warning is here to tell you to pay attention to this website content. It's dangerous and you may get crazy as its owner. Not so good.<p/>
-						<p class="page-description">this is Tommi's website. You can find out more about him and about his stuff by browsing around. Just one last thing: all of these pages are programmed by Tommi. He's not a pro developer and he's not so good with web design. Thus, feel free to share any thoughts by opening a <a href="https://github.com/xplosionmind/xplosionmind/issues" rel="noopener" target="_blank">GitHub issue</a>. Have fun!</p>
+				<p class="page-description">È molto divertente far sembrare questa la home di un sito di spam. Avevo quasi pensato di far partire “ragazzi, sono veramente euforico”, ma no, qui non c’è (solo) spam. Di sicuro tanta confusione, emozioni, foto, pensieri e pasticci vari. L’“ATTENZIONE” è perché bisogna cercare di non farsi coinvolgere troppo da tutte le cose qui dentro o si rischia di diventare matti come il loro autore. Fortemente sconsigliato.
+					<br />
+					<br />
+				Il matto creatore di questo è Tommi, puoi sapere di più girando fra le pagine.
+					<br />
+				Solo un’ultima nota: tutto questo sito, ogni sua singola pagina, è stato programmato da zero, con grande fatica, da lui. Per questo, è probabile che ci siano un po’ di cose che si vedono sbagliate. Per qualunque appunto, segnalazione o suggerimento, vi prego di aprire un <a href="https://github.com/xplosionmind/xplosionmind/issues" rel="noopener" target="_blank">issue su GitHub</a> o di scrivermi a tommiboom+website chiocciola protonmail punto com.
+					<br />
+					<br />
+				Buon divertimento.</p>
 			</div>
 		</div>
 	</div>
 
+	<h2 class="section-title">chi sono</h2>
 	<div class="row" id="about">
 		<div class="half column">
-			<img src="/images/tencoascolta.jpg" alt="a photo of me with a microphone in my hand presenting an event" title="me speaking">
+
+			<img src="/images/tencoascolta.jpg" alt="a photo of Tommi with a microphone in my hand conducting a live show" title="Tommi on stage conducting a live show">
 		</div>
 		<div class="half column">
 			<article>
-				<h1>who is this ugly guy</h1>
+				<h1>chi è questo strano tipo</h1>
 				<br />
-				<p>My name is Tommi.
+				<p>Mi chiamo Tommi,
+				
+				<br />
+				<br />
+
+				Sono un’entusiasta. Adoro farmi coinvolgere in qualunque progetto o creazione e le rotelle nella mia testa non smettono mai di girare. Spesso e soprattutto per cose inutili. Sono un tipo allegro, ma non vuol dire che non pianga (basta farmi vedere il film giusto).
 	
 				<br />
 
-				I'm an enthusiast, I love getting involved in new stuff and I speak endlessly, definitely too much. I'm an happy guy, but this doesn't mean I don't cry (just make me watch any of these movies and I'll never stop).
-	
-				<br />
-
-				When not studying, I do pretty much everything. This means, like Leibnitz said, _in my life I started everything and concluded nothing_ (you got it: a lot of quotes and very little knowledge, that's me). Among the things I do, you can find the coolest ones (or just the ones I'm most proud of) browsing this website. Speaking of which: sorry if these pages don't please you or if they're too messy, I just got started with web programming. If you need a cleaner way to browse: this is <a href="https://xplosionmind.tk" rel="noopener" target="_blank">my old, soon-to-be-deprecated website</a>.
+				L’obiettivo della mia esistenza è poter conoscere tutte le persone del mondo, per questo, quando non studio, provo a fare quasi tutto. Qui significa, come diceva il mitico Leibniz, che “Nella mia vita ho cominciato tutto e concluso nulla”. Potete scoprire una piccola selezione di ciò di cui più vado fiero girando nel sito. A proposito, ho appena compinciato con la programmazione web, se c’è qualcosa che non va, basta scrivermi un’email a tommiboom chiocciola protonmail punto com. Se non ci capite un cavolo, benvenuti nella mia testa. Se non ci capite un cavolo e vorreste capire di più, per ora è ancora online <a href="https://xplosionmind.tk" rel="noopener" target="_blank">il mio vecchio sito</a>, che presto scomparirà</p>
 
 				<br />
 
-			There's nothing much else to say, anything you'd want to know you can discover it by reading my crazy blog.
+				Non c’è molto altro da dire. Tutto quello che mi passa per la testa è <a href="/blog" target="_blank">sul blog</a>.
 
 				<br />
 
-				Ok, about the technical stuff you may be looking for to get in touch:
-
-				- my Linkedin profile
-				- my Curriculum Vitae (maybe you know it as "resume". Yep, that thing)
-				- my email aaaand my public PGP key
+				Alcune informazioni pratiche utili:
+				<ul>
+					<li>il mio <a href="https://linkedin.com/tommaso.marmo" rel="noopener" target="_blank">profilo Linkedin</a></li>
+					<li>il mio Curriculum Vitae</li>
+					<li>il mio indirizzo email è tommiboom chiocciola protonmail punto com. Se possibile, vi prego di usare la mia <a>chiave PGP</a></li>
+					<li>il mio username è xplosionmind ovunque. Se non c’è xplosionmind, non ci sono. Trovate alcuni link in fondo alla pagina.</li>
+				</ul>
 
 				<br />
 	
-				I tweet a lot.
+				<a href="https://twitter.com/xplosionmind" rel="noopener" target="_blank">Twitto molto</a>. Troppo.
 				</p>
 			</article>
 		</div>
 	</div>
 	
-	{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
-	{% for thing in stuff %}
-		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }};" id="{{ thing.title | slugify }}">
+	<h2 class="section-title">Ultimo articolo</h2>
+
+	{% for post in site.posts %}
+		{% if forloop.first == true %}
+		<div class="row" style="overflow: hidden;">
 			<div class="half column">
-			<img src="images/stuff/{{ thing.title | slugify }}.svg" alt="{{ thing.alt }}" title="{{ thing.title }}" />
+				<div class="stuff-image">
+					<img src="{{ post.img }}" alt="{{ post.title }}" title="{{ post.title }}" />
+				</div>
 			</div>
-			<div class="half column thing-description">
+			<div class="half column stuff">
+				<h1>{{ post.title }}</h1>
+				<p>{{ post.excerpt }}...</p>
+				<div class="link-container">
+					<a href="{{ post.url }}" rel="noopener" target="_blank"><div class="category" style="color: var(--dark-background); background: var(--dark-font)">leggi</div></a>
+				</div>
+			</div>
+		</div>
+		{% endif %}
+	{% endfor %}
+		
+	<h2 class="section-title">immagini</h2>
+
+	<h2 class="section-title">attività recenti</h2>
+	
+	{% assign stuff=site.stuff | where:"lang", page.lang | where:"featured", "true" %}
+	{% for thing in stuff %}
+		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
+			<div class="half column">
+				<div class="stuff-image">
+					<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
+				</div>
+			</div>
+			<div class="half column stuff">
 				<div class="stuff-logo">
-					<img src="stuff-logos/{{ thing.title | slugify }}.svg" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
+					<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
 				</div>
 				<p>{{ thing.content }}</p>
-				<div class="category" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div>
+				<div class="link-container">
+					<a href="{{ thing.link }}" rel="noopener" target="_blank"><div class="category" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div></a>
+				</div>
 			</div>
 		</div>
 	{% endfor %}

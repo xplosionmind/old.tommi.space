@@ -11,5 +11,6 @@ button: "discover"
 link: "https://www.giffonifilmfestival.it"
 personal: false
 logo: "Giffoni.svg"
+ref: Giffoni
 ---
-We're cinema lovers coming from all over the world, we are giffoners. Watching films and asking tricky questions to famous directors and actors is what we do.
+We're cinema lovers coming from all over the world. We are Giffoners. Watching films and asking tricky questions to famous directors and actors is what we do.
