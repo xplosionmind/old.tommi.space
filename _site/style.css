@@ -52,11 +52,26 @@ html {
 
 body {
 	background-color: var(--dark-background);
-	font-family: Helvetica, sans-serif;
+	font-family: "Inter", "Fira Sans", Helvetica, sans-serif;
+	font-weight: 300;
 	color: var(--dark-font);
 	font-size: var(--regular);
 	margin: 0px;
 	overflow-wrap: break-word;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+
+.post {
+	font: 400 var(--morethan-regular)/1.5 "Playfair Display", serif;
+}
+
+.post strong, .post b {
+	font-weight: 700;
+}
+
+.post p:first-child::first-letter {
+	font-size: 3em;
 }
 
 .scrolling-page {
@@ -280,7 +295,12 @@ a, a:visited {
 	text-decoration: none;
 }
 
-#stuff-tree a, p a, p a:visited, #stuff-tree a:visited {
+#stuff-tree a,
+p a,
+p a:visited,
+#stuff-tree a:visited,
+article a,
+article a:visited {
 	color: var(--link);
 }
 

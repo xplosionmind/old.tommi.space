@@ -37,7 +37,7 @@ ref: home
 				<br />
 				<br />
 
-				Sono un’entusiasta. Adoro farmi coinvolgere in qualunque progetto o creazione e le rotelle nella mia testa non smettono mai di girare. Spesso e soprattutto per cose inutili. Sono un tipo allegro, ma non vuol dire che non pianga (basta farmi vedere il film giusto).
+				Sono un entusiasta. Adoro farmi coinvolgere in qualunque progetto o creazione e le rotelle nella mia testa non smettono mai di girare. Spesso e soprattutto per cose inutili. Sono un tipo allegro, ma non vuol dire che non pianga (basta farmi vedere il film giusto).
 	
 				<br />
 
@@ -51,7 +51,7 @@ ref: home
 
 				Alcune informazioni pratiche utili:
 				<ul>
-					<li>il mio <a href="https://linkedin.com/tommaso.marmo" rel="noopener" target="_blank">profilo Linkedin</a></li>
+					<li>il mio <a href="https://www.linkedin.com/in/tommasomarmo/" rel="noopener" target="_blank">profilo Linkedin</a></li>
 					<li>il mio Curriculum Vitae</li>
 					<li>il mio indirizzo email è tommiboom chiocciola protonmail punto com. Se possibile, vi prego di usare la mia <a>chiave PGP</a></li>
 					<li>il mio username è xplosionmind ovunque. Se non c’è xplosionmind, non ci sono. Trovate alcuni link in fondo alla pagina.</li>
@@ -88,11 +88,11 @@ ref: home
 		
 	<h2 class="section-title">immagini</h2>
 
-	<h2 class="section-title">attività recenti</h2>
+	<h2 class="section-title">progetti recenti</h2>
 	
 	{% assign stuff = site.stuff | where:"lang", page.lang %}
 	{% for thing in stuff %}
-	{% if thing.featured contains 'true' %}
+	{% if thing.featured == 'true' %}
 		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
 			<div class="half column">
 				<div class="stuff-image">

@@ -12,5 +12,6 @@ link: "https://clubtenco.it"
 personal: false
 logo: "Tenco.png"
 ref: Tenco
+featured: true
 ---
 Il Premio Tenco è il più importante riconoscimento per la musica d’autore in Italia. Ho l’onore e la fortuna di lavorare con il Club Tenco assieme a un gruppo di miei amici durante tutto l’anno, in particolare nel corso della rassegna di Ottobre che si tiene all’Ariston di Sanremo.

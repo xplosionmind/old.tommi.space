@@ -1,15 +1,9 @@
 ---
 layout: wrapper
-permalink: "/:title/"
+permalink: "/:title"
 ---
-	<style>
-		article p:first-child::first-letter {
-			font-size: 3em;
-		}
-	</style>
-
 {% if page.code == true %}
-	<link rel="stylesheet" type="text/css" href="/highlight_atom-one-dark-reasonable.css" />
+	<link rel="stylesheet" type="text/css" href="/highlight_atom-one-dark.css" />
 	<script src="/highlight.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
 {% endif %}
@@ -20,7 +14,7 @@ permalink: "/:title/"
 </div>
 <div class="row">
 	<div class="one column">
-		<article>
+		<article class="post">
 			{{ content }}
 		</article>
 	</div>
@@ -29,7 +23,12 @@ permalink: "/:title/"
 <div class="row">
 	<div class="one column">
 		<div id="sharing-box" class="button-box">
-			<div>share this article</div>
+			{% case page.lang %}
+			{% when 'it' %}
+			<div>condividi questo post</div>
+			{% else %}
+			<div>share this post</div>
+			{% endcase %}
 
 			<!-- Sharingbutton Facebook -->
 			<a href="https://facebook.com/sharer/sharer.php?u={{ site.baseurl | url_encode }}{{ post.permalink }}" target="_blank" rel="noopener">
