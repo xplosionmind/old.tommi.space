@@ -11,8 +11,8 @@
 	--light-background: var(--white-ish);
 	--light-font: var(--black-ish);
 	--link: var(--primary);
-	--tiny: 0.225rem;
-	--small: 0.45rem;
+	--tiny: 0.2rem;
+	--small: 0.5rem;
 	--lessthan-regular: 0.9rem;
 	--regular: 1.1rem;
 	--morethan-regular: 1.3rem;
@@ -89,16 +89,14 @@ body {
 	width: 80%;
 }
 
-.labels {
-	margin-top: var(--regular);
-}
-
 .categories {
 	overflow-x: scroll;
+	overflow-y: hidden;
 	white-space: nowrap;
-	border: var(--small) solid var(--dark-font);
-	padding: var(--small);
+	border: var(--tiny) solid var(--dark-font);
+	padding: var(--tiny);
 	scroll-behavior: smooth;
+	height: var(--height);
 }
 
 .topics-indicator {
@@ -106,22 +104,35 @@ body {
 	line-height: var(--height);
 	background-color: var(--dark-font);
 	color: var(--dark-background);
+	height: var(--height);
+	padding-top: var(--tiny);
+	font-weight: bolder;
 }
 
 .category, .language {
 	display: inline-block;
-	padding: var(--small);
-	margin-right: var(--tiny);
 	text-transform: uppercase;
 	font-weight: bolder;
-	height: var(--height);
+	font-size: var(--big);
+	height: 2.3rem; /* height - 4*tiny */
+	line-height: 2.3rem;
+	transition: transform .2s;
+	margin: 0px;
+	padding: 0px var(--small);
+}
+
+.category:hover, .language:hover {
+	transform: scale(1.05);
 }
 
 .language {
 	color: var(--dark-font);
-	border: var(--small) solid var(--dark-font);
-	margin-bottom: var(--big);
-	font-size: var(--big);
+	border: var(--tiny) solid var(--primary);
+	margin-bottom: var(--regular);
+	font-size: var(--bigger);
+	height: var(--height);
+	line-height: var(--height);
+	transition: transform .2s;
 }
 
 figcaption {
@@ -194,20 +205,16 @@ a.container {
 	.column {
 		float: left;
 	}
-	.categories {
+/*	.categories {
 		font-size: var(--big);
 		line-height: var(--big)
-	}
+	} */
 	.date {
 		text-align: right;
 	}
 	.line {
 		margin: var(--tiny) auto var(--tiny) 15%;
 		width: 70%;
-	}
-	.topics-indicator {
-		border: var(--small) solid var(--dark-font);
-		padding: var(--small) var(--small) 0px var(--small);
 	}
 }
 
@@ -365,7 +372,11 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover,
-nav ul li a:visited:hover {
+nav ul li a:visited:hover,
+nav ul li a:focus,
+nav ul li a:visited:focus,
+nav ul li a:visited:active,
+nav ul li a:active {
 	background: var(--dark-background);
 	color: var(--primary);
 	transition: background .2s, color .2s;
@@ -436,7 +447,10 @@ nav ul li ul li a {
 		text-align: center;
 	}
 	#intro h1 {
-		font-size: 2rem;
+		font-size: 2.1rem;
+	}
+	.page-header h1 {
+		font-size: var(--height);
 	}
 }
 
