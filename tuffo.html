@@ -1,6 +1,6 @@
 ---
 title: home
-permalink: /it/home/
+permalink: /it/home
 lang: it
 ref: home
 ---
@@ -90,8 +90,9 @@ ref: home
 
 	<h2 class="section-title">attività recenti</h2>
 	
-	{% assign stuff=site.stuff | where:"lang", page.lang | where:"featured", "true" %}
+	{% assign stuff = site.stuff | where:"lang", page.lang %}
 	{% for thing in stuff %}
+	{% if thing.featured contains 'true' %}
 		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
 			<div class="half column">
 				<div class="stuff-image">
@@ -108,4 +109,5 @@ ref: home
 				</div>
 			</div>
 		</div>
+	{% endif %}
 	{% endfor %}

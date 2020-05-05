@@ -1,6 +1,6 @@
 ---
 title: "L’avanguardia"
-permalink: "/avanguardia/"
+permalink: /avanguardia
 code: true
 ---
 Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in

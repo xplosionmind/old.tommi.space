@@ -1,6 +1,7 @@
 ---
 title: crossover
 date: 2019-11-03
+lang: it
 ---
 l’altro giorno stavo chiacchierando
 

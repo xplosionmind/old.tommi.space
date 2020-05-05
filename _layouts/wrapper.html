@@ -11,11 +11,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="icon" href="/favicon.svg" sizes="32x32" />
 	<link rel="icon" href="/favicon.svg" sizes="192x192" />
-	<title>XPLOSIONMIND | {{page.title}}</title>
+	<title>XPLOSIONMIND | {{ page.title }}</title>
 </head>
 <body>
-	{% include header.html %}
+	{% include header.html lang=page.lang %}
 	{{ content }}
-	{% include footer.html %}
+	{% include footer.html lang=page.lang %}
 </body>
 </html>

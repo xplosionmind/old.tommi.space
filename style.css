@@ -247,7 +247,7 @@ p {
 
 .section-title {
 	background-color: var(--secondary);
-	padding: var(--small);
+	padding: var(--lessthan-regular) var(--small) var(--small);
 	margin: var(--margin) auto 0px;
 	text-align: center;
 }
@@ -514,18 +514,20 @@ footer p {
 }
 
 /* "Privacy" in footer */
-footer .one-fifth { 
-	margin-top: var(--bigger);
+footer .one-fifth {
+	margin-top: var(--morethan-regular);
 }
 
-footer .one-fifth a {
+footer .one-fifth p a {
 	opacity: .7;
 	color: var(--white-ish);
+	text-align: center;
 }
 
 footer p:hover {
-	transition: opacity .2s;
+	transition: opacity .2s, font-weight .2s;
 	opacity: 100%;
+	font-weight: bolder;
 }
 
 footer form {

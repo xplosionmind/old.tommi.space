@@ -1,5 +1,5 @@
 ---
-permalink: "/parole/"
+permalink: /parole
 ---
 Cosa vuol dire saper scrivere.
 

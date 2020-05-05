@@ -1,6 +1,7 @@
 ---
 title: "Polizia cinese"
 date: 2019-10-12
+lang: it
 ---
 l’altro giorno ho tentato di entrare
 

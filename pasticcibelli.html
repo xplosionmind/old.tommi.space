@@ -1,31 +1,31 @@
 ---
-title: poetry
-permalink: /poetry
+title: "Pasticci belli"
+permalink: /pasticcibelli
 lang: it
-ref: poetry
+ref: pasticcibelli
 ---
 <div class="page-header">
 	<div class="row">
 		<div class="one column">
-			<h1>Fake poetry</h1>
+			<h1>Pasticci Belli</h1>
 		</div>
 	</div>
 	<div class="row">
 		<div class="one column">
-			<div class="page-description">
-				<p>ci sono molti pasticci qui. Film mentali e roba varia. Leggere con attenzione. (con attenzione nel senso di prestare attenzione per riuscire a non uscirne pazzi, non inteso come “leggere attentamente”). Se non sapete scegliere e i pasticci sono troppi, ho selezionato <a href="/pasticcibelli">i pasticci più belli</a>.</p>
-			</div>
+			<p class="page-description">Ecco. qui c’è l’apoteosi dei miei pasticci. Il mio giudizio è soggettivo, il pasticcio per voi più buono potrebbe non essere fra questi (più probabilmente, non c’è proprio). Volendo, si può sempre tornare a <a href="/poetry">tutti i pasticci</a>.</p>
 		</div>
 	</div>
 </div>
 
 {% for poem in site.poetry reversed %}
+{% if poem.bella contains 'true' %}
 	<div class="row preview">
 		<div class="one column">
 				<h2 class="post-title" style="text-align: center;"><a href="{{ poem.url }}" style="color: var(--dark-font);">{{ poem.title }}</a></h2>
 				<div class="line" style="width: 5%; margin: var(--tiny) auto; background-color: var(--secondary);"></div>
 		</div>
 	</div>
+{% endif %}
 {% endfor %}
 
 <br />

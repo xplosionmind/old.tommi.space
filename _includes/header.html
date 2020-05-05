@@ -25,18 +25,20 @@
 })(jQuery); // end jQuery
 </script>
 <body>
+	{% case include.lang %}
+	{% when 'it' %}
 	<section class="navigation">
 		<div class="nav-container">
 			<div class="xplosionmind">
-				<a href="/home">xplosionmind</a>
+				<a href="/it/home">xplosionmind</a>
 			</div>
 		<nav>
 			<div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
 				<ul class="nav-list">
- 	       			<li><a href="/home#about">About</a></li>
-        			<li><a href="/blog">Blog</a></li>
-        			<li><a href="/stuff">stuff</a></li>
-					<li><a href="#!">Language</a>
+ 	       			<li><a href="/it/home#about">about</a></li>
+        			<li><a href="/blog">blog</a></li>
+        			<li><a href="/it/stuff">tutto</a></li>
+					<li><a href="#!">lingua</a>
 						<ul class="nav-dropdown">
 							{% for cosa in site.pages %}
 							{% if cosa.ref == page.ref %}
@@ -47,9 +49,38 @@
 							{% endfor %}
 						</ul>
 					</li>
-        			<li><a href="#!">Contact</a></li>
+        			<li><a href="/immagini">immagini</a></li>
     			</ul>
 			</nav>
 		</div>
 	</section>
+	{% when 'en' %}
+	<section class="navigation">
+		<div class="nav-container">
+			<div class="xplosionmind">
+				<a href="/home">xplosionmind</a>
+			</div>
+		<nav>
+			<div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+				<ul class="nav-list">
+ 	       			<li><a href="/home#about">about</a></li>
+        			<li><a href="/blog">blog</a></li>
+        			<li><a href="/stuff">stuff</a></li>
+					<li><a href="#!">language</a>
+						<ul class="nav-dropdown">
+							{% for cosa in site.pages %}
+							{% if cosa.ref == page.ref %}
+								<li>
+									<a href="{{ cosa.url }}" class="{{ cosa.lang }}">{{ cosa.lang }}</a>
+								</li>
+							{% endif %}
+							{% endfor %}
+						</ul>
+					</li>
+        			<li><a href="/immagini.html">shots</a></li>
+    			</ul>
+			</nav>
+		</div>
+	</section>
+	{% endcase %}
 </body>

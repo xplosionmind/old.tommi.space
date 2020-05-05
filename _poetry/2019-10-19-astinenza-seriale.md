@@ -1,6 +1,7 @@
 ---
 title: "astinenza seriale"
 date: 2019-10-19
+lang: it
 ---
 usavi il lampadario come trapezio
 

@@ -51,7 +51,7 @@ ref: stuff
 		</div>
 	</div>
 
-	<h2 class="section-title">ora</h2>
+	<h2 class="section-title">cose attuali</h2>
 
 	{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
 	{% for thing in stuff %}
@@ -73,7 +73,7 @@ ref: stuff
 		</div>
 	{% endfor %}
 
-	<h2 class="section-title">prima</h2>
+	<h2 class="section-title">cose precedenti</h2>
 	
 	{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "false" %}
 	{% for thing in stuff %}

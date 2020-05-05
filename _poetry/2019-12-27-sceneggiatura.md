@@ -1,6 +1,7 @@
 ---
 title: sceneggiatura
 date: 2019-12-27
+lang: it
 ---
 Avevo cominciato a lavorare a una sceneggiatura...
 

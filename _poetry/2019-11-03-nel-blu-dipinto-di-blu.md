@@ -1,6 +1,7 @@
 ---
 title: "nel blu dipinto di blu"
 date: 2019-11-03
+lang: it
 ---
 Comunque è incredibile
 
