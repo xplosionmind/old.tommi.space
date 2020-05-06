@@ -1,24 +1,30 @@
 body {
 	background: linear-gradient(135deg, #9DB5C1, #415462);
 	color: white;
+	font-family: Helvetica, "Helvatica Neue", Inter, sans-serif;
+	overflow-x: hidden;
 }
 
-.page-header {
-	margin-bottom: var(--mastodon);
+.everyone {
+	font-size: 9rem;
+	margin-bottom: 0;
 }
 
-h1 {
-	letter-spacing: 0.3rem;
+.love-awakens {
 	font-size: var(--mastodon);
-}
-
-h2 {
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 0;
 	font-weight: lighter;
 	color: #D8E9F0;
 }
+	
+.page-description {
+	margin-bottom: var(--margin);
+	padding: var(--regular) var(--margin);
+}
 
 p {
-	padding: var(--regular) var(--margin);
 	text-align: center;
 }
 
@@ -28,7 +34,27 @@ p {
 	right: var(--morethan-regular);
 }
 
-iframe {
-	display: block;
-	margin: 0px auto;
+.embed-container {
+  --video--width: 1920;
+  --video--height: 1080;
+
+  position: relative;
+  padding-bottom: calc(var(--video--height) / var(--video--width) * 100%); /* 41.66666667% */
+  overflow: hidden;
+  max-width: 100%;
+  background: transparent;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mosaic {
+	padding: 5%;
 }

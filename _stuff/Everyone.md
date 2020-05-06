@@ -8,7 +8,7 @@ background-color: "#425462"
 current: false
 order: 6
 button: "wake up"
-link: "/Everyone.html"
+link: "/Everyone"
 personal: true
 logo: "Everyone.svg"
 ref: Everyone

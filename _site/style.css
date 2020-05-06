@@ -57,6 +57,7 @@ body {
 	margin: 0px;
 	overflow-wrap: break-word;
 	hyphens: auto;
+	cursor: url(/logos/cursor.svg), auto;
 }
 
 .post {
@@ -148,6 +149,7 @@ body {
 	line-height: var(--height);
 	padding-left: var(--lessthan-regular);
 	padding-right: var(--lessthan-regular);
+	margin-bottom: var(--regular);
 }
 
 figcaption {
@@ -309,6 +311,10 @@ h2 {
 
 a, a:visited {
 	text-decoration: none;
+}
+
+a {
+	cursor: url(/logos/cursor-hover.svg), auto;
 }
 
 #stuff-tree a,
