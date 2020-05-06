@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 {% if page.lang == 'it' %}
-	<html lang="it">
+<html lang="it">
 {% else %}
-	<html lang="en">
+<html lang="en">
 {% endif %}
 <head>
+	<!-- Matomo -->
+	<script type="text/javascript">
+		var _paq = window._paq || [];
+		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		_paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+		_paq.push(["setCookieDomain", "*.xplosionmind.tk"]);
+		_paq.push(["setDoNotTrack", true]);
+		_paq.push(["disableCookies"]);
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+		var u="https://xplosionmind.matomo.cloud/";
+		_paq.push(['setTrackerUrl', u+'matomo.php']);
+		_paq.push(['setSiteId', '1']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.matomo.cloud/xplosionmind.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://xplosionmind.matomo.cloud/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+
+
 	{% seo %}
-	<meta charset="UTF-8">
+
 	<link href="/inter/inter.css" type="text/css" rel="stylesheet" />
 	<link rel="stylesheet" href="//brick.freetls.fastly.net/Latin+Modern+Roman:400,400i,700,700i" />
 	<link href="/style.css" type="text/css" rel="stylesheet" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="icon" href="/logos/favicon.svg" sizes="32x32" />
 	<link rel="icon" href="/logos/favicon.svg" sizes="192x192" />
-	<title>XPLOSIONMIND | {{ page.title }}</title>
+	<meta property="og:image" content="/images/preview.gif" />
+
+	<title>{{ page.title }} | XPLOSIONMIND</title>
 </head>
 <body>
 	{% include header.html lang=page.lang %}

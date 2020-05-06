@@ -19,11 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: xplosionmind
-email: tommiboom@protonmail.com
+email: tommiboom+website@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A web version of the mess inside Tommi Boom’s mind
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://xplosionmind.tk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xplosionmind
 github_username: xplosionmind
 
