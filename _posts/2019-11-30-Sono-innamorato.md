@@ -17,6 +17,6 @@ Vorrei indagare, studiare, scoprire come la capacità di scrittura, la “buona 
 Finché noi lettori rimarremo selvaggi, appassionati, disperatamente attaccati ai nostri libri ed ai nostri mondi paralleli che saremo incapaci di abbandonare per il resto della nostra vita, sarà in ogni caso meno importante come racconto le mie cavolate, ma mi sentirò sempre in dovere di mostrare il massimo rispetto e continuare ad amare coloro che mi permettono di farle uscire dalla stupida illusione della mia testa renderle vere, per tutti: le parole.
 
 ### Alcune note
-- tutta questa riflessione nasce, oltre che dalla mitica rassegna stampa di questa mattina, soprattutto dal fatto che sono appena tornato dal cinema in cui ho visto <a href="https://www.imdb.com/title/tt7139936" rel"noopener" target="_blank">l'ultimo film di Woody Allen</a> (con Selena Gomez!) che mi è piaciuto tantissimo e avevo un sacco di cose da dire ma non sapevo cosa dire.
+- tutta questa riflessione nasce, oltre che dalla mitica rassegna stampa di questa mattina, soprattutto dal fatto che sono appena tornato dal cinema in cui ho visto <a href="https://www.imdb.com/title/tt7139936" rel="noopener" target="_blank">l'ultimo film di Woody Allen</a> (con Selena Gomez!) che mi è piaciuto tantissimo e avevo un sacco di cose da dire ma non sapevo cosa dire.
 - Sono riuscito a cambiare il font dei post, ora mi sembra molto più carino e leggibile, ma potete suggerirmi miglioramenti, non sono molto buono con le scelte estetiche.
 - Il titolo è ovviamente clickbait, ma neanche troppo.
