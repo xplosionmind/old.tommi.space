@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-06T00:27:19+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">xplosionmind</title><subtitle>Tommi's personal blog</subtitle><entry xml:lang="en"><title type="html">Test English</title><link href="http://localhost:4000/2020/04/30/test-english.html" rel="alternate" type="text/html" title="Test English" /><published>2020-04-30T00:00:00+02:00</published><updated>2020-04-30T00:00:00+02:00</updated><id>http://localhost:4000/2020/04/30/test-english</id><content type="html" xml:base="http://localhost:4000/2020/04/30/test-english.html">&lt;p&gt;Questo è un post di prova&lt;/p&gt;</content><author><name></name></author><summary type="html">Questo è un post di prova</summary></entry><entry xml:lang="it"><title type="html">L’avanguardia</title><link href="http://localhost:4000/avanguardia" rel="alternate" type="text/html" title="L’avanguardia" /><published>2020-02-07T00:00:00+01:00</published><updated>2020-02-07T00:00:00+01:00</updated><id>http://localhost:4000/Avanguardia</id><content type="html" xml:base="http://localhost:4000/avanguardia">&lt;p&gt;Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-06T11:47:58+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">xplosionmind</title><subtitle>Tommi's personal blog</subtitle><entry xml:lang="it"><title type="html">Post Con Foto</title><link href="http://localhost:4000/2020/05/06/post-con-foto.html" rel="alternate" type="text/html" title="Post Con Foto" /><published>2020-05-06T00:00:00+02:00</published><updated>2020-05-06T00:00:00+02:00</updated><id>http://localhost:4000/2020/05/06/post-con-foto</id><content type="html" xml:base="http://localhost:4000/2020/05/06/post-con-foto.html">&lt;p&gt;Prova excerpt lorem ipsum&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+	&lt;img src=&quot;/images/Bitcoin-mine.jpg&quot; alt=&quot;&quot; title=&quot;a bitcoin mine&quot; /&gt;
+	&lt;figcaption&gt;a bitcoin mine&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Prova excerpt lorem ipsum</summary></entry><entry xml:lang="en"><title type="html">Test English</title><link href="http://localhost:4000/2020/04/30/test-english.html" rel="alternate" type="text/html" title="Test English" /><published>2020-04-30T00:00:00+02:00</published><updated>2020-04-30T00:00:00+02:00</updated><id>http://localhost:4000/2020/04/30/test-english</id><content type="html" xml:base="http://localhost:4000/2020/04/30/test-english.html">&lt;p&gt;Questo è un post di prova&lt;/p&gt;</content><author><name></name></author><summary type="html">Questo è un post di prova</summary></entry><entry xml:lang="it"><title type="html">L’avanguardia</title><link href="http://localhost:4000/avanguardia" rel="alternate" type="text/html" title="L’avanguardia" /><published>2020-02-07T00:00:00+01:00</published><updated>2020-02-07T00:00:00+01:00</updated><id>http://localhost:4000/Avanguardia</id><content type="html" xml:base="http://localhost:4000/avanguardia">&lt;p&gt;Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in
 quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su exercise.polito.it nella speranza di osservare un’ispirazione per risolvere un equazione.&lt;/p&gt;
 
 &lt;p&gt;E intorno.&lt;/p&gt;
@@ -342,71 +347,4 @@ else {
 
 &lt;p&gt;We are defined by our actions, not our words&lt;/p&gt;
 
-&lt;div style=&quot;text-align: right&quot;&gt;~ Ben, Captain Fantastic&lt;/div&gt;</content><author><name></name></author><summary type="html">Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità Questo è proprio il momento chiave, QUEL momento.</summary></entry><entry xml:lang="it"><title type="html">La Sorprendente Prevedibilità Del Futuro</title><link href="http://localhost:4000/futuro" rel="alternate" type="text/html" title="La Sorprendente Prevedibilità Del Futuro" /><published>2019-05-27T00:00:00+02:00</published><updated>2019-05-27T00:00:00+02:00</updated><id>http://localhost:4000/LA-SORPRENDENTE-PREVEDIBILIT%C3%80-DEL-FUTURO</id><content type="html" xml:base="http://localhost:4000/futuro">&lt;figure class=&quot;image&quot;&gt;
-	&lt;img src=&quot;/images/2019-05-27-LA-SORPRENDENTE-PREVEDIBILITÀ-DEL-FUTURO.jpg&quot; alt=&quot;Una foto del rivaletore CMS dell’LHC al CERN di Ginevra&quot; title=&quot;Il rivelatore CMS dell’LHC al CERN di Ginevra, unico posto in cui non si ripete proprio nulla: tutto quello che succede è una scoperta. Qui si SVELA, letteralmente, il futuro (in realtà ho messo questa immagine solo perché è troppo figa e sembra una macchina del tempo  -  &amp;copy;CERN&quot; /&gt;
-	&lt;figcaption&gt;Il rivelatore CMS dell’LHC al CERN di Ginevra, unico posto in cui non si ripete proprio nulla: tutto quello che succede è una scoperta. Qui si SVELA, letteralmente, il futuro (in realtà ho messo questa immagine solo perché è troppo figa e sembra una macchina del tempo  -  &amp;copy;CERN&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Ci sono state anche le elezioni, certo, ma soprattutto è stato fondere il mio cervello: così oggi, mentre ero in biblioteca, proprio a metà del mio pomeriggio di studio certosino dell’intero programma di letteratura latina su cui domani sarò interrogato, la lampadina (“la” perché è sempre la stessa, solo che di solito sta spenta) si è accesa ed ho finalmente preso totale conoscenza di quello che è un cliché, una sententia (oggi me lo sono studiato quindi un termine latino lo dovevo proprio infilare) ormai sentita talmente spesso da essere ignorata.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;È tutto scritto sui libri di storia&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Sono il primo che, con incommensurabile vergogna, non ricorda l’anno della scoperta delle Americhe, o quello dell’allunaggio (e di astronomia faccio pure l’appassionato), o fra quali due casate avvenne la guerra delle due rose, dunque non sono un esperto, non ne capisco nulla e probabilmente quelle che sparerò saranno pure baggianate.&lt;/p&gt;
-
-&lt;p&gt;Più andavo avanti a leggere il Satyricon, più mi chiedevo:&lt;/p&gt;
-
-&lt;p&gt;“chissà cosa scriverebbe &lt;strong&gt;Petronio&lt;/strong&gt; se vivesse oggi”&lt;/p&gt;
-
-&lt;p&gt;poi mi sono anche risposto: &lt;strong&gt;sarebbe fra gli autori di Game of Thrones&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Al di là di questa (RELATIVAMENTE) stupida osservazione è nata in me una successione di ragionamenti che mi hanno lasciato esterrefatto e che non ho nemmeno totalmente metabolizzato, dunque temo di non riuscire a esprimere il mio entusiasmo per ciò di cui mi sono accorto, ma proverò usando il massimo delle mie limitatissime capacità.&lt;/p&gt;
-
-&lt;p&gt;Non è sorprendente quanto gente vissuta millenni fa possa avere trattato temi talmente vicini a noi da non rendere inutile studiare anche oggi ciò di cui scrissero?&lt;/p&gt;
-
-&lt;p&gt;Proprio quello di cui molti si lamentano, cioè il fatto che il latino sia una lingua morta, è in realtà la principale dimostrazione di quanto sia necessario studiare la letteratura di un mondo che da un pezzo non esiste più per comprendere che alla fine le &lt;strong&gt;debolezze&lt;/strong&gt; dell’uomo sono &lt;strong&gt;sempre le stesse&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Nonostante i tempi possano evolvere, nonostante negli ultimi venti anni l’umanità sia progredita (anche regredita per certe cose, ammettiamolo) quanto lo fece nell’intero XX secolo, nonostante dunque il profondo e radicale mutamento che la società intera subisce nel corso del tempo, ci sarà sempre &lt;strong&gt;qualcosa che è già successo&lt;/strong&gt;, anche se in forma diversa.&lt;/p&gt;
-
-&lt;p&gt;Quanto è improbabile che nel corso di decine e decine di secoli miliardi e miliardi di persone non abbiano almeno una volta ripetuto &lt;strong&gt;un errore&lt;/strong&gt; già compiuto in precedenza?&lt;/p&gt;
-
-&lt;p&gt;Inoltre, se nel corso di millenni di storia gli stessi temi sono già tornati, tutto quello che è avvenuto nella storia moderna e contemporanea è decisamente &lt;strong&gt;più&lt;/strong&gt; vicino e &lt;strong&gt;simile&lt;/strong&gt; a quanto sta avvenendo adesso, e non è difficile - anzi, viene fatto molto spesso anche dal mio prof. di storia - fare dei paragoni e riconoscere che la maggior parte delle situazioni sono praticamente analoghe.&lt;/p&gt;
-
-&lt;p&gt;Non mi scorderò mai il commento in una storia di instagram del mitico &lt;strong&gt;Tredici Pietro&lt;/strong&gt; quando avvenne quel tragico e dibattuto evento a &lt;a href=&quot;https://www.ilpost.it/tag/corinaldo/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Corinaldo&lt;/a&gt; la notte del 7 dicembre 2018. Mentre tutti commentavano sulla sicurezza delle discoteche italiane, sui concerti esageratamente sovraffollati, sulle generazioni di oggi, Pietro invece scrisse:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;ho solo da dire che c’è tutto scritto sui libri, basterebbe conoscere la storia per non commettere di nuovo certi errori&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(cito testualmente anche se purtroppo non ricordo le parole esatte e non trovo l’originale, che spero Pietro mi invii se riceverà il mio messaggio e leggerà qui).&lt;/p&gt;
-
-&lt;p&gt;Per quanto non diedi molta importanza alla sua osservazione, quel pensiero mi è rimasto in testa e ora sa esprimere perfettamente il concetto a cui ho pensato io.&lt;/p&gt;
-
-&lt;p&gt;Non voglio dilungarmi e divagare troppo come faccio di solito, anche perché sto sacrificando attimi preziosi di studio per quella che probabilmente sarà &lt;strong&gt;l’ultima&lt;/strong&gt; valutazione orale della mia vita da liceale, però mi preme tremendamente condividere questa idea, che come al solito vi prego di mettere in discussione, per assicurarmi non sia un trip assurdo tutto personale ma abbia invece un senso, per quanto utopico (anche se Adriano Olivetti di utopia disse &lt;a href=&quot;https://aforismi.meglio.it/aforisma.htm?id=e09d&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;questo&lt;/a&gt;, dunque in ogni caso qualcosa da fare ci può essere)&lt;/p&gt;
-
-&lt;p&gt;Poiché non si possono negare fatti già avvenuti (e mi spaventa l’ignoranza abissale di quelli che riescono ad affermare che la Shoah non sia mai successa, per citare uno dei peggiori casi) e siccome come ho scritto sopra non è difficile associare fatti di qualche anno fa a avvenimenti attuali, non risulta &lt;strong&gt;scioccante&lt;/strong&gt; la &lt;strong&gt;cecità&lt;/strong&gt; dell’uomo che non si accorge di avere davanti - anzi, dietro - la soluzione alla maggior parte dei suoi problemi?&lt;/p&gt;
-
-&lt;p&gt;Semplificando al massimo: se qualcosa è già successo, &lt;strong&gt;non basta fare l’opposto?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Se ci sono partiti, correnti di pensiero o movimenti nel mondo che portano avanti LE STESSE &lt;strong&gt;IDENTICHE&lt;/strong&gt; ideologie di quelli che non troppo tempo fa hanno avvicinato pericolosamente l’umanità alla propria fine, come è possibile che esista anche solo una persona che sia decisa a correre il rischio di &lt;strong&gt;ripetere&lt;/strong&gt; le stesse &lt;strong&gt;catastrofi&lt;/strong&gt;?&lt;/p&gt;
-
-&lt;p&gt;Ci sono due possibilità:&lt;/p&gt;
-
-&lt;p&gt;o questi individui sono &lt;strong&gt;convinti&lt;/strong&gt; che quelli quasi universalmente riconosciuti come gravi errori dell’uomo non siano da considerarsi tali e dunque (perdonatemi se mi faccio trascinare, non dovrei espormi così tanto, ma sono proprio impaurito riguardo il nostro futuro in questo momento) hanno dei &lt;strong&gt;problemi&lt;/strong&gt; che sarei veramente curioso di conoscere, senza astio o pregiudizi&lt;/p&gt;
-
-&lt;p&gt;oppure non hanno la capacità di accorgersi che si sta ripetendo la stessa storia sotto i loro occhi e lo stanno permettendo.&lt;/p&gt;
-
-&lt;p&gt;Spero fortemente e con tutto il mio cuore che la maggioranza delle persone rientri nella seconda possibilità, ma in entrambi i casi ho capito e ritengo sia necessario mollare tutto e agire su questo frangente.&lt;/p&gt;
-
-&lt;p&gt;Credo sia &lt;strong&gt;inutile&lt;/strong&gt; preoccuparsi di ogni sorta di incombenza politica, dalla disoccupazione al surriscaldamento globale, dalla disinformazione alla disoccupazione, se la maggioranza dei cittadini &lt;strong&gt;non riconosce&lt;/strong&gt; l’oggettività della storia e non sa capire &lt;strong&gt;nemmeno la reale situazione attuale&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Da ora in poi mi impegno a ricordare la storia, prima di prendere una decisione. Spero lo facciano anche i politici (magari quelli bravi lo stanno facendo da sempre e io sono un giullare che ha appena scoperto l’acqua calda) e spero anche voi siate riusciti a capire &lt;strong&gt;l’incommensurabile forza&lt;/strong&gt; di quella che nella mia stupidità riconosco però come più definitiva e completa soluzione.&lt;/p&gt;
-
-&lt;p&gt;Secondo questa mia “teoria”, dunque, c’è sicuramente già stato qualcuno prima di me (probabilmente più acculturato e con migliori basi di argomentazione) che ha sostenuto &lt;strong&gt;questa stessa idea&lt;/strong&gt; e quasi sicuramente è anche fra quelli che dovrei conoscere perché studiato quest’anno. Sono proprio paradossale e incoerente, lo ammetto.&lt;/p&gt;
-
-&lt;p&gt;Quindi in questo modo si potrebbe praticamente &lt;strong&gt;PREVEDERE IL FUTURO&lt;/strong&gt;! Io sono troppo gasato e spero proprio che qualcuno mi metta i bastoni fra le ruote dicendomi che non ho tenuto conto di qualcosa, perché altrimenti ora possiedo UN’ARMA &lt;strong&gt;POTENTISSIMA&lt;/strong&gt; che non mi spaventa usare (tanto non sono capace perché di storia non so proprio &lt;strong&gt;un cavolo&lt;/strong&gt; ahah (NON C’È NIENTE DA RIDERE SOLO DA VERGOGNARSI IMBECILLE))&lt;/p&gt;
-
-&lt;p&gt;Ah, ecco, è Nietzsche che sostiene la circolarità della storia.&lt;/p&gt;
-
-&lt;p&gt;Uff, mi dispiace avere scoperto questo strumento magnifico oggi e non ieri, ma, ripensandoci, credo proprio avrei votato allo &lt;strong&gt;stesso modo&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Forse possiamo farcela, dai.&lt;/p&gt;</content><author><name></name></author><summary type="html">Il rivelatore CMS dell’LHC al CERN di Ginevra, unico posto in cui non si ripete proprio nulla: tutto quello che succede è una scoperta. Qui si SVELA, letteralmente, il futuro (in realtà ho messo questa immagine solo perché è troppo figa e sembra una macchina del tempo - &amp;copy;CERN Ci sono state anche le elezioni, certo, ma soprattutto è stato fondere il mio cervello: così oggi, mentre ero in biblioteca, proprio a metà del mio pomeriggio di studio certosino dell’intero programma di letteratura latina su cui domani sarò interrogato, la lampadina (“la” perché è sempre la stessa, solo che di solito sta spenta) si è accesa ed ho finalmente preso totale conoscenza di quello che è un cliché, una sententia (oggi me lo sono studiato quindi un termine latino lo dovevo proprio infilare) ormai sentita talmente spesso da essere ignorata.</summary></entry></feed>
+&lt;div style=&quot;text-align: right&quot;&gt;~ Ben, Captain Fantastic&lt;/div&gt;</content><author><name></name></author><summary type="html">Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità Questo è proprio il momento chiave, QUEL momento.</summary></entry></feed>

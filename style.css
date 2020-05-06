@@ -52,18 +52,15 @@ html {
 
 body {
 	background-color: var(--dark-background);
-	font-family: "Inter", "Fira Sans", Helvetica, sans-serif;
-	font-weight: 300;
+	font: 300 var(--regular) "Inter", "Fira Sans", Helvetica, sans-serif;
 	color: var(--dark-font);
-	font-size: var(--regular);
 	margin: 0px;
 	overflow-wrap: break-word;
-	-webkit-hyphens: auto;
 	hyphens: auto;
 }
 
 .post {
-	font: 400 var(--morethan-regular)/1.5 "Playfair Display", serif;
+	font: 400 var(--morethan-regular) "Latin Modern Roman", Times, "Times New Roman", serif;
 }
 
 .post strong, .post b {
@@ -72,10 +69,6 @@ body {
 
 .post p:first-child::first-letter {
 	font-size: 3em;
-}
-
-.scrolling-page {
-	scroll-behavior: smooth;
 }
 
 .line {
@@ -94,9 +87,9 @@ body {
 }
 
 .page-header {
-	margin-top: 8rem; /* second time, if added to "" */
+	margin-top: 7rem; /* second time, if added to "" */
 	text-align: center;
-	margin-bottom: 10rem;
+	margin-bottom: 8rem;
 }
 
 .page-description {
@@ -120,14 +113,13 @@ body {
 	background-color: var(--dark-font);
 	color: var(--dark-background);
 	height: var(--height);
-	padding-top: var(--tiny);
-	font-weight: bolder;
+	font-weight: 700;
 }
 
-.category, .language {
+.category, .language, .link {
 	display: inline-block;
 	text-transform: uppercase;
-	font-weight: bolder;
+	font-weight: 700;
 	font-size: var(--big);
 	height: 2.3rem; /* height - 4*tiny */
 	line-height: 2.3rem;
@@ -136,18 +128,26 @@ body {
 	padding: 0px var(--small);
 }
 
-.category:hover, .language:hover {
+.category:hover, .language:hover, .link:hover {
 	transform: scale(1.05);
 }
 
 .language {
 	color: var(--dark-font);
-	border: var(--tiny) solid var(--primary);
+	border: var(--tiny) solid var(--dark-font);
 	margin-bottom: var(--regular);
 	font-size: var(--bigger);
 	height: var(--height);
-	line-height: var(--height);
+	line-height: var(--bigger);
 	transition: transform .2s;
+	padding-top: var(--small);
+}
+
+.link {
+	height: var(--height);
+	line-height: var(--height);
+	padding-left: var(--lessthan-regular);
+	padding-right: var(--lessthan-regular);
 }
 
 figcaption {
@@ -157,7 +157,12 @@ figcaption {
 pre {
 	overflow-x: scroll;
 /*	border-radius: var(--small); */
-	outline: dashed 5px;
+	outline: dashed var(--tiny);
+	margin: var(--bigger) 0px;
+}
+
+.hljs {
+	font-family: "Ubuntu Mono", "Roboto Mono", mono;
 }
 
 /* WHEN ELEMENT CENTERING IS NEEDED */
@@ -181,6 +186,8 @@ a.container {
 
 #intro h1, #intro a, #intro a:visited {
 	color: var(--dark-background);
+	letter-spacing: .05rem;
+	font-weight: 800;
 }
 
 .menu {
@@ -245,7 +252,7 @@ img {
 }
 
 article {
-	padding: var(--twice) 8% 6rem 8%;
+	padding: var(--twice) 10% 6rem;
 }
 
 p {
@@ -267,11 +274,20 @@ p {
 	margin: 0px;
 }
 
+.gallery-preview {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: baseline;
+	align-content: space-around;
+}
+
+
 .section-title {
-	background-color: var(--secondary);
-	padding: var(--lessthan-regular) var(--small) var(--small);
-	margin: var(--margin) auto 0px;
+	background-color: var(--primary);
 	text-align: center;
+	height: var(--height);
+	line-height: var(--height);
+	color: var(--dark-background)
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -304,14 +320,16 @@ article a:visited {
 	color: var(--link);
 }
 
-#stuff-tree a:hover, p a:hover {
-	padding: 0px 0px 1px 0px;
-	border-bottom: 1px dashed;
+li a:hover, p a:hover {
+	border-bottom: 2px dashed;
+/*	transform: rotate(2deg);
+	transition: transform .2s; */
 }
 
 .stuff {
 	padding: 0px 10%;
 	display: block;
+	text-align: center;
 }
 
 .stuff img {
@@ -342,7 +360,7 @@ article a:visited {
 	background: transparent;
 	position: fixed;
 	text-transform: uppercase;
-	font-weight: bolder;
+	font-weight: 700;
 }
 
 .navigation a, .navigation a:hover {
@@ -350,7 +368,7 @@ article a:visited {
 }
 
 .xplosionmind{
-	padding: 3px 15px 0px 15px;
+	padding: 0px var(--regular);
 	float: left;
 	line-height: var(--height); 
 	height: var(--height);
@@ -359,6 +377,15 @@ article a:visited {
 }
 .xplosionmind a, .xplosionmind a:visited {
 	color: var(--primary);
+}
+
+.xplosionmind:hover {
+	background: var(--primary);
+	transition: background .2s, color .2s;
+	border-bottom: none;
+}
+.xplosionmind a:hover {
+	color: var(--dark-background);
 }
 
 .nav-container {
@@ -400,6 +427,7 @@ nav ul li a:active {
 	background: var(--dark-background);
 	color: var(--primary);
 	transition: background .2s, color .2s;
+	border-bottom: none;
 }
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
@@ -437,9 +465,7 @@ nav ul li ul li a {
 		display: block;
 	}
 	nav {
-		margin-top: var(--height);
 		margin-right: 0px;
-		padding: none;
 		text-align: right;
 	}
 	nav ul {
@@ -471,6 +497,9 @@ nav ul li ul li a {
 	}
 	.page-header h1 {
 		font-size: var(--height);
+	}
+	.nav-container {
+		background-color: var(--dark-background);
 	}
 }
 
@@ -525,7 +554,7 @@ nav ul li ul li a {
 
 #sharing-box div {
 	text-transform: uppercase;
-	font-weight: bolder;
+	font-weight: 700;
 	font-size: var(--big);
 }
 
@@ -536,10 +565,6 @@ footer {
 	width: 96%;
 	margin-left: 2%;
 	text-align: center;
-}
-
-footer .row {
-	margin: 0px auto;
 }
 
 footer p {
@@ -561,7 +586,6 @@ footer .one-fifth p a {
 footer p:hover {
 	transition: opacity .2s, font-weight .2s;
 	opacity: 100%;
-	font-weight: bolder;
 }
 
 footer form {
@@ -571,7 +595,7 @@ footer form {
 input#email {
 	font-size: var(--big);
 	line-height: var(--big);
-	font-weight: bolder;
+	font-weight: 700;
 	color: var(--black-ish);
 	width: 73%;
 	height: var(--height);
@@ -584,13 +608,13 @@ input#email {
 input#email:focus {
 	background-color: transparent;
 	color: var(--primary);
-	border: 5px dashed var(--primary);
+	border: var(--tiny) dashed var(--primary);
 }
 
 input#submit {
 	font-size: var(--big);
 	line-height: var(--height);
-	font-weight: bolder;
+	font-weight: 700;
 	color: var(--primary);
 	height: var(--height);
 	width: var(--height);
@@ -631,7 +655,7 @@ input::placeholder {
 	margin-left: 5%;
 	margin-bottom: 0px;
 	font-size: 0.8em;
-	font-weight: lighter;
+	font-weight: 200;
 }
 
 #CClogo {

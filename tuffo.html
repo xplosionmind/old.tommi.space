@@ -22,7 +22,7 @@ ref: home
 		</div>
 	</div>
 
-	<h2 class="section-title">chi sono</h2>
+	<h2 class="section-title">chi è questo strano tipo</h2>
 	<div class="row" id="about">
 		<div class="half column">
 
@@ -30,8 +30,6 @@ ref: home
 		</div>
 		<div class="half column">
 			<article>
-				<h1>chi è questo strano tipo</h1>
-				<br />
 				<p>Mi chiamo Tommi,
 				
 				<br />
@@ -41,7 +39,7 @@ ref: home
 	
 				<br />
 
-				L’obiettivo della mia esistenza è poter conoscere tutte le persone del mondo, per questo, quando non studio, provo a fare quasi tutto. Qui significa, come diceva il mitico Leibniz, che “Nella mia vita ho cominciato tutto e concluso nulla”. Potete scoprire una piccola selezione di ciò di cui più vado fiero girando nel sito. A proposito, ho appena compinciato con la programmazione web, se c’è qualcosa che non va, basta scrivermi un’email a tommiboom chiocciola protonmail punto com. Se non ci capite un cavolo, benvenuti nella mia testa. Se non ci capite un cavolo e vorreste capire di più, per ora è ancora online <a href="https://xplosionmind.tk" rel="noopener" target="_blank">il mio vecchio sito</a>, che presto scomparirà</p>
+				L’obiettivo della mia esistenza è poter conoscere tutte le persone del mondo, per questo, quando non studio, provo a fare quasi tutto. Qui significa, come diceva il mitico <a href="https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz" rel="noopener" target="_blank">Leibniz</a>, che <q>nella mia vita ho cominciato tutto e concluso nulla</q>. Potete scoprire una piccola selezione di ciò di questo tutto nel sito. A proposito, ho appena compinciato con la programmazione web, se c’è qualcosa che non va, basta scrivermi un’email a tommiboom chiocciola protonmail punto com. Se non ci capite un cavolo, benvenuti nella mia testa. Se non ci capite un cavolo e vorreste capire di più, per ora è ancora online <a href="https://xplosionmind.tk" rel="noopener" target="_blank">il mio vecchio sito</a>, che presto scomparirà</p>
 
 				<br />
 
@@ -52,8 +50,8 @@ ref: home
 				Alcune informazioni pratiche utili:
 				<ul>
 					<li>il mio <a href="https://www.linkedin.com/in/tommasomarmo/" rel="noopener" target="_blank">profilo Linkedin</a></li>
-					<li>il mio Curriculum Vitae</li>
-					<li>il mio indirizzo email è tommiboom chiocciola protonmail punto com. Se possibile, vi prego di usare la mia <a>chiave PGP</a></li>
+					<li>il mio <a href="/CV-it.pdf" target="blank">Curriculum Vitae</a></li>
+					<li>il mio indirizzo email è tommiboom chiocciola protonmail punto com. Se possibile, vi prego di usare la mia <a href="/tommiboom@protonmail.com (D21FB50F) – Public PGP KEY.asc">chiave PGP</a> (non è necessaria se utilizzate un indirizzo email con <a href="https://protonmail.com" rel="noopener" target="_blank">ProtonMail</a>)</li>
 					<li>il mio username è xplosionmind ovunque. Se non c’è xplosionmind, non ci sono. Trovate alcuni link in fondo alla pagina.</li>
 				</ul>
 
@@ -79,20 +77,27 @@ ref: home
 				<h1>{{ post.title }}</h1>
 				<p>{{ post.excerpt }}...</p>
 				<div class="link-container">
-					<a href="{{ post.url }}" rel="noopener" target="_blank"><div class="category" style="color: var(--dark-background); background: var(--dark-font)">leggi</div></a>
+					<a href="{{ post.url }}" rel="noopener" target="_blank"><div class="link" style="color: var(--dark-background); background: var(--dark-font)">leggi</div></a>
 				</div>
 			</div>
 		</div>
 		{% endif %}
 	{% endfor %}
 		
-	<h2 class="section-title">immagini</h2>
+<!--	<h2 class="section-title">visioni</h2>
+<div class="gallery">
+	{% assign visioni = site.static_files | where: "image", true %}
+	{% for pic in visioni %}
+		<span class="gallery-image" style="order: {{ forloop.index }}">
+			<img src="{{ pic.path }}" />
+		</span>
+	{% endfor %}
+</div> -->
 
 	<h2 class="section-title">progetti recenti</h2>
 	
-	{% assign stuff = site.stuff | where:"lang", page.lang %}
+	{% assign stuff = site.stuff | where: "lang", page.lang | where: "featured", true %}
 	{% for thing in stuff %}
-	{% if thing.featured == 'true' %}
 		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
 			<div class="half column">
 				<div class="stuff-image">
@@ -105,9 +110,17 @@ ref: home
 				</div>
 				<p>{{ thing.content }}</p>
 				<div class="link-container">
-					<a href="{{ thing.link }}" rel="noopener" target="_blank"><div class="category" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div></a>
+					<a href="{{ thing.link }}" rel="noopener" target="_blank"><div class="link" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div></a>
 				</div>
 			</div>
 		</div>
-	{% endif %}
 	{% endfor %}
+
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />

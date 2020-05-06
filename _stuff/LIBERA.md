@@ -13,6 +13,6 @@ personal: false
 logo: "LIBERA.png"
 ref: LIBERA
 ---
-Libera is an association that **fights mafia** in a non-violent way, promoting events and educating people to legality.
+_LIBERA_ is an association that **fights mafia** in a non-violent way, promoting events and educating people to legality.
 
 I founded with my friends in Sanremo **Presidio Rosario Livatino**.
