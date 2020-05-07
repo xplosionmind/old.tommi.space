@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xplosionmind.tk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xplosionmind
 github_username: xplosionmind
+git_repository: xplosionmind
 
 collections:
   categories:
