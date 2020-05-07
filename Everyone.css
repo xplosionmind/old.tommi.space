@@ -3,6 +3,8 @@ body {
 	color: white;
 	font-family: Helvetica, "Helvatica Neue", Inter, sans-serif;
 	overflow-x: hidden;
+	line-break: loose;
+	cursor: auto; /* CREATE CUSTOM CURSOR */
 }
 
 .everyone {
@@ -20,8 +22,13 @@ body {
 }
 	
 .page-description {
-	margin-bottom: var(--margin);
+	margin: var(--height) auto var(--margin);
 	padding: var(--regular) var(--margin);
+}
+
+.thing {
+	text-align: center;
+	padding: 0 5%;
 }
 
 p {
@@ -30,8 +37,13 @@ p {
 
 .category {
 	position: fixed;
-	top: var(--morethan-regular);
-	right: var(--morethan-regular);
+	bottom: var(--regular);
+	right: var(--regular);
+	text-transform: uppercase;
+	background: #FFF;
+	color: #415462;
+	z-index: 10;
+	padding-top: 1px;
 }
 
 .embed-container {
@@ -39,7 +51,7 @@ p {
   --video--height: 1080;
 
   position: relative;
-  padding-bottom: calc(var(--video--height) / var(--video--width) * 100%); /* 41.66666667% */
+  padding-bottom: calc(var(--video--height) / var(--video--width) * 100%);
   overflow: hidden;
   max-width: 100%;
   background: transparent;
@@ -57,4 +69,32 @@ p {
 
 .mosaic {
 	padding: 5%;
+}
+
+.thing-title {
+	margin-top: var(--mastodon);
+	hypens: none;
+	overflow-wrap: normal;
+}
+
+@media only screen and (max-width: 800px) {
+	.everyone {
+		font-size: var(--height);
+		margin-top: var(--mastodon);
+	}
+
+	.love-awakens {
+		font-size: var(--big);
+	}
+
+	.page-description {
+		padding: 0;
+	}
+	.thing-title {
+		margin-top: var(--regular);
+	}
+	#imdb {
+		margin-bottom: 3rem;
+	}
+
 }
