@@ -9,7 +9,7 @@ permalink: "/:title"
 {% endif %}
 <div class="first row">
 	<div class="one column">
-		<h1 style="width: 84%; margin: var(--mastodon) 8% var(--twice);">{{ page.title }}</h1>
+		<h1 style="width: 84%; margin: var(--mastodon) 8% var(--twice)">{{ page.title }}</h1>
 	</div>
 </div>
 <div class="row">
@@ -17,6 +17,19 @@ permalink: "/:title"
 		<article class="post">
 			{{ content }}
 		</article>
+	</div>
+</div>
+
+<div class="row">
+	<div class="one column">
+		<p><a href="https://www.github.com/{{ site.github_username }}/{{ site.git_repo }}/blob/master/{{ page.path }}" target="_blank" rel="noopener" class="edit">
+		{% case page.lang %}
+		{% when 'it' %}
+			suggerisci modifica o correzione
+		{% else %}
+			suggest edit
+		{% endcase %}
+		</a></p>
 	</div>
 </div>
 
@@ -31,22 +44,22 @@ permalink: "/:title"
 			{% endcase %}
 
 			<!-- Sharingbutton Facebook -->
-			<a href="https://facebook.com/sharer/sharer.php?u={{ site.baseurl | url_encode }}{{ post.permalink }}" target="_blank" rel="noopener">
+			<a href="https://facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">
 				<img class="button" src="/logos/facebook.svg" alt="Facebook logo" title="share on Facebook" />
 			</a>
 
 			<!-- Sharingbutton Twitter -->
-			<a href="https://twitter.com/intent/tweet/?text={{ post.title | url_encode }}%20&amp;url={{ site.baseurl | url_encode }}{{ post.permalink }}" target="_blank" rel="noopener">
+			<a href="https://twitter.com/intent/tweet/?text={{ page.title }}%20by%20@xplosionmind%20%20%20&amp;url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">
 				<img class="button" src="/logos/twitter.svg" alt="Twitter logo" title="share on Twitter" />
 			</a>
 
 			<!-- Sharingbutton WhatsApp -->
-			<a href="whatsapp://send?text={{ post.title | url_encode }}%20{{ site.baseurl | url_encode }}{{ post.permalink }}" target="_blank" rel="noopener">
+			<a href="whatsapp://send?text={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">
 				<img class="button" src="/logos/whatsapp.svg" alt="WhatsApp logo" title="share on Whatsapp" />
 			</a>
 
 			<!-- Telegram -->
-			<a href="https://t.me/share/url?url={{ site.baseurl | url_encode }}{{ post.permalink }}&text={{ post.title | url_encode }}%20" target="_blank" rel="noopener">
+			<a href="https://t.me/share/url?url={{ site.url }}{{ page.url }}&text={{ page.title }}%20" target="_blank" rel="noopener">
 				<img class="button" src="/logos/telegram.svg" alt="Telegram logo" title="share on Telegram" />
 				</a>
 

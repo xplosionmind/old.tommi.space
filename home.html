@@ -79,6 +79,25 @@ ref: home
 		</div>
 		{% endif %}
 	{% endfor %}
+
+	<h2 class="section-title" id="jar">The Jar</h2>
+
+		<div class="row">
+			<div class="one column">
+				<div class="page-description">
+					<p>There’s stuff I find out I wish I knew before or stuff I just can’t keep from sharing but it’s not enough to make an article or resources so great and useful that the whole world should know and use or cool oddities I note and it’s nice to have them always ready at hand.</p>
+					<p>I take this things, I throw them into <em>The Jar</em>.</p>
+					<p>I hope it can be useful to you.</p>
+				</div>
+				<ul style="margin-bottom: var(--bigger); margin-left: 10%">
+	{% for note in site.jar %}
+	<li><a href="{{ note.url }}" rel="noopener" target="_blank" style="color: var(--secondary)">{{ note.title }}</a></li>
+	{% endfor %}
+				</ul>
+			</div>
+		</div>
+
+
 		
 <!--	<h2 class="section-title">visioni</h2>
 <div class="gallery">

@@ -82,6 +82,24 @@ ref: home
 		</div>
 		{% endif %}
 	{% endfor %}
+
+	<h2 class="section-title" id="jar">La Marmellata</h2>
+
+		<div class="row">
+			<div class="one column">
+				<div class="page-description">
+					<p>Ci sono cose che scopro e porca puzzola avrei voluto sapere prima, o cose che semplicemente non riesco a non condividere ma non sono abbastanza per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
+					<p>Prendo tutte queste cose e, non avendo tempo per prepararle bene e svilupparci un pensiero, le metto ne <em>La Marmellata</em>.</p>
+					<p>Ogni puntino qui sotto è un ingrediente de <em>La Marmellata</em>, fatene buon uso, senza esagerare. (non mi assumo responsabilità sulla potenza delle cose che ci sono dentro)</p>
+				</div>
+				<ul style="margin-bottom: var(--bigger); margin-left: 10%">
+	{% for note in site.jar %}
+	<li><a href="{{ note.url }}" rel="noopener" target="_blank" style="color: var(--secondary)">{{ note.title }}</a></li>
+	{% endfor %}
+				</ul>
+			</div>
+		</div>
+
 		
 <!--	<h2 class="section-title">visioni</h2>
 <div class="gallery">

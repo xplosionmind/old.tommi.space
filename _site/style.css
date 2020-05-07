@@ -3,7 +3,7 @@
 	--white-ish: #E0E0E0;
 	--grey: #878787;
 	--primary: #FCC920;
-	--secondary: #B12D2C;
+	--secondary: #3185FC;
 	--dark-secondary: #111;
 	--dark-background: black;
 	--dark-font: var(--white-ish);
@@ -60,15 +60,15 @@ body {
 	cursor: url(/logos/cursor.svg), auto;
 }
 
-.post {
+.post, .poetry {
 	font: 400 var(--morethan-regular) "Latin Modern Roman", Times, "Times New Roman", serif;
 }
 
-.post strong, .post b {
+.post strong, .post b, .poetry strong, .poetry b {
 	font-weight: 700;
 }
 
-.post p:first-child::first-letter {
+.post p:first-child::first-letter, {
 	font-size: 3em;
 }
 
@@ -150,6 +150,10 @@ body {
 	padding-left: var(--lessthan-regular);
 	padding-right: var(--lessthan-regular);
 	margin-bottom: var(--regular);
+}
+
+#jar {
+	background-color: var(--secondary);
 }
 
 figcaption {
@@ -252,6 +256,7 @@ img {
 .first {
 	margin-top: var(--height); /* 50 + (10+10)*/
 }
+
 
 article {
 	padding: var(--twice) 10% 6rem;
@@ -553,9 +558,14 @@ nav ul li ul li a {
 	transform: rotate(-45deg);
 }
 
+
+.edit {
+	margin: 0 8%;
+}
+
 /* SOCIAL SHARING BUTTONS */
 #sharing-box {
-	margin: 0px 8% 9rem 8%;
+	margin: 0 8% 9rem;
 }
 
 #sharing-box div {

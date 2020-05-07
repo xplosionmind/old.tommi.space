@@ -12,5 +12,6 @@ link: "https://www.giffonifilmfestival.it"
 personal: false
 logo: "Giffoni.svg"
 ref: Giffoni
+featured: true
 ---
 Siamo cinefili e sognatori provenienti da tutto il mondo. Siamo Giffoners. Guardare film e fare domande assurde a registi e attori famosi è quello che facciamo.

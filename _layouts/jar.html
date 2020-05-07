@@ -1,0 +1,34 @@
+---
+layout: wrapper
+permalink: "/:title"
+---
+{% if page.code == true %}
+	<link rel="stylesheet" type="text/css" href="/highlight_atom-one-dark.css" />
+	<script src="/highlight.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+{% endif %}
+<div class="first row">
+	<div class="one column">
+		<h1 style="width: 84%; margin: var(--mastodon) 8% var(--twice)">{{ page.title }}</h1>
+	</div>
+</div>
+<div class="row">
+	<div class="one column">
+		<article class="note">
+			{{ content }}
+		</article>
+	</div>
+</div>
+
+<div class="row">
+	<div class="one column">
+		<p><a href="https://www.github.com/{{ site.github_username }}/{{ site.git_repo }}/blob/master/{{ page.path }}" target="_blank" rel="noopener" class="edit" style="margin-bottom: 8rem">
+			{% case page.lang %}
+			{% when 'it' %}
+				suggerisci modifica o correzione
+			{% else %}
+				suggest edit
+			{% endcase %}
+		</a></p>
+	</div>
+</div>

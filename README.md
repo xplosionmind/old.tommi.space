@@ -55,6 +55,7 @@
 - [x] categories description and link to stuff
 - [ ] back to top button
 - [ ] `head` include
+- [ ] separate website/repo/domain for web and online resources or for geek stuff in general
 
 ### CREATIVE IDEAS
 
