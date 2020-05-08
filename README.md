@@ -56,6 +56,9 @@
 - [ ] back to top button
 - [ ] `head` include
 - [ ] separate website/repo/domain for web and online resources or for geek stuff in general
+- [ ] inline code styiling
+- [ ] access post category color (and how conflicts are managed if the post has more than one category) in posts list
+- [ ] `stuff extended`
 
 ### CREATIVE IDEAS
 
