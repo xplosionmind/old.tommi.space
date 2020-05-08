@@ -83,7 +83,7 @@ ref: home
 		{% endif %}
 	{% endfor %}
 
-	<h2 class="section-title" id="jar">La Marmellata</h2>
+	<a href="/marmellata"><h2 class="section-title" id="jar">La Marmellata</h2></a>
 
 		<div class="row">
 			<div class="one column">
@@ -111,7 +111,7 @@ ref: home
 	{% endfor %}
 </div> -->
 
-	<h2 class="section-title">progetti recenti</h2>
+	<a href="/tutto"><h2 class="section-title">progetti recenti</h2></a>
 	
 	{% assign stuff = site.stuff | where: "lang", page.lang | where: "featured", true %}
 	{% for thing in stuff %}

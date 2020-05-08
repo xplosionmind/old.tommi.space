@@ -51,6 +51,7 @@ defaults:
       path: ""
     values:
       layout: "wrapper"
+      ref: ":title"
     
   -
     scope:

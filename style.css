@@ -583,9 +583,9 @@ nav ul li ul li a {
 /* FOOTER */
 footer {
 	background-color: var(--dark-secondary);
-	margin-bottom: var(--small);
+/*	margin-bottom: var(--small);
 	width: 96%;
-	margin-left: 2%;
+	margin-left: 2%; */
 	text-align: center;
 }
 

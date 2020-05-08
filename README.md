@@ -60,6 +60,7 @@
 - [ ] access post category color (and how conflicts are managed if the post has more than one category) in posts list
 - [ ] `stuff extended`
 - [ ] checkbox styling
+- [ ] downloadable portfolio pdf
 
 ### CREATIVE IDEAS
 
