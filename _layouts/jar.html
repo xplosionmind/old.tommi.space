@@ -9,7 +9,15 @@ permalink: "/:title"
 {% endif %}
 <div class="first row">
 	<div class="one column">
-		<h1 style="width: 84%; margin: var(--mastodon) 8% var(--twice)">{{ page.title }}</h1>
+		<h1 style="width: 84%; margin: var(--margin) 8% 0">{{ page.title }}</h1>
+		<p style="margin: 0 auto var(--twice); text-align: center; font-size: var(--lessthan-regular); opacity: 0.8">
+		{% case page.lang %}
+		{% when 'it' %}
+		ultima modifica: {{ page.last_modified_at | date: '%d %b %Y alle %H:%M' }}
+		{% else %}
+			latest edit: {{ page.last_modified_at | date: '%d %b %Y at %l:%M %p' }}
+		{% endcase %}
+		</p>
 	</div>
 </div>
 <div class="row">

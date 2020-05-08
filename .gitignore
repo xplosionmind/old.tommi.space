@@ -27,8 +27,6 @@ vendor
 .tmproj
 .publish
 *.esproj
-*.sublime-project
-*.sublime-workspace
 nbproject
 Thumbs.db
 .vscode

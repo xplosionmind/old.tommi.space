@@ -1,0 +1,11 @@
+I"r<p>A list of MacOS / UNIX terminal commands which are too complex or rarely used to be remembered, but useful enough to be noted.</p>
+
+<p><br />
+<br /></p>
+
+<p>change screenshot format</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>defaults write com.apple.screencapture type jpg
+killall SystemUIServer
+</code></pre></div></div>
+:ET

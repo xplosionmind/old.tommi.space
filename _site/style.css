@@ -79,6 +79,12 @@ body {
 	margin: var(--tiny) auto;
 }
 
+.task-list-item-checkbox {
+	border: var(--tiny) solid var(--secondary);
+	margin-right: var(--small);
+	padding-bottom: 1px;
+}
+
 .date {
 	text-align: center;
 }
