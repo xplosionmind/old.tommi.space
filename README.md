@@ -61,6 +61,9 @@
 - [ ] `stuff extended`
 - [ ] checkbox styling
 - [ ] downloadable portfolio pdf
+- [ ] Copyright specifications
+	- [ ] in Everyone page
+	- [ ] better indication of external resources' creators
 
 ### CREATIVE IDEAS
 
