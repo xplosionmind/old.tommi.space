@@ -60,6 +60,11 @@ body {
 	cursor: url(/logos/cursor.svg), auto;
 }
 
+.mark {
+	background: var(--primary);
+	color: var(--dark-font);
+}
+
 .post, .poetry {
 	font: 400 var(--morethan-regular) "Latin Modern Roman", Times, "Times New Roman", serif;
 }
