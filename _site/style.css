@@ -1,7 +1,7 @@
 :root {
 	--black-ish: #111;
 	--white-ish: #E0E0E0;
-	--grey: #878787;
+	--grey: #333;
 	--primary: #FCC920;
 	--secondary: #3185FC;
 	--dark-secondary: #111;
@@ -171,12 +171,19 @@ figcaption {
 	font-style: italic;
 }
 
-pre {
+pre, code {
 	font-family: "Ubuntu Mono", "Roboto Mono", "Fira Code", mono;
+}
+
+pre {
 	overflow-x: scroll;
-/*	border-radius: var(--small); */
 	outline: dashed var(--tiny);
 	margin: var(--bigger) 0px;
+}
+
+code {
+	background: var(--grey);
+	padding: var(--tiny) var(--small);
 }
 
 .hljs {

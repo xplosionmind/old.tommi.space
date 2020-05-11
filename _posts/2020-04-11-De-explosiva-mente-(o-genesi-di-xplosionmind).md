@@ -4,7 +4,7 @@ categories: geek
 ref: genesi
 ---
 
-Ho sempre amato i semplici ma contemporaneamente maestosi titoli latini in “de + ablativo” e non ho saputo resistere nel trovare il coraggio di distruggere grandi opere del livello del _De bello gallico_ e _De agricoltura_ intitolando questo articolo in questo modo. Alo stesso tempo, come _Candido o l’Ottimismo_, volevo mettere “o”. Mi sono tolto una soddisfazione. Queste righe vogliono essere una registrazione, un appunto a imperitura memoria, delle intenzioni e delle ispirazioni con cui ho creato questo sito, cioè la versione pubblica e online della mia testa (e poveri noi). In primis, è per me importante sottolineare che ho cercato il più possibile di evitare di renderlo un’apoteosi del mio egocentrismo (a cui, ahimè, talvolta innegabilmente soccombo) o men che meno un posto per mettere in mostra quanto (*non*) sono bravo. L’ispirazione è nata anni fa da un piccolo pensiero che nella mia testa tamburellava: “perché ti servono i social?” e si è trasformato negli ultimi mesi nella risoluzione di *sposare completamente e unicamente strumenti Open Source*, abbandonando *definitivamente* mezzi di comunicazione e programmi di ogni sorta di natura centralizzata o basati su software software proprietario *entro fine anno*. Per questo motivo, ho deciso di scrivere il ***Manifesto della Libertà digitale***, a cui chiunque puotrà contribuire, aggiungendo risorse, riflessioni, informazioni. Cercherò di pubblicare il prima possibile la prima bozza del manifesto e appena riuscirò scriverò un articolo su come in tre mesi ho deciso e abbandonato per sempre Google, Facebook e tutti quei big che forniscono servizi “gratis”, in cambio di tutte le informazioni sui propri utenti.
+Ho sempre amato i semplici ma contemporaneamente maestosi titoli latini in “de + ablativo” e non ho saputo resistere nel trovare il coraggio di distruggere grandi opere del livello del _De bello gallico_ e _De agricoltura_ intitolando questo articolo in questo modo. Allo stesso tempo, come _Candido o l’Ottimismo_, volevo mettere “o”. Mi sono tolto una soddisfazione. Queste righe vogliono essere una registrazione, un appunto a imperitura memoria, delle intenzioni e delle ispirazioni con cui ho creato questo sito, cioè la versione pubblica e online della mia testa (e poveri noi). In primis, è per me importante sottolineare che ho cercato il più possibile di evitare di renderlo un’apoteosi del mio egocentrismo (a cui, ahimè, talvolta innegabilmente soccombo) o men che meno un posto per mettere in mostra quanto (*non*) sono bravo. L’ispirazione è nata anni fa da un piccolo pensiero che nella mia testa tamburellava: “perché ti servono i social?” e si è trasformato negli ultimi mesi nella risoluzione di **sposare completamente e unicamente strumenti Open Source**, abbandonando **definitivamente** mezzi di comunicazione e programmi di ogni sorta di natura centralizzata o basati su software software proprietario *entro fine anno*. Per questo motivo, ho deciso di scrivere il ***Manifesto della Libertà digitale***, a cui chiunque puotrà contribuire, aggiungendo risorse, riflessioni, informazioni. Cercherò di pubblicare il prima possibile la prima bozza del manifesto e appena riuscirò scriverò un articolo su come in tre mesi ho deciso e abbandonato per sempre Google, Facebook e tutti quei big che forniscono servizi “gratis”, in cambio di tutte le informazioni sui propri utenti.
 
 Dopo questa dovuta premessa, possiamo dedicarci alla genesi di <a href="/home" target="_blank">xplosionmind</a>.
 
@@ -64,7 +64,7 @@ Grr.
 
 Le possibili soluzioni erano tre:
 
-1. Metterle comunque, a costo di rabbrividire ogni volta che aprivo lo _Zibaldone_
+1. Metterle comunque, a costo di rabbrividire ogni volta che avrei aperto lo _Zibaldone_
 2. Aumentare ancora più lo spazio fra titoli, per enfatizzare la separazione, trasformando la pagina in un papiro lunghissimo infinito
 3. Utilizzare colori di sfondo lievemente differenti che si alternano, un po’ come ho fatto in <a href="/tutto" target="_blank">tutto</a>, solamente che non sapevo come impostare uno sfondo diverso solo per le iterazioni dispari in un for loop su Liquid (sto già diventando troppo tecnico. In sintesi: non ero capace).
 
@@ -156,7 +156,7 @@ Sono (purtroppo ero, non lo sono più come una volta) appassionato all’astrono
 
 Non è la stessa cosa rispetto al compimento di una manovra a centinaia di kilometri al secondo di velocità, in assenza di gravità, con un millimetrico margine d’errore, assumendosi la responsabilità del salvataggio di un carico dal calore di centinaia di migliaia di euro, ma mi piace da matti l’idea di potersi sentire come un’astronauta nello spazio a ogni click su xplosionmind.
 
-</br>
+<br />
 
 #### Fun fact
 
