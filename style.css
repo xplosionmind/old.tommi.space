@@ -167,6 +167,7 @@ figcaption {
 }
 
 pre {
+	font-family: "Ubuntu Mono", "Roboto Mono", "Fira Code", mono;
 	overflow-x: scroll;
 /*	border-radius: var(--small); */
 	outline: dashed var(--tiny);
@@ -174,7 +175,7 @@ pre {
 }
 
 .hljs {
-	font-family: "Ubuntu Mono", "Roboto Mono", mono;
+	font-family: "Ubuntu Mono", "Roboto Mono", "Fira Code", mono;
 }
 
 /* WHEN ELEMENT CENTERING IS NEEDED */
