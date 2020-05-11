@@ -62,10 +62,10 @@ ref: home
 		</div>
 	</div>
 	
-	<h2 class="section-title">Ultimo articolo</h2>
 
 	{% for post in site.posts %}
 		{% if forloop.first == true %}
+		<a href="{{ post.url }}"><h2 class="section-title">Ultimo articolo</h2></a>
 		<div class="row" style="overflow: hidden;">
 			<div class="half column">
 				<div class="stuff-image">
@@ -73,10 +73,10 @@ ref: home
 				</div>
 			</div>
 			<div class="half column stuff">
-				<h1>{{ post.title }}</h1>
+				<a href="{{ post.url }}"<h1>{{ post.title }}</h1></a>
 				<p>{{ post.excerpt }}...</p>
 				<div class="link-container">
-					<a href="{{ post.url }}" rel="noopener" target="_blank"><div class="link" style="color: var(--dark-background); background: var(--dark-font)">leggi</div></a>
+					<a href="{{ post.url }}"><div class="link" style="color: var(--dark-background); background: var(--dark-font)">leggi</div></a>
 				</div>
 			</div>
 		</div>

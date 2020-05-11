@@ -1,0 +1,104 @@
+I"<p>Building a website from scratch can be challenging. It took me several months of study, practice, tests and neverending headaches to get to this result. The process can be overwhelming (to me it definitely has been): there are tons of different tools, resouces and tutorials; nevertheless, it’s always <strong>so hard</strong> to spend the right amount of time learning something by evaluating its overall usefulness. Since the beginning, I chose to do <strong>everything</strong> by myself: I decided not to use any framework, <abbr title="Content Management System">CMS&lt;/a&gt; or copy and paste any code I couldn’t understand.</abbr></p>
+
+<p>I wanted to learn by doing and do it in the best possible way.</p>
+
+<p><br /></p>
+
+<p>Yep, quite an ambitious purpose. Thus, in the end I decided to take advantage of a Static Site Generator, which doesn’t necessarily make things more complex but for sure it makes them simpler and <strong>way quicker</strong>. We’ll get there.</p>
+
+<p>One last thing before diving in: this article is not intended a guide nor a tutorial. Since I’ve been struggling <strong>a lot</strong> to get here, I feel like it may be useful to someone to know the path I followed (or, better, traced) to obtain what I was aiming at. Not having any clue of the right next step is stessful, I’ve been on the edge of giving up multiple times.</p>
+
+<p>Eventually, another point it’s worth making is that web develpement is <strong>ridicolously cheap</strong>: you just need a laptop (you don’t even need a powerful one), everything else is for <strong>free</strong> (actually, I bought a book, but online there are a few valid alternatives). The only, <strong>huge</strong> price you need to pay is <strong>time</strong>, a handful of restless hours fighting with the urgency and the desire of getting things done, and having paticence following gradual steps.</p>
+
+<h2 id="the-beginning">The Beginning</h2>
+
+<p>I had absolutely no idea where to start. My only notions of programming were some basic concepts of C, which I studied at University. I knew nothing about server management, HTML, CSS, JavaScript or web hosting. My previous website created on Wix with a drag-and-drop GUI to build anything.</p>
+
+<p>So, the first question I asked myself was:</p>
+
+<p><strong>where should I start?</strong></p>
+
+<p>As of when I’m writing, <code class="highlighter-rouge">xplosionmind.tk</code> isn’t completed.</p>
+
+<p><br />
+<br />
+<br /></p>
+
+<h2 id="steps">STEPS</h2>
+
+<ul>
+  <li>learning HTML and CSS from the book</li>
+  <li>creating a test page</li>
+  <li>building a custom framework (you don’t need a framework Tania Rascia)
+    <ul>
+      <li>using php to include header and footer</li>
+    </ul>
+  </li>
+  <li>creating a responsive header
+    <ul>
+      <li>logo writing</li>
+      <li>JS code for dropdown menus</li>
+      <li>hover color transitions</li>
+    </ul>
+  </li>
+  <li>creating a responsive footer
+    <ul>
+      <li>inserting the license</li>
+      <li>inserting the subscribe input and styling it</li>
+      <li>creating my own custom yellow social svg buttons</li>
+    </ul>
+  </li>
+  <li>implementing Jekyll
+    <ul>
+      <li>Giraffe Academy tutorials + documentation</li>
+      <li>converting php includes to Jejyll YAML front matter includes</li>
+      <li>importing all of my older posts (it took me quite some time…)
+        <ul>
+          <li>fetching, resizing and resampling post pictures</li>
+          <li>resetting links as <code class="highlighter-rouge">&lt;a href="blablabla" rel="noopener" target=_"blank"</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>blog landing page
+    <ul>
+      <li>looping through categories</li>
+      <li>posts language switch</li>
+      <li><strong>cool yellow lines</strong></li>
+    </ul>
+  </li>
+  <li>STUFF
+    <ul>
+      <li>setting the <code class="highlighter-rouge">featured</code> and <code class="highlighter-rouge">current</code> variable, respectively to show on homepage and to divide between older and younger</li>
+      <li>logos converting to svg</li>
+      <li>images to fit</li>
+    </ul>
+  </li>
+  <li>multilingual
+    <ul>
+      <li>translating pages and using front matter to define <code class="highlighter-rouge">ref</code> and <code class="highlighter-rouge">lang</code></li>
+      <li>translating footer and header</li>
+    </ul>
+  </li>
+  <li>Everyone page</li>
+  <li>added <em>The Jar</em></li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+
+<h3 id="useful-websites">useful websites</h3>
+
+<ul>
+  <li><a href="https://www.taniarascia.com/">Tania Rascia</a>’s blog, great for learning grasp the most important aspects of front-end web programming;</li>
+  <li>brick.im</li>
+  <li>http://webtypography.net/intro/</li>
+</ul>
+
+<h3 id="specific-articles">specific articles</h3>
+
+<ul>
+  <li><a href="https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984"><code class="highlighter-rouge">em</code> vs <code class="highlighter-rouge">rem</code></a>, choosing the right one to build a responsive website;</li>
+  <li><a href="https://www.sylvaindurand.org/making-jekyll-multilingual/" rel="noopener" target="_blank">Making Jekyll Multilingual</a> by Sylvain Durand</li>
+  <li><a href="https://gist.github.com/Eeemil/e93ad054a73037f5bea3#file-post-html" rel="noopener" target="_blank">edit on GitHub button</a></li>
+</ul>
+:ET

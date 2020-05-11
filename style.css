@@ -265,6 +265,15 @@ img {
 	display: block;
 }
 
+figcaption {
+	line-height: var(--lessthan-regular);
+	font-size: var(--lessthan-regular);
+	text-align: center;
+	margin-top: var(--small);
+	padding: 0.7rem;
+	outline: var(--tiny) dashed var(--grey);
+}
+
 .first {
 	margin-top: var(--height); /* 50 + (10+10)*/
 }
@@ -275,7 +284,7 @@ article {
 }
 
 p {
-	margin 20px 0px !important; /* NOT WORKING*/
+	margin 1em 0;
 }
 
 .preview {
@@ -309,9 +318,17 @@ p {
 	color: var(--dark-background)
 }
 
+.section-title:hover {
+	outline: .35rem dashed var(--secondary);
+}
+
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	line-height: 0.97em;
+}
+
+article h2, article h3, article h4, article h5 {
+	font-family: Inter, Helvetica, "Helvetica Neue", sans;
 }
 
 h1 {
@@ -373,6 +390,13 @@ li a:hover, p a:hover {
 
 .link-container {
 	text-align: center;
+}
+
+
+.post-title:hover {
+	background: var(--primary);
+	color: var(--black-ish);
+	transition: color .2s, background .2s;
 }
 
 /* HEADER */
