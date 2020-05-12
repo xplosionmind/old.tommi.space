@@ -58,6 +58,9 @@
 - [ ] checkbox styling
 - [ ] downloadable portfolio pdf
 - [ ] [table of contents](https://github.com/allejo/jekyll-toc)
+- [ ] Copyright specifications
+	- [ ] in Everyone page
+	- [ ] better indication of external resources' creators
 
 ### CREATIVE IDEAS
 
