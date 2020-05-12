@@ -69,10 +69,6 @@ body {
 	font: 400 var(--morethan-regular) "Latin Modern Roman", Times, "Times New Roman", serif;
 }
 
-.post p {
-	line-height: 1.5rem;
-}
-
 .post strong, .post b, .poetry strong, .poetry b {
 	font-weight: 700;
 }
@@ -122,6 +118,10 @@ body {
 	padding: var(--tiny);
 	scroll-behavior: smooth;
 	height: var(--height);
+}
+
+.categories::-webkit-scrollbar {
+	display: none;
 }
 
 .topics-indicator {
@@ -305,7 +305,7 @@ article {
 }
 
 p {
-	line-height: var(--morethan-regular);
+	line-height: var(--big);
 }
 
 .preview {

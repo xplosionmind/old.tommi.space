@@ -1,5 +1,5 @@
 ---
-categories: Typography
+categories: Design
 lang: en
 title: "Typography"
 ---
@@ -9,3 +9,7 @@ It’s a wonderful world, hidden in plain sight. Here there are some resources f
 - <a href="https://www.ilpost.it/2020/02/09/font-preferiti-scrittori-italiani/" rel="noopener" target="_blank">I font preferiti dagli scrittori italiani</a>, article by <a href="https://ilpost.it" rel="noopener" target="_blank">Il Post</a>.
 - Articles tagged with “<a href="https://www.ilpost.it/tag/font/" rel="noopener" target="_blank">fonts</a>” on <a href="https://ilpost.it" rel="noopener" target="_blank">Il Post</a>.
 - <a href="http://webtypography.net/" rel="noopener" target="_blank">Web Typography</a>, a website focused on typography on the Web, <a href="http://clagnut.com/" rel="noopener" target="_blank">Richard Rutter</a>.
+- Google Fonts <a href="https://fonts.google.com/about" rel="noopener" target="_blank">About page</a>.
+- Font Forge <a href="http://designwithfontforge.com/en-US/index.html" rel="noopener" target="_blank">guide</a>.
+- The <a href="https://fontlibrary.org/" rel="noopener" target="_blank">Font Library</a>’s <a href="https://fontlibrary.org/en/guidebook" rel="noopener" target="_blank">Guidebook</a>.
+<a href="" rel="noopener" target="_blank"></a>

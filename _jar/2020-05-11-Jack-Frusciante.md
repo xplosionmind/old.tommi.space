@@ -10,25 +10,25 @@ Enrico Brizzi aveva la mia età quando scrisse _Jack Frusciante è uscito dal gr
 - Sham 69
 - Flash City Rockers
 - Arancia Meccanica
-- Allen
-- Scorsese
-- Coppola
-- Kubrick
-- Verhoeven
-- Malle
-- Kurosawa
-- Kaurismaki
+- Woody Allen
+- Martin Scorsese
+- Francis Ford Coppola
+- Stanley Kubrick
+- Paul Verhoeven
+- Louis Malle
+- Akira Kurosawa
+- Aki Kaurismäki
 - Oliver Stone
 - Il Gigante
 - Gioventù Bruciata
-- La valle dell'Eden
-- Gabin
-- De Funes
-- Sellers
-- Fellini
-- Risi
-- Ferreri
-- Moretti
+- La valle dell’Eden
+- Jean Gabin
+- Louis de Funès
+- Peter Sellers
+- Federico Fellini
+- Vittoria Risi
+- Marco Ferreri
+- Nanni Moretti
 - Francesca Archibugi
 - The Bollocks - Nevermind
 - Anarchy in The US - Sex Pistols

@@ -1,6 +1,6 @@
 ---
 title: "Terminal commands"
-permalink: \cmd
+permalink: /cmd
 categories: geek
 ---
 A list of MacOS / UNIX terminal commands which are too complex or rarely used to be remembered, but useful enough to be noted.

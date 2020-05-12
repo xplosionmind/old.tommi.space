@@ -69,10 +69,6 @@ body {
 	font: 400 var(--morethan-regular) "Latin Modern Roman", Times, "Times New Roman", serif;
 }
 
-.post p {
-	line-height: var(--big);
-}
-
 .post strong, .post b, .poetry strong, .poetry b {
 	font-weight: 700;
 }
@@ -309,7 +305,7 @@ article {
 }
 
 p {
-	line-height: var(--morethan-regular);
+	line-height: var(--big);
 }
 
 .preview {
