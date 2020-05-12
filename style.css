@@ -70,7 +70,7 @@ body {
 }
 
 .post p {
-	line-height: 1.5rem;
+	line-height: var(--big);
 }
 
 .post strong, .post b, .poetry strong, .poetry b {
