@@ -124,6 +124,10 @@ body {
 	height: var(--height);
 }
 
+.categories::-webkit-scrollbar {
+	display: none;
+}
+
 .topics-indicator {
 	font-size: var(--big);
 	line-height: var(--height);
