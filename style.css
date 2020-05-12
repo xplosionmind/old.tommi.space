@@ -65,8 +65,12 @@ body {
 	color: var(--dark-font);
 }
 
-.post, .poetry {
+.poetry {
 	font: 400 var(--morethan-regular) "Latin Modern Roman", Times, "Times New Roman", serif;
+}
+
+.post p {
+	line-height: 1.5rem;
 }
 
 .post strong, .post b, .poetry strong, .poetry b {
@@ -74,6 +78,7 @@ body {
 }
 
 .post p:first-child::first-letter, {
+	font: 400 var(--morethan-regular) "Latin Modern Roman", Times, "Times New Roman", serif;
 	font-size: 3em;
 }
 
@@ -163,12 +168,16 @@ body {
 	margin-bottom: var(--regular);
 }
 
-#jar {
-	background-color: var(--secondary);
+.anchor, .anchor:visited {
+	color: var(--dark-font);
 }
 
-figcaption {
-	font-style: italic;
+.anchor:hover {
+	border-bottom: var(--tiny) dashed var(--secondary);
+}
+
+#jar {
+	background-color: var(--secondary);
 }
 
 pre, code {
@@ -179,6 +188,11 @@ pre {
 	overflow-x: scroll;
 	outline: dashed var(--tiny);
 	margin: var(--bigger) 0px;
+	padding: var(--lessthan-regular);
+}
+
+pre code {
+	background: transparent;
 }
 
 code {
@@ -219,7 +233,7 @@ a.container {
 	display: flex;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
 	.one {
 		width: 70%;
 		margin-left: 15%;
@@ -273,16 +287,16 @@ img {
 }
 
 figcaption {
-	line-height: var(--lessthan-regular);
-	font-size: var(--lessthan-regular);
+	font: italic 400 var(--regular) "Latin Modern Roman", Times, "Times New Roman", serif;
 	text-align: center;
+	line-height: var(--lessthan-regular);
 	margin-top: var(--small);
 	padding: 0.7rem;
 	outline: var(--tiny) dashed var(--grey);
 }
 
 .first {
-	margin-top: var(--height); /* 50 + (10+10)*/
+	margin-top: 3.6rem; /* --height + margin (--small) */
 }
 
 
@@ -291,7 +305,7 @@ article {
 }
 
 p {
-	margin 1em 0;
+	line-height: var(--morethan-regular);
 }
 
 .preview {
@@ -395,6 +409,10 @@ li a:hover, p a:hover {
 	font-size: var(--morethan-regular);
 }
 
+.stuff p {
+	margin-bottom: var(--big);
+}
+
 .link-container {
 	text-align: center;
 }
@@ -408,8 +426,9 @@ li a:hover, p a:hover {
 
 /* HEADER */
 .navigation {
-	top: 0px;
-	width: 100%;
+	top: var(--small);
+	width: 98%;
+	left: 1%;
 	height: var(--height);
 	background: transparent;
 	position: fixed;
@@ -514,7 +533,7 @@ nav ul li ul li a {
 	width: var(--height);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 	.nav-mobile {
 		display: block;
 	}
@@ -555,9 +574,13 @@ nav ul li ul li a {
 	.nav-container {
 		background-color: var(--dark-background);
 	}
+	.navigation, footer {
+		left: 2%;
+		width: 96%;
+	}
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
 	.nav-list {
 		display: block !important;
 		margin-right: var(--regular);
@@ -620,15 +643,16 @@ nav ul li ul li a {
 /* FOOTER */
 footer {
 	background-color: var(--dark-secondary);
-/*	margin-bottom: var(--small);
-	width: 96%;
-	margin-left: 2%; */
+	margin-bottom: var(--small);
+	width: 98%;
+	margin-left: 1%;
 	text-align: center;
 }
 
 footer p {
 	opacity: .7;
-	margin: var(--big) auto 0px;
+	margin: var(--big) auto 0;
+	line-height: 1rem;
 }
 
 /* "Privacy" in footer */

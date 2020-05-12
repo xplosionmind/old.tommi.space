@@ -73,8 +73,8 @@ ref: home
 				</div>
 			</div>
 			<div class="half column stuff">
-				<a href="{{ post.url }}"<h1>{{ post.title }}</h1></a>
-				<p>{{ post.excerpt }}...</p>
+				<a href="{{ post.url }}" style="color: var(--dark-font)"><h2 style="margin-top: var(--big)">{{ post.title }}</h2></a>
+				<p>{{ post.excerpt }}</p>
 				<div class="link-container">
 					<a href="{{ post.url }}"><div class="link" style="color: var(--dark-background); background: var(--dark-font)">leggi</div></a>
 				</div>
@@ -92,7 +92,7 @@ ref: home
 					<p>Prendo tutte queste cose e, non avendo tempo per prepararle bene e svilupparci un pensiero, le metto ne <em>La Marmellata</em>.</p>
 					<p>Ogni puntino qui sotto è un ingrediente de <em>La Marmellata</em>, fatene buon uso, senza esagerare. (non mi assumo responsabilità sulla potenza delle cose che ci sono dentro)</p>
 				</div>
-				<ul style="margin-bottom: var(--bigger); margin-left: 10%">
+				<ul style="margin: var(--bigger) 20%">
 	{% for note in site.jar %}
 	<li><a href="{{ note.url }}" rel="noopener" target="_blank" style="color: var(--secondary)">{{ note.title }}</a></li>
 	{% endfor %}

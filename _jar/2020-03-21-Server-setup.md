@@ -3,6 +3,10 @@ title: "Server setup"
 permalink: /server-setup
 ---
 A walktrough the commands I executed to set up my server on <a href="https://www.linode.com/" rel="noopener" target="_blank">Linode</a>.
+
+<br />
+<br />
+
 ## OS CONFIGURATION
 
 update Ubuntu

@@ -1,0 +1,73 @@
+I"� <p>A comprehensive list of apps I use + apps I have to keep record of because I may need them, but not right now. Sub-elements in the lists are links to great learning resources (official documentation, if present, won’t be mentioned). Everything is free and Open Source, except where otherwise specified.</p>
+
+<p>Right now on my MacBook Pro 13” 2019:</p>
+
+<ul>
+  <li><a href="https://www.mozilla.org/en-US/exp/firefox/" rel="noopener" target="_blank">Mozilla Firefox</a>, the best browser ever.</li>
+  <li><a href="https://www.mozilla.org/en-US/firefox/developer/" rel="noopener" target="_blank">Firefox Developer Edition</a>, to debug and improve Web Design and front-end Web developement experience.</li>
+  <li><a href="https://www.adobe.com/it/products/photoshop-lightroom-classic.html" rel="noopener" target="_blank">Adobe Lightroom Classic</a>, alas, the best photo editing software out there. I hate Adobe, but it works so damn good. I’m doing my best to completely switch to the two following programs but, damn, it’s so hard. Also: I have to keep Lightroom on my device because it’s impossible to move photography edits commited with Lightroom to Darktable.</li>
+  <li><a href="https://www.darktable.org/" rel="noopener" target="_blank">Darktable</a>, widely used (still, not the first option for pros) photo editing software. I wish I’d love it but, damn, it’s so friggin complicated.</li>
+  <li><a href="https://www.digikam.org/" rel="noopener" target="_blank">Digikam</a>, a photo management software.</li>
+  <li><a href="https://www.android.com/filetransfer/" rel="noopener" target="_blank">Android File Transfer</a>, the name says it all. It’s simple and it works great.</li>
+  <li><a href="https://freemacsoft.net/appcleaner/" rel="noopener" target="_blank">AppCleaner</a> it’s not Open Source, but, damn, it’s so useful I have to keep it. As an Open Source alternative, I’m trying to figure out how <a href="http://onnati.net/apptrap/" rel="noopener" target="_blank">AppTrap</a> works.</li>
+  <li><a href="https://www.audacityteam.org/" rel="noopener" target="_blank">Audacity</a>, audio editing software. I know, I have Garage Band which is awesome but… Audacity works the same way anywhere.</li>
+  <li><a href="https://www.backtrack.team/" rel="noopener" target="_blank">Backtrack</a>, the Holy Graal for university students which get easily distracted (me). It allows you to recover audio up to 5 hours before. It’s not Open Source and I payed 2€ for it. Totally worth it.</li>
+  <li><a href="https://www.balena.io/etcher/" rel="noopener" target="_blank">balenaEtcher</a>, the safest, simplest and quickest software to flash OS images to external drives.</li>
+  <li><a href="https://blackhole.run/" rel="noopener" target="_blank">BlackHole</a>, to share any file. Fast and private. Based on <a href="https://blockstack.org/" rel="noopener" target="_blank">Blockstack</a>.</li>
+  <li><a href="https://blockstack.org/" rel="noopener" target="_blank">Blockstack</a>, ideally, it’s something <strong>awesome</strong>, definitely game-changing. Practically, it doesn’t work on my Mac (I tried <a href="https://forum.blockstack.org/t/cant-use-any-dapp/10628" rel="noopener" target="_blank">everything</a>).</li>
+  <li><a href="https://kevin-de-koninck.github.io/Clean-Me/" rel="noopener" target="_blank">Clean Me</a>, an Open Source, better, neat and perfectly working alternative to CCleaner written in Swift.</li>
+  <li><a href="https://dupeguru.voltaicideas.net/" rel="noopener" target="_blank">dupeGuru</a>, a file (specially images) duplicate finder. It’s fentastic, but it doesn’t work with more than 200 photos for me.</li>
+  <li><a href="" rel="noopener" target="_blank">Final Cut Pro</a>, again, pricey and propietary, but it’s so optimized for MacOS, thus so fast, that I really need it to edit with ease videos I need to have ready in a short time.</li>
+  <li><a href="https://www.gimp.org/" rel="noopener" target="_blank"></a>, photo manipulation and editing software. Better known as the Photoshop free alternative, it’s full of resources and it misses almost no feature, but it’s so so so messed up and confusing (as Photoshop is). Too much stuff in too many different places.</li>
+  <li><a href="http://gitup.co/" rel="noopener" target="_blank">GitUp</a>, GUI interface for git.</li>
+  <li><a href="https://gpgtools.org/keychain/index.html" rel="noopener" target="_blank">GPG Keychain</a>, to store and handle PGP Keys.</li>
+  <li><a href="https://handbrake.fr/" rel="noopener" target="_blank">HandBrake</a>, anythin you need to do with video files, it gets it done (in a short or eternal amount of time).</li>
+  <li><a href="https://github.com/dwarvesf/hidden" rel="noopener" target="_blank">Hidden Bar</a>, to hide itchy icons from the menu bar.</li>
+  <li><a href="https://inkscape.org/" rel="noopener" target="_blank">Inkscape</a>. Anything with graphics? Use this. I definitely love it.</li>
+  <li><a href="" rel="noopener" target="_blank">iTerm</a></li>
+  <li><a href="" rel="noopener" target="_blank">Jami</a></li>
+  <li><a href="" rel="noopener" target="_blank">Jitsi Meet</a></li>
+  <li><a href="" rel="noopener" target="_blank">Joplin</a></li>
+  <li><a href="" rel="noopener" target="_blank">KeePass XC</a></li>
+  <li><a href="" rel="noopener" target="_blank">Keybase</a></li>
+  <li><a href="" rel="noopener" target="_blank">LBRY</a></li>
+  <li><a href="" rel="noopener" target="_blank">LibreOffice</a></li>
+  <li><a href="" rel="noopener" target="_blank">MacDown</a></li>
+  <li><a href="" rel="noopener" target="_blank">MEGAsync</a></li>
+  <li><a href="" rel="noopener" target="_blank">NetNewsWire</a></li>
+  <li><a href="" rel="noopener" target="_blank">Nextcloud</a></li>
+  <li><a href="" rel="noopener" target="_blank">OmegaT</a></li>
+  <li><a href="" rel="noopener" target="_blank">OnionShare</a></li>
+  <li><a href="" rel="noopener" target="_blank">Pocket</a></li>
+  <li><a href="" rel="noopener" target="_blank">Protonmail Bridge</a></li>
+  <li><a href="" rel="noopener" target="_blank">ProtonVPN</a></li>
+  <li><a href="" rel="noopener" target="_blank">qBittorrent</a></li>
+  <li><a href="" rel="noopener" target="_blank">Rectangle</a></li>
+  <li><a href="" rel="noopener" target="_blank">Signal</a></li>
+  <li><a href="" rel="noopener" target="_blank">Skype</a></li>
+  <li><a href="" rel="noopener" target="_blank">Sozi</a></li>
+  <li><a href="" rel="noopener" target="_blank">Spotify</a></li>
+  <li><a href="" rel="noopener" target="_blank">Telegram</a></li>
+  <li><a href="" rel="noopener" target="_blank">TweetDeck</a></li>
+  <li><a href="" rel="noopener" target="_blank">utox</a></li>
+  <li><a href="" rel="noopener" target="_blank">VLC</a></li>
+  <li><a href="" rel="noopener" target="_blank">Tor</a></li>
+  <li><a href="" rel="noopener" target="_blank">WhatsApp</a></li>
+</ul>
+
+<h3 id="terminal">Terminal</h3>
+<ul>
+  <li><a href="https://git-scm.com/" rel="noopener" target="_blank">git</a>, a <abbr title="Version Control Software">VCS</abbr> no one can live without.</li>
+  <li><a href="vim.org" rel="noopener" target="_blank">Vim</a> is the best text editor in the world, and it’s more than that; it’s a philosophy, a lifestyle. Actually, it’s preinstalled on UNIX-based OSs, but I installed <a href="https://neovim.io/" rel="noopener" target="_blank">Neovim</a> which is so great. I use it on a daily basis and I love it.
+    <ul>
+      <li><a href="http://vimcasts.org/" rel="noopener" target="_blank">Vim casts</a>, the best video tutorials you can find</li>
+      <li><a href="https://pragprog.com/book/dnvim2/practical-vim-second-edition" rel="noopener" target="_blank">Practical Vim</a> a book - the best book you can find - on Vim, by the same creator of Vim Casts: &lt;href=”http://drewneil.com/” rel=”noopener” target=”_blank”&gt;Drew Neil&lt;/a&gt;.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/sylnsfar/qrcode" rel="noopener" target="_blank">Animated QR code generator</a></li>
+  <li><a href="https://github.com/Jack000/Expose" rel="noopener" target="_blank">Exposé</a>, a simple and beautiful static site generator for photoessays</li>
+  <li>&lt;a href=https://github.com/junegunn/fzf”” rel=”noopener” target=”_blank”&gt;fzf&lt;/a&gt; a fuzzy finder</li>
+</ul>
+
+<p>https://youtu.be/FtNxKc8mKu8</p>
+:ET

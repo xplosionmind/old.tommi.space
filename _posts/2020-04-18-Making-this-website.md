@@ -1,29 +1,62 @@
-Building a website from scratch can be challenging. It took me several months of study, practice, tests and neverending headaches to get to this result. The process can be overwhelming (to me it definitely has been): there are tons of different tools, resouces and tutorials; nevertheless, it’s always **so hard** to spend the right amount of time learning something by evaluating its overall usefulness. Since the beginning, I chose to do **everything** by myself: I decided not to use any framework, <abbr title="Content Management System">CMS</a> or copy and paste any code I couldn’t understand.
+---
+lang: en
+permalink: /themekingof
+ref: genesi
+categories: geek
+img: "/images/2020-04-18-Making-this-website.jpg"
+---
 
-I wanted to learn by doing and do it in the best possible way.
+## This article isn’t completed yet, please check the Markdown file in the website GitHub repository to contribute.
+
+Building a website from scratch can be challenging. It took me several months of study, practice, tests and neverending headaches to get to this result. The process can be overwhelming (to me it definitely has been): there are tons of different tools, resouces and tutorials; nevertheless, it’s always **so hard** to spend the right amount of time learning something by evaluating its overall usefulness. Since the beginning, I chose to do **everything** by myself: I decided not to use any framework, <abbr title="Content Management System">CMS</abbr> or copy and paste any code I couldn’t understand.
+
+I wanted to learn by doing and **do it in the best possible way**.
 
 <br />
 
-Yep, quite an ambitious purpose. Thus, in the end I decided to take advantage of a Static Site Generator, which doesn’t necessarily make things more complex but for sure it makes them simpler and **way quicker**. We’ll get there.
+Yep, quite an ambitious purpose. Thus, in the end I decided to take advantage of a <a href="https://www.staticgen.com/about" rel="noopener" target="_blank">Static Site Generator</a>, which doesn’t necessarily make things heavier but for sure it makes them simpler and **way quicker**. We’ll get there.
 
-One last thing before diving in: this article is not intended a guide nor a tutorial. Since I’ve been struggling **a lot** to get here, I feel like it may be useful to someone to know the path I followed (or, better, traced) to obtain what I was aiming at. Not having any clue of the right next step is stessful, I’ve been on the edge of giving up multiple times.
+One last thing before diving in: this article is not intended to be a guide or a tutorial. Since I’ve been struggling **a lot** to get here, I feel like it may be useful to someone to know the path I followed (or, better, traced) to obtain what I was aiming at. Not having any clue of the right next step is **so** stressful, I’ve been on the edge of giving up multiple times.
 
-Eventually, another point it’s worth making is that web develpement is **ridicolously cheap**: you just need a laptop (you don’t even need a powerful one), everything else is for **free** (actually, I bought a book, but online there are a few valid alternatives). The only, **huge** price you need to pay is **time**, a handful of restless hours fighting with the urgency and the desire of getting things done, and having paticence following gradual steps. 
+Eventually, another point it’s worth making is that web develpement is **ridicolously cheap**: you just need a laptop (not even a powerful one), everything else is for **free** (actually, I bought <a href="http://www.htmlandcssbook.com/" rel="noopener" target="_blank">this book</a>, but online there are a few great alternatives). The only, **huge** price you need to pay is **time**. I spent handful of restless hours fighting with the urgency and the desire of getting things done, and trying to have paticence of going on by gradual steps. 
 
+<br />
+<br />
 
 ## The Beginning
 
-I had absolutely no idea where to start. My only notions of programming were some basic concepts of C, which I studied at University. I knew nothing about server management, HTML, CSS, JavaScript or web hosting. My previous website created on Wix with a drag-and-drop GUI to build anything.
+I had absolutely no idea where to start. My only notions of programming were some basic concepts of C, which I studied at University. I knew nothing about server management, HTML, CSS, JavaScript or web hosting. My <a href="https://xplosionmind.wixsite.com/xplosionmind" rel="noopener" target="_blank">previous website</a> was created on <a href="https://wix.com" rel="noopener" target="_blank">Wix</a> with a drag-and-drop <abbr title="Graphical User Interface">GUI</abbr> to build anything.
 
 So, the first question I asked myself was:
 
 **where should I start?**
 
-As of when I’m writing, `xplosionmind.tk` isn’t completed.
+As of when I’m writing, `xplosionmind.tk` isn’t completed. The following steps are part of a bullet-list which I enhanced and completed before publishing.
+
+Since I spent my whole COVID-19 quarantine (two months ish) doing this, I'm gonna add the git commit date of each step at the beginning.
 
 <br />
 <br />
+
+## [Learning HTML and CSS](#learning){:.anchor}
+
+As I wrote before, since I was so lost and I had no idea of the best starting point, I bought a book on basic web programming: “HTML and CSS” by Jon Duckett. I spent ten days reading and studying it thoroughly. After that, I knew all the basics, then I was able to start building a test page.
+
 <br />
+<br />
+
+## [Building](#building){:.anchor}
+
+I chose the about page to be my test page. At first, it wasn't a section of the homepage, but a standalone one. I struggled to make it look like the one on the Wix website (I won’t link it anymore, you can browse around using the first one I gave) and I couldn’t make it appear nicely, until I discovered the `object-fit` CSS property, which changed my game.
+
+To be honest, even after finishing the book I knew nothing about <a href="https://en.wikipedia.org/wiki/Web_framework" rel="noopener" target="_blank">frameworks</a> but after reading <a href="https://www.taniarascia.com/you-dont-need-a-framework/" rel="noopener" target="_blank">this article</a> I told myself I wouldn't need one. Even after completing the website, I still don't know if I made the right choice. Without a doubt, <a href="https://github.com/xplosionmind/xplosionmind/blob/master/style.css" rel="noopener" target="_blank">my <code>style.css</code></a> file is a huge mess. Nevertheless, I get things done pretty easily by searching classes' names in the file and I have only a stylesheet, so it's good.
+
+<br />
+<br />
+
+## [Navigation bar, Header and footer](#navigation){:.anchor}
+
+I decided to use the `include` php function to have only a header and a footer file. 
 
 ## STEPS
 

@@ -14,3 +14,5 @@ There are tools which it would be so useful for me to have but I can’t find th
 		- markers
 		- auto-generated keywords based on markers, if applied
 		- instantaneous automatic transcryption (some type of prograssive one, which could analyze the few seconds the user just recorded and immediately parse the text, such that if the one who is recording has lost track of the argument can read his last sentences)
+- a program which sums the length of each audio sent and received (and listened), summing up the time spent recording and listening to audio messages.
+- a program which calculate a percentage of how much each person speak in a call / videocall, like some sort of "ball possession" percentage in soccer games.

@@ -13,9 +13,6 @@ permalink: "/category/:title/"
 	</div>
 </div>
 
-<br />
-<br />
-
 {% for post in site.posts %}
 	{% if post.categories contains page.title %}
 		<a href="{{ post.url }}">

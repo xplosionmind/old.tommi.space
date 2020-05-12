@@ -52,6 +52,7 @@ defaults:
     values:
       layout: "wrapper"
       ref: ":title"
+      excerpt_separator: "<!--more-->"
     
   -
     scope:

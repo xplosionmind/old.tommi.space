@@ -1,0 +1,218 @@
+I"�i
+<p>Ho sempre amato i semplici ma contemporaneamente maestosi titoli latini in “de + ablativo” e non ho saputo resistere nel trovare il coraggio di distruggere grandi opere del livello del <em>De bello gallico</em> e <em>De agricoltura</em> intitolando questo articolo in questo modo. Allo stesso tempo, come <em>Candido o l’Ottimismo</em>, volevo mettere “o”. Mi sono tolto una soddisfazione.</p>
+
+<!--more-->
+
+<h2 id="premessa">Premessa</h2>
+
+<p>Queste righe vogliono essere una registrazione, un appunto a imperitura memoria, delle intenzioni e delle ispirazioni con cui ho creato questo sito, cioè la versione pubblica e online della mia testa (e poveri noi). In primis, è per me importante sottolineare che ho cercato il più possibile di evitare di renderlo un’apoteosi del mio egocentrismo (a cui, ahimè, talvolta innegabilmente soccombo) o men che meno un posto per mettere in mostra quanto (<em>non</em>) sono bravo. L’ispirazione è nata anni fa da un piccolo pensiero che nella mia testa tamburellava: “perché ti servono i social?” e si è trasformato negli ultimi mesi nella risoluzione di <strong>sposare completamente e unicamente strumenti Open Source</strong>, abbandonando <strong>definitivamente</strong> mezzi di comunicazione e programmi di ogni sorta di natura centralizzata o basati su software software proprietario <em>entro fine anno</em>. Per questo motivo, ho deciso di scrivere il <strong><em>Manifesto della Libertà digitale</em></strong>, a cui chiunque puotrà contribuire, aggiungendo risorse, riflessioni, informazioni. Cercherò di pubblicare la prima bozza del manifesto entro giugno e presto scriverò un articolo su come in tre mesi ho deciso di abbandonare per sempre Google, Facebook e tutti quei big nominati continuamente.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="intro">Intro</h2>
+
+<p>Dopo questa dovuta premessa, possiamo dedicarci alla genesi di <a href="/home" target="_blank">xplosionmind</a>.</p>
+
+<p>Esisteva (e <a href="https://xplosionmind.wixsite.com/xplosionmind" rel="noopener" target="_blank">esiste ancora</a>) una versione precedente del sito, che ho creato utilizzando <a href="https://wix.com" rel="noopener" target="_blank">Wix</a>, in cui prendevo le figurine belle che mi piacevano, le trascinavo con il mouse ed era fatta.</p>
+
+<p>Due mesi fa, invece, ho deciso di programmare il sito <strong>da zero</strong>. Non ho voluto utilizzare framework, template o copiare e incollare stringhe di codice senza capire il loro significato. È stato un parto. Per tutti i tre mesi della mia quarantena sono stato in balìa dell’ossessione di portare avanti lo sviluppo del sito, sognando il codice la notte e tormentandomi quando non ero in grado di scrivere uno script funzionante per ottenere il risultato che desideravo. Disperato e stanco, mentre programmavo sono riuscito però a prendere appunti e li ho usati per scrivere <a href="/the-making-of" target="_blank">un articolo</a> più tecnico che descrive ogni passaggio della costruzione. Lì ho messo il <em>cosa</em> e il <em>come</em>, qui il <em>perché</em>.</p>
+
+<p><br /></p>
+
+<p>Sono sempre più innamorato delle <strong>storie</strong>. Vado in estasi e comincio a tremare dall’entusiasmo ogni volta che scopro una novità su qualcosa che fino a quel momento ha fatto parte della mia quotidianità e io ne ho ignorato le origini. Mentre programmavo, ho cercato il più possibile di assorbire al massimo ispirazioni, cultura, nozioni tecniche e non, esperienze, riflessioni e provato a inserirle qui. Ogni particolare, ogni dettaglio, ogni specifico colore o pulsante sono frutto di una storia, un percorso, uno studio e un innamoramento che li ha portati a essere proprio così. Respingo e rifiuto con tutto me stesso la linea del “metto questo perché è bello”, o “facciamo in modo che sia più accattivante possibile”, e relativi ragionamenti. Ho fortemente voluto evitare di far apparire qui sopra qualcosa senza che avesse motivo di esserci.</p>
+
+<p>Cominciamo.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="giallonero"><a href="#giallonero" class="anchor">giallonero</a></h2>
+
+<p>Non ho mai capito nulla di calcio. Proprio non ci ho mai preso, nè a calciare un pallone, nè a capire come funziona il calciomercato e quello che fa un arbitro e tutte quelle cose dei CT presidenti fascia alta ala destra terzino. So solo chi è il portiere. Buffon. Mi sono sempre chiesto come avrei dovuto fare quando un mio amico compagno di classe persona appena conosciuta parente lontano mi chiedeva “che squadra tifi?”</p>
+
+<p>Italia? Dai, scontato. Juve, quella di papà? Booh. Così sorridevo e facevo il furbo come per dire “non è la tua stessa, perciò non te lo dicooooo”. Ecco, chiedendomi che colori avrei dovuto utilizzare per realizzare questa cosa di pixel (cioè questo sito, non riesco a trovare sinonimi per evitare ripetizioni) ho capito. Io tifo giallonero. Che io sappia (perciò mi sbaglio sicuramente), non esistono squadre importanti in Italia che abbiano i colori giallo e nero.</p>
+
+<p>Il giallo e il nero sono i colori dei lavori in corso, del <strong>work in progress</strong>, del <em>cantiere</em>, dei pilastri nei sottopassaggi che non puoi non vedere altrimenti ti schianti. xplosionmind è esattamente questo, un posto che per sua essenza e definizione è <strong>incompiuto</strong>, continuamente <strong>in cambiamento</strong> e, si spera, in evoluzione.</p>
+
+<p><br /></p>
+
+<p>Altri significati importanti attribuiti a questo stupendo binomio di colori:</p>
+
+<ul>
+  <li>è così bello pensare all’inimitabile splendida <em>potente</em> Uma Thurman ogni volta che si apre una pagina nuova. Kill Bill. Giallo e nero sono i colori di Kill Bill (e grazie mille alla mia gemella di entusiasmo Anna Maria di Matera che me lo ha fatto notare);</li>
+  <li>l’Ape Maya. <em>Ça va sans dir</em>.</li>
+  <li>Essendo colori di cantiere, non posso non ammettere che di mezzo ci sono anche i miei grandiosi pazzeschi potentissimi amici, i <a href="https://youtu.be/hu8IPqi6_ak" rel="noopener" target="_blank">Cantiere 164</a>.</li>
+</ul>
+
+<p><br /></p>
+
+<p>Ci sono degli accenni di blu, soprattutto ne <em><a href="/marmellata" target="_blank">La Marmellata</a></em>. Motivi: uno il mare, due la marmellata di mirtilli. Eh.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="linee"><a href="#linee" class="anchor">linee</a></h2>
+
+<p>Eccetto che nelle scritte e nei loghi, non esistono curve, qui. È tutto dritto, spigoloso e bidimensionale. Non era mia intenzione, originariamente,  comporre qualcosa di “bello”, il mio obiettivo primario era che ci fosse <em>armonia</em> fra gli oggetti. È successo tutt’altro; dubito che vedendo tutti i quadratini e le striscie gialle abbiate avuto un’idea di armonia. Ho trascurato quest’idea iniziale lasciandomi trascinare dalla concezione di complessità e confusione che regnano costantemente in me e in tutte le persone più belle del mondo (le altre persone confuse sono belle, mica io). Per questo, sono arrivato a cercare di esprimere una <strong><em>semplice confusione</em></strong>.</p>
+
+<p>Quando navigo su internet leggendo articoli, studiando concetti, cercando ispirazione, finisco sempre per avere una miriade di pagine aperte, talmente tante che non capisco più nulla. Questa è l’appassionante confusione in cui vivo costantemente, cercando di assorbire il più possibile da quello che vedo, leggo e soprattutto <a href="https://hyp.is/JuLEYpObEeq9oHc-lQhibA/sherlockholmesquotes.com/" target="_blank" rel="noopener">osservo</a> ciò che mi circonda, ma è facilissimo perdersi. Per questo, la confusione, quasi per assurdo, deve mantenere una struttura <em>semplice</em>: devo sempre sapere da dove sono partito e dove voglio arrivare, quanto tempo posso dedicare a perdere la testa in determinati argomenti e se è il caso di approfondire così tanto, più altre mille variabili soggettive. Dunque, se da un lato ho cercato di mettere ovunque più <em>collegamenti</em> possibili fra pagine e rimandi a risorse esterne, mi sono impegnato allo stesso tempo a mantenere costantemente una chiara e intuitiva semplicità di fondo.</p>
+
+<p><br /></p>
+
+<p>Ci tengo a approfondire in particolare un passaggio dell’ideazione del design di xplosionmind. C’è una fantastica storia dietro le linee gialle che stanno nella pagina di atterraggio dello <em>Zibaldone</em>, nelle poesie e nelle categorie, per separare i post.</p>
+
+<p>Mi trovavo ad un punto in cui avevo praticamente concluso la struttura del sito. L’HTML era completo, le basi di <a href="https://developer.mozilla.org/it/docs/Web/CSS" rel="noopener" target="_blank">CSS</a> inserite e i dettagli grafici rindondanti erano stati definiti. Nonostante questo, mancava qualcosa. Davanti a me, nella pagina dello <em>Zibaldone</em> avevo un elenco di maiuscole bianche, separate da un’interlinea di 1.5rem. Non riusivo a trovare una soluzione che fosse visivamente bella per distinguere chiaramente fra loro i titoli nell’elenco. Odio con tutto me stesso, non sopporto le lineette sottili che separano le cose, quelle delle tabelle Excel, per capirci, o quelle che separano le varie email in una casella di posta elettronica. Queste:</p>
+
+<hr />
+
+<p>Grr.</p>
+
+<hr />
+
+<p>Le possibili soluzioni erano tre:</p>
+
+<ol>
+  <li>Metterle comunque, a costo di rabbrividire ogni volta che avrei aperto lo <em>Zibaldone</em></li>
+  <li>Aumentare ancora più lo spazio fra titoli, per enfatizzare la separazione, trasformando la pagina in un papiro lunghissimo infinito</li>
+  <li>Utilizzare colori di sfondo lievemente differenti che si alternano, un po’ come ho fatto in <a href="/tutto" target="_blank">tutto</a>, solamente che non sapevo come impostare uno sfondo diverso solo per le iterazioni dispari in un for loop su Liquid (sto già diventando troppo tecnico. In sintesi: non ero capace).</li>
+</ol>
+
+<p>Come nel corso di tutto il processo creativo di realizzazione del sito, in ogni momento di difficoltà o indecisione, ho preso quello che non sopporto e l’ho <em>esagerato</em>. Ho messo le linee di separazione, ma ENORMI, belle spesse, colorate, invasive. Così non sarebbero state come quei timidi odiosi sottili fili che separano un’email dall’altra come a dire “nonono non guardarmi, io non sono bello, ma servo”, sarebbero diventate invece le protagoniste.</p>
+
+<p>Hanno vinto, le dannatissime linee hanno vinto.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="carichi-sospesi"><a href="#carichi-sospesi" class="anchor">Carichi Sospesi</a></h2>
+
+<p>Come in tutti i grandi cantieri che si rispettano, ci sono dei carichi sospesi. Qui, come vedete nell’imagine di seguito, la barra di navigazione è sospesa da una gru, e il footer trasportato da un camion. Tutto sospeso, tutto in costruzione. Se prestate attenzione, in ogni pagina la barra non è mai attaccata in cima e ai lati, ma sempre un po’ sotto, per dare l’idea di essere veramente appesa a una gru.</p>
+
+<figure class="image">
+	<img src="/images/2020-05-12-Genesi.jpg" alt="un disegno della pagina iniziale del sito come cantiere" title="il cantiere di xplosionmind" />
+	<figcaption>il cantiere di xplosionmind</figcaption>
+</figure>
+
+<p><br />
+<br /></p>
+
+<h2 id="tipografia"><a href="#tipografia" class="anchor">Tipografia</a></h2>
+
+<p>Ora devo trattenermi. Da quando il mitico prof. Ciulla mi prestò <em><a href="https://openlibrary.org/works/OL16963936W/The_Vignelli_Canon" rel="noopener" target="_blank">Il canone Vignelli</a></em> in quarta superiore, io sono fissato, innamorato perso della tipografia. Mi fa impazzire. Se potesse diventare una ragazza, io sposerei un font (a quale sposerei ci arriviamo). Qualcosa di incredibile, stratosferico, commovente, ma allo stesso tempo dal fine di utilizzo estremamente pratico e concreto. Vediamo, leggiamo scritte tutti i giorni e non pensiamo alle ore, agli anni di studio che una mente geniale ha trascorso per accostare in modo perfetto quelle forme geometrihe, o di come nei secoli queste si siano strette, allargate, assottigliate, capovolte, complicate, raddrizzate. Appena avrò studiato l’argomento più approfonditamente dedicherò assolutamente un pensiero dello <em>Zibaldone</em> alla tipografia, per ora c’è solo <a href="/typography" target="_blank">un ingrediente</a> de <em>La Marmellata</em> al riguardo.</p>
+
+<p>Dato che sono un <em>typography enthusiast</em>, sin dalla prima stringa di CSS che ho scritto ero consapevole e sicuro che la scelta del font sarebbe stata cruciale, vitale, decisiva nella costruzione di xplosionmind. Il font, ovunque, è <a href="https://rsms.me/inter" target="_blank" rel="noopener">Inter</a>. Quasi uno scherzo del destino che il font che ho scelto si chiami come una squadra di calcio, favoloso. Tutto torna.</p>
+
+<p>In realtà, se io potessi, userei sempre, unicamente, incondizionatamente <a href="https://en.wikipedia.org/wiki/Helvetica" rel="noopener" target="_blank">Helvetica</a>. È lei, il font che sposerei. <em>Helvetica</em>. Però, porca puzzola, come tutte le Beatrici che si rispettino, Helvetica è una bellezza inaccessibile, e il nostro un amore impossibile. Helvetica può essere utilizzata (quando si parla di un font, si sottintende sempre la parola “font”, quindi tutti i font, teoricamente sono al maschile, ma lei… lei no.) solo per uso personale. È disponibile fra i font preinstallati su Mac e Windows, ma se si intende creare qualcosa sul cui design poi si metterà la firma (come questo sito, che è pubblicato con la licenza <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it" rel="noopener" target="_blank">Creative Commons Share alike blabla</a>, presente nel footer di ogni pagina) non la puoi utilizzare. Perciò, a malincuore, ho dovuto cercare un’alternativa. Per fortuna, non è stato difficile, anzi, molto facile: quello con Inter è stato un colpo di fulmine. le sue o, le sue e, aaah, le sue elle. Una magia. il papà di Inter è un designer troppo figo che si chiama  <a href="https://rsms.me/about/" rel="noopener" target="_blank">Rasmus Andersson</a> e che nel tempo libero <a href="https://rsms.me/about/laguna1.mp4" rel="noopener" target="_blank">guida macchine da corsa</a>. Ho deciso immediatamente. Inter sarebbe stato il font di xplosionmind.</p>
+
+<p>Per quanto riguarda il font serif (cioè con tutti i fronzoli: quello che uso negli articoli e nelle poesie) sarò più breve: è un font aperto, libero, sviluppato da <a href="http://www.gust.org.pl/projects/e-foundry" rel="noopener" target="_blank">GUST e-foundry</a>, un team di tipografi polacchi. Mi è stato simpatico da subito, è meno aggressivo e presuntuoso di <a href="https://github.com/clauseggers/Playfair-Display" rel="noopener" target="_blank">Playfair Display</a> (che ho utilizzato sul sito precedente), ho scelto di adottarlo con leggerezza e fiducia, sono soddisfatto.</p>
+
+<p><br /></p>
+
+<h3 id="spazio"><a href="#spazio" class="anchor">Spazio</a></h3>
+
+<p>L’interlinea è sempre <code class="highlighter-rouge">1.5em</code>. Spero la lettura scorra facilmente e credo sia lo spazio perfetto fra una riga e l’altra.</p>
+
+<p>Sto ancora valutando se modificare il <em>kerning</em> (lo spazio fra le lettere) o la larghezza degli spazi, per ora mi piace così. Altrimenti, asolto con piacere vostri suggerimenti.</p>
+
+<p><br /></p>
+
+<h3 id="maiuscole"><a href="#MAIUSCOLE" class="anchor">MAIUSCOLE</a></h3>
+
+<p>Ciò che mi ha sempre fatto impazzire di Helvetica è il suo maiuscolo. Se non passassi per un pazzo e leggere non mettesse un’agitazione assurda, scriverei sempre solo con Helvetica Maiuscola in grassetto (ogni parola di più di una lettera in stampatello non grassetto è decisamente inguardabile). Con Inter è un po’ lo stesso, perché dai, siamo sinceri, Inter e Helvetica si somigliano, un po’. Per questo, su xplosionmind tutti gli heading sono maiuscoli. Tutte le cose che sono maiuscole sono anche bold, ma non viceversa.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="scatole-e-nastri"><a href="#scatole-e-nastri" class="anchor">Scatole e nastri</a></h2>
+
+<p>In <a href="https://developer.mozilla.org/it/docs/Web/HTML" rel="noopener" target="_blank">HTML</a>, chi un po’ lo conosce lo sa, tutto sta in scatole (precisamente, “contenitori”): ogni elemento è una scatola che contiene o a sua volta è contenuto da un’altra scatola. Una pagina web, semplificando, è un insieme di scatole che stanno una dentro l’altra, tipo matrioska. Se volete fare un esperimento, cliccate <code class="highlighter-rouge">CTRL</code> + <code class="highlighter-rouge">SHIFT</code> + <code class="highlighter-rouge">C</code> se siete su Firefox o <code class="highlighter-rouge">CTRL</code> + <code class="highlighter-rouge">I</code> se siete su Chrome (sostituite <code class="highlighter-rouge">CTRL</code> con <code class="highlighter-rouge">cmd</code> su Mac) e potrete notare che ogni <code class="highlighter-rouge">&lt;div&gt;</code> è l’inizio di una scatola e ogni <code class="highlighter-rouge">&lt;/div&gt;</code> è quello che la chiude. Io stavo provando a far stare i titoli delle sezioni in una propria scatola, per mettere lo sfondo solo a un rettangolino intorno alla scritta, al centro della pagina, ma non riuscivo. Sono impedito come pochi con il CSS. Alla fine, rassegnato, ho lasciato che le strisce con sfondo colorato fossero larghe quanto tutta la pagina, come le vedete ora. Ho lasciato stare per un pezzo la stilizzazione degli <code class="highlighter-rouge">&lt;h2&gt;</code> (i titoli a metà pagina) dedicandomi ad altro. Abituandomi a vederli, dopo un po’, ho pensato: “mica male! Direi proprio che se ci stanno tutte queste scatole in giro, anche qualche nastro starebbe bene”. Così ho lasciato ’ste cose colorate lunghissime. Sono bellissime, pure!</p>
+
+<p>Non l’avrei mai detto, ma: menomale che non ero capace.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="pagine"><a href="#Pagine" class="anchor">Pagine</a></h2>
+
+<p>Non immediatamente, ma dopo poco si capisce benissimo che lo <em><a href="/zibaldone" target="_blank">Zibaldone</a></em> è un blog, <em><a href="/tutto" target="_blank">tutto</a></em> è una specie di registro delle mie attività, che i <em><a href="/poetry" target="_blank">pasticci</a></em> sono delle poesie, che <em><a href="/marmellata" target="_blank">La Marmellata</a></em> è una sorta di taccuino pubblico. La mia intenzione era quella di attribuire un’identità a ogni pagina, di darle un perché e di definire un suo carattere. Per questo, ho evitato di utilizzare titoli descrittivi, assegnando invece dei nomi. Conseguentemente, per <a href="/#linee">semplificare la confusione</a>, sotto ogni titolo c’è una breve illustrazione del contenuto della pagina e del perché di quel nome.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="lingua"><a href="#Lingua" class="anchor">Lingua</a></h2>
+
+<p>È stato uno degli obiettivi più complicati da finalizzare, quindi, anche se non c’è molto di cui raccontare, lo scrivo: ogni pagina (eccetto gli articoli, che sono solo nella lingua originale) è tradotta in italiano e in inglese. Allo stesso modo header e footer. Mi sono divertito un sacco a scrivere i contenuti delle pagine perché, dovendo in ogni caso tradurre in un’altra lingua, a volte sono partito dall’inglese, a volte dall’italiano. Ergo, se state leggendo qualcosa in italiano, non è detto che sia l’originale: più probabilmente ho prima scritto quella frase in inglese e poi ne ho fatto la trasposizione in italiano.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="apertura"><a href="#Apertura" class="anchor">Apertura</a></h2>
+
+<p>Il <a href="https://github.com/xplosionmind/xplosionmind" rel="noopener" target="_blank">codice sorgente</a> del sito è su GitHub, in fondo a ogni articolo è presente il link “suggerisci modifica o correzione”, che porta direttamente alla versione modificabile di quella pagina. Ovviamente, in caso apportaste modifiche, l’implementazione di queste nel codice originale non è automatica, deve essere approvata da me. Il mio obiettivo è quello di trasformare questo sito in un portale, che è una parola bruttissima per esprimere un concetto bellissimo: un luogo online per trovare risorse e leggere pensieri.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="newsletter"><a href="#Newsletter" class="anchor">Newsletter</a></h2>
+
+<p>Nel sito precedente gestiva tutto Wix: ad ogni nuova pubblicazione, veniva inviata un’email agli iscritti. Ora, diventa tutto mooolto pù complicato. Cercando di risparmiare tecnicismi, per avviare efficacemente la newsletter devo riuscire a implementare uno script che automatizzi questi passaggi:</p>
+
+<ul>
+  <li>aggiungere un indirizzo email digitato nel campo di iscrizione nel footer all’elenco degli iscritti alla newsletter;</li>
+  <li>verificare un eventuale identità dell’indirizzo digitato con uno già presente in lista;</li>
+  <li>completare, con contenuti differenti per ogni articolo, un’email con layout da me precedentemente definito;</li>
+  <li>spedire questa nell’istante in cui effettuo una push (caricamento su GitHub di una nuova versione del sito) contenente un nuovo articolo.</li>
+</ul>
+
+<p>Ci sono molti altri piccoli dettagli che non ho messo in elenco, come lo scenario in cui la push contenga la correzione di un articolo già esistente e non appena pubblicato. In ogni caso, credo di poter risolvere alcuni se non la maggioranza di questi problemi con <a href="https://mailtrain.org/" rel="noopener" target="_blank">Mailtrain</a>. (con <a href="https://mailchimp.com/" rel="noopener" target="_blank">Mailchimp</a> sarebbe probabilmente più semplice ma non ho voluto usarlo in quanto non Open Source). Mi metterò al lavoro su questo al più presto.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="cursore"><a href="#Cursore" class="anchor">Cursore</a></h2>
+
+<p>Quando leggete da telefono non ve ne accorgete, ma se aprite il sito da computer potete divertirvi a giocare con il cursore. La sua modifica è uno di quei dettagli che sono semplicissimi da manipolare, ma che quasi nessuno applica.</p>
+
+<p><br /></p>
+
+<p>Sono (purtroppo ero, non lo sono più come una volta) appassionato all’astronomia e a tutte le figate legate all’esplorazione spaziale. per questo, alle superiori passavo ore dei miei pomeriggi di pseudo-studio a guardare le live streaming di <a href="https://www.spacex.com/" rel="noopener" target="_blank">SpaceX</a> (quella di Elon Musk) che mostravano il lancio delle navicelle <a href="https://www.spacex.com/dragon" rel="noopener" target="_blank">Dragon</a>, contenenti i rifornimenti per la <abbr title="International Space Station"><a href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station" rel="noopener" target="_blank">ISS</a></abbr>. Essendo senza pilota, le navicelle Dragon, una volta nell’orbita della ISS, non possono attaccarsi da sole alla stazione, ma devono essere “catturate” da un braccio robotico fighissimo chiamato <a href="https://asc-csa.gc.ca/eng/canadarm/default.asp" rel="noopener" target="_blank">Canadarm</a>. Quando un astronauta assume il controllo del Canadarm per afferrare un Dragon, ha un’interfaccia simile a quella del mirino di un cecchino, con <code class="highlighter-rouge">+</code> al centro.</p>
+
+<p>Non è la stessa cosa rispetto al compimento di una manovra a centinaia di kilometri al secondo di velocità, in assenza di gravità, con un millimetrico margine d’errore, assumendosi la responsabilità del salvataggio di un carico dal calore di centinaia di migliaia di euro, ma mi piace da matti l’idea di potersi sentire come un’astronauta nello spazio a ogni click su xplosionmind.</p>
+
+<p><br /></p>
+
+<h4 id="fun-fact"><a href="#Fun-fact" class="anchor">Fun fact</a></h4>
+
+<p>Come quando ai aggancia il bersaglio in un combattimento il mirino diventa verde, così su xplosionmind, passando sopra i link, il puntatore diventa azzurro.</p>
+
+<p>“Pagina agganciata, capitano!”</p>
+
+<p><br /></p>
+
+<p>Sono un nerd senza speranze.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="inciampi"><a href="#Inciampi" class="anchor">Inciampi</a></h2>
+
+<p>Come ho anticipato all’inizio, programmare questo sito è stato un casino. Io non ne sapevo nulla, ora ne so poco, e ho avuto costantemente la fretta di finire tutto ma contemporaneamente anche di riuscire ad arrivare al risultato che volevo, come lo volevo. Ho perso un sacco di tempo a cercare di imparare nozioni che poi ho scelto di non sfruttare, a migliorare dettagli che poi ho dovuto eliminare, e tanti altri pasticci. Il prezzo più grande da pagare quando si tratta di informatica è il <em>tempo</em>. Non a caso, <a href="https://www.imdb.com/title/tt1211837/" rel="noopener" target="_blank">Doctor Strange</a> è il mio preferito. Appena apparso nel <abbr title="Marvel Cinematic Universe"><a href="https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe" rel="noopener" target="_blank">MCU</a></abbr>, ha spodestato Tony Stark in un attimo. Come al solito mi sto perdendo, ma per fortuna sono quasi alla conclusione.</p>
+
+<p>Non sono sicuro che tutto questo tempo trascorso a creare xplosionmind sia stato efficacemente investito e che quello che ho appreso lungo il cammino mi sia veramente utile in futuro, ma so per certo che inciampare è quello che fa crescere di più. Sono contento di averlo fatto e entusiasta di continuare a farlo.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="whats-next"><a href="#Whats-next" class="anchor">What’s next</a></h2>
+
+<p>Ne stavo per uscire pazzo: la prima cosa che farò ora è disintossicarmi dal codice. Starò per un po’ a leggere e scrivere, guardare, approfondire e scoprire come sempre, ma stando alla larga da <abbr title="Vi Improved"><a href="https://www.vim.org/" rel="noopener" target="_blank">Vim</a></abbr>.</p>
+
+<p>Appena avrò trovato un equilibrio fra <a href="/it/stuff#philosophy-of-engineering" rel="noopener" target="_blank">umanità e tecnica</a>, riprenderò a sviluppare i dettagli mancanti. Ciò che ho in programma di aggiungere o sistemare è in <a href="https://github.com/xplosionmind/xplosionmind/" rel="noopener" target="_blank">questo elenco</a> (anche lì potete aggiungere punti, ma, se riusciste, sarebbe di gran lunga meglio se apriste <a href="https://github.com/xplosionmind/xplosionmind/issues" rel="noopener" target="_blank">un issue</a>). Se avete difficoltà a leggere testo bianco su sfondo nero, ho intenzione di aggiungere un pulsante che cambia sfondo da chiaro a scuro. Se per voi leggere in questo modo è un problema, segnalatemelo, csì valuto quanta priorità dare all’implementazione di questa funzionalità.</p>
+
+<p><br />
+<br />
+<br /></p>
+
+<p>Grazie, grazie, grazie. A tutti gli amici che mi hanno sopportato mentre ero in palla perché impazzivo a programmare il sito, a tutti i santi che hanno accettato di testarlo in anteprima e, per ultimo ma non ultimo, il mitico <a href="https://claudiofaoro.com/" rel="noopener" target="_blank">Claudio Faoro</a>, che mi ha dato una mano e molti consigli sullo sviluppo.</p>
+:ET
