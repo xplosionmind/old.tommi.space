@@ -12,5 +12,6 @@ link: "/Everyone"
 personal: true
 logo: "Everyone.svg"
 ref: Everyone
+featured: true
 ---
 A short movie I made. My first one and my worst one yet.

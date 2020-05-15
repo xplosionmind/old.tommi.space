@@ -12,5 +12,6 @@ link: "/it/Everyone"
 personal: true
 logo: "Everyone.svg"
 ref: Everyone
+featured: true
 ---
 Un cortometraggio da me scritto e diretto. Il mio primo e, per ora, il peggiore.
