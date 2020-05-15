@@ -1,3 +1,8 @@
+## QUICK FIXES / EDITS
+
+- add Everyone to `featured`
+- replace Google Drive link for press kit in Everyone
+
 ## FEATURES CHECKLIST
 
 - [x] Privacy Policy
@@ -70,3 +75,5 @@
 ### EXTRA ESPERIMENTS
 
 - DESKTOP: floating "categories" column on the right
+
+#### [HOSTING](https://forum.privacytools.io/t/privacy-friendly-source-code-hosting-recommendations/3316)
