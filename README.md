@@ -1,8 +1,5 @@
 ## QUICK FIXES / EDITS
 
-- add Everyone to `featured`
-- replace Google Drive link for press kit in Everyone
-
 ## FEATURES CHECKLIST
 
 - [x] Privacy Policy
