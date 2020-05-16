@@ -4,45 +4,40 @@ permalink: /home
 lang: en
 ref: home
 ---
-</style>
-	<div class="row">
-		<div class="one column">
-			<div class="page-header">
-				<h1>WARNING</h1>
-				<p class="page-description">It’s so funny to make it look like you just landed on a spam page. Don’t worry, it’s not (entirely). Here there’s just a great collection of feelings, thoughts, notes, images and various stuff by Tommi Boom. You can read more about him <a href="#about">below</a>.
-					<br />
-					Just a little note before you can start browsing around: I coded from scratch everything in this website, but I’m not that good and definitely a Web Design noob. Thus, feel free to share any thoughts or suggestions by opening a <a href="https://github.com/xplosionmind/xplosionmind/issues" rel="noopener" target="_blank">GitHub issue</a> or by sending an email at <a href="mailto:tommiboom@protonmail.com" target="_blank">tommiboom@protonmail.com</a>.
-					<br />
-					<br />
-					Have fun!</p>
-			</div>
+<div class="row">
+	<div class="one column">
+		<div class="page-header">
+			<h1>WARNING</h1>
+			<p class="page-description">
+				It’s so funny to make it look like you just landed on a spam page. Don’t worry, it’s not (entirely). Here there’s just a great collection of feelings, thoughts, notes, images and various stuff by Tommi Boom. You can read more about him <a href="#about">below</a>.
+				<br />
+				Just a little note before you can start browsing around: I coded from scratch everything in this website, but I’m not that good and definitely a Web Design noob. Thus, feel free to share any thoughts or suggestions by opening a <a href="https://github.com/xplosionmind/xplosionmind/issues" rel="noopener" target="_blank">GitHub issue</a> or by sending an email at <a href="mailto:tommiboom@protonmail.com" target="_blank">tommiboom@protonmail.com</a>.
+				<br />
+				<br />
+				Have fun!
+			</p>
 		</div>
 	</div>
+</div>
 
-	<h2 class="section-title">about this weirdo</h2>
-	<div class="row" id="about">
-		<div class="half column">
+<h2 class="section-title">about this weirdo</h2>
 
-			<img src="/images/tencoascolta.jpg" alt="a photo of Tommi with a microphone in my hand conducting a live show" title="Tommi on stage conducting a live show">
-		</div>
-		<div class="half column">
-			<article>
-				<p>Hi, I’m Tommi.
-				
+<div class="row" id="about">
+	<div class="half column">
+		<img src="/images/tencoascolta.jpg" alt="a photo of Tommi with a microphone in my hand conducting a live show" title="Tommi on stage conducting a live show">
+	</div>
+	<div class="half column">
+		<article>
+			<p>
+				Hi, I’m Tommi.
 				<br />
 				<br />
-				
 				I’m an enthusiast. I love getting involved in everything which involves human interactions and I’m overthinking addicted. I’m an happy guy, but this doesn’t mean I don’t cry (just make me watch the right movie).
 				<br />
-				
 				The purpose of my whole exsistence is meeting all the people in the world. This is why, When I’m not studying, I try to be as busy as I can. This means, as the great <a href="https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz" rel="noopener" target="_blank">Leibnitz</a> said, that <q>in my life I started everything and concluded nothing</q>. You can know more about something of this messy everything by browsing around. If the stuff here is too confused and you get lost, well… welcome to my mind. Nevertheless, you may check out my <a href="https://xplosionmind.wixsite.com/xplosionmind" rel="noopener" target="_blank">old website</a>, which is going to stay online for a little while.
-
 				<br />
-
 				There’s nothing much left to say. Things that wander around in my head are written on my <a href="/blog" target="_blank">blog</a>.
-
 				<br />
-
 				Some useful data:
 				<ul>
 					<li>my <a href="https://www.linkedin.com/in/tommasomarmo/" rel="noopener" target="_blank">Linkedin profile</a></li>
@@ -50,17 +45,15 @@ ref: home
 					<li>my email address is tommiboom [at] protonmail [dot] com. If possible, please use my <a href="/tommiboom@protonmail.com (D21FB50F) – Public PGP KEY.asc">PGP key</a> (it’s not necessary if you use a <a href="https://protonmail.com" rel="noopener" target="_blank">ProtonMail</a> address)</li>
 					<li>my username is xplosionmind everywhere. If you can’t find it, I’m not there. Links to my social media profiles are at the end of this page.</li>
 				</ul>
-
 				<br />
-	
 				I tweet a lot. <a href="https://twitter.com/xplosionmind" rel="noopener" target="_blank">Too much</a>.
-				</p>
-			</article>
-		</div>
+			</p>
+		</article>
 	</div>
+</div>
 	
-	{% for post in site.posts %}
-		{% if forloop.first == true %}
+{% for post in site.posts %}
+	{% if forloop.first == true %}
 		<a href="{{ post.url }}"><h2 class="section-title">Latest post</h2></a>
 		<div class="row" style="overflow: hidden;">
 			<div class="half column">
@@ -76,27 +69,25 @@ ref: home
 				</div>
 			</div>
 		</div>
-		{% endif %}
-	{% endfor %}
+	{% endif %}
+{% endfor %}
 
-	<a href="/jar"><h2 class="section-title" id="jar">The Jar</h2></a>
+<a href="/jar"><h2 class="section-title" id="jar">The Jar</h2></a>
 
-		<div class="row">
-			<div class="one column">
-				<div class="page-description">
-					<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
-					<p>I take this things, I throw them into <em>The Jar</em>.</p>
-					<p>I hope it can be useful to you.</p>
-				</div>
-				<ul style="margin: var(--bigger) 20%">
-	{% for note in site.jar %}
-	<li><a href="{{ note.url }}" style="color: var(--secondary)">{{ note.title }}</a></li>
-	{% endfor %}
-				</ul>
-			</div>
+<div class="row">
+	<div class="one column">
+		<div class="page-description">
+			<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
+			<p>I take this things, I throw them into <em>The Jar</em>.</p>
+			<p>I hope it can be useful to you.</p>
 		</div>
-
-
+		<ul style="margin: var(--bigger) 20%">
+			{% for note in site.jar %}
+				<li><a href="{{ note.url }}" style="color: var(--secondary)">{{ note.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
 		
 <!--	<h2 class="section-title">visioni</h2>
 <div class="gallery">
@@ -108,34 +99,26 @@ ref: home
 	{% endfor %}
 </div> -->
 
-	<a href="/stuff"><h2 class="section-title">recent stuff</h2></a>
-	
-	{% assign stuff = site.stuff | where: "lang", page.lang | where: "featured", true %}
-	{% for thing in stuff %}
-		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
-			<div class="half column">
-				<div class="stuff-image">
-					<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
-				</div>
-			</div>
-			<div class="half column stuff">
-				<div class="stuff-logo">
-					<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-				</div>
-				<p>{{ thing.content }}</p>
-				<div class="link-container">
-					<a href="{{ thing.link }}" rel="noopener" target="_blank"><div class="link" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div></a>
-				</div>
+<a href="/stuff"><h2 class="section-title">recent stuff</h2></a>
+
+{% assign stuff = site.stuff | where: "lang", page.lang | where: "featured", true %}
+{% for thing in stuff %}
+	<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
+		<div class="half column">
+			<div class="stuff-image">
+				<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
 			</div>
 		</div>
-	{% endfor %}
+		<div class="half column stuff">
+			<div class="stuff-logo">
+				<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
+			</div>
+			<p>{{ thing.content }}</p>
+			<div class="link-container">
+				<a href="{{ thing.link }}" rel="noopener" target="_blank"><div class="link" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div></a>
+			</div>
+		</div>
+	</div>
+{% endfor %}
 
-
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
+<br />
