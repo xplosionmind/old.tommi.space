@@ -7,7 +7,7 @@ Enrico Brizzi aveva la mia età quando scrisse _Jack Frusciante è uscito dal gr
 
 - Madness
 - Specials
-- Sham 69
+- Sham, 69
 - Flash City Rockers
 - Arancia Meccanica
 - Woody Allen
@@ -35,57 +35,57 @@ Enrico Brizzi aveva la mia età quando scrisse _Jack Frusciante è uscito dal gr
 - Negu Gorriak
 - Caulfield
 - Dee Dee Bombay cantante degli Splatter Pink
-- Joan Armatran 62
-- Lionel Richie 62
+- Joan Armatran, 62
+- Lionel Richie, 62
 - Edwige Fenec
 - Alvaro Vitali
 - Malcom X
 - Chuck Dee dei Public Enemy
-- My Way - Vicious 73
+- My Way - Vicious, 73
 - Il portaborse di Nanni Moretti
-- Sunnyside of The Street 114
-- The Smiths - There's a Light That Never Goes Out 115
-- Morrissey 116
-- We're The Flowers 116
-- In The Dustbin 116
-- Cineclub Lumière 117
-- Versione disco remix di Holidays in Cambodia dei Dead Kennedys 118
-- Corto Maltese 121
-- Felix Krill 122
-- Hillel Slogan 124
-- Mother's Milk 124
-- Peter Gabriel 125
-- The Orange 127
-- Dorian Gray 128
-- Lee Van Cleef 133
-- Il buono il brutto e il cattivo 133
-- The Snap 134
-- Robert De Niro in Toro Scatenato 134
-- New Byroniano con Claudio Severi 138
-- Aristotele 140
-- Plotino 140
-- locandina di Via col vento 142
-- De Niro in Taxi Driver 143
-- White Riot urlata a squarciagola 144
-- Kerouac 145
-- De Carlo 146
-- Tondelli 146
-- Vasco 147
-- Richard Bach 149
-- Antoine de Saint-Exupéry 149
-- Friday I'm in Love dei Cure 150
-- ultimi giorni di Bisanzio 152
-- assedio di Madrid 152
-- i koan 153
-- Pulcinella 153
-- O sole mio 153
-- No Feelings dei Pistols 153
-- Rem 154
-- Dire Straits 154
-- Jonathan Livingstone 155
-- Marky Mark 156
-- Sayonara dei Pogues 157
-- Gare de Lyon 157
+- Sunnyside of The Street, 114
+- The Smiths - There's a Light That Never Goes Out, 115
+- Morrissey, 116
+- We're The Flowers, 116
+- In The Dustbin, 116
+- Cineclub Lumière, 117
+- Versione disco remix di Holidays in Cambodia dei Dead Kennedys, 118
+- Corto Maltese, 121
+- Felix Krill, 122
+- Hillel Slogan, 124
+- Mother's Milk, 124
+- Peter Gabriel, 125
+- The Orange, 127
+- Dorian Gray, 128
+- Lee Van Cleef, 133
+- Il buono il brutto e il cattivo, 133
+- The Snap, 134
+- Robert De Niro in Toro Scatenato, 134
+- New Byroniano con Claudio Severi, 138
+- Aristotele, 140
+- Plotino, 140
+- locandina di Via col vento, 142
+- De Niro in Taxi Driver, 143
+- White Riot urlata a squarciagola, 144
+- Kerouac, 145
+- De Carlo, 146
+- Tondelli, 146
+- Vasco, 147
+- Richard Bach, 149
+- Antoine de Saint-Exupéry, 149
+- Friday I'm in Love dei Cure, 150
+- ultimi giorni di Bisanzio, 152
+- assedio di Madrid, 152
+- i koan, 153
+- Pulcinella, 153
+- O sole mio, 153
+- No Feelings dei Pistols, 153
+- Rem, 154
+- Dire Straits, 154
+- Jonathan Livingstone, 155
+- Marky Mark, 156
+- Sayonara dei Pogues, 157
+- Gare de Lyon, 157
 
 <br />
 <br />
