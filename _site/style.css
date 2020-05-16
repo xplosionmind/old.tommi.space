@@ -87,8 +87,8 @@ body {
 
 .theme-toggle-button {
 	position: fixed;
-	top: 4.1rem; /* height + 2*small */
-	right: 1%;
+	bottom: var(--small); /* height + 2*small */
+	right: var(--small);
 }
 
 
@@ -603,9 +603,6 @@ nav ul li ul li a {
 	.navigation, footer {
 		left: 2%;
 		width: 96%;
-	}
-	.theme-toggle-button {
-		right: 2%;
 	}
 }
 
