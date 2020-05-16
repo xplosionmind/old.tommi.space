@@ -11,10 +11,7 @@
 - [ ] Generative Art
 	- [ ] always-changing colors
 	- [ ] Explaination page
-- [ ] light/dark mode switch button (I'm deep and dark / I'm bright and shiny)
-	- [ ] by using a [basic JS code](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode)
-	- [ ] by using [`aria label`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)
-	- [ ] evaluete colo palette-change
+- [x] light/dark mode switch button (I'm deep and dark / I'm bright and shiny)
 - [x] Share button in blog (custom version inspired by 
 - [ ] Analytics (temporarily set up with Matomo)
 - [x] Poetry
