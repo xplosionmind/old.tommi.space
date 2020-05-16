@@ -13,3 +13,8 @@ It’s a wonderful world, hidden in plain sight. Here there are some resources f
 - Font Forge <a href="http://designwithfontforge.com/en-US/index.html" rel="noopener" target="_blank">guide</a>.
 - The <a href="https://fontlibrary.org/" rel="noopener" target="_blank">Font Library</a>’s <a href="https://fontlibrary.org/en/guidebook" rel="noopener" target="_blank">Guidebook</a>.
 <a href="" rel="noopener" target="_blank"></a>
+
+## Fonts
+
+- <a href="http://tholman.com/post/smelvetica" rel="noopener" target="_blank">Smelvetica</a>, a funny customization of <a href="https://en.wikipedia.org/wiki/Helvetica" rel="noopener" target="_blank">Helvetica</a>.
+- <a href="https://rsms.me/inter" rel="noopener" target="_blank">Inter</a>, a wonderful Opne Font by <a href="https://rsms.me/about/" rel="noopener" target="_blank">Rasmus Andersson</a>.
