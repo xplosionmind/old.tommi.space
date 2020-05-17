@@ -42,7 +42,19 @@ Enrico Brizzi aveva la mia età quando scrisse _Jack Frusciante è uscito dal gr
 - Malcom X
 - Chuck Dee dei Public Enemy
 - My Way - Vicious, 73
+- The Police album, 89
+- The Clash
+- The Beatles - Happines is a Warm Gun
+- Carboni, 98
+- Ricky Cunningham - Foxy lady
 - Il portaborse di Nanni Moretti
+- Federico Fiumani
+- Spoon River, 104
+- Eddie Bricknell, 105
+- Bob Marley and the Wailers live, 105
+- Richard Scarry, 109
+- Henry Rollins Band, 109
+- Doors - Libra (“It’s the strangest life I’ve ever known”)
 - Sunnyside of The Street, 114
 - The Smiths - There's a Light That Never Goes Out, 115
 - Morrissey, 116
