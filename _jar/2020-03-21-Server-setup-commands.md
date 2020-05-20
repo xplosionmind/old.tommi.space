@@ -1,111 +1,113 @@
 ---
-title: "Server setup commands"
+title: "Server setup step by step"
 permalink: /server-setup
 ---
-A walktrough the commands I executed to set up my server on <a href="https://www.linode.com/" rel="noopener" target="_blank">Linode</a>.
+A walktrough the steps I executed to set up my server on <a href="https://www.linode.com/" rel="noopener" target="_blank">Linode</a>.
 
 <br />
 <br />
 
-## OS CONFIGURATION
+## References and resources
+
+- Create <a href="https://www.linode.com/docs/getting-started/" rel="noopener" target="_blank">a new Linode</a>
+- Harden <a href="https://en.wikipedia.org/wiki/Secure_Shell" rel="noopener" target="_blank">SSH</a> access and <a href="https://www.linode.com/docs/security/securing-your-server/" rel="noopener" target="_blank">secure the server</a>
+
+## CONFIGURATION
 
 update Ubuntu
 
 ```
-$ sudo apt update -y && sudo apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y
 ```
+
+`-y` parameter is used to accept by default any question
 
 <br />
 
 remove debris
 ```
-$ sudo apt autoremove
+sudo apt autoremove
 ```
 
 <br />
 
-add limited user
+add a limited user
 ```
-$ adduser tommi
+adduser tommi
 ```
 
 <br />
 
 give that user sudo permissions
 ```
-$ adduser tommi sudo
+adduser tommi sudo
 ```
 
 <br />
 
 install zsh
 ```
-$ apt install zsh
+apt install zsh
 ```
 
 <br />
 
 set zsh as default shell
 ```
-$ chsh -s /usr/bin/zsh root
+chsh -s /usr/bin/zsh root
 ```
 
 <br />
 
-zsh syntax highlighting
+install zsh syntax highlighting
 ```
-$ sudo apt install zsh-syntax-highlighting
-```
-
-enable syntax highlighting
-```
-$ echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+sudo apt install zsh-syntax-highlighting
 ```
 
 <br />
 
-installing git
+install git
 ```
-$ apt install git
-```
-
-<br />
-
-installing oh-my-zsh
-```
-$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo apt install git
 ```
 
 <br />
 
-re-enable zsh highlighting
+install oh-my-zsh
 ```
-$ echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+<br />
+
+enable zsh syntax highlighting
+```
+echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 ```
 
 <br />
 <br />
 
-## INSTALLING DOCKER
-
-setting up stuff for Linode
-```
-$ sudo apt install dmsetup && dmsetup mknodes
-```
-
-<br />
+## INSTALL DOCKER
 
 installing
 ```
-$ curl -fsSL https://get.docker.com -o get-docker.sh
-$ sudo sh get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+```
+
+<br />
+
+allow Docker to run as a root from this user
+```
+sudo usermod -aG docker
 ```
 
 <br />
 
 enable Docker to start on boot
 ```
-$ sudo systemctl enable docker
+$ sudo systemctl enable docker tommi
 ```
 
 <br />
@@ -114,8 +116,8 @@ $ sudo systemctl enable docker
 ## INSTALLING DOCKER COMPOSE
 
 ```
-$ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-$ sudo chmod +x /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 <br />
@@ -131,101 +133,34 @@ plugins=(... docker docker-compose
 ### [GETTING STARTED - DOCKER COMPOSE](https://docs.docker.com/compose/gettingstarted/)
 
 <br />
+<br />
 
+## LazyDocker
+
+Install <a href="https://github.com/jesseduffield/lazydocker" rel="noopener" target="_blank">Lazydocker</a> to interact easily with Docker. Since it’s written in Go, installation of the language is needed.
+
+<br />
+
+download Go
 ```
-$ mkdir composetest
-$ cd composetest
+wget -c https://dl.google.com/go/go1.14.3.linux-amd64.tar.gz
 ```
 
 <br />
 
+extract archive
 ```
-vim app.py
-```
-
-<br />
-
-paste this inside:
-```
-import time
-
-import redis
-from flask import Flask
-
-app = Flask(__name__)
-cache = redis.Redis(host='redis', port=6379)
-
-
-def get_hit_count():
-    retries = 5
-    while True:
-        try:
-            return cache.incr('hits')
-        except redis.exceptions.ConnectionError as exc:
-            if retries == 0:
-                raise exc
-            retries -= 1
-            time.sleep(0.5)
-
-
-@app.route('/')
-def hello():
-    count = get_hit_count()
-    return 'Hello World! I have been seen {} times.\n'.format(count)
+sudo tar -C /usr/local -xvzf go1.14.3.linux-amd64.tar.gz
 ```
 
 <br />
 
+install Go
 ```
-$ vim requirements.txt
-```
-
-<br />
-
-paste this inside:
-```
-flask
-redis
+export PATH=$PATH:/usr/local/go/bin
 ```
 
-<br />
-
-```
-$ vim Dockerfile
-```
-
-<br />
-
-paste this inside
-```
-FROM python:3.7-alpine
-WORKDIR /code
-ENV FLASK_APP app.py
-ENV FLASK_RUN_HOST 0.0.0.0
-RUN apk add --no-cache gcc musl-dev linux-headers
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["flask", "run"]
-```
-
-<br />
-
-```
-$ vim docker-compose.yml
-```
-
-<br />
-
-paste this inside
-```yaml
-version: '3'
-services:
-  web:
-    build: .
-    ports:
-      - "5000:5000"
-```
+<a href="https://github.com/jesseduffield/lazydocker#installation" rel="noopener" target="_blank">install and run Lazydocker</a>
 
 <br />
 <br />

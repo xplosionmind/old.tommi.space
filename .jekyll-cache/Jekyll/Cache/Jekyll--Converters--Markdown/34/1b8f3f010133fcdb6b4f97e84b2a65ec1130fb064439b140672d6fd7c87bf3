@@ -1,4 +1,4 @@
-I"j<p>Ho sempre amato i semplici ma contemporaneamente maestosi titoli latini in “de + ablativo” e non ho saputo resistere nel trovare il coraggio di distruggere grandi opere del livello del <em>De bello gallico</em> e <em>De agricoltura</em> intitolando questo articolo in questo modo. Allo stesso tempo, come <em>Candido o l’Ottimismo</em>, volevo mettere “o”. Mi sono tolto una soddisfazione.</p>
+I"j<p>Ho sempre amato i semplici ma contemporaneamente maestosi titoli latini in “de + ablativo” e non ho saputo resistere nel trovare il coraggio di distruggere grandi opere del livello del <em>De bello gallico</em> e <em>De agricoltura</em> intitolando questo articolo in questo modo. Allo stesso tempo, come <em>Candido o l’Ottimismo</em>, volevo mettere “o”. Mi sono tolto una soddisfazione.</p>
 
 <!--more-->
 
@@ -61,7 +61,7 @@
 
 <p>Ci tengo a approfondire in particolare un passaggio dell’ideazione del design di xplosionmind. C’è una fantastica storia dietro le linee gialle che stanno nella pagina di atterraggio dello <em>Zibaldone</em>, nelle poesie e nelle categorie, per separare i post.</p>
 
-<p>Mi trovavo ad un punto in cui avevo praticamente concluso la struttura del sito. L’HTML era completo, le basi di <a href="https://developer.mozilla.org/it/docs/Web/CSS" rel="noopener" target="_blank">CSS</a> inserite e i dettagli grafici rindondanti erano stati definiti. Nonostante questo, mancava qualcosa. Davanti a me, nella pagina dello <em>Zibaldone</em> avevo un elenco di maiuscole bianche, separate da un’interlinea di 1.5rem. Non riusivo a trovare una soluzione che fosse visivamente bella per distinguere chiaramente fra loro i titoli nell’elenco. Odio con tutto me stesso, non sopporto le lineette sottili che separano le cose, quelle delle tabelle Excel, per capirci, o quelle che separano le varie email in una casella di posta elettronica. Queste:</p>
+<p>Mi trovavo ad un punto in cui avevo praticamente concluso la struttura del sito. L’HTML era completo, le basi di <a href="https://developer.mozilla.org/it/docs/Web/CSS" rel="noopener" target="_blank">CSS</a> inserite e i dettagli grafici ridondanti erano stati definiti. Nonostante questo, mancava qualcosa. Davanti a me, nella pagina dello <em>Zibaldone</em> avevo un elenco di maiuscole bianche, separate da un’interlinea di 1.5rem. Non riuscivo a trovare una soluzione che fosse visivamente bella per distinguere chiaramente fra loro i titoli nell’elenco. Odio con tutto me stesso, non sopporto le lineette sottili che separano le cose, quelle delle tabelle Excel, per capirci, o quelle che separano le varie email in una casella di posta elettronica. Queste:</p>
 
 <hr />
 
@@ -98,7 +98,7 @@
 
 <h2 id="tipografia"><a href="#tipografia" class="anchor">Tipografia</a></h2>
 
-<p>Ora devo trattenermi. Da quando il mitico prof. Ciulla mi prestò <em><a href="https://openlibrary.org/works/OL16963936W/The_Vignelli_Canon" rel="noopener" target="_blank">Il canone Vignelli</a></em> in quarta superiore, io sono fissato, innamorato perso della tipografia. Mi fa impazzire. Se potesse diventare una ragazza, io sposerei un font (a quale sposerei ci arriviamo). Qualcosa di incredibile, stratosferico, commovente, ma allo stesso tempo dal fine di utilizzo estremamente pratico e concreto. Vediamo, leggiamo scritte tutti i giorni e non pensiamo alle ore, agli anni di studio che una mente geniale ha trascorso per accostare in modo perfetto quelle forme geometrihe, o di come nei secoli queste si siano strette, allargate, assottigliate, capovolte, complicate, raddrizzate. Appena avrò studiato l’argomento più approfonditamente dedicherò assolutamente un pensiero dello <em>Zibaldone</em> alla tipografia, per ora c’è solo <a href="/typography" target="_blank">un ingrediente</a> de <em>La Marmellata</em> al riguardo.</p>
+<p>Ora devo trattenermi. Da quando il mitico prof. Ciulla mi prestò <em><a href="https://openlibrary.org/works/OL16963936W/The_Vignelli_Canon" rel="noopener" target="_blank">Il canone Vignelli</a></em> in quarta superiore, io sono fissato, innamorato perso della tipografia. Mi fa impazzire. Se potesse diventare una ragazza, io sposerei un font (a quale sposerei ci arriviamo). Qualcosa di incredibile, stratosferico, commovente, ma allo stesso tempo dal fine di utilizzo estremamente pratico e concreto. Vediamo, leggiamo scritte tutti i giorni e non pensiamo alle ore, agli anni di studio che una mente geniale ha trascorso per accostare in modo perfetto quelle forme geometriche, o di come nei secoli queste si siano strette, allargate, assottigliate, capovolte, complicate, raddrizzate. Appena avrò studiato l’argomento più approfonditamente dedicherò assolutamente un pensiero dello <em>Zibaldone</em> alla tipografia, per ora c’è solo <a href="/typography" target="_blank">un ingrediente</a> de <em>La Marmellata</em> al riguardo.</p>
 
 <p>Dato che sono un <em>typography enthusiast</em>, sin dalla prima stringa di CSS che ho scritto ero consapevole e sicuro che la scelta del font sarebbe stata cruciale, vitale, decisiva nella costruzione di xplosionmind. Il font, ovunque, è <a href="https://rsms.me/inter" target="_blank" rel="noopener">Inter</a>. Quasi uno scherzo del destino che il font che ho scelto si chiami come una squadra di calcio, favoloso. Tutto torna.</p>
 
@@ -112,7 +112,7 @@
 
 <p>L’interlinea è sempre <code class="highlighter-rouge">1.5em</code>. Spero la lettura scorra facilmente e credo sia lo spazio perfetto fra una riga e l’altra.</p>
 
-<p>Sto ancora valutando se modificare il <em>kerning</em> (lo spazio fra le lettere) o la larghezza degli spazi, per ora mi piace così. Altrimenti, asolto con piacere vostri suggerimenti.</p>
+<p>Sto ancora valutando se modificare il <em>kerning</em> (lo spazio fra le lettere) o la larghezza degli spazi, per ora mi piace così. Altrimenti, ascolto con piacere vostri suggerimenti.</p>
 
 <p><br /></p>
 

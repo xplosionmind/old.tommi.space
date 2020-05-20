@@ -14,12 +14,10 @@ categories: geek
 - [Jellyfin](https://jellyfin.org/) personal streaming service
 - [Kanboard](https://kanboard.org/) Kanban Project Management Software
 - [GNU Mailman](https://www.gnu.org/software/mailman/) GNU's Mailing list
-- [Publii](https://github.com/GetPublii/Publii), CMS
 - [Diaspora](https://wiki.diasporafoundation.org/Installation/Ubuntu/Xenial)
 - [Jitsi Meet](https://github.com/jitsi/docker-jitsi-meet)
 - [VNC](https://tigervnc.org/)
 - [OhMyForm](https://ohmyform.com/docs/install/) for forms
-- [Ghost](https://hub.docker.com/_/ghost)
 - [PixelFed](https://pixelfed.org/)
 
 <br>

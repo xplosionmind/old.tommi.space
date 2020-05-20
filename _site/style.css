@@ -154,7 +154,7 @@ body {
 	font-weight: 700;
 }
 
-.category, .language, .link {
+.category, .language, .link, .gallery {
 	display: inline-block;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -171,14 +171,13 @@ body {
 	transform: scale(1.05);
 }
 
-.language {
+.language, .gallery {
 	color: var(--text);
 	border: var(--tiny) solid var(--text);
 	margin-bottom: var(--regular);
 	font-size: var(--bigger);
 	height: var(--height);
 	line-height: var(--bigger);
-	transition: transform .2s;
 	padding-top: var(--small);
 }
 

@@ -1,4 +1,4 @@
-I"/<h2 id="what-to-install">WHAT TO INSTALL</h2>
+I"¨<h2 id="what-to-install">WHAT TO INSTALL</h2>
 <ul>
   <li><a href="https://github.com/jesseduffield/lazydocker/blob/master/README.md">LazyDocker</a></li>
   <li><a href="https://github.com/huginn/huginn">Huginn</a>, an IFTTT Alternative</li>
@@ -19,12 +19,10 @@
   <li><a href="https://jellyfin.org/">Jellyfin</a> personal streaming service</li>
   <li><a href="https://kanboard.org/">Kanboard</a> Kanban Project Management Software</li>
   <li><a href="https://www.gnu.org/software/mailman/">GNU Mailman</a> GNUâ€™s Mailing list</li>
-  <li><a href="https://github.com/GetPublii/Publii">Publii</a>, CMS</li>
   <li><a href="https://wiki.diasporafoundation.org/Installation/Ubuntu/Xenial">Diaspora</a></li>
   <li><a href="https://github.com/jitsi/docker-jitsi-meet">Jitsi Meet</a></li>
   <li><a href="https://tigervnc.org/">VNC</a></li>
   <li><a href="https://ohmyform.com/docs/install/">OhMyForm</a> for forms</li>
-  <li><a href="https://hub.docker.com/_/ghost">Ghost</a></li>
   <li><a href="https://pixelfed.org/">PixelFed</a></li>
 </ul>
 
