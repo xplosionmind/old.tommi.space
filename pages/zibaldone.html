@@ -1,0 +1,57 @@
+---
+title: "Zibaldone"
+permalink: /zibaldone
+lang: it
+ref: blog
+---
+<div class="row page-header">
+	<div class="one column">
+		<h1>Zibaldone</h1>
+		<p class="page-description">Nulla a che vedere con la profondità, la potenza e la saggezza dell’omonimo leopardiano, qui un po’ più di allegria e stupidaggini.</p>
+		<p>Dall’enciclopedia Treccani, <a href="http://treccani.it/vocabolario/zibaldone/" rel="noopener" target="_blank">żibaldóne</a>: […] <cite>Scartafaccio in cui si annotano, senza ordine e man mano che capitano, notizie, appunti, riflessioni, estratti di letture, schemi, abbozzi, ecc.</cite></p>
+		<p style="margin-bottom: var(--margin);">Esattamente quello.</p>
+	</div>
+	<div class="row labels">
+		<a href="/blog/en" class="language">english</a>
+		<a href="/blog/it" class="language">italiano</a>
+	</div>
+	<div class="row">
+		<div class="one column labels">
+			<div class="one-fourth column topics-indicator">SCROLL TOPICS</div>
+			<div class="three-fourths column categories">
+				<a href="/poetry" style="color: purple;"><div class="category" style="background-color: pink;">Pasticci</div></a>
+				{% for category in site.categories %}
+					<a href="{{ category.url }}" style="color: {{ category.color }};"><div class="category" style="background-color: {{ category.background-color }};">{{ category.title }}</div></a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+
+{% for post in site.posts %}
+		<a href="{{ post.url }}">
+			<div class="row preview" style="color: var(--text);">
+				<div class="row">
+					<div class="one column">
+						<div class="four-fifths column">
+							<h2 class="post-title">{{ post.title }}</h2>
+						</div>
+						<div class="one-fifth column date">
+							{{ post.date | date: "%d %B %Y" }}
+						</div>
+					</div>
+				</div>
+				{% assign post-color = site.categories[post.categories] %}
+				<div class="line" style="background: {{ post-color.background-color }}"></div>
+			</div>
+		</a>
+{% endfor %}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

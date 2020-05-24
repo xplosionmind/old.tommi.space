@@ -391,6 +391,12 @@ a, a:visited {
 	text-decoration: none;
 }
 
+.post h1 a, .post h2 a, .post h3 a, .post h4 a, .post h5 a, .post h6 a,
+.post a h1, .post a h2, .post a h3, .post a h4, .post a h5, .post a h6 {
+	background: var(--primary);
+	color: var(--background);
+}
+
 a, button {
 	cursor: url(/logos/cursor-hover.svg), auto;
 }
@@ -447,6 +453,13 @@ li a:focus, p a:focus {
 	background: var(--primary);
 	color: var(--black-ish);
 	transition: color .2s, background .2s;
+}
+
+.last-modified {
+	margin: 0 auto var(--twice);
+	text-align: center;
+	font-size: var(--lessthan-regular);
+	opacity: 0.8;
 }
 
 /* HEADER */

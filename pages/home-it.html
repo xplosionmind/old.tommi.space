@@ -1,0 +1,124 @@
+---
+title: home
+permalink: /it/home
+lang: it
+ref: home
+---
+<div class="row">
+	<div class="one column">
+		<div class="page-header">
+			<h1>ATTENZIONE</h1>
+			<p class="page-description">
+				È molto divertente far sembrare questa la home di un sito di spam. Avevo quasi pensato di far partire “ragazzi, sono veramente euforico”, ma no, qui non c’è (solo) spam. Di sicuro tanta confusione, emozioni, foto, pensieri e pasticci vari. L’“ATTENZIONE” è perché bisogna cercare di non farsi coinvolgere troppo da tutte le cose qui dentro o si rischia di uscire di testa. Vi prego di non finire come me.
+				<br />
+				<br />
+				<br />
+				Solo una nota: ho programmato ogni minimo dettaglio di ogni singola pagina in tutto questo sito, da zero, con grande fatica. Per questo, è probabile che alcune cose non funzionino o si vedano male (potete trovare più dettagli su come ho costruito il sito <a href="/genesi" target="_blank">qui</a>). Per qualunque appunto, segnalazione o suggerimento, vi prego di aprire un <a href="https://github.com/xplosionmind/xplosionmind/issues" rel="noopener" target="_blank">issue su GitHub</a> o di scrivermi un’<a href="mailto:tommiboom@protonmail.com" target="_blank">email</a>.
+				<br />
+				<br />
+				Buon divertimento.
+			</p>
+		</div>
+	</div>
+</div>
+
+<h2 class="section-title">chi è questo strano tipo</h2>
+<div class="row" id="about">
+	<div class="half column">
+		<img src="/images/tencoascolta.jpg" alt="a photo of Tommi with a microphone in my hand conducting a live show" title="Tommi on stage conducting a live show">
+	</div>
+	<div class="half column">
+		<article>
+			<p>Mi chiamo Tommi,</p>
+				
+				<p>sono un entusiasta. Adoro farmi coinvolgere in qualunque progetto o creazione e le rotelle nella mia testa non smettono mai di girare. Spesso e soprattutto per cose inutili. Sono un tipo allegro, ma non vuol dire che non pianga (basta farmi vedere il film giusto).</p>
+	
+				<p>L’obiettivo della mia esistenza è conoscere tutte le persone del mondo, per riuscirci, quando non studio, provo a fare quasi <a href="/it/stuff">tutto</a>. Alla fine, come diceva il mitico <a href="https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz" rel="noopener" target="_blank">Leibniz</a>, <q>nella mia vita ho cominciato tutto e concluso nulla</q>. Potete scoprire una piccola selezione di questo tutto nel sito. Se non ci capite un cavolo, benvenuti nella mia testa. Se non ci capite un cavolo e vorreste capire di più, per ora è ancora online <a href="https://xplosionmind.wixsite.com/xplosionmind" rel="noopener" target="_blank">il mio vecchio sito</a>, che presto scomparirà</p>
+
+				<p>Non c’è molto altro da dire. Tutto quello che mi passa per la testa è <a href="/blog" target="_blank">sul blog</a>.</p>
+
+				<p>Alcune informazioni pratiche utili:
+				<ul>
+					<li>il mio <a href="https://www.linkedin.com/in/tommasomarmo/" rel="noopener" target="_blank">profilo Linkedin</a></li>
+					<li>il mio <a href="/assets/CV-it.pdf" target="blank">Curriculum Vitae</a></li>
+					<li>il mio indirizzo email è tommiboom chiocciola protonmail punto com. Se possibile, vi prego di usare la mia <a href="/assets/tommiboom@protonmail.com (D21FB50F) – Public PGP KEY.asc" target="_blank">chiave PGP</a> (non è necessaria se utilizzate un indirizzo email con <a href="https://protonmail.com" rel="noopener" target="_blank">ProtonMail</a>)</li>
+					<li>il mio username è xplosionmind ovunque. Se non c’è xplosionmind, non ci sono. Trovate alcuni link in fondo alla pagina.</li>
+				</ul></p>
+
+				<p><a href="https://twitter.com/xplosionmind" rel="noopener" target="_blank">Twitto molto</a>. Troppo.</p>
+			</article>
+		</div>
+	</div>
+	
+
+	{% for post in site.posts %}
+		{% if forloop.first == true %}
+		<a href="{{ post.url }}"><h2 class="section-title">Ultimo articolo</h2></a>
+		<div class="row" style="overflow: hidden;">
+			<div class="half column">
+				<div class="stuff-image">
+					<img src="{{ post.img }}" alt="{{ post.title }}" title="{{ post.title }}" />
+				</div>
+			</div>
+			<div class="half column stuff">
+				<a href="{{ post.url }}" style="color: var(--dark-font)"><h2 style="margin-top: var(--big)">{{ post.title }}</h2></a>
+				<p>{{ post.excerpt }}</p>
+				<div class="link-container">
+					<a href="{{ post.url }}"><div class="link" style="color: var(--background); background: var(--primary)">leggi</div></a>
+				</div>
+			</div>
+		</div>
+		{% endif %}
+	{% endfor %}
+
+	<a href="/marmellata"><h2 class="section-title" id="jar">La Marmellata</h2></a>
+
+		<div class="row">
+			<div class="one column">
+				<div class="page-description">
+					<p>Ci sono cose che scopro e porca puzzola avrei voluto sapere prima, o cose che semplicemente non riesco a non condividere ma non sono abbastanza per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
+					<p>Prendo tutte queste cose e, non avendo tempo per prepararle bene e svilupparci un pensiero, le metto ne <em>La Marmellata</em>.</p>
+					<p>Ogni puntino qui sotto è un ingrediente de <em>La Marmellata</em>, fatene buon uso, senza esagerare. (non mi assumo responsabilità sulla potenza delle cose che ci sono dentro)</p>
+				</div>
+				<ul style="margin: var(--bigger) 20%">
+	{% for note in site.jar %}
+	<li><a href="{{ note.url }}" style="color: var(--secondary)">{{ note.title }}</a></li>
+	{% endfor %}
+				</ul>
+			</div>
+		</div>
+
+		
+<!--	<h2 class="section-title">visioni</h2>
+<div class="gallery">
+	{% assign visioni = site.static_files | where: "image", true %}
+	{% for pic in visioni %}
+		<span class="gallery-image" style="order: {{ forloop.index }}">
+			<img src="{{ pic.path }}" />
+		</span>
+	{% endfor %}
+</div> -->
+
+	<a href="/tutto"><h2 class="section-title">progetti recenti</h2></a>
+	
+	{% assign stuff = site.stuff | where: "lang", page.lang | where: "featured", true %}
+	{% for thing in stuff %}
+		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
+			<div class="half column">
+				<div class="stuff-image">
+					<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
+				</div>
+			</div>
+			<div class="half column stuff">
+				<div class="stuff-logo">
+					<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
+				</div>
+				<p>{{ thing.content }}</p>
+				<div class="link-container">
+					<a href="{{ thing.link }}" rel="noopener" target="_blank"><div class="link" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div></a>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+
+	<br />

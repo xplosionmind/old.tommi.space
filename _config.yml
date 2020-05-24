@@ -52,7 +52,6 @@ defaults:
     values:
       layout: "wrapper"
       ref: ":title"
-      excerpt_separator: "<!--more-->"
     
   -
     scope:
@@ -62,6 +61,7 @@ defaults:
       layout: "post"
       lang: "it"
       permalink: "/:title"
+      excerpt_separator: "<!--more-->"
 
   -
     scope:
@@ -89,6 +89,7 @@ defaults:
       type: "jar"
     values:
       layout: "jar"
+      permalink: "/:title"
       lang: "en"
 
 # Exclude from processing.
