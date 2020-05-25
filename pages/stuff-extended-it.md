@@ -3,7 +3,7 @@ title: "di tutto e di più"
 lang: it
 permalink: /tutto+
 ref: stuffextended
-layout: jar
+layout: page
 ---
 Poiché finisco in mezzo a una miriade di iniziative e progetti fantastici, mi trovo a partecipare o organizzare o presentare un sacco di piccoli eventi o interviste o incontri e sono talmente tanti chealla fine poi rischio di dimenticarmeli e non riuscire più a trovare le foto e tutti i relativi dati. Per questo, proverò a tenere aggiornata questa lista di riferimento con tutti gli eventi, interviste, serate, iniziative e progetti a cui ho partecipato, ho presentato oppure ho organizzato, inserendo collegamenti a pagine, foto e informazioni.
 
@@ -34,6 +34,6 @@ Con <a href="/tutto#radioimmaginaria" target="_blank">Radioimmaginaria</a> ho fa
 
 - dal 21 al 24 febbraio 2014, Festival di Sanremo 2014
 	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157710372663917" rel="noopener" target="_blank">foto</a>
-	- podcast
+	- <a href="/radioimmaginaria-database#festival-di-sanremo-2014" target="_blank">puntate</a>
 - il 5 agosto 2015 ho organizzato con la redazione di Radioimmaginaria Sanremo il mio primo evento in assoluto, l'<a href="https://www.facebook.com/events/917289898363949/" rel="noopener" target="_blank">**Ultra BEACH PARTY immaginario**</a>
-- dal 20 al 25 agosto 2017 ho programmato e organizzato tutti gli appuntementi del <a href="https://www.facebook.com/events/1356117211103947/" rel="noopener" target="_blank">Radiocampo immaginario</a> a Riva Ligure.
+- dal 20 al 25 agosto 2017 ho programmato e organizzato tutti gli appuntementi del <a href="https://www.facebook.com/events/1356117211103947/" rel="noopener" target="_blank">**Radiocampo immaginario**</a> a Riva Ligure.

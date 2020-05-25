@@ -80,15 +80,17 @@ body {
 	width: 100%;
 }
 
-.mark {
+mark {
 	background: var(--primary);
-	color: var(--text);
+	color: var(--background);
+	font-weight: 500;
 }
 
 .theme-toggle-button {
 	position: fixed;
 	bottom: var(--small); /* height + 2*small */
 	right: var(--small);
+	z-index: 3;
 }
 
 
@@ -191,11 +193,16 @@ body {
 
 .anchor, .anchor:visited {
 	color: var(--text);
+	height: var(--big);
+	position: absolute;
+	right: 101%; /* big + tiny*/
+	transition: .2s;
+	top: .15em;
 }
 
 .anchor:hover,
 .anchor:focus {
-	border-bottom: var(--tiny) dashed var(--secondary);
+	outline: var(--tiny) solid var(--secondary);
 }
 
 #jar {
@@ -371,8 +378,14 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 0.97em;
 }
 
-article h2, article h3, article h4, article h5 {
+article h2, article h3, article h4, article h5, article h6 {
 	font-family: Inter, Helvetica, "Helvetica Neue", sans;
+	background: var(--background);
+	position: sticky;
+	line-height: 1.2em;
+	top: 3.6rem;
+	margin-bottom: 0;
+	z-index: 0;
 }
 
 h1 {
