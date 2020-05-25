@@ -6,8 +6,8 @@ permalink: /radioimmaginaria-database
 description: "Un database incompleto (mancano gli ultimi anni e alcune puntate in mezzo) di tutte le puntate di Radioimmaginaria a cui ho partecipato.<br />I post di Facebook nei link non sono pubblici: Radioimmaginaria non usa più i social.<br />Gli hashtag nei titoli delle puntate indicano la redazione o, in caso di eventi, il nome del programma.<br /><mark>#you2</mark> sono le puntate in inglese, <mark>#toiaussi</mark> quelle in francese, <mark>#tete</mark> quelle in spagnolo."
 layout: page
 ---
-- 2014.01.12 <a href="www.spreaker.com/user/ariaimmaginaria/scout" rel="noopener noreferrer" target="_blank">Scoutismo</a> [min 11:20]
-- 2014.02.12 Prima intervista in assoluto, <a rel="noopener noreferrer" target="_blank" href="www.spreaker.com/user/ariaimmaginaria/mario-guglielmi">Mario Guglielmi</a>
+- 2014.01.12 <a href="https://spreaker.com/user/ariaimmaginaria/scout" rel="noopener noreferrer" target="_blank">Scoutismo</a> [min 11:20]
+- 2014.02.12 Prima intervista in assoluto, <a rel="noopener noreferrer" target="_blank" href="https://spreaker.com/user/ariaimmaginaria/mario-guglielmi">Mario Guglielmi</a>
 
 <br />
 
@@ -19,8 +19,8 @@ layout: page
 
 - 2014.05.01 <a href="https://www.spreaker.com/user/ariaimmaginaria/elicotteri-co" rel="noopener noreferrer" target="_blank">Elicotteri&co.</a> prima puntata con Corra (28:30)
 	- <a href="https://www.facebook.com/radioimmaginaria/posts/707479755977233" rel="noopener noreferrer" target="_blank">facebook post</a>
-- 2014.05.10 <a href="www.spreaker.com/user/ariaimmaginaria/hard-rock-immaginario" rel="noopener noreferrer" target="_blank">Hard Rock immaginario</a>, intervista al maestro Fabrizio Brezzo [min 13:10]
-- 2014.07.02 <a href="www.spreaker.com/user/ariaimmaginaria/med-party-perche-no" rel="noopener noreferrer" target="_blank">Party, perché no?</a>, intervista a Marina Muzi, Osservatorio di Perinaldo [min 16:05]
+- 2014.05.10 <a href="https://spreaker.com/user/ariaimmaginaria/hard-rock-immaginario" rel="noopener noreferrer" target="_blank">Hard Rock immaginario</a>, intervista al maestro Fabrizio Brezzo [min 13:10]
+- 2014.07.02 <a href="https://spreaker.com/user/ariaimmaginaria/med-party-perche-no" rel="noopener noreferrer" target="_blank">Party, perché no?</a>, intervista a Marina Muzi, Osservatorio di Perinaldo [min 16:05]
 
 <br />
 
@@ -32,19 +32,19 @@ layout: page
 
 <br />
 
-- 2014.11.20 <a href="www.spreaker.com/user/ariaimmaginaria/rili-forza-liguria_1" rel="noopener noreferrer" target="_blank">Forza Liguria</a>
+- 2014.11.20 <a href="https://spreaker.com/user/ariaimmaginaria/rili-forza-liguria_1" rel="noopener noreferrer" target="_blank">Forza Liguria</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/posts/809586699099871" rel="noopener noreferrer" target="_blank">facebook post</a>
-- 2015.02.06 - <a href="www.spreaker.com/user/ariaimmaginaria/omernas-sanremo-festival-orchestra" rel="noopener noreferrer" target="_blank">#omernas Sanremo Festival Orchestra</a>, Intervista ai maestri dell’Orchestra Sinfonica di Sanremo
+- 2015.02.06 - <a href="https://spreaker.com/user/ariaimmaginaria/omernas-sanremo-festival-orchestra" rel="noopener noreferrer" target="_blank">#omernas Sanremo Festival Orchestra</a>, Intervista ai maestri dell’Orchestra Sinfonica di Sanremo
 	- <a href="https://www.facebook.com/radioimmaginaria/posts/853498594708681" rel="noopener noreferrer" target="_blank">facebook post</a>
-- 2015.02.26 <a href="www.spreaker.com/user/ariaimmaginaria/rili-autostop-antartide" rel="noopener noreferrer" target="_blank">#rili AUTOSTOP: Antartide</a>
+- 2015.02.26 <a href="https://spreaker.com/user/ariaimmaginaria/rili-autostop-antartide" rel="noopener noreferrer" target="_blank">#rili AUTOSTOP: Antartide</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/posts/866554426736431" rel="noopener noreferrer" target="_blank">facebook post</a>
 
 <br />
 
 ## Salone del Libro di Torino 2014
 
-- 2014.05.12 <a href="www.spreaker.com/user/ariaimmaginaria/salone-internazionale-del-libro-torino" rel="noopener noreferrer" target="_blank">Salone internazionale del libro, Torino</a>, intervista a Federico Taddia
-- 2014.05.13 <a href="www.spreaker.com/user/ariaimmaginaria/boom-da-torino" rel="noopener noreferrer" target="_blank">Boom da Torino</a>, intervista a Elisa (ed. Quiqajon), Marino Sinibaldi e Mario Calabresi
+- 2014.05.12 <a href="https://spreaker.com/user/ariaimmaginaria/salone-internazionale-del-libro-torino" rel="noopener noreferrer" target="_blank">Salone internazionale del libro, Torino</a>, intervista a Federico Taddia
+- 2014.05.13 <a href="https://spreaker.com/user/ariaimmaginaria/boom-da-torino" rel="noopener noreferrer" target="_blank">Boom da Torino</a>, intervista a Elisa (ed. Quiqajon), Marino Sinibaldi e Mario Calabresi
 
 <br />
 
