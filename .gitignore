@@ -1,4 +1,6 @@
 _site
+.jekyll-cache
+
 
 # Ignore ruby files
 .ruby-version
