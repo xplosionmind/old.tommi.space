@@ -1,6 +1,7 @@
-_site
-.jekyll-cache
-
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
 # Ignore ruby files
 .ruby-version

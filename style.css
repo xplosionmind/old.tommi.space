@@ -98,7 +98,7 @@ mark {
 	font: 400 var(--morethan-regular) "Latin Modern Roman", Times, "Times New Roman", serif;
 }
 
-.post strong, .post b, .poetry strong, .poetry b {
+strong, b {
 	font-weight: 700;
 }
 

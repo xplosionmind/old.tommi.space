@@ -48,6 +48,10 @@ layout: page
 
 <br />
 
+- 2016.01.29 Radioimmaginaria all’**Istituto Superiore Mario Boella** di Torino
+	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1065427373515801/" rel="noopener noreferrer" target="_blank">facebook post 1</a>, <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1065353596856512/" rel="noopener noreferrer" target="_blank">facebook post 2</a>
+	- puntata <a href="https://www.spreaker.com/user/ariaimmaginaria/to-la-tecnologia-di-radioimmaginaria" rel="noopener noreferrer" target="_blank">parte 1</a>, <a href="https://www.spreaker.com/user/ariaimmaginaria/to-la-tecnologia-di-radioimmaginaria-2pt" rel="noopener noreferrer" target="_blank">parte 2</a>
+- 2016.05.21 <mark>#you2</mark> <a href="https://www.spreaker.com/user/ariaimmaginaria/italy-meets-london" rel="noopener noreferrer" target="_blank">Italy meets London</a>, on a mission in London
 - 2016.06.06 <a href="http://www.spreaker.com/user/ariaimmaginaria/smo-sanremo-through-the-earphones" rel="noopener noreferrer" target="_blank">#smo Sanremo through the earphones</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1146114925447045/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2016.06.13 <a href="http://www.spreaker.com/user/ariaimmaginaria/smo-dipendenza-assordante" rel="noopener noreferrer" target="_blank">#smo Dipendenza assordante</a>

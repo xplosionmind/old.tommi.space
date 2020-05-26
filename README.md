@@ -60,6 +60,7 @@
 - [ ] Copyright specifications
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
+- [ ] blogroll (a list of blogs which inspire me) inspired from [Pawlean](https://pawlean.com/blogroll)
 
 ### CREATIVE IDEAS
 
