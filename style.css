@@ -1,7 +1,7 @@
 :root {
-	--background: #111;
+	--black-ish: #222;
 	--white-ish: #E0E0E0;
-	--dark-grey: #222;
+	--dark-grey: #333;
 	--light-grey: #DDD;
 	--yellow: #FCC920;
 	--blue: #3185FC;
@@ -812,7 +812,7 @@ input::placeholder {
 	display: block;
 	height: 1.2em;
 	width: auto;
-	margin: 0px auto 20px;
+	margin: 0 auto var(--morethan-regular);
 	opacity: .70;
 	position: relative;
 	top: 2px;
