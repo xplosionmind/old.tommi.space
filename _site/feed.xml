@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-25T16:22:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">xplosionmind</title><subtitle>A web version of the mess inside Tommi Boom’s mind</subtitle><entry xml:lang="it"><title type="html">De Explosiva mente (o Genesi di xplosionmind)</title><link href="http://localhost:4000/genesi" rel="alternate" type="text/html" title="De Explosiva mente (o Genesi di xplosionmind)" /><published>2020-05-12T00:00:00+02:00</published><updated>2020-05-13T15:47:50+02:00</updated><id>http://localhost:4000/Genesi</id><content type="html" xml:base="http://localhost:4000/genesi">&lt;p&gt;Ho sempre amato i semplici ma contemporaneamente maestosi titoli latini in “de + ablativo” e non ho saputo resistere nel trovare il coraggio di distruggere grandi opere del livello del &lt;em&gt;De bello gallico&lt;/em&gt; e &lt;em&gt;De agricoltura&lt;/em&gt; intitolando questo articolo in questo modo. Allo stesso tempo, come &lt;em&gt;Candido o l’Ottimismo&lt;/em&gt;, volevo mettere “o”. Mi sono tolto una soddisfazione.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-27T12:34:31+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">xplosionmind</title><subtitle>A web version of the mess inside Tommi Boom’s mind</subtitle><entry xml:lang="it"><title type="html">De Explosiva mente (o Genesi di xplosionmind)</title><link href="http://localhost:4000/genesi" rel="alternate" type="text/html" title="De Explosiva mente (o Genesi di xplosionmind)" /><published>2020-05-12T00:00:00+02:00</published><updated>2020-05-13T15:47:50+02:00</updated><id>http://localhost:4000/Genesi</id><content type="html" xml:base="http://localhost:4000/genesi">&lt;p&gt;Ho sempre amato i semplici ma contemporaneamente maestosi titoli latini in “de + ablativo” e non ho saputo resistere nel trovare il coraggio di distruggere grandi opere del livello del &lt;em&gt;De bello gallico&lt;/em&gt; e &lt;em&gt;De agricoltura&lt;/em&gt; intitolando così questo articolo. Allo stesso tempo, come &lt;em&gt;Candido o l’Ottimismo&lt;/em&gt;, volevo mettere “o”. Mi sono tolto una soddisfazione.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;h2 id=&quot;premessa&quot;&gt;&lt;a href=&quot;#premessa&quot; class=&quot;anchor&quot;&gt;Premessa&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;premessa&quot;&gt;Premessa&lt;/h2&gt;
 
 &lt;p&gt;Queste righe vogliono essere una registrazione, un appunto a imperitura memoria, delle intenzioni e delle ispirazioni con cui ho creato questo sito, cioè la versione pubblica e online della mia testa (e poveri noi). In primis, è per me importante sottolineare che ho cercato il più possibile di evitare di renderlo un’apoteosi del mio egocentrismo (a cui, ahimè, talvolta innegabilmente soccombo) o men che meno un posto per mettere in mostra quanto (&lt;em&gt;non&lt;/em&gt;) sono bravo. L’ispirazione è nata anni fa da un piccolo pensiero che nella mia testa tamburellava: “perché ti servono i social?” e si è trasformato negli ultimi mesi nella risoluzione di &lt;strong&gt;sposare completamente e unicamente strumenti Open Source&lt;/strong&gt;, abbandonando &lt;strong&gt;definitivamente&lt;/strong&gt; mezzi di comunicazione e programmi di ogni sorta di natura centralizzata o basati su software software proprietario &lt;em&gt;entro fine anno&lt;/em&gt;. Per questo motivo, ho deciso di scrivere il &lt;strong&gt;&lt;em&gt;Manifesto della Libertà digitale&lt;/em&gt;&lt;/strong&gt;, a cui chiunque puotrà contribuire, aggiungendo risorse, riflessioni, informazioni. Cercherò di pubblicare la prima bozza del manifesto entro giugno e presto scriverò un articolo su come in tre mesi ho deciso di abbandonare per sempre Google, Facebook e tutti quei big nominati continuamente.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;intro&quot;&gt;&lt;a href=&quot;#intro&quot; class=&quot;anchor&quot;&gt;Intro&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
 
 &lt;p&gt;Dopo questa dovuta premessa, possiamo dedicarci alla genesi di &lt;a href=&quot;/home&quot; target=&quot;_blank&quot;&gt;xplosionmind&lt;/a&gt;.&lt;/p&gt;
 
@@ -26,7 +26,7 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;giallonero&quot;&gt;&lt;a href=&quot;#giallonero&quot; class=&quot;anchor&quot;&gt;giallonero&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;giallonero&quot;&gt;giallonero&lt;/h2&gt;
 
 &lt;p&gt;Non ho mai capito nulla di calcio. Proprio non ci ho mai preso, nè a calciare un pallone, nè a capire come funziona il calciomercato e quello che fa un arbitro e tutte quelle cose dei CT presidenti fascia alta ala destra terzino. So solo chi è il portiere. Buffon. Mi sono sempre chiesto come avrei dovuto fare quando un mio amico compagno di classe persona appena conosciuta parente lontano mi chiedeva “che squadra tifi?”&lt;/p&gt;
 
@@ -51,7 +51,7 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;linee&quot;&gt;&lt;a href=&quot;#linee&quot; class=&quot;anchor&quot;&gt;linee&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;linee&quot;&gt;linee&lt;/h2&gt;
 
 &lt;p&gt;Eccetto che nelle scritte e nei loghi, non esistono curve, qui. È tutto dritto, spigoloso e bidimensionale. Non era mia intenzione, originariamente,  comporre qualcosa di “bello”, il mio obiettivo primario era che ci fosse &lt;em&gt;armonia&lt;/em&gt; fra gli oggetti. È successo tutt’altro; dubito che vedendo tutti i quadratini e le striscie gialle abbiate avuto un’idea di armonia. Ho trascurato quest’idea iniziale lasciandomi trascinare dalla concezione di complessità e confusione che regnano costantemente in me e in tutte le persone più belle del mondo (le altre persone confuse sono belle, mica io). Per questo, sono arrivato a cercare di esprimere una &lt;strong&gt;&lt;em&gt;semplice confusione&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
 
@@ -84,7 +84,7 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;carichi-sospesi&quot;&gt;&lt;a href=&quot;#carichi-sospesi&quot; class=&quot;anchor&quot;&gt;Carichi Sospesi&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;carichi-sospesi&quot;&gt;Carichi Sospesi&lt;/h2&gt;
 
 &lt;p&gt;Come in tutti i grandi cantieri che si rispettano, ci sono dei carichi sospesi. Qui, come vedete nell’imagine di seguito, la barra di navigazione è sospesa da una gru, e il footer trasportato da un camion. Tutto sospeso, tutto in costruzione. Se prestate attenzione, in ogni pagina la barra non è mai attaccata in cima e ai lati, ma sempre un po’ sotto, per dare l’idea di essere veramente appesa a una gru.&lt;/p&gt;
 
@@ -96,7 +96,7 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;tipografia&quot;&gt;&lt;a href=&quot;#tipografia&quot; class=&quot;anchor&quot;&gt;Tipografia&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;tipografia&quot;&gt;Tipografia&lt;/h2&gt;
 
 &lt;p&gt;Ora devo trattenermi. Da quando il mitico prof. Ciulla mi prestò &lt;em&gt;&lt;a href=&quot;https://openlibrary.org/works/OL16963936W/The_Vignelli_Canon&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Il canone Vignelli&lt;/a&gt;&lt;/em&gt; in quarta superiore, io sono fissato, innamorato perso della tipografia. Mi fa impazzire. Se potesse diventare una ragazza, io sposerei un font (a quale sposerei ci arriviamo). Qualcosa di incredibile, stratosferico, commovente, ma allo stesso tempo dal fine di utilizzo estremamente pratico e concreto. Vediamo, leggiamo scritte tutti i giorni e non pensiamo alle ore, agli anni di studio che una mente geniale ha trascorso per accostare in modo perfetto quelle forme geometriche, o di come nei secoli queste si siano strette, allargate, assottigliate, capovolte, complicate, raddrizzate. Appena avrò studiato l’argomento più approfonditamente dedicherò assolutamente un pensiero dello &lt;em&gt;Zibaldone&lt;/em&gt; alla tipografia, per ora c’è solo &lt;a href=&quot;/typography&quot; target=&quot;_blank&quot;&gt;un ingrediente&lt;/a&gt; de &lt;em&gt;La Marmellata&lt;/em&gt; al riguardo.&lt;/p&gt;
 
@@ -108,7 +108,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;spazio&quot;&gt;&lt;a href=&quot;#spazio&quot; class=&quot;anchor&quot;&gt;Spazio&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;spazio&quot;&gt;Spazio&lt;/h3&gt;
 
 &lt;p&gt;L’interlinea è sempre &lt;code class=&quot;highlighter-rouge&quot;&gt;1.5em&lt;/code&gt;. Spero la lettura scorra facilmente e credo sia lo spazio perfetto fra una riga e l’altra.&lt;/p&gt;
 
@@ -116,14 +116,14 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;maiuscole&quot;&gt;&lt;a href=&quot;#MAIUSCOLE&quot; class=&quot;anchor&quot;&gt;MAIUSCOLE&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;maiuscole&quot;&gt;MAIUSCOLE&lt;/h3&gt;
 
 &lt;p&gt;Ciò che mi ha sempre fatto impazzire di Helvetica è il suo maiuscolo. Se non passassi per un pazzo e leggere non mettesse un’agitazione assurda, scriverei sempre solo con Helvetica Maiuscola in grassetto (ogni parola di più di una lettera in stampatello non grassetto è decisamente inguardabile). Con Inter è un po’ lo stesso, perché dai, siamo sinceri, Inter e Helvetica si somigliano, un po’. Per questo, su xplosionmind tutti gli heading sono maiuscoli. Tutte le cose che sono maiuscole sono anche bold, ma non viceversa.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;scatole-e-nastri&quot;&gt;&lt;a href=&quot;#scatole-e-nastri&quot; class=&quot;anchor&quot;&gt;Scatole e nastri&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;scatole-e-nastri&quot;&gt;Scatole e nastri&lt;/h2&gt;
 
 &lt;p&gt;In &lt;a href=&quot;https://developer.mozilla.org/it/docs/Web/HTML&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;HTML&lt;/a&gt;, chi un po’ lo conosce lo sa, tutto sta in scatole (precisamente, “contenitori”): ogni elemento è una scatola che contiene o a sua volta è contenuto da un’altra scatola. Una pagina web, semplificando, è un insieme di scatole che stanno una dentro l’altra, tipo matrioska. Se volete fare un esperimento, cliccate &lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;SHIFT&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;C&lt;/code&gt; se siete su Firefox o &lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;I&lt;/code&gt; se siete su Chrome (sostituite &lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL&lt;/code&gt; con &lt;code class=&quot;highlighter-rouge&quot;&gt;cmd&lt;/code&gt; su Mac) e potrete notare che ogni &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; è l’inizio di una scatola e ogni &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/div&amp;gt;&lt;/code&gt; è quello che la chiude. Io stavo provando a far stare i titoli delle sezioni in una propria scatola, per mettere lo sfondo solo a un rettangolino intorno alla scritta, al centro della pagina, ma non riuscivo. Sono impedito come pochi con il CSS. Alla fine, rassegnato, ho lasciato che le strisce con sfondo colorato fossero larghe quanto tutta la pagina, come le vedete ora. Ho lasciato stare per un pezzo la stilizzazione degli &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; (i titoli a metà pagina) dedicandomi ad altro. Abituandomi a vederli, dopo un po’, ho pensato: “mica male! Direi proprio che se ci stanno tutte queste scatole in giro, anche qualche nastro starebbe bene”. Così ho lasciato ’ste cose colorate lunghissime. Sono bellissime, pure!&lt;/p&gt;
 
@@ -132,28 +132,28 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;pagine&quot;&gt;&lt;a href=&quot;#Pagine&quot; class=&quot;anchor&quot;&gt;Pagine&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;pagine&quot;&gt;Pagine&lt;/h2&gt;
 
 &lt;p&gt;Non immediatamente, ma dopo poco si capisce benissimo che lo &lt;em&gt;&lt;a href=&quot;/zibaldone&quot; target=&quot;_blank&quot;&gt;Zibaldone&lt;/a&gt;&lt;/em&gt; è un blog, &lt;em&gt;&lt;a href=&quot;/tutto&quot; target=&quot;_blank&quot;&gt;tutto&lt;/a&gt;&lt;/em&gt; è una specie di registro delle mie attività, che i &lt;em&gt;&lt;a href=&quot;/poetry&quot; target=&quot;_blank&quot;&gt;pasticci&lt;/a&gt;&lt;/em&gt; sono delle poesie, che &lt;em&gt;&lt;a href=&quot;/marmellata&quot; target=&quot;_blank&quot;&gt;La Marmellata&lt;/a&gt;&lt;/em&gt; è una sorta di taccuino pubblico. La mia intenzione era quella di attribuire un’identità a ogni pagina, di darle un perché e di definire un suo carattere. Per questo, ho evitato di utilizzare titoli descrittivi, assegnando invece dei nomi. Conseguentemente, per &lt;a href=&quot;/#linee&quot;&gt;semplificare la confusione&lt;/a&gt;, sotto ogni titolo c’è una breve illustrazione del contenuto della pagina e del perché di quel nome.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;lingua&quot;&gt;&lt;a href=&quot;#Lingua&quot; class=&quot;anchor&quot;&gt;Lingua&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;lingua&quot;&gt;Lingua&lt;/h2&gt;
 
 &lt;p&gt;È stato uno degli obiettivi più complicati da finalizzare, quindi, anche se non c’è molto di cui raccontare, lo scrivo: ogni pagina (eccetto gli articoli, che sono solo nella lingua originale) è tradotta in italiano e in inglese. Allo stesso modo header e footer. Mi sono divertito un sacco a scrivere i contenuti delle pagine perché, dovendo in ogni caso tradurre in un’altra lingua, a volte sono partito dall’inglese, a volte dall’italiano. Ergo, se state leggendo qualcosa in italiano, non è detto che sia l’originale: più probabilmente ho prima scritto quella frase in inglese e poi ne ho fatto la trasposizione in italiano.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;apertura&quot;&gt;&lt;a href=&quot;#Apertura&quot; class=&quot;anchor&quot;&gt;Apertura&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;apertura&quot;&gt;Apertura&lt;/h2&gt;
 
 &lt;p&gt;Il &lt;a href=&quot;https://github.com/xplosionmind/xplosionmind&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;codice sorgente&lt;/a&gt; del sito è su GitHub, in fondo a ogni articolo è presente il link “suggerisci modifica o correzione”, che porta direttamente alla versione modificabile di quella pagina. Ovviamente, in caso apportaste modifiche, l’implementazione di queste nel codice originale non è automatica, deve essere approvata da me. Il mio obiettivo è quello di trasformare questo sito in un portale, che è una parola bruttissima per esprimere un concetto bellissimo: un luogo online per trovare risorse e leggere pensieri.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;newsletter&quot;&gt;&lt;a href=&quot;#Newsletter&quot; class=&quot;anchor&quot;&gt;Newsletter&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;newsletter&quot;&gt;Newsletter&lt;/h2&gt;
 
 &lt;p&gt;Nel sito precedente gestiva tutto Wix: ad ogni nuova pubblicazione, veniva inviata un’email agli iscritti. Ora, diventa tutto mooolto pù complicato. Cercando di risparmiare tecnicismi, per avviare efficacemente la newsletter devo riuscire a implementare uno script che automatizzi questi passaggi:&lt;/p&gt;
 
@@ -169,7 +169,7 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;cursore&quot;&gt;&lt;a href=&quot;#Cursore&quot; class=&quot;anchor&quot;&gt;Cursore&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;cursore&quot;&gt;Cursore&lt;/h2&gt;
 
 &lt;p&gt;Quando leggete da telefono non ve ne accorgete, ma se aprite il sito da computer potete divertirvi a giocare con il cursore. La sua modifica è uno di quei dettagli che sono semplicissimi da manipolare, ma che quasi nessuno applica.&lt;/p&gt;
 
@@ -181,7 +181,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;fun-fact&quot;&gt;&lt;a href=&quot;#Fun-fact&quot; class=&quot;anchor&quot;&gt;Fun fact&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;fun-fact&quot;&gt;Fun fact&lt;/h4&gt;
 
 &lt;p&gt;Come quando ai aggancia il bersaglio in un combattimento il mirino diventa verde, così su xplosionmind, passando sopra i link, il puntatore diventa azzurro.&lt;/p&gt;
 
@@ -194,7 +194,7 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;inciampi&quot;&gt;&lt;a href=&quot;#Inciampi&quot; class=&quot;anchor&quot;&gt;Inciampi&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;inciampi&quot;&gt;Inciampi&lt;/h2&gt;
 
 &lt;p&gt;Come ho anticipato all’inizio, programmare questo sito è stato un casino. Io non ne sapevo nulla, ora ne so poco, e ho avuto costantemente la fretta di finire tutto ma contemporaneamente anche di riuscire ad arrivare al risultato che volevo, come lo volevo. Ho perso un sacco di tempo a cercare di imparare nozioni che poi ho scelto di non sfruttare, a migliorare dettagli che poi ho dovuto eliminare, e tanti altri pasticci. Il prezzo più grande da pagare quando si tratta di informatica è il &lt;em&gt;tempo&lt;/em&gt;. Non a caso, &lt;a href=&quot;https://www.imdb.com/title/tt1211837/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Doctor Strange&lt;/a&gt; è il mio preferito. Appena apparso nel &lt;abbr title=&quot;Marvel Cinematic Universe&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;MCU&lt;/a&gt;&lt;/abbr&gt;, ha spodestato Tony Stark in un attimo. Come al solito mi sto perdendo, ma per fortuna sono quasi alla conclusione.&lt;/p&gt;
 
@@ -203,7 +203,7 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;whats-next&quot;&gt;&lt;a href=&quot;#Whats-next&quot; class=&quot;anchor&quot;&gt;What’s next&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next&lt;/h2&gt;
 
 &lt;p&gt;Ne stavo per uscire pazzo: la prima cosa che farò ora è disintossicarmi dal codice. Starò per un po’ a leggere e scrivere, guardare, approfondire e scoprire come sempre, ma stando alla larga da &lt;abbr title=&quot;Vi Improved&quot;&gt;&lt;a href=&quot;https://www.vim.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Vim&lt;/a&gt;&lt;/abbr&gt;.&lt;/p&gt;
 
@@ -213,7 +213,7 @@
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Grazie, grazie, grazie. A tutti gli amici che mi hanno sopportato mentre ero in palla perché impazzivo a programmare il sito, a tutti i santi che hanno accettato di testarlo in anteprima e, per ultimo ma non ultimo, il mitico &lt;a href=&quot;https://claudiofaoro.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Claudio Faoro&lt;/a&gt;, che mi ha dato una mano e molti consigli sullo sviluppo.&lt;/p&gt;</content><author><name></name></author><summary type="html">Ho sempre amato i semplici ma contemporaneamente maestosi titoli latini in “de + ablativo” e non ho saputo resistere nel trovare il coraggio di distruggere grandi opere del livello del De bello gallico e De agricoltura intitolando questo articolo in questo modo. Allo stesso tempo, come Candido o l’Ottimismo, volevo mettere “o”. Mi sono tolto una soddisfazione.</summary></entry><entry xml:lang="en"><title type="html">Making This Website</title><link href="http://localhost:4000/themekingof" rel="alternate" type="text/html" title="Making This Website" /><published>2020-04-18T00:00:00+02:00</published><updated>2020-05-12T19:01:22+02:00</updated><id>http://localhost:4000/Making-this-website</id><content type="html" xml:base="http://localhost:4000/themekingof">&lt;h2 id=&quot;this-article-isnt-completed-yet-please-check-the-markdown-file-in-the-website-github-repository-to-contribute&quot;&gt;This article isn’t completed yet, please check the Markdown file in the website GitHub repository to contribute.&lt;/h2&gt;
+&lt;p&gt;Grazie, grazie, grazie. A tutti gli amici che mi hanno sopportato mentre ero in palla perché impazzivo a programmare il sito, a tutti i santi che hanno accettato di testarlo in anteprima e, per ultimo ma non ultimo, il mitico &lt;a href=&quot;https://claudiofaoro.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Claudio Faoro&lt;/a&gt;, che mi ha dato una mano e molti consigli sullo sviluppo.&lt;/p&gt;</content><author><name></name></author><summary type="html">Ho sempre amato i semplici ma contemporaneamente maestosi titoli latini in “de + ablativo” e non ho saputo resistere nel trovare il coraggio di distruggere grandi opere del livello del De bello gallico e De agricoltura intitolando così questo articolo. Allo stesso tempo, come Candido o l’Ottimismo, volevo mettere “o”. Mi sono tolto una soddisfazione.</summary></entry><entry xml:lang="en"><title type="html">Making This Website</title><link href="http://localhost:4000/themekingof" rel="alternate" type="text/html" title="Making This Website" /><published>2020-04-18T00:00:00+02:00</published><updated>2020-05-12T19:01:22+02:00</updated><id>http://localhost:4000/Making-this-website</id><content type="html" xml:base="http://localhost:4000/themekingof">&lt;p class=&quot;warning&quot;&gt;This article isn’t completed yet, please check the Markdown file in the website GitHub repository to contribute.&lt;/p&gt;
 
 &lt;p&gt;Building a website from scratch can be challenging. It took me several months of study, practice, tests and neverending headaches to get to this result. The process can be overwhelming (to me it definitely has been): there are tons of different tools, resouces and tutorials; nevertheless, it’s always &lt;strong&gt;so hard&lt;/strong&gt; to spend the right amount of time learning something by evaluating its overall usefulness. Since the beginning, I chose to do &lt;strong&gt;everything&lt;/strong&gt; by myself: I decided not to use any framework, &lt;abbr title=&quot;Content Management System&quot;&gt;CMS&lt;/abbr&gt; or copy and paste any code I couldn’t understand.&lt;/p&gt;
 
@@ -245,14 +245,14 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;learning-html-and-css&quot;&gt;&lt;a href=&quot;#learning&quot; class=&quot;anchor&quot;&gt;Learning HTML and CSS&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;learning-html-and-css&quot;&gt;Learning HTML and CSS&lt;/h2&gt;
 
 &lt;p&gt;As I wrote before, since I was so lost and I had no idea of the best starting point, I bought a book on basic web programming: “HTML and CSS” by Jon Duckett. I spent ten days reading and studying it thoroughly. After that, I knew all the basics, then I was able to start building a test page.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;building&quot;&gt;&lt;a href=&quot;#building&quot; class=&quot;anchor&quot;&gt;Building&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;building&quot;&gt;Building&lt;/h2&gt;
 
 &lt;p&gt;I chose the about page to be my test page. At first, it wasn’t a section of the homepage, but a standalone one. I struggled to make it look like the one on the Wix website (I won’t link it anymore, you can browse around using the first one I gave) and I couldn’t make it appear nicely, until I discovered the &lt;code class=&quot;highlighter-rouge&quot;&gt;object-fit&lt;/code&gt; CSS property, which changed my game.&lt;/p&gt;
 
@@ -261,7 +261,7 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;navigation-bar-header-and-footer&quot;&gt;&lt;a href=&quot;#navigation&quot; class=&quot;anchor&quot;&gt;Navigation bar, Header and footer&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;navigation-bar-header-and-footer&quot;&gt;Navigation bar, Header and footer&lt;/h2&gt;
 
 &lt;p&gt;I decided to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;include&lt;/code&gt; php function to have only a header and a footer file.&lt;/p&gt;
 
@@ -323,6 +323,9 @@
   &lt;/li&gt;
   &lt;li&gt;Everyone page&lt;/li&gt;
   &lt;li&gt;added &lt;em&gt;The Jar&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;2020.05.16 theme toggle&lt;/li&gt;
+  &lt;li&gt;added &lt;em&gt;stuff extended&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;added &lt;em&gt;Radioimmaginaria database&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
@@ -341,7 +344,7 @@
   &lt;li&gt;&lt;a href=&quot;https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;em&lt;/code&gt; vs &lt;code class=&quot;highlighter-rouge&quot;&gt;rem&lt;/code&gt;&lt;/a&gt;, choosing the right one to build a responsive website;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.sylvaindurand.org/making-jekyll-multilingual/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Making Jekyll Multilingual&lt;/a&gt; by Sylvain Durand&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://gist.github.com/Eeemil/e93ad054a73037f5bea3#file-post-html&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;edit on GitHub button&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">This article isn’t completed yet, please check the Markdown file in the website GitHub repository to contribute. Building a website from scratch can be challenging. It took me several months of study, practice, tests and neverending headaches to get to this result. The process can be overwhelming (to me it definitely has been): there are tons of different tools, resouces and tutorials; nevertheless, it’s always so hard to spend the right amount of time learning something by evaluating its overall usefulness. Since the beginning, I chose to do everything by myself: I decided not to use any framework, CMS or copy and paste any code I couldn’t understand. I wanted to learn by doing and do it in the best possible way. Yep, quite an ambitious purpose. Thus, in the end I decided to take advantage of a Static Site Generator, which doesn’t necessarily make things heavier but for sure it makes them simpler and way quicker. We’ll get there. One last thing before diving in: this article is not intended to be a guide or a tutorial. Since I’ve been struggling a lot to get here, I feel like it may be useful to someone to know the path I followed (or, better, traced) to obtain what I was aiming at. Not having any clue of the right next step is so stressful, I’ve been on the edge of giving up multiple times. Eventually, another point it’s worth making is that web develpement is ridicolously cheap: you just need a laptop (not even a powerful one), everything else is for free (actually, I bought this book, but online there are a few great alternatives). The only, huge price you need to pay is time. I spent handful of restless hours fighting with the urgency and the desire of getting things done, and trying to have paticence of going on by gradual steps. The Beginning I had absolutely no idea where to start. My only notions of programming were some basic concepts of C, which I studied at University. I knew nothing about server management, HTML, CSS, JavaScript or web hosting. My previous website was created on Wix with a drag-and-drop GUI to build anything. So, the first question I asked myself was: where should I start? As of when I’m writing, xplosionmind.tk isn’t completed. The following steps are part of a bullet-list which I enhanced and completed before publishing. Since I spent my whole COVID-19 quarantine (two months ish) doing this, I’m gonna add the git commit date of each step at the beginning. Learning HTML and CSS As I wrote before, since I was so lost and I had no idea of the best starting point, I bought a book on basic web programming: “HTML and CSS” by Jon Duckett. I spent ten days reading and studying it thoroughly. After that, I knew all the basics, then I was able to start building a test page. Building I chose the about page to be my test page. At first, it wasn’t a section of the homepage, but a standalone one. I struggled to make it look like the one on the Wix website (I won’t link it anymore, you can browse around using the first one I gave) and I couldn’t make it appear nicely, until I discovered the object-fit CSS property, which changed my game. To be honest, even after finishing the book I knew nothing about frameworks but after reading this article I told myself I wouldn’t need one. Even after completing the website, I still don’t know if I made the right choice. Without a doubt, my style.css file is a huge mess. Nevertheless, I get things done pretty easily by searching classes’ names in the file and I have only a stylesheet, so it’s good. Navigation bar, Header and footer I decided to use the include php function to have only a header and a footer file. STEPS learning HTML and CSS from the book creating a test page building a custom framework (you don’t need a framework Tania Rascia) using php to include header and footer creating a responsive header logo writing JS code for dropdown menus hover color transitions creating a responsive footer inserting the license inserting the subscribe input and styling it creating my own custom yellow social svg buttons implementing Jekyll Giraffe Academy tutorials + documentation converting php includes to Jejyll YAML front matter includes importing all of my older posts (it took me quite some time…) fetching, resizing and resampling post pictures resetting links as &amp;lt;a href=&quot;blablabla&quot; rel=&quot;noopener&quot; target=_&quot;blank&quot; blog landing page looping through categories posts language switch cool yellow lines STUFF setting the featured and current variable, respectively to show on homepage and to divide between older and younger logos converting to svg images to fit multilingual translating pages and using front matter to define ref and lang translating footer and header Everyone page added The Jar Resources useful websites Tania Rascia’s blog, great for learning grasp the most important aspects of front-end web programming; brick.im http://webtypography.net/intro/ specific articles em vs rem, choosing the right one to build a responsive website; Making Jekyll Multilingual by Sylvain Durand edit on GitHub button</summary></entry><entry xml:lang="it"><title type="html">L’avanguardia</title><link href="http://localhost:4000/avanguardia" rel="alternate" type="text/html" title="L’avanguardia" /><published>2020-02-07T00:00:00+01:00</published><updated>2020-05-08T10:06:47+02:00</updated><id>http://localhost:4000/Avanguardia</id><content type="html" xml:base="http://localhost:4000/avanguardia">&lt;p&gt;Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">This article isn’t completed yet, please check the Markdown file in the website GitHub repository to contribute. Building a website from scratch can be challenging. It took me several months of study, practice, tests and neverending headaches to get to this result. The process can be overwhelming (to me it definitely has been): there are tons of different tools, resouces and tutorials; nevertheless, it’s always so hard to spend the right amount of time learning something by evaluating its overall usefulness. Since the beginning, I chose to do everything by myself: I decided not to use any framework, CMS or copy and paste any code I couldn’t understand. I wanted to learn by doing and do it in the best possible way. Yep, quite an ambitious purpose. Thus, in the end I decided to take advantage of a Static Site Generator, which doesn’t necessarily make things heavier but for sure it makes them simpler and way quicker. We’ll get there. One last thing before diving in: this article is not intended to be a guide or a tutorial. Since I’ve been struggling a lot to get here, I feel like it may be useful to someone to know the path I followed (or, better, traced) to obtain what I was aiming at. Not having any clue of the right next step is so stressful, I’ve been on the edge of giving up multiple times. Eventually, another point it’s worth making is that web develpement is ridicolously cheap: you just need a laptop (not even a powerful one), everything else is for free (actually, I bought this book, but online there are a few great alternatives). The only, huge price you need to pay is time. I spent handful of restless hours fighting with the urgency and the desire of getting things done, and trying to have paticence of going on by gradual steps. The Beginning I had absolutely no idea where to start. My only notions of programming were some basic concepts of C, which I studied at University. I knew nothing about server management, HTML, CSS, JavaScript or web hosting. My previous website was created on Wix with a drag-and-drop GUI to build anything. So, the first question I asked myself was: where should I start? As of when I’m writing, xplosionmind.tk isn’t completed. The following steps are part of a bullet-list which I enhanced and completed before publishing. Since I spent my whole COVID-19 quarantine (two months ish) doing this, I’m gonna add the git commit date of each step at the beginning. Learning HTML and CSS As I wrote before, since I was so lost and I had no idea of the best starting point, I bought a book on basic web programming: “HTML and CSS” by Jon Duckett. I spent ten days reading and studying it thoroughly. After that, I knew all the basics, then I was able to start building a test page. Building I chose the about page to be my test page. At first, it wasn’t a section of the homepage, but a standalone one. I struggled to make it look like the one on the Wix website (I won’t link it anymore, you can browse around using the first one I gave) and I couldn’t make it appear nicely, until I discovered the object-fit CSS property, which changed my game. To be honest, even after finishing the book I knew nothing about frameworks but after reading this article I told myself I wouldn’t need one. Even after completing the website, I still don’t know if I made the right choice. Without a doubt, my style.css file is a huge mess. Nevertheless, I get things done pretty easily by searching classes’ names in the file and I have only a stylesheet, so it’s good. Navigation bar, Header and footer I decided to use the include php function to have only a header and a footer file. STEPS learning HTML and CSS from the book creating a test page building a custom framework (you don’t need a framework Tania Rascia) using php to include header and footer creating a responsive header logo writing JS code for dropdown menus hover color transitions creating a responsive footer inserting the license inserting the subscribe input and styling it creating my own custom yellow social svg buttons implementing Jekyll Giraffe Academy tutorials + documentation converting php includes to Jejyll YAML front matter includes importing all of my older posts (it took me quite some time…) fetching, resizing and resampling post pictures resetting links as &amp;lt;a href=&quot;blablabla&quot; rel=&quot;noopener&quot; target=_&quot;blank&quot; blog landing page looping through categories posts language switch cool yellow lines STUFF setting the featured and current variable, respectively to show on homepage and to divide between older and younger logos converting to svg images to fit multilingual translating pages and using front matter to define ref and lang translating footer and header Everyone page added The Jar 2020.05.16 theme toggle added stuff extended added Radioimmaginaria database Resources useful websites Tania Rascia’s blog, great for learning grasp the most important aspects of front-end web programming; brick.im http://webtypography.net/intro/ specific articles em vs rem, choosing the right one to build a responsive website; Making Jekyll Multilingual by Sylvain Durand edit on GitHub button</summary></entry><entry xml:lang="it"><title type="html">L’avanguardia</title><link href="http://localhost:4000/avanguardia" rel="alternate" type="text/html" title="L’avanguardia" /><published>2020-02-07T00:00:00+01:00</published><updated>2020-05-08T10:06:47+02:00</updated><id>http://localhost:4000/Avanguardia</id><content type="html" xml:base="http://localhost:4000/avanguardia">&lt;p&gt;Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in
 quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su exercise.polito.it nella speranza di osservare un’ispirazione per risolvere un equazione.&lt;/p&gt;
 
 &lt;p&gt;E intorno.&lt;/p&gt;

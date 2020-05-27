@@ -1,15 +1,23 @@
 ---
-title: "Server setup step by step"
+title: "Server setup"
 permalink: /server-setup
 ---
-A walktrough the steps I executed to set up my server on <a href="https://www.linode.com/" rel="noopener" target="_blank">Linode</a>.
+A walktrough the steps I executed to set up my server on <a href="https://www.linode.com/" rel="noopener noreferrer" target="_blank">Linode</a>.
+
+<br />
+
+## Spoiler
+
+I started configuring Docker but it has been such a mess that I ended up installing <a href="https://maadix.net/" rel="noopener" target="_blank">Maadix</a>.
 
 <br />
 <br />
 
 ## References and resources
 
-- Create <a href="https://www.linode.com/docs/getting-started/" rel="noopener" target="_blank">a new Linode</a>
+- <a href="https://www.linode.com/docs/getting-started/" rel="noopener noreferrer" target="_blank">Getting started with Linode</a>
+- <a href="https://www.linode.com/docs/platform/billing-and-support/linode-beginners-guide/" rel="noopener noreferrer">Linode beginner's guide</a>
+- <a href="https://www.linode.com/docs/troubleshooting/troubleshooting-ssh/" rel="noopener noreferrer" target="_blank">Linode SSH troubleshooting</a>
 - Harden <a href="https://en.wikipedia.org/wiki/Secure_Shell" rel="noopener" target="_blank">SSH</a> access and <a href="https://www.linode.com/docs/security/securing-your-server/" rel="noopener" target="_blank">secure the server</a>
 
 ## CONFIGURATION

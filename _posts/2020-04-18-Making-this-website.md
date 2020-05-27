@@ -5,8 +5,8 @@ ref: genesi
 categories: geek
 img: "/images/2020-04-18-Making-this-website.jpg"
 ---
-
-## This article isn’t completed yet, please check the Markdown file in the website GitHub repository to contribute.
+{:.warning}
+This article isn’t completed yet, please check the Markdown file in the website GitHub repository to contribute.
 
 Building a website from scratch can be challenging. It took me several months of study, practice, tests and neverending headaches to get to this result. The process can be overwhelming (to me it definitely has been): there are tons of different tools, resouces and tutorials; nevertheless, it’s always **so hard** to spend the right amount of time learning something by evaluating its overall usefulness. Since the beginning, I chose to do **everything** by myself: I decided not to use any framework, <abbr title="Content Management System">CMS</abbr> or copy and paste any code I couldn’t understand.
 
@@ -38,14 +38,14 @@ Since I spent my whole COVID-19 quarantine (two months ish) doing this, I'm gonn
 <br />
 <br />
 
-## [Learning HTML and CSS](#learning){:.anchor}
+## Learning HTML and CSS
 
 As I wrote before, since I was so lost and I had no idea of the best starting point, I bought a book on basic web programming: “HTML and CSS” by Jon Duckett. I spent ten days reading and studying it thoroughly. After that, I knew all the basics, then I was able to start building a test page.
 
 <br />
 <br />
 
-## [Building](#building){:.anchor}
+## Building
 
 I chose the about page to be my test page. At first, it wasn't a section of the homepage, but a standalone one. I struggled to make it look like the one on the Wix website (I won’t link it anymore, you can browse around using the first one I gave) and I couldn’t make it appear nicely, until I discovered the `object-fit` CSS property, which changed my game.
 
@@ -54,7 +54,7 @@ To be honest, even after finishing the book I knew nothing about <a href="https:
 <br />
 <br />
 
-## [Navigation bar, Header and footer](#navigation){:.anchor}
+## Navigation bar, Header and footer
 
 I decided to use the `include` php function to have only a header and a footer file. 
 
@@ -91,6 +91,9 @@ I decided to use the `include` php function to have only a header and a footer f
 	- translating footer and header
 - Everyone page
 - added _The Jar_
+- 2020.05.16 theme toggle
+- added _stuff extended_
+- added _Radioimmaginaria database_
 
 
 ## Resources

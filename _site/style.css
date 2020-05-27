@@ -1,14 +1,17 @@
 :root {
-	--black-ish: #111;
+	--background: #111;
 	--white-ish: #E0E0E0;
 	--dark-grey: #222;
 	--light-grey: #DDD;
 	--yellow: #FCC920;
 	--blue: #3185FC;
 	--red: #E84855;
+	--green: limegreen;
 
 	--tiny: 0.2rem;
+	--tinyem: 0.2em;
 	--small: 0.5rem;
+	--smallem: 0.5em;
 	--lessthan-regular: 0.9rem;
 	--regular: 1.1rem;
 	--morethan-regular: 1.3rem;
@@ -17,7 +20,10 @@
 	--twice: 2.2rem;
 	--height: 3.1rem;
 	--mastodon: 4.4rem;
+	--2height: 6.2rem;
 	--margin: 6.5rem;
+	--trans: .5s;
+	--quicktrans: .1s;
 }
 
 html {
@@ -33,7 +39,7 @@ body {
 	--secondary: var(--blue);
 	--grey: var(--dark-grey);
 
-	transition: .5s;
+	transition: var(--trans);
 }
 
 /* LIGHT THEME */
@@ -45,11 +51,11 @@ body {
 	--secondary: var(--red);
 	--grey: var(--light-grey);
 
-	transition: .5s;
+	transition: var(--trans);
 }
 
 body {
-	background-color: var(--background);
+	background: var(--background);
 	font: 300 var(--regular) "Inter", "Fira Sans", Helvetica, sans-serif;
 	color: var(--text);
 	margin: 0;
@@ -94,28 +100,35 @@ mark {
 }
 
 
-.poetry {
-	font: 400 var(--morethan-regular) "Latin Modern Roman", Times, "Times New Roman", serif;
+.poetry p, .post p,
+.poetry li, .post li {
+	font: 400 var(--morethan-regular) "Merriweather", "Latin Modern Roman", Georgia, serif;
+	line-height: 1.5;
 }
 
 strong, b {
 	font-weight: 700;
 }
 
-.post p:first-child::first-letter, {
-	font: 400 var(--morethan-regular) "Latin Modern Roman", Times, "Times New Roman", serif;
-	font-size: 3em;
+.post p::first-letter, {
+	font-size: 2.5em;
 }
 
 .line {
 	height: var(--tiny);
-	background-color: var(--primary);
+	background: var(--primary);
 	width: 20%;
-	margin: var(--tiny) auto;
+	margin: 0 auto;
 }
 
 .date {
 	text-align: center;
+}
+
+.warning {
+	background: var(--green);
+	color: black;
+	padding: var(--smallem);
 }
 
 .page-header h1 {
@@ -150,7 +163,7 @@ strong, b {
 .topics-indicator {
 	font-size: var(--big);
 	line-height: var(--height);
-	background-color: var(--text);
+	background: var(--text);
 	color: var(--background);
 	height: var(--height);
 	font-weight: 700;
@@ -163,7 +176,7 @@ strong, b {
 	font-size: var(--big);
 	height: 2.3rem; /* height - 4*tiny */
 	line-height: 2.3rem;
-	transition: transform .2s;
+	transition: var(--trans);
 	margin: 0px;
 	padding: 0px var(--small);
 }
@@ -196,8 +209,8 @@ strong, b {
 	height: var(--big);
 	position: absolute;
 	right: 101%; /* big + tiny*/
-	transition: .2s;
-	top: .15em;
+	transition: var(--trans);
+	top: .75rem;
 }
 
 .anchor:hover,
@@ -206,7 +219,7 @@ strong, b {
 }
 
 #jar {
-	background-color: var(--secondary);
+	background: var(--secondary);
 }
 
 pre, code {
@@ -244,15 +257,15 @@ a.container {
 	text-decoration: none !important;
 }
 
-#intro {
+#index {
 	text-align: center;
 	display: table-cell; /* THE KEY TO VERTICAL ALIGNMENT */
 	vertical-align: middle;
-	background-color: var(--primary);
-	color: var(--background-color);
+	background: var(--primary);
+	color: var(--background);
 }
 
-#intro h1, #intro a, #intro a:visited {
+#index h1, #index a, #index a:visited {
 	color: var(--background);
 	letter-spacing: .05rem;
 	font-weight: 800;
@@ -295,18 +308,18 @@ a.container {
 	.column {
 		float: left;
 	}
-/*	.categories {
-		font-size: var(--big);
-		line-height: var(--big)
-	} */
 	.date {
 		text-align: right;
 	}
 	.line {
-		margin: var(--tiny) auto var(--tiny) 15%;
+		margin: auto;
 		width: 70%;
 	}
+	.nav-list {
+		display: block !important;
+	}
 }
+
 
 img {
 	width: 100%;
@@ -338,7 +351,16 @@ p {
 }
 
 .preview {
-	margin-bottom: var(--twice);
+	color: var(--text);
+	padding: var(--bigger) 0
+}
+
+.preview:hover,
+.preview:focus {
+	background: var(--primary);
+	color: var(--background);
+	transition: var(--trans);
+	padding: var(--bigger) var(--lessthan-regular)
 }
 
 .image {
@@ -361,7 +383,7 @@ p {
 
 
 .section-title {
-	background-color: var(--primary);
+	background: var(--primary);
 	text-align: center;
 	height: var(--height);
 	line-height: var(--height);
@@ -382,7 +404,7 @@ article h2, article h3, article h4, article h5, article h6 {
 	font-family: Inter, Helvetica, "Helvetica Neue", sans;
 	background: var(--background);
 	position: sticky;
-	line-height: 1.2em;
+	line-height: var(--height);
 	top: 3.6rem;
 	margin-bottom: 0;
 	z-index: 0;
@@ -411,7 +433,7 @@ a, a:visited {
 }
 
 a, button {
-	cursor: url(/logos/cursor-hover.svg), auto;
+	cursor: url(/logos/cursor-hover.svg), pointer;
 }
 
 #stuff-tree a,
@@ -426,8 +448,6 @@ article a:visited {
 li a:hover, p a:hover,
 li a:focus, p a:focus {
 	border-bottom: 2px dashed;
-/*	transform: rotate(2deg);
-	transition: transform .2s; */
 }
 
 .stuff {
@@ -460,19 +480,19 @@ li a:focus, p a:focus {
 	text-align: center;
 }
 
-
-.post-title:hover,
-.post-title:focus {
-	background: var(--primary);
-	color: var(--black-ish);
-	transition: color .2s, background .2s;
-}
-
 .last-modified {
 	margin: 0 auto var(--twice);
 	text-align: center;
 	font-size: var(--lessthan-regular);
 	opacity: 0.8;
+}
+
+footer {
+	background: var(--grey);
+	margin-bottom: var(--small);
+	width: 98%;
+	margin-left: 1%;
+	text-align: center;
 }
 
 /* HEADER */
@@ -485,6 +505,7 @@ li a:focus, p a:focus {
 	position: fixed;
 	text-transform: uppercase;
 	font-weight: 700;
+	transition: var(--trans)
 }
 
 .navigation a, .navigation a:hover, .navigation a:focus {
@@ -497,7 +518,8 @@ li a:focus, p a:focus {
 	line-height: var(--height); 
 	height: var(--height);
 	font-size: var(--bigger);
-	background-color: var(--background);
+	background: var(--background);
+	transition: var(--trans)
 }
 .xplosionmind a, .xplosionmind a:visited {
 	color: var(--primary);
@@ -505,7 +527,7 @@ li a:focus, p a:focus {
 
 .xplosionmind:hover, .xplosionmind:focus {
 	background: var(--primary);
-	transition: background .2s, color .2s;
+	transition: var(--trans);
 	border-bottom: none;
 }
 .xplosionmind a:hover, .xplosionmind a:focus {
@@ -515,7 +537,7 @@ li a:focus, p a:focus {
 .nav-container {
 	max-width: 100%;
 	height: var(--height);
-	background-color: var(--primary);
+	background: var(--primary);
 }
 
 nav {
@@ -536,7 +558,7 @@ nav ul li a:visited {
 	display: block;
 	padding: 0 15px;
 	line-height: var(--height);
-	color: var(--black-ish);
+	color: var(--background);
 	text-decoration: none;
 	background: var(--primary);
 	font-size: var(--morethan-regular);
@@ -550,7 +572,7 @@ nav ul li a:visited:active,
 nav ul li a:active {
 	background: var(--background);
 	color: var(--primary);
-	transition: background .2s, color .2s;
+	transition: var(--trans);
 	border-bottom: none;
 }
 nav ul li a:not(:only-child):after,
@@ -616,44 +638,42 @@ nav ul li ul li a {
 	h1, h2 {
 		text-align: center;
 	}
-	#intro h1 {
+	#index h1 {
 		font-size: 2.1rem;
 	}
 	.page-header h1 {
 		font-size: var(--height);
 	}
 	.nav-container {
-		background-color: var(--background);
+		background: var(--background);
 	}
 	.navigation, footer {
 		left: 2%;
-		width: 96%;
+		width: 96%
+	}
+	footer {
+		margin-left: 2%
 	}
 }
 
-@media screen and (min-width: 1000px) {
-	.nav-list {
-		display: block !important;
-	}
-}
 #nav-toggle {
 	position: absolute;
 	left: 10px;
 	top: 12px;
-	cursor: pointer;
+	cursor: url(/logos/cursor-hover.svg), pointer;
 	padding: 10px 35px 16px 0px;
 }
 #nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
-	cursor: pointer;
+	cursor: url(/logos/cursor-hover.svg), pointer;
 	height: 4px;
 	width: 30px;
-	background: var(--black-ish);
+	background: var(--background);
 	position: absolute;
 	display: block;
 	content: "";
- 	transition: all 200ms ease-in-out;
+ 	transition: var(--quicktrans);
 }
 #nav-toggle span:before {
 	top: var(--small);
@@ -662,7 +682,7 @@ nav ul li ul li a {
 	bottom: var(--small);
 }
 #nav-toggle.active span {
-	background-color: transparent;
+	background: transparent;
 }
 #nav-toggle.active span:before, #nav-toggle.active span:after {
 	top: 0;
@@ -691,13 +711,7 @@ nav ul li ul li a {
 }
 
 /* FOOTER */
-footer {
-	background-color: var(--grey);
-	margin-bottom: var(--small);
-	width: 98%;
-	margin-left: 1%;
-	text-align: center;
-}
+
 
 footer p {
 	opacity: .7;
@@ -718,7 +732,7 @@ footer .one-fifth p a {
 
 footer p:hover,
 footer p:focus {
-	transition: opacity .2s, font-weight .2s;
+	transition: var(--trans);
 	opacity: 100%;
 }
 
@@ -730,17 +744,17 @@ input#email {
 	font-size: var(--big);
 	line-height: var(--big);
 	font-weight: 700;
-	color: var(--black-ish);
+	color: var(--background);
 	width: 73%;
 	height: var(--height);
-	background-color: var(--primary);
+	background: var(--primary);
 	border: none;
 	opacity: 100%;
 	padding-left: var(--tiny);
 }
 
 input#email:focus {
-	background-color: transparent;
+	background: transparent;
 	color: var(--primary);
 	border: var(--tiny) dashed var(--primary);
 }
@@ -760,8 +774,8 @@ input#email:focus {
 #submit:hover
 #submit:focus {
 	background: var(--primary);
-	color: var(--black-ish);
-  	transition: background .1s, color .1s;
+	color: var(--background);
+  	transition: var(--trans);
 }
 
 input::placeholder {
@@ -778,7 +792,7 @@ input::placeholder {
 	display: inline;
 	height: var(--height);
 	width: auto;
-	transition: transform .1s;
+	transition: var(--quicktrans);
 }
 
 .button:hover,
@@ -807,5 +821,5 @@ input::placeholder {
 #CClogo:hover,
 #CClogo:focus {
 	opacity: 100%;
-	transition: opacity .1s;
+	transition: var(--quicktrans);
 }

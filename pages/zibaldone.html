@@ -19,7 +19,7 @@ ref: blog
 		<div class="one column labels">
 			<div class="one-fourth column topics-indicator">SCROLL TOPICS</div>
 			<div class="three-fourths column categories">
-				<a href="/poetry" style="color: purple;"><div class="category" style="background-color: pink;">Pasticci</div></a>
+				<a href="/poetry" style="color: #301A4B;"><div class="category" style="background-color: #FDDDE6;">Pasticci</div></a>
 				{% for category in site.categories %}
 					<a href="{{ category.url }}" style="color: {{ category.color }};"><div class="category" style="background-color: {{ category.background-color }};">{{ category.title }}</div></a>
 				{% endfor %}
@@ -29,29 +29,21 @@ ref: blog
 </div>
 
 {% for post in site.posts %}
-		<a href="{{ post.url }}">
-			<div class="row preview" style="color: var(--text);">
-				<div class="row">
-					<div class="one column">
-						<div class="four-fifths column">
-							<h2 class="post-title">{{ post.title }}</h2>
-						</div>
-						<div class="one-fifth column date">
-							{{ post.date | date: "%d %B %Y" }}
-						</div>
-					</div>
+	<a href="{{ post.url }}">
+		<div class="row">
+			<div class="one column preview">
+				<div class="four-fifths column">
+					<h2 class="post-title">{{ post.title }}</h2>
 				</div>
-				{% assign post-color = site.categories[post.categories] %}
-				<div class="line" style="background: {{ post-color.background-color }}"></div>
+				<div class="one-fifth column date">
+					{{ post.date | date: "%d %B %Y" }}
+				</div>
 			</div>
-		</a>
+		</div>
+		{% assign post-color = site.categories.title[post.categories] %}
+		<div class="line" style="background: {{ post-color.background-color }}"></div>
+	</a>
 {% endfor %}
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 <br />
 <br />
