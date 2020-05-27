@@ -44,6 +44,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-last-modified-at
+  - jekyll-target-blank
 
 defaults:
   -

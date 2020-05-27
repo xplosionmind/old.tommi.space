@@ -61,6 +61,7 @@
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
 - [ ] blogroll (a list of blogs which inspire me) inspired from [Pawlean](https://pawlean.com/blogroll)
+- [x] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Thanks to [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which saved me hours and hours of typing.
 
 ### CREATIVE IDEAS
 
