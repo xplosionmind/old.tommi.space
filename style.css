@@ -222,15 +222,20 @@ strong, b {
 	background: var(--secondary);
 }
 
+.highlight {
+	margin: 0;
+}
+
 pre, code {
-	font-family: "Ubuntu Mono", "Roboto Mono", "Fira Code", mono;
+	font: 400 1.1em "Ubuntu Mono", "Roboto Mono", "Fira Code", mono;
+	line-height: 1.2em
 }
 
 pre {
 	overflow-x: scroll;
 	outline: dashed var(--tiny);
-	margin: var(--bigger) 0px;
-	padding: var(--lessthan-regular);
+	margin: var(--bigger) 0;
+	padding: var(--morethan-regular);
 }
 
 pre code {
