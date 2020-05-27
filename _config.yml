@@ -45,6 +45,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-last-modified-at
   - jekyll-target-blank
+  - jekyll-redirect-from
 
 defaults:
   -
@@ -63,6 +64,10 @@ defaults:
       lang: "it"
       permalink: "/:title"
       excerpt_separator: "<!--more-->"
+      redirect_from:
+        - "/:date/:title"
+        - "/:categories/:title"
+        - "/:categories/:date/:title"
 
   -
     scope:
@@ -92,6 +97,7 @@ defaults:
       layout: "jar"
       permalink: "/:title"
       lang: "en"
+      redirect_from: "/:title"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
