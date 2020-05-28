@@ -6,7 +6,7 @@
 - [ ] Newsletter
 	- [x] subscribe button
 	- [ ] back-end implementation
-	- [ ] Mailtrain integration
+	- [ ] Mailtrain setup
 - [x] RSS Feed
 - [ ] Generative Art
 	- [ ] always-changing colors
@@ -23,14 +23,13 @@
 - [x] Mobile optimization
 - [x] Hover effects
 	- [x] basic
-- [ ] Custom font
-	- [ ] cutting a leg of an x
-	- [ ] sideways cutting of letters' legs
+- [ ] [Custom font implementation](https://xplosionmind.tk/Typography#Custom-font)
 - [x] basic colored biiig shapes
 - [x] gif instead of images 
 - [ ] custom selection color for text
-- [ ] unsorted photos moving
-- [ ] horizontal instead of vertical scrolling of the gallery
+- visioni
+    - [ ] unsorted photos randomly moving
+    - [ ] horizontal instead of vertical scrolling of the gallery
 - [x] animated favicon (see ipleak.net) (chose not to use it)
 - [x] customize 404 page
 - [x] Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**

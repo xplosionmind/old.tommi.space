@@ -262,7 +262,7 @@ a.container {
 	text-decoration: none !important;
 }
 
-#index {
+#landing {
 	text-align: center;
 	display: table-cell; /* THE KEY TO VERTICAL ALIGNMENT */
 	vertical-align: middle;
@@ -270,7 +270,7 @@ a.container {
 	color: var(--background);
 }
 
-#index h1, #index a, #index a:visited {
+#landing h1, #landing a, #landing a:visited {
 	color: var(--background);
 	letter-spacing: .05rem;
 	font-weight: 800;

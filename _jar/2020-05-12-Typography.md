@@ -18,3 +18,11 @@ It’s a wonderful world, hidden in plain sight. Here there are some resources f
 - <a href="http://tholman.com/post/smelvetica" rel="noopener noreferrer" target="_blank">Smelvetica</a>, a funny customization of <a href="https://en.wikipedia.org/wiki/Helvetica" rel="noopener noreferrer" target="_blank">Helvetica</a>.
 - <a href="https://rsms.me/inter" rel="noopener noreferrer" target="_blank">Inter</a>, a wonderful Open Font by <a href="https://rsms.me/about/" rel="noopener noreferrer" target="_blank">Rasmus Andersson</a>.
 - [Merriweather](https://github.com/SorkinType/Merriweather), the serif font I use on this blog, it’s designed by [Eben Sorkin](http://sorkintype.com/about.html).
+
+<br />
+
+## Custom Font
+
+- define a **name**
+- cutting the leg of `x`s
+- sideways cutting of letter’s legs
