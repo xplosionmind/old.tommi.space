@@ -131,6 +131,7 @@ strong, b {
 	background: var(--green);
 	color: black;
 	padding: var(--smallem);
+	margin: var(--twice) 0
 }
 
 .page-header h1 {
@@ -225,7 +226,7 @@ strong, b {
 }
 
 .highlight {
-	margin: 0;
+	margin: 0 0 3.6rem;
 }
 
 pre, code {
@@ -235,7 +236,7 @@ pre, code {
 
 pre {
 	overflow-x: scroll;
-	outline: dashed var(--tiny);
+	border: dashed var(--tiny);
 	margin: var(--bigger) 0;
 	padding: var(--morethan-regular);
 }
@@ -247,10 +248,6 @@ pre code {
 code {
 	background: var(--grey);
 	padding: var(--tiny) var(--small);
-}
-
-.hljs {
-	font-family: "Ubuntu Mono", "Roboto Mono", "Fira Code", mono;
 }
 
 /* WHEN ELEMENT CENTERING IS NEEDED */
