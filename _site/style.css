@@ -1,7 +1,7 @@
 :root {
 	--black-ish: #222;
 	--white-ish: #E0E0E0;
-	--dark-grey: #333;
+	--dark-grey: #222;
 	--light-grey: #DDD;
 	--yellow: #FCC920;
 	--blue: #3185FC;
@@ -38,6 +38,7 @@ body {
 	--primary: var(--yellow);
 	--secondary: var(--blue);
 	--grey: var(--dark-grey);
+	--other-grey: var(--light-grey);
 
 	transition: var(--trans);
 }
@@ -50,6 +51,7 @@ body {
 	--primary: var(--blue);
 	--secondary: var(--red);
 	--grey: var(--light-grey);
+	--other-grey: var(--dark-grey);
 
 	transition: var(--trans);
 }

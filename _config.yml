@@ -38,6 +38,10 @@ collections:
   jar:
     output: true
 
+kramdown:
+  syntax_highlighter_opts:
+    default_lang: zsh
+
 # Build settings
 plugins:
   - jekyll-feed

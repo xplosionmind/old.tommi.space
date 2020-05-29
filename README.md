@@ -1,5 +1,3 @@
-## QUICK FIXES / EDITS
-
 ## FEATURES CHECKLIST
 
 - [x] Privacy Policy
