@@ -658,6 +658,11 @@ nav ul li ul li a {
 	footer {
 		margin-left: 2%
 	}
+	.newsletter {
+		height: unset !important;
+		line-height: var(--bigger) !important;
+		padding: var(--small) !important;
+	}
 }
 
 #nav-toggle {
@@ -740,52 +745,13 @@ footer p:focus {
 	opacity: 100%;
 }
 
-footer form {
-	margin: var(--morethan-regular) auto;
-}
-
-input#email {
-	font-size: var(--big);
-	line-height: var(--big);
-	font-weight: 700;
-	color: var(--background);
-	width: 73%;
-	height: var(--height);
+.newsletter {
 	background: var(--primary);
-	border: none;
-	opacity: 100%;
-	padding-left: var(--tiny);
-}
-
-input#email:focus {
-	background: transparent;
-	color: var(--primary);
-	border: var(--tiny) dashed var(--primary);
-}
-
-#submit {
-	font-size: var(--big);
-	line-height: var(--height);
-	font-weight: 700;
-	color: var(--primary);
-	height: var(--height);
-	width: var(--height);
-	background: transparent;
-	border: none;
-	opacity: 100%;
-}
-
-#submit:hover
-#submit:focus {
-	background: var(--primary);
-	color: var(--background);
-  	transition: var(--trans);
-}
-
-input::placeholder {
 	color: var(--grey);
-	opacity: 1;
-	text-align: center;
+	display: block !important;
+	width: 90% !important;
+	margin: var(--morethan-regular) auto;
+	padding: 0 var(--small);
 }
 
 #social-box {
@@ -795,8 +761,13 @@ input::placeholder {
 .button {
 	display: inline;
 	height: var(--height);
+	line-height: var(--height);
+	font-size: var(--bigger);
+	font-weight: bold;
 	width: auto;
 	transition: var(--quicktrans);
+	text-transform: uppercase;
+	hyphens: none;
 }
 
 .button:hover,
@@ -804,9 +775,17 @@ input::placeholder {
 	transform: scale(1.1);
 }
 
-#license {
-	width: 90%; /* override one column width */
+footer .row {
+	width: 90%;
 	margin-left: 5%;
+}
+
+footer .one-fourth .half p a {
+	line-height: var(--height);
+}
+
+#license {
+	width: 100%; /* override one column width */
 	margin-bottom: 0px;
 	font-size: 0.8em;
 	font-weight: 200;
