@@ -16,11 +16,10 @@ Resources, apps, tutorials and several knowledge sources are mentioned [here](/s
 
 ## System configuration and environment setup
 
-update Ubuntu
+update Ubuntu (*`-y` parameter is used to accept by default any question*)
 ```
 sudo apt update -y && sudo apt upgrade -y
 ```
-`-y` parameter is used to accept by default any question
 
 remove debris
 ```
@@ -94,7 +93,9 @@ echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 
 ### Install dependencies
 
-Install [php](https://www.php.net/) modules
+#### PHP Modules
+
+Install [PHP](https://www.php.net/) modules
 ```
 apt install php-zip php-dompdf php-xml php-mbstring php-gd php-curl php-imagick php-intl unzip
 ```
@@ -111,8 +112,10 @@ upload_max_filesize = 16G # max size of uploaded files
 post_max_size = 16G # something similar to the above
 date.timezone = Europe/Rome # or your timezone
 ```
- 
-mySQL Server configuration
+
+#### MySQL
+
+[MySQL](https://www.mysql.com/) database configuration
 ```
 mysql_secure_installation
 ```
@@ -245,6 +248,61 @@ certbot --apache -m tommiboom@protonmail.com -d cloud.tommiboom.tk
 
 Final adjustments are to be performed from the Nextcloud GUI. The [Nextcloud apps](https://apps.nextcloud.com/) I installed are listed [here](/server#nextcloud-apps)
 
+<br />
+
+## Nextcloud cheatsheet
+
+A list of useful commands to perform when needed (often).
+
+<br />
+
+### Manually install applications
+
+move to the Nextcloud apps folder
+```
+cd /var/www/nextcloud/apps
+```
+
+download the application package from [Nextcloud apps website](https://apps.nextcloud.com/)
+```
+wget https://github.com/juliushaertl/apporder/releases/download/v0.10.0/apporder.tar.gz # url to the package
+```
+
+extract it (by substituting `package_name` with the name of the app package)
+```
+tar -xvzf package_name.tar.gz
+```
+
+remove compressed package
+```
+rm -rf package_name.tar.gz
+```
+
+change permissions for the app’s directory
+```
+chown -R www-data:www-data /var/www/nextcloud/apps/app_name
+chmod -R 755 /var/www/nextcloud/apps/app-name
+```
+
+<br />
+
+### Manteinance mode
+
+enable manteinance mode
+```
+sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --on
+```
+
+disable manteinance mode
+```
+sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --off
+```
+
+<br />
+
+### fixes
+
+- [fix encryption error](https://github.com/nextcloud/server/issues/8546#issuecomment-514139714)
 
 <br />
 <br />
