@@ -149,6 +149,14 @@ strong, b {
 	width: 80%;
 }
 
+.toc {
+	margin: 0 10% var(--morethan-regular);
+}
+
+.toc a {
+	color: var(--secondary);
+}
+
 .categories {
 	overflow-x: scroll;
 	overflow-y: hidden;

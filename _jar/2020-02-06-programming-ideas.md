@@ -1,5 +1,7 @@
 ---
 title: "Programming ideas"
+categories: geek
+toc: 0
 ---
 There are tools which it would be so useful for me to have but I can’t find the right scripts/programs/apps to accomplish the missing tools’ purposes.
 

@@ -2,7 +2,7 @@
 title: "Web freedom and privacy"
 permalink: /freedom
 categories: geek
-lang: en
+toc: 0
 ---
 Everything inspiring, meaningful or particularly significant about web privacy I find online.
 

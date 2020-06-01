@@ -1,6 +1,5 @@
 ---
 categories: Design
-lang: en
 title: "Typography"
 ---
 It’s a wonderful world, hidden in plain sight. Here there are some resources for inspiration and study.

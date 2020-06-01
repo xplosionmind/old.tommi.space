@@ -2,6 +2,7 @@
 permalink: /learning-resources
 title: "Learning resources"
 categories: geek
+toc: 0
 ---
 A comprehensive list of great online learning resources for any sort of computer stuff. Except official documentation, which can be found 
 
