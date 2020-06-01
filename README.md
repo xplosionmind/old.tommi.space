@@ -21,7 +21,7 @@
 - [x] Mobile optimization
 - [x] Hover effects
 	- [x] basic
-- [ ] [Custom font implementation](https://xplosionmind.tk/Typography#Custom-font)
+- [ ] [Custom font](https://xplosionmind.tk/Typography#Custom-font) implementation
 - [x] basic colored biiig shapes
 - [x] gif instead of images 
 - [ ] custom selection color for text
