@@ -1,12 +1,13 @@
 :root {
-	--black-ish: #222;
+	--black-ish: #111;
 	--white-ish: #E0E0E0;
 	--dark-grey: #222;
 	--light-grey: #DDD;
 	--yellow: #FCC920;
 	--blue: #3185FC;
-	--red: #E84855;
+	--red: #D00;
 	--green: limegreen;
+	--razzmatazz: #EC0868;
 
 	--tiny: 0.2rem;
 	--tinyem: 0.2em;
@@ -33,6 +34,7 @@ html {
 /* DARK THEME */
 body {
 	--background: black;
+	--background2: var(--black-ish);
 	--text: var(--white-ish);
 	--link: var(--primary);
 	--primary: var(--yellow);
@@ -46,10 +48,11 @@ body {
 /* LIGHT THEME */
 .light {
 	--background: white;
+	--background2: var(--white-ish);
 	--text: var(--black-ish);
 	--link: var(--secondary);
 	--primary: var(--blue);
-	--secondary: var(--red);
+	--secondary: var(--razzmatazz);
 	--grey: var(--light-grey);
 	--other-grey: var(--dark-grey);
 
@@ -128,10 +131,32 @@ strong, b {
 }
 
 .warning {
-	background: var(--green);
-	color: black;
-	padding: var(--smallem);
+	background: var(--blue);
+	color: white;
+	padding: var(--regular);
 	margin: var(--twice) 0
+}
+
+.green {
+	background: var(--blue);
+	color: black;
+}
+
+.red {
+	background: var(--red);
+}
+
+.blue {
+	background: var(--blue);
+}
+
+.yellow {
+	background: var(--yellow);
+	color: black;
+}
+
+.razzmatazz {
+	background: var(--razzmatazz);
 }
 
 .page-header h1 {
@@ -145,7 +170,7 @@ strong, b {
 }
 
 .page-description {
-	margin: 0px auto;
+	margin: 0 auto;
 	width: 80%;
 }
 
@@ -188,8 +213,8 @@ strong, b {
 	height: 2.3rem; /* height - 4*tiny */
 	line-height: 2.3rem;
 	transition: var(--trans);
-	margin: 0px;
-	padding: 0px var(--small);
+	margin: 0;
+	padding: 0 var(--small);
 }
 
 .category:hover, .language:hover, .link:hover,
@@ -240,6 +265,7 @@ strong, b {
 pre, code {
 	font: 400 1.1em "Ubuntu Mono", "Roboto Mono", "Fira Code", mono;
 	line-height: 1.2em
+	transition: var(--trans)
 }
 
 pre {
@@ -254,8 +280,8 @@ pre code {
 }
 
 code {
-	background: var(--grey);
-	padding: var(--tiny) var(--small);
+	padding: 2px var(--small);
+	background: var(--background2);
 }
 
 /* WHEN ELEMENT CENTERING IS NEEDED */
@@ -358,13 +384,43 @@ article {
 	padding: var(--twice) 10% 6rem;
 }
 
-p {
+p, article li, article ul {
 	line-height: var(--big);
 }
 
-.preview {
+.preview, .jar-preview, .poetry-preview {
 	color: var(--text);
-	padding: var(--bigger) 0
+	padding: var(--bigger) 0;
+	transition: var(--trans)
+}
+
+.jar-preview, .poetry-preview {
+	text-align: center;
+}
+
+.jar-preview:hover {
+	background: var(--razzmatazz);
+	transition: var(--trans);
+	padding: var(--bigger) var(--lessthan-regular);
+	color: white
+}
+
+.jar-preview .line {
+	background: var(--razzmatazz);
+	margin: var(--tiny) auto;
+	width: 5%
+}
+
+.poetry-preview .line {
+	background: var(--blue);
+	margin: var(--tiny) auto;
+	width: 5%
+}
+
+.poetry-preview:hover {
+	background: var(--blue);
+	transition: var(--trans);
+	color: white
 }
 
 .preview:hover,
@@ -378,12 +434,12 @@ p {
 .image {
 	width: 100%;
 	height: auto;
-	margin: 0px 0px var(--mastodon) 0px;
+	margin: 0 0 var(--mastodon) 0;
 }
 
 .image img {
 	object-fit: cover;
-	margin: 0px;
+	margin: 0;
 }
 
 .gallery-preview {
@@ -410,6 +466,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	line-height: 0.97em;
+	transition: var(--trans)
 }
 
 article h2, article h3, article h4, article h5, article h6 {
@@ -431,7 +488,7 @@ h1 {
 
 h2 {
 	font-size: var(--bigger);
-	margin: 0px;
+	margin: 0;
 }
 
 a, a:visited {
@@ -463,7 +520,7 @@ li a:focus, p a:focus {
 }
 
 .stuff {
-	padding: 0px 10%;
+	padding: 0 10%;
 	display: block;
 	text-align: center;
 }
@@ -480,7 +537,7 @@ li a:focus, p a:focus {
 .stuff .category {
 	margin: var(--height) auto;
 	line-height: var(--height);
-	padding: 0.17rem var(--lessthan-regular) 0px;
+	padding: 0.17rem var(--lessthan-regular) 0;
 	font-size: var(--morethan-regular);
 }
 
@@ -525,7 +582,7 @@ footer {
 }
 
 .xplosionmind{
-	padding: 0px var(--regular);
+	padding: 0 var(--regular);
 	float: left;
 	line-height: var(--height); 
 	height: var(--height);
@@ -623,7 +680,7 @@ nav ul li ul li a {
 		display: block;
 	}
 	nav {
-		margin-right: 0px;
+		margin-right: 0;
 		text-align: right;
 	}
 	nav ul {
@@ -643,7 +700,7 @@ nav ul li ul li a {
 		position: static;
 		overflow: scroll;
 	}
-	.post-title {
+	.post-title, .poem-title {
 		width: 96%;
 		margin-left: 2%;
 	}
@@ -678,7 +735,7 @@ nav ul li ul li a {
 	left: 10px;
 	top: 12px;
 	cursor: url(/logos/cursor-hover.svg), pointer;
-	padding: 10px 35px 16px 0px;
+	padding: 10px 35px 16px 0;
 }
 #nav-toggle span,
 #nav-toggle span:before,
@@ -794,7 +851,7 @@ footer .one-fourth .half p a {
 
 #license {
 	width: 100%; /* override one column width */
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	font-size: 0.8em;
 	font-weight: 200;
 }

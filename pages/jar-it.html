@@ -4,30 +4,28 @@ permalink: /marmellata
 lang: it
 ref: jar
 ---
-<div class="page-header">
+<div class="page-header row">
 	<div class="one column">
 		<h1>La Marmellata</h1>
-		<p class="page-description">Ci sono cose che scopro e porca puzzola avrei voluto sapere prima, o cose che semplicemente non riesco a non condividere ma non sono abbastanza per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
+		<div class="page-description" style="margin-bottom: var(--margin);">
+
+		<p>Ci sono cose che scopro e porca puzzola avrei voluto sapere prima, o cose che semplicemente non riesco a non condividere ma non sono abbastanza per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
+
 		<p>Prendo tutte queste cose e, non avendo tempo per prepararle bene e svilupparci un pensiero, le metto ne <em>La Marmellata</em>.
-		<p style="margin-bottom: var(--margin);">Ogni puntino qui sotto è un ingrediente de <em>La Marmellata</em>, fatene buon uso, senza esagerare. (non mi assumo responsabilità sulla potenza delle cose che ci sono dentro)</p>
+		<p>Ogni puntino qui sotto è un ingrediente de <em>La Marmellata</em>, fatene buon uso, senza esagerare. (non mi assumo responsabilità sulla potenza delle cose che ci sono dentro)</p>
+		</div>
 	</div>
 </div>
 
-<div class="row">
-	<div class="one column">
-		<ul style="margin-left: 10%; text-align: left; margin-left: 20%; line-height: 1.5em">
-		{% for note in site.jar %}
-			<li><a href="{{ note.url }}" style="color: var(--secondary)">{{ note.title }}</a></li>
-		{% endfor %}
-		</ul>
+{% for note in site.jar reversed %}
+<a href="{{ note.url }}">
+	<div class="row jar-preview">
+		<div class="one column">
+			<h2 class="post-title">{{ note.title }}</h2>
+				<div class="line"></div>
+		</div>
 	</div>
-</div>
+</a>
+{% endfor %}
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 <br />

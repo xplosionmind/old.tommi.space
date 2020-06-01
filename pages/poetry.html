@@ -20,12 +20,14 @@ ref: poetry
 </div>
 
 {% for poem in site.poetry reversed %}
-	<div class="row preview">
+<a href="{{ poem.url }}">
+	<div class="row poetry-preview">
 		<div class="one column">
-				<h2 class="post-title" style="text-align: center;"><a href="{{ poem.url }}" style="color: var(--dark-font);">{{ poem.title }}</a></h2>
-				<div class="line" style="width: 5%; margin: var(--tiny) auto; background-color: var(--secondary);"></div>
+			<h2 class="post-title">{{ poem.title }}</h2>
+			<div class="line"></div>
 		</div>
 	</div>
+</a>
 {% endfor %}
 
 <br />

@@ -1,6 +1,6 @@
 ---
 lang: it
-title: "Citazioni, artisti, film, canzoni in Jack Frusciante è uscito dal gruppo"
+title: "Jack Frusciante è uscito dal gruppo"
 permalink: "/Jack-Frusciante"
 toc: 0
 ---

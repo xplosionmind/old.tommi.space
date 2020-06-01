@@ -4,30 +4,26 @@ permalink: /jar
 lang: en
 ref: jar
 ---
-<div class="page-header">
+<div class="page-header row">
 	<div class="one column">
 		<h1>The Jar</h1>
-		<p class="page-description">There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
+		<div class="page-description" style="margin-bottom: var(--margin);">
+		<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
 		<p>I take this things, I throw them into <em>The Jar</em>.</p>
-		<p style="margin-bottom: var(--margin);">I hope it can be useful to you.</p>
+		<p>I hope it can be useful to you.</p>
+		</div>
 	</div>
 </div>
 
-<div class="row">
-	<div class="one column">
-		<ul style="margin-left: 20%; text-align: left; line-height: 1.5em">
-		{% for note in site.jar %}
-			<li><a href="{{ note.url }}" style="color: var(--secondary)">{{ note.title }}</a></li>
-		{% endfor %}
-		</ul>
+{% for note in site.jar reversed %}
+<a href="{{ note.url }}">
+	<div class="row jar-preview">
+		<div class="one column">
+			<h2 class="post-title">{{ note.title }}</h2>
+				<div class="line"></div>
+		</div>
 	</div>
-</div>
+</a>
+{% endfor %}
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 <br />

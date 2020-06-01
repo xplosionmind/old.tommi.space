@@ -1,7 +1,7 @@
 ---
 title: "Virtual Reality"
 date: 2019-11-26
-bella: true
+bella: "true"
 lang: it
 ---
 ti vorrei regalare
