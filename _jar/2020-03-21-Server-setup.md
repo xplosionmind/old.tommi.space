@@ -33,7 +33,23 @@ adduser tommi
 
 give that user sudo permissions
 ```
-adduser tommi sudo
+adduser -aG tommi sudo
+```
+
+```
+ufw allow OpenSSH
+```
+
+```
+ufw enable
+```
+
+```
+ufw status
+```
+
+```
+sudo ufw allow 'Apache'
 ```
 
 <br />
@@ -86,9 +102,48 @@ echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 <br />
 <br />
 
+## Install LAMP
+
+
+
+<br />
+<br />
+
 ## Nextcloud configuration
 
 [official documentation](https://docs.nextcloud.com/server/18/admin_manual/installation/source_installation.html)
+
+
+```
+sudo chown -R $USER:$USER /var/www/cloud.tommiboom.tk
+```
+
+```
+sudo chmod -R 755 /var/www/cloud.tommiboom.tk
+```
+
+```apache
+<VirtualHost *:80>
+	ServerAdmin tommiboom@protonmail.com
+	ServerName cloud.tommiboom.tk
+	ServerAlias www.cloud.tommiboom.tk
+	DocumentRoot /var/www/cloud.tommiboom.tk/public_html
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
+
+
+
+
+<br />
+<br />
+<br />
+<br />
+
+
+
 
 
 ### Install dependencies
@@ -163,7 +218,7 @@ create a Nextcloud configuration file
 vim /etc/apache2/sites-available/nextcloud.conf
 ```
 
-paste this inside:
+**OLD** paste this inside:
 ```apache
 <VirtualHost *:80>
      ServerAdmin tommiboom@protonmail.com
