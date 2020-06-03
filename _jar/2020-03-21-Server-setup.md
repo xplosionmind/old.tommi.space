@@ -69,6 +69,28 @@ NOTE: substitute `100.100.010.1` with the server’s IP address and `xplosionmin
 
 <br />
 
+### Change default SSH port
+
+Changing the default SSH port is useful to prevent randomized attacks which attempt to get access to the server from port 22, the default one.
+{:.warning}
+
+open the new SSH port from the firewall. In this case, the process I’ll be following configures port `5522`
+```
+sudo ufw allow 5522/tcp
+```
+Open the SSH configuration file `/etc/ssh/sshd_config`
+```
+sudo vim /etc/ssh/sshd_config
+```
+In this file, replace `#Port 22` with `Port 5522`
+
+restart ssh
+```
+sudo systemctl restart ssh
+```
+
+<br />
+
 install [zsh](https://www.zsh.org/)
 ```
 apt install zsh
@@ -102,17 +124,18 @@ echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 <br />
 <br />
 
-## Install LAMP
-
-
-
-<br />
-<br />
-
 ## Nextcloud configuration
 
-[official documentation](https://docs.nextcloud.com/server/18/admin_manual/installation/source_installation.html)
+### Resources
 
+- [official installation documentation](https://docs.nextcloud.com/server/18/admin_manual/installation/source_installation.html)
+- complete [installation tutorial](https://youtu.be/QB_FEWJ9BB4) for Ubuntu 20.04, in dutch
+- [in-depth guide](https://youtu.be/QXfsi0pwgYw) for Nextcloud 15
+- check vulnerabilities with [Nextcloud Scan](https://scan.nextcloud.com)
+
+<br />
+
+### Change permissions
 
 ```
 sudo chown -R $USER:$USER /var/www/cloud.tommiboom.tk
@@ -121,6 +144,7 @@ sudo chown -R $USER:$USER /var/www/cloud.tommiboom.tk
 ```
 sudo chmod -R 755 /var/www/cloud.tommiboom.tk
 ```
+
 
 ```apache
 <VirtualHost *:80>
@@ -134,15 +158,102 @@ sudo chmod -R 755 /var/www/cloud.tommiboom.tk
 </VirtualHost>
 ```
 
-
-
-
-<br />
-<br />
-<br />
 <br />
 
+### Install MariaDB
 
+```
+sudo apt install mariadb-server
+```
+
+Basic database configuration
+```
+sudo mysql_secure_installation
+```
+
+log in MariaDB
+```
+sudo mariadb
+```
+
+Create a new database for Nextcloud (in MariaDB):
+```sql
+mysql> CREATE DATABASE nextcloud;
+```
+
+Create a new Nextcloud user
+```sql
+mysql> GRANT ALL ON nextcloud.* TO 'user_name'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+mysql> FLUSH PRIVILEGES;
+```
+
+### Install PHP
+```
+sudo apt install php libapache2-mod-php php-mysql
+```
+
+install Nextcloud dependencies
+```
+sudo apt install php-curl php-dom php-gd php-json php-xml php-mbstring php-zip
+```
+download Nextcloud and place it in the virtual host directory`
+```
+sudo cd /var/www/cloud.tommiboom.tk/public_html && sudo wget https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip
+```
+
+extract the downloaded package
+```
+unzip nextcloud-18.0.4.zip
+```
+
+Install Let's Encrypt
+```
+sudo apt install certbot python3-certbot-apache
+```
+
+Enable port `443` instead of port `80`
+```
+sudo ufw allow 'Apache Full'
+sudo ufw delete allow 'Apache'
+```
+
+Generate TLS certificate
+```
+sudo certbot --apache -d cloud.tommiboom.tk -d www.cloud.tommiboom.tk
+```
+
+Enable HTTP/2, and rewrite module
+```
+sudo apt install php7.4-fpm
+sudo a2enmod proxy_fcgi
+sudo a2enconf php7.4-fpm
+sudo a2dismod php7.4
+sudo a2dismod mpm_prefork
+sudo a2enmod mpm_event
+sudo service apache2 restart
+sudo a2enmod http2
+sudo service apache2 restart
+```
+
+### Enable HSTS
+
+add in cloud.tommiboom.tk-le-ssl.conf
+```apache
+<IfModule mod_headers.c>
+      Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
+</IfModule>
+Dare il comando:
+sudo a2enmod headers
+
+Abilitare .htaccess
+Modificare /etc/apache2/sites-available/cloud.tommiboom.tk/cloud.tommiboom.tk-le-ssl.conf
+Aggiungere dentro <VirtualHost *:443>
+<Directory "/var/www/cloud.tommiboom.tk/public_html">
+                Options Indexes FollowSymLinks
+                AllowOverride All
+                Require all granted
+</Directory>
+```
 
 
 
@@ -166,93 +277,6 @@ memory_limit = 1024M # based on how much RAM the server has
 upload_max_filesize = 16G # max size of uploaded files
 post_max_size = 16G # something similar to the above
 date.timezone = Europe/Rome # or your timezone
-```
-
-#### MySQL
-
-[MySQL](https://www.mysql.com/) database configuration
-```
-mysql_secure_installation
-```
- 
-open SQL dialogue
-```
-mysql
-```
-
-Create Nextcloud database
-```sql
-mysql> CREATE DATABASE Nextcloud;
-```
- 
-create database user with password
-```sql
-mysql> CREATE USER 'xplosionmind'@'localhost' IDENTIFIED BY 'password_here';
-```
-
-grant access to everything (`*.*`) to the new user
-```sql
-mysql> GRANT ALL ON *.* TO 'nextclouduser'@'localhost';
-```
- 
-save changes and exit
-```sql
-mysql> FLUSH PRIVILEGES;
-mysql> EXIT;
-```
-
-<br />
-
-### Actual installation
-
-Download lastest Nextcloud version
-```
-cd /tmp && wget https://download.nextcloud.com/server/releases/latest.zip
-unzip latest.zip
-rm -rf latest.zip
-mv nextcloud /var/www/
-```
- 
-create a Nextcloud configuration file
-```
-vim /etc/apache2/sites-available/nextcloud.conf
-```
-
-**OLD** paste this inside:
-```apache
-<VirtualHost *:80>
-     ServerAdmin tommiboom@protonmail.com
-     DocumentRoot /var/www/nextcloud/
-     ServerName cloud.tommiboom.tk
-     ServerAlias www.cloud.tommiboom.tk
- 
-     Alias /nextcloud "/var/www/nextcloud/"
- 
-     <Directory /var/www/nextcloud/>
-        Options +FollowSymlinks
-        AllowOverride All
-        Require all granted
-          <IfModule mod_dav.c>
-            Dav off
-          </IfModule>
-        SetEnv HOME /var/www/nextcloud
-        SetEnv HTTP_HOME /var/www/nextcloud
-     </Directory>
- 
-     ErrorLog ${APACHE_LOG_DIR}/error.log
-     CustomLog ${APACHE_LOG_DIR}/access.log combined
- 
-</VirtualHost>
-```
- 
-Enable the NextCloud and Rewrite Module
-```
-a2ensite nextcloud.conf
-a2enmod rewrite
-a2enmod headers
-a2enmod env
-a2enmod dir
-a2enmod mime
 ```
  
 restart apache
@@ -299,7 +323,7 @@ certbot --apache -m tommiboom@protonmail.com -d cloud.tommiboom.tk
 
 <br />
 
-## Final adjustments
+### Final adjustments
 
 Final adjustments are to be performed from the Nextcloud GUI. The [Nextcloud apps](https://apps.nextcloud.com/) I installed are listed [here](/server#nextcloud-apps)
 
@@ -320,7 +344,7 @@ cd /var/www/nextcloud/apps
 
 download the application package from [Nextcloud apps website](https://apps.nextcloud.com/)
 ```
-wget https://github.com/juliushaertl/apporder/releases/download/v0.10.0/apporder.tar.gz # url to the package
+wget https://github.com/nextcloud/documentserver_community/releases/download/v0.1.5/documentserver_community.tar.gz # url to the package
 ```
 
 extract it (by substituting `package_name` with the name of the app package)

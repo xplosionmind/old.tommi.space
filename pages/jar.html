@@ -15,7 +15,8 @@ ref: jar
 	</div>
 </div>
 
-{% for note in site.jar reversed %}
+{% assign jar = site.jar | sort: 'date' | reverse %}
+{% for note in jar %}
 <a href="{{ note.url }}">
 	<div class="row jar-preview">
 		<div class="one column">

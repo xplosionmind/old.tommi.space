@@ -483,46 +483,43 @@ h1 {
 	color: var(--text);
 	font-size: var(--height);
 	text-decoration: none;
-	text-align: center;
+	text-align: center
 }
 
 h2 {
 	font-size: var(--bigger);
-	margin: 0;
+	margin: 0
 }
 
 a, a:visited {
-	text-decoration: none;
+	text-decoration: none
 }
 
-.post h1 a, .post h2 a, .post h3 a, .post h4 a, .post h5 a, .post h6 a,
-.post a h1, .post a h2, .post a h3, .post a h4, .post a h5, .post a h6 {
-	background: var(--primary);
-	color: var(--background);
+article h2 a, article h3 a, article h4 a, article h5 a, article h6 a, {
+	opacity: 0
+}
+
+h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor, {
+	opacity: 1
 }
 
 a, button {
-	cursor: url(/logos/cursor-hover.svg), pointer;
+	cursor: url(/logos/cursor-hover.svg), pointer
 }
 
-#stuff-tree a,
-p a,
-p a:visited,
-#stuff-tree a:visited,
-article a,
-article a:visited {
-	color: var(--link);
+#stuff-tree a, p a, p a:visited, #stuff-tree a:visited, article a, article a:visited {
+	color: var(--link)
 }
 
 li a:hover, p a:hover,
 li a:focus, p a:focus {
-	border-bottom: 2px dashed;
+	border-bottom: 2px dashed
 }
 
 .stuff {
 	padding: 0 10%;
 	display: block;
-	text-align: center;
+	text-align: center
 }
 
 .stuff img {
@@ -553,7 +550,7 @@ li a:focus, p a:focus {
 	margin: 0 auto var(--twice);
 	text-align: center;
 	font-size: var(--lessthan-regular);
-	opacity: 0.8;
+	opacity: 0.8
 }
 
 footer {
@@ -561,7 +558,7 @@ footer {
 	margin-bottom: var(--small);
 	width: 98%;
 	margin-left: 1%;
-	text-align: center;
+	text-align: center
 }
 
 /* HEADER */
@@ -578,7 +575,7 @@ footer {
 }
 
 .navigation a, .navigation a:hover, .navigation a:focus {
-	text-decoration: none;
+	text-decoration: none
 }
 
 .xplosionmind{
@@ -591,36 +588,36 @@ footer {
 	transition: var(--trans)
 }
 .xplosionmind a, .xplosionmind a:visited {
-	color: var(--primary);
+	color: var(--primary)
 }
 
 .xplosionmind:hover, .xplosionmind:focus {
 	background: var(--primary);
 	transition: var(--trans);
-	border-bottom: none;
+	border-bottom: none
 }
 .xplosionmind a:hover, .xplosionmind a:focus {
-	color: var(--background);
+	color: var(--background)
 }
 
 .nav-container {
 	max-width: 100%;
 	height: var(--height);
-	background: var(--primary);
+	background: var(--primary)
 }
 
 nav {
 	float: right;
-	margin-right: var(--small);
+	margin-right: var(--small)
 }
 nav ul {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 0
 }
 nav ul li {
 	float: left;
-	position: relative;
+	position: relative
 }
 nav ul li a,
 nav ul li a:visited {
@@ -630,7 +627,7 @@ nav ul li a:visited {
 	color: var(--background);
 	text-decoration: none;
 	background: var(--primary);
-	font-size: var(--morethan-regular);
+	font-size: var(--morethan-regular)
 }
 
 nav ul li a:hover,
@@ -642,26 +639,25 @@ nav ul li a:active {
 	background: var(--background);
 	color: var(--primary);
 	transition: var(--trans);
-	border-bottom: none;
+	border-bottom: none
 }
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
 	padding-left: var(--small);
-	content: "▾";
+	content: "▾"
 }
 nav ul li ul li {
 	min-width: 12rem;
 }
 nav ul li ul li a {
 	padding: var(--regular);
-	line-height: var(--regular);
+	line-height: var(--regular)
 }
 
 .nav-dropdown {
 	position: absolute;
 	z-index: 5;
-/*	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15); */
-	display: none;
+	display: none
 }
 
 /* Mobile navigation */
@@ -672,49 +668,49 @@ nav ul li ul li a {
 	right: 0;
 	background: var(--primary);
 	height: var(--height);
-	width: var(--height);
+	width: var(--height)
 }
 
 @media only screen and (max-width: 1000px) {
 	.nav-mobile {
-		display: block;
+		display: block
 	}
 	nav {
 		margin-right: 0;
-		text-align: right;
+		text-align: right
 	}
 	nav ul {
-		display: none;
+		display: none
 	}
 	nav ul li {
-	  float: none;
+	  float: none
 	}
 	nav ul li a {
 		padding: var(--lessthan-regular) var(--big);
-		line-height: var(--morethan-regular);
+		line-height: var(--morethan-regular)
 	}
 	nav ul li ul li a {
-		padding-right: 4.5rem;
+		padding-right: 4.5rem
 	}
 	.nav-dropdown {
 		position: static;
-		overflow: scroll;
+		overflow: scroll
 	}
 	.post-title, .poem-title {
 		width: 96%;
-		margin-left: 2%;
+		margin-left: 2%
 	}
 	h1, h2 {
-		text-align: center;
+		text-align: center
 	}
 	#index h1 {
-		font-size: 2.1rem;
+		font-size: 2.1rem
 	}
 	.page-header h1 {
-		font-size: var(--height);
+		font-size: var(--height)
 	}
 	.nav-container {
-		background: var(--background);
+		background: var(--background)
 	}
 	.navigation, footer {
 		left: 2%;
@@ -726,7 +722,7 @@ nav ul li ul li a {
 	.newsletter {
 		height: unset !important;
 		line-height: var(--bigger) !important;
-		padding: var(--small) !important;
+		padding: var(--small) !important
 	}
 }
 
@@ -735,7 +731,7 @@ nav ul li ul li a {
 	left: 10px;
 	top: 12px;
 	cursor: url(/logos/cursor-hover.svg), pointer;
-	padding: 10px 35px 16px 0;
+	padding: 10px 35px 16px 0
 }
 #nav-toggle span,
 #nav-toggle span:before,
@@ -747,41 +743,41 @@ nav ul li ul li a {
 	position: absolute;
 	display: block;
 	content: "";
- 	transition: var(--quicktrans);
+ 	transition: var(--quicktrans)
 }
 #nav-toggle span:before {
-	top: var(--small);
+	top: var(--small)
 }
 #nav-toggle span:after {
-	bottom: var(--small);
+	bottom: var(--small)
 }
 #nav-toggle.active span {
-	background: transparent;
+	background: transparent
 }
 #nav-toggle.active span:before, #nav-toggle.active span:after {
-	top: 0;
+	top: 0
 }
 #nav-toggle.active span:before {
-	transform: rotate(45deg);
+	transform: rotate(45deg)
 }
 #nav-toggle.active span:after {
-	transform: rotate(-45deg);
+	transform: rotate(-45deg)
 }
 
 
 .edit {
-	margin: 0 8%;
+	margin: 0 8%
 }
 
 /* SOCIAL SHARING BUTTONS */
 #sharing-box {
-	margin: 0 8% 9rem;
+	margin: 0 8% 9rem
 }
 
 #sharing-box div {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: var(--big);
+	font-size: var(--big)
 }
 
 /* FOOTER */
@@ -790,24 +786,24 @@ nav ul li ul li a {
 footer p {
 	opacity: .7;
 	margin: var(--big) auto 0;
-	line-height: 1rem;
+	line-height: 1rem
 }
 
 /* "Privacy" in footer */
 footer .one-fifth {
-	margin-top: var(--morethan-regular);
+	margin-top: var(--morethan-regular)
 }
 
 footer .one-fifth p a {
 	opacity: .7;
 	color: var(--text);
-	text-align: center;
+	text-align: center
 }
 
 footer p:hover,
 footer p:focus {
 	transition: var(--trans);
-	opacity: 100%;
+	opacity: 100%
 }
 
 .newsletter {
@@ -816,11 +812,11 @@ footer p:focus {
 	display: block !important;
 	width: 90% !important;
 	margin: var(--morethan-regular) auto;
-	padding: 0 var(--small);
+	padding: 0 var(--small)
 }
 
 #social-box {
-	margin: var(--morethan-regular) auto;
+	margin: var(--morethan-regular) auto
 }
 
 .button {
@@ -832,21 +828,21 @@ footer p:focus {
 	width: auto;
 	transition: var(--quicktrans);
 	text-transform: uppercase;
-	hyphens: none;
+	hyphens: none
 }
 
 .button:hover,
 .button:focus {
-	transform: scale(1.1);
+	transform: scale(1.1)
 }
 
 footer .row {
 	width: 90%;
-	margin-left: 5%;
+	margin-left: 5%
 }
 
 footer .one-fourth .half p a {
-	line-height: var(--height);
+	line-height: var(--height)
 }
 
 #license {
