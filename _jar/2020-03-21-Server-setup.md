@@ -1,6 +1,8 @@
 ---
 title: "Server setup"
 permalink: /server-setup
+categories: geek
+code: "true"
 ---
 A walktrough of the steps I executed to set up my server. More data and resources can be found in [this](/server) Jar item.
 
@@ -16,7 +18,7 @@ Resources, apps, tutorials and several knowledge sources are mentioned [here](/s
 
 ## System configuration and environment setup
 
-update Ubuntu (*`-y` parameter is used to accept by default any question*)
+update [Ubuntu](https://ubuntu.com/server), `-y` parameter is used to accept by default any question
 ```
 sudo apt update -y && sudo apt upgrade -y
 ```
@@ -26,28 +28,42 @@ remove debris
 sudo apt autoremove
 ```
 
-add a limited user
+<br />
+
+## Add a limited user
+
+It’s always better not to work and setup stuff straight from root user, it’s easy to mess everything up and very risky if you’re not 100% sure of what you’re doing (for me, most of the time).
+
+add user
 ```
-adduser tommi
+adduser tommi # “tommi”, in this case, is the username
 ```
 
-give that user sudo permissions
+grant that user sudo permissions
 ```
 adduser -aG tommi sudo
 ```
 
+<br />
+
+### Firewall configuration
+
+Enable default configuration
 ```
 ufw allow OpenSSH
 ```
 
+enable firewall
 ```
 ufw enable
 ```
 
+check if everything is working
 ```
 ufw status
 ```
 
+first things firts:
 ```
 sudo ufw allow 'Apache'
 ```
@@ -56,7 +72,7 @@ sudo ufw allow 'Apache'
 
 ### configure SSH Authentication Key-pair
 
-create ssh folder to store allowed keys
+create [ssh](https://www.ssh.com/ssh/) folder to store allowed keys
 ```
 mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
 ```
@@ -71,10 +87,10 @@ NOTE: substitute `100.100.010.1` with the server’s IP address and `xplosionmin
 
 ### Change default SSH port
 
-Changing the default SSH port is useful to prevent randomized attacks which attempt to get access to the server from port 22, the default one.
+Changing the default SSH port is useful to prevent randomized attacks which attempt to get access to the server from [port 22](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers), the default one.
 {:.warning}
 
-open the new SSH port from the firewall. In this case, the process I’ll be following configures port `5522`
+Enable the new SSH port from the firewall. In this case, the process I’ll be following configures port `5522`
 ```
 sudo ufw allow 5522/tcp
 ```
@@ -84,12 +100,28 @@ sudo vim /etc/ssh/sshd_config
 ```
 In this file, replace `#Port 22` with `Port 5522`
 
+after this, disable connections from port 22
+```
+sudo ufw deny 22
+```
+
 restart ssh
 ```
 sudo systemctl restart ssh
 ```
 
 <br />
+
+### Install git
+
+install [git](https://git-scm.com/)
+```
+apt install git
+```
+
+<br />
+
+### Install zsh
 
 install [zsh](https://www.zsh.org/)
 ```
@@ -104,11 +136,6 @@ chsh -s /usr/bin/zsh root
 install zsh syntax highlighting
 ```
 apt install zsh-syntax-highlighting
-```
-
-install [git](https://git-scm.com/)
-```
-apt install git
 ```
 
 install [oh-my-zsh](https://ohmyz.sh/)
@@ -135,17 +162,39 @@ echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 
 <br />
 
-### Change permissions
+### Permissions
 
+Firstly, it’s necessary to create the folder where Nextcloud interface, thus public application files, will be stored.
+
+In this case, I configured a directory which is named exactly as the domain where the content it’s hosting will be found, for simplicity.
+```
+sudo mkdir /var/www/cloud.tommiboom.tk
+```
+
+then, permissions can be changed, such that Nextcloud itself can handle this data, once installed. As you can see, these permissions must be set `-R` recursively.
 ```
 sudo chown -R $USER:$USER /var/www/cloud.tommiboom.tk
-```
-
-```
 sudo chmod -R 755 /var/www/cloud.tommiboom.tk
 ```
 
+make the (private) directory where all of nextcloud data will be stored, and change its permissions, too
+```
+mkdir /home/xplosionmind/nextcloud-data
+sudo chown -R www-data:www-data /home/xplosionmind/nextcloud-data/
+```
 
+<br />
+
+### Apache configuration file
+
+This is the essential content of an Apache configuration fil for nextcloud. It should be placed in `/etc/apache2/sites-available/`
+
+create the configuration file by running
+```
+sudo vim /etc/apache2/sites-available/cloud.tommiboom.tk.conf
+```
+
+then, add this content
 ```apache
 <VirtualHost *:80>
 	ServerAdmin tommiboom@protonmail.com
@@ -187,7 +236,11 @@ mysql> GRANT ALL ON nextcloud.* TO 'user_name'@'localhost' IDENTIFIED BY 'passwo
 mysql> FLUSH PRIVILEGES;
 ```
 
+<br />
+
 ### Install PHP
+
+Install [PHP](https://www.php.net/) modules
 ```
 sudo apt install php libapache2-mod-php php-mysql
 ```
@@ -196,7 +249,25 @@ install Nextcloud dependencies
 ```
 sudo apt install php-curl php-dom php-gd php-json php-xml php-mbstring php-zip
 ```
-download Nextcloud and place it in the virtual host directory`
+
+adjust `PHP.ini`
+```
+sudo vim /etc/php/7.4/apache2/php.ini
+```
+
+edits:
+```php
+memory_limit = 1024M # based on how much RAM the server has
+upload_max_filesize = 16G # max size of uploaded files
+post_max_size = 16G # something similar to the above
+date.timezone = Europe/Rome # or your timezone
+```
+
+<br />
+
+### Install Nextcloud
+
+download Nextcloud and place it in the virtual host directory
 ```
 sudo cd /var/www/cloud.tommiboom.tk/public_html && sudo wget https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip
 ```
@@ -206,7 +277,9 @@ extract the downloaded package
 unzip nextcloud-18.0.4.zip
 ```
 
-Install Let's Encrypt
+### Install Let's Encrypt
+
+[Certbot] will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
 ```
 sudo apt install certbot python3-certbot-apache
 ```
@@ -222,6 +295,8 @@ Generate TLS certificate
 sudo certbot --apache -d cloud.tommiboom.tk -d www.cloud.tommiboom.tk
 ```
 
+<br />
+
 Enable HTTP/2, and rewrite module
 ```
 sudo apt install php7.4-fpm
@@ -235,6 +310,8 @@ sudo a2enmod http2
 sudo service apache2 restart
 ```
 
+<br />
+
 ### Enable HSTS
 
 add in cloud.tommiboom.tk-le-ssl.conf
@@ -242,12 +319,20 @@ add in cloud.tommiboom.tk-le-ssl.conf
 <IfModule mod_headers.c>
       Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
 </IfModule>
-Dare il comando:
-sudo a2enmod headers
+```
 
-Abilitare .htaccess
-Modificare /etc/apache2/sites-available/cloud.tommiboom.tk/cloud.tommiboom.tk-le-ssl.conf
-Aggiungere dentro <VirtualHost *:443>
+to enable what has just been inserted, headers abilitation must be performed
+```
+sudo a2enmod headers
+```
+
+then, enable `.htaccess`
+```
+sudo vim /etc/apache2/sites-available/cloud.tommiboom.tk/cloud.tommiboom.tk-le-ssl.conf
+```
+
+paste in `<VirtualHost *:443>`
+```apache
 <Directory "/var/www/cloud.tommiboom.tk/public_html">
                 Options Indexes FollowSymLinks
                 AllowOverride All
@@ -255,42 +340,14 @@ Aggiungere dentro <VirtualHost *:443>
 </Directory>
 ```
 
+<br />
 
-
-### Install dependencies
-
-#### PHP Modules
-
-Install [PHP](https://www.php.net/) modules
-```
-apt install php-zip php-dompdf php-xml php-mbstring php-gd php-curl php-imagick php-intl unzip
-```
- 
-adjust `PHP.ini`
-```
-vim /etc/php/7.4/apache2/php.ini
-```
-
-edits:
-```php
-memory_limit = 1024M # based on how much RAM the server has
-upload_max_filesize = 16G # max size of uploaded files
-post_max_size = 16G # something similar to the above
-date.timezone = Europe/Rome # or your timezone
-```
- 
 restart apache
 ```
-systemctl restart apache2.service
+systemctl restart apache2
 ```
  
-prepare data folder
-```
-mkdir /home/data/
-chown -R www-data:www-data /home/data/
-chown -R www-data:www-data /var/www/nextcloud/
-chmod -R 755 /var/www/nextcloud/
-```
+<br />
  
 ### Set the domain and complete setup 
 
@@ -300,33 +357,22 @@ chmod -R 755 /var/www/nextcloud/
 
 {% include image.html url='https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg' alt='Nextcloud first setup page' title='Nextcloud first setup page' description='Nextcloud first setup page' %}
 
-<br />
-
 **Don’t** insert any data in the dialogue page above until connection is encrypted with `https://`. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
 {: .warning}
 
 <br />
 
-## Let's Encrypt SSL Certificate
+### Final adjustments
 
-install [certbot](https://certbot.eff.org/)
-``` 
-apt install certbot python3-certbot-apache
-```
-
-get SSL certification for the domain
-```
-certbot --apache -m tommiboom@protonmail.com -d cloud.tommiboom.tk
-```
-
-**NOTE**: it only lasts 90 days
+Final adjustments are to be performed from the Nextcloud GUI. The [Nextcloud apps](https://apps.nextcloud.com/) I installed are listed [here](/apps#nextcloud)
 
 <br />
 
-### Final adjustments
+### fixes
 
-Final adjustments are to be performed from the Nextcloud GUI. The [Nextcloud apps](https://apps.nextcloud.com/) I installed are listed [here](/server#nextcloud-apps)
+- fix [this](https://github.com/nextcloud/server/issues/8546#issuecomment-514139714) encryption error
 
+<br />
 <br />
 
 ## Nextcloud cheatsheet
@@ -378,149 +424,62 @@ sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --off
 ```
 
 <br />
-
-### fixes
-
-- [fix encryption error](https://github.com/nextcloud/server/issues/8546#issuecomment-514139714)
-
-<br />
 <br />
 
 ## Install Jitsi Meet
 
-Here’s an (old) official [tutorial](https://youtu.be/8KR0AhDZF2A) still pretty solid, though.
+[installation guide](https://www.vultr.com/docs/install-jitsi-meet-on-ubuntu-20-04-lts)
 
-create an Apache configuration file
+allow firewall for ports 100000 to 200000
 ```
-vim /etc/apache2/sites-available/jitsi.conf
-```
-
-paste this inside:
-```apache
-<VirtualHost *:80>
-        ServerName call.tommiboom.tk
-        ServerAlias www.call.tommiboom.tk
-
-        ServerAdmin tommiboom@protonmail.com
-        DocumentRoot /var/www/jitsi
-
-        ErrorLog ${APACHE_LOG_DIR}/error.log
-        CustomLog ${APACHE_LOG_DIR}/access.log combined
-
-</VirtualHost>
-
-# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+sudo ufw allow in 10000:20000/udp
 ```
 
-point a subdomain to the IP address of the server. In this case, the name is `call.tommiboom.tk`, as seen above.
+Jitsi requires the Java Runtime Environment. Install OpenJDK JRE 8.
 
-at this point, get SSL certification for the domain
-```
-certbot --apache -m tommiboom@protonmail.com -d call.tommiboom.tk
-```
-
-enable configuration
-```
-a2ensite jitsi.conf
-a2enmod rewrite
-a2enmod headers
-a2enmod env
-a2enmod dir
-a2enmod mime
-```
- 
-restart apache
-```
-systemctl restart apache2.service
-```
-
-Add the Jitsi repository to the package manager and refresh the server’s package lists
-```
-echo 'deb https://download.jitsi.org stable/' >> /etc/apt/sources.list.d/jitsi-stable.list
-wget -qO -  https://download.jitsi.org/jitsi-key.gpg.key | sudo apt-key add -
-apt update
-```
-
-actually install Jitsi Meet
-```
-apt install jitsi-meet
-```
-
-
-
-
-
-
-
-## INSTALL DOCKER
-
-installing
-```
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
-```
-
-<br />
-
-allow Docker to run as a root from this user
-```
-sudo usermod -aG docker
-```
-
-<br />
-
-enable Docker to start on boot
-```
-$ sudo systemctl enable docker tommi
-```
-
-<br />
-<br />
-
-## INSTALLING DOCKER COMPOSE
+**NOTE**: as of right now, Jitsi Meet needs JRE 8, ***not a newer version***!
+{:.warning .red}
 
 ```
-sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+sudo apt install -y openjdk-8-jre-headless
 ```
 
-<br />
-
-to enable bash completion, insert in `~/.zshrc`
+check if installation went the right way and if the right version is installed
 ```
-plugins=(... docker docker-compose
-)
+java -version
 ```
 
-<br />
-<br />
-
-## LazyDocker
-
-Install <a href="https://github.com/jesseduffield/lazydocker" rel="noopener" target="_blank">Lazydocker</a> to interact easily with Docker. Since it’s written in Go, installation of the language is needed.
-
-<br />
-
-download Go
+setup Java Runtime
 ```
-wget -c https://dl.google.com/go/go1.14.3.linux-amd64.tar.gz
+sudo echo "JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")" | sudo tee -a /etc/profile
+sudo source /etc/profile
 ```
 
-<br />
-
-extract archive
+download Jitsi Meet and add it to `apt` downloadable list
 ```
-sudo tar -C /usr/local -xvzf go1.14.3.linux-amd64.tar.gz
-```
-
-<br />
-
-install Go
-```
-export PATH=$PATH:/usr/local/go/bin
+wget -qO - https://download.jitsi.org/jitsi-key.gpg.key | sudo apt-key add -
+echo "deb https://download.jitsi.org stable/"  | sudo tee -a /etc/apt/sources.list.d/jitsi-stable.list
 ```
 
-<a href="https://github.com/jesseduffield/lazydocker#installation" rel="noopener" target="_blank">install and run Lazydocker</a>
+install Jitsi Meet
+```
+sudo apt install -y jitsi-meet
+```
 
-<br />
-<br />
+run and enable certbot
+```
+sudo sed -i 's/\.\/certbot-auto/certbot/g' /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
+sudo ln -s /usr/bin/certbot /usr/sbin/certbot
+sudo /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
+```
+
+If something around here doesn’t work, no worries: just repeat the command, it should get fixed by itself
+{:.warning}
+
+
+last tweaks should be done in here
+```
+sudo vim /etc/apache2/conf-enabled/security.conf
+```
+
+There are a few very nice things, such as hiding the “Jitsi” watermark from calls, which can be improved by editing Jitsi’s css file. Here’s [a customizations guide](https://technologyrss.com/how-to-customize-jitsi-meet-video-conference-server/).
