@@ -394,20 +394,23 @@ p, article li, article ul {
 	transition: var(--trans)
 }
 
-.jar-preview, .poetry-preview {
+.jar-preview {
+	padding: var(--regular) 0;
+}
+
+.poetry-preview {
 	text-align: center;
 }
 
 .jar-preview:hover {
 	background: var(--razzmatazz);
 	transition: var(--trans);
-	padding: var(--bigger) var(--lessthan-regular);
 	color: white
 }
 
 .jar-preview .line {
 	background: var(--razzmatazz);
-	margin: var(--tiny) auto;
+	margin: var(--tiny) 0;
 	width: 5%
 }
 

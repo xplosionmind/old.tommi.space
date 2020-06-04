@@ -1,4 +1,15 @@
+## WIP
+
+Work in progress pages, excluded the ones already in the [drafts folder](/_drafts)
+
+- [Radioimmaginaria comprehensive list](/pages/radioimmaginaria-database.md) of episodes I’m in
+- [Database of my brain](/_jar/2020-06-04-brain-database.md), list of all the stuff I know and need to know
+- [deGoogle](/_jar/2020-06-03-deGoogle.md) Jar item
+- [Making this website](/_posts/2020-04-18-Making-this-website.md) article
+
 ## FEATURES CHECKLIST
+
+A walkthrough of the website creation is [here](https://tommiboom.tk/themakingof)
 
 - [x] Privacy Policy
 - [ ] Newsletter
