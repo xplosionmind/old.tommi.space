@@ -59,6 +59,7 @@ collections:
     toc: "true"
   filinge:
     output: true
+    layout: "jar"
 
 kramdown:
   syntax_highlighter_opts:
@@ -79,6 +80,7 @@ defaults:
     values:
       layout: "wrapper"
       ref: ":title"
+      permalink: "/:title"
     
   -
     scope:
@@ -124,6 +126,13 @@ defaults:
       lang: "en"
       redirect_from: "/:title"
       toc: "true"
+
+  -
+    scope:
+      path: ""
+      type: "jar"
+    values:
+      layout: "jar"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -254,10 +254,6 @@ strong, b {
 	outline: var(--tiny) solid var(--secondary);
 }
 
-#jar {
-	background: var(--secondary);
-}
-
 .highlight {
 	margin: 0 0 3.6rem;
 }

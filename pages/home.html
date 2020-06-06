@@ -71,7 +71,7 @@ ref: home
 	{% endif %}
 {% endfor %}
 
-<a href="/jar"><h2 class="section-title" id="jar">The Jar</h2></a>
+<a href="/jar"><h2 class="section-title" style="color: white; background-color: var(--razzamatazz)">The Jar</h2></a>
 
 <div class="row">
 	<div class="one column">
@@ -82,7 +82,7 @@ ref: home
 		</div>
 		<ul style="margin: var(--bigger) 20%">
 			{% for note in site.jar %}
-				<li><a href="{{ note.url }}" style="color: var(--secondary)">{{ note.title }}</a></li>
+				<li><a href="{{ note.url }}" style="color: white; background-color: var(--razzmatazz); padding: 0 var(--small)">{{ note.title }}</a></li>
 			{% endfor %}
 		</ul>
 	</div>
