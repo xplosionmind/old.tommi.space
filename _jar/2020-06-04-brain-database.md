@@ -1,10 +1,15 @@
 ---
 title: "A database of my brain (a.k.a. my knowledge)"
 permalink: /brain-database
+lang: en
+code: 0
 ---
 Maybe I’m just loosing my time, but I believe it would be a great thing if I could list out in this page **all of the things I know** and the ones I need or want to learn sooner or later.
 
 For each topic I added all of the links and resources I learned from. Some of them have been fundamental and life-changing, some are just 
+
+Listing all this stuff is a quite long and boring thing to do, I started, but I realized I don’t have time to complete it. I’m just gonna leave it here, even if it’s unfinished
+{:.red .warning}
 
 <br />
 <br />

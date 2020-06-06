@@ -27,15 +27,37 @@ url: "https://xplosionmind.tk" # the base hostname & protocol for your site, e.g
 twitter_username: xplosionmind
 github_username: xplosionmind
 git_repository: xplosionmind
+future: true
+profile: true
+livereload: true
+strict_front_matter: true
 
 collections:
+  posts:
+    layout: "post"
+    lang: "it"
+    permalink: "/:title"
+    excerpt_separator: "<!--more-->"
+    redirect_from:
+      - "/:date/:title"
+      - "/:categories/:title"
+      - "/:categories/:date/:title"
   categories:
     output: true
   poetry:
     output: true
+    layout: "poetry"
+    lang: "it"
   stuff:
     output: true
   jar:
+    output: true
+    layout: "jar"
+    permalink: "/:title"
+    lang: "en"
+    redirect_from: "/:title"
+    toc: "true"
+  filinge:
     output: true
 
 kramdown:
