@@ -728,6 +728,9 @@ nav ul li ul li a {
 		line-height: var(--bigger) !important;
 		padding: var(--small) !important
 	}
+	.jar-preview .line {
+		margin: var(--tiny) auto;
+	}
 }
 
 #nav-toggle {
