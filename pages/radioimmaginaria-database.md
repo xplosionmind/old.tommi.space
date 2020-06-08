@@ -1,8 +1,8 @@
 ---
-ref: radioimmaginaria-database
+ref: rimm-db
 lang: it
 title: "Tutte le mie puntate su Radioimmaginaria"
-permalink: /radioimmaginaria-database
+permalink: /rimm-db
 description: "Un database incompleto (mancano gli ultimi anni e alcune puntate in mezzo) di tutte le puntate di Radioimmaginaria a cui ho partecipato.<br />I post di Facebook nei link non sono pubblici: Radioimmaginaria non usa più i social.<br />Gli hashtag nei titoli delle puntate indicano la redazione o, in caso di eventi, il nome del programma.<br /><mark>#you2</mark> sono le puntate in inglese, <mark>#toiaussi</mark> quelle in francese, <mark>#tete</mark> quelle in spagnolo."
 layout: page
 ---
@@ -34,6 +34,15 @@ layout: page
 
 - 2014.11.20 <a href="https://spreaker.com/user/ariaimmaginaria/rili-forza-liguria_1" rel="noopener noreferrer" target="_blank">Forza Liguria</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/posts/809586699099871" rel="noopener noreferrer" target="_blank">facebook post</a>
+
+<br />
+
+## Festival di Sanremo 2014
+
+- 
+
+<br />
+
 - 2015.02.06 - <a href="https://spreaker.com/user/ariaimmaginaria/omernas-sanremo-festival-orchestra" rel="noopener noreferrer" target="_blank">#omernas Sanremo Festival Orchestra</a>, Intervista ai maestri dell’Orchestra Sinfonica di Sanremo
 	- <a href="https://www.facebook.com/radioimmaginaria/posts/853498594708681" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2015.02.26 <a href="https://spreaker.com/user/ariaimmaginaria/rili-autostop-antartide" rel="noopener noreferrer" target="_blank">#rili AUTOSTOP: Antartide</a>
@@ -78,9 +87,25 @@ layout: page
 
 <br />
 
+## Radiocampo 2016
+
+- 
+
+
+<br />
+
 - <a href="spreaker.com/user/ariaimmaginaria/andrea-dalessio" rel="noopener noreferrer" target="_blank">Andrea D’Alessio</a>
 - 2016.09.07 <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/smo-pubblicita-spaziali">Pubblicità Spaziali</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1213900758668461/" rel="noopener noreferrer" target="_blank">facebook post</a>
+
+<br />
+
+## Teen Parade 2016
+
+- 
+
+<br />
+
 - 2016.09.19 <a href="spreaker.com/user/ariaimmaginaria/smo-the100-motivi-per-essere-felici" rel="noopener noreferrer" target="_blank">The100 motivi per essere felici</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1225333127525224/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - <a href="spreaker.com/user/ariaimmaginaria/vintage-tatoos" rel="noopener noreferrer" target="_blank">Vintage Tattoos</a>
@@ -134,6 +159,15 @@ layout: page
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1363581093700426/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2017.02.06 <a href="spreaker.com/user/ariaimmaginaria/smo-casualmente-a-sanremo-per-caso" rel="noopener noreferrer" target="_blank">#smo Casualmente a Sanremo per caso</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1365404043518131/" rel="noopener noreferrer" target="_blank">facebook post</a>
+
+<br />
+
+## Festival di Sanremo 2017
+
+- 
+
+<br />
+
 - <a href="spreaker.com/user/ariaimmaginaria/scatolone-trasloco-a-sanremo" rel="noopener noreferrer" target="_blank">#smo Scatolone trasloco a sanremo</a>
 - 2017.02.18 <a href="spreaker.com/user/ariaimmaginaria/riva-trucchiamo-sanremo" rel="noopener noreferrer" target="_blank">#riva trucchiamo Sanremo</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1376893302369205/" rel="noopener noreferrer" target="_blank">facebook post</a>
@@ -162,3 +196,30 @@ layout: page
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1529476900444177/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - <a href="spreaker.com/user/ariaimmaginaria/usteens-blind-date_1" rel="noopener noreferrer" target="_blank">#UsTeens Blind Date</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1530589970332870/" rel="noopener noreferrer" target="_blank">facebook post</a>
+
+<br />
+
+## Radiocampo 2017
+
+-
+
+<br />
+
+## Teen Parade 2017
+
+-
+
+<br />
+
+## Festival di Sanremo 2018
+
+-
+
+<br />
+
+## CATCH-EyoU
+
+Il mio ultimo evento e la mia ultima puntata da speaker di Radioimmaginaria
+
+- [best of](https://www.spreaker.com/user/ariaimmaginaria/bruxelles-unione-europea)
+- [puntata completa](https://www.spreaker.com/user/ariaimmaginaria/catcheyou-from-brussels)

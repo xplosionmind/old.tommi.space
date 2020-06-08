@@ -6,6 +6,13 @@ Work in progress pages, excluded the ones already in the [drafts folder](/_draft
 - [Database of my brain](/_jar/2020-06-04-brain-database.md), list of all the stuff I know and need to know
 - [deGoogle](/_jar/2020-06-03-deGoogle.md) Jar item
 - [Making this website](/_posts/2020-04-18-Making-this-website.md) article
+- in [/pages/stuff-extended-it]
+	- LISTA VIDEO GIFFONI FACTORY
+	- DATE OSPITI GIFFONI CINEFORUM
+	- INCONTRI MASTERCLASS
+	- FILM IN CONCORSO GIFFONI
+	- LINK MATERIALE EVERYONE
+	- CAMOGLI FESTIVAL COM
 
 ## FEATURES CHECKLIST
 
@@ -70,6 +77,7 @@ A walkthrough of the website creation is [here](https://tommiboom.tk/themakingof
 	- [ ] better indication of external resources' creators
 - [ ] blogroll (a list of blogs which inspire me) inspired from [Pawlean](https://pawlean.com/blogroll)
 - [x] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Thanks to [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which saved me hours and hours of typing.
+- [ ] add a “première” section to [everyone](/everyone) page
 
 ### CREATIVE IDEAS
 
