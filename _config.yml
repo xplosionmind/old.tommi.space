@@ -59,7 +59,6 @@ collections:
     toc: "true"
   filinge:
     output: true
-    layout: "jar"
 
 kramdown:
   syntax_highlighter_opts:
@@ -130,9 +129,10 @@ defaults:
   -
     scope:
       path: ""
-      type: "jar"
+      type: "filinge"
     values:
-      layout: "jar"
+      layout: "post"
+      lang: "it"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
