@@ -26,7 +26,7 @@ Se ogni tanto non organizzo qualche piccola seratina di buona musica nel ponente
 
 ## Radioimmaginaria
 
-Con e grazie a <a href="/tutto#radioimmaginaria" target="_blank">Radioimmaginaria</a> ho fatto la maggior parte degli eventi più belli e indimenticabili della mia vita.
+Con e grazie a <a href="/tutto#radioimmaginaria" target="_blank">Radioimmaginaria</a> ho fatto la maggior parte degli eventi più belli e indimenticabili della mia vita. Nel 2016 e 2017 sono stato eletto Capo COdA, capo del Consiglio delle Antenne.
 
 - dal 21 al 24 febbraio 2014, **Festival di Sanremo 2014**
 	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157710372663917" rel="noopener" target="_blank">foto</a>
@@ -127,7 +127,7 @@ Per i profani: il San Giorgio è l’evento di due o tre giorni in cui si riunis
 
 - <a href="https://www.flickr.com/photos/tommiboom/albums/72157710372793511" rel="noopener noreferrer" target="_blank">San Giorgio 2015</a>, Taggia
 - 6 giugno 2015, [Autofinanziamento a tema pirati](https://www.flickr.com/photos/tommiboom/albums/72157710384848046), Campo Scout
-- il 13 giugno 2015, tutti gli scout AGESCI in Italia si sono riuniti in piazza San Pietro a Roma per un [incontro con il Papa](https://emiro.agesci.it/tag/agescidalpapa/). Io sono stato estratto come rappresentante della regione Liguria per incontrarlo di persona
+- il 13 giugno 2015, tutti gli scout AGESCI in Italia si sono riuniti in piazza San Pietro a Roma per un [incontro con il Papa](https://emiro.agesci.it/tag/agescidalpapa/). Io sono stato estratto come rappresentante della Regione Liguria per incontrarlo di persona
 	- [foto](https://www.flickr.com/photos/tommiboom/albums/72157710132331486)
 - dal 16 al 23 luglio 2015, [campo estivo](https://www.flickr.com/photos/tommiboom/albums/72157710386835056), Mendatica
 - 8 e 9 novembre 2015, [passaggi](https://www.flickr.com/photos/tommiboom/sets/72157710718504578/), Carpasio e Cipressa
@@ -186,9 +186,24 @@ Tutto è partito da un progetto di classe per alternanza scuola-lavoro nel 2016,
 
 Sono volontario di [Libera](/tutto#libera) da un po’, ormai. Seguono tutte le belle manifestazioni che abbiamo organizzato a Sanremo.
 
+- il 16 gennaio 2019, [**Liberamente musica**](https://www.flickr.com/photos/tommiboom/albums/72157678302545468), presso la sede del Club Tenco di Sanremo
 - il 9 febbraio 2019, abbiamo inaugurato il [**Presidio**](https://www.libera.it/schede-13-libera_sul_territorio_cerca_un_presidio) Libera intitolato a [**Rosario Livatino**](https://it.wikipedia.org/wiki/Rosario_Livatino) presso il [Liceo Cassini di Sanremo](https://www.liceogdcassini.edu.it/)
 - 21 marzo 2029, [giornata della memoria e dell’impegno](https://www.flickr.com/photos/tommiboom/albums/72157691100306223) in onore delle vittime innocenti di mafia, Sanremo
 - il 23 maggio 2020 in [questa diretta](https://it-it.facebook.com/551177158313780/videos/1280858522118804/) ho parlato di beni confiscati alle mafie e del podcast creato con il coordinamento di Libera Imperia, [Libera in Pillole].
+
+<br />
+<br />
+
+
+## La Nuova Corrente
+
+Dal 2016 al 2019 ho lavorato nell’[Ufficio Stampa](https://www.lanuovacorrente.com/) del mio Liceo, il [Liceo G.D. Cassini](https://www.liceogdcassini.edu.it/) di Sanremo. Dal 4 ottobre 2017, per tutto il successivo anno scolastico, ne sono stato direttore, infatti ne abbiamo combinate di tutti i colori.
+
+Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuova Corrente](https://www.youtube.com/channel/UCEvYS5AWyxWIQrRpyC27MHg/).
+
+- Nel 2017 siamo stati fra i vincitori del premio dell’Ordine dei Giornalisti [*Fare il Giornale nelle Scuole*](https://www.odg.it/il-giornale-nelle-scuole) e abbiamo partecipato, l’11 e il 12 aprile, alla [cerimonia di premiazione](https://youtu.be/bCrHQz4rCQs), partecipando successivamente a una delle conferenze che più mi hanno segnato in tutta la mia vita, con Paolo Borrometi e Federica Angeli.
+- Nel 2018 abbiamo ricevuto nuovamente il premio, tornando a Cesena per la premiazione per il secondo anno di seguito.
+- Dal 6 al 10 febbraio 2018, con una squadra di altri tre coraggiosi pseudo-giornalisti, ci siamo intrufolati nella sala stampa del Festival di Sanremo e ci siamo messi a riprendere un po’ tutto quello che ci sta dentro. Incredibilmente, una delle nostre interviste ha raggiunto le [44 mila visualizzazioni](https://www.youtube.com/watch?v=NjzHlPC_r-4), non chiedetemi come. Altri video e interviste dal Festival possono essere trovati sul medesimo canale.
 
 <br />
 <br />
@@ -212,3 +227,36 @@ Sono volontario di [Libera](/tutto#libera) da un po’, ormai. Seguono tutte le 
 - il 30 agosto 2019 in piazza Matteotti a Riva Ligure si è tenuta la **première** del mio primo cortometraggio, [***Everyone***](/it/everyone)
 	- [foto della serata](https://www.flickr.com/photos/tommiboom/albums/72157710771139417)
 	- [materiale]()
+- il maggio 2018 ho vinto la finale della categoria *Advanced* del [**Mouse Trap Grand Prix**](https://www.mousetraprace.com/), costruendo la macchinina in grado di percorrere cinque metri e tornare al punto di partenza nel minor tempo possibile, con la sola propulsione di una trappola per topi
+	- [video intervista](https://youtu.be/EgQQ6rDfxr0)
+	- [foto](https://www.flickr.com/photos/tommiboom/albums/72157714643331677)
+- Sono stato *Helper* ai campi [**ACLE**](https://www.acle.org/) ad Arma di Taggia nelle estati 2016 e 2017
+- Sono volontario di [**Imperia Musicale**](https://www.imperiamusicale.it/), collaborando alla realizzazione degli eventi estivi e invernali organizzati dall’associazione
+	- l’8 agosto 2017, [Imperia Unplugged Festival 2017](https://www.imperiamusicale.it/imperia-unplugged-festival-2017-3-edizione/), con Ermal Meta, Edoardo Chiesa e Emanuele Dabbono
+	- 23 dicembre 2017, [Briciole di Rock](https://www.imperiamusicale.it/eventi/)
+	- l’8 agosto 2018, [Imperia Unplugged Festival 2018](https://www.imperiamusicale.it/imperia-unplugged-festival-2018/)
+- il 7 novembre 2017 sono stato eletto Rappresentante d’Istituto del mio liceo, il [Liceo G.D. Cassini di Sanremo](https://www.liceogdcassini.edu.it/)
+- dal 2014 al 2018 ho partecipato agli allenamenti (anche alle gare, ma con risultati affatto lusinghieri) delle Olimpiadi di Matematica e della [Coppa Gauss a Squadre](http://gauss.dima.unige.it/).
+- Sono un appassionatissimo ma non altrettanto perito giocatore di Dungeons & Dragons. La mia prima ed unica campagna fin ora è iniziata nell’ottobre 2015 ed è tuttora in corso. Il nostro Game Master si sta ispirando principalmente all’avventura di [Rise of the Runelords](https://pathfinderwiki.com/wiki/Rise_of_the_Runelords).
+- Dal 2015 al 2018 sono stato aiuto-catechista nel corso dei cresimandi della parrocchia di Santo Stefano al Mare
+
+<br />
+<br />
+
+## Spettatore
+
+Tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante.
+
+<br />
+
+### Concerti
+
+- Il mio primo concerto: **Green Day**, Volbeat e Black Rebel Motorcycle Club nell’arena di Nimes, il 10 luglio 2013
+
+<br />
+
+### Opera
+
+<br />
+
+### Teatro

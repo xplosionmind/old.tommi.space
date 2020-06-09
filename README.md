@@ -13,6 +13,11 @@ Work in progress pages, excluded the ones already in the [drafts folder](/_draft
 	- FILM IN CONCORSO GIFFONI
 	- LINK MATERIALE EVERYONE
 	- CAMOGLI FESTIVAL COM
+	- SPETTATORE
+		- opera
+		- teatro
+		- concerti
+		- conferenze
 
 ## FEATURES CHECKLIST
 
