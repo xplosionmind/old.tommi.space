@@ -21,7 +21,6 @@
 	--twice: 2.2rem;
 	--height: 3.1rem;
 	--mastodon: 4.4rem;
-	--2height: 6.2rem;
 	--margin: 6.5rem;
 	--trans: .5s;
 	--quicktrans: .1s;
@@ -260,7 +259,7 @@ strong, b {
 
 pre, code {
 	font: 400 1.1em "Ubuntu Mono", "Roboto Mono", "Fira Code", mono;
-	line-height: 1.2em
+	line-height: 1.2em;
 	transition: var(--trans)
 }
 

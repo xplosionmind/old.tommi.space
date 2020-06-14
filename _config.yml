@@ -72,6 +72,9 @@ plugins:
   - jekyll-target-blank
   - jekyll-redirect-from
 
+sass:
+    style: compressed
+
 defaults:
   -
     scope:

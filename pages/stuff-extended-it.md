@@ -172,7 +172,11 @@ I miei contenuti per la [Giffoni Factory](https://www.instagram.com/giffoni_fact
 
 Tutto è partito da un progetto di classe per alternanza scuola-lavoro nel 2016, ma poi è diventato un amore vero per la musica d’autore e per tutti i fuori di testa del [Club Tenco](tutto#club-tenco) di Sanremo
 
-- il 27 maggio 2017, con la mia classe abbiamo ideato [***Confusion in an old station***](https://www.flickr.com/photos/tommiboom/sets/72157710727851918/), durante cui abbiamo proiettato un nostro videoclip di [*Un Matto*](https://vimeo.com/tommiboom/unmatto), di Fabrizio De Andrè. I [dietro le quinte di [Un Matto](https://www.flickr.com/photos/tommiboom/sets/72157710733237203/)
+- il 27 maggio 2017, con la mia classe abbiamo ideato [***Confusion in an old station***](https://www.flickr.com/photos/tommiboom/sets/72157710727851918/), durante cui abbiamo proiettato un nostro videoclip di [*Un Matto*](https://vimeo.com/tommiboom/unmatto), di Fabrizio De Andrè.
+	- I [dietro le quinte](https://www.flickr.com/photos/tommiboom/sets/72157710733237203/) di Un Matto
+	- stampa
+		- [Riviera 24](https://web.archive.org/web/20200613083824/http://www.riviera24.it/evento/confusion-in-an-old-station-in-mostra-le-opere-degli-studenti-del-liceo-cassini-di-sanremo/)
+		- [Sanremonews](https://web.archive.org/web/20170629180829/http://www.sanremonews.it/2017/05/26/leggi-notizia/argomenti/eventi-1/articolo/sanremo-nella-sede-del-club-tenco-la-mostra-confusion-in-an-old-station-degli-studenti-del-li.html)
 - dal 18 al 20 ottobre 2018, il [**Premio Tenco 2018**](https://www.allmusicitalia.it/news/premio-tenco-2018-programma.html)
 	- [foto](https://www.flickr.com/photos/tommiboom/sets/72157704933552534/)
 - il 10 maggio 2019, [**Viva Vecchioni**](https://www.flickr.com/photos/tommiboom/sets/72157678232317077/), con Roberto Vecchioni, Concita De Gregorio e Morgan al Teatro del Casino di Sanremo.
