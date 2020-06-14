@@ -13,6 +13,8 @@ Work in progress pages, excluded the ones already in the [drafts folder](/_draft
 	- FILM IN CONCORSO GIFFONI
 	- LINK MATERIALE EVERYONE
 	- CAMOGLI FESTIVAL COM
+	- ROCKIN1000 LINATE
+	- DEEJAY TEN
 	- SPETTATORE
 		- opera
 		- teatro
@@ -23,66 +25,65 @@ Work in progress pages, excluded the ones already in the [drafts folder](/_draft
 
 A walkthrough of the website creation is [here](https://tommiboom.tk/themakingof)
 
-- [x] Privacy Policy
-- [ ] Newsletter
-	- [x] subscribe button
-	- [ ] back-end implementation
-	- [ ] Mailtrain setup
-- [x] RSS Feed
-- [ ] Generative Art
-	- [ ] always-changing colors
-	- [ ] Explaination page
-- [x] light/dark mode switch button (I'm deep and dark / I'm bright and shiny)
-- [x] Share button in blog (custom version inspired by 
-- [ ] Analytics (temporarily set up with Matomo)
-- [x] Poetry
-	- [x] section
-	- [ ] custom styling
-	- [ ] custom feed
-- [x] Animations (little and simple but effective)
-	- [x] buttons: `x`s and menus (see tokyo-voice.jp or traxmag.com)
-- [x] Mobile optimization
-- [x] Hover effects
-	- [x] basic
-- [ ] [Custom font](https://xplosionmind.tk/Typography#Custom-font) implementation
-- [x] basic colored biiig shapes
-- [x] gif instead of images 
-- [ ] custom selection color for text
-- visioni
-    - [ ] unsorted photos randomly moving
-    - [ ] horizontal instead of vertical scrolling of the gallery
-- [x] animated favicon (see ipleak.net) (chose not to use it)
-- [x] customize 404 page
-- [x] Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
-- [ ] global search button
-- [x] SVG buttons
-- [x] `letter-spacing` and `word spacing` (it's nice as it is)
-- [x] input fields styling
-- [x] cursor styling
-- [x] language switch
-- [x] change mobile browser bar color
-- [ ] share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
-- [x] list of belonging categories at the top of the post page
-- [ ] `id` anchor links
-- [ ] final header configuration
-- [x] Serif font styling in posts
-- [ ] page image preview when sending link see the [Open Graph Protocol](https://ogp.me/)
-- [x] categories description and link to stuff
-- [ ] back to top button
-- [ ] `head` include
-- [x] separate website/repo/domain for web and online resources or for geek stuff in general (configured as _[The Jar](xplosionmind.tk/jar)_)
-- [x] inline code styiling
 - [ ] access post category color (and how conflicts are managed if the post has more than one category) in posts list
-- [ ] `stuff extended`
+- [ ] add a “première” section to [everyone](/everyone) page
+- [ ] Analytics (temporarily set up with goatcounter)
+- [ ] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Thanks to [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which saved me hours and hours of typing. **NOT WORKING**!
+- [ ] back to top button
+- [ ] blogroll (a list of blogs which inspire me) inspired from [Pawlean](https://pawlean.com/blogroll)
+- [ ] change mobile browser bar color
 - [ ] checkbox styling
-- [ ] downloadable portfolio pdf
-- [ ] [table of contents](https://github.com/allejo/jekyll-toc)
 - [ ] Copyright specifications
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
-- [ ] blogroll (a list of blogs which inspire me) inspired from [Pawlean](https://pawlean.com/blogroll)
-- [x] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Thanks to [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which saved me hours and hours of typing.
-- [ ] add a “première” section to [everyone](/everyone) page
+- [ ] [Custom font](https://xplosionmind.tk/Typography#Custom-font) implementation
+- [ ] custom selection color for text
+- [ ] downloadable portfolio pdf
+- [ ] final header configuration
+- [ ] Generative Art
+	- [ ] always-changing colors
+	- [ ] Explaination page
+- [ ] global search button
+- [ ] Newsletter
+	- [x] subscribe button
+	- [ ] back-end implementation
+	- [ ] Mailtrain || listmonk setup
+- [ ] `head` include
+- [ ] page image preview when sending link see the [Open Graph Protocol](https://ogp.me/)
+- [x] Poetry
+	- [x] section
+	- [x] custom styling
+	- [ ] custom feed
+- [ ] share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
+- visioni
+    - [ ] unsorted photos randomly moving
+    - [ ] horizontal instead of vertical scrolling of the gallery
+
+- [x] Animations (little and simple but effective)
+	- [x] buttons: `x`s and menus (see tokyo-voice.jp or traxmag.com)
+- [x] basic colored biiig shapes
+- [x] customize 404 page
+- [x] Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
+- [x] categories description and link to stuff
+- [x] cursor styling
+- [x] gif instead of images 
+- [x] Hover effects
+- [x] `id` anchor links
+- [x] inline code styiling
+- [x] input fields styling
+- [x] language switch
+- [x] `letter-spacing` and `word spacing` (it's nice as it is)
+- [x] light/dark mode switch button (I'm deep and dark / I'm bright and shiny)
+- [x] list of belonging categories at the top of the post page
+- [x] Mobile optimization
+- [x] Privacy Policy
+- [x] RSS Feed
+- [x] separate website/repo/domain for web and online resources or for geek stuff in general (configured as _[The Jar](xplosionmind.tk/jar)_)
+- [x] Serif font styling in posts
+- [x] Share button in blog (custom version inspired by 
+- [x] `stuff extended`
+- [x] SVG buttons
+- [x] [table of contents](https://github.com/allejo/jekyll-toc)
 
 ### CREATIVE IDEAS
 
@@ -91,6 +92,6 @@ A walkthrough of the website creation is [here](https://tommiboom.tk/themakingof
 
 ### EXTRA ESPERIMENTS
 
-- DESKTOP: floating "categories" column on the right
+- DESKTOP: floating “categories” column on the right
 
 #### [HOSTING](https://forum.privacytools.io/t/privacy-friendly-source-code-hosting-recommendations/3316)
