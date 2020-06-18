@@ -54,6 +54,9 @@ A walkthrough of the website creation is [here](https://tommiboom.tk/themakingof
 	- [x] section
 	- [x] custom styling
 	- [ ] custom feed
+- [ ] Post header
+	- [ ] Post categories list
+	- [ ] Post date
 - [ ] share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
 - visioni
     - [ ] unsorted photos randomly moving
