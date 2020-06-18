@@ -369,19 +369,26 @@ img {
 	display: block;
 }
 
+figure {
+	margin-bottom: var(--morethan-regular)
+}
+
 figcaption {
-	font: italic 400 var(--regular) "Latin Modern Roman", Times, "Times New Roman", serif;
+	font: italic var(--regular) Merriweather, serif;
 	text-align: center;
 	line-height: var(--lessthan-regular);
-	margin-top: var(--small);
-	padding: 0.7rem;
-	outline: var(--tiny) dashed var(--grey);
+	margin-top: var(--small)
 }
 
 .first {
-	margin-top: 3.6rem; /* --height + margin (--small) */
+	margin-top: 3.6rem /* --height + margin (--small) */
 }
 
+.right {
+	text-align: right;
+	margin-left: auto;
+	margin-right: 0;
+}
 
 article {
 	padding: var(--twice) 10% 6rem;

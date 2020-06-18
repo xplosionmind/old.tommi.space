@@ -1,5 +1,6 @@
 ---
 categories: radioimmaginaria
 ---
-{% include image.html url='/images/2017-01-19-Come-cambiare-il-mondo.jpg' alt='io in piedi su un molo con il mio skateboard in mano' description='' %}
+![io in piedi su un molo con il mio skateboard in mano](/images/2017-01-19-Come-cambiare-il-mondo.jpg)
+
 Ci sono tipo 7 miliardi di persone nel mondo. Io, sedicenne strampalato di Riva Ligure, dopo un’era di ricerche su Internet sono anche riuscito a scoprire che sono un miliardo ed ottocento milioni i ragazzi fra i 10 ed i 24 anni che lo abitano. Però mi stavo chiedendo: come mai io a scuola ho studiato solo le imprese eroiche, le citazioni celebri, le battaglie cruente di al massimo 10 persone che posso ricordare a memoria? [Continua a leggere](http://www.radioimmaginaria.it/2017/01/19/come-cambiare-il-mondo/)
