@@ -279,6 +279,14 @@ code {
 	background: var(--background2);
 }
 
+blockquote {
+	font: italic 0.9em Merriweather, serif;
+  	margin:1em 0;
+	border-left: var(--tiny) dashed var(--secondary);
+	padding-left: var(--lessthan-regular);
+}
+
+
 /* WHEN ELEMENT CENTERING IS NEEDED */
 a.container {
 	top: 0;
