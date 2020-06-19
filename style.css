@@ -6,7 +6,7 @@
 	--yellow: #FCC920;
 	--blue: #3185FC;
 	--red: #D00;
-	--green: limegreen;
+	--green: #20CE88;
 	--razzmatazz: #EC0868;
 
 	--tiny: 0.2rem;
@@ -15,6 +15,7 @@
 	--smallem: 0.5em;
 	--lessthan-regular: 0.9rem;
 	--regular: 1.1rem;
+	--regularem: 1.1em;
 	--morethan-regular: 1.3rem;
 	--big: 1.6rem;
 	--bigger: 1.8rem;
@@ -243,10 +244,13 @@ code {
 	background: var(--background2)
 }
 blockquote {
-	font: italic 0.9em Merriweather, serif;
-  	margin:1em 0;
+  	margin: var(--morethan-regular) 0 var(--morethan-regular) var(--height);
 	border-left: var(--tiny) dashed var(--secondary);
-	padding-left: var(--lessthan-regular)
+	padding-left: var(--lessthan-regular);
+}
+blockquote p {
+	font-style: italic !important;
+	color: var(--other-grey) !important
 }
 
 /* WHEN ELEMENT CENTERING IS NEEDED */
@@ -324,7 +328,7 @@ img {
 	object-fit: cover;
 	display: block;
 }
-figure {
+figure, .post>img {
 	margin: 0;
 	margin-bottom: var(--mastodon)
 }

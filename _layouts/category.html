@@ -1,6 +1,6 @@
 ---
 layout: wrapper
-permalink: "/category/:title/"
+permalink: "/category/:title"
 ---
 <div class="page-header">
 	<h1 style="color: {{ page.color }}; background-color: {{ page.background-color }};">{{ page.title }}</h1>
@@ -25,7 +25,7 @@ permalink: "/category/:title/"
 						{{ post.date | date: "%d %B %Y" }}
 					</div>
 				</div>
-				<div class="line"></div>
+				<div class="line" style="background: {{ page.background-color }}"></div>
 			</div>
 		</a>
 	{% endif %}

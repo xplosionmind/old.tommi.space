@@ -39,7 +39,7 @@ Per secondo consiglio <a href="https://www.wired.com/story/wired-guide-to-intern
 
 Per concludere, cito un passo di uno dei miei libri preferiti, che VA LETTO assolutamente se si vuole almeno provare a diventare persone serie: _Come diventare Vivi - Vademecum per lettori selvaggi_ di Giuseppe Montesano che, oltre ad essere scrittore, è un prof. di filosofia ed io ho avuto il piacere di conoscerlo al Salone del Libro di Torino lo scorso maggio. Approfitto di questa parentesi per salutarlo e ringraziarlo per essere stato l’unico ad avermi convinto a terminare _Delitto e Castigo_ di Dostoevskij, che all’inizio mi ha fatto impazzire e lo avrei subito abbandonato, altrimenti.
 
-<figure><img src="/images/2018-09-23-Che-palle-instagram-3.jpg" alt="la scansione di due pagine di *Come diventare Vivi - Vademecum per lettori selvaggi* di Giuseppe Montesano" /><figcaption>la scansione di due pagine di *Come diventare Vivi - Vademecum per lettori selvaggi* di Giuseppe Montesano</figcaption></figure>
+<figure><img src="/images/2018-09-23-Che-palle-instagram-3.jpg" alt="la scansione di due pagine di *Come diventare Vivi - Vademecum per lettori selvaggi* di Giuseppe Montesano" /><figcaption>Due pagine di <i>Come diventare Vivi - Vademecum per lettori selvaggi</i> di Giuseppe Montesano</figcaption></figure>
 
 
 

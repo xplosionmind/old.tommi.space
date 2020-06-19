@@ -28,7 +28,14 @@
 	<link rel="stylesheet" type="text/css" href="/highlight.css" />
 	{% endif %}
 
-	
+	{% if page.style == 'true' %}
+		<style>
+			body {
+				--primary: {{ page.primary }} !important
+			}
+		</style>
+	{% endif %}
+
 	<title>{{ page.title }} | XPLOSIONMIND</title>
 </head>
 <body>

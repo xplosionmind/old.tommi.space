@@ -1,0 +1,35 @@
+---
+title: "Filosofia"
+permalink: /filosofia
+lang: it
+ref: filosofia
+primary: "var(--green)"
+style: "true"
+---
+<div class="page-header row">
+	<div class="one column">
+		<h1>Filosofia</h1>
+		<div class="page-description" style="margin-bottom: var(--margin);">
+			<p>Nei primi mesi del 2020, ho seguito il corso di <a href="http://filinge.blogspot.com" rel="noopener noreferrer" target="_blank">Filosofia dell’ingegneria</a> al Politecnico di Torino. A ogni studente è stato richiesto di scrivere un blog <a href="https://filinge.blogspot.com/search/label/ABC" rel="noopener noreferrer" target="_blank">su un tema diverso per ciascuno</a>, il mio era <em><strong>valore</strong></em>. Tutti i post precedenti al 20 giugno 2020 riguardano il corso, i seguenti sono elucubrazioni libere in campo filosofico.</p>
+		</div>
+	</div>
+</div>
+
+{% assign filinge = site.filinge | reverse %}
+{% for post in filinge %}
+<a href="{{ post.url }}">
+	<div class="row">
+		<div class="one column preview">
+			<div class="four-fifths column">
+				<h2 class="post-title">{{ post.title }}</h2>
+			</div>
+			<div class="one-fifth column date">	
+				{{ post.date | date: "%d %B %Y" }}
+			</div>
+		</div>
+	</div>
+	<div class="line"></div>
+</a>
+{% endfor %}
+
+<br />

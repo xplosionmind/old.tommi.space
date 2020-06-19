@@ -34,9 +34,6 @@ strict_front_matter: true
 
 collections:
   posts:
-    layout: "post"
-    lang: "it"
-    permalink: "/:title"
     excerpt_separator: "<!--more-->"
     redirect_from:
       - "/:date/:title"
@@ -44,11 +41,8 @@ collections:
       - "/:categories/:date/:title"
   categories:
     output: true
-    layout: "category"
   poetry:
     output: true
-    layout: "poetry"
-    lang: "it"
   stuff:
     output: true
   jar:
@@ -137,6 +131,8 @@ defaults:
     values:
       layout: "post"
       lang: "it"
+      primary: "var(--green)"
+      style: "true"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

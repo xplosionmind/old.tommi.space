@@ -20,6 +20,7 @@ ref: blog
 			<div class="one-fourth column topics-indicator">SCROLL TOPICS</div>
 			<div class="three-fourths column categories">
 				<a href="/poetry" style="color: #301A4B;"><div class="category" style="background-color: #FDDDE6;">Pasticci</div></a>
+				<a href="/filosofia" style="color: black;"><div class="category" style="background-color: var(--green);">Philosophy</div></a>
 				{% for category in site.categories %}
 					<a href="{{ category.url }}" style="color: {{ category.color }};"><div class="category" style="background-color: {{ category.background-color }};">{{ category.title }}</div></a>
 				{% endfor %}
