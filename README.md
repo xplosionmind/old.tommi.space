@@ -28,7 +28,7 @@ A walkthrough of the website creation is [here](https://tommiboom.tk/themakingof
 - [ ] access post category color (and how conflicts are managed if the post has more than one category) in posts list
 - [ ] add a “première” section to [everyone](/everyone) page
 - [ ] Analytics (temporarily set up with goatcounter)
-- [ ] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Thanks to [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which saved me hours and hours of typing. **NOT WORKING**!
+- [ ] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Testing [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue]()
 - [ ] back to top button
 - [ ] blogroll (a list of blogs which inspire me) inspired from [Pawlean](https://pawlean.com/blogroll)
 - [ ] change mobile browser bar color
@@ -39,7 +39,6 @@ A walkthrough of the website creation is [here](https://tommiboom.tk/themakingof
 - [ ] [Custom font](https://xplosionmind.tk/Typography#Custom-font) implementation
 - [ ] custom selection color for text
 - [ ] downloadable portfolio pdf
-- [ ] final header configuration
 - [ ] Generative Art
 	- [ ] always-changing colors
 	- [ ] Explaination page
@@ -69,6 +68,7 @@ A walkthrough of the website creation is [here](https://tommiboom.tk/themakingof
 - [x] Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
 - [x] categories description and link to stuff
 - [x] cursor styling
+- [x] final header configuration
 - [x] gif instead of images 
 - [x] Hover effects
 - [x] `id` anchor links
