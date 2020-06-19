@@ -1,6 +1,6 @@
 ---
 ---
-{% include image.html url='/images/2019-06-16-Maturandi.jpg' description='Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità' alt='Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità' %}
+<figure><img src="/images/2019-06-16-Maturandi.jpg" alt="una classe al lavoro"<figcaption>Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità</figcaption></figure>
 Questo è proprio il momento chiave, QUEL momento.
 
 È la volta de _Gli Anni_ e di _Notte prima degli esami_.
@@ -48,6 +48,7 @@ Però dai, su, rimaniamo ancora un po’ quieti, siamo arrivati fin qui, è inut
 
 Poi, se vorremo cambiare qualcosa, avremo tempo, poi, con calma, più avanti…
 
-We are defined by our actions, not our words
+> We are defined by our actions, not our words
 
-<div style="text-align: right">~ Ben, Captain Fantastic</div>
+~ Ben, Captain Fantastic
+{:.right}

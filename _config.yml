@@ -82,7 +82,7 @@ defaults:
       path: ""
     values:
       layout: "wrapper"
-      ref: ":title"
+      ref: "/:title"
       permalink: "/:title"
     
   -

@@ -1,7 +1,7 @@
 ---
 categories: inchiostro-digitale
 ---
-{% include image.html url='https://live.staticflickr.com/790/41347581362_928eb47eb4_k.jpg' description='fleeting floating evening' alt='la luna sospesa sul picco di una montagna' %}
+<figure><img src="https://live.staticflickr.com/790/41347581362_928eb47eb4_k.jpg" alt="la luna sospesa sul picco di una montagna" /><figcaption>fleeting floating evening</figcaption></figure>
 Qui nel letto in camera mia si sta bene.
 
 Sono al caldo -anche se è già aprile e non fa troppo freddo-, e posso accoccolarmi nel morbido piumino.
@@ -26,4 +26,4 @@ Ufficio Stampa Liceo G.D. Cassini – Tommaso Marmo
 <br />
 <br />
 
-<a href="https://www.rivieratime.news/sogno-occhi-aperti/" rel="noopener" target="_blank">articolo originale</a>
+<a href="https://www.rivieratime.news/sogno-occhi-aperti/" rel="noopener" target="_blank">articolo originale</a> su *Inchiostro Digitale*

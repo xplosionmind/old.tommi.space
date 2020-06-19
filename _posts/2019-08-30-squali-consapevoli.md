@@ -1,6 +1,6 @@
 ---
 ---
-{% include image.html url='/images/2019-08-30-squali-consapevoli.jpg' description='la classica fuga in pigiama, romantica però (da un frame di “Everyone”)' alt='una fuga romantica in pigiama' %}
+<figure><img src="/images/2019-08-30-squali-consapevoli.jpg" alt="una fuga romantica in pigiama" /><figcaption>la classica fuga romantica, in pigiama però (da un frame di <i>Everyone</i>)</figcaption></figure>
 Qual è il prezzo che dobbiamo pagare
 
 
@@ -102,4 +102,4 @@ e non vuole più muoversi, né uscire.
 [Qui](/everyone.html) il sito ufficiale del corto.
 
 
-(Squalo Consapevole è anche sinonimo di Stambecco Cinetico, che è il mio <a href="https://it.wikipedia.org/wiki/Totem_(nome_scout)" rel="noopener" target="_blank">totem</a> (è davvero bello e ne sono orgoglioso))
+(Squalo Consapevole è anche sinonimo di Stambecco Cinetico, che è il mio <a href="https://it.wikipedia.org/wiki/Totem_(nome_scout)" rel="noopener noreferrer" target="_blank">totem</a> (è davvero bello e ne sono orgoglioso))

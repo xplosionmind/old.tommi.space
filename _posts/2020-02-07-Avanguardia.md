@@ -16,7 +16,7 @@ Quella nell'aula verde del Politecnico di Torino è l'avanguardia dell'umanità.
 
 Uno, nel frattempo, sempre quello scemo a cui batte il cuore, nota che la ragazza al suo fianco si è addormentata. Così. Ha chiuso il portatile, incrociato le braccia sul tavolo, e ci ha sprofondato la fronte in mezzo. Quello a sinistra di lei impreca. Non dice nulla ma uno che lo sta guardando può dirlo osservando i suoi occhi roteare con furia e le sue labbra stringersi, probabilmente per un esercizio che sta svolgendo da mezz'ora ma continua a risultare errato, con una piccolissima discrepanza nella radice. Dietro sta un cinese che se fosse in qualunque altro posto indosserebbe una mascherina e verrebbe guardato un po' male, ora. Nell'aula verde, però, sono tutti troppo impegnati a superare gli esami per pensare di poterlo guardare storto. Più in là una ragazza sta guardando un video su YoTube, beh, una pausa concediamogliela. Un tipo decisamente nerd, dall'altra parte del tavolo, con un accento napoletano scambia alcune parole un po' in francese, un po' in inglese con un negretto dal volto ingenuo che non si è mai tolto quel cappellino con cui è entrato questa mattina alle sette.
 
-{% include image.html url='/images/2020-02-07-Avanguardia.jpg' description='pensa te se uno deve farsi guardare male facendo una figura imbarazzante mettendosi a scattare una foto per il suo stupido blog in mezzo all’aula verde' alt='l’aula verde' %}
+<figure><img src="{{ page.img }}" alt="l’aula verde" /><figcaption>pensa te se uno deve farsi guardare male facendo una figura imbarazzante mettendosi a scattare una foto per il suo stupido blog in mezzo all’aula verde</figcaption></figure>
 
 Fisica II, Analisi II, Ingegneria Strutturale, Analisi I, Elettrotecnica, Fisiologia, Circuiti, Idrologia, Impianti Industriali, uno sbircia curioso con troppa indiscrezione e riesce a leggere alcuni dei libri furiosamente sfogliati dagli avanguardisti, che ogni tanto schiantano la propria schiena sullo schienale, sbuffando scoraggiati. Poi, ad un orario variabile, entrano gli arabi. Ah, gli arabi. Uno si aggorge che arrivano perché probabilmente non hanno mai imparato a parlare sottovoce. Cominciano ad andare a salutare le persone (gli arabi sono amici di tutti, ti salutano e stringono la mano anche se non li hai mai visti prima) fanno il giro dell'aula per guardare il codice di quelli che stanno programmando, valutano un po' l'atmosfera, poi se ne vanno. Non si sa dove. Forse nell'aula studio con i vetri (che forse ha un numero ma uno non lo sa, in gergo è così).
 
@@ -61,14 +61,15 @@ Fiuu, non c’è problema.
 
 C’è bisogno accada molto peggio perché due ingegneri sconosciuti si parlino.
 
+<br />
 
-### ALCUNE NOTE
+### Alcune note
 
 - Sono molto migliorato, con le parentesi! Che gioia, sono molte meno e più brevi! La seconda gioia più bella di oggi dopo l'asciuga mani.
-- Su Spotify ho aggiunto alcune playlist di genere: <a href="https://open.spotify.com/playlist/3qDRvzxctHpIJHkQkfh4iw?si=h55YC_wKQnWJkMy--7AqrA" rel="noopener" target="_blank">colonne sonore</a>, <a href="https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6?si=MvQdPWo0RZm6-fuojJ9qkA" rel="noopener" target="_blank">classica</a>, <a href="https://open.spotify.com/playlist/5RLKmuPGMLXNEYjsiX1jcQ?si=PLE_KOL9TIe3Y7cFhw8q0A" rel="noopener" target="_blank">jazz</a> (ancora un po' scarna) e poi <a href="https://youtu.be/18EmOXEsmlw" rel="noopener" target="_blank">**È USCITO L'ALBUM DEI GREEN DAY**</a>.
+- Su Spotify ho aggiunto alcune playlist di genere: <a href="https://open.spotify.com/playlist/3qDRvzxctHpIJHkQkfh4iw?si=h55YC_wKQnWJkMy--7AqrA" rel="noopener noreferrer" target="_blank">colonne sonore</a>, <a href="https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6?si=MvQdPWo0RZm6-fuojJ9qkA" rel="noopener noreferrer" target="_blank">classica</a>, <a href="https://open.spotify.com/playlist/5RLKmuPGMLXNEYjsiX1jcQ?si=PLE_KOL9TIe3Y7cFhw8q0A" rel="noopener noreferrer" target="_blank">jazz</a> (ancora un po' scarna) e poi <a href="https://youtu.be/18EmOXEsmlw" rel="noopener noreferrer" target="_blank">**È USCITO L'ALBUM DEI GREEN DAY**</a>.
 - Sto preparando un articolo di quelli seri, che per scriverli ci si mette un po' e sono anche dettagliati e precisi. Riguarda la tecnologia e come senza rendercene conto regaliamo la nostra identità digitale in cambio di servizi gratuiti che salvano ogni nostra azione, in particolare Google.
 - Dall'ultima volta che ho scritto è passato meno tempo della media. Mi dispiace. Scusate prometto che cerco di essere meno assillante e più cose che scrivo tenerle per me senza pubblicarle.
 
-
+<br />
 
 Un abbraccio.

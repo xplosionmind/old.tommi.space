@@ -1,6 +1,6 @@
 ---
 ---
-{% include image.html url='https://live.staticflickr.com/4855/45948750785_f71661ac06_k.jpg' description='a dad looking after his kid at London Tate Museum for Modern Art in London, June 2018' alt='a dad looking after his kid at London Tate Museum for Modern Art in London, June 2018' %}
+<figure><img src="https://live.staticflickr.com/4855/45948750785_f71661ac06_k.jpg" alt="a dad looking after his kid at London Tate Museum for Modern Art in London, June 2018" /><figcaption>a dad looking after his kid at London Tate Museum for Modern Art in London, June 2018</figcaption></figure>
 Alla nostra età (a libera interpretazione se mi stia riferendo alla mia generazione o se più narcisisticamente stia utilizzando un plurale maiestatis) sentiamo ripetutamente principalmente due grandi sentenze, per dirla alla Seneca, che rispecchiano due generali correnti di pensiero la cui esistenza è volta in maniera particolare a spronarci ed indirizzarci verso la direzione giusta che la nostra vita dovrebbe prendere o -teoricamente- ad aiutarci renderci consapevoli di dove noi in fondo vogliamo ci porti questo inesorabile cammino.
 
 <br />
@@ -8,7 +8,7 @@ Alla nostra età (a libera interpretazione se mi stia riferendo alla mia generaz
 La **prima**, a tutti comune e nata con l'umanità stessa, è quella pronunciata dai genitori:
 
 
-_dovresti impegnarti e studiare di più_
+*dovresti impegnarti e studiare di più*
 
 
 in linea di massima, con le dovute declinazioni soggettive, il contenuto è quello: i nostri vecchi intendono farci capire che effettivamente ci stiamo perdendo, distraendo, che ci stiamo più o meno sbagliando o illudendo riguardo a qualcosa. In sintesi, che li stiamo **deludendo**.
@@ -17,7 +17,7 @@ in linea di massima, con le dovute declinazioni soggettive, il contenuto è quel
 Questo perché loro, avendoci generato, ci conoscono meglio di chiunque altro e considerano, amandoci profondamente, come una propria mancanza anche il nostro più piccolo fallimento; tuttavia il significato di questa parola può essere decisamente soggettivo.
 
 
-Ho controllato <a href="http://www.treccani.it/vocabolario/fallimento" rel="noopener" target="_blank">sulla Treccani</a>, in fondo non mi dà torto:
+Ho controllato <a href="http://www.treccani.it/vocabolario/fallimento" rel="noopener noreferrer" target="_blank">sulla Treccani</a>, in fondo non mi dà torto:
 
 1b: la mancanza è nostra o di chi, giudicandoci, ritiene tale una nostra qualunque qualità?
 
@@ -58,19 +58,19 @@ E io, adesso, a 18 anni, se mi dicono che nella vita sarò un grande pallanuotis
 Come fanno le persone a dire cosa è buono, cosa non è sicuro, cosa non sarebbe il caso di fare, cosa ci renderà felici, cosa non saremo in grado di affrontare?
 
 
-Essere distratti, avere la testa fra le nuvole, dimenticarsi tutto, fare troppe cose male, essere stonati, mettere scarpe di due colori diversi, cercare continuamente nonostante non si sappia cosa, correre <a href="https://youtu.be/QgnJ8GpsBG8" rel="noopener" target="_blank">senza meta</a>, rompere le cose, <a href="https://it.wikisource.org/wiki/I_Manifesti_del_futurismo/Manifesto_tecnico_della_letteratura_futurista" rel="noopener" target="_blank">scrivere male cose senza senso</a>, avere scarsi risultati a scuola sono comunemente difetti, particolarità che facilmente vengono viste con accezione negativa, che tendono ad essere **corrette**, che fanno storcere il naso.
+Essere distratti, avere la testa fra le nuvole, dimenticarsi tutto, fare troppe cose male, essere stonati, mettere scarpe di due colori diversi, cercare continuamente nonostante non si sappia cosa, correre <a href="https://youtu.be/QgnJ8GpsBG8" rel="noopener norererrer" target="_blank">senza meta</a>, rompere le cose, <a href="https://it.wikisource.org/wiki/I_Manifesti_del_futurismo/Manifesto_tecnico_della_letteratura_futurista" rel="noopener noreferrer" target="_blank">scrivere male cose senza senso</a>, avere scarsi risultati a scuola sono comunemente difetti, particolarità che facilmente vengono viste con accezione negativa, che tendono ad essere **corrette**, che fanno storcere il naso.
 
 
-Ma, eccetto <a href="https://www.amazon.it/Viaggio-nel-tempo-Ediz-illustrata/dp/8838473463/ref=sr_1_1?s=books&ie=UTF8&qid=1548350769&sr=1-1&keywords=Viaggio+nel+Tempo+1+Geronimo+Stilton" rel="noopener" target="_blank">Geronimo Stilton</a> e gli <a href="https://youtu.be/CkwnU47TZ1M" rel="noopener" target="_blank">Eugenio in Via di Gioia</a>, chi può dire che nel 2050 il mestiere più prestigioso non sarà il "tuttofare incasinato", che la facoltà più ambita non sarà "deconcentrazione" o che il futuro del mondo non sarà nella ricerca scientifica, matematica o filosofica, ma nella sola <a href="http://tuttiascuola-padova.blogautore.repubblica.it/2016/11/21/cercare-con-il-lanternino-2/" rel="noopener" target="_blank">Riverca</a>?
+Ma, eccetto <a href="https://www.amazon.it/Viaggio-nel-tempo-Ediz-illustrata/dp/8838473463/ref=sr_1_1?s=books&ie=UTF8&qid=1548350769&sr=1-1&keywords=Viaggio+nel+Tempo+1+Geronimo+Stilton" rel="noopener noreferrer" target="_blank">Geronimo Stilton</a> e gli <a href="https://youtu.be/CkwnU47TZ1M" rel="noopener noreferrer" target="_blank">Eugenio in Via di Gioia</a>, chi può dire che nel 2050 il mestiere più prestigioso non sarà il "tuttofare incasinato", che la facoltà più ambita non sarà "deconcentrazione" o che il futuro del mondo non sarà nella ricerca scientifica, matematica o filosofica, ma nella sola <a href="http://tuttiascuola-padova.blogautore.repubblica.it/2016/11/21/cercare-con-il-lanternino-2/" rel="noopener noreferrer" target="_blank">Riverca</a>?
 
 
-Tutti, ovviamente, dicevano che <a href="https://www.google.com/search?q=Kandinskij&newwindow=1&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiR-9-Y-obgAhUIz4UKHS67BSkQ_AUIDigB&biw=1440&bih=821" rel="noopener" target="_blank">certi quadri</a> li poteva fare chiunque, che <a href="https://www.highly.co/hl/1B871CYM50rNXa" rel="noopener" target="_blank">certa gente</a> era matta, che [un altro era un genio e non andasse ascoltato](!#) o che lo scopo della musica [non è quello di far ridere](!#).
+Tutti, ovviamente, dicevano che <a href="https://www.google.com/search?q=Kandinskij&newwindow=1&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiR-9-Y-obgAhUIz4UKHS67BSkQ_AUIDigB&biw=1440&bih=821" rel="noopener noreferrer" target="_blank">certi quadri</a> li poteva fare chiunque, che <a href="https://www.highly.co/hl/1B871CYM50rNXa" rel="noopener noreferrer" target="_blank">certa gente</a> era matta, che [un altro era un genio e non andasse ascoltato](!#) o che lo scopo della musica [non è quello di far ridere](!#).
 
 
 Però, tutto e tutti dimostrano che non c'è giusto o sbagliato. Che non si deve fare nulla, che si può fare tutto, che solamente crederci non basta, che fallire non vuol dire aver definitivamente fallito, che essere disprezzati vuol dire essere nel torto.
 
 
-Quindi, <a href="https://www.youtube.com/user/caseyneistat" rel="noopener" target="_blank">caro Casey</a>, fare ciò che non si può non è per forza la chiave.
+Quindi, <a href="https://www.youtube.com/user/caseyneistat" rel="noopener noreferrer" target="_blank">caro Casey</a>, fare ciò che non si può non è per forza la chiave.
 
 
 Essere ciò che si è il modo perfetto per essere felici, perché decidere se qualcosa è sbagliato o giusto è solo una valutazione temporanea e chi afferma una delle due, a meno che non sia eterno e onnisciente (a meno, dunque, che non sia Dio) non ha la più pallida idea di cosa stia parlando, perché **non è noi**.

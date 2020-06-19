@@ -1,15 +1,9 @@
 ---
 categories: radioimmaginaria
-  - "/images/2017-07-10-borderlife-1.jpg"
-  - "/images/2017-07-10-borderlife-2.jpg"
-  - "/images/2017-07-10-borderlife-3.jpg"
-  - "/images/2017-07-10-borderlife-4.jpg"
-  - "/images/2017-07-10-borderlife-5.jpg"
-  - "/images/2017-07-10-borderlife-6.jpg"
-  - "/images/2017-07-10-borderlife-7.jpg"
-  - "/images/2017-07-10-borderlife-8.jpg"
 ---
-<img src="/images/2017-07-10-borderlife-3.jpg" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso">
+<figure>
+<img src="/images/2017-07-10-borderlife-3.jpg" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" />
+</figure>
 
 Io ho 16 anni, quasi 17, è estate, sono contento di essere in vacanza e me la godo.
 
@@ -35,4 +29,20 @@ Noi siamo fortunati, noi possiamo fare qualcosa, dobbiamo farci sentire, **dobbi
 
 P.S.: la mia amica Anna, che è venuta con me per qualche giorno, ha scritto qualcosa di più profondo ed importante che dovete leggere, <a href="https://web.archive.org/web/20171008172851/https://www.rivieratime.news/qual-futuro-dellumanita-vive-al-ponte/" rel="noopener" target="blank">qui</a>.
 
-{% include lightbox.html %}
+<figure>
+<img src="/images/2017-07-10-borderlife-1.jpg" />
+<br />
+<img src="/images/2017-07-10-borderlife-2.jpg" />
+<br />
+<img src="/images/2017-07-10-borderlife-3.jpg" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" />
+<br />
+<img src="/images/2017-07-10-borderlife-4.jpg" />
+<br />
+<img src="/images/2017-07-10-borderlife-5.jpg" />
+<br />
+<img src="/images/2017-07-10-borderlife-6.jpg" />
+<br />
+<img src="/images/2017-07-10-borderlife-7.jpg" />
+<br />
+<img src="/images/2017-07-10-borderlife-8.jpg" />
+</figure>

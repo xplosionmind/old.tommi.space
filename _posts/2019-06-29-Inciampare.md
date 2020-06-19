@@ -1,6 +1,6 @@
 ---
 ---
-{% include image.html url='/images/2019-06-29-inciampare.jpg' description='' alt='una lupetta che percorre in qeuilibrio una manichetta (sì sembra strano ma se vedeste la foto capireste)' %}
+<img src"/images/2019-06-29-inciampare.jpg" alt="una lupetta che percorre in qeuilibrio una manichetta (sì sembra strano ma se vedeste la foto capireste)" />
 Chi non sarò sarà sempre l’ombra di chi sono.
 
 

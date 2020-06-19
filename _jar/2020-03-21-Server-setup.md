@@ -20,14 +20,14 @@ Resources, apps, tutorials and several knowledge sources are mentioned [here](/s
 
 ## System configuration and environment setup
 
-update [Ubuntu](https://ubuntu.com/server), `-y` parameter is used to accept by default any question
+update [Ubuntu](https://ubuntu.com/server) (`-y` parameter is used to accept by default any question)
 ```
 sudo apt update -y && sudo apt upgrade -y
 ```
 
 remove debris
 ```
-sudo apt autoremove
+sudo apt autoremove -y && sudo apt autoclean -y
 ```
 
 <br />
@@ -357,7 +357,7 @@ systemctl restart apache2
 - wait for the domain to propagate (it could take up to 48 hours)
 - go to `cloud.example.com`, where you should get this page:
 
-{% include image.html url='https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg' alt='Nextcloud first setup page' title='Nextcloud first setup page' description='Nextcloud first setup page' %}
+<figure><img src="https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg" alt="Nextcloud first setup page" title="Nextcloud first setup page" /><figcaption>Nextcloud first setup page</figcaption></figure>
 
 **Don’t** insert any data in the dialogue page above until connection is encrypted with `https://`. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
 {: .warning}
