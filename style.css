@@ -92,6 +92,14 @@ mark {
 	color: var(--background);
 	font-weight: 500
 }
+::-moz-selection {
+	color: black;
+	background: var(--yellow);
+}
+::selection {
+	color: black;
+	background: var(--yellow);
+}
 .theme-toggle-button {
 	position: fixed;
 	bottom: var(--small); /* height + 2*small */

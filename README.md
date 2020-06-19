@@ -23,7 +23,7 @@ Work in progress pages, excluded the ones already in the [drafts folder](/_draft
 
 ## FEATURES CHECKLIST
 
-A walkthrough of the website creation is [here](https://tommiboom.tk/themakingof)
+A walkthrough of the website creation is [here](https://xplosionmind.tk/themakingof)
 
 - [ ] access post category color (and how conflicts are managed if the post has more than one category) in posts list
 - [ ] add a “première” section to [everyone](/everyone) page
@@ -31,13 +31,11 @@ A walkthrough of the website creation is [here](https://tommiboom.tk/themakingof
 - [ ] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Testing [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue]()
 - [ ] back to top button
 - [ ] blogroll (a list of blogs which inspire me) inspired from [Pawlean](https://pawlean.com/blogroll)
-- [ ] change mobile browser bar color
 - [ ] checkbox styling
 - [ ] Copyright specifications
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
 - [ ] [Custom font](https://xplosionmind.tk/Typography#Custom-font) implementation
-- [ ] custom selection color for text
 - [ ] downloadable portfolio pdf
 - [ ] Generative Art
 	- [ ] always-changing colors
@@ -64,6 +62,8 @@ A walkthrough of the website creation is [here](https://tommiboom.tk/themakingof
 - [x] Animations (little and simple but effective)
 	- [x] buttons: `x`s and menus (see tokyo-voice.jp or traxmag.com)
 - [x] basic colored biiig shapes
+- [x] change mobile browser bar color
+- [x] custom selection color for text
 - [x] customize 404 page
 - [x] Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
 - [x] categories description and link to stuff
