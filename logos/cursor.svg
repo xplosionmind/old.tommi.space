@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="svg8" width="30" height="30" version="1.1" viewBox="0 0 7.938 7.938"><metadata id="metadata5"/><g id="layer1" transform="translate(-26.233581,-1.0299726)"><path style="fill:none;stroke:#000;stroke-width:1.05833333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path875" d="M 30.236742,1.0299726 V 5.5021698"/><path style="fill:none;stroke:#fcc920;stroke-width:1.05833333;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" id="path877" d="m 34.171081,4.9987225 h -3.934339 v 3.96875"/><path style="fill:none;stroke:#000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path879" d="M 29.707575,4.9987225 H 26.243521"/></g></svg>
+<svg width="32" height="32" version="1.1" viewBox="0 0 8.47 8.47" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(-26.2 -1.03)">
+        <path d="m30.5 1.03v4.77" style="fill:none;stroke-width:1.13;stroke:#000"/>
+        <path d="m34.7 5.26h-4.2v4.23" style="fill:none;stroke-width:1.13;stroke:#fcc920"/>
+        <path d="m29.9 5.26h-3.7" style="fill:none;stroke-width:1.13;stroke:#000"/>
+    </g>
+</svg>

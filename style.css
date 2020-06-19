@@ -58,14 +58,18 @@ body {
 	transition: var(--trans);
 }
 
+html {
+	cursor: url(/logos/cursor.svg) 16 16, crosshair
+}
+
+
 body {
 	background: var(--background);
-	font: 300 var(--regular) "Inter", "Fira Sans", Helvetica, sans-serif;
+	font: 300 var(--regular) Inter, Helvetica, "Helvetica Neue", sans-serif;
 	color: var(--text);
 	margin: 0;
 	overflow-wrap: break-word;
-	hyphens: auto;
-	cursor: url(/logos/cursor.svg), auto;
+	hyphens: auto
 }
 
 *, *:before, *:after {
@@ -246,11 +250,6 @@ strong, b {
 	right: 101%; /* big + tiny*/
 	transition: var(--trans);
 	top: .75rem;
-}
-
-.anchor:hover,
-.anchor:focus {
-	outline: var(--tiny) solid var(--secondary);
 }
 
 .highlight {
@@ -479,7 +478,6 @@ p, article li, article ul {
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	line-height: 0.97em;
-	transition: var(--trans)
 }
 
 article h2, article h3, article h4, article h5, article h6 {
@@ -489,7 +487,7 @@ article h2, article h3, article h4, article h5, article h6 {
 	line-height: var(--height);
 	top: 3.6rem;
 	margin-bottom: 0;
-	z-index: 0;
+	transition: var(--quicktrans)
 }
 
 h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor {
@@ -518,7 +516,7 @@ a, a:visited {
 
 
 a, button {
-	cursor: url(/logos/cursor-hover.svg), pointer
+	cursor: url(/logos/cursor-hover.svg) 16 16, pointer
 }
 
 #stuff-tree a, p a, p a:visited, #stuff-tree a:visited, article a, article a:visited {
@@ -542,7 +540,7 @@ li a:focus, p a:focus {
 	max-width: 100%;
 	margin: var(--mastodon) auto var(--height);
 	display: inherit;
-	object-fit: contain;
+	object-fit: contain
 }
 
 .stuff .category {
@@ -747,13 +745,13 @@ nav ul li ul li a {
 	position: absolute;
 	left: 10px;
 	top: 12px;
-	cursor: url(/logos/cursor-hover.svg), pointer;
+	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
 	padding: 10px 35px 16px 0
 }
 #nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
-	cursor: url(/logos/cursor-hover.svg), pointer;
+	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
 	height: 4px;
 	width: 30px;
 	background: var(--background);
