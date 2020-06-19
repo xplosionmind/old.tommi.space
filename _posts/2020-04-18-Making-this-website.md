@@ -1,6 +1,6 @@
 ---
 lang: en
-permalink: /themekingof
+permalink: /themakingof
 ref: genesi
 categories: geek
 img: "/images/2020-04-18-Making-this-website.jpg"
