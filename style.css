@@ -92,10 +92,6 @@ mark {
 	color: var(--background);
 	font-weight: 500
 }
-::-moz-selection {
-	color: black;
-	background: var(--yellow);
-}
 ::selection {
 	color: black;
 	background: var(--yellow);
@@ -408,7 +404,7 @@ p, article li, article ul {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: baseline;
-	align-content: space-around;
+	align-content: space-around
 }
 .section-title {
 	background: var(--primary);
@@ -419,11 +415,10 @@ p, article li, article ul {
 }
 .section-title:hover,
 .section-title:focus {
-	outline: .35rem dashed var(--secondary);
+	outline: .35rem dashed var(--secondary)
 }
 h1, h2, h3, h4, h5, h6 {
-	text-transform: uppercase;
-	line-height: 0.97em;
+	text-transform: uppercase
 }
 article h2, article h3, article h4, article h5, article h6 {
 	font-family: Inter, Helvetica, "Helvetica Neue", sans;
@@ -451,16 +446,13 @@ h2 {
 	margin: 0
 }
 a, a:visited {
-	text-decoration: none
+	text-decoration: none;
+	color: var(--link)
 }
 a, button {
 	cursor: url(/logos/cursor-hover.svg) 16 16, pointer
 }
-#stuff-tree a, p a, p a:visited, #stuff-tree a:visited, article a, article a:visited {
-	color: var(--link)
-}
-li a:hover, p a:hover,
-li a:focus, p a:focus {
+p a:hover, p a:focus {
 	border-bottom: 2px dashed
 }
 .stuff {
@@ -655,7 +647,7 @@ nav ul li ul li a {
 		margin: var(--tiny) auto
 	}
 	article p {
-		margin: var(--big) 10%
+		margin: var(--height) 10%
 	}
 }
 
@@ -706,6 +698,10 @@ nav ul li ul li a {
 	font-size: var(--big)
 }
 
+#stuff-tree {
+	margin: var(--margin) calc(100% / 3)
+}
+
 /* FOOTER */
 footer p {
 	opacity: .7;
@@ -716,7 +712,7 @@ footer p {
 footer .one-fifth {
 	margin-top: var(--morethan-regular)
 }
-footer .one-fifth p a {
+footer .one-fifth a {
 	opacity: .7;
 	color: var(--text);
 	text-align: center
@@ -728,7 +724,7 @@ footer p:focus {
 }
 .newsletter {
 	background: var(--primary);
-	color: var(--grey);
+	color: var(--grey) !important;
 	display: block !important;
 	width: 90% !important;
 	margin: var(--morethan-regular) auto;
@@ -748,15 +744,14 @@ footer p:focus {
 	text-transform: uppercase;
 	hyphens: none
 }
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
 	transform: scale(1.1)
 }
 footer .row {
 	width: 90%;
 	margin-left: 5%
 }
-footer .one-fourth .half p a {
+footer .one-fourth .half a {
 	line-height: var(--height)
 }
 #license {

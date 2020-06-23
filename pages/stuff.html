@@ -4,14 +4,6 @@ lang: en
 permalink: /stuff
 ref: stuff
 ---
-<style>
-	ul, h3 {
-		margin-left: 25%;
-	}
-	ul ul {
-		margin-left: 2%;
-	}
-</style>
 <div class="page-header">
 	<div class"row">
 		<div class="one column">
@@ -28,8 +20,8 @@ ref: stuff
 	</div>
 </div>
 
-<div class="row" style="margin-bottom: var(--margin);" id="stuff-tree">
-	<div class="one column">
+<div class="row">
+	<div class="one-third column" id="stuff-tree">
 		<h3>page tree</h3>
 		<ul>
 			{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
@@ -58,9 +50,7 @@ ref: stuff
 	{% for thing in stuff %}
 		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
 			<div class="half column">
-				<div class="stuff-image">
-					<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
-				</div>
+				<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
 			</div>
 			<div class="half column stuff">
 				<div class="stuff-logo">
@@ -80,9 +70,7 @@ ref: stuff
 	{% for thing in stuff %}
 		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
 			<div class="half column">
-				<div class="stuff-image">
-					<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
-				</div>
+				<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
 			</div>
 			<div class="half column stuff">
 				<div class="stuff-logo">
@@ -96,4 +84,4 @@ ref: stuff
 		</div>
 	{% endfor %}
 
-<a href="/tutto+"><h2 class="section-title" style="margin: var(--height) 1%; background: var(--secondary)">stuff extended</h2></a>
+<a href="/stuff-extended"><h2 class="section-title" style="margin: var(--height) 1%; background: var(--secondary)">stuff extended</h2></a>
