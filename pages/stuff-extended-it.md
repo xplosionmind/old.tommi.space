@@ -3,9 +3,9 @@ title: di tutto e di più
 lang: it
 permalink: /tuttopiu
 ref: stuffextended
-description: Dato che per mia natura e vocaizione finisco sempre in mezzo a una miriade di iniziative e progetti fantastici, mi trovo a partecipare o organizzare o condurre moltissimi piccoli eventi o interviste o incontri, e sono talmente tanti che alla fine rischio di dimenticarmeli e non riuscire più a trovarli. Per questo, proverò a tenere aggiornata questa lista di riferimento con tutto ciò a cui ho partecipato, attivamente o come spettatore, inserendo collegamenti a pagine, foto e informazioni.<br /><br />Alcuni album di foto potrebbero essere privati. <a href="mailto:tommiboom@protonmail.com" rel="noopener noreferrer" target="_blank">Scrivetemi</a> un’email se avete partecipato e desiderate accedere.
+description: Dato che per mia natura e vocazione finisco sempre in mezzo a una miriade di iniziative e progetti fantastici, mi trovo a partecipare o organizzare o condurre moltissimi piccoli eventi o interviste o incontri, e sono talmente tanti che alla fine rischio di dimenticarmeli e non riuscire più a trovarli. Per questo, proverò a tenere aggiornata questa lista di riferimento con tutto ciò a cui ho partecipato, attivamente o come spettatore, inserendo collegamenti a pagine, foto e informazioni.<br /><br />Alcuni album di foto potrebbero essere privati. <a href="mailto:tommiboom@protonmail.com" rel="noopener noreferrer" target="_blank">Scrivetemi</a> un’email se avete partecipato e desiderate accedere.
 layout: page
-toc: true
+toc: "true"
 ---
 ## Musica live
 

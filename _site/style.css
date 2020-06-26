@@ -102,6 +102,17 @@ mark {
 	right: var(--small);
 	z-index: 3
 }
+
+.toc ul li,article ul li {
+	list-style: square
+}
+.toc ul li li,article ul li li {
+	list-style-type: "▫ "
+}
+.toc ul li li li,article ul li li li {
+	list-style-type: "- "
+}
+
 .poetry p, .post p,
 .poetry li, .post li {
 	font: 400 var(--morethan-regular) "Merriweather", "Latin Modern Roman", Georgia, serif;
