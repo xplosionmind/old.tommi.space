@@ -37,3 +37,4 @@ Everything inspiring, meaningful or particularly significant about web privacy I
 ## RESOURCES || TOOLS
 
 - [COVID Creatives Toolkit](https://docs.google.com/document/d/1iNPPgHO1bQFTey3U4G6LZ4pjb05iM0AyLGYA1We6W5c/edit?pli=1#heading=h.lxqxmcwlf54y)
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted), a GitHub repository with actually **anything** anyone can self-host
