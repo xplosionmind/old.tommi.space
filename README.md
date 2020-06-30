@@ -1,12 +1,12 @@
 ## WIP
 
-Work in progress pages, excluded the ones already in the [drafts folder](/_drafts)
+Work in progress pages, excluded the ones already in the [drafts folder](./_drafts)
 
-- [Radioimmaginaria comprehensive list](/pages/radioimmaginaria-database.md) of episodes I’m in
-- [Database of my brain](/_jar/2020-06-04-brain-database.md), list of all the stuff I know and need to know
-- [deGoogle](/_jar/2020-06-03-deGoogle.md) Jar item
-- [Making this website](/_posts/2020-04-18-Making-this-website.md) article
-- in [/pages/stuff-extended-it]
+- [Radioimmaginaria comprehensive list](./pages/radioimmaginaria-database.md) of episodes I’m in
+- [Database of my brain](./_jar/2020-06-04-brain-database.md), list of all the stuff I know and need to know
+- [deGoogle](./_jar/2020-06-03-deGoogle.md) Jar item
+- [Making this website](./_posts/2020-04-18-Making-this-website.md) article
+- [Stuff extended](./pages/stuff-extended-it)
 	- LISTA VIDEO GIFFONI FACTORY
 	- DATE OSPITI GIFFONI CINEFORUM
 	- INCONTRI MASTERCLASS
@@ -25,46 +25,43 @@ Work in progress pages, excluded the ones already in the [drafts folder](/_draft
 
 A walkthrough of the website creation is [here](https://xplosionmind.tk/themakingof)
 
-- [ ] access post category color (and how conflicts are managed if the post has more than one category) in posts list
-- [ ] add a “première” section to [everyone](/everyone) page
+- [ ] access post category colour (and how conflicts are managed if the post has more than one category) in posts list
+- [ ] add a “première” section to [everyone](./everyone) page
 - [ ] Analytics (temporarily set up with goatcounter)
 - [ ] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Testing [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue]()
 - [ ] back to top button
-- [ ] blogroll (a list of blogs which inspire me) inspired from [Pawlean](https://pawlean.com/blogroll)
+- [ ] “blogroll”: a list of blogs which inspire me, see [Pawlean](https://pawlean.com/blogroll)
 - [ ] checkbox styling
 - [ ] Copyright specifications
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
 - [ ] [Custom font](https://xplosionmind.tk/Typography#Custom-font) implementation
-- [ ] downloadable portfolio pdf
-- [ ] Generative Art
-	- [ ] always-changing colors
-	- [ ] Explaination page
+- [ ] downloadable portfolio pdf
 - [ ] global search button
 - [ ] Newsletter
 	- [x] subscribe button
 	- [ ] back-end implementation
 	- [ ] Mailtrain || listmonk setup
-- [ ] `head` include
-- [ ] page image preview when sending link see the [Open Graph Protocol](https://ogp.me/)
+- [ ] `head` include (is this good for performance?)
+- [ ] page image preview when sending link, see the [Open Graph Protocol](https://ogp.me/)
 - [x] Poetry
 	- [x] section
 	- [x] custom styling
 	- [ ] custom feed
 - [ ] Post header
 	- [ ] Post categories list
-	- [ ] Post date
+	- [x] Post date
 - [ ] share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
-- visioni
+- [ ] visioni
     - [ ] unsorted photos randomly moving
     - [ ] horizontal instead of vertical scrolling of the gallery
 
 - [x] Animations (little and simple but effective)
 	- [x] buttons: `x`s and menus (see tokyo-voice.jp or traxmag.com)
-- [x] basic colored biiig shapes
-- [x] change mobile browser bar color
-- [x] custom selection color for text
-- [x] customize 404 page
+- [x] basic coloured biiig shapes
+- [x] change mobile browser bar colour
+- [x] custom selection colour for text
+- [x] customise 404 page
 - [x] Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
 - [x] categories description and link to stuff
 - [x] cursor styling
@@ -72,16 +69,16 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 - [x] gif instead of images 
 - [x] Hover effects
 - [x] `id` anchor links
-- [x] inline code styiling
+- [x] inline code styling
 - [x] input fields styling
 - [x] language switch
 - [x] `letter-spacing` and `word spacing` (it's nice as it is)
 - [x] light/dark mode switch button (I'm deep and dark / I'm bright and shiny)
 - [x] list of belonging categories at the top of the post page
-- [x] Mobile optimization
+- [x] Mobile optimisation
 - [x] Privacy Policy
 - [x] RSS Feed
-- [x] separate website/repo/domain for web and online resources or for geek stuff in general (configured as _[The Jar](xplosionmind.tk/jar)_)
+- [x] separate website/repo/domain for web and online resources or for geek stuff in general (configured as _[The Jar](https://xplosionmind.tk/jar)_)
 - [x] Serif font styling in posts
 - [x] Share button in blog (custom version inspired by 
 - [x] `stuff extended`
@@ -91,10 +88,11 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 ### CREATIVE IDEAS
 
 - everything center-aligned, also on desktop
-- color palettes improvement
+- colour palettes improvement
 
-### EXTRA ESPERIMENTS
+### EXPERIMENTS
 
 - DESKTOP: floating “categories” column on the right
-
-#### [HOSTING](https://forum.privacytools.io/t/privacy-friendly-source-code-hosting-recommendations/3316)
+- Generative Art
+	- always-changing colors
+	- Explaination page
