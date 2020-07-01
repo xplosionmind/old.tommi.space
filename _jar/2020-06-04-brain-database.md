@@ -1,14 +1,23 @@
 ---
-title: "A database of my brain (a.k.a. my knowledge)"
+title: "A database of my brain"
 permalink: /brain-database
 lang: en
 code: 0
 ---
-Maybe I’m just loosing my time, but I believe it would be a great thing if I could list out in this page **all of the things I know** and the ones I need or want to learn sooner or later.
+Maybe I’m just losing my time, but I believe it would be so nice if I could list out in this page **all of the things I know** and the ones I need or want to learn sooner or later.
 
-For each topic I added all of the links and resources I learned from. Some of them have been fundamental and life-changing, some are just 
+Every topic should have its namesake counterpart in the [knowledge](./knowledge) page, with a link to the resources I took advantage of to learn it.
 
-Listing all this stuff is a quite long and boring thing to do, I started, but I realized I don’t have time to complete it. I’m just gonna leave it here, even if it’s unfinished
+<div class="warning">
+<strong>LEGEND</strong>:<br />
+&#x1F9B4;: bare-bones knowledge<br />
+&#128187;: self-taught<br />
+&#128640;: something I’m proud of<br />
+&#128064;: still looking into it<br />
+&#128218;: learnt at university or High School
+</div>
+
+Listing all this stuff is quite a long and boring thing to do, so I started, but I realised I don’t have time to complete it. I’m just gonna leave it here and add a new bunch of data from time to time.
 {:.red .warning}
 
 <br />
@@ -16,27 +25,23 @@ Listing all this stuff is a quite long and boring thing to do, I started, but I 
 
 ## tech
 
-### Programming languages
+### languages
 
-- `C`
-	- [Computer Engineering Exam](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04JCJLM&p_a_acc=2020&p_header=S&p_lang=EN)
-- `HTML` and  `CSS`
-	- [HTML and CSS](http://www.htmlandcssbook.com/), a book by Jon Duckett
-	- [CSS - An Art, a Science, a Nightmare](https://www.taniarascia.com/overview-of-css-concepts/) a comprehensive wonderful article by Tania Rascia
-- `JavaScript` (101)
-	- [JavaScript and JQuery](http://www.javascriptbook.com/) a book by Jon Duckett
-- `bash` (101)
-	- [The Missing Semester](https://missing.csail.mit.edu)
-		- [Lesson 1: introduction to the shell](https://missing.csail.mit.edu/2020/course-shell/)
-		- [Lesson 2: Bash Scripting](https://missing.csail.mit.edu/2020/shell-tools/)
+- `C` &#128218; ([Computer Sciences Exam](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=04JCJLM&p_a_acc=2020&p_header=S&p_lang=EN))
+- `HTML` &#128187;
+- `CSS` &#128187;
+- `JavaScript` &#x1F9B4;
+- `bash` &#x1F9B4;
+- `Markdown`
+- `YAML`
+- `JSON` &#x1F9B4;
+- `Apache` &#x1F9B4;
+- `php` &#x1F9B4;
 
 <br />
 
 ### programming TOOLS
 
 - [`vim`](https://www.vim.org/) (even though I actually use [Neovim](https://neovim.io/)), the best text editor in the world, actually more than a text editor: a philosophy
-	- [Practical Vim](https://pragprog.com/book/dnvim/practical-vim) by Drew Neil
-	- [VimCasts](vimcasts.org)
-	- [Vim subreddit](https://www.reddit.com/r/vim/)
 
 <br />

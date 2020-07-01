@@ -1,10 +1,12 @@
 ---
-permalink: /learning-resources
+permalink: /resources
 title: "Learning resources"
 categories: geek
 toc: 0
 ---
-A comprehensive list of great online learning resources for any sort of computer stuff. Except official documentation, which can be found 
+A comprehensive list of great online learning resources. Official documentation is not included, since it can usually be found with a quick and trivial research.
+
+## Geek stuff
 
 - Tania Rascia’s [blog](https://www.taniarascia.com/)
 - [Free Software course](https://github.com/open-education-polito/free-software-course) by [Open Education PoliTo](https://openeducation.polito.it).
@@ -14,3 +16,10 @@ A comprehensive list of great online learning resources for any sort of computer
 - [Free Code Camp](https://www.freecodecamp.org/)
 - [Docker](https://github.com/championshuttler/docker-basicLearning)
 - [Papers We Love](https://paperswelove.org/), a [repository](https://github.com/papers-we-love/papers-we-love) of academic computer science papers and a [community](https://github.com/papers-we-love/papers-we-love/wiki/Creating-a-PWL-chapter) who loves reading them.
+- [HTML and CSS](http://www.htmlandcssbook.com/), a book by Jon Duckett
+- [CSS - An Art, a Science, a Nightmare](https://www.taniarascia.com/overview-of-css-concepts/), a comprehensive wonderful article by Tania Rascia
+- [JavaScript and JQuery](http://www.javascriptbook.com/) a book by Jon Duckett
+- vim
+     - [Practical Vim](https://pragprog.com/book/dnvim/practical-vim) by Drew Neil
+	- [VimCasts](vimcasts.org)
+	- [Vim subreddit](https://www.reddit.com/r/vim/)

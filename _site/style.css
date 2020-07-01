@@ -17,7 +17,9 @@
 	--regular: 1.1rem;
 	--morethan-regular: 1.3rem;
 	--big: 1.6rem;
+	--big-em: 1.6em;
 	--bigger: 1.8rem;
+	--bigger-em: 1.8em;
 	--twice: 2.2rem;
 	--height: 3.1rem;
 	--mastodon: 4.4rem;
@@ -61,7 +63,7 @@ body {
 
 body {
 	background: var(--background);
-	font: 300 var(--regular) Inter, Helvetica, "Helvetica Neue", sans-serif;
+	font: var(--regular) Inter, Helvetica, "Helvetica Neue", sans-serif;
 	color: var(--text);
 	margin: 0;
 	overflow-wrap: break-word;
@@ -113,10 +115,10 @@ mark {
 	list-style-type: "- "
 }
 
-.poetry p, .post p,
-.poetry li, .post li {
+.poetry p, .post p {
 	font: 400 var(--morethan-regular) "Merriweather", "Latin Modern Roman", Georgia, serif;
-	line-height: 1.5
+	line-height: var(--bigger-em);
+	letter-spacing: 0.05rem
 }
 strong, b {
 	font-weight: 700
@@ -173,9 +175,6 @@ strong, b {
 }
 .toc {
 	margin: 0 10% var(--morethan-regular)
-}
-.toc a {
-	color: var(--secondary)
 }
 .categories {
 	overflow-x: scroll;
@@ -367,11 +366,14 @@ figcaption:before {
 	margin-left: auto;
 	margin-right: 0;
 }
-article {
-	padding: var(--twice) 0 var(--mastodon)
+p {
+	line-height: var(--big-em);
+	margin: var(--bigger-em) 0
 }
-p, article li, article ul {
-	line-height: var(--big);
+article {
+	font-size: var(--morethan-regular);
+	line-height: var(--big-em);
+	padding: var(--twice) 10% var(--mastodon)
 }
 .preview, .jar-preview, .poetry-preview {
 	color: var(--text);
@@ -463,7 +465,8 @@ a, a:visited {
 a, button {
 	cursor: url(/logos/cursor-hover.svg) 16 16, pointer
 }
-p a:hover, p a:focus {
+p a:hover, p a:focus, article li a:hover, article li a:focus {
+	outline: none !important;
 	border-bottom: 2px dashed
 }
 .stuff {
@@ -656,9 +659,6 @@ nav ul li ul li a {
 	}
 	.jar-preview .line {
 		margin: var(--tiny) auto
-	}
-	article p {
-		margin: var(--height) 10%
 	}
 }
 
