@@ -35,9 +35,9 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 - [ ] Copyright specifications
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
-- [ ] [Custom font](https://xplosionmind.tk/Typography#Custom-font) implementation
 - [ ] downloadable portfolio pdf
 - [ ] global search button
+- [ ] global neumorphism redesign
 - [ ] Newsletter
 	- [x] subscribe button
 	- [ ] back-end implementation
@@ -52,6 +52,9 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 	- [ ] Post categories list
 	- [x] Post date
 - [ ] share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
+- [ ] [Typography](https://xplosionmind.tk/typography)
+	- [ ] letter spacing, line height, etc.
+	- [ ] [Custom font](https://xplosionmind.tk/Typography#Custom-font) implementation
 - [ ] visioni
     - [ ] unsorted photos randomly moving
     - [ ] horizontal instead of vertical scrolling of the gallery
