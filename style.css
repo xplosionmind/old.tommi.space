@@ -115,19 +115,19 @@ mark {
 	list-style-type: "- "
 }
 
-.poetry p, .post p {
+.poetry, .post {
 	font: 400 var(--morethan-regular) "Merriweather", "Latin Modern Roman", Georgia, serif;
 	line-height: var(--bigger-em);
-	letter-spacing: 0.05rem
+	letter-spacing: 0.01rem
 }
 strong, b {
 	font-weight: 700
 }
 .post p:first-of-type::first-letter {
+	line-height: var(--morethan-regular);
+	font-size: 6em;
 	initial-letter: 3;
-	-webkit-initial-letter: 3;
-	font-size: 5em;
-	line-height: var(--morethan-regular)
+	-webkit-initial-letter: 3
 }
 .line {
 	height: var(--tiny);
