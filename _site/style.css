@@ -124,12 +124,10 @@ strong, b {
 	font-weight: 700
 }
 .post p:first-of-type::first-letter {
-	initial-letter: 3;
-	-webkit-initial-letter: 3;
+	line-height: var(--morethan-regular);
 	font-size: 6em;
-	color: var(--background);
-	background: var(--text);
-	line-height: var(--morethan-regular)
+	initial-letter: 3;
+	-webkit-initial-letter: 3
 }
 .line {
 	height: var(--tiny);
