@@ -12,3 +12,5 @@ A comprehensive list of great online learning resources for any sort of computer
 - [The Missing Semester](https://missing.csail.mit.edu/), a great, awesome, life-changing set of lectures to improve Developer’s Tools usage and maximize efficency when working with computers.
 - [The Odin Project](https://www.theodinproject.com)
 - [Free Code Camp](https://www.freecodecamp.org/)
+- [Docker](https://github.com/championshuttler/docker-basicLearning)
+- [Papers We Love](https://paperswelove.org/), a [repository](https://github.com/papers-we-love/papers-we-love) of academic computer science papers and a [community](https://github.com/papers-we-love/papers-we-love/wiki/Creating-a-PWL-chapter) who loves reading them.
