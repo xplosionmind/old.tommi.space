@@ -25,7 +25,7 @@ ref: stuff
 		<h3>page tree</h3>
 		<ul>
 			{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
-			<li>current projects
+			<li>ongoing projects
 				<ul>
 					{% for thing in stuff %}
 						<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
@@ -44,7 +44,7 @@ ref: stuff
 	</div>
 </div>
 
-	<h2 class="section-title">current</h2>
+	<h2 class="section-title">ongoing</h2>
 
 	{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
 	{% for thing in stuff %}
