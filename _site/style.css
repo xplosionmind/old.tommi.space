@@ -100,7 +100,7 @@ mark {
 }
 .theme-toggle-button {
 	position: fixed;
-	bottom: var(--small); /* height + 2*small */
+	bottom: var(--small);
 	right: var(--small);
 	z-index: 3
 }
