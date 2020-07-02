@@ -3,8 +3,8 @@ lang: it
 title: "Jack Frusciante è uscito dal gruppo"
 permalink: "/Jack-Frusciante"
 toc: 0
+description: "Enrico Brizzi aveva la mia età quando scrisse <em>Jack Frusciante è uscito dal gruppo</em>. Ho voluto capire quanto quello che aveva nella testa corrisponde a ciò che ho io ora. L’ho fatto stilando una lista di tutte le reference e citazioni presenti nel libro. Tutti i numeri non in lettere sono le pagine."
 ---
-Enrico Brizzi aveva la mia età quando scrisse _Jack Frusciante è uscito dal gruppo_. Ho voluto capire quanto quello che aveva nella testa corrisponde a ciò che ho io ora. L’ho fatto stilando una lista di tutte le reference e citazioni presenti nel libro. Tutti i numeri non in lettere sono le pagine. Ecco:
 
 - Madness
 - Specials

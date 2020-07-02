@@ -1,8 +1,8 @@
 ---
 categories: Design
 title: "Typography"
+description: "It’s a wonderful world, hidden in plain sight. Here there are some resources for inspiration and study."
 ---
-It’s a wonderful world, hidden in plain sight. Here there are some resources for inspiration and study.
 
 - <a href="http://vignelli.com" rel="noopener noreferrer" target="_blank">The Vignelli Canon</a>, a book on design, **the** book on design, by <a href="https://ilpost.it" rel="noopener noreferrer" target="_blank">Massimo Vignelli</a>. This book inspired me, so much that it completely changed how I see the world (and made me fall in love with Typography).
 - <a href="https://www.ilpost.it/2020/02/09/font-preferiti-scrittori-italiani/" rel="noopener noreferrer" target="_blank">I font preferiti dagli scrittori italiani</a>, article by <a href="https://ilpost.it" rel="noopener noreferrer" target="_blank">Il Post</a>.

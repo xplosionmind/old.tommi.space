@@ -2,8 +2,8 @@
 title: "Programming ideas"
 categories: geek
 toc: 0
+description: "There are tools which it would be so useful for me to have but I can’t find the right scripts/programs/apps to accomplish the missing tools’ purposes."
 ---
-There are tools which it would be so useful for me to have but I can’t find the right scripts/programs/apps to accomplish the missing tools’ purposes.
 
 - having a way to restore several old windows sessions of a browser, with all the tabs (not just the last one), some sort of batch reopen.
 - RSS / Telegram channel / bloat.io ... a unique, universal and simple method to share stuff

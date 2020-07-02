@@ -3,8 +3,8 @@ title: "Web freedom and privacy"
 permalink: /freedom
 categories: geek
 toc: 0
+description: "Everything inspiring, meaningful or particularly significant about web privacy I find online."
 ---
-Everything inspiring, meaningful or particularly significant about web privacy I find online.
 
 <br />
 
@@ -31,8 +31,8 @@ Everything inspiring, meaningful or particularly significant about web privacy I
 - [AMP](https://medium.com/@danbuben/why-amp-is-bad-for-your-site-and-for-the-web-e4d060a4ff31)
 - [Presa Diretta "riprendiamoci i nostri dati"](https://www.raiplay.it/video/2020/03/speciale-tg1-ad78f734-b4af-443b-ad3f-08bf9194b9fb.html)
 
-<br>
-<br>
+<br />
+<br />
 
 ## RESOURCES || TOOLS
 

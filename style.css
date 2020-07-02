@@ -169,7 +169,7 @@ strong, b {
 	text-align: center;
 	margin-bottom: var(--mastodon)
 }
-.page-description {
+.page-header p {
 	margin: 0 auto;
 	width: 80%
 }
@@ -708,9 +708,11 @@ nav ul li ul li a {
 	font-weight: 700;
 	font-size: var(--big)
 }
-
 #stuff-tree {
 	margin: var(--margin) calc(100% / 3)
+}
+#comments {
+	display: none
 }
 
 /* FOOTER */
@@ -744,8 +746,7 @@ footer p:focus {
 #social-box {
 	margin: var(--morethan-regular) auto
 }
-.button {
-	display: inline;
+.button, button {
 	height: var(--height);
 	line-height: var(--height);
 	font-size: var(--bigger);
@@ -754,6 +755,9 @@ footer p:focus {
 	transition: var(--quicktrans);
 	text-transform: uppercase;
 	hyphens: none
+}
+.button {
+	display: inline;
 }
 .button:hover, .button:focus {
 	transform: scale(1.1)

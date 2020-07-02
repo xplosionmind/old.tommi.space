@@ -3,8 +3,8 @@ permalink: /resources
 title: "Learning resources"
 categories: geek
 toc: 0
+description: "A comprehensive list of great online learning resources. Official documentation is not included, since it can usually be found with a quick and trivial research."
 ---
-A comprehensive list of great online learning resources. Official documentation is not included, since it can usually be found with a quick and trivial research.
 
 ## Geek stuff
 

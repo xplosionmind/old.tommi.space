@@ -3,8 +3,8 @@ title: "Terminal commands"
 permalink: /cmd
 categories: geek
 toc: 0
+description: "A list of MacOS / UNIX terminal commands which are too complex or rarely used to be remembered, but useful enough to be noted."
 ---
-A list of MacOS / UNIX terminal commands which are too complex or rarely used to be remembered, but useful enough to be noted.
 
 <br />
 <br />

@@ -99,3 +99,35 @@ permalink: "/:title"
 		</div>
 	</div>
 </div>
+
+<script>
+	function show-comments() {
+		var comments = document.getElementById("comments");
+		if (comments.style.display === "none") {
+   			comments.style.display = "block";
+		}
+		else {
+			comments.style.display = "none";
+		}
+	}
+</script>
+
+<div class="row">
+	<div class="one column">
+		<button onclick="show-comments()" title="show comments">Comments</button>
+	</div>
+</div>
+
+<div class="row" id="comments">
+	<div class="one column">
+		<script src="https://utteranc.es/client.js"
+				repo="xplosionmind/xplosionmind"
+    			issue-term="title"
+    			label="comment"
+    			theme="github-dark"
+    			crossorigin="anonymous"
+    			async>
+		</script>
+	</div>
+</div>
+<br />
