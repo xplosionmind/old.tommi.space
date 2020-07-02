@@ -1,7 +1,8 @@
 ## WIP
 
-Work in progress pages, excluded the ones already in the [drafts folder](./_drafts)
+Work in progress pages:
 
+- [drafts folder](./_drafts)
 - [Radioimmaginaria comprehensive list](./pages/radioimmaginaria-database.md) of episodes I’m in
 - [Database of my brain](./_jar/2020-06-04-brain-database.md), list of all the stuff I know and need to know
 - [deGoogle](./_jar/2020-06-03-deGoogle.md) Jar item
@@ -21,21 +22,27 @@ Work in progress pages, excluded the ones already in the [drafts folder](./_draf
 		- concerti
 		- conferenze
 
+
+
+
 ## FEATURES CHECKLIST
 
 A walkthrough of the website creation is [here](https://xplosionmind.tk/themakingof)
 
 - [ ] access post category colour (and how conflicts are managed if the post has more than one category) in posts list
 - [ ] add a “première” section to [everyone](./everyone) page
+- [ ] add categories list also in the Jar
 - [ ] Analytics (temporarily set up with goatcounter)
-- [ ] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Testing [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue]()
+- [ ] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Testing [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51)
 - [ ] back to top button
-- [ ] “blogroll”: a list of blogs which inspire me, see [Pawlean](https://pawlean.com/blogroll)
 - [ ] checkbox styling
 - [ ] Copyright specifications
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
 - [ ] downloadable portfolio pdf
+- [ ] getting ready for a sudden blog posts increase
+	- [ ] paginate
+	- [ ] add more and more specific categories
 - [ ] global search button
 - [ ] global neumorphism redesign
 - [ ] Newsletter
@@ -53,7 +60,7 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 	- [x] Post date
 - [ ] share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
 - [ ] [Typography](https://xplosionmind.tk/typography)
-	- [ ] letter spacing, line height, etc.
+	- [ ] final letter spacing, line height, etc.
 	- [ ] [Custom font](https://xplosionmind.tk/Typography#Custom-font) implementation
 - [ ] visioni
     - [ ] unsorted photos randomly moving
@@ -62,6 +69,7 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 - [x] Animations (little and simple but effective)
 	- [x] buttons: `x`s and menus (see tokyo-voice.jp or traxmag.com)
 - [x] basic coloured biiig shapes
+- [x] “blogroll”: a list of blogs which inspire me, see [Pawlean](https://pawlean.com/blogroll)
 - [x] change mobile browser bar colour
 - [x] custom selection colour for text
 - [x] customise 404 page
@@ -74,10 +82,7 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 - [x] `id` anchor links
 - [x] inline code styling
 - [x] input fields styling
-- [x] language switch
-- [x] `letter-spacing` and `word spacing` (it's nice as it is)
-- [x] light/dark mode switch button (I'm deep and dark / I'm bright and shiny)
-- [x] list of belonging categories at the top of the post page
+- [x] language switch [x] `letter-spacing` and `word spacing` (it's nice as it is) [x] light/dark mode switch button (I'm deep and dark / I'm bright and shiny) [x] list of belonging categories at the top of the post page
 - [x] Mobile optimisation
 - [x] Privacy Policy
 - [x] RSS Feed
@@ -88,14 +93,14 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 - [x] SVG buttons
 - [x] [table of contents](https://github.com/allejo/jekyll-toc)
 
-### CREATIVE IDEAS
 
-- everything center-aligned, also on desktop
-- colour palettes improvement
 
-### EXPERIMENTS
+
+### CREATIVE IDEAS &&/|| EXPERIMENTS 
 
 - DESKTOP: floating “categories” column on the right
-- Generative Art
-	- always-changing colors
+- [Generative Art](http://tholman.com/post/generative-art-speedrun/)
+	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/)
 	- Explaination page
+- everything center-aligned, also on desktop
+- colour palettes improvement
