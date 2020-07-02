@@ -380,11 +380,8 @@ article {
 	padding: var(--bigger) 0;
 	transition: var(--trans)
 }
-.jar-preview {
-	padding: var(--regular) 0;
-}
 .poetry-preview {
-	text-align: center;
+	text-align: center
 }
 .jar-preview:hover {
 	background: var(--razzmatazz);
@@ -392,9 +389,7 @@ article {
 	color: white
 }
 .jar-preview .line {
-	background: var(--razzmatazz);
-	margin: var(--tiny) 0;
-	width: 5%
+	background: var(--razzmatazz)
 }
 .poetry-preview .line {
 	background: var(--blue);
@@ -406,12 +401,25 @@ article {
 	transition: var(--trans);
 	color: white
 }
-.preview:hover,
-.preview:focus {
+.preview:hover, .preview:focus {
 	background: var(--primary);
 	color: var(--background);
 	transition: var(--trans);
 	padding: var(--bigger) var(--lessthan-regular)
+}
+.jar-preview:hover, .jar-preview:focus {
+	 background: var(--razzmatazz);
+	 transition: var(--trans)
+}
+.jar-preview:hover .post-title {
+	padding-left: var(--bigger);
+	transition: var(--trans)
+}
+.jar-preview .post-title {
+	transition: var(--trans)
+}
+.jar-preview .half:nth-child(2) {
+	padding: 0 var(--regular)
 }
 .gallery-preview {
 	display: flex;
@@ -660,6 +668,10 @@ nav ul li ul li a {
 	.jar-preview .line {
 		margin: var(--tiny) auto
 	}
+	.jar-preview .half {
+		text-align: center;
+		padding: 0 10%
+	}
 }
 
 #nav-toggle {
@@ -700,9 +712,6 @@ nav ul li ul li a {
 	transform: rotate(-45deg)
 }
 /* SOCIAL SHARING BUTTONS */
-#sharing-box {
-	margin-bottom: var(--margin)
-}
 #sharing-box div {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -713,6 +722,10 @@ nav ul li ul li a {
 }
 #comments {
 	display: none
+}
+#comments-button {
+	display: block;
+	margin: var(--regular) auto
 }
 
 /* FOOTER */

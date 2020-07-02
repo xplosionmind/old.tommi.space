@@ -7,10 +7,8 @@ ref: jar
 <div class="page-header row">
 	<div class="one column">
 		<h1>La Marmellata</h1>
-		<div class="page-description" style="margin-bottom: var(--margin);">
-
+		<div style="margin-bottom: var(--margin);">
 		<p>Ci sono cose che scopro e porca puzzola avrei voluto sapere prima, o cose che semplicemente non riesco a non condividere ma non sono abbastanza per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
-
 		<p>Prendo tutte queste cose e, non avendo tempo per prepararle bene e svilupparci un pensiero, le metto ne <em>La Marmellata</em>.
 		<p>Ogni puntino qui sotto è un ingrediente de <em>La Marmellata</em>, fatene buon uso, senza esagerare. (non mi assumo responsabilità sulla potenza delle cose che ci sono dentro)</p>
 		</div>
@@ -20,12 +18,17 @@ ref: jar
 {% assign jar = site.jar | reverse %}
 {% for note in jar %}
 <a href="{{ note.url }}">
-	<div class="row jar-preview">
-		<div class="one column">
-			<h2 class="post-title">{{ note.title }}</h2>
-				<div class="line"></div>
+	<div class="row">
+		<div class="one column jar-preview">
+			<div class="half column">
+				<h2 class="post-title">{{ note.title }}</h2>
+			</div>
+			<div class="half column">
+				{{ note.description }}
+			</div>
 		</div>
 	</div>
+	<div class="line" style="background: var(--razzmatazz)"></div>
 </a>
 {% endfor %}
 

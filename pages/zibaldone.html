@@ -30,19 +30,19 @@ ref: blog
 </div>
 
 {% for post in site.posts %}
-	<a href="{{ post.url }}">
-		<div class="row">
-			<div class="one column preview">
-				<div class="four-fifths column">
-					<h2 class="post-title">{{ post.title }}</h2>
-				</div>
-				<div class="one-fifth column date">
-					{{ post.date | date: "%d %B %Y" }}
-				</div>
+<a href="{{ post.url }}">
+	<div class="row">
+		<div class="one column preview">
+			<div class="four-fifths column">
+				<h2 class="post-title">{{ post.title }}</h2>
+			</div>
+			<div class="one-fifth column date">
+				{{ post.date | date: "%d %B %Y" }}
 			</div>
 		</div>
-		<div class="line"></div>
-	</a>
+	</div>
+	<div class="line"></div>
+</a>
 {% endfor %}
 
 <br />

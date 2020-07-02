@@ -101,20 +101,20 @@ permalink: "/:title"
 </div>
 
 <script>
-	function show-comments() {
-		var comments = document.getElementById("comments");
-		if (comments.style.display === "none") {
-   			comments.style.display = "block";
+	function comments() {
+		var c = document.getElementById("comments");
+		if (c.style.display === "none") {
+   			c.style.display = "block";
 		}
 		else {
-			comments.style.display = "none";
+			c.style.display = "none";
 		}
 	}
 </script>
 
 <div class="row">
 	<div class="one column">
-		<button onclick="show-comments()" title="show comments">Comments</button>
+		<button onclick="comments()" id="comments-button" title="show comments">{% case page.lang %}{% when 'it' %}commenti{% else %}comments{% endcase %}</button>
 	</div>
 </div>
 

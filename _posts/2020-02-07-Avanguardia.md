@@ -2,6 +2,7 @@
 title: "L’avanguardia"
 permalink: /avanguardia
 img: "/images/2020-02-07-Avanguardia.jpg"
+code: "true"
 ---
 Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in
 quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su exercise.polito.it nella speranza di osservare un'ispirazione per risolvere un equazione.
