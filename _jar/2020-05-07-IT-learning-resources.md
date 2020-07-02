@@ -18,8 +18,12 @@ description: "A comprehensive list of great online learning resources. Official 
 - [Papers We Love](https://paperswelove.org/), a [repository](https://github.com/papers-we-love/papers-we-love) of academic computer science papers and a [community](https://github.com/papers-we-love/papers-we-love/wiki/Creating-a-PWL-chapter) who loves reading them.
 - [HTML and CSS](http://www.htmlandcssbook.com/), a book by Jon Duckett
 - [CSS - An Art, a Science, a Nightmare](https://www.taniarascia.com/overview-of-css-concepts/), a comprehensive wonderful article by Tania Rascia
-- [JavaScript and JQuery](http://www.javascriptbook.com/) a book by Jon Duckett
 - vim
-     - [Practical Vim](https://pragprog.com/book/dnvim/practical-vim) by Drew Neil
+    - [Practical Vim](https://pragprog.com/book/dnvim/practical-vim) by Drew Neil
 	- [VimCasts](vimcasts.org)
 	- [Vim subreddit](https://www.reddit.com/r/vim/)
+
+### JavaScript
+
+- [Derek Sivers’s guide](https://sivers.org/learn-js)
+- [JavaScript and JQuery](http://www.javascriptbook.com/) a book by Jon Duckett
