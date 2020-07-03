@@ -15,7 +15,9 @@
 	--smallem: 0.5em;
 	--lessthan-regular: 0.9rem;
 	--regular: 1.1rem;
+	--regular-em: 1.1em;
 	--morethan-regular: 1.3rem;
+	--morethan-regular-em: 1.3em;
 	--big: 1.6rem;
 	--big-em: 1.6em;
 	--bigger: 1.8rem;
@@ -104,20 +106,27 @@ mark {
 	right: var(--small);
 	z-index: 3
 }
-
-.toc ul li,article ul li {
-	list-style: square
+li {
+	line-height: var(--morethan-regular-em)
 }
-.toc ul li li,article ul li li {
-	list-style-type: "▫ "
+ul li {
+	list-style: square;
 }
-.toc ul li li li,article ul li li li {
+ol li, ul li {
+	margin-bottom: var(--lessthan-regular)
+}
+ul li li {
+	list-style-type: "▫ ";
+}
+ul li li, ol li li {
+	margin-bottom: 0
+}
+ul li li li {
 	list-style-type: "- "
 }
 
 .poetry, .post {
 	font: 400 var(--morethan-regular) "Merriweather", "Latin Modern Roman", Georgia, serif;
-	line-height: var(--bigger-em);
 	letter-spacing: 0.01rem
 }
 strong, b {
@@ -372,7 +381,6 @@ p {
 }
 article {
 	font-size: var(--morethan-regular);
-	line-height: var(--big-em);
 	padding: var(--twice) 10% var(--mastodon)
 }
 .preview, .jar-preview, .poetry-preview {
@@ -561,13 +569,14 @@ nav {
 	margin-right: var(--small)
 }
 nav ul {
-	list-style: none;
+	list-style: none !important;
 	margin: 0;
 	padding: 0
 }
 nav ul li {
 	float: left;
-	position: relative
+	position: relative;
+	list-style: none !important
 }
 nav ul li a, nav ul li a:visited {
 	display: block;

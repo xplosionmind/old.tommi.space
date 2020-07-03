@@ -5,6 +5,7 @@ permalink: /stuff-extended
 ref: stuffextended
 layout: page
 description: "This is a comprehensive reference list of events, interviews, shows, talks, initiatives, projects I attended, hosted or organised."
+toc: "true"
 ---
 ## Musica live
 
