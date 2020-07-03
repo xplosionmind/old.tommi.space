@@ -243,6 +243,8 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 - dal 2014 al 2018 ho partecipato agli allenamenti (anche alle gare, ma con risultati affatto lusinghieri) delle Olimpiadi di Matematica e della [Coppa Gauss a Squadre](http://gauss.dima.unige.it/).
 - Sono un appassionatissimo ma non altrettanto perito giocatore di Dungeons & Dragons. La mia prima ed unica campagna fin ora è iniziata nell’ottobre 2015 ed è tuttora in corso. Il nostro Game Master si sta ispirando principalmente all’avventura di [Rise of the Runelords](https://pathfinderwiki.com/wiki/Rise_of_the_Runelords).
 - Dal 2015 al 2018 sono stato aiuto-catechista nel corso dei cresimandi della parrocchia di Santo Stefano al Mare
+- Il 20 giugno 2020 ho co-organizzato a Sanremo [*Twenty Shoes Against racism*](https://www.sanremonews.it/2020/06/20/leggi-notizia/argomenti/altre-notizie/articolo/sanremo-le-sardine-ponentine-a-pian-di-nave-per-levento-20-shoes-against-racism-foto.html) l’evento di [6000sardine Ponentine](https://www.facebook.com/6000sardineponentine/) contro il razzismo
+	- [immagini](https://flic.kr/s/aHsmP1XwS6)
 
 <br />
 <br />

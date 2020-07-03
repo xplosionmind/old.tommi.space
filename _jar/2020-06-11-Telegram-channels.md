@@ -4,8 +4,8 @@ ref: telegram-channels
 title: "Canali e gruppi Telegram"
 toc: 0
 code: 0
+description: "Tutti i canali e i gruppi pubblici su Telegram a cui sono iscritto e che regolarmente leggo."
 ---
-Tutti i canali e i gruppi pubblici su Telegram a cui sono iscritto e che regolarmente leggo.
 
 - [**CICAP**](https://t.me/CICAP_canale_ufficiale), il Comitato Italiano per il Controllo delle Affermazioni sulle Pseudoscienze.
 	

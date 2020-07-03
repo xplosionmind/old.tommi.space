@@ -3,8 +3,9 @@ title: "Compagni di viaggio"
 permalink: /oggetti
 lang: it
 code: 0
+description: "Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi."
 ---
-Ci sono alcuni oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi. È un comportamento che sembra esagerato, ma sono così affezionato loro, che, più che essere parte di me, sono diventati dei veri e propri compagni di viaggio. Per questo motivo ho deciso di registrare qui le loro generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.
+È un comportamento che sembra esagerato, ma sono così affezionato loro, che, più che essere parte di me, sono diventati dei veri e propri compagni di viaggio. Per questo motivo ho deciso di registrare qui le loro generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.
 
 Sapete bene tutti quanto io sia appassionato, quasi ossessionato, dalle storie: mi sono sempre rifiutato di indossare vestiti e indumenti o utilizzare oggetti che non avessero un perché o una particolare relazione con me, se non il fatto che mi piacessero e li avessi acquistati o ricevuti in dono. Incredibilmente, tutti quelli ricordati qui, io stesso mi sorprendo quando ci penso, hanno una storia incredibile e sono stati protagonisti di peripezie straordinarie. Sarà dunque un po’ triste per me rievocare quando e come ho perso le tracce di ciascuno, ma, almeno, saranno ricordati per sempre.
 
