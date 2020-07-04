@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c7f3a969-424a-450b-8636-2d477af82e76/deploy-status)](https://app.netlify.com/sites/xplosionmind/deploys)
+
 ## WIP
 
 Work in progress pages:
@@ -39,7 +41,9 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 - [ ] Copyright specifications
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
+- [ ] [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
 - [ ] downloadable portfolio pdf
+- [ ] get rid of jQuery (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time)
 - [ ] getting ready for a sudden blog posts increase
 	- [ ] paginate
 	- [ ] add more and more specific categories
