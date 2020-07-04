@@ -730,7 +730,9 @@ nav ul li ul li a {
 	margin: var(--margin) calc(100% / 3)
 }
 #comments {
-	display: none
+	display: none;
+	visibility: hidden;
+	transition: var(--trans) sliding-vertically
 }
 #comments-button {
 	display: block;

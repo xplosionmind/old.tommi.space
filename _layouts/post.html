@@ -105,9 +105,13 @@ permalink: "/:title"
 		var c = document.getElementById("comments");
 		if (c.style.display === "none") {
    			c.style.display = "block";
+   			c.style.visibility = "visible";
+			c.style.opacity = "1";
 		}
 		else {
 			c.style.display = "none";
+			c.style.visibility = "hidden";
+			c.style.opacity = "0";
 		}
 	}
 </script>
