@@ -90,7 +90,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-target-blank
-  nokogiri
   tzinfo
   tzinfo-data
 
