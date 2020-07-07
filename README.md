@@ -53,6 +53,7 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 	- [x] subscribe button
 	- [ ] back-end implementation
 	- [ ] Mailtrain || listmonk setup
+- [ ] [Now page](https://sivers.org/now)
 - [ ] `head` include (is this good for performance?)
 - [ ] page image preview when sending link, see the [Open Graph Protocol](https://ogp.me/)
 - [x] Poetry
