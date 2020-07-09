@@ -183,7 +183,10 @@ strong, b {
 	width: 80%
 }
 .toc {
-	margin: 0 10% var(--morethan-regular)
+	margin: 0 10% var(--regular)
+}
+.toc ul li {
+	margin-bottom: var(--small)
 }
 .categories {
 	overflow-x: scroll;

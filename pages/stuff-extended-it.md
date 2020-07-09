@@ -245,6 +245,7 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 - Dal 2015 al 2018 sono stato aiuto-catechista nel corso dei cresimandi della parrocchia di Santo Stefano al Mare
 - Il 20 giugno 2020 ho co-organizzato a Sanremo [*Twenty Shoes Against racism*](https://www.sanremonews.it/2020/06/20/leggi-notizia/argomenti/altre-notizie/articolo/sanremo-le-sardine-ponentine-a-pian-di-nave-per-levento-20-shoes-against-racism-foto.html) l’evento di [6000sardine Ponentine](https://www.facebook.com/6000sardineponentine/) contro il razzismo
 	- [immagini](https://flic.kr/s/aHsmP1XwS6)
+- dal 5 al 13 luglio 2020 ho partecipato al workshop di giornalismo de [Il Post](https://ilpost.it) a Pecciol a Pecciolii
 
 <br />
 <br />
