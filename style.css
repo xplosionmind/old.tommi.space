@@ -37,8 +37,8 @@ html {
 
 /* DARK THEME */
 body {
-	--background: black;
-	--background2: var(--black-ish);
+	--background: var(--black-ish);
+	--background2: var(--dark-grey);
 	--text: var(--white-ish);
 	--link: var(--primary);
 	--primary: var(--yellow);
