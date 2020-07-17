@@ -1,25 +1,23 @@
 ---
-title: "stuff extended"
-lang: en
-permalink: /stuff-extended
-ref: stuffextended
-layout: page
-description: "This is a comprehensive reference list of events, interviews, shows, talks, initiatives, projects I attended, hosted or organised."
+title: "di tutto e di più"
+lang: it
+permalink: /tuttopiu
+description: Dato che per mia natura e vocazione finisco sempre in mezzo a una miriade di iniziative e progetti fantastici, mi trovo a partecipare o organizzare o condurre moltissimi piccoli eventi o interviste o incontri, e sono talmente tanti che alla fine rischio di dimenticarmeli e non riuscire più a trovarli. Per questo, proverò a tenere aggiornata questa lista di riferimento con tutto ciò a cui ho partecipato, attivamente o come spettatore, inserendo collegamenti a pagine, foto e informazioni.<br /><br />Alcuni album di foto potrebbero essere privati. Scrivetemi un’email se avete partecipato e desiderate accedere.
 toc: "true"
 ---
 ## Musica live
 
 Se ogni tanto non organizzo qualche piccola seratina di buona musica nel ponente ligure (casa mia) vado in astinenza e impazzisco.
 
-- 9 luglio 2019, <a href="https://www.facebook.com/events/318752479011472/" rel="noopener" target="_blank">**Il mio CUBO suona il Rock**</a> al <a href="https://www.instagram.com/ilcuboofficial/" rel="noopener" target="_blank">CUBO</a>
-	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157709602897386" rel="noopener" target="_blank">foto</a>
-	- <a href="https://www.facebook.com/QuelDuoLi/videos/2333791650275489/" rel="noopener" target="_blank">video teaser</a>
-	- <a href="https://vimeo.com/347306203" rel="noopener" target="_blank">video intervista</a>
+- 9 luglio 2019, <a href="https://www.facebook.com/events/318752479011472/" rel="noopener noreferrer" target="_blank">**Il mio CUBO suona il Rock**</a> al <a href="https://www.instagram.com/ilcuboofficial/" rel="noopener noreferrer" target="_blank">CUBO</a>
+	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157709602897386" rel="noopener noreferrer" target="_blank">foto</a>
+	- <a href="https://www.facebook.com/QuelDuoLi/videos/2333791650275489/" rel="noopener noreferrer" target="_blank">video teaser</a>
+	- <a href="https://vimeo.com/347306203" rel="noopener noreferrer" target="_blank">video intervista</a>
 	- articoli e comunicati
-		- <a href="https://web.archive.org/web/20200524174632/https://www.rivieratime.news/sanremo-tutto-pronto-per-il-mio-cubo-suona-il-rock-musica-live-con-quel-duo-li-e-cantiere-164/" rel="noopener" target="_blank">Rivieratime</a>
-		- <a href="https://web.archive.org/web/20200524175136/https://www.sanremonews.it/2019/07/08/leggi-notizia/argomenti/eventi-1/articolo/sanremo-domani-il-mio-cubo-suona-il-rock-con-il-live-di-quel-duo-li-e-cantiere-164-video.html" rel="noopener" target="_blank">Sanremonews</a>
-- 27 dicembre 2019, <a href="https://www.facebook.com/events/318752479011472/" rel="noopener" target="_blank">**A little Christmas show**</a>, organizzato con i miei amici squinternati del <a href="/tutto#club-tenco" target="_blank">Club Tenco</a>
-	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157712420326831" rel="noopener" target="_blank">foto</a>
+		- <a href="https://web.archive.org/web/20200524174632/https://www.rivieratime.news/sanremo-tutto-pronto-per-il-mio-cubo-suona-il-rock-musica-live-con-quel-duo-li-e-cantiere-164/" rel="noopener noreferrer" target="_blank">Rivieratime</a>
+		- <a href="https://web.archive.org/web/20200524175136/https://www.sanremonews.it/2019/07/08/leggi-notizia/argomenti/eventi-1/articolo/sanremo-domani-il-mio-cubo-suona-il-rock-con-il-live-di-quel-duo-li-e-cantiere-164-video.html" rel="noopener noreferrer" target="_blank">Sanremonews</a>
+- 27 dicembre 2019, <a href="https://www.facebook.com/events/318752479011472/" rel="noopener noreferrer" target="_blank">**A little Christmas show**</a>, organizzato con i miei amici squinternati del <a href="/tutto#club-tenco" target="_blank">Club Tenco</a>
+	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157712420326831" rel="noopener noreferrer" target="_blank">foto</a>
 
 <br />
 <br />
@@ -29,7 +27,7 @@ Se ogni tanto non organizzo qualche piccola seratina di buona musica nel ponente
 Con e grazie a <a href="/tutto#radioimmaginaria" target="_blank">Radioimmaginaria</a> ho fatto la maggior parte degli eventi più belli e indimenticabili della mia vita. Nel 2016 e 2017 sono stato eletto Capo COdA, capo del Consiglio delle Antenne.
 
 - dal 21 al 24 febbraio 2014, **Festival di Sanremo 2014**
-	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157710372663917" rel="noopener" target="_blank">foto</a>
+	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157710372663917" rel="noopener noreferrer" target="_blank">foto</a>
 	- <a href="/rimm-db#festival-di-sanremo-2014" target="_blank">puntate</a>
 - dal 25 al 31 agosto 2014, **Radiocampo GreenTeen 2014**, Riccione
 	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157710372805037" rel="noopener noreferrer" target="_blank">foto</a>
@@ -37,7 +35,7 @@ Con e grazie a <a href="/tutto#radioimmaginaria" target="_blank">Radioimmaginari
 - dal al febbraio 2015, **Festival di Sanremo 2015**
 	- [puntate](/rimm-db#festival-di-sanremo-2015)
 	- [foto](https://flic.kr/s/aHskvtuM9o)
-- il 5 agosto 2015 ho organizzato con la redazione di Radioimmaginaria Sanremo il mio primo evento in assoluto, l’<a href="https://www.facebook.com/events/917289898363949/" rel="noopener" target="_blank">**Ultra BEACH PARTY immaginario**</a>, a Riva Ligure
+- il 5 agosto 2015 ho organizzato con la redazione di Radioimmaginaria Sanremo il mio primo evento in assoluto, l’<a href="https://www.facebook.com/events/917289898363949/" rel="noopener noreferrer" target="_blank">**Ultra BEACH PARTY immaginario**</a>, a Riva Ligure
 - dal 23 al 31 agosto e dal 29 al 31 ottobre 2015, **EXPO Milano 2015**
 	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157710391363066" rel="noopener noreferrer" target="_blank">foto</a>
 	- <a href="/rimm-db#EXPO-Milano-2015" target="_blank">puntate</a>
@@ -63,7 +61,7 @@ Con e grazie a <a href="/tutto#radioimmaginaria" target="_blank">Radioimmaginari
 	- <a href="/rimm-db#radiocity-2016" target="_blank" rel="noopener noreferrer">puntate</a>
 - dal 13 al 15 maggio 2016, **Missione a Londra**: sono andato con le mitiche Flora e Amalia in quel di Londra a salvare la redazione di Radioimmaginaria Londra
 	- <a href="https://www.spreaker.com/user/ariaimmaginaria/italy-meets-london" rel="noopener noreferrer" target="_blank">puntata</a>
-	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157710719709951" rel="noopener" target="_blank">foto</a>
+	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157710719709951" rel="noopener noreferrer" target="_blank">foto</a>
 - dal 15 al 24 luglio 2016, **<a href="https://giffonifilmfestival.it/" rel="noopener noreferrer" target="_blank">Giffoni Film Festival</a> 2016**
 	- foto
 		- <a href="https://flic.kr/s/aHskK5eqx3" rel="noopener noreferrer" target="_blank">album di Radioimmaginaria</a>
@@ -90,7 +88,7 @@ Con e grazie a <a href="/tutto#radioimmaginaria" target="_blank">Radioimmaginari
 - 30 marzo 2017, l’**intervista** ai [Cantiere 164](https://www.facebook.com/Cantiere164) fu l’inizio di una grande stima e amicizia reciproca
 	- [foto](https://www.flickr.com/photos/tommiboom/albums/72157710733018483)
 	- [puntata](https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo)
-- dal 20 al 25 agosto 2017 ho programmato e organizzato tutti gli appuntementi del <a href="https://www.facebook.com/events/1356117211103947/" rel="noopener" target="_blank">**Radiocampo immaginario**</a> a Riva Ligure.
+- dal 20 al 25 agosto 2017 ho programmato e organizzato tutti gli appuntementi del <a href="https://www.facebook.com/events/1356117211103947/" rel="noopener noreferrer" target="_blank">**Radiocampo immaginario**</a> a Riva Ligure.
 	- [articolo](https://www.riviera24.it/2017/08/a-riva-ligure-ce-radioimmaginaria-per-il-radiocampo-263655/) su Riviera24
 	- [un video bellissimo](https://vimeo.com/radioimmaginaria/comeguadagnare)
 - il 6 e 7 settembre 2017, [**Teen Parade**](https://vimeo.com/radioimmaginaria/tparade2017), Bologna Fiere
@@ -245,6 +243,7 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 - Dal 2015 al 2018 sono stato aiuto-catechista nel corso dei cresimandi della parrocchia di Santo Stefano al Mare
 - Il 20 giugno 2020 ho co-organizzato a Sanremo [*Twenty Shoes Against racism*](https://www.sanremonews.it/2020/06/20/leggi-notizia/argomenti/altre-notizie/articolo/sanremo-le-sardine-ponentine-a-pian-di-nave-per-levento-20-shoes-against-racism-foto.html) l’evento di [6000sardine Ponentine](https://www.facebook.com/6000sardineponentine/) contro il razzismo
 	- [immagini](https://flic.kr/s/aHsmP1XwS6)
+- dal 5 al 13 luglio 2020 ho partecipato al workshop di giornalismo de [Il Post](https://ilpost.it) a Peccioli. Ho scritto [questo articolo](https://www.ilpost.it/2020/07/12/sgomberi-bogota-coronavirus/)
 
 <br />
 <br />

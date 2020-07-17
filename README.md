@@ -27,14 +27,8 @@ Work in progress pages:
 
 pages to be created:
 
-- Wishlist
 - Playlist
 - Books passages
-
-
-
-
-
 
 
 ## FEATURES CHECKLIST
@@ -58,8 +52,8 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 	- [ ] paginate
 	- [ ] add more and more specific categories
 - [ ] global search button
-- [ ] global neumorphism redesign
 - [ ] move `stuff extended` to `The Jar`
+- [ ] neumorphism redesign
 - [ ] Newsletter
 	- [x] subscribe button
 	- [ ] back-end implementation
