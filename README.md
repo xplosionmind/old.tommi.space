@@ -23,11 +23,12 @@ Work in progress pages:
 		- teatro
 		- concerti
 		- conferenze
+- [Playlist](./_jar/2020-07-17-Playlist.md)
 
 
 pages to be created:
 
-- Playlist
+- Movies
 - Books passages
 
 
