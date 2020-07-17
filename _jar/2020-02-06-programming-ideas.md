@@ -18,3 +18,4 @@ description: "There are tools which it would be so useful for me to have but I c
 		- instantaneous automatic transcription (some type of progressive one, which could analyze the few seconds the user just recorded and immediately parse the text, such that if the one who is recording has lost track of the argument can read his last sentences)
 - a program which sums the length of each audio sent and received (and listened), summing up the time spent recording and listening to audio messages.
 - a program which calculate a percentage of how much each person speak in a call / video-call, like some sort of “ball possession” percentage in soccer games.
+- ***Shadow map plugin***, a plugin to add to OsmAnd (or OpenStreetMap) and Google Maps which shows the buildings’ shadows during different times of the day. Useful in hot and sunny days not to burn as hell.
