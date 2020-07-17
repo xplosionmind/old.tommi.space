@@ -24,6 +24,8 @@ Work in progress pages:
 		- concerti
 		- conferenze
 - [Playlist](./_jar/2020-07-17-Playlist.md)
+- [Cinema](./_jar/2020-07-10-Cinema.md)
+- add a “première” section to [everyone](./everyone) page
 
 
 pages to be created:
@@ -37,7 +39,6 @@ pages to be created:
 A walkthrough of the website creation is [here](https://xplosionmind.tk/themakingof)
 
 - [ ] access post category colour (and how conflicts are managed if the post has more than one category) in posts list
-- [ ] add a “première” section to [everyone](./everyone) page
 - [ ] add categories list also in the Jar
 - [ ] Analytics (temporarily set up with goatcounter)
 - [ ] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Testing [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51)
@@ -47,13 +48,11 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
 - [ ] [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
-- [ ] downloadable portfolio pdf
 - [ ] get rid of jQuery (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time)
 - [ ] getting ready for a sudden blog posts increase
 	- [ ] paginate
 	- [ ] add more and more specific categories
 - [ ] global search button
-- [ ] move `stuff extended` to `The Jar`
 - [ ] neumorphism redesign
 - [ ] Newsletter
 	- [x] subscribe button
@@ -76,6 +75,7 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 - [ ] visioni
     - [ ] unsorted photos randomly moving
     - [ ] horizontal instead of vertical scrolling of the gallery
+	- [ ] downloadable portfolio pdf
 
 - [x] Animations (little and simple but effective)
 	- [x] buttons: `x`s and menus (see tokyo-voice.jp or traxmag.com)
@@ -95,6 +95,7 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 - [x] input fields styling
 - [x] language switch [x] `letter-spacing` and `word spacing` (it's nice as it is) [x] light/dark mode switch button (I'm deep and dark / I'm bright and shiny) [x] list of belonging categories at the top of the post page
 - [x] Mobile optimisation
+- [x] move `stuff extended` to `The Jar`
 - [x] Privacy Policy
 - [x] RSS Feed
 - [x] separate website/repo/domain for web and online resources or for geek stuff in general (configured as _[The Jar](https://xplosionmind.tk/jar)_)
