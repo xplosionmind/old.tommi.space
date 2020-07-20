@@ -1,5 +1,5 @@
 :root {
-	--black-ish: #111;
+	--black-ish: #1B1B1B;
 	--white-ish: #E0E0E0;
 	--dark-grey: #222;
 	--light-grey: #BBB;
@@ -520,7 +520,6 @@ p a:hover, p a:focus, article li a:hover, article li a:focus {
 	opacity: 0.8
 }
 footer {
-	background: var(--grey);
 	margin-bottom: var(--small);
 	width: 98%;
 	margin-left: 1%;
