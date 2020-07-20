@@ -26,6 +26,7 @@ Work in progress pages:
 - [Playlist](./_jar/2020-07-17-Playlist.md)
 - [Cinema](./_jar/2020-07-10-Cinema.md)
 - add a “première” section to [everyone](./everyone) page
+- [Around the World](./_jar/2020-07-20-Around-the-world.md)
 
 
 pages to be created:
