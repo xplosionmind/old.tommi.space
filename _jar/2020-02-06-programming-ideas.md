@@ -1,8 +1,7 @@
 ---
-title: "Programming ideas"
 categories: geek
 toc: 0
-description: "There are tools which it would be so useful for me to have but I can’t find the right scripts/programs/apps to accomplish the missing tools’ purposes."
+description: There are tools which it would be so useful for me to have but I can’t find the right scripts/programs/apps to accomplish the missing tools’ purposes.
 ---
 
 - having a way to restore several old windows sessions of a browser, with all the tabs (not just the last one), some sort of batch reopen.
@@ -19,3 +18,4 @@ description: "There are tools which it would be so useful for me to have but I c
 - a program which sums the length of each audio sent and received (and listened), summing up the time spent recording and listening to audio messages.
 - a program which calculate a percentage of how much each person speak in a call / video-call, like some sort of “ball possession” percentage in soccer games.
 - ***Shadow map plugin***, a plugin to add to OsmAnd (or OpenStreetMap) and Google Maps which shows the buildings’ shadows during different times of the day. Useful in hot and sunny days not to burn as hell.
+- **Scale app**: an app which is capable of weighting stuff by reading an object's pressure on a touch screen
