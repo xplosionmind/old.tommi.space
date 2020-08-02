@@ -1,9 +1,9 @@
 ---
 permalink: /internet-freedom
-title: "Internet Freedom Manifesto notes"
-description: "There are literally a ton of collectives and associations around the world which fight for internet freedom and users' rights, but I believe everything should start from the user’s end. Here there are my notes and thoughts to write the <em>Internet Freedom Manifesto</em>."
+description: 'There are literally a ton of collectives and associations around the world which fight for internet freedom and users'' rights, but I believe everything should start from the user’s end. Here there are my notes and thoughts to write the <em>Internet Freedom Manifesto</em>'
 code: 0
 ---
+
 I’m sorry: content in this page may be both in English and Italian, these are actual notes on which the Manifesto will be based, so they’re pretty random and messed up.
 {:.yellow .warning}
 
@@ -36,6 +36,7 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 - sensibilizzare
 - discutere
 - decentralizzazione
+<<<<<<< HEAD
 - non più solo mezzo, anche fine
 - semplicità vs semplificazione
 
@@ -84,3 +85,6 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 
 - Giffoni Film Festival
 - Radioimmaginaria
+=======
+- non più solo mezzo, anche fine
+>>>>>>> 31843108327d6cb55cba3c9081d83a467e4e918f

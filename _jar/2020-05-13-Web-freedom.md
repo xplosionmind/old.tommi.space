@@ -40,6 +40,8 @@ This is sort of a bucket where I copy-paste links to insightful articles and vid
 	- [replace social media with RSS](https://lukesmith.xyz/blog/a-guide-to-using-rss-to-replace-social-media)
 - [Open Media Codecs](https://research.mozilla.org/av1-media-codecs/)
 - [Google Watches You](https://mobile.reuters.com/article/amp/idUSKCN24F2N4?__twitter_impression=true)
+- [PolitePol](https://politepol.com/): create an RSS feed for any page
+-  [Movim](https://movim.eu/), social
 
 <br />
 <br />
