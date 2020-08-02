@@ -93,8 +93,8 @@ ref: home
 	{% endfor %}
 </div> -->
 
-	<a href="/tutto"><h2 class="section-title">progetti recenti</h2></a>
-	
+	<a href="/tutto"><h2 class="section-title">progetti in evidenza</h2></a>
+
 	{% assign stuff = site.stuff | where: "lang", page.lang | where: "featured", true %}
 	{% for thing in stuff %}
 		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">

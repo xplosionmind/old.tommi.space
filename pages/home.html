@@ -98,7 +98,7 @@ ref: home
 	{% endfor %}
 </div> -->
 
-<a href="/stuff"><h2 class="section-title">recent stuff</h2></a>
+<a href="/stuff"><h2 class="section-title">Featured stuff</h2></a>
 
 {% assign stuff = site.stuff | where: "lang", page.lang | where: "featured", true %}
 {% for thing in stuff %}
