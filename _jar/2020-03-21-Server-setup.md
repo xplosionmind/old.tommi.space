@@ -1,6 +1,5 @@
 ---
 title: "Server setup"
-permalink: /server-setup
 categories: geek
 code: "true"
 description: "A walktrough of the steps I executed to set up my server. More data and resources can be found in <a href='/server'>this</a> Jar item."

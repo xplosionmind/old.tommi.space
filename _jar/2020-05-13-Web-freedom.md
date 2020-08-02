@@ -1,7 +1,7 @@
 ---
-permalink: /freedom
 categories: geek
 toc: 0
+code: 0
 description: 'Everything inspiring, meaningful or particularly significant about web privacy I find online.'
 ---
 

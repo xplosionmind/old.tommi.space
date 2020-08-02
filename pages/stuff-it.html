@@ -4,85 +4,84 @@ lang: it
 permalink: /tutto
 ref: stuff
 ---
-	</style>
-	<div class="page-header">
-		<div class"row">
-			<div class="one column">
-				<h1>cose in giro</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="one column">
-				<div class="page-description">
-					<p>Qui c’è (quasi) tutto quello che faccio e che ho fatto. Progetti in cui sono stato coinvolto, idee, associazioni e sfide.<br />Se non bastasse, c’è <a href="/tuttopiu" target="_blank">di tutto e di più</a>.</p>
-				</div>
-			</div>
+<div class="page-header">
+	<div class"row">
+		<div class="one column">
+			<h1>cose in giro</h1>
 		</div>
 	</div>
-	
 	<div class="row">
-		<div class="one-third column" id="stuff-tree">
-			<h3>in sintesi</h3>
-			<ul>
-				{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
-				<li>cose attuali
-					<ul>
-						{% for thing in stuff %}
-							<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
-						{% endfor %}
-					</ul>
-				</li>
-				{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "false" %}
-				<li>cose precedenti
-					<ul>
-						{% for thing in stuff %}
-							<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
-						{% endfor %}
-					</ul></p>
-				</li>
-			</ul>
+		<div class="one column">
+			<div class="page-description">
+				<p>Qui c’è (quasi) tutto quello che faccio e che ho fatto. Progetti in cui sono stato coinvolto, idee, associazioni e sfide.<br />Se non bastasse, c’è <a href="/tuttopiu" target="_blank">di tutto e di più</a>.</p>
+			</div>
 		</div>
 	</div>
+</div>
+	
+<div class="row">
+	<div class="one-third column" id="stuff-tree">
+		<h3>in sintesi</h3>
+		<ul>
+			{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
+			<li>cose attuali
+				<ul>
+					{% for thing in stuff %}
+						<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</li>
+			{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "false" %}
+			<li>cose precedenti
+				<ul>
+					{% for thing in stuff %}
+						<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
+					{% endfor %}
+				</ul></p>
+			</li>
+		</ul>
+	</div>
+</div>
 
-	<h2 class="section-title">cose attuali</h2>
+<h2 class="section-title">cose attuali</h2>
 
-	{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
-	{% for thing in stuff %}
-		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
-			<div class="half column">
+{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
+{% for thing in stuff %}
+	<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
+		<div class="half column">
+			<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
+		</div>
+		<div class="half column stuff">
+			<div class="stuff-logo">
+				<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
+			</div>
+			<p>{{ thing.content }}</p>
+			<div class="link-container">
+				<a href="{{ thing.link }}" rel="noopener" target="_blank"><div class="link" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div></a>
+			</div>
+		</div>
+	</div>
+{% endfor %}
+
+<h2 class="section-title">cose precedenti</h2>
+	
+{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "false" %}
+{% for thing in stuff %}
+	<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
+		<div class="half column">
+			<div class="stuff-image">
 				<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
 			</div>
-			<div class="half column stuff">
-				<div class="stuff-logo">
-					<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-				</div>
-				<p>{{ thing.content }}</p>
-				<div class="link-container">
-					<a href="{{ thing.link }}" rel="noopener" target="_blank"><div class="link" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div></a>
-				</div>
+		</div>
+		<div class="half column stuff">
+			<div class="stuff-logo">
+				<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
+			</div>
+			<p>{{ thing.content }}</p>
+			<div class="link-container">
+				<a href="{{ thing.link }}" rel="noopener" target="_blank"><div class="link" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div></a>
 			</div>
 		</div>
-	{% endfor %}
-
-	<h2 class="section-title">cose precedenti</h2>
-	
-	{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "false" %}
-	{% for thing in stuff %}
-		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
-			<div class="half column">
-				<div class="stuff-image">
-					<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
-				</div>
-			</div>
-			<div class="half column stuff">
-				<div class="stuff-logo">
-					<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-				</div>
-				<p>{{ thing.content }}</p>
-				<div class="link-container">
-					<a href="{{ thing.link }}" rel="noopener" target="_blank"><div class="link" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div></a>
-				</div>
-			</div>
-		</div>
-	{% endfor %}
+	</div>
+{% endfor %}
 <a href="/tuttopiu"><h2 class="section-title" style="margin: var(--height) 1%;background: var(--secondary)">di tutto e di più</h2></a>

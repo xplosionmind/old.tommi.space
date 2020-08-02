@@ -1,6 +1,5 @@
 ---
 title: "A database of my brain"
-permalink: /brain-database
 lang: en
 code: 0
 description: "Maybe I’m just losing my time, but I believe it would be so nice if I could list out in this page <strong>all of the things I know</strong> and the ones I need or want to learn sooner or later."

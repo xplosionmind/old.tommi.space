@@ -1,6 +1,5 @@
 ---
 title: "Firefox tweaks"
-permalink: /firefox
 toc: 0
 code: "true"
 description: "I consider myself a Firefox power user: I love it and I take full advantage of its features. Here’s how I do it."

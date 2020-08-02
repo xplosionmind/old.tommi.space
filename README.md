@@ -2,6 +2,8 @@
 
 ## WIP
 
+- **FIX `/everyone` PERMALINK ISSUE**
+
 Work in progress pages:
 
 - [drafts folder](./_drafts)
@@ -49,6 +51,7 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
 - [ ] [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
+- [ ] Flickr APIs for embedded/integrated/automated galleries
 - [ ] get rid of jQuery (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time)
 - [ ] getting ready for a sudden blog posts increase
 	- [ ] paginate
@@ -69,6 +72,7 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 - [ ] Post header
 	- [ ] Post categories list
 	- [x] Post date
+- [ ] RSS Feeds management + Mailtrain automation
 - [ ] share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
 - [ ] [Typography](https://xplosionmind.tk/typography)
 	- [ ] final letter spacing, line height, etc.

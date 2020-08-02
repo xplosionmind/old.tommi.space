@@ -37,6 +37,37 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 - discutere
 - decentralizzazione
 - non più solo mezzo, anche fine
+- semplicità vs semplificazione
+
+<br />
+
+## Video spiegazione
+
+- perché
+    - partire dall'utente
+    - un luogo che raccolga TUTTI i motivi per cui i social proprietari sono dannosi, sotto ogni punto di vista
+    - perché di solito la divulgazione è ahtereferenziale, fra persone già interessate o del mestiere, o, semplicemente, nerd. Invece, siccome riguarda tutti, dovrebbe essere comprensibile e accessibile e conosciuto da tutti
+- obiettivi
+    - firmare su change.org per tenere traccia, a 500 000 persone, in massa usciamo
+    - creare una community che si ritrovi a scegliere di non usare più piattaforme proprietarie
+    - aziende, imprese, personaggi pubblici, pagine: quando il 60% dei propri followers si sarà spostato su alternative, si eliminerà la pagina.
+- alternative
+    - pro e contro
+        - fediverse, tutto connesso
+        - scarsa o assente moderazione o censura
+        - impossibilità di "promuovere post"
+        - completa trasparenza
+        - gestito da non profit o addirittura singoli
+        - chiunque può contribuire
+        - imperituri e impossibili da chiudere
+    - alternativeto.net
+- note
+    - non sono pagato
+    - non so perfettamente tutto. Ci sono persone che fanno questo da una vita e ancora non sono considerate. Chiunque può contribuire con miglioramenti e correzioni
+    - ma allora perché condividere e pubblicare questo proprio sui social che si vogliono abbandonare?
+         - se lo facessi già su piattaforme alternative, non avrebbe senso, perché raggiungerei coloro che già hanno consapevolezza, e non sarebbe nulal di nuovo per loro
+         - perché dobbiamo usare i social per distruggere i social / perché, su internet, ogni mezzo è lecito per salvare internet
+         - perché dobbiamo dare un forte segnale e rendere un contenuto virale, cosa difficile se non impossibile su altre piattaforme, poiché non hanno sufficienti utenti
 
 <br />
 

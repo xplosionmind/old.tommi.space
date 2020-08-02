@@ -1,10 +1,14 @@
+:root {
+	--text: white
+}
+
 body {
 	background: linear-gradient(135deg, #9DB5C1, #415462);
-	color: white;
 	font-family: Helvetica, "Helvatica Neue", Inter, sans-serif;
 	overflow-x: hidden;
 	line-break: loose;
 	cursor: auto; /* CREATE CUSTOM CURSOR */
+	font-weight: lighter;
 }
 
 .everyone {
@@ -17,7 +21,6 @@ body {
 	font-weight: lighter;
 	text-align: center;
 	margin-top: 0;
-	font-weight: lighter;
 	color: #D8E9F0;
 }
 	
@@ -96,5 +99,4 @@ p {
 	#imdb {
 		margin-bottom: 3rem;
 	}
-
 }
