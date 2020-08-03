@@ -279,7 +279,7 @@ unzip nextcloud-18.0.4.zip
 
 ### Install Let's Encrypt
 
-[Certbot] will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
+[Certbot](https://certbot.eff.org) will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
 ```
 sudo apt install certbot python3-certbot-apache
 ```

@@ -2,7 +2,7 @@
 
 ## WIP
 
-- **FIX `/everyone` PERMALINK ISSUE**
+- **FIX RSS FEED which is not generated**
 
 Work in progress pages:
 
