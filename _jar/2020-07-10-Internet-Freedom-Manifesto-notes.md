@@ -4,14 +4,14 @@ description: 'There are literally a ton of collectives and associations around t
 code: 0
 ---
 
-I’m sorry: content in this page may be both in English and Italian, these are actual notes on which the Manifesto will be based, so they’re pretty random and messed up.
+I’m sorry: content in this page may be both in English and Italian, since these are actual quick notes on which the Manifesto will be based, so they’re pretty random and messed up.
 {:.yellow .warning}
 
 <br />
 
 ## Concept
 
-L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi e le questioni per cui i social network così come li conosciamo sono socialmente dannosi e successivamente spingere in ogni modo le persone a firmarlo. Utopisticamente, il fine sarebbe che tutte le persone che hanno firmato il manifesto, una volta raggiunto un (grande) numero stabilito, in massa secono dai social proprietari, creando un vero e proprio movimento indipendente dalle piattaforme brutte, grosse e cattive.
+L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi e le questioni per cui i social network così come li conosciamo sono socialmente dannosi e successivamente spingere in ogni modo le persone a firmarlo. Utopisticamente, il fine sarebbe che tutte le persone che hanno firmato il manifesto, una volta raggiunto un (grande) numero stabilito, in massa escano dai social proprietari, creando un vero e proprio movimento indipendente che promuove l’abbandono delle piattaforme brutte, grosse e cattive.
 
 <br />
 
