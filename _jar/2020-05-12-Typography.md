@@ -12,10 +12,14 @@ description: "It’s a wonderful world, hidden in plain sight. Here there are so
 - Font Forge <a href="http://designwithfontforge.com/en-US/index.html" rel="noopener noreferrer" target="_blank">guide</a>.
 - The <a href="https://fontlibrary.org/" rel="noopener noreferrer" target="_blank">Font Library</a>’s <a href="https://fontlibrary.org/en/guidebook" rel="noopener noreferrer" target="_blank">Guidebook</a>.
 
+<br />
+
 ## Fonts
 
 - <a href="http://tholman.com/post/smelvetica" rel="noopener noreferrer" target="_blank">Smelvetica</a>, a funny customization of <a href="https://en.wikipedia.org/wiki/Helvetica" rel="noopener noreferrer" target="_blank">Helvetica</a>.
 - <a href="https://rsms.me/inter" rel="noopener noreferrer" target="_blank">Inter</a>, a wonderful Open Font by <a href="https://rsms.me/about/" rel="noopener noreferrer" target="_blank">Rasmus Andersson</a>.
+	- [play with it](https://rsms.me/inter/lab/)
+	- [xplosionmind uses Inter](/genesi#tipografia)
 - [Merriweather](https://github.com/SorkinType/Merriweather), the serif font I use on this blog, it’s designed by [Eben Sorkin](http://sorkintype.com/about.html).
 
 <br />
