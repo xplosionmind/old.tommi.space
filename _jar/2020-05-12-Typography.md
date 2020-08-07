@@ -1,6 +1,7 @@
 ---
 categories: Design
 title: "Typography"
+edited: 2020-07-02
 description: "It’s a wonderful world, hidden in plain sight. Here there are some resources for inspiration and study."
 ---
 

@@ -1,7 +1,6 @@
 ---
-title: "Firefox tweaks"
 toc: 0
-code: "true"
+edited: 2020-08-02
 description: "I consider myself a Firefox power user: I love it and I take full advantage of its features. Here’s how I do it."
 ---
 

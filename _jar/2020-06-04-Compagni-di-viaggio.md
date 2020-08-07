@@ -1,8 +1,8 @@
 ---
-title: "Compagni di viaggio"
 permalink: /oggetti
 lang: it
 code: 0
+edited: 2020-07-03
 description: "Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi."
 ---
 È un comportamento che sembra esagerato, ma sono così affezionato loro, che, più che essere parte di me, sono diventati dei veri e propri compagni di viaggio. Per questo motivo ho deciso di registrare qui le loro generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.

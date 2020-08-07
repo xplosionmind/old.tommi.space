@@ -1,12 +1,9 @@
 ---
 categories: geek
 toc: 0
-code: 0
-description: 'Everything inspiring, meaningful or particularly significant about web privacy I find online.'
+edited: 2020-08-07
+description: "Everything inspiring, meaningful or particularly significant about web privacy I find online."
 ---
-
-<br />
-
 This is sort of a bucket where I copy-paste links to insightful articles and videos about privacy online without any further contextualization. Sooner or later I’ll be forced to organize them to write the [Internet Freedom Manifesto](/internetfreedom)
 {:.yellow .warning}
 
@@ -16,7 +13,7 @@ This is sort of a bucket where I copy-paste links to insightful articles and vid
 - [Facebook ads Brexit](https://www.ted.com/talks/carole_cadwalladr_facebook_s_role_in_brexit_and_the_threat_to_democracy?utm_campaign=tedspread&utm_medium=referral&utm_source=tedcomshare)
 - [My Year Without Google](https://onezero.medium.com/one-year-google-free-59e0afb68328)
 - [Free Software, Richard Stallman](https://hyp.is/zEpzAm9jEeqKOxdXSivD-A/www.wired.com/2013/09/why-free-software-is-more-important-now-than-ever-before/)
-- [Richard Stallman's website](http://stallman.org)
+- [Richard Stallman’s website](http://stallman.org)
 - [Privacy Tools](https://www.privacytools.io/) **there are a lot of cool references here**
 - [Why Privacy Matters - TED](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters)
 - [CryptoPaper](https://github.com/cryptoseb/CryptoPaper)

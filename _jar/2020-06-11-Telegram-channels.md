@@ -1,8 +1,6 @@
 ---
 lang: en
-ref: groups
-permalink: /groups
-code: 0
+edited: 2020-07-25
 description: 'Being online and actively - or even passively - follow thriving communities, groups or channels is so so so so so hard. That''s why I collect here the ones I''m not part of anymore, but I''m still interested in the topic'
 ---
 

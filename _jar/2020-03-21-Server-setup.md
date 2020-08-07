@@ -1,7 +1,7 @@
 ---
-title: "Server setup"
 categories: geek
 code: "true"
+edited: 2020-08-03
 description: "A walktrough of the steps I executed to set up my server. More data and resources can be found in <a href='/server'>this</a> Jar item."
 ---
 A **huge shoutout** to my friend [Claudio](http://claudiofaoro.com), who helped me a lot to understand and perform the most tricky parts.

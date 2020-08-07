@@ -1,6 +1,7 @@
 ---
-permalink: /internet-freedom
-description: 'There are literally a ton of collectives and associations around the world which fight for internet freedom and users'' rights, but I believe everything should start from the user’s end. Here there are my notes and thoughts to write the <em>Internet Freedom Manifesto</em>'
+permalink: /internet-freedom-notes
+edited: 2020-08-'7
+description: "There are literally a ton of collectives and associations around the world which fight for internet freedom and users'' rights, but I believe everything should start from the user’s end. Here there are my notes and thoughts to write the <em>Internet Freedom Manifesto</em>"
 code: 0
 ---
 

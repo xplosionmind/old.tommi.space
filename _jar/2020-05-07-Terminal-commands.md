@@ -1,8 +1,8 @@
 ---
-title: "command line"
 permalink: /cmd
 categories: geek
 toc: 0
+edited: 2020-07-02
 description: "A list of MacOS / UNIX terminal commands which are too complex or rarely used to be remembered, but useful enough to be noted."
 ---
 change screenshot format
