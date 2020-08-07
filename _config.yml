@@ -60,12 +60,12 @@ kramdown:
     default_lang: zsh
 
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-last-modified-at
+# - jekyll-feed
+# - jekyll-seo-tag
+# - jekyll-sitemap
+# - jekyll-last-modified-at
   - jekyll-target-blank
-  - jekyll-redirect-from
+# - jekyll-redirect-from
 
 sass:
     style: compressed
