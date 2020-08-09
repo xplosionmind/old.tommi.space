@@ -32,3 +32,6 @@ description: "A comprehensive list of great online learning resources. Official 
 ### git
 
 - [Oh shit, git!](https://dangitgit.com/), bare-bones insights to get things done in git
+- [git official documentation](https://git-scm.com/doc)
+- [escape a git mess](http://justinhileman.info/article/git-pretty/git-pretty.png)
+- [git interactive **Cheat Sheet**](https://ndpsoftware.com/git-cheatsheet.html)
