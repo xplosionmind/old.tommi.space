@@ -4,19 +4,25 @@
 
 ### They profile us
 
-Every action we perform on social media platforms is recorded, stored, and analyzed to understand how we react to content, what we like and what makes us angry. Basically, who manages these platforms can use algorithms to **know who we are**.
+Every action we perform on social media platforms is recorded, stored, and analyzed to understand how we react to content, what we like and what makes us angry. Basically, who manages these platforms can use algorithms to **understand who we are**.
+
+<br />
+
+### They may know more than we know they know
+
+Unless we ask them to, nothing is ever deleted, on propietary social media platforms. Even when we do ask for our data to be deleted, we can never be sure everything they have about us is actually gone. Thanks to the GDPR regulations, we can request the complete erasure and portability of our data on a platform, but we have no way to know if there’s more. If from the raw data collected while we were using a platform was built a  has been parsed refined details about our personality, we will never get access or erase that, because it’s not, strictly speaking, what we actually published on social media platforms. 
 
 <br />
 
 ### They don’t forget
 
-Unless we ask them to, nothing is ever deleted. Even if we do ask, we can never be sure what we deleted is actually gone. Thanks to the GDPR regulations, we can request the complete erasure and portability of our data on a platform, but we have no way to know if there’s more. If from the raw data collected while we were using a platform (one or two months, three or ten years, for example) has been parsed refined details about our personality, we will never get access or erase that, because it’s not, strictly speaking, what we actually published on social media platforms. After a handful of likes, take 100 or 500, someone may have an idea of who we are. Algorithms, though, aren’t human, and they remember our first like as clearly as the last one and as the thousands of reactions we dropped here and there over time. They don’t forget and they use anything in their power to know more about us.
+After a handful of likes, take 100 or 500, someone may have an idea of what are the interests and what’s the personality of someone. Algorithms, though, aren’t human, and they remember our first like as clearly as the last one and as the thousands of reactions we dropped here and there over time. They don’t forget, and they use anything in their power to know more about us.
 
 <br />
 
-### They use us to gain power and earn always more
+### They use us to earn money and gain power
 
-All of the raw and final data about us isn’t just used by social media platforms owners. The main purpose of their collection is to **sell them** to advertisers and advertising companies, which pay a high price to be sure their ads are seen by users who are most likely to buy them. Our name and generalities are stripped away, and our “anonymized identity” is sold to anyone interested in showing us ads which are “relevant” to us. The more we use them, the more they know us and the more they earn.
+All of the data collected on us isn’t just used by social media platforms owners. The main purpose of their collection is to **sell them** to advertisers and advertising companies, which pay a high price to be sure their ads are seen by users who are most likely to buy them. Our name and generalities are stripped away, and our “anonymized identity” is sold to anyone interested in showing us ads which are “relevant” to us. The more we use them, the more they know us and the more they earn.
 
 The problem is we will never be 100% that this data isn’t or won’t be used to other purposes, such as military and politic ones. In this case, from uncomfortable ads targeting, this would become actual manipulation.
 
