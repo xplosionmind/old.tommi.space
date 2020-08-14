@@ -25,6 +25,7 @@ Work in progress pages:
 		- teatro
 		- concerti
 		- conferenze
+	- Alternanza scuola-lavoro
 - [Playlist](./_jar/2020-07-17-Playlist.md)
 - [Cinema](./_jar/2020-07-10-Cinema.md)
 - add a “première” section to [everyone](./everyone) page
