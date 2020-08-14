@@ -70,6 +70,8 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
          - se lo facessi già su piattaforme alternative, non avrebbe senso, perché raggiungerei coloro che già hanno consapevolezza, e non sarebbe nulal di nuovo per loro
          - perché dobbiamo usare i social per distruggere i social / perché, su internet, ogni mezzo è lecito per salvare internet
          - perché dobbiamo dare un forte segnale e rendere un contenuto virale, cosa difficile se non impossibile su altre piattaforme, poiché non hanno sufficienti utenti
+ - non "perché?", ma "perché no?"
+ - non più solo mezzo, anche fine
 
 <br />
 
@@ -86,6 +88,3 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 
 - Giffoni Film Festival
 - Radioimmaginaria
-=======
-- non più solo mezzo, anche fine
->>>>>>> 31843108327d6cb55cba3c9081d83a467e4e918f

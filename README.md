@@ -51,7 +51,11 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
 - [ ] [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
+- [ ] CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
 - [ ] Flickr APIs for embedded/integrated/automated galleries
+	- use [FlickrEmbed](https://flickrembed.com/)
+	- or use [Flickr APIs](https://www.flickr.com/services/api/)
+	- or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
 - [ ] get rid of jQuery (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time)
 - [ ] getting ready for a sudden blog posts increase
 	- [ ] paginate
