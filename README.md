@@ -53,6 +53,7 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 	- [ ] better indication of external resources' creators
 - [ ] [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
 - [ ] CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
+- [ ] fix `object-fit` in Stuff
 - [ ] Flickr APIs for embedded/integrated/automated galleries
 	- use [FlickrEmbed](https://flickrembed.com/)
 	- or use [Flickr APIs](https://www.flickr.com/services/api/)
