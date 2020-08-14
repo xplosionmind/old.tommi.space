@@ -64,7 +64,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-last-modified-at
   - jekyll-target-blank
-  - jekyll-redirect-from
+  - jekyll-watch
 
 sass:
     style: compressed
@@ -96,10 +96,6 @@ defaults:
       layout: "post"
       lang: "it"
       excerpt_separator: "<!--more-->"
-      redirect_from:
-        - "/:date/:title"
-        - "/:categories/:title"
-        - "/:categories/:date/:title"
 
   -
     scope:
