@@ -80,6 +80,7 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 	- [x] Post date
 - [ ] RSS Feeds management + Mailtrain automation
 - [ ] share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
+- [ ] stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
 - [ ] [Typography](https://xplosionmind.tk/typography)
 	- [ ] final letter spacing, line height, etc.
 	- [ ] [Custom font](https://xplosionmind.tk/Typography#Custom-font) implementation
