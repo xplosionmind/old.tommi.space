@@ -1,12 +1,14 @@
 ---
 categories: geek
 toc: 0
-edited: 2020-08-07
-description: "A comprehensive list of great online learning resources. Official documentation is not included, since it can usually be found with a quick and trivial research."
+edited: 2020-08-30
+description: "A comprehensive list of great online resources for learning and more. Official documentation is not included, since it can usually be found with a quick and trivial research."
 ---
 
 ## Geek stuff
 
+- [A2Z Learning Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students), a comprehensive and rich repository with almost anything someone keen to improve its developing skills cen ask for
+- [Awesome Humane Tech](https://github.com/humanetech-community/awesome-humane-tech), a list of tools which meets the Humane Tech principles
 - Tania Rascia’s [blog](https://www.taniarascia.com/)
 - [Free Software course](https://github.com/open-education-polito/free-software-course) by [Open Education PoliTo](https://openeducation.polito.it).
 - [Corso base GNU Linux](https://linux.studenti.polito.it/wp/corso-gnu-linux-base-autunno-2019/) in italiano, del team Linux@studenti del Politecnico di Torino.
