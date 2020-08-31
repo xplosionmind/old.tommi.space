@@ -1,7 +1,7 @@
 ---
 categories: geek
 toc: 0
-edited: 2020-07-23
+edited: 2020-08-30
 description: There are tools which it would be so useful for me to have but I can’t find the right scripts/programs/apps to accomplish the missing tools’ purposes.
 ---
 
@@ -20,3 +20,4 @@ description: There are tools which it would be so useful for me to have but I ca
 - a program which calculate a percentage of how much each person speak in a call / video-call, like some sort of “ball possession” percentage in soccer games.
 - ***Shadow map plugin***, a plugin to add to OsmAnd (or OpenStreetMap) and Google Maps which shows the buildings’ shadows during different times of the day. Useful in hot and sunny days not to burn as hell.
 - **Scale app**: an app which is capable of weighting stuff by reading an object's pressure on a touch screen
+- **Lunapp**, an app for lunatic people. Used to learn by themselves their sudden attitude changes and track how their emotions evolve over time.

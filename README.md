@@ -1,5 +1,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c7f3a969-424a-450b-8636-2d477af82e76/deploy-status)](https://app.netlify.com/sites/xplosionmind/deploys)
 
+## Issues
+
+- Subheadings display issue on mobile. [Example page](https://tommi.space/server-setup#nextcloud-configuration)
+
 ## WIP
 
 Work in progress pages:
@@ -34,6 +38,7 @@ pages to be created:
 
 - Formats ideas
 - Books passages
+- media I’m in (a stuff extended page, but with media)
 
 
 ## FEATURES CHECKLIST
