@@ -63,8 +63,8 @@ A walkthrough of the website creation is [here](https://tommi.space/themakingof)
 	- or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
 - [ ] get rid of jQuery (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time)
 - [ ] getting ready for a sudden blog posts increase
-	- [ ] paginate
-	- [ ] add more and more specific categories
+	- [ ] paginate
+	- [ ] add more and more specific categories
 - [ ] global search button
 - [ ] neumorphism redesign
 - [ ] Newsletter
@@ -128,6 +128,5 @@ A walkthrough of the website creation is [here](https://tommi.space/themakingof)
 - DESKTOP: floating “categories” column on the right
 - [Generative Art](http://tholman.com/post/generative-art-speedrun/)
 	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/)
-	- Explaination page
 - everything center-aligned, also on desktop
 - colour palettes improvement

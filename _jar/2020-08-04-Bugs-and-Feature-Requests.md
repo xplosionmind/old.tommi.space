@@ -38,3 +38,12 @@ description: "I use mostly open source apps in active developement. Often, I not
 - voice note playback also when app is in the background (Telegram-like player)
 - play two or more consequent audios consequently, without having to press play twice or more
 - setting to choose to automatically download media
+
+<br />
+
+## Oxygen OS
+
+[Oxygen OS](https://www.oneplus.com/it/oxygenos) is the Android flavour developed and used by [OnePlus](https://oneplus.com)
+
+- match the lock screen and ambient display design (right now digital clocks have two different fonts and sizes)
+- add the capability to customize the alert slider
