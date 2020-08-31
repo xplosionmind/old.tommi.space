@@ -77,6 +77,11 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 
 ## Who to involve
 
+### Communities
+
+- [Humane Tech Community](https://community.humanetech.com/)
+- [Disroot Community](https://disroot.org/en/community)
+
 ### Contribution
 
 - Claudio

@@ -156,6 +156,9 @@ A Giffoni non scatto mai molte foto, per questo, oltre a quelli molto scarni sul
 	- [Ciro D’Emilio](https://www.imdb.com/name/nm3318452/)
 	- [Daniele Ciprì](https://www.imdb.com/name/nm0162668/)
 	- [Luca Ward](https://www.imdb.com/name/nm0911697/)
+- dal 18 al 22 e dal 25 al 29 agosto, [**Giffoni 2020**](http://giffonifilmfestival.it)
+	- [foto]()
+	- [album di Giffoni](https://www.flickr.com/photos/giffonifilmfestival/collections/72157715587418446/)
 
 <br />
 
