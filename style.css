@@ -102,8 +102,8 @@ mark {
 }
 .theme-toggle-button {
 	position: fixed;
-	bottom: var(--small);
-	right: var(--small);
+	bottom: var(--height);
+	right: var(--lessthan-regular);
 	z-index: 3
 }
 li {
@@ -195,7 +195,8 @@ strong, b {
 	border: var(--tiny) solid var(--text);
 	padding: var(--tiny);
 	scroll-behavior: smooth;
-	height: var(--height)
+	height: var(--height);
+	width: calc(100% - 5rem)
 }
 .categories::-webkit-scrollbar {
 	display: none
@@ -203,10 +204,12 @@ strong, b {
 .topics-indicator {
 	font-size: var(--big);
 	line-height: var(--height);
+	text-transform: uppercase;
 	background: var(--text);
 	color: var(--background);
 	height: var(--height);
-	font-weight: 700
+	font-weight: 700;
+	width: 5rem
 }
 .category, .language, .link, .gallery {
 	display: inline-block;
