@@ -2,8 +2,6 @@
 
 ## WIP
 
-- **FIX RSS FEED which is not generated**
-
 Work in progress pages:
 
 - [drafts folder](./_drafts)
@@ -34,13 +32,13 @@ Work in progress pages:
 
 pages to be created:
 
-- Formats
+- Formats ideas
 - Books passages
 
 
 ## FEATURES CHECKLIST
 
-A walkthrough of the website creation is [here](https://xplosionmind.tk/themakingof)
+A walkthrough of the website creation is [here](https://tommi.space/themakingof)
 
 - [ ] access post category colour (and how conflicts are managed if the post has more than one category) in posts list
 - [ ] add categories list also in the Jar
@@ -83,7 +81,7 @@ A walkthrough of the website creation is [here](https://xplosionmind.tk/themakin
 - [ ] stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
 - [ ] [Typography](https://xplosionmind.tk/typography)
 	- [ ] final letter spacing, line height, etc.
-	- [ ] [Custom font](https://xplosionmind.tk/Typography#Custom-font) implementation
+	- [ ] [Custom font](https://tommi.space/Typography#Custom-font) implementation
 - [ ] visioni
     - [ ] unsorted photos randomly moving
     - [ ] horizontal instead of vertical scrolling of the gallery
