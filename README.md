@@ -66,7 +66,7 @@ A walkthrough of the website creation is [here](https://tommi.space/themakingof)
 	- [ ] paginate
 	- [ ] add more and more specific categories
 - [ ] global search button
-- [ ] neumorphism redesign
+- [ ] [neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) redesign. Try to use [this tool](https://neumorphism.io/)
 - [ ] Newsletter
 	- [x] subscribe button
 	- [ ] back-end implementation
