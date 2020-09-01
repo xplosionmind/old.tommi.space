@@ -95,6 +95,7 @@ defaults:
     values:
       layout: "post"
       lang: "it"
+      permalink: "/:title"
       excerpt_separator: "<!--more-->"
 
   -
@@ -103,6 +104,7 @@ defaults:
       type: "poetry"
     values:
       layout: "poetry"
+      permalink: "/:title"
       lang: "it"
 
   -
