@@ -2,7 +2,7 @@
 title: "di tutto e di più"
 lang: it
 permalink: /tuttopiu
-edited: 2020-08-31
+edited: 2020-09-02
 description: Dato che per mia natura e vocazione finisco sempre in mezzo a una miriade di iniziative e progetti fantastici, mi trovo a partecipare o organizzare o condurre moltissimi piccoli eventi o interviste o incontri, e sono talmente tanti che alla fine rischio di dimenticarmeli e non riuscire più a trovarli. Per questo, proverò a tenere aggiornata questa lista di riferimento con tutto ciò a cui ho partecipato, attivamente o come spettatore, inserendo collegamenti a pagine, foto e informazioni.<br /><br />Alcuni album di foto potrebbero essere privati. Scrivetemi un’email se avete partecipato e desiderate accedere.
 ---
 ## Musica live
@@ -62,11 +62,11 @@ Con e grazie a <a href="/tutto#radioimmaginaria" target="_blank">Radioimmaginari
 - dal 13 al 15 maggio 2016, **Missione a Londra**: sono andato con le mitiche Flora e Amalia in quel di Londra a salvare la redazione di Radioimmaginaria Londra
 	- <a href="https://www.spreaker.com/user/ariaimmaginaria/italy-meets-london" rel="noopener noreferrer" target="_blank">puntata</a>
 	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157710719709951" rel="noopener noreferrer" target="_blank">foto</a>
-- dal 15 al 24 luglio 2016, **<a href="https://giffonifilmfestival.it/" rel="noopener noreferrer" target="_blank">Giffoni Film Festival</a> 2016**
+- dal 15 al 24 luglio 2016, [**Giffoni Film Festival** 2016](https://www.giffonifilmfestival.it/diario-gff-2016.html)
 	- foto
 		- <a href="https://flic.kr/s/aHskK5eqx3" rel="noopener noreferrer" target="_blank">album di Radioimmaginaria</a>
 		- <a href="https://www.flickr.com/photos/tommiboom/albums/72157710729227317" rel="noopener noreferrer" target="_blank">album delle mie foto</a>
-- dal 24 al 27 agosto 2016, il primo **Radiocampo immaginario** a **Riva Ligure**
+- dal 24 al 27 agosto 2016, il primo **Radiocampo immaginario** a **Riva Ligure**, con **inaugurazione della Redazione** di Radioimmaginaria Riva Ligure
 	- articoli
 		- [Riviera24](https://web.archive.org/web/20170810080233/https://www.riviera24.it/2016/08/radioimmaginaria-a-riva-ligure-per-il-radiocampo-233170/)
 	- [foto di promozione](https://www.flickr.com/photos/tommiboom/albums/72157710727773568)
