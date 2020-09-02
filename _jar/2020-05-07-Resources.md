@@ -9,6 +9,7 @@ description: "A comprehensive list of great online resources for learning and mo
 
 - [A2Z Learning Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students), a comprehensive and rich repository with almost anything someone keen to improve its developing skills cen ask for
 - [Awesome Humane Tech](https://github.com/humanetech-community/awesome-humane-tech), a list of tools which meets the Humane Tech principles
+- [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 - Tania Rascia’s [blog](https://www.taniarascia.com/)
 - [Free Software course](https://github.com/open-education-polito/free-software-course) by [Open Education PoliTo](https://openeducation.polito.it).
 - [Corso base GNU Linux](https://linux.studenti.polito.it/wp/corso-gnu-linux-base-autunno-2019/) in italiano, del team Linux@studenti del Politecnico di Torino.

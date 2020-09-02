@@ -1,7 +1,7 @@
 ---
 categories: geek
 toc: 0
-edited: 2020-08-07
+edited: 2020-08-30
 description: "Everything inspiring, meaningful or particularly significant about web privacy I find online."
 ---
 This is sort of a bucket where I copy-paste links to insightful articles and videos about privacy online without any further contextualization. Sooner or later I’ll be forced to organize them to write the [Internet Freedom Manifesto](/internetfreedom)
@@ -38,7 +38,8 @@ This is sort of a bucket where I copy-paste links to insightful articles and vid
 - [Open Media Codecs](https://research.mozilla.org/av1-media-codecs/)
 - [Google Watches You](https://mobile.reuters.com/article/amp/idUSKCN24F2N4?__twitter_impression=true)
 - [PolitePol](https://politepol.com/): create an RSS feed for any page
--  [Movim](https://movim.eu/), social
+- [Movim](https://movim.eu/), social
+- [Restore privacy - Google Alternatives](https://restoreprivacy.com/google-alternatives/)
 
 <br />
 <br />
