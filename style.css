@@ -690,6 +690,11 @@ nav ul li ul li a {
 	#stuff-tree {
 		margin: var(--height) 5%
 	}
+	.categories {
+		position: relative;
+		left: 5rem;
+		bottom: var(--height)
+	}
 }
 
 #nav-toggle {
