@@ -1,7 +1,7 @@
 ---
 permalink: /lanier-social-media-notes
 edited: 2020-09-05
-description: "Notes from the great book by <a href="http://www.jaronlanier.com/" rel="noopener noreferrer" target="_blank_">Jaron Lanier</a>, <a href="http://www.jaronlanier.com/tenarguments.html" rel="noopener noreferrer" target="_blank_"><em>Ten Arguments for Deleting Your Social Media Accounts</em></a>, which I discovered almost at the end of my journey in writing <em>The Digital Freedom Manifesto</em>. It explains in a better and more detailed way what I’ve been thinking about for months now."
+description: 'Notes from the great book by <a href="http://www.jaronlanier.com/" rel="noopener noreferrer" target="_blank_">Jaron Lanier</a>, <a href="http://www.jaronlanier.com/tenarguments.html" rel="noopener noreferrer" target="_blank_"><em>Ten Arguments for Deleting Your Social Media Accounts</em></a>, which I discovered almost at the end of my journey in writing <em>The Digital Freedom Manifesto</em>. It explains in a better and more detailed way what I’ve been thinking about for months now.'
 code: 0
 ---
 - We become addicted to a fiction, none of that simuli is actually real. p. 15
