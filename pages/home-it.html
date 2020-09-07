@@ -65,22 +65,16 @@ ref: home
 		{% endif %}
 	{% endfor %}
 
-	<a href="/marmellata"><h2 class="section-title" style="background: var(--razzmatazz); color: white">La Marmellata</h2></a>
-
-		<div class="row">
-			<div class="one column">
-				<div class="page-description">
-					<p>Ci sono cose che scopro e porca puzzola avrei voluto sapere prima, o cose che semplicemente non riesco a non condividere ma non sono abbastanza per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
-					<p>Prendo tutte queste cose e, non avendo sufficiente tempo per elaborarle, le metto ne <em>La Marmellata</em>.</p>
-					<p>Ogni puntino qui sotto è un ingrediente de <em>La Marmellata</em>, fatene buon uso, senza esagerare. (non mi assumo responsabilità sulla potenza dei contenuti)</p>
-				</div>
-				<ul style="margin: var(--bigger) 20%">
-	{% for note in site.jar %}
-				<li><a href="{{ note.url }}" style="color: white; background: var(--razzmatazz); padding: 0 var(--small)">{{ note.title }}</a></li>
-	{% endfor %}
-				</ul>
-			</div>
+<a href="/marmellata"><h2 class="section-title" style="background: var(--razzmatazz); color: white">La Marmellata</h2></a>
+<div class="row">
+	<div class="one column">
+		<div class="page-description">
+			<p>Ci sono cose che scopro e porca puzzola avrei voluto sapere prima, o cose che semplicemente non riesco a non condividere ma non sono abbastanza per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
+			<p>Prendo tutte queste cose e, non avendo sufficiente tempo per elaborarle, le metto ne <em>La Marmellata</em>.</p>
+			<p>Ogni puntino qui sotto è un ingrediente de <a href="/marmellata"><em>La Marmellata</em></a>, fatene buon uso, senza esagerare. (non mi assumo responsabilità sulla potenza dei contenuti)</p>
 		</div>
+	</div>
+</div>
 
 		
 <!--	<h2 class="section-title">visioni</h2>

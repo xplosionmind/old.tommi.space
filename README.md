@@ -73,7 +73,6 @@ A walkthrough of the website creation is [here](https://tommi.space/themakingof)
 	- [ ] Mailtrain || listmonk setup
 - [ ] [Now page](https://sivers.org/now)
 - [ ] `head` include (is this good for performance?)
-- [ ] page image preview when sending link, see the [Open Graph Protocol](https://ogp.me/)
 - [x] Poetry
 	- [x] section
 	- [x] custom styling
@@ -111,6 +110,7 @@ A walkthrough of the website creation is [here](https://tommi.space/themakingof)
 - [x] language switch [x] `letter-spacing` and `word spacing` (it's nice as it is) [x] light/dark mode switch button (I'm deep and dark / I'm bright and shiny) [x] list of belonging categories at the top of the post page
 - [x] Mobile optimisation
 - [x] move `stuff extended` to `The Jar`
+- [x] page image preview when sending link, see the [Open Graph Protocol](https://ogp.me/)
 - [x] Privacy Policy
 - [x] RSS Feed
 - [x] separate website/repo/domain for web and online resources or for geek stuff in general (configured as _[The Jar](https://xplosionmind.tk/jar)_)
