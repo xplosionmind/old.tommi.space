@@ -51,6 +51,7 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 
 ## Video spiegazione
 
+- non TUTTI gli argomenti spiegati sono oggettivamente inequivocabilmente sempre veri in ogni caso, ma unendoli insieme emerge piuttosto chiaramente e oggettivamente che c'è un problema, piuttosto grosso.e
 - perché
     - partire dall'utente
     - un luogo che raccolga TUTTI i motivi per cui i social proprietari sono dannosi, sotto ogni punto di vista

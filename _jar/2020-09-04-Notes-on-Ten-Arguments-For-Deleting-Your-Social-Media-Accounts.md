@@ -5,10 +5,6 @@ description: 'Notes from the great book by <a href="http://www.jaronlanier.com/"
 toc: 0
 code: 0
 ---
-<style>
-	blockquote p { margin: 0 }
-	li { margin-bottom: var(--big) }
-</style>
 - We become addicted to a fiction, none of that simuli is actually real. \- `p. 15`
 > negative emotions are being amplified more than positive ones - `p. 18`
 
@@ -40,3 +36,71 @@ code: 0
 > tweaking doesn't undo the underlying incentives, so bad actors are likely to invent ever sneakier and more sophisticated countermeasures. […] I fear tweaking cannot achieve enough. - `p. 35`
 
 > The problem isn't any particular technology, but the use of technology to manipulate people, to concentrate power in a way that is so nuts and creepy that it becomes a threat to the survival of civilization. - `p. 38`
+
+> You know the adage that you should choose a partner on the basis of you become when you’re around the person? That’s a good way to choose technologies, too. - `p. 42`
+
+> I want to be **authentically** nice, and certain online designs seem to fignt against that magical force. `p. 43`
+
+> Your character is like your health, more valuable than anything you can buy. Don’t throw it away. - `p. 45`
+
+- We’re like wolves: we can either be solitary or members of a pack of wolves. When we’re solitary wolves, we’re more free. We’re cautious, but also more capable of joy. When we’re in a pack, interactions with others become the most important thing in the world. - `p. 45`
+- Comparison with **climate change denial** - `p.45`
+
+> The “Pack setting” of the “switch” makes you pay so much attention to your peers and your enemies in the world of packs that you can become blind to what’s happening right in front of your face. - `p. 46`
+
+- BUMMER deemphasizes our uniqueness - `p. 48`
+- LinkedIn is BUMMER, too, but it’s not **as** harmful to users because it earns money by connecting employers with hires rather than by manipulating people to make purchases or change behaviors - `p. 49-50`
+
+> What we need is *anything* that£s real beyond social pretensions that people can focus on instead of becoming assholes - `p. 51`
+
+- If Twitter ceased operations tomorrow, Trump would become a nicer person - `p. 52`
+
+> Massive fake social activities turn out to influence real people. They indirectly create a genuine social reality, which means they make money. People are successfully manipulated by them. -`p. 57`
+
+> In the BUMMER era, the information reaching people is the result of how manipulative advertisers and power-mad tech companies intersect with crazed, engineered status competitions. That means there’s less authenticity in the social exploration that help us find truth. - `p. 60`
+
+- A paradox emerges: if negative emotions, such as paranoia, get emphasized by default by BUMMER algorithms, how can BUMMER companies reduce the amount of fake news, conspiracies and similar stuff without compromising their way of working, thus their way of fostering anger to get engagement and earn always more? - `p. 61`
+
+> we have to find a way to not let our improved comfort and security turn into cover for a lazy drift into perilous fantasy. - `p. 61`
+
+> you don’t know the context in which you are expressing anything and you have no reliable way of knowing how it will be presented to someone else. […] We have given up our connection to context. **Social media mashes up meaning**. - `p. 64`
+
+> Everyone, including journalists, is forced to play the optimization game in hopes of getting the most out of BUMMER. A news source will keep tweaking what it does until further tweaks no longer yield better results. - `p. 67`
+
+> What if listening to an inner voice or heeding a passion for ethics or beauty were to lead to more important work in the long term, even if it measured as less successful in the moment?
+>
+> What if deeply reaching a small number of people matters more than reaching everybody with nothing? - `p. 68`
+
+> The speed, idiocy, and scale of false social perceptions have been amplified to the point that people often don’t seem to be living in the same world, the real world, anymore. - `p. 74`
+
+> Public space lost dimension, but also commonality in general has been desiccated - `p. 75`
+
+> Empathy is the fuel that runs a decent society. Without it, only dry rules and competition for power are left. - `p. 76`
+
+> Yes, of course it’s great that people can be connected, but why must they accept manipulation by a third party as the price of that connection? - `p. 82`
+
+- Connections and sharing are a quality of the **internet**, not of social media. The latter is the one which adds the badd stuff - `footnote 13, p. 82`
+
+> The BUMMER algorithms behind companies like Facebook and Google are stored in some of the few files in the world that **can’t be hacked**; they’re kept *that* secret. The deepest secrets of the NSA and the CIA have leaked, repeatedly, but you can’t find a copy of Google’s search algorithm or Facebook’s feed algorithm on the dark web. `p. 86`
+
+> How can you be authentic when everything you read, say, or do is being fed into a judgment machine? - `p. 88`
+
+- How BUMMER partly descends from the free software way of thinking - `p. 94-96`
+
+> The most dangerous thing about BUMMER is the widespread illusion that BUMMER is the only possibility. […] Inherent in the BUMMER business model is the assertion that there is only one possible way for digital services to work, which is that you, the individual user, must be made subservient. That is not true. The prevalence of this message is one of the best reasons to quit social media. - `p. 98`
+
+> The fundamental commercial product of BUMMER is absurd and deleterious. You can’t make a society wealthy by making it crazy. - `p. 99`
+
+> What we call AI should never be understood as an alternative to people, but instead a mislabeled new channel of value *between* real people. - `p. 100`
+
+> The fantasy of human obsolescence not only undervalues people, but often makes supposed AI programs less functional because no one is motivated to improve the underlying data. - `p. 101`
+
+> BUMMER was originally sold as a barter deal. “Let us spy on you and in return you’ll get free services.” This might seem like a reasonable deal in the short term, but in the long term it’s terrible. - `p. 101`
+
+- How abandoning the BUMMER model wouldn’t damage corporations and it would make them better instead - `p. 103`
+
+> BUMMER only support stars. If you are one of those rare, rare people who are making a decent living off BUMMER as an influencer, for instance, you have to understand that you are in a tiny club and **you are vulnerable** - `p. 105`
+
+> Something is drawing young people away from democracy. Despite all the hopeful self-congratulations from social media companies, it seems that when democracy has been weakened, the online world has just gotten ugly and deceitful. - `p. 108`
+
+> 
