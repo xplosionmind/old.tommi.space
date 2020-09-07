@@ -79,6 +79,7 @@ defaults:
       layout: "wrapper"
       ref: "/:title"
       lang: "en"
+      img: "/images/preview.gif"
 
   -
     scope:

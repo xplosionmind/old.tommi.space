@@ -1,6 +1,7 @@
 ---
+img: "/images/2019-11-26-Vorrei-avere-culo.jpg"
 ---
-<figure><img src="/images/2019-11-26-Vorrei-avere-culo.jpg" alt="un simpatico cartello che mostra che in qualunque direzione vai, arrivi a Salerno" /><figcaption>Non è difficile scegliere di andare a Salerno (cartello reale: ho scattato questa foto a Giffoni Valle Piana due anni fa)</figcaption></figure>
+<figure><img src="{{ page.img }}" alt="un simpatico cartello che mostra che in qualunque direzione vai, arrivi a Salerno" /><figcaption>Non è difficile scegliere di andare a Salerno (cartello reale: ho scattato questa foto a Giffoni Valle Piana due anni fa)</figcaption></figure>
 Scegliere. La difficoltà di una scelta è data da una quantità spesso soffocante di differenti aspetti di cui tenere conto. Credo però ci sia solo un particolare ricorrente e determinante in ogni caso: **il tempo**. In una prospettiva di tempo illimitato ogni scelta sarebbe estremamente più semplice se non addirittura inesistente. Di conseguenza, affrontare problemi con un approccio prevalentemente temporale potrebbe consentire di valutare con più semplicità ogni altro dettaglio. Prendendo in esame un’ipotetica scelta di vita, anche la più decisiva e complessa, si può immediatamente riconoscere quanto, eliminando la variabile del tempo trascorso a perseguire il risultato della risoluzione individuata, ogni alternativa appaia ugualmente interessante e fattibile. Al contrario, avere fretta ed essere completamente intrappolati dall’impossibilità di tornare sui propri passi - come per me in questo momento - porta a distorcere la propria concezione di tempo e conseguentemente ad intraprendere percorsi assurdi.
 
 Perché facciamo scelte sbagliate?

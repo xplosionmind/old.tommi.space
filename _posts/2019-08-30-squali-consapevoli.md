@@ -1,6 +1,7 @@
 ---
+img: "/images/2019-08-30-squali-consapevoli.jpg"
 ---
-<figure><img src="/images/2019-08-30-squali-consapevoli.jpg" alt="una fuga romantica in pigiama" /><figcaption>la classica fuga romantica, in pigiama però (da un frame di <i>Everyone</i>)</figcaption></figure>
+<figure><img src="{{ page.img }}" alt="una fuga romantica in pigiama" /><figcaption>la classica fuga romantica, in pigiama però (da un frame di <i>Everyone</i>)</figcaption></figure>
 Qual è il prezzo che dobbiamo pagare
 
 

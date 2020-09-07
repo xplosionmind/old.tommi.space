@@ -1,8 +1,9 @@
 ---
+img: "https://live.staticflickr.com/4843/45707397834_a355b4cbab_h.jpg"
 categories: inchiostro-digitale
 ---
 <figure>
-<img title="renewable energy" alt="a streetlamp lit by sunlight" src="https://live.staticflickr.com/4843/45707397834_a355b4cbab_h.jpg" />
+<img title="renewable energy" alt="a streetlamp lit by sunlight" src="{{ page.img }}" />
 </figure>
 È un attimo, un istante fulmineo che può passare alla storia o può essere dimenticato 0.1 secondi dopo averlo scattato. È quell’immagine che hai rincorso per tutta la vita, è la perfezione, oppure è l’ennesima, sfocata e -forse- senza senso.
 

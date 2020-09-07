@@ -1,8 +1,9 @@
 ---
+img: "https://live.staticflickr.com/3670/12867121084_9676747a60_3k.jpg"
 categories: inchiostro-digitale
 ---
 <figure>
-<img src="https://live.staticflickr.com/3670/12867121084_9676747a60_3k.jpg" alt="un astronauta guarda fuori dal finestrino della Soyuz appena atterrata" />
+<img src="{{ page.img }}" alt="un astronauta guarda fuori dal finestrino della Soyuz appena atterrata" />
 <figcaption>oltre - &copy; NASA</figcaption>
 </figure>
 Non è solo adrenalina, scienza, scoperta, desiderio, speranza, orbita, è Vita.

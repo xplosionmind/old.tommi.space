@@ -1,4 +1,5 @@
 ---
+img: "/images/2020-01-14-Domodossola.jpg"
 ---
 Ciò che di più bello c’è a Torino, il quattordici gennaio duemilaventi come un giorno qualunque di gennaio come un giorno qualunque di inverno, sono i rami intirizziti stropicciati rinsecchiti che per tutto corso Racconigi si ramificano nel cielo piatto, come neri capillari che lo alimentano del grigiore di cui sembra non riuscire a liberarsi mai.
 
@@ -38,7 +39,7 @@ E come treni, come <a href="https://youtu.be/5bW7m--WiWE" rel="noopener noreferr
 
 <br />
 
-<figure><img src="/images/2020-01-14-Domodossola.jpg" alt="alberi capillari in Corso Racconigi a Torino" /><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
+<figure><img src="{{ page.img }}" alt="alberi capillari in Corso Racconigi a Torino" /><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
 
 <br />
 

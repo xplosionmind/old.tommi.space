@@ -1,8 +1,9 @@
 ---
 title: "Brunori sa, e io? {e noi?}"
 permalink: "/Brunori-sa"
+img: "/images/2018-04-26-Brunori-sa.jpg"
 ---
-<figure><img src="/images/2018-04-26-Brunori-sa.jpg" description='una foto di Brunori Sas che ho scattato all’Ariston durante la rassegna del premio Tenco 2017' alt='una foto di Darione che ho scattato all’Ariston durante la rassegna del premio Tenco 2017' %}
+<figure><img src="{{ page.img }}" description='una foto di Brunori Sas che ho scattato all’Ariston durante la rassegna del premio Tenco 2017' alt='una foto di Darione che ho scattato all’Ariston durante la rassegna del premio Tenco 2017' %}
 È davvero tardi e domani ho una verifica di storia: dovrei dormire.
 
 Però non so se è perché la mamma ha ragione dicendo che se prendo un caffè alle 14 sto sveglio tutta la notte o perché ho appena finito di guardare l'ultima puntata di Brunori Sa, ma sono troppo in fibrillazione.

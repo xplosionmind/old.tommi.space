@@ -1,7 +1,8 @@
 ---
+img: "https://live.staticflickr.com/790/41347581362_928eb47eb4_k.jpg"
 categories: inchiostro-digitale
 ---
-<figure><img src="https://live.staticflickr.com/790/41347581362_928eb47eb4_k.jpg" alt="la luna sospesa sul picco di una montagna" /><figcaption>fleeting floating evening</figcaption></figure>
+<figure><img src="{{ page.img }}" alt="La luna sospesa sul picco di una montagna" /><figcaption>fleeting floating evening</figcaption></figure>
 Qui nel letto in camera mia si sta bene.
 
 Sono al caldo -anche se è già aprile e non fa troppo freddo-, e posso accoccolarmi nel morbido piumino.
