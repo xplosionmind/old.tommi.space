@@ -8,21 +8,20 @@
 
 Work in progress pages:
 
-- [drafts folder](./_drafts)
-- [Radioimmaginaria comprehensive list](./pages/radioimmaginaria-database.md) of episodes I’m in
+- [drafts](./_drafts)
+- [Comprehensive list](./pages/radioimmaginaria-database.md) of Radioimmaginaria episodes I’m in
 - [Database of my brain](./_jar/2020-06-04-brain-database.md), list of all the stuff I know and need to know
-- [deGoogle](./_jar/2020-06-03-deGoogle.md) Jar item
 - [Making this website](./_posts/2020-04-18-Making-this-website.md) article
 - [Stuff extended](./pages/stuff-extended-it)
-	- LISTA VIDEO GIFFONI FACTORY
-	- DATE OSPITI GIFFONI CINEFORUM
-	- INCONTRI MASTERCLASS
-	- FILM IN CONCORSO GIFFONI
-	- LINK MATERIALE EVERYONE
-	- CAMOGLI FESTIVAL COM
-	- ROCKIN1000 LINATE
-	- DEEJAY TEN
-	- SPETTATORE
+	- lista video Giffoni factori
+	- date ospiti Giffoni cineforum
+	- Incontri Masterclass
+	- Film in concorso Giffoni
+	- Link materiale Everyone
+	- Festival della Comunicazione di Camogli
+	- Rockin1000 Linate
+	- Deejay Ten
+	- **spettatore**
 		- opera
 		- teatro
 		- concerti
@@ -30,31 +29,28 @@ Work in progress pages:
 	- Alternanza scuola-lavoro
 - [Playlist](./_jar/2020-07-17-Playlist.md)
 - [Cinema](./_jar/2020-07-10-Cinema.md)
-- add a “première” section to [everyone](./everyone) page
+- add a “première” section to the [Everyone](./everyone) page
 - [Around the World](./_jar/2020-07-20-Around-the-world.md)
 
-
-pages to be created:
-
-- Formats ideas
+### To be created
+- Shows formats ideas
 - Books passages
-- media I’m in (a stuff extended page, but with media)
+- Stuff extended like page, but with media
+
 
 
 ## FEATURES CHECKLIST
-
-A walkthrough of the website creation is [here](https://tommi.space/themakingof)
 
 - [ ] access post category colour (and how conflicts are managed if the post has more than one category) in posts list
 - [ ] add categories list also in the Jar
 - [ ] Analytics (temporarily set up with goatcounter)
 - [ ] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Testing [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51)
-- [ ] back to top button
 - [ ] checkbox styling
 - [ ] Copyright specifications
 	- [ ] in Everyone page
 	- [ ] better indication of external resources' creators
 - [ ] [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
+- [ ] CSS cleanup
 - [ ] CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
 - [ ] fix `object-fit` in Stuff
 - [ ] Flickr APIs for embedded/integrated/automated galleries
@@ -93,6 +89,7 @@ A walkthrough of the website creation is [here](https://tommi.space/themakingof)
 
 - [x] Animations (little and simple but effective)
 	- [x] buttons: `x`s and menus (see tokyo-voice.jp or traxmag.com)
+- [x] back-to-top button
 - [x] basic coloured biiig shapes
 - [x] “blogroll”: a list of blogs which inspire me, see [Pawlean](https://pawlean.com/blogroll)
 - [x] change mobile browser bar colour
