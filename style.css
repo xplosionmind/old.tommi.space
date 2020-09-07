@@ -97,8 +97,14 @@ mark {
 	font-weight: 500
 }
 ::selection {
-	color: black;
-	background: var(--yellow);
+	color: var(--background);
+	background: var(--primary);
+}
+.top {
+	position: fixed;
+	bottom: var(--lessthan-regular);
+	right: var(--lessthan-regular);
+	z-index: 3
 }
 .theme-toggle-button {
 	position: fixed;
