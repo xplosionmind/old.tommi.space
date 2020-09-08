@@ -103,4 +103,28 @@ code: 0
 
 > Something is drawing young people away from democracy. Despite all the hopeful self-congratulations from social media companies, it seems that when democracy has been weakened, the online world has just gotten ugly and deceitful. - `p. 108`
 
+> Social media put a modern army at the fingertips of ordinary social media users. - `p. 111`
+
+> What social media did at the time [Arab Spring], and what it always does, is to **create illusions**: that you can improve society by wishes alone; that the sanest people will be favored in cutting contests; and that somehow material well-being will just take care of itself. - `p. 111`
+
+> When a candidate, or any other customer, buys access to user attention through Facebook, the amount of access isn’t just determined by how much is spent, but by how well Facebook’s algorithms determine the customer is *also* promoting and increasing the use of Facebook. - `p. 116`
+
+> Facebook and BUMMER are becoming the ransomware of human attention. They have such a hold on so much of so many people’s attention for so much of each day that they are **gatekeepers to brains** - `p. 117`
+
+> a lot of what goes on at *at a user-to-user level* in BUMMER is wonderful if you look at it while ignoring the bigger picture in which people are being manipulated *by* BUMMER. - `p. 119`
+
+> Each of the arguments for deleting your accounts is at first glance about a practical issue, such as trust, but on closer inspection, the arguments confront the deepest and most tender concerns about **what it means to be a person**. - `p. 126`
+
+> The ritual of engaging with BUMMER initially appears to be a funeral for free will. You give over much of your power of choice to a faraway company and its clients. They take on a statistical proportion of your burden of free will, so that it is no longer in your purview. They start to decide who you will know, what you’re interested in, what you should do. […] They have power, but how could power exist if free will does not? - `p. 127`
+
+> BUMMER is replacing the features of spirituality with its own designs`p. 132`
+
+> AI is a fantasy, nothing but a story we tell about our code.
+>
+> It is also a cover for sloppy engineering. Making a supposed AI program that customizes a feed is less work than creating a great user interface that allows users to probe and improve what they see on their own terms—and this is so because AI has no objective criteria for success. - `p. 135`
+
+> The BUMMER business is interwoven with a new religion that grants empathy to computer programs—calling them AI programs—as a way to avoid noticing that it is degrading the dignity, stature, and rights of real humans. - `p. 138`
+
+> You can’t use the internet well until you’ve confronted it on your own terms, at least for a while. This is for your integrity, not just for saving the world. - `p. 143`
+
 > 
