@@ -607,6 +607,7 @@ nav ul li a, nav ul li a:visited {
 	display: block;
 	padding: 0 15px;
 	line-height: var(--height);
+	height: var(--height);
 	color: var(--background);
 	text-decoration: none;
 	background: var(--primary);
@@ -618,12 +619,11 @@ nav ul li a:hover, nav ul li a:visited:hover, nav ul li a:focus, nav ul li a:vis
 	transition: var(--trans);
 	border-bottom: none
 }
-nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
-	padding-left: var(--small);
-	content: "▾"
-}
 nav ul li ul li {
 	min-width: 12rem;
+}
+nav svg {
+	margin: 0.6rem 0.8rem 0 0
 }
 nav ul li ul li a {
 	padding: var(--regular);
