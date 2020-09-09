@@ -33,7 +33,7 @@
 </head><body>
 
 <svg class="button theme-toggle-button" title="Toggle theme" onclick="darktoggle()" version="1.1" viewBox="0 0 640.2 640.2" xmlns="http://www.w3.org/2000/svg">
- 	<rect width="640.2" height="640.2" style="fill:var(--grey)"/>
+ 	<rect width="640.2" height="640.2" style="fill:none"/>
    	<g transform="matrix(.8 0 0 .8 76 76)" style="fill:var(--primary)">
    		<g style="fill:var(--primary)">
        		<path d="m220.9 515.2h127.4c10.55 0 19.08-8.534 19.08-19.08s-8.535-19.08-19.08-19.08h-127.4c-10.54 0-19.08 8.534-19.08 19.08s8.532 19.08 19.08 19.08z"/>
@@ -42,7 +42,8 @@
        	</g>
    	</g>
 </svg>
-<a class="top button" href="#">up</a>
+<a href="#"><svg class="top button" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g style="fill:var(--primary)"><rect transform="rotate(180 12 12)" width="24" height="24" opacity="0"/><path d="M6.63 11.61L12 7.29l5.37 4.48A1 1 0 0 0 18 12a1 1 0 0 0 .77-.36 1 1 0 0 0-.13-1.41l-6-5a1 1 0 0 0-1.27 0l-6 4.83a1 1 0 0 0-.15 1.41 1 1 0 0 0 1.41.14z"/><path d="M12.64 12.23a1 1 0 0 0-1.27 0l-6 4.83a1 1 0 0 0-.15 1.41 1 1 0 0 0 1.41.15L12 14.29l5.37 4.48A1 1 0 0 0 18 19a1 1 0 0 0 .77-.36 1 1 0 0 0-.13-1.41z"/></g></svg>
+</a>
 {% include header.html lang=page.lang %}
 {{ content }}
 {% include footer.html lang=page.lang %}

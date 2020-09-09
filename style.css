@@ -102,14 +102,16 @@ mark {
 }
 .top {
 	position: fixed;
-	bottom: var(--lessthan-regular);
-	right: var(--lessthan-regular);
+	width: 24px;
+	height: 24px;
+	bottom: 15rem;
+	right: 0;
 	z-index: 3
 }
 .theme-toggle-button {
 	position: fixed;
-	bottom: var(--height);
-	right: var(--lessthan-regular);
+	bottom: 12rem;
+	right: 0;
 	z-index: 3
 }
 li {
@@ -285,6 +287,17 @@ blockquote {
 blockquote p {
 	font-style: italic !important;
 	color: var(--other-grey) !important
+}
+td,th,tr {
+	border: solid .5px var(--light-grey)
+}
+th, td {
+	padding: var(--small) var(--lessthan-regular)
+}
+table {
+	overflow-x: scroll;
+	width: 100%;
+	border-collapse: collapse
 }
 
 /* WHEN ELEMENT CENTERING IS NEEDED */
