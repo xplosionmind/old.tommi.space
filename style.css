@@ -703,11 +703,6 @@ nav ul li ul li a {
 	footer {
 		margin-left: 2%
 	}
-	.newsletter {
-		height: unset !important;
-		line-height: var(--bigger) !important;
-		padding: var(--small) !important
-	}
 	.jar-preview .line {
 		margin: var(--tiny) auto
 	}
@@ -807,7 +802,9 @@ footer p:focus {
 	display: block !important;
 	width: 90% !important;
 	margin: var(--morethan-regular) auto;
-	padding: 0 var(--small)
+	padding: var(--small);
+	height: unset !important;
+	line-height: unset !important
 }
 #social-box {
 	margin: var(--morethan-regular) auto
