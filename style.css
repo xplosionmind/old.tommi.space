@@ -132,6 +132,15 @@ ul li li, ol li li {
 ul li li li {
 	list-style-type: "- "
 }
+.task-list-item {
+	list-style: none
+}
+.task-list-item-checkbox {
+	position: relative;
+	right: var(--lessthan-regular);
+	width: var(--regular);
+	height: var(--regular)
+}
 
 .poetry, .post {
 	font: 400 var(--morethan-regular) "Merriweather", "Latin Modern Roman", Georgia, serif;

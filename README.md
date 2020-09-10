@@ -51,7 +51,6 @@ Work in progress pages:
 	- [ ] better indication of external resources' creators
 - [ ] [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
 - [ ] CSS cleanup
-- [ ] CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
 - [ ] fix `object-fit` in Stuff
 - [ ] Flickr APIs for embedded/integrated/automated galleries
 	- use [FlickrEmbed](https://flickrembed.com/)
@@ -97,6 +96,7 @@ Work in progress pages:
 - [x] customise 404 page
 - [x] Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
 - [x] categories description and link to stuff
+- [x] CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
 - [x] cursor styling
 - [x] final header configuration
 - [x] gif instead of images 
