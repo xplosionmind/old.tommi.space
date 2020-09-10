@@ -64,7 +64,9 @@ Work in progress contents:
 	- or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
 - [ ] get rid of jQuery (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time)
 - [ ] global search button
+- [ ] Language selection straight from landing page
 - [ ] [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) redesign. Try to use [this tool](https://neumorphism.io/)
+	- [ ] use [Eva icons](https://jekyllrb.com/docs/pagination/)
 - [ ] Newsletter
 	- [x] subscribe button
 	- [ ] back-end implementation
