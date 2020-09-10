@@ -235,13 +235,13 @@ strong, b {
 	font-size: var(--big);
 	height: 2.3rem; /* height - 4*tiny */
 	line-height: 2.3rem;
-	transition: var(--trans);
+	transition: var(--quicktrans);
 	margin: 0;
 	padding: 0 var(--small)
 }
 .category:hover, .language:hover, .link:hover,
 .category:focus, .language:focus, .link:focus {
-	transform: scale(1.05)
+	transform: scale(1.1)
 }
 .language, .gallery {
 	color: var(--text);
