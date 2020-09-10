@@ -45,10 +45,6 @@ Work in progress pages:
 - [ ] add categories list also in the Jar
 - [ ] Analytics (temporarily set up with goatcounter)
 - [ ] automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Testing [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51)
-- [ ] checkbox styling
-- [ ] Copyright specifications
-	- [ ] in Everyone page
-	- [ ] better indication of external resources' creators
 - [ ] [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
 - [ ] CSS cleanup
 - [ ] fix `object-fit` in Stuff
@@ -96,6 +92,7 @@ Work in progress pages:
 - [x] customise 404 page
 - [x] Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
 - [x] categories description and link to stuff
+- [x] checkbox styling
 - [x] CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
 - [x] cursor styling
 - [x] final header configuration

@@ -15,6 +15,24 @@ style: "true"
 	</div>
 </div>
 
+{% for post in site.posts %}
+	{% if post.categories contains page.title %}
+		<a href="{{ post.url }}">
+			<div class="row">
+				<div class="one column preview">
+					<div class="four-fifths column">
+						<h2 class="post-title">{{ post.title }}</h2>
+					</div>
+					<div class="one-fifth column date">
+						{{ post.date | date: "%d %B %Y" }}
+					</div>
+				</div>
+				<div class="line" style="background: {{ page.background-color }}"></div>
+			</div>
+		</a>
+	{% endif %}
+{% endfor %}
+
 {% assign filinge = site.filinge | reverse %}
 {% for post in filinge %}
 <a href="{{ post.url }}">
