@@ -213,7 +213,7 @@ strong, b {
 	padding: var(--tiny);
 	scroll-behavior: smooth;
 	height: var(--height);
-	width: calc(100% - 5rem)
+	width: calc(100% - 5.8rem)
 }
 .categories::-webkit-scrollbar {
 	display: none
@@ -226,7 +226,7 @@ strong, b {
 	color: var(--background);
 	height: var(--height);
 	font-weight: 700;
-	width: 5rem
+	width: 5.8rem
 }
 .category, .language, .link, .gallery {
 	display: inline-block;
@@ -715,7 +715,7 @@ nav ul li ul li a {
 	}
 	.categories {
 		position: relative;
-		left: 5rem;
+		left: 5.8rem;
 		bottom: var(--height)
 	}
 }
