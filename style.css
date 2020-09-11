@@ -142,14 +142,17 @@ ul li li li {
 
 .poetry, .post {
 	font: 400 var(--morethan-regular) "Merriweather", "Latin Modern Roman", Georgia, serif;
-	letter-spacing: 0.01rem
+	letter-spacing: 0.03rem;
+}
+.poetry p, .post p {
+	line-height: var(--bigger-em)
 }
 strong, b {
 	font-weight: 700
 }
 .post p:first-of-type::first-letter {
 	line-height: var(--morethan-regular);
-	font-size: 6em;
+	font-size: 5em;
 	initial-letter: 3;
 	-webkit-initial-letter: 3
 }

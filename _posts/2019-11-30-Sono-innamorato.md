@@ -3,11 +3,7 @@ img: "/images/2019-11-30-Sono-innamorato.jpg"
 ---
 Cosa vuol dire saper scrivere.
 
-<br />
-
 Non ho idea del significato di “saper scrivere”, non riesco assolutamente a comprenderlo, ma contemporaneamente mi sorprendo di quanto inafferrabile sia il concetto finché non si palesa. Leggere e pensare: “adoro questa scrittura”. Ecco. Come accade questo? Esiste una spiegazione universale a questa esclamazione nella nostra testa? Com’è possibile che certi concetti siano espressi magistralmente producendo così tanta emozione? Dove sta esattamente la differenza fra un 8 e un 10 di un tema di italiano?
-
-<br />
 
 <figure><img src="{{ page.img }}" alt="rassegna stampa de Il Post, con Francesco Costa e Luca Sofri, presso il circolo dei lettori" /><figcaption>la rassegna stampa di questa mattina al Circolo dei Lettori di Torino, con Luca Sofri e Francesco Costa, durante cui mi sono venute in mente queste domande</figcaption></figure>
 
