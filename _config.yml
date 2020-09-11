@@ -50,6 +50,7 @@ sass:
     style: compressed
 
 permalink: "/:title"
+ref: ":title"
 
 defaults:
   -
@@ -57,7 +58,7 @@ defaults:
       path: ""
     values:
       layout: "wrapper"
-      ref: "/:title"
+      ref: ":title"
       lang: "en"
       img: "/images/preview.gif"
       primary: "#FCC920"
@@ -68,7 +69,7 @@ defaults:
       type: "categories"
     values:
       layout: "category"
-      permalink: "/category/:title"
+      permalink: "/:title"
 
   -
     scope:
