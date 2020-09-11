@@ -102,9 +102,7 @@ mark {
 }
 .top {
 	position: fixed;
-	width: 24px;
-	height: 24px;
-	bottom: 15rem;
+	bottom: 17rem;
 	right: 0;
 	z-index: 3
 }
