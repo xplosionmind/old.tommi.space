@@ -192,7 +192,7 @@ strong, b {
 	font-size: var(--mastodon)
 }
 .page-header {
-	margin-top: 7rem; /* second time, if added to "" */
+	margin-top: 6rem;
 	text-align: center;
 	margin-bottom: var(--mastodon)
 }

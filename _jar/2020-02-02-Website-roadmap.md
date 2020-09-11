@@ -1,11 +1,12 @@
 ---
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 permalink: /roadmap
-edited: 2020-09-10
+edited: 2020-09-11
 ---
 ## Issues
 
 - Subheadings display issue on mobile. [Example page](https://tommi.space/server-setup#nextcloud-configuration)
+- Comment button toggle **not working**
 
 <br />
 <br />
@@ -62,9 +63,9 @@ Work in progress contents:
 	- use [FlickrEmbed](https://flickrembed.com/)
 	- or use [Flickr APIs](https://www.flickr.com/services/api/)
 	- or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
-- [ ] get rid of jQuery (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time)
+- [ ] Full width pictures in articles
+- [ ] get rid of jQuery (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time) and use simple JS for the task it’s used for ([list toggle on click](https://www.w3schools.com/howto/howto_js_dropdown.asp))
 - [ ] global search button
-- [ ] Language selection straight from landing page
 - [ ] [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) redesign. Try to use [this tool](https://neumorphism.io/)
 	- [ ] use [Eva icons](https://jekyllrb.com/docs/pagination/)
 - [ ] Newsletter
@@ -72,8 +73,8 @@ Work in progress contents:
 	- [ ] back-end implementation
 	- [ ] Mailtrain || listmonk setup
 - [ ] [Now page](https://sivers.org/now)
-- [ ] `head` include (is this good for performance?)
 - [ ] [Pagination](https://jekyllrb.com/docs/pagination/)
+- [ ] Pictures in blog posts list
 - [x] Poetry
 	- [x] section
 	- [x] custom styling
@@ -108,6 +109,7 @@ Work in progress contents:
 - [x] `id` anchor links
 - [x] inline code styling
 - [x] input fields styling
+- [x] Language selection straight from landing page - 2020.09.11
 - [x] language switch [x] `letter-spacing` and `word spacing` (it's nice as it is) [x] light/dark mode switch button (I'm deep and dark / I'm bright and shiny) [x] list of belonging categories at the top of the post page
 - [x] Mobile optimisation
 - [x] move `stuff extended` to `The Jar`
