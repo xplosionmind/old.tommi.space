@@ -1,7 +1,7 @@
 ---
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 permalink: /roadmap
-edited: 2020-09-11
+edited: 2020-09-13
 ---
 ## Issues
 
@@ -56,6 +56,7 @@ Work in progress contents:
 - [ ] Categories global improvements
 	- [ ] add categories to The Jar
 	- [ ] show in a post its categories
+- [ ] Configure [Bridgy](https://brid.gy/)
 - [ ] [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
 - [ ] CSS cleanup
 - [ ] fix `object-fit` in Stuff
@@ -66,6 +67,7 @@ Work in progress contents:
 - [ ] Full width pictures in articles
 - [ ] get rid of jQuery (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time) and use simple JS for the task it’s used for ([list toggle on click](https://www.w3schools.com/howto/howto_js_dropdown.asp))
 - [ ] global search button
+- [ ] [Indiewebify](https://indiewebify.me/) website
 - [ ] [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) redesign. Try to use [this tool](https://neumorphism.io/)
 	- [ ] use [Eva icons](https://jekyllrb.com/docs/pagination/)
 - [ ] Newsletter
