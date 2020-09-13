@@ -40,6 +40,9 @@ This is sort of a bucket where I copy-paste links to insightful articles and vid
 - [PolitePol](https://politepol.com/): create an RSS feed for any page
 - [Movim](https://movim.eu/), social
 - [Restore privacy - Google Alternatives](https://restoreprivacy.com/google-alternatives/)
+- [Quit Social Media - TED Talk](https://youtu.be/3E7hkPZ-HTk)
+- [Facebook Doesn’t tell users everything it really knows about them](https://www.propublica.org/article/facebook-doesnt-tell-users-everything-it-really-knows-about-them)
+- [quitfacebook.org](https://www.quitfacebook.org/)
 
 <br />
 <br />

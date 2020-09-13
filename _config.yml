@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tommi.space" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xplosionmind
 github_username: xplosionmind
-git_repository: xplosionmind
+git_repository: "tommi.space"
 future: true
 profile: true
 livereload: true
