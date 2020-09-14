@@ -41,6 +41,7 @@ Work in progress contents:
 
 ### To be created
 
+- CANZOMNIA Jar page
 - Shows formats ideas
 - Books passages
 - Stuff extended like page, but with media
