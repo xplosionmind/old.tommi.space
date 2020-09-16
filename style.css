@@ -184,8 +184,8 @@ strong, b {
 	text-align: center
 }
 .warning {
-	background: var(--blue);
-	color: white;
+	background: var(--primary);
+	color: var(--background);
 	padding: var(--regular);
 	margin: var(--twice) 0
 }

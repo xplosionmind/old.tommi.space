@@ -4,7 +4,6 @@ toc: 0
 edited: 2020-08-30
 description: "A comprehensive list of great online resources for learning and more. Official documentation is not included, since it can usually be found with a quick and trivial research."
 ---
-
 ## Geek stuff
 
 - [A2Z Learning Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students), a comprehensive and rich repository with almost anything someone keen to improve its developing skills cen ask for

@@ -1,7 +1,7 @@
 ---
 description: "To keep the phone rolling smoothly, from time to time a classic data backup and factory reset of the mobile device is necessary, but it’s important not to forget what to backup before hitting the red button. This is my checklist and importing workflow."
 edited: 2020-09-14
-permaking: /mobile-backup-checklist
+permalink: /mobile-backup-checklist
 toc: 0
 ---
 - Export apps settings
@@ -24,4 +24,4 @@ toc: 0
 
 - [ ] import everything in an isolated folder
 - [ ] run DupeGuru (VIDEOS MANAGEMENT?)
-- [ ] run Exiftool
+- [ ] [run Exiftool](/Cheat-Sheets#ExifTool)

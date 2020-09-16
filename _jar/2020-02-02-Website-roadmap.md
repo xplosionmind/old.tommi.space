@@ -68,6 +68,7 @@ Work in progress contents:
 - [ ] Full width pictures in articles
 - [ ] get rid of jQuery (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time) and use simple JS for the task it’s used for ([list toggle on click](https://www.w3schools.com/howto/howto_js_dropdown.asp))
 - [ ] global search button
+- [ ] Includes with `CC0` and `All-rights-reserved` to add in specific pages
 - [ ] [Indiewebify](https://indiewebify.me/) website
 - [ ] [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) redesign. Try to use [this tool](https://neumorphism.io/)
 	- [ ] use [Eva icons](https://jekyllrb.com/docs/pagination/)

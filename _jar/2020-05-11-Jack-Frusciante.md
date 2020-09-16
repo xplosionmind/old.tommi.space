@@ -6,7 +6,6 @@ toc: 0
 edited: 2020-07-02
 description: "Enrico Brizzi aveva la mia età quando scrisse <em>Jack Frusciante è uscito dal gruppo</em>. Ho voluto capire quanto quello che aveva nella testa corrisponde a ciò che ho io ora. L’ho fatto stilando una lista di tutte le reference e citazioni presenti nel libro. Tutti i numeri non in lettere sono le pagine."
 ---
-
 - Madness
 - Specials
 - Sham, 69

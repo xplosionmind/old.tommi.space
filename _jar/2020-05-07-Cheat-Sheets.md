@@ -1,0 +1,122 @@
+---
+categories: geek
+edited: 2020-09-16
+description: "I use tech devices a lot, maybe too much, but I don’t dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
+---
+## CLI - Terminal commands
+
+change screenshot format
+
+```
+defaults write com.apple.screencapture type jpg
+killall SystemUIServer
+```
+
+### External links
+
+- [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line), a GitHub repo by [Marcel Bischoff](https://herrbischoff.com/)
+
+<br />
+<br />
+
+## ExifTool
+
+Scripts for the awesome [ExifTool](https://exiftool.org/). I use them as part of my [photo importing workflow](/mobile-backup-checklist#photo-importing-workflow).
+
+All of these scripts must be followed by the path of the image or the directory containing multiple pictures.
+{:.red .warning}
+
+### Show metadata
+
+```sh
+exiftool -s -G
+```
+
+**`-s`** is used to show the names in ExifTool commands format. *e.g.: instead of "Create Date" you see "CreateDate"*
+{:.blue .warning}
+
+**`-G`** is used to show the metadata Group to which the metadata tag belongs.
+{:.blue .warning}
+
+<br />
+
+### File renaming
+
+Rename files based on their date and time data.
+
+Images shot at the same moment (photo bursts, for example) are being sorted with increasing single-digit indexes.
+{:.blue .warning}
+	
+Since there are many parameters which **might contain conflicting times**, there are several different tags which can be analyzed. I sorted them such that the first ones are the ones which are more likely to be found but probably not exact, while the last ones are very precise tags, but less likely to be found in an image metadata.
+{:.yellow .warning}
+
+```sh
+exiftool '-FileName<FileModifyDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
+```
+
+```sh
+exiftool '-FileName<DateTimeCreated' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
+```
+
+```sh
+exiftool '-FileName<CreateDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
+```
+
+```sh
+exiftool '-FileName<DateTimeOriginal' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
+```
+
+```sh
+exiftool '-FileName<GPSDateTime' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
+```
+
+adding **`-r`** is used to make the analysis _recursive_, which means that subfolders are scanned, too.
+{:.blue .warning}
+
+<br />
+
+### Directories
+
+Organize files in directories based on each image’s dimensions (resolution)
+
+**NOTE**: the directories are created in the working directory
+{:.yellow .warning}
+
+```sh
+"-Directory<imagesize"
+```
+
+<br />
+
+Move files to folders based on year and month
+
+```sh
+exiftool '-Directory<FileModifyDate' -d /path/to/directory/%Y/%Y.%m -r
+```
+
+```sh
+exiftool '-Directory<DateTimeCreated' -d /path/to/directory/%Y/%Y.%m -r
+```
+
+```sh
+exiftool '-Directory<CreateDate' -d /path/to/directory/%Y/%Y.%m -r
+```
+
+```sh
+exiftool '-Directory<DateTimeOriginal' -d /path/to/directory/%Y/%Y.%m -r
+```
+
+```sh
+exiftool '-Directory<GPSDateTime' -d /path/to/directory/%Y/%Y.%m -r
+```
+
+add **`-o`** after `exiftool` to copy each image instead of moving it.
+{:.blue .warning}
+
+<br />
+
+### Sources
+
+Commands above are a personal adaptation of the ones I found from the following sources:
+- [9° Below - ExifTool Commands for Image Organization](https://ninedegreesbelow.com/photography/exiftool-commands.html)
+- [exiftool Application Documentation](https://exiftool.org/exiftool_pod.html)

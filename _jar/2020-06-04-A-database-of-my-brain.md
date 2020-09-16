@@ -4,7 +4,6 @@ edited: 2020-08-02
 permalink: /knowledge
 description: "Maybe I’m just losing my time, but I believe it would be so nice if I could list out in this page <strong>all of the things I know</strong> and the ones I need or want to learn sooner or later."
 ---
-
 Every topic should have its namesake counterpart in the [knowledge](./knowledge) page, with a link to the resources I took advantage of to learn it.
 
 <div class="warning">
