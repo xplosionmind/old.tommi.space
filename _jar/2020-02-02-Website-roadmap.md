@@ -15,6 +15,7 @@ edited: 2020-09-13
 
 Work in progress contents:
 
+- [da riordinare](/riordinare/)
 - [drafts](./_drafts)
 - [Comprehensive list](./pages/radioimmaginaria-database.md) of Radioimmaginaria episodes I’m in
 - [Database of my brain](./_jar/2020-06-04-brain-database.md), list of all the stuff I know and need to know

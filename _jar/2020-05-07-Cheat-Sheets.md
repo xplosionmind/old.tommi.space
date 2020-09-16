@@ -120,3 +120,10 @@ add **`-o`** after `exiftool` to copy each image instead of moving it.
 Commands above are a personal adaptation of the ones I found from the following sources:
 - [9° Below - ExifTool Commands for Image Organization](https://ninedegreesbelow.com/photography/exiftool-commands.html)
 - [exiftool Application Documentation](https://exiftool.org/exiftool_pod.html)
+
+<br />
+<br />
+
+# git
+
+- [Dangit, Git!?!](https://dangitgit.com/)
