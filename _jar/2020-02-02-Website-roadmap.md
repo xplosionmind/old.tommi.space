@@ -78,6 +78,7 @@ Work in progress contents:
 	- [ ] back-end implementation
 	- [ ] Mailtrain || listmonk setup
 - [ ] [Now page](https://sivers.org/now)
+- [ ] [Open Graph Protocol](https://ogp.me/) better integration
 - [ ] [Pagination](https://jekyllrb.com/docs/pagination/)
 - [ ] Pictures in blog posts list
 - [x] Poetry
