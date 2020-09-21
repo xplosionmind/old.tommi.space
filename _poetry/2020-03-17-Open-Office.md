@@ -3,7 +3,6 @@ title: "Open Office"
 date: 2020-03-17
 lang: it
 ---
-
 Dove scappi e ti nascondi?
 
 in quale universo rimani intrappolato
