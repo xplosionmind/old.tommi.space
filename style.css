@@ -162,7 +162,11 @@ ul li li li {
 	font: 400 var(--morethan-regular) "Merriweather", "Latin Modern Roman", Georgia, serif;
 	letter-spacing: 0.03rem;
 }
-.poetry p, .post p {
+.poetry p {
+	line-height: unset;
+	margin: unset 0
+}
+.post p {
 	line-height: var(--bigger-em)
 }
 strong, b {
