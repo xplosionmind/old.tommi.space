@@ -5,6 +5,8 @@ Qualche mattina fa ero in cantina, a rifocillare quegli scatoloni affamati di ri
 
 Ho sorriso.
 
+<!--more-->
+
 Un sorriso libero e vivo è nato nel mio cuore, raggiungendo tramite ignoti percorsi le mie labbra, curvandole con potentissima dolcezza.
 
 Una inspiegabile felicità, quella effimera intensa irrefrenabile naturale, vera, ha attraversato le mie membra facendomi realizzare solo dopo qualche secondo che sì, era finalmente giunto il segnale decisivo: sarebbe stata ora di tornare a scrivere e a sentire, a sentire e a scrivere, a leggere e a vibrare, a sentire e vibrare.
