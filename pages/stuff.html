@@ -49,9 +49,7 @@ ref: stuff
 	{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "true" %}
 	{% for thing in stuff %}
 		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
-			<div class="half column">
-				<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
-			</div>
+			<img class="half column" src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
 			<div class="half column stuff">
 				<div class="stuff-logo">
 					<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
@@ -69,9 +67,7 @@ ref: stuff
 	{% assign stuff=site.stuff | where:"lang", page.lang | where:"current", "false" %}
 	{% for thing in stuff %}
 		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
-			<div class="half column">
-				<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
-			</div>
+			<img class="half column" src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
 			<div class="half column stuff">
 				<div class="stuff-logo">
 					<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />

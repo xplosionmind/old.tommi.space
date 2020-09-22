@@ -22,9 +22,7 @@ ref: home
 <h2 class="section-title">about this weirdo</h2>
 
 <div class="row" id="about">
-	<div class="half column">
-		<img src="/images/tencoascolta.jpg" alt="a photo of me conducting a live show" title="Tommi on stage conducting a live show">
-	</div>
+	<img class="half column" src="/images/tencoascolta.jpg" alt="a photo of me conducting a live show" title="Tommi on stage conducting a live show">
 	<div class="half column">
 		<article style="padding: var(--height) 10%">
 			<p>
@@ -55,11 +53,7 @@ ref: home
 	{% if forloop.first == true %}
 		<a href="{{ post.url }}"><h2 class="section-title">Latest post</h2></a>
 		<div class="row" style="overflow: hidden;">
-			<div class="half column">
-				<div class="stuff-image">
-					<img src="{{ post.img }}" alt="{{ post.title }}" title="{{ post.title }}" />
-				</div>
-			</div>
+			<img class="half column" src="{{ post.img }}" alt="{{ post.title }}" title="{{ post.title }}" />
 			<div class="half column stuff">
 				<a href="{{ post.url }}" style="color: var(--dark-font)"><h2 style="margin-top: var(--big)">{{ post.title }}</h2></a>
 				<p>{{ post.excerpt }}</p>
@@ -97,11 +91,7 @@ ref: home
 {% assign stuff = site.stuff | where: "lang", page.lang | where: "featured", true %}
 {% for thing in stuff %}
 	<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
-		<div class="half column">
-			<div class="stuff-image">
-				<img src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
-			</div>
-		</div>
+		<img class="half column" src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
 		<div class="half column stuff">
 			<div class="stuff-logo">
 				<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
