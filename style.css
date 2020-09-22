@@ -75,6 +75,9 @@ body {
 *, *:before, *:after {
 	box-sizing: inherit
 }
+* {
+	transition: color var(--trans), background var(--trans), padding var(--trans), opacity var(--trans), transform var(--quicktrans)
+}
 .row::before,
 .row::after {
 	display: table;
@@ -258,7 +261,6 @@ strong, b {
 	font-size: var(--big);
 	height: 2.3rem; /* height - 4*tiny */
 	line-height: 2.3rem;
-	transition: var(--quicktrans);
 	margin: 0;
 	padding: 0 var(--small)
 }
@@ -287,7 +289,6 @@ strong, b {
 	height: var(--big);
 	position: absolute;
 	right: 101%; /* big + tiny*/
-	transition: var(--trans);
 	top: .75rem
 }
 .highlight {
@@ -296,7 +297,6 @@ strong, b {
 pre, code {
 	font: 400 1.1em "Ubuntu Mono", "Roboto Mono", "Fira Code", mono;
 	line-height: 1.2em;
-	transition: var(--trans)
 }
 pre {
 	overflow-x: scroll;
@@ -450,14 +450,12 @@ article {
 .preview, .jar-preview, .poetry-preview {
 	color: var(--text);
 	padding: var(--bigger) 0;
-	transition: var(--trans)
 }
 .poetry-preview {
 	text-align: center
 }
 .jar-preview:hover {
 	background: var(--razzmatazz);
-	transition: var(--trans);
 	color: white
 }
 .jar-preview .line {
@@ -470,25 +468,20 @@ article {
 }
 .poetry-preview:hover {
 	background: var(--blue);
-	transition: var(--trans);
 	color: white
 }
 .preview:hover, .preview:focus {
 	background: var(--primary);
 	color: var(--background);
-	transition: var(--trans);
 	padding: var(--bigger) var(--lessthan-regular)
 }
 .jar-preview:hover, .jar-preview:focus {
 	 background: var(--razzmatazz);
-	 transition: var(--trans)
 }
 .jar-preview:hover .post-title {
 	padding-left: var(--bigger);
-	transition: var(--trans)
 }
 .jar-preview .post-title {
-	transition: var(--trans)
 }
 .jar-preview .half:nth-child(2) {
 	padding: 0 var(--regular)
@@ -520,7 +513,6 @@ article h2, article h3, article h4, article h5, article h6 {
 	line-height: var(--height);
 	top: 3.6rem;
 	margin-bottom: 0;
-	transition: var(--quicktrans)
 }
 h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor {
 	opacity: 0;
@@ -547,7 +539,7 @@ a, button {
 }
 p a:hover, p a:focus, article li a:hover, article li a:focus, .toc a {
 	outline: none !important;
-	border-bottom: 2px dashed
+	border-bottom: 2px dashed;
 }
 .stuff {
 	padding: 0 10%;
@@ -597,7 +589,6 @@ footer {
 	position: fixed;
 	text-transform: uppercase;
 	font-weight: 700;
-	transition: var(--trans)
 }
 .navigation a, .navigation a:hover, .navigation a:focus {
 	text-decoration: none
@@ -609,14 +600,12 @@ footer {
 	height: var(--height);
 	font-size: var(--bigger);
 	background: var(--background);
-	transition: var(--trans)
 }
 .xplosionmind a, .xplosionmind a:visited {
 	color: var(--primary)
 }
 .xplosionmind:hover, .xplosionmind:focus {
 	background: var(--primary);
-	transition: var(--trans);
 	border-bottom: none
 }
 .xplosionmind a:hover, .xplosionmind a:focus {
@@ -823,7 +812,6 @@ footer .one-fifth a {
 }
 footer p:hover,
 footer p:focus {
-	transition: var(--trans);
 	opacity: 100%
 }
 .newsletter {
@@ -845,7 +833,6 @@ footer p:focus {
 	font-size: var(--bigger);
 	font-weight: bold;
 	width: auto;
-	transition: var(--quicktrans);
 	text-transform: uppercase;
 	hyphens: none
 }
@@ -880,5 +867,4 @@ footer .one-fourth .half a {
 #CClogo:hover,
 #CClogo:focus {
 	opacity: 100%;
-	transition: var(--quicktrans);
 }
