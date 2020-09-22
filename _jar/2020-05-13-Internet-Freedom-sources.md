@@ -1,7 +1,7 @@
 ---
 categories: geek
 toc: 0
-edited: 2020-08-30
+edited: 2020-09-22
 description: "Everything inspiring, meaningful or particularly significant about web privacy I find online."
 ---
 This is sort of a bucket where I copy-paste links to insightful articles and videos about privacy online without any further contextualization. Sooner or later I’ll be forced to organize them.
@@ -46,6 +46,7 @@ This is sort of a bucket where I copy-paste links to insightful articles and vid
 - [Okuna](https://www.okuna.io/en)
 - [Firefox tweaks](https://www.privacytools.io/browsers/#about_config)
 - Discussione di [Filosofia di gruppo](https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3) su Dieci ragioni per eliminare il proprio account sui social media. Il mio intervento a al minuto `44:45`
+- [Do not teack Documentary](https://donottrack-doc.com) (2015)
 
 <br />
 <br />
