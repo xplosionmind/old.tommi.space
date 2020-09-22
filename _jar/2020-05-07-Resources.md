@@ -1,7 +1,7 @@
 ---
 categories: geek
 toc: 0
-edited: 2020-08-30
+edited: 2020-09-22
 description: "A comprehensive list of great online resources for learning and more. Official documentation is not included, since it can usually be found with a quick and trivial research."
 ---
 ## Geek stuff
@@ -19,6 +19,7 @@ description: "A comprehensive list of great online resources for learning and mo
 - [Papers We Love](https://paperswelove.org/), a [repository](https://github.com/papers-we-love/papers-we-love) of academic computer science papers and a [community](https://github.com/papers-we-love/papers-we-love/wiki/Creating-a-PWL-chapter) who loves reading them.
 - [HTML and CSS](http://www.htmlandcssbook.com/), a book by Jon Duckett
 - [CSS - An Art, a Science, a Nightmare](https://www.taniarascia.com/overview-of-css-concepts/), a comprehensive wonderful article by Tania Rascia
+- [SoloLearn](https://www.sololearn.com/)
 
 ### vim
 

@@ -50,6 +50,8 @@ Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS). I think the whole world s
 
 ### Telegram Bots
 
+[Botlist.co](https://botlist.co/)
+
 - [AlertBot](https://t.me/AlertBot), get alerts
 - [Channel2RSSBot](https://t.me/Channel2RSSBot), privide a RSS link for any given Telegram Channel
 - [Classical Music](https://t.me/music), to discover classical music
