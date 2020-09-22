@@ -127,3 +127,102 @@ Commands above are a personal adaptation of the ones I found from the following 
 # git
 
 - [Dangit, Git!?!](https://dangitgit.com/)
+
+<br />
+<br />
+
+## Docker
+
+### Notes
+
+- Every docker container has an IP assigned by default
+- by default, docker doesn't assign a terminal to a container when it's run
+- Docker has a built-in DNS serves that allows containers to resolve each other
+	- DNS server runs at `127.0.0.11`
+
+<br>
+
+to list all running containers
+
+```
+docker ps
+```
+
+to list running and non-running containers
+
+```
+docker ps -a
+```
+
+to list all the details about a container
+
+```
+docker inspect some-container
+```
+
+to see all the logs of a container running in a background
+
+```
+docker logs some-container
+```
+
+<br>
+
+### Run
+
+```
+docker run some-image
+```
+
+- add `-d` to
+- add `-it` to run an image in an interactive way
+	- add `-i` to check for input
+	- add `-t` to prompt on terminal
+- `-p 80:5000` port-where-user-access:port-of-docker-container
+- to store data in an external directory `docker run -v /opt/daradir:/var/lib/some-app some-app`
+- `-e ENVIRONMENT_VARIABLE=VARIABLE some-app` to change an environment variable
+
+<br>
+
+### Networks
+
+To find which network you're in, use the `inspect` command
+
+<br>
+
+**`bridge`**:
+
+private and internal network
+
+<br>
+
+**`none`**:
+
+no attachment to any network
+
+```
+docker run some-app --network=none
+```
+
+<br>
+
+**`host`**:
+
+to access from the web
+
+```
+docker run some-app --network=host
+```
+
+<br>
+<br>
+
+### Storage
+
+Docker files are in `/var/lib/docker`
+
+<br>
+
+### Questions
+
+- how can I know the Docker Host IP address?
