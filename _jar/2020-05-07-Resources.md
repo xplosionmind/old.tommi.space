@@ -1,8 +1,6 @@
 ---
-categories: geek
-toc: 0
-edited: 2020-09-22
-description: "A comprehensive list of great online resources for learning and more. Official documentation is not included, since it can usually be found with a quick and trivial research."
+description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
+edited: 2020-09-24
 ---
 ## Geek stuff
 
@@ -38,3 +36,21 @@ description: "A comprehensive list of great online resources for learning and mo
 - [git official documentation](https://git-scm.com/doc)
 - [escape a git mess](http://justinhileman.info/article/git-pretty/git-pretty.png)
 - [git interactive **Cheat Sheet**](https://ndpsoftware.com/git-cheatsheet.html)
+
+<br>
+<br>
+
+## Free Books Download
+
+- [The Internet Archive](https://archive.org)
+- [The Gutenberg Proect](http://www.gutenberg.org)
+- [Open Library](https://openlibrary.org/) (just to take e-books on loan)
+- [The Pirate Bay](https://piratebay-proxylist.net/)
+- [Library Genesis](http://libgen.rs/)
+- [Academic Torrents](https://academictorrents.com/)
+- [Textbook Nova](https://textbooknova.com)
+- [Manybooks](http://www.manybooks.net)
+- [Online Self Education](https://onlineselfeducation.com/) (registrations number is limited and access is allowed only to logged users)
+- [Online Library of Liberty](http://oll.libertyfund.org)
+- [AvaxHome](https://avxhm.is)
+- [Books Depository](https://www.bookdepository.com/publishers/T-N-T-Books)

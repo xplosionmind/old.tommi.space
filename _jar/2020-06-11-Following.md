@@ -1,5 +1,5 @@
 ---
-edited: 2020-09-16
+edited: 2020-09-24
 description: "There’so much content, online. This is a comprehensive list of stuff I follow on the internet."
 ---
 **Stuff**: Newsletters by people, newsletters by magazines, newsletters by computers, feeds of various sort, Telegram channels, Telegram Groups, Facebook Groups, Facebook Pages, people’s blogs
@@ -35,6 +35,7 @@ Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS). I think the whole world s
 
 	Storie e pensieri suoi e di altri. Per iscriversi alla newsletter *Mostly Weekly*: https://tinyletter.com/MostlyIWrite
 - [Mozilla Italia](https://t.me/MozItaBot), aggiornamenti da [Mozilla Italia](http://mozillaitalia.org)
+- [The Devs](https://t.me/thedevs), from [The Devs Network](https://thedevs.network)
 
 #### Stopped Following
 
@@ -47,6 +48,7 @@ Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS). I think the whole world s
 - [Associazione Oltre](https://t.me/Oltre_Sanremo), il gruppo pubblico di discussione dell’Associazione Culturale di Sanremo di cui sono presidente.
 - [BiT PoliTo Forum](https://t.me/bitPoliTO), gruppo pubblico su Bitcoin, Blockchain e Crypto gestito dal team studentesco BIT PoliTo
 - [FSFE Milano](https://t.me/fsfemilano), FSFE Local Group Milano: gruppo telegram di coordinamento e discussione attività [FSFE](https://fsfe.org) Milano
+
 
 ### Telegram Bots
 
