@@ -1,15 +1,17 @@
 ---
-description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 permalink: /roadmap
 edited: 2020-09-13
+description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 ---
 ## Issues
 
 - Subheadings display issue on mobile. [Example page](https://tommi.space/server-setup#nextcloud-configuration)
 - Comment button toggle **not working**
+- language loop in language selection
+- report parsing error in jar list elements with `a` tags
 
-<br />
-<br />
+<br>
+<br>
 
 ## WIP
 
@@ -21,7 +23,6 @@ Work in progress contents:
 - [Database of my brain](./_jar/2020-06-04-brain-database.md), list of all the stuff I know and need to know
 - [Making this website](./_posts/2020-04-18-Making-this-website.md) article
 - [Stuff extended](./pages/stuff-extended-it)
-	- lista video Giffoni factori
 	- date ospiti Giffoni cineforum
 	- Incontri Masterclass
 	- Film in concorso Giffoni
@@ -47,8 +48,8 @@ Work in progress contents:
 - Books passages
 - Stuff extended like page, but with media
 
-<br />
-<br />
+<br>
+<br>
 
 ## To do
 
@@ -71,6 +72,10 @@ Work in progress contents:
 - [ ] global search button
 - [ ] Includes with `CC0` and `All-rights-reserved` to add in specific pages
 - [ ] [Indiewebify](https://indiewebify.me/) website
+- [ ] JavaScript filters
+    - [ ] language in zibaldone and jar
+    - [ ] categories in zibaldone and jar
+    - [ ] sort order in Books list
 - [ ] [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) redesign. Try to use [this tool](https://neumorphism.io/)
 	- [ ] use [Eva icons](https://jekyllrb.com/docs/pagination/)
 - [ ] Newsletter
@@ -87,6 +92,7 @@ Work in progress contents:
 	- [ ] custom feed
 - [ ] RSS Feeds management + Mailtrain automation
 - [ ] share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
+- [ ] Single page for all Categories, with Jar inclusion and anchor to choose a category
 - [ ] stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
 - [ ] [Typography](https://xplosionmind.tk/typography)
 	- [ ] final letter spacing, line height, etc.
@@ -129,12 +135,12 @@ Work in progress contents:
 - [x] SVG buttons
 - [x] [table of contents](https://github.com/allejo/jekyll-toc)
 
-<br />
-<br />
+<br>
+<br>
 
 ### Creative ideas &&/|| Experiments
 
-- DESKTOP: floating “categories” column on the right
+- [desktop]: floating “categories” column on the right
 - [Generative Art](http://tholman.com/post/generative-art-speedrun/)
 	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/)
 - everything center-aligned, also on desktop

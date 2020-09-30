@@ -1,13 +1,17 @@
 ---
-title: "di tutto e di più"
+title: "Di tutto e di più"
 lang: it
+ref: stuff-extended
 permalink: /tuttopiu
-edited: 2020-09-02
-description: Dato che per mia natura e vocazione finisco sempre in mezzo a una miriade di iniziative e progetti fantastici, mi trovo a partecipare o organizzare o condurre moltissimi piccoli eventi o interviste o incontri, e sono talmente tanti che alla fine rischio di dimenticarmeli e non riuscire più a trovarli. Per questo, proverò a tenere aggiornata questa lista di riferimento con tutto ciò a cui ho partecipato, attivamente o come spettatore, inserendo collegamenti a pagine, foto e informazioni.<br /><br />Alcuni album di foto potrebbero essere privati. Scrivetemi un’email se avete partecipato e desiderate accedere.
+edited: 2020-09-20
+description: "Dato che per mia natura e vocazione finisco sempre in mezzo a una miriade di iniziative e progetti fantastici, mi trovo a partecipare o organizzare o condurre moltissimi piccoli eventi o interviste o incontri, e sono talmente tanti che alla fine rischio di dimenticarmeli e non riuscire più a trovarli. Per questo, proverò a tenere aggiornata questa lista di riferimento con tutto ciò a cui ho partecipato, attivamente o come spettatore, inserendo collegamenti a pagine, foto e informazioni."
 ---
-## Musica live
+Alcuni link fra i seguenti potrebbero essere privati. Se necessitate l'accesso, mandatemi un'email.
+{:.yellow .warning}
 
-Se ogni tanto non organizzo qualche piccola seratina di buona musica nel ponente ligure (casa mia) vado in astinenza e impazzisco.
+## Concertini
+
+Se ogni tanto non organizzo qualche seratina di buona musica nel ponente ligure (casa mia) vado in astinenza e impazzisco.
 
 - 9 luglio 2019, <a href="https://www.facebook.com/events/318752479011472/" rel="noopener noreferrer" target="_blank">**Il mio CUBO suona il Rock**</a> al <a href="https://www.instagram.com/ilcuboofficial/" rel="noopener noreferrer" target="_blank">CUBO</a>
 	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157709602897386" rel="noopener noreferrer" target="_blank">foto</a>
@@ -19,8 +23,7 @@ Se ogni tanto non organizzo qualche piccola seratina di buona musica nel ponente
 - 27 dicembre 2019, <a href="https://www.facebook.com/events/318752479011472/" rel="noopener noreferrer" target="_blank">**A little Christmas show**</a>, organizzato con i miei amici squinternati del <a href="/tutto#club-tenco" target="_blank">Club Tenco</a>
 	- <a href="https://www.flickr.com/photos/tommiboom/albums/72157712420326831" rel="noopener noreferrer" target="_blank">foto</a>
 
-<br />
-<br />
+<br>
 
 ## Radioimmaginaria
 
@@ -114,8 +117,7 @@ A settembre 2018, il mio percorso da speaker di Radioimmaginaria si è concluso,
 - il 14 novembre 2019, [**Teen Parade**](https://radioimmaginaria.it/teenparade2019), Genova
 	- [foto](https://www.flickr.com/photos/tommiboom/albums/72157711789754013)
 
-<br />
-<br />
+<br>
 
 ## Scout
 
@@ -134,8 +136,7 @@ Per i profani: il San Giorgio è l’evento di due o tre giorni in cui si riunis
 - [Uscita di clan](https://www.flickr.com/photos/tommiboom/albums/72157690486947843) a Colla Micheri, 16 marzo 2019
 - il 26 maggio 2019 ho fatto servizio alla [Caccia di Zona](https://www.flickr.com/photos/tommiboom/albums/72157708825090931) a Imperia
 
-<br />
-<br />
+<br>
 
 ## Giffoni Film Festival
 
@@ -160,14 +161,11 @@ A Giffoni non scatto mai molte foto, per questo, oltre a quelli molto scarni sul
 	- [foto]()
 	- [album di Giffoni](https://www.flickr.com/photos/giffonifilmfestival/collections/72157715587418446/)
 
-<br />
-
 ### Giffoni Factory
 
-I miei contenuti per la [Giffoni Factory](https://www.instagram.com/giffoni_factory/):
+[Qui](https://www.instagram.com/giffoni_factory/) si trovano tutti i contenuti che ho creato con la Giffoni Factory.
 
-<br />
-<br />
+<br>
 
 ## Club Tenco
 
@@ -184,8 +182,7 @@ Tutto è partito da un progetto di classe per alternanza scuola-lavoro nel 2016,
 - dal 17 al 19 ottobre, il [**Premio Tenco 2019**](https://clubtenco.it/premio-tenco-2019/)
 	- [foto](https://www.flickr.com/photos/tommiboom/albums/72157711803975078)
 
-<br />
-<br />
+<br>
 
 ## LIBERA
 
@@ -196,9 +193,7 @@ Sono volontario di [Libera](/tutto#libera) da un po’, ormai. Seguono tutte le 
 - 21 marzo 2029, [giornata della memoria e dell’impegno](https://www.flickr.com/photos/tommiboom/albums/72157691100306223) in onore delle vittime innocenti di mafia, Sanremo
 - il 23 maggio 2020 in [questa diretta](https://it-it.facebook.com/551177158313780/videos/1280858522118804/) ho parlato di beni confiscati alle mafie e del podcast creato con il coordinamento di Libera Imperia, [Libera in Pillole].
 
-<br />
-<br />
-
+<br>
 
 ## La Nuova Corrente
 
@@ -210,8 +205,7 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 - Nel 2018 abbiamo ricevuto nuovamente il premio, tornando a Cesena per la premiazione per il secondo anno di seguito.
 - Dal 6 al 10 febbraio 2018, con una squadra di altri tre coraggiosi pseudo-giornalisti, ci siamo intrufolati nella sala stampa del Festival di Sanremo e ci siamo messi a riprendere un po’ tutto quello che ci sta dentro. Incredibilmente, una delle nostre interviste ha raggiunto le [44 mila visualizzazioni](https://www.youtube.com/watch?v=NjzHlPC_r-4), non chiedetemi come. Altri video e interviste dal Festival possono essere trovati sul medesimo canale.
 
-<br />
-<br />
+<br>
 
 ## altro
 
@@ -248,23 +242,9 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 	- [immagini](https://flic.kr/s/aHsmP1XwS6)
 - dal 5 al 13 luglio 2020 ho partecipato al workshop di giornalismo de [Il Post](https://ilpost.it) a Peccioli. Ho scritto [questo articolo](https://www.ilpost.it/2020/07/12/sgomberi-bogota-coronavirus/)
 
-<br />
-<br />
+<br>
+<br>
 
 ## Spettatore
 
-Tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante.
-
-<br />
-
-### Concerti
-
-- Il mio primo concerto: **Green Day**, Volbeat e Black Rebel Motorcycle Club nell’arena di Nimes, il 10 luglio 2013
-
-<br />
-
-### Opera
-
-<br />
-
-### Teatro
+Tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante si trova [qui](/giri).

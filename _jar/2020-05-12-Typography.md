@@ -1,7 +1,6 @@
 ---
 categories: Design
-title: "Typography"
-edited: 2020-07-02
+edited: 2020-09-30
 description: "It’s a wonderful world, hidden in plain sight. Here there are some resources for inspiration and study."
 ---
 - <a href="http://vignelli.com" rel="noopener noreferrer" target="_blank">The Vignelli Canon</a>, a book on design, **the** book on design, by <a href="https://ilpost.it" rel="noopener noreferrer" target="_blank">Massimo Vignelli</a>. This book inspired me, so much that it completely changed how I see the world (and made me fall in love with Typography).
@@ -12,7 +11,7 @@ description: "It’s a wonderful world, hidden in plain sight. Here there are so
 - Font Forge <a href="http://designwithfontforge.com/en-US/index.html" rel="noopener noreferrer" target="_blank">guide</a>.
 - The <a href="https://fontlibrary.org/" rel="noopener noreferrer" target="_blank">Font Library</a>’s <a href="https://fontlibrary.org/en/guidebook" rel="noopener noreferrer" target="_blank">Guidebook</a>.
 
-<br />
+<br>
 
 ## Fonts
 
@@ -21,8 +20,9 @@ description: "It’s a wonderful world, hidden in plain sight. Here there are so
 	- [play with it](https://rsms.me/inter/lab/)
 	- [xplosionmind uses Inter](/genesi#tipografia)
 - [Merriweather](https://github.com/SorkinType/Merriweather), the serif font I use on this blog, it’s designed by [Eben Sorkin](http://sorkintype.com/about.html).
+- [Graphik](https://commercialtype.com/catalog/graphik), Sans Serif
 
-<br />
+<br>
 
 ## Custom Font
 

@@ -8,7 +8,7 @@ description: "There’so much content, online. This is a comprehensive list of s
 Content which is in italian has its description in italian
 {:.red .warning}
 
-<br />
+<br>
 
 ## RSS
 
@@ -16,8 +16,8 @@ Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS). I think the whole world s
 
 [**My Feed**](/assets/feed.opml) - updated 2020.09.16
 
-<br />
-<br />
+<br>
+<br>
 
 ## Telegram
 
@@ -40,8 +40,13 @@ Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS). I think the whole world s
 #### Stopped Following
 
 - [Ventagli di Parole](https://t.me/ventaglip), per scoprire libri
+- [offerte.tech](https://t.me/offertepuntotech)
+- [offerte sul Web moda](https://t.me/offertesulwebm)
+- [Offerte Tech by Tom's](https://t.me/offerteByToms)
+- [Offerte sul Web](https://t.me/offertesulweb)
+- [Engineering PDF Books](https://t.me/Engineering_PDF_Books)
 
-<br />
+<br>
 
 ### Telegram Public Groups
 
@@ -81,8 +86,8 @@ Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS). I think the whole world s
 - [Torrent Bot](https://t.me/torrentobot)
 - [Wolfram Alpha](https://t.me/WolframBot)
 
-<br />
-<br />
+<br>
+<br>
 
 ## Facebook
 
