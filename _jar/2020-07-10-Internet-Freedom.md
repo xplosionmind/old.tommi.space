@@ -41,6 +41,8 @@ Random links about privacy online
 - [donttrack.us](https://donttrack.us/)
 - [PrivacySpy](https://privacyspy.org/)
 - [PriBot](https://www.pribot.org/)
+- [The Social Dilemma creators interview](https://youtu.be/rOL35bOCDWU)
+- [Switching Software](https://switching.software)
 
 <br>
 <br>
