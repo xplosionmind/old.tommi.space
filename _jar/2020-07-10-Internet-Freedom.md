@@ -44,6 +44,7 @@ Random links about privacy online
 - [PriBot](https://www.pribot.org/)
 - [The Social Dilemma creators interview](https://youtu.be/rOL35bOCDWU)
 - [Switching Software](https://switching.software)
+- [Take Control](https://www.humanetech.com/take-control) of your tech life in seven moves
 
 <br>
 <br>
