@@ -2,6 +2,11 @@
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
 edited: 2020-09-24
 ---
+Anything anyone will ever be looking for can be found in the **AWESOME** [Awesome Project](https://project-awesome.org). I'm writing nothing about it, just go on the page and dive in the power of the internet.
+{:.red .warning}
+
+<br>
+
 ## Geek stuff
 
 - [A2Z Learning Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students), a comprehensive and rich repository with almost anything someone keen to improve its developing skills cen ask for
@@ -19,16 +24,22 @@ edited: 2020-09-24
 - [CSS - An Art, a Science, a Nightmare](https://www.taniarascia.com/overview-of-css-concepts/), a comprehensive wonderful article by Tania Rascia
 - [SoloLearn](https://www.sololearn.com/)
 
+<br>
+
 ### vim
 
 - [Practical Vim](https://pragprog.com/book/dnvim/practical-vim) by Drew Neil
 - [VimCasts](vimcasts.org)
 - [Vim subreddit](https://www.reddit.com/r/vim/)
 
+<br>
+
 ### JavaScript
 
 - [Derek Sivers’s guide](https://sivers.org/learn-js)
 - [JavaScript and JQuery](http://www.javascriptbook.com/) a book by Jon Duckett
+
+<br>
 
 ### git
 
@@ -40,7 +51,7 @@ edited: 2020-09-24
 <br>
 <br>
 
-## Free Books Download
+## Free eBooks
 
 - [The Internet Archive](https://archive.org)
 - [The Gutenberg Proect](http://www.gutenberg.org)

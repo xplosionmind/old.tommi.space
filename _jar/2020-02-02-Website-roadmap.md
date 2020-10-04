@@ -5,10 +5,12 @@ description: "Creative and technical work to be done, ideas and drafts progress 
 ---
 ## Issues
 
+- `Ubuntu Mono` not displayed on devices where it isn't installed
 - Subheadings display issue on mobile. [Example page](https://tommi.space/server-setup#nextcloud-configuration)
 - Comment button toggle **not working**
 - language loop in language selection
 - report parsing error in jar list elements with `a` tags
+- toc dashed underline error
 
 <br>
 <br>
