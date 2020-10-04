@@ -632,7 +632,7 @@ nav ul li {
 }
 nav ul li a, nav ul li a:visited {
 	display: block;
-	padding: 0 15px;
+	padding: 0 var(--lessthan-regular);
 	line-height: var(--height);
 	height: var(--height);
 	color: var(--background);
