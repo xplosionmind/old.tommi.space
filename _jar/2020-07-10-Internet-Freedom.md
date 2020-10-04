@@ -6,6 +6,7 @@ description: "This awesome and revolutionary tool we call the Internet is so pow
 
 Random links about privacy online
 
+- [The Social Dilemma](https://thesocialdilemma.com), a documentary on how Social Media are destroying the world and the ones who live in it (us)
 - [My Year Without Google](https://onezero.medium.com/one-year-google-free-59e0afb68328)
 - [Free Software, Richard Stallman](https://hyp.is/zEpzAm9jEeqKOxdXSivD-A/www.wired.com/2013/09/why-free-software-is-more-important-now-than-ever-before/)
 - [Richard Stallman’s website](http://stallman.org)

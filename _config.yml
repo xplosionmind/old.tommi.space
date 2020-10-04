@@ -61,7 +61,7 @@ defaults:
       ref: ":title"
       lang: "en"
       img: "/images/preview.gif"
-      primary: "#FCC920"
+      primary: "var(--yellow)"
 
   -
     scope:
