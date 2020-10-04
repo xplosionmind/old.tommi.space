@@ -295,7 +295,7 @@ strong, b {
 	margin: 0 0 3.6rem
 }
 pre, code {
-	font: 400 1.1em "Ubuntu Mono", "Roboto Mono", "Fira Code", mono;
+	font: 400 1.1em 'Ubuntu Mono', 'Roboto Mono', 'Fira Code', mono;
 	line-height: 1.2em;
 }
 pre {
@@ -536,9 +536,9 @@ a, a:visited {
 a, button {
 	cursor: url(/logos/cursor-hover.svg) 16 16, pointer
 }
-p a:hover, p a:focus, article li a:hover, article li a:focus, .toc a {
+p a:hover, p a:focus, article li a:hover, article li a:focus, .toc a:hover, .toc a:focus {
 	outline: none !important;
-	border-bottom: 2px dashed;
+	border-bottom: 2px dashed
 }
 .stuff {
 	padding: 0 10%;
