@@ -784,15 +784,6 @@ nav ul li ul li a {
 #stuff-tree {
 	margin: var(--height) calc(100% / 3)
 }
-#comments {
-	display: none;
-	visibility: hidden;
-	transition: var(--trans) sliding-vertically
-}
-#comments-button {
-	display: block;
-	margin: var(--regular) auto
-}
 
 /* FOOTER */
 footer p {
