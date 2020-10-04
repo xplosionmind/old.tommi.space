@@ -76,33 +76,33 @@ Work in progress contents:
     - [ ] categories in zibaldone and jar
     - [ ] sort order in Books list
 - [ ] [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) redesign. Try to use [this tool](https://neumorphism.io/)
-	- [ ] use [Eva icons](https://jekyllrb.com/docs/pagination/)
+    - [ ] use [Eva icons](https://jekyllrb.com/docs/pagination/)
 - [ ] Newsletter
-	- [x] subscribe button
-	- [ ] back-end implementation
-	- [ ] Mailtrain || listmonk setup
+    - [x] subscribe button
+    - [ ] back-end implementation
+    - [ ] Mailtrain || listmonk setup
 - [ ] [Now page](https://sivers.org/now)
 - [ ] [Open Graph Protocol](https://ogp.me/) better integration
 - [ ] [Pagination](https://jekyllrb.com/docs/pagination/)
 - [ ] Pictures in blog posts list
 - [x] Poetry
-	- [x] section
-	- [x] custom styling
-	- [ ] custom feed
+    - [x] section
+    - [x] custom styling
+    - [ ] custom feed
 - [ ] RSS Feeds management + Mailtrain automation
 - [ ] share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
 - [ ] Single page for all Categories, with Jar inclusion and anchor to choose a category
 - [ ] stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
 - [ ] [Typography](https://xplosionmind.tk/typography)
-	- [ ] final letter spacing, line height, etc.
-	- [ ] [Custom font](https://tommi.space/Typography#Custom-font) implementation
+    - [ ] final letter spacing, line height, etc.
+    - [ ] [Custom font](https://tommi.space/Typography#Custom-font) implementation
 - [ ] visioni
     - [ ] unsorted photos randomly moving
     - [ ] horizontal instead of vertical scrolling of the gallery
-	- [ ] downloadable portfolio pdf
+    - [ ] downloadable portfolio pdf
 
 - [x] Animations (little and simple but effective)
-	- [x] buttons: `x`s and menus (see tokyo-voice.jp or traxmag.com)
+    - [x] buttons: `x`s and menus (see tokyo-voice.jp or traxmag.com)
 - [x] back-to-top button
 - [x] basic coloured biiig shapes
 - [x] “blogroll”: a list of blogs which inspire me, see [Pawlean](https://pawlean.com/blogroll)
@@ -141,6 +141,6 @@ Work in progress contents:
 
 - [desktop]: floating “categories” column on the right
 - [Generative Art](http://tholman.com/post/generative-art-speedrun/)
-	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/)
+    - always-changing colors, see Zander Martineau’s [website](https://zander.wtf/)
 - everything center-aligned, also on desktop
 - colour palettes improvement
