@@ -53,7 +53,7 @@ Anything anyone will ever be looking for can be found in the **AWESOME** [Awesom
 
 ## Speeches
 
-- [David Foster Wallace - “This is Water„](https://eurekaddl.icu/)
+- [David Foster Wallace - “This is Water„](https://youtu.be/ms2BvRbjOYo)
 
 <br>
 <br>
