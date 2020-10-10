@@ -51,10 +51,18 @@ Anything anyone will ever be looking for can be found in the **AWESOME** [Awesom
 <br>
 <br>
 
+## Speeches
+
+- [David Foster Wallace - “This is Water„](https://eurekaddl.icu/)
+
+<br>
+<br>
+
 ## Free eBooks
 
 - [The Internet Archive](https://archive.org)
 - [The Gutenberg Proect](http://www.gutenberg.org)
+- [https://eurekaddl.icu/](Eureka ddl)
 - [Open Library](https://openlibrary.org/) (just to take e-books on loan)
 - [The Pirate Bay](https://piratebay-proxylist.net/)
 - [Library Genesis](http://libgen.rs/)

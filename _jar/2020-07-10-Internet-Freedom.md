@@ -45,6 +45,8 @@ Random links about privacy online
 - [The Social Dilemma creators interview](https://youtu.be/rOL35bOCDWU)
 - [Switching Software](https://switching.software)
 - [Take Control](https://www.humanetech.com/take-control) of your tech life in seven moves
+- [WhatsApp vs Telegram vs Signal](https://beebom.com/whatsapp-vs-telegram-vs-signal/)
+- [Why ditching WhatsApp - Vice](https://www.vice.com/en/article/qj4qjd/whatsapp-data-security-issues)
 
 <br>
 <br>

@@ -124,7 +124,7 @@ Commands above are a personal adaptation of the ones I found from the following 
 <br />
 <br />
 
-# git
+## git
 
 - [Dangit, Git!?!](https://dangitgit.com/)
 
