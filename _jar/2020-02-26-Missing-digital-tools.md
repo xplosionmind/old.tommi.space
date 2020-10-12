@@ -2,9 +2,12 @@
 categories: geek
 toc: 0
 edited: 2020-09-30
-description: There are tools which it would be so useful for me to have but I can’t find the right scripts/programs/apps to accomplish the missing tools’ purposes.
+description: "Ideas for programs which would be very useful, but I didn't find yet"
+permalink: /missing-tools
 ---
-## Batch reopen
+## ~~Batch reopen~~
+
+**Found**: [*One*Tab](https://www.one-tab.com/), but it's not open source. I don't like it very much
 
 A setting/add-on to restore several old windows sessions of a browser, with all the tabs (not just the last one), some sort of **batch reopen**.
 
