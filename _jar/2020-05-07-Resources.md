@@ -58,6 +58,20 @@ Anything anyone will ever be looking for can be found in the **AWESOME** [Awesom
 <br>
 <br>
 
+## Costituzione italiana
+
+È assurdo che, nonostante cittadino italiano, io abbia una così scarsa conoscenza della Costituzione e delle leggi che governano il mio paese. Ho chiesto ad amici che studiano giurisprudenza di indicarmi dove e come posso cercare articoli in base a parole chiave o in base al contesto. Purtroppo lo stato italiano non offre un sistema ufficiale per cercare le informazioni e la digitalizzazione della Costituzione ha funzionalità estremamente limitate rispetto alle potenzialità che internet offrirebbe. In ogni caso, l'utilizzo di questi servizi diversi può essere molto utile
+
+- [La Costituzione](https://www.senato.it/1024) sul sito web del Senato italiano
+- [Brocardi](https://www.brocardi.it/): Consulenze legali, codici commentati, dizionario giuridico e notizie.
+
+<br>
+
+- [Legge n. 47/1948](https://www.odg.it/legge-n-47-1948/24253) sulla stampa (dal sito dell'[Ordine dei Giornalisti](https://odg.it))
+
+<br>
+<br>
+
 ## Free eBooks
 
 - [The Internet Archive](https://archive.org)
