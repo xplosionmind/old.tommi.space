@@ -1,6 +1,6 @@
 ---
-edited: 2020-09-30
-description: "This awesome and revolutionary tool we call the Internet is so powerful that it's becoming a threat to the freedom of the average user, which in exchange for “free” services hands over his/her data, thus giving up personal independence and liberty.<br /><br />Here are noted various arguments, thoughts, speeches, documents and ideas to achieve <strong>a healthier online experience</strong>"
+edited: 2020-10-12
+description: "This awesome and revolutionary tool we call the Internet is so powerful that it's becoming a threat to the freedom of the average user, who, in exchange for services, hands over his/her data, therefore giving up personal independence and liberty.<br /><br />Here are noted various arguments, thoughts, speeches, documents, ideas and step-by-step guides to achieve <strong>a healthier online experience</strong>"
 ---
 ## Resources
 
@@ -59,10 +59,7 @@ Random links about privacy online
     2. Check `Shared with me` folder
 3. Reduce the [digital footprint](https://en.wikipedia.org/wiki/Digital_footprint)
     1. Stop using pricey and unethical services
-        1. deSpotify
-            - Export liked songs
-            - Export playlists
-            - Confiigure NewPipe for audio listening
+        1. [Quit Spotify](#quit-spotify)
     3. Delete unused accounts and subscriptions
     4. Use [AnonAddy](https://anonaddy.com) only for online subscriptions
 4. Check policies, usage terms, privacy conditions of all the tools and services in use
@@ -76,3 +73,27 @@ These are further improvements which aren't likely to be achieved in the near fu
 7. Install and use [LineageOS](https://lineageos.org/) instead of [OxygenOS](https://www.oneplus.com/oxygenos)
 1. Install and use a [Linux distro](https://www.linux.org/pages/download/) instead of [MacOS](https://www.apple.com/macos/)
 1. [Private DNS](https://www.privacytools.io/providers/dns/)
+
+<br>
+<br>
+
+## Quit Spotify
+
+Quitting Spotify is hard.
+
+It's **very** hard, not only because it's convenient and easy to use, mostly because almost everyone else uses it, thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. Therefore, quitting and finding another tool to listen to music isn't enough: it's necessary to replace the playlist creation and sharing workflow while keeping it accessible and easy to experience for anybody.
+
+1. Find the optimal [NewPipe](https://newpipe.schabi.org/) configuration.
+	- How to listen to whole albums
+	- How to like songs
+	- How to import Spotify liked songs
+	- How to improve bitrate (it's limited to 128kbps)
+1. Copying Spotify playlist on other [FOSS alternatives](https://alternativeto.net/software/spotify/?license=opensource)
+	- [OpenWhyd](https://openwhyd.org)
+	- [Radio4000](https://radio4000.com/)
+	- [Audius Music](https://audius.co/) (not a valid standalone option, it has its own limited music selection)
+	- **?**
+1. Liked songs?
+1. [Spotify account deletion consequences](https://community.spotify.com/t5/Spotify-Answers/How-do-I-close-my-Spotify-Account/ta-p/4663172):
+
+<figure><img src="/images/Spotify-close-account.jpg" title="repercussions of closing Spotify account" alt="repercussions of closing Spotify account" /><figcaption>Closing the account means deleting all playlists, thus the account can't be closed, but it must be kept with free subscription.</figcaption></figure>
