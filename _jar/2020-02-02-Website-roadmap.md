@@ -52,25 +52,25 @@ Work in progress contents:
 
 ## To do
 
-- access post category colour (and how conflicts are managed if the post has more than one category) in posts list
+- access post category color (and how conflicts are managed if the post has more than one category) in posts list
 - Analytics (temporarily set up with goatcounter)
 - automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Testing [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51)
 - Categories global improvements
-	- add categories to The Jar
-	- show in a post its categories
-- Configure [Bridgy](https://brid.gy/)
+    - add categories to The Jar
+    - show in a post its categories
 - [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
 - CSS cleanup
 - fix `object-fit` in Stuff
 - Flickr APIs for embedded/integrated/automated galleries
-	- use [FlickrEmbed](https://flickrembed.com/)
-	- or use [Flickr APIs](https://www.flickr.com/services/api/)
-	- or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
+    - use [FlickrEmbed](https://flickrembed.com/)
+    - or use [Flickr APIs](https://www.flickr.com/services/api/)
+    - or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
 - Full width pictures in articles
-- get rid of jQuery (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time) and use simple JS for the task it’s used for ([list toggle on click](https://www.w3schools.com/howto/howto_js_dropdown.asp))
+- **get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time) and use simple JS for the task it’s used for ([list toggle on click](https://www.w3schools.com/howto/howto_js_dropdown.asp))
 - global search button
 - Includes with `CC0` and `All-rights-reserved` to add in specific pages
-- [Indiewebify](https://indiewebify.me/) website
+- [Indiewebify](https://indiewebify.me/)
+    - Configure [Bridgy](https://brid.gy/)
 - JavaScript filters
     - language in zibaldone and jar
     - categories in zibaldone and jar
@@ -122,7 +122,7 @@ Work in progress contents:
 - final header configuration
 - gif instead of images 
 - Hover effects
-- `id` anchor links
+- `id` anchor links
 - inline code styling
 - input fields styling
 - Language selection straight from landing page - 2020.09.11
