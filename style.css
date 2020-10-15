@@ -201,17 +201,20 @@ strong, b {
 	color: black
 }
 .red {
-	background: var(--red)
+	background: var(--red);
+	color: white
 }
 .blue {
 	background: var(--blue);
+	color: white
 }
 .yellow {
 	background: var(--yellow);
 	color: black
 }
 .razzmatazz {
-	background: var(--razzmatazz)
+	background: var(--razzmatazz);
+	color: white
 }
 .page-header h1 {
 	font-size: var(--mastodon)
