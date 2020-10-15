@@ -1,6 +1,6 @@
 ---
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
-edited: 2020-09-24
+edited: 2020-10-15
 ---
 Anything anyone will ever be looking for can be found in the **AWESOME** [Awesome Project](https://project-awesome.org). I'm writing nothing about it, just go on the page and dive in the power of the internet.
 {:.red .warning}
@@ -47,6 +47,20 @@ Anything anyone will ever be looking for can be found in the **AWESOME** [Awesom
 - [git official documentation](https://git-scm.com/doc)
 - [escape a git mess](http://justinhileman.info/article/git-pretty/git-pretty.png)
 - [git interactive **Cheat Sheet**](https://ndpsoftware.com/git-cheatsheet.html)
+
+<br>
+
+### Blockstack
+
+- [Blockstack Forum](https://forum.blockstack.org/)
+- [Reddit](https://www.reddit.com/r/blockstack/)
+- [Interplanetary File System](https://proto.school/#/mutable-file-system/)
+- [Why decentralisation matters](https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e)
+
+#### DApps
+
+- [hosting](https://hearth.eternum.io/)
+- [list](https://app.co/blockstack)
 
 <br>
 <br>
