@@ -2,12 +2,14 @@
 layout: wrapper
 permalink: "/:title"
 ---
-<div class="h-entry row page-header">
+<div class="h-entry">
+<div class="row page-header">
 	<div class="one column">
 		<a class="u-uid" href="{{ page.url }}"><h1 class="p-name">{{ page.title }}</h1></a>
+		<!--<a class="u-url" href="{{ site.url }}{{ page.url }}"><h1 class="p-name">{{ page.title }}</h1></a>-->
 	</div>
 </div>
-<div class="h-entry row">
+<div class="row">
 	<div class="one column">
 		<article class="e-content poetry">
 			{{ content }}
@@ -57,4 +59,5 @@ permalink: "/:title"
 			</a>
 		</div>
 	</div>
+</div>
 </div>
