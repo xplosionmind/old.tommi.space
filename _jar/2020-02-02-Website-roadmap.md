@@ -7,7 +7,7 @@ description: "Creative and technical work to be done, ideas and drafts progress 
 
 - Subheadings display issue on mobile. [Example page](https://tommi.space/server-setup#nextcloud-configuration)
 - language loop in language selection
-- report parsing error in jar list elements with `a` tags
+- Parsing error in jar list elements with `a` tags
 
 <br>
 <br>
@@ -22,19 +22,19 @@ Work in progress contents:
 - [Database of my brain](./_jar/2020-06-04-brain-database.md), list of all the stuff I know and need to know
 - [Making this website](./_posts/2020-04-18-Making-this-website.md) article
 - [Stuff extended](./pages/stuff-extended-it)
-	- date ospiti Giffoni cineforum
-	- Incontri Masterclass
-	- Film in concorso Giffoni
-	- Link materiale Everyone
-	- Festival della Comunicazione di Camogli
-	- Rockin1000 Linate
-	- Deejay Ten
-	- **spettatore**
-		- opera
-		- teatro
-		- concerti
-		- conferenze
-	- Alternanza scuola-lavoro
+    - date ospiti Giffoni cineforum
+    - Incontri Masterclass
+    - Film in concorso Giffoni
+    - Link materiale Everyone
+    - Festival della Comunicazione di Camogli
+    - Rockin1000 Linate
+    - Deejay Ten
+    - **spettatore**
+        - opera
+        - teatro
+        - concerti
+        - conferenze
+    - Alternanza scuola-lavoro
 - [Playlist](./_jar/2020-07-17-Playlist.md)
 - [Cinema](./_jar/2020-07-10-Cinema.md)
 - add a “première” section to the [Everyone](./everyone) page
@@ -53,8 +53,8 @@ Work in progress contents:
 ## To do
 
 - access post category color (and how conflicts are managed if the post has more than one category) in posts list
-- Analytics (temporarily set up with goatcounter)
-- automatic `rel="noopener noreferrer" target="_blank"` addition to `<a>` tags. Testing [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51)
+- Analytics (temporarily set up with [Goatcounter](https://goatcounter.com))
+- Fix [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51).
 - Categories global improvements
     - add categories to The Jar
     - show in a post its categories
@@ -67,23 +67,24 @@ Work in progress contents:
     - or use [Flickr APIs](https://www.flickr.com/services/api/)
     - or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
 - Full width pictures in articles
-- **get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes 1.5s ish of the website loading time) and use simple JS for the task it’s used for ([list toggle on click](https://www.w3schools.com/howto/howto_js_dropdown.asp))
-- global search button
+- **get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for ([dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp))
+- **Global search**
 - Includes with `CC0` and `All-rights-reserved` to add in specific pages
-- [Indiewebify](https://indiewebify.me/)
-    - Configure [Bridgy](https://brid.gy/)
+- Configure [Webmentions](https://indieweb.org/Webmention)
+    - Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
+    - Setup [Webmention.io](https://webmention.io/)
+    - Setup [Bridgy](https://brid.gy/)
 - JavaScript filters
-    - language in zibaldone and jar
-    - categories in zibaldone and jar
+    - language in Zibaldone and jar
+    - categories in Zibaldone and jar
     - sort order in Books list
-- [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) redesign. Try to use [this tool](https://neumorphism.io/)
-    - use [Eva icons](https://jekyllrb.com/docs/pagination/)
-- Newsletter
-    - subscribe button
-    - back-end implementation
-    - Mailtrain || listmonk setup
+- [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) **redesign**
+    1. Start by smoothing corners
+    1. go on by using [this tool](https://neumorphism.io/)
+    3. use [Eva icons](https://jekyllrb.com/docs/pagination/)
+- [Mailtrain](https://mailtrain.org/) setup
 - [Now page](https://sivers.org/now)
-- [Open Graph Protocol](https://ogp.me/) better integration
+- Better [Open Graph Protocol](https://ogp.me/) integration
 - [Pagination](https://jekyllrb.com/docs/pagination/)
 - Pictures in blog posts list
 - Poetry
@@ -97,7 +98,7 @@ Work in progress contents:
 - [Typography](https://xplosionmind.tk/typography)
     - final letter spacing, line height, etc.
     - [Custom font](https://tommi.space/Typography#Custom-font) implementation
-- visioni
+- Visioni
     - unsorted photos randomly moving
     - horizontal instead of vertical scrolling of the gallery
     - downloadable portfolio pdf
