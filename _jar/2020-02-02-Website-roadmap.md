@@ -93,15 +93,15 @@ Work in progress contents:
     - custom feed
 - RSS Feeds management + Mailtrain automation
 - share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
-- Single page for all Categories, with Jar inclusion and anchor to choose a category
+- Single page for all **Categories**, with Jar inclusion and anchor to choose a category
 - stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
 - [Typography](https://xplosionmind.tk/typography)
-    - final letter spacing, line height, etc.
+    - more reasoned typographic choices
     - [Custom font](https://tommi.space/Typography#Custom-font) implementation
-- Visioni
+- [**Visioni**](/visioni)
     - unsorted photos randomly moving
     - horizontal instead of vertical scrolling of the gallery
-    - downloadable portfolio pdf
+    - downloadable PDF portfolio
 
 <br>
 <br>
