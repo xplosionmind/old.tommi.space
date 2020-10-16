@@ -53,14 +53,19 @@ Sono [troppo frammentato](/frammenti) per poter scrivere un articolo monografico
 
 Oggi è l’undici settembre ed è totalmente casuale che io scriva di memoria proprio in questo giorno. Ciò che rende miracoloso [questo strumento che separa le orecchie](https://yewtu.be/watch?v=FjGThF9q4SQ) è che ci permette di tornare indietro nel tempo e conoscere, capire e evitare errori. [Ho già scritto](/futuro) di quanto sia rimasto sconvolto dalla potenza della storia come lezione di vita e di evoluzione del genere umano, ma divento rempre più convinto che non si possa andare avanti senza aver mai guardato indietro, che non si possa costruire il futuro senza attingere al mirabile dono della memoria.
 
-<br />
+<br>
 
 *Se volete gasarvi e tremare, farvi scuotere fino in fondo da quello che fa impazzire di curiosità me, basta ascoltare il mitico Massimo Cacciari:*
 <div class="row"><div class="embed-container">
 <iframe width="1200" height="675" src="https://www.youtube-nocookie.com/embed/y1THsvvv-NM?start=354" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></div>
 
-## [unrelated] Alcune note finali, come sempre
+<br>
+<br>
+
+## Unrelated
+
+Alcune note finali, come sempre
 
 - Questo è l’ultimo, al massimo il penultimo, articolo che avrò scritto prima di eliminare totalmente i miei account sui social media. Ci sono tante tante motivazioni strettamente collegate fra loro per cui ho deciso di farlo, sto scrivendo [un Manifesto](https://github.com/xplosionmind/manifesto) che le riassuma. Vi suggerirei quindi (anche se sono di parte) di [iscrivervi alla newsletter](http://eepurl.com/haXMp5), presto sarà l’unico mezzo, oltre a questo sito, con cui comunicherò al mio grande minuscolo pubblico.
 - Se siete curiosi di sapere già le motivazioni [qui](/internet-freedom-notes) ho disordinatamente raccolto alcuni miei appunti sulla questione e [questo](https://thesocialdilemma.com) è un documentario che dovreste **assolutamente** guardare, è uscito un paio di giorni fa.

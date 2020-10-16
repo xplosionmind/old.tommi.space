@@ -13,11 +13,11 @@
 	--tinyem: 0.2em;
 	--small: 0.5rem;
 	--smallem: 0.5em;
-	--lessthan-regular: 0.9rem;
+	--regular-less: 0.9rem;
 	--regular: 1.1rem;
 	--regular-em: 1.1em;
-	--morethan-regular: 1.3rem;
-	--morethan-regular-em: 1.3em;
+	--regular-more: 1.3rem;
+	--regular-more-em: 1.3em;
 	--big: 1.6rem;
 	--big-em: 1.6em;
 	--bigger: 1.8rem;
@@ -116,13 +116,13 @@ mark {
 	z-index: 3
 }
 li {
-	line-height: var(--morethan-regular-em)
+	line-height: var(--regular-more-em)
 }
 ul li {
 	list-style: square;
 }
 ol li, ul li {
-	margin-bottom: var(--lessthan-regular)
+	margin-bottom: var(--regular-less)
 }
 ul li li {
 	list-style-type: "▫ ";
@@ -138,7 +138,7 @@ ul li li li {
 }
 .task-list-item-checkbox {
 	position: relative;
-	right: var(--lessthan-regular);
+	right: var(--regular-less);
 	width: var(--regular);
 	height: var(--regular)
 }
@@ -162,7 +162,7 @@ ul li li li {
   height: 100%;
 }
 .poetry, .post {
-	font: 400 var(--morethan-regular) "Merriweather", "Latin Modern Roman", Georgia, serif;
+	font: 400 var(--regular-more) "Merriweather", "Latin Modern Roman", Georgia, serif;
 	letter-spacing: 0.03rem;
 }
 .poetry p {
@@ -176,7 +176,7 @@ strong, b {
 	font-weight: 700
 }
 .post p:first-of-type::first-letter {
-	line-height: var(--morethan-regular);
+	line-height: var(--regular-more);
 	font-size: 5em;
 	initial-letter: 3;
 	-webkit-initial-letter: 3
@@ -286,8 +286,8 @@ strong, b {
 .link {
 	height: var(--height);
 	line-height: var(--height);
-	padding-left: var(--lessthan-regular);
-	padding-right: var(--lessthan-regular);
+	padding-left: var(--regular-less);
+	padding-right: var(--regular-less);
 	margin-bottom: var(--regular)
 }
 .anchor, .anchor:visited {
@@ -308,7 +308,7 @@ pre {
 	overflow-x: scroll;
 	border: dashed var(--tiny);
 	margin: var(--bigger) 0;
-	padding: var(--morethan-regular)
+	padding: var(--regular-more)
 }
 pre code {
 	background: transparent
@@ -318,9 +318,9 @@ code {
 	background: var(--background2)
 }
 blockquote {
-  	margin: var(--morethan-regular) 0 var(--morethan-regular) var(--height);
+  	margin: var(--regular-more) 0 var(--regular-more) var(--height);
 	border-left: var(--tiny) dashed var(--secondary);
-	padding-left: var(--lessthan-regular);
+	padding-left: var(--regular-less);
 }
 blockquote p {
 	font-style: italic !important;
@@ -330,7 +330,7 @@ td,th,tr {
 	border: solid .5px var(--light-grey)
 }
 th, td {
-	padding: var(--small) var(--lessthan-regular)
+	padding: var(--small) var(--regular-less)
 }
 table {
 	overflow-x: scroll;
@@ -365,7 +365,7 @@ table {
 	border-color: var(--background);
 	color: var(--primary);
 	background: var(--background);
-	margin: var(--tiny) var(--lessthan-regular)
+	margin: var(--tiny) var(--regular-less)
 }
 .menu {
 	display: flex;
@@ -431,7 +431,7 @@ figcaption {
 	font: italic var(--regular) Merriweather, serif;
 	text-align: center;
 	line-height: var(--regular);
-	margin-top: var(--lessthan-regular);
+	margin-top: var(--regular-less);
 	color: var(--other-grey)
 }
 figcaption:before {
@@ -452,7 +452,7 @@ p {
 	margin: var(--bigger-em) 0
 }
 article {
-	font-size: var(--morethan-regular);
+	font-size: var(--regular-more);
 	padding: var(--twice) 10% var(--mastodon)
 }
 .preview, .jar-preview, .poetry-preview {
@@ -481,7 +481,7 @@ article {
 .preview:hover, .preview:focus {
 	background: var(--primary);
 	color: var(--background);
-	padding: var(--bigger) var(--lessthan-regular)
+	padding: var(--bigger) var(--regular-less)
 }
 .jar-preview:hover, .jar-preview:focus {
 	 background: var(--razzmatazz);
@@ -505,14 +505,18 @@ article {
 	text-align: center;
 	height: var(--height);
 	line-height: var(--height);
-	color: var(--background)
+	color: var(--background);
+	margin: var(--margin) 5% var(--regular);
+	padding: 0 var(--regular-less)
 }
 .section-title:hover,
 .section-title:focus {
-	outline: .35rem dashed var(--secondary)
+	color: var(--secondary)
 }
 h1, h2, h3, h4, h5, h6 {
-	text-transform: uppercase
+	text-transform: uppercase;
+	overflow-wrap: normal;
+	hyphens: none
 }
 article h2, article h3, article h4, article h5, article h6 {
 	font-family: Inter, Helvetica, "Helvetica Neue", sans;
@@ -520,7 +524,7 @@ article h2, article h3, article h4, article h5, article h6 {
 	position: sticky;
 	line-height: var(--height);
 	top: 3.6rem;
-	margin-bottom: 0;
+	margin-bottom: 0
 }
 h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor {
 	opacity: 0;
@@ -565,8 +569,8 @@ p a:hover, p a:focus, article li a:hover, article li a:focus, .toc a:hover, .toc
 .stuff .category {
 	margin: var(--height) auto;
 	line-height: var(--height);
-	padding: 0.17rem var(--lessthan-regular) 0;
-	font-size: var(--morethan-regular)
+	padding: 0.17rem var(--regular-less) 0;
+	font-size: var(--regular-more)
 }
 .stuff p {
 	margin-bottom: var(--big)
@@ -577,7 +581,7 @@ p a:hover, p a:focus, article li a:hover, article li a:focus, .toc a:hover, .toc
 .last-modified {
 	margin: 0 auto var(--twice);
 	text-align: center;
-	font-size: var(--lessthan-regular);
+	font-size: var(--regular-less);
 	opacity: 0.8
 }
 footer {
@@ -641,13 +645,13 @@ nav ul li {
 }
 nav ul li a, nav ul li a:visited {
 	display: block;
-	padding: 0 var(--lessthan-regular);
+	padding: 0 var(--regular-less);
 	line-height: var(--height);
 	height: var(--height);
 	color: var(--background);
 	text-decoration: none;
 	background: var(--primary);
-	font-size: var(--morethan-regular)
+	font-size: var(--regular-more)
 }
 nav ul li a:hover, nav ul li a:visited:hover, nav ul li a:focus, nav ul li a:visited:focus, nav ul li a:visited:active, nav ul li a:active {
 	background: var(--background);
@@ -694,8 +698,8 @@ nav ul li ul li a {
 	  float: none
 	}
 	nav ul li a {
-		padding: var(--lessthan-regular) var(--big);
-		line-height: var(--morethan-regular)
+		padding: var(--regular-less) var(--big);
+		line-height: var(--regular-more)
 	}
 	nav ul li ul li a {
 		padding-right: 4.5rem
@@ -783,7 +787,7 @@ nav ul li ul li a {
 }
 /* SOCIAL SHARING BUTTONS */
 #sharing-box {
-	margin: 0 var(--tiny) var(--margin) var(--regular)
+	margin: 0 var(--tiny) var(--margin) 10%
 }
 #sharing-box div {
 	text-transform: uppercase;
@@ -805,7 +809,7 @@ footer p {
 }
 /* "Privacy" in footer */
 footer .one-fifth {
-	margin-top: var(--morethan-regular)
+	margin-top: var(--regular-more)
 }
 footer .one-fifth a {
 	opacity: .7;
@@ -821,13 +825,13 @@ footer p:focus {
 	color: var(--grey) !important;
 	display: block !important;
 	width: 90% !important;
-	margin: var(--morethan-regular) auto;
+	margin: var(--regular-more) auto;
 	padding: var(--small);
 	height: unset !important;
 	line-height: unset !important
 }
 #social-box {
-	margin: var(--morethan-regular) auto
+	margin: var(--regular-more) auto
 }
 .button, button {
 	height: var(--height);
@@ -861,7 +865,7 @@ footer .one-fourth .half a {
 	display: block;
 	height: 1.2em;
 	width: auto;
-	margin: 0 auto var(--morethan-regular);
+	margin: 0 auto var(--regular-more);
 	opacity: .70;
 	position: relative;
 	top: 2px;
