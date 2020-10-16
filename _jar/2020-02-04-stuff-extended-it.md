@@ -3,7 +3,7 @@ title: "Di tutto e di più"
 lang: it
 ref: stuff-extended
 permalink: /tuttopiu
-edited: 2020-09-20
+edited: 2020-10-16
 description: "Dato che per mia natura e vocazione finisco sempre in mezzo a una miriade di iniziative e progetti fantastici, mi trovo a partecipare o organizzare o condurre moltissimi piccoli eventi o interviste o incontri, e sono talmente tanti che alla fine rischio di dimenticarmeli e non riuscire più a trovarli. Per questo, proverò a tenere aggiornata questa lista di riferimento con tutto ciò a cui ho partecipato, attivamente o come spettatore, inserendo collegamenti a pagine, foto e informazioni."
 ---
 Alcuni link fra i seguenti potrebbero essere privati. Se necessitate l'accesso, mandatemi un'email.
@@ -223,9 +223,13 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 	- marzo 2018, Germania
 	- dall’8 al 13 aprile 2019, [Barcellona](https://www.flickr.com/photos/tommiboom/sets/72157691071802133/)
 	- il 29 e 30 aprile 2019, in conclusione del progetto scolastico *In viaggio con l’atomo* [al CERN](https://www.flickr.com/photos/tommiboom/albums/72157704885644652)
-- il 30 agosto 2019 in piazza Matteotti a Riva Ligure si è tenuta la **première** del mio primo cortometraggio, [***Everyone***](/it/everyone)
+- il 30 agosto 2019 in piazza Matteotti a Riva Ligure si è tenuta la **première** del mio primo cortometraggio, [**Everyone**](/it/everyone)
 	- [foto della serata](https://www.flickr.com/photos/tommiboom/albums/72157710771139417)
-	- [materiale]()
+	- [Press Kit](https://go.tommi.space/everyone-stuff)
+- il 12 ottobre 2019, grazie al mio amico [Matteo Cifani](https://instagram.com/matteo_cifani/), mi sono infiltrato come fotografo nel dietro le quinte di [**Rockin1000 - No borders on board**](https://www.rockin1000.com/it/tl_linate.php) a Linate.
+	- [foto](https://flic.kr/s/aHsmHJjZQQ)
+- il 13 ottobre 2019, sempre grazie a Matteo, sono andato in giro per il centro di Milano a fare scatti per la [**Deejay Ten**](https://deejayten.deejay.it/milano/), la maratona di [Radio Deejay](https://deejay.it)
+	- [foto](https://www.flickr.com/gp/tommiboom/05G653)
 - il maggio 2018 ho vinto la finale della categoria *Advanced* del [**Mouse Trap Grand Prix**](https://www.mousetraprace.com/), costruendo la macchinina in grado di percorrere cinque metri e tornare al punto di partenza nel minor tempo possibile, con la sola propulsione di una trappola per topi
 	- [video intervista](https://youtu.be/EgQQ6rDfxr0)
 	- [foto](https://www.flickr.com/photos/tommiboom/albums/72157714643331677)

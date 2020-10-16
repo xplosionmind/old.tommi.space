@@ -1,6 +1,6 @@
 ---
 permalink: /roadmap
-edited: 2020-09-13
+edited: 2020-10-16
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 ---
 ## Issues
@@ -16,92 +16,84 @@ description: "Creative and technical work to be done, ideas and drafts progress 
 
 Work in progress contents:
 
-- [da riordinare](/riordinare/)
-- [drafts](./_drafts)
-- [Comprehensive list](./pages/radioimmaginaria-database.md) of Radioimmaginaria episodes I’m in
-- [Database of my brain](./_jar/2020-06-04-brain-database.md), list of all the stuff I know and need to know
-- [Making this website](./_posts/2020-04-18-Making-this-website.md) article
-- [Stuff extended](./pages/stuff-extended-it)
+- [Making this website](/themakingof) article
+- [Stuff extended](/tuttopiu)
+- [Playlist](/playlist)
+- [Cinema](/cinema)
+- add a “première” section to the [Everyone](./everyone) page
+- [Around the World](/places)
+    - Alternanza Scuola-Lavoro
     - date ospiti Giffoni cineforum
     - Incontri Masterclass
     - Film in concorso Giffoni
-    - Link materiale Everyone
-    - Festival della Comunicazione di Camogli
-    - Rockin1000 Linate
-    - Deejay Ten
-    - **spettatore**
+    - [**spettatore**](/giri)
         - opera
         - teatro
         - concerti
         - conferenze
-    - Alternanza scuola-lavoro
-- [Playlist](./_jar/2020-07-17-Playlist.md)
-- [Cinema](./_jar/2020-07-10-Cinema.md)
-- add a “première” section to the [Everyone](./everyone) page
-- [Around the World](./_jar/2020-07-20-Around-the-world.md)
-
-### To be created
-
-- CANZOMNIA Jar page
-- Shows formats ideas
-- Books passages
-- Stuff extended like page, but with media
+- [drafts](./_drafts)
 
 <br>
 <br>
 
 ## To do
 
-- access post category color (and how conflicts are managed if the post has more than one category) in posts list
-- Analytics (temporarily set up with [Goatcounter](https://goatcounter.com))
-- Fix [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51).
-- Categories global improvements
-    - add categories to The Jar
-    - show in a post its categories
-- [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
-- CSS cleanup
-- fix `object-fit` in Stuff
-- fix SCSS parsing error
-- Flickr APIs for embedded/integrated/automated galleries
-    - use [FlickrEmbed](https://flickrembed.com/)
-    - or use [Flickr APIs](https://www.flickr.com/services/api/)
-    - or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
-- Full width pictures in articles
-- **get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for ([dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp))
-- **Global search**
-- Includes with `CC0` and `All-rights-reserved` to add in specific pages
-- Configure [Webmentions](https://indieweb.org/Webmention)
+This list is **in order of priority** (not amount of work). Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
+
+1. Fix `object-fit` in Stuff
+1. Fix [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51).
+1. [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) **redesign**
+	1. Start by smoothing corners
+	1. go on by using [this tool](https://neumorphism.io/)
+	1. use [Eva icons](https://jekyllrb.com/docs/pagination/)
+1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for ([dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp))
+1. **Categories**
+	- move categories specifications to `_data`
+	- add categories to The Jar
+	- in every post, show the categories to which it belongs
+	- create unique page for all categories, anchor to choose a single one
+1. Thumbnails in Zibaldone’s feed
+1. [Pagination](https://jekyllrb.com/docs/pagination/)
+1. [**Visioni**](/visioni)
+	- unsorted photos randomly moving
+	- horizontal instead of vertical scrolling of the gallery
+	- downloadable PDF portfolio
+1. Better [Open Graph Protocol](https://ogp.me/) integration
+1. **Global search**
+    - [Algolia](https://www.algolia.com/)
+        - [jekyll-algolia](https://community.algolia.com/jekyll-algolia/) plugin ([source](https://github.com/algolia/jekyll-algolia))
+        - [Algolia for Open Source](https://www.algolia.com/for-open-source/)
+    - [Lunr](https://lunrjs.com/)
+        - [Lunr setup](https://zoeleblanc.com/blog/adding-search-to-jekyll-sites-with-lunr/) article 1
+        - [Lunr setup](https://www.arcath.net/2016/02/setting-up-lunr-js-in-jekyll) article 2
+    - [custom](https://nachtimwald.com/2020/06/10/full-text-search-with-jekyll/)
+1. [Typography](https://xplosionmind.tk/typography)
+	- better reasoned typographic choices
+    - [Custom font](https://tommi.space/Typography#Custom-font) implementation
+1. [Mailtrain](https://mailtrain.org/) setup
+1. RSS Feeds management + Mailtrain automation
+1. Hosting on [server](/server) instead of using [Netlify](https://netlify.com)
+    - Analytics (temporarily set up with [Goatcounter](https://goatcounter.com))
+1. Switch to **SCSS** for styling (as of right now, it **doesn't work**: no CSS file is created in the `_site` folder)
+1. Poetry
+    - section instead of category
+    - custom styling
+    - custom feed
+1. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
+1. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
+1. CSS cleanup
+1. **Sorting** / **filtering** (using JavaScript?)
+	- in Zibaldone and The Jar: language and category filter
+	- in Books: Sorting
+1. Configure [**Webmentions**](https://indieweb.org/Webmention)
     - Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
     - Setup [Webmention.io](https://webmention.io/)
     - Setup [Bridgy](https://brid.gy/)
-- JavaScript filters
-    - language in Zibaldone and jar
-    - categories in Zibaldone and jar
-    - sort order in Books list
-- [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) **redesign**
-    1. Start by smoothing corners
-    1. go on by using [this tool](https://neumorphism.io/)
-    3. use [Eva icons](https://jekyllrb.com/docs/pagination/)
-- [Mailtrain](https://mailtrain.org/) setup
-- [Now page](https://sivers.org/now)
-- Better [Open Graph Protocol](https://ogp.me/) integration
-- [Pagination](https://jekyllrb.com/docs/pagination/)
-- Pictures in blog posts list
-- Poetry
-    - section
-    - custom styling
-    - custom feed
-- RSS Feeds management + Mailtrain automation
-- share on [Jekyll showcase](https://github.com/planetjekyll/showcase)
-- Single page for all **Categories**, with Jar inclusion and anchor to choose a category
-- stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
-- [Typography](https://xplosionmind.tk/typography)
-    - more reasoned typographic choices
-    - [Custom font](https://tommi.space/Typography#Custom-font) implementation
-- [**Visioni**](/visioni)
-    - unsorted photos randomly moving
-    - horizontal instead of vertical scrolling of the gallery
-    - downloadable PDF portfolio
+1. Flickr APIs for embedded/integrated/automated galleries
+    - use [FlickrEmbed](https://flickrembed.com/)
+    - or use [Flickr APIs](https://www.flickr.com/services/api/)
+    - or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
+1. Includes with `CC0` and `All-rights-reserved` to add in specific pages
 
 <br>
 <br>
@@ -134,12 +126,14 @@ Work in progress contents:
 - list of belonging categories at the top of the post page
 - Mobile optimisation
 - move `stuff extended` to `The Jar`
+- [Now page](https://sivers.org/now)
 - page image preview when sending link, see the [Open Graph Protocol](https://ogp.me/)
 - Privacy Policy
 - RSS Feed
 - separate website/repo/domain for web and online resources or for geek stuff in general (configured as _[The Jar](https://xplosionmind.tk/jar)_)
 - Serif font styling in posts
-- Share button in blog (custom version inspired by 
+- Share button
+- [Share on Jekyll showcase](https://github.com/planetjekyll/showcase/pull/23)
 - `stuff extended`
 - SVG buttons
 - [table of contents](https://github.com/allejo/jekyll-toc)

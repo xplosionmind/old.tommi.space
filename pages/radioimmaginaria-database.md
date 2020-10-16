@@ -3,7 +3,7 @@ ref: rimm-db
 lang: it
 title: "Tutte le mie puntate su Radioimmaginaria"
 permalink: /rimm-db
-description: "Un database incompleto (mancano gli ultimi anni e alcune puntate in mezzo) di tutte le puntate di Radioimmaginaria a cui ho partecipato.<br />I post di Facebook nei link non sono pubblici: Radioimmaginaria non usa più i social.<br />Gli hashtag nei titoli delle puntate indicano la redazione o, in caso di eventi, il nome del programma.<br /><mark>#you2</mark> sono le puntate in inglese, <mark>#toiaussi</mark> quelle in francese, <mark>#tete</mark> quelle in spagnolo."
+description: "Un database incompleto (mancano gli ultimi anni, alcuni eventi alcune puntate in mezzo) di tutte le puntate di Radioimmaginaria a cui ho partecipato.<br />I post di Facebook nei link non sono pubblici: Radioimmaginaria non usa più i social.<br />Gli hashtag nei titoli delle puntate indicano la redazione o, in caso di eventi, il nome del programma.<br /><mark>#you2</mark> sono le puntate in inglese, <mark>#toiaussi</mark> quelle in francese, <mark>#tete</mark> quelle in spagnolo."
 layout: page
 ---
 - 2014.01.12 <a href="https://spreaker.com/user/ariaimmaginaria/scout" rel="noopener noreferrer" target="_blank">Scoutismo</a> [min 11:20]
@@ -60,7 +60,7 @@ layout: page
 - 2016.01.29 Radioimmaginaria all’**Istituto Superiore Mario Boella** di Torino
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1065427373515801/" rel="noopener noreferrer" target="_blank">facebook post 1</a>, <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1065353596856512/" rel="noopener noreferrer" target="_blank">facebook post 2</a>
 	- puntata <a href="https://www.spreaker.com/user/ariaimmaginaria/to-la-tecnologia-di-radioimmaginaria" rel="noopener noreferrer" target="_blank">parte 1</a>, <a href="https://www.spreaker.com/user/ariaimmaginaria/to-la-tecnologia-di-radioimmaginaria-2pt" rel="noopener noreferrer" target="_blank">parte 2</a>
-- 2016.05.21 <mark>#you2</mark> <a href="https://www.spreaker.com/user/ariaimmaginaria/italy-meets-london" rel="noopener noreferrer" target="_blank">Italy meets London</a>, on a mission in London
+- 2016.05.21 ==#you2== <a href="https://www.spreaker.com/user/ariaimmaginaria/italy-meets-london" rel="noopener noreferrer" target="_blank">Italy meets London</a>, on a mission in London
 - 2016.06.06 <a href="http://www.spreaker.com/user/ariaimmaginaria/smo-sanremo-through-the-earphones" rel="noopener noreferrer" target="_blank">#smo Sanremo through the earphones</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1146114925447045/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2016.06.13 <a href="http://www.spreaker.com/user/ariaimmaginaria/smo-dipendenza-assordante" rel="noopener noreferrer" target="_blank">#smo Dipendenza assordante</a>
@@ -80,10 +80,10 @@ layout: page
 
 - 2016.07.15 <a href="spreaker.com/user/ariaimmaginaria/usteens-giffoni-experience-2016" rel="noopener noreferrer" target="_blank">#UsTeens Giffoni Experience 2016</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1176381249087079/" rel="noopener noreferrer" target="_blank">facebook post</a>
-- 2016.05.15 <mark>#you2</mark> <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/giff2016-giffoni-experience-opening">Giffoni Experience opening</a>
+- 2016.05.15 ==#you2== <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/giff2016-giffoni-experience-opening">Giffoni Experience opening</a>
 - <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/usteens-vita-da-giffoni">#UsTeens Vita da Giffoni</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/p.1171103309614873/1171103309614873/" rel="noopener noreferrer" target="_blank">facebook post</a>
-- 2016.07.17 <mark>#you2</mark> <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/giff2016-discovering-giffoni-experience">Discovering Giffoni Experience</a>
+- 2016.07.17 ==#you2== <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/giff2016-discovering-giffoni-experience">Discovering Giffoni Experience</a>
 
 <br />
 
@@ -115,23 +115,23 @@ layout: page
 	- <a href="http://www.spreaker.com/user/ariaimmaginaria/smo-intervista-gloria-conti" rel="noopener noreferrer" target="_blank">INTERVISTA Gloria Conti</a>
 	- <a href="http://www.spreaker.com/user/ariaimmaginaria/smo-ec-studios-academy" rel="noopener noreferrer" target="_blank">Ec Studios Academy con Carmela Moffa</a>
 	- <a href="http://www.spreaker.com/user/ariaimmaginaria/smo-cantanti-si-diventa" rel="noopener noreferrer" target="_blank">CANTANTI SI DIVENTA</a>
-- 2016.10.03 <mark>#you2</mark> <a href="spreaker.com/user/ariaimmaginaria/you2-for-2" rel="noopener noreferrer" target="_blank">you2 for 2</a>
+- 2016.10.03 ==#you2== <a href="spreaker.com/user/ariaimmaginaria/you2-for-2" rel="noopener noreferrer" target="_blank">you2 for 2</a>
 	- <a href="https://www.facebook.com/permalink.php?story_fbid=1764863123788053&id=100007931469414" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2016.10.10 <a href="spreaker.com/user/ariaimmaginaria/smo-in-classe-con-classe" rel="noopener noreferrer" target="_blank">#smo In classe con classe</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/videos/1243684079023462/" rel="noopener noreferrer" target="_blank">facebook post</a>
-- 2016.10.17 <mark>#you2</mark> <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/true-friends">True friends</a>
+- 2016.10.17 ==#you2== <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/true-friends">True friends</a>
 - 2016.10.19 <a href="spreaker.com/user/ariaimmaginaria/smo-mamme-spaziali" rel="noopener noreferrer" target="_blank">Mamme Spaziali</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1252698458122024/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2016.10.24 <a href="spreaker.com/user/ariaimmaginaria/smo-programmazione-da-paura" rel="noopener noreferrer" target="_blank">#smo programmazione da paura</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1257339360991267/" rel="noopener noreferrer" target="_blank">facebook post</a>
-- 2016.11.14 <mark>#you2</mark> <a href="spreaker.com/user/ariaimmaginaria/what-do-space-and-the-pope-have-in-commo" rel="noopener noreferrer" target="_blank">What do space and the pope have in common</a>
+- 2016.11.14 ==#you2== <a href="spreaker.com/user/ariaimmaginaria/what-do-space-and-the-pope-have-in-commo" rel="noopener noreferrer" target="_blank">What do space and the pope have in common</a>
 - 2016.11.15 <a href="spreaker.com/user/ariaimmaginaria/smo-canzoni-lunghe-anni-luce" rel="noopener noreferrer" target="_blank">#smo Canzoni lunghe anni luce</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/posts/1281308565261013?" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2016.11.21 <a href="spreaker.com/user/ariaimmaginaria/smo-fantastici-arbitri-rockettari" rel="noopener noreferrer" target="_blank">#smo Fantastici arbitri rockettari</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1287770697948133/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2016.12.05 <a href="spreaker.com/user/ariaimmaginaria/smo-rino-pape-conduce-il-tg-immaginario" rel="noopener noreferrer" target="_blank">Rino Pape conduce il TG Immaginario</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1306111019447434/" rel="noopener noreferrer" target="_blank">facebook post</a>
-- 2016.12.07 <mark>#you2</mark> <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/physics-in-smo">Physics in smo</a>
+- 2016.12.07 ==#you2== <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/physics-in-smo">Physics in smo</a>
 - <a href="spreaker.com/user/ariaimmaginaria/un-school-attack-pacifique" rel="noopener noreferrer" target="_blank">Un school attack pacifique</a>
 - 2016.12.12 <a href="spreaker.com/user/ariaimmaginaria/smo-rifiuti-di-natale" rel="noopener noreferrer" target="_blank">#smo Rifiuti di Natale</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1314084025316800/" rel="noopener noreferrer" target="_blank">facebook post</a>
@@ -150,7 +150,7 @@ layout: page
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1348452738546595/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2017.01.23 <a href="spreaker.com/user/ariaimmaginaria/smo-smostival" rel="noopener noreferrer" target="_blank">#smo smostival</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1351235928268276/" rel="noopener noreferrer" target="_blank">facebook post</a>
-- 2017.01.23 <mark>#you2</mark> <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/school-work-at-the-festival">School work at the Festival</a>
+- 2017.01.23 ==#you2== <a rel="noopener noreferrer" target="_blank" href="spreaker.com/user/ariaimmaginaria/school-work-at-the-festival">School work at the Festival</a>
 - 2017.01.29 <a href="spreaker.com/user/ariaimmaginaria/riva-al-cinema-non-si-copia" rel="noopener noreferrer" target="_blank">#riva Al cinema non si copia</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1357643294294206/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2017.01.30 <a href="spreaker.com/user/ariaimmaginaria/smo-federico-marchi-e-baldoria" rel="noopener noreferrer" target="_blank">#smo Federico Marchi e baldoria</a>
@@ -182,7 +182,7 @@ layout: page
 
 ## Giffoni Film Festival 2017
 
-- <mark>#tete</mark> <a target="_blank" href="spreaker.com/user/ariaimmaginaria/tete-en-giffoni-giffoni-empieza-fuerte" rel="noopener noreferrer">TeTe en Giffoni empieza fuerte</a>
+- ==#tete== <a target="_blank" href="spreaker.com/user/ariaimmaginaria/tete-en-giffoni-giffoni-empieza-fuerte" rel="noopener noreferrer">TeTe en Giffoni empieza fuerte</a>
 - 2017.07.14 <a href="spreaker.com/user/ariaimmaginaria/usteens-into-the-magic" rel="noopener noreferrer" target="_blank">#UsTeens Into the Magic</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/videos/1525473007511233/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2017.07.15 <a href="spreaker.com/user/ariaimmaginaria/usteens-mika-male" rel="noopener noreferrer" target="_blank">#UsTeens Mika male</a>
@@ -191,7 +191,7 @@ layout: page
 	- <a href="https://www.facebook.com/radioimmaginaria/videos/1527520933973107/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - 2017.07.17 <a href="spreaker.com/user/ariaimmaginaria/usteens-quizzamento_2" rel="noopener noreferrer" target="_blank">#UsTeens Quizzamento parte 2</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1528576850534182/" rel="noopener noreferrer" target="_blank">facebook post</a>
-- <mark>#toiaussi</mark> <a href="spreaker.com/user/ariaimmaginaria/toiaussiagiff-favi-adams_4" rel="noopener noreferrer" target="_blank">#Giff2017 Favi Adams</a>
+- ==#toiaussi== <a href="spreaker.com/user/ariaimmaginaria/toiaussiagiff-favi-adams_4" rel="noopener noreferrer" target="_blank">#Giff2017 Favi Adams</a>
 - 2017.07.18 <a href="spreaker.com/user/ariaimmaginaria/usteens-giurati-in-corsa" rel="noopener noreferrer" target="_blank">#UsTeens Giurati in Corsa</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1529476900444177/" rel="noopener noreferrer" target="_blank">facebook post</a>
 - <a href="spreaker.com/user/ariaimmaginaria/usteens-blind-date_1" rel="noopener noreferrer" target="_blank">#UsTeens Blind Date</a>

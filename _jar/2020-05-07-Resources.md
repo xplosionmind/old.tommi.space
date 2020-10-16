@@ -23,6 +23,7 @@ Anything anyone will ever be looking for can be found in the **AWESOME** [Awesom
 - [HTML and CSS](http://www.htmlandcssbook.com/), a book by Jon Duckett
 - [CSS - An Art, a Science, a Nightmare](https://www.taniarascia.com/overview-of-css-concepts/), a comprehensive wonderful article by Tania Rascia
 - [SoloLearn](https://www.sololearn.com/)
+- [Dataninja School](https://school.dataninja.it/)
 
 <br>
 
