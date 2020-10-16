@@ -228,6 +228,9 @@ strong, b {
 	margin: 0 auto;
 	width: 80%
 }
+.page-header time {
+	text-align: center
+}
 .toc {
 	margin: 0 10% var(--regular)
 }
@@ -779,13 +782,19 @@ nav ul li ul li a {
 	transform: rotate(-45deg)
 }
 /* SOCIAL SHARING BUTTONS */
+#sharing-box {
+	margin: 0 var(--tiny) var(--margin) var(--regular)
+}
 #sharing-box div {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: var(--big)
+	font-size: var(--big);
 }
 #stuff-tree {
 	margin: var(--height) calc(100% / 3)
+}
+.edit {
+	text-align: center
 }
 
 /* FOOTER */
