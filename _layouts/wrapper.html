@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="//brick.freetls.fastly.net/Merriweather:400,400i,700,700i" />
 <link href="/style.css" type="text/css" rel="stylesheet" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="mobile-web-app-capable" content="yes" />
 <link rel="icon" href="/logos/favicon.svg" sizes="32x32" />
 <link rel="icon" href="/logos/favicon.svg" sizes="192x192" />
 <meta name="apple-mobile-web-app-status-bar-style" content="{{ page.primary }}">
@@ -29,9 +30,8 @@
 <link rel="stylesheet" type="text/css" href="/highlight.css" />
 {% endif %}
 {% if page.style == 'true' %}<style>body { --primary: {{ page.primary }} !important	}</style>{% endif %}
-
-</head><body>
-
+</head>
+<body>
 <svg class="button theme-toggle-button" title="Toggle theme" onclick="darktoggle()" version="1.1" viewBox="0 0 640.2 640.2" xmlns="http://www.w3.org/2000/svg">
  	<rect width="640.2" height="640.2" style="fill:none"/>
    	<g transform="matrix(.8 0 0 .8 76 76)" style="fill:var(--primary)">

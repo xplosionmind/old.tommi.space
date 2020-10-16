@@ -61,6 +61,7 @@ Work in progress contents:
 - [CSS only dark/light mode toggle](https://youtu.be/b4FBTr5pSgw)
 - CSS cleanup
 - fix `object-fit` in Stuff
+- fix SCSS parsing error
 - Flickr APIs for embedded/integrated/automated galleries
     - use [FlickrEmbed](https://flickrembed.com/)
     - or use [Flickr APIs](https://www.flickr.com/services/api/)

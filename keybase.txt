@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/xplosionmind
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tommi.space
+  * I am xplosionmind (https://keybase.io/xplosionmind) on keybase.
+  * I have a public key ASBxjrUPg4MdVUKUKNd3m5TpFB1Me8O93zhceXXh9vQURAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120718eb50f83831d55429428d7779b94e9141d4c7bc3bddf385c7975e1f6f414440a",
+      "host": "keybase.io",
+      "kid": "0120718eb50f83831d55429428d7779b94e9141d4c7bc3bddf385c7975e1f6f414440a",
+      "uid": "bb9a5bbcd569ef3256f61b1756ddbb19",
+      "username": "xplosionmind"
+    },
+    "merkle_root": {
+      "ctime": 1602834175,
+      "hash": "3fe0f4d2f57e87bebfcabf7197ee651b6109dd0916bb4156a02f012c5c1edd8e858d22e4df7e99794884d8cff8d51a1708f88d0aeb9c104b157240ffb7be15f9",
+      "hash_meta": "46e70413696d942b896109813c351b893a2023f3b4d629f84b7f9d3528548f38",
+      "seqno": 17842189
+    },
+    "service": {
+      "entropy": "XM1tZVAOQ5PL3o0aoFZmoXL7",
+      "hostname": "tommi.space",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1602834227,
+  "expire_in": 504576000,
+  "prev": "4c3e6c17ef658447bf2308be2e2ec162513a59d76befc09eca6b528542c4c26e",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcY61D4ODHVVClCjXd5uU6RQdTHvDvd84XHl14fb0FEQKp3BheWxvYWTESpcCEsQgTD5sF+9lhEe/Iwi+Li7BYlE6Wddr78CeymtShULEwm7EIGCmWQSmuKw1ziUZ40wAyPLOb23nSFGAwDcGQUazoTrXAgHCo3NpZ8RADtXasr/nCTbuC8EsCcyOWGFm0GNSs+onzKMuL4mC80UOuKsIIMmzoNcb3IfD0njcLZOKdRzy+9oMWaGrKeBmAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILE/f3myDUu+Eaqrxy08bwTSdrr+U1r+GTlsjqnlWkJHo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/xplosionmind
+
+==================================================================
