@@ -16,7 +16,7 @@ ref: jar
 </div>
 
 {% assign jar = site.jar | sort: 'edited' | reverse %}
-{% for note in jar %}
+{% for note in jar %}{% unless note.hide == 'true' %}
 <a href="{{ note.url }}">
 	<div class="row">
 		<div class="one column jar-preview">
@@ -29,7 +29,4 @@ ref: jar
 		</div>
 	</div>
 	<div class="line" style="background: var(--razzmatazz)"></div>
-</a>
-{% endfor %}
-
-<br />
+</a>{% endunless %}{% endfor %}
