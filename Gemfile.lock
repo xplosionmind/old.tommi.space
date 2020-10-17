@@ -73,7 +73,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     tzinfo (2.0.2)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2020.2)
+    tzinfo-data (1.2020.3)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
 
