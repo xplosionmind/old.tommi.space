@@ -21,7 +21,7 @@ Random links about privacy online
 - [ethical.net](https://ethical.net/)
 - [Human by Design](https://humanebydesign.com)
 - [Ethical Design](https://2017.ind.ie/ethical-design/)
-- [tech diet - AWESOME WEBSITE](https://essays.uxdesign.cc/tech-diet/)
+- [Tech diet](https://essays.uxdesign.cc/tech-diet/) (an **AWESOME** website)
 - <https://www.designkit.org/resources>
 - [great video privacy](https://simpleanalytics.com/)
 - [Why AMP is bad](https://medium.com/@danbuben/why-amp-is-bad-for-your-site-and-for-the-web-e4d060a4ff31)
@@ -56,17 +56,22 @@ Random links about privacy online
 ## Roadmap
 
 1. [**Quit Social Media**](https://quitsocialmedia.club/roadmap)
-2. Backup, download, reorganize and clean data from Google Drive
+1. Backup, download, reorganize and clean data from Google Drive
     1. Check `Storage` folder
-    2. Check `Shared with me` folder
-3. Reduce the [digital footprint](https://en.wikipedia.org/wiki/Digital_footprint)
+    1. Check `Shared with me` folder
+1. Reduce the [digital footprint](https://en.wikipedia.org/wiki/Digital_footprint)
     1. Stop using pricey and unethical services
         1. [Quit Spotify](#quit-spotify)
-    3. Delete unused accounts and subscriptions
-    4. Use [AnonAddy](https://anonaddy.com) only for online subscriptions
-4. Check policies, usage terms, privacy conditions of all the tools and services in use
-5. Self-host `@tommi.space` email addresses
-6. Install and configure [self-hosted apps](/server#Apps-Wishlist) only
+    1. Delete unused accounts and subscriptions
+    1. Use [AnonAddy](https://anonaddy.com) only for online subscriptions
+1. Check policies, usage terms, privacy conditions of all the tools and services in use
+1. Self-host `@tommi.space` email addresses
+	1. [Setup a mail server](/server#mail-server)
+	1. Completely switch to self-hosted mail server
+		1. import Gmail data
+		1. import Protonmail data
+	1. AnonAddy everywhere on the web
+1. Install and configure [self-hosted apps](/server#Apps-Wishlist) only
 
 ### further steps
 
