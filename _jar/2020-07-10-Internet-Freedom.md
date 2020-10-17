@@ -47,6 +47,8 @@ Random links about privacy online
 - [Take Control](https://www.humanetech.com/take-control) of your tech life in seven moves
 - [WhatsApp vs Telegram vs Signal](https://beebom.com/whatsapp-vs-telegram-vs-signal/)
 - [Why ditching WhatsApp - Vice](https://www.vice.com/en/article/qj4qjd/whatsapp-data-security-issues)
+- [EFF's Surveillance Self Defense](https://ssd.eff.org/)
+- [Open Wireless Movement](https://www.eff.org/pages/openwirelessorg)
 
 <br>
 <br>
