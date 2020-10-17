@@ -40,6 +40,9 @@ Work in progress contents:
 
 This list is **in order of priority** (not amount of work). Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
+1. What's the final and permanent website name? `tommi.space` or `xplosionmind`?
+	- set it in the homepage and header
+	- changing all of the usernames coherently with the website name, to have a **unique username** everywhere
 1. Fix `object-fit` in Stuff
 1. Fix [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51).
 1. [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) **redesign**
