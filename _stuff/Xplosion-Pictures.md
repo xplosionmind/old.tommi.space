@@ -13,4 +13,4 @@ personal: true
 logo: "Xplosion-Pictures.svg"
 ref: xplosionpic
 ---
-videos and photos I shoot around the world or just when people ask me to
+Videos and photos I shoot around the world or just when people ask me to

@@ -13,4 +13,4 @@ personal: true
 logo: "Xplosion-Pictures.svg"
 ref: xplosionpic
 ---
-Quando mi dicono “Tommi vieni a fare le foto?” o di solito quando metto mie foto o video in giro quello che scrivo è _Xplosion Pictures_. Così, giusto per sentirmi professionale.
+Quando mi dicono “Tommi vieni a fare le foto per questa cosa?” oppure quando metto mie foto o video in giro quello che scrivo è <em>Xplosion Pictures</em>, Per sentirmi professionale.

@@ -15,4 +15,4 @@ ref: mozita
 featured: true
 ---
 
-I love <a href="https://www.mozilla.org" rel="noopener" target="_blank">Mozilla</a>. It's the foundation behind Firefox, the best browser in the world, and it promotes several great initiatives. I’m a volounteer at Mozilla Italy, member of the localization team: I translate <a href="https://mdn.dev/" rel="noopener" target="_blank">MDN</a> articles and I contribute to resources localization.
+I love <a href="https://www.mozilla.org" rel="noopener noreferrer" target="_blank">Mozilla</a>. It's the foundation behind Firefox, the best browser in the world, and it promotes several great initiatives. I’m a volounteer at Mozilla Italy, member of the localization team: I translate <a href="https://mdn.dev/" rel="noopener noreferrer" target="_blank">MDN</a> articles and I contribute to resources localization.

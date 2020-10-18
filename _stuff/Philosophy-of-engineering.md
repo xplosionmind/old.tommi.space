@@ -14,5 +14,4 @@ logo: "Philosophy-of-Engineering.svg"
 ref: filinge
 featured: false
 ---
-
-One of the first year exams for the <a href="https://didattica.polito.it/pls/portal30/sviluppo.offerta_formativa_2019.vis?p_coorte=2020&p_sdu=37&p_cds=10" rel="noopener" target="_blank">Computer Engineering</a> degree can be chosen by the student. I chose <a href="http://filinge.blogspot.com/" rel="noopener" target="_blank">*Philosophy and Engineering*</a> and below you can visit the blog I created as the scope of the course.
+One of the first year exams for the <a href="https://didattica.polito.it/pls/portal30/sviluppo.offerta_formativa_2019.vis?p_coorte=2020&p_sdu=37&p_cds=10" rel="noopener noreferrer" target="_blank">Computer Engineering</a> degree can be chosen by the student. I chose <a href="http://filinge.blogspot.com/" rel="noopener noreferrer" target="_blank"><em>Philosophy and Engineering</em></a> and below you can visit the blog I created as the scope of the course.

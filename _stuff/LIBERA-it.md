@@ -13,6 +13,4 @@ personal: false
 logo: "LIBERA.png"
 ref: LIBERA
 ---
-_LIBERA, associazioni, nomi e numeri contro le mafie_ è un associazione che **combatte la criminalità organizzata** promuovendo informazione, educazione e organizzando eventi in memoria delle vittime innocenti uccise dalla mafia (come in questa foto).
-
-Nel febbraio 2019 con alcuni miei compagni di scuola ho fondato il **Presidio** del Liceo Cassini di Sanremo, intitolato a **Rosario Livatino**.
+<em>LIBERA, associazioni, nomi e numeri contro le mafie</em> è un associazione che <strong>combatte la criminalità organizzata</strong> promuovendo informazione, educazione e organizzando eventi in memoria delle vittime innocenti uccise dalla mafia (come in questa foto). Nel febbraio 2019 con alcuni miei compagni di scuola ho fondato il <strong>Presidio</strong> del Liceo Cassini di Sanremo, intitolato a <a href="https://it.wikipedia.org/wiki/Rosario_Livatino" rel="noopener noreferrer" target="_blank"><strong>Rosario Livatino</strong></a>.

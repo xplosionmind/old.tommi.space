@@ -81,22 +81,18 @@ ref: home
 	{% endfor %}
 </div> -->
 
-	<a href="/tutto"><h2 class="section-title">progetti in evidenza</h2></a>
+<a href="/tutto"><h2 class="section-title">Progetti in evidenza</h2></a>
 
-	{% assign stuff = site.stuff | where: "lang", page.lang | where: "featured", true %}
-	{% for thing in stuff %}
-		<div class="row" style="color: {{ thing.color }}; background-color: {{ thing.background-color }}; overflow: hidden;" id="{{ thing.title | slugify }}">
-			<img class="half column" src="{{ thing.src }}" alt="{{ thing.alt }}" title="{{ thing.title }}" />
-			<div class="half column stuff">
-				<div class="stuff-logo">
-					<img src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-				</div>
-				<p>{{ thing.content }}</p>
-				<div class="link-container">
-					<a href="{{ thing.link }}"><div class="link" style="color: {{ thing.background-color }}; background-color: {{ thing.color }};">{{ thing.button }}</div></a>
-				</div>
-			</div>
-		</div>
-	{% endfor %}
-
-	<br />
+{% assign stuff = site.data.stuff | where: "featured", "1" %}
+{% for thing in stuff %}
+<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
+	<div class="half column">
+		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
+	</div>
+	<div class="half column">
+		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="Logo {{ thing.title }}" title="{{ thing.title }}" />
+		<p>{{ thing.description-it}}</p>
+		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
+	</div>
+</div>{% endfor %}
+<a class="center written button" href="/tutto">Tutto</a>

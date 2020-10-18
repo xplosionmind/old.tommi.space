@@ -1,7 +1,7 @@
 ---
 lang: it
 title: "OrchestranDo"
-alt: "una foto di gruppo della nostra orchestra sul palco dell OrchestranDo Festival 2016"
+alt: "Una foto di gruppo della nostra orchestra sul palco dell OrchestranDo Festival 2016"
 src: "https://live.staticflickr.com/65535/48564313271_12d08b064d_b.jpg"
 color: "var(--white-ish)"
 background-color: "#000"
