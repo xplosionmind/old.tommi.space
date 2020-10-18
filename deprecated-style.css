@@ -1,0 +1,6 @@
+.gallery-preview {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: baseline;
+	align-content: space-around
+}

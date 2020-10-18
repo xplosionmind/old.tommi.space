@@ -28,6 +28,9 @@
 	--margin: 6.5rem;
 	--trans: .5s;
 	--quicktrans: .1s;
+	--radius-s: 0.4rem;
+	--radius-m: 0.6rem;
+	--radius-l: 0.9rem
 }
 
 html {
@@ -94,6 +97,11 @@ body {
 .one-fifth {
 	width: 100%
 }
+.center {
+	display: block !important;
+	width: 15rem !important;
+	margin: var(--regular) auto !important
+}
 mark {
 	background: var(--primary);
 	color: var(--background);
@@ -118,20 +126,17 @@ mark {
 li {
 	line-height: var(--regular-more-em)
 }
-ul li {
-	list-style: square;
-}
 ol li, ul li {
 	margin-bottom: var(--regular-less)
 }
 ul li li {
-	list-style-type: "▫ ";
+	list-style-type: "– ";
 }
 ul li li, ol li li {
 	margin-bottom: 0
 }
 ul li li li {
-	list-style-type: "- "
+	list-style-type: "+ "
 }
 .task-list-item {
 	list-style: none
@@ -172,9 +177,6 @@ ul li li li {
 .post p {
 	line-height: var(--bigger-em)
 }
-strong, b {
-	font-weight: 700
-}
 .post p:first-of-type::first-letter {
 	line-height: var(--regular-more);
 	font-size: 5em;
@@ -187,7 +189,7 @@ strong, b {
 	width: 20%;
 	margin: 0 auto
 }
-.date {
+h1, .date, .poetry-preview, .page-header *, figcaption, .section-title, .link-container, .edit, .last-modified, footer *, .button, button {
 	text-align: center
 }
 .warning {
@@ -195,6 +197,9 @@ strong, b {
 	color: var(--background);
 	padding: var(--regular);
 	margin: var(--twice) 0
+}
+.warning a {
+	color: var(--secondary)
 }
 .green {
 	background: var(--green);
@@ -212,6 +217,9 @@ strong, b {
 	background: var(--yellow);
 	color: black
 }
+.yellow a {
+	color: var(--red)
+}
 .razzmatazz {
 	background: var(--razzmatazz);
 	color: white
@@ -221,15 +229,11 @@ strong, b {
 }
 .page-header {
 	margin-top: 6rem;
-	text-align: center;
 	margin-bottom: var(--mastodon)
 }
 .page-header p {
 	margin: 0 auto;
 	width: 80%
-}
-.page-header time {
-	text-align: center
 }
 .toc {
 	margin: 0 10% var(--regular)
@@ -260,7 +264,7 @@ strong, b {
 	font-weight: 700;
 	width: 5.8rem
 }
-.category, .language, .link, .gallery {
+.category, .language {
 	display: inline-block;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -270,13 +274,7 @@ strong, b {
 	margin: 0;
 	padding: 0 var(--small)
 }
-.category:hover, .language:hover, .link:hover,
-.category:focus, .language:focus, .link:focus {
-	transform: scale(1.1)
-}
-.language, .gallery {
-	color: var(--text);
-	border: var(--tiny) solid var(--text);
+.language {
 	margin-bottom: var(--regular);
 	font-size: var(--bigger);
 	height: var(--height);
@@ -355,14 +353,12 @@ table {
 }
 #landing h1 {
 	color: var(--background);
-	letter-spacing: .1rem;
 	font-weight: 800;
 	margin-bottom: 0;
 	position: relative;
 	bottom: var(--regular)
 }
-#landing .language {
-	border-color: var(--background);
+#landing .button {
 	color: var(--primary);
 	background: var(--background);
 	margin: var(--tiny) var(--regular-less)
@@ -408,28 +404,32 @@ table {
 	}
 	.line {
 		margin: auto;
-		width: 70%;
+		width: 70%
 	}
 	.nav-list {
 		display: block !important;
+		border-radius: var(--radius-m)
 	}
 	nav svg {
 		margin: 0.6rem 0.8rem 0 0
+	}
+	.stuff-toc {
+		margin: var(--height) calc(100% / 3)
 	}
 }
 img {
 	width: 100%;
 	height: auto;
 	display: block;
+	border-radius: var(--radius-m)
 }
-figure, .post>img {
+figure {
 	margin: 0;
 	margin-bottom: var(--mastodon)
 }
 
 figcaption {
 	font: italic var(--regular) Merriweather, serif;
-	text-align: center;
 	line-height: var(--regular);
 	margin-top: var(--regular-less);
 	color: var(--other-grey)
@@ -451,6 +451,12 @@ p {
 	line-height: var(--big-em);
 	margin: var(--bigger-em) 0
 }
+strong, b {
+	font-weight: 700
+}
+u {
+	border-bottom: 2px dashed
+}
 article {
 	font-size: var(--regular-more);
 	padding: var(--twice) 10% var(--mastodon)
@@ -458,9 +464,6 @@ article {
 .preview, .jar-preview, .poetry-preview {
 	color: var(--text);
 	padding: var(--bigger) 0;
-}
-.poetry-preview {
-	text-align: center
 }
 .jar-preview:hover {
 	background: var(--razzmatazz);
@@ -489,42 +492,28 @@ article {
 .jar-preview:hover .post-title {
 	padding-left: var(--bigger);
 }
-.jar-preview .post-title {
-}
 .jar-preview .half:nth-child(2) {
 	padding: 0 var(--regular)
-}
-.gallery-preview {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: baseline;
-	align-content: space-around
-}
-.section-title {
-	background: var(--primary);
-	text-align: center;
-	height: var(--height);
-	line-height: var(--height);
-	color: var(--background);
-	margin: var(--margin) 5% var(--regular);
-	padding: 0 var(--regular-less)
-}
-.section-title:hover,
-.section-title:focus {
-	color: var(--secondary)
 }
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	overflow-wrap: normal;
 	hyphens: none
 }
-article h2, article h3, article h4, article h5, article h6 {
+article h2, article h3, article h4, article h5, article h6, .section-title {
 	font-family: Inter, Helvetica, "Helvetica Neue", sans;
 	background: var(--background);
 	position: sticky;
 	line-height: var(--height);
 	top: 3.6rem;
 	margin-bottom: 0
+}
+.section-title {
+	height: var(--height);
+	line-height: var(--height);
+	margin: var(--margin) 5%;
+	top: 3.8rem;
+	border-radius: var(--radius-m)
 }
 h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor {
 	opacity: 0;
@@ -536,7 +525,6 @@ h1 {
 	color: var(--text);
 	font-size: var(--height);
 	text-decoration: none;
-	text-align: center
 }
 h2 {
 	font-size: var(--bigger);
@@ -554,41 +542,34 @@ p a:hover, p a:focus, article li a:hover, article li a:focus, .toc a:hover, .toc
 	border-bottom: 2px dashed
 }
 .stuff {
-	padding: 0 10%;
-	display: block;
-	text-align: center
+	padding: var(--height) 2%;
+	margin: var(--height) 2%;
+	border-radius: var(--radius-l)
 }
-.stuff img {
-	height: var(--margin);
+.stuff .column {
+	padding: 0 2%
+}
+.stuff-logo {
 	width: auto;
+	min-width: 50%;
 	max-width: 100%;
-	margin: var(--mastodon) auto var(--height);
+	max-height: 10rem;
+	margin: var(--regular) auto;
 	display: inherit;
-	object-fit: contain
-}
-.stuff .category {
-	margin: var(--height) auto;
-	line-height: var(--height);
-	padding: 0.17rem var(--regular-less) 0;
-	font-size: var(--regular-more)
+	border-radius: unset
 }
 .stuff p {
-	margin-bottom: var(--big)
-}
-.link-container {
-	text-align: center
+	padding: var(--regular) 10%
 }
 .last-modified {
 	margin: 0 auto var(--twice);
-	text-align: center;
 	font-size: var(--regular-less);
 	opacity: 0.8
 }
 footer {
-	margin-bottom: var(--small);
+	margin: var(--margin) auto var(--small);
 	width: 98%;
-	margin-left: 1%;
-	text-align: center
+	border-radius: var(--radius-m)
 }
 
 /* HEADER */
@@ -602,7 +583,10 @@ footer {
 	text-transform: uppercase;
 	font-weight: 700;
 }
-.navigation a, .navigation a:hover, .navigation a:focus {
+.navigation * {
+	border-radius: var(--radius-m)
+}
+.navigation a {
 	text-decoration: none
 }
 .xplosionmind{
@@ -626,11 +610,10 @@ footer {
 .nav-container {
 	max-width: 100%;
 	height: var(--height);
-	background: var(--primary)
+	background: var(--primary);
 }
 nav {
-	float: right;
-	margin-right: var(--small)
+	float: right
 }
 nav ul {
 	list-style: none !important;
@@ -645,15 +628,15 @@ nav ul li {
 }
 nav ul li a, nav ul li a:visited {
 	display: block;
-	padding: 0 var(--regular-less);
 	line-height: var(--height);
 	height: var(--height);
-	color: var(--background);
-	text-decoration: none;
+	padding: 0 var(--regular-less);
 	background: var(--primary);
-	font-size: var(--regular-more)
+	color: var(--background);
+	font-size: var(--regular-more);
+	text-decoration: none
 }
-nav ul li a:hover, nav ul li a:visited:hover, nav ul li a:focus, nav ul li a:visited:focus, nav ul li a:visited:active, nav ul li a:active {
+nav ul li:hover, nav ul li:visited:hover, nav ul li:focus, nav ul li:visited:focus, nav ul li a:visited:active, nav ul li a:active {
 	background: var(--background);
 	color: var(--primary);
 	transition: var(--trans);
@@ -675,12 +658,12 @@ nav ul li ul li a {
 /* Mobile navigation */
 .nav-mobile {
 	display: none;
+	height: var(--height);
+	width: var(--height);
 	position: absolute;
 	top: 0;
 	right: 0;
 	background: var(--primary);
-	height: var(--height);
-	width: var(--height)
 }
 
 @media only screen and (max-width: 1000px) {
@@ -706,13 +689,13 @@ nav ul li ul li a {
 	}
 	.nav-dropdown {
 		position: static;
-		overflow: scroll
+		overflow: scroll;
 	}
 	.post-title, .poem-title {
 		width: 96%;
 		margin-left: 2%
 	}
-	h1, h2 {
+	h2 {
 		text-align: center
 	}
 	#landing h1 {
@@ -738,9 +721,6 @@ nav ul li ul li a {
 		text-align: center;
 		padding: 0 10%
 	}
-	#stuff-tree {
-		margin: var(--height) 5%
-	}
 	.categories {
 		position: relative;
 		left: 5.8rem;
@@ -755,9 +735,7 @@ nav ul li ul li a {
 	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
 	padding: 10px 35px 16px 0
 }
-#nav-toggle span,
-#nav-toggle span:before,
-#nav-toggle span:after {
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
 	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
 	height: 4px;
 	width: 30px;
@@ -765,6 +743,7 @@ nav ul li ul li a {
 	position: absolute;
 	display: block;
 	content: "";
+	border-radius: var(--radius-s) !important;
  	transition: var(--quicktrans)
 }
 #nav-toggle span:before {
@@ -785,26 +764,8 @@ nav ul li ul li a {
 #nav-toggle.active span:after {
 	transform: rotate(-45deg)
 }
-.edit {
-	text-align: center
-}
-/* SOCIAL SHARING BUTTONS */
-#sharing-box {
+#share {
 	margin: 0 var(--tiny) var(--bigger) 15%
-}
-#sharing-box div, #comments {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: var(--big);
-}
-.u-comment {
-	margin-bottom: var(--margin)
-}
-#comments {
-	margin-left: 15%
-}
-#stuff-tree {
-	margin: var(--height) calc(100% / 3)
 }
 
 /* FOOTER */
@@ -820,39 +781,47 @@ footer .one-fifth {
 footer .one-fifth a {
 	opacity: .7;
 	color: var(--text);
-	text-align: center
 }
 footer p:hover,
 footer p:focus {
-	opacity: 100%
+	opacity: 1
+}
+svg.button {
+	height: var(--height);
+	width: auto;
+	padding: 0
+}
+.button, button {
+	display: inline-block;
+	padding: var(--small) var(--regular);
+	font-size: var(--bigger);
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: var(--radius-m);
+	hyphens: none
+}
+.category:hover, .language:hover,
+.category:focus, .language:focus,
+.button:hover, .button:focus {
+	transform: scale(1.1)
+}
+.border {
+	color: var(--text);
+	border: var(--tiny) solid var(--text);
+}
+.written, .section-title {
+	background: var(--primary);
+	color: var(--background)
 }
 .newsletter {
-	background: var(--primary);
-	color: var(--grey) !important;
-	display: block !important;
 	width: 90% !important;
 	margin: var(--regular-more) auto;
-	padding: var(--small);
-	height: unset !important;
-	line-height: unset !important
+	height: unset;
+	line-height: unset;
+	padding: var(--regular)
 }
 #social-box {
 	margin: var(--regular-more) auto
-}
-.button, button {
-	height: var(--height);
-	line-height: var(--height);
-	font-size: var(--bigger);
-	font-weight: bold;
-	width: auto;
-	text-transform: uppercase;
-	hyphens: none
-}
-.button {
-	display: inline;
-}
-.button:hover, .button:focus {
-	transform: scale(1.1)
 }
 footer .row {
 	width: 90%;
@@ -868,15 +837,9 @@ footer .one-fourth .half a {
 	font-weight: 200;
 }
 #CClogo {
-	display: block;
 	height: 1.2em;
-	width: auto;
-	margin: 0 auto var(--regular-more);
-	opacity: .70;
-	position: relative;
-	top: 2px;
+	opacity: .7
 }
-#CClogo:hover,
-#CClogo:focus {
-	opacity: 100%;
+#CClogo:hover, #CClogo:focus {
+	opacity: 1;
 }
