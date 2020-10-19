@@ -19,7 +19,7 @@ ref: home
 	</div>
 </div>
 
-<h2 class="section-title">About this weirdo</h2>
+<h2 class="title">About this weirdo</h2>
 <div class="h-card stuff row" id="about">
 	<img class="u-photo half column" src="/images/tencoascolta.jpg" alt="a photo of me conducting a live show" title="Tommi on stage conducting a live show">
 	<div class="half column">
@@ -39,7 +39,7 @@ ref: home
 	
 {% include latest-post.html %}
 
-<a href="/jar"><h2 class="razzmatazz section-title">The Jar</h2></a>
+<a href="/jar"><h2 class="razzmatazz title">The Jar</h2></a>
 <div class="row">
 	<div class="one column">
 		<article>
@@ -50,17 +50,17 @@ ref: home
 	</div>
 </div>
 
-<a href="/stuff"><h2 class="section-title">Featured stuff</h2></a>
-{% assign stuff = site.stuff | where: "featured", "1" %}
-{% for thing in stuff %}
+<a href="/stuff"><h2 class="title">Featured stuff</h2></a>
+{% assign stuff = site.data.stuff %}
+{% for thing in stuff %}{% if thing.featured == "1" %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
 	<div class="half column">
 		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
 	</div>
 	<div class="half column">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<p>{{ thing.content }}</p>
-		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background-: {{ thing.color }};">{{ thing.button }}</a>
+		<div class="caption"><p>{{ thing.description }}</p></div>
+		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
 	</div>
-</div>{% endfor %}
+</div>{%endif %}{% endfor %}
 <a class="center written button" href="/stuff">More</a>

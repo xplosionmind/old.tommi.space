@@ -15,17 +15,18 @@ ref: jar
 </div>
 
 {% assign jar = site.jar | sort: 'edited' | reverse %}
-{% for note in jar %}{% unless note.hide == '1' %}
-<a href="{{ note.url }}">
-	<div class="row">
-		<div class="one column jar-preview">
-			<div class="half column">
-				<h2 class="post-title">{{ note.title }}</h2>
-			</div>
-			<div class="half column">
+<div class="row">
+	<div class="one column">
+		{% for note in jar %}{% unless note.hide == '1' %}
+		<a href="{{ note.url }}">
+			<div class="preview box">
+				<h2 class="title">{{ note.title }}</h2>
+				<div class="caption">
+					<p class="date">{{ note.edited }}</p>
 				{{ note.description }}
+				</div>
 			</div>
-		</div>
+		</a>
+		{% endunless %}{% endfor %}
 	</div>
-	<div class="line"></div>
-</a>{% endunless %}{% endfor %}
+</div>

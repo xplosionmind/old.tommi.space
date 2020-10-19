@@ -17,7 +17,7 @@ ref: home
 	</div>
 </div>
 
-<h2 class="section-title">Chi è questo strano tipo</h2>
+<h2 class="title">Chi è questo strano tipo</h2>
 <div class="h-card stuff row" id="about">
 	<div class="half column">
 	<img class="u-photo" src="/images/tencoascolta.jpg" alt="Una mia foto mentre presento un concerto" title="Io mentre presento un concerto">
@@ -39,7 +39,7 @@ ref: home
 	
 {% include latest-post.html %}
 
-<a href="/marmellata"><h2 class="razzmatazz section-title">La Marmellata</h2></a>
+<a href="/marmellata"><h2 class="razzmatazz title">La Marmellata</h2></a>
 <div class="row">
 	<div class="one column">
 		<article>
@@ -50,7 +50,7 @@ ref: home
 	</div>
 </div>
 
-<a href="/tutto"><h2 class="section-title">Progetti in evidenza</h2></a>
+<a href="/tutto"><h2 class="title">Progetti in evidenza</h2></a>
 {% assign stuff = site.data.stuff %}
 {% for thing in stuff %}{% if thing.featured == "1" %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
@@ -59,7 +59,7 @@ ref: home
 	</div>
 	<div class="half column">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="Logo {{ thing.title }}" title="{{ thing.title }}" />
-		<p>{{ thing.description-it}}</p>
+		<div class="caption"><p>{{ thing.description-it }}</p></div>
 		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
 	</div>
 </div>{% endif %}{% endfor %}

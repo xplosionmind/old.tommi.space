@@ -1,14 +1,13 @@
 ---
 title: "L’avanguardia"
 permalink: /avanguardia
-img: "/images/2020-02-07-Avanguardia.jpg"
-code: "true"
+img: "/images/posts/2020-02-07-Avanguardia.jpg"
+code: 1
 ---
-Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in
-quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su exercise.polito.it nella speranza di osservare un'ispirazione per risolvere un equazione.
+Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su exercise.polito.it nella speranza di osservare un'ispirazione per risolvere un equazione.
 
 E intorno.
-
+<!--more-->
 La favola è intorno. Intorno è una scenografia da film, un luogo ed un'atmosfera romantici, nel senso stretto della parola, nel senso che il cuore batte solo per la bellezza di essere lì.
 
 Che poi uno è scemo se si emoziona tanto da farsi battere il cuore nell'aula studio verde (avrebbe un numero ma non lo sa, uno. In gergo si chiama così) del Politecnico di Torino. Uno sarà anche scemo ma capitelo. Con la temperatura di cui sopra, le palpebre pesanti tenute aperte a forza da una volontà stoica o più probabilmente dalla consapevolezza che presto o tardi questa routine distruttiva terminerà, intorno a lui ci sono dei volti per cui se Van Gogh fosse vivo impazzirebbe. Io stesso, che non ho il coraggio di impugnare una matita senza la sicurezza di un righello che la guidi, passerei tutto il giorno a disegnare l'umanità di questa stanza.

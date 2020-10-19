@@ -1,11 +1,10 @@
 ---
 img: "https://cdn.ca.emap.com/wp-content/uploads/sites/12/2019/01/gettyimages163031737_546067285.jpg"
+categories: "Filosofia"
 ---
 Qualche mattina fa ero in cantina, a rifocillare quegli scatoloni affamati di ricordi in cui custodisco tutti i piccoli oggetti che sono stati testimoni delle varie peripezie della mia vita, divenuti lo scrigno di un’emozione. Stavo stipando in quelle scatole ormai straripanti gli ultimi cimeli, raccolti durante il mio girovagare estivo.
 
-Ho sorriso.
-
-<!--more-->
+Ho sorriso.<!--more-->
 
 Un sorriso libero e vivo è nato nel mio cuore, raggiungendo tramite ignoti percorsi le mie labbra, curvandole con potentissima dolcezza.
 

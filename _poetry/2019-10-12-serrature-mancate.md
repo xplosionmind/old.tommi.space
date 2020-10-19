@@ -2,7 +2,7 @@
 title: "serrature mancate"
 date: 2019-10-12
 lang: it
-bella: "true"
+bella: "1"
 ---
 vorrei tanto conoscere
 

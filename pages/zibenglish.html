@@ -12,23 +12,18 @@ ref: blog
 		<p>Exactly that.</p>
 {% include tags.html %}
 </div>
-
-{% for post in site.posts %}
-	<a href="{{ post.url }}">
-		<div class="row">
-			<div class="one column preview">
-				<div class="four-fifths column">
-					<h2 class="post-title">{{ post.title }}</h2>
-				</div>
-				<div class="one-fifth column date">
-					{{ post.date | date: "%d %B %Y" }}
+<div class="row">
+	<div class="one column">
+		{% for post in site.posts %}
+		<a href="{{ post.url }}">
+			<div class="preview box">
+				<h2 class="title">{{ post.title }}</h2>
+				<div class="caption">
+					<p class="date">{{ post.date | date_to_long_string }}</p>
+					{{ post.excerpt }}
 				</div>
 			</div>
-		</div>
-		{% assign post-color = site.categories.title[post.categories] %}
-		<div class="line" style="background: {{ post-color.background-color }}"></div>
-	</a>
-{% endfor %}
-
-<br />
-<br />
+		</a>
+		{% endfor %}
+	</div>
+</div>

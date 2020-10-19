@@ -37,7 +37,7 @@ ref: stuff
 	</div>
 </div>
 
-<h2 id="current" class="section-title">Cose attuali</h2>
+<h2 id="current" class="title">Cose attuali</h2>
 
 {% assign stuff=site.data.stuff %}
 {% for thing in stuff %}{% if thing.current == '1' %}
@@ -47,12 +47,12 @@ ref: stuff
 	</div>
 	<div class="half column">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="Logo {{ thing.title }}" title="{{ thing.title }}" />
-		<p>{{ thing.description-it }}</p>
+		<div class="caption"><p>{{ thing.description-it }}<p></div>
 		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
 	</div>
 </div>{% endif %}{% endfor %}
 
-<h2 class="section-title">Cose precedenti</h2>
+<h2 class="title">Cose precedenti</h2>
 	
 {% assign stuff=site.data.stuff %}
 {% for thing in stuff %}{% unless thing.current == '1' %}
@@ -62,7 +62,7 @@ ref: stuff
 	</div>
 	<div class="half column">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<p>{{ thing.description-it}}</p>
+		<div class="caption"><p>{{ thing.description-it }}</p></div>
 		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
 	</div>
 </div>{% endunless %}{% endfor %}

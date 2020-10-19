@@ -24,7 +24,7 @@ killall SystemUIServer
 Scripts for the awesome [ExifTool](https://exiftool.org/). I use them as part of my [photo importing workflow](/mobile-backup-checklist#photo-importing-workflow).
 
 All of these scripts must be followed by the path of the image or the directory containing multiple pictures.
-{:.red .warning}
+{:.red .box}
 
 ### Show metadata
 
@@ -33,10 +33,10 @@ exiftool -s -G
 ```
 
 **`-s`** is used to show the names in ExifTool commands format. *e.g.: instead of "Create Date" you see "CreateDate"*
-{:.blue .warning}
+{:.blue .box}
 
 **`-G`** is used to show the metadata Group to which the metadata tag belongs.
-{:.blue .warning}
+{:.blue .box}
 
 <br />
 
@@ -45,10 +45,10 @@ exiftool -s -G
 Rename files based on their date and time data.
 
 Images shot at the same moment (photo bursts, for example) are being sorted with increasing single-digit indexes.
-{:.blue .warning}
+{:.blue .box}
 	
 Since there are many parameters which **might contain conflicting times**, there are several different tags which can be analyzed. I sorted them such that the first ones are the ones which are more likely to be found but probably not exact, while the last ones are very precise tags, but less likely to be found in an image metadata.
-{:.yellow .warning}
+{:.yellow .box}
 
 ```sh
 exiftool '-FileName<FileModifyDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
@@ -71,7 +71,7 @@ exiftool '-FileName<GPSDateTime' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
 ```
 
 adding **`-r`** is used to make the analysis _recursive_, which means that subfolders are scanned, too.
-{:.blue .warning}
+{:.blue .box}
 
 <br />
 
@@ -80,7 +80,7 @@ adding **`-r`** is used to make the analysis _recursive_, which means that subfo
 Organize files in directories based on each image’s dimensions (resolution)
 
 **NOTE**: the directories are created in the working directory
-{:.yellow .warning}
+{:.yellow .box}
 
 ```sh
 "-Directory<imagesize"
@@ -111,7 +111,7 @@ exiftool '-Directory<GPSDateTime' -d /path/to/directory/%Y/%Y.%m -r
 ```
 
 add **`-o`** after `exiftool` to copy each image instead of moving it.
-{:.blue .warning}
+{:.blue .box}
 
 <br />
 

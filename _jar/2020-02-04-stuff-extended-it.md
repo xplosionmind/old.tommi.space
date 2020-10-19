@@ -7,7 +7,7 @@ edited: 2020-10-16
 description: "Dato che per mia natura e vocazione finisco sempre in mezzo a una miriade di iniziative e progetti fantastici, mi trovo a partecipare o organizzare o condurre moltissimi piccoli eventi o interviste o incontri, e sono talmente tanti che alla fine rischio di dimenticarmeli e non riuscire più a trovarli. Per questo, proverò a tenere aggiornata questa lista di riferimento con tutto ciò a cui ho partecipato, attivamente o come spettatore, inserendo collegamenti a pagine, foto e informazioni."
 ---
 Alcuni link fra i seguenti potrebbero essere privati. Se necessitate l'accesso, mandatemi un'email.
-{:.yellow .warning}
+{:.yellow .box}
 
 ## Concertini
 

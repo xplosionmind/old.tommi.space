@@ -134,6 +134,27 @@ mark {
 	right: 5.7rem;
 	z-index: 3;
 }
+a, a:visited {
+	text-decoration: none;
+	color: var(--link);
+	&:hover .title {
+		transform: scale(1.1);
+	}
+	&:focus .title {
+		transform: scale(1.1);
+	}
+	&:active .title {
+		transform: scale(1.1);
+	}
+}
+a, button {
+	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
+}
+p a:hover, p a:focus, article li a:hover, article li a:focus, .toc a:hover, .toc a:focus {
+	outline: none !important;
+	border-bottom: 2px dashed;
+	transition: none;
+}
 li {
 	line-height: var(--regular-more-em);
 }
@@ -196,17 +217,8 @@ ul li li li {
 	border-radius: var(--radius-s);
 	box-shadow: var(--little-shadow);
 }
-.date, .poetry-preview, .page-header *, figcaption, .section-title, .link-container, .edit, .last-modified, footer *, .button, button {
+.page-header *, figcaption, .link-container, .edit, .last-modified {
 	text-align: center;
-}
-.warning {
-	background: var(--primary);
-	color: var(--background);
-	padding: var(--regular);
-	margin: var(--twice) 0;
-	a {
-		color: var(--secondary);
-	}
 }
 .background {
 	background: var(--background) !important;
@@ -252,7 +264,6 @@ ul li li li {
 	}
 }
 .anchor, .anchor:visited {
-	color: var(--text);
 	height: var(--big);
 	position: absolute;
 	right: 101%; /* big + tiny*/
@@ -362,9 +373,6 @@ table {
 	.column {
 		float: left;
 	}
-	.date {
-		text-align: right;
-	}
 	.line {
 		margin: auto;
 		width: 50%;
@@ -377,7 +385,7 @@ table {
 	.stuff-toc {
 		margin: var(--height) calc(100% / 3);
 	}
-	.section-title {
+	.title {
 		width: 60%;
 		left: 15%;
 	}
@@ -431,36 +439,6 @@ article {
 	font-size: var(--regular-more);
 	padding: var(--twice) 10% var(--mastodon);
 }
-.preview, .jar-preview, .poetry-preview {
-	color: var(--text);
-	padding: var(--bigger) 0;
-	border-radius: var(--radius-m);
-}
-.jar-preview:hover {
-	background: var(--razzmatazz);
-	color: white;
-	box-shadow: var(--shadow);
-}
-.poetry-preview:hover {
-	background: var(--blue);
-	color: white;
-	box-shadow: var(--shadow);
-}
-.preview:hover, .preview:focus {
-	background: var(--primary);
-	color: var(--background);
-	padding: var(--bigger) var(--regular-less);
-	box-shadow: var(--shadow);
-}
-.jar-preview:hover, .jar-preview:focus {
-	 background: var(--razzmatazz);
-}
-.jar-preview:hover .post-title {
-	padding-left: var(--bigger);
-}
-.jar-preview .half:nth-child(2) {
-	padding: 0 var(--regular);
-}
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 }
@@ -472,18 +450,26 @@ article h2, article h3, article h4, article h5, article h6 {
 	top: var(--mastodon);
 	margin-bottom: 0;
 }
-.section-title {
+.title {
 	height: var(--height);
 	line-height: var(--height);
+	color: var(--background);
+	background: var(--primary);
 	margin: var(--mastodon) auto var(--bigger);
 	border-radius: var(--radius-m);
 	box-shadow: var(--shadow);
+	text-align: center;
 }
-h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor {
-	opacity: 0;
-}
-h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
-	opacity: 1;
+h1, h2, h3,
+h4, h5, h6 {
+  &:hover {
+    .anchor {
+      opacity: 1;
+    }
+  }
+  .anchor {
+    opacity: 0;
+  }
 }
 h1 {
 	color: var(--text);
@@ -493,19 +479,9 @@ h1 {
 }
 h2 {
 	font-size: var(--bigger);
-	margin: 0
+	margin: 0;
 }
-a, a:visited {
-	text-decoration: none;
-	color: var(--link);
-}
-a, button {
-	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
-}
-p a:hover, p a:focus, article li a:hover, article li a:focus, .toc a:hover, .toc a:focus {
-	outline: none !important;
-	border-bottom: 2px dashed;
-}
+
 .box, footer {
 	max-height: 40rem;
 	max-width: 100%;
@@ -514,8 +490,24 @@ p a:hover, p a:focus, article li a:hover, article li a:focus, .toc a:hover, .toc
 	padding: var(--big);
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
+	.title {
+		background: var(--background);
+		color: var(--text);
+	}
 }
-.box .section-title, .stuff .section-title {
+.preview {
+	color: var(--text);
+	&:hover {
+		border: solid 3px var(--grey);
+	}
+	.date {
+		text-align: right;
+	}
+	.title {
+		transform: none !important;
+	}
+}
+.box .title, .stuff .title {
 	width: unset;
 	top: 0;
 	left: 0;
@@ -526,6 +518,10 @@ p a:hover, p a:focus, article li a:hover, article li a:focus, .toc a:hover, .toc
 	margin: var(--height) 2%;
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
+	.title {
+		background: var(--background);
+		color: var(--text);
+	}
 }
 .stuff .column {
 	padding: 0 2%;
@@ -539,6 +535,9 @@ p a:hover, p a:focus, article li a:hover, article li a:focus, .toc a:hover, .toc
 	display: inherit;
 	border-radius: unset;
 }
+.caption {
+	margin: var(--regular) 10%;
+}
 .last-modified {
 	margin: 0 auto var(--twice);
 	font-size: var(--regular-less);
@@ -550,6 +549,9 @@ footer {
 	.row {
 		width: 90%;
 		margin-left: 5%;
+	}
+	* {
+		text-align: center;
 	}
 	p {
 		opacity: .7;
@@ -567,6 +569,9 @@ footer {
 			opacity: .7;
 			color: var(--text);
 		}
+	}
+	svg {
+		background: var(--primary);
 	}
 }
 
@@ -636,7 +641,6 @@ nav ul li a, nav ul li a:visited {
 }
 nav ul li a:hover, nav ul li a:visited:hover, nav ul li a:focus, nav ul li a:visited:focus {
 	background: var(--gradient);
-	transition: var(--trans);
 }
 nav ul li a:visited:active, nav ul li a:active {
 	background: var(--inner-shadow);
@@ -697,10 +701,6 @@ nav svg {
 	.nav-list {
 		background: var(--primary);
 	}
-	.post-title, .poem-title {
-		width: 96%;
-		margin-left: 2%;
-	}
 	h2 {
 		text-align: center;
 	}
@@ -710,16 +710,9 @@ nav svg {
 	.page-header h1 {
 		font-size: var(--height);
 	}
-	.navigation, footer, .section-title {
+	.navigation, footer, .title {
 		left: 3%;
 		width: 94%;
-	}
-	.jar-preview .line {
-		margin: var(--tiny) auto;
-	}
-	.jar-preview .half {
-		text-align: center;
-		padding: 0 10%;
 	}
 	.box {
 		max-height: 20rem;
@@ -763,11 +756,7 @@ nav svg {
 #nav-toggle.active span:after {
 	transform: rotate(-45deg);
 }
-#share {
-	margin: var(--bigger) 10%;
-}
 
-/* FOOTER */
 svg.button {
 	height: var(--height);
 	width: auto;
@@ -783,6 +772,7 @@ svg.button {
 	text-transform: uppercase;
 	border-radius: var(--radius-m);
 	box-shadow: var(--shadow);
+	text-align: center;
 	&:hover {
 		transform: scale(1.1);
 	}
@@ -791,7 +781,7 @@ svg.button {
 	}
 }
 
-.written, .section-title {
+.written {
 	background: var(--primary);
 	color: var(--background);
 }
@@ -802,11 +792,22 @@ svg.button {
 	font-size: var(--big);
 	border-radius: var(--radius-s);
 }
+
 .border {
 	background: transparent;
 	color: var(--text);
 	border: var(--tiny) solid var(--text);
 }
+
+.sharing {
+	margin: var(--bigger) 10%;
+	svg.button {
+		padding: 0.4rem;
+		background: var(--primary);
+	}
+}
+
+/* FOOTER */
 .newsletter {
 	width: 90% !important;
 }

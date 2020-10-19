@@ -3,26 +3,24 @@ title: "The tags bible"
 lang: en
 ref: tags
 permalink: /tags
+layout: blank-page
 ---
-{% assign tags = site.data.tags %}
-{% for tag in tags %}
-<h2 id="{{ tag.title | slugify }}" class="section-title" style="background:{{ tag.background }};color:{{ tag.color }}">{{ tag.title }}</h2>
-{% assign posts = site.posts %}
-{% for post in posts %}
-{% if post.categories contains tag %}
-<a href="{{ post.url }}">
-	<div class="row">
-		<div class="one column preview">
-			<div class="four-fifths column">
-				<h2 class="post-title">{{ post.title }}</h2>
+<div class="one column">
+	{% for category in site.categories %}
+	{% capture category_name %}{{ category | first }}{% endcapture %}
+	<div class="box row" style="background:{{ tag.background }};max-height:unset">
+	<h2 id="{{ category_name | slugify }}" class="title" style="background:{{ tag.color }};color:{{ tag.background }}">{{ category_name }}</h2>
+    	{% for post in site.categories[category_name] %}
+		<a href="{{ post.url }}">
+			<div class="preview box">
+				<h2 class="title">{{ post.title }}</h2>
+				<div class="caption">
+					<p class="date">{{ post.date | date_to_long_string }}</p>
+					{{ post.excerpt }}
+				</div>
 			</div>
-			<div class="one-fifth column date">
-				{{ post.date | date: "%d %B %Y" }}
-			</div>
-		</div>
+		</a>
+		{% endfor %}
 	</div>
-	<div class="line"></div>
-</a>
-{% endif %}
 {% endfor %}
-{% endfor %}
+</div>

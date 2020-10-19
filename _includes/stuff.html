@@ -1,0 +1,20 @@
+{% assign stuff=site.data.stuff %}
+{% for thing in stuff %}
+{% if include.current %}{% if thing.current == '1' %}{% endif %}
+{% if include.current == '0' %}{% if thing current == '0' %}{% endif %}
+{% if include.featured %}{% if thing.featured == '1' %}{% endif %}
+<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
+	<div class="half column">
+		<img class="stuff-image" src="{{ thing.img }}" title="{% if page.lang == 'it' %}{{ thing.alt-it }}{% else %}{{ thing.alt }}{% endif %}" alt="{{ thing.alt-it }}" />
+	</div>
+	<div class="half column">
+		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
+		<div class="caption"><p>{{ thing.description }}</p></div>
+		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{% if page.lang == 'it' %}{{ thing.button-it }}{% else %}{{ thing.button }}{% endif %}</a>
+	</div>
+</div>
+{% if include.current %}{% endif %}{% endif %}
+{% if include.current == '0' %}{% endif %}{% endif %}
+{% if include.featured %}{% endif %}{% endif %}
+{% endfor %}
+<a class="center written button" href="/tuttopiu">di tutto e di più</a>

@@ -1,12 +1,13 @@
 ---
 img: "/images/2019-06-16-Maturandi.jpg"
 ---
-<figure><img src="{{ page.img }}" alt="una classe al lavoro"<figcaption>Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità</figcaption></figure>
 Questo è proprio il momento chiave, QUEL momento.
 
 È la volta de _Gli Anni_ e di _Notte prima degli esami_.
 
 Adesso cominciano a scorrere quelle ore che tutti ricordano per tutta la loro vita.
+<!--more-->
+<figure><img src="{{ page.img }}" alt="una classe al lavoro"<figcaption>Un’inquadratura di una scena in classe del mio corto “Everyone”, che dovremmo finire di girare appena conclusa la maturità</figcaption></figure>
 
 In questi tre giorni che ci separano dall’inizio dell’esame di maturità ogni attimo è **cruciale**, ogni scelta determinante, ogni pensiero potenzialmente sconvolgente.
 

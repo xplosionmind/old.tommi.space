@@ -3,7 +3,7 @@ description: "A comprehensive list of great online resources for learning and mo
 edited: 2020-10-15
 ---
 Anything anyone will ever be looking for can be found in the **AWESOME** [Awesome Project](https://project-awesome.org). I'm writing nothing about it, just go on the page and dive in the power of the internet.
-{:.red .warning}
+{:.red .box}
 
 <br>
 

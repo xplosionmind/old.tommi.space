@@ -1,14 +1,15 @@
 ---
 title: "Brunori sa, e io? {e noi?}"
 permalink: "/Brunori-sa"
-img: "/images/2018-04-26-Brunori-sa.jpg"
+img: "/images/posts/2018-04-26-Brunori-sa.jpg"
 ---
-<figure><img src="{{ page.img }}" description='una foto di Brunori Sas che ho scattato all’Ariston durante la rassegna del premio Tenco 2017' alt='una foto di Darione che ho scattato all’Ariston durante la rassegna del premio Tenco 2017' %}
 È davvero tardi e domani ho una verifica di storia: dovrei dormire.
 
 Però non so se è perché la mamma ha ragione dicendo che se prendo un caffè alle 14 sto sveglio tutta la notte o perché ho appena finito di guardare l'ultima puntata di Brunori Sa, ma sono troppo in fibrillazione.
-
+<!--more -->
 Sento di dover assolutamente scrivere quanto sia emozionato dopo aver visto questo programma. È epico.
+
+<figure><img src="{{ page.img }}" description='Una foto di Brunori Sas che ho scattato all’Ariston durante il premio Tenco 2017' alt='Una foto di Darione che ho scattato all’Ariston durante il premio Tenco 2017' %} /><figcaption>Darione al premio Tenco 2017</figcaption></figure>
 
 C'è da fare una piccola premessa, però, per chi proprio non sa un cavolo di quello di cui sto parlando: Brunori Sas è un cantautore calabrese fortissimo e mi vergogno nel dire che in effetti non saprei aggiungere altro, se non il fatto che la mia canzone preferita scritta da lui è <a href="https://youtu.be/C5Ra3qHSF68" rel="noopener noreferrer" target="_blank">Italian Dandy</a>. Ha fatto un programma su Rai Tre da tre puntate chiamato <a href="https://www.raiplay.it/programmi/brunorisa/" rel="noopener noreferrer" target="_blank">**Brunori Sa**</a>, che ho appena terminato e sono senza parole, è da guardare.
 
@@ -41,9 +42,7 @@ Domani all'Ariston ci sarà _**Brunori a Teatro** - Canzoni e Dialoghi sull'Ince
 ### AGGIORNAMENTO 28 Aprile 2018 ore 00:23
 _Dopo un'intera giornata di continui messaggi su instagram a Brunori ed email al suo manager, il manager mi ha risposto così:_
 
-
-<img src="/images/2018-04-26-Brunori-sa-2.jpg" alt="la risposta del manager di Brunori Sas" />
-
+<figure><img src="/images/2018-04-26-Brunori-sa-2.jpg" alt="la risposta del manager di Brunori Sas" /><figcaption>La risposta del manager di Brunori Sas</figcaption></figure>
 
 *io, notando il numero di telefono nella firma, ho tentato una disperata chiamata, in cui Matteo, gentilissimo mi ha ribadito che se avesse detto a Brunori di un'intervista lo avrebbe "preso a male parole"... però, per farsi perdonare, mi ha chiesto quanti siamo in tutta la redazione di Radioimmaginaria, regalandomi tre biglietti per lo spettacolo, che è stato epico.*
 

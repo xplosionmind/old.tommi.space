@@ -3,6 +3,7 @@ title: poetry
 permalink: /poetry
 lang: it
 ref: poetry
+primary: "teal"
 ---
 <div class="page-header">
 	<div class="row">
@@ -19,22 +20,14 @@ ref: poetry
 	</div>
 </div>
 
-{% for poem in site.poetry reversed %}
-<a href="{{ poem.url }}">
-	<div class="row poetry-preview">
-		<div class="one column">
-			<h2 class="post-title">{{ poem.title }}</h2>
-			<div class="line"></div>
-		</div>
+<div class="row">
+	<div class="one column">
+		{% for poem in site.poetry reverse %}
+		<a href="{{ poem.url }}">
+			<div class="preview box">
+				<h2>{{ poem.title }}</h2>
+			</div>
+		</a>
+		{% endfor %}
 	</div>
-</a>
-{% endfor %}
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+</div>

@@ -1,12 +1,12 @@
 ---
 img: "https://live.staticflickr.com/790/41347581362_928eb47eb4_k.jpg"
-categories: inchiostro-digitale
+categories: "Inchiostro Digitale"
 ---
-<figure><img src="{{ page.img }}" alt="La luna sospesa sul picco di una montagna" /><figcaption>fleeting floating evening</figcaption></figure>
 Qui nel letto in camera mia si sta bene.
 
-Sono al caldo -anche se è già aprile e non fa troppo freddo-, e posso accoccolarmi nel morbido piumino.
+Sono al caldo -anche se è già aprile e non fa troppo freddo-, e posso accoccolarmi nel morbido piumino.<!--more-->
 
+<figure><img src="{{ page.img }}" alt="La luna sospesa sul picco di una montagna" /><figcaption>fleeting floating evening</figcaption></figure>
 Per quanto possa considerarmi stressato, stanco, insoddisfatto e deluso, posso solamente immaginare di essere un ricercato internazionale, di essere malato di una qualche malattia che mi condizioni l’esistenza o di trovarmi in qualunque situazione che potrebbe realmente mettere a repentaglio la mia vita, e posso dunque ritenermi fortunato ed al sicuro.
 
 Sono a casa mia, ho una famiglia e posso studiare.

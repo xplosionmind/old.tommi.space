@@ -19,7 +19,7 @@ description: "Creative and technical work to be done, ideas and drafts progress 
 Work in progress contents:
 
 - [Making this website](/themakingof) article
-- [Stuff extended](/tuttopiu)
+- [Giri da spettatore](/giri)
 - [Playlist](/playlist)
 - [Cinema](/cinema)
 - add a “première” section to the [Everyone](./everyone) page
@@ -49,7 +49,13 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 	- ~~move categories specifications to `_data`~~
 	- ~~add categories to The Jar~~
 	- ~~in every post, show the categories to which it belongs~~
-	- create unique page for all categories, anchor to choose a single one (**not working**. Check [this plugin](https://github.com/field-theory/jekyll-category-pages))
+	- create unique page for all categories, anchor to choose a single one **to be improved**:
+		- Display Jar elements in tags list
+		- choose once and for all **`tags`** VS **`categories`**
+		- Access category data (such as color, bg-color, description) from the *_data* folder
+		- Check [this plugin](https://github.com/field-theory/jekyll-category-pages))
+		- [article 1](https://blog.webjeda.com/jekyll-categories/)
+		- [article 2](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins)
 1. Thumbnails in Zibaldone’s feed
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
 1. [**Visioni**](/visioni)
@@ -68,27 +74,29 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 	- better reasoned typographic choices
     - [Custom font](https://tommi.space/Typography#Custom-font) implementation
 1. [Mailtrain](https://mailtrain.org/) setup
-1. RSS Feeds management + Mailtrain automation
+1. RSS Feeds management
+    - [customize `feed.xml`](https://stackoverflow.com/questions/12902840/how-to-add-a-permalink-to-a-jekyll-rss-feed)
+1. Mailtrain automation with RSS
 1. Hosting on [server](/server) instead of using [Netlify](https://netlify.com)
     - Analytics (temporarily set up with [Goatcounter](https://goatcounter.com))
 1. Poetry
-    - section instead of category
-    - custom styling
+    - ~~section instead of category~~
+    - ~~custom styling~~
     - custom feed
 1. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
-1. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
-1. **Sorting** / **filtering** (using JavaScript?)
+7. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
+8. **Sorting** / **filtering** (using JavaScript?)
 	- in Zibaldone and The Jar: language and category filter
 	- in Books: Sorting
-1. Configure [**Webmentions**](https://indieweb.org/Webmention)
+9. Configure [**Webmentions**](https://indieweb.org/Webmention)
     - Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
     - Setup [Webmention.io](https://webmention.io/)
     - Setup [Bridgy](https://brid.gy/)
-1. Flickr APIs for embedded/integrated/automated galleries
+10. Flickr APIs for embedded/integrated/automated galleries
     - use [FlickrEmbed](https://flickrembed.com/)
     - or use [Flickr APIs](https://www.flickr.com/services/api/)
     - or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
-1. Includes with `CC0` and `All-rights-reserved` to add in specific pages
+11. Includes with `CC0` and `All-rights-reserved` to add in specific pages
 
 <br>
 <br>

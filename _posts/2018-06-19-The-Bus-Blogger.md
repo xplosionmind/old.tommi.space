@@ -1,9 +1,10 @@
 ---
-img: "/image/2018-06-19-The-Bus-Blogger.jpg"
-categories: radioimmaginaria
+img: "/images/posts/2018-06-19-The-Bus-Blogger.jpg"
+categories: Radioimmaginaria
 ---
-<img src="{{ page.img }}" alt="Tommi in posa davanti a un bus “double-deck”" />
 Chi non conosce o almeno una volta nella vita non vuole fare un giro sui mitici **bus "double-deck"** (a due piani) di Londra? Allora tenetevi forte, perché questi mezzi caratteristici stanno diventando sempre più avanzati e soprattutto ecocompatibili!
+<!--more-->
+<figure><img src="{{ page.img }}" alt="Tommi in posa davanti a un bus “double-deck”" /></figure>
 È davvero incredibile quanto i trasporti siano efficienti e tecnologicamente integrati a Londra: sono qui da quasi due settimane per un viaggio studio e devo riconoscere che mi basta dare un occhio su Citymapper o Google Maps per sapere perfettamente il percorso che devo fare ed i vari ritardi, con una gran precisione! Tanto di cappello alla TFL (Transport for London)!
 
 Tornando ai bus, devo ammettere che sono rimasto sbalordito leggendo sul sito della TFL quanto rapidamente si stiano diffondendo i bus ecosostenibili.
@@ -23,9 +24,13 @@ Sono già il 30% di tutti i bus in giro per Londra. Nulla di particolare da dire
 
 <figure><img src="https://live.staticflickr.com/4820/32523259468_fe16478ad2_k.jpg" alt="io mentre indico il simbolo “Hybrid” su un autobus" /><figcaption>il simbolo di un autobus ibrido</figcaption></figure>
 
+<br>
+
 ### Autobus “ultra-low emissions”
+
 Con peripezie ingegneristiche che solo in parte riesco a capire ma non saprei per nulla spiegare, la maggioranza dei bus non ibridi ha un’emissione di gas nocivi (NO<sub>x</sub> e CO<sub>2</sub>) fino al 95% inferiore a quella dei bus normali. Sono anche un sacco più silenziosi e non sono privi di vibrazioni come quelli elettrici, ma hanno una vibrazione talmente impercettibile e debole da scatenare un'intensa e potentissima azione soporifera. Ho perso una fermata per avere chiuso gli occhi un attimo, lo ammetto.
 
+<br>
 
 ### Autobus a Idrogeno
 Sono dieci, percorrono una linea particolare (RV1), da Covent Garden alla Tower Highway e sono grandiosi, magici, eccezionali. Praticamente il fumo che esce dal tubo di scarico è acqua, vapore acqueo. È pazzesco, talmente incredibile che io molto anonimamente e stupidamente ho provato come uno scemo a mettere la faccia davanti ad un tubo di scarico di un bus fermo alla stazione: un aerosol oserei dire.
@@ -40,13 +45,11 @@ Questi bus sono fantastici. Esserci sopra è come viaggiare sul London Garden (i
 
 <figure><img src="https://live.staticflickr.com/4875/45482763245_da78fee915_k.jpg" alt="io mentre indico con entusiasmo un auto bus elettrico in partenza" /><figcaption>la coda di una autobus elettrico in partenza</figcaption></figure>
 
-
 Non solo, sulla maggioranza di questi bus ci sono attacchi USB per ricaricare il telefono. Manca solo il WiFi. C'è la ciliegina sulla torta: i bus della linea 69 non si devono quasi mai fermare per fare il pieno o essere ricaricati; con la nuova tecnologia wireless, l'elettricità viene indotta da tratti di asfalto speciale durante il transito o la sosta. Quando sono senza più energia, questi bus sfruttano un motore a diesel per muoversi, ma solo per una porzione minima del loro percorso, viene assicurato sul sito TFL.
 
 
 Così si conclude un viaggio, o meglio, molti viaggi, sui trasporti della capitale. Per qualunque informazione o approfondimento basta visitare <a href="https://tfl.gov.uk/" target="_blank" rel="noreferrer noopener">il sito di Transport for London</a> oppure <a href="mailto:radioimmaginaria@gmail.com" target="_blank">contattare Radioimmaginaria</a> per domande più scomode da farmi. Un abbraccio, continuate ad immaginare; ci vediamo sul bus.
 
-<br />
-<br />
+<br>
 
-[articolo originale](https://web.archive.org/web/20200429193504/https://radioimmaginaria.it/content/190-bus-blogger-per-un-giorno) sul blog di Radioimmaginaria
+[Articolo originale](https://web.archive.org/web/20200429193504/https://radioimmaginaria.it/content/190-bus-blogger-per-un-giorno) sul blog di Radioimmaginaria

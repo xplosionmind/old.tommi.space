@@ -44,7 +44,7 @@ ref: stuff
 	</div>
 </div>
 
-<h2 id="current" class="section-title">Ongoing</h2>
+<h2 id="current" class="title">Ongoing</h2>
 
 {% assign stuff=site.data.stuff %}
 {% for thing in stuff %}{% if thing.current == '1' %}
@@ -54,23 +54,23 @@ ref: stuff
 	</div>
 	<div class="half column">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<p>{{ thing.description }}</p>
+		<div class="caption"><p>{{ thing.description }}</p></div>
 		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
 	</div>
 </div>{% endif %}{% endfor %}
 
-<h2 id="previous" class="section-title">Past</h2>
-	
+<h2 id="previous" class="title">Past</h2>
+
 {% assign stuff=site.data.stuff %}
 {% for thing in stuff %}{% unless thing.current == '1' %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
 	<div class="half column">
-		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
+		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt-it }}" />
 	</div>
 	<div class="half column">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<p>{{ thing.description }}</p>
-		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background-: {{ thing.color }};">{{ thing.button }}</a>
+		<div class="caption"><p>{{ thing.description }}</p></div>
+		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
 	</div>
 </div>{% endunless %}{% endfor %}
-<a class="center written button" href="/tuttopiu">More</a>
+<a class="center written button" href="/tuttopiu">di tutto e di più</a>

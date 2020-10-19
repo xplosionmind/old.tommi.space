@@ -3,7 +3,7 @@ categories: geek
 toc: 0
 edited: 2020-09-30
 description: "Ideas for programs which would be very useful, but I didn't find yet"
-permalink: /missing-tools
+permalink: /tools-ideas
 ---
 ## ~~Batch reopen~~
 
@@ -30,7 +30,7 @@ A unique, universal and simple **method to share stuff**.
 An audio recorder on steroids.
 
 Any of the following actions should be performed locally, or at least anonymously, respecting the user’s privacy.
-{:.yellow .warning}
+{:.yellow .box}
 
 - **markers**
 - **auto-generated keywords** based on markers, if applied

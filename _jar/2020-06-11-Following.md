@@ -3,10 +3,10 @@ edited: 2020-09-24
 description: "There’so much content, online. This is a comprehensive list of stuff I follow on the internet."
 ---
 **Stuff**: Newsletters by people, newsletters by magazines, newsletters by computers, feeds of various sort, Telegram channels, Telegram Groups, Facebook Groups, Facebook Pages, people’s blogs
-{:.yellow .warning}
+{:.yellow .box}
 
 Content which is in italian has its description in italian
-{:.red .warning}
+{:.red .box}
 
 <br>
 

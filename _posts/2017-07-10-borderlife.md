@@ -1,11 +1,9 @@
 ---
-img: "/images/2017-07-10-borderlife-3.jpg"
-categories: radioimmaginaria
+img: "/images/posts/2017-07-10-borderlife-3.jpg"
+categories: Radioimmaginaria
 ---
-<figure>
-<img src="{{ page.img }}" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" />
-</figure>
-
+<figure><img src="{{ page.img }}" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" /></figure>
+<!--more-->
 Io ho 16 anni, quasi 17, è estate, sono contento di essere in vacanza e me la godo.
 
 Sono stato promosso, tutto ok, ho una gran voglia di fare qualcosa, per questo faccio molte attività, poi SOPRATTUTTO non vedo l’ora di andare da qualche parte all’estero a studiare, a visitare il mondo. Ma cavolo, cavolo, io solo poco fa mi sono reso conto che questi miei sogni, questa mia vita, non è la normalità, è un lusso, è un vizio! Mi rendo conto che scorrono a tutti noi sulla pelle notizie e reportage al telegiornale, le storie spesso raccapriccianti che al massimo ci fanno drizzare i peli e ci paralizzano per qualche minuto. Bene, poi tutto passato, abbiamo capito che è successo qualcosa di bello o di male a qualcuno in giro, ci dispiace e stop. Però accidenti! Ora io la vedo un po’ diversamente perché ho avuto la fortuna di passare qualche giorno a Ventimiglia. È facile cercando un po’ su internet trovare qualche informazione sulla situazione, **è TOTALMENTE diverso esserci**. Ora come ora per me non è stato drastico o drammatico, eppure sconvolgente. Quella situazione di “emergenza” lo è a livello mediatico, politico, sociale. Quando Adam sorridendo viene ad aprirti questo cancello della Chiesa di Sant’Antonio a Roverino, frazione di Ventimiglia, tu non vedi un’emergenza, vedi piccoli uomini, famiglie, storie, vite. Inizialmente io mi sono veramente sentito scombussolato.

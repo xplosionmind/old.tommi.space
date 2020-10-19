@@ -88,7 +88,7 @@ NOTE: substitute `100.100.010.1` with the server’s IP address and `xplosionmin
 ### Change default SSH port
 
 Changing the default SSH port is useful to prevent randomized attacks which attempt to get access to the server from [port 22](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers), the default one.
-{:.warning}
+{:.box}
 
 Enable the new SSH port from the firewall. In this case, the process I’ll be following configures port `5522`
 ```
@@ -358,7 +358,7 @@ systemctl restart apache2
 <figure><img src="https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg" alt="Nextcloud first setup page" title="Nextcloud first setup page" /><figcaption>Nextcloud first setup page</figcaption></figure>
 
 **Don’t** insert any data in the dialogue page above until connection is encrypted with `https://`. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
-{: .warning}
+{: .box}
 
 <br />
 
@@ -438,7 +438,7 @@ sudo ufw allow in 10000:20000/udp
 Jitsi requires the Java Runtime Environment. Install OpenJDK JRE 8.
 
 **NOTE**: as of right now, Jitsi Meet needs JRE 8, ***not a newer version***!
-{:.warning .red}
+{:.box .red}
 
 ```
 sudo apt install -y openjdk-8-jre-headless
@@ -474,7 +474,7 @@ sudo /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 ```
 
 If something around here doesn’t work, no worries: just repeat the command, it should get fixed by itself
-{:.warning}
+{:.box}
 
 
 last tweaks should be done in here
