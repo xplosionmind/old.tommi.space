@@ -19,6 +19,8 @@ group :jekyll_plugins do
   gem "jekyll-last-modified-at"
   gem "jekyll-target-blank"
   gem "jekyll-watch"
+  gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -6,11 +6,9 @@
 {% endif %}
 <head>
 <script type="text/javascript">
-	function darktoggle() {
-		var element = document.body;
-		element.classList.toggle("light");
-	}
-</script>
+function darktoggle() {
+	var element = document.body;
+	element.classList.toggle("light"); }</script>
 
 {% seo %}
 
@@ -24,30 +22,19 @@
 <link rel="icon" href="/logos/favicon.svg" sizes="192x192" />
 <meta name="apple-mobile-web-app-status-bar-style" content="{{ page.primary }}">
 <meta name="theme-color" content="{{ page.primary }}" />
+<meta property="og:type" content="website" />
+<meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+<meta property="og:locale:alternate" content="{% if page.lang == 'it' %}en{% else %}it{% endif %}" />
 <meta property="og:image" content="{{ page.img }}" />
+<meta property="og:image:type" content="image/gif" />
 <link rel="styleseheet" type="text/css" href="/fonts/Ubuntu-Mono/ubuntu-mono.css" />
 <link rel="webmention" href="https://webmention.io/tommi.space/webmention" />
 <link rel="pingback" href="https://webmention.io/tommi.space/xmlrpc" />
-{% if page.code == 'true' %}
-<link rel="stylesheet" type="text/css" href="/highlight.css" />
-{% endif %}
-{% if page.style == 'true' %}<style>body { --primary: {{ page.primary }} !important	}</style>{% endif %}
-</head>
-<body>
-<svg class="button theme-toggle-button" title="Toggle theme" onclick="darktoggle()" version="1.1" viewBox="0 0 640.2 640.2" xmlns="http://www.w3.org/2000/svg">
- 	<rect width="640.2" height="640.2" style="fill:none"/>
-   	<g transform="matrix(.8 0 0 .8 76 76)" style="fill:var(--primary)">
-   		<g style="fill:var(--primary)">
-       		<path d="m220.9 515.2h127.4c10.55 0 19.08-8.534 19.08-19.08s-8.535-19.08-19.08-19.08h-127.4c-10.54 0-19.08 8.534-19.08 19.08s8.532 19.08 19.08 19.08z"/>
-       		<path d="m220.9 569.2h127.4c10.55 0 19.08-8.534 19.08-19.08s-8.535-19.08-19.08-19.08h-127.4c-10.54 0-19.08 8.534-19.08 19.08s8.532 19.08 19.08 19.08z"/>
-       		<path d="m284.6 0c-105.4 0-190.8 85.41-190.8 190.8 0 66.96 34.9 125.2 87.14 159.3 4.489 2.922 8.256 9.434 8.256 14.79v54.92c0 21.09 17.07 38.16 38.16 38.16h114.5c21.05 0 38.16-17.07 38.16-38.16v-54.92c0-5.358 3.77-11.87 8.262-14.79 52.24-33.99 87.14-92.29 87.14-159.3 2e-3 -105.4-85.41-190.8-190.8-190.8z"/>
-       	</g>
-   	</g>
-</svg>
-<a href="#"><svg class="top button" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g style="fill:var(--primary)"><rect transform="rotate(180 12 12)" width="24" height="24" opacity="0"/><path d="M6.63 11.61L12 7.29l5.37 4.48A1 1 0 0 0 18 12a1 1 0 0 0 .77-.36 1 1 0 0 0-.13-1.41l-6-5a1 1 0 0 0-1.27 0l-6 4.83a1 1 0 0 0-.15 1.41 1 1 0 0 0 1.41.14z"/><path d="M12.64 12.23a1 1 0 0 0-1.27 0l-6 4.83a1 1 0 0 0-.15 1.41 1 1 0 0 0 1.41.15L12 14.29l5.37 4.48A1 1 0 0 0 18 19a1 1 0 0 0 .77-.36 1 1 0 0 0-.13-1.41z"/></g></svg>
-</a>
-{% include header.html lang=page.lang %}
-{{ content }}
-{% include footer.html lang=page.lang %}
+{% if page.code == '1' %}<link rel="stylesheet" type="text/css" href="/highlight.css" />{% endif %}
+{% unless page.primary == '0' %}<style>body { --primary: {{ page.primary }} !important }</style>{% endunless %}
+</head><body>
+<svg class="theme-toggle button" title="Toggle theme" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="background:var(--background)" onclick="darktoggle()"><path d="M12 7a5 5 0 0 0-3 9v4a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-4a5 5 0 0 0-3-9z" fill="var(--primary)"/><path d="M12 6a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v2a1 1 0 0 0 1 1z" fill="var(--primary)"/><path d="M21 11h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z" fill="var(--primary)"/><path d="M5 11H3a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z" fill="var(--primary)"/><path d="M7.66 6.42L6.22 5a1 1 0 0 0-1.39 1.47l1.44 1.39a1 1 0 0 0 .73.28 1 1 0 0 0 .72-.31 1 1 0 0 0-.06-1.41z" fill="var(--primary)"/><path d="M19.19 5.05a1 1 0 0 0-1.41 0l-1.44 1.37a1 1 0 0 0 0 1.41 1 1 0 0 0 .72.31 1 1 0 0 0 .69-.28l1.44-1.39a1 1 0 0 0 0-1.42z" fill="var(--primary)"/></svg>
+<a href="#"><svg class="top button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="background:var(--background)"><path d="M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z" fill="var(--primary)"/></svg></a>
+{% include header.html %}{{ content }}{% include footer.html %}
 <script async data-goatcounter="https://xplosionmind.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
 </body></html>

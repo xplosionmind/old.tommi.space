@@ -7,16 +7,15 @@ ref: jar
 <div class="page-header row">
 	<div class="one column">
 		<h1>The Jar</h1>
-		<div style="margin-bottom: var(--margin);">
 		<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
 		<p>I take this things, I throw them into <em>The Jar</em>.</p>
 		<p>I hope it can be useful to you.</p>
-		</div>
+{% include tags.html %}
 	</div>
 </div>
 
 {% assign jar = site.jar | sort: 'edited' | reverse %}
-{% for note in jar %}{% unless note.hide == 'true' %}
+{% for note in jar %}{% unless note.hide == '1' %}
 <a href="{{ note.url }}">
 	<div class="row">
 		<div class="one column jar-preview">
@@ -28,5 +27,5 @@ ref: jar
 			</div>
 		</div>
 	</div>
-	<div class="line" style="background: var(--razzmatazz)"></div>
+	<div class="line"></div>
 </a>{% endunless %}{% endfor %}

@@ -1,7 +1,6 @@
 ---
 permalink: /oggetti
 lang: it
-code: 0
 edited: 2020-07-03
 description: "Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi."
 ---

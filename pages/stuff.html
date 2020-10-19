@@ -24,20 +24,20 @@ ref: stuff
 	<div class="stuff-toc one-third column">
 		<h3>Table of contents</h3>
 		<ul>
-{% assign stuff=site.data.stuff | where:"current", "1" %}
+			{% assign stuff=site.data.stuff %}
 			<li><a href="#current">Ongoing stuff</a>
 				<ul>
-					{% for thing in stuff %}
-<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
-{% endfor %}
+					{% for thing in stuff %}{% if thing.current == '1' %}
+					<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
+					{% endif %}{% endfor %}
 				</ul>
 			</li>
-{% assign stuff=site.stuff | where:"current", "0" %}
+			{% assign stuff=site.stuff %}
 			<li><a href="#previous">Previous stuff</a>
 				<ul>
-{% for thing in stuff %}
+{% for thing in stuff %}{% unless thing.current == '1' %}
 						<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
-{% endfor %}
+						{% endunless %}{% endfor %}
 				</ul>
 			</li>
 		</ul>
@@ -46,31 +46,31 @@ ref: stuff
 
 <h2 id="current" class="section-title">Ongoing</h2>
 
-{% assign stuff=site.data.stuff | where:"current", "1" %}
-{% for thing in stuff %}
+{% assign stuff=site.data.stuff %}
+{% for thing in stuff %}{% if thing.current == '1' %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}; overflow: hidden;" id="{{ thing.title | slugify }}">
 	<div class="half column">
 		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
 	</div>
 	<div class="half column">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<p>{{ thing.content }}</p>
+		<p>{{ thing.description }}</p>
 		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
 	</div>
-</div>{% endfor %}
+</div>{% endif %}{% endfor %}
 
 <h2 id="previous" class="section-title">Past</h2>
 	
-{% assign stuff=site.data.stuff | where:"current", "0" %}
-{% for thing in stuff %}
+{% assign stuff=site.data.stuff %}
+{% for thing in stuff %}{% unless thing.current == '1' %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
 	<div class="half column">
 		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
 	</div>
 	<div class="half column">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<p>{{ thing.content }}</p>
+		<p>{{ thing.description }}</p>
 		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background-: {{ thing.color }};">{{ thing.button }}</a>
 	</div>
-</div>{% endfor %}
+</div>{% endunless %}{% endfor %}
 <a class="center written button" href="/tuttopiu">More</a>

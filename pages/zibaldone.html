@@ -4,31 +4,14 @@ permalink: /zibaldone
 lang: it
 ref: blog
 ---
-<div class="row page-header">
+<div class="page-header row">
 	<div class="one column">
 		<h1>Zibaldone</h1>
 		<p class="page-description">Poco a che vedere con la profondità, la potenza e la saggezza dell’omonimo leopardiano, qui un po’ più di allegria e stupidaggini.</p>
-		<p>Dall’enciclopedia Treccani, <a href="http://treccani.it/vocabolario/zibaldone/" rel="noopener" target="_blank">żibaldóne</a>: […] <cite>Scartafaccio in cui si annotano, senza ordine e man mano che capitano, notizie, appunti, riflessioni, estratti di letture, schemi, abbozzi, ecc.</cite></p>
-		<p style="margin-bottom: var(--margin);">Esattamente quello.</p>
-	</div>
-	<div class="row labels">
-		<a href="/blog/en" class="language">english</a>
-		<a href="/blog/it" class="language">italiano</a>
-	</div>
-	<div class="row">
-		<div class="one column labels">
-			<div class="topics-indicator column">tags</div>
-			<div class="categories column">
-				<a href="/poetry" style="color: #301A4B;"><div class="category" style="background: #FDDDE6;">Pasticci</div></a>
-				<a href="/filosofia" style="color: black;"><div class="category" style="background: var(--green);">Filosofia</div></a>
-				{% for category in site.categories %}
-					<a href="{{ category.url }}" style="color: {{ category.color }};"><div class="category" style="background-color: {{ category.background-color }};">{{ category.title }}</div></a>
-				{% endfor %}
-			</div>
-		</div>
-	</div>
+		<p>Dall’enciclopedia Treccani, <a href="http://treccani.it/vocabolario/zibaldone/" rel="noopener noreferrer" target="_blank">żibaldóne</a>: […] <cite>Scartafaccio in cui si annotano, senza ordine e man mano che capitano, notizie, appunti, riflessioni, estratti di letture, schemi, abbozzi, ecc.</cite></p>
+		<p>Esattamente quello.</p>
+{% include tags.html %}
 </div>
-
 {% for post in site.posts %}
 <a href="{{ post.url }}">
 	<div class="row">
@@ -44,6 +27,3 @@ ref: blog
 	<div class="line"></div>
 </a>
 {% endfor %}
-
-<br />
-<br />

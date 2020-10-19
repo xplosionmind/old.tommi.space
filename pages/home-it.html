@@ -17,49 +17,29 @@ ref: home
 	</div>
 </div>
 
-<h2 class="section-title">chi è questo strano tipo</h2>
-<div class="h-card row" id="about">
-	<img class="u-photo half column" src="/images/tencoascolta.jpg" alt="a photo of Tommi with a microphone in my hand conducting a live show" title="Tommi on stage conducting a live show">
+<h2 class="section-title">Chi è questo strano tipo</h2>
+<div class="h-card stuff row" id="about">
 	<div class="half column">
-		<article style="padding: var(--height) 10%">
-			<p>Mi chiamo <span class="p-name">Tommi</span>,</p>
-				
-			<p>sono un <span class="p-category p-label">entusiasta</span>. Adoro farmi coinvolgere in qualunque progetto o creazione e le rotelle nella mia testa non smettono mai di girare. Spesso e soprattutto per cose inutili. Sono un tipo allegro, ma non vuol dire che non pianga (basta farmi vedere il film giusto).</p>
-	
-			<p><span class="p-note">L’obiettivo della mia esistenza è conoscere tutte le persone del mondo</span>, per riuscirci, quando non studio, provo a fare quasi <a href="/it/stuff">tutto</a>. Alla fine, come diceva il mitico <a href="https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz" rel="noopener noreferrer" target="_blank">Leibniz</a>, <q>nella mia vita ho cominciato tutto e concluso nulla</q>. Potete scoprire una piccola selezione di questo tutto nel sito. Se non ci capite un cavolo, benvenuti nella mia testa.</p>
-
-			<p>Tutto quello che mi passa per la testa finisce nello <a href="/zibaldone">Zibaldone</a> o nella <a href="/marmellata">Marmellata</a>.</p>
-
-			<p>Alcune informazioni pratiche utili:
-				<ul>
-					<li>il mio <a class="u-url" href="https://europa.eu/!md89Vg" rel="noopener noreferrer" target="blank">Curriculum Vitae</a> e il mio <a a="u-url" href="https://www.linkedin.com/in/tommasomarmo/" rel="noopener noreferrer" target="_blank">profilo Linkedin</a></li>
-					<li>il mio indirizzo email è <a class="u-email" href="mailto:lost.in@tommi.space" rel="me">lost.in@tommi.space</a>. Se possibile, vi prego di usare la mia <a class="u-key" href="https://api.protonmail.ch/pks/lookup?op=get&search=lost.in@tommi.space" target="_blank" rel="pgpkey authn">chiave PGP</a> (non è necessaria se utilizzate un indirizzo email con <a href="https://protonmail.com" rel="noopener noreferrer" target="_blank">ProtonMail</a>)</li>
-					<li>il mio username è <span class="p-nickname">xplosionmind</span> ovunque. Se non c’è xplosionmind, non sono lì. Trovate link ad alcuni miei profili social in fondo alla pagina.</li>
-				</ul></p>
-
-			<p><a class="u-url" rel="me" href="https://twitter.com/xplosionmind" rel="noopener noreferrer" target="_blank">Twitto molto</a>. Troppo.</p>
-		</article>
+	<img class="u-photo" src="/images/tencoascolta.jpg" alt="Una mia foto mentre presento un concerto" title="Io mentre presento un concerto">
+	</div>
+	<div class="half column">
+		<p>Mi chiamo <span class="p-name">Tommi</span>,</p>
+		<p>sono un <span class="p-category p-label">entusiasta</span>. Adoro farmi coinvolgere in qualunque progetto o creazione e le rotelle nella mia testa non smettono mai di girare. Spesso e soprattutto per cose inutili. Sono un tipo allegro, ma non vuol dire che non pianga (basta farmi vedere il film giusto).</p>
+		<p><span class="p-note">L’obiettivo della mia esistenza è conoscere tutte le persone del mondo</span>, per riuscirci, quando non studio, provo a fare quasi <a href="/it/stuff">tutto</a>. Alla fine, come diceva il mitico <a href="https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz" rel="noopener noreferrer" target="_blank">Leibniz</a>, <q>nella mia vita ho cominciato tutto e concluso nulla</q>. Potete scoprire una piccola selezione di questo tutto nel sito. Se non ci capite un cavolo, benvenuti nella mia testa.</p>
+		<p>Tutto quello che mi passa per la testa finisce nello <a href="/zibaldone">Zibaldone</a> o nella <a href="/marmellata">Marmellata</a>.</p>
+		<p>Alcune informazioni pratiche utili:
+			<ul>
+				<li>il mio <a class="u-url" href="https://europa.eu/!md89Vg" rel="noopener noreferrer" target="blank">Curriculum Vitae</a> e il mio <a a="u-url" href="https://www.linkedin.com/in/tommasomarmo/" rel="noopener noreferrer" target="_blank">profilo Linkedin</a></li>
+				<li>il mio indirizzo email è <a class="u-email" href="mailto:lost.in@tommi.space" rel="me">lost.in@tommi.space</a>. Se possibile, vi prego di usare la mia <a class="u-key" href="https://api.protonmail.ch/pks/lookup?op=get&search=lost.in@tommi.space" target="_blank" rel="pgpkey authn">chiave PGP</a> (non è necessaria se utilizzate un indirizzo email con <a href="https://protonmail.com" rel="noopener noreferrer" target="_blank">ProtonMail</a>)</li>
+				<li>il mio username è <span class="p-nickname">xplosionmind</span> ovunque. Se non c’è xplosionmind, non sono lì. Trovate link ad alcuni miei profili social in fondo alla pagina.</li>
+			</ul></p>
+		<p><a class="u-url" rel="me" href="https://twitter.com/xplosionmind" rel="noopener noreferrer" target="_blank">Twitto molto</a>. Troppo.</p>
 	</div>
 </div>
 	
+{% include latest-post.html %}
 
-	{% for post in site.posts %}
-		{% if forloop.first == true %}
-		<a href="{{ post.url }}"><h2 class="section-title">Ultimo articolo</h2></a>
-		<div class="row" style="overflow: hidden;">
-			<img class="half column" src="{{ post.img }}" alt="{{ post.title }}" title="{{ post.title }}" />
-			<div class="half column stuff">
-				<a href="{{ post.url }}" style="color: var(--dark-font)"><h2 style="margin-top: var(--big)">{{ post.title }}</h2></a>
-				<p>{{ post.excerpt }}</p>
-				<div class="link-container">
-					<a href="{{ post.url }}"><div class="link" style="color: var(--background); background: var(--primary)">leggi</div></a>
-				</div>
-			</div>
-		</div>
-		{% endif %}
-	{% endfor %}
-
-<a href="/marmellata"><h2 class="section-title" style="background: var(--razzmatazz); color: white">La Marmellata</h2></a>
+<a href="/marmellata"><h2 class="razzmatazz section-title">La Marmellata</h2></a>
 <div class="row">
 	<div class="one column">
 		<article>
@@ -70,21 +50,9 @@ ref: home
 	</div>
 </div>
 
-		
-<!--	<h2 class="section-title">visioni</h2>
-<div class="gallery">
-	{% assign visioni = site.static_files | where: "image", true %}
-	{% for pic in visioni %}
-		<span class="gallery-image" style="order: {{ forloop.index }}">
-			<img src="{{ pic.path }}" />
-		</span>
-	{% endfor %}
-</div> -->
-
 <a href="/tutto"><h2 class="section-title">Progetti in evidenza</h2></a>
-
-{% assign stuff = site.data.stuff | where: "featured", "1" %}
-{% for thing in stuff %}
+{% assign stuff = site.data.stuff %}
+{% for thing in stuff %}{% if thing.featured == "1" %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
 	<div class="half column">
 		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
@@ -94,5 +62,5 @@ ref: home
 		<p>{{ thing.description-it}}</p>
 		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
 	</div>
-</div>{% endfor %}
+</div>{% endif %}{% endfor %}
 <a class="center written button" href="/tutto">Tutto</a>

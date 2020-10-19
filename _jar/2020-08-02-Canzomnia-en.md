@@ -1,5 +1,5 @@
 ---
-hide: "true"
+hide: "1"
 toc: 0
 description: "Lyrics and chords of songs to play by the campfire, singing with friends, at any time during the day or in the night"
 ---

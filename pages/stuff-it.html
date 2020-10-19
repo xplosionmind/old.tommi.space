@@ -4,18 +4,12 @@ lang: it
 permalink: /tutto
 ref: stuff
 ---
-<div class="page-header">
+<div class="page-header one column">
 	<div class"row">
-		<div class="one column">
-			<h1>Cose in giro</h1>
-		</div>
+		<h1>Cose in giro</h1>
 	</div>
-	<div class="row">
-		<div class="one column">
-			<div class="page-description">
-				<p>Qui c’è (quasi) tutto quello che faccio e che ho fatto. Progetti in cui sono stato coinvolto, idee, associazioni e sfide.<br />Se non bastasse, c’è <a href="/tuttopiu" target="_blank">di tutto e di più</a>.</p>
-			</div>
-		</div>
+	<div class="page-description row">
+		<p>Qui c’è (quasi) tutto quello che faccio e che ho fatto. Progetti in cui sono stato coinvolto, idee, associazioni e sfide.<br />Se non bastasse, c’è <a href="/tuttopiu" target="_blank">di tutto e di più</a>.</p>
 	</div>
 </div>
 	
@@ -23,20 +17,20 @@ ref: stuff
 	<div class="stuff-toc one-third column">
 		<h3>In sintesi</h3>
 		<ul>
-{% assign stuff=site.data.stuff | where:"current", "1" %}
+			{% assign stuff=site.data.stuff %}
 			<li><a href="#current">Cose attuali</a>
 				<ul>
-{% for thing in stuff %}
+					{% for thing in stuff %}{% if thing.current == '1' %}
 						<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
-{% endfor %}
+					{% endif %}{% endfor %}
 				</ul>
 			</li>
-{% assign stuff=site.data.stuff | where:"current", "0" %}
+			{% assign stuff=site.stuff %}
 			<li><a href="#previous">Cose precedenti</a>
 				<ul>
-{% for thing in stuff %}
+{% for thing in stuff %}{% unless thing.current == '1' %}
 						<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
-{% endfor %}
+						{% endunless %}{% endfor %}
 				</ul></p>
 			</li>
 		</ul>
@@ -45,23 +39,23 @@ ref: stuff
 
 <h2 id="current" class="section-title">Cose attuali</h2>
 
-{% assign stuff=site.data.stuff | where:"current", "1" %}
-{% for thing in stuff %}
+{% assign stuff=site.data.stuff %}
+{% for thing in stuff %}{% if thing.current == '1' %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
 	<div class="half column">
 		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
 	</div>
 	<div class="half column">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="Logo {{ thing.title }}" title="{{ thing.title }}" />
-		<p>{{ thing.description-it}}</p>
+		<p>{{ thing.description-it }}</p>
 		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
 	</div>
-</div>{% endfor %}
+</div>{% endif %}{% endfor %}
 
 <h2 class="section-title">Cose precedenti</h2>
 	
-{% assign stuff=site.data.stuff | where:"current", "0" %}
-{% for thing in stuff %}
+{% assign stuff=site.data.stuff %}
+{% for thing in stuff %}{% unless thing.current == '1' %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
 	<div class="half column">
 		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
@@ -71,5 +65,5 @@ ref: stuff
 		<p>{{ thing.description-it}}</p>
 		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
 	</div>
-</div>{% endfor %}
+</div>{% endunless %}{% endfor %}
 <a class="center written button" href="/tuttopiu">di tutto e di più</a>

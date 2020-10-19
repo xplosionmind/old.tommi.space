@@ -1,0 +1,28 @@
+---
+title: "The tags bible"
+lang: en
+ref: tags
+permalink: /tags
+---
+{% assign tags = site.data.tags %}
+{% for tag in tags %}
+<h2 id="{{ tag.title | slugify }}" class="section-title" style="background:{{ tag.background }};color:{{ tag.color }}">{{ tag.title }}</h2>
+{% assign posts = site.posts %}
+{% for post in posts %}
+{% if post.categories contains tag %}
+<a href="{{ post.url }}">
+	<div class="row">
+		<div class="one column preview">
+			<div class="four-fifths column">
+				<h2 class="post-title">{{ post.title }}</h2>
+			</div>
+			<div class="one-fifth column date">
+				{{ post.date | date: "%d %B %Y" }}
+			</div>
+		</div>
+	</div>
+	<div class="line"></div>
+</a>
+{% endif %}
+{% endfor %}
+{% endfor %}
