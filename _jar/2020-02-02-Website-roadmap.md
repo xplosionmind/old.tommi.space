@@ -3,8 +3,10 @@ permalink: /development
 edited: 2020-10-16
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 ---
-## Issues
+## Not Working
 
+- Tags page
+- global `permalink` configuration in `_config.yml`
 - Subheadings display issue on mobile. [Example page](https://tommi.space/server-setup#nextcloud-configuration)
 - language loop in language selection
 - Parsing error in jar list elements with `a` tags
