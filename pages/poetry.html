@@ -22,7 +22,8 @@ primary: "teal"
 
 <div class="row">
 	<div class="one column">
-		{% for poem in site.poetry reverse %}
+	{% assign poetry = site.poetry | reverse %}
+		{% for poem in poetry %}
 		<a href="{{ poem.url }}">
 			<div class="preview box">
 				<h2>{{ poem.title }}</h2>
