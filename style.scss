@@ -48,6 +48,7 @@ body {
 	--background: var(--black-ish);
 	--background2: var(--dark-grey);
 	--text: var(--white-ish);
+	--deep: white;
 	--link: var(--primary);
 	--primary: var(--yellow);
 	--secondary: var(--blue);
@@ -66,6 +67,7 @@ body {
 	--background: white;
 	--background2: var(--white-ish);
 	--text: var(--black-ish);
+	--deep: black;
 	--link: var(--secondary);
 	--primary: var(--blue);
 	--secondary: var(--razzmatazz);
@@ -217,7 +219,7 @@ ul li li li {
 	border-radius: var(--radius-s);
 	box-shadow: var(--little-shadow);
 }
-.page-header *, figcaption, .link-container, .edit, .last-modified {
+figcaption, .link-container, .edit, .last-modified {
 	text-align: center;
 }
 .background {
@@ -249,6 +251,9 @@ ul li li li {
 }
 .page-header {
 	margin: 6rem auto var(--height);
+	* {
+		text-align: center;
+	}
 	h1 {
 		font-size: var(--mastodon);
 	}
@@ -278,9 +283,10 @@ pre, code {
 }
 pre {
 	overflow-x: scroll;
-	border: dashed var(--tiny);
+	border: solid 3px var(--grey);
 	margin: var(--bigger) 0;
 	padding: var(--regular-more);
+	border-radius: var(--radius-m);
 	code {
 		background: transparent;
 	}
@@ -288,6 +294,7 @@ pre {
 code {
 	padding: 2px var(--small);
 	background: var(--background2);
+	border-radius: var(--radius-s);
 }
 blockquote {
   	margin: var(--regular-more) 0 var(--regular-more) var(--height);
@@ -433,7 +440,7 @@ strong, b {
 	font-weight: 700;
 }
 u {
-	border-bottom: 2px dashed;
+	border-bottom: dashed 2px var(--text);
 }
 article {
 	font-size: var(--regular-more);
@@ -497,11 +504,9 @@ h2 {
 }
 .preview {
 	color: var(--text);
+	background: var(--background);
 	&:hover {
 		border: solid 3px var(--grey);
-	}
-	.date {
-		text-align: right;
 	}
 	.title {
 		transform: none !important;
@@ -512,6 +517,9 @@ h2 {
 	top: 0;
 	left: 0;
 	margin: 0 0 var(--big) 0;
+}
+.date {
+	text-align: right;
 }
 .stuff {
 	padding: var(--height) 2%;
@@ -534,6 +542,9 @@ h2 {
 	margin: var(--height) auto var(--bigger);
 	display: inherit;
 	border-radius: unset;
+}
+.post-tags {
+	margin: 0 10%;
 }
 .caption {
 	margin: var(--regular) 10%;

@@ -1,9 +1,12 @@
-<div id="tags" class="row">
+<div class="post-tags row">
 	<div class="one column">
-{% assign categories = page.categories %}
-{% for category in categories %}
-{% capture category-name %}{{ category }}{% endcapture %}
-<a href="/tags#{{ category | slugify }}" style="color: {{ category-name.color }}; background: {{ category-name.background }};" class="category smaller written button">{{ category }}</a>
+{% for category in page.categories %}
+{% for current in site.data.tags %}{% if current.title == category %}
+{% capture title %}{{ current.title }}{% endcapture %}
+{% capture color %}{{ current.color }}{% endcapture %}
+{% capture background %}{{ current.background }}{% endcapture %}
+{% endif %}{% endfor %}
+<a href="/tags#{{ title | slugify }}" style="color: {{ color }}; background: {{ background }};" class="category smaller written button">{{ title }}</a>
 {% endfor %}
 	</div>
 </div>

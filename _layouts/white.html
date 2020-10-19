@@ -7,19 +7,15 @@ layout: wrapper
 		<p>{{ page.description }}</p>
 	</div>
 </div>
-{% if page.toc == '1' %}
+{% if page.toc %}
 <div class="row toc">
 	<div class="one column">
-		<h2>
-		{% case page.lang %}
-		{% when 'it' %}
-			Indice
-		{% else %}
-			Table of contents
-		{% endcase %}
+		<h2>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}
 		</h2>
 		{% include toc.html html=content %}
 	</div>
 </div>
 {% endif %}
-{{ content }}
+<div class="one column">
+	{{ content }}
+</div>

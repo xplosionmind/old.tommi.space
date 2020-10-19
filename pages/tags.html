@@ -3,14 +3,23 @@ title: "The tags bible"
 lang: en
 ref: tags
 permalink: /tags
-layout: blank-page
+layout: white
+description: "Every topic, every recurrency, anything you need to find can be found somewhere in this page."
 ---
-<div class="one column">
-	{% for category in site.categories %}
-	{% capture category_name %}{{ category | first }}{% endcapture %}
-	<div class="box row" style="background:{{ tag.background }};max-height:unset">
-	<h2 id="{{ category_name | slugify }}" class="title" style="background:{{ tag.color }};color:{{ tag.background }}">{{ category_name }}</h2>
-    	{% for post in site.categories[category_name] %}
+{% for category in site.categories %}
+{% capture category-name %}{{ category | first }}{% endcapture %}
+{% for current in site.data.tags %}{% if current.title contains category-name %}
+{% capture title %}{{ current.title }}{% endcapture %}
+{% capture color %}{{ current.color }}{% endcapture %}
+{% capture description %}{{ current.description }}{% endcapture %}
+{% capture background %}{{ current.background }}{% endcapture %}
+{% endif %}{% endfor %}
+	<div class="box row" style="background:{{ background }};max-height:unset">
+	<h2 id="{{ title | slugify }}" class="title" style="background:{{ color }};color:{{ background }}">{{ title }}</h2>
+	<div class="caption">
+		<p style="color:{{ color }}">{{ description }}</p>
+	</div>
+    	{% for post in site.categories[category-name] %}
 		<a href="{{ post.url }}">
 			<div class="preview box">
 				<h2 class="title">{{ post.title }}</h2>
@@ -23,4 +32,3 @@ layout: blank-page
 		{% endfor %}
 	</div>
 {% endfor %}
-</div>
