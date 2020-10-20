@@ -28,6 +28,13 @@ When the basics aren't enough.
 <br>
 <br>
 
+## Assimilation
+
+- [Study effectively](https://youtu.be/IlU-zDU6aQ0)
+
+<br>
+<br>
+
 ## Management
 
 Managing knowledge; systems, ideas, suggestions, methods.
