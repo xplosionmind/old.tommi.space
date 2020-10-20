@@ -427,8 +427,6 @@ figcaption:before {
 }
 .right {
 	text-align: right;
-	margin-left: auto;
-	margin-right: 0;
 }
 p {
 	line-height: var(--big-em);
@@ -517,9 +515,6 @@ h2 {
 	top: 0;
 	left: 0;
 	margin: 0 0 var(--big) 0;
-}
-.date {
-	text-align: right;
 }
 .stuff {
 	padding: var(--height) 2%;
