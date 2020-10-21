@@ -1,11 +1,10 @@
 ---
 permalink: /development
-edited: 2020-10-16
+edited: 2020-10-21
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 ---
 ## Not Working
 
-- Tags page
 - global `permalink` configuration in `_config.yml`
 - Subheadings display issue on mobile. [Example page](https://tommi.space/server-setup#nextcloud-configuration)
 - language loop in language selection
@@ -84,19 +83,20 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
     - ~~custom styling~~
     - custom feed
 1. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
-7. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
-8. **Sorting** / **filtering** (using JavaScript?)
+1. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
+1. **Sorting** / **filtering** (using JavaScript?)
 	- in Zibaldone and The Jar: language and category filter
 	- in Books: Sorting
-9. Configure [**Webmentions**](https://indieweb.org/Webmention)
+1. Configure [**Webmentions**](https://indieweb.org/Webmention)
     - Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
     - Setup [Webmention.io](https://webmention.io/)
     - Setup [Bridgy](https://brid.gy/)
-10. Flickr APIs for embedded/integrated/automated galleries
+1. Configure [jTag](https://github.com/ttscoff/jtag)
+1. Flickr APIs for embedded/integrated/automated galleries
     - use [FlickrEmbed](https://flickrembed.com/)
     - or use [Flickr APIs](https://www.flickr.com/services/api/)
     - or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
-11. Includes with `CC0` and `All-rights-reserved` to add in specific pages
+1. Includes with `CC0` and `All-rights-reserved` to add in specific pages
 
 <br>
 <br>

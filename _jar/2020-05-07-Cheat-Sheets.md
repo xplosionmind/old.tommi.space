@@ -1,9 +1,11 @@
 ---
-categories: geek
+categories: Geek
 edited: 2020-09-16
 description: "I use tech devices a lot, maybe too much, but I don’t dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
 ---
-## CLI - Terminal commands
+## CLI
+
+**Terminal commands**:
 
 change screenshot format
 
