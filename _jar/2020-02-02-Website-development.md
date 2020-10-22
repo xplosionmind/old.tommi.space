@@ -49,13 +49,16 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 	- ~~add categories to The Jar~~
 	- ~~in every post, show the categories to which it belongs~~
 	- create unique page for all categories, anchor to choose a single one **to be improved**:
-		- Display Jar elements in tags list
-		- choose once and for all **`tags`** VS **`categories`**
-		- Access category data (such as color, bg-color, description) from the *_data* folder
-		- Check [this plugin](https://github.com/field-theory/jekyll-category-pages))
-		- [article 1](https://blog.webjeda.com/jekyll-categories/)
-		- [article 2](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins)
+		1. Fix some categories which are repeated multiple times
+		1. Display Jar elements in tags list
+		1. choose once and for all **`tags`** VS **`categories`**
+		1. ~~Access category data (such as color, bg-color, description) from the *_data* folder~~
+		1. Check [this plugin](https://github.com/field-theory/jekyll-category-pages))
+		1. [article 1](https://blog.webjeda.com/jekyll-categories/)
+		1. [article 2](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins)
+		1. Configure [jTag](https://github.com/ttscoff/jtag)
 1. Thumbnails in Zibaldone’s feed
+1. Button inner-shadow instead of transform when hovering
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
 1. [**Visioni**](/visioni)
 	- unsorted photos randomly moving
@@ -91,7 +94,6 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
     - Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
     - Setup [Webmention.io](https://webmention.io/)
     - Setup [Bridgy](https://brid.gy/)
-1. Configure [jTag](https://github.com/ttscoff/jtag)
 1. Flickr APIs for embedded/integrated/automated galleries
     - use [FlickrEmbed](https://flickrembed.com/)
     - or use [Flickr APIs](https://www.flickr.com/services/api/)

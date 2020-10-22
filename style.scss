@@ -552,10 +552,6 @@ h2 {
 footer {
 	margin: var(--margin) 3% var(--bigger);
 	width: 94%;
-	.row {
-		width: 90%;
-		margin-left: 5%;
-	}
 	* {
 		text-align: center;
 	}
@@ -571,13 +567,6 @@ footer {
 	}
 	.one-fifth {
 		margin-top: var(--regular-more)
-		a {
-			opacity: .7;
-			color: var(--text);
-		}
-	}
-	svg {
-		background: var(--primary);
 	}
 }
 
@@ -714,7 +703,7 @@ nav svg {
 		font-size: var(--twice);
 	}
 	.page-header h1 {
-		font-size: var(--height);
+		font-size: var(--big);
 	}
 	.navigation, footer, .title {
 		left: 3%;
@@ -767,6 +756,7 @@ svg.button {
 	height: var(--height);
 	width: auto;
 	padding: 0;
+	background: var(--primary);
 }
 
 .button, button {
@@ -790,6 +780,7 @@ svg.button {
 .written {
 	background: var(--primary);
 	color: var(--background);
+	margin: var(--big);
 }
 
 .smaller {
@@ -809,30 +800,19 @@ svg.button {
 	margin: var(--bigger) 10%;
 	svg.button {
 		padding: 0.4rem;
-		background: var(--primary);
 	}
 }
 
 /* FOOTER */
-.newsletter {
-	width: 90% !important;
-}
-footer .one-fourth .half a {
-	line-height: var(--height);
+#social-box {
+	margin-top: var(--bigger);
 }
 #license {
-	width: 100%; /* override one column width */
-	margin-bottom: 0;
 	font-size: 0.8em;
 	font-weight: 200;
 }
+
 #CClogo {
 	height: 1.2em;
 	opacity: .7;
-	&:hover {
-		opacity: 1;
-	}
-	&:focus {
-		opacity: 1;
-	}
 }
