@@ -24,24 +24,21 @@
   }); // end DOM ready
 })(jQuery); // end jQuery
 </script>
-<body>
-{% case page.lang %}
-{% when 'it' %}
 <section class="navigation">
 	<div class="nav-container">
 		<div class="xplosionmind">
-			<a href="/tuffo">Tommi Space</a>
+			<a href="{% if page.lang == 'it' %}/tuffo{% else %}/home{% endif %}">Tommi Space</a>
 		</div>
 	<nav>
 		<div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
 			<ul class="nav-list">
- 	   			<li><a href="/tuffo#about">About</a></li>
-				<li><a href="/ora">Ora</a></li>
-       			<li><a href="/zibaldone">Zibaldone</a></li>
-       			<li><a href="https://flickr.com/tommiboom/albums">visioni</a></li>
-       			<li><a href="/tutto">Tutto</a></li>
-       			<li><a href="/marmellata">La Marmellata</a></li>
-				<li><a href="#!"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="var(--background)" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 2a8.19 8.19 0 0 1 1.79.21 2.61 2.61 0 0 1-.78 1c-.22.17-.46.31-.7.46a4.56 4.56 0 0 0-1.85 1.67 6.49 6.49 0 0 0-.62 3.3c0 1.36 0 2.16-.95 2.87-1.37 1.07-3.46.47-4.76-.07A8.33 8.33 0 0 1 4 12a8 8 0 0 1 8-8zm4.89 14.32a6.79 6.79 0 0 0-.63-1.14c-.11-.16-.22-.32-.32-.49-.39-.68-.25-1 .38-2l.1-.17a4.77 4.77 0 0 0 .58-2.43 5.42 5.42 0 0 1 .09-1c.16-.73 1.71-.93 2.67-1a7.94 7.94 0 0 1-2.86 8.28z"/></svg></a>
+				<li><a href="{% if page.lang == 'it' %}/tuffo#about{% else %}/home#about{% endif %}">About</a></li>
+				<li>{% if page.lang == 'it' %}<a href="/ora">Ora</a>{% else %}<a href="/now">Now</a>{% endif %}</li>
+       			<li>{% if page.lang == 'it' %}<a href="/zibaldone">Zibaldone</a>{% else %}<a href="/zibenglish">Blog</a>{% endif %}</li>
+       			<li>{% if page.lang == 'it' %}<a href="https://flickr.com/tommiboom/albums">visioni</a>{% else %}<a href="https://flickr.com/tommiboom/albums">visions</a>{% endif %}</li>
+       			<li>{% if page.lang == 'it' %}<a href="/tutto">Tutto</a>{% else %}<a href="/stuff">Stuff</a>{% endif %}</li>
+       			<li>{% if page.lang == 'it' %}<a href="/marmellata">La Marmellata</a>{% else %}<a href="/jar">The Jar</a>{% endif %}</li>
+				<li><a href="#!"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="var(--text)" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 2a8.19 8.19 0 0 1 1.79.21 2.61 2.61 0 0 1-.78 1c-.22.17-.46.31-.7.46a4.56 4.56 0 0 0-1.85 1.67 6.49 6.49 0 0 0-.62 3.3c0 1.36 0 2.16-.95 2.87-1.37 1.07-3.46.47-4.76-.07A8.33 8.33 0 0 1 4 12a8 8 0 0 1 8-8zm4.89 14.32a6.79 6.79 0 0 0-.63-1.14c-.11-.16-.22-.32-.32-.49-.39-.68-.25-1 .38-2l.1-.17a4.77 4.77 0 0 0 .58-2.43 5.42 5.42 0 0 1 .09-1c.16-.73 1.71-.93 2.67-1a7.94 7.94 0 0 1-2.86 8.28z"/></svg></a>
 					<ul class="nav-dropdown">
 						{% for cosa in site.pages %}
 						{% if cosa.ref == page.ref %}
@@ -56,35 +53,3 @@
 		</nav>
 	</div>
 </section>
-{% else %}
-<section class="navigation">
-	<div class="nav-container">
-		<div class="xplosionmind">
-			<a href="/home">Tommi Space</a>
-		</div>
-	<nav>
-		<div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-			<ul class="nav-list">
-        			<li><a href="/home#about">About</a></li>
-				<li><a href="/now">Now</a></li>
-       			<li><a href="/zibenglish">Blog</a></li>
-       			<li><a href="https://flickr.com/tommiboom/albums">visions</a></li>
-				<li><a href="/stuff">Stuff</a></li>
-       			<li><a href="/jar">The Jar</a></li>
-				<li><a href="#!"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="var(--background)" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 2a8.19 8.19 0 0 1 1.79.21 2.61 2.61 0 0 1-.78 1c-.22.17-.46.31-.7.46a4.56 4.56 0 0 0-1.85 1.67 6.49 6.49 0 0 0-.62 3.3c0 1.36 0 2.16-.95 2.87-1.37 1.07-3.46.47-4.76-.07A8.33 8.33 0 0 1 4 12a8 8 0 0 1 8-8zm4.89 14.32a6.79 6.79 0 0 0-.63-1.14c-.11-.16-.22-.32-.32-.49-.39-.68-.25-1 .38-2l.1-.17a4.77 4.77 0 0 0 .58-2.43 5.42 5.42 0 0 1 .09-1c.16-.73 1.71-.93 2.67-1a7.94 7.94 0 0 1-2.86 8.28z"/></svg></a>
-					<ul class="nav-dropdown">
-						{% for cosa in site.pages %}
-						{% if cosa.ref == page.ref %}
-							<li>
-								<a href="{{ cosa.url }}" class="{{ cosa.lang }}">{{ cosa.lang }}</a>
-							</li>
-						{% endif %}
-						{% endfor %}
-					</ul>
-				</li>
-   			</ul>
-		</nav>
-	</div>
-</section>
-	{% endcase %}
-</body>

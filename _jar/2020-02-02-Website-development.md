@@ -42,7 +42,6 @@ Work in progress contents:
 This is a list. It's sorted by **priority**, not amount of work). Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
 1. Image vertical alignment in Stuff
-1. Fix [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51).
 1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for ([dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp))
 1. **Categories**
 	- ~~move categories specifications to `_data`~~
@@ -132,6 +131,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 - CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
 - cursor styling
 - final header configuration
+- Fix [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51).
 - gif instead of images 
 - Hover effects
 - `id` anchor links

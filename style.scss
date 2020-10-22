@@ -592,18 +592,18 @@ footer {
 	line-height: var(--height); 
 	height: var(--height);
 	font-size: var(--bigger);
-	background: var(--background);
+	background: var(--primary);
 	box-shadow: var(--shadow);
 }
 .xplosionmind a, .xplosionmind a:visited {
-	color: var(--primary);
+	color: var(--background);
 }
 .xplosionmind:hover, .xplosionmind:focus {
-	background: var(--primary);
+	background: var(--razzmatazz);
 	border-bottom: none;
 }
 .xplosionmind a:hover, .xplosionmind a:focus {
-	color: var(--background);
+	color: white;
 }
 .nav-container {
 	max-width: 100%;
@@ -611,7 +611,7 @@ footer {
 }
 nav {
 	float: right;
-	background: var(--primary);
+	background: var(--background);
 	padding: 0 var(--small);
 	box-shadow: var(--shadow);
 }
@@ -628,10 +628,10 @@ nav ul li {
 }
 nav ul li a, nav ul li a:visited {
 	display: block;
+	color: var(--text);
 	line-height: var(--height);
 	height: var(--height);
 	padding: 0 var(--small);
-	color: var(--background);
 	font-size: var(--regular-more);
 }
 nav ul li a:hover, nav ul li a:visited:hover, nav ul li a:focus, nav ul li a:visited:focus {
@@ -692,9 +692,6 @@ nav svg {
 		position: static;
 		margin-top: var(--small);
 		overflow: scroll;
-	}
-	.nav-list {
-		background: var(--primary);
 	}
 	h2 {
 		text-align: center;
