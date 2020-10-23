@@ -1,0 +1,17 @@
+---
+title: "Raccolte"
+lang: it
+ref: albums
+permalink: /raccolte
+description: 'Alcune raccolte selezionate. Tutti gli album sono <a href="https://www.flickr.com/photos/xplosionmind/albums" rel="noopener noreferrer" target="_blank">qui</a>.'
+layout: page
+---
+<style>figure img{border:solid 5px var(--text)}</style>
+{% for album in site.data.albums %}
+<div class="row">
+	<figure>
+		<a href="/{{ album.title | slugify }}"><img src="{{ album.preview }}" title="{{ album.title }}" alt="{{ album.alt-it }}" /></a>
+		<p>{{ album.title }}</p>
+	</figure>
+</div>
+{% endfor %}

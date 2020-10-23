@@ -1,33 +1,25 @@
 ---
+title: "Visioni"
 lang: it
-title: Visioni
+ref: visioni
+permalink: /visioni
+description: 'Come tutti i matti, ho le mie visioni. Quando sono fortunato, riesco a immortalarle. Qui ci sono le visioni più visionarie, tutte le altre stanno <a href="https://www.flickr.com/photos/xplosionmind/albums" rel="noopener noreferrer" target="_blank">altrove</a>.'
+layout: page
 ---
-<div class="page-header">
-	<div class="one column">
-		<h1>Visioni</h1>
-		<p class="page-description">
-			Come tutti i matti, ho le mie visioni. Quando sono fortunato, riesco a immortalarle. Qui ci sono le visioni più visionarie, tutte le altre stanno <a href="https://www.flickr.com/photos/tommiboom/albums" rel="noopener" target="_blank">altrove</a>.
-		</p>
-	</div>
-	<div class="row">
-		<a href="/albums-it" class="gallery button">raccolte</a>
-		<a href="/portfolio-it.html" class="gallery button">portfolio</a>
-	</div>
-<div>
+<div class="row" style="display:flex;flex-flow:wrap;justify-content:center;margin-bottom:var(--height);">
+	<a href="/raccolte" class="button">Raccolte</a>
+	<a href="/portfolio-it.html" class="button">Portfolio</a>
+</div>
 
 {% for vision in site.data.visioni %}
-	<div class="row gallery-image">
-		<div class="one column">
-			<div class="">
-				<img src="{{ vision.src }}" title="{{ vision.titolo }}" alt="{{ vision.alt-it }}" />
-			</div>
-			<div class="">
-				<figcaption>
-					{{ vision.title }}
-					<br />
-					{{ vision.location }} - {{ vision.date }}
-				<figcaption>
-			</div>
-		</div>
-	</div>
+<div class="row">
+	<figure>
+		<a href="{{ vision.src }}"><img src="{{ vision.src }}" title="{{ vision.title }}" alt="{{ vision.alt-it }}" /></a>
+		<figcaption>
+			{{ vision.title }}
+			<br />
+			{{ vision.location }}, {{ vision.date }}
+		</figcaption>
+	</figure>
+</div>
 {% endfor %}
