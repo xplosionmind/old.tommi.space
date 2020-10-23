@@ -1,6 +1,6 @@
 ---
 permalink: /development
-edited: 2020-10-21
+edited: 2020-10-23
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 ---
 ## Not Working
@@ -60,9 +60,8 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 1. Button inner-shadow instead of transform when hovering
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
 1. [**Visioni**](/visioni)
-	- unsorted photos randomly moving
 	- horizontal instead of vertical scrolling of the gallery
-	- downloadable PDF portfolio
+	- PDF portfolio download
 1. **Global search**
     - [Algolia](https://www.algolia.com/)
         - [jekyll-algolia](https://community.algolia.com/jekyll-algolia/) plugin ([source](https://github.com/algolia/jekyll-algolia))
@@ -71,6 +70,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
         - [Lunr setup](https://zoeleblanc.com/blog/adding-search-to-jekyll-sites-with-lunr/) article 1
         - [Lunr setup](https://www.arcath.net/2016/02/setting-up-lunr-js-in-jekyll) article 2
     - [custom](https://nachtimwald.com/2020/06/10/full-text-search-with-jekyll/)
+1. [Convert to **flex**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 1. [Typography](https://xplosionmind.tk/typography)
 	- better reasoned typographic choices
     - [Custom font](https://tommi.space/Typography#Custom-font) implementation
