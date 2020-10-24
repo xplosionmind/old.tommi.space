@@ -9,7 +9,7 @@ Però non so se è perché la mamma ha ragione dicendo che se prendo un caffè a
 <!--more -->
 Sento di dover assolutamente scrivere quanto sia emozionato dopo aver visto questo programma. È epico.
 
-<figure><img src="{{ page.img }}" description='Una foto di Brunori Sas che ho scattato all’Ariston durante il premio Tenco 2017' alt='Una foto di Darione che ho scattato all’Ariston durante il premio Tenco 2017' %} /><figcaption>Darione al premio Tenco 2017</figcaption></figure>
+<figure><img src="{{ page.img }}" description="Una foto di Brunori Sas che ho scattato all’Ariston durante il premio Tenco 2017" alt="Una foto di Darione che ho scattato all’Ariston durante il premio Tenco 2017" /><figcaption>Darione al premio Tenco 2017</figcaption></figure>
 
 C'è da fare una piccola premessa, però, per chi proprio non sa un cavolo di quello di cui sto parlando: Brunori Sas è un cantautore calabrese fortissimo e mi vergogno nel dire che in effetti non saprei aggiungere altro, se non il fatto che la mia canzone preferita scritta da lui è <a href="https://youtu.be/C5Ra3qHSF68" rel="noopener noreferrer" target="_blank">Italian Dandy</a>. Ha fatto un programma su Rai Tre da tre puntate chiamato <a href="https://www.raiplay.it/programmi/brunorisa/" rel="noopener noreferrer" target="_blank">**Brunori Sa**</a>, che ho appena terminato e sono senza parole, è da guardare.
 
