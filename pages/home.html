@@ -31,7 +31,7 @@ ref: home
 			<ul>
 				<li>my <a class="u-url" href="https://www.linkedin.com/in/tommasomarmo/" rel="noopener" target="_blank">Linkedin profile</a> and my <a class="u-url" href="https://europa.eu/!xG43Xd" rel="noopener noreferrer" target="_blank">Curriculum Vitae</a></li>
 				<li>my email address is <a class="u-email" href="mailto:lost.in@tommi.space" rel="me">lost.in@tommi.space</a>. If possible, please use my <a class="u-key" href="https://api.protonmail.ch/pks/lookup?op=get&search=lost.in@tommi.space" target="_blank" rel="pgpkey authn">PGP key</a> (it’s not necessary if you use a <a href="https://protonmail.com" rel="noopener" target="_blank">ProtonMail</a> address)</li>
-				<li>my username is <span class="p-nickname">xplosionmind</span> everywhere. If you can’t find it, I’m not there. Links to my social media profiles are at the end of this page.</li>
+				<li>my username is <code class="p-nickname">xplosionmind</code> everywhere. If you can’t find it, I’m not there.</li>
 			</ul></p>
 			<p>I tweet a lot. <a rel="me" class="u-url" href="https://twitter.com/xplosionmind" rel="noopener" target="_blank">Too much</a>.</p>
 	</div>
@@ -54,13 +54,15 @@ ref: home
 {% assign stuff = site.data.stuff %}
 {% for thing in stuff %}{% if thing.featured == "1" %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-	<div class="half column">
-		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
+	<div class="half column vertical flex">
+		<img src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
 	</div>
-	<div class="half column">
+	<div class="half column vertical flex">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<div class="caption"><p>{{ thing.description }}</p></div>
-		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
+		<div><p>{{ thing.description }}</p></div>
+		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
 	</div>
-</div>{%endif %}{% endfor %}
-<a class="center written button" href="/stuff">More</a>
+</div>{% endif %}{% endfor %}
+<div class="flex">
+	<a class="written button" href="/stuff">More</a>
+</div>

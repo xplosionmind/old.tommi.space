@@ -1,10 +1,11 @@
 <div class="box">
-	<a href="/tags"><h2 class="title">Tags</h2></a>
-	<a href="/poetry" style="color: #301A4B; background: #FDDDE6;" class="tag smaller written button">Pasticci</a>
-	<a href="/filosofia" style="color: black; background: var(--green);" class="tag smaller written button">Filosofia</a>
-	{% assign tags = site.data.tags %}
-	{% for tag in tags %}
-	<a href="/tags#{{ tag.title | slugify }}" style="color: {{ tag.color }}; background: {{ tag.background }};" class="tag smaller written button">{{ tag.title }}</a>
-	{% endfor %}
+	<a href="/tags"><h2>Tags</h2></a>
+	<div class="flex">
+		<a href="/poetry" style="color: #301A4B; background: #FDDDE6;" class="smaller written button">Pasticci</a>
+		<a href="/filosofia" style="color: black; background: var(--green);" class="smaller written button">Filosofia</a>
+		{% assign tags = site.data.tags %}
+		{% for tag in tags %}
+			<a href="/tags#{{ tag.title | slugify }}" style="color: {{ tag.color }}; background: {{ tag.background }};" class="smaller written button">{{ tag.title }}</a>
+		{% endfor %}
 	</div>
 </div>

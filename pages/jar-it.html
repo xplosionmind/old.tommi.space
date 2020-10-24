@@ -4,29 +4,28 @@ permalink: /marmellata
 lang: it
 ref: jar
 ---
-<div class="page-header row">
-	<div class="one column">
+<div class="one column">
+	<div class="page-header row">
 		<h1>La Marmellata</h1>
 		<p>Ci sono cose che scopro e porca puzzola avrei voluto sapere prima, o cose che semplicemente non riesco a non condividere ma non sono abbastanza per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
 		<p>Prendo tutte queste cose e, non avendo sufficiente tempo per elaborarle, le metto ne <em>La Marmellata</em>.
 		<p>Qui si trovano tutti gli ingredienti de <em>La Marmellata</em>, fatene buon uso, senza esagerare. (non mi assumo responsabilità sulla potenza dei contenuti)</p>
-{% include tags.html %}
-	</div>
-</div>
 
-{% assign jar = site.jar | sort: 'edited' | reverse %}
-<div class="row">
-	<div class="one column">
-		{% for note in jar %}{% unless note.hide == '1' %}
-		<a href="{{ note.url }}">
-			<div class="preview box">
-				<h2 class="title">{{ note.title }}</h2>
-				<div class="caption">
-					<p class="right">{{ note.edited }}</p>
-				{{ note.description }}
-				</div>
-			</div>
-		</a>
-		{% endunless %}{% endfor %}
+	{% include tags.html %}
+
 	</div>
+
+	{% assign jar = site.jar | sort: 'edited' | reverse %}
+	{% for note in jar %}{% unless note.hide == '1' %}
+		<div class="row">
+			<a href="{{ note.url }}">
+				<div class="preview flex box">
+					<h2>{{ note.title }}</h2>
+					<p class="right">{{ note.edited }}</p>
+					<p>{{ note.description }}</p>
+				</div>
+			</a>
+		</div>
+	{% endunless %}{% endfor %}
+
 </div>

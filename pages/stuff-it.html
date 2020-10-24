@@ -14,7 +14,7 @@ ref: stuff
 </div>
 	
 <div class="row">
-	<div class="stuff-toc one-third column">
+	<div class="one column flex">
 		<h3>In sintesi</h3>
 		<ul>
 			{% assign stuff=site.data.stuff %}
@@ -42,13 +42,13 @@ ref: stuff
 {% assign stuff=site.data.stuff %}
 {% for thing in stuff %}{% if thing.current == '1' %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-	<div class="half column">
-		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
+	<div class="half column vertical flex">
+		<img src="{{ thing.img }}" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
 	</div>
-	<div class="half column">
+	<div class="half column vertical flex">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="Logo {{ thing.title }}" title="{{ thing.title }}" />
-		<div class="caption"><p>{{ thing.description-it }}<p></div>
-		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
+		<p>{{ thing.description-it }}<p>
+		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
 	</div>
 </div>{% endif %}{% endfor %}
 
@@ -57,13 +57,15 @@ ref: stuff
 {% assign stuff=site.data.stuff %}
 {% for thing in stuff %}{% unless thing.current == '1' %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-	<div class="half column">
-		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
+	<div class="half column vertical flex">
+		<img src="{{ thing.img }}" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
 	</div>
-	<div class="half column">
+	<div class="half column vertical flex">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<div class="caption"><p>{{ thing.description-it }}</p></div>
-		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
+		<p>{{ thing.description-it }}</p>
+		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
 	</div>
 </div>{% endunless %}{% endfor %}
-<a class="center written button" href="/tutto">di tutto e di più</a>
+<div class="flex row">
+	<a class="written button" href="/tutto">di tutto e di più</a>
+</div>

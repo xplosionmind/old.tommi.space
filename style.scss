@@ -4,7 +4,7 @@
 	--black-ish: #222;
 	--white-ish: #E0E0E0;
 	--dark-grey: #333;
-	--light-grey: #BBB;
+	--light-grey: #CCC;
 	--yellow: #FCC920;
 	--blue: #3185FC;
 	--red: #D00;
@@ -41,6 +41,7 @@
 html {
 	box-sizing: border-box;
 	cursor: url(/logos/cursor.svg) 16 16, crosshair;
+	height: 100%; /* to make the page tall at least as the viewport */
 }
 
 /* DARK THEME */
@@ -70,7 +71,7 @@ body {
 	--secondary: var(--razzmatazz);
 	--grey: var(--light-grey);
 	--other-grey: var(--dark-grey);
-	--shadow: 10px 10px 20px #00000022, -10px -10px 20px #FFFFFF44;
+	--shadow: 10px 10px 20px #00000022, -10px -10px 20px #FFFFFF33;
 	--little-shadow: 2px 2px 5px #00000055, -2px -2px 5px #FFFFFF66;
 	--inner-shadow: inset 2px 2px 10px #00000088, inset -2px -2px 10px #FFFFFF33;
 
@@ -78,10 +79,13 @@ body {
 }
 
 body {
+	height: 100%;
 	background: var(--background);
-	font: var(--regular) Inter, Helvetica, "Helvetica Neue", sans-serif;
 	color: var(--text);
+	font: var(--regular) Inter, Helvetica, "Helvetica Neue", sans-serif;
 	margin: 0;
+	overflow-wrap: break-word;
+	hyphens: auto;
 }
 
 *,
@@ -112,12 +116,6 @@ body {
 	width: 100%;
 }
 
-.center {
-	display: block !important;
-	width: 15rem !important;
-	margin: var(--regular) auto !important;
-}
-
 mark {
 	background: var(--primary);
 	color: var(--background);
@@ -143,19 +141,32 @@ mark {
 	z-index: 3;
 }
 
-a,
-a:visited {
+a {
 	text-decoration: none;
 	color: var(--link);
-	&:hover .title {
-		transform: scale(1.1);
+	h2 {
+		color: var(--text);
 	}
-	&:focus .title {
-		transform: scale(1.1);
+	&:hover,
+	&:focus,
+	&:active {
+		.title {
+			transform: scale(1.1);
+		}
 	}
-	&:active .title {
-		transform: scale(1.1);
-	}
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.vertical {
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-evenly;
 }
 
 a,
@@ -206,11 +217,7 @@ ul li li {
 
 .poetry,
 .post {
-	font: 400 var(--regular-more) "Merriweather", "Latin Modern Roman", Georgia, serif;
-}
-
-.poetry p {
-	margin: unset;
+	font: 400 var(--regular-more) Georgia, serif;
 }
 
 .post p:first-of-type::first-letter {
@@ -260,16 +267,14 @@ ul li li {
 }
 
 .page-header {
-	margin: 6rem auto var(--height);
-	* {
-		text-align: center;
-	}
+	margin: 8rem auto var(--height);
 	h1 {
 		font-size: var(--mastodon);
+		margin: var(--regular-less);
 	}
 	p {
-		margin: 0 auto;
-		width: 80%;
+		text-align: center;
+		padding: 0 10%;
 	}
 }
 
@@ -280,8 +285,7 @@ ul li li {
 	}
 }
 
-.anchor,
-.anchor:visited {
+.anchor {
 	height: var(--big);
 	position: absolute;
 	right: 101%; /* big + tiny*/
@@ -341,20 +345,7 @@ table {
 	border-collapse: collapse;
 }
 
-/* WHEN ELEMENT CENTERING IS NEEDED */
-.container {
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-    position: absolute;
-	display: table;
-}
-
-#landing {
-	text-align: center;
-	display: table-cell; /* THE KEY TO VERTICAL ALIGNMENT */
-	vertical-align: middle;
+.landing {
 	background: var(--primary);
 	h1 {
 		color: var(--background);
@@ -416,12 +407,8 @@ table {
 		box-shadow: var(--shadow);
 
 	}
-	.stuff-toc {
-		margin: var(--height) calc(100% / 3);
-	}
 	.title {
 		width: 60%;
-		left: 15%;
 	}
 	nav svg {
 		margin-top: 0.6rem !important;
@@ -436,8 +423,7 @@ img {
 }
 
 figure {
-	margin: 0;
-	margin-bottom: var(--mastodon);
+	margin: var(--height) 0;
 	img {
 		border: solid 1px black;
 		box-shadow: var(--shadow);
@@ -458,13 +444,11 @@ figcaption {
 
 .right {
 	text-align: right;
+	align-self: flex-end;
 }
 
 p {
 	line-height: var(--big-em);
-	margin: var(--bigger-em) 0;
-	overflow-wrap: break-word;
-	hyphens: auto;
 }
 
 strong,
@@ -496,8 +480,8 @@ h1, h2, h3, h4, h5, h6 {
 .title {
 	height: var(--height);
 	line-height: var(--height);
-	color: var(--background);
-	background: var(--primary);
+	color: var(--text);
+	background: var(--background);
 	margin: var(--mastodon) auto var(--bigger);
 	border-radius: var(--radius-m);
 	box-shadow: var(--shadow);
@@ -527,37 +511,32 @@ h2 {
 	margin: 0;
 }
 
-.box, footer {
+.box,
+footer {
 	max-height: 40rem;
 	max-width: 100%;
-	overflow: scroll;
-	margin: var(--bigger) 0;
+	color: var(--text);
 	padding: var(--big);
+	margin: var(--bigger) 0;
+	overflow: scroll;
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
-	.title {
-		background: var(--background);
-		color: var(--text);
+}
+.box h2 {
+		text-align: center;
+}
+
+.box,
+.stuff {
+	p {
+		margin: var(--regular) 10%;
 	}
 }
 
 .preview {
-	color: var(--text);
-	background: var(--background);
 	&:hover {
 		border: solid 3px var(--grey);
 	}
-	.title {
-		transform: none !important;
-	}
-}
-
-.box .title,
-.stuff .title {
-	width: unset;
-	top: 0;
-	left: 0;
-	margin: 0 0 var(--big) 0;
 }
 
 .stuff {
@@ -565,10 +544,6 @@ h2 {
 	margin: var(--height) 2%;
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
-	.title {
-		background: var(--background);
-		color: var(--text);
-	}
 	.column {
 		padding: 0 2%
 	}
@@ -579,17 +554,7 @@ h2 {
 	min-width: 50%;
 	max-width: 100%;
 	max-height: 10rem;
-	margin: var(--height) auto var(--bigger);
-	display: inherit;
-	border-radius: unset;
-}
-
-.post-tags {
-	margin: 0 10%;
-}
-
-.caption {
-	margin: var(--regular) 10%;
+	border-radius: 0;
 }
 
 .last-modified {
@@ -600,7 +565,7 @@ h2 {
 }
 
 footer {
-	margin: var(--margin) 3% var(--bigger);
+	margin: var(--bigger) 3%;
 	width: 94%;
 	* {
 		text-align: center;
@@ -644,8 +609,7 @@ footer {
 	font-size: var(--bigger);
 	background: var(--primary);
 	box-shadow: var(--shadow);
-	a,
-	a:visited {
+	a {
 		color: var(--background);
 		&:hover,
 		&:focus {
@@ -680,8 +644,7 @@ nav {
 			position: relative;
 			list-style: none !important;
 			margin: 0;
-			a,
-			a:visited {
+			a {
 				display: block;
 				color: var(--text);
 				line-height: var(--height);
@@ -728,10 +691,11 @@ nav {
 		display: block;
 	}
 	nav {
-		margin-right: 0;
+		margin: var(--small) 0;
 		text-align: right;
 		ul {
 			display: none;
+			padding: var(--small) 0;
 			li {
 				float: none;
 				ul li a {
@@ -749,24 +713,20 @@ nav {
 		margin-top: var(--small);
 		overflow: scroll;
 	}
-	h2 {
-		text-align: center;
-	}
-	#landing h1 {
-		font-size: var(--twice);
-	}
 	.page-header h1 {
-		font-size: var(--big);
+		font-size: var(--height);
 	}
 	.navigation,
 	footer,
 	.title {
-		left: 3%;
 		width: 94%;
 	}
 	.box {
 		max-height: 20rem;
 		margin: var(--bigger) 3%;
+	}
+	.stuff-logo {
+		margin-top: var(--bigger)
 	}
 }
 
@@ -827,6 +787,7 @@ svg.button {
 	border-radius: var(--radius-m);
 	box-shadow: var(--shadow);
 	text-align: center;
+	hyphens: none;
 	&:hover {
 		transform: scale(1.1);
 	}
@@ -855,17 +816,14 @@ svg.button {
 }
 
 .sharing {
-	margin: var(--bigger) 10%;
-	svg.button {
+	.button {
+		margin-right: var(--small);
 		padding: 0.4rem;
+		box-shadow: var(--little-shadow);
 	}
 }
 
 /* FOOTER */
-#social-box {
-	margin-top: var(--bigger);
-}
-
 #license {
 	font-size: 0.8em;
 	font-weight: 200;

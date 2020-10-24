@@ -1,12 +1,10 @@
-<div class="post-tags row">
-	<div class="one column">
-{% for category in page.categories %}
-{% for current in site.data.tags %}{% if current.title == category %}
-{% capture title %}{{ current.title }}{% endcapture %}
-{% capture color %}{{ current.color }}{% endcapture %}
-{% capture background %}{{ current.background }}{% endcapture %}
-{% endif %}{% endfor %}
-<a href="/tags#{{ title | slugify }}" style="color: {{ color }}; background: {{ background }};" class="category smaller written button">{{ title }}</a>
-{% endfor %}
-	</div>
+<div class="flex row">
+	{% for category in page.categories %}
+		{% for current in site.data.tags %}{% if current.title == category %}
+			{% capture title %}{{ current.title }}{% endcapture %}
+			{% capture color %}{{ current.color }}{% endcapture %}
+			{% capture background %}{{ current.background }}{% endcapture %}
+		{% endif %}{% endfor %}
+		<a href="/tags#{{ title | slugify }}" style="color: {{ color }}; background: {{ background }};" class="category smaller written button">{{ title }}</a>
+	{% endfor %}
 </div>

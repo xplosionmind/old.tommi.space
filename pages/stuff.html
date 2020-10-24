@@ -4,24 +4,19 @@ lang: en
 permalink: /stuff
 ref: stuff
 ---
-<div class="page-header">
+<div class="page-header one column">
 	<div class"row">
-		<div class="one column">
-			<h1>Stuff I do</h1>
-		</div>
+		<h1>Stuff I do</h1>
 	</div>
-	<div class="row">
-		<div class="one column">
-			<div class="page-description">
-				<p>This is all the stuff I do. Projects I was and I am involved in, ideas, associations and challenges.<br />
-					For a comprehensive list check <a href="/stuff-extended">stuff extended</a>.</p>
-			</div>
+		<div class="page-description row">
+			<p>This is all the stuff I do. Projects I was and I am involved in, ideas, associations and challenges.<br />
+				For a comprehensive list check <a href="/stuff-extended">stuff extended</a>.</p>
 		</div>
 	</div>
 </div>
 
 <div class="row">
-	<div class="stuff-toc one-third column">
+	<div class="one column flex">
 		<h3>Table of contents</h3>
 		<ul>
 			{% assign stuff=site.data.stuff %}
@@ -48,14 +43,14 @@ ref: stuff
 
 {% assign stuff=site.data.stuff %}
 {% for thing in stuff %}{% if thing.current == '1' %}
-<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}; overflow: hidden;" id="{{ thing.title | slugify }}">
-	<div class="half column">
-		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
+<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
+	<div class="half column vertical flex">
+		<img src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
 	</div>
-	<div class="half column">
+	<div class="half column vertical flex">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<div class="caption"><p>{{ thing.description }}</p></div>
-		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
+		<p>{{ thing.description }}</p>
+		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
 	</div>
 </div>{% endif %}{% endfor %}
 
@@ -64,13 +59,15 @@ ref: stuff
 {% assign stuff=site.data.stuff %}
 {% for thing in stuff %}{% unless thing.current == '1' %}
 <div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-	<div class="half column">
-		<img class="stuff-image" src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt-it }}" />
+	<div class="half column vertical flex">
+		<img src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt-it }}" />
 	</div>
-	<div class="half column">
+	<div class="half column vertical flex">
 		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<div class="caption"><p>{{ thing.description }}</p></div>
-		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button center" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
+		<p>{{ thing.description }}</p>
+		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
 	</div>
 </div>{% endunless %}{% endfor %}
-<a class="center written button" href="/tutto">Stuff extended</a>
+<div class="flex row">
+	<a class="written button" href="/tutto">Stuff extended</a>
+</div>

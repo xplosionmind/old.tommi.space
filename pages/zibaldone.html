@@ -4,26 +4,26 @@ permalink: /zibaldone
 lang: it
 ref: blog
 ---
-<div class="page-header row">
-	<div class="one column">
+<div class="one column">
+	<div class="page-header row">
 		<h1>Zibaldone</h1>
-		<p class="page-description">Poco a che vedere con la profondità, la potenza e la saggezza dell’omonimo leopardiano, qui un po’ più di allegria e stupidaggini.</p>
+		<p>Poco a che vedere con la saggezza e la serietà dell’omonimo leopardiano, qui un po’ più di allegria e stupidaggini.</p>
 		<p>Dall’enciclopedia Treccani, <a href="http://treccani.it/vocabolario/zibaldone/" rel="noopener noreferrer" target="_blank">żibaldóne</a>: […] <cite>Scartafaccio in cui si annotano, senza ordine e man mano che capitano, notizie, appunti, riflessioni, estratti di letture, schemi, abbozzi, ecc.</cite></p>
 		<p>Esattamente quello.</p>
-{% include tags.html %}
-</div>
-<div class="row">
-	<div class="one column">
-		{% for post in site.posts %}
-		<a href="{{ post.url }}">
-			<div class="preview box">
-				<h2 class="title">{{ post.title }}</h2>
-				<div class="caption">
+	</div>
+
+	{% include tags.html %}
+
+	{% for post in site.posts %}
+		<div class="row">
+			<a href="{{ post.url }}">
+				<div class="preview flex box">
+					<h2>{{ post.title }}</h2>
 					<p class="right">{{ post.date | date_to_long_string }}</p>
 					{{ post.excerpt }}
 				</div>
-			</div>
-		</a>
-		{% endfor %}
-	</div>
+			</a>
+		</div>
+	{% endfor %}
+
 </div>
