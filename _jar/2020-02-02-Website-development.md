@@ -5,6 +5,7 @@ description: "Creative and technical work to be done, ideas and drafts progress 
 ---
 ## Not Working
 
+- Algolia search
 - global `permalink` configuration in `_config.yml`
 - Subheadings display issue on mobile. [Example page](https://tommi.space/server-setup#nextcloud-configuration)
 - language loop in language selection
@@ -41,7 +42,6 @@ Work in progress contents:
 
 This is a list. It's sorted by **priority**, not amount of work). Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
-1. Image vertical alignment in Stuff
 1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for ([dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp))
 1. **Categories**
 	- ~~move categories specifications to `_data`~~
@@ -57,23 +57,16 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 		1. [article 2](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins)
 		1. Configure [jTag](https://github.com/ttscoff/jtag)
 1. Thumbnails in Zibaldone’s feed
-1. Button inner-shadow instead of transform when hovering
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
 1. [**Visioni**](/visioni)
+	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/)
+	- Photo selection
 	- horizontal instead of vertical scrolling of the gallery
 	- PDF portfolio download
-1. **Global search**
-    - [Algolia](https://www.algolia.com/)
-        - [jekyll-algolia](https://community.algolia.com/jekyll-algolia/) plugin ([source](https://github.com/algolia/jekyll-algolia))
-        - [Algolia for Open Source](https://www.algolia.com/for-open-source/)
-    - [Lunr](https://lunrjs.com/)
-        - [Lunr setup](https://zoeleblanc.com/blog/adding-search-to-jekyll-sites-with-lunr/) article 1
-        - [Lunr setup](https://www.arcath.net/2016/02/setting-up-lunr-js-in-jekyll) article 2
-    - [custom](https://nachtimwald.com/2020/06/10/full-text-search-with-jekyll/)
 1. [Convert to **flex**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 1. [Typography](https://xplosionmind.tk/typography)
 	- better reasoned typographic choices
-    - [Custom font](https://tommi.space/Typography#Custom-font) implementation
+    - [Custom font](https://tommi.space/Typography#Custom-font)
 1. [Mailtrain](https://mailtrain.org/) setup
 1. RSS Feeds management
     - [customize `feed.xml`](https://stackoverflow.com/questions/12902840/how-to-add-a-permalink-to-a-jekyll-rss-feed)
@@ -120,6 +113,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 - back-to-top button
 - basic coloured biiig shapes
 - Better [Open Graph Protocol](https://ogp.me/) integration
+- Button inner-shadow instead of transform when hovering
 - “blogroll”: a list of blogs which inspire me, see [Pawlean](https://pawlean.com/blogroll)
 - change mobile browser bar colour
 - custom selection colour for text
@@ -133,6 +127,14 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 - final header configuration
 - Fix [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51).
 - gif instead of images 
+- **Global search**
+    - [Algolia](https://www.algolia.com/)
+        - [jekyll-algolia](https://community.algolia.com/jekyll-algolia/) plugin ([source](https://github.com/algolia/jekyll-algolia))
+        - [Algolia for Open Source](https://www.algolia.com/for-open-source/)
+    - [Lunr](https://lunrjs.com/)
+        - [Lunr setup](https://zoeleblanc.com/blog/adding-search-to-jekyll-sites-with-lunr/) article 1
+        - [Lunr setup](https://www.arcath.net/2016/02/setting-up-lunr-js-in-jekyll) article 2
+    - [custom](https://nachtimwald.com/2020/06/10/full-text-search-with-jekyll/)
 - Hover effects
 - `id` anchor links
 - inline code styling

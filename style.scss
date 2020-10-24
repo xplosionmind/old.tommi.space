@@ -2,9 +2,9 @@
 ---
 :root {
 	--black-ish: #222;
-	--white-ish: #E0E0E0;
+	--white-ish: #EEE;
 	--dark-grey: #333;
-	--light-grey: #CCC;
+	--light-grey: #CECECE;
 	--yellow: #FCC920;
 	--blue: #3185FC;
 	--red: #D00;
@@ -54,9 +54,10 @@ body {
 	--secondary: var(--blue);
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
-	--shadow: 5px 5px 20px #000000CC, -5px -5px 20px #FFFFFF22;
-	--little-shadow: 2px 2px 5px #000000FF, -2px -2px 5px #FFFFFF22;
-	--inner-shadow: inset 2px 2px 10px #000000AA, inset -2px -2px 10px #FFFFFF33;
+	--shadow: 5px 5px 20px #000000FF, -5px -5px 20px #FFFFFF22;
+	--little-shadow: 2px 2px 3px #000000FF, -2px -2px 3px #FFFFFF22;
+	--button-shadow: 3px 3px 8px #000000BB, -3px -3px 8px #FFFFFF22;
+	--inner-shadow: inset 3px 3px 5px #00000088, inset -3px -3px 5px #FFFFFF22;
 
 	transition: var(--trans);
 }
@@ -71,9 +72,10 @@ body {
 	--secondary: var(--razzmatazz);
 	--grey: var(--light-grey);
 	--other-grey: var(--dark-grey);
-	--shadow: 10px 10px 20px #00000022, -10px -10px 20px #FFFFFF33;
-	--little-shadow: 2px 2px 5px #00000055, -2px -2px 5px #FFFFFF66;
-	--inner-shadow: inset 2px 2px 10px #00000088, inset -2px -2px 10px #FFFFFF33;
+	--shadow: 5px 5px 20px #00000022, -5px -5px 20px #FFFFFFFF;
+	--little-shadow: 2px 2px 3px #00000055, -2px -2px 3px #FFFFFF66;
+	--button-shadow: 3px 3px 8px #00000055, -3px -3px 8px #FFFFFF66;
+	--inner-shadow: inset 3px 3px 5px #00000055, inset -3px -3px 5px #FFFFFF33;
 
 	transition: var(--trans);
 }
@@ -151,7 +153,7 @@ a {
 	&:focus,
 	&:active {
 		.title {
-			transform: scale(1.1);
+			box-shadow: var(--inner-shadow);
 		}
 	}
 }
@@ -166,7 +168,6 @@ a {
 .vertical {
 	flex-direction: column;
 	height: 100%;
-	justify-content: space-evenly;
 }
 
 a,
@@ -240,22 +241,22 @@ ul li li {
 
 .green {
 	background: var(--green);
-	color: black;
+	color: black !important;
 }
 
 .red {
 	background: var(--red);
-	color: white;
+	color: white !important;
 }
 
 .blue {
 	background: var(--blue);
-	color: white;
+	color: white !important;
 }
 
 .yellow {
 	background: var(--yellow);
-	color: black;
+	color: var(--black-ish) !important;
 	a {
 		color: var(--red);
 	}
@@ -484,7 +485,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: var(--background);
 	margin: var(--mastodon) auto var(--bigger);
 	border-radius: var(--radius-m);
-	box-shadow: var(--shadow);
+	box-shadow: var(--button-shadow);
 	text-align: center;
 }
 
@@ -513,17 +514,17 @@ h2 {
 
 .box,
 footer {
-	max-height: 40rem;
+	max-height: 50rem;
 	max-width: 100%;
 	color: var(--text);
 	padding: var(--big);
 	margin: var(--bigger) 0;
-	overflow: scroll;
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
+	overflow: scroll;
 }
 .box h2 {
-		text-align: center;
+	text-align: center;
 }
 
 .box,
@@ -722,7 +723,7 @@ nav {
 		width: 94%;
 	}
 	.box {
-		max-height: 20rem;
+		max-height: 30rem;
 		margin: var(--bigger) 3%;
 	}
 	.stuff-logo {
@@ -774,25 +775,23 @@ svg.button {
 	height: var(--height);
 	width: auto;
 	padding: 0;
+	margin: var(--tiny)
 	background: var(--primary);
 }
 
 .button, button {
 	display: inline-block;
 	padding: var(--small) var(--regular);
-	margin: var(--lessthan-regular);
 	font-size: var(--bigger);
 	font-weight: 700;
 	text-transform: uppercase;
 	border-radius: var(--radius-m);
-	box-shadow: var(--shadow);
+	box-shadow: var(--button-shadow);
 	text-align: center;
 	hyphens: none;
-	&:hover {
-		transform: scale(1.1);
-	}
+	&:hover,
 	&:focus {
-		transform: scale(1.1);
+		box-shadow: var(--inner-shadow);
 	}
 }
 
