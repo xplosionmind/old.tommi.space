@@ -17,3 +17,9 @@ Due anni dopo, piomba nelle tue mani questa cosa dagli attributi poco chiari, co
 Quindi allora dunque perciò si tratta di schivare con coraggio quelle due tre ore di studio che proprio assolutamente sarebbe il caso di non perdere e sedersi su una sedia davanti un foglio o un computer o quelle assurde vie di mezzo che esistono adesso e fare valutare le **alternative**.
 
 Edoardo Chiesa è uno di quelli che sono dei gran musicisti e ad un certo punto si rendono conto che vorrebbero raccontare qualcosa, scrivono, compondono mette su un album e fanno un gran bel lavoro. Le sue prime, sono state [Canzoni sull'alternativa](https://www.rockit.it/edoardochiesa/album/canzoni-sullalternativa/28136), che io ho scoperto e immediatamente amato quando è venuto a cantarle all'Imperia Unplugged Festival (ho fatto queste foto)
+
+- quit social media
+- modular day
+- solo vestiti usati
+- pagamenti once and for good > pagamenti periodici
+- quantified self
