@@ -241,7 +241,7 @@ ul li li {
 
 .green {
 	background: var(--green);
-	color: black !important;
+	color: var(--black-ish) !important;
 }
 
 .red {
@@ -293,21 +293,18 @@ ul li li {
 	top: .75rem;
 }
 
-.highlight {
-	margin: 0 0 3.6rem;
-}
-
-pre, code {
+pre,
+code {
 	font: 400 1.1em 'Ubuntu Mono', 'Roboto Mono', 'Fira Code', mono;
 	line-height: 1.2em;
 }
 
 pre {
 	overflow-x: scroll;
-	border: solid 3px var(--grey);
 	margin: var(--bigger) 0;
 	padding: var(--regular-more);
 	border-radius: var(--radius-m);
+	box-shadow: var(--inner-shadow);
 	code {
 		background: transparent;
 	}

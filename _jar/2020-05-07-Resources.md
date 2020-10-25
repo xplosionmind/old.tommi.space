@@ -1,6 +1,6 @@
 ---
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
-edited: 2020-10-15
+edited: 2020-10-24
 ---
 Anything anyone will ever be looking for can be found in the **AWESOME** [Awesome Project](https://project-awesome.org). I'm writing nothing about it, just go on the page and dive in the power of the internet.
 {:.red .box}
@@ -39,6 +39,15 @@ Anything anyone will ever be looking for can be found in the **AWESOME** [Awesom
 
 - [Derek Sivers’s guide](https://sivers.org/learn-js)
 - [JavaScript and JQuery](http://www.javascriptbook.com/) a book by Jon Duckett
+
+<br>
+
+### C
+
+- [Excercises in C](https://www.w3resource.com/c-programming-exercises/)
+- [GCC Compiler options](https://www.thegeekstuff.com/2012/10/gcc-compiler-options/)
+- [Invoking GCC](https://gcc.gnu.org/onlinedocs/gcc/Invoking-GCC.html)
+
 
 <br>
 

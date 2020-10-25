@@ -1,6 +1,7 @@
 ---
 categories: Geek
-edited: 2020-09-16
+edited: 2020-10-24
+code: "1"
 description: "I use tech devices a lot, maybe too much, but I don’t dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
 ---
 ## CLI
@@ -14,12 +15,13 @@ defaults write com.apple.screencapture type jpg
 killall SystemUIServer
 ```
 
-### External links
+
+### Resources
 
 - [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line), a GitHub repo by [Marcel Bischoff](https://herrbischoff.com/)
 
-<br />
-<br />
+<br>
+<br>
 
 ## ExifTool
 
@@ -117,10 +119,10 @@ add **`-o`** after `exiftool` to copy each image instead of moving it.
 
 <br />
 
-### Sources
+### Resources
 
 Commands above are a personal adaptation of the ones I found from the following sources:
-- [9° Below - ExifTool Commands for Image Organization](https://ninedegreesbelow.com/photography/exiftool-commands.html)
+- [ExifTool Commands for Image Organization](https://ninedegreesbelow.com/photography/exiftool-commands.html), by [9° Below](https://ninedegreesbelow.com)
 - [exiftool Application Documentation](https://exiftool.org/exiftool_pod.html)
 
 <br />
