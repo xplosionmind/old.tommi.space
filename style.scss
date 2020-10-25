@@ -599,6 +599,7 @@ footer {
 		text-decoration: none;
 	}
 }
+
 .xplosionmind {
 	padding: 0 var(--regular);
 	float: left;
@@ -620,6 +621,7 @@ footer {
 		border-bottom: none;
 	}
 }
+
 .nav-container {
 	max-width: 100%;
 	height: var(--height);
@@ -772,7 +774,7 @@ svg.button {
 	height: var(--height);
 	width: auto;
 	padding: 0;
-	margin: var(--tiny)
+	margin: var(--tiny);
 	background: var(--primary);
 }
 
