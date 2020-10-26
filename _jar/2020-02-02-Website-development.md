@@ -71,7 +71,6 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 	- PDF portfolio download
 1. a timeline like [Jeremy gordon's](https://jgordon.io) or [jack.works](https://web.archive.org/web/20200513054829/http://jack.works/)
 1. Convert some Jar elements to `_data` files
-	- People
 	- Quotes
 	- Parole
 	- Cinema
