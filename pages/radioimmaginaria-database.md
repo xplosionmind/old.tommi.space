@@ -3,6 +3,17 @@ ref: rimm-db
 lang: it
 title: "Tutte le mie puntate su Radioimmaginaria"
 permalink: /rimm-db
+redirect_from:
+  - /radioimmaginaria-db
+  - /rimm-database
+  - /rimm-episodes
+  - /radioimmaginaria-episodes
+  - /puntate-rimm
+  - /puntate-radioimmaginaria
+  - /tutto-radioimmaginaria
+  - /rimm-tutto
+  - /radioimmaginaria-tutto
+  - /tutto-rimm
 description: "Un database incompleto (mancano gli ultimi anni, alcuni eventi alcune puntate in mezzo) di tutte le puntate di Radioimmaginaria a cui ho partecipato.<br />I post di Facebook nei link non sono pubblici: Radioimmaginaria non usa più i social.<br />Gli hashtag nei titoli delle puntate indicano la redazione o, in caso di eventi, il nome del programma.<br /><mark>#you2</mark> sono le puntate in inglese, <mark>#toiaussi</mark> quelle in francese, <mark>#tete</mark> quelle in spagnolo."
 layout: page
 ---

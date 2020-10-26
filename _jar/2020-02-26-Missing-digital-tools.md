@@ -1,9 +1,19 @@
 ---
 categories: geek
-toc: 0
 edited: 2020-09-30
 description: "Ideas for programs which would be very useful, but I didn't find yet"
-permalink: /tools-ideas
+permalink: /missing-tools
+redirect_from:
+  - /tools-ideas
+  - /programming-ideas
+  - /programming
+  - /development-ideas
+  - /developing
+  - /developing-ideas
+  - /apps-ideas
+  - /programs-/ideas
+  - /missing-apps
+  - /missing-programs
 ---
 ## ~~Batch reopen~~
 

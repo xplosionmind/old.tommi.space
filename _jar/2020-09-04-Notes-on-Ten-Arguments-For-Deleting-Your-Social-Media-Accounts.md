@@ -1,6 +1,14 @@
 ---
 permalink: /lanier-social-media-notes
 edited: 2020-09-05
+redirect_from:
+  - /quit-social-media-notes
+  - /lanier-quit-social-media
+  - /quit-social-media-lanier
+  - /lanier-notes
+  - /notes-lanier
+  - /ten-arguments-notes
+  - /notes-ten-arguments
 description: 'Notes from the great book by <a href="http://www.jaronlanier.com/" rel="noopener noreferrer" target="_blank">Jaron Lanier</a>, <a href="http://www.jaronlanier.com/tenarguments.html" rel="noopener noreferrer" target="_blank"><em>Ten Arguments for Deleting Your Social Media Accounts</em></a>, which I discovered almost at the end of my journey in writing <em>The Digital Freedom Manifesto</em>. It explains in a better and more detailed way what I’ve been thinking about for months now.'
 toc: 0
 ---

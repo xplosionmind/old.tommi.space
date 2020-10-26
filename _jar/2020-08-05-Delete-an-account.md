@@ -1,5 +1,10 @@
 ---
 permalink: /GDPR-delete
+redirect_from:
+  - /delete-account
+  - /delete
+  - /GDPR-claim
+  - /claim-GDPR
 edited: 2020-08-05
 description: 'The quickest way to delete an account is to just click on the “delete account” button. There are two problems, though. ONE: often, <strong>there’s no button</strong>, TWO: if there is, it’s hidden somewhere in the most remote corners of the settings. This is how I attempt to solve both of them. There is a procedure to also request a copy of all the account data.'
 ---

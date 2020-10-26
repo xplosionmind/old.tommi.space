@@ -1,6 +1,8 @@
 ---
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
 edited: 2020-10-24
+redirect_from:
+  - /risorse
 ---
 Anything anyone will ever be looking for can be found in the **AWESOME** [Awesome Project](https://project-awesome.org). I'm writing nothing about it, just go on the page and dive in the power of the internet.
 {:.red .box}

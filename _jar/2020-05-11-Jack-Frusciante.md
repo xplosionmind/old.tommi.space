@@ -1,10 +1,13 @@
 ---
 lang: it
 title: "Jack Frusciante è uscito dal gruppo"
-permalink: "/Jack-Frusciante"
 toc: 0
 edited: 2020-07-02
 description: "Enrico Brizzi aveva la mia età quando scrisse <em>Jack Frusciante è uscito dal gruppo</em>. Volevo capire quanto quello che aveva nella testa corrisponda a quello che ho io ora. L’ho fatto stilando una lista di tutte le reference e citazioni presenti nel libro."
+redirect_from:
+  - /jack-frusciante-note
+  - /jack-frusciante-notes
+  - /jack-frusciante-quotes
 ---
 - Madness
 - Specials

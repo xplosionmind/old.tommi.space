@@ -1,6 +1,9 @@
 ---
 lang: en
 permalink: /themakingof
+redirect-from:
+  - /making-this-website
+  - /the-making-of
 ref: genesi
 categories: Geek
 img: "/images/posts/2020-04-18-Making-this-website.jpg"

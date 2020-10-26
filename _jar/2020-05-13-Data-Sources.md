@@ -2,6 +2,8 @@
 toc: 0
 edited: 2020-10-24
 description: "There are hundreds (if not thousands) of free data sets available, ready to be used and analyzed by anyone willing to look for them.  Below is a list of some of the most globally interesting I’ve come across, but there are many, many more in many different niches."
+redirect_from:
+  - /data
 ---
 - [Mozilla Data Stewardship Landscape Scan](https://airtable.com/shrn9jnFOQByon2i7/tblOrlwkMkuRn4HjV/viwOyRIDzKGemXbLW)
 - [Data.gov](http://data.gov/) The US Government pledged last year to make all government data available freely online. This site is the first stage and acts as a portal to all sorts of amazing information on everything from climate to crime.

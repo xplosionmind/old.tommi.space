@@ -36,6 +36,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-watch
   - jekyll-paginate
+  - jekyll-redirect-from
 sass:
   style: compressed
 permalink: /:title

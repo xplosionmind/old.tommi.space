@@ -1,5 +1,7 @@
 ---
 permakink: /bugs
+redirect_from:
+  - /feature-requests
 edited: 2020-10-15
 description: "I use mostly open source apps in active developement. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a complete blog post for a feature request. Thus, in this list I quickly note all the toughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports."
 ---

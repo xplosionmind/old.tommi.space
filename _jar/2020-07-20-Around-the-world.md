@@ -1,5 +1,10 @@
 ---
 permalink: /places
+redirect_from:
+  - /around-the-world
+  - /world-places
+  - /posti
+  - /luoghi
 edited: 2020-08-24
 description: "<em>Around the World</em> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places asound the world. This isn’t a list of places I’ve been to, but a record of the ones I carry in my heart, for some reason"
 ---

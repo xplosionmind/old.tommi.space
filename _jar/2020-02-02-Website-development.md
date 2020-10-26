@@ -2,6 +2,12 @@
 permalink: /development
 edited: 2020-10-23
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
+redirect_from:
+  - /development-roadmap
+  - /roadmap
+  - /wip
+  - /issues
+  - /improvements
 ---
 ## Not Working
 
@@ -56,14 +62,22 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 		1. [article 1](https://blog.webjeda.com/jekyll-categories/)
 		1. [article 2](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins)
 		1. Configure [jTag](https://github.com/ttscoff/jtag)
-1. Thumbnails in Zibaldone’s feed
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
+1. Thumbnails in Zibaldone’s feed
 1. [**Visioni**](/visioni)
 	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/)
 	- Photo selection
 	- horizontal instead of vertical scrolling of the gallery
 	- PDF portfolio download
-1. [Convert to **flex**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+1. a timeline like [Jeremy gordon's](https://jgordon.io) or [jack.works](https://web.archive.org/web/20200513054829/http://jack.works/)
+1. Convert some Jar elements to `_data` files
+	- People
+	- Quotes
+	- Parole
+	- Cinema
+	- Jack Frusciante
+	- Resources
+	- rimm-db
 1. [Typography](https://xplosionmind.tk/typography)
 	- better reasoned typographic choices
     - [Custom font](https://tommi.space/Typography#Custom-font)
@@ -121,6 +135,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 - Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
 - categories description and link to stuff
 - checkbox styling
+- [Convert to **flex**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - CSS cleanup
 - CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
 - cursor styling

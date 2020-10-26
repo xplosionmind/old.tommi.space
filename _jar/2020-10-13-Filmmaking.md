@@ -1,6 +1,9 @@
 ---
 description: "Filmmaking is most of all an art, and it's very hard to "
 edited: 2020-10-13
+redirect_from:
+  - /moviemaking
+  - /directing
 ---
 ## Tips on set
 
