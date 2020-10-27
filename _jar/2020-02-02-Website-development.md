@@ -108,6 +108,26 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 <br>
 <br>
 
+## Plugins
+
+Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-plugins/)
+
+- [Titles from headings](https://github.com/benbalter/jekyll-titles-from-headings)
+- [Jekyll feed](https://github.com/jekyll/jekyll-feed), to improve and customize feed generation
+- [Jekyll Archives](https://github.com/jekyll/jekyll-archives), archive pages for Jekyll tags and categories
+- [Polyglot](https://polyglot.untra.io/), to easily make Jekyll multilanguage
+- [Jekyll tagging](https://github.com/pattex/jekyll-tagging), to automatically generate a tag cloud and tag pages.
+- [Paginate v2](https://github.com/sverrirs/jekyll-paginate-v2)
+- [Jekyll figure](https://github.com/lmullen/jekyll_figure)
+- [Jekyll figure - 2](https://github.com/paulrobertlloyd/jekyll-figure)
+- [Jekyll picture tag](https://github.com/rbuchberger/jekyll_picture_tag), responsive images
+- [Responsive images](https://github.com/wildlyinaccurate/jekyll-responsive-image)
+- [Postfiles](https://github.com/nhoizey/jekyll-postfiles), to copy static files from the _posts to the _site folder
+- 
+
+<br>
+<br>
+
 ### Creative experiments
 
 - [desktop]: floating “categories” column on the right
