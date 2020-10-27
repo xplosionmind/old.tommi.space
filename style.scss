@@ -91,8 +91,8 @@ body {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
 	box-sizing: inherit;
 }
 
@@ -132,14 +132,14 @@ mark {
 .top {
 	position: fixed;
 	bottom: var(--bigger);
-	right: var(--bigger);
+	right: 3%;
 	z-index: 3;
 }
 
 .theme-toggle {
 	position: fixed;
 	bottom: var(--bigger);
-	right: 5.7rem;
+	right: calc(3% + 4rem);
 	z-index: 3;
 }
 
@@ -171,7 +171,8 @@ a {
 }
 
 a,
-button {
+button,
+.aa-suggestion {
 	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
 }
 
@@ -737,8 +738,8 @@ nav {
 	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
 	padding: 10px 35px 16px 0;
 	span,
-	span:before,
-	span:after {
+	span::before,
+	span::after {
 		cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
 		height: 4px;
 		width: 30px;
@@ -749,22 +750,22 @@ nav {
 		border-radius: var(--radius-s) !important;
  		transition: var(--quicktrans);
 	}
-	span:before {
+	span::before {
 		top: 0.6rem;
 	}
-	span:after {
+	span::after {
 		bottom: 0.6rem;
 	}
 	&.active span {
 		background: transparent;
-		&:before,
-		&:after {
+		&::before,
+		&::after {
 			top: 0;
 		}
-		&:before {
+		&::before {
 			transform: rotate(45deg);
 		}
-		&:after {
+		&::after {
 			transform: rotate(-45deg);
 		}
 	}
