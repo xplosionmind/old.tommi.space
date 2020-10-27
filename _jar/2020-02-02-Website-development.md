@@ -1,6 +1,6 @@
 ---
 permalink: /development
-edited: 2020-10-23
+edited: 2020-10-28
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 redirect_from:
   - /development-roadmap
@@ -11,9 +11,7 @@ redirect_from:
 ---
 ## Not Working
 
-- Algolia search
 - global `permalink` configuration in `_config.yml`
-- Subheadings display issue on mobile. [Example page](https://tommi.space/server-setup#nextcloud-configuration)
 - language loop in language selection
 - Parsing error in jar list elements with `a` tags
 
@@ -28,6 +26,7 @@ Work in progress contents:
 - [Giri da spettatore](/giri)
 - [Playlist](/playlist)
 - [Cinema](/cinema)
+- [Slots Philosophy](/slots)
 - add a “première” section to the [Everyone](./everyone) page
 - [Around the World](/places)
     - Alternanza Scuola-Lavoro
@@ -49,6 +48,7 @@ Work in progress contents:
 This is a list. It's sorted by **priority**, not amount of work). Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
 1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for ([dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp))
+1. restyle and improve management of sticky headings in `article`
 1. **Categories**
 	- ~~move categories specifications to `_data`~~
 	- ~~add categories to The Jar~~
@@ -83,6 +83,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
     - [Custom font](https://tommi.space/Typography#Custom-font)
 1. [Mailtrain](https://mailtrain.org/) setup
 1. RSS Feeds management
+	- one feed for every collection
     - [customize `feed.xml`](https://stackoverflow.com/questions/12902840/how-to-add-a-permalink-to-a-jekyll-rss-feed)
 1. Mailtrain automation with RSS
 1. Hosting on [server](/server) instead of using [Netlify](https://netlify.com)
