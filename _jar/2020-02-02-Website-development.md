@@ -66,6 +66,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
 1. Thumbnails in Zibaldone’s feed
 1. [**Visioni**](/visioni)
+	- <https://github.com/maxvoltar/photo-stream>
 	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/)
 	- Photo selection
 	- horizontal instead of vertical scrolling of the gallery
@@ -116,12 +117,14 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 
 Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-plugins/). A list of interesting plugins which aren't installed yet follows:
 
+- [Jekyll image processing](https://github.com/benubois/jekyll_image_processing)
 - [Titles from headings](https://github.com/benbalter/jekyll-titles-from-headings)
 - [Polyglot](https://polyglot.untra.io/), to easily make Jekyll multilanguage
 - [Jekyll picture tag](https://github.com/rbuchberger/jekyll_picture_tag), responsive images
 - [Responsive images](https://github.com/wildlyinaccurate/jekyll-responsive-image)
 - [Jekyll Ordinal](https://github.com/patrickcate/Jekyll-Ordinal)
 - [Jekyll Octopod](https://jekyll-octopod.github.io), podcast implementation
+- [podcast feed](https://github.com/benubois/podcast-feed), create a podcast feed
 - [Jekyll Slim](https://github.com/sunnyrjuneja/jekyll-slim), to add [Slim Language](http://slim-lang.com) compatibility
 - [Jekyll Compose](https://github.com/jekyll/jekyll-compose), to create posts and drafts quicker
 - [Jekyll import](https://import.jekyllrb.com), to import content from other blogging platforms
