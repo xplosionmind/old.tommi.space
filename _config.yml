@@ -4,6 +4,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   A web version of the mess inside Tommi Boom’s mind
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tommi.space" # the base hostname & protocol for your site, e.g. http://example.com
+author: Tommi
+publisher: Tommi
 twitter_username: xplosionmind
 github_username: xplosionmind
 git_repository: "tommi.space"
@@ -35,9 +37,30 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-target-blank
   - jekyll-watch
-  - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-admin
+  - jekyll-debug
+#  - jekyll-paginate
+#  - jekyll-paginate-v2
+#  - jekyll-archives
+#  - jekyll-youtube
+#  - jekyll-spaceship
+#  - jekyll-pdf-embed
+#  - jekyll-giphy
+#  - jekyll-mentions
+#  - jekyll-timeago
+#  - liquid_pluralize
+#  - liquid_reading_time
+#  - jekyll-liquify
+#  - jekyll-gist
+#  - jekyll-twitter-plugin
+#  - jekyll-news-sitemap
+#  - jekyll-git_metadata
+#  - jekyll-auto-image
+#  - jekyll-tagging
+#  - jekyll-auto-image
+#  - premonition
+#  - jekyll-datapage_gen
 sass:
   style: compressed
 permalink: /:title

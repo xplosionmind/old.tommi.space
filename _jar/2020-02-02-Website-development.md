@@ -62,6 +62,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 		1. [article 1](https://blog.webjeda.com/jekyll-categories/)
 		1. [article 2](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins)
 		1. Configure [jTag](https://github.com/ttscoff/jtag)
+1. Take the most advantage possible from installed plugins
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
 1. Thumbnails in Zibaldone’s feed
 1. [**Visioni**](/visioni)
@@ -91,6 +92,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
     - ~~custom styling~~
     - custom feed
 1. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
+1. Evaluate [switching to CommonMark](https://commonmark.org)
 1. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
 1. **Sorting** / **filtering** (using JavaScript?)
 	- in Zibaldone and The Jar: language and category filter
@@ -104,26 +106,26 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
     - or use [Flickr APIs](https://www.flickr.com/services/api/)
     - or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
 1. Includes with `CC0` and `All-rights-reserved` to add in specific pages
+1. Colour palattes improvement
 
 <br>
 <br>
 
 ## Plugins
 
-Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-plugins/)
+Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-plugins/). A list of interesting plugins which aren't installed yet follows:
 
 - [Titles from headings](https://github.com/benbalter/jekyll-titles-from-headings)
-- [Jekyll feed](https://github.com/jekyll/jekyll-feed), to improve and customize feed generation
-- [Jekyll Archives](https://github.com/jekyll/jekyll-archives), archive pages for Jekyll tags and categories
 - [Polyglot](https://polyglot.untra.io/), to easily make Jekyll multilanguage
-- [Jekyll tagging](https://github.com/pattex/jekyll-tagging), to automatically generate a tag cloud and tag pages.
-- [Paginate v2](https://github.com/sverrirs/jekyll-paginate-v2)
-- [Jekyll figure](https://github.com/lmullen/jekyll_figure)
-- [Jekyll figure - 2](https://github.com/paulrobertlloyd/jekyll-figure)
 - [Jekyll picture tag](https://github.com/rbuchberger/jekyll_picture_tag), responsive images
 - [Responsive images](https://github.com/wildlyinaccurate/jekyll-responsive-image)
-- [Postfiles](https://github.com/nhoizey/jekyll-postfiles), to copy static files from the _posts to the _site folder
-- 
+- [Jekyll Ordinal](https://github.com/patrickcate/Jekyll-Ordinal)
+- [Jekyll Octopod](https://jekyll-octopod.github.io), podcast implementation
+- [Jekyll Slim](https://github.com/sunnyrjuneja/jekyll-slim), to add [Slim Language](http://slim-lang.com) compatibility
+- [Jekyll Compose](https://github.com/jekyll/jekyll-compose), to create posts and drafts quicker
+- [Jekyll import](https://import.jekyllrb.com), to import content from other blogging platforms
+- [Jekyll Pandoc Multiple Formats](https://github.com/fauno/jekyll-pandoc-multiple-formats)
+- [Jekyll figure](https://github.com/paulrobertlloyd/jekyll-figure)
 
 <br>
 <br>
@@ -133,8 +135,6 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 - [desktop]: floating “categories” column on the right
 - [Generative Art](http://tholman.com/post/generative-art-speedrun/)
     - always-changing colors, see Zander Martineau’s [website](https://zander.wtf/)
-- everything center-aligned, also on desktop
-- colour palettes improvement
 
 <br>
 <br>
