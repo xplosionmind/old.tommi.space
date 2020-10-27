@@ -534,7 +534,7 @@ footer {
 
 .preview {
 	&:hover {
-		border: solid 3px var(--grey);
+		box-shadow: var(--inner-shadow);
 	}
 }
 
@@ -566,6 +566,7 @@ footer {
 footer {
 	margin: var(--bigger) 3%;
 	width: 94%;
+	overflow: hidden;
 	* {
 		text-align: center;
 	}
@@ -683,7 +684,7 @@ nav {
 	position: absolute;
 	top: 0;
 	right: 0;
-	background: var(--primary);
+	background: var(--background);
 	box-shadow: var(--shadow);
 }
 
@@ -733,28 +734,29 @@ nav {
 
 #nav-toggle {
 	position: absolute;
-	left: 10px;
-	top: 12px;
+	left: 11px;
+	top: 13px;
 	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
 	padding: 10px 35px 16px 0;
 	span,
 	span::before,
 	span::after {
 		cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
-		height: 4px;
-		width: 30px;
-		background: var(--background);
+		height: 3px;
+		width: 26px;
+		background: var(--text);
 		position: absolute;
 		display: block;
 		content: "";
+		box-shadow: var(--little-shadow);
 		border-radius: var(--radius-s) !important;
  		transition: var(--quicktrans);
 	}
 	span::before {
-		top: 0.6rem;
+		top: 0.65rem;
 	}
 	span::after {
-		bottom: 0.6rem;
+		bottom: 0.65rem;
 	}
 	&.active span {
 		background: transparent;

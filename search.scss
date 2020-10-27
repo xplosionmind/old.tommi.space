@@ -16,8 +16,10 @@
 	right: calc(3% + 4rem + 4rem);
 	margin: var(--tiny);
     width: var(--height);
+	padding: 0 var(--small);
 	height: var(--height);
 	line-height: var(--height);
+	color: var(--background);
     outline: 0;
 	border: 0;
 	border-radius: var(--radius-m);
