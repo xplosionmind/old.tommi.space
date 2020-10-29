@@ -65,6 +65,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 1. Take the most advantage possible from installed plugins
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
 1. Thumbnails in Zibaldone’s feed
+1. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
 1. [**Visioni**](/visioni)
 	- <https://github.com/maxvoltar/photo-stream>
 	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/)
@@ -79,6 +80,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 	- Jack Frusciante
 	- Resources
 	- rimm-db
+1. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)
 1. [Typography](https://xplosionmind.tk/typography)
 	- better reasoned typographic choices
     - [Custom font](https://tommi.space/Typography#Custom-font)
