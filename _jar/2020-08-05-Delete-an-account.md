@@ -5,7 +5,9 @@ redirect_from:
   - /delete
   - /GDPR-claim
   - /claim-GDPR
-edited: 2020-08-05
+  - /just-delete-it
+  - /just-deleteit
+edited: 2020-10-29
 description: 'The quickest way to delete an account is to just click on the “delete account” button. There are two problems, though. ONE: often, <strong>there’s no button</strong>, TWO: if there is, it’s hidden somewhere in the most remote corners of the settings. This is how I attempt to solve both of them. There is a procedure to also request a copy of all the account data.'
 ---
 ## Base knowledge
@@ -15,6 +17,10 @@ To get this itchy thing done in the most painless and quickest way, just [go her
 Firstly, you gotta find the Privacy Policy page of the provider and look for an email address that looks like `privacy@<nameoftheprovider>.com`. Secondly, you have to write to this address the message which follows, claiming our [GDPR rights](https://gdpr-info.eu/).
 
 There are two possible templates: one if you don’t care to recover your data and activity from the account, and one if you want to request portability (which means asking to get all the things they have about you), too.
+
+### Documentation
+
+- [Fac-simile Garante Privacy](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/2014184), for Italy, in Italian
 
 <br />
 <br />
