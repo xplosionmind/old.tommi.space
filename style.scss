@@ -90,14 +90,12 @@ body {
 	hyphens: auto;
 }
 
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
-}
-
 * {
 	transition: var(--trans), transform var(--quicktrans);
+	&::before,
+	&::after {
+		box-sizing: inherit;
+	}
 }
 
 .row::before,
@@ -196,13 +194,10 @@ ul li {
 	margin-bottom: var(--regular-less);
 	li {
 		margin-bottom: 0;
-	}
-}
-
-ul li li {
-	list-style-type: "– ";
-	li {
-		list-style-type: "+ ";
+		list-style-type: "–   ";
+		li {
+			list-style-type: "+  ";
+		}
 	}
 }
 
@@ -219,7 +214,7 @@ ul li li {
 
 .poetry,
 .post {
-	font: 400 var(--regular-more) Georgia, serif;
+	font: 400 var(--regular-more) Garamond, "Simoncini Garamond", "Eb Garamond", Georgia, serif;
 }
 
 .post p:first-of-type::first-letter {
@@ -318,12 +313,39 @@ code {
 }
 
 blockquote {
-  	margin: var(--regular-more) 0 var(--regular-more) var(--height);
-	border-left: var(--tiny) dashed var(--secondary);
-	padding-left: var(--regular-less);
+  	margin: 0 3vw;
+	padding: 0;
 	p {
-		font-style: italic !important;
-		color: var(--other-grey) !important;
+		font: italic 1.2em Garamond, "Simoncini Garamond", "EB Garamond", Georgia, serif;
+		color: var(--other-grey);
+		&:first-child::before,
+		&:last-child::after {
+			position: relative;
+		}
+		&:first-child::before {
+			content: '“';
+			right: var(--tiny);
+		}
+		&:last-child::after {
+			content: '„';
+			left: var(--tiny);
+		}
+	}
+	blockquote {
+		p {
+			&:first-child::before,
+			&:last-child::after {
+				position: relative;
+			}
+			&:first-child::before {
+				content: '«';
+				right: var(--tiny);
+			}
+			&:last-child::after {
+				content: '»';
+				left: var(--tiny);
+			}
+		}
 	}
 }
 
@@ -430,7 +452,7 @@ figure {
 }
 
 figcaption {
-	font: italic var(--regular) Merriweather, serif;
+	font: italic var(--regular) Georgia, serif;
 	line-height: var(--regular);
 	margin-top: var(--regular-less);
 	color: var(--other-grey);
