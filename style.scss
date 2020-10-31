@@ -214,7 +214,7 @@ ul li {
 
 .poetry,
 .post {
-	font: 400 var(--regular-more) Garamond, "Simoncini Garamond", "Eb Garamond", Georgia, serif;
+	font: 400 var(--regular-more) Garamond, "Simoncini Garamond", "EB Garamond", Georgia, serif;
 }
 
 .post p:first-of-type::first-letter {
@@ -485,7 +485,6 @@ article {
 	font-size: var(--regular-more);
 	padding: var(--twice) 10% var(--mastodon);
 	h2, h3, h4, h5, h6 {
-		font-family: Inter, Helvetica, "Helvetica Neue", sans;
 		background: var(--background);
 		position: sticky;
 		line-height: var(--height);
@@ -565,9 +564,6 @@ footer {
 	margin: var(--height) 2%;
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
-	.column {
-		padding: 0 2%
-	}
 }
 
 .stuff-logo {
