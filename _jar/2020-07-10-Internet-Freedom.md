@@ -1,5 +1,5 @@
 ---
-edited: 2020-10-12
+edited: 2020-11-04
 description: "This awesome and revolutionary tool we call the Internet is so powerful that it's becoming a threat to the freedom of the average user, who, in exchange for services, hands over his/her data, therefore giving up personal independence and liberty.<br /><br />Here are noted various arguments, thoughts, speeches, documents, ideas and step-by-step guides to achieve <strong>a healthier online experience</strong>"
 redirect_from:
   - /internet-freedom-notes
@@ -75,6 +75,7 @@ Random links about privacy online
 		1. import Protonmail data
 	1. AnonAddy everywhere on the web
 1. Install and configure [self-hosted apps](/server#Apps-Wishlist) only
+1. Set [LibreDNS](https://libredns.gr) as the system-wide encrypted DNS (already used as DNS over HTTPS in Firefox)
 
 ### further steps
 

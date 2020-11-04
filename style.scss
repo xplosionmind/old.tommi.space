@@ -14,27 +14,25 @@
 	--yellow-gradient: linear-gradient(145deg, #DAAE1B, #FFD23E);
 	--blue-gradient: linear-gradient(145deg, #4c96ff, #226dd7);
 
-	--tiny: 0.2rem;
-	--tinyem: 0.2em;
-	--small: 0.5rem;
-	--smallem: 0.5em;
-	--regular-less: 0.9rem;
+	--tiny: .2rem;
+	--tinyem: .2em;
+	--small: .5rem;
+	--smallem: .5em;
+	--regular-less: .9rem;
 	--regular: 1.1rem;
 	--regular-em: 1.1em;
 	--regular-more: 1.3rem;
 	--regular-more-em: 1.3em;
 	--big: 1.6rem;
-	--big-em: 1.6em;
 	--bigger: 1.8rem;
-	--bigger-em: 1.8em;
 	--twice: 2.2rem;
 	--height: 3.1rem;
 	--mastodon: 4.4rem;
 	--margin: 6.5rem;
 	--trans: .5s;
 	--quicktrans: .1s;
-	--radius-s: 0.4rem;
-	--radius-m: 0.6rem;
+	--radius-s: .4rem;
+	--radius-m: .6rem;
 	--radius-l: 1rem;
 }
 
@@ -92,10 +90,12 @@ body {
 
 * {
 	transition: var(--trans), transform var(--quicktrans);
-	&::before,
-	&::after {
-		box-sizing: inherit;
-	}
+}
+
+*,
+::before,
+::after {
+	box-sizing: inherit;
 }
 
 .row::before,
@@ -128,17 +128,21 @@ mark {
 }
 
 .top {
-	position: fixed;
-	bottom: var(--bigger);
 	right: 3%;
 	z-index: 3;
 }
 
 .theme-toggle {
+	right: calc(3% + 4rem);
+}
+
+.tool {
 	position: fixed;
 	bottom: var(--bigger);
-	right: calc(3% + 4rem);
-	z-index: 3;
+	z-index: 9;
+	&.button {
+		padding: .3rem;
+	}
 }
 
 a {
@@ -151,6 +155,11 @@ a {
 	&:focus,
 	&:active {
 		.title {
+			box-shadow: var(--inner-shadow);
+		}
+	}
+	.box {
+		&:hover {
 			box-shadow: var(--inner-shadow);
 		}
 	}
@@ -170,6 +179,7 @@ a {
 
 a,
 button,
+.button,
 .aa-suggestion {
 	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
 }
@@ -212,12 +222,11 @@ ul li {
 	height: var(--regular);
 }
 
-.poetry,
-.post {
+.poetry {
 	font: 400 var(--regular-more) Garamond, "Simoncini Garamond", "EB Garamond", Georgia, serif;
 }
 
-.post p:first-of-type::first-letter {
+.post > p:first-of-type::first-letter {
 	initial-letter: 3;
 	-webkit-initial-letter: 3;
 }
@@ -309,6 +318,7 @@ pre {
 code {
 	padding: 2px var(--small);
 	background: var(--grey);
+	box-shadow: var(--inner-shadow);
 	border-radius: var(--radius-s);
 }
 
@@ -432,27 +442,29 @@ table {
 		width: 60%;
 	}
 	nav svg {
-		margin-top: 0.6rem !important;
+		margin-top: .6rem !important;
 	}
 }
 
 img {
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 	display: block;
 	border-radius: var(--radius-l);
 }
 
 figure {
-	margin: var(--height) 0;
+	margin: var(--height) auto;
 	img {
+		max-height: 90vh;
 		border: solid 1px black;
 		box-shadow: var(--shadow);
+		margin: 0 auto;
 	}
 }
 
 figcaption {
-	font: italic var(--regular) Georgia, serif;
+	font: italic var(--regular) Garamond, "Simoncini Garamond", "EB Garamond", Georgia, serif;
 	line-height: var(--regular);
 	margin-top: var(--regular-less);
 	color: var(--other-grey);
@@ -469,7 +481,7 @@ figcaption {
 }
 
 p {
-	line-height: var(--big-em);
+	line-height: 1.75em;
 }
 
 strong,
@@ -531,9 +543,8 @@ h2 {
 	margin: 0;
 }
 
-.box,
-footer {
-	max-height: 50rem;
+.box {
+	max-height: 80vh;
 	max-width: 100%;
 	color: var(--text);
 	padding: var(--big);
@@ -541,29 +552,28 @@ footer {
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
 	overflow: scroll;
-}
-.box h2 {
-	text-align: center;
+	h2 {
+		text-align: center;
+	}
 }
 
 .box,
 .stuff {
-	p {
-		margin: var(--regular) 10%;
-	}
-}
-
-.preview {
-	&:hover {
-		box-shadow: var(--inner-shadow);
+	.column {
+		p {
+			margin: 5vh 10%;
+		}
 	}
 }
 
 .stuff {
-	padding: var(--height) 2%;
-	margin: var(--height) 2%;
+	padding: 4vw 2vw;
+	margin: var(--height) 2vw;
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
+	.column {
+		padding: 0 2vw;
+	}
 }
 
 .stuff-logo {
@@ -577,14 +587,17 @@ footer {
 .last-modified {
 	margin: 0 auto var(--twice);
 	font-size: var(--regular-less);
-	opacity: 0.8;
+	opacity: .8;
 	text-align: center;
 }
 
 footer {
 	margin: var(--bigger) 3%;
-	width: 94%;
 	overflow: hidden;
+	width: 94%;
+	padding: var(--big);
+	border-radius: var(--radius-l);
+	box-shadow: var(--shadow);
 	* {
 		text-align: center;
 	}
@@ -605,7 +618,7 @@ footer {
 
 /* HEADER */
 .navigation {
-	top: 0.7rem;
+	top: .7rem;
 	width: 96%;
 	left: 2%;
 	height: var(--height);
@@ -737,12 +750,10 @@ nav {
 		font-size: var(--height);
 	}
 	.navigation,
-	footer,
 	.title {
 		width: 94%;
 	}
 	.box {
-		max-height: 30rem;
 		margin: var(--bigger) 3%;
 	}
 	.stuff-logo {
@@ -771,10 +782,10 @@ nav {
  		transition: var(--quicktrans);
 	}
 	span::before {
-		top: 0.65rem;
+		top: .65rem;
 	}
 	span::after {
-		bottom: 0.65rem;
+		bottom: .65rem;
 	}
 	&.active span {
 		background: transparent;
@@ -799,7 +810,8 @@ svg.button {
 	background: var(--primary);
 }
 
-.button, button {
+button,
+.button {
 	display: inline-block;
 	padding: var(--small) var(--regular);
 	font-size: var(--bigger);
@@ -811,7 +823,7 @@ svg.button {
 	hyphens: none;
 	&:hover,
 	&:focus {
-		box-shadow: var(--inner-shadow);
+		box-shadow: var(--inner-shadow) !important;
 	}
 }
 
@@ -837,14 +849,16 @@ svg.button {
 .sharing {
 	.button {
 		margin-right: var(--small);
-		padding: 0.4rem;
+		padding: .4rem;
 		box-shadow: var(--little-shadow);
+		&:hover {
+		}
 	}
 }
 
 /* FOOTER */
 #license {
-	font-size: 0.8em;
+	font-size: .8em;
 	font-weight: 200;
 }
 

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>RSS subscriptions for tommiboom@protonmail.com</title>
+    <dateCreated>Wed, 04 Nov 2020 16:26:23 +0000</dateCreated>
+    <ownerEmail>tommiboom@protonmail.com</ownerEmail>
+  </head>
+  <body>
+<outline text="The Mozilla Blog" title="The Mozilla Blog" type="rss" xmlUrl="https://blog.mozilla.org/feed/" htmlUrl="https://blog.mozilla.org"/>
+<outline text="Deeplinks" title="Deeplinks" type="rss" xmlUrl="https://www.eff.org/rss/updates.xml" htmlUrl="https://www.eff.org/rss/updates.xml"/>
+<outline text="Internet Archive Blogs" title="Internet Archive Blogs" type="rss" xmlUrl="http://blog.archive.org/feed/" htmlUrl="http://blog.archive.org"/>
+<outline text="Mozilla Hacks" title="Mozilla Hacks" type="rss" xmlUrl="https://hacks.mozilla.org/feed/" htmlUrl="https://hacks.mozilla.org"/>
+<outline text="polaroid - un blog alla radio" title="polaroid - un blog alla radio" type="rss" xmlUrl="http://feeds.feedburner.com/PolaroidUnBlogAllaRadio" htmlUrl="http://polaroid.blogspot.com/"/>
+<outline text="FSFE News" title="FSFE News" type="rss" xmlUrl="https://fsfe.org/news/news.en.rss" htmlUrl="https://fsfe.org/news/"/>
+<outline text="Clagnut" title="Clagnut" type="rss" xmlUrl="http://clagnut.com/feeds/fullposts.xml" htmlUrl="http://clagnut.com/"/>
+<outline text="Michaël Villar" title="Michaël Villar" type="rss" xmlUrl="https://medium.com/feed/@michaelvillar" htmlUrl="https://medium.com/@michaelvillar?source=rss-16538889bfaa------2"/>
+<outline text="ProtonMail Blog" title="ProtonMail Blog" type="rss" xmlUrl="https://protonmail.com/blog/feed/" htmlUrl="https://protonmail.com/blog"/>
+<outline text="🦄 Sindre Sorhus" title="🦄 Sindre Sorhus" type="rss" xmlUrl="https://blog.sindresorhus.com/feed" htmlUrl="https://blog.sindresorhus.com?source=rss----bd01b60f8f44---4"/>
+<outline text="Dustin Curtis" title="Dustin Curtis" type="rss" xmlUrl="https://feeds.feedburner.com/dcurtis" htmlUrl="https://dcurt.is"/>
+<outline text="Freedom of the Press Foundation" title="Freedom of the Press Foundation" type="rss" xmlUrl="https://freedom.press/news/feed/" htmlUrl="https://freedom.press/news/"/>
+<outline text="Pirijan - pketh" title="Pirijan - pketh" type="rss" xmlUrl="http://pketh.org/feed.xml" htmlUrl="http://pketh.org"/>
+<outline text="Internet Society" title="Internet Society" type="rss" xmlUrl="https://www.internetsociety.org/feed/" htmlUrl="https://www.internetsociety.org"/>
+<outline text="Hypothesis" title="Hypothesis" type="rss" xmlUrl="https://web.hypothes.is/feed/" htmlUrl="https://web.hypothes.is"/>
+<outline text="Anish Athalye" title="Anish Athalye" type="rss" xmlUrl="https://www.anishathalye.com/feed.xml" htmlUrl="https://www.anishathalye.com/"/>
+<outline text="The Latest from Luke" title="The Latest from Luke" type="rss" xmlUrl="https://lukesmith.xyz/rss.xml" htmlUrl="https://lukesmith.xyz/rss.xml"/>
+<outline text="OpenPGP" title="OpenPGP" type="rss" xmlUrl="https://www.openpgp.org/feed.xml" htmlUrl="https://www.openpgp.org/"/>
+<outline text="MisinfoCon" title="MisinfoCon" type="rss" xmlUrl="https://misinfocon.com/feed" htmlUrl="https://misinfocon.com?source=rss----498394f572f1---4"/>
+<outline text="Redecentralize Blog" title="Redecentralize Blog" type="rss" xmlUrl="https://redecentralize.org/blog/feed.rss" htmlUrl="https://redecentralize.org/blog/"/>
+<outline text="Zander Martineau's Blog" title="Zander Martineau's Blog" type="rss" xmlUrl="https://zander.wtf/atom.xml" htmlUrl="https://zander.wtf"/>
+<outline text="Lincoln Mullen" title="Lincoln Mullen" type="rss" xmlUrl="https://lincolnmullen.com/blog/index.xml" htmlUrl="https://lincolnmullen.com/blog/"/>
+<outline text="ethical.net" title="ethical.net" type="rss" xmlUrl="https://ethical.net/feed/" htmlUrl="https://ethical.net"/>
+<outline text="Ben Ubois" title="Ben Ubois" type="rss" xmlUrl="https://benubois.com/feed.xml" htmlUrl="https://benubois.com/"/>
+<outline text="Ben Ubois Podcast" title="Ben Ubois Podcast" type="rss" xmlUrl="https://benubois.com/podcast.xml" htmlUrl="https://benubois.com/"/>
+<outline text="Tania Rascia | RSS Feed" title="Tania Rascia | RSS Feed" type="rss" xmlUrl="https://www.taniarascia.com/rss.xml" htmlUrl="https://www.taniarascia.com"/>
+<outline text="Wizard Zines" title="Wizard Zines" type="rss" xmlUrl="https://wizardzines.com/index.xml" htmlUrl="https://wizardzines.com"/>
+<outline text="The Restart Project Blog" title="The Restart Project Blog" type="rss" xmlUrl="https://therestartproject.org/feed/" htmlUrl="https://therestartproject.org"/>
+<outline text="Open Source Design" title="Open Source Design" type="rss" xmlUrl="https://opensourcedesign.net/feed.xml" htmlUrl="https://opensourcedesign.net/"/>
+<outline text="LibreOps" title="LibreOps" type="rss" xmlUrl="https://libreops.cc/feed.xml" htmlUrl="https://libreops.cc/"/>
+<outline text="Internet Freedom Festival" title="Internet Freedom Festival" type="rss" xmlUrl="https://internetfreedomfestival.org/feed/" htmlUrl="https://internetfreedomfestival.org"/>
+<outline text="5ish" title="5ish" type="rss" xmlUrl="https://5ish.org/feed" htmlUrl="https://5ish.org"/>
+<outline text="Derek Sivers" title="Derek Sivers" type="rss" xmlUrl="https://sive.rs/en.atom" htmlUrl="http://sive.rs"/>
+<outline text="[ciwati]" title="[ciwati]" type="rss" xmlUrl="https://www.ciwati.it/feed/" htmlUrl="https://www.ciwati.it"/>
+<outline text="Philosophy &amp; Engineering" title="Philosophy &amp; Engineering" type="rss" xmlUrl="https://filinge.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="https://filinge.blogspot.com/"/>
+<outline text="Koos Looijesteijn - Blog" title="Koos Looijesteijn - Blog" type="rss" xmlUrl="https://www.kooslooijesteijn.net/feed-blog.xml" htmlUrl="https://www.kooslooijesteijn.net"/>
+<outline text="Mailtrain" title="Mailtrain" type="rss" xmlUrl="https://mailtrain.wordpress.com/feed/" htmlUrl="https://mailtrain.wordpress.com"/>
+<outline text="Luxagraf: Topographical Writings" title="Luxagraf: Topographical Writings" type="rss" xmlUrl="https://luxagraf.net/jrnl/feed.xml" htmlUrl="http://luxagraf.net/jrnl/"/>
+<outline text="Francesco Tonini - Developer" title="Francesco Tonini - Developer" type="rss" xmlUrl="https://tonini.dev/index.xml" htmlUrl="https://tonini.dev/"/>
+<outline text="Banca Etica" title="Banca Etica" type="rss" xmlUrl="https://www.bancaetica.it/rss/blog.xml" htmlUrl="https://www.bancaetica.it/"/>
+<outline text="Sylvain Durand" title="Sylvain Durand" type="rss" xmlUrl="https://www.sylvaindurand.org/rss.xml" htmlUrl="https://www.sylvaindurand.org/"/>
+<outline text="Reyboz Blog" title="Reyboz Blog" type="rss" xmlUrl="https://blog.reyboz.it/feed/" htmlUrl="https://blog.reyboz.it"/>
+<outline text="Wikimedia Italia" title="Wikimedia Italia" type="rss" xmlUrl="https://www.wikimedia.it/feed/" htmlUrl="https://www.wikimedia.it"/>
+<outline text="Cubbit " title="Cubbit " type="rss" xmlUrl="https://medium.com/feed/cubbit" htmlUrl="https://medium.com/cubbit?source=rss----bc4af7b5a27f---4"/>
+<outline text="Massimo Temporelli" title="Massimo Temporelli" type="rss" xmlUrl="http://www.temporelli.it/feed/" htmlUrl="http://www.temporelli.it"/>
+<outline text="Mikaela" title="Mikaela" type="rss" xmlUrl="https://mikaela.info/blog/feed.xml" htmlUrl="https://mikaela.info/"/>
+<outline text="Developers Italia" title="Developers Italia" type="rss" xmlUrl="https://developers.italia.it/it/news/feed.atom" htmlUrl="https://developers.italia.it/"/>
+<outline text="Shakespeare Consultant" title="Shakespeare Consultant" type="rss" xmlUrl="https://www.shakespeareconsultant.com/feed/" htmlUrl="https://www.shakespeareconsultant.com"/>
+<outline text="Italian Linux Society" title="Italian Linux Society" type="rss" xmlUrl="https://www.ils.org/rss.xml" htmlUrl="https://www.ils.org"/>
+<outline text="NOT Dexter's Lab" title="NOT Dexter's Lab" type="rss" xmlUrl="https://www.a2p.it/wordpress/en/feed/" htmlUrl="https://www.a2p.it/wordpress"/>
+<outline text="NOT Dexter's Lab" title="NOT Dexter's Lab" type="rss" xmlUrl="https://www.a2p.it/wordpress/it/feed/" htmlUrl="https://www.a2p.it/wordpress"/>
+<outline text="Irina Bolychevsky" title="Irina Bolychevsky" type="rss" xmlUrl="https://shevski.com/writing?format=rss" htmlUrl="https://shevski.com/writing/"/>
+<outline text="Okuna" title="Okuna" type="rss" xmlUrl="https://medium.com/feed/okuna" htmlUrl="https://medium.com/okuna?source=rss----e2725de9673d---4"/>
+<outline text="Associazione Stellaria" title="Associazione Stellaria" type="rss" xmlUrl="http://www.astroperinaldo.it/feed/" htmlUrl="http://www.astroperinaldo.it"/>
+<outline text="Untra - Samuel Volin" title="Untra - Samuel Volin" type="rss" xmlUrl="https://untra.io/atom.xml" htmlUrl="https://untra.io/atom.xml"/>
+<outline text="Michel Fortin" title="Michel Fortin" type="rss" xmlUrl="https://michelf.ca/blogue/atom.xml" htmlUrl="https://michelf.ca/"/>
+<outline text="Spaceclick" title="Spaceclick" type="rss" xmlUrl="https://www.spaceclick.com/it/feed/" htmlUrl="https://www.spaceclick.com"/>
+<outline text="Radio24 - Nessun luogo è lontano" title="Radio24 - Nessun luogo è lontano" type="rss" xmlUrl="http://backr24.ilsole24ore.com/podcast/luogo-lontano.xml" htmlUrl="http://www.radio24.ilsole24ore.com/programma/luogo-lontano"/>
+<outline text="Radio 24 - Generazione Mobile" title="Radio 24 - Generazione Mobile" type="rss" xmlUrl="http://backr24.ilsole24ore.com/podcast/generazione-mobile.xml" htmlUrl="http://www.radio24.ilsole24ore.com/programma/generazione-mobile"/>
+<outline text="Koos Looijesteijn - Links" title="Koos Looijesteijn - Links" type="rss" xmlUrl="https://www.kooslooijesteijn.net/feed-links.xml" htmlUrl="https://www.kooslooijesteijn.net"/>
+<outline text="Katie Sylor-Miller" title="Katie Sylor-Miller" type="rss" xmlUrl="https://sylormiller.com/feed/feed.xml" htmlUrl="https://sylormiller.com/"/>
+<outline text="Fabien Salathe Website" title="Fabien Salathe Website" type="rss" xmlUrl="https://bafs.github.io/feed.xml" htmlUrl="/"/>
+<outline text="Leo Babauta" title="Leo Babauta" type="rss" xmlUrl="https://leobabauta.com/feed/" htmlUrl="https://leobabauta.com"/>
+    <outline text="blogs" title="blogs">
+<outline text="Clagnut" title="Clagnut" type="rss" xmlUrl="http://clagnut.com/feeds/fullposts.xml" htmlUrl="http://clagnut.com/"/>
+<outline text="Michaël Villar" title="Michaël Villar" type="rss" xmlUrl="https://medium.com/feed/@michaelvillar" htmlUrl="https://medium.com/@michaelvillar?source=rss-16538889bfaa------2"/>
+<outline text="🦄 Sindre Sorhus" title="🦄 Sindre Sorhus" type="rss" xmlUrl="https://blog.sindresorhus.com/feed" htmlUrl="https://blog.sindresorhus.com?source=rss----bd01b60f8f44---4"/>
+<outline text="Dustin Curtis" title="Dustin Curtis" type="rss" xmlUrl="https://feeds.feedburner.com/dcurtis" htmlUrl="https://dcurt.is"/>
+<outline text="Pirijan - pketh" title="Pirijan - pketh" type="rss" xmlUrl="http://pketh.org/feed.xml" htmlUrl="http://pketh.org"/>
+<outline text="Anish Athalye" title="Anish Athalye" type="rss" xmlUrl="https://www.anishathalye.com/feed.xml" htmlUrl="https://www.anishathalye.com/"/>
+<outline text="The Latest from Luke" title="The Latest from Luke" type="rss" xmlUrl="https://lukesmith.xyz/rss.xml" htmlUrl="https://lukesmith.xyz/rss.xml"/>
+<outline text="Zander Martineau's Blog" title="Zander Martineau's Blog" type="rss" xmlUrl="https://zander.wtf/atom.xml" htmlUrl="https://zander.wtf"/>
+<outline text="Lincoln Mullen" title="Lincoln Mullen" type="rss" xmlUrl="https://lincolnmullen.com/blog/index.xml" htmlUrl="https://lincolnmullen.com/blog/"/>
+<outline text="Ben Ubois" title="Ben Ubois" type="rss" xmlUrl="https://benubois.com/feed.xml" htmlUrl="https://benubois.com/"/>
+<outline text="5ish" title="5ish" type="rss" xmlUrl="https://5ish.org/feed" htmlUrl="https://5ish.org"/>
+<outline text="Derek Sivers" title="Derek Sivers" type="rss" xmlUrl="https://sive.rs/en.atom" htmlUrl="http://sive.rs"/>
+<outline text="[ciwati]" title="[ciwati]" type="rss" xmlUrl="https://www.ciwati.it/feed/" htmlUrl="https://www.ciwati.it"/>
+<outline text="Koos Looijesteijn - Blog" title="Koos Looijesteijn - Blog" type="rss" xmlUrl="https://www.kooslooijesteijn.net/feed-blog.xml" htmlUrl="https://www.kooslooijesteijn.net"/>
+<outline text="Luxagraf: Topographical Writings" title="Luxagraf: Topographical Writings" type="rss" xmlUrl="https://luxagraf.net/jrnl/feed.xml" htmlUrl="http://luxagraf.net/jrnl/"/>
+<outline text="Reyboz Blog" title="Reyboz Blog" type="rss" xmlUrl="https://blog.reyboz.it/feed/" htmlUrl="https://blog.reyboz.it"/>
+<outline text="Massimo Temporelli" title="Massimo Temporelli" type="rss" xmlUrl="http://www.temporelli.it/feed/" htmlUrl="http://www.temporelli.it"/>
+<outline text="Mikaela" title="Mikaela" type="rss" xmlUrl="https://mikaela.info/blog/feed.xml" htmlUrl="https://mikaela.info/"/>
+<outline text="Shakespeare Consultant" title="Shakespeare Consultant" type="rss" xmlUrl="https://www.shakespeareconsultant.com/feed/" htmlUrl="https://www.shakespeareconsultant.com"/>
+<outline text="NOT Dexter's Lab" title="NOT Dexter's Lab" type="rss" xmlUrl="https://www.a2p.it/wordpress/en/feed/" htmlUrl="https://www.a2p.it/wordpress"/>
+<outline text="NOT Dexter's Lab" title="NOT Dexter's Lab" type="rss" xmlUrl="https://www.a2p.it/wordpress/it/feed/" htmlUrl="https://www.a2p.it/wordpress"/>
+<outline text="Irina Bolychevsky" title="Irina Bolychevsky" type="rss" xmlUrl="https://shevski.com/writing?format=rss" htmlUrl="https://shevski.com/writing/"/>
+<outline text="Untra - Samuel Volin" title="Untra - Samuel Volin" type="rss" xmlUrl="https://untra.io/atom.xml" htmlUrl="https://untra.io/atom.xml"/>
+<outline text="Michel Fortin" title="Michel Fortin" type="rss" xmlUrl="https://michelf.ca/blogue/atom.xml" htmlUrl="https://michelf.ca/"/>
+<outline text="Koos Looijesteijn - Links" title="Koos Looijesteijn - Links" type="rss" xmlUrl="https://www.kooslooijesteijn.net/feed-links.xml" htmlUrl="https://www.kooslooijesteijn.net"/>
+<outline text="Katie Sylor-Miller" title="Katie Sylor-Miller" type="rss" xmlUrl="https://sylormiller.com/feed/feed.xml" htmlUrl="https://sylormiller.com/"/>
+<outline text="Fabien Salathe Website" title="Fabien Salathe Website" type="rss" xmlUrl="https://bafs.github.io/feed.xml" htmlUrl="/"/>
+<outline text="Leo Babauta" title="Leo Babauta" type="rss" xmlUrl="https://leobabauta.com/feed/" htmlUrl="https://leobabauta.com"/>
+    </outline>
+    <outline text="communities" title="communities">
+<outline text="Mozilla Hacks" title="Mozilla Hacks" type="rss" xmlUrl="https://hacks.mozilla.org/feed/" htmlUrl="https://hacks.mozilla.org"/>
+<outline text="FSFE News" title="FSFE News" type="rss" xmlUrl="https://fsfe.org/news/news.en.rss" htmlUrl="https://fsfe.org/news/"/>
+<outline text="Redecentralize Blog" title="Redecentralize Blog" type="rss" xmlUrl="https://redecentralize.org/blog/feed.rss" htmlUrl="https://redecentralize.org/blog/"/>
+<outline text="Open Source Design" title="Open Source Design" type="rss" xmlUrl="https://opensourcedesign.net/feed.xml" htmlUrl="https://opensourcedesign.net/"/>
+<outline text="Developers Italia" title="Developers Italia" type="rss" xmlUrl="https://developers.italia.it/it/news/feed.atom" htmlUrl="https://developers.italia.it/"/>
+<outline text="Italian Linux Society" title="Italian Linux Society" type="rss" xmlUrl="https://www.ils.org/rss.xml" htmlUrl="https://www.ils.org"/>
+    </outline>
+    <outline text="design" title="design">
+<outline text="Open Source Design" title="Open Source Design" type="rss" xmlUrl="https://opensourcedesign.net/feed.xml" htmlUrl="https://opensourcedesign.net/"/>
+<outline text="Koos Looijesteijn - Blog" title="Koos Looijesteijn - Blog" type="rss" xmlUrl="https://www.kooslooijesteijn.net/feed-blog.xml" htmlUrl="https://www.kooslooijesteijn.net"/>
+    </outline>
+    <outline text="geek" title="geek">
+<outline text="Deeplinks" title="Deeplinks" type="rss" xmlUrl="https://www.eff.org/rss/updates.xml" htmlUrl="https://www.eff.org/rss/updates.xml"/>
+<outline text="Mozilla Hacks" title="Mozilla Hacks" type="rss" xmlUrl="https://hacks.mozilla.org/feed/" htmlUrl="https://hacks.mozilla.org"/>
+<outline text="FSFE News" title="FSFE News" type="rss" xmlUrl="https://fsfe.org/news/news.en.rss" htmlUrl="https://fsfe.org/news/"/>
+<outline text="Michaël Villar" title="Michaël Villar" type="rss" xmlUrl="https://medium.com/feed/@michaelvillar" htmlUrl="https://medium.com/@michaelvillar?source=rss-16538889bfaa------2"/>
+<outline text="🦄 Sindre Sorhus" title="🦄 Sindre Sorhus" type="rss" xmlUrl="https://blog.sindresorhus.com/feed" htmlUrl="https://blog.sindresorhus.com?source=rss----bd01b60f8f44---4"/>
+<outline text="Dustin Curtis" title="Dustin Curtis" type="rss" xmlUrl="https://feeds.feedburner.com/dcurtis" htmlUrl="https://dcurt.is"/>
+<outline text="Pirijan - pketh" title="Pirijan - pketh" type="rss" xmlUrl="http://pketh.org/feed.xml" htmlUrl="http://pketh.org"/>
+<outline text="Anish Athalye" title="Anish Athalye" type="rss" xmlUrl="https://www.anishathalye.com/feed.xml" htmlUrl="https://www.anishathalye.com/"/>
+<outline text="OpenPGP" title="OpenPGP" type="rss" xmlUrl="https://www.openpgp.org/feed.xml" htmlUrl="https://www.openpgp.org/"/>
+<outline text="Redecentralize Blog" title="Redecentralize Blog" type="rss" xmlUrl="https://redecentralize.org/blog/feed.rss" htmlUrl="https://redecentralize.org/blog/"/>
+<outline text="Lincoln Mullen" title="Lincoln Mullen" type="rss" xmlUrl="https://lincolnmullen.com/blog/index.xml" htmlUrl="https://lincolnmullen.com/blog/"/>
+<outline text="ethical.net" title="ethical.net" type="rss" xmlUrl="https://ethical.net/feed/" htmlUrl="https://ethical.net"/>
+<outline text="Ben Ubois" title="Ben Ubois" type="rss" xmlUrl="https://benubois.com/feed.xml" htmlUrl="https://benubois.com/"/>
+<outline text="Tania Rascia | RSS Feed" title="Tania Rascia | RSS Feed" type="rss" xmlUrl="https://www.taniarascia.com/rss.xml" htmlUrl="https://www.taniarascia.com"/>
+<outline text="Wizard Zines" title="Wizard Zines" type="rss" xmlUrl="https://wizardzines.com/index.xml" htmlUrl="https://wizardzines.com"/>
+<outline text="LibreOps" title="LibreOps" type="rss" xmlUrl="https://libreops.cc/feed.xml" htmlUrl="https://libreops.cc/"/>
+<outline text="Mailtrain" title="Mailtrain" type="rss" xmlUrl="https://mailtrain.wordpress.com/feed/" htmlUrl="https://mailtrain.wordpress.com"/>
+<outline text="Francesco Tonini - Developer" title="Francesco Tonini - Developer" type="rss" xmlUrl="https://tonini.dev/index.xml" htmlUrl="https://tonini.dev/"/>
+<outline text="Sylvain Durand" title="Sylvain Durand" type="rss" xmlUrl="https://www.sylvaindurand.org/rss.xml" htmlUrl="https://www.sylvaindurand.org/"/>
+<outline text="Mikaela" title="Mikaela" type="rss" xmlUrl="https://mikaela.info/blog/feed.xml" htmlUrl="https://mikaela.info/"/>
+<outline text="Developers Italia" title="Developers Italia" type="rss" xmlUrl="https://developers.italia.it/it/news/feed.atom" htmlUrl="https://developers.italia.it/"/>
+<outline text="Italian Linux Society" title="Italian Linux Society" type="rss" xmlUrl="https://www.ils.org/rss.xml" htmlUrl="https://www.ils.org"/>
+<outline text="NOT Dexter's Lab" title="NOT Dexter's Lab" type="rss" xmlUrl="https://www.a2p.it/wordpress/en/feed/" htmlUrl="https://www.a2p.it/wordpress"/>
+<outline text="NOT Dexter's Lab" title="NOT Dexter's Lab" type="rss" xmlUrl="https://www.a2p.it/wordpress/it/feed/" htmlUrl="https://www.a2p.it/wordpress"/>
+<outline text="Irina Bolychevsky" title="Irina Bolychevsky" type="rss" xmlUrl="https://shevski.com/writing?format=rss" htmlUrl="https://shevski.com/writing/"/>
+<outline text="Untra - Samuel Volin" title="Untra - Samuel Volin" type="rss" xmlUrl="https://untra.io/atom.xml" htmlUrl="https://untra.io/atom.xml"/>
+<outline text="Michel Fortin" title="Michel Fortin" type="rss" xmlUrl="https://michelf.ca/blogue/atom.xml" htmlUrl="https://michelf.ca/"/>
+<outline text="Spaceclick" title="Spaceclick" type="rss" xmlUrl="https://www.spaceclick.com/it/feed/" htmlUrl="https://www.spaceclick.com"/>
+<outline text="Katie Sylor-Miller" title="Katie Sylor-Miller" type="rss" xmlUrl="https://sylormiller.com/feed/feed.xml" htmlUrl="https://sylormiller.com/"/>
+    </outline>
+    <outline text="it" title="it">
+<outline text="Associazione Stellaria" title="Associazione Stellaria" type="rss" xmlUrl="http://www.astroperinaldo.it/feed/" htmlUrl="http://www.astroperinaldo.it"/>
+<outline text="Radio24 - Nessun luogo è lontano" title="Radio24 - Nessun luogo è lontano" type="rss" xmlUrl="http://backr24.ilsole24ore.com/podcast/luogo-lontano.xml" htmlUrl="http://www.radio24.ilsole24ore.com/programma/luogo-lontano"/>
+<outline text="Radio 24 - Generazione Mobile" title="Radio 24 - Generazione Mobile" type="rss" xmlUrl="http://backr24.ilsole24ore.com/podcast/generazione-mobile.xml" htmlUrl="http://www.radio24.ilsole24ore.com/programma/generazione-mobile"/>
+    </outline>
+    <outline text="Medium" title="Medium">
+<outline text="Michaël Villar" title="Michaël Villar" type="rss" xmlUrl="https://medium.com/feed/@michaelvillar" htmlUrl="https://medium.com/@michaelvillar?source=rss-16538889bfaa------2"/>
+<outline text="🦄 Sindre Sorhus" title="🦄 Sindre Sorhus" type="rss" xmlUrl="https://blog.sindresorhus.com/feed" htmlUrl="https://blog.sindresorhus.com?source=rss----bd01b60f8f44---4"/>
+<outline text="Cubbit " title="Cubbit " type="rss" xmlUrl="https://medium.com/feed/cubbit" htmlUrl="https://medium.com/cubbit?source=rss----bc4af7b5a27f---4"/>
+<outline text="Okuna" title="Okuna" type="rss" xmlUrl="https://medium.com/feed/okuna" htmlUrl="https://medium.com/okuna?source=rss----e2725de9673d---4"/>
+    </outline>
+    <outline text="news" title="news">
+<outline text="polaroid - un blog alla radio" title="polaroid - un blog alla radio" type="rss" xmlUrl="http://feeds.feedburner.com/PolaroidUnBlogAllaRadio" htmlUrl="http://polaroid.blogspot.com/"/>
+<outline text="Freedom of the Press Foundation" title="Freedom of the Press Foundation" type="rss" xmlUrl="https://freedom.press/news/feed/" htmlUrl="https://freedom.press/news/"/>
+<outline text="Radio24 - Nessun luogo è lontano" title="Radio24 - Nessun luogo è lontano" type="rss" xmlUrl="http://backr24.ilsole24ore.com/podcast/luogo-lontano.xml" htmlUrl="http://www.radio24.ilsole24ore.com/programma/luogo-lontano"/>
+    </outline>
+    <outline text="orgs" title="orgs">
+<outline text="Mozilla Hacks" title="Mozilla Hacks" type="rss" xmlUrl="https://hacks.mozilla.org/feed/" htmlUrl="https://hacks.mozilla.org"/>
+<outline text="FSFE News" title="FSFE News" type="rss" xmlUrl="https://fsfe.org/news/news.en.rss" htmlUrl="https://fsfe.org/news/"/>
+<outline text="Michaël Villar" title="Michaël Villar" type="rss" xmlUrl="https://medium.com/feed/@michaelvillar" htmlUrl="https://medium.com/@michaelvillar?source=rss-16538889bfaa------2"/>
+<outline text="MisinfoCon" title="MisinfoCon" type="rss" xmlUrl="https://misinfocon.com/feed" htmlUrl="https://misinfocon.com?source=rss----498394f572f1---4"/>
+<outline text="Redecentralize Blog" title="Redecentralize Blog" type="rss" xmlUrl="https://redecentralize.org/blog/feed.rss" htmlUrl="https://redecentralize.org/blog/"/>
+<outline text="Italian Linux Society" title="Italian Linux Society" type="rss" xmlUrl="https://www.ils.org/rss.xml" htmlUrl="https://www.ils.org"/>
+<outline text="Okuna" title="Okuna" type="rss" xmlUrl="https://medium.com/feed/okuna" htmlUrl="https://medium.com/okuna?source=rss----e2725de9673d---4"/>
+<outline text="Associazione Stellaria" title="Associazione Stellaria" type="rss" xmlUrl="http://www.astroperinaldo.it/feed/" htmlUrl="http://www.astroperinaldo.it"/>
+    </outline>
+    <outline text="Podcast" title="Podcast">
+<outline text="Ben Ubois Podcast" title="Ben Ubois Podcast" type="rss" xmlUrl="https://benubois.com/podcast.xml" htmlUrl="https://benubois.com/"/>
+<outline text="Radio24 - Nessun luogo è lontano" title="Radio24 - Nessun luogo è lontano" type="rss" xmlUrl="http://backr24.ilsole24ore.com/podcast/luogo-lontano.xml" htmlUrl="http://www.radio24.ilsole24ore.com/programma/luogo-lontano"/>
+<outline text="Radio 24 - Generazione Mobile" title="Radio 24 - Generazione Mobile" type="rss" xmlUrl="http://backr24.ilsole24ore.com/podcast/generazione-mobile.xml" htmlUrl="http://www.radio24.ilsole24ore.com/programma/generazione-mobile"/>
+    </outline>
+    <outline text="services" title="services">
+<outline text="The Mozilla Blog" title="The Mozilla Blog" type="rss" xmlUrl="https://blog.mozilla.org/feed/" htmlUrl="https://blog.mozilla.org"/>
+<outline text="Internet Archive Blogs" title="Internet Archive Blogs" type="rss" xmlUrl="http://blog.archive.org/feed/" htmlUrl="http://blog.archive.org"/>
+<outline text="ProtonMail Blog" title="ProtonMail Blog" type="rss" xmlUrl="https://protonmail.com/blog/feed/" htmlUrl="https://protonmail.com/blog"/>
+<outline text="Internet Society" title="Internet Society" type="rss" xmlUrl="https://www.internetsociety.org/feed/" htmlUrl="https://www.internetsociety.org"/>
+<outline text="Hypothesis" title="Hypothesis" type="rss" xmlUrl="https://web.hypothes.is/feed/" htmlUrl="https://web.hypothes.is"/>
+<outline text="OpenPGP" title="OpenPGP" type="rss" xmlUrl="https://www.openpgp.org/feed.xml" htmlUrl="https://www.openpgp.org/"/>
+<outline text="LibreOps" title="LibreOps" type="rss" xmlUrl="https://libreops.cc/feed.xml" htmlUrl="https://libreops.cc/"/>
+<outline text="Internet Freedom Festival" title="Internet Freedom Festival" type="rss" xmlUrl="https://internetfreedomfestival.org/feed/" htmlUrl="https://internetfreedomfestival.org"/>
+<outline text="Philosophy &amp; Engineering" title="Philosophy &amp; Engineering" type="rss" xmlUrl="https://filinge.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="https://filinge.blogspot.com/"/>
+<outline text="Banca Etica" title="Banca Etica" type="rss" xmlUrl="https://www.bancaetica.it/rss/blog.xml" htmlUrl="https://www.bancaetica.it/"/>
+<outline text="Wikimedia Italia" title="Wikimedia Italia" type="rss" xmlUrl="https://www.wikimedia.it/feed/" htmlUrl="https://www.wikimedia.it"/>
+<outline text="Cubbit " title="Cubbit " type="rss" xmlUrl="https://medium.com/feed/cubbit" htmlUrl="https://medium.com/cubbit?source=rss----bc4af7b5a27f---4"/>
+<outline text="Okuna" title="Okuna" type="rss" xmlUrl="https://medium.com/feed/okuna" htmlUrl="https://medium.com/okuna?source=rss----e2725de9673d---4"/>
+    </outline>
+  </body>
+</opml>

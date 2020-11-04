@@ -46,7 +46,7 @@ Domani all'Ariston ci sarà _**Brunori a Teatro** - Canzoni e Dialoghi sull'Ince
 
 *Dopo un'intera giornata di continui messaggi su instagram a Brunori ed email al suo manager, il manager mi ha risposto così:*
 
-<figure><img src="/images/2018-04-26-Brunori-sa-2.jpg" alt="la risposta del manager di Brunori Sas" /><figcaption>La risposta del manager di Brunori Sas</figcaption></figure>
+<figure><img src="/images/posts/2018-04-26-Brunori-sa-2.jpg" alt="la risposta del manager di Brunori Sas" /><figcaption>La risposta del manager di Brunori Sas</figcaption></figure>
 
 *io, notando il numero di telefono nella firma, ho tentato una disperata chiamata, in cui Matteo, gentilissimo mi ha ribadito che se avesse detto a Brunori di un'intervista lo avrebbe "preso a male parole"... però, per farsi perdonare, mi ha chiesto quanti siamo in tutta la redazione di Radioimmaginaria, regalandomi tre biglietti per lo spettacolo, che è stato epico.*
 
@@ -54,7 +54,7 @@ Domani all'Ariston ci sarà _**Brunori a Teatro** - Canzoni e Dialoghi sull'Ince
 
 ### Brunori ti adoriamo tutti
 
-<figure><img src="/images/2018-04-26-Brunori-sa-1.jpg" alt="Brunori Sas immortalato nel momento più bello del suo spettacolo all’Ariston, il 27 aprile 2018" /><figcaption>Ma che bello è Darione? Scatto immortalato nel momento più bello del suo spettacolo all’Ariston, il 27 aprile 2018</figcaption></figure>
+<figure><img src="/images/posts/2018-04-26-Brunori-sa-1.jpg" alt="Brunori Sas immortalato nel momento più bello del suo spettacolo all’Ariston, il 27 aprile 2018" /><figcaption>Ma che bello è Darione? Scatto immortalato nel momento più bello del suo spettacolo all’Ariston, il 27 aprile 2018</figcaption></figure>
 
 <br />
 

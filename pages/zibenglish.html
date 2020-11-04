@@ -20,7 +20,7 @@ ref: blog
 	{% for post in site.posts %}
 		<div class="row">
 			<a href="{{ post.url }}">
-				<div class="preview flex box">
+				<div class="flex box">
 					<h2>{{ post.title }}</h2>
 					<p class="right">{{ post.date | date_to_long_string }}</p>
 					{{ post.excerpt }}

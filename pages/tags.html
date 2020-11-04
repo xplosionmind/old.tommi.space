@@ -22,7 +22,7 @@ description: "Every topic, every recurrency, anything you need to find can be fo
 	</div>
     	{% for post in site.categories[category-name] %}
 		<a href="{{ post.url }}">
-			<div class="preview box">
+			<div class="box">
 				<h2 class="title">{{ post.title }}</h2>
 				<div class="caption">
 					<p class="date">{{ post.date | date_to_long_string }}</p>

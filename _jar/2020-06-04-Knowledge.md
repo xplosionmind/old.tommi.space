@@ -1,5 +1,5 @@
 ---
-edited: 2020-10-17
+edited: 2020-11-04
 description: "I conceive knowledge as the fundamental quality of human life. It should be searched, managed, and preserved as a treasure, since it is the most valuable capability we have, together with love. Here, I collect <strong><em>meta-knowledge</em></strong> data, or better <em>Epistemology</em> annotations, which are knowledge insights about knowledge itself, and how to deal with it."
 ---
 ## Missing
@@ -10,6 +10,7 @@ What I need / have to / would love to learn, in order of urgence
 	- understanding conversion engines, `mactex`, `latex`, etc.
 	- CSS styling
 	- merge multiple `md` files into a single PDF
+1. OpenStreetMap and OSMand
 1. [SCSS](https://sass-lang.com/) 101
 1. [using fzf](https://www.youtube.com/watch?v=qgG5Jhi_Els)
 1. [The Missing Semester](https://missing.csail.mit.edu/)

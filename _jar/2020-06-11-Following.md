@@ -1,5 +1,5 @@
 ---
-edited: 2020-09-24
+edited: 2020-11-04
 description: "There’so much content, online. This is a comprehensive list of stuff I follow on the internet."
 redirect_from:
   - /telegram-following
@@ -18,12 +18,17 @@ Content which is in italian has its description in italian
 
 Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS). I think the whole world should evolve around it. Such a clever, useful, simple, neat, old but solid technology anybody should know. Click on the following link to download my feed (all the RSS Feeds I subscribed to).
 
-[**My Feed**](/assets/feed.opml) - updated 2020.09.16
+[**My Feed**](/assets/subscriptions.xml) - updated on Nov 4<sup>th</sup>, 2020
 
 <br>
 <br>
 
 ## Telegram
+
+My Telegram channels:
+
+- [Maledetto Sia Copernico!](https://t.me/maledettocopernico), occasional notable quick thoughts and links
+- [Internet Awesomeness](https://t.me/internet_awesomeness), links of resources, websites and great stuff from the internet.
 
 ### Telegram channels
 
@@ -34,6 +39,7 @@ Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS). I think the whole world s
 - [Ciwati](https://t.me/ciwati), canale di [Pippo Civati](https://www.ciwati.it/)
 - [Il Post Official](https://t.me/ilpost_official), aggiornamenti di tutti gli articoli pubblicati su [Il Post](https://ilpost.it). Nota: ho scritto “official” perché esiste anche un canale non ufficiale; vi invito a seguire questo, che è gestito direttamente dai giornalisti del Post.
 - [Ethical Hacker italiani](https://t.me/ethicalhackeritaliani), Pillole giornaliere di RETI-SICUREZZA-ETHICAL HACKING. Ogni giorno una pillola informativa focalizzata su tematiche inerenti le RETI INFORMATICHE, la CYBER-SECURITY e HACKING ETICO.
+- [Ghemon scrive…](https://t.me/ghemonofficial), con tutti i pensieri del grandissimo [Ghemon](https://it.wikipedia.org/wiki/Ghemon)
 - [Ministero della Salute](https://t.me/MinisteroSalute), notizie, aggiornamenti e informazioni ufficiali dal [Ministero della Salute](http://salute.gov.it/) italiano.
 - [Mostly, I write](https://t.me/mostlyiwrite), di [Andonio Dini](http://antoniodini.com/).
 

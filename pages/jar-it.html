@@ -23,7 +23,7 @@ ref: jar
 	{% for note in jar %}{% unless note.hide == '1' %}
 		<div class="row">
 			<a href="{{ note.url }}">
-				<div class="preview flex box">
+				<div class="flex box">
 					<h2>{{ note.title }}</h2>
 					<p class="right">{{ note.edited }}</p>
 					<p>{{ note.description }}</p>

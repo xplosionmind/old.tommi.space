@@ -2,7 +2,7 @@
 permakink: /bugs
 redirect_from:
   - /feature-requests
-edited: 2020-10-15
+edited: 2020-11-04
 description: "I use mostly open source apps in active developement. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a complete blog post for a feature request. Thus, in this list I quickly note all the toughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports."
 ---
 ## Joplin
@@ -26,10 +26,20 @@ description: "I use mostly open source apps in active developement. Often, I not
 - don’t create the `_resources` folder when exporting a note which hasn't any attachments
 - Toggle an automatic table of content creation
 - Support for YAML front matter
+- Implement split view: two different notes side by side
 
 ### Bugs
 
 - `cmd + E` works only to switch external editing on, not to turn it off
+
+<br>
+<br>
+
+## Zettlr
+
+[Zettlr](https://www.zettlr.com) is the best Markdown editor out there.
+
+- Implement split view: two different notes side by side
 
 <br>
 <br>
