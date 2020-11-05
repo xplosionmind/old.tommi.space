@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 {% if page.lang == 'it' %}
 <html lang="it">
@@ -8,7 +11,9 @@
 <script type="text/javascript">
 function darktoggle() {
 	var element = document.body;
-	element.classList.toggle("light"); }</script>
+	element.classList.toggle("light");
+};
+</script>
 
 {% seo %}
 
@@ -17,8 +22,9 @@ function darktoggle() {
 <link rel="stylesheet" href="/fonts/Inter/Inter.css" type="text/css" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="mobile-web-app-capable" content="yes" />
-<link rel="icon" href="/logos/favicon.svg" sizes="32x32" />
-<link rel="icon" href="/logos/favicon.svg" sizes="192x192" />
+<link rel="icon" href="/logos/favicon32.png" sizes="32x32" />
+<link rel="icon" href="/logos/favicon64.png" sizes="64x64" />
+<link rel="icon" href="/logos/favicon.png" sizes="160x160" />
 <meta name="apple-mobile-web-app-status-bar-style" content="{{ page.primary }}">
 <meta name="theme-color" content="{{ page.primary }}" />
 <meta property="og:type" content="website" />

@@ -8,14 +8,14 @@ layout: wrapper
 		<p class="last-modified">{% case page.lang %}{% when 'it' %}ultima modifica: <time class="dt-updated">{{ page.last_modified_at | date: '%d %b %Y alle %H:%M' }}</time>{% else %}latest edit: <time class="dt-updated">{{ page.last_modified_at | date: '%d %b %Y at %l:%M %p' }}</time>{% endcase %}</p>
 	</div>
 
-	{% include post-tags.html %}
-
-	{% if page.toc == '1' %}
+	{% unless page.toc == '0' %}
 		<div class="row toc">
 			<h2>{% case page.lang %}{% when 'it' %}Indice{% else %}Table of contents{% endcase %}</h2>
 			{% include toc.html html=content %}
 		</div>
-	{% endif %}
+	{% endunless %}
+	
+	{% include post-tags.html %}
 
 	<div class="row">
 			<article class="e-content note">

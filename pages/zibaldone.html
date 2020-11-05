@@ -8,7 +8,7 @@ redirect_from:
 lang: it
 ref: blog
 ---
-<div class="one column">
+<div id="feed" class="one column">
 	<div class="page-header row">
 		<h1>Zibaldone</h1>
 		<p>Poco a che vedere con la saggezza e la serietà dell’omonimo leopardiano, qui un po’ più di allegria e stupidaggini.</p>
@@ -24,7 +24,6 @@ ref: blog
 				<div class="flex box">
 					<h2>{{ post.title }}</h2>
 					<p class="right">{{ post.date | date_to_long_string }}</p>
-					{{ post.excerpt }}
 				</div>
 			</a>
 		</div>

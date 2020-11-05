@@ -8,7 +8,7 @@ redirect_from:
 lang: en
 ref: blog
 ---
-<div class="one column">
+<div id="feed" class="one column">
 	<div class="page-header row">
 		<h1>Zibaldone</h1>
 		<p><em>Zibaldone di Pensieri</em> is a great collection of notes by the great italian author Giacomo Leopardi. These writings don’t have even a tiny bit of profoundness, power and wit of the original collection. Just a touch of glee, craziness of my everyday life.</p>
@@ -23,7 +23,6 @@ ref: blog
 				<div class="flex box">
 					<h2>{{ post.title }}</h2>
 					<p class="right">{{ post.date | date_to_long_string }}</p>
-					{{ post.excerpt }}
 				</div>
 			</a>
 		</div>

@@ -50,11 +50,11 @@ Work in progress contents:
 
 This is a list. It's sorted by **priority**, not amount of work). Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
-1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for ([dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp))
-1. restyle and improve management of sticky headings in `article`
+1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for
+	- [dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp)
 1. **Categories**
 	- ~~move categories specifications to `_data`~~
-	- ~~add categories to The Jar~~
+	- add categories to The Jar notes
 	- ~~in every post, show the categories to which it belongs~~
 	- create unique page for all categories, anchor to choose a single one **to be improved**:
 		1. Fix some categories which are repeated multiple times
@@ -66,10 +66,8 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 		1. [article 2](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins)
 		1. Configure [jTag](https://github.com/ttscoff/jtag)
 1. Take the most advantage possible from installed plugins
-1. Update `cursor.svg` (make it a little ball)
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
 1. Thumbnails in Zibaldone’s feed
-1. Update `favicon.svg`
 1. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
 1. [**Visioni**](/visioni)
 	- <https://github.com/maxvoltar/photo-stream>

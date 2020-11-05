@@ -2,9 +2,9 @@
 ---
 :root {
 	--black-ish: #222;
-	--white-ish: #EEE;
+	--white-ish: #E3E3E3;
 	--dark-grey: #333;
-	--light-grey: #CECECE;
+	--light-grey: #CCC;
 	--yellow: #FCC920;
 	--blue: #3185FC;
 	--red: #D00;
@@ -46,7 +46,7 @@ html {
 body {
 	--background: var(--black-ish);
 	--text: var(--white-ish);
-	--deep: white;
+	--deep: #111;
 	--link: var(--primary);
 	--primary: var(--yellow);
 	--secondary: var(--blue);
@@ -56,6 +56,7 @@ body {
 	--little-shadow: 2px 2px 3px #000000FF, -2px -2px 3px #FFFFFF22;
 	--button-shadow: 3px 3px 8px #000000BB, -3px -3px 8px #FFFFFF22;
 	--inner-shadow: inset 3px 3px 5px #00000088, inset -3px -3px 5px #FFFFFF22;
+	--inner-little-shadow: inset 2px 2px 3px #000000AA, inset -2px -2px 3px #FFFFFF11;
 
 	transition: var(--trans);
 }
@@ -64,7 +65,7 @@ body {
 .light {
 	--background: var(--white-ish);
 	--text: var(--black-ish);
-	--deep: black;
+	--deep: white;
 	--link: var(--secondary);
 	--primary: var(--blue);
 	--secondary: var(--razzmatazz);
@@ -74,6 +75,7 @@ body {
 	--little-shadow: 2px 2px 3px #00000055, -2px -2px 3px #FFFFFF66;
 	--button-shadow: 3px 3px 8px #00000055, -3px -3px 8px #FFFFFF66;
 	--inner-shadow: inset 3px 3px 5px #00000055, inset -3px -3px 5px #FFFFFF33;
+	--inner-little-shadow: inset 2px 2px 3px #00000022, inset -2px -2px 3px #FFFFFF33;
 
 	transition: var(--trans);
 }
@@ -129,7 +131,6 @@ mark {
 
 .top {
 	right: 3%;
-	z-index: 3;
 }
 
 .theme-toggle {
@@ -170,6 +171,10 @@ a {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+}
+
+#feed > .flex {
+	justify-content: space-between;
 }
 
 .vertical {
@@ -286,16 +291,13 @@ ul li {
 
 .toc {
 	margin: 0 10% var(--regular);
-	ul li {
-	margin-bottom: var(--small);
+	li li a {
+		color: var(--secondary);
 	}
 }
 
 .anchor {
-	height: var(--big);
-	position: absolute;
-	right: 101%; /* big + tiny*/
-	top: .75rem;
+	height: var(--regular-more);
 }
 
 pre,
@@ -311,14 +313,13 @@ pre {
 	border-radius: var(--radius-m);
 	box-shadow: var(--inner-shadow);
 	code {
-		background: transparent;
+		box-shadow: unset;
 	}
 }
 
 code {
-	padding: 2px var(--small);
-	background: var(--grey);
-	box-shadow: var(--inner-shadow);
+	padding: 2px 9px;
+	box-shadow: var(--inner-little-shadow);
 	border-radius: var(--radius-s);
 }
 
@@ -477,7 +478,6 @@ figcaption {
 
 .right {
 	text-align: right;
-	align-self: flex-end;
 }
 
 p {
@@ -496,17 +496,18 @@ u {
 article {
 	font-size: var(--regular-more);
 	padding: var(--twice) 10% var(--mastodon);
-	h2, h3, h4, h5, h6 {
-		background: var(--background);
-		position: sticky;
-		line-height: var(--height);
-		top: var(--mastodon);
-		margin-bottom: 0;
-	}
 }
 
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
+	&:hover {
+		.anchor {
+			display: inline-block;
+		}
+	}
+	.anchor {
+		display: none;
+	}
 }
 
 .title {
@@ -518,17 +519,6 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: var(--radius-m);
 	box-shadow: var(--button-shadow);
 	text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	&:hover {
-		.anchor {
-			opacity: 1;
-		}
-	}
-	.anchor {
-		opacity: 0;
-	}
 }
 
 h1 {
@@ -554,6 +544,7 @@ h2 {
 	overflow: scroll;
 	h2 {
 		text-align: center;
+		margin-top: 0;
 	}
 }
 
@@ -603,28 +594,27 @@ footer {
 	}
 	p {
 		opacity: .7;
-		margin: var(--big) auto 0;
-		&:hover {
-			opacity: 1;
-		}
+		&:hover,
 		&:focus {
 			opacity: 1;
 		}
 	}
-	.one-fifth {
-		margin-top: var(--regular-more)
+	img {
+		border-radius: 0;
+		margin: auto;
 	}
 }
 
 /* HEADER */
 .navigation {
+	position: absolute;
 	top: .7rem;
 	width: 96%;
 	left: 2%;
 	height: var(--height);
-	position: fixed;
 	text-transform: uppercase;
 	font-weight: 700;
+	z-index: 9;
 	* {
 		border-radius: var(--radius-m);
 	}
@@ -860,11 +850,6 @@ button,
 #license {
 	font-size: .8em;
 	font-weight: 200;
-}
-
-#CClogo {
-	height: 1.2em;
-	opacity: .7;
 }
 
 .embed-container {
