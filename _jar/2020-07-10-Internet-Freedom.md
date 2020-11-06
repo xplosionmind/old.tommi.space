@@ -68,6 +68,7 @@ Random links about privacy online
     1. Delete unused accounts and subscriptions
     1. Use [AnonAddy](https://anonaddy.com) only for online subscriptions
 1. Check policies, usage terms, privacy conditions of all the tools and services in use
+1. Improve [PGP keys management](https://keys.openpgp.org)
 1. Self-host `@tommi.space` email addresses
 	1. [Setup a mail server](/server#mail-server)
 	1. Completely switch to self-hosted mail server

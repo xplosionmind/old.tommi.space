@@ -1,6 +1,6 @@
 ---
 permalink: /development
-edited: 2020-11-04
+edited: 2020-11-06
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 redirect_from:
   - /development-roadmap
@@ -17,6 +17,7 @@ redirect_from:
 - `EB Garamond` and `Ubuntu Mono` includes
 - language loop in language selection
 - Parsing error in jar list elements with `a` tags
+- SASS partials
 
 <br>
 <br>
@@ -50,8 +51,6 @@ Work in progress contents:
 
 This is a list. It's sorted by **priority**, not amount of work). Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
-1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for
-	- [dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp)
 1. **Categories**
 	- ~~move categories specifications to `_data`~~
 	- add categories to The Jar notes
@@ -61,11 +60,14 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 		1. Display Jar elements in tags list
 		1. choose once and for all **`tags`** VS **`categories`**
 		1. ~~Access category data (such as color, bg-color, description) from the *_data* folder~~
+		1. Use [jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen) to generate categories pages
 		1. Check [this plugin](https://github.com/field-theory/jekyll-category-pages))
 		1. [article 1](https://blog.webjeda.com/jekyll-categories/)
 		1. [article 2](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins)
 		1. Configure [jTag](https://github.com/ttscoff/jtag)
 1. Take the most advantage possible from installed plugins
+1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for
+	- [dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp)
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
 1. Thumbnails in Zibaldone’s feed
 1. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
@@ -77,6 +79,9 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 	- PDF portfolio download
 1. Make `EB Garamond` and `Ubuntu Mono` work
 1. a timeline like [Jeremy gordon's](https://jgordon.io) or [jack.works](https://web.archive.org/web/20200513054829/http://jack.works/)
+1. Content history
+	- now page
+	- About page
 1. Convert some Jar elements to `_data` files
 	- Quotes
 	- Parole
@@ -85,6 +90,8 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 	- Resources
 	- rimm-db
 1. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)
+1. [improve header](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
+1. Make [about](/home#about) a page
 1. Improve `blockquote`s; some insights:
 	- <https://codepen.io/valentingalmand/pen/doJvRR>
 	- <https://codepen.io/joshuajcollinsworth/pen/obbvYQ>
@@ -106,6 +113,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 1. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
 1. Better and more use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
 	- `.box` and `.stuff` max heights
+1. A page which contains links to ALL PAGES (a sitemap?)
 1. Evaluate [switching to CommonMark](https://commonmark.org)
 1. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
 1. **Sorting** / **filtering** (using JavaScript?)

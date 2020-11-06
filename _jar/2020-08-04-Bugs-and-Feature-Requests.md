@@ -2,7 +2,7 @@
 permakink: /bugs
 redirect_from:
   - /feature-requests
-edited: 2020-11-04
+edited: 2020-11-06
 description: "I use mostly open source apps in active developement. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a complete blog post for a feature request. Thus, in this list I quickly note all the toughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports."
 ---
 ## Joplin
@@ -49,9 +49,16 @@ description: "I use mostly open source apps in active developement. Often, I not
 [Signal](https://signal.org) is the most secure and private messaging app in the world
 
 - markdown syntax (or any text formatting capability)
-- voice note playback also when app is in the background (Telegram-like player)
-- play two or more consequent audios consequently, without having to press play twice or more
 - setting to choose to automatically download media
+
+<br>
+<br>
+
+## Cubbit
+
+[Cubbit](https://cubbit.io) is a great decentralized cloud. I'm among the first backers and I love it.
+
+- Possibility to use a custom domain
 
 <br>
 <br>
