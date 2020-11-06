@@ -1,5 +1,5 @@
 ---
-edited: 2020-11-04
+edited: 2020-11-07
 description: "This awesome and revolutionary tool we call the Internet is so powerful that it's becoming a threat to the freedom of the average user, who, in exchange for services, hands over his/her data, therefore giving up personal independence and liberty.<br /><br />Here are noted various arguments, thoughts, speeches, documents, ideas and step-by-step guides to achieve <strong>a healthier online experience</strong>"
 redirect_from:
   - /internet-freedom-notes
@@ -64,6 +64,7 @@ Random links about privacy online
     1. Check `Shared with me` folder
 1. Reduce the [digital footprint](https://en.wikipedia.org/wiki/Digital_footprint)
     1. Stop using pricey and unethical services
+		1. Switch from [Flickr](https://flickr.com) to [Piwigo](https://piwigo.com/) (70€/year vs 96€/3-years)
         1. [Quit Spotify](#quit-spotify)
     1. Delete unused accounts and subscriptions
     1. Use [AnonAddy](https://anonaddy.com) only for online subscriptions

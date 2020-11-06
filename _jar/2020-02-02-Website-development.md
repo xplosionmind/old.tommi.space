@@ -1,6 +1,6 @@
 ---
 permalink: /development
-edited: 2020-11-06
+edited: 2020-11-07
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 redirect_from:
   - /development-roadmap
@@ -73,6 +73,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 1. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
 1. [**Visioni**](/visioni)
 	- <https://github.com/maxvoltar/photo-stream>
+	- <http://benschwarz.github.io/gallery-css/>
 	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/)
 	- Photo selection
 	- horizontal instead of vertical scrolling of the gallery
@@ -123,10 +124,6 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
     - Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
     - Setup [Webmention.io](https://webmention.io/)
     - Setup [Bridgy](https://brid.gy/)
-1. Flickr APIs for embedded/integrated/automated galleries
-    - use [FlickrEmbed](https://flickrembed.com/)
-    - or use [Flickr APIs](https://www.flickr.com/services/api/)
-    - or use [simpler embedding](https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX)
 1. Includes with `CC0` and `All-rights-reserved` to add in specific pages
 1. Colour palattes improvement
 
