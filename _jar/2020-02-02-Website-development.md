@@ -1,6 +1,6 @@
 ---
 permalink: /development
-edited: 2020-11-07
+edited: 2020-11-10
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 redirect_from:
   - /development-roadmap
@@ -8,9 +8,11 @@ redirect_from:
   - /wip
   - /issues
   - /improvements
+  - /dev
 ---
 ## Not Working
 
+- **Dropdown menu toggle**
 - global `permalink` configuration in `_config.yml`
 - Tags page color display errors
 - Article displayed in a category they don't belong to in [Tags page](/tags)
@@ -30,14 +32,14 @@ Work in progress contents:
 - [Giri da spettatore](/giri)
 - [Playlist](/playlist)
 - [Cinema](/cinema)
-- [Slots Philosophy](/slots)
+- The [Slots Philosophy](/slots)
 - add a “première” section to the [Everyone](./everyone) page
 - [Around the World](/places)
     - Alternanza Scuola-Lavoro
     - date ospiti Giffoni cineforum
     - Incontri Masterclass
     - Film in concorso Giffoni
-    - [**spettatore**](/giri)
+    - [**giri**](/giri)
         - opera
         - teatro
         - concerti
@@ -69,7 +71,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for
 	- [dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp)
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
-1. Thumbnails in Zibaldone’s feed
+1. Thumbnails in Zibaldone's feed
 1. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
 1. [**Visioni**](/visioni)
 	- <https://github.com/maxvoltar/photo-stream>
@@ -102,19 +104,21 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
     - [Custom font](https://tommi.space/Typography#Custom-font)
 1. [Mailtrain](https://mailtrain.org/) setup
 1. RSS Feeds management
-	- one feed for every collection
+    - Atom feed vs RSS
     - [customize `feed.xml`](https://stackoverflow.com/questions/12902840/how-to-add-a-permalink-to-a-jekyll-rss-feed)
+    - feeds:
+        - Poetry
+        - Italian posts
+        - English posts
+        - The Jar
 1. Mailtrain automation with RSS
 1. Hosting on [server](/server) instead of using [Netlify](https://netlify.com)
     - Analytics (temporarily set up with [Goatcounter](https://goatcounter.com))
-1. Poetry
-    - ~~section instead of category~~
-    - ~~custom styling~~
-    - custom feed
 1. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
-1. Better and more use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
+1. Improved and smart use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
 	- `.box` and `.stuff` max heights
 1. A page which contains links to ALL PAGES (a sitemap?)
+1. Add at the end of each page a list of all the other pages of the website (and maybe of the whole web, with Webmentions (see below)) which link to the current page.
 1. Evaluate [switching to CommonMark](https://commonmark.org)
 1. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
 1. **Sorting** / **filtering** (using JavaScript?)
@@ -124,8 +128,8 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
     - Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
     - Setup [Webmention.io](https://webmention.io/)
     - Setup [Bridgy](https://brid.gy/)
-1. Includes with `CC0` and `All-rights-reserved` to add in specific pages
-1. Colour palattes improvement
+1. Includes with `CC0` and `All rights reserved` to be added is specific pages
+1. Color palettes improvement
 
 <br>
 <br>
@@ -136,7 +140,7 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 
 - [Jekyll image processing](https://github.com/benubois/jekyll_image_processing)
 - [Titles from headings](https://github.com/benbalter/jekyll-titles-from-headings)
-- [Polyglot](https://polyglot.untra.io/), to easily make Jekyll multilanguage
+- [Polyglot](https://polyglot.untra.io/), to easily make Jekyll multi-language
 - [Jekyll picture tag](https://github.com/rbuchberger/jekyll_picture_tag), responsive images
 - [Responsive images](https://github.com/wildlyinaccurate/jekyll-responsive-image)
 - [Jekyll Ordinal](https://github.com/patrickcate/Jekyll-Ordinal)
@@ -207,6 +211,9 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 	1. use [Eva icons](https://jekyllrb.com/docs/pagination/)
 - [Now page](https://sivers.org/now)
 - page image preview when sending link, see the [Open Graph Protocol](https://ogp.me/)
+- Poetry
+    - ~~section instead of category~~
+    - ~~custom styling~~
 - Privacy Policy
 - RSS Feed
 - separate website/repo/domain for web and online resources or for geek stuff in general (configured as _[The Jar](https://xplosionmind.tk/jar)_)
