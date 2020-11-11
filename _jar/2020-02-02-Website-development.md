@@ -1,6 +1,6 @@
 ---
 permalink: /development
-edited: 2020-11-10
+edited: 2020-11-11
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 redirect_from:
   - /development-roadmap
@@ -24,9 +24,9 @@ redirect_from:
 <br>
 <br>
 
-## WIP
+## Incomplete Content
 
-Work in progress contents:
+Work in progress content:
 
 - [Making this website](/themakingof) article
 - [Giri da spettatore](/giri)
@@ -44,6 +44,7 @@ Work in progress contents:
         - teatro
         - concerti
         - conferenze
+- Add “Love„ Jar item, with all of the definitions of love.
 - [drafts](./_drafts)
 
 <br>
@@ -68,6 +69,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 		1. [article 2](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins)
 		1. Configure [jTag](https://github.com/ttscoff/jtag)
 1. Take the most advantage possible from installed plugins
+1. Access categories colors from posts and jar lists (change the color slightly also for every entry which is untagged)
 1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for
 	- [dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp)
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
@@ -129,6 +131,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
     - Setup [Webmention.io](https://webmention.io/)
     - Setup [Bridgy](https://brid.gy/)
 1. Includes with `CC0` and `All rights reserved` to be added is specific pages
+1. Switch to [Hugo](https://gohugo.io)
 1. Color palettes improvement
 
 <br>
