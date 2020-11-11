@@ -238,6 +238,11 @@ ul li {
 	}
 }
 
+hr {
+	color: transparent;
+	border-top: 7px dotted var(--grey);
+}
+
 .line {
 	width: 20%;
 	height: var(--small);
