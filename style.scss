@@ -231,9 +231,11 @@ ul li {
 	font: 400 var(--regular-more) Garamond, "Simoncini Garamond", "EB Garamond", Georgia, serif;
 }
 
-.post > p:first-of-type::first-letter {
-	initial-letter: 3;
-	-webkit-initial-letter: 3;
+.post {
+	& > p:first-of-type::first-letter {
+		initial-letter: 4;
+		-webkit-initial-letter: 4;
+	}
 }
 
 .line {
@@ -602,6 +604,9 @@ footer {
 	img {
 		border-radius: 0;
 		margin: auto;
+	}
+	& > .row {
+		justify-content: space-between;
 	}
 }
 
