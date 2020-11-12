@@ -1,11 +1,13 @@
 ---
-edited: 2020-11-04
+edited: 2020-11-12
 description: "I conceive knowledge as the fundamental quality of human life. It should be searched, managed, and preserved as a treasure, since it is the most valuable capability we have, together with love. Here, I collect <strong><em>meta-knowledge</em></strong> data, or better <em>Epistemology</em> annotations, which are knowledge insights about knowledge itself, and how to deal with it."
 ---
 ## Missing
 
 What I need / have to / would love to learn, in order of urgence
 
+1. Markdown
+	- inline classes
 1. [Pandoc](https://pandoc.org/)
 	- understanding conversion engines, `mactex`, `latex`, etc.
 	- CSS styling
