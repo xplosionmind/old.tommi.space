@@ -1,6 +1,6 @@
 ---
 permalink: /development
-edited: 2020-11-11
+edited: 2020-11-12
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 redirect_from:
   - /development-roadmap
@@ -72,6 +72,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 1. Access categories colors from posts and jar lists (change the color slightly also for every entry which is untagged)
 1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for
 	- [dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp)
+1. Consider implementing [Obsidian Publish](https://obsidian.md/publish) or replace [The Jar](/jar) with it
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
 1. Thumbnails in Zibaldone's feed
 1. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
