@@ -284,10 +284,6 @@ hr {
 	color: white !important;
 }
 
-.mobile.box {
-	margin-top: 8rem;
-}
-
 .page-header {
 	h1 {
 		font-size: var(--mastodon);
@@ -623,10 +619,8 @@ footer {
 
 /* HEADER */
 .navigation {
-	position: absolute;
-	top: .7rem;
+	margin: .7rem 2% var(--mastodon);
 	width: 96%;
-	left: 2%;
 	height: var(--height);
 	text-transform: uppercase;
 	font-weight: 700;
@@ -719,8 +713,8 @@ nav {
 	height: var(--height);
 	width: var(--height);
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: .7rem;
+	right: .7rem;
 	background: var(--background);
 	box-shadow: var(--shadow);
 }
