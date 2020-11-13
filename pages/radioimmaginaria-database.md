@@ -234,3 +234,13 @@ Il mio ultimo evento e la mia ultima puntata da speaker di Radioimmaginaria
 
 - [best of](https://www.spreaker.com/user/ariaimmaginaria/bruxelles-unione-europea)
 - [puntata completa](https://www.spreaker.com/user/ariaimmaginaria/catcheyou-from-brussels)
+
+<br />
+
+## Inbucato
+
+Puntate in cui mi sono infilato, dopo aver abbandonato la radio, come ospite oppure semplicemente per rompere le scatole
+
+- 2018.12.15 Benetton Milano
+- 2019.08.30 Everyone
+- 2019.08.30 Everyone <mark>you2</mark>
