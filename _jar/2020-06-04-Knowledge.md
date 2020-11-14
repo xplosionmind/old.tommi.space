@@ -1,6 +1,8 @@
 ---
 edited: 2020-11-13
 description: "I conceive knowledge as the fundamental quality of human life. It should be searched, managed, and preserved as a treasure, since it is the most valuable capability we have, together with love. Here, I collect <strong><em>meta-knowledge</em></strong> data, or better <em>Epistemology</em> annotations, which are knowledge insights about knowledge itself, and how to deal with it."
+redirect_from:
+  - /learn
 ---
 ## Missing
 
@@ -13,6 +15,7 @@ Actually, I don't need to learn these things only, but here I note the main thin
 	- Flavors and conversions
 1. [Pandoc](https://pandoc.org/)
 	- understanding conversion engines, `mactex`, `latex`, etc.
+	- understanding citation method
 	- CSS styling
 	- merge multiple `md` files into a single PDF
 1. [git](https://git-scm.com)
