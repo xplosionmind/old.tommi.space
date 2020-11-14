@@ -43,8 +43,8 @@ I need to access to everything everywhere, anytime. (actually, accessing stuff f
 Jekyll uses Kramdown, Zettlr uses mainly Pandoc, and it isn't clear what Joplin uses: there are a ton of flavors of Markdown, and even more rendering engines. I want to be able to use the same features everywhere; I may just adapt to the CommonMark standard, but it lacks features which are very important to me, such as the ability to add classes to any tag, which, among the ones listed before, only Kramdown has.
 1. **Conversion**   
 let's be honest: I can say Markdown is simple and wonderful as much as I want, but almost nobody knows it outside the geeks circle. I want to be able to quickly and neatly convert any of my notes, mainly in `.pdf`, `.docx`, `.odt` and `.html`; I can do this with Pandoc, of course, but I want it to be as painless and seamless as possible.
-1. **Inter-operability**   
-ideally, I'd love to come up with a system which in some way includes **analogic note-taking**, too. The idea is to develop a workflow which is a way in the middle between Niklas Luhmann's one and the digital one.
+1. **Versatility**  
+from this point of view, I'm very demanding. My aim is to come up with a method to include in my Zettelkasten different content formats on different devices: I'd love to be able to link notes I write by pen on my notebook, as well as voice notes recorded on my phone, and be able to reference them seamlessly in my markdown files.
 1. **Simplicity**   
 if I need to share some content with somebody, or to suggest my system to a friend, it has to be powerful and complete, yet simple and easy to understand.
 1. **Metadata**   
