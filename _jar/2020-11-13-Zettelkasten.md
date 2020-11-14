@@ -6,7 +6,7 @@ redirect_from:
   - /knowldege-management
   - /data-management
 related:
-  - /zettelkasten
+  - /switch-to-zettelkasten
 ---
 Zettelkasten is a system for storing and accessing notes invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann "Niklas Luhmann on Wikipedia"). I'm very fascinated by its underlying philosophy and approach which I'd love to take advantage of, but I'm still learning and it will take quite a lot of time to fully commit to it.
 
@@ -23,7 +23,7 @@ Zettelkasten is a system for storing and accessing notes invented by [Niklas Luh
 
 - [Zettelkasten for researchers](https://www.seanlawson.net/2017/09/zettelkasten-researchers-academics/)
 - [How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
--
+- [Zettelkasten with Typora](https://stoweboyd.com/post/190446627182/building-a-zettelkasten-in-typora)
 
 ## Software
 

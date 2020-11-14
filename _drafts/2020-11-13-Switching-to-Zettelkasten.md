@@ -58,6 +58,13 @@ one feature which made me stick with Google Keep before and Joplin later is the 
 
 Here we are. Now it's time to switch to [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), the great method invented and used by that genius of [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann). I won't focus on what it is and how it works, there are several great explanations which I listed in [the Zettelkasten Jar item](/zettelkasten).
 
+### Drawbacks
+
+- It's hard to abandon the beloved and evergreen **folder structure**:   
+for Zettelkasten to be effective, you need to loosen the rigid structure used by folders. A better explanation of why and how is in [this medium post](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6)
+- Zettelkasten [**can be dangerous**](https://medium.com/@nickmilo22/my-pkm-story-3763985b7a3e) and counter-productive:   
+you have to manage your knowlegde in the right way, which is not the *only* way. If you don't care about the effectiveness of your system and filling it with random stuff, it may blow up.
+
 First of all, let's immediatly point out that the best app created up to now with a specific focus on Zettelkasten is [Obsidian](https://obsidian.md). It's very recent and it has a few controversies, specially about the fact that it's independently developed but not open source. Nevertheless, we're focusing on the system, not the app. With a few adaptations, the software can change in the future.
 
 ### Moving out of previous systems
