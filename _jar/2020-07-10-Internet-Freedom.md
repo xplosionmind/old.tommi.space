@@ -59,6 +59,7 @@ Random links about privacy online
 ## Roadmap
 
 1. [**Quit Social Media**](https://quitsocialmedia.club/roadmap)
+	- Convert to [Indie Web](https://indieweb.org)
 1. Backup, download, reorganize and clean data from Google Drive
     1. Check `Storage` folder
     1. Check `Shared with me` folder
@@ -66,6 +67,8 @@ Random links about privacy online
     1. Stop using pricey and unethical services
 		1. Switch from [Flickr](https://flickr.com) to [Piwigo](https://piwigo.com/) (70€/year vs 96€/3-years)
         1. [Quit Spotify](#quit-spotify)
+	1. Quit [IMDb](https://www.imdb.com/user/ur90419107/) and opt to a ethical alternative
+		- consider [TMDb](https://f-droid.org/packages/com.ulicae.cinelog/)
     1. Delete unused accounts and subscriptions
     1. Use [AnonAddy](https://anonaddy.com) only for online subscriptions
 1. Check policies, usage terms, privacy conditions of all the tools and services in use
@@ -95,6 +98,15 @@ These are further improvements which aren't likely to be achieved in the near fu
 Quitting Spotify is hard.
 
 It's **very** hard, not only because it's convenient and easy to use, mostly because almost everyone else uses it, thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. Therefore, quitting and finding another tool to listen to music isn't enough: it's necessary to replace the playlist creation and sharing workflow while keeping it accessible and easy to experience for anybody.
+
+### why
+
+Why quitting?
+
+- [Criticism of Spotify](https://en.m.wikipedia.org/wiki/Criticism_of_Spotify) on Wikipedia
+- It costs
+
+### Roadmap
 
 1. Find the optimal [NewPipe](https://newpipe.schabi.org/) configuration.
 	- How to listen to whole albums

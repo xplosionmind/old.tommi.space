@@ -72,7 +72,10 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 1. Access categories colors from posts and jar lists (change the color slightly also for every entry which is untagged)
 1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for
 	- [dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp)
-1. Consider implementing [Obsidian Publish](https://obsidian.md/publish) or replace [The Jar](/jar) with it
+1. Switch to a [Zettelkasten approach](/zettelkasten)
+	- how to convert Zetelkasten links to ordinary links
+	- implement backlinking
+		- [simply-jekyll](https://github.com/raghuveerdotnet/simply-jekyll), a template with backlinking setup
 1. [Pagination](https://jekyllrb.com/docs/pagination/)
 1. Thumbnails in Zibaldone's feed
 1. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin

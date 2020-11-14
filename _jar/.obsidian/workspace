@@ -1,0 +1,81 @@
+{
+  "main": {
+    "id": "31e5475ba01a65fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa055ea983f5186b",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "81f1efe01d8573ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "34f74fc75c8de007",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65337dcd7bb3a889",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c18afcb1f3df1245",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "e8d0437de1ee9fe4",
+    "type": "split",
+    "children": [
+      {
+        "id": "03b6924a0fd8e11c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b2c77a1c759f49a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "2020-04-22-Colors.md",
+    "2020-05-12-Typography.md",
+    "2020-05-12-Design.md",
+    "2020-05-07-Cheat-Sheets.md",
+    "2020-02-04-Tutto.md"
+  ]
+}

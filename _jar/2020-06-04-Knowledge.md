@@ -48,12 +48,4 @@ When the basics aren't enough.
 
 Managing knowledge; systems, ideas, suggestions, methods.
 
-### Zettelkasten
-
-Zettelkasten is a system for storing and accessing notes invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann "Niklas Luhmann on Wikipedia"). I'm very fascinated by its underlying philosophy and approach which I'd love to take advantage of, but I'm not using this system very much as of right now.
-{:.box }
-
-- [The Zettelkasten Manifesto](https://youtu.be/c5Tst3-zcWI)
-- Highlights (by me) on [Wtf is a Zettelkasten?](https://via.hypothes.is/https://www.zettlr.com/post/what-is-a-zettelkasten)
-- [Zettelkasten on Wikipedia](https://en.wikipedia.org/wiki/Zettelkasten)
-- [Obsidian](https://obsidian.md), a fresh, recent, powerful and intriguing Zettlekasten-based app.
+- Using the [Zettelkasten](/zettelkasten) approach
