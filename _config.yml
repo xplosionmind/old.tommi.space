@@ -39,6 +39,7 @@ podcast:
   logo: ""
   type: "episodic"
   complete: "yes"
+  block: "no"
 kramdown:
   syntax_highlighter_opts:
     default_lang: zsh
@@ -127,6 +128,7 @@ defaults:
       lang: it
       permalink: /sconnesso/:title
       primary: "var(--purple)"
+      author: "Tommi"
       categories: "sconnesso"
       episodeType: "full"
       explicit: "no"

@@ -1,5 +1,7 @@
 ---
 layout: null
+permalink: /feed-sconnesso
+title: "Feed Sconnesso - Podcast"
 ---
 <?xml version='1.0' encoding='utf-8'?>
 <rss version='2.0' xmlns:content='http://purl.org/rss/1.0/modules/content/' xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'>
@@ -12,7 +14,7 @@ layout: null
         <itunes:author>{{ site.podcast.author }}</itunes:author>
         <itunes:email>{{ site.podcast.email }}</itunes:email>
         <itunes:image href='{{ site.podcast.logo | absolute_url }}'/>
-		<image />
+		<image>
 			<url>{{ site.podcast.logo | absolute_url }}</url>
 			<title>Sconnesso</title>
             <link>{{ site.url }}</link>
@@ -33,7 +35,7 @@ layout: null
         <itunes:complete>{{ site.podcast.complete }}</itunes:complete>
         <itunes:block>{{ site.podcast.block }}</itunes:block>
 		<link rel='me'>https://tommi.space/about</link>
-        {% for episode in site.podcast %}
+        {% for episode in site.sconnesso %}
         <item>
             <title>{{ episode.title | xml_escape }}</title>
             <itunes:author>{{ episode.author }}</itunes:author>
