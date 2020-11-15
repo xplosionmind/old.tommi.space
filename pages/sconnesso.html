@@ -1,0 +1,32 @@
+---
+title: "Sconnesso"
+permalink: /sconnesso
+redirect_from:
+  - /podcast
+  - /voice
+  - /audio
+lang: it
+ref: sconnesso
+primary: var(--purple)
+---
+<div id="feed" class="one column">
+	<div class="page-header row">
+		<h1>{{ site.podcast.title }}</h1>
+		<p>{{ site.podcast.description }}</p>
+
+		{% include listen-on.html %}
+
+	</div>
+
+	{% for episode in site.sconnesso %}
+		<div class="row">
+			<a href="{{ episode.url }}">
+				<div class="flex box">
+					<h2>{{ episode.title }}</h2>
+					<p class="right">{{ episode.date | date_to_long_string }}</p>
+				</div>
+			</a>
+		</div>
+	{% endfor %}
+
+</div>

@@ -1,0 +1,32 @@
+---
+layout: wrapper
+---
+<div class="h-entry one column">
+	<div class="page-header row">
+		<a class="u-uid" href="{{ page.url }}"><h1 class="p-name">{{ page.title }}</h1></a>
+		<p>Episodio {{ page.episode }}, <time class="dt-published">{{ page.date | date_to_long_string }}</time></p>
+	</div>
+
+	{% include post-tags.html %}
+
+	<div class="row">
+		<article class="e-content">
+
+			<audio controls preload='auto'>
+				<source src='/assets/audio/{{ page.audio }}.wav'>
+			</audio>
+
+			{{ content }}
+
+			<br />
+			<br />
+			<p class="p-author h-card">{% case page.lang %}{% when 'it' %}Ad opera di <a rel="author" class="p-name" href="/tuffo#about">Tommi</a>{% else %}Spoken by <a rel="author" class="p-name" href="/home#about">Tommi</a>{% endcase %}</p>
+		</article>
+	</div>
+
+	{% include post-tags.html %}
+	{% include share.html %}
+	{% include listen-on.html %}
+	{% include comments.html %}
+
+</div>

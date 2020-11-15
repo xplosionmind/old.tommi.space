@@ -27,6 +27,18 @@ collections:
     output: true
   filinge:
     output: true
+  sconnesso:
+    output: true
+podcast:
+  title: Sconnesso
+  description: "Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso."
+  url: "/sconnesso.xml"
+  author: "Tommi"
+  email: "sono@sconnesso.link"
+  link: "https://sconnesso.link"
+  logo: ""
+  type: "episodic"
+  complete: "yes"
 kramdown:
   syntax_highlighter_opts:
     default_lang: zsh
@@ -105,6 +117,19 @@ defaults:
       toc: 1
       permalink: /:title
       hide: 0
+
+  -
+    scope:
+      path: ""
+      type: sconnesso
+    values:
+      layout: sconnesso
+      lang: it
+      permalink: /sconnesso/:title
+      primary: "var(--purple)"
+      categories: "sconnesso"
+      episodeType: "full"
+      explicit: "no"
 
   -
     scope:

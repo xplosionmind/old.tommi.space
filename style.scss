@@ -10,6 +10,7 @@
 	--red: #D00;
 	--green: #20CE88;
 	--razzmatazz: #EC0868;
+	--purple: #884EE1;
 
 	--yellow-gradient: linear-gradient(145deg, #DAAE1B, #FFD23E);
 	--blue-gradient: linear-gradient(145deg, #4c96ff, #226dd7);
@@ -802,7 +803,18 @@ nav {
 	}
 }
 
-svg.button {
+audio {
+	width: 100%;
+	box-shadow: var(--shadow);
+	border-radius: var(--radius-m);
+}
+
+.controlBar {
+	background: none !important;
+}
+
+svg.button,
+img.button {
 	height: var(--height);
 	width: auto;
 	padding: 0;
@@ -853,6 +865,13 @@ button,
 		box-shadow: var(--little-shadow);
 		&:hover {
 		}
+	}
+}
+
+.listen-on {
+	background: var(--deep);
+	.button {
+		margin-right: .5rem;
 	}
 }
 
