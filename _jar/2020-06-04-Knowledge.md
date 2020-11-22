@@ -16,6 +16,7 @@ Actually, I don't need to learn these things only, but here I note the main thin
 1. [Pandoc](https://pandoc.org/)
 	- understanding conversion engines, `mactex`, `latex`, etc.
 	- understanding citation method
+		- <https://www.simonlindgren.com/notes/2019/11/15/setup-for-writing-in-markdown-citing-with-zotero-and-publishing-with-pandoc>
 	- CSS styling
 	- merge multiple `md` files into a single PDF
 1. [git](https://git-scm.com)
