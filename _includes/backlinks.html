@@ -42,23 +42,35 @@
       {% for entry in site.[collection_name] %}
 
         {% if entry.content contains page.url or entry.content contains current_url_downcase %}
-          <li>
-            <a href="{{ entry.url }}">{{ entry.title }}</a>
-            {% if entry.description != nil %}
-              - {{ entry.description }}
-            {% endif %}
-          </li>
+          {% case collection_name %}
+            {% when 'jar' %}
+              <li>🍯 <a href="{{ entry.url }}">{{ entry.title }}</a> - {{ entry.description }}</li>
+            {% when 'sconnesso' %}
+              <li>🎙️  <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+            {% when 'posts' %}
+              <li>📖 <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+            {% when 'filinge' %}
+              <li>💭 <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+            {% else %}
+              <li><a href="{{ entry.url }}">{{ entry.title }}</a> - {{ entry.description }}</li>
+          {% endcase %}
         {% endif %}
 
         {% for redirect in page.redirect_from | split '/' %}
           {% capture redirect_ %}/{{ redirect }}{% endcapture %}
           {% if entry.content contains redirect_ %}
-            <li>
-              <a href="{{ entry.url }}">{{ entry.title }}</a>
-              {% if entry.description != nil %}
-                - {{ entry.description }}
-              {% endif %}
-            </li>
+            {% case collection_name %}
+              {% when 'jar' %}
+                <li>🍯 <a href="{{ entry.url }}">{{ entry.title }}</a> - {{ entry.description }}</li>
+              {% when 'sconnesso' %}
+                <li>🎙️  <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+              {% when 'posts' %}
+                <li>📖 <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+              {% when 'filinge' %}
+                <li>💭 <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+              {% else %}
+                <li><a href="{{ entry.url }}">{{ entry.title }}</a> - {{ entry.description }}</li>
+            {% endcase %}
           {% endif %}
         {% endfor %}
 
