@@ -1,7 +1,7 @@
 ---
 categories: Geek
 edited: 2020-10-24
-code: "1"
+code: 1
 description: "I use tech devices a lot, maybe too much, but I don’t dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
 redirect_from:
   - /cheatsheet

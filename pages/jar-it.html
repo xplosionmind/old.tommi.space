@@ -20,15 +20,15 @@ ref: jar
 	</div>
 
 	{% assign jar = site.jar | sort: 'edited' | reverse %}
-	{% for note in jar %}{% unless note.hide == '1' %}
-		<div class="row">
-			<a href="{{ note.url }}">
+	{% for note in jar %}{% unless note.hide == 1 %}
+		<a href="{{ note.url }}">
+			<div class="row">
 				<div class="flex box">
 					<h2>{{ note.title }}</h2>
 					<p>{{ note.description }}</p>
 				</div>
-			</a>
-		</div>
+			</div>
+		</a>
 	{% endunless %}{% endfor %}
 
 </div>

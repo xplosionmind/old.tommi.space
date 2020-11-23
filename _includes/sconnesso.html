@@ -1,12 +1,12 @@
-<a href="{{ post.url }}"><h2 class="title" style="background:var(--purple)">Pseudo-podcast: Sconnesso</h2></a>
+<a href="/sconnesso"><h2 class="title" style="background:var(--purple)">Sconnesso</h2></a>
 <div class="stuff row">
 	<div class="half column vertical flex">
-		<a href="/sconnesso"><img src="/logos/sconnesso.png" alt="Logo Sconnesso" title="Il logo di Sconnesso" /></a>
+		<a href="/sconnesso"><img src="/images/sconnesso.jpg" alt="Logo Sconnesso" title="Il logo di Sconnesso" /></a>
 	</div>
 	<div class="half column vertical flex">
-		<div class="caption">
+		<p>
 			{{ site.podcast.description }}
-		</div>
+		</p>
 		<a href="/sconnesso" class="written button" style="background:var(--purple)">{% case page.lang %}{% when 'it' %}Ascolta{% else %}Listen{% endcase %}</a>
 	</div>
 </div>

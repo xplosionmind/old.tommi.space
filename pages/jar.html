@@ -17,7 +17,7 @@ ref: jar
 	</div>
 
 	{% assign jar = site.jar | sort: 'edited' | reverse %}
-	{% for note in jar %}{% unless note.hide == '1' %}
+	{% for note in jar %}{% unless note.hide == 1 %}
 		<div class="row">
 			<a href="{{ note.url }}">
 				<div class="flex box">

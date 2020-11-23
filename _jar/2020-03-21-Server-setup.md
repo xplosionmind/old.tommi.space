@@ -1,6 +1,6 @@
 ---
 categories: geek
-code: "1"
+code: 1
 edited: 2020-08-03
 description: "A walktrough of the steps I executed to set up my server"
 ---
