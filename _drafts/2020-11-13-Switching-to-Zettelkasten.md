@@ -31,7 +31,7 @@ Eventually, I figured it out.
 
 ## My needs
 
-Before diving-in with the Zettelkasten switch, allow me to point out my needs:
+Before diving-in the Zettelkasten switch process, allow me to point out my needs:
 
 1. **Durability**   
 as I stated at the beginning, I spend too much time optimizing my systems, and I need to stop doing that; I need a solution which works in the long term and adapts to my evolving necessities, without allowing me to feel like it's not enough.
@@ -39,6 +39,8 @@ as I stated at the beginning, I spend too much time optimizing my systems, and I
 there are different folders where I need to access content, and I'd love for them to be integrated: if there's a topic that I'm studying which reminds me of a content on my website or of something which I wrote down on my private notebook, I want to be able to link them.
 1. **Portability**    
 I need to access to everything everywhere, anytime. (actually, accessing stuff from my phone and my computer is enough)
+1. **Privacy**   
+ideally, I need to have in the same place both private and public notes.
 1. **Compatibility**   
 Jekyll uses Kramdown, Zettlr uses mainly Pandoc, and it isn't clear what Joplin uses: there are a ton of flavors of Markdown, and even more rendering engines. I want to be able to use the same features everywhere; I may just adapt to the CommonMark standard, but it lacks features which are very important to me, such as the ability to add classes to any tag, which, among the ones listed before, only Kramdown has.
 1. **Conversion**   
@@ -65,8 +67,8 @@ for Zettelkasten to be effective, you need to loosen the rigid structure used by
 - Zettelkasten [**can be dangerous**](https://medium.com/@nickmilo22/my-pkm-story-3763985b7a3e) and counter-productive:   
 you have to manage your knowlegde in the right way, which is not the *only* way. If you don't care about the effectiveness of your system and filling it with random stuff, it may blow up.
 
-First of all, let's immediatly point out that the best app created up to now with a specific focus on Zettelkasten is [Obsidian](https://obsidian.md). It's very recent and it has a few controversies, specially about the fact that it's independently developed but not open source. Nevertheless, we're focusing on the system, not the app. With a few adaptations, the software can change in the future.
+First of all, let's point out that the best app created up to now with a specific focus on Zettelkasten is [Obsidian](https://obsidian.md). It's very recent and it has a few controversies, especially about the fact that it's independently developed but not open source, but most importantly that is uses a propietary formatting and reference system using `[[` and `]]` as internal links delimiters. Nevertheless, we're focusing on the system, not the app. With a few adaptations, the software may also change, in the future.
 
 ### Moving out of previous systems
 
-1. Exporting a folder with all of Joplin's markdown files (unfortunately, exported files don't contain YAML front matter: they contain no metadata)
+1. Exporting a folder with all of Joplin's markdown files (unfortunately, files aren't exported with any front matter or metadata)
