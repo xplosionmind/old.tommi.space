@@ -113,3 +113,4 @@ I decided to use the `include` php function to have only a header and a footer f
 - [`em` vs `rem`](https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984), choosing the right one to build a responsive website;
 - <a href="https://www.sylvaindurand.org/making-jekyll-multilingual/" rel="noopener noreferrer" target="_blank">Making Jekyll Multilingual</a> by Sylvain Durand
 - <a href="https://gist.github.com/Eeemil/e93ad054a73037f5bea3#file-post-html" rel="noopener noreferrer" target="_blank">edit on GitHub button</a>
+- about [Internet Freedom](/internet-freedom)

@@ -1,22 +1,21 @@
-<div class="box">
+<div class="box" id="backlinks">
   <h2>Backlinks</h2>
-  <p class="center">{% if page.lang == 'it' %}Le pagine del sito che contengono un link a questa pagina.<br />Curioso riguardo cosa voglia dire? Leggi <a href="https://www.wikiwand.com/it/Backlink" rel="noopener noreferrer" target="_blank">questo articolo</a>.{% else %}All the pages of this website containing a link to the current page.<br />Curious about what this means? Check <a href="https://www.wikiwand.com/en/Backlink" rel="noopener noreferrer" target="_blank">this article</a>.{% endif %}</p>
-  {% capture current_permalink %}{{ page.url }}{% endcapture %}
-  {% capture current_permalink_downcase %}{{ page.url | downcase }}{% endcapture %}
+  <p class="center">
+    {% if page.lang == 'it' %}
+      Le pagine del sito che contengono un link a questa pagina.<br />
+      Curioso riguardo cosa voglia dire? Leggi <a href="https://www.wikiwand.com/it/Backlink" rel="noopener noreferrer" target="_blank">questo articolo</a>.
+    {% else %}
+      All the pages of this website containing a link to the current page.<br />Curious about what this means? Check <a href="https://www.wikiwand.com/en/Backlink" rel="noopener noreferrer" target="_blank">this article</a>.
+    {% endif %}
+  </p>
+
+  {% capture current_url %}{{ page.url }}{% endcapture %}
+  {% capture current_url_downcase %}{{ page.url | downcase }}{% endcapture %}
+
   <ul>
-  {% for entry in site.pages %}
-    {% unless entry.url contains 'json' or entry.url contains 'csv' %}
-      {% if entry.content contains page.url or entry.content contains current_permalink_downcase or entry.content contains redirect_from_ %}
-      <li>
-        <a href="{{ entry.url }}">{{ entry.title }}</a>
-        {% if entry.description != nil %}
-          - {{ entry.description }}
-        {% endif %}
-      </li>
-      {% endif %}
-      {% for redirect in page.redirect_from | split '/' %}
-        {% capture redirect_ %}/{{ redirect }}{% endcapture %}
-        {% if entry.content contains redirect_ %}
+    {% for entry in site.pages %}
+     {% unless entry.url contains '.json' or entry.url contains '.csv' or entry.url contains '.css' or entry contains '.txt' %}
+       {% if entry.content contains page.url or entry.content contains current_url_downcase %}
           <li>
             <a href="{{ entry.url }}">{{ entry.title }}</a>
             {% if entry.description != nil %}
@@ -24,8 +23,46 @@
             {% endif %}
           </li>
         {% endif %}
+        {% for redirect in page.redirect_from | split '/' %}
+          {% capture redirect_ %}/{{ redirect }}{% endcapture %}
+          {% if entry.content contains redirect_ %}
+            <li>
+              <a href="{{ entry.url }}">{{ entry.title }}</a>
+              {% if entry.description != nil %}
+                - {{ entry.description }}
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endunless %}
+    {% endfor %}
+
+    {% for collection in site.collections %}
+      {% assign collection_name = collection.label %}
+      {% for entry in site.[collection_name] %}
+
+        {% if entry.content contains page.url or entry.content contains current_url_downcase %}
+          <li>
+            <a href="{{ entry.url }}">{{ entry.title }}</a>
+            {% if entry.description != nil %}
+              - {{ entry.description }}
+            {% endif %}
+          </li>
+        {% endif %}
+
+        {% for redirect in page.redirect_from | split '/' %}
+          {% capture redirect_ %}/{{ redirect }}{% endcapture %}
+          {% if entry.content contains redirect_ %}
+            <li>
+              <a href="{{ entry.url }}">{{ entry.title }}</a>
+              {% if entry.description != nil %}
+                - {{ entry.description }}
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+
       {% endfor %}
-    {% endunless %}
-  {% endfor %}
+    {% endfor %}
   </ul>
 </div>
