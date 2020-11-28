@@ -87,14 +87,12 @@ plugins:
 sass:
   style: compressed
 permalink: /:title
-ref: slug
 defaults:
   -
     scope:
       path: ""
     values:
       layout: "wrapper"
-      ref: ":title"
       lang: "en"
       img: "/images/preview.gif"
       image: "/images/preview.gif"
