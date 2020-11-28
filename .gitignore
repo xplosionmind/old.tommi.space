@@ -1,1 +1,6 @@
-private
+_jar/private/*
+
+# PISE-notes
+*/copyrighted-content
+*/books
+*/slides

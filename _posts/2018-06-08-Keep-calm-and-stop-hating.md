@@ -1,6 +1,7 @@
 ---
-img: "/images/posts/2018-06-08-Keep-calm-and-stop-hating.jpg"
-categories: "Inchiostro Digitale"
+date: 2018-06-08
+tags: ["Inchiostro Digitale"]
+img: "https://assets.tommi.space/images/posts/2018-06-08-keep-calm-and-stop-hating.jpg"
 ---
 ## Articolo Finale di Inchiostro Digitale
 <!--more-->

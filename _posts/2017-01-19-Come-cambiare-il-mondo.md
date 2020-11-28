@@ -1,6 +1,8 @@
 ---
-img: "/images/posts/2017-01-19-Come-cambiare-il-mondo.jpg"
-categories: Radioimmaginaria
+date: 2017-01-19
+tags:
+  - radioimmaginaria
+img: "https://assets.tommi.space/images/posts/2017-01-19-come-cambiare-il-mondo.jpg"
 ---
 <figure><img alt="io in piedi su un molo con il mio skateboard in mano" src="{{ page.img }}" /></figure>
 <!--more-->

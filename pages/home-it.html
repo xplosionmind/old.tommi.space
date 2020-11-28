@@ -30,26 +30,20 @@ ref: home
 <div class="row">
 	<div class="one column">
 		<article>
-			<p>Ci sono cose che scopro e porca puzzola avrei voluto sapere prima, o cose che semplicemente non riesco a non condividere ma non sono abbastanza per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
-			<p>Prendo tutte queste cose e, non avendo sufficiente tempo per elaborarle, le metto ne <em>La Marmellata</em>.</p>
-			<p>Ogni puntino qui sotto è un ingrediente de <a href="/marmellata"><em>La Marmellata</em></a>, fatene buon uso, senza esagerare. (non mi assumo responsabilità sulla potenza dei contenuti)</p>
+			<p>Ci sono cose che scopro e avrei voluto imparare prima, o cose che semplicemente non riesco a non condividere ma che non sono abbastanza corpose per comporre un articolo, o risorse così fighe e utili che tutto il mondo dovrebbe conoscerle e usarle, o cose interessanti che annoto ed è utile avere sempre a portata di mano (cioè online sul mio sito).</p>
+			<p>Prendo tutte queste cose e, non avendo sufficiente tempo per elaborarle, le metto ne <a href="/marmellata"><em>La Marmellata</em></a>.</p>
 		</article>
 	</div>
 </div>
 
-<a href="/cose"><h2 class="title">Progetti in evidenza</h2></a>
-{% assign stuff = site.data.stuff %}
-{% for thing in stuff %}{% if thing.featured == "1" %}
-<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-	<div class="half column vertical flex">
-		<img src="{{ thing.img }}" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
+<a href="/cose"><h2 class="title">Cose</h2></a>
+
+<div class="row">
+	<div class="one column">
+		<article>
+			<p>Faccio tante, tante, troppe, cose.</p>
+			<p>Un po' per ricordarmene e un po' come curriculum, le annoto qui. In <a href="/cose"><em><Cose</em></a> ci sono quelle principali, in <a href="/giri"><em>Giri</em></a> tengo traccia di tutti i miei giri e ciò a cui partecipo come spettatore, e in <a href="/tutto"><em>Tutto</em></a> c'è <strong>tutto</strong> il resto.</p>
+			<a class="written button" href="/cose">Cose</a>
+		</article>
 	</div>
-	<div class="half column vertical flex">
-		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="Logo {{ thing.title }}" title="{{ thing.title }}" />
-		<div><p>{{ thing.description-it }}</p></div>
-		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
-	</div>
-</div>{% endif %}{% endfor %}
-<div class="flex">
-	<a class="written button" href="/cose">Tutte le cose</a>
 </div>

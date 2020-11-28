@@ -1,12 +1,13 @@
 ---
+date: 2020-04-18
+tags: ["geek"]
+img: "https://assets.tommi.space/images/posts/2020-04-18-making-this-website.jpg"
 lang: en
 permalink: /themakingof
 redirect-from:
   - /making-this-website
   - /the-making-of
 ref: genesi
-categories: Geek
-img: "/images/posts/2020-04-18-Making-this-website.jpg"
 ---
 This article isn’t completed yet, please check the Markdown file in the website GitHub repository to contribute.
 {:.red .box}

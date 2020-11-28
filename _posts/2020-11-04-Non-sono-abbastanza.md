@@ -1,13 +1,14 @@
 ---
-img: "/images/posts/2020-11-04-Non-sono-abbastanza.jpg"
-categories:
-  - "Mess"
-  - "Life"
+date: 2020-11-04
+img: "https://assets.tommi.space/images/posts/2020-11-04-non-sono-abbastanza.jpg"
+tags: ["zen"]
 ---
 Sono agitato.
 
 Fremo (letteralmente), esasperato dall'opprimente mole di [frammenti](/frammenti) da cui vengo colpito e non riesco a catturarli completamente. L'energia positiva che mi pervade, carica di entusiasmo, vorrebbe abbracciare l'incommensurabile quantità di conoscenza che incontra in ogni momento e si sforza per estendersi e racchuiderla. Esagerando, inevitabilmente esplode in una miriade di schegge e proiettili.
-<!--more-->
+
+<!-- more -->
+
 Così, nel tentativo di assorbire tutto —di cullare nella mia mente pensieri diversi, intensi e complicati, ma estremamente importanti— rischio di perdere anche il poco che prima già avevo. In queste esplosioni non smarrisco irrimediabilmente solo ciò che cercavo di acquisire, ma anche parti di me. Provando a capire —o almeno conoscere— una piccola parte (che è già comunque troppo) di quello che c'è intorno, arrivo a non sapere più nemmeno chi sono.
 
 La crescente e insormontabile complessità dell'affascinante mondo che vorrei scoprire mi si ritorce contro, con le sue disarmanti contraddizioni che mi tormentano a tal punto da ostacolare il disperato tentativo di trovare [le parole giuste](/sono-innamorato) per raccontare almeno la mia difficoltà nell'esprimere lo stesso problema (e alla fine, se si capisce quello che ho scritto in questo paragrafo, ci sono riuscito (ma probabilmente no)).
@@ -28,13 +29,10 @@ Né [il determinismo](https://www.treccani.it/enciclopedia/determinismo) né [l'
 
 Mi trovo allora a camminare avanti e indietro per la casa con il mio taccuino in mano scrivendo febbrilmente di meta-conoscenza: la conoscenza della conoscenza. Succube di questa irrequietezza non riesco a liberarmi dell'ansia di infinito e perdo tempo a preoccuparmi di stare perdendo tempo. [Come dice Edipo](https://youtu.be/m0XJianXNPU):
 
-> che la notte la perdo
->
-> a pensar che di giorno
->
-> sarei molto più bello
->
-> se sognassi di più
+> che la notte la perdo   
+> a pensar che di giorno   
+> sarei molto più bello   
+> se sognassi di più   
 
 e poi?
 
@@ -73,44 +71,27 @@ Mi dedico queste parole:
 
 <div class="embed-container"><iframe src="https://www.youtube-nocookie.com/embed/o4FS5Qi6HF0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-> Mi spiace mio caro intelletto
+> Mi spiace mio caro intelletto   
+> vattene a letto e dormici su   
+> che forse il tuo mondo perfetto   
+> non è perfetto come dici tu   
 >
-> vattene a letto e dormici su
->
-> che forse il tuo mondo perfetto
->
-> non è perfetto come dici tu
->
-> Scusa mio caro cervello,
->
-> sei come un fratello,
->
-> ma adesso anche tu
-> 
-> levami questo fardello
-> 
+> Scusa mio caro cervello,   
+> sei come un fratello,   
+> ma adesso anche tu   
+> levami questo fardello   
 > che voglio provare a volare lassù
 >
+> milioni di libri non servono a niente   
+> se servono solo a nutrire una mente che mente   
+> scusa mia cara ragione,   
+> passerò per coglione,   
+> ma è meglio così   
+> forse in virtù del tuo nome   
+> vuoi avere ragione   
+> ma stammi a sentir…   
 >
->
-> milioni di libri non servono a niente
->
-> se servono solo a nutrire una mente che mente
->
-> scusa mia cara ragione,
->
-> passerò per coglione,
-> 
-> ma è meglio così
->
-> forse in virtù del tuo nome
->
-> vuoi avere ragione
->
-> ma stammi a sentir…
->
-> Assiomi e teoremi non valgono a niente
-> 
+> Assiomi e teoremi non valgono a niente   
 > se l'occhio non vede e il cuore non sente
 
 <br>

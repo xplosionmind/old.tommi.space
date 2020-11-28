@@ -29,47 +29,15 @@ ref: stuff
 					{% endif %}{% endfor %}
 				</ul>
 			</li>
-			{% assign stuff=site.stuff %}
 			<li><a href="#previous">Cose precedenti</a>
 				<ul>
-{% for thing in stuff %}{% unless thing.current == '1' %}
+					{% for thing in stuff %}{% unless thing.current == '1' %}
 						<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
-						{% endunless %}{% endfor %}
+					{% endunless %}{% endfor %}
 				</ul></p>
 			</li>
 		</ul>
 	</div>
 </div>
 
-<h2 id="current" class="title">Cose attuali</h2>
-
-{% assign stuff=site.data.stuff %}
-{% for thing in stuff %}{% if thing.current == '1' %}
-<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-	<div class="half column vertical flex">
-		<img src="{{ thing.img }}" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
-	</div>
-	<div class="half column vertical flex">
-		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="Logo {{ thing.title }}" title="{{ thing.title }}" />
-		<p>{{ thing.description-it }}<p>
-		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
-	</div>
-</div>{% endif %}{% endfor %}
-
-<h2 class="title">Cose precedenti</h2>
-	
-{% assign stuff=site.data.stuff %}
-{% for thing in stuff %}{% unless thing.current == '1' %}
-<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-	<div class="half column vertical flex">
-		<img src="{{ thing.img }}" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
-	</div>
-	<div class="half column vertical flex">
-		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<p>{{ thing.description-it }}</p>
-		<a href="{{ thing.link-it }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
-	</div>
-</div>{% endunless %}{% endfor %}
-<div class="flex row">
-	<a class="written button" href="/tutto">di tutto e di più</a>
-</div>
+{% include stuff.html %}

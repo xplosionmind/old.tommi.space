@@ -1,0 +1,52 @@
+---
+date: 2020-09-09
+updated: 2020-09-22
+description: "Books I own and books I’d love to read and/or have"
+tags: read
+redirect_from: /library
+toc: 0
+---
+<style>
+	.library .col3 {
+		font-family: "Ubuntu Mono", mono
+	}
+</style>
+<br />
+<ul>
+	<li><a href="#Wishlist">Wishlist</a></li>
+	<li><a href="#Library">Library</a></li>
+</ul>
+<br /><br />
+<h2 id="Wishlist">Wishlist</h2>
+<table class="wishlist">
+  {% for row in site.data.books-wishlist %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+	{% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
+
+<br /><br /><br />
+
+<h2 id="Library">Library</h2>
+<table class="library">
+  {% for row in site.data.library %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+	{% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>

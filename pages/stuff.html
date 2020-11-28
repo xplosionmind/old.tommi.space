@@ -27,47 +27,15 @@ ref: stuff
 					{% endif %}{% endfor %}
 				</ul>
 			</li>
-			{% assign stuff=site.stuff %}
 			<li><a href="#previous">Previous stuff</a>
 				<ul>
-{% for thing in stuff %}{% unless thing.current == '1' %}
+					{% for thing in stuff %}{% unless thing.current == '1' %}
 						<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
-						{% endunless %}{% endfor %}
+					{% endunless %}{% endfor %}
 				</ul>
 			</li>
 		</ul>
 	</div>
 </div>
 
-<h2 id="current" class="title">Ongoing</h2>
-
-{% assign stuff=site.data.stuff %}
-{% for thing in stuff %}{% if thing.current == '1' %}
-<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-	<div class="half column vertical flex">
-		<img src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
-	</div>
-	<div class="half column vertical flex">
-		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<p>{{ thing.description }}</p>
-		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
-	</div>
-</div>{% endif %}{% endfor %}
-
-<h2 id="previous" class="title">Past</h2>
-
-{% assign stuff=site.data.stuff %}
-{% for thing in stuff %}{% unless thing.current == '1' %}
-<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-	<div class="half column vertical flex">
-		<img src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt-it }}" />
-	</div>
-	<div class="half column vertical flex">
-		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<p>{{ thing.description }}</p>
-		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
-	</div>
-</div>{% endunless %}{% endfor %}
-<div class="flex row">
-	<a class="written button" href="/tutto">Stuff extended</a>
-</div>
+{% include stuff.html %}

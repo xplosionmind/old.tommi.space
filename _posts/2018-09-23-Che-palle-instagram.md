@@ -1,12 +1,14 @@
 ---
-img: "/images/posts/2018-09-23-Che-palle-instagram.jpg"
+date: 2018-09-23
+img: "https://assets.tommi.space/images/posts/2018-09-23-che-palle-instagram.jpg"
 ---
 Stamattina presto continuavo a rigirarmi nel letto e non trovavo pace. Un po’ come Zeno, che, seppur consapevole della sua assurdità, soffre disperatamente di una malattia "immaginaria", forse unicamente frutto della sua fantasia. Se però nel suo caso distrazioni di carattere amoroso e, come noi diremmo, trip mentali assurdi lo distraevano dal suo dolore, nel mio caso -e, credo, nel nostro- sono quelle che in fondo mancano e quelle che noi riteniamo distrazioni se non proprio la causa, sono ciò che più enfatizza la nostra sofferenza.
-<!--more-->
 
-<figure><img src="{{ page.img }}" title="una specie di stupido flowchart a spiegazione della mia scelta" alt="una specie di stupido flowchart a spiegazione della mia scelta" /></figure>
+<figure>
+  <img src="{{ page.img }}" title="una specie di stupido flowchart a spiegazione della mia scelta" alt="una specie di stupido flowchart a spiegazione della mia scelta" />
+</figure>
 
-Non nego, anche se io stesso me ne stupisco, che sto convivendo da qualche giorno con la grandissima delusione di esser stato bocciato all’esame di teoria della patente. Sto dunque vivendo un po’ nel limbo: non concludo quasi nulla, sono assonnato, debole e deluso. È inevitabile dunque rifugiarsi nell’ozio e nella nullafacenza, particolarmente nocivi in questo caso perché nel ventunesimo secolo corrispondono con lo <a href="https://www.instagram.com/scrollordie/" rel="noopener noreferrer" target="_blank">scrollare</a> il feed di instagram.
+Non nego, anche se io stesso me ne stupisco, che sto convivendo da qualche giorno con la grandissima delusione di esser stato bocciato all’esame di teoria della patente. Sto dunque vivendo un po’ nel limbo: non concludo quasi nulla, sono assonnato, debole e deluso. È inevitabile dunque rifugiarsi nell’ozio e nella nullafacenza, particolarmente nocivi in questo caso perché nel ventunesimo secolo corrispondono con lo [scrollare](https://instagram.com/scrollordie) il feed di instagram.
 
 Giungo dunque al punto, che vuole essere la motivazione della mia astensione da instagram per un po’; sono diventato una bambolina, un omino di didò che prende la forma di chi lo modella. A modellarmi è il continuo ricevere surrogati di informazioni, l'aggiornare continuamente lo schermo vedendo che succede. Dico "surrogati" perché in realtà non ottengo nulla; tutti voi potete realizzare, come io ora mi sono accorto, che vediamo centinaia di foto al giorno ma leggiamo solo una didascalia su dieci. Questo è sintomatico di quanto non riceviamo effettivamente stimoli, ma finti input che ci fanno credere di acquisire qualcosa, ma, una volta spento lo schermo del telefono, non cambia nulla. Così i miei muscoli si sono atrofizzati, le meningi non si spremono più, sono in grado unicamente di ricevere e incapace di produrre qualunque cosa.
 
@@ -23,28 +25,34 @@ Per prima condivido qui la breve lettera di Michele Ferrari, mio mentore e fonda
 
 _Non so quanto sia corretto pubblicare uno screenshot, però Mic mi ha dato il permesso e tutta la mia famiglia è abbonata ad Avvenire quindi se a Marco Tarquinio capiterà di leggere -comunque assai improbabile- gli chiedo di chiudere un occhio e ricordarsi delle belle foto che ho fatto per la festa di Avvenire l’anno scorso a Ventimiglia…_
 
-<figure><img src="/images/2018-09-23-Che-palle-instagram-1.jpg" alt="Articolo di Michele Ferrari su Avvenire" /></figure>
+<figure>
+  <img src="https://assets.tommi.space/posts/images/2018-09-23-Che-palle-instagram-1.jpg" alt="Articolo di Michele Ferrari su Avvenire" />
+</figure>
 
 
-Io da poco, ahimé, ho deciso di abbandonare Radioimmaginaria per cominciare nuove avventure, ma sono cresciuto molto grazie al progetto e quello che dice Mic è troppo vero. Assolutamente bisogna ascoltare e girare un po’ su <a href="https://radioimmaginaria.it/" rel"noopener noreferrer" target="_blank">Radioimmaginaria</a> per capire quanto, anche senza social, si possa fare sul serio.
+Io da poco, ahimé, ho deciso di abbandonare Radioimmaginaria per cominciare nuove avventure, ma sono cresciuto molto grazie al progetto e quello che dice Mic è troppo vero. Assolutamente bisogna ascoltare e girare un po’ su [Radioimmaginaria](https://radioimmaginaria.it) per capire quanto, anche senza social, si possa fare sul serio.
 
 <br />
 
 ### TWO.
 
-Per secondo consiglio <a href="https://www.wired.com/story/wired-guide-to-internet-addiction/" rel="noopener noreferrer" target="_blank">questa guida</a> su Wired, che approfondisce con dati e testimonianze tutta la questione della "Smartphone Addiction"; da leggere per vederci chiaro e comprendere come le compagnie ci studiano per ottenere da noi il massimo profitto. Giusto per dare un’idea, in una parte dell’articolo Steve Jobs dichiara di non permettere ai suoi figli di utilizzare gli iPad da lui stesso concepiti. **Mind-blowing**.
+Per secondo consiglio [questa guida](https://www.wired.com/story/wired-guide-to-internet-addiction/) su Wired, che approfondisce con dati e testimonianze tutta la questione della "Smartphone Addiction"; da leggere per vederci chiaro e comprendere come le compagnie ci studiano per ottenere da noi il massimo profitto. Giusto per dare un’idea, in una parte dell’articolo Steve Jobs dichiara di non permettere ai suoi figli di utilizzare gli iPad da lui stesso concepiti. **Mind-blowing**.
 
 <br />
 
 ### THREE.
 
-<figure><img src="/images/2018-09-23-Che-palle-instagram-2.jpg" alt="una foto di me con Giuseppe Montesano" /><figcaption>io e il grande Giuseppe Montesano al Salone del Libro di Torino 2018 (non mi assumo nessuna responsabilità sullo stato dei miei capelli)</figcaption></figure>
+<figure>
+  <img src="https://assets.tommi.space/images/posts/2018-09-23-che-palle-instagram-2.jpg" alt="una foto di me con Giuseppe Montesano" />
+  <figcaption>io e il grande Giuseppe Montesano al Salone del Libro di Torino 2018 (non mi assumo nessuna responsabilità sullo stato dei miei capelli)</figcaption>
+</figure>
 
 Per concludere, cito un passo di uno dei miei libri preferiti, che VA LETTO assolutamente se si vuole almeno provare a diventare persone serie: _Come diventare Vivi - Vademecum per lettori selvaggi_ di Giuseppe Montesano che, oltre ad essere scrittore, è un prof. di filosofia ed io ho avuto il piacere di conoscerlo al Salone del Libro di Torino lo scorso maggio. Approfitto di questa parentesi per salutarlo e ringraziarlo per essere stato l’unico ad avermi convinto a terminare _Delitto e Castigo_ di Dostoevskij, che all’inizio mi ha fatto impazzire e lo avrei subito abbandonato, altrimenti.
 
-<figure><img src="/images/2018-09-23-Che-palle-instagram-3.jpg" alt="la scansione di due pagine di *Come diventare Vivi - Vademecum per lettori selvaggi* di Giuseppe Montesano" /><figcaption>Due pagine di <i>Come diventare Vivi - Vademecum per lettori selvaggi</i> di Giuseppe Montesano</figcaption></figure>
-
-
+<figure>
+  <img src="https://assets.tommi.space/images/posts/2018-09-23-che-palle-instagram-3.jpg" alt="la scansione di due pagine di *Come diventare Vivi - Vademecum per lettori selvaggi* di Giuseppe Montesano" />
+  <figcaption>Due pagine di <i>Come diventare Vivi - Vademecum per lettori selvaggi</i> di Giuseppe Montesano</figcaption>
+</figure>
 
 Direi che ho abbastanza rotto le scatole e che posso finirla qui, ma prima devo ammettere che nel mio caso c’è un’ulteriore dipendenza, quella di condividere momenti e sparare cavolate ridicole facendo le storie, dunque da ora farò tutto su Twitter, dove l’inquinamento della mente è minore, e qui sul blog; di certo non riesco a smettere, tanto raccontare stupidaggini male non fa (a me) ahaha.
 

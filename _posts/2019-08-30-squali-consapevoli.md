@@ -1,5 +1,6 @@
 ---
-img: "/images/posts/2019-08-30-squali-consapevoli.jpg"
+date: 2019-08-30
+img: "https://assets.tommi.space/images/posts/2019-08-30-squali-consapevoli.jpg"
 ---
 Qual è il prezzo che dobbiamo pagare
 

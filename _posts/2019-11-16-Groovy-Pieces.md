@@ -1,4 +1,5 @@
 ---
+date: 2019-11-16
 img: "https://live.staticflickr.com/65535/49066858996_f9e4c2f1bd_k.jpg"
 ---
 Vabbè, insomma, sono qui sul treno e mi sono accorto che non scrivo qui da un po'. Però, a dire la verità, avrei molto da raccontare, ma ben poco su cui riflettere, o almeno, nulla di particolarmente profondo ed interessante (per quanto interessante possa essere ciò che scrivo in generale).

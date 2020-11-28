@@ -1,6 +1,8 @@
 ---
-img: "/images/posts/2017-07-10-borderlife-3.jpg"
-categories: Radioimmaginaria
+date: 2017-07-10
+tags:
+  - radioimmaginaria
+img: "https://assets.tommi.space/images/posts/2017-07-10-borderlife-3.jpg"
 ---
 <figure><img src="{{ page.img }}" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" /></figure>
 <!--more-->
@@ -29,19 +31,19 @@ Noi siamo fortunati, noi possiamo fare qualcosa, dobbiamo farci sentire, **dobbi
 P.S.: la mia amica Anna, che è venuta con me per qualche giorno, ha scritto qualcosa di più profondo ed importante che dovete leggere, <a href="https://web.archive.org/web/20171008172851/https://www.rivieratime.news/qual-futuro-dellumanita-vive-al-ponte/" rel="noopener" target="blank">qui</a>.
 
 <figure>
-<img src="/images/2017-07-10-borderlife-1.jpg" />
+<img src="{{ site.post-images }}/2017-07-10-borderlife-1.jpg" />
 <br />
-<img src="/images/2017-07-10-borderlife-2.jpg" />
+<img src="{{ site.post-images }}/2017-07-10-borderlife-2.jpg" />
 <br />
-<img src="/images/2017-07-10-borderlife-3.jpg" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" />
+<img src="{{ site.post-images }}/2017-07-10-borderlife-3.jpg" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" />
 <br />
-<img src="/images/2017-07-10-borderlife-4.jpg" />
+<img src="{{ site.post-images }}/2017-07-10-borderlife-4.jpg" />
 <br />
-<img src="/images/2017-07-10-borderlife-5.jpg" />
+<img src="{{ site.post-images }}/2017-07-10-borderlife-5.jpg" />
 <br />
-<img src="/images/2017-07-10-borderlife-6.jpg" />
+<img src="{{ site.post-images }}/2017-07-10-borderlife-6.jpg" />
 <br />
-<img src="/images/2017-07-10-borderlife-7.jpg" />
+<img src="{{ site.post-images }}/2017-07-10-borderlife-7.jpg" />
 <br />
-<img src="/images/2017-07-10-borderlife-8.jpg" />
+<img src="{{ site.post-images }}/2017-07-10-borderlife-8.jpg" />
 </figure>

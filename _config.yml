@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tommi.space" # the base hostname & protocol for your site, e.g. http://example.com
 author: Tommi
 publisher: Tommi
+timezone: Europe/Rome
 twitter_username: xplosionmind
 github_username: xplosionmind
 git_repository: "tommi.space"
@@ -13,8 +14,17 @@ future: true
 profile: true
 livereload: true
 strict_front_matter: true
+images: "https://assets.tommi.space/images"
+post-images: "https://assets.tommi.space/images/posts"
+assets: "https://assets.tommi.space/assets"
+video: "https://assets.tommi.space/video"
+audio: "https://assets.tommi.space/audio"
+logos: "https://assets.tommi.space/logos"
+fonts: "https://assets.tommi.space/fonts"
 exclude:
   - riordinare/
+  - _jar/private/
+  - _jar/templates/
 keep_files:
   - images/
   - assets/
@@ -36,7 +46,7 @@ podcast:
   author: "Tommi"
   email: "sono@sconnesso.link"
   link: "https://sconnesso.link"
-  logo: ""
+  logo: "https://assets.tommi.space/images/sconnesso.jpg"
   type: "episodic"
   complete: "yes"
   block: "no"
@@ -77,7 +87,7 @@ plugins:
 sass:
   style: compressed
 permalink: /:title
-ref: :title
+ref: slug
 defaults:
   -
     scope:
@@ -87,6 +97,7 @@ defaults:
       ref: ":title"
       lang: "en"
       img: "/images/preview.gif"
+      image: "/images/preview.gif"
       primary: "0"
 
   -
@@ -107,6 +118,7 @@ defaults:
       lang: it
       permalink: /:title
       primary: "teal"
+      description: "Parole disordinate, fra le nuvole e lo spazio"
 
   -
     scope:

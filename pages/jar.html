@@ -16,16 +16,22 @@ ref: jar
 {% include tags.html %}
 	</div>
 
-	{% assign jar = site.jar | sort: 'edited' | reverse %}
+	{% assign jar = site.jar | sort: 'updated' | reverse %}
 	{% for note in jar %}{% unless note.hide == 1 %}
-		<div class="row">
-			<a href="{{ note.url }}">
+		<a href="{{ note.url }}">
+			<div class="row">
 				<div class="flex box">
-					<h2>{{ note.title }}</h2>
-					<p>{{ note.description }}</p>
+					<div class="one column">
+						<div class="row">
+							<h2>{{ note.title }}</h2>
+						</div>
+						<div class="row">
+							<p>{{ note.description }}</p>
+						</div>
+					</div>
 				</div>
-			</a>
-		</div>
+			</div>
+		</a>
 	{% endunless %}{% endfor %}
 
 </div>

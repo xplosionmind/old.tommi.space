@@ -13,14 +13,14 @@ layout: wrapper
 		<article class="e-content">
 
 			<audio controls preload='auto'>
-				<source src='/assets/audio/{{ page.audio }}.wav'>
+				<source src='https://assets.tommi.space/assets/audio/{{ page.audio }}.wav'>
 			</audio>
 
 			{{ content }}
 
 			<br />
 			<br />
-			<p class="p-author h-card">{% case page.lang %}{% when 'it' %}Ad opera di <a rel="author" class="p-name" href="/tuffo#about">Tommi</a>{% else %}Spoken by <a rel="author" class="p-name" href="/home#about">Tommi</a>{% endcase %}</p>
+			<p class="p-author h-card">{% case page.lang %}{% when 'it' %}Ad opera di <a rel="author" class="p-name" href="/about">Tommi</a>{% else %}Spoken by <a rel="author" class="p-name" href="/about">Tommi</a>{% endcase %}</p>
 		</article>
 	</div>
 

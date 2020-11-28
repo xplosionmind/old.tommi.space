@@ -3,33 +3,49 @@ title: "The tags bible"
 lang: en
 ref: tags
 permalink: /tags
-redirect_from: /categories
 layout: white
 description: "Every topic, every recurrency, anything you need to find can be found somewhere in this page."
 ---
-{% for category in site.categories %}
-{% capture category-name %}{{ category | first }}{% endcapture %}
-{% for current in site.data.tags %}{% if current.title contains category-name %}
-{% capture title %}{{ current.title }}{% endcapture %}
-{% capture color %}{{ current.color }}{% endcapture %}
-{% capture description %}{{ current.description }}{% endcapture %}
-{% capture background %}{{ current.background }}{% endcapture %}
-{% endif %}{% endfor %}
-	<div class="box row" style="background:{{ background }};max-height:unset">
-	<h2 id="{{ title | slugify }}" class="title" style="background:{{ color }};color:{{ background }}">{{ title }}</h2>
-	<div class="caption">
-		<p style="color:{{ color }}">{{ description }}</p>
-	</div>
-    	{% for post in site.categories[category-name] %}
-		<a href="{{ post.url }}">
-			<div class="box">
-				<h2 class="title">{{ post.title }}</h2>
-				<div class="caption">
-					<p class="date">{{ post.date | date_to_long_string }}</p>
-					{{ post.excerpt }}
-				</div>
-			</div>
-		</a>
-		{% endfor %}
+{% for tag in site.data.tags %}
+
+	<div class="tag box row {{ tag.title | slugify }}">
+		<h2 id="{{ tag.title | slugify }}" class="title">{{ tag.title }}</h2>
+		<div class="caption">
+			<p>{{ tag.description | markdownify }}</p>
+		</div>
+		<div class="half column">
+			<ul>
+    			{% for note in site.jar %}
+					{% if note.tags contains tag.title %}
+						<li><a href="{{ note.url }}">{{ note.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+    			{% for ep in site.sconnesso %}
+					{% if ep.tags contains tag.title %}
+						<li><a href="{{ ep.url }}">{{ ep.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+    			{% for art in site.filinge %}
+					{% if art.tags contains tag.title %}
+						<li><a href="{{ art.url }}">{{ art.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+    			{% for poem in site.poetry %}
+					{% if poem.tags contains tag.title %}
+						<li><a href="{{ poem.url }}">{{ poem.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+		<div class="half column">
+			<ul>
+				<h3>Posts</h3>
+				{% for post in site.posts %}
+					{% if post.tags contains tag.title %}
+						<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 {% endfor %}

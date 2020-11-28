@@ -37,19 +37,18 @@ ref: home
 	</div>
 </div>
 
-<a href="/stuff"><h2 class="title">Featured stuff</h2></a>
-{% assign stuff = site.data.stuff %}
-{% for thing in stuff %}{% if thing.featured == "1" %}
-<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-	<div class="half column vertical flex">
-		<img src="{{ thing.img }}" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
+<a href="/stuff"><h2 class="title">Stuff I do</h2></a>
+<div class="row">
+	<div class="one column">
+		<article>
+			<p>I do too many things.</p>
+			<p>To both remember and share them, on this website I keep track of everything I do.</p>
+			<p>
+				You can check the most important things I do in <a href="/stuff"><em>Stuff</em></a>, while events and shows and concerts etc. I assist to are <a href="/giri">here</a>.<br />
+				Everything else is <a href="/tutto">here</a>.
+			</p>
+			<a href="/stuff">Start from here</a>
+		</article>
 	</div>
-	<div class="half column vertical flex">
-		<img class="stuff-logo" src="/logos/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
-		<div><p>{{ thing.description }}</p></div>
-		<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
-	</div>
-</div>{% endif %}{% endfor %}
-<div class="flex">
-	<a class="written button" href="/stuff">More</a>
 </div>
+

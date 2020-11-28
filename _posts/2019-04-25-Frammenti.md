@@ -1,4 +1,5 @@
 ---
+date: 2019-04-25
 img: "https://live.staticflickr.com/65535/46766121875_412e52d079_k.jpg"
 ---
 Alla fine mi trovo sempre a scrivere, fra l’altro di cose di poco conto e riflessioni personalissime prive di fondamento concreto o oggettivo, nei momenti in cui ciò di cui tratto più mi manca. Meglio: scrivo di tutto quello che vorrei sistemare nella mia bellissima, fortunata, peraltro confusa, scombussolata ed incerta vita solo nei periodi in cui la sua confusione è massima.<!--more--> In pratica, butto giù due parole per me, per confortarmi, per dimostrarmi che anche se non combino un fico secco a **blaterare** e fare bella figura sono ancora in grado.

@@ -1,5 +1,6 @@
 ---
-img: "/images/posts/2019-11-30-Sono-innamorato.jpg"
+date: 2019-11-30
+img: "https://assets.tommi.space/images/posts/2019-11-30-sono-innamorato.jpg"
 ---
 Cosa vuol dire saper scrivere.
 

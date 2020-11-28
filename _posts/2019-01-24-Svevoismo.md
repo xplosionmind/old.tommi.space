@@ -1,4 +1,5 @@
 ---
+date: 2019-01-24
 img: "https://live.staticflickr.com/4855/45948750785_f71661ac06_k.jpg"
 ---
 Alla nostra età (a libera interpretazione se mi stia riferendo alla mia generazione o se più narcisisticamente stia utilizzando un plurale maiestatis) sentiamo ripetutamente principalmente due grandi sentenze, per dirla alla Seneca, che rispecchiano due generali correnti di pensiero la cui esistenza è volta in maniera particolare a spronarci ed indirizzarci verso la direzione giusta che la nostra vita dovrebbe prendere o -teoricamente- ad aiutarci renderci consapevoli di dove noi in fondo vogliamo ci porti questo inesorabile cammino.<!--more-->

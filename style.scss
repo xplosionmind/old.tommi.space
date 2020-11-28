@@ -1,5 +1,9 @@
 ---
 ---
+
+@import "../_sass/search";
+@import "../_sass/highlight";
+
 :root {
 	--black-ish: #222;
 	--white-ish: #E3E3E3;
@@ -39,7 +43,7 @@
 
 html {
 	box-sizing: border-box;
-	cursor: url(/logos/cursor.svg) 16 16, crosshair;
+	cursor: url({{ site.logos }}/cursor.svg) 16 16, crosshair;
 	height: 100%; /* to make the page tall at least as the viewport */
 }
 
@@ -186,8 +190,9 @@ a {
 a,
 button,
 .button,
-.aa-suggestion {
-	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
+.aa-suggestion,
+.embed-container {
+	cursor: url({{ site.logos }}/cursor-hover.svg) 16 16, pointer;
 }
 
 p a:hover,
@@ -195,7 +200,9 @@ p a:focus,
 article li a:hover,
 article li a:focus,
 .toc a:hover,
-.toc a:focus {
+.toc a:focus,
+.tag a:hover,
+.tag a:focus, {
 	outline: none !important;
 	border-bottom: 2px dashed;
 	transition: none;
@@ -229,13 +236,17 @@ ul li {
 }
 
 .poetry {
-	font: 400 var(--regular-more) Garamond, "Simoncini Garamond", "EB Garamond", Georgia, serif;
+	font: 400 var(--regular-more) "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif;
 }
 
 .post {
 	& > p:first-of-type::first-letter {
 		initial-letter: 4;
 		-webkit-initial-letter: 4;
+	}
+	.embed-container {
+		border-radius: var(--radius-l);
+		box-shadow: var(--shadow);
 	}
 }
 
@@ -330,13 +341,20 @@ code {
 	border-radius: var(--radius-s);
 }
 
+.cite {
+	text-align: right;
+	&::before {
+		content: '~ ';
+	}
+}
+
 blockquote {
   	margin: 0 3vw;
 	padding: 0;
 	p {
-		font: italic 1.2em Garamond, "Simoncini Garamond", "EB Garamond", Georgia, serif;
+		font: 1em "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif;
 		color: var(--other-grey);
-		&:first-child::before,
+	/*	&:first-child::before,
 		&:last-child::after {
 			position: relative;
 		}
@@ -347,7 +365,7 @@ blockquote {
 		&:last-child::after {
 			content: '„';
 			left: var(--tiny);
-		}
+		} */
 	}
 	blockquote {
 		p {
@@ -475,7 +493,7 @@ figure {
 }
 
 figcaption {
-	font: italic var(--regular) Garamond, "Simoncini Garamond", "EB Garamond", Georgia, serif;
+	font: italic var(--regular) "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif;
 	line-height: var(--regular);
 	margin-top: var(--regular-less);
 	color: var(--other-grey);
@@ -486,7 +504,8 @@ figcaption {
 	text-align: center;
 }
 
-.right {
+.right,
+.date {
 	text-align: right;
 }
 
@@ -560,10 +579,8 @@ h2 {
 
 .box,
 .stuff {
-	.column {
-		p {
-			margin: 5vh 10%;
-		}
+	p {
+		margin: var(--regular) 10%;
 	}
 }
 
@@ -766,12 +783,12 @@ nav {
 	position: absolute;
 	left: 11px;
 	top: 13px;
-	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
+	cursor: url({{ site.logos }}/cursor-hover.svg) 16 16, pointer;
 	padding: 10px 35px 16px 0;
 	span,
 	span::before,
 	span::after {
-		cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
+		cursor: url({{ site.logos }}/cursor-hover.svg) 16 16, pointer;
 		height: 3px;
 		width: 26px;
 		background: var(--text);
@@ -802,6 +819,24 @@ nav {
 		}
 	}
 }
+
+.tag {
+	max-height: unset;
+	li {
+		margin-left: 4vw;
+	}
+}
+
+{% for tag in site.data.tags %}
+	.{{ tag.title | slugify }} {
+		color: {{ tag.color }};
+		background: {{ tag.background }};
+		a {
+			color: {{ tag.color }};
+			border-bottom: 2px solid {{ tag.color }};
+		}
+	}
+{% endfor %}
 
 audio {
 	width: 100%;

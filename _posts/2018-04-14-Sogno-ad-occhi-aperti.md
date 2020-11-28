@@ -1,12 +1,17 @@
 ---
-img: "https://live.staticflickr.com/790/41347581362_928eb47eb4_k.jpg"
-categories: "Inchiostro Digitale"
+date: 2018-04-14
+tags: "Inchiostro Digitale"
+img: "https://assets.tommi.space/images/posts/2018-04-14-sogno-ad-occhi-aperti.jpg"
 ---
 Qui nel letto in camera mia si sta bene.
 
 Sono al caldo -anche se è già aprile e non fa troppo freddo-, e posso accoccolarmi nel morbido piumino.<!--more-->
 
-<figure><img src="{{ page.img }}" alt="La luna sospesa sul picco di una montagna" /><figcaption>fleeting floating evening</figcaption></figure>
+<figure>
+  <img src="{{ page.img }}" alt="La luna sospesa sul picco di una montagna" title="La luna sospesa sul picco di una montagna" />
+  <figcaption>fleeting floating evening</figcaption>
+</figure>
+
 Per quanto possa considerarmi stressato, stanco, insoddisfatto e deluso, posso solamente immaginare di essere un ricercato internazionale, di essere malato di una qualche malattia che mi condizioni l’esistenza o di trovarmi in qualunque situazione che potrebbe realmente mettere a repentaglio la mia vita, e posso dunque ritenermi fortunato ed al sicuro.
 
 Sono a casa mia, ho una famiglia e posso studiare.
@@ -24,7 +29,8 @@ In conclusione, è inconfutabile la presenza in noi di emozioni, più o meno for
 
 Ufficio Stampa Liceo G.D. Cassini – Tommaso Marmo
 
-<br />
-<br />
+<br>
 
-<a href="https://www.rivieratime.news/sogno-occhi-aperti/" rel="noopener" target="_blank">articolo originale</a> su *Inchiostro Digitale*
+---
+
+[articolo originale](https://www.rivieratime.news/sogno-occhi-aperti/) su <cite>Inchiostro Digitale</cite>

@@ -1,0 +1,39 @@
+---
+date: 2020-10-16
+updated: 2020-10-17
+ref: now
+description: "Stuff I'm up to in these days"
+---
+The one you're reading is more than a simple web page, it's part [a movement](https://sive.rs/nowff). It was started by the legendary [Derek Sivers](https://sive.rs) in 2015, and [it grew a lot](https://sive.rs/now3) since then. To find out more about the concept and to find out [how many people](https://nownownow.com) are embracing it, visit [nownownow.com](https://nownownow.com/about)
+{:.box}
+
+<br>
+
+What I'm doing right now:
+
+## Quitting Social Media
+
+I made a life-changing choice: I'll **delete all of my Social Media accounts** by the end of 2020. There are a lot of reasons why I got to this point, and I discuss about this topic  **a l l  t h e  t i m e**  with my friends. At the moment my aim is to put together resources, articles, videos, documentaries and documents in [this website](https://quitsocialmedia.club). Randomly stuffed, everything is [here](/internet-freedom), in the meanwhile.
+
+<br>
+<br>
+
+## Planning a Festival
+
+We have no website, no detailed schedule, no definite and clear structure. We are a group of curious, different and crazy guys from all over Italy and we have an idea, a place, a time: a **festival of meetings** (which is way better than is sounds), in **Sanremo**, in August 2021. It's already been one year since we're working on this and we founded an association. I'm its president (🤯).
+
+Usually, I'd suggest to subscribe to a newsletter, or I'd point to a website, but as of right now we haven't anything like this. We're working on it. Keep in touch.
+
+<br>
+<br>
+
+## Studying
+
+I'm attending [Philosophy, International Studies and Economics](https://unive.it/pise) at [Ca' Foscari University](https://unive.it) in [Venice](https://www.comune.venezia.it/), Italy, where I'm living.
+
+<br>
+<br>
+
+## Projects, ideas, and collaborations
+
+In the meanwhile, I'm continuing to wander around Italy to take part and/or assist to what's happening. I take note to the most important stuff [here](/stuff), and [here](/tuttopiu) I log everything (literally anything) I'm doing.
