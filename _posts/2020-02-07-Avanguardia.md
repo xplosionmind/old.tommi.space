@@ -1,6 +1,6 @@
 ---
 date: 2020-02-07
-img: "https://assets.tommi.space/images/posts/2020-02-07-avanguardia.jpg"
+image: "https://assets.tommi.space/images/posts/2020-02-07-avanguardia.jpg"
 title: "L’avanguardia"
 permalink: /avanguardia
 redirect_from:
@@ -10,7 +10,7 @@ redirect_from:
 Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerà la felpa, quella pesante che lo mantiene in quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su exercise.polito.it nella speranza di osservare un'ispirazione per risolvere un equazione.
 
 E intorno.
-<!--more-->
+
 La favola è intorno. Intorno è una scenografia da film, un luogo ed un'atmosfera romantici, nel senso stretto della parola, nel senso che il cuore batte solo per la bellezza di essere lì.
 
 Che poi uno è scemo se si emoziona tanto da farsi battere il cuore nell'aula studio verde (avrebbe un numero ma non lo sa, uno. In gergo si chiama così) del Politecnico di Torino. Uno sarà anche scemo ma capitelo. Con la temperatura di cui sopra, le palpebre pesanti tenute aperte a forza da una volontà stoica o più probabilmente dalla consapevolezza che presto o tardi questa routine distruttiva terminerà, intorno a lui ci sono dei volti per cui se Van Gogh fosse vivo impazzirebbe. Io stesso, che non ho il coraggio di impugnare una matita senza la sicurezza di un righello che la guidi, passerei tutto il giorno a disegnare l'umanità di questa stanza.
@@ -19,7 +19,10 @@ Quella nell'aula verde del Politecnico di Torino è l'avanguardia dell'umanità.
 
 Uno, nel frattempo, sempre quello scemo a cui batte il cuore, nota che la ragazza al suo fianco si è addormentata. Così. Ha chiuso il portatile, incrociato le braccia sul tavolo, e ci ha sprofondato la fronte in mezzo. Quello a sinistra di lei impreca. Non dice nulla ma uno che lo sta guardando può dirlo osservando i suoi occhi roteare con furia e le sue labbra stringersi, probabilmente per un esercizio che sta svolgendo da mezz'ora ma continua a risultare errato, con una piccolissima discrepanza nella radice. Dietro sta un cinese che se fosse in qualunque altro posto indosserebbe una mascherina e verrebbe guardato un po' male, ora. Nell'aula verde, però, sono tutti troppo impegnati a superare gli esami per pensare di poterlo guardare storto. Più in là una ragazza sta guardando un video su YoTube, beh, una pausa concediamogliela. Un tipo decisamente nerd, dall'altra parte del tavolo, con un accento napoletano scambia alcune parole un po' in francese, un po' in inglese con un negretto dal volto ingenuo che non si è mai tolto quel cappellino con cui è entrato questa mattina alle sette.
 
-<figure><img src="{{ page.img }}" alt="l’aula verde" /><figcaption>pensa te se uno deve farsi guardare male facendo una figura imbarazzante mettendosi a scattare una foto per il suo stupido blog in mezzo all’aula verde</figcaption></figure>
+<figure>
+  <img src="{{ page.image }}" alt="l’aula verde" />
+  <figcaption>pensa te se uno deve farsi guardare male facendo una figura imbarazzante mettendosi a scattare una foto per il suo stupido blog in mezzo all’aula verde</figcaption>
+</figure>
 
 Fisica II, Analisi II, Ingegneria Strutturale, Analisi I, Elettrotecnica, Fisiologia, Circuiti, Idrologia, Impianti Industriali, uno sbircia curioso con troppa indiscrezione e riesce a leggere alcuni dei libri furiosamente sfogliati dagli avanguardisti, che ogni tanto schiantano la propria schiena sullo schienale, sbuffando scoraggiati. Poi, ad un orario variabile, entrano gli arabi. Ah, gli arabi. Uno si aggorge che arrivano perché probabilmente non hanno mai imparato a parlare sottovoce. Cominciano ad andare a salutare le persone (gli arabi sono amici di tutti, ti salutano e stringono la mano anche se non li hai mai visti prima) fanno il giro dell'aula per guardare il codice di quelli che stanno programmando, valutano un po' l'atmosfera, poi se ne vanno. Non si sa dove. Forse nell'aula studio con i vetri (che forse ha un numero ma uno non lo sa, in gergo è così).
 

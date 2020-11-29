@@ -2,7 +2,7 @@
 date: 2016-08-02
 tags:
   - radioimmaginaria
-img: "https://assets.tommi.space/images/posts/2017-01-19-come-cambiare-il-mondo.jpg"
+image: "https://assets.tommi.space/images/posts/2017-01-19-come-cambiare-il-mondo.jpg"
 ---
 Vivi la vita. Quante volte si sente questa frase! Quante volte l’adrenalina, la carica dei nostri 16 anni ci fa dire "si vive una volta sola". Vivere non vuol dire nulla, da solo non comunica emozioni.
 

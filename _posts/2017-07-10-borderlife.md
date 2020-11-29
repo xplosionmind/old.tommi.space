@@ -2,9 +2,9 @@
 date: 2017-07-10
 tags:
   - radioimmaginaria
-img: "https://assets.tommi.space/images/posts/2017-07-10-borderlife-3.jpg"
+image: "https://assets.tommi.space/images/posts/2017-07-10-borderlife-3.jpg"
 ---
-<figure><img src="{{ page.img }}" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" /></figure>
+<figure><img src="{{ page.image }}" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" /></figure>
 <!--more-->
 Io ho 16 anni, quasi 17, è estate, sono contento di essere in vacanza e me la godo.
 

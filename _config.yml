@@ -8,6 +8,7 @@ author:
   name: Tommi
   twitter: xplosionmind
   picture: "https://assets.tommi.space/images/profile.jpg"
+logo: "https://assets.tommi.space/logos/favicon.png"
 publisher: Tommi
 timezone: Europe/Rome
 twitter_username: xplosionmind
@@ -49,6 +50,30 @@ feed:
     - poetry
     - filinge
     - jar
+# SEO
+social:
+  name: xplosionmind
+  links:
+    - https://twitter.com/xplosionmind
+    - https://instagram.com/xplosionmind
+    - https://www.linkedin.com/in/tommasomarmo/
+    - https://www.flickr.com/xplosionmind/
+    - https://www.reddit.com/user/xplosionmind/
+    - https://www.facebook.com/profile.php?id=100007931469414
+    - https://mastodon.online/@xplosionmind
+    - https://hypothes.is/users/xplosionmind
+    - https://keybase.io/xplosionmind
+    - https://t.me/xplosionmind
+    - https://www.openstreetmap.org/user/xplosionmind
+    - https://liberapay.com/tommi/
+    - https://open.spotify.com/user/xplosionmind
+    - https://www.yourworldoftext.com/~xplosionmind/
+    - https://www.vutuv.de/users/tommaso.marmo
+    - https://www.themoviedb.org/u/xplosionmind
+tagline: "Tommi's virtual brain"
+twitter:
+  username: xplosionmind
+  card: summary
 podcast:
   title: Sconnesso
   description: "Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso."
@@ -104,8 +129,7 @@ defaults:
     values:
       layout: "wrapper"
       lang: "en"
-      img: "/images/preview.gif"
-      image: "/images/preview.gif"
+      image: "https://assets.tommi.space/images/preview.gif"
 
   -
     scope:

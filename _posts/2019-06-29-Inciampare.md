@@ -1,6 +1,6 @@
 ---
 date: 2019-06-29
-img: "https://assets.tommi.space/images/posts/2019-06-29-inciampare.jpg"
+image: "https://assets.tommi.space/images/posts/2019-06-29-inciampare.jpg"
 ---
 Chi non sarò sarà sempre l’ombra di chi sono.
 
@@ -8,7 +8,9 @@ Un’ombra, è sempre più leggera, più veloce, più allegra, più dolce, meno 
 
 _**Chi striscia non inciampa**_
 
-<figure><img src"{{ page.img }}" alt="una lupetta che percorre in qeuilibrio una manichetta (sì sembra strano ma se vedeste la foto capireste)" /></figure>
+<figure>
+  <img src"{{ page.image }}" alt="una lupetta che percorre in qeuilibrio una manichetta (sì sembra strano ma se vedeste la foto capireste)" />
+</figure>
 
 ho imparato da chi inciampando ha saputo creare un mondo unico e magico.
 

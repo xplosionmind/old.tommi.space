@@ -1,7 +1,7 @@
 ---
 date: 2020-04-18
 tags: ["geek"]
-img: "https://assets.tommi.space/images/posts/2020-04-18-making-this-website.jpg"
+image: "https://assets.tommi.space/images/posts/2020-04-18-making-this-website.jpg"
 lang: en
 permalink: /themakingof
 redirect-from:

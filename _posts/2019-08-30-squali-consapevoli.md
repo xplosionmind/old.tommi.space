@@ -1,14 +1,17 @@
 ---
 date: 2019-08-30
-img: "https://assets.tommi.space/images/posts/2019-08-30-squali-consapevoli.jpg"
+image: "https://assets.tommi.space/images/posts/2019-08-30-squali-consapevoli.jpg"
 ---
 Qual è il prezzo che dobbiamo pagare
 
 per realizzare i nostri sogni?
 
 Ho cercato per mesi e trovato solo in alcuni attimi parole finora sbagliate per riuscire a raccontare il mio piccolo, non definitivo, quasi raggiunto, sogno a cui lavoro da un’eternità, praticamente.
-<!--more-->
-<figure><img src="{{ page.img }}" alt="una fuga romantica in pigiama" /><figcaption>la classica fuga romantica, in pigiama però (da un frame di <i>Everyone</i>)</figcaption></figure>
+
+<figure>
+  <img src="{{ page.image }}" alt="una fuga romantica in pigiama" />
+  <figcaption>la classica fuga romantica, in pigiama però (da un frame di <cite><a href="/everyone" target="_blank">Everyone</a></cite>)</figcaption>
+</figure>
 
 Scrivo fiumi di parole senza senso, frutto del delirio causato dal più intenso entusiasmo e dalla più devastante agitazione trovano ora un perché ed una forma, nella notte insonne che precede per ogni creatore il debutto della sua opera.
 

@@ -4,42 +4,14 @@ layout: none
 permalink: /
 redirect_from: /landing-page
 ---
-<!DOCTYPE html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta charset="UTF-8">
-	<link href="style.css" type="text/css" rel="stylesheet" />
-	<link rel="preload stylesheet" href="{{ site.fonts }}/inter/inter.css" type="text/css" />
-	<link rel="icon" href="{{ site.logos }}/favicon32.png" sizes="32x32" />
-	<link rel="icon" href="{{ site.logos }}/favicon64.png" sizes="64x64" />
-	<link rel="icon" href="{{ site.logos }}/favicon.png" sizes="160x160" />
-
-	<!-- IndieLogin + IndieAuth -->
-	<link rel="me authn" href="https://github.com/xplosionmind" />
-	<link rel="me" href="https://twitter.com/xplosionmind" />
-	<link rel="me" href="https://instagram.com/xplosionmind" />
-	<link rel="me" href="https://www.linkedin.com/in/tommasomarmo/" />
-	<link rel="me" href="https://www.flickr.com/xplosionmind/" />
-	<link rel="me" href="https://www.reddit.com/user/xplosionmind/" />
-	<link rel="me" href="https://www.facebook.com/profile.php?id=100007931469414" />
-	<link rel="me" href="https://mastodon.online/@xplosionmind" />
-	<link rel="me" href="https://hypothes.is/users/xplosionmind" />
-	<link rel="me" href="https://keybase.io/xplosionmind" />
-	<link rel="me" href="https://t.me/xplosionmind" />
-	<link rel="me" href="https://www.openstreetmap.org/user/xplosionmind" />
-	<link rel="me" href="https://liberapay.com/tommi/" />
-	<link rel="me" href="https://open.spotify.com/user/xplosionmind" />
-	<link rel="me" href="https://www.yourworldoftext.com/~xplosionmind/" />
-	<link rel="me" href="https://www.vutuv.de/users/tommaso.marmo" />
-	<link rel="me" title="The Movie Database profile" href="https://www.themoviedb.org/u/xplosionmind" />
-	<link rel="me pgpkey" href="https://api.protonmail.ch/pks/lookup?op=get&search=lost.in@tommi.space" />
+{% include head.html %}
+<link rel="me authn" href="https://github.com/xplosionmind" />
+<link rel="me pgpkey" href="https://api.protonmail.ch/pks/lookup?op=get&search=lost.in@tommi.space" />
 	<link rel="openid.delegate" href="https://tommi.space" />
 	<link rel="openid.server" href="https://openid.indieauth.com/openid" />
 	<link rel="authorization_endpoint" href="https://indieauth.com/auth" />
 	<link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
-
 	<title>Tommi Space</title>
-</head>
 <body>
 	<div class="landing vertical flex">
 		<h1>Tommi Space</h1>

@@ -1,11 +1,11 @@
 ---
 date: 2018-09-23
-img: "https://assets.tommi.space/images/posts/2018-09-23-che-palle-instagram.jpg"
+image: "https://assets.tommi.space/images/posts/2018-09-23-che-palle-instagram.jpg"
 ---
 Stamattina presto continuavo a rigirarmi nel letto e non trovavo pace. Un po’ come Zeno, che, seppur consapevole della sua assurdità, soffre disperatamente di una malattia "immaginaria", forse unicamente frutto della sua fantasia. Se però nel suo caso distrazioni di carattere amoroso e, come noi diremmo, trip mentali assurdi lo distraevano dal suo dolore, nel mio caso -e, credo, nel nostro- sono quelle che in fondo mancano e quelle che noi riteniamo distrazioni se non proprio la causa, sono ciò che più enfatizza la nostra sofferenza.
 
 <figure>
-  <img src="{{ page.img }}" title="una specie di stupido flowchart a spiegazione della mia scelta" alt="una specie di stupido flowchart a spiegazione della mia scelta" />
+  <img src="{{ page.image }}" title="una specie di stupido flowchart a spiegazione della mia scelta" alt="una specie di stupido flowchart a spiegazione della mia scelta" />
 </figure>
 
 Non nego, anche se io stesso me ne stupisco, che sto convivendo da qualche giorno con la grandissima delusione di esser stato bocciato all’esame di teoria della patente. Sto dunque vivendo un po’ nel limbo: non concludo quasi nulla, sono assonnato, debole e deluso. È inevitabile dunque rifugiarsi nell’ozio e nella nullafacenza, particolarmente nocivi in questo caso perché nel ventunesimo secolo corrispondono con lo [scrollare](https://instagram.com/scrollordie) il feed di instagram.

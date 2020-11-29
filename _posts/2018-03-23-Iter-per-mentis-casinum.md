@@ -1,13 +1,13 @@
 ---
 date: 2018-03-23
-img: "https://assets.tommi.space/images/posts/2018-03-23-iter-per-mentis-casinum.jpg"
+image: "https://assets.tommi.space/images/posts/2018-03-23-iter-per-mentis-casinum.jpg"
 ---
 Premetto che segue un articolo estremamente personale, oserei quasi dire egoista, in cui parlo molto di me stesso ed espongo alcune riflessioni profonde che riguardano me.
 
 Forse nemmeno è un articolo, è più il flusso di pensieri che sta tormentando me e condizionando la mia stessa esistenza {posso sembrare esagerato e temo di esserlo effettivamente, ma non sto enfatizzando: è così} non solo durante questo viaggio in bus interminabile, con meraviglioso bianco panorama bavarese, ascoltando musica africana (<a href="https://youtu.be/bmXvpuseXWU" rel="noopener noreferrer" target="_blank">Expensive Shit</a>) di Fela Kuti in questo momento), ma da qualche mese a questa parte.
 
 <figure>
-  <img src="{{ page.img }}" alt="uno scorcio del paesaggio tedesco" />
+  <img src="{{ page.image }}" alt="uno scorcio del paesaggio tedesco" />
   <figcaption>uno scorcio del paesaggio tedesco</figcaption>
 </figure>
 

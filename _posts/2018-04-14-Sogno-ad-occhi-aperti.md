@@ -1,14 +1,14 @@
 ---
 date: 2018-04-14
 tags: "Inchiostro Digitale"
-img: "https://assets.tommi.space/images/posts/2018-04-14-sogno-ad-occhi-aperti.jpg"
+image: "https://assets.tommi.space/images/posts/2018-04-14-sogno-ad-occhi-aperti.jpg"
 ---
 Qui nel letto in camera mia si sta bene.
 
 Sono al caldo -anche se è già aprile e non fa troppo freddo-, e posso accoccolarmi nel morbido piumino.<!--more-->
 
 <figure>
-  <img src="{{ page.img }}" alt="La luna sospesa sul picco di una montagna" title="La luna sospesa sul picco di una montagna" />
+  <img src="{{ page.image }}" alt="La luna sospesa sul picco di una montagna" title="La luna sospesa sul picco di una montagna" />
   <figcaption>fleeting floating evening</figcaption>
 </figure>
 

@@ -1,10 +1,10 @@
 ---
 date: 2019-04-25
-img: "https://live.staticflickr.com/65535/46766121875_412e52d079_k.jpg"
+image: "https://live.staticflickr.com/65535/46766121875_412e52d079_k.jpg"
 ---
 Alla fine mi trovo sempre a scrivere, fra l’altro di cose di poco conto e riflessioni personalissime prive di fondamento concreto o oggettivo, nei momenti in cui ciò di cui tratto più mi manca. Meglio: scrivo di tutto quello che vorrei sistemare nella mia bellissima, fortunata, peraltro confusa, scombussolata ed incerta vita solo nei periodi in cui la sua confusione è massima.<!--more--> In pratica, butto giù due parole per me, per confortarmi, per dimostrarmi che anche se non combino un fico secco a **blaterare** e fare bella figura sono ancora in grado.
 
-<figure><img src="{{ page.img }}" alt="una persona che fa una foto a un’altra persona da un punto lontano" /><figcaption>Non c’è nulla di più frammentato di due persone che fanno una foto allo stesso tipo in posa. Montjuic Castle, Barcellona, aprile 2019</figcaption></figure>
+<figure><img src="{{ page.image }}" alt="una persona che fa una foto a un’altra persona da un punto lontano" /><figcaption>Non c’è nulla di più frammentato di due persone che fanno una foto allo stesso tipo in posa. Montjuic Castle, Barcellona, aprile 2019</figcaption></figure>
 
 Poi, alla fine, per trasformare questi minuti persi a digitare assurde teorie (di nuovo: che nella maggior parte dei casi non hanno alcun fondamento al di fuori della mia esistenza) le rovescio nel mio blog, così, perché pensare che scrivo su un "mio blog" mi fa trovare qualcosa di unico, speciale o migliore rispetto ad altri, quando invece **non c’è**.
 

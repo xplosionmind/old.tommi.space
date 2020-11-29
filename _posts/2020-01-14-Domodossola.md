@@ -1,9 +1,9 @@
 ---
 date: 2020-01-14
-img: "https://assets.tommi.space/images/posts/2020-01-14-domodossola.jpg"
+image: "https://assets.tommi.space/images/posts/2020-01-14-domodossola.jpg"
 ---
 Ciò che di più bello c’è a Torino, il quattordici gennaio duemilaventi come un giorno qualunque di gennaio come un giorno qualunque di inverno, sono i rami intirizziti stropicciati rinsecchiti che per tutto corso Racconigi si ramificano nel cielo piatto, come neri capillari che lo alimentano del grigiore di cui sembra non riuscire a liberarsi mai.
-<!--more-->
+
 E io, scrutando questo groviglio di contrasti, privo di colore se non al tramonto, continuando ad alzare lo sguardo, ancora a disagio per l’idea di non avere un orizzonte, incapace di vedere oltre palazzi angolosi e seri che gridano la loro monotonia nel vano tentativo di poter competere con la bidimensionalità del cielo, ecco, io rimango estasiato.
 
 Estasiato ed estenuato, estasiato ed estenuato dalla banale novità in cui io e altri squinternati sventurati ci siamo catapultati più per l'inerzia del “così funziona di solito” che per autentica volontà.
@@ -34,7 +34,7 @@ E come treni, come <a href="https://youtu.be/5bW7m--WiWE" rel="noopener noreferr
 
 <br />
 
-<figure><img src="{{ page.img }}" alt="alberi capillari in Corso Racconigi a Torino" /><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
+<figure><img src="{{ page.image }}" alt="alberi capillari in Corso Racconigi a Torino" /><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
 
 <br />
 
