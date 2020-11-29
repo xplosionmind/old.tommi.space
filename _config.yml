@@ -4,7 +4,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   A web version of the mess inside Tommi Boom’s mind
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tommi.space" # the base hostname & protocol for your site, e.g. http://example.com
-author: Tommi
+author:
+  name: Tommi
+  twitter: xplosionmind
+  picture: "https://assets.tommi.space/images/profile.jpg"
 publisher: Tommi
 timezone: Europe/Rome
 twitter_username: xplosionmind
@@ -29,8 +32,6 @@ keep_files:
   - images/
   - assets/
 collections:
-  posts:
-    excerpt_separator: "<!--more-->"
   poetry:
     output: true
   jar:
@@ -39,6 +40,15 @@ collections:
     output: true
   sconnesso:
     output: true
+feed:
+  path: /zibaldone.xml
+  tags:
+    only:
+      - geek
+  collections:
+    - poetry
+    - filinge
+    - jar
 podcast:
   title: Sconnesso
   description: "Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso."

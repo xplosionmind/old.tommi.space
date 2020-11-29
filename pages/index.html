@@ -8,11 +8,11 @@ redirect_from: /landing-page
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta charset="UTF-8">
-	<link href="style.css" type="text/css" rel="stylesheet prefetch" />
-	<link rel="stylesheet" href="{{ site.fonts }}/inter/inter.css" type="text/css" />
-	<link rel="icon" href="/logos/favicon.svg" sizes="32x32" />
-	<link rel="icon" href="/logos/favicon.svg" sizes="192x192" />
-	<link rel="prefetch" href="/logos/cc.svg" />
+	<link href="style.css" type="text/css" rel="stylesheet" />
+	<link rel="preload stylesheet" href="{{ site.fonts }}/inter/inter.css" type="text/css" />
+	<link rel="icon" href="{{ site.logos }}/favicon32.png" sizes="32x32" />
+	<link rel="icon" href="{{ site.logos }}/favicon64.png" sizes="64x64" />
+	<link rel="icon" href="{{ site.logos }}/favicon.png" sizes="160x160" />
 
 	<!-- IndieLogin + IndieAuth -->
 	<link rel="me authn" href="https://github.com/xplosionmind" />
@@ -31,7 +31,7 @@ redirect_from: /landing-page
 	<link rel="me" href="https://open.spotify.com/user/xplosionmind" />
 	<link rel="me" href="https://www.yourworldoftext.com/~xplosionmind/" />
 	<link rel="me" href="https://www.vutuv.de/users/tommaso.marmo" />
-	<link rel="me" href="https://www.imdb.com/user/ur90419107/" />
+	<link rel="me" title="The Movie Database profile" href="https://www.themoviedb.org/u/xplosionmind" />
 	<link rel="me pgpkey" href="https://api.protonmail.ch/pks/lookup?op=get&search=lost.in@tommi.space" />
 	<link rel="openid.delegate" href="https://tommi.space" />
 	<link rel="openid.server" href="https://openid.indieauth.com/openid" />
