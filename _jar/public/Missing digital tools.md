@@ -1,7 +1,7 @@
 ---
-tags: geek
 date: 2020-02-26
 updated: 2020-09-30
+tags: ["geek"]
 description: "Ideas for programs which would be very useful, but I didn't find yet"
 permalink: /missing-tools
 redirect_from:

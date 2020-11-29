@@ -3,3 +3,8 @@ permalink: /test
 ---
 <h1>Testing</h1>
 <p>a page for testing</p>
+<ul>
+	{% for page in site.pages %}
+		<li>{{ page.title }}</li>
+	{% endfor %}
+</ul>

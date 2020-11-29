@@ -96,7 +96,6 @@ defaults:
       lang: "en"
       img: "/images/preview.gif"
       image: "/images/preview.gif"
-      primary: "0"
 
   -
     scope:

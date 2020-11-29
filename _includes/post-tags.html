@@ -2,7 +2,7 @@
 	{% for tag in site.data.tags %}
 		{% for post-tag in post.tags %}
 			{% if tag == post-tag %}
-				<a href="/tags#{{ tag.title | slugify }}" class="{{ tag.title | slugify }} smaller written button">{{ tag.title }}</a>
+				<a href="/tags#{{ tag.title | slugify }}" rel="tag" class="{{ tag.title | slugify }} smaller written button">{{ tag.title }}</a>
 			{% endif %}
 		{% endfor %}
 	{% endfor %}
