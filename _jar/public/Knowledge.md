@@ -1,6 +1,6 @@
 ---
 date: 2020-06-04
-updated: 2020-11-13
+updated: 2020-11-30
 description: "I conceive knowledge as the fundamental quality of human life. It should be searched, managed, and preserved as a treasure, since it is the most valuable capability we have, together with love. Here, I collect <strong><em>meta-knowledge</em></strong> data, or better <em>Epistemology</em> annotations, which are knowledge insights about knowledge itself, and how to deal with it."
 redirect_from:
   - /learn
@@ -38,6 +38,9 @@ When the basics aren't enough.
 1. in-depth CSS learning
 	- [Tania Rascia](https://taniarascia.com)'s [Overview of CSS concepts](https://www.taniarascia.com/overview-of-css-concepts/)
 1. [SCSS](https://sass-lang.com/) deeper understanding
+1. [YAML] deeper understanding
+	- [learnxinyminutes](https://learnxinyminutes.com/docs/yaml/)
+	- [cheat sheet](https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml)
 
 <br>
 <br>

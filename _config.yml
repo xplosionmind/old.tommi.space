@@ -29,6 +29,9 @@ exclude:
   - riordinare/
   - _jar/private/
   - _jar/templates/
+  - _jar/.obsidian
+  - _jar/.trash
+  - _jar/PISE # to be removed once a submodule will be added
 keep_files:
   - images/
   - assets/
@@ -98,6 +101,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-admin
   - jekyll-debug
+  - jekyll-optional-front-matter
 #  - jekyll-paginate
 #  - jekyll-paginate-v2
 #  - jekyll-archives

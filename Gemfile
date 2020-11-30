@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-admin"
   gem "jekyll-debug"
+  gem "jekyll-optional-front-matter"
 #  gem "jekyll-paginate"
 #  gem "jekyll-paginate-v2"
 #  gem "jekyll-archives"

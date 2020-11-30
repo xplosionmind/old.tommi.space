@@ -11,7 +11,7 @@ draft: 1
 ---
 Slots are simply **time slots**: half or full hours which I totally dedicate to something. If a new, different thing pops up in my mind, I write it down to remember it, but I get to it only when it's the time to commit to the related slot.
 
-The Slot Philosophy is awesome because slots can be rearranged everyday, and their accomplisment can be tracked through [self-tracking](/self-tracking) apps such as [Loop Habit Tracker](https://loophabits.org) (which is the one I use).
+The Slot Philosophy is awesome because slots can be rearranged everyday, and their accomplishment can be tracked through [self-tracking](/self-tracking) apps such as [Loop Habit Tracker](https://loophabits.org) (which is the one I use).
 
 ## My Slots
 

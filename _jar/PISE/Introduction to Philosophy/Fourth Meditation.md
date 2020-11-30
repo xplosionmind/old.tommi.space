@@ -26,3 +26,19 @@ the fact that I'm limited causes error. Nevertheless, being limited is not a pro
 +++ intellect is good in itself
 
 Will is good in itself, too. Furthermore, **my will is infinite**
+
+<p class="date">30<sup>th</sup> November 2020</p>
+
+God's will and human will have the same extension, they are both infinite.
+
+The source of mistakes is the difference between the capabilities of the will and what man can actually conceive.
+
+An error is to ascribe a property which isn't a real property, which is a subjective interpretation, to an object.
+
+Two different definitions of will:
+- fqfa
+- af
+
+Freedom of indifference, and freedom of spontaneity.
+
++++

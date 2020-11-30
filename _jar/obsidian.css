@@ -2390,3 +2390,12 @@ color: #5cc863;
 .cm-s-obsidian, .markdown-preview-view {
 	hyphens: auto;
 }
+
+.cm-animate-fat-cursor {
+	animation: none;
+	background: var(--background-modifier-accent);
+}
+
+.CodeMirror-cursors {
+	visibility: visible !important;
+}

@@ -1,7 +1,7 @@
 ---
 title: "Website development"
 date: 2020-02-02
-updated: 2020-11-21
+updated: 2020-11-30
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 permalink: /development
 redirect_from:
@@ -23,7 +23,7 @@ tags: ["geek"]
 <br>
 <br>
 
-## Incomplete Content
+## Content
 
 Work in progress content:
 
@@ -56,6 +56,7 @@ Work in progress content:
 - Desk Photo Archive
 	- name
 	- explanation `I've always been one of those people who's never satisfied about how their room is `
+	- explanation 2 `Every 27 days, no matter what, at exactly 12:11 PM I'll have to take my camera and shoot a photo of my desk. No matter what's on it or how is it. Just to immortalize my main life companion in that moment.`
 	- photos
 - [drafts](./_drafts)
 
@@ -87,6 +88,8 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 		1. Configure [jTag](https://github.com/ttscoff/jtag)
 	- [dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp)
 1. Switch to [Zettelkasten](/zettelkasten)
+	- [git submodules](https://www.taniarascia.com/git-submodules-private-content/)
+	- make backlinks optional: insert `if` statement out of the `div` and make the box appear only if at least one backlink is present
 	- how to convert Zetelkasten links to ordinary links
 	- Backlinking
 	- [simply-jekyll](https://github.com/raghuveerdotnet/simply-jekyll), a template with backlinking setup

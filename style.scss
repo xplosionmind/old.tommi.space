@@ -330,6 +330,7 @@ pre {
 	padding: var(--regular-more);
 	border-radius: var(--radius-m);
 	box-shadow: var(--inner-shadow);
+	background: var(--black-ish);
 	code {
 		box-shadow: unset;
 	}
@@ -493,7 +494,7 @@ figure {
 }
 
 figcaption {
-	font: italic var(--regular) "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif;
+	font: var(--regular) "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif;
 	line-height: var(--regular);
 	margin-top: var(--regular-less);
 	color: var(--other-grey);

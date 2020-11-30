@@ -12,7 +12,7 @@ redirect_from:
   - /ten-arguments-notes
   - /notes-ten-arguments
   - /Notes-on-Ten-Arguments-For-Deleting-Your-Social-Media-Accounts
-description: 'Notes from the great book by <a href="http://www.jaronlanier.com/" rel="noopener noreferrer" target="_blank">Jaron Lanier</a>, <a href="http://www.jaronlanier.com/tenarguments.html" rel="noopener noreferrer" target="_blank"><em>Ten Arguments for Deleting Your Social Media Accounts</em></a>, which I discovered almost at the end of my journey in writing <em>The Digital Freedom Manifesto</em>. It explains in a better and more detailed way what I’ve been thinking about for months now.'
+description: 'Notes from the great book by [Jaron Lanier](http://jaronlanier.com), [*Ten Arguments for Deleting Your Social Media Accounts*](http://www.jaronlanier.com/tenarguments.html), which I discovered almost at the end of my journey in creating [quitsocialmedia.club](https://quitsocialmedia.club). It explains in a better and more detailed way what I’ve been thinking about for months now.'
 toc: 0
 ---
 - We become addicted to a fiction, none of that simuli is actually real. \- `p. 15`

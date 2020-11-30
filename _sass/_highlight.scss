@@ -1,15 +1,15 @@
 .highlight .hll	{ background-color: transparent; }
-.highlight .c	{ color: var(--other-grey); }	/* Comment */
+.highlight .c	{ color: var(--light-grey); }	/* Comment */
 .highlight .err	{ color: white; background-color: var(--red); }			/* Error */
 .highlight .k	{ color: var(--blue); }			/* Keyword */
 .highlight .l	{ color: var(--razzmatazz); }	/* Literal */
-.highlight .n	{ color: var(--deep); }			/* Name */
+.highlight .n	{ color: white; }				/* Name */
 .highlight .o	{ color: var(--red); }			/* Operator */
 .highlight .p	{ color: var(--text); }			/* Punctuation */
-.highlight .cm	{ color: var(--other-grey); }	/* Comment.Multiline */
-.highlight .c	{ color: var(--other-grey); }	/* Comment.Preproc */
-.highlight .c1	{ color: var(--other-grey); }	/* Comment.Single */
-.highlight .cs	{ color: var(--other-grey); }	/* Comment.Special */
+.highlight .cm	{ color: var(--light-grey); }	/* Comment.Multiline */
+.highlight .c	{ color: var(--light-grey); }	/* Comment.Preproc */
+.highlight .c1	{ color: var(--light-grey); }	/* Comment.Single */
+.highlight .cs	{ color: var(--light-grey); }	/* Comment.Special */
 .highlight .ge	{ font-style: italic }			/* Generic.Emph */
 .highlight .gs	{ font-weight: bold }			/* Generic.Strong */
 .highlight .kc	{ color: var(--blue); }			/* Keyword.Constant */
@@ -34,7 +34,7 @@
 .highlight .nx	{ color: var(--green); }		/* Name.Other */
 .highlight .py	{ color: var(--text); }			/* Name.Property */
 .highlight .nt	{ color: var(--red); }			/* Name.Tag */
-.highlight .nv	{ color: var(--other-grey); }	/* Name.Variable */
+.highlight .nv	{ color: var(--light-grey); }	/* Name.Variable */
 .highlight .ow	{ color: var(--red); }			/* Operator.Word */
 .highlight .w	{ color: var(--text); }			/* Text.Whitespace */
 .highlight .mf	{ color: var(--razzmatazz); }	/* Literal.Number.Float */
@@ -59,6 +59,6 @@
 .highlight .il	{ color: var(--razzmatazz); }	/* Literal.Number.Integer.Long */
 
 .highlight .gh	{ color: var(--text); }			/* Generic Heading & Diff Header */
-.highlight .gu	{ color: var(--other-grey); }			/* Generic.Subheading & Diff Unified/Comment? */
+.highlight .gu	{ color: var(--light-grey); }	/* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd	{ color: var(--red); }			/* Generic.Deleted & Diff Deleted */
-.highlight .gi	{ color: var(--green); }			/* Generic.Inserted & Diff Inserted */
+.highlight .gi	{ color: var(--green); }		/* Generic.Inserted & Diff Inserted */
