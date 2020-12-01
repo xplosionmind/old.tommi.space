@@ -8,10 +8,16 @@ layout: wrapper
 	</div>
 </div>
 {% if page.toc == 1 %}
-<div class="row toc">
-	<div class="one column">
-		<h2>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h2>
-		{% include toc.html html=content %}
+	<div class="row toc">
+		<div class="one column">
+			<h2>
+				{% if page.lang == 'it' %}
+					Indice
+				{% else %}
+					Table of contents
+				{% endif %}
+			</h2>
+		{% include toc.html html=content sanitize=true %}
 	</div>
 </div>
 {% endif %}
