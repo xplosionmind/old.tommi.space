@@ -9,7 +9,11 @@
 	{% seo %}
 	<meta name="google-site-verification" content="sxVceyjRiCaE1x9E61DCYDwoo_EOlHNfBzdL1gLBio4" />
 
-	{% feed_meta %}
+	<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}Zibaldone feed{% else %}blog's feed{% endif %}" href="/zibaldone.xml" />
+	<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}feed di poesie{% else %}poetry feed{% endif %}" href="/poetry.xml" />
+	<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}feed filosofico{% else %}philosophy posts feed{% endif %}" href="/filinge.xml" />
+	<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}feed marmellata{% else %}notes feed{% endif %}" href="/jar.xml" />
+	<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}feed con solo cose nerd{% else %}only geek stuff feed{% endif %}" href="/geek.xml" />
 
 	<title>{{ page.title }} | XPLOSIONMIND</title>
 	<link rel="stylesheet" href="/style.css" type="text/css" />

@@ -47,32 +47,37 @@ collections:
 feed:
   path: /zibaldone.xml
   tags:
+    path: /
     only:
       - geek
   collections:
-    - poetry
-    - filinge
-    - jar
+    poetry:
+      path: /poetry.xml
+    filinge:
+      path: /filinge.xml
+    jar:
+      path: /jar.xml
 # SEO
 social:
   name: xplosionmind
   links:
-    - https://twitter.com/xplosionmind
-    - https://instagram.com/xplosionmind
-    - https://www.linkedin.com/in/tommasomarmo/
+    - https://dev.to/xplosionmind
     - https://www.flickr.com/xplosionmind/
-    - https://www.reddit.com/user/xplosionmind/
     - https://www.facebook.com/profile.php?id=100007931469414
-    - https://mastodon.online/@xplosionmind
     - https://hypothes.is/users/xplosionmind
+    - https://instagram.com/xplosionmind
     - https://keybase.io/xplosionmind
-    - https://t.me/xplosionmind
-    - https://www.openstreetmap.org/user/xplosionmind
     - https://liberapay.com/tommi/
+    - https://www.linkedin.com/in/tommasomarmo/
+    - https://mastodon.online/@xplosionmind
+    - https://www.openstreetmap.org/user/xplosionmind
+    - https://www.reddit.com/user/xplosionmind/
     - https://open.spotify.com/user/xplosionmind
-    - https://www.yourworldoftext.com/~xplosionmind/
-    - https://www.vutuv.de/users/tommaso.marmo
+    - https://t.me/xplosionmind
+    - https://twitter.com/xplosionmind
     - https://www.themoviedb.org/u/xplosionmind
+    - https://www.vutuv.de/users/tommaso.marmo
+    - https://www.yourworldoftext.com/~xplosionmind/
 tagline: "Tommi's virtual brain"
 twitter:
   username: xplosionmind
@@ -109,11 +114,11 @@ plugins:
 #  - jekyll-spaceship
 #  - jekyll-pdf-embed
 #  - jekyll-giphy
-#  - jekyll-mentions
+  - jekyll-mentions
 #  - jekyll-timeago
 #  - liquid_pluralize
 #  - liquid_reading_time
-#  - jekyll-liquify
+  - jekyll-liquify
 #  - jekyll-gist
 #  - jekyll-twitter-plugin
 #  - jekyll-news-sitemap
@@ -122,7 +127,7 @@ plugins:
 #  - jekyll-tagging
 #  - jekyll-auto-image
 #  - premonition
-#  - jekyll-datapage_gen
+  - jekyll-datapage-generator
 sass:
   style: compressed
 permalink: /:title

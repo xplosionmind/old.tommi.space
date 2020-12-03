@@ -283,3 +283,25 @@ we can locate abduction between discovery and testing
 
 ## Inference to the *best* hypotheses
 
+<br>
+<br>
+
+2020-12-03
+
+Two problematic areas:
+- how to formulate sci hyp
+- how we come to postulate the entities we use in sci laws in order to explain what we observe at an empirical level
+
+We often infer the existence of such entities +++
+
+Looking at scientific theories in terms of postulates we're not basing our theories of something not sure; nevertheless if these theories work they are a satisfactory result anyway.
+
+How do we know what we call “electron” etc. is actually what we see in the world?
+
+How do we explain that electrons and quarks are actually “natural kinds”?
+
+<br>
+
+---
+
+Next topic: [[Natural kinds]]

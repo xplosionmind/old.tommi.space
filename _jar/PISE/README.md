@@ -31,3 +31,14 @@ Ideas on how to improve this website, as well as development milestones, are all
 - [[Contemporary History]]
 - [[Introduction to Philosophy]]
 - [[Logic and Philosophy of Science I]]
+
+<br>
+
+## Legend of symbols
+
+- `+++`: missing parts
+- `???`:
+	- unclear passages
+	- questions
+- `grm`: doubts about grammar
+- `+++S`: copy from slides

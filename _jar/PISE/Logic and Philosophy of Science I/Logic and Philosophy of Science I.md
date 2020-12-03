@@ -16,6 +16,9 @@
 
 ## Natural kinds
 
+- A premise on [[Modal Logic]]
+- [[Natural kinds]]
+
 <br>
 
 ## Social kinds

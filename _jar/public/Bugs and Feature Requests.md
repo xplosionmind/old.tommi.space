@@ -1,20 +1,52 @@
 ---
 date: 2020-08-04
-updated: 2020-11-06
+updated: 2020-12-02
 tags: ["geek"]
 permalink: /bugs
 redirect_from:
   - /feature-requests
   - /bugs-and-feature-requests
-description: "I use mostly open source apps in active developement. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a complete blog post for a feature request. Thus, in this list I quickly note all the toughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports."
+description: "The [apps](/apps) I use the most are open source software in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports."
 ---
+## Signal
+
+[Signal](https://signal.org) is the most secure and private messaging app in the world
+
+- markdown syntax (or any text formatting capability)
+- setting to choose to automatically download media
+
+<br>
+<br>
+
+## Cubbit
+
+[Cubbit](https://cubbit.io) is a great decentralized cloud. I'm among the first backers and I love it.
+
+- Possibility to use a custom domain
+
+<br>
+<br>
+
+## Oxygen OS
+
+[Oxygen OS](https://www.oneplus.com/it/oxygenos) is the Android flavor developed and used by [OnePlus](https://oneplus.com)
+
+- match the lock screen and ambient display design (right now digital clocks have two different fonts and sizes)
+- add the capability to customize the alert slider
+
+<br>
+<br>
+
 ## Joplin
 
 [Joplin](http://joplinapp.org) is a wonderful and complete note-taking app.
 
+**Note**: I stopped using Joplin as my daily driver since November 2020 and I switched to [Obsidian](#obsidian). The reasons why I did this are in [this blog post](/switch-to-zettelkasten)
+{:.yellow .box}
+
 ### Features requests
 
-- Export to docx/odt / pandoc integration
+- Export to docx/odt: pandoc integration
 - Choose or edit formatting options of exported PDFs from GUI
 - Syntax Highlighting on mobile
 - Keyboard Shortcut for To-Do/Note conversion
@@ -42,33 +74,7 @@ description: "I use mostly open source apps in active developement. Often, I not
 
 [Zettlr](https://www.zettlr.com) is the best Markdown editor out there.
 
+Since November 2020 I stopped using Zettlr since its work could be made by [Obsidian](#obsidian) with much more features
+{:.yellow .box}
+
 - Implement split view: two different notes side by side
-
-<br>
-<br>
-
-## Signal
-
-[Signal](https://signal.org) is the most secure and private messaging app in the world
-
-- markdown syntax (or any text formatting capability)
-- setting to choose to automatically download media
-
-<br>
-<br>
-
-## Cubbit
-
-[Cubbit](https://cubbit.io) is a great decentralized cloud. I'm among the first backers and I love it.
-
-- Possibility to use a custom domain
-
-<br>
-<br>
-
-## Oxygen OS
-
-[Oxygen OS](https://www.oneplus.com/it/oxygenos) is the Android flavour developed and used by [OnePlus](https://oneplus.com)
-
-- match the lock screen and ambient display design (right now digital clocks have two different fonts and sizes)
-- add the capability to customize the alert slider

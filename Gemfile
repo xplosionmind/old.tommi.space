@@ -30,11 +30,11 @@ group :jekyll_plugins do
 #  gem "jekyll-spaceship"
 #  gem "jekyll-pdf-embed"
 #  gem "jekyll-giphy"
-#  gem "jekyll-mentions"
+  gem "jekyll-mentions"
 #  gem "jekyll-timeago"
 #  gem "liquid_pluralize"
 #  gem "liquid_reading_time"
-#  gem "jekyll-liquify"
+  gem "jekyll-liquify"
 #  gem "jekyll-gist"
 #  gem "jekyll-twitter-plugin"
 #  gem "jekyll-news-sitemap"
@@ -43,7 +43,7 @@ group :jekyll_plugins do
 #  gem "jekyll-tagging"
 #  gem "jekyll-auto-image"
 #  gem "premonition"
-#  gem "jekyll-datapage_gen"
+  gem "jekyll-datapage-generator"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

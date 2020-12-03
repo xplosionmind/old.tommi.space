@@ -1,7 +1,7 @@
 ---
 title: "Website development"
 date: 2020-02-02
-updated: 2020-11-30
+updated: 2020-12-01
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 permalink: /development
 redirect_from:
@@ -13,7 +13,6 @@ redirect_from:
   - /dev
 tags: ["geek"]
 ---
-
 ## Not Working
 
 - Tags page color display errors
@@ -65,7 +64,7 @@ Work in progress content:
 
 ## Roadmap
 
-This is a list. It's sorted by **priority**, not amount of work). Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
+Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
 1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for
 1. [**Visioni**](/visioni)
@@ -98,6 +97,7 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 1. Thumbnails in Zibaldone's feed
 1. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
 1. Style [caret-color](https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color)
+1. [jekyll-rakefile](https://github.com/avillafiorita/jekyll-rakefile)
 1. Self-host website
 1. Content history
 	- now page
@@ -109,6 +109,8 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 	- Jack Frusciante
 	- Resources
 	- rimm-db
+1. Add [humans.txt](http://humanstxt.org)
+1. Semantic HTML
 1. Evaluate copyright change
 1. [Bookmarked threads](https://talk.jekyllrb.com/u/xplosionmind/activity/bookmarks) on [Jekyll Talk](https://talk.jekyllrb.com/) (Jelyll's forum)
 1. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)
@@ -117,8 +119,11 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
 1. [Typography](https://tommi.space/typography)
 	- better reasoned typographic choices
     - [Custom font](https://tommi.space/Typography#Custom-font)
-1. [Mailtrain](https://mailtrain.org/) setup
-1. RSS Feeds management
+1. Setup mailing list
+	- [listmonk](https://listmonk.app) or [Mailtrain](https://mailtrain.org)
+	- [awesome-emails](https://github.com/jonathandion/awesome-emails)
+	- [responsive template](https://github.com/leemunroe/responsive-html-email-template)
+2. RSS Feeds management
     - Atom feed vs RSS
     - [customize `feed.xml`](https://stackoverflow.com/questions/12902840/how-to-add-a-permalink-to-a-jekyll-rss-feed)
     - feeds:
@@ -126,31 +131,31 @@ This is a list. It's sorted by **priority**, not amount of work). Thus, quick an
         - Italian posts
         - English posts
         - The Jar
-1. Mailtrain automation with RSS
-1. Hosting on [server](/server) instead of using [Netlify](https://netlify.com)
+3. Mailtrain automation with RSS
+4. Hosting on [server](/server) instead of using [Netlify](https://netlify.com)
     - Analytics (temporarily set up with [Goatcounter](https://goatcounter.com))
-1. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
-1. Improved and smart use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
+5. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
+6. Improved and smart use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
 	- `.box` and `.stuff` max heights
-1. A page which contains links to ALL PAGES (a sitemap?)
-1. **Sorting** / **filtering** (using JavaScript?)
+7. A page which contains links to ALL PAGES (a sitemap?)
+8. **Sorting** / **filtering** (using JavaScript?)
 	- in Zibaldone and The Jar: language and tag filter
 	- in Books: Sorting
-1. Configure [**Webmentions**](https://indieweb.org/Webmention)
+9. Configure [**Webmentions**](https://indieweb.org/Webmention)
     - Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
     - Setup [Webmention.io](https://webmention.io/)
     - Setup [Bridgy](https://brid.gy/)
-1. Improve `blockquote`s; some insights:
+10. Improve `blockquote`s; some insights:
 	- <https://codepen.io/valentingalmand/pen/doJvRR>
 	- <https://codepen.io/joshuajcollinsworth/pen/obbvYQ>
 	- <https://codepen.io/JoeHastings/pen/MOdRVm>
-1. Design improvements
+11. Design improvements
 	- make shades slightly colored, according to the belonging object
 	- refine the color palette
-1. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
-1. Piwigo integration?
-1. Create Jekyll theme
-1. Switch to [Hugo](https://gohugo.io)
+12. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
+13. Piwigo integration?
+14. Create Jekyll theme
+15. Switch to [Hugo](https://gohugo.io)
 
 <br>
 <br>

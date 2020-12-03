@@ -2,7 +2,7 @@
 
 by Tommaso Marmo, m.n. 885217
 
-<p class="right"><i>Contemporary History</i> course, academic year 2020/2021</p>
+<p class="right"><cite>Contemporary History</cite> course, academic year 2020/2021</p>
 
 ---
 
@@ -22,9 +22,8 @@ About timing: when did cultural globalization actually happen?
 
 ## Two sides of the same coin
 
-- **development**, exchange of knowledge, overall wealth growth
-- cultural homogenization, with the risk of losing well-established traditions
-
+- cultural growth and development, exchange of knowledge, thriving international debates and trends on a cultural level
+- cultural homogenization, and a great risk of losing well-established traditions, as well as characterizing identities of local minorities
 
 ---
 
@@ -50,7 +49,6 @@ About timing: when did cultural globalization actually happen?
 - 
 
 ---
-
 
 - etymology
 	- it's hard to frame the topic, pardon me if I'll go quite off track in this presentation to dive deeper in cultural references and meanings
@@ -117,7 +115,7 @@ About timing: when did cultural globalization actually happen?
 
 - the need for a global community
 
----
+--- 
 
 ## Bibliography and references
 
