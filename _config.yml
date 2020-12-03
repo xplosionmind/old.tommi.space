@@ -45,18 +45,18 @@ collections:
   sconnesso:
     output: true
 feed:
-  path: /zibaldone.xml
+  path: /feeds/zibaldone.xml
   tags:
-    path: /
+    path: /feeds/
     only:
       - geek
   collections:
     poetry:
-      path: /poetry.xml
+      path: /feeds/poetry.xml
     filinge:
-      path: /filinge.xml
+      path: /feeds/filinge.xml
     jar:
-      path: /jar.xml
+      path: /feeds/jar.xml
 # SEO
 social:
   name: xplosionmind
