@@ -39,7 +39,7 @@ Color scheme for [Philosophy & Engineering](/filosofia) blog.
 - `#CE2066` vibrant pink, `link`
 - `#F41C73` even more vibrant pink, `link hover`
 
-<br />
+<br>
 
 ## Red
 
@@ -52,7 +52,7 @@ Ah, red, what a color. So wonderful I gotta keep note of all the nice shades of 
 - `#DF2935`, Rose Madder
 - `#D7263D`, Crimson
 
-<br />
+<br>
 
 ## Coding syntax
 
@@ -66,7 +66,7 @@ Ah, red, what a color. So wonderful I gotta keep note of all the nice shades of 
 - `#8DD8EF` Cyan
 - `#AB9DF2` Violet
 
-<br />
+<br>
 
 ## Dark app palette
 
@@ -80,20 +80,20 @@ MacOS dark theme system background colors. The accent colors can be found [here]
 - `#FCC04C`, minimize
 - `#72BE47`, expand
 
-<br />
+<br>
 
 ## Other palettes
 
 - “[Persistence](https://www.color-hex.com/color-palette/89620)”, a wonderful green gradient palette
 
-<br />
+<br>
 
 ## Random colors I like
 
 - `#451960` a dark, deep purple (with no smoke on the water)
 - `#F28F3B` tiger orange
 
-<br />
+<br>
 
 ## Color palettes generators
 

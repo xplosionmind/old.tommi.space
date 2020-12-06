@@ -1,7 +1,7 @@
 ---
 title: "Website development"
 date: 2020-02-02
-updated: 2020-12-01
+updated: 2020-12-05
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 permalink: /development
 redirect_from:
@@ -24,7 +24,7 @@ tags: ["geek"]
 
 ## Content
 
-Work in progress content:
+### WIP
 
 - [Making this website](/themakingof) article
 - [Giri da spettatore](/giri)
@@ -42,6 +42,10 @@ Work in progress content:
         - teatro
         - concerti
         - conferenze
+<br>
+
+### To create
+
 - Add *Love* Jar item, with all of the definitions of love.
 - Add *Zen* / *Self improvement* / *Lifestyle* / *loops* Jar item
 	- boundaries
@@ -57,7 +61,8 @@ Work in progress content:
 	- explanation `I've always been one of those people who's never satisfied about how their room is `
 	- explanation 2 `Every 27 days, no matter what, at exactly 12:11 PM I'll have to take my camera and shoot a photo of my desk. No matter what's on it or how is it. Just to immortalize my main life companion in that moment.`
 	- photos
-- [drafts](./_drafts)
+- stabilire criteri di appartenenza a [[Internet Awesomeness]]
+- [drafts](../_drafts)
 
 <br>
 <br>

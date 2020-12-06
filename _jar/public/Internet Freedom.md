@@ -1,7 +1,7 @@
 ---
 date: 2020-07-10
-updated: 2020-11-07
-tags: qsm
+updated: 2020-12-05
+tags: ["qsm", "geek"]
 description: "This awesome and revolutionary tool we call the Internet is so powerful that it's becoming a threat to the freedom of the average user, who, in exchange for services, hands over his/her data, therefore giving up personal independence and liberty.<br /><br />Here are noted various arguments, thoughts, speeches, documents, ideas and step-by-step guides to achieve <strong>a healthier online experience</strong>"
 redirect_from:
   - /internet-freedom-notes
@@ -54,6 +54,15 @@ Random links about privacy online
 - [Why ditching WhatsApp - Vice](https://www.vice.com/en/article/qj4qjd/whatsapp-data-security-issues)
 - [EFF's Surveillance Self Defense](https://ssd.eff.org/)
 - [Open Wireless Movement](https://www.eff.org/pages/openwirelessorg)
+
+<br>
+<br>
+
+## Choose the alternative
+
+Just complaining, waiting for things to get better one way or another, believing that a conscious use is enough to keep clear from big tech negative impact is simply bullshit.
+
+To change something, to make things better just [switch](/switch) to healthier, more ethical, often even much better alternatives.
 
 <br>
 <br>

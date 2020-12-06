@@ -101,3 +101,45 @@ A natural kind must include anything which is fundamental to make that kind.
 The Ontology of common sense, which is 
 
 +++
+
+<p class="date">4<sup>th</sup> December 2020</p>
+
+By means of n.k. we can classify entities. Grouping should not be accidental. Classification in a universal manner, not contingent.
+
+Essences might be a way to classify natural terms.
+
+How can we envisage a correspondence between artificial classification and actual qualities of entities.
+
+These qualities themselves are the result of a theoretical speculation, not a self-evident characteristic.
+
+Classifications are meant to have a purpose and a role.
+
+Not an argument per se against realism, but the temptation is to say if we take what the world is to be a description of our words, +++
+
+Anti-realism perspectives: our world is more what we label than what it actually is.
+
+[[Constructivism]]
+
+[[Applied Metaphysics]]
+
+---
+
+There is a difference also in social kinds, according to Hackings.
+
+> +++S quarks are not aware
+
+Natural kinds are defined as "indifferent": stationary, not passive, targets. They don't do any of the things that we do because they're not aware of the classifications we give them
+
+about human kinds:
+
+> +++S
+
+Social kinds are “interactive”: their definition is strongly related to the label it's attributed to them. They rethink themselves accordingly.
+
+There is a kind of feedback, looping effect, involved when we classify people.
+
+For this (+++) to be 
+
++++ example of autism
+
+[[John Searle]]

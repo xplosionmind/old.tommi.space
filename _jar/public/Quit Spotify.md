@@ -1,26 +1,31 @@
 ---
 date: 2020-11-07
-updated: 2020-11-26
-tags: qsm
+updated: 2020-12-05
+tags: ["qsm", "geek"]
 description: "Thoughts and decisions about quitting Spotify"
+permalink: /quit-spotify
 redirect_from:
-  - /quit/spotify
-  - /quit-spotify
+  - /spotify
+  - /quitting-spotify
 ---
-# Quit Spotify
-
 Quitting Spotify is hard.
 
 It's **very** hard, not only because it's convenient and easy to use, mostly because almost everyone else uses it, thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. Therefore, quitting and finding another tool to listen to music isn't enough: it's necessary to replace the playlist creation and sharing workflow while keeping it accessible and easy to experience for anybody.
 
-### why
+<br>
+<br>
+
+## Why
 
 Why quitting?
 
 - [Criticism of Spotify](https://en.m.wikipedia.org/wiki/Criticism_of_Spotify) on Wikipedia
 - It costs
 
-### Roadmap
+<br>
+<br>
+
+## Roadmap
 
 1. Find the optimal [NewPipe](https://newpipe.schabi.org/) configuration.
 	- How to listen to whole albums
@@ -36,10 +41,12 @@ Why quitting?
 1. [Spotify account deletion consequences](https://community.spotify.com/t5/Spotify-Answers/How-do-I-close-my-Spotify-Account/ta-p/4663172):
 
 <figure>
-	<img src="/images/Spotify-close-account.jpg" title="repercussions of closing Spotify account" alt="repercussions of closing Spotify account" />
+	<img src="https://assets.tommi.space/images/Spotify-close-account.jpg" title="repercussions of closing Spotify account" alt="repercussions of closing Spotify account" />
 	<figcaption>
 		Closing the account means deleting all playlists, thus the account can't be closed, but it must be kept with free subscription.
 	</figcaption>
 </figure>
 
-Quitting Spotify is part of the path to [[Internet Freedom]]
+<br>
+
+Quitting Spotify is one of the steps of the path to [Internet Freedom](/internet-freedom)

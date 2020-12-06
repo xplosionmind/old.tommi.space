@@ -1,6 +1,6 @@
 ---
 date: 2020-07-17
-updated: 2020-09-30
+updated: 2020-12-05
 toc: 0
 description: "Stuff I need and things I just would love to have"
 redirect_from: /desideri
@@ -30,6 +30,8 @@ Items are sorted in order of urgency and need. Things at the top are the ones I 
 1. [Boosted Board](https://boostedusa.com/collections/electric-skateboards)
 1. Radio Amateur Rig
 1. Full Frame (mirrorless) Camera
+1. Surf board
+1. Wetsuit
 1. ¾ guitar
 1. Green Screen
 1. Polaroid camera
@@ -37,5 +39,3 @@ Items are sorted in order of urgency and need. Things at the top are the ones I 
 1. Telescope
 1. Zippo Gas Fuel
 1. Snowboard
-1. Surf board
-1. Wetsuit

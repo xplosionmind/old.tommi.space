@@ -6,6 +6,8 @@ permalink: /zettelkasten
 redirect_from:
   - /knowldege-management
   - /data-management
+  - /digital-garden
+  - /knowledge-management
 related:
   - /switch-to-zettelkasten
 tags: ["zen"]

@@ -1,6 +1,6 @@
 ---
 date: 2020-06-06
-updated: 2020-12-03
+updated: 2020-12-04
 lang: it
 toc: 0
 description: "Leggo e sento tante perole belle (oppure brutte ma con un gran significato) e ho paura di perderle oppure voglio segnarne l'importanza. Le segno qui."
@@ -34,3 +34,4 @@ Gli eventuali numeri o lettere che seguono il link sono il significato specifico
 - 2020.12.01 [merletto](https://www.treccani.it/vocabolario/merletto/)
 - 2020.12.02 [clumsy](https://www.merriam-webster.com/dictionary/clumsy)
 - 2020.12.03 [dedizione](https://www.treccani.it/vocabolario/dedizione/)
+- 2020.12.04 [virtually](https://www.merriam-webster.com/dictionary/virtually)

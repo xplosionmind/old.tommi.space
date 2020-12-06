@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04
-updated: 2020-12-02
+updated: 2020-12-05
 tags: ["geek"]
 permalink: /bugs
 redirect_from:
@@ -17,6 +17,12 @@ description: "The [apps](/apps) I use the most are open source software in activ
 
 <br>
 <br>
+
+## Obsidian
+
+[Obsidian](https://obsidian.md) is an awesome Zettelkasten management system which perfectly integrates with markdown and Jekyll.
+
+- choose to hide front matter when embedding other notes, even if “show YAML front matter” is switched on for the notes
 
 ## Cubbit
 

@@ -3,6 +3,7 @@ date: 2020-07-20
 updated: 2020-11-25
 tags: ["places"]
 permalink: /places
+alt-title: Places
 redirect_from:
   - /around-the-world
   - /world-places

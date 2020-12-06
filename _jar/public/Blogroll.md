@@ -12,7 +12,7 @@ A website appears in this list for at least one of these three reasons:
 2. its design is great and it may have inspired [my own website](https://tommi.space/home)
 3. it has a particular unique or brilliant feature
 
-<br />
+<br>
 
 Listed in alphabetical order. I could never determine an order of importance.
 
@@ -33,7 +33,7 @@ Listed in alphabetical order. I could never determine an order of importance.
 - [UX Essays](https://essays.uxdesign.cc/), every blog should be like this
 - [Work Responsibly](https://www.workresponsibly.org/), I can’t believe something so minimal can be so beautiful
 
-<br />
+<br>
 
 ## Photography
 
@@ -41,7 +41,7 @@ Photography websites deserve a dedicated section, since their content takes up m
 
 - [Antonio Masiello](https://antoniomasiello.portfoliobox.net/)
 
-<br />
+<br>
 
 ## Awards
 
@@ -51,7 +51,7 @@ Websites which award other websites for their design, usability, creativity and 
 - [WebDesign Inspiration](https://www.webdesign-inspiration.com)
 - [Siteinspire](https://www.siteinspire.com/)
 
-<br />
+<br>
 
 ## Various
 

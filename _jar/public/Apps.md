@@ -1,6 +1,6 @@
 ---
 date: 2020-05-06
-updated: 2020-11-14
+updated: 2020-12-05
 tags: ["geek"]
 description: "A comprehensive list of apps I use + interesting apps I have to keep record of. Sub-elements in the lists are links to great learning resources (official documentation, if present, won’t be mentioned)"
 redirect_from:
@@ -16,7 +16,7 @@ tags: ["geek"]
 Everything in this list is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" rel="noopener noreferrer" target="_blank_">Free and Open Source</a>, except where otherwise specified
 {:.blue .box}
 
-<br />
+<br>
 
 ## Server
 
@@ -80,21 +80,21 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - <a href="https://protonmail.com/bridge/" rel="noopener noreferrer" target="_blank">Protonmail Bridge</a>, an app which allows me to access and use my ProtonMail account from Apple Mail.
 - <a href="https://protonvpn.com/" rel="noopener noreferrer" target="_blank">ProtonVPN</a>, a security-focused VPN developed by CERN scientists from the ProtonMail team. It’s free, but I pay for it, it’s a great service.
 - <a href="https://qbittorrent.org/" rel="noopener noreferrer" target="_blank">qBittorrent</a>, the best and lightest torrent client you can find out there.
-- <a href="https://rectangleapp.com/" rel="noopener noreferrer" target="_blank">Rectangle</a>, a window management app which allows to resize windows quickly with a simple keystroke.
-- <a href="https://signal.org/" rel="noopener noreferrer" target="_blank">Signal</a>, the best encryption system in the world, easy and fast communication, plus, it’s owned by a non-profit. Thus, a healthier WhatsApp.
-- <a href="https://www.skype.com/" rel="noopener noreferrer" target="_blank">Skype</a>, you know it. Propietary software, <a href="http://stallman.org/skype.html" rel="noopener noreferrer" target="_blank">ouch</a>.
+- [Rectangle](https://rectangleapp.com/ "Rectangle official website"), a window management app which allows to resize windows quickly with a simple keystroke.
+- [Signal](https://signal.org/ "Signal official website"), the best encryption system in the world, easy and fast communication, plus, it’s owned by a non-profit. Thus, a healthier WhatsApp.
+- ~~[Skype](https://skype.com "Skype official website"), you know it. Proprietary software, [ouch](http://stallman.org/skype.html "Reasons not to use Skype, from Richard Stallman's blog").~~ Using Zoom and Jitsi Meet only
 - [smcFanControl](https://github.com/hholtmann/smcFanControl), Control the fans of the Mac to make it run cooler
-- ~~<a href="http://sozi.baierouge.fr/" rel="noopener noreferrer" target="_blank">Sozi</a>, a presentation tool which uses SVG images to create zooming and panning animations. It’s astounding how cool it is.~~ Not much used.
-- <a href="https://www.spotify.com/" rel="noopener noreferrer" target="_blank">Spotify</a>, to listen to music by paying and using propietary software. Any legal affordable solution? I can’t find one. I’m stuck with this.
+- ~~[Sozi](http://sozi.baierouge.fr), a presentation tool which uses SVG images to create zooming and panning animations. It’s astounding how cool it is.~~ Not much used.
+- [Spotify](https://www.spotify.com "Spotify official website"), to listen to music by paying and using propietary software. Any legal affordable solution? I can’t find one. I’m stuck with this.
 - [Sub It](https://github.com/Kevin-De-Koninck/Sub-It), a GUI interface for `Subliminal`, a tool to download movie subtitles ithout ads
-- <a href="https://telegram.org/" rel="noopener noreferrer" target="_blank">Telegram</a>, WhatsApp on steroids. I wish the back-end software was Open Source, too.
+- [Telegram](https://telegram.org/ "Telegram official website"), WhatsApp on steroids. I wish the back-end software was Open Source, too.
 - [The Desk](https://thedesk.top/), something like TweetDeck for Mastodon (and all of the Fediverse apps)
 - [Tor browser](https://www.torproject.org/), to navigate online completely anonimously
-- <a href="https://tweetdeck.twitter.com/" rel="noopener noreferrer" target="_blank">TweetDeck</a>, to tweet as bad as I can. Obviously, this is a very bad propietary software.
-- <a href="https://github.com/uTox/uTox" rel="noopener noreferrer" target="_blank">uTox</a>, a tiny, light super-private, peer-to-peer app to chat with my geek privacy-obsessed friends.
-- <a href="https://www.videolan.org/vlc/" rel="noopener noreferrer" target="_blank">VLC</a>, to watch anything.
-- <a href="https://www.torproject.org/projects/torbrowser.html" rel="noopener noreferrer" target="_blank">Tor Browser</a>, when I feel a VPN isn’t enough.
-- <a href="https://www.whatsapp.com/" rel="noopener noreferrer" target="_blank">WhatsApp</a>, well, you know it. Owned by that monster called Facebook and surprisingly free but, guess what? Propietary software.
+- [TweetDeck](https://tweetdeck.twitter.com "TweetDeck official website"), to tweet as bad as I can. Obviously, this is a very bad propietary software.
+- [uTox](https://github.com/uTox/uTox "uTox source code"), a tiny, light super-private, peer-to-peer app to chat with my geek privacy-obsessed friends.
+- [VLC](https://www.videolan.org/vlc/ "VLC official website"), to watch anything.
+- [Tor Browser](https://www.torproject.org/projects/torbrowser.html), when I feel a VPN isn’t enough.
+- [WhatsApp](https://www.whatsapp.com/), well, you know it. Owned by that monster called Facebook and surprisingly free but, guess what? Propietary software.
 - [Zettlr](https://www.zettlr.com/), fully-featured Markdown editing app.
 
 <br>
@@ -102,13 +102,13 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 ### Terminal
 
 - [Homebrew](https://brew.sh/), MacOS package manager
-- <a href="https://git-scm.com/" rel="noopener noreferrer" target="_blank">git</a>, a <abbr title="Version Control Software">VCS</abbr> no one can live without.
-- <a href="vim.org" rel="noopener noreferrer" target="_blank">Vim</a> is the best text editor in the world, and it’s more than that; it’s a philosophy, a lifestyle. Actually, it’s preinstalled on UNIX-based OSs, but I installed <a href="https://neovim.io/" rel="noopener noreferrer" target="_blank">Neovim</a> which is so great. I use it on a daily basis and I love it.
-	- <a href="http://vimcasts.org/" rel="noopener noreferrer" target="_blank">Vim casts</a>, the best video tutorials you can find
-	- <a href="https://pragprog.com/book/dnvim2/practical-vim-second-edition" rel="noopener noreferrer" target="_blank">Practical Vim</a> a book - the best book you can find - on Vim, by the same creator of Vim Casts: <a href="http://drewneil.com/" rel="noopener noreferrer" target="_blank">Drew Neil</a>.
-- <a href="https://github.com/sylnsfar/qrcode" rel="noopener noreferrer" target="_blank">Animated QR code generator</a>
-- <a href="https://github.com/Jack000/Expose" rel="noopener noreferrer" target="_blank">Exposé</a>, a simple and beautiful static site generator for photoessays
-- <a href="https://github.com/junegunn/fzf" rel="noopener noreferrer" target="_blank">fzf</a>, a fuzzy finder which works in some way with Vim but I’m still figuring it out.
+- [git](https://git-scm.com/), a <abbr title="Version Control Software">VCS</abbr> no one can live without.
+- [Vim](http://vim.org) is the best text editor in the world, and it’s more than that; it’s a philosophy, a lifestyle. Actually, it’s preinstalled on UNIX-based OSs, but I installed [Neovim](https://neovim.io) which is so great. I use it on a daily basis and I love it.
+	- [Vim casts](http://vimcasts.org/), the best video tutorials you can find
+	- [Practical Vim](https://pragprog.com/book/dnvim2/practical-vim-second-edition) a book - the best book you can find - on Vim, by the same creator of Vim Casts: [Drew Neil](http://drewneil.com/).
+- [Animated QR code generator](https://github.com/sylnsfar/qrcode)
+- [Exposé](https://github.com/Jack000/Expose), a simple and beautiful static site generator for photoessays
+- [fzf](https://github.com/junegunn/fzf), a fuzzy finder which works in some way with Vim but I’m still figuring it out.
 - [massren](https://github.com/laurent22/massren), batch files renaming using a text editor (works great with vim). It’s developed by the same developer of Joplin
 - [ExifTool](https://exiftool.org/), an awesome and extremely useful little tool to edit almost anything in an image EXIF data. I use it to rename my images based on the date and time I shot them. [Here](https://github.com/xplosionmind/exiftool-cheatsheet)’s my Cheat Sheet, which I use myself to get things done, since I don’t remember ExifTool commands from time to time.
 - [yst](https://github.com/jgm/yst), create static websites from YAML data and string templates
@@ -327,8 +327,3 @@ I don’t own an iPhone. If that day ever comes, these are the iOS-only apps I�
 - [Cineast](https://www.themoviedb.org/apps/58628749c3a3681a6204357a), IMDb alternative
 - [OpenWhyd](https://itunes.apple.com/fr/app/whyd-everyones-music-playlist/id874380201), Spotify alternative
 - [Refining Fire](https://apps.apple.com/it/app/refining-fire/id1000982825), encouraging Bible verses when needed
-
-<br>
-<br>
-
-Eventually, <a href="https://youtu.be/FtNxKc8mKu8" rel="noopener noreferrer" target="_blank">a little message</a>.

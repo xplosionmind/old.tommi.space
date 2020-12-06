@@ -42,3 +42,5 @@ Ideas on how to improve this website, as well as development milestones, are all
 	- questions
 - `grm`: doubts about grammar
 - `+++S`: copy from slides
+- `“+++”`: exact citation of the professor missing
+- `(+++)`: there's a missing knowledge to what has just been written
