@@ -2,6 +2,7 @@
 date: 2020-05-06
 updated: 2020-12-05
 tags: ["geek"]
+image: "https://assets.tommi.space/images/apps.png"
 description: "A comprehensive list of apps I use + interesting apps I have to keep record of. Sub-elements in the lists are links to great learning resources (official documentation, if present, won’t be mentioned)"
 redirect_from:
   - /installed

@@ -1,34 +1,26 @@
 ---
 permalink: /everyone
-title: "Everyone short movie"
+redirect_from:
+  - /everyone-short-movie
+  - /everyone-love-awakens
+title: "Everyone - Love Awakens"
 ref: Everyone
 layout: none
 lang: en
+description: "Everyone just wants to sleep"
+image: "https://assets.tommi.space/images/everyone.jpg"
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
+	{% include head.html %}
+<link rel="stylesheet" type="text/css" href="/everyone.css" />
+<body>
 
-	{% seo %}
-
-	<meta charset="UTF-8">
-	<link href="/style.css" type="text/css" rel="stylesheet" />
-<link rel="stylesheet" type="text/css" href="/Everyone.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="icon" href="/favicon.svg" sizes="32x32" />
-	<link rel="icon" href="/favicon.svg" sizes="192x192" />
-	<title>{{page.title}}</title>
-</head>
-
-<a href="/home" target="_blank"><div class="category">home</div></a>
+<a href="/home" target="_blank" class="button tool">home</a>
 <div class="row">
 	<div class="one column">
 		<h1 class="everyone">Everyone</h1>
 		<h2 class="love-awakens">Love awakens</h2>
-	</div>
-</div>
-<div class="row">
-	<div class="one column">
 		<p class="page-description">
 			I had a story in his mind which I had to tell. So I wrote it, somehow I found a way to produce it, and eventually filmed it. It took several long, long months of hard work whith his friends, who where kind and crazy enough to trust and follow him in this adventure.<br />
 			I actually am someone who won’t take off his pajama no matter what. Filming Everyone made me think Everyone should wake up. And love.
@@ -42,36 +34,33 @@ lang: en
 	</div>
 </div>
 
-<div class="row">
-	<div class="half column">
-		<img src="/images/2019-08-30-squali-consapevoli.jpg" alt="a snaphot of of the final frames of the movie" title="romantic finale" />
+<div class="stuff row">
+	<div class="half column vertical flex">
+		<img src="{{ site.post-images}}/2019-08-30-squali-consapevoli.jpg" alt="a snaphot of of the final frames of the movie" title="romantic finale" />
 	</div>
-	<div class="half column thing">
+	<div class="half column vertical flex">
 		<h2 class="thing-title">Some thoughts from the director</h2>
 		<p>Tommi wrote something on what he feels about the movie and about what he thinks it means to everyone.</p>
-		<div class="link-container">
-			<a href="/squali-consapevoli" target="_blank"><div class="link" style="color: #415462; background-color: #FFF;">READ</div></a>
-		</div>
+		<a href="/squali-consapevoli" target="_blank" class="button">Read</a>
 	</div>
 </div>
-<div class="row">
+
+<div class="row" id="themakingof">
 	<div class="embed-container">
 		<iframe src="https://player.vimeo.com/video/357913891" width="1200" height="675" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 	</div>
 </div>
 
-<div class="row">
-	<div class="one-third column">
+<div class="stuff row">
+	<div class="one-third column vertical flex">
 		<img src="https://live.staticflickr.com/65535/49863476997_7248e8202e_h.jpg" title="the best sleeping shirt" alt="a photo of a girl in Everyone shirt" />
 	</div>
-	<div class="one-third column thing">
-		<h2 class="thing-title">Everyone shirt</h2>
+	<div class="one-third column vertical flex">
+		<h2>Everyone shirt</h2>
 		<p>Tommi wrote something on what he feels about the movie and about what he thinks it means to everyone.</p>
-		<div class="link-container">
-			<a href="mailto:xplosionpictures@protonmail.com?subject=PURCHASE EVERYONE SHIRT" target="_blank" data-content="xplosionpictures@protonmail.com" data-type="mail"><div class="link" style="color: #415462; background-color: #FFF;">ORDER NOW</div></a>
-		</div>
+		<a href="mailto:xplosionpictures@protonmail.com?subject=PURCHASE EVERYONE SHIRT" target="_blank" data-content="xplosionpictures@protonmail.com" data-type="mail" class="button">Order Now</a>
 	</div>
-	<div class="one-third column">
+	<div class="one-third column vertical flex">
 		<img src="https://live.staticflickr.com/65535/48707603012_fe0d45e19c_h.jpg" title="the best sleeping shirt" alt="a photo of a girl in Everyone shirt" />
 	</div>
 </div>
@@ -82,63 +71,44 @@ lang: en
 	</div>
 </div>
 
-<div class="row">
-	<div class="one-third column">
-		<img class="mosaic" src="https://live.staticflickr.com/65535/49863177766_dc6eff91aa_b.jpg" title="Everyone with Luca Bizzarri" alt="a photo of Luca Bizzarri holding Everyone's shirt" />
-	</div>
-	<div class="one-third column">
-		<img class="mosaic" src="https://live.staticflickr.com/65535/48743498842_9b7573b4a7_h.jpg" title="Everyone with Guido Catalano" alt="a photo of Guido Catalano holding Everyone's shirt" />
-	</div>
-	<div class="one-third column">
-		<img class="mosaic" src="https://live.staticflickr.com/65535/48743119228_58a188fde2_b.jpg" title="Everyone with Mario Calabresi" alt="a photo of Mario Calabresi holding Everyone's shirt" />
-	</div>
+<div class="flex row">
+	<img class="mosaic" src="https://live.staticflickr.com/65535/49863177766_dc6eff91aa_b.jpg" title="Everyone with Luca Bizzarri" alt="a photo of Luca Bizzarri holding Everyone's shirt" />
+	<img class="mosaic" src="https://live.staticflickr.com/65535/48743498842_9b7573b4a7_h.jpg" title="Everyone with Guido Catalano" alt="a photo of Guido Catalano holding Everyone's shirt" />
+	<img class="mosaic" src="https://live.staticflickr.com/65535/48743119228_58a188fde2_b.jpg" title="Everyone with Mario Calabresi" alt="a photo of Mario Calabresi holding Everyone's shirt" />
 </div>
-<div class="row">
-	<div class="one-third column">
-		<img class="mosaic" src="https://live.staticflickr.com/65535/48743382471_8e6b93a8e8_b.jpg" title="Everyone with Alessandro Baricco" alt="a photo of Alessandro Baricco holding Everyone's shirt" />
-	</div>
-	<div class="one-third column">
-		<img class="mosaic" src="https://live.staticflickr.com/65535/48743387051_e657e2ac5e_c.jpg" title="Everyone with Beppe Severgnini" alt="a photo of Beppe Severgnini holdin Everyone's shirt" />
-	</div>
-	<div class="one-third column">
-		<img class="mosaic" src="https://live.staticflickr.com/65535/49863233411_899ec3f5ee_h.jpg" title="Everyone with Massimo Giletti" alt="a photo of Massimo Giletti holding Everyone's shirt" />
-	</div>
-</div>
-<div class="row">
-	<div class="one-third column">
-		<img class="mosaic" src="https://live.staticflickr.com/65535/48743563042_48fd8e57d1_b.jpg" title="Everyone with Walter Veltroni" alt="a photo of Walter Veltroni holding Everyone's shirt" />
-	</div>
-	<div class="one-third column">
-		<img class="mosaic" src="https://live.staticflickr.com/65535/49863511427_1eed273bb5_b.jpg" title="Everyone with Piergiorgio Odifreddi" alt="a photo of Piergiorgio Odifreddi holding Everyone shirt" />
-	</div>
-	<div class="one-third column">
-		<img class="mosaic" src="https://live.staticflickr.com/65535/49863508277_1385cb1d3d_b.jpg" title="Everyone with Amleto De Silva" alt="a photo of Amleto De Silva holdin Everyone's shirt" />
-	</div>
+<div class="flex row">
+	<img class="mosaic" src="https://live.staticflickr.com/65535/48743382471_8e6b93a8e8_b.jpg" title="Everyone with Alessandro Baricco" alt="a photo of Alessandro Baricco holding Everyone's shirt" />
+	<img class="mosaic" src="https://live.staticflickr.com/65535/48743387051_e657e2ac5e_c.jpg" title="Everyone with Beppe Severgnini" alt="a photo of Beppe Severgnini holdin Everyone's shirt" />
+	<img class="mosaic" src="https://live.staticflickr.com/65535/49863233411_899ec3f5ee_h.jpg" title="Everyone with Massimo Giletti" alt="a photo of Massimo Giletti holding Everyone's shirt" />
 </div>
 
-<div class="row">
-	<div class="one-third column thing">
+<div class="flex row">
+	<img class="mosaic" src="https://live.staticflickr.com/65535/48743563042_48fd8e57d1_b.jpg" title="Everyone with Walter Veltroni" alt="a photo of Walter Veltroni holding Everyone's shirt" />
+	<img class="mosaic" src="https://live.staticflickr.com/65535/49863511427_1eed273bb5_b.jpg" title="Everyone with Piergiorgio Odifreddi" alt="a photo of Piergiorgio Odifreddi holding Everyone shirt" />
+	<img class="mosaic" src="https://live.staticflickr.com/65535/49863508277_1385cb1d3d_b.jpg" title="Everyone with Amleto De Silva" alt="a photo of Amleto De Silva holdin Everyone's shirt" />
+</div>
+
+<div class="stuff row">
+	<div class="one-third column vertical flex">
 		<h2 class="thing-title">Press Kit</h2>
 		<p>If you need more infos about the movie production and an overview of the mentions and awards, click on the button below</p>
-		<div class="link-container">
-			<a href="https://mega.nz/folder/rxNmFIKT#ocNFGlt5p2RYVIrIhEknhg" target="_blank"><div class="link" style="color: #415462; background-color: #FFF;">download</div></a>
-		</div>
+		<a href="https://mega.nz/folder/rxNmFIKT#ocNFGlt5p2RYVIrIhEknhg" target="_blank" rel="noopener noreferrer" class="button">download</a>
 	</div>
-	<div class="two-thirds column">
-		<img src="/images/Everyone-on-set.jpg" alt="a shot of the crew on set" title="on set" />
+	<div class="two-thirds column vertical flex">
+		<img src="{{ site.images }}/everyone-on-set.jpg" alt="a shot of the crew on set" title="on set" />
 	</div>
 </div>
 
 
-<div class="row" id="imdb">
-	<div class="one-fourth column">
-		<img src="/images/everyone-poster.jpg" title="Everyone poster" alt="Everyone poster" />
+<div id="imdb" class="stuff row">
+	<div class="half column vertical flex">
+		<img src="{{ page.image }}" title="Everyone poster" alt="Everyone poster" />
 	</div>
-	<div class="three-fourths column thing">
-		<h2 class="thing-title">We’re not serious, but we try to look so</h2>
+	<div class="half column vertical flex">
+		<h2>We’re not serious, but we try to look so</h2>
 		<p>Everyone has an IMDb page, where you can find the complete list of the cast and crew and read some oddities about the production, check it out!</p>
-		<div class="link-container">
-			<a href="https://www.imdb.com/title/tt10851718/" target="_blank" rel="noopener"><div class="link" style="color: #415462; background-color: #FFF;">IMDb Movie Page</div></a>
-		</div>
+		<a href="https://www.imdb.com/title/tt10851718/" target="_blank" rel="noopener" class="button">IMDb Movie Page</a>
 	</div>
 </div>
+</body>
+</html>

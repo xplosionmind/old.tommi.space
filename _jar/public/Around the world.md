@@ -2,6 +2,7 @@
 date: 2020-07-20
 updated: 2020-11-25
 tags: ["places"]
+image: "https://assets.tommi.space/images/places.jpg"
 permalink: /places
 alt-title: Places
 redirect_from:

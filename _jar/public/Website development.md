@@ -1,7 +1,7 @@
 ---
 title: "Website development"
 date: 2020-02-02
-updated: 2020-12-05
+updated: 2020-12-07
 description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
 permalink: /development
 redirect_from:
@@ -104,6 +104,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 1. Thumbnails in Zibaldone's feed
 1. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
 1. Style [caret-color](https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color)
+1. Add `image` tag in Jar elements
 1. [jekyll-rakefile](https://github.com/avillafiorita/jekyll-rakefile)
 1. Self-host website
 1. Content history
@@ -118,6 +119,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 	- rimm-db
 1. Add [humans.txt](http://humanstxt.org)
 1. Semantic HTML
+1. Implement little cool Javascript features, from [W3schools](https://www.w3schools.com/howto/)
 1. Evaluate copyright change
 1. [Bookmarked threads](https://talk.jekyllrb.com/u/xplosionmind/activity/bookmarks) on [Jekyll Talk](https://talk.jekyllrb.com/) (Jelyll's forum)
 1. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)

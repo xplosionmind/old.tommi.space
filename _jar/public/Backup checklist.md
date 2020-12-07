@@ -2,6 +2,7 @@
 date: 2020-09-14
 updated: 2020-11-21
 tags: geek
+image: "https://assets.tommi.space/images/backup.jpg"
 description: "To keep the phone rolling smoothly, from time to time a classic data backup and factory reset of the mobile device is necessary, but it’s important not to forget what to backup before hitting the red button. This is my checklist and importing workflow."
 permalink: /backup
 redirect_from:

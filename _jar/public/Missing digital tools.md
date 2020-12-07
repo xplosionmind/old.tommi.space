@@ -1,7 +1,7 @@
 ---
 date: 2020-02-26
-updated: 2020-09-30
-tags: ["geek"]
+updated: 2020-12-08
+tags: ["geek", "idea"]
 description: "Ideas for programs which would be very useful, but I didn't find yet"
 permalink: /missing-tools
 redirect_from:
@@ -56,6 +56,15 @@ Interesting and curious integrations which could be implemented in the [system D
 
 - a program which sums the length of each audio sent and received (and listened), summing up the **time spent recording and listening to audio messages**.
 - a program which calculate a **percentage of how much each person speak in a call** / video-call, like some sort of “ball possession” percentage in soccer games.
+
+<br>
+
+## Just once
+
+An app which automatizes the update of a profile picture on several different platforms
+
+- integrate with Gravatar
+- insert all the platforms and all the links, give public profile access, automate the profile picture update
 
 <br>
 

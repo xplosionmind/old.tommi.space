@@ -1,16 +1,14 @@
 ---
 ---
-:root {
-	--text: white
-}
-
 body {
-	background: linear-gradient(135deg, #9DB5C1, #415462);
+	/* background: linear-gradient(135deg, #9DB5C1, #415462);  */   /* !! NOT WORKING !! */
+	background: #415462;
 	font-family: Helvetica, "Helvatica Neue", Inter, sans-serif;
 	overflow-x: hidden;
 	line-break: loose;
 	cursor: auto; /* CREATE CUSTOM CURSOR */
 	font-weight: lighter;
+	--text: white
 }
 
 .everyone {
@@ -36,19 +34,23 @@ body {
 	padding: 0 5%;
 }
 
-p {
-	text-align: center;
+.button {
+	color: #415462;
+	background: white;
 }
 
-.category {
-	position: fixed;
-	bottom: var(--regular);
-	right: var(--regular);
-	text-transform: uppercase;
-	background: #FFF;
-	color: #415462;
-	z-index: 10;
-	padding-top: 1px;
+.tool {
+	right: 4vw;
+	padding: var(--small) var(--regular);
+}
+
+.stuff {
+	/* background: #89AEB9; */
+	box-shadow: 5px 5px 20px #00000033, -5px -5px 20px #FFFFFF22;
+}
+
+p {
+	text-align: center;
 }
 
 .embed-container {
@@ -73,32 +75,33 @@ p {
 }
 
 .mosaic {
-	padding: 5%;
+	width: 28%;
+	height: auto;
+	margin: 2vw;
+	box-shadow: 5px 5px 20px #00000033, -5px -5px 20px #FFFFFF22;
+	border-radius: var(--radius-l);
 }
 
-.thing-title {
-	margin-top: var(--mastodon);
-	hypens: none;
-	overflow-wrap: normal;
+.vertical {
+	height: unset;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 	.everyone {
 		font-size: var(--height);
 		margin-top: var(--mastodon);
 	}
-
 	.love-awakens {
 		font-size: var(--big);
 	}
-
 	.page-description {
 		padding: 0;
 	}
-	.thing-title {
-		margin-top: var(--regular);
-	}
 	#imdb {
 		margin-bottom: 3rem;
+	}
+	.mosaic {
+		width: 92vw;
+		margin: 2vw 4vw;
 	}
 }
