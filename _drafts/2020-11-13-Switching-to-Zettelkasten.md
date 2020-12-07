@@ -1,3 +1,6 @@
+---
+tags: ["geek", "zen"]
+---
 If I think carefully, I may actually conclude that the main issue with my life is that I spend most of the time thinking about how to waste less time. I'm kind of trapped in the loop [Leo Babauta](https://zenhabits.net) explains in his wonderful [*A Case Against Optimizing Your Life*](https://zenhabits.net/unoptimizing/): by focusing on **how** to improve my life, I lose sight of **actually improving** it, or even living it, which is the whole point of life.
 
 So, each time I stumble upon great new ways of thinking, different approaches to knowledge, fresh and smart ways to organize it, I punctually fear that I'll get so interested in the new “system” that I may overlook what's actually important.
@@ -51,6 +54,8 @@ from this point of view, I'm very demanding. My aim is to come up with a method 
 if I need to share some content with somebody, or to suggest my system to a friend, it has to be powerful and complete, yet simple and easy to understand.
 1. **Metadata**   
 Metadata, such as date and time of creation and of modification, must be clear, accessible, and impossible to lose. Many of my notes are important to me as memories and they have a huge value in relation with their date of creation.
+1. **Multiple languages**   
+I often use both English and Italian (my mother language), and in the future I may add more. I desire an effective way to both handle and link content in different languages.
 1. **Reminders**   
 one feature which made me stick with Google Keep before and Joplin later is the ability to set reminders and send push notifications on the smartphone at a given time. This is a crucial need to me, and it should be on top, but since my reminders aren't strictly related to my notes' content, I can use a different app focused on reminders only if the above condition are satisfied.
 

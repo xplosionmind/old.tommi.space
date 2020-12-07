@@ -176,3 +176,10 @@ Who to share an early beta version of the website
 
 - Giffoni Film Festival
 - Radioimmaginaria
+
+## Press
+
+- Comunicato stampa
+	- ilpost (Arianna + Sofri)
+	- codice, RaiPlay
+	- Press kit (`/press` e `/stampa`)

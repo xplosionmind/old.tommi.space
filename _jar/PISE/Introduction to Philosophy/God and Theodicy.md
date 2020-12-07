@@ -143,8 +143,17 @@ Existence doesn't add anything to an entity.
 
 <p class="date">18<sup>th</sup> November 2020</p>
 
++++
 
+<br>
 
+## Reactions of the catholic church
+
+<p class="date">7<sup>th</sup> December 2020</p>
+
+Averroes: philosophy and religion must be separated; considered dangerous by christian church: if it would be so, the christian church would've been no domain on the human dimension, not in the religious only. Consider the historical context.
+
+<br>
 
 ## Resources
 

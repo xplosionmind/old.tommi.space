@@ -51,8 +51,10 @@ tags: ["geek"]
 	- boundaries
 	- loop habits
 	- The Slots Philosophy
-	- **self debugging**
+	- ***self debugging***
 		- a self-debugging script in programming ideas
+		- provare a descrivere e scrivere di determinate situazioni e stati d'animo quando non ci si trova può essere anche un podo ancora inferiore per capirli e risolvere
+	-   m o n o t a s k i n g
 - Add *Herbertismo* Jar item
 - Add Obsidian in *bugs and feature requests*
 - A program which counts the number of times a key has been clicked on a keyboard
