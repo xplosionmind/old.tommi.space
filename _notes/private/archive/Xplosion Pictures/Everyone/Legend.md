@@ -1,0 +1,12 @@
+---
+date: 2019-08-12
+---
+- GREY - logistics & technical details
+- LIGHT BLUE - stuff to solve and or to do
+- YELLOW - soundtrack
+- ORANGE - Directive stuff
+- GREEN - merchandising /sharing/marketing
+- PINK - particolari per Stefi da Tommi
+- DARK BLUE - particolari per Tommi
+- PURPLE - stuff to buy
+- RED - Steff’s reminders

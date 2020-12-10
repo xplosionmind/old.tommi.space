@@ -1,0 +1,12 @@
+---
+tags: ["writing", "?", "idea"]
+---
+- Algoritmo per valutare il valore affettivo?
+- Valore sballato, value, valore come lettura di un dato
+- Macchine e valore affettivo: "Her"
+- Macchine e valore: ora i programmi di pulizia sanno rinuovere i dati superflui per i programmi. come riconoscono i dati superflui per le persone?
+- valore della vita, sopravvivenza artificiale, chemio
+- valore di una pubblicità: sponsorizzazione dei post, numero di persone, nascosto.
+- come fa l'intelligenza artificiale a dare IMPORTANZA? E poi, per funzionare ha bisogno di DATI, su cui basare le proprie ricerche... dove vanno a finire?
+    - Paolo Benanti
+    - equilibrio fra acquisire dati per ottimizzare un servizio e la profilazione dell'utente

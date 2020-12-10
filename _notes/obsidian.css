@@ -1,0 +1,237 @@
+/* **********************************************************************************
+ *																					*
+ * 								Custom CSS for Obsidian								*
+ *																					*
+ *		by xplosionmind | https://tommi.space | https://github.com/xplosionmind		*
+ *						this code is published under CC0 license					*
+ *																					*
+ *																					*
+ * *********************************************************************************/
+
+
+:root {
+	--primary: #FCC920;
+	--primary-light: #FCC920;
+	--secondary: #EC0868;
+	--blue: #4F99FF;
+	--accent: limegreen;
+	--default-font: Inter, -apple-system, sans-serif;
+	--font-monospace: 'Ubuntu Mono', monospace;
+}
+
+* {
+	border: none !important;
+}
+
+::-webkit-scrollbar {
+	width: 2px;
+	height: 2px;
+}
+
+.theme-dark {
+	--text-normal: #E1E1E1;
+	--text-accent: var(--primary);
+    --text-accent-hover: var(--primary-light);
+    --scrollbar-bg: none !important;
+}
+
+.theme-light {
+    --scrollbar-bg: none !important;
+}
+
+/* make the editor appear in mono */
+.CodeMirror-code {
+	font: 1.1em "Ubuntu Mono";
+}
+
+.cm-s-obsidian .hmd-fold-html-stub, .cm-s-obsidian .hmd-fold-code-stub, .cm-s-obsidian.CodeMirror .HyperMD-hover > .HyperMD-hover-content code, .cm-s-obsidian .cm-formatting-hashtag, .cm-s-obsidian .cm-inline-code, .cm-s-obsidian .HyperMD-codeblock, .cm-s-obsidian .HyperMD-hr, .cm-s-obsidian .cm-hmd-frontmatter, .cm-s-obsidian .cm-hmd-orgmode-markup, .cm-s-obsidian .cm-formatting-code, .cm-s-obsidian .cm-math, .cm-s-obsidian span.hmd-fold-math-placeholder, .cm-s-obsidian .CodeMirror-linewidget kbd, .cm-s-obsidian .hmd-fold-html kbd {
+	font-family: "Ubuntu Mono", monospace;
+	color: #999;
+}
+
+.view-header-title-container:after {
+	background: none !important;
+}
+
+.CodeMirror-cursors {
+	visibility: visible !important;
+}
+
+/* Cursor color in normal vim mode and opacity */
+.cm-fat-cursor .CodeMirror-cursor, .cm-animate-fat-cursor {
+  width: .5em;
+  background: var(--secondary) !important;
+  opacity: 20% !important;
+}
+
+/*an active line highlight in vim normal mode */
+.cm-fat-cursor .CodeMirror-activeline .CodeMirror-linebackground{
+  background-color: #DDDDDD11 !important;
+}
+
+/*if you want the highlight to present in both normal and insert mode of vim*/
+.CodeMirror-activeline .CodeMirror-linebackground{
+  background-color: #DDDDDD11 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+}
+
+a {
+	text-decoration: none;
+}
+
+.external-link:hover {
+	border-bottom: dashed 2px var(--primary);
+}
+
+.markdown-preview-view .internal-link {
+	color: var(--blue);
+	text-decoration: none;
+}
+
+.markdown-preview-view .internal-link:hover {
+	border-bottom: dashed 2px var(--blue);
+}
+
+/* FUTURISTIC CHECKBOXES */
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 20%;
+    border: 1px solid var(--primary);
+    padding: 0;
+    background: transparent;
+}
+
+
+input[type=checkbox]:hover {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 20%;
+    border: 1px solid white;
+    padding: 0;
+    background: transparent;
+}
+
+input[type=checkbox]:focus{
+  outline:0;
+}
+
+input[type=checkbox]:checked {
+    background-color: transparent;
+    border: 1px solid transparent;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
+}
+
+.markdown-preview-view ul > li.task-list-item.is-checked {
+    text-decoration: line-through;
+    margin: -1px 1px;
+    color: #CCC;
+}
+
+
+/* TAGS STYLING */
+
+.tag {
+    color: var(--background-primary);
+	background: #FCC920AA;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+	padding: 2px 6px;
+    border-radius: 5px;
+	font-weight: 700;
+    font-size: .8em;
+	transition: .15s;
+	bottom: 1px;
+	position: relative;
+}
+
+.tag:hover {
+    color: var(--background-primary-alt);
+	background: var(--primary);
+	transition: .15s;
+}
+
+.markdown-preview-view {
+    letter-spacing: .008em;
+}
+
+.markdown-preview-view code {
+	color: #DEDEDE;
+	background: #333;
+	font-family: "Ubuntu Mono", monospace;
+}
+
+.markdown-preview-view pre code {
+	background: none;
+}
+
+code,
+pre {
+	font-family: "Ubuntu Mono", monospace;
+}
+
+.markdown-preview-view pre,
+.markdown-preview-view img {
+	border-radius: .8rem;
+}
+
+.copy-code-button {
+	top: 15px !important;
+	right: 15px !important;
+	border-radius: 5px !important;
+}
+
+/* Add quotation character before quote */
+blockquote:before {
+  font: 14px/20px italic Times, serif;
+  content: "“";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+	display: inline;
+}
+
+/* hyphenation */
+.cm-s-obsidian, .markdown-preview-view {
+	hyphens: auto;
+}
+
+/* Naked Embeds */
+.markdown-embed-title { display: none; }
+.markdown-preview-view .markdown-embed-content>:first-child { margin-top: 0;}
+.markdown-preview-view .markdown-embed-content>:last-child { margin-bottom: 0;}
+
+/*remove the following two line, you will get border and scroll*/
+.markdown-preview-view .markdown-embed { border:none; padding:0; margin:0; }
+.markdown-preview-view .markdown-embed-content { 
+  max-height: unset;
+  background-color: var(--background-secondary); /*define different bg color*/
+}
+
+/* the link on the top right corner*/
+.markdown-embed-link {
+color: var(--text-faint) !important;
+}
+
+.markdown-embed-link:hover {
+color: var(--text-accent) !important;
+}
+
+.right,
+.cite,
+.date {
+	text-align: right;
+}
+
+.cite::before {
+	content: '~ '
+}

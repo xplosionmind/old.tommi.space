@@ -1,0 +1,64 @@
+---
+---
+- [ ] slippers / slipper socks
+- [ ] shoes
+- [ ] poncho
+- [ ] shirts
+- [ ] jacket
+- [ ] pillow
+- [ ] waterbottle
+- [ ] pijama
+- [ ] beautycase
+- [ ] anti mosquitos
+- [ ] soap
+- [ ] power bank
+- [ ] mess tin
+- [ ] Opinel
+- [ ] charger
+- [ ] thermos
+- [ ] food
+- [ ] SD card
+- [ ] leg warmer
+- [ ] sleeping bag
+- [ ] undershirt (vest)
+- [ ] jumper
+- [ ] scarf
+- [ ] small bag
+- [ ] towel
+- [ ] socks
+- [ ] sunscreen
+- [ ] documents
+- [ ] pencil case
+- [ ] camera
+- [ ] GoPro
+- [ ] medicines
+- [ ] elegant dress (shirt, papillon trousers)
+- [ ] multiple socket
+- [ ] good reads
+- [ ] skateboard
+- [ ] underwear
+- [ ] Gorillapod
+- [ ] cash
+- [ ] parfume
+- [ ] bathrobe
+- [ ] gloves
+- [ ] society games
+- [ ] skipass
+- [ ] snowboard / ski
+- [ ] helmet
+- [ ] boots / ski boots
+- [ ] sunglasses
+- [ ] trousers
+- [ ] diodorante
+- [ ] shampoo
+- [ ] toothpaste e toothbrush
+- [ ] headphones
+- [ ] headphones splitter
+- [ ] razor
+- [ ] bluetooth speaker
+- [ ] running/hiking outfit
+- [ ] Mac
+- [ ] belt
+- [ ] detergent
+- [ ] spille da balia
+- [ ] leggings

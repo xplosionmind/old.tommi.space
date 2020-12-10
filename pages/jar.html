@@ -16,8 +16,8 @@ ref: jar
 {% include tags.html %}
 	</div>
 
-	{% assign jar = site.jar | sort: 'updated' | reverse %}
-	{% for note in jar %}{% unless note.hide == 1 %}
+	{% assign jar = site.notes %}
+	{% for note in jar %}
 		<a href="{{ note.url }}">
 			<div class="row">
 				<div class="flex box">
@@ -26,12 +26,16 @@ ref: jar
 							<h2>{{ note.title }}</h2>
 						</div>
 						<div class="row">
-							<p>{{ note.description | markdownify }}</p>
+							{% if note.description != nil %}
+								<p>{{ note.description | markdownify }}</p>
+							{% else %}
+								<p>{{ note.excerpt | strip_html | truncatewords: 30 }}</p>
+							{% endif %}
 						</div>
 					</div>
 				</div>
 			</div>
 		</a>
-	{% endunless %}{% endfor %}
+	{% endfor %}
 
 </div>

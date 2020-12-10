@@ -1,0 +1,4 @@
+---
+date: 2019-01-12
+---
+FAI UN ELENCO DI TUTTE LE COMMISSIONI CHE DOBBIAMO FARE DOMATTINA (anche quelle eventuali)

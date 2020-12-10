@@ -27,18 +27,17 @@ logos: "https://assets.tommi.space/logos"
 fonts: "https://assets.tommi.space/fonts"
 exclude:
   - riordinare/
-  - _jar/private/
-  - _jar/templates/
-  - _jar/.obsidian
-  - _jar/.trash
-  - _jar/PISE # to be removed once a submodule will be added
+  - _notes/private/
+  - _notes/templates/
+  - _notes/.obsidian
+  - _notes/.trash
 keep_files:
   - images/
   - assets/
 collections:
   poetry:
     output: true
-  jar:
+  notes:
     output: true
   filinge:
     output: true
@@ -55,7 +54,7 @@ feed:
       path: /feeds/poetry.xml
     filinge:
       path: /feeds/filinge.xml
-    jar:
+    notes:
       path: /feeds/jar.xml
 # SEO
 social:
@@ -107,7 +106,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-admin
   - jekyll-debug
-  - jekyll-optional-front-matter
+#  - jekyll-optional-front-matter
 #  - jekyll-paginate
 #  - jekyll-paginate-v2
 #  - jekyll-archives
@@ -164,7 +163,7 @@ defaults:
   -
     scope:
       path: ""
-      type: jar
+      type: notes
     values:
       layout: jar
       lang: en

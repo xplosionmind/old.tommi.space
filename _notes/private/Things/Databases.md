@@ -1,0 +1,11 @@
+---
+tags: ["geek, "todo"]
+---
+- [ ] People \|\| Guests
+- [x] Backup \|\| HDD sync
+- [ ] Meetings
+- [ ] interviews to me
+- [ ] interviews to others
+- [ ] retrieval of first Rimm article ever
+- [ ] articles and videos I'm in
+- [ ] Read articles archive

@@ -1,18 +1,16 @@
-{% for post in site.posts %}
-	{% if forloop.first == true %}
-		<a href="{{ post.url }}"><h2 class="title">{% if page.lang == 'it'%}Ultimo articolo{% else %}Latest post{% endif %}</h2></a>
-		<div class="stuff row">
-			<div class="half column vertical flex">
-				<a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" /></a>
-			</div>
-			<div class="half column vertical flex">
-				<p class="right">{{ post.date | date_to_long_string }}</p>
-				<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-				<p class="caption">
-					{{ post.excerpt | truncate: 200 }}
-				</p>
-				<a href="{{ post.url }}" class="written button">{% if page.lang == 'it' %}Leggi{% else %}Read{% endif %}</a>
-			</div>
+{% for post in site.posts limit:1 %}
+	<a href="{{ post.url }}"><h2 class="title">{% if page.lang == 'it'%}Ultimo articolo{% else %}Latest post{% endif %}</h2></a>
+	<div class="stuff row">
+		<div class="half column vertical flex">
+			<a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" /></a>
 		</div>
-	{% endif %}
+		<div class="half column vertical flex">
+			<p class="right">{{ post.date | date_to_long_string }}</p>
+			<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+			<p class="caption">
+				{{ note.excerpt | strip_html | truncatewords: 150 }}
+			</p>
+			<a href="{{ post.url }}" class="written button">{% if page.lang == 'it' %}Leggi{% else %}Read{% endif %}</a>
+		</div>
+	</div>
 {% endfor %}

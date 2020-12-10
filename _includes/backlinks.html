@@ -1,8 +1,5 @@
-{% comment %}
 
-      Backlinks parser based on pages permalinks.
 
-{% endcomment %}
 <div class="box" id="backlinks">
   <h2>Backlinks</h2>
   <p class="center">
@@ -13,6 +10,29 @@
       All the pages of this website containing a link to the current page.<br />Curious about what this means? Check <a href="https://www.wikiwand.com/en/Backlink" rel="noopener noreferrer" target="_blank">this article</a>.
     {% endif %}
   </p>
+
+
+
+  {% comment %}++++++++++++++++++++++++++++++++++++++++
+  +                                                   +
+  +    Backlinks parser based on the ruby plugin      +
+  +                                                   +
+  +++++++++++++++++++++++++++++++++++++{% endcomment %}
+
+  {% if page.backlinks.size > 0 %}
+    {% for backlink in page.backlinks %}
+      <li><a href="{{ backlink.url }}">{{ backlink.title }}</a></li>
+    {% endfor %}
+  {% endif %}
+
+
+
+
+  {% comment %}+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  +                                                                      +
+  +      100% Liquid backlinks parser based on pages permalinks.         +
+  +                                                                      +
+  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++{% endcomment %}
 
   {% capture current_url %}{{ page.url }}{% endcapture %}
   {% capture current_url_downcase %}{{ page.url | downcase }}{% endcapture %}

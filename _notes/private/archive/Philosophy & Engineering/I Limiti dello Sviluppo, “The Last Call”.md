@@ -1,0 +1,15 @@
+---
+tags: ["film"]
+---
+- Prima si sperava di poter raggiungere un equilibrio, ora è tardi
+- Chris Meadows e Aurelio Peccei, J. Forrester
+- sistemi semplici e sistemi complessi, non funzionano allo stesso modo
+- Donella Meadows, movimento ambientalista
+- **ottimismo**, si vedeva una soluzione, bastava l’**azione umana**
+- avvicinandoci ai limiti, non ci adatteremo, non ci avvicineremo asintoticamente, lo sfonderemo e saremo costretti a soccombere
+- grande rabbia degli economisti, visti come comunisti
+- “il mordi e fuggi governa il mondo”
+- vent’anni dopo “oltre i limiti”
+- evitare la **resilienza**, non pensare a un equilibrio di sopravvivenza, ma sostenibile
+- pensare a breve termine è ciò che condanna l’uomo
+- le nazioni democratiche non riescono a controllare le emissioni di CO<sub>2</sub>

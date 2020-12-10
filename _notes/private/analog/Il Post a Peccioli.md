@@ -1,0 +1,11 @@
+---
+tags: ["analog", "event"]
+---
+- [[2020-07-06 Il Post a Peccioli I]]
+- [[2020-07-07 Il Post a Peccioli II]]
+- [[2020-07-07 Scrivere per raccontare le cose bene - Il Post a Peccioli]]
+- [[2020-07-08 Il Post a Peccioli III]]
+- [[2020-07-08 Konrad, Europa]]
+- [[2020-07-09 con Matteo Caccia]]
+- [[2020-07-10 Immagini]]
+- [[2020-07-11 con Francesca Mannocchi]]
