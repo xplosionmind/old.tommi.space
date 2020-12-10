@@ -8,7 +8,7 @@
 			<p class="right">{{ post.date | date_to_long_string }}</p>
 			<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 			<p class="caption">
-				{{ note.excerpt | strip_html | truncatewords: 150 }}
+				{{ post.excerpt | truncatewords: 80 }}
 			</p>
 			<a href="{{ post.url }}" class="written button">{% if page.lang == 'it' %}Leggi{% else %}Read{% endif %}</a>
 		</div>
