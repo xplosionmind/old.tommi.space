@@ -369,22 +369,6 @@ blockquote {
 			left: var(--tiny);
 		} */
 	}
-	blockquote {
-		p {
-			&:first-child::before,
-			&:last-child::after {
-				position: relative;
-			}
-			&:first-child::before {
-				content: '«';
-				right: var(--tiny);
-			}
-			&:last-child::after {
-				content: '»';
-				left: var(--tiny);
-			}
-		}
-	}
 }
 
 td,

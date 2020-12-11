@@ -43,6 +43,14 @@ collections:
     output: true
   sconnesso:
     output: true
+
+# Pagination
+pagination:
+  enabled: false
+  per_page: 5
+  permalink: '/zibaldone/:num/'
+  title: ':title :num'
+
 feed:
   path: /feeds/zibaldone.xml
   tags:
@@ -56,6 +64,7 @@ feed:
       path: /feeds/filinge.xml
     notes:
       path: /feeds/jar.xml
+
 # SEO
 social:
   name: xplosionmind
@@ -82,6 +91,7 @@ tagline: "Tommi's virtual brain"
 twitter:
   username: xplosionmind
   card: summary
+
 podcast:
   title: Sconnesso
   description: "Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso."
@@ -93,9 +103,7 @@ podcast:
   type: "episodic"
   complete: "yes"
   block: "no"
-kramdown:
-  syntax_highlighter_opts:
-    default_lang: zsh
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -107,8 +115,7 @@ plugins:
   - jekyll-admin
   - jekyll-debug
 #  - jekyll-optional-front-matter
-#  - jekyll-paginate
-#  - jekyll-paginate-v2
+  - jekyll-paginate-v2
 #  - jekyll-archives
 #  - jekyll-youtube
 #  - jekyll-spaceship
@@ -128,6 +135,7 @@ plugins:
 #  - jekyll-auto-image
 #  - premonition
   - jekyll-datapage-generator
+
 sass:
   style: compressed
 permalink: /:title

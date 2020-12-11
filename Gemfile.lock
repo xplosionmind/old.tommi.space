@@ -62,6 +62,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
+    jekyll-paginate-v2 (3.0.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.1.0)
@@ -144,6 +146,7 @@ DEPENDENCIES
   jekyll-liquify
   jekyll-mentions
   jekyll-optional-front-matter
+  jekyll-paginate-v2
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap

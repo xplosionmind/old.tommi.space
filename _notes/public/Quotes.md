@@ -23,7 +23,7 @@ Dante, Paradiso VI, vv. 131-132
 
 > L’uomo propone, Dio dispone"
 
-A.Dumas, _Il Conte di Montecristo
+A.Dumas, <cite>Il Conte di Montecristo</cite>
 {:.cite}
 
 <br />
@@ -72,7 +72,7 @@ Giacomo Leopardi
 
 > More than ninety percent of directing a picture is the right casting
 
-~ Martin Scorsese
+Martin Scorsese
 {:.cite}
 
 <br />
@@ -80,7 +80,7 @@ Giacomo Leopardi
 
 > Your job is to get your audience to care about your obsessions.
 
-~ Martin Scorsese
+Martin Scorsese
 {:.cite}
 
 <br />
@@ -104,7 +104,7 @@ Woody Allen
 
 > Ma si è così poco preparati
 
-Kafka, _il processo_, nelle parole di Joseph K.
+Kafka, <cite>il processo</cite, nelle parole di Joseph K.
 {:.cite}
 
 <br />
@@ -135,7 +135,7 @@ Marina Martina Madrina
 
 > Maledetto sia Copernico!
 
-Pirandello, _Il Fu Mattia Pascal_
+Pirandello, <cite>Il Fu Mattia Pascal</cite>
 {:.cite}
 
 <br />
@@ -143,7 +143,7 @@ Pirandello, _Il Fu Mattia Pascal_
 
 > ...e l'uomo diventa sempre più furbo e più debole. Anzi si capisce che la sua furbizia cresce in proporzione alla sua debolezza.
 
-_Zeno_, Svevo
+<cite>La Coscienza di Zeno</cite>, Svevo
 {:.cite}
 
 <br />
@@ -151,7 +151,7 @@ _Zeno_, Svevo
 
 > la morte si sconta vivendo
 
-Ungaretti, _Sono una Creatura_
+Ungaretti, <cite>Sono una Creatura</cite>
 {:.cite}
 
 <br />
@@ -159,7 +159,7 @@ Ungaretti, _Sono una Creatura_
 
 > Perché l’ASI è troppo importante
 
-Roberto Battiston, _Fare Spazio_
+Roberto Battiston, <cite>Fare Spazio</cite>
 {:.cite}
 
 <br />
@@ -199,51 +199,26 @@ Pierre-Auguste Renoir
 
 > È terribile sentirsi così contenti
 
-Dolores, _Santa Maradona_
+Dolores, <cite>Santa Maradona</cite>
 {:.cite}
 
 <br />
 <br />
 
-> **Lucia**:
-> > Non mi ricordo mai se tu fumi, Bartolomeo
->
-> **Bart**:
-> > [facepalm] Ma perché?
-> >
-> > *Bart*, per favore, per cortesia, te lo ripeto ogni volta, *Bart*
->
-> **Lucia**:
-> > comunque?
->
-> **Bart**:
-> > nah, non fumo
->
-> **Lucia**:
-> > perché?
->
-> **Bart**:
-> > ci dev’essere un perché?
->
-> **Lucia**:
-> > c’è un perché si fuma e un perché non si fuma
->
-> **Bart**:
-> > Vuoi Sapere il perché? Ti dico il perché.
-> >
-> > Io non fumo perché al cinema non si può fumare e non potrei mai vedere un film senza fumare, se fumassi. Quindi non fumo. Bart.
->
-> **Lucia**:
-> > grazie
->
-> **Bart**:
-> > no grazie a te, sai qual è la verità? È che è tutta la vita che aspetto di dire questa cosa e non me l'aveva mai chiesta nessuno e guarda che è brutto avere una risposta bella pronta e nessuno ti fa mai la domanda giusta.
->
-> **Lucia**:
-> > capisco.
->
-> **Bart**:
-> > Possiamo fare l'amore adesso?
+> **Lucia**: <q>Non mi ricordo mai se tu fumi, Bartolomeo</q>   
+> **Bart**: \[facepalm\] <q>Ma perché?<br />
+> <em>Bart</em>, per favore, per cortesia, te lo ripeto ogni volta, <em>Bart</em></q>   
+> **Lucia**: <q>comunque?</q>   
+> **Bart**: <q>nah, non fumo</q>   
+> **Lucia**: <q>perché?</q>   
+> **Bart**: <q>ci dev’essere un perché?</q>   
+> **Lucia**: <q>c’è un perché si fuma e un perché non si fuma</q>   
+> **Bart**: <q>Vuoi Sapere il perché? Ti dico il perché.<br />
+> Io non fumo perché al cinema non si può fumare e non potrei mai vedere un film senza fumare, se fumassi. Quindi non fumo. Bart.</q>   
+> **Lucia**: <q>grazie</q>   
+> **Bart**: <q>no grazie a te, sai qual è la verità? È che è tutta la vita che aspetto di dire questa cosa e non me l'aveva mai chiesta nessuno e guarda che è brutto avere una risposta bella pronta e nessuno ti fa mai la domanda giusta.</q>    
+> **Lucia**: <q>capisco.</q>   
+> **Bart**: <q>Possiamo fare l'amore adesso?</q>
 
 Santa Maradona (2001)
 {:.cite}
@@ -274,7 +249,7 @@ Ciro D’Emilio a Giffoni 2019
 
 > Il mio supplizio è quando non mi credo in armonia
 
-Ungaretti, _I Fiumi_ (1916)
+Ungaretti, <cite>I Fiumi</cite> (1916)
 {:.cite}
 
 <br />
@@ -327,7 +302,7 @@ Marco Rosa Gobbo
 
 > Le parole sono azioni.
 
-Wittgenstein, _Pensieri diversi_
+Wittgenstein, <cite>Pensieri diversi</cite>
 {:.cite}
 
 <br />
@@ -343,7 +318,7 @@ Mario Calabresi, Instagram 2019.11.21
 
 > Fishing kills me exactly as it keeps me alive.
 
-Hemingway, _The Old Man and the Sea_. Letto il 27 novembre 2019
+Hemingway, <cite>The Old Man and the Sea</cite>. Letto il 27 novembre 2019
 {:.cite}
 
 <br />
@@ -351,7 +326,7 @@ Hemingway, _The Old Man and the Sea_. Letto il 27 novembre 2019
 
 > you took the sourest lemon that life has to offer and turned it into something resembling lemonade
 
-_This is Us_, S01E01
+<cite>This is Us</cite<, S01E01
 {:.cite}
 
 <br />
@@ -367,7 +342,7 @@ Nelson Mandela
 
 > I morti sanno essere una fonte inesauribile di conforto, nella loro immobile coerenza
 
-Amleto De Silva - *Degenerati*. Letto il 2019.12.06
+Amleto De Silva - <cite>Degenerati</cite>. Letto il 2019.12.06
 {:.cite}
 
 <br />
@@ -375,7 +350,7 @@ Amleto De Silva - *Degenerati*. Letto il 2019.12.06
 
 > Il mondo potrà anche non cambiare: la nostra vita, invece, sì
 
-Amleto De Silva - *Degenerati*. Letto il 2019.12.06
+Amleto De Silva - <cite>Degenerati</cite>. Letto il 2019.12.06
 {:.cite}
 
 <br />
@@ -391,7 +366,7 @@ Simone Riccio Sarchi al momento dell'uscita dal clan
 
 > Carezze e baci sembravano formalità burocratiche
 
-~ Buzzati, _Un amore_
+Buzzati, <cite>Un amore</cite>
 {:.cite}
 
 <br />
@@ -399,7 +374,7 @@ Simone Riccio Sarchi al momento dell'uscita dal clan
 
 > ti si è incastrato il braccio nella mano
 
-~ Ludo, la mattina del 2019.30.01 mentre svuotavo le capsule della macchina del caffè
+Ludo, la mattina del 2019.30.01 mentre svuotavo le capsule della macchina del caffè
 {:.cite}
 
 <br />
@@ -407,7 +382,7 @@ Simone Riccio Sarchi al momento dell'uscita dal clan
 
 > la palestra è per i deboli di cuore
 
-~ Marco Gentile
+Marco Gentile
 {:.cite}
 
 <br />
@@ -415,7 +390,7 @@ Simone Riccio Sarchi al momento dell'uscita dal clan
 
 > se non lo faccio non mi viene
 
-~ Mattia Sabatini, 2020.02.07
+Mattia Sabatini, 2020.02.07
 {:.cite}
 
 <br />
@@ -423,7 +398,7 @@ Simone Riccio Sarchi al momento dell'uscita dal clan
 
 > siamo figli di un dio chiamato esperienza
 
-Gero Riggio, _Veleno_
+Gero Riggio, <cite>Veleno</cite>
 {:.cite}
 
 <br />
@@ -431,7 +406,7 @@ Gero Riggio, _Veleno_
 
 > la solitudine è un balsamo prezioso per il mio spirito
 
-W. Goethe, _I dolori del giovane Werther_, cap.1
+W. Goethe, <cite>I dolori del giovane Werther</cite>, cap.1
 {:.cite}
 
 <br />
@@ -449,7 +424,7 @@ Octavia Butler
 >
 > And I'm afraid to ask
 
-_Wasp Nest_, The National
+<cite>Wasp Nest</cite>, The National
 {:.cite}
 
 <br />
@@ -465,7 +440,7 @@ Aristotele
 
 > Sand is overrated, it's only little rocks
 
-~ Joel, *Eternal Sunshine of the Spotless Mind*
+Joel, <cite>Eternal Sunshine of the Spotless Mind</cite>
 {:.cite}
 
 <br />
@@ -473,7 +448,7 @@ Aristotele
 
 > What is a cynic? A man who knows the price of everything and the value of nothing.
 
-~ Oscar Wilde
+Oscar Wilde
 {:.cite}
 
 <br />
@@ -481,7 +456,7 @@ Aristotele
 
 > If quantum mechanics hasn’t profoundly shocked you, you haven’t understood it yet
 
-~ Niels Bohr
+Niels Bohr
 {:.cite}
 
 <br />
@@ -489,7 +464,7 @@ Aristotele
 
 > Il giornalismo vuole sempre più dirci come ci dobbiamo sentire piuttosto che quello che dovremmo sapere
 
-~ Francesco Costa, 24 aprile 2020
+Francesco Costa, 24 aprile 2020
 {:.cite}
 
 <br />
@@ -497,7 +472,7 @@ Aristotele
 
 > non andare dove il sentiero ti può portare, va' invece dove il sentiero non c'è ancora e lascia dietro di te una traccia
 
-~ Comunità Capi Costa Balenae, Pasqua 2020
+Comunità Capi Costa Balenae, Pasqua 2020
 {:.cite}
 
 <br />
@@ -505,7 +480,7 @@ Aristotele
 
 > quando manchiamo a noi stessi, tutto ci manca
 
-~ Goethe, _I dolori del Giovane Werther_
+Goethe, <cite>I dolori del Giovane Werther</cite>
 {:.cite}
 
 <br />
@@ -513,24 +488,22 @@ Aristotele
 
 > Il mio più grande rammarico è quello di non poter conoscere tutte le persone del mondo
 
-~ Fabio Genovesi
-
-(*anche il mio.* ~ Tommi)
+Fabio Genovesi - (*anche il mio.* ~ Tommi)
+{:.cite}
 
 <br />
 <br />
 
-<br>
 
 > Non ho mai immaginato un mondo senza Giffoni
 
-~ Claudio Gubitosi in una videocall con il cineforum virtuale nato durante la pandemia, il 10 maggio 2020
+Claudio Gubitosi in una videocall con il cineforum virtuale nato durante la pandemia, il 10 maggio 2020
 
 <br>
 
 > Abbiamo tanto da non dirci
 
-~ Aidi, *Jack Frusciante è uscito dal gruppo*, pagina 138
+Aidi, <cite>Jack Frusciante è uscito dal gruppo</cite>, pagina 138
 {:.cite}
 
 <br />
@@ -538,7 +511,7 @@ Aristotele
 
 > Studiare è sopravvalutato
 
-~ Pista al Cubo, 9 giugno 2020
+Pista al Cubo, 9 giugno 2020
 {:.cite}
 
 <br />
@@ -546,7 +519,7 @@ Aristotele
 
 > La confessione alla fine è una terapia di coppia fra te e Dio
 
-~ Anna, 27 giugno 2020
+Anna, 27 giugno 2020
 {:.cite}
 
 <br />
@@ -554,7 +527,7 @@ Aristotele
 
 > Rivederti è così assurdo ma estremamente normale
 
-~ Chiara, 15 luglio 2020, Napoli
+Chiara, 15 luglio 2020, Napoli
 {:.cite}
 
 <br />
@@ -562,7 +535,7 @@ Aristotele
 
 > Forse nessuna cosa, da sola, mi è mai bastata
 
-Gianni Minà, *Storia di un boxeur latino*
+Gianni Minà, <cite>Storia di un boxeur latino</cite>
 {:.cite}
 
 <br />
@@ -570,20 +543,20 @@ Gianni Minà, *Storia di un boxeur latino*
 
 > Dobbiamo cercare di arrivare a guardare ciò che possediamo esattamente con gli stessi occhi con cui lo guarderemmo se ci fosse sottratto
 
-~ Arthur Schopenhauer, *L'arte di essere felici*, massima n. 25
+Arthur Schopenhauer, <cite>L'arte di essere felici</cite>, massima n. 25
 {:.cite}
 
 <br />
 <br />
 
-> *Inter cuncta leges et percontabere doctos 
-qua ragione queas traducere leniter aevum, 
-num te sempre inops agitet vexetque cupido,
-num pavor et rerum mediocriter utilium spes*
+> *Inter cuncta leges et percontabere doctos    
+> qua ragione queas traducere leniter aevum,    
+> num te sempre inops agitet vexetque cupido,   
+> num pavor et rerum mediocriter utilium spes*   
 >
 > Nei ritagli di tempo leggerai, e domanderai ai dotti in qual modo tu possa condurre dolcemente la vita; che non ti agiti sempre e ti tormenti l'insaziabile cupidigia, o il timore e la speranza di beni di scarsa utilità
 
-~ Orazio, *Epistulae*, I, 18, vv. 96-99
+Orazio, <cite>Epistulae</cite>, I, 18, vv. 96-99
 {:.cite}
 
 <br />
@@ -591,7 +564,7 @@ num pavor et rerum mediocriter utilium spes*
 
 > Sforzarsi e lottare con ostacoli è il bisogno più essenziale della vita umana
 
-~ Arthur Schopenhauer, *L'arte di essere felici*, massima n. 30
+Arthur Schopenhauer, <cite>L'arte di essere felici</cite>, massima n. 30
 {:.cite}
 
 <br />
@@ -599,7 +572,7 @@ num pavor et rerum mediocriter utilium spes*
 
 > La personalità è la felicità più alta
 
-~ Goethe, *Divano occidentale-orientale*, VIII, 7 (*Libro di Suleika*)
+Goethe, <cite>Divano occidentale-orientale</cite>, VIII, 7 (*Libro di Suleika*)
 {:.cite}
 
 <br />
@@ -607,7 +580,7 @@ num pavor et rerum mediocriter utilium spes*
 
 > She’s more afraid of not doing something than doing something. And there’s a lot of truth in her.
 
-~ Katie - Devs, S01E06
+Katie - <cite>Devs</cite>, S01E06
 {:.cite}
 
 <br />
@@ -615,7 +588,7 @@ num pavor et rerum mediocriter utilium spes*
 
 > Let your science be human
 
-~ Hume - Enquiry on Human Understanding, Section I
+Hume - <cite>Enquiry on Human Understanding</cite>, Section I
 {:.cite}
 
 <br>
@@ -623,7 +596,7 @@ num pavor et rerum mediocriter utilium spes*
 
 > Però copiare all'università è come dire al medico che hai l'allergia quando hai la polmonite
 
-~ Lorenzo Ancona, 19 ottobre 2020
+Lorenzo Ancona, 19 ottobre 2020
 {:.cite}
 
 <br>
@@ -635,4 +608,4 @@ num pavor et rerum mediocriter utilium spes*
 > Eliza
 > > What would it mean if you were not scared of having to choose?
 
-~ from a chat with [Eliza AI](https://med-ai.com/models/eliza.html), 5<sup>th</sup> November 2020
+from a chat with [Eliza AI](https://med-ai.com/models/eliza.html), 5<sup>th</sup> November 2020

@@ -1,24 +1,3 @@
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
-<script>
-(function($) {
-  $(function() {
-    $('nav ul li > a:not(:only-child)').click(function(e) {
-      $(this).siblings('.nav-dropdown').toggle();
-      $('.nav-dropdown').not($(this).siblings()).hide();
-      e.stopPropagation();
-    });
-    $('html').click(function() {
-      $('.nav-dropdown').hide();
-    });
-  });
-  document.querySelector('#nav-toggle').addEventListener('click', function() {
-    this.classList.toggle('active');
-  });
-  $('#nav-toggle').click(function() {
-    $('nav ul').toggle();
-  });
-})(jQuery);
-</script>
 <section class="navigation">
 	<div class="nav-container">
 		<div class="xplosionmind">

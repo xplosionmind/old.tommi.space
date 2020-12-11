@@ -24,7 +24,7 @@ group :jekyll_plugins do
   gem "jekyll-debug"
   gem "jekyll-optional-front-matter"
 #  gem "jekyll-paginate"
-#  gem "jekyll-paginate-v2"
+  gem "jekyll-paginate-v2"
 #  gem "jekyll-archives"
 #  gem "jekyll-youtube"
 #  gem "jekyll-spaceship"

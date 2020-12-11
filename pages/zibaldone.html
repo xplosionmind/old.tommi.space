@@ -1,12 +1,10 @@
 ---
 title: "Zibaldone"
 permalink: /zibaldone
-redirect_from:
-  - /blog/it
-  - /it/blog
-  - /blog-it
 lang: it
 ref: blog
+pagination:
+  enabled: false
 ---
 <div id="feed" class="one column">
 	<div class="page-header row">
@@ -28,5 +26,20 @@ ref: blog
 			</a>
 		</div>
 	{% endfor %}
+
+	{% comment %}
+	<ul>
+  		{% if paginator.previous_page %}
+  			<li>
+    			<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  			</li>
+  		{% endif %}
+  		{% if paginator.next_page %}
+  			<li>
+    			<a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  			</li>
+  		{% endif %}
+	</ul>
+	{% endcomment %}
 
 </div>
