@@ -18,12 +18,12 @@ aliases: ["Path to Internet Freedom"]
 1. Check policies, usage terms, privacy conditions of all the tools and services in use
 1. Improve [PGP keys management](https://keys.openpgp.org)
 1. Self-host `@tommi.space` [[Email addresses]]
-	1. [Setup a mail server](/server#mail-server)
+	1. [[Server#Mail server|Setup a mail server]]
 	1. Completely switch to self-hosted mail server
 		1. import Gmail data
 		1. import Protonmail data
 	1. AnonAddy everywhere on the web
-1. Install and configure [self-hosted apps](/server#Apps-Wishlist) only
+1. Install and configure [[Server#Wishlist|self-hosted apps]] only
 1. [[Switch to LineageOS]]
 1. Set [LibreDNS](https://libredns.gr) as the system-wide encrypted DNS (already used as DNS over HTTPS in Firefox)
 

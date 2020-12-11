@@ -1,3 +1,5 @@
+---
+---
 Per essere efficaci: modellizzare
 
 > Fatto questo preambolo, e chiarita così la prospettiva in cui mi muovo, mi soffermerò stasera specificamente su una questione, le cui ricadute penso vi riguardino da vicino, in quanto impegnati in funzioni di gestione aziendale e management: la questione dell’efficacia. Per cogliere come i greci (e noi per eredità) da una parte, i cinesi dall’altra abbiano potuto concepire in maniera differente ciò che in prima istanza definirei, in termini comuni, l’efficacia o la strategia. Trattandosi di un punto sul quale il faccia-a-faccia fra le due culture può essere stabilito con facilità, le due concezioni dell’efficacia, greca e cinese, possono scrutarsi e illuminarsi a vicenda, o in altri termini riflettersi l’una nell’altra. A mio parere, la modalità greca di concepire l’efficacia può essere così riassunta: per essere efficace, io costruisco una forma modello, ideale, di cui traccio un piano e che mi pongo come obiettivo; poi inizio ad agire in base al piano e in funzione dell’obiettivo. Si ha, quindi, prima la modellizzazione, la quale poi invoca la propria applicazione.

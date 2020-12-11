@@ -1,14 +1,14 @@
 ---
 date: 2020-05-30
 updated: 2020-08-07
-tags: ["geek"]
+tags: geek
 toc: 0
 description: "Every geek worth to be called so has a custom launcher. This is the story of how I changed my preferred one for my first time, after several years."
 ---
 **30 May 2020**
-{:.right}
+{:.date}
 
-I was writing the list of the [apps on my Android phone](/apps#mobile) and I got to the point where I had to add [Nova Launcher](http://novalauncher.com/).
+I was writing the list of the [[Apps#Android|apps on my Android phone]] and I got to the point where I had to add [Nova Launcher](http://novalauncher.com/).
 
 One thing struck me: since when I got my first phone (2013) up to now (mid-2020) I’ve always used it. It’s been so good I also bought [Nova Launcher Prime](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher.prime), and I never changed my mind. It’s most likely the (not pre-installed) app I used for the longest time.
 
@@ -16,9 +16,9 @@ I was ready to add Nova to the list, when one thought stopped me: “wait, is it
 
 Out of pure curiosity, I went on [AlternativeTo](https://alternativeto.net/software/nova-launcher/?license=opensource) to know more about existing open source launchers for Android and, to my great surprise, there were some really interesting ones. Each one of them has a unique or very clever feature which makes me want to switch to it. Therefore, I decided I’d adopt one of them. I feel a bit bad about dropping the good old Nova Launcher without many regrets, but... it was about time.
 
-Here’s the launchers (in alphbetical order):
+Here’s the launchers (in alphabetical order):
 
-- [KISS Launcher](https://kisslauncher.com/), as in **K**eep **It** **S**oft and **S**imple. it attracts me because it’s **very** lightweight and it has a simple search bar you can use to do anything or go anywhere
+- [KISS Launcher](https://kisslauncher.com/), as in **K**eep **I**t **S**oft and **S**imple. it attracts me because it’s **very** lightweight and it has a simple search bar you can use to do anything or go anywhere
 - [Lawnchair](https://lawnchair.app/), which seems the one with the biggest team and community behind. Also: a great design
 - [Slim Launcher](https://github.com/sduduzog/slim-launcher), a bare-bones one with pure simplicity
 - [T-UI](https://github.com/fAndreuzzi/TUI-ConsoleLauncher), I need to test it to really get how it works, but it seems like the whole launcher is replaced by some sort of Linux CLI. **Wow**.
@@ -28,13 +28,13 @@ I’ll dig more in depth to understand how they works and which one suits my nee
 <br />
 
 **1 June 2020**
-{:.right}
+{:.date}
 
 I need no more time. That’s it. **KISS Launcher** is my new launcher. I completely fell in love. I tested it first, and I gave a quick look to the others, but I already decided. It’s great:
 
 - it’s super quick because you can search for anything, including contacts and quick actions to perform (add an event to the calendar)
-- it’s blazingly fast, the app is astoundingly lightweight and veri light on the device’s performance
-- it’s intuitive: it has very fwe gestures, but they work great.
+- it’s blazingly fast, the app is astoundingly lightweight and very light on the device’s performance
+- it’s intuitive: it has very few gestures, but they work great.
 - it’s the best to keep focused: unless you know what to search, your mobile home screen is empty.
 
 It also has a few little but extremely useful features which I invite you to experience yourself. It will definitely be worth it and you may never get back.
@@ -54,7 +54,7 @@ Bye
 <br />
 
 **7 August 2020**
-{:.right}
+{:.date}
 
 I found another great launcher, but it’s very minimal and it makes it so hard to search for anything which isn’t an app.
 

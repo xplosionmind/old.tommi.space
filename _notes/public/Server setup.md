@@ -12,7 +12,7 @@ A **huge shoutout** to my friend [Claudio](http://claudiofaoro.com), who helped 
 
 ## General knowledge
 
-Resources, apps, tutorials and several knowledge sources are mentioned [here](/server).
+Resources, apps, tutorials and several knowledge sources are mentioned in the [[Server]] page.
 
 <br>
 <br>
@@ -365,7 +365,7 @@ systemctl restart apache2
 
 ### Final adjustments
 
-Final adjustments are to be performed from the Nextcloud GUI. The [Nextcloud apps](https://apps.nextcloud.com/) I installed are listed [here](/apps#nextcloud)
+Final adjustments are to be performed from the Nextcloud GUI. The [Nextcloud apps](https://apps.nextcloud.com/) I installed are listed [[Apps#Nextcloud]]
 
 <br />
 

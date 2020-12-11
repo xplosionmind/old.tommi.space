@@ -7,10 +7,13 @@ redirect_from:
   - /firefox-tweaks
   - /firefox-settings
   - /mozilla-firefox
+  - /about-config
+  - /aboutconfig
+  - /firefox-config
 ---
-## Add-ons || Extensions
+## Add-ons and Extensions
 
-Three different add-ons configurations can be found in my [Firefox Collections](https://addons.mozilla.org/en-US/firefox/collections/13538650):
+Three different add-ons configurations can be found in my [Firefox Collections](https://addons.mozilla.org/en-US/firefox/collections/13538650 "Tommi's Firefox Collections"):
 
 - **[minimal](https://addons.mozilla.org/en-US/firefox/collections/13538650/minimal/) configuration**, must-have add-ons for a safe and optimized browsing experience
 - **[main](https://addons.mozilla.org/en-US/firefox/collections/13538650/main/) configuration**, the main extensions I use + integrated tools to take advantage of the services I use in the best way possible. The main configuration extensions are noted in more detail below, too, but the collection is always up to date
@@ -63,9 +66,8 @@ A record of all the tweaks I made in Firefox `about:config` page
 - [x] `extensions.formautofill.creditCards.enabled` = `false`
 
 <br>
-<br>
 
 ## Sources
 
-- [PrivacyTools](https://www.privacytools.io/browsers/#about_config)
+- [PrivacyTools](https://www.privacytools.io/browsers/#about_config "about:config section on PrivacyTools")
 - [Mikaela Suomalainen](https://mikaela.info/browser-extensions.html)

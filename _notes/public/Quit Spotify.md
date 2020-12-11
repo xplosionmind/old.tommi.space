@@ -2,6 +2,7 @@
 date: 2020-11-07
 updated: 2020-12-05
 tags: ["qsm", "geek"]
+aliases: ["Quitting Spotify"]
 description: "Thoughts and decisions about quitting Spotify"
 permalink: /quit-spotify
 redirect_from:
@@ -49,4 +50,4 @@ Why quitting?
 
 <br>
 
-Quitting Spotify is one of the steps of the path to [Internet Freedom](/internet-freedom)
+Quitting Spotify is one of the steps of the path to [[Internet Freedom]]

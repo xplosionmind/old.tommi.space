@@ -34,6 +34,6 @@ When the basics aren't enough.
 1. in-depth CSS learning
 	- [Tania Rascia](https://taniarascia.com)'s [Overview of CSS concepts](https://www.taniarascia.com/overview-of-css-concepts/)
 1. [SCSS](https://sass-lang.com/) deeper understanding
-1. [YAML] deeper understanding
+1. [YAML](https://yaml.org "YAML official website") deeper understanding
 	- [learnxinyminutes](https://learnxinyminutes.com/docs/yaml/)
 	- [cheat sheet](https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml)

@@ -1,3 +1,5 @@
+---
+---
 Firefox Relay addresses
 
 - `j41s75f9b@relay.firefox.com` newsletter

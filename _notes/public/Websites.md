@@ -9,7 +9,7 @@ redirect_from:
   - /websites creation
 toc: 0
 ---
-- [The slots philosophy](/slots)
+- [[The Slot Philosophy]]
 	- `time.slots` (not existing TLD)
 	- `slots.time` (not existing TLD)
 	- `time.ninja` (taken)

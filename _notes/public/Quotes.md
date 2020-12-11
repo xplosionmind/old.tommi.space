@@ -8,11 +8,15 @@ redirect_from:
   - /cit
   - /citazioni
 ---
-
+<style>
+	.cite {
+		margin-bottom: var(--mastodon);
+	}
+</style>
 > mal cammina qual si fa danno del ben fare altrui
 
 Dante, Paradiso VI, vv. 131-132
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -20,7 +24,7 @@ Dante, Paradiso VI, vv. 131-132
 > L’uomo propone, Dio dispone"
 
 A.Dumas, _Il Conte di Montecristo
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -28,7 +32,7 @@ A.Dumas, _Il Conte di Montecristo
 > fai ciò che vedi, che senti, che vuoi
 
 Motto di Courbet
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -45,7 +49,7 @@ L'avvenire è nelle vostre mani. Ricordatelo
 sempre!
 
 Antonino Caponnetto
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -53,7 +57,7 @@ Antonino Caponnetto
 > Non può esserci libertà senza giustizia sociale e non può esserci giustizia sociale senza libertà.
 
 Sandro Pertini
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -61,7 +65,7 @@ Sandro Pertini
 > La pazienza è la più eroica delle virtù, giusto perché non ha nessuna apparenza d’eroico
 
 Giacomo Leopardi
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -69,7 +73,7 @@ Giacomo Leopardi
 > More than ninety percent of directing a picture is the right casting
 
 ~ Martin Scorsese
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -77,7 +81,7 @@ Giacomo Leopardi
 > Your job is to get your audience to care about your obsessions.
 
 ~ Martin Scorsese
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -85,7 +89,7 @@ Giacomo Leopardi
 > Il termine utopia è la maniera più comoda per liquidare quello che non si ha voglia, capacità, o coraggio di fare. Un sogno sembra un sogno fino a quando non si comincia da qualche parte, solo allora diventa un proposito, cioè qualcosa di infinitamente più grande.
 
 Adriano Olivetti
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -93,7 +97,7 @@ Adriano Olivetti
 > I read in self-defense
 
 Woody Allen
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -101,7 +105,7 @@ Woody Allen
 > Ma si è così poco preparati
 
 Kafka, _il processo_, nelle parole di Joseph K.
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -116,7 +120,7 @@ J-Ax
 > Mi sento CTRL ALT canc, devo sbloccare i miei progetti
 
 Anonimo
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -124,7 +128,7 @@ Anonimo
 > Dio scrive dritto sulle nostre righe storte
 
 Marina Martina Madrina
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -132,7 +136,7 @@ Marina Martina Madrina
 > Maledetto sia Copernico!
 
 Pirandello, _Il Fu Mattia Pascal_
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -140,7 +144,7 @@ Pirandello, _Il Fu Mattia Pascal_
 > ...e l'uomo diventa sempre più furbo e più debole. Anzi si capisce che la sua furbizia cresce in proporzione alla sua debolezza.
 
 _Zeno_, Svevo
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -148,7 +152,7 @@ _Zeno_, Svevo
 > la morte si sconta vivendo
 
 Ungaretti, _Sono una Creatura_
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -156,7 +160,7 @@ Ungaretti, _Sono una Creatura_
 > Perché l’ASI è troppo importante
 
 Roberto Battiston, _Fare Spazio_
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -164,7 +168,7 @@ Roberto Battiston, _Fare Spazio_
 > lei ha sempre una profondità di fondo
 
 Fra Maccario, parlando di Anna
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -172,7 +176,7 @@ Fra Maccario, parlando di Anna
 > ci sarà una nave che stanno distruggendo da qualche parte
 
 Anna
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -180,7 +184,7 @@ Anna
 > Finora la convinzione che tutto sia possibile sembra aver provato soltanto che tutto può esser distrutto
 
 Hannah Arendt
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -188,7 +192,7 @@ Hannah Arendt
 > Nessuna ombra è nera
 
 Pierre-Auguste Renoir
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -196,7 +200,7 @@ Pierre-Auguste Renoir
 > È terribile sentirsi così contenti
 
 Dolores, _Santa Maradona_
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -242,7 +246,7 @@ Dolores, _Santa Maradona_
 > > Possiamo fare l'amore adesso?
 
 Santa Maradona (2001)
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -250,7 +254,7 @@ Santa Maradona (2001)
 > il cinema non è stare da soli
 
 Giacomo Mazzariol a Giffoni 2019
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -258,7 +262,7 @@ Giacomo Mazzariol a Giffoni 2019
 > Viveva come un uomo di 40 e amava come un bambino di 8
 
 Ciro D’Emilio a Giffoni 2019
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -271,7 +275,7 @@ Ciro D’Emilio a Giffoni 2019
 > Il mio supplizio è quando non mi credo in armonia
 
 Ungaretti, _I Fiumi_ (1916)
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -279,7 +283,7 @@ Ungaretti, _I Fiumi_ (1916)
 > avrei preferito vivere come John Dalton
 
 io
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -287,7 +291,7 @@ io
 > capisco ma non comprendo
 
 Lu
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -295,7 +299,7 @@ Lu
 > rabbrividiamo in coro
 
 Fra, 7 Nov 2019
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -308,7 +312,7 @@ Fra, 7 Nov 2019
 > a volte gli occhi hanno più fame della pancia
 
 Giulietta
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -316,7 +320,7 @@ Giulietta
 > che buono il sapore del cloro la mattina
 
 Marco Rosa Gobbo
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -324,7 +328,7 @@ Marco Rosa Gobbo
 > Le parole sono azioni.
 
 Wittgenstein, _Pensieri diversi_
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -332,7 +336,7 @@ Wittgenstein, _Pensieri diversi_
 > Fotografi e giornalisti sono quelli che corrono verso il luogo di un disastro mentre tutti gli altri fuggono
 
 Mario Calabresi, Instagram 2019.11.21
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -340,7 +344,7 @@ Mario Calabresi, Instagram 2019.11.21
 > Fishing kills me exactly as it keeps me alive.
 
 Hemingway, _The Old Man and the Sea_. Letto il 27 novembre 2019
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -348,7 +352,7 @@ Hemingway, _The Old Man and the Sea_. Letto il 27 novembre 2019
 > you took the sourest lemon that life has to offer and turned it into something resembling lemonade
 
 _This is Us_, S01E01
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -356,7 +360,7 @@ _This is Us_, S01E01
 > La libertà non è soltanto spezzare le proprie catene, ma anche vivere in modo da rispettare e accrescere la libertà degli altri
 
 Nelson Mandela
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -364,7 +368,7 @@ Nelson Mandela
 > I morti sanno essere una fonte inesauribile di conforto, nella loro immobile coerenza
 
 Amleto De Silva - *Degenerati*. Letto il 2019.12.06
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -372,7 +376,7 @@ Amleto De Silva - *Degenerati*. Letto il 2019.12.06
 > Il mondo potrà anche non cambiare: la nostra vita, invece, sì
 
 Amleto De Silva - *Degenerati*. Letto il 2019.12.06
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -380,7 +384,7 @@ Amleto De Silva - *Degenerati*. Letto il 2019.12.06
 > io ho scelto di non scegliere
 
 Simone Riccio Sarchi al momento dell'uscita dal clan
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -388,7 +392,7 @@ Simone Riccio Sarchi al momento dell'uscita dal clan
 > Carezze e baci sembravano formalità burocratiche
 
 ~ Buzzati, _Un amore_
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -396,7 +400,7 @@ Simone Riccio Sarchi al momento dell'uscita dal clan
 > ti si è incastrato il braccio nella mano
 
 ~ Ludo, la mattina del 2019.30.01 mentre svuotavo le capsule della macchina del caffè
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -404,7 +408,7 @@ Simone Riccio Sarchi al momento dell'uscita dal clan
 > la palestra è per i deboli di cuore
 
 ~ Marco Gentile
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -412,7 +416,7 @@ Simone Riccio Sarchi al momento dell'uscita dal clan
 > se non lo faccio non mi viene
 
 ~ Mattia Sabatini, 2020.02.07
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -420,7 +424,7 @@ Simone Riccio Sarchi al momento dell'uscita dal clan
 > siamo figli di un dio chiamato esperienza
 
 Gero Riggio, _Veleno_
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -428,7 +432,7 @@ Gero Riggio, _Veleno_
 > la solitudine è un balsamo prezioso per il mio spirito
 
 W. Goethe, _I dolori del giovane Werther_, cap.1
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -436,7 +440,7 @@ W. Goethe, _I dolori del giovane Werther_, cap.1
 > There’s nothing new under the sun, but there are new suns.
 
 Octavia Butler
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -446,7 +450,7 @@ Octavia Butler
 > And I'm afraid to ask
 
 _Wasp Nest_, The National
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -454,7 +458,7 @@ _Wasp Nest_, The National
 > Saggio non è colui che sa ricordare, ma colui che sa dimenticare
 
 Aristotele
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -462,7 +466,7 @@ Aristotele
 > Sand is overrated, it's only little rocks
 
 ~ Joel, *Eternal Sunshine of the Spotless Mind*
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -470,7 +474,7 @@ Aristotele
 > What is a cynic? A man who knows the price of everything and the value of nothing.
 
 ~ Oscar Wilde
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -478,7 +482,7 @@ Aristotele
 > If quantum mechanics hasn’t profoundly shocked you, you haven’t understood it yet
 
 ~ Niels Bohr
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -486,7 +490,7 @@ Aristotele
 > Il giornalismo vuole sempre più dirci come ci dobbiamo sentire piuttosto che quello che dovremmo sapere
 
 ~ Francesco Costa, 24 aprile 2020
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -494,7 +498,7 @@ Aristotele
 > non andare dove il sentiero ti può portare, va' invece dove il sentiero non c'è ancora e lascia dietro di te una traccia
 
 ~ Comunità Capi Costa Balenae, Pasqua 2020
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -502,7 +506,7 @@ Aristotele
 > quando manchiamo a noi stessi, tutto ci manca
 
 ~ Goethe, _I dolori del Giovane Werther_
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -527,7 +531,7 @@ Aristotele
 > Abbiamo tanto da non dirci
 
 ~ Aidi, *Jack Frusciante è uscito dal gruppo*, pagina 138
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -535,7 +539,7 @@ Aristotele
 > Studiare è sopravvalutato
 
 ~ Pista al Cubo, 9 giugno 2020
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -543,7 +547,7 @@ Aristotele
 > La confessione alla fine è una terapia di coppia fra te e Dio
 
 ~ Anna, 27 giugno 2020
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -551,7 +555,7 @@ Aristotele
 > Rivederti è così assurdo ma estremamente normale
 
 ~ Chiara, 15 luglio 2020, Napoli
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -559,7 +563,7 @@ Aristotele
 > Forse nessuna cosa, da sola, mi è mai bastata
 
 Gianni Minà, *Storia di un boxeur latino*
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -567,7 +571,7 @@ Gianni Minà, *Storia di un boxeur latino*
 > Dobbiamo cercare di arrivare a guardare ciò che possediamo esattamente con gli stessi occhi con cui lo guarderemmo se ci fosse sottratto
 
 ~ Arthur Schopenhauer, *L'arte di essere felici*, massima n. 25
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -580,7 +584,7 @@ num pavor et rerum mediocriter utilium spes*
 > Nei ritagli di tempo leggerai, e domanderai ai dotti in qual modo tu possa condurre dolcemente la vita; che non ti agiti sempre e ti tormenti l'insaziabile cupidigia, o il timore e la speranza di beni di scarsa utilità
 
 ~ Orazio, *Epistulae*, I, 18, vv. 96-99
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -588,7 +592,7 @@ num pavor et rerum mediocriter utilium spes*
 > Sforzarsi e lottare con ostacoli è il bisogno più essenziale della vita umana
 
 ~ Arthur Schopenhauer, *L'arte di essere felici*, massima n. 30
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -596,7 +600,7 @@ num pavor et rerum mediocriter utilium spes*
 > La personalità è la felicità più alta
 
 ~ Goethe, *Divano occidentale-orientale*, VIII, 7 (*Libro di Suleika*)
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -604,7 +608,7 @@ num pavor et rerum mediocriter utilium spes*
 > She’s more afraid of not doing something than doing something. And there’s a lot of truth in her.
 
 ~ Katie - Devs, S01E06
-{:.right}
+{:.cite}
 
 <br />
 <br />
@@ -612,7 +616,7 @@ num pavor et rerum mediocriter utilium spes*
 > Let your science be human
 
 ~ Hume - Enquiry on Human Understanding, Section I
-{:.right}
+{:.cite}
 
 <br>
 <br>
@@ -620,7 +624,7 @@ num pavor et rerum mediocriter utilium spes*
 > Però copiare all'università è come dire al medico che hai l'allergia quando hai la polmonite
 
 ~ Lorenzo Ancona, 19 ottobre 2020
-{:.right}
+{:.cite}
 
 <br>
 <br>

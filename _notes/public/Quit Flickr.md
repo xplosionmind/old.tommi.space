@@ -1,7 +1,8 @@
 ---
 date: 2020-12-05
 updated: 2020-12-05
-tags: ["qsm", "geek"]
+tags: ["qsm", "geek", "wip"]
+aliases: ["Quitting Flickr"]
 description: "Thoughts and decisions about quitting Flickr and switching to Piwigo"
 permalink: /quit-flickr
 redirect_from:
@@ -23,4 +24,4 @@ Why quitting?
 <br>
 <br>
 
-Switching to Piwigo is one of the steps of the path to [Internet Freedom](/internet-freedom).
+Switching to Piwigo is one of the steps of the path to [[Internet Freedom]].

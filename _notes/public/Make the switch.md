@@ -13,5 +13,5 @@ redirect_from:
   - /alternative-software
   - /alternative
 ---
-- [Quitting Spotify](/quit-spotify)
-- [Quitting Flickr](/quit-flickr) and switching to Piwigo
+- [[Quit Spotify]]
+- [[Quit Flickr]] and switching to Piwigo

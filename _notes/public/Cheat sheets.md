@@ -42,7 +42,7 @@ note: `-avr` could instead be `-avz`
 
 ## ExifTool
 
-Scripts for the awesome [ExifTool](https://exiftool.org/). I use them as part of my [photo importing workflow](/mobile-backup-checklist#photo-importing-workflow).
+Scripts for the awesome [ExifTool](https://exiftool.org/). I use them as part of my [[Photo importing workflow]]
 
 All of these scripts must be followed by the path of the image or the directory containing multiple pictures.
 {:.red .box}

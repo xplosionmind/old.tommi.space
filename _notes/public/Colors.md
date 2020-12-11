@@ -1,9 +1,7 @@
 ---
 date: 2020-05-22
 updated: 2020-09-16
-tags:
-  - design
-  - geek
+tags: design, geek, wip
 description: "A collection of colors I love and where I use them"
 redirect_from:
   - /colours

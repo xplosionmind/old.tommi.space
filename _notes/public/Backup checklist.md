@@ -78,8 +78,6 @@ And it's done. This is how simple, neat, fast, and powerful this process is.
 
 <br>
 
-### Photo importing workflow
+### Mobile photo importing workflow
 
-- [ ] import everything in an isolated folder
-- [ ] run DupeGuru (VIDEOS MANAGEMENT?)
-- [ ] [run Exiftool](/Cheat-Sheets#ExifTool)
+My [[Photo importing workflow]]

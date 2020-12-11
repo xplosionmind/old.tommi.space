@@ -260,4 +260,4 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 
 ## Spettatore
 
-Tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante si trova [qui](/giri).
+Tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante si trova nei [[Giri]].

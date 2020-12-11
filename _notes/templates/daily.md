@@ -1,9 +1,9 @@
 ---
 date: {{date:YYYY-MM-DD}}
 title: '{{date:D MMMM YYYY}}'
-time: {{time:HH:mm}}
 tags: ["daily"]
+sg: "0"
+mentine: "0"
+sveglia: 06:30
+nanna: 10:30
 ---
-# {{date:D MMMM YYYY}}
-
-

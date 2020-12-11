@@ -1,3 +1,5 @@
+---
+---
 - Legge di Pareto:   
 (riguardo il reddito)   
 Non solo il numero di percettori di reddito   

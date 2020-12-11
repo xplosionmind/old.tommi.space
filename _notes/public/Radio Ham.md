@@ -19,8 +19,8 @@ Da anni ho intenzione di fare il test per ottenere il nominativo e la licenza da
 - [Rete Radio Montana](https://www.reteradiomontana.it/)
 - [abbreviazioni radioamatore](https://www.radioamatore.info/codice-q-cw-etc.html)
 - [Radioscout](https://radioscout.it/)
-- [Manuale di pratica operativa](/assets/manuale-pratica-operativa-radioamatori.pdf)
-- [Manuale Baofeng GT3 MK3](/assets/Manuale-Baofeng-GT3-MK3.pdf)
+- [Manuale di pratica operativa](https://assets.tommi.space/assets/manuale-pratica-operativa-radioamatori.pdf)
+- [Manuale Baofeng GT3 MK3](https://assets.tommi.space/assets/Manuale-Baofeng-GT3-MK3.pdf)
 
 <br>
 

@@ -1,7 +1,7 @@
 ---
 date: 2020-06-04
 updated: 2020-07-03
-permalink: /oggetti
+aliases: ["Compagni di viaggio"]
 lang: it
 description: "Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi."
 redirect_from:

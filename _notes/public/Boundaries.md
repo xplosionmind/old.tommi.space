@@ -8,7 +8,7 @@ redirect_from:
   - /habits
 toc: 0
 ---
-The following decisions go hand in hand [the Slots Philosophy](/slots), which is my main and general approach to everyday life and time management
+The following decisions go hand in hand [[The Slot Philosophy]], which is my main and general approach to everyday life and time management
 {:.blue .box}
 
 - from 2013, stop playing and installing games on my mobile

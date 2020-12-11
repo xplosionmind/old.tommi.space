@@ -1,5 +1,6 @@
 ---
 date: 2020-10-16
+updated: 2020-12-11
 ref: now
 lang: it
 description: "Le cose che sto facendo in questo periodo"
@@ -14,7 +15,7 @@ Quello che sto facendo:
 
 ## Abbandonando i Social Media
 
-Ho scelto di **eliminare tutti i miei profili sui Social** entro fine 2020. Ci sono un sacco di motivi, spiegazioni e ideali per cui ho preso questa decisione e ne **discuto  c o n t i n u a m e n t e**  con amici e con tutte le persone che incontro. Il mio obiettivo, prima di farlo, è raccogliere e riordinare tutto in [questo sito](https://quitsocialmedia.club). Risorse, articoli, video, documentari e documenti sparsi, intanto, stanno [qui](/internet-freedom)
+Ho scelto di **eliminare tutti i miei profili sui Social** entro fine 2020. Ci sono un sacco di motivi, spiegazioni e ideali per cui ho preso questa decisione e ne **discuto  c o n t i n u a m e n t e**  con amici e con tutte le persone che incontro. Il mio obiettivo, prima di farlo, è raccogliere e riordinare tutto in [questo sito](https://quitsocialmedia.club). Risorse, articoli, video, documentari e documenti sparsi, intanto, stanno [[Quit Social Media|qui]].
 
 <br>
 <br>
@@ -31,6 +32,9 @@ Normalmente, si indicherebbe una newsletter o si indicherebbe un sito web, ma pe
 ## Studiando
 
 Sto frequentando il corso di [Philosophy, International Studies and Economics](https://unive.it/pise) a all'[Università Ca' Foscari University](https://unive.it), nella favolosa [Venezia](https://www.comune.venezia.it/), dove sto vivendo.
+
+Ho creato <a href="https://pise-notes.tk" rel="noopener noreferrer" target="_blank">questo sito</a>, che raccoglie tutti i miei appunti sul corso.
+{:.blue .box}
 
 <br>
 <br>

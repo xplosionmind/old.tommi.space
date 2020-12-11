@@ -1,7 +1,7 @@
 ---
 date: 2020-05-06
-updated: 2020-12-05
-tags: ["geek"]
+updated: 2020-12-10
+tags: ["geek", "wip"]
 image: "https://assets.tommi.space/images/apps.png"
 description: "A comprehensive list of apps I use + interesting apps I have to keep record of. Sub-elements in the lists are links to great learning resources (official documentation, if present, won’t be mentioned)"
 redirect_from:
@@ -12,33 +12,32 @@ redirect_from:
   - /programs
   - /programmi
   - /software
-tags: ["geek"]
 ---
-Everything in this list is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" rel="noopener noreferrer" target="_blank_">Free and Open Source</a>, except where otherwise specified
+Everything in this list is Open Source, except where otherwise specified
 {:.blue .box}
 
 <br>
 
 ## Server
 
-Services and apps self-hosted and running on my server, can be found [here](/server#installed-apps-and-services)
+Services and apps self-hosted and running on my server, can be found in the [[Server]] Jar item.
 
 <br>
 <br>
 
 ## MacOS
 
-Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale=en_US&viewlocale=en_US):
+Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale=en_US&viewlocale=en_US "MacBook Pro 13" 2019 tech specs):
 
-- <a href="https://www.adobe.com/it/products/photoshop-lightroom-classic.html" rel="noopener noreferrer" target="_blank">Adobe Lightroom Classic</a>, alas, the best photo editing software out there. I hate Adobe, but it works so damn good. I’m doing my best to completely switch to the two following programs but, damn, it’s so hard. Also: I have to keep Lightroom on my device because it’s impossible to move photography edits committed with Lightroom to Darktable.
-- <a href="https://www.android.com/filetransfer/" rel="noopener noreferrer" target="_blank">Android File Transfer</a>, the name says it all. It’s simple and it works great.
-- <a href="https://freemacsoft.net/appcleaner/" rel="noopener noreferrer" target="_blank">AppCleaner</a> it’s not Open Source, but, damn, it’s so useful I have to keep it. As an Open Source alternative, I’m trying to figure out how <a href="http://onnati.net/apptrap/" rel="noopener noreferrer" target="_blank">AppTrap</a> works.
-- <a href="https://www.audacityteam.org/" rel="noopener noreferrer" target="_blank">Audacity</a>, audio editing software. I know, I have Garage Band which is awesome but… Audacity works the same way anywhere.
-- <a href="https://www.backtrack.team/" rel="noopener noreferrer" target="_blank">Backtrack</a>, the Holy Graal for university students which get easily distracted (me). It allows you to recover audio up to 5 hours before. It’s not Open Source and I payed 2€ for it. Totally worth it.
-- <a href="https://www.balena.io/etcher/" rel="noopener noreferrer" target="_blank">balenaEtcher</a>, the safest, simplest and quickest software to flash OS images to external drives.
+- [Adobe Lightroom Classic](https://www.adobe.com/it/products/photoshop-lightroom-classic.html), alas, the best photo editing software out there. I hate Adobe, but it works so damn good. I’m doing my best to completely switch to the two following programs but, damn, it’s so hard. Also: I have to keep Lightroom on my device because it’s impossible to move photography edits committed with Lightroom to Darktable.
+- [Android File Transfer](https://www.android.com/filetransfer/), the name says it all. It’s simple and it works great.
+- [AppCleaner](https://freemacsoft.net/appcleaner) is not open source, but, damn, it’s so useful I have to keep it.
+- ~~[Audacity](https://www.audacityteam.org/ "Audacity official website"), audio editing software. I know, I have Garage Band which is awesome but… Audacity works the same way anywhere.~~ I need very little sound editing, mixing, etc: GarageBand is fine; furthermore, it's neat, simple and quick.
+- [Backtrack](https://www.backtrack.team/), the Holy Graal for university students which get easily distracted (me). It allows you to recover audio up to 5 hours before. It’s not Open Source and I payed 2€ for it. Totally worth it.
+- ~~[balenaEtcher](https://www.balena.io/etcher/), the safest, simplest and quickest software to flash OS images to external drives.~~ I wasn't using it so much.
 - [BitBar](https://getbitbar.com), run any plugin from the top bar
-- ~~<a href="https://blackhole.run/" rel="noopener noreferrer" target="_blank">BlackHole</a>, to share any file. Fast and private. Based on <a href="https://blockstack.org/" rel="noopener noreferrer" target="_blank">Blockstack</a>.~~ not using it anymore
-- ~~<a href="https://blockstack.org/" rel="noopener noreferrer" target="_blank">Blockstack</a>, ideally, it’s something **awesome**, definitely game-changing.~~ Practically, it doesn’t work on my Mac (I tried <a href="https://forum.blockstack.org/t/cant-use-any-dapp/10628" rel="noopener noreferrer" target="_blank">everything</a>). I uninstalled and I’m not using it, then.
+- ~~[BlackHole](https://blackhole.run/), to share any file. Fast and private. Based on [Blockstack](https://blockstack.org/).~~ It's useless.
+- ~~[Blockstack](https://blockstack.org/), ideally, it’s something **awesome**, definitely game-changing.~~ Practically, it doesn’t work on my Mac (I tried <a href="https://forum.blockstack.org/t/cant-use-any-dapp/10628" rel="noopener noreferrer" target="_blank">everything</a>). I uninstalled and I’m not using it, then.
 - <a href="https://kevin-de-koninck.github.io/Clean-Me/" rel="noopener noreferrer" target="_blank">Clean Me</a>, an Open Source, better, neat and perfectly working alternative to CCleaner written in Swift.
 - [CopyQ](https://hluk.github.io/CopyQ/), a clipboard history recorder, which keeps a record of all copied text and items. It saved my life several times
 - <a href="https://www.darktable.org/" rel="noopener noreferrer" target="_blank">Darktable</a>, widely used (still, not the first option for pros) photo editing software. I wish I’d love it but, damn, it’s so friggin complicated.
@@ -48,11 +47,11 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [Expanso](https://espanso.org/), a wonderful text expander
 - [FileZilla](https://filezilla-project.org/), the best and most used [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol).
 - <a href="https://www.apple.com/final-cut-pro/" rel="noopener noreferrer" target="_blank">Final Cut Pro</a>, again, pricey and proprietary, but it’s so optimised for MacOS, thus so fast, that I really need it to edit with ease videos I need to have ready in a short time.
-- <a href="https://www.mozilla.org/en-US/exp/firefox/" rel="noopener noreferrer" target="_blank">Mozilla Firefox</a>, the best browser ever.
-- <a href="https://www.mozilla.org/en-US/firefox/developer/" rel="noopener noreferrer" target="_blank">Firefox Developer Edition</a>, to debug and improve Web Design and front-end Web developement experience.
-- <a href="https://www.gimp.org/" rel="noopener noreferrer" target="_blank">GIMP</a>, photo manipulation and editing software. Better known as the Photoshop free alternative, it’s full of resources and it misses almost no feature, but it’s so so so messed up and confusing (as Photoshop is). Too much stuff in too many different places.
+- [Mozilla Firefox](https://firefox.com "Mozilla Firefox official website"), the best browser ever.
+- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/), to debug and improve Web Design and front-end Web developement experience.
+- ~~[GIMP](https://www.gimp.org/)</a>, photo manipulation and editing software. Better known as the Photoshop free alternative, it’s full of resources and it misses almost no feature, but it’s so so so messed up and confusing (as Photoshop is). Too much stuff in too many different places.~~ I tried as hard as I could, but it was too stressful. Back to Photoshop
 - [GitHub Desktop](https://desktop.github.com/), to easily manage stuff when GitUp and git from terminal don’t make sense.
-- <a href="http://gitup.co/" rel="noopener noreferrer" target="_blank">GitUp</a>, the best GUI interface for git.
+- [GitUp](http://gitup.co), the best GUI interface for git.
 - [Get It](https://github.com/Kevin-De-Koninck/Get-It), a GUI interface for `youtube-dl`. Basically, a tool to download videos from YouTube.
 - <a href="https://gpgtools.org/keychain/index.html" rel="noopener noreferrer" target="_blank">GPG Keychain</a>, to store and handle PGP Keys.
 - <a href="https://handbrake.fr/" rel="noopener noreferrer" target="_blank">HandBrake</a>, anythin you need to do with video files, it gets it done (in a short or eternal amount of time).
@@ -61,26 +60,26 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - <a href="http://iterm.sourceforge.net/" rel="noopener noreferrer" target="_blank">iTerm</a>, a feature-packed terminal emulator.
 - <a href="https://jami.net/" rel="noopener noreferrer" target="_blank">Jami</a>, peer-to-peer unlimited video and voice communications. On paper it’s the go-to for everyone and I love it’s philosophy. Unfortunately, it still has a few bugs which make it impossible to use it regularly.
 - <a href="https://meet.jit.si" rel="noopener noreferrer" target="_blank">Jitsi Meet</a>, a video conferencing service which can be self-hosted. Since it should work only on Google Chrome browser, I installed the <a href="https://github.com/jitsi/jitsi-meet-electron" rel="noopener noreferrer" target="_blank">Electron-based app</a>.
-- <a href="https://joplinapp.org/" rel="noopener noreferrer" target="_blank">Joplin</a>, basically it’s just a note-taking application, but it has **anything else** you can think of.
-- <a href="" rel="noopener noreferrer" target="_blank">KeePass XC</a>, A community maintained fork of the popular discontinued <a href="https://www.keepassx.org/" rel="noopener noreferrer" target="_blank">KeePassX</a> application with more features and frequent updates.
+- ~~[Joplin](https://joplinapp.org), basically it’s just a note-taking application, but it has **anything else** you can think of~~. Switched to Obsidian.
+- [KeePassXC](https://keepassxc.org "KeepassXC official website"), A community maintained fork of the popular discontinued [KeePassX](https://www.keepassx.org/) application with more features and frequent updates.
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/), keyboard remapping. I use it to swap the `esc` key with `CAPSLOCK`, for a better usability in vim.
-- <a href="https://keybase.io/" rel="noopener noreferrer" target="_blank">Keybase</a>, a new and free security app for mobile phones and computers.
-- <a href="https://lbry.com/" rel="noopener noreferrer" target="_blank">LBRY</a>, the first digital marketplace to be controlled by the market's participants rather than a corporation or other 3rd-party. Basically, a healthier version of YouTube.
-- <a href="https://www.libreoffice.org/" rel="noopener noreferrer" target="_blank">LibreOffice</a>, an open Office Suite (but not Open Office, better).
-- ~~<a href="http://macdown.uranusjr.com/" rel="noopener noreferrer" target="_blank">MacDown</a>, a markdown editor which has everything I need. I don’t use it much since I have both Joplin and Vim to open and edit `.md` files, but it’s very lightweight and it’s handy to have an app to view and edit them on the fly.~~ [Zettlr](Apps#Zettlr) took its place
+- <a href="https://keybase.io/" rel="noopener noreferrer" target="_blank">Keybase</a>, a great secure messaging service.
+- ~~[LBRY](https://lbry.com/), the first digital marketplace to be controlled by the market's participants rather than a corporation or other 3rd-party. Basically, a healthier version of YouTube.~~ Using [the web client](https://lbry.tv) only, the app is not worth it.
+- ~~[LibreOffice](https://www.libreoffice.org/), the best open Office Suite.~~ for my needs, the default Apple office apps are more than enough. If I need a file in `.odt`, I export in `.docx` from Pages and I convert it in `.odt` with Pandoc.
+- ~~[MacDown](http://macdown.uranusjr.com/), a markdown editor which has everything I need. I don’t use it much since I have both Joplin and Vim to open and edit `.md` files, but it’s very lightweight and it’s handy to have an app to view and edit them on the fly.~~ using MacVim + Marked 2, instead.
 - [MacVim](https://macvim-dev.github.io/macvim/), gvim for MacOS. pretty nice to edit files on the go.
-- <a href="https://mega.nz/sync" rel="noopener noreferrer" target="_blank">MEGAsync</a>, the syncronization app for <a href="https://mega.nz" rel="noopener noreferrer" target="_blank">MEGA</a> Cloud.
-- <a href="https://ranchero.com/netnewswire/" rel="noopener noreferrer" target="_blank">NetNewsWire</a>, the best RSS reader ever. Unfortunately, it works only on Apple devices and it can’t be synced online.
-- <a href="https://nextcloud.com/" rel="noopener noreferrer" target="_blank">Nextcloud</a>, the syncronization app for [Nextcloud](/server#nextcloud).
-- ~~<a href="http://www.omegat.org/" rel="noopener noreferrer" target="_blank">OmegaT</a>, a translation memory application written in Java. I use it to translate [MDN](https://mdn.dev/) articles for Mozilla Italia.~~ I don’t use it that much
+- ~~[MEGAsync](https://mega.nz/sync "MEGAsync official page"), the synchronization app for [MEGA](https://mega.nz "MEGA official website") Cloud service.~~ Not using MEGA so much anymore. Nextcloud + Cubbit only.
+- [NetNewsWire](https://ranchero.com/netnewswire/ "NetNewsWire official website"), the best [RSS reader](https://www.wikiwand.com/en/Comparison_of_feed_aggregators "\"Comparison of Feed aggregators\" on Wikipedia") ever. Unfortunately, it works only on Apple devices and it can’t be synced online.
+- [Nextcloud](https://nextcloud.com/)</a>, the syncronization app for [Nextcloud](#Nextcloud).
+- ~~[OmegaT](http://www.omegat.org/), a translation memory application written in Java. I use it to translate [MDN](https://mdn.dev/) articles for Mozilla Italia.~~ I don’t use it that much
 - <a href="https://onionshare.org/" rel="noopener noreferrer" target="_blank">OnionShare</a>. Stop using WeTransfer! Use this.
-- ~~[ONLYOFFICE](https://www.onlyoffice.com/), the office provider I use, synced with [my Nextcloud instance](https://cloud.tommiboom.tk)~~ LibreOffice is enough
+- ~~[ONLYOFFICE](https://www.onlyoffice.com/), the office provider I use, synced with [my Nextcloud instance](https://cloud.tommi.space)~~ LibreOffice is enough
 - [Openwhyd](https://openwhyd.org), an open-source platform to discover and share music. Basically, a Spotify alternative to save and share playlists.
 - [Pock](https://pock.dev/), to move the Dock in the Touch Bar.
-- <a href="https://getpocket.com/" rel="noopener noreferrer" target="_blank">Pocket</a>, save articles for later. It’s not Open Source but I use it anyway because it’s owned by Mozilla (and [I love Mozilla](Apps#stuff#Mozilla-Italia)) and I have so many pages there that transferring them someplace else would be painfully annoying.
-- <a href="https://protonmail.com/bridge/" rel="noopener noreferrer" target="_blank">Protonmail Bridge</a>, an app which allows me to access and use my ProtonMail account from Apple Mail.
-- <a href="https://protonvpn.com/" rel="noopener noreferrer" target="_blank">ProtonVPN</a>, a security-focused VPN developed by CERN scientists from the ProtonMail team. It’s free, but I pay for it, it’s a great service.
-- <a href="https://qbittorrent.org/" rel="noopener noreferrer" target="_blank">qBittorrent</a>, the best and lightest torrent client you can find out there.
+- <a href="https://getpocket.com/" rel="noopener noreferrer" target="_blank">Pocket</a>, save articles for later. It’s not Open Source but I use it anyway because it’s owned by Mozilla (and [I love Mozilla](/stuff#Mozilla-Italia) and I have so many pages there that transferring them someplace else would be painfully annoying.
+- [Protonmail Bridge](https://protonmail.com/bridge/), an app which allows me to access and use my ProtonMail account from Apple Mail.
+- [ProtonVPN](https://protonvpn.com/), a security-focused VPN developed by CERN scientists from the ProtonMail team. It’s free, but I pay for it, it’s a great service.
+- [qBittorrent](https://qbittorrent.org/), the best and lightest torrent client you can find out there.
 - [Rectangle](https://rectangleapp.com/ "Rectangle official website"), a window management app which allows to resize windows quickly with a simple keystroke.
 - [Signal](https://signal.org/ "Signal official website"), the best encryption system in the world, easy and fast communication, plus, it’s owned by a non-profit. Thus, a healthier WhatsApp.
 - ~~[Skype](https://skype.com "Skype official website"), you know it. Proprietary software, [ouch](http://stallman.org/skype.html "Reasons not to use Skype, from Richard Stallman's blog").~~ Using Zoom and Jitsi Meet only
@@ -96,7 +95,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [VLC](https://www.videolan.org/vlc/ "VLC official website"), to watch anything.
 - [Tor Browser](https://www.torproject.org/projects/torbrowser.html), when I feel a VPN isn’t enough.
 - [WhatsApp](https://www.whatsapp.com/), well, you know it. Owned by that monster called Facebook and surprisingly free but, guess what? Propietary software.
-- [Zettlr](https://www.zettlr.com/), fully-featured Markdown editing app.
+- ~~[Zettlr](https://www.zettlr.com/), fully-featured Markdown editing app~~. Switched to Obsidian
 
 <br>
 
@@ -124,28 +123,28 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 
 ### Browser extensions
 
-I use Firefox as my main (and only) browser, the awesome extensions I use are listed in the dedicated [Firefox page](/firefox#add-ons--extensions).
+I use Firefox as my main (and only) browser, the awesome extensions I use are listed in a dedicated note: [[Firefox]].
 
 <br>
 <br>
 
 ## Android
 
-Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t) running [Oxygen OS](https://www.oneplus.com/oxygenos) 1.3.5.
+Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t) running [Oxygen OS](https://www.oneplus.com/oxygenos) 10.3.7.
 
-There’s [a note](/launcher) dedicated to the [launcher](https://en.wikipedia.org/wiki/Comparison_of_desktop_application_launchers).
+[[Launcher|Here]] are my notes dedicated to choosing my phone's [launcher](https://en.wikipedia.org/wiki/Comparison_of_desktop_application_launchers).
 
-- [AGESCI](https://play.google.com/store/apps/details?id=com.devextreme.Agesci.App.Mobile), to manage and check my [scouting](/stuff#scouting) camps and activities
+- ~~[AGESCI](https://play.google.com/store/apps/details?id=com.devextreme.Agesci.App.Mobile), to manage and check my [scouting](/stuff#scouting) camps and activities~~. I don't need an app for this.
 - [andOTP](https://github.com/andOTP/andOTP), [2FA](https://en.wikipedia.org/wiki/Multi-factor_authentication) app
 - [Blokada](https://blokada.org/), efficient and powerful ad blocker. It has some issues working with VPN on, still trying to fix it.
-- ~~[Book Reader](https://gitlab.com/axet/android-book-reader), a book reader with a simple UI~~ Librera Reader is way better
-- [BOOM](https://www.ultimateears.com/features/apps.html), to fully access my two [UE BOOM 2](https://www.ultimateears.com/en-us/wireless-speakers/boom-2.html) speakers’ features
+- ~~[Book Reader](https://gitlab.com/axet/android-book-reader), a book reader with a simple UI~~ Librera Reader is way better.
+- [BOOM](https://www.ultimateears.com/features/apps.html), an app to fully access my two [UE BOOM 2](https://www.ultimateears.com/en-us/wireless-speakers/boom-2.html) speakers’ features
 - [Cythara](https://github.com/gstraube/cythara), guitar tuner
-- [DAVx<sup>5</sup>](https://www.davx5.com/), to sync contacts and calendar with [WebDAV](https://en.wikipedia.org/wiki/WebDAV)
-- ~~[Etar](https://github.com/Etar-Group/Etar-Calendar), a simple, light and very nice calendar~~ it was a lie, it was old and I fear its developement is discontinued. Replaced it with Simple Calendar Pro
-- [F-Droid](https://f-droid.org/), a [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) app store. My aim is to quit Google Play completely and just use this; *almost* there.
+- [DAVx<sup>5</sup>](https://www.davx5.com/), to sync contacts, calendar, and reminders via [WebDAV](https://en.wikipedia.org/wiki/WebDAV)
+- ~~[Etar](https://github.com/Etar-Group/Etar-Calendar), a simple, light and very nice calendar~~ it was a lie, it was old and I fear its development is discontinued. Replaced it with Simple Calendar Pro.
+- [F-Droid](https://f-droid.org/), a [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) app store. My aim is to quit Google Play completely and just use this; [[Road to Internet Freedom|almost there]].
 - ~~[FairEmail](https://email.faircode.eu/), the name says it all~~, moved to the less complicated K-9 Mail
-- [Fedilab](https://fedilab.app/), an Android client to post to the [Fedicerse](https://en.m.wikipedia.org/wiki/Fediverse), I use it for [Mastodon](https://joinmastodon.org/) and [Pixelfed](https://pixelfed.org/)
+- [Fedilab](https://fedilab.app/), an Android client to post to the [Fedicerse](https://en.m.wikipedia.org/wiki/Fediverse), I use it for [Mastodon](https://joinmastodon.org/) and [Pixelfed](https://pixelfed.org/).
 - [FiLMiC Pro](https://www.filmicpro.com/), a super powerful app to boost video shooting from the phone and tweak as much settings as possible. I paid for it and it’s not open source, because -unfortunately- [there’s no app like it](https://alternativeto.net/software/filmic-pro/?license=opensource).
 - I don’t care about bells and whistles while browsing on mobile, since I mostly read articles and quickly search stuff, one page at a time. Thus, I use [Firefox Focus](https://support.mozilla.org/en-US/kb/focus) as my main mobile browser: it’s extremely minimal, it has built-in tracking and ad blocking and it’s blazingly fast.
 - ~~[Firefox Send](https://send.firefox.com/), to send files up to 2.5GB, with server-side encryption. I hate to say it, but it’s not completely bug-free.~~ Project temporarily discontinued.
@@ -154,7 +153,7 @@ There’s [a note](/launcher) dedicated to the [launcher](https://en.wikipedia.o
 - I’m not a music expert, definitely, but I am a music enthusiast and I listen to tons of different songs every day. I use [Genius](https://genius.com/) to learn more about what I listen to and who wrote it. It’s not open source but, again, there’s nothing as good nor even [comparable](https://alternativeto.net/software/rap-genius/?license=opensource) to it.
 - [GitHub](https://play.google.com/store/apps/details?id=com.github.android), when geek attraction to software can’t wait for me to get back to my desktop.
 - ~~[GitJournal](https://gitjournal.io/), intended to be a note editor to be synced with GitHub, but I use it to update this website on the go.~~ MGit is more functional
-- [H20 Icon Pack](https://play.google.com/store/apps/details?id=com.marcotls.icons.h2o.free), [look](/images/iconpack.jpg) how gorgeous it looks.
+- ~~[H20 Icon Pack](https://play.google.com/store/apps/details?id=com.marcotls.icons.h2o.free), [look](https://assets.tommi.space/images/iconpack.jpg) how gorgeous it looks~~. No icons displayed anymore: I'm [turning my smartphone a boring tool](https://maximevaillancourt.com/blog/turning-my-smartphone-into-a-boring-tool "an article by Maxime Vaillancourt")
 - [Hype](https://play.google.com/store/apps/details?id=it.hype.app&hl=it), money stuff. Proprietary software. (Nevertheless, an [awesome service](https://www.hype.it/))
 - [Hourly Reminder](https://f-droid.org/en/packages/com.github.axet.hourlyreminder/), I often lose track of time and I get distracted very easily. This app helps a tiny little bit, reminding me time is flowing and I need to get things done!
 - I can’t chat with God, but sometimes I read what he says. I use [iBreviary](http://www.ibreviary.org/) to do it. Non-free software.
@@ -163,12 +162,12 @@ There’s [a note](/launcher) dedicated to the [launcher](https://en.wikipedia.o
 - [io.it](https://io.italia.it/), a curious open source app to manage public services in Italy. As of when I’m writing, it’s very new and I haven’t had any chance to use it yet.
 - [Jami](https://jami.net/download-jami-android/), same as on Mac. Still hoping.
 - [Jitsi Meet](https://jitsi.org/#download), video conferencing, same as on Mac
-- [Joplin](https://play.google.com/store/apps/details?id=net.cozic.joplin), same as on Mac, but here it isn’t customizable, thus unsolvably crap.
+- ~~[Joplin](https://play.google.com/store/apps/details?id=net.cozic.joplin), same as on Mac, but here it isn’t customizable, thus unsolvably crap~~. Switched to Obsidian
 - [K-9 Mail](https://k9mail.app/), FairEmail was too complicated.
 - ~~[Keepass2Android](https://github.com/PhilippC/keepass2android), same as KeepassXC on Mac.~~, replaced it with the following
 - [KeepassDX](https://www.keepassdx.com/), password manager
 - [Keybase](https://keybase.io/download), same as on Mac
-- [KISS Launcher](https://kisslauncher.com/), as in **K**eep **i**t **s**imple and **s**tupid. I friggin’love it. It has [a dedicated note](/launcher) on The Jar.
+- [KISS Launcher](https://kisslauncher.com/), as in **K**eep **i**t **s**imple and **s**tupid. I friggin’love it. It has [[Launcher|a dedicated note]] on The Jar.
 - [Konele](https://kaljurand.github.io/K6nele/), which offers speech-to-text user interfaces and services to other apps.
 - [LBRY](https://github.com/lbryio/lbry-android), same as on Mac
 - [Librera Reader](http://librera.mobi/)
@@ -180,7 +179,7 @@ There’s [a note](/launcher) dedicated to the [launcher](https://en.wikipedia.o
 - [Morse](https://github.com/Crazy-Marvin/Morse), to translate words into Morse code. I may never use it, but I feel it could come handy.
 - ~~[MusicPiped](https://github.com/deep-gaurav/MusicPiped), to stream music straight from YouTube. Testing it to attempt a transition from Spotify (which I don’t wanna pay anymore)~~.
 - [NewPipe](https://newpipe.schabi.org/), a clever solution to watch YouTube without having YouTube, thus, anonimously. It has also [a nice set of pretty interesting features](https://github.com/TeamNewPipe/NewPipe#features).
-- [Nextcloud News Reader](https://github.com/nextcloud/news-android), RSS reader synced with Nextcloud
+- ~~[Nextcloud News Reader](https://github.com/nextcloud/news-android), RSS reader synced with Nextcloud~~. Replaced by FeedMe
 - [Nextcloud](https://nextcloud.com/install/#tab-mobile), same as on Mac
 - [Nextcloud Notes](https://f-droid.org/en/packages/it.niedermann.owncloud.notes/)
 - [Nextcloud Deck](https://f-droid.org/en/packages/it.niedermann.nextcloud.deck/)
@@ -230,7 +229,7 @@ There’s [a note](/launcher) dedicated to the [launcher](https://en.wikipedia.o
 
 ## Nextcloud
 
-Oh, I love [Nextcloud](/server#nextcloud). The apps I use on my instance are so many and so great I couldn’t insert a link to each and everyone of them. They can be found among many others in the [Nextcloud apps store](https://apps.nextcloud.com)
+Oh, I love [Nextcloud](https://nextcloud.com "Nextcloud official website"). The apps I use on my instance are so many and so great I couldn’t insert a link to each and everyone of them. They can be found among many others in the [Nextcloud apps store](https://apps.nextcloud.com)
 
 - Accessibility
 - Activities for shared file downloads, visible to all admins
@@ -292,7 +291,7 @@ Oh, I love [Nextcloud](/server#nextcloud). The apps I use on my instance are so 
 
 ## Infinite lists
 
-Lists with a looooot of apps which are too valuable to be forgotten
+Lists with a ton of apps which are too valuable to be forgotten
 
 - [awesome-macOS](https://github.com/iCHAIT/awesome-macOS)
 - [awesome-command-line-apps](https://github.com/herrbischoff/awesome-command-line-apps)

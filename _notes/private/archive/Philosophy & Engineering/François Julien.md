@@ -1,3 +1,5 @@
+---
+---
 Interdisciplinarietà vs specializzazione:
  
 Negli anni le materie studiate sono sempre meno varie. L’ingegnere sarà sempre meno il tecnico, sempre più pronto a gestire situazioni differenti

@@ -1,3 +1,5 @@
+---
+---
 - Approccio metafisico della tecnica: il problema non riguarda la tecnologia, ma **questa** tecnologia
 - La tecnica è una delle modalità del disvelamento dell’essere
 - verità non come affermazione definitiva di qualcosa, ma disvelamento di ciò che precedentemente era nascosto, ma lo rimane comunque

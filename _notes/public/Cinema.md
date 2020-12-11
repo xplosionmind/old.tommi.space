@@ -1,7 +1,7 @@
 ---
 date: 2020-06-10
 updated: 2020-08-02
-tags: film
+tags: ["film", "wip"]
 description: "After watching these movies and series, I wasn’t the same anymore."
 redirect_from:
   - /movies
