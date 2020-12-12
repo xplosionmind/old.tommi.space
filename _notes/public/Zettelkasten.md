@@ -14,6 +14,8 @@ tags: ["zen"]
 ---
 Zettelkasten is a system for storing and accessing notes invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann "Niklas Luhmann on Wikipedia"). I'm very fascinated by its underlying philosophy and approach which I'd love to take advantage of, but I'm still learning and it will take quite a lot of time to fully commit to it.
 
+[A full article about the topic](/switch-to-zettelkasten)
+
 ## Resources
 
 - [The Zettelkasten Manifesto](https://youtu.be/c5Tst3-zcWI)

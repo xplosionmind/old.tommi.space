@@ -35,3 +35,4 @@ Gli eventuali numeri o lettere che seguono il link sono il significato specifico
 - 2020.12.02 [clumsy](https://www.merriam-webster.com/dictionary/clumsy)
 - 2020.12.03 [dedizione](https://www.treccani.it/vocabolario/dedizione/)
 - 2020.12.04 [virtually](https://www.merriam-webster.com/dictionary/virtually)
+- 2020.12.12 [entail](https://www.merriam-webster.com/dictionary/entail)

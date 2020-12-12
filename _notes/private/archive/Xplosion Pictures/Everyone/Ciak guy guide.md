@@ -1,5 +1,6 @@
 ---
 date: 2019-07-20
+tags: ["everyone", "a"]
 ---
 - Taking care and update the CIAK
 - keep the CIAK and erase it every time

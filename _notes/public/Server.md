@@ -1,11 +1,9 @@
 ---
 date: 2020-03-21
 updated: 2020-10-16
-tags: ["geek"]
-title: "Server"
-description: "Everything about my server."
+tags: geek
 ---
-It is a surprisingly powerful (considered how much I pay for it) <abbr title="Virtual Private Server">VPS</abbr> hosted in Germany by [Contabo](https://contabo.com). It runs [Ubuntu 20.04](https://releases.ubuntu.com/20.04/).
+My server is a surprisingly powerful (considered how much I pay for it) <abbr title="Virtual Private Server">VPS</abbr> hosted in Germany by [Contabo](https://contabo.com). It runs [Ubuntu 20.04](https://releases.ubuntu.com/20.04/).
 
 
 [Here](Server%20setup) is a dedicated step-by-step walkthrough of my server setup and configuration.

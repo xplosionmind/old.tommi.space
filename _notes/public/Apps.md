@@ -27,7 +27,7 @@ Services and apps self-hosted and running on my server, can be found in the [[Se
 
 ## MacOS
 
-Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale=en_US&viewlocale=en_US "MacBook Pro 13" 2019 tech specs):
+Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale=en_US&viewlocale=en_US "MacBook Pro 13\" 2019 tech specs"):
 
 - [Adobe Lightroom Classic](https://www.adobe.com/it/products/photoshop-lightroom-classic.html), alas, the best photo editing software out there. I hate Adobe, but it works so damn good. I’m doing my best to completely switch to the two following programs but, damn, it’s so hard. Also: I have to keep Lightroom on my device because it’s impossible to move photography edits committed with Lightroom to Darktable.
 - [Android File Transfer](https://www.android.com/filetransfer/), the name says it all. It’s simple and it works great.
@@ -70,7 +70,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [MacVim](https://macvim-dev.github.io/macvim/), gvim for MacOS. pretty nice to edit files on the go.
 - ~~[MEGAsync](https://mega.nz/sync "MEGAsync official page"), the synchronization app for [MEGA](https://mega.nz "MEGA official website") Cloud service.~~ Not using MEGA so much anymore. Nextcloud + Cubbit only.
 - [NetNewsWire](https://ranchero.com/netnewswire/ "NetNewsWire official website"), the best [RSS reader](https://www.wikiwand.com/en/Comparison_of_feed_aggregators "\"Comparison of Feed aggregators\" on Wikipedia") ever. Unfortunately, it works only on Apple devices and it can’t be synced online.
-- [Nextcloud](https://nextcloud.com/)</a>, the syncronization app for [Nextcloud](#Nextcloud).
+- [Nextcloud](https://nextcloud.com/)</a>, the syncronization app for [Nextcloud](Apps.md#Nextcloud).
 - ~~[OmegaT](http://www.omegat.org/), a translation memory application written in Java. I use it to translate [MDN](https://mdn.dev/) articles for Mozilla Italia.~~ I don’t use it that much
 - <a href="https://onionshare.org/" rel="noopener noreferrer" target="_blank">OnionShare</a>. Stop using WeTransfer! Use this.
 - ~~[ONLYOFFICE](https://www.onlyoffice.com/), the office provider I use, synced with [my Nextcloud instance](https://cloud.tommi.space)~~ LibreOffice is enough

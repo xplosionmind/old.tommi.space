@@ -1,5 +1,6 @@
 ---
 date: 2020-10-02
+tags: a
 ---
 - 1:30: sono stato completamente immobile per diversi Minghi ripercorrendo le scene finali di Breaking Bad
 - 02:10: 39.3 metto supposta lascio luce accesa

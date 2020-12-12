@@ -1,6 +1,6 @@
 ---
 date: 2020-08-14
-tags: ["msg"]
+tags: msg
 ---
 Buon pomeriggio amici e splendide sardine. Mi duole dover scrivere qui anziché poterne parlare a voce, ma non si fanno riunioni da un po’ e io non vorrei attendere troppo prima di condividere questa decisione, su cui rifletto da tempo.
 

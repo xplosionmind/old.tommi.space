@@ -7,7 +7,7 @@ redirect_from:
   - /telegram-channels
   - /subscriptions
 ---
-**Stuff**: Newsletters by people, newsletters by magazines, newsletters by computers, feeds of various sort, Telegram channels, Telegram Groups, Facebook Groups, Facebook Pages, people’s blogs
+Stuff means: Newsletters by people, newsletters by magazines, newsletters by computers, feeds of various sort, Telegram channels, Telegram Groups, Facebook Groups, Facebook Pages, people’s blogs
 {:.yellow .box}
 
 Content which is in Italian has its description in Italian
@@ -19,7 +19,7 @@ Content which is in Italian has its description in Italian
 
 Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS). I think the whole world should evolve around it. Such a clever, useful, simple, neat, old but solid technology anybody should know. Click on the following link to download my feed (all the RSS Feeds I subscribed to).
 
-[**My Feed**](https://assets.tommi.space/assets/subscriptions.xml) - updated on Nov 4<sup>th</sup>, 2020
+[**My Feed Subscriptions**](https://assets.tommi.space/assets/subscriptions.xml) - updated on Nov 4<sup>th</sup>, 2020
 
 <br>
 <br>

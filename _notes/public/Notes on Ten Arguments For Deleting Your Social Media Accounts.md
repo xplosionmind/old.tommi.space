@@ -12,15 +12,16 @@ redirect_from:
   - /ten-arguments-notes
   - /notes-ten-arguments
   - /Notes-on-Ten-Arguments-For-Deleting-Your-Social-Media-Accounts
-description: 'Notes from the great book by [Jaron Lanier](http://jaronlanier.com), [*Ten Arguments for Deleting Your Social Media Accounts*](http://www.jaronlanier.com/tenarguments.html), which I discovered almost at the end of my journey in creating [quitsocialmedia.club](https://quitsocialmedia.club). It explains in a better and more detailed way what I’ve been thinking about for months now.'
 toc: 0
 ---
-- We become addicted to a fiction, none of that simuli is actually real. \- `p. 15`
+Notes from the great book by [Jaron Lanier](http://jaronlanier.com), [*Ten Arguments for Deleting Your Social Media Accounts*](http://www.jaronlanier.com/tenarguments.html), which I discovered almost at the end of my journey in creating [quitsocialmedia.club](https://quitsocialmedia.club). It explains in a better and more detailed way what I’ve been thinking about for months now.
+
+- We become addicted to a fiction, none of that stimuli is actually real. \- `p. 15`   
 > negative emotions are being amplified more than positive ones - `p. 18`
 
-> We need to foster joy, intellectual challenge, individuality, curiosity, and other qualities that don’t fit into a tidy chart. - `p.19`
+> We need to foster joy, intellectual challenge, individuality, curiosity, and other qualities that don’t fit into a tidy chart. \- `p.19`
 
-> Social media is biased, not to the Left or to the Right, but **downward** - `p. 20`
+> Social media is biased, not to the Left or to the Right, but **downward** \- `p. 20`
 
 - “Digital networks actually deliver value to us”, but at what cost? Once we get use to such ease in doing things, we hardly abandon it. - `p. 19`
 
@@ -34,16 +35,16 @@ toc: 0
 
 > smart people should delete their accounts until nontoxic varieties are available. - `p. 27`
 
-> I can see that time is running out. […] doing nothing is not an option. - `p. 27`
+> I can see that time is running out. \[…\] doing nothing is not an option. - `p. 27`
 
-> We don’t have as much in the way of rigorous science as would be ideal for understanding our situation, but we have enough results to describe the problem we must solve, just not a lot of time in which to solve it. - `p. 27`
+> We don’t have as much in the way of rigorous science as would be ideal for understanding our situation, but we have enough results to describe the problem we must solve, just not a lot of time in which to solve it. \- `p. 27`
 
 - similarities between BUMMER (Behaviors of Users Modified, and Made into an Empire for Rent) and climate change \- `p. 30`
 - data collection \- `p. 30`
 - not paying with cash, but with data, \- `p. 33`
 > If we want something different to happen, then the way money is earned has to change. - `p. 34`
 
-> tweaking doesn't undo the underlying incentives, so bad actors are likely to invent ever sneakier and more sophisticated countermeasures. […] I fear tweaking cannot achieve enough. - `p. 35`
+> tweaking doesn't undo the underlying incentives, so bad actors are likely to invent ever sneakier and more sophisticated countermeasures. \[…\] I fear tweaking cannot achieve enough. - `p. 35`
 
 > The problem isn't any particular technology, but the use of technology to manipulate people, to concentrate power in a way that is so nuts and creepy that it becomes a threat to the survival of civilization. - `p. 38`
 

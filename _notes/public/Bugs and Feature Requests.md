@@ -1,13 +1,14 @@
 ---
 date: 2020-08-04
 updated: 2020-12-09
-tags: ["geek"]
+tags: geek
 permalink: /bugs
 redirect_from:
   - /feature-requests
   - /bugs-and-feature-requests
-description: "The [apps](/apps) I use the most are open source software in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports."
 ---
+The [[Apps]] I use the most are open source software in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports.
+
 ## Signal
 
 [Signal](https://signal.org) is the most secure and private messaging app in the world
@@ -24,6 +25,9 @@ description: "The [apps](/apps) I use the most are open source software in activ
 
 - choose to hide front matter when embedding other notes, even if “show YAML front matter” is switched on for the notes
 - printing all broken links
+
+<br>
+<br>
 
 ## Cubbit
 
@@ -48,7 +52,7 @@ description: "The [apps](/apps) I use the most are open source software in activ
 
 [Joplin](http://joplinapp.org) is a wonderful and complete note-taking app.
 
-**Note**: I stopped using Joplin as my daily driver since November 2020 and I switched to [Obsidian](#obsidian). The reasons why I did this are in [this blog post](/switch-to-zettelkasten)
+**Note**: I stopped using Joplin as my daily driver since November 2020 and I switched to [Obsidian](Bugs%20and%20Feature%20Requests.md#obsidian). The reasons why I did this are in [this blog post](/switch-to-zettelkasten)
 {:.yellow .box}
 
 ### Features requests
@@ -81,7 +85,7 @@ description: "The [apps](/apps) I use the most are open source software in activ
 
 [Zettlr](https://www.zettlr.com) is the best Markdown editor out there.
 
-Since November 2020 I stopped using Zettlr since its work could be made by [Obsidian](#obsidian) with much more features
+Since November 2020 I stopped using Zettlr since its work could be made by [Obsidian](Bugs%20and%20Feature%20Requests.md#obsidian) with much more features
 {:.yellow .box}
 
 - Implement split view: two different notes side by side

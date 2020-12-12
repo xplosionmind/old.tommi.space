@@ -1,6 +1,7 @@
 ---
 date: 2020-02-06
 updated: 2020-06-04
+tags: a
 ---
 - [x] Learn CSS and start developing the new xplosionmind, Google Analyrics migration
 - [ ] definitely say bye bye to Google

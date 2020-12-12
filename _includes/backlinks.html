@@ -10,22 +10,6 @@
   </p>
   <ul>
 
-
-    {% comment %}++++++++++++++++++++++++++++++++++++++++
-    +                                                   +
-    +    Backlinks parser based on the ruby plugin      +
-    +                                                   +
-    +++++++++++++++++++++++++++++++++++++{% endcomment %}
-
-    {% if page.backlinks.size > 0 %}
-      {% for backlink in page.backlinks %}
-        <li><a href="{{ backlink.url }}">{{ backlink.title }}</a></li>
-      {% endfor %}
-    {% endif %}
-
-
-
-
   {% comment %}+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   +                                                                      +
   +      100% Liquid backlinks parser based on pages permalinks.         +

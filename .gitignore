@@ -1,7 +1,5 @@
-_jar/private/*
+# Private notes
+_notes/private/
 
-# PISE-notes
-*/copyrighted-content
-*/books
-*/slides
-/jar-images
+# Notes graph metadata
+_includes/notes_graph.json

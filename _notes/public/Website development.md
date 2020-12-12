@@ -1,9 +1,7 @@
 ---
 date: 2020-02-02
 updated: 2020-12-09
-tags: ["geek"]
-title: "Website development"
-description: "Creative and technical work to be done, ideas and drafts progress tracking on this website"
+tags: geek
 permalink: /development
 redirect_from:
   - /development-roadmap
@@ -13,10 +11,11 @@ redirect_from:
   - /improvements
   - /dev
 ---
+Creative and technical aims, ideas annotation and drafts tracking.
+
 ## Not Working
 
 - language loop in language selection
-- Parsing error in jar list elements with `a` tags
 - Algolia search is only in the posts / blog
 - `linear-gradient` display error in [Everyone](/everyone) page
 
@@ -69,7 +68,7 @@ redirect_from:
 
 Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
-1. **Get rid of jQuery** (it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time) and use simple JavaScript for the task it’s used for
+1. **Get rid of jQuery**: it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time. Use pure JavaScript instead
 1. [**Visioni**](/visioni)
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
@@ -77,60 +76,66 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 	- Photo selection
 	- horizontal instead of vertical scrolling of the gallery
 	- PDF portfolio download
+1. Replace SEO tag with Liquid syntax
 1. Take the most advantage possible from installed plugins
-1. The Jar reorganization
-	- show only parent tags
+1. The new Jar:
+	- show only parent tags / notes
 	- an unstyled simple bullet point list
-1. Access tags colors from posts and jar lists (change the color slightly also for every entry which is untagged)
-1. {% raw %}`{% if page.tags contains 'draft' %}`{% endraw %} print a banner indicating that the page misses something
-1. **Tags**
+	- show notes graph only
+	- index note
+		- not working links are because notes are private
+		- definition of Zettelkasten / Digital gardening
+2. Swap Kramdown with MultiMarkdown
+	- support for classes?
+3. Access tags colors from posts and jar lists (change the color slightly also for every entry which is untagged)
+4. **Tags**
 		1. Use [jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen) to generate tags pages
 		1. Check [this plugin](https://github.com/field-theory/jekyll-tag-pages))
 		1. [article 1](https://blog.webjeda.com/jekyll-tags/)
 		1. [article 2](https://kylewbanks.com/blog/creating-tag-pages-in-jekyll-without-plugins)
 		1. Configure [jTag](https://github.com/ttscoff/jtag)
 	- [dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp)
-1. Switch to [Zettelkasten](/zettelkasten)
+5. Switch to [Zettelkasten](/zettelkasten)
 	- [git submodules](https://www.taniarascia.com/git-submodules-private-content/)
 	- make backlinks optional: insert `if` statement out of the `div` and make the box appear only if at least one backlink is present
-	- how to convert Zetelkasten links to ordinary links
-	- Backlinking
-	- [simply-jekyll](https://github.com/raghuveerdotnet/simply-jekyll), a template with backlinking setup
-	- [from Jekyll forum](https://talk.jekyllrb.com/t/zettelkasten-in-jekyll/5218)
-1. [Pagination](https://jekyllrb.com/docs/pagination/)
-1. Thumbnails in Zibaldone's feed
-1. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
-1. Style [caret-color](https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color)
-1. Add `image` tag in Jar elements
-1. [jekyll-rakefile](https://github.com/avillafiorita/jekyll-rakefile)
-1. Self-host website
-1. Content history
+	- ~~convert Zetelkasten links to ordinary links~~ 2020.12.12
+	- ~~Backlinking~~ 2020.12.03
+6. Pagination
+7. Thumbnails in Zibaldone's feed
+8. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
+9. Style [caret-color](https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color)
+10. Add `image` tag in Jar elements
+11. [jekyll-rakefile](https://github.com/avillafiorita/jekyll-rakefile)
+12. Self-host website
+13. Content history
 	- now page
 	- a timeline like [Jeremy gordon's](https://jgordon.io) or [jack.works](https://web.archive.org/web/20200513054829/http://jack.works/)
-1. Convert some Jar elements to `_data` files
+14. Convert some Jar elements to `_data` files
 	- Quotes
 	- Parole
 	- Cinema
 	- Jack Frusciante
 	- Resources
 	- rimm-db
-1. Add [humans.txt](http://humanstxt.org)
-1. Use `@import` to add fonts instead of linking their CSS reference files in HTML
-1. Semantic HTML
-1. Implement little cool Javascript features, from [W3schools](https://www.w3schools.com/howto/)
-1. Evaluate copyright change
-1. [Bookmarked threads](https://talk.jekyllrb.com/u/xplosionmind/activity/bookmarks) on [Jekyll Talk](https://talk.jekyllrb.com/) (Jelyll's forum)
-1. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)
-1. [improve header](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
-1. Configure global properties in `_config.yml` to perform changes in a quicker way
-1. [Typography](https://tommi.space/typography)
+15. Add [humans.txt](http://humanstxt.org)
+16. Use `@import` to add fonts instead of linking their CSS reference files in HTML
+17. Semantic HTML
+18. Use more icons (e.g. jam jar)
+19. {% raw %}`{% if page.tags contains 'draft' %}`{% endraw %} print a banner indicating that the page misses something
+20. Implement little cool Javascript features, from [W3schools](https://www.w3schools.com/howto/)
+21. Evaluate copyright change
+22. [Bookmarked threads](https://talk.jekyllrb.com/u/xplosionmind/activity/bookmarks) on [Jekyll Talk](https://talk.jekyllrb.com/) (Jelyll's forum)
+23. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)
+24. [improve header](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
+25. Configure global properties in `_config.yml` to perform changes in a quicker way
+26. [Typography](https://tommi.space/typography)
 	- better reasoned typographic choices
     - [Custom font](https://tommi.space/Typography#Custom-font)
-1. Setup mailing list
+27. Setup mailing list
 	- [listmonk](https://listmonk.app) or [Mailtrain](https://mailtrain.org)
 	- [awesome-emails](https://github.com/jonathandion/awesome-emails)
 	- [responsive template](https://github.com/leemunroe/responsive-html-email-template)
-2. RSS Feeds management
+28. RSS Feeds management
     - Atom feed vs RSS
     - [customize `feed.xml`](https://stackoverflow.com/questions/12902840/how-to-add-a-permalink-to-a-jekyll-rss-feed)
     - feeds:
@@ -138,31 +143,31 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
         - Italian posts
         - English posts
         - The Jar
-3. Mailtrain automation with RSS
-4. Hosting on [server](/server) instead of using [Netlify](https://netlify.com)
+29. Mailtrain automation with RSS
+30. Hosting on [server](/server) instead of using [Netlify](https://netlify.com)
     - Analytics (temporarily set up with [Goatcounter](https://goatcounter.com))
-5. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
-6. Improved and smart use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
+31. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
+32. Improved and smart use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
 	- `.box` and `.stuff` max heights
-7. A page which contains links to ALL PAGES (a sitemap?)
-8. **Sorting** / **filtering** (using JavaScript?)
+33. A page which contains links to ALL PAGES (a sitemap?)
+34. **Sorting** / **filtering** (using JavaScript?)
 	- in Zibaldone and The Jar: language and tag filter
 	- in Books: Sorting
-9. Configure [**Webmentions**](https://indieweb.org/Webmention)
+35. Configure [**Webmentions**](https://indieweb.org/Webmention)
     - Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
     - Setup [Webmention.io](https://webmention.io/)
     - Setup [Bridgy](https://brid.gy/)
-10. Improve `blockquote`s; some insights:
+36. Improve `blockquote`s; some insights:
 	- <https://codepen.io/valentingalmand/pen/doJvRR>
 	- <https://codepen.io/joshuajcollinsworth/pen/obbvYQ>
 	- <https://codepen.io/JoeHastings/pen/MOdRVm>
-11. Design improvements
+37. Design improvements
 	- make shades slightly colored, according to the belonging object
 	- refine the color palette
-12. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
-13. Piwigo integration?
-14. Create Jekyll theme
-15. Switch to [Hugo](https://gohugo.io)
+38. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
+39. Piwigo integration?
+40. Create Jekyll theme
+41. Switch to [Hugo](https://gohugo.io)
 
 <br>
 <br>

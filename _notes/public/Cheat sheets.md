@@ -1,7 +1,8 @@
 ---
 date: 2020-05-07
-updated: 2020-10-24
+updated: 2020-12-11
 tags: geek
+aliases: ["Cheat Sheet"]
 description: "I use tech devices a lot, maybe too much, but I don’t dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
 redirect_from:
   - /cheatsheet
@@ -31,11 +32,38 @@ rsync -avr --rsh='ssh' --delete-after --delete-excluded _site/ username@IP.Add.r
 note: `-avr` could instead be `-avz`
 
 <br>
+
+### Resources
+
+- [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line), a GitHub repository by [Marcel Bischoff](https://herrbischoff.com/)
+
+<br>
 <br>
 
-### Resources
+## Pandoc
 
-- [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line), a GitHub repo by [Marcel Bischoff](https://herrbischoff.com/)
+Useful links:   
+- [format options](https://pandoc.org/MANUAL.html#option--from)
+
+<br>
+
+Convert a Word file into a MultiMarkdown file   
+```
+pandoc input.docx -f docx -t markdown_mmd -o ~/Desktop/output.md
+```
+
+MultiMarkdown doesn't support checklists and classes, but is has everything else
+{:.yellow .box}
+
+for a greater compatibility, use CommonMark
+```
+pandoc input.docx -f docx -t commonmark -o ~/Desktop/output.md
+```
+
+Convert multiple Word files in a folder in a standalone MultiMarkdown file
+```
+pandoc *.docx -f docx -t markdown_mmd -s -o ~/Desktop/output.md
+```
 
 <br>
 <br>
