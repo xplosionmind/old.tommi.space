@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04
-updated: 2020-12-09
+updated: 2020-12-13
 tags: geek
 permalink: /bugs
 redirect_from:
@@ -25,6 +25,8 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 
 - choose to hide front matter when embedding other notes, even if “show YAML front matter” is switched on for the notes
 - printing all broken links
+- in editor mode last 2 letters are hidden.
+- cursor error
 
 <br>
 <br>

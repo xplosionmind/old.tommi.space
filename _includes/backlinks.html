@@ -24,8 +24,10 @@
        {% if entry.content contains page.url or entry.content contains current_url_downcase %}
           <li>
             <a href="{{ entry.url }}">{{ entry.title }}</a>
-            {% if entry.description != nil %}
+            {% if entry.description %}
               - {{ entry.description }}
+            {% else %}
+              - {{ entry.excerpt | strip_html | truncatewords: 30 }}
             {% endif %}
           </li>
         {% endif %}
@@ -34,8 +36,10 @@
           {% if entry.content contains redirect_ %}
             <li>
               <a href="{{ entry.url }}">{{ entry.title }}</a>
-              {% if entry.description != nil %}
+              {% if entry.description %}
                 - {{ entry.description }}
+              {% else %}
+                - {{ entry.excerpt | strip_html | truncatewords: 30 }}
               {% endif %}
             </li>
           {% endif %}
@@ -50,7 +54,7 @@
         {% if entry.content contains page.url or entry.content contains current_url_downcase %}
           {% case collection_name %}
             {% when 'jar' %}
-              <li>🍯 <a href="{{ entry.url }}">{{ entry.title }}</a> - {{ entry.description }}</li>
+            <li>🍯 <a href="{{ entry.url }}">{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
             {% when 'sconnesso' %}
               <li>🎙️  <a href="{{ entry.url }}">{{ entry.title }}</a></li>
             {% when 'posts' %}
@@ -58,7 +62,7 @@
             {% when 'filinge' %}
               <li>💭 <a href="{{ entry.url }}">{{ entry.title }}</a></li>
             {% else %}
-              <li><a href="{{ entry.url }}">{{ entry.title }}</a> - {{ entry.description }}</li>
+              <li><a href="{{ entry.url }}">{{ entry.title }}</a> - {{ entry.excerpt | strip_html | truncatewords: 30 }}</li>
           {% endcase %}
         {% endif %}
 
@@ -67,7 +71,7 @@
           {% if entry.content contains redirect_ %}
             {% case collection_name %}
               {% when 'jar' %}
-                <li>🍯 <a href="{{ entry.url }}">{{ entry.title }}</a> - {{ entry.description }}</li>
+                <li>🍯 <a href="{{ entry.url }}">{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
               {% when 'sconnesso' %}
                 <li>🎙️  <a href="{{ entry.url }}">{{ entry.title }}</a></li>
               {% when 'posts' %}

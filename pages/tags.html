@@ -15,7 +15,7 @@ description: "Every topic, every recurrency, anything you need to find can be fo
 		</div>
 		<div class="half column">
 			<ul>
-    			{% for note in site.jar %}
+    			{% for note in site.notes %}
 					{% if note.tags contains tag.title %}
 						<li><a href="{{ note.url }}">{{ note.title }}</a></li>
 					{% endif %}

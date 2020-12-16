@@ -1,6 +1,8 @@
 ---
 date: 2020-12-12
+tags: ["qsm", "geek", "wip"]
 description: "A lot of people are starting to become aware: Google sells our data to earn money. This is why I'm quitting it."
+image: "https://assets.tommi.space/images/jar/quit-google.jpg"
 ---
 Google is one of the most famous companies in the world, and its tech services are by the most widely used. Even if the percentage of people quitting it was minimal (and it's not) the number of people stopping to use Google Services is HUGE.
 

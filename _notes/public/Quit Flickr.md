@@ -4,7 +4,7 @@ updated: 2020-12-05
 tags: ["qsm", "geek", "wip"]
 aliases: ["Quitting Flickr"]
 description: "Thoughts and decisions about quitting Flickr and switching to Piwigo"
-permalink: /quit-flickr
+image: "https://assets.tommi.space/images/jar/quit-flickr.jpg"
 redirect_from:
   - /flickr
   - /piwigo

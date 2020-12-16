@@ -2,6 +2,7 @@
 tags: ["people", "festival"]
 ---
 - excel budget per TUTTO
+- Fabio Geda
 - un HQ alla Pigna per lavorare tutta l'estate
 - fairtrade
 - **sondaggio**

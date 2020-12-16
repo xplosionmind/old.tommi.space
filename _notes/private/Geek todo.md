@@ -29,8 +29,14 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 	- plain markdown works anywhere except on jekyll
 	- wiki links work only in Obsidian and Jekyll
 1. CNAME `call.tommi.space` `call.tommiboom.tk
--   PISE notes git blank vault
--   using Obsidian Markdown importer to convert wiki links to normal links and vice-versa
+1. using Obsidian Markdown importer to convert wiki links to normal links and vice-versa
+1. Enrico Francese per microfono e config
+1. [[Bugs and Feature Requests]]
+1. scripts: performing a command for every file in a directory (e.g. converting separate documents in another format with pandoc, but keeping them separated.)
+1. https://fontless.varld.co
+2. https://gradient-avatar.glitch.me/xplosionmind
+3. https://urlint.co/integration/github.html
+4. https://www.onlinelifecalendar.com
 
 <br>
 <br>

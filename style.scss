@@ -8,8 +8,8 @@
 :root {
 	--black-ish: #222;
 	--white-ish: #E3E3E3;
-	--dark-grey: #333;
-	--light-grey: #CCC;
+	--dark-grey: #555;
+	--light-grey: #AAA;
 	--yellow: #FCC920;
 	--blue: #3185FC;
 	--red: #D00;
@@ -45,7 +45,7 @@
 html {
 	box-sizing: border-box;
 	cursor: url({{ site.logos }}/cursor.svg) 16 16, crosshair;
-	height: 100%; /* to make the page tall at least as the viewport */
+	background: var(--background);
 }
 
 /* DARK THEME */
@@ -56,6 +56,7 @@ body {
 	--link: var(--primary);
 	--primary: var(--yellow);
 	--secondary: var(--blue);
+	--internal: var(--blue);
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
 	--shadow: 5px 5px 20px #000000FF, -5px -5px 20px #FFFFFF22;
@@ -75,6 +76,7 @@ body {
 	--link: var(--secondary);
 	--primary: var(--blue);
 	--secondary: var(--razzmatazz);
+	--internal: var(--blue);
 	--grey: var(--light-grey);
 	--other-grey: var(--dark-grey);
 	--shadow: 5px 5px 20px #00000022, -5px -5px 20px #FFFFFFEE;
@@ -87,7 +89,6 @@ body {
 }
 
 body {
-	height: 100%;
 	background: var(--background);
 	color: var(--text);
 	font: var(--regular) Inter, Helvetica, "Helvetica Neue", sans-serif;
@@ -183,6 +184,20 @@ a {
 	justify-content: space-between;
 }
 
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	grid-gap: var(--regular);
+	p {
+		font-size: .8em;
+		font-weight: 200;
+	}
+	.box {
+		margin: 0;
+		padding: var(--regular-less);
+	}
+}
+
 .vertical {
 	flex-direction: column;
 	height: 100%;
@@ -207,6 +222,20 @@ article li a:focus,
 	outline: none !important;
 	border-bottom: 2px dashed;
 	transition: none;
+}
+
+/* internal links */
+a.internal {
+	color: var(--internal);
+}
+
+/* private or invalid links */
+.invalid-link {
+	opacity: .5;
+	cursor: not-allowed;
+	.invalid-link-brackets {
+		opacity: .3;
+	}
 }
 
 li {
@@ -374,7 +403,7 @@ blockquote {
 td,
 th,
 tr {
-	border: solid .5px var(--light-grey);
+	border: solid .5px var(--grey);
 }
 
 th,
@@ -496,9 +525,11 @@ b {
 	font-weight: 700;
 }
 
-u {
-	border-bottom: dashed 2px var(--text);
-}
+/* make underline text dashed instead of solid */
+/*u {
+	text-decoration: none;
+	border-bottom: dashed 2px var(--text); 
+} */
 
 article {
 	font-size: var(--regular-more);

@@ -18,27 +18,23 @@ ref: jar
 	{% include tags.html %}
 
 	</div>
-
-	{% assign jar = site.notes %}
-	{% for note in jar %}
-		<a href="{{ note.url }}">
-			<div class="row">
-				<div class="flex box">
-					<div class="one column">
-						<div class="row">
-							<h2>{{ note.title }}</h2>
-						</div>
-						<div class="row">
-							{% if note.description != nil %}
-								<p>{{ note.description | markdownify }}</p>
-							{% else %}
-								<p>{{ note.excerpt | strip_html | truncatewords: 30 }}</p>
-							{% endif %}
-						</div>
+	
+	<div class="grid">
+		{% assign jar = site.notes %}
+		{% for note in jar %}
+			<a href="{{ note.url }}">
+				<div class="box">
+					<div class="row">
+						<h2>{{ note.title }}</h2>
+						{% if note.description %}
+							<p>{{ note.description | markdownify | strip_html | truncatewords: 30 }}</p>
+						{% else %}
+							<p>{{ note.excerpt | strip_html | truncatewords: 30 }}</p>
+						{% endif %}
 					</div>
 				</div>
-			</div>
-		</a>
-	{% endfor %}
+			</a>
+		{% endfor %}
+	</div>
 
 </div>

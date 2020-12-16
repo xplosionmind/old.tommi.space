@@ -9,8 +9,8 @@
 }
 
 .navigation {
-	margin: .7rem 2% var(--mastodon);
-	width: 96%;
+	margin: 2vw 2vw var(--mastodon);
+	width: 96vw;
 	height: var(--height);
 	text-transform: uppercase;
 	font-weight: 700;
@@ -112,7 +112,7 @@ nav {
 
 @media only screen and (max-width: 950px) {
 	.navigation {
-		width: 94%;
+		width: 94vw;
 	}
 	.nav-mobile {
 		display: block;
@@ -145,7 +145,7 @@ nav {
 	}
 	.navigation,
 	.title {
-		width: 94%;
+		width: 94vw;
 	}
 	.box {
 		margin: var(--bigger) 3%;

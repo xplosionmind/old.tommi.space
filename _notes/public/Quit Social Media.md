@@ -1,5 +1,6 @@
 ---
 title: "Quit Social Media Notes"
+aliases: ["QSM"]
 descriptions: "Notes for [quitsocialmedia.club](https://quitsocialmedia.club)"
 permalink: /qsm
 redirect_from:
@@ -27,6 +28,9 @@ To-do list, progress status and purposes are tracked on the [roadmap](https://qu
 - <https://indigenous.realize.be>
 - <https://humanetech.community>
 - <http://datascientia.disi.unitn.it>
+- Do we really need to share everything? Does someone who is not interested in communication or media our cinema or art etc really need to share what goes on with our life?
+	- want to become fabous and be notices? Start writing emails, sending pictures, ask for collaborations
+	- want to earn money? Invent new ways to monetize your work (Patreon, etc.)
 - Add *The Great Hack* alongside *The Social Dilemma*
 - add donate button:
 ```

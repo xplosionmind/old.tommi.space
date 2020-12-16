@@ -3,8 +3,7 @@ title: Privacy
 ref: privacy
 lang: en
 permalink: /privacy
-layout: jar
-toc: 0
+layout: page
 ---
 I’m sorry I’m no lawyer and I know nothing about this stuff, but I’m very concerned about this as a user so I feel like it’s important to insert this website Privacy Policy, too.
 

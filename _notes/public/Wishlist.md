@@ -1,6 +1,6 @@
 ---
 date: 2020-07-17
-updated: 2020-12-05
+updated: 2020-12-13
 toc: 0
 description: "Stuff I need and things I just would love to have"
 redirect_from: /desideri
@@ -9,33 +9,36 @@ Items are sorted in order of urgency and need. Things at the top are the ones I 
 {:.box}
 
 1. Thermometer for high temperatures designed for photographic development
-1. Poncho
-1. Storage
+2. Powerline
+1. Sound card
+3. Studio microphone
+4. Poncho
+5. Storage
     - Hard Disks
     - RAID systems
     - NAS
-    -  ?
-1. Tripod
-1. Film Negatives Scanner
-1. [Compact camera](https://www.wired.com/gallery/best-compact-cameras/ )
-1. Watertight bag or backpack
-1. City bike
-1. Tent (for 3+ people)
-1. [Kauss beer](http://kauss.it)
-1. BluRay/CD Reader/burner
-1. Books (check the [Books wishlist](/Books#Wishlist))
-1. Mouth organ
-1. Ski mask
-1. Snowboard boots
-1. [Boosted Board](https://boostedusa.com/collections/electric-skateboards)
-1. Radio Amateur Rig
-1. Full Frame (mirrorless) Camera
-1. Surf board
-1. Wetsuit
-1. ¾ guitar
-1. Green Screen
-1. Polaroid camera
-1. Portable turntable
-1. Telescope
-1. Zippo Gas Fuel
-1. Snowboard
+    - ?
+6. Tripod
+7. Film Negatives Scanner
+8. [Compact camera](https://www.wired.com/gallery/best-compact-cameras/ )
+9. Watertight bag or backpack
+10. City bike
+11. Tent (for 3+ people)
+12. [Kauss beer](http://kauss.it)
+13. BluRay/CD Reader/burner
+14. Books (check the [Books wishlist](/Books#Wishlist))
+15. Mouth organ
+16. Ski mask
+17. Snowboard boots
+18. [Boosted Board](https://boostedusa.com/collections/electric-skateboards)
+19. Radio Amateur Rig
+20. Full Frame (mirrorless) Camera
+21. Surf board
+22. Wetsuit
+23. ¾ guitar
+24. Green Screen
+25. Polaroid camera
+26. Portable turntable
+27. Telescope
+28. Zippo Gas Fuel
+29. Snowboard

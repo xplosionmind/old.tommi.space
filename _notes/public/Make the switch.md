@@ -2,7 +2,7 @@
 date: 2020-12-05
 updated: 2020-12-05
 tag: ["geek", "zen"]
-aliases: ["Choose the alternative", "Go alternative", "Quit and switch"]
+aliases: ["Just quit", "Choose the alternative", "Go alternative", "Quit and switch"]
 image: "https://assets.tommi.space/images/jar/just-quit.jpg"
 description: "Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it's for the best, it's worth it. Below some of the things I'm quitting."
 permalink: /switch
