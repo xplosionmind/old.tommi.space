@@ -1,23 +1,15 @@
 ---
 date: 2020-02-02
-updated: 2020-12-09
+updated: 2020-12-19
 tags: geek
 permalink: /development
-redirect_from:
-  - /development-roadmap
-  - /roadmap
-  - /wip
-  - /issues
-  - /improvements
-  - /dev
+redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev"]
 ---
 Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Not Working
 
-- language loop in language selection
 - Algolia search is only in the posts / blog
-- `linear-gradient` display error in [Everyone](/everyone) page
 
 <br>
 <br>
@@ -39,6 +31,8 @@ Creative and technical aims, ideas annotation and drafts tracking.
 - [[Playlist]]
 - [[Cinema]]
 - [[The Slot Philosophy]]
+- [[Hebertismo]]
+- [[Desk logging]]
 - add a “première” section to the [Everyone](/everyone) page
 - [[Around the world]]
 - [drafts](../_drafts/)
@@ -48,18 +42,6 @@ Creative and technical aims, ideas annotation and drafts tracking.
 ### To be created
 
 - [[Articles ideas]]
-- Add *Love* Jar item, with all of the definitions of love.
-- ***self debugging***
-		- a self-debugging script in programming ideas
-		- provare a descrivere e scrivere di determinate situazioni e stati d'animo quando non ci si trova può essere anche un podo ancora inferiore per capirli e risolvere
-- Add *Herbertismo* Jar item
-- A program which counts the number of times a key has been clicked on a keyboard
-- Desk Photo Archive
-	- name
-	- explanation `I've always been one of those people who's never satisfied about how their room is `
-	- explanation 2 `Every 27 days, no matter what, at exactly 12:11 PM I'll have to take my camera and shoot a photo of my desk. No matter what's on it or how is it. Just to immortalize my main life companion in that moment.`
-	- photos
-- stabilire criteri di appartenenza a [[Internet Awesomeness]]
 
 <br>
 <br>
@@ -121,7 +103,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 16. Use `@import` to add fonts instead of linking their CSS reference files in HTML
 17. Semantic HTML
 18. Use more icons (e.g. jam jar)
-19. {% raw %}`{% if page.tags contains 'draft' %}`{% endraw %} print a banner indicating that the page misses something
+19. `{% raw %}{% if page.tags contains 'draft' %}{% endraw %}` print a banner indicating that the page misses something
 20. Implement little cool Javascript features, from [W3schools](https://www.w3schools.com/howto/)
 21. Evaluate copyright change
 22. [Bookmarked threads](https://talk.jekyllrb.com/u/xplosionmind/activity/bookmarks) on [Jekyll Talk](https://talk.jekyllrb.com/) (Jelyll's forum)
@@ -242,7 +224,7 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 - `letter-spacing` and `word spacing` (it's nice as it is)
 - light/dark mode switch button (I'm deep and dark / I'm bright and shiny)
 - list of belonging tags at the top of the post page
-- Make [about](/home#about) a page
+- Make [about](At%20home.md#about) a page
 - Mobile optimisation
 - move `stuff extended` to `The Jar`
 - [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) **redesign**

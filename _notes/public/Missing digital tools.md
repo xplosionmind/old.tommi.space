@@ -1,6 +1,6 @@
 ---
 date: 2020-02-26
-updated: 2020-12-08
+updated: 2020-12-19
 tags: ["geek", "idea"]
 aliases: ["Programming ideas", "Development ideas"]
 description: "Ideas for programs which would be very useful, but I didn't find yet"
@@ -23,6 +23,25 @@ redirect_from:
 
 A setting/add-on to restore several old windows sessions of a browser, with all the tabs (not just the last one), some sort of **batch reopen**.
 
+<br>
+<br>
+
+
+## Keys
+
+An idea born the 12<sup>th</sup> December 2020.\
+A software which counts every time a key is clicked on a keyboard and does an average of how many keys are clicked in a day, what's the most clicked, etc.
+
+<br>
+<br>
+
+## Self debugging
+
+An idea born the 12<sup>th</sup> December 2020.\
+A script which poses you questions to debug you. Something in between [ELIZA AI](http://www.med-ai.com/models/eliza.html "ELIZA is a computer program that emulates a Rogerian psychotherapist") and the [[Self debugging]] method.
+
+
+<br>
 <br>
 
 ## Social

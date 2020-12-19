@@ -33,7 +33,7 @@ There are two possible templates: one if you don’t care to recover your data a
 ### Portability and Erasure
 
 ```
-Good afternoon, I'd like to claim my GDPR rights of access, erasure, portability (Art. 15, Art. 17 and Art. 20 respectively) by receiving a copy of all my data in your possession. After that, I request the complete and permanent deletion of my account and the complete erasure from your database of all the data linked to it.  After the erasure has taken place, I request also the deletion of the record of these email communication.
+Good afternoon, I'd like to claim my GDPR rights of access, erasure, portability (Art. 15, Art. 17 and Art. 20 respectively) by receiving a copy of all my data in your possession. After that, I request the complete and permanent deletion of my account and the complete erasure from your database of all the data linked to it.  After the erasure has taken place, I request also the deletion of the record of these emails.
 
 
 Thank you very much.
@@ -73,7 +73,7 @@ Cordiali Saluti.
 ### Solo eliminazione
 
 ```
-Buongiorno, in accordo con il regolamento GDPR, desidererei esercitare il mio diritto di accesso, eliminazione e portabilità dei dati (rispettivamente trattati negli articoli 15, 17 e 20) richiedendo la completa eliminazione del mio account dal vostro database, insieme a tutti i dati ad esso collegati, così come lo storico di tutte le mie attività. A seguito dell'eliminazione dell'account, desidero richiedere anche la totale eliminazione del registro di questa email e di questo scambio.
+Buongiorno, in accordo con il regolamento GDPR, desidererei esercitare il mio diritto di accesso, eliminazione e portabilità dei dati (rispettivamente trattati negli articoli 15, 17 e 20) richiedendo la completa eliminazione del mio account dal vostro database, insieme a tutti i dati ad esso collegati, così come lo storico di tutte le mie attività. A seguito dell'eliminazione dell'account, desidero richiedere anche la totale eliminazione di questo scambio di email.
 	
 Grazie mille.
 Cordiali Saluti.

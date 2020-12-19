@@ -19,6 +19,7 @@ Actually, I don't need to learn these things only, but here I note the main thin
 3. [git](https://git-scm.com)
 	- [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 		- Tania Rascia's [guide](https://www.taniarascia.com/git-submodules-private-content/)
+1. Bitcoin, Blockchain, etc.
 4. OpenStreetMap and OSMand
 5. Github Actions
 6. [using fzf](https://www.youtube.com/watch?v=qgG5Jhi_Els)

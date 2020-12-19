@@ -9,6 +9,9 @@ redirect_from:
 ---
 The [[Apps]] I use the most are open source software in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports.
 
+<br>
+<br>
+
 ## Signal
 
 [Signal](https://signal.org) is the most secure and private messaging app in the world
@@ -25,7 +28,7 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 
 - choose to hide front matter when embedding other notes, even if “show YAML front matter” is switched on for the notes
 - printing all broken links
-- in editor mode last 2 letters are hidden.
+- in editor mode last 2 letters are hidden. (fixed by setting `.CodeMirror` `overflow: unset`)
 - cursor error
 
 <br>

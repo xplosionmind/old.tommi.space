@@ -9,7 +9,7 @@ redirect_from:
 ---
 ## xplosionmind
 
-[tommi.space](/home) palette
+[tommi.space](At%20home.md) palette
 
 - `white`, background for light theme
 - `#222` almost black, main for light theme and background for dark theme

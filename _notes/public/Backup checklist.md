@@ -51,7 +51,7 @@ I use [ADB](http://developer.android.com/tools/help/adb.html) to transfer any fi
 
 Firstly, connect the phone to the computer.
 
-open the terminal and move to the `platform-tools` folder (I keep in `Documents`)
+Open the terminal and move to the `platform-tools` folder (I keep in `Documents`)
 
 ```
 cd Documents/platform-tools

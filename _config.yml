@@ -69,7 +69,11 @@ feed:
 social:
   name: xplosionmind
   links:
+    - https://bandcamp.com/xplosionmind
+    - https://cryptpad.fr/profile/#/2/profile/view/bGDyy3pKXdqc6mofB1EINV2ZstbhkmVjKUM3oPBk2IA/
     - https://dev.to/xplosionmind
+    - https://disqus.com/by/xplosionmind/
+    - https://hub.docker.com/u/xplosionmind
     - https://www.flickr.com/xplosionmind/
     - https://www.facebook.com/profile.php?id=100007931469414
     - https://hypothes.is/users/xplosionmind

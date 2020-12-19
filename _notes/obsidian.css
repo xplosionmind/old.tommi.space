@@ -19,7 +19,7 @@
 	--font-monospace: 'Ubuntu Mono', monospace;
 }
 
-:not(hr):not(blockquote) {
+:not(hr):not(blockquote):not(.CodeMirror-cursor) {
 	border: none !important;
 }
 
@@ -30,8 +30,24 @@
     --scrollbar-bg: none !important;
 }
 
+.theme-dark .cm-fat-cursor .CodeMirror-cursor {
+	background: #FFFFFF55;
+}
+
+.theme-dark .CodeMirror-cursor {
+	border-left: 1px solid #FFFFFF77
+}
+
 .theme-light {
     --scrollbar-bg: none !important;
+}
+
+.theme-light .cm-fat-cursor .CodeMirror-cursor {
+	background: #00000033;
+}
+
+.theme-light .CodeMirror-cursor {
+	border-left: 1px solid #00000077
 }
 
 .cm-s-obsidian, .markdown-preview-view {
@@ -42,6 +58,11 @@
 /* make the editor appear in mono */
 .CodeMirror-code {
 	font: 1.1em "Ubuntu Mono";
+}
+
+/* fix an error which causes the last letter of a row to be hidden */
+.CodeMirror {
+	overflow: unset;
 }
 
 .cm-s-obsidian .hmd-fold-html-stub, .cm-s-obsidian .hmd-fold-code-stub, .cm-s-obsidian.CodeMirror .HyperMD-hover > .HyperMD-hover-content code, .cm-s-obsidian .cm-formatting-hashtag, .cm-s-obsidian .cm-inline-code, .cm-s-obsidian .HyperMD-codeblock, .cm-s-obsidian .HyperMD-hr, .cm-s-obsidian .cm-hmd-frontmatter, .cm-s-obsidian .cm-hmd-orgmode-markup, .cm-s-obsidian .cm-formatting-code, .cm-s-obsidian .cm-math, .cm-s-obsidian span.hmd-fold-math-placeholder, .cm-s-obsidian .CodeMirror-linewidget kbd, .cm-s-obsidian .hmd-fold-html kbd {
@@ -57,19 +78,21 @@
 	visibility: visible !important;
 }
 
-.cm-fat-cursor .CodeMirror-cursor {
-	background: #FCC92055;
+/* an active line highlight in vim normal mode */
+.theme-dark .cm-fat-cursor .CodeMirror-activeline .CodeMirror-linebackground{
+  background-color: #DDDDDD11 !important;
+}
+.theme-light .cm-fat-cursor .CodeMirror-activeline .CodeMirror-linebackground{
+  background-color: #33333311 !important;
 }
 
-/*an active line highlight in vim normal mode */
-/*.cm-fat-cursor .CodeMirror-activeline .CodeMirror-linebackground{
+/* if you want the highlight to present in both normal and insert mode of vim */
+.theme-dark .CodeMirror-activeline .CodeMirror-linebackground{
   background-color: #DDDDDD11 !important;
-}*/
-
-/*if you want the highlight to present in both normal and insert mode of vim*/
-/*.CodeMirror-activeline .CodeMirror-linebackground{
-  background-color: #DDDDDD11 !important;
-}*/
+}
+.theme-light .CodeMirror-activeline .CodeMirror-linebackground{
+  background-color: #33333311 !important;
+}
 
 h1, h2, h3, h4, h5, h6 {
 }
