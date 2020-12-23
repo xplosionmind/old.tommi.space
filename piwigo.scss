@@ -20,17 +20,44 @@ body {
 	--inner-little-shadow: inset 2px 2px 3px #000000AA, inset -2px -2px 3px #FFFFFF11;
 
 	transition: var(--trans);
+
+	font-family: Inter, Helvetica, "Helvetica Neue", sans-serif !important;
+	color: var(--text) !important;
+	background: var(--background) !important;
 }
 
 .albThumbs li {
-	border-radius: var(--border-m);
-	box-shadow: var(--little-shadow);
+	border-radius: var(--radius-m);
+	box-shadow: var(--shadow);
+	margin: var(--small) !important;
+}
+
+.imageInfoTable, #imageInfos {
+	background: var(--background);
+}
+
+.wide #imageInfos {
+	margin-right: var(--regular);
+	box-shadow: var(--shadow);
+	border-radius: var(--radius-l);
+}
+
+.theImageAndInfos {
+	background: var(--deep);
 }
 
 .contentWithMenu,
 #menubar,
 #copyright {
-	background: var(--background);
+	background: var(--background) !important;
+}
+
+aside#menubar {
+	top: 80px !important;
+	left: var(--regular);
+	border-radius: var(--radius-m);
+	box-shadow: var(--shadow);
+	opacity: 1;
 }
 
 #menubar {
@@ -39,5 +66,76 @@ body {
 }
 
 .albLegend {
+	padding: var(--tiny) !important;
+	div {
+		opacity: .6;
+	}
+}
+
+.qsearchInput {
+	border: none;
+	border-radius: var(--radius-s);
+	background: var(--grey);
+}
+
+/* .categoryActions,
+.navigationButtons,
+.actionButtons,
+.albumActionsSwitcher {
 	padding: var(--tiny);
+	background: var(--light-grey);
+	border-radius: var(--radius-s);
+	box-shadow: var(--little-shadow);
+} */
+
+a .pwg-icon {
+	color: var(--text) !important;
+}
+
+.pwg-icon-menu {
+	padding: var(--small) !important;
+	background: var(--primary) !important;
+	border-radius: var(--radius-s);
+	box-shadow: var(--little-shadow);
+	opacity: 1 !important;
+	color: var(--background) !important;
+}
+
+@media only screen and (max-width: 640px) {
+	.contentWithMenu .titrePage h2,
+	.contentWithMenu .browsePath {
+		text-indent: 50px; !important;
+	}
+}
+
+.albumActionsSwitcher {
+	width: unset !important;
+}
+
+.titrePage {
+	background: none !important;
+}
+
+.titrePage h2 span.badge,
+span.menuInfoCat.badge {
+	color: var(--white-ish) !important;
+	background: var(--grey) !important;
+	box-shadow: var(--little-shadow);
+	border-radius: var(--radius-s);
+}
+
+a {
+	&:hover {
+		text-decoration: none !important;
+		color: var(--primary) !important;
+	}
+	&[href="identification.php"] {
+		opacity: .3;
+	}
+}
+
+.navigationBar {
+	* {
+		var(--other-grey) !important;
+	}
 }
