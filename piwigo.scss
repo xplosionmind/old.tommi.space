@@ -67,12 +67,14 @@ aside#menubar {
 
 .albLegend {
 	padding: var(--tiny) !important;
+	background: none !important;
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0.05),rgba(0,0,0,0.8))
 	div {
 		opacity: .6;
 	}
 }
 
-.qsearchInput {
+#qsearchInput {
 	border: none;
 	border-radius: var(--radius-s);
 	background: var(--grey);
@@ -114,6 +116,11 @@ a .pwg-icon {
 
 .titrePage {
 	background: none !important;
+	h2 {
+		a {
+			color: var(--text) !important;
+		}
+	}
 }
 
 .titrePage h2 span.badge,
