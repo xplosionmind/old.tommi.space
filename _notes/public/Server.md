@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21
-updated: 2020-10-16
+updated: 2020-12-20
 tags: geek
 ---
 My server is a surprisingly powerful (considered how much I pay for it) <abbr title="Virtual Private Server">VPS</abbr> hosted in Germany by [Contabo](https://contabo.com). It runs [Ubuntu 20.04](https://releases.ubuntu.com/20.04/).
@@ -51,19 +51,14 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 
 Useful server apps or services I haven’t installed yet, in order of urgence and importance.
 
+1. [Pol](https://github.com/taroved/pol), transform any webpage in a RSS feed
 1. [Mailcow](https://mailcow.email/) && [Roundcube](https://roundcube.net/) self hosted email
 1. [Mailtrain](https://mailtrain.org) (very stable but old and not updated since 2 years ago) \|\| [listmonk](https://listmonk.app) (brand new and feature-packed, but in Alpha version), Newsletter managers
 1. [Heedy](https://github.com/heedy/heedy), for [self-tracking](/self-tracking)
-1. [Feedbin](https://feedbin.com), the best RSS reader I found yet.
-	- [Installation overview](https://github.com/feedbin/feedbin#introduction)
-	- [Installation guide](https://github.com/feedbin/feedbin/blob/master/doc/INSTALL-ubuntu.md)
+1. ~~[Feedbin](https://feedbin.com), arguably, the best RSS reader ou there~~. I wrote an email to them and they offered me a student free account, hosted by them.
 1. [Fediverse](https://fediverse.network/) platforms
-	- [Mastodon](https://joinmastodon.org/)
-	    - [MastodonToTwitter](https://github.com/AmauryCarrade/MastodonToTwitter), Twitter - Mastodon cross-posting
-	    - [mastodon-bot](https://github.com/yogthos/mastodon-bot), to automatically post RSS verde and tweets
-	- [PeerTube](https://joinpeertube.org)
-		- [official installation documentation](/https://docs.joinpeertube.org/#/install-any-os)
-	- [PixelFed](https://pixelfed.org/), instagram alternative
+	- [MastodonToTwitter](https://github.com/AmauryCarrade/MastodonToTwitter), Twitter - Mastodon cross-posting
+	- [mastodon-bot](https://github.com/yogthos/mastodon-bot), to automatically post RSS verde and tweets
 1. [Ferdi](https://github.com/getferdi/server), all services in one place
 1. [Ampache](http://ampache.org/), for music listening
 1. [Huginn](https://github.com/huginn/huginn), an IFTTT Alternative

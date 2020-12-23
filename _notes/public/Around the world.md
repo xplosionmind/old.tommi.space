@@ -1,7 +1,7 @@
 ---
 date: 2020-07-20
 updated: 2020-11-25
-tags: ["places"]
+tags: places
 aliases: ["Places"]
 image: "https://assets.tommi.space/images/places.jpg"
 permalink: /places
@@ -10,8 +10,12 @@ redirect_from:
   - /world-places
   - /posti
   - /luoghi
-description: "<cite>Around the World</cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places around the world. This isn’t a list of places I’ve been to, but a record of the ones I carry in my heart, for some reason"
 ---
+<cite>Around the World</cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places around the world. This isn’t a list of places I’ve been to, but a record of the ones I carry in my heart, for some reason
+
+<br>
+<br>
+
 ## Sanremo
 
 - [Il Cubo](https://www.facebook.com/ilcubotreponti)

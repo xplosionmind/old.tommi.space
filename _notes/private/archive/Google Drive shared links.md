@@ -25,3 +25,4 @@ tags: a
 - [PortaParty](https://docs.google.com/forms/d/198Ejcx2JdltEWGtDZLxx5OiqN4Q57FPb_iWbAn_us_8/edit?usp=sharing)
 - [A Highly Regarded Expert's Guide to the Arcane Trickster](https://docs.google.com/document/d/1IZBcQbZlN5psPppnuQvOO3xJ5P84tI6UNPiQz5_jEGc/edit?usp=sharing) #dnd
 - [C Programming Notes](https://docs.google.com/document/d/1kDGgpIFlDwkQ9a-3id8dAvuz9X5a57GPelyTXOppIcA/edit?usp=sharing) #geek 
+- 2020-12-19 [Palinsesto Giffoni Winter Edition](https://docs.google.com/spreadsheets/d/1pzR9_olVBq0bN3yDpngNa50jIOCgX79__gSr0-K0B_8/edit#gid=0)

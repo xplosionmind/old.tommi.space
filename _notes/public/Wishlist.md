@@ -9,7 +9,7 @@ Items are sorted in order of urgency and need. Things at the top are the ones I 
 {:.box}
 
 1. Thermometer for high temperatures designed for photographic development
-2. Powerline
+2. ~~Powerline~~ ✅ 2020-12-15
 1. Sound card
 3. Studio microphone
 4. Poncho

@@ -37,7 +37,7 @@ Per il capodanno fra il 2017 e il 2018, trascorsi con alcuni amici qualche giorn
 
 Disperato, sono andato a cercare di nuovo il modello su ebay. 738$.
 
-[I miei occhiali, dopo qualche anno, su ebay](/images/2018-01-07-broken-sunglasses.jpg)
+[I miei occhiali, dopo qualche anno, su ebay]({{ site.images}}/2018-01-07-broken-sunglasses.jpg)
 
 <br />
 
@@ -49,19 +49,18 @@ C’erano un sacco stand di brand e radio molto importanti, fra cui quello di [B
 
 Riporterò qui la conversazione che tenni con la mitica [Elena Sandre](https://www.facebook.com/elena.sandre.9), allo stand Blackfin.
 
-T: “Ciao! Stavate cercando un modello affascinante come me?”
+T: <q>Ciao! Stavate cercando un modello affascinante come me?</q>\
 
-E: “Ecco! Proprio uno come te stavamo cercando!”
+E: <q>Ecco! Proprio uno come te stavamo cercando!</q>\
+<q>Scegli un paio di occhiali</q>
 
-“Scegli un paio di occhiali”
+_Io, credendo mi facessero fare delle foto e basta, mi entusiasmai e scelsi un bel paio._
 
-Io, credendo mi facessero fare delle foto e basta, mi entusiasmai e scelsi un bel paio
+T: <q>ah, davvero? Wow, ok… non credevo qualcuno mi avrebbe mai preso sul serio</q>
 
-T: “ah, davvero? Wow, ok… non credevo qualcuno mi avrebbe mai preso sul serio”
+*Una volta scelto un paio favoloso, che così belli la Blackfin per me mai ne ha più fatti, già stavo pensando a tutte le pose stupide da fare con quegli occhiali, quando mi accortsi che Elena stava mettendo gli occhiali in una scatola.*
 
-Una volta scelto un paio favoloso, che così belli la Blackfin per me mai ne ha più fatti, già stavo pensando a tutte le pose stupide da fare con quegli occhiali, quando mi accortsi che Elena stava mettendo gli occhiali in una scatola.
-
-E: “Ecco qua, sono tuoi!”
+E: <q>Ecco qua, sono tuoi!</q>
 
 Risparmio le mie urla di esaltazione e non potrei comunque esprimere i salti di gioia e la mia faccia dopo aver ricevuto quell’enorme confezione.
 

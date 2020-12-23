@@ -7,6 +7,5 @@ description: "Accordi e testi di canzoni da cantare a squarciagola e con la chit
 redirect_from:
   - /accordi
   - /canzoniere
-ref: canzomnia
 ---
-Ho una playlist su [Ultimate Guitar](https://go.tommi.space/chords), oppure scaricare direttamente il [pdf](/assets/CANZOMNIA.pdf).
+Ho una playlist su [Ultimate Guitar](https://go.tommi.space/chords "Bonfire music on Ultimate Guitar"), oppure scaricare direttamente il [pdf]({{ site.assets }}/CANZOMNIA.pdf "CANZOMNIA.pdf").

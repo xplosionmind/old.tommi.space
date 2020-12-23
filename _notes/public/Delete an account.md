@@ -1,21 +1,22 @@
 ---
 date: 2020-08-05
-updated: 2020-10-29
-tags: qsm
+updated: 2020-12-20
+tags: geek, qsm
 permalink: /delete
-redirect_from:
-  - /delete-account
-  - /GDPR-claim
-  - /claim-GDPR
-  - /just-delete-it
-  - /just-deleteit
-  - /quit
-  - /GDPR-delete
-description: 'The quickest way to delete an account is to just click on the “delete account” button. There are two problems, though. ONE: often, <strong>there’s no button</strong>, TWO: if there is, it’s hidden somewhere in the most remote corners of the settings. This is how I attempt to solve both of them. There is a procedure to also request a copy of all the account data.'
+redirect_from: ["/delete-account", "/GDPR-claim", "/claim-GDPR", "/just-delete-it", "/just-deleteit", "/quit", "/GDPR-delete"]
 ---
+The quickest way to delete an account is to just click on the “delete account” button. There are two problems, though:
+1. often, <strong>there’s no button</strong>
+2. if there is, it’s hidden somewhere in the most remote corners of the settings.
+
+Below, I show how I attempt to solve both of them. There is a procedure to also request a copy of all the account data.
+
+<br>
+<br>
+
 ## Base knowledge
 
-To get this itchy thing done in the most painless and quickest way, just [go here](https://justdeleteme.xyz/). If you can’t find the service you wanna get rid of on that wonderful website, though, the process gets more tricky and annoying.
+To get this itchy thing done in the quickest and most painless way possible, just [go here](https://justdeleteme.xyz/). If you can’t find the service you wanna get rid of on that wonderful website, though, the process gets more tricky and annoying.
 
 Firstly, you gotta find the Privacy Policy page of the provider and look for an email address that looks like `privacy@<nameoftheprovider>.com`. Secondly, you have to write to this address the message which follows, claiming our [GDPR rights](https://gdpr-info.eu/).
 
@@ -35,19 +36,16 @@ There are two possible templates: one if you don’t care to recover your data a
 ```
 Good afternoon, I'd like to claim my GDPR rights of access, erasure, portability (Art. 15, Art. 17 and Art. 20 respectively) by receiving a copy of all my data in your possession. After that, I request the complete and permanent deletion of my account and the complete erasure from your database of all the data linked to it.  After the erasure has taken place, I request also the deletion of the record of these emails.
 
-
 Thank you very much.
 Best regards.
 ```
 
-<br>
 <br>
 
 ### Erasure only
 
 ```
 Good evening, I'd like to claim my GDPR rights of access, erasure, portability (Art. 15, Art. 17 and Art. 20 respectively) requesting the complete erasure my account and email address and the permanent deletion from your database of all the data related to it. After the erasure has taken place, I request also the deletion of the record of these email communication.
-
 
 Thank you very much.
 Best regards.
@@ -67,7 +65,6 @@ Grazie mille.
 Cordiali Saluti.
 ```
 
-<br>
 <br>
 
 ### Solo eliminazione

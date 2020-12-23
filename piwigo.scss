@@ -1,0 +1,43 @@
+---
+---
+@import "../_sass/root";
+@import "https://assets.tommi.space/fonts/inter/inter.css";
+
+body {
+	--background: var(--black-ish);
+	--text: var(--white-ish);
+	--deep: #111;
+	--link: var(--primary);
+	--primary: var(--yellow);
+	--secondary: var(--blue);
+	--internal: var(--blue);
+	--grey: var(--dark-grey);
+	--other-grey: var(--light-grey);
+	--shadow: 5px 5px 20px #000000FF, -5px -5px 20px #FFFFFF22;
+	--little-shadow: 2px 2px 3px #000000FF, -2px -2px 3px #FFFFFF22;
+	--button-shadow: 3px 3px 8px #000000BB, -3px -3px 8px #FFFFFF22;
+	--inner-shadow: inset 3px 3px 5px #00000088, inset -3px -3px 5px #FFFFFF22;
+	--inner-little-shadow: inset 2px 2px 3px #000000AA, inset -2px -2px 3px #FFFFFF11;
+
+	transition: var(--trans);
+}
+
+.albThumbs li {
+	border-radius: var(--border-m);
+	box-shadow: var(--little-shadow);
+}
+
+.contentWithMenu,
+#menubar,
+#copyright {
+	background: var(--background);
+}
+
+#menubar {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.albLegend {
+	padding: var(--tiny);
+}

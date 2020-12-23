@@ -1,6 +1,7 @@
 ---
 date: 2020-11-13
 updated: 2020-11-13
+tags: zen
 description: "The best way to manage knowledge and ideas as well as memories and lecture notes: the ultimate digital brain database system."
 permalink: /zettelkasten
 redirect_from:
@@ -10,11 +11,12 @@ redirect_from:
   - /knowledge-management
 related:
   - /switch-to-zettelkasten
-tags: ["zen"]
 ---
 Zettelkasten is a system for storing and accessing notes invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann "Niklas Luhmann on Wikipedia"). I'm very fascinated by its underlying philosophy and approach which I'd love to take advantage of, but I'm still learning and it will take quite a lot of time to fully commit to it.
 
 [A full article about the topic](/switch-to-zettelkasten)
+
+<br>
 
 ## Resources
 
@@ -30,6 +32,8 @@ Zettelkasten is a system for storing and accessing notes invented by [Niklas Luh
 - [Zettelkasten for researchers](https://www.seanlawson.net/2017/09/zettelkasten-researchers-academics/)
 - [How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
 - [Zettelkasten with Typora](https://stoweboyd.com/post/190446627182/building-a-zettelkasten-in-typora)
+
+<br>
 
 ## Software
 

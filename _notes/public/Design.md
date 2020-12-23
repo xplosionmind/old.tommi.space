@@ -6,33 +6,33 @@ description: "Little insights about the design world."
 ---
 ## 101
 
-- <a href="https://dwarves.foundation/playbook/good-design-understanding" rel="noopener noreferrer" target="_blank">Good Design Understanding</a>, by the <a href="https://dwarves.foundation" rel="noopener" target="_blank">Dwarves Foundation</a>
+- [Good Design Understanding](+++), by the [Dwarves Foundation](https://dwarves.foundation "The Dwarves Foundation website")
 
-<br />
+<br>
 
 ## Typography
 
 [[Typography]] has a dedicated note.
 
-<br />
+<br>
 
 ## Colors
 
 [[Colors]] have a dedicated note.
 
-<br />
+<br>
 
 ## Web Design
 
 ### Stunning websites
 
-- <a href="https://www.bornfreegeneration.com" rel="noopener" target="_blank">Born Free Generation</a>
-- <a href="https://187com.fr" rel="noopener" target="_blank">187com.fr</a>
-- <a href="https://www.onceuponatimemag.com" rel="noopener" target="_blank">Once Upon a Time Magazine</a>
-- <a href="https://canals-amsterdam.nl" rel="noopener" target="_blank">Amsterdam Canals</a>
+- <a href="https://www.bornfreegeneration.com" rel="noopener noreferrer" target="_blank">Born Free Generation</a>
+- <a href="https://187com.fr" rel="noopener noreferrer" target="_blank">187com.fr</a>
+- <a href="https://www.onceuponatimemag.com" rel="noopener noreferrer" target="_blank">Once Upon a Time Magazine</a>
+- <a href="https://canals-amsterdam.nl" rel="noopener noreferrer" target="_blank">Amsterdam Canals</a>
 
-<br />
+<br>
 
 ## Brand identities
 
-- <a href="https://mailchimp.com/design/" rel="noopener" target="_blank">Mailchimp</a>
+- <a href="https://mailchimp.com/design/" rel="noopener noreferrer" target="_blank">Mailchimp</a>

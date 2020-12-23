@@ -1,7 +1,7 @@
 ---
 title: "Quit Social Media Notes"
-aliases: ["QSM"]
-descriptions: "Notes for [quitsocialmedia.club](https://quitsocialmedia.club)"
+aliases: ["QSM", "Quit Social Media"]
+description: "Notes for [quitsocialmedia.club](https://quitsocialmedia.club)"
 permalink: /qsm
 redirect_from:
   - /quit-social-media
@@ -10,10 +10,10 @@ redirect_from:
   - /quit-social-media-notes
 ---
 Content in this page are random, pretty messed up and both in English and Italian, since these are quick notes for the website content creation.
-{:.razzmatazz .warning}
+{:.razzmatazz .box}
 
 To-do list, progress status and purposes are tracked on the [roadmap](https://quitsocialmedia.club/roadmap)
-{:.warning}
+{:.box}
 
 ## Content
 
@@ -21,7 +21,7 @@ To-do list, progress status and purposes are tracked on the [roadmap](https://qu
 - [Differenze fra Free Software e Open Source](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
 - ![Awesome Humane Tech](https://raw.githubusercontent.com/humanetech-community/awesome-humane-tech/main/humane-tech-badge.svg?sanitize=true) badge
 - hypothes.is tags with language
-- [Translate](https://wiki.fsfe.org/TechDocs/Mainpage/Translations) “[What is Free Software](https://fsfe.org/freesoftware/freesoftware.it.html) page in italian, on <fsf.org>
+- [Translate](https://wiki.fsfe.org/TechDocs/Mainpage/Translations) “[What is Free Software](https://fsfe.org/freesoftware/freesoftware.it.html) page in italian, on <fsfe.org>
 - [Snowden Stuff on Wired](https://www.wired.com/tag/edward-snowden/)
 - <https://deletefacebook.com>
 - <https://mzl.la/unfck>
@@ -104,7 +104,7 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 
 ## Video spiegazione
 
-- non TUTTI gli argomenti spiegati sono oggettivamente inequivocabilmente sempre veri in ogni caso, ma unendoli insieme emerge piuttosto chiaramente e oggettivamente che c'è un problema, piuttosto grosso.e
+- non TUTTI gli argomenti spiegati sono oggettivamente inequivocabilmente sempre veri, ma unendoli insieme emerge piuttosto chiaramente e oggettivamente che c'è un problema, piuttosto grosso.e
 - perché
     - partire dall'utente
     - un luogo che raccolga TUTTI i motivi per cui i social proprietari sono dannosi, sotto ogni punto di vista

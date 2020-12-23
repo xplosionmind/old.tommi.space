@@ -1,10 +1,9 @@
 ---
 date: 2020-05-12
 updated: 2020-12-03
-tags: ["design"]
+tags: design
 description: "It’s a wonderful world, hidden in plain sight. Here there are some resources for inspiration and study."
-redirect_from:
-  - /tipografia
+redirect_from: /tipografia
 ---
 A premise: I have a fetish for Typography. I really do. I often find myself tweaking font faces when instead I have much more important and urgent things to take care of, or I spend a long time watching super technical videos and documentaries on the history of design and visual representation of writing. I wonder how would it be if I chose it as my main interest, alto at a professional level. Nevertheless, I love it, and by checking the insights below, you might be struck by its power and beautiful effectiveness, too.
 

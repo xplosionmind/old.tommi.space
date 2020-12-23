@@ -1,7 +1,7 @@
 ---
 date: 2020-11-10
 updated: 2020-11-22
-tags: ["zen"]
+tags: zen
 description: "I believe the foundations of a peaceful, productive and full life are composed of a combination of habits and boundaries. These are the ones I set to myself"
 redirect_from:
   - /routine

@@ -5,7 +5,7 @@ tags: poetry
 description: "Poesie incontrate vagabondando nel mondo delle parole"
 lang: it
 ---
-## Wisława Szymborska - Pi Greco
+## <cite>Pi Greco</cite>, Wisława Szymborska
 
 > È degno di ammirazione il Pi greco   
 > tre virgola uno quattro uno.   
@@ -36,7 +36,7 @@ lang: it
 <br>
 <br>
 
-## Erri De Luca - Considero Valore
+## <cite>Considero Valore</cite>, Erri De Luca
 
 > Considero valore ogni forma di vita, la neve, la fragola, la mosca.   
 > Considero valore il regno minerale, l’assemblea delle stelle.   

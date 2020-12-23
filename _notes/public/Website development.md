@@ -224,7 +224,7 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 - `letter-spacing` and `word spacing` (it's nice as it is)
 - light/dark mode switch button (I'm deep and dark / I'm bright and shiny)
 - list of belonging tags at the top of the post page
-- Make [about](At%20home.md#about) a page
+- Make [about](Home%20todo%20list.md#about) a page
 - Mobile optimisation
 - move `stuff extended` to `The Jar`
 - [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) **redesign**

@@ -1,6 +1,8 @@
 ---
 date: 2020-07-17
 updated: 2020-08-02
+tags: draft
+aliases: ["Music"]
 description: "Soundtracks of my life. The songs which marked my exsistence and made me who I am."
 redirect_from:
   - /canzoni

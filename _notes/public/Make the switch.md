@@ -14,8 +14,9 @@ redirect_from:
   - /alternative-software
   - /alternative
 ---
-- [Quit Social Media](https://quitsocialmedia.club) (note: the previous link leads to a website which is still [[Quit Social Media|work in progress!]])
+- [Quit Social Media](https://quitsocialmedia.club) (note: the previous link leads to a website which is still [[Quit Social Media Notes|work in progress!]])
 - [[Quit Google]]
 - [[Quit Spotify]]
-- [[Quit Flickr]] and switch to Piwigo
+- [[Switch to Piwigo]] and switch to Piwigo
 - [[Quit listing]]
+- [[Switch to LineageOS]]

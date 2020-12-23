@@ -1,9 +1,9 @@
 ---
 date: 2020-05-06
-updated: 2020-12-10
+updated: 2020-12-20
 tags: ["geek", "wip"]
 image: "https://assets.tommi.space/images/apps.png"
-description: "A comprehensive list of apps I use + interesting apps I have to keep record of. Sub-elements in the lists are links to great learning resources (official documentation, if present, won’t be mentioned)"
+description: "A comprehensive list of apps I use + interesting apps I have to keep record of."
 redirect_from:
   - /installed
   - /installed-apps
@@ -13,14 +13,14 @@ redirect_from:
   - /programmi
   - /software
 ---
-Everything in this list is Open Source, except where otherwise specified
+Everything in this list is free and Open Source, except where otherwise specified
 {:.blue .box}
 
 <br>
 
 ## Server
 
-Services and apps self-hosted and running on my server, can be found in the [[Server]] Jar item.
+Services and apps self-hosted and running on my server can be found in the [[Server]] Jar item.
 
 <br>
 <br>
@@ -35,14 +35,14 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - ~~[Audacity](https://www.audacityteam.org/ "Audacity official website"), audio editing software. I know, I have Garage Band which is awesome but… Audacity works the same way anywhere.~~ I need very little sound editing, mixing, etc: GarageBand is fine; furthermore, it's neat, simple and quick.
 - [Backtrack](https://www.backtrack.team/), the Holy Graal for university students which get easily distracted (me). It allows you to recover audio up to 5 hours before. It’s not Open Source and I payed 2€ for it. Totally worth it.
 - ~~[balenaEtcher](https://www.balena.io/etcher/), the safest, simplest and quickest software to flash OS images to external drives.~~ I wasn't using it so much.
-- [BitBar](https://getbitbar.com), run any plugin from the top bar
+- [BitBar](https://getbitbar.com "BitBar official website"), run any plugin from the top bar
 - ~~[BlackHole](https://blackhole.run/), to share any file. Fast and private. Based on [Blockstack](https://blockstack.org/).~~ It's useless.
 - ~~[Blockstack](https://blockstack.org/), ideally, it’s something **awesome**, definitely game-changing.~~ Practically, it doesn’t work on my Mac (I tried <a href="https://forum.blockstack.org/t/cant-use-any-dapp/10628" rel="noopener noreferrer" target="_blank">everything</a>). I uninstalled and I’m not using it, then.
 - <a href="https://kevin-de-koninck.github.io/Clean-Me/" rel="noopener noreferrer" target="_blank">Clean Me</a>, an Open Source, better, neat and perfectly working alternative to CCleaner written in Swift.
 - [CopyQ](https://hluk.github.io/CopyQ/), a clipboard history recorder, which keeps a record of all copied text and items. It saved my life several times
-- <a href="https://www.darktable.org/" rel="noopener noreferrer" target="_blank">Darktable</a>, widely used (still, not the first option for pros) photo editing software. I wish I’d love it but, damn, it’s so friggin complicated.
-- <a href="https://www.digikam.org/" rel="noopener noreferrer" target="_blank">Digikam</a>, a photo management software.
-- <a href="https://dupeguru.voltaicideas.net/" rel="noopener noreferrer" target="_blank">dupeGuru</a>, a file (specially images) duplicate finder. It’s fantastic, but it doesn’t work with more than 200 photos for me.
+- [Darktable](https://www.darktable.org/ "Darktable official website"), widely used (still, not the first option for pros) photo editing software. I wish I’d love it but, damn, it’s so friggin complicated.
+- ~~[Digikam](https://www.digikam.org/ "Digikam official website"), a photo management software~~. I don't have time to learn it and it isn't so essential.
+- <a href="https://dupeguru.voltaicideas.net/" rel="noopener noreferrer" target="_blank">dupeGuru</a>, a file (specially images) duplicate finder. It would be fantastic, but it doesn’t work with more than 200 photos, for me.
 - [DWAgent](https://www.dwservice.net/en/download.html?_request=main&page=download) by [DWS Service](https://www.dwservice.net/), a great, simple and lightweight VNC, thus a program which allows you to access your computer remotely from any web browser.
 - [Expanso](https://espanso.org/), a wonderful text expander
 - [FileZilla](https://filezilla-project.org/), the best and most used [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol).
@@ -64,8 +64,8 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [KeePassXC](https://keepassxc.org "KeepassXC official website"), A community maintained fork of the popular discontinued [KeePassX](https://www.keepassx.org/) application with more features and frequent updates.
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/), keyboard remapping. I use it to swap the `esc` key with `CAPSLOCK`, for a better usability in vim.
 - <a href="https://keybase.io/" rel="noopener noreferrer" target="_blank">Keybase</a>, a great secure messaging service.
-- ~~[LBRY](https://lbry.com/), the first digital marketplace to be controlled by the market's participants rather than a corporation or other 3rd-party. Basically, a healthier version of YouTube.~~ Using [the web client](https://lbry.tv) only, the app is not worth it.
-- ~~[LibreOffice](https://www.libreoffice.org/), the best open Office Suite.~~ for my needs, the default Apple office apps are more than enough. If I need a file in `.odt`, I export in `.docx` from Pages and I convert it in `.odt` with Pandoc.
+- ~~[LBRY](https://lbry.com/), the first digital marketplace to be controlled by the market's participants rather than a corporation or other 3rd-party. Basically, a healthier version of YouTube~~. I'm using [the web client](https://lbry.tv) only, the app is not worth it.
+- ~~[LibreOffice](https://www.libreoffice.org/ "LibreOffice official website"), the best open Office Suite.~~ for my needs, the default Apple office apps are more than enough. If I need a file in `.odt`, I export in `.docx` from Pages and I convert it in `.odt` with Pandoc.
 - ~~[MacDown](http://macdown.uranusjr.com/), a markdown editor which has everything I need. I don’t use it much since I have both Joplin and Vim to open and edit `.md` files, but it’s very lightweight and it’s handy to have an app to view and edit them on the fly.~~ using MacVim + Marked 2, instead.
 - [MacVim](https://macvim-dev.github.io/macvim/), gvim for MacOS. pretty nice to edit files on the go.
 - ~~[MEGAsync](https://mega.nz/sync "MEGAsync official page"), the synchronization app for [MEGA](https://mega.nz "MEGA official website") Cloud service.~~ Not using MEGA so much anymore. Nextcloud + Cubbit only.

@@ -11,9 +11,9 @@ redirect_from:
 ---
 ## Festival, Eventi, incontri
 
-- dal 12 al 15 settembre 2019, sono stato al [**Festival della Comunicazione**](http://www.festivalcomunicazione.it/) di Camogli
-	- [foto](https://www.flickr.com/photos/tommiboom/albums/72157710867691378)
-- 27 settembre 2020, [TALK](https://ilpost.it/talk-2) de [Il Post](https://ilpost.it), Faenza
+- dal 12 al 15 settembre 2019, sono stato al [**Festival della Comunicazione**](http://www.festivalcomunicazione.it/ "Sito web del Festival della Comunicazione") di Camogli
+	- [foto](+++)
+- 27 settembre 2020, [TALK](https://ilpost.it/talk-2) de [Il Post](https://ilpost.it "Il Post"), Faenza
 
 <br>
 

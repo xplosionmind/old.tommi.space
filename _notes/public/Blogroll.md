@@ -14,7 +14,7 @@ A website appears in this list for at least one of these three reasons:
 
 <br>
 
-Listed in alphabetical order. I could never determine an order of importance.
+The following list follows an alphabetical order.
 
 - [Leo Babauta](https://leobabauta.com)'s blog: the perfect example of a literally minimalistic website. It's not poor of content, yet it's neat, clean and intuitive.
 - [Backpackerz: rewind 2010s](https://thebackpackerz.com/special/rewind/2010/), the precursor of the new generation of “longreads” (a.k.a.: articles which take a lot of time to be read and written)

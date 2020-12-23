@@ -17,6 +17,7 @@ Anything anyone will ever be looking for can be found in the **AWESOME** [Awesom
 - [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 - Tania Rascia’s [blog](https://www.taniarascia.com/)
 - [Free Software course](https://github.com/open-education-polito/free-software-course) by [Open Education PoliTo](https://openeducation.polito.it).
+- [FARE PoliTo](https://fare.polito.it/corsi-completi "FARE PoliTo")
 - [Corso base GNU Linux](https://linux.studenti.polito.it/wp/corso-gnu-linux-base-autunno-2019/) in italiano, del team Linux@studenti del Politecnico di Torino.
 - [The Missing Semester](https://missing.csail.mit.edu/), a great, awesome, life-changing set of lectures to improve Developer’s Tools usage and maximize efficency when working with computers.
 - [The Odin Project](https://www.theodinproject.com)

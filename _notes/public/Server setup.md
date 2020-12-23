@@ -1,8 +1,7 @@
 ---
 date: 2020-03-21
 updated: 2020-08-03
-tags: ["geek"]
-code: 1
+tags: geek
 description: "A walktrough of the steps I executed to set up my server"
 ---
 A **huge shoutout** to my friend [Claudio](http://claudiofaoro.com), who helped me understand and perform the most tricky passages.
