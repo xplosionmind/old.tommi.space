@@ -104,7 +104,7 @@ a .pwg-icon {
 @media only screen and (max-width: 640px) {
 	.contentWithMenu .titrePage h2,
 	.contentWithMenu .browsePath {
-		text-indent: 50px; !important;
+		text-indent: 50px !important;
 	}
 }
 
@@ -134,8 +134,6 @@ a {
 	}
 }
 
-.navigationBar {
-	* {
-		var(--other-grey) !important;
-	}
+.navigationBar * {
+	color: var(--other-grey) !important;
 }
