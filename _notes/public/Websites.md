@@ -1,7 +1,7 @@
 ---
 date: 2020-10-27
 updated: 2020-10-27
-tags. web, idea
+tags: web, idea
 redirect_from:
   - /websites-ideas
   - /philosophy-websites

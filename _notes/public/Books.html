@@ -1,6 +1,6 @@
 ---
 date: 2020-09-09
-updated: 2020-09-22
+updated: 2020-12-25
 description: "Books I own and books I’d love to read and/or have"
 tags: read
 redirect_from: /library
@@ -10,13 +10,12 @@ toc: 0
 	.library .col3 {
 		font-family: "Ubuntu Mono", mono
 	}
+    th {
+      position: sticky;
+      top: 0;
+      background: var(--background);
+    }
 </style>
-<br />
-<ul>
-	<li><a href="#Wishlist">Wishlist</a></li>
-	<li><a href="#Library">Library</a></li>
-</ul>
-<br /><br />
 <h2 id="Wishlist">Wishlist</h2>
 <table class="wishlist">
   {% for row in site.data.books-wishlist %}

@@ -50,7 +50,6 @@ Creative and technical aims, ideas annotation and drafts tracking.
 
 Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
-1. **Get rid of jQuery**: it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time. Use pure JavaScript instead
 1. [**Visioni**](/visioni)
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
@@ -59,8 +58,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 	- horizontal instead of vertical scrolling of the gallery
 	- PDF portfolio download
 1. In [[Books]]
-   - add IDs to every row corresponding to the title of the book
-   - make table header sticky (maybe with local CSS or a specific class)
+   - add IDs to every row corresponding to the title of the book (I posted [a question about this on the Jekyll forum](https://talk.jekyllrb.com/t/table-data-id-in-tablerow-loop/5398))
 1. Replace SEO tag with Liquid syntax
 1. Take the most advantage possible from installed plugins
 1. The new Jar:
@@ -209,6 +207,7 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 - cursor styling
 - final header configuration
 - Fix [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51).
+- **Get rid of jQuery**: it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time. Use pure JavaScript instead ✅ 2020-12-25 **FINALLY** !
 - gif instead of images 
 - **Global search**
     - [Algolia](https://www.algolia.com/)

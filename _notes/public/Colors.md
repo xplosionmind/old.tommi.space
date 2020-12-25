@@ -3,11 +3,11 @@ date: 2020-05-22
 updated: 2020-09-16
 tags: design, geek, wip, web
 description: "A collection of colors I love and where I use them"
-redirect_from: ["/colours, "/colori"]
+redirect_from: ["/colours", "/colori"]
 ---
 ## xplosionmind
 
-[tommi.space](https://tommi.space "Tommi Space")) [palette](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_root.scss "tommi.space main colors in a CSS file")
+[tommi.space](https://tommi.space "Tommi Space") [palette](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_root.scss "tommi.space main colors in a CSS file")
 
 - `white`, background for light theme
 - `#111` almost black

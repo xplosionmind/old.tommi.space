@@ -1,33 +1,24 @@
-@media only screen and (min-width: 950px) {
-	.nav-list {
-		display: block !important;
-		box-shadow: var(--shadow);
-	}
-	nav svg {
-		margin-top: .6rem !important;
-	}
-}
-
-.navigation {
-	margin: 2vw 2vw var(--mastodon);
-	width: 96vw;
+.nav {
 	height: var(--height);
+	margin: 2vw;
 	text-transform: uppercase;
 	font-weight: 700;
-	z-index: 9;
 	* {
 		border-radius: var(--radius-m);
+		list-style-type: none;
 	}
-	a {
-		text-decoration: none;
-	}
+	/* activate the following if you choose to make the header fixed */
+	/*z-index: 9;
+	position: fixed;
+	top: 2vw;
+	right: 2vw
+	background: var(--background); */
 }
 
-.xplosionmind {
+#home {
 	padding: 0 var(--regular);
 	float: left;
 	line-height: var(--height); 
-	height: var(--height);
 	font-size: var(--bigger);
 	background: var(--primary);
 	box-shadow: var(--shadow);
@@ -45,28 +36,21 @@
 	}
 }
 
-.nav-container {
-	max-width: 100%;
-	height: var(--height);
-}
-
 nav {
 	float: right;
-	background: var(--background);
+	text-align: right;
 	padding: 0 var(--small);
 	box-shadow: var(--shadow);
 	svg {
 		width: var(--bigger);
-		margin: 0 var(--small);
+		margin: var(--small);
 	}
 	ul {
-		list-style: none !important;
+		list-style: none;
 		margin: 0;
 		padding: 0;
 		li {
 			float: left;
-			position: relative;
-			list-style: none !important;
 			margin: 0;
 			a {
 				display: block;
@@ -79,92 +63,41 @@ nav {
 				&:focus{
 					color: var(--primary);
 				}
-				&:focus {
-					color: var(--primary);
-				}
 			}
-			ul li a {
-				padding: var(--regular);
-				line-height: var(--regular);
-			}
+		}
+		ul {
+			list-style: none;
 		}
 	}
 }
 
-.nav-dropdown {
-	position: absolute;
+.dropdown-content {
 	display: none;
+	position: absolute;
 	margin-top: var(--small);
 	background: var(--background);
+	overflow: scroll;
+	box-shadow: var(--shadow);
 }
 
-/* Mobile navigation */
+/* Mobile nav */
 .nav-mobile {
 	display: none;
 	height: var(--height);
 	width: var(--height);
 	position: absolute;
-	top: .7rem;
-	right: .7rem;
+	top: 2vw;
+	right: 2vw;
 	background: var(--background);
 	box-shadow: var(--shadow);
-}
-
-@media only screen and (max-width: 950px) {
-	.navigation {
-		width: 94vw;
+	span {
+		top: 1.4rem;
+		left: .7rem;
 	}
-	.nav-mobile {
-		display: block;
-	}
-	nav {
-		margin: var(--small) 0;
-		text-align: right;
-		ul {
-			display: none;
-			padding: var(--small) 0;
-			li {
-				float: none;
-				ul li a {
-					padding-right: 4.5rem;
-				}
-				a {
-					padding: var(--regular-less) var(--big);
-					line-height: var(--regular-more);
-				}
-			}
-		}
-	}
-	.nav-dropdown {
-		position: static;
-		margin-top: var(--small);
-		overflow: scroll;
-	}
-	.page-header h1 {
-		font-size: var(--height);
-	}
-	.navigation,
-	.title {
-		width: 94vw;
-	}
-	.box {
-		margin: var(--bigger) 3%;
-	}
-	.stuff-logo {
-		margin-top: var(--bigger)
-	}
-}
-
-#nav-toggle {
-	position: absolute;
-	left: 11px;
-	top: 13px;
-	cursor: url(https://assets.tommi.space/logos/cursor-hover.svg) 16 16, pointer;
-	padding: 10px 35px 16px 0;
 	span,
 	span::before,
 	span::after {
-		height: 3px;
+		height: 4px;
 		width: 26px;
 		background: var(--text);
 		position: absolute;
@@ -180,11 +113,37 @@ nav {
 	span::after {
 		bottom: .65rem;
 	}
-	&.active span {
+}
+
+@media only screen and (max-width: 950px) {
+	.nav-mobile {
+		display: block;
+	}
+	.nav-list {
+		position: fixed;
+		top: var(--mastodon);
+		right: -500px;
+		background: var(--background);
+		box-shadow: var(--shadow);
+		transition: .5s;
+	}
+	nav ul li {
+		float: none;
+	}
+}
+
+.open-menu {
+	.nav-list {
+		right: var(--small);
+		transition: .5s;
+	}
+	 .nav-mobile span {
 		background: transparent;
+		box-shadow: none;
 		&::before,
 		&::after {
 			top: 0;
+			box-shadow: none;
 		}
 		&::before {
 			transform: rotate(45deg);
@@ -192,5 +151,11 @@ nav {
 		&::after {
 			transform: rotate(-45deg);
 		}
+	}
+}
+
+.dropdown.open-menu {
+	.dropdown-content {
+		display: block;
 	}
 }
