@@ -1,11 +1,11 @@
 ---
 date: 2020-05-07
 updated: 2020-10-24
+aliases: ["Learning Resources"]
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
-redirect_from:
-  - /risorse
+redirect_from: /risorse
 ---
-Anything anyone will ever be looking for can be found in the **AWESOME** [Awesome Project](https://project-awesome.org). I'm writing nothing about it, just go on the page and dive in the power of the internet.
+Most of the things one could be looking for are very likely to be found in the **AWESOME** [Awesome Project](https://project-awesome.org). I'm writing nothing about it, just go on the page and dive in the power of the internet.
 {:.red .box}
 
 <br>
@@ -22,7 +22,7 @@ Anything anyone will ever be looking for can be found in the **AWESOME** [Awesom
 - [The Missing Semester](https://missing.csail.mit.edu/), a great, awesome, life-changing set of lectures to improve Developer’s Tools usage and maximize efficency when working with computers.
 - [The Odin Project](https://www.theodinproject.com)
 - [Free Code Camp](https://www.freecodecamp.org/)
-- [Docker](https://github.com/championshuttler/docker-basicLearning)
+- [Docker basic learning](https://github.com/championshuttler/docker-basicLearning)
 - [Papers We Love](https://paperswelove.org/), a [repository](https://github.com/papers-we-love/papers-we-love) of academic computer science papers and a [community](https://github.com/papers-we-love/papers-we-love/wiki/Creating-a-PWL-chapter) who loves reading them.
 - [HTML and CSS](http://www.htmlandcssbook.com/), a book by Jon Duckett
 - [CSS - An Art, a Science, a Nightmare](https://www.taniarascia.com/overview-of-css-concepts/), a comprehensive wonderful article by Tania Rascia

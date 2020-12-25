@@ -1,8 +1,7 @@
 ---
 date: 2020-05-13
 updated: 2020-10-24
-redirect_from:
-  - /data
+redirect_from: /data
 ---
 There are hundreds (if not thousands) of free data sets available, ready to be used and analyzed by anyone willing to look for them.  Below is a list of some of the most globally interesting I’ve come across, but there are many, many more in many different niches.
 

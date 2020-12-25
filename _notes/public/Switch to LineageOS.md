@@ -3,6 +3,7 @@ date: 2020-12-10
 updated: 2020-12-10
 tags: geek
 permalink: /lineageos
+redirect_from: ["/switch-to-lineageos", "/degoogle-android"]
 ---
 Quitting the privacy obtrusive Google-services-filled stock Android ROM and switching to the lovely, clean, light yet powerful [LineageOS][lineage].
 

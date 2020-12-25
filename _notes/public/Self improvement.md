@@ -1,6 +1,6 @@
 ---
 date: 2020-12-08
-tags: ["zen"]
+tags: zen
 title: "Self improvement"
 aliases: ["Zen", "Lifestyle"]
 description: "I am a clumsy, messy, confused guy, and I need to work hard to achieve a result a more determined guy may accomplish in much less time and with greater ease. Below are some of the practices I adopt do be more self-aware, and to grow both physically and spiritually"

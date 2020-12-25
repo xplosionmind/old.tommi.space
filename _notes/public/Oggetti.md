@@ -15,8 +15,8 @@ redirect_from:
 
 Sapete bene tutti quanto io sia appassionato, quasi ossessionato, dalle storie: mi sono sempre rifiutato di indossare vestiti e indumenti o utilizzare oggetti che non avessero un perché o una particolare relazione con me, se non il fatto che mi piacessero e li avessi acquistati o ricevuti in dono. Incredibilmente, tutti quelli ricordati qui, io stesso mi sorprendo quando ci penso, hanno una storia incredibile e sono stati protagonisti di peripezie straordinarie. Sarà dunque un po’ triste per me rievocare quando e come ho perso le tracce di ciascuno, ma, almeno, saranno ricordati per sempre.
 
-<br />
-<br />
+<br>
+<br>
 
 ## Occhiali
 

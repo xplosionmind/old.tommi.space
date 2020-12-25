@@ -1,7 +1,7 @@
 ---
 date: 2020-12-19
 updated: 2020-12-19
-tags: track, idea, draft
+tags: track, idea, draft, wip
 toc: 0
 ---
 Since the beginning of 2019, I've been shooting every 27 days at 12:11 PM my desk, without cleaning or uncluttering it. I'd just shoot a picture of how my desk is at a given moment.

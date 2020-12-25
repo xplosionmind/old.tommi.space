@@ -2,9 +2,7 @@
 date: 2020-10-13
 updated: 2020-10-13
 tags: film
-redirect_from:
-  - /moviemaking
-  - /directing
+redirect_from: ["/moviemaking", "/directing"]
 ---
 ## Tips on set
 

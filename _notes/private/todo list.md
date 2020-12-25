@@ -1,22 +1,19 @@
 ---
-tags: ["todo"]
+tags: todo
 aliases: ["to do", "todo", "to do list"]
 ---
 1. Study
-1. Roadmap full immersion
-5. regali
-1. 23 dic Babbo Natale segreto
+5. regalo mamma e papà
 4. [[Festival]]
-4. Mappa di cose da fare dic-gen
-6. Regalo Vale
+6. Regalo Vale Conta
 7. TBoom pen nuova
 8. [[Sconnesso]]
-9. [[Images management]]
+9. [[Images]]
 10. [[Quit Social Media Notes]]
-11. Revise [[Spese periodiche]] and create an overall budget watchlist, to have a bigger picture
+11. [[Spese periodiche]]
 12. [[Databases]]
-13. [[will]]
-14. [[writing]]
+13. [[Will]]
+14. [[Writing]]
 15. [[Geek todo|Geek stuff]]
 16. Wander in “Things” folder
 17. [[Knowledge#Missing|Learn]]
@@ -24,4 +21,4 @@ aliases: ["to do", "todo", "to do list"]
 
 <br>
 
-- [[Home todo list]]
+When at home: [[Home todo list]]

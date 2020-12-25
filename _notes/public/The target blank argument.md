@@ -1,11 +1,10 @@
 ---
 date: 2020-10-13
 updated: 2020-10-13
-permalink: /target-blank
+tags: geek
 title: "The target=\"_blank\" argument"
-description: "When a page should automatically be opened in a new page? Why?"
+permalink: /target-blank
 redirect_from: /target-blank-argument
-tags: ["geek"]
 ---
 The `target="_blank"` argument is a common dilemma among web developers: there are subjective choices to a common problem: should this link, if clicked, be opened in a new tab or not? Below, some articles on the topic.
 

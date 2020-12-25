@@ -1,15 +1,17 @@
 ---
 date: 2020-12-09
 updated: 2020-12-09
-tags: ["geek"]
+tags: geek
 description: "What I need / have / would love to learn, in order of urgency"
 ---
 Actually, I don't need to learn these things only, but here I note the main things that sooner or later will make me sit down and bingewatch tutorials on the argument to get a deep understanding of the concept, in order to make use of it in the best possible way. As you can see, it's mainly [geek](/geek "Geek tag page")-related stuff, which is the easier to keep track of.
 
+Gaps in knowledge should be covered with the right [[Resources|Learning Resources]], and remembered with an effective [[Knowledge management]].
+{:.blue .box}
+
 1. Markdown
 	- inline classes
-	- Flavors and conversions
-1. [Pandoc](https://pandoc.org/)
+1. [Pandoc](https://pandoc.org/ "Pandoc official website")
 	- converting from `docx`
 	- understanding conversion engines, `mactex`, `latex`, etc.
 	- understanding citation method

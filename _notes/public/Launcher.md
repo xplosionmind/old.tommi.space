@@ -5,7 +5,7 @@ tags: geek
 toc: 0
 description: "Every geek worth to be called so has a custom launcher. This is the story of how I changed my preferred one for my first time, after several years."
 ---
-**30 May 2020**
+**30<sup>th</sup> May 2020**
 {:.date}
 
 I was writing the list of the [[Apps#Android|apps on my Android phone]] and I got to the point where I had to add [Nova Launcher](http://novalauncher.com/).
@@ -18,16 +18,16 @@ Out of pure curiosity, I went on [AlternativeTo](https://alternativeto.net/softw
 
 Here’s the launchers (in alphabetical order):
 
-- [KISS Launcher](https://kisslauncher.com/), as in **K**eep **I**t **S**oft and **S**imple. it attracts me because it’s **very** lightweight and it has a simple search bar you can use to do anything or go anywhere
-- [Lawnchair](https://lawnchair.app/), which seems the one with the biggest team and community behind. Also: a great design
-- [Slim Launcher](https://github.com/sduduzog/slim-launcher), a bare-bones one with pure simplicity
+- [KISS Launcher](https://kisslauncher.com/ "KISS Launcher official website"), as in **K**eep **I**t **S**oft and **S**imple. it attracts me because it’s **very** lightweight and it has a simple search bar you can use to do anything or go anywhere
+- [Lawnchair](https://lawnchair.app/ "Lawncharir official website"), which seems the one with the biggest team and community behind. Also: a great design
+- [Slim Launcher](https://github.com/sduduzog/slim-launcher "Slim Launcher GitHub repository"), a bare-bones one with pure simplicity
 - [T-UI](https://github.com/fAndreuzzi/TUI-ConsoleLauncher), I need to test it to really get how it works, but it seems like the whole launcher is replaced by some sort of Linux CLI. **Wow**.
 
 I’ll dig more in depth to understand how they works and which one suits my needs in the best way and I’ll come back in a few days with my verdict.
 
 <br />
 
-**1 June 2020**
+**1<sup>st</sup> June 2020**
 {:.date}
 
 I need no more time. That’s it. **KISS Launcher** is my new launcher. I completely fell in love. I tested it first, and I gave a quick look to the others, but I already decided. It’s great:
@@ -43,7 +43,7 @@ I’m sorry for the other launchers, but, in the end
 
 - Lawnchair is nothing new - boring.
 - Slim Launcher is quite nice but too slim, it makes too hard to do accomplish some specific tasks
-- a GREAT shoutout fo T-UI, which is developed by a fellow Italian developer, [Francesco Andreuzzi](https://fandreuzzi.me/), which developed it at 17 years old. The launcher itself is awesome, as I pointed out, it transforms your android home in a Linux shell. You get anywhere in your phone from there. I didn’t choose because sometimes I need to get things done very very quickly and with T-UI not every action can be performed in a few taps.
+- a GREAT shoutout fo T-UI, which is developed by a fellow Italian developer, [Francesco Andreuzzi](https://fandreuzzi.me/ "Francesco Andreuzzi personal website"), which developed it at 17 years old. The launcher itself is awesome, as I pointed out, it transforms your android home in a Linux shell. You get anywhere in your phone from there. I didn’t choose because sometimes I need to get things done very very quickly and with T-UI not every action can be performed in a few taps.
 
 That’s it. Wrapping it up, I’m so happy I found the best launcher ever.
 
@@ -53,9 +53,9 @@ Bye
 
 <br />
 
-**7 August 2020**
+**7<sup>th</sup> August 2020**
 {:.date}
 
 I found another great launcher, but it’s very minimal and it makes it so hard to search for anything which isn’t an app.
 
-It’s [Last Launcher](https://f-droid.org/en/packages/io.github.subhamtyagi.lastlauncher/) and it’s free and open source.
+It’s [Last Launcher](https://f-droid.org/en/packages/io.github.subhamtyagi.lastlauncher/ "Last Launcher on F-Droid") and it’s free and open source.

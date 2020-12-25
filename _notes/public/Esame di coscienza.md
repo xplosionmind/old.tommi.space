@@ -1,11 +1,11 @@
 ---
 date: 2020-12-08
-updated: 2020-12-08
+updated: 2020-12-23
 tags: zen
 lang: 'it'
 toc: 0
 ---
-L'importanza di un esame di coscienza giornaliero, secondo Seneca:
+L'importanza di un esame di coscienza giornaliero per [[Self improvement|il miglioramento di sé stessi]], secondo Seneca:
 
 > 1. Omnes sensus perducendi sunt ad firmitatem; natura patientes sunt, si animus illos desit corrumpere, qui cotidie ad rationem reddendam vocandus est. Faciebat hoc Sextius, ut consummato die, cum se ad nocturnam quietem recepisset, interrogaret animum suum: <q>quod hodie malum tuum sanasti? Cui vitio obstitisti? Qua parte melior es?</q>  
 > 2. Desinet ira et moderatior erit quae sciet sibi cotidie ad iudicem esse veniendum. Quicquam ergo pulchrius hac consuetudine excutiendi totum diem? Qualis ille somnus post recognitionem sui sequitur, quam tranquillus, quam altus ac liber, cum aut laudatus est animus aut admonitus et speculator sui censorque secretus cognovit de moribus suis!  

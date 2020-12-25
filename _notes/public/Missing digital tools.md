@@ -1,7 +1,7 @@
 ---
 date: 2020-02-26
 updated: 2020-12-19
-tags: ["geek", "idea"]
+tags: geek, idea
 aliases: ["Programming ideas", "Development ideas"]
 description: "Ideas for programs which would be very useful, but I didn't find yet"
 permalink: /missing-tools

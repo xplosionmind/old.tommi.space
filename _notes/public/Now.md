@@ -4,7 +4,7 @@ updated: 2020-12-11
 ref: now
 description: "Stuff I'm up to in these days"
 ---
-The one you're reading is more than a simple web page, it's part [a movement](https://sive.rs/nowff). It was started by the legendary [Derek Sivers](https://sive.rs) in 2015, and [it grew a lot](https://sive.rs/now3) since then. To find out more about the concept and to find out [how many people](https://nownownow.com) are embracing it, visit [nownownow.com](https://nownownow.com/about)
+The one you're reading is more than a simple web page, it's part [a movement](https://sive.rs/nowff). It was started by the legendary [Derek Sivers](https://sive.rs "Derek Sivers' personal website") in 2015, and [it grew a lot](https://sive.rs/now3) since then. To find out more about the concept and to find out [how many people](https://nownownow.com) are embracing it, visit [nownownow.com](https://nownownow.com/about "About NowNowNow")
 {:.box}
 
 <br>

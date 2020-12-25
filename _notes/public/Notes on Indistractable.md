@@ -1,7 +1,9 @@
 ---
 date: 2020-12-13
-tags: ["book", "read"]
+tags: book, read, wip
 ---
+Notes on <cite><a href="https://www.nirandfar.com/indistractable" target="_blank" rel="noopener noreferrer">Indistractable</a></cite> by [Nir Eyal](https://www.nirandfar.com/about-nir-eyal "About page on Nir Eyal official website").
+
 > Removing online technology didn't work. I'd just replace one distraction with another.
 
 p.7

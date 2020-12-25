@@ -1,7 +1,7 @@
 ---
 date: 2020-11-22
 updated: 2020-11-22
-title: "Radio Ham"
+aliases: ["Radioamatori"]
 description: "Cose dal mondo dei Radioamatori"
 lang: it
 redirect_from:

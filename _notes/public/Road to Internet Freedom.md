@@ -1,17 +1,16 @@
 ---
 date: 2020-12-10
 updated: 2020-12-20
-tags: geek
-aliases: ["Path to Internet Freedom"]
+tags: geek, qsm
+aliases: "Path to Internet Freedom"
 ---
 1. [**Quit Social Media**](https://quitsocialmedia.club/roadmap)
-	- Convert to [Indie Web](https://indieweb.org), [Pixelfed](https://pixelfed.social)
+	- Convert to [Indie Web](https://indieweb.org "IndieWeb official website")
 1. Backup, download, reorganize and clean data from Google Drive
     1. ~~Check `Storage` folder~~ ✅ 2020-12-20
     1. ~~Check `Shared with me` folder~~ ✅ 2020-12-10
 1. Reduce the [digital footprint](https://en.wikipedia.org/wiki/Digital_footprint)
     1. Stop using pricey and unethical services: [[Make the switch]]
-	1. ~~Quit [IMDb](https://www.imdb.com/user/ur90419107/) and opt to a ethical alternative~~ ✅ 2020-12-20 - (switched to The Movie Database for now)
     1. ~~Delete unused accounts and subscriptions~~ ✅ 2020-12-20
     1. ~~Use [AnonAddy](https://anonaddy.com) only for online subscriptions~~ ✅ 2020-12-20
 1. Check policies, usage terms, privacy conditions of all the tools and services in use
@@ -22,7 +21,7 @@ aliases: ["Path to Internet Freedom"]
 		1. import Gmail data
 		1. import Protonmail data
 1. Install and configure [[Server#Wishlist|self-hosted apps]] only
-1. [[Switch to LineageOS]]
+1. [[Make the switch]]
 1. Set [LibreDNS](https://libredns.gr) as the system-wide encrypted DNS (already used as DNS over HTTPS in Firefox)
 
 ### further steps

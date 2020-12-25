@@ -13,6 +13,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 
 1. [Joplin GitHub issue](https://github.com/laurent22/joplin/issues/4129#issuecomment-737121740)
 1. decide whether to base archive and order on folders or on tags
+1. How to integrate audios in daily Zettelkasten system
 1. [automatically add updated time](https://forum.obsidian.md/t/improve-date-and-time-management/8543/2?u=xplosionmind) to Obsidian
 1. [[Website development]]
 1. [[Internet Freedom]]
@@ -22,7 +23,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 	- implement external storage settings
 	- social valuate long-term durability of Nextcloud
 	- Nextcloud cookbook
-1. https://svgbox.net
+1. <https://svgbox.net>
 1. Email Obsidian for a discount to Obsidian publish
 1. PISE notes in a dedicated vault
 1. Decide whether to use wiki links or plain markdown links

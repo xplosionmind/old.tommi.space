@@ -9,7 +9,7 @@ redirect_from:
   - /traveling
   - /backpacking
 ---
-As of the time I'm writing, we're in a middle of a pandemic and travelling for pleasure, especially abroad, is not a smart move. The more I stay put, the more I need to discover the world. I hope we'll get back to it very soon.
+As of the time I'm writing, we're in a middle of a pandemic and traveling for pleasure, especially abroad, is not a smart move. The more I stay put, the more I need to discover the world. I hope we'll get back to it very soon.
 
 ## Hospitality
 

@@ -1,5 +1,5 @@
 ---
-tags: ["analog"]
+tags: analog
 ---
 # Notes in Jarvis
 
@@ -52,6 +52,20 @@ tags: ["analog"]
 - [[2020-10-07 Nomi festival]]
 - [[2020-10-28 The Slot Philosophy]]
 - [[Fasi Festival]]
-- [[Rovering to Success]]
-- +++
+- 2020-11-07 [[Rovering to Success]]
+- [[2020-11-20 La sete per la conoscienza]]
+- [[2020-11-27 Sleepy]]
 - [[2020-12-04 Ode alla Sveglia all'Alba]]
+- [[2020-12-08 Daily]]
+- [[2020-12-09 Daily]]
+- [[2020-12-11 Daily]]
+- [[2020-12-12 Daily]]
+- [[2020-12-13 Daily]]
+- 2020-12-13 [[Notes on Indistractable]]
+- [[2020-12-14t17 Daily]]
+- [[2020-12-18 Daily]]
+- [[2020-12-19a20 Daily]]
+- [[2020-12-21 Daily]]
+- [[2020-12-22 Daily]]
+- [[2020-12-23 Daily]]
+- [[2020-12-24 Daily]]

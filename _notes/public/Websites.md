@@ -1,7 +1,7 @@
 ---
 date: 2020-10-27
 updated: 2020-10-27
-description: "Ideas of websites to share philosophies and lifestyles"
+tags. web, idea
 redirect_from:
   - /websites-ideas
   - /philosophy-websites
@@ -9,6 +9,8 @@ redirect_from:
   - /websites creation
 toc: 0
 ---
+Cool websites I should create:
+
 - [[The Slot Philosophy]]
 	- `time.slots` (not existing TLD)
 	- `slots.time` (not existing TLD)

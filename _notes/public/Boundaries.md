@@ -2,19 +2,21 @@
 date: 2020-11-10
 updated: 2020-11-22
 tags: zen
-description: "I believe the foundations of a peaceful, productive and full life are composed of a combination of habits and boundaries. These are the ones I set to myself"
 redirect_from:
   - /routine
   - /habits
 toc: 0
 ---
+I believe the foundations of a peaceful, productive and full life are composed of a combination of [[Loops|habits]] and boundaries.\
+Below are the ones I set to myself.
+
 The following decisions go hand in hand [[The Slot Philosophy]], which is my main and general approach to everyday life and time management
 {:.blue .box}
 
 - from 2013, stop playing and installing games on my mobile
 - from 9<sup>th</sup> November 2020, never use my laptop while in bed, except to watch movies or series
 - stop sending voice notes longer than 30-45 seconds by the end of 2020
-- [quit Social Media](https://quitsocialmedia.club) by the end of
+- [quit Social Media](https://quitsocialmedia.club) by the end of 2020
 
 <br>
 <br>

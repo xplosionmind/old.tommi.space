@@ -1,7 +1,7 @@
 ---
 date: 2020-09-04
 updated: 2020-09-05
-tags: read
+tags: read, book
 permalink: /lanier-social-media-notes
 redirect_from:
   - /quit-social-media-notes
@@ -10,6 +10,7 @@ redirect_from:
   - /lanier-notes
   - /notes-lanier
   - /ten-arguments-notes
+  - /ten-arguments-social
   - /notes-ten-arguments
   - /Notes-on-Ten-Arguments-For-Deleting-Your-Social-Media-Accounts
 toc: 0

@@ -2,6 +2,7 @@
 date: 2020-06-04
 updated: 2020-07-03
 permalink: /oggetti
+aliases: ["Oggetti"]
 lang: it
 description: "Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi."
 redirect_from:
@@ -15,13 +16,14 @@ redirect_from:
 
 Sapete bene tutti quanto io sia appassionato, quasi ossessionato, dalle storie: mi sono sempre rifiutato di indossare vestiti e indumenti o utilizzare oggetti che non avessero un perché o una particolare relazione con me, se non il fatto che mi piacessero e li avessi acquistati o ricevuti in dono. Incredibilmente, tutti quelli ricordati qui, io stesso mi sorprendo quando ci penso, hanno una storia incredibile e sono stati protagonisti di peripezie straordinarie. Sarà dunque un po’ triste per me rievocare quando e come ho perso le tracce di ciascuno, ma, almeno, saranno ricordati per sempre.
 
-<br />
-<br />
+<br>
+<br >
 
 ## Occhiali
 
 Ho ereditato da mio papà una forte sensibilità alla luce, quindi raramente sono senza un paio di occhiali da sole addosso. Molti di quelli che non mi conoscono, ne fanno esclusivamente una questione di stile, ma non è del tutto così: c’è una base di necessità.
-<br />
+
+<br>
 
 ### I primi antenati
 
@@ -43,14 +45,13 @@ Disperato, sono andato a cercare di nuovo il modello su ebay. 738$.
 
 ### I Blackfin
 
-Ad aprile 2015, partecipai con [Radioimmaginaria](/tutto#radioimmaginaria) all’[International Radio Festival](https://www.facebook.com/irfradiofest/), tenutosi nell’[Unicredit Pavilion](https://it.wikipedia.org/wiki/IBM_Studios) in Piazza Gae Aulenti a Milano. È stato fighissimo e tutto quello che abbiamo fatto è raccolto [qui](/tutto+#radioimmaginaria).
+Ad aprile 2015, partecipai con [Radioimmaginaria](/cose#radioimmaginaria) all’[International Radio Festival](https://www.facebook.com/irfradiofest/), tenutosi nell’[Unicredit Pavilion](https://it.wikipedia.org/wiki/IBM_Studios) in Piazza Gae Aulenti a Milano. È stato fighissimo e tutto quello che abbiamo fatto è raccolto [qui](/tutto#radioimmaginaria).
 
-C’erano un sacco stand di brand e radio molto importanti, fra cui quello di [Blackfin](https://www.blackfin.eu/). Io, come mio solito, mi aggiravo per il padiglione parlando con tutte le persone che incontravo, disturbando le dirette delle altre radio e facendo un sacco di rumore.
+C’erano un sacco stand di brand e radio molto importanti, fra cui quello di [Blackfin](https://www.blackfin.eu/ "Sito ufficiale Blackfin"). Io, come mio solito, mi aggiravo per il padiglione parlando con tutte le persone che incontravo, disturbando le dirette delle altre radio e facendo un sacco di rumore.
 
-Riporterò qui la conversazione che tenni con la mitica [Elena Sandre](https://www.facebook.com/elena.sandre.9), allo stand Blackfin.
+Riporterò qui la conversazione che tenni con la mitica [Elena Sandre](https://www.facebook.com/elena.sandre.9 "Profilo Facebook di Elena Sandrè"), allo stand Blackfin.
 
 T: <q>Ciao! Stavate cercando un modello affascinante come me?</q>\
-
 E: <q>Ecco! Proprio uno come te stavamo cercando!</q>\
 <q>Scegli un paio di occhiali</q>
 
@@ -66,7 +67,7 @@ Risparmio le mie urla di esaltazione e non potrei comunque esprimere i salti di 
 
 I Blackfin sono occhiali geniali, con montatura in titanio ultrasottile e ultraleggera, estremamente robusti e flessibili. Nonostante questo, il mio classico ipercinetismo è comunque riuscito a rompere una stanghetta. Dopo alcuni mesi di utilizzo, ha cominciato a piegarsi, poi si è rotta. Fui così costretto a lasciarli in un cassetto, finchè, a novembre di quest’anno, non mi sono trasferito a Torino per l’università, riuscendo così a trovare un rivenditore ufficiale Blackfin e farli riparare. Giacciono ora custoditi religiosamente nella loro custodia, da cui non sono più stati estratti per evitare altri irreparabili danni.
 
-<br />
+<br>
 
 ### La dinastia Oakley
 
@@ -97,7 +98,7 @@ Santa Nonna Gogò tornò subito in campo. Per il mio diciannovesimo compleanno, 
 
 ## TBoom Pen
 
-La TBoom Pen è la penna che è sempre nella mia tasca. Rigorosamente, modello [Parker Jotter](https://www.parkerpen.com/jotter-originals) con punta a sfera.
+La TBoom Pen è la penna che è sempre nella mia tasca. Rigorosamente, modello [Parker Jotter](https://www.parkerpen.com/jotter-originals "Parker Jotter sul sito ufficiale Parker") con punta a sfera.
 
 Fu un regalo della mamma nel 2014, e sopra mi fece incidere questa scritta:
 

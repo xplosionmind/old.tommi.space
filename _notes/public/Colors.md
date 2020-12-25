@@ -1,28 +1,28 @@
 ---
 date: 2020-05-22
 updated: 2020-09-16
-tags: design, geek, wip
+tags: design, geek, wip, web
 description: "A collection of colors I love and where I use them"
-redirect_from:
-  - /colours
-  - /colori
+redirect_from: ["/colours, "/colori"]
 ---
 ## xplosionmind
 
-[tommi.space](Home%20todo%20list.md) palette
+[tommi.space](https://tommi.space "Tommi Space")) [palette](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_root.scss "tommi.space main colors in a CSS file")
 
 - `white`, background for light theme
-- `#222` almost black, main for light theme and background for dark theme
+- `#111` almost black
+- `#333`, black-ish: the main text color for light theme and background color for the dark theme
 - `#E0E0E0` almost white, main for dark theme
-- `#333` dark-grey, grey for dark theme
-- `#DDD` light-grey, grey for light theme
+- `#555` dark-grey, grey for dark theme
+- `#AAA` light-grey, grey for light theme
 - `#FCC920` yellow, primary in dark theme
 - `#3185FC` blue, secondary in dark theme and primary in light theme
-- `#EC0868`, [*Razzmatazz*](https://en.wikipedia.org/wiki/Razzmatazz_(song)), secondary in light theme
-- `#E84855` red, warning
+- `#EC0868`, [*Razzmatazz*](https://en.wikipedia.org/wiki/Razzmatazz_(song) "Razzmatazz on Wikipedia"), secondary in light theme
+- `#D00` red, warning
 - `limegreen` green, warning
+- `#20CE88` second “geek” green
 
-<br />
+<br>
 
 ## Dark and green website
 
@@ -44,7 +44,7 @@ Color scheme for [Philosophy & Engineering](/filosofia) blog.
 Ah, red, what a color. So wonderful I gotta keep note of all the nice shades of it I lay my eye on. Also, I have a great passion for red tending towards magenta.
 
 - `#FF0000`, FULL, **strong**, total red
-- `#EC0868`, [*Razzmatazz*](https://en.wikipedia.org/wiki/Razzmatazz_(song))
+- `#EC0868`, [*Razzmatazz*](https://en.wikipedia.org/wiki/Razzmatazz_(song) "Razzmatazz on Wikipedia")
 - `#9A031E`, ruby red
 - `#D00`, dosso corsa
 - `#DF2935`, Rose Madder
@@ -95,5 +95,5 @@ MacOS dark theme system background colors. The accent colors can be found [here]
 
 ## Color palettes generators
 
-- [Colormind](http://colormind.io/)
-- [Coolors](https://coolors.co/)
+- [Colormind](http://colormind.io/ "Colormind")
+- [Coolors](https://coolors.co/ "Coolors")

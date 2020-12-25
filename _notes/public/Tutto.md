@@ -1,7 +1,7 @@
 ---
 date: 2020-02-04
 updated: 2020-11-04
-title: "Di tutto e di più"
+aliases: "Di tutto e di più"
 lang: it
 ref: tutto
 redirect_from:

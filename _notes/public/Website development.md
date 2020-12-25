@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2020-12-19
+updated: 2020-12-25
 tags: geek
 permalink: /development
 redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev"]
@@ -58,6 +58,9 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 	- Photo selection
 	- horizontal instead of vertical scrolling of the gallery
 	- PDF portfolio download
+1. In [[Books]]
+   - add IDs to every row corresponding to the title of the book
+   - make table header sticky (maybe with local CSS or a specific class)
 1. Replace SEO tag with Liquid syntax
 1. Take the most advantage possible from installed plugins
 1. The new Jar:

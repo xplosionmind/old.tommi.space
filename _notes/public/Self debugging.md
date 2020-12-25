@@ -1,9 +1,9 @@
 ---
 date: 2020-12-08
-tags: ["zen", "draft"]
+tags: zen, wip
 title: "Self-debugging"
 ---
-Self debugging means he process of sitting down, forgetting about everything else, and debugging yourself as if you were a buggy program. Trying to find out what's going on at a deeper level, without ending up throwing away, repressing, or wrongly addressing the core of some personal issue.
+*Self debugging* consists in the process of sitting down, forgetting about everything else, and debugging yourself as if you were a buggy program. Trying to find out what's going on at a deeper level, without ending up throwing away, repressing, or wrongly addressing the core of some personal issue.
 
 <br>
 <br>

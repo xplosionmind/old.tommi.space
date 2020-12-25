@@ -1,9 +1,10 @@
 ---
-date: 2020-12-11
-tags: ["geek"]
+date: 2020-12-23
+tags: geek, draft
+toc: 0
 ---
-## Mobile
+## From mobile
 
 1. import everything in an isolated folder
-1. run DupeGuru (VIDEOS MANAGEMENT?)
+1. run [DupeGuru](https://dupeguru.voltaicideas.net "DupeGuru official website") (VIDEOS MANAGEMENT?)
 1. [[Cheat sheets|run Exiftool]]

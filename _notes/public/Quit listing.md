@@ -1,7 +1,9 @@
 ---
 date: 2020-12-07
 updated: 2020-12-12
+tags: wit
 description: "Lists are everywhere, and they're taking over literature"
+toc: 0
 ---
 Nobody is noticing this, but lists are taking over the world. There are lists everywhere, to explain concepts, to list features, to suggest things, to say anything. I am even making a list right now, by providing an argument against lists themselves.
 

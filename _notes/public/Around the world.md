@@ -18,39 +18,39 @@ redirect_from:
 
 ## Sanremo
 
-- [Il Cubo](https://www.facebook.com/ilcubotreponti)
-- [La Casbah](https://www.facebook.com/lacasbahsanremo/)
+- [Il Cubo](https://www.facebook.com/ilcubotreponti "Il Cubo Facebook page")
+- [La Casbah](https://www.facebook.com/lacasbahsanremo/ "La Casbah Facebook page")
 - La Madonna della Guardia (al tramonto)
 
 <br />
 
 ## Napoli
 
-- [La Fesseria](https://www.facebook.com/fesseria/)
+- [La Fesseria](https://www.facebook.com/fesseria/ "La Fesseria Facebook page")
 
 <br />
 
 ## Salerno
 
-- [Caffè Verdi](https://www.facebook.com/CaffeVerdi.Salerno/)
-- [Ingordo](https://www.facebook.com/IngordoSalerno/)
+- [Caffè Verdi](https://www.facebook.com/CaffeVerdi.Salerno/ "Caffè Verdi Facebook page")
+- [Ingordo](https://www.facebook.com/IngordoSalerno/ "Ingordo Facebook page")
 
 <br />
 
 ## Amalfi
 
 - l’arco che sta sotto la strada, nel lato più a sud della spiaggia
-- [L’Angolo dei Sapori](https://www.facebook.com/L-Angolo-Dei-Sapori-prodotti-tipici-agerolesi-Amalfi-256224698501009/)
+- [L’Angolo dei Sapori](https://www.facebook.com/L-Angolo-Dei-Sapori-prodotti-tipici-agerolesi-Amalfi-256224698501009/ "L'angolo dei Sapori Facebook page")
 
 <br>
 
 ## Torino
 
-- [Circolo dei Lettori](https://www.circololettori.it/)
-- [Sala Studio 3, Sede Centrale del Politecnico di Torino](https://www.polito.it/ateneo/sedi/index.php?bl_id=TO_CEN04&fl_id=XPTE&rm_id=P005&lang=it)
+- [Circolo dei Lettori](https://www.circololettori.it/ "Sito ufficiale del Circolo dei Lettori")
+- [Sala Studio 3, Sede Centrale del Politecnico di Torino](https://www.polito.it/ateneo/sedi/index.php?bl_id=TO_CEN04&fl_id=XPTE&rm_id=P005&lang=it "L'aula studio 3 sulla mappa del Politecnico")
 
 <br>
 
 ## Venezia
 
-- [Ca' Foscari Zattere](https://www.unive.it/pag/13665/)
+- [Ca' Foscari Zattere](https://www.unive.it/pag/13665/ "CFZ sul sito di Ca' Foscari")

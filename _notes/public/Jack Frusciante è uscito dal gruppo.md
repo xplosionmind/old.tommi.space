@@ -1,10 +1,8 @@
 ---
 date: 2020-05-11
-updated: 2020-07-02
+updated: 2020-12-23
 tags: read
 lang: it
-toc: 0
-description: "Enrico Brizzi aveva la mia età quando scrisse <em>Jack Frusciante è uscito dal gruppo</em>. Volevo capire quanto quello che aveva nella testa corrisponda a quello che ho io ora. L’ho fatto stilando una lista di tutte le reference e citazioni presenti nel libro."
 permalink: /jack-frusciante
 redirect_from:
   - /jack-frusciante-note
@@ -12,6 +10,8 @@ redirect_from:
   - /jack-frusciante-quotes
   - /brizzi-frusciante
 ---
+[Enrico Brizzi](https://www.wikiwand.com/it/Enrico_Brizzi "Enrico Brizzi su Wikipedia") aveva la mia età quando scrisse <cite><a href="https://www.wikiwand.com/it/Jack_Frusciante_è_uscito_dal_gruppo_(film)" rel="noopener noreferrer" target="_blank">Jack Frusciante è uscito dal gruppo</a></cite>. Volevo capire quanto quello che aveva nella testa corrisponda a quello che ho io ora, perciò ho stilato una lista di tutte le reference, le citazioni, le persone e i personaggi citati nel libro, così come [le parole](#vocabolario) che Brizzi ha scelto.
+
 - Madness
 - Specials
 - Sham, `p. 69`
@@ -110,24 +110,24 @@ redirect_from:
 
 ## Vocabolario
 
-- Cancelliere
-- mutter
-- kazzo
-- tardoadolescenziale
-- profii
-- Girardengo
-- il vecchio Alex
-- , perdonatelo/i,
-- \- uh \-
-- il nostro roccioso
-- i nostri pirati
-- una coppia assolutamente balsamica
-- _dall'archivio magnetico del Signor Alex D._
-- illo
-- la rivoluzione punk jazz
-- cinebrivido
-- i parens
-- il Jollinvicta
-- Saragozza Avenue
-- il Caulfield
-- via Codivilla
+- <q>Cancelliere</q>
+- <q>mutter</q>
+- <q>kazzo</q>
+- <q>tardoadolescenziale</q>
+- <q>profii</q>
+- <q>Girardengo</q>
+- <q>il vecchio Alex</q>
+- <q>, perdonatelo/i,</q>
+- <q>\- uh \-</q>
+- <q>il nostro roccioso</q>
+- <q>i nostri pirati</q>
+- <q>una coppia assolutamente balsamica</q>
+- <q><i>dall'archivio magnetico del Signor Alex D.</i></q>
+- <q>illo</q>
+- <q>la rivoluzione punk jazz</q>
+- <q>cinebrivido</q>
+- <q>i parens</q>
+- <q>il Jollinvicta</q>
+- <q>Saragozza Avenue</q>
+- <q>il Caulfield</q>
+- <q>via Codivilla</q>

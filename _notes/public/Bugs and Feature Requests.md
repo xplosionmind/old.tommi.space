@@ -3,9 +3,7 @@ date: 2020-08-04
 updated: 2020-12-13
 tags: geek
 permalink: /bugs
-redirect_from:
-  - /feature-requests
-  - /bugs-and-feature-requests
+redirect_from: ["/feature-requests", "/bugs-and-feature-requests"]
 ---
 The [[Apps]] I use the most are open source software in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports.
 
@@ -14,7 +12,7 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 
 ## Signal
 
-[Signal](https://signal.org) is the most secure and private messaging app in the world
+[Signal](https://signal.org "Signal official website") is the most secure and private messaging app in the world
 
 - markdown syntax (or any text formatting capability)
 - setting to choose to automatically download media
@@ -22,9 +20,18 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 <br>
 <br>
 
+## Loop habit tracker
+
+[Loop Habit Tracker](+++) is an open source app for [[Self tracking]]
+
+- Add the capability of inserting daily numbers instead of boolean values only. (e.g. to track how many candies I ate)
+
+<br>
+<br>
+
 ## Obsidian
 
-[Obsidian](https://obsidian.md) is an awesome Zettelkasten management system which perfectly integrates with markdown and Jekyll.
+[Obsidian](https://obsidian.md "Obsidian official website") is an awesome Zettelkasten management system which perfectly integrates with markdown and Jekyll.
 
 - choose to hide front matter when embedding other notes, even if “show YAML front matter” is switched on for the notes
 - printing all broken links

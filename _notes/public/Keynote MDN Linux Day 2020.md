@@ -11,13 +11,13 @@ redirect_from:
   - /appunti-presentazione-MDN
   - /Keynote-MDN-Linux-Day-2020
 ---
-Il 24 ottobre 2020, in occasione del [Linux Day Online](https://linuxday.it/) italiano, [ho tenuto una presentazione](https://www.linuxday.it/2020/programma/talk.php?slug=mdn-una-risorsa-per-tutti) su [MDN Web Docs](https://mdn.dev), una risorsa molto utile per utenti alle prime armi come per svilupptori esperti. Quelle che seguono sono le mie note.
+Il 24 ottobre 2020, in occasione del [Linux Day Online](https://linuxday.it/ "Sito ufficiale Linux Day") italiano, [ho tenuto una presentazione](https://video.linux.it/videos/watch/091b3ba4-5ed0-4f31-b6f4-4cd06060c9bf "La registrazione della presentazione") su [MDN Web Docs](https://mdn.dev "MDN homepage"), una risorsa molto utile per utenti alle prime armi come per svilupptori esperti. Quelle che seguono sono le mie note.
 
 <br>
 
 ## Link Utili
 
-- [Il Blog di MDN](https://hacks.mozilla.org/category/mdn/)
+- [Il Blog di MDN](https://hacks.mozilla.org/category/mdn/ "Il blog di MDN")
 - [Articolo in occasione dei 15 anni di MDN](https://hacks.mozilla.org/2020/07/mdn-web-docs-15-years-young/)
 - [Mozilla Developers](https://developer.mozilla.org)
 - [MozItaBot](https://t.me/MozItaBot), per iscriversi ai canali Telegram di [Mozilla Italia](https://mozillaitalia.org)

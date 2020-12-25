@@ -1,14 +1,14 @@
 ---
-tags: "€€€"
+tags: ["€€€", "wip", "todo"]
 ---
-- Flickr -> Piwigo
-- abbonamento Il Post -> NYT + Wired
-- Vimeo **`x`**
-- Protonmail -> Self-hosted / Tutanota
-- Contabo Server Y
-- Abbonamento Tenco Y
-- Abbonamento LIBERA Y
-- AnonAddy 2020.09.13 Y
+- Piwigo (from +++, payed up to +++)
+- NYT (from +++, payed up to +++)
+- Wired (from +++, payed up to +++)
+- Protonmail (from 2020.02.03, payed up to 2021.02.03)
+- Contabo Server (from +++ to +++)
+- Abbonamento Tenco (to be renewed)
+- Abbonamento LIBERA (to be renewed)
+- AnonAddy (from 2020.09.13, payed up to 2021.09.13)
 
 <br>
 
@@ -16,5 +16,6 @@ tags: "€€€"
 
 - Flickr (up to 2021.01.15)
 - Il Post (up to 2021.01.08)
-- Vimeo (up to )
-- Protonmail (up to 2021.02.03)
+- Vimeo (up to +++)
+- ProtonVPN (up to 2021.02.03)
+- Abbonamento Il Post (up to 2021.01.08)

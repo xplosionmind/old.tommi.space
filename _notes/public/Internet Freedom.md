@@ -1,12 +1,19 @@
 ---
 date: 2020-07-10
 updated: 2020-12-10
-tags: ["qsm", "geek"]
-description: "This awesome and revolutionary tool we call the Internet is so powerful that it's becoming a threat to the freedom of the average user, who, in exchange for services, hands over his/her data, therefore giving up personal independence and liberty.<br /><br />Here are noted various arguments, thoughts, speeches, documents, ideas and step-by-step guides to achieve <strong>a healthier online experience</strong>"
+tags: qsm, geek
+description: ""
 redirect_from:
   - /internet-freedom-notes
   - /internet-freedom-roadmap
 ---
+This awesome and revolutionary tool we call the Internet is so powerful that it's becoming a threat to the freedom of the average user, who, in exchange for services, hands over his/her data, therefore giving up personal independence and liberty.
+
+Here are noted various arguments, thoughts, speeches, documents, ideas and step-by-step guides to achieve **a healthier online experience**.
+
+<br>
+<br>
+
 ## Choose the alternative
 
 Just complaining, waiting for things to get better one way or another, believing that a conscious use is enough to keep clear from big tech negative impact is simply bullshit.

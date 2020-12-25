@@ -1,17 +1,20 @@
 ---
 date: 2020-06-11
-updated: 2020-11-04
-description: "There’so much content, online. This is a comprehensive list of stuff I follow on the internet."
+updated: 2020-12-23
 redirect_from:
   - /telegram-following
   - /telegram-channels
   - /subscriptions
+  - /newsletters
 ---
-Stuff means: Newsletters by people, newsletters by magazines, newsletters by computers, feeds of various sort, Telegram channels, Telegram Groups, Facebook Groups, Facebook Pages, people’s blogs
-{:.yellow .box}
+In our world, especially on the web, there is **a lot** of content, maybe too much, and it's very easy for me to get anxious because I can't keep up with everything and I can't know or learn what I wanted.\
+For this reason, it's important to be very selective and aware of who I follow and what are the knowledge and news sources I'm subscribed to, in order to find the right equilibrium.
+
+This is a comprehensive list of stuff I follow on the internet.
+Stuff means: Newsletters by people, newsletters by magazines, newsletters by computers, feeds of various sort, Telegram channels, Telegram Groups, Facebook Groups, Facebook Pages, people’s blogs.
 
 Content which is in Italian has its description in Italian
-{:.red .box}
+{:.blue .box}
 
 <br>
 

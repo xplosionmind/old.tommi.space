@@ -1,6 +1,8 @@
 ---
 date: 2020-07-02
 updated: 2020-11-06
+tags: geek, design
+aliases: ["Website inspiration"]
 description: "Blogs or websites worth remembering."
 redirect_from:
   - /inspiration

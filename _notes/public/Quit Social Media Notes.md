@@ -1,13 +1,10 @@
 ---
-title: "Quit Social Media Notes"
+updated: 2020-12-23
+tags: qsm
 aliases: ["QSM", "Quit Social Media"]
 description: "Notes for [quitsocialmedia.club](https://quitsocialmedia.club)"
 permalink: /qsm
-redirect_from:
-  - /quit-social-media
-  - /qsm
-  - /qsm-notes
-  - /quit-social-media-notes
+redirect_from: ["/quit-social-media", "/qsm", "/qsm-notes", "/quit-social-media-notes"]
 ---
 Content in this page are random, pretty messed up and both in English and Italian, since these are quick notes for the website content creation.
 {:.razzmatazz .box}

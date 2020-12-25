@@ -87,7 +87,7 @@ exiftool -s -G
 **`-G`** is used to show the metadata Group to which the metadata tag belongs.
 {:.blue .box}
 
-<br />
+<br>
 
 ### File renaming
 

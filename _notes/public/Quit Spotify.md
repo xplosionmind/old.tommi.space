@@ -1,13 +1,11 @@
 ---
 date: 2020-11-07
 updated: 2020-12-12
-tags: ["qsm", "geek"]
+tags: qsm, geek
 aliases: ["Quitting Spotify"]
 description: "Thoughts and decisions about quitting Spotify"
 permalink: /quit-spotify
-redirect_from:
-  - /spotify
-  - /quitting-spotify
+redirect_from: ["/spotify", "/quitting-spotify"]
 image: "https://assets.tommi.space/images/jar/quit-spotify.jpg"
 ---
 Quitting Spotify is hard.
@@ -44,25 +42,29 @@ The path I'm following to replace Spotify with other listening services
 
 1. Evaluating other ethical streaming services
 1. Copying Spotify playlist on other [FOSS alternatives](https://alternativeto.net/software/spotify/?license=opensource)
-	- [OpenWhyd](https://openwhyd.org)
-	- [Radio4000](https://radio4000.com/)
-	- [Audius Music](https://audius.co/) (not a valid standalone option, it has its own limited music selection)
+	- [OpenWhyd](https://openwhyd.org "OpenWhyd official website")
+	- [Radio4000](https://radio4000.com/ "R4000 official website")
+	- [Audius Music](https://audius.co/ "Audius Music official website") (not a valid standalone option, it has its own limited music selection)
+	- [Bandcamp](https://bandcamp.com "Bandcamp official website")
+	- [Soundcloud](https://soundcloud.com)
+	- [Open.Audio](https://open.audio)
+	- [Resonate](https://resonate.is)
+	- [YouTube](https://yewtu.be "Yewtube, a YouTube alternative client") (obviously from [an Invidious instance](https://github.com/iv-org/invidious "Invidious GitHub repository"))
 	- **?**
 1. Exporting liked songs?
 2. Importing liked songs in the new service?
-3. [Spotify account deletion consequences](https://community.spotify.com/t5/Spotify-Answers/How-do-I-close-my-Spotify-Account/ta-p/4663172):
+3. [Spotify account deletion consequences](https://community.spotify.com/t5/Spotify-Answers/How-do-I-close-my-Spotify-Account/ta-p/4663172 "How Do I close my Spotify Account - Spotify Support"):
 
 ## On desktop
 
-Use a combination of [YouTube] (obviously from [an Invidious instance](https://github.com/iv-org/invidious "Invidious GitHub repository")), [Bandcamp](https://bandcamp.com), [Audius Music](https://audius.co), [OpenWhyd](https://openwhyd.org), [Soundcloud](https://soundcloud.com), [Open.Audio](https://open.audio), [Resonate](https://resonate.is).
-
+Use a combination of the alternatives above, since none is as complete as Spotify.\
 The purpose is to <u>differentiate</u> as much as possible all of the streaming services to value competition and avoid monopolization.
 
 Ideally, the best way would be to download and store locally all of the music I listen to, as I did up to 3 years ago, but I have to admit it's not convenient at all, from every point of view.
 
 ## On mobile
 
-1. Find the optimal [NewPipe](https://newpipe.schabi.org/) configuration.
+1. Find the optimal [NewPipe](https://newpipe.schabi.org/ "NewPipe official website") configuration.
 	- How to listen to whole albums
 	- How to like songs
 	- How to import Spotify liked songs

@@ -8,39 +8,39 @@ redirect_from:
   - /film
   - /films
 ---
-## Santa Maradona
+## *Santa Maradona*
 
-<br />
+<br>
 
-## Radiofreccia
+## *Radiofreccia*
 
-<br />
+<br>
 
-## La La Land
+## *La La Land*
 
-<br />
+<br>
 
-## The Fast and the Furious: Tokyo Drift
+## *The Fast and the Furious: Tokyo Drift*
 
-<br />
+<br>
 
-## The Blues Brothers
+## *The Blues Brothers*
 
-<br />
+<br>
 
-## Moonrise Kingdom
+## *Moonrise Kingdom*
 
-<br />
-<br />
+<br>
+<br>
 
-- Friends
-- Captain Fantastic
-- The School of Rock
-- Manhattan
-- Perfetti Sconosciuti
-- The Truman Show
-- The Incredibles
-- Whiplash
-- The Boat That Rocked
-- Ocean's Eleven
-- Charlie and the Chocolate Factory
+- *Friends*
+- *Captain Fantastic*
+- *The School of Rock*
+- *Manhattan*
+- *Perfetti Sconosciuti*
+- *The Truman Show*
+- *The Incredibles*
+- *Whiplash*
+- *The Boat That Rocked*
+- *Ocean's Eleven*
+- *Charlie and the Chocolate Factory*

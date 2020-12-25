@@ -4,7 +4,8 @@ updated: 2020-08-03
 tags: geek
 description: "A walktrough of the steps I executed to set up my server"
 ---
-A **huge shoutout** to my friend [Claudio](http://claudiofaoro.com), who helped me understand and perform the most tricky passages.
+A **huge shoutout** to my friend [Claudio](http://claudiofaoro.com "Claudio Faoro's website"), who helped me understand and perform the most tricky passages.
+{:.box}
 
 <br>
 <br>
@@ -18,7 +19,7 @@ Resources, apps, tutorials and several knowledge sources are mentioned in the [[
 
 ## System configuration and environment setup
 
-update [Ubuntu](https://ubuntu.com/server) (`-y` parameter is used to accept by default any question)
+update [Ubuntu](https://ubuntu.com/server "Ubuntu server website") (`-y` parameter is used to accept by default any question)
 ```
 sudo apt update -y && sudo apt upgrade -y
 ```
