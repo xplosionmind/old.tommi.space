@@ -5,6 +5,9 @@
 @import "../_sass/highlight";
 @import "../_sass/nav";
 @import "../_sass/root";
+@import "{{ site.fonts }}/inter/inter.css";
+@import "{{ site.fonts }}/ubuntu-mono/ubuntu-mono.css";
+@import "{{ site.fonts }}/eb-garamond/eb-garamond.css";
 
 html {
 	box-sizing: border-box;

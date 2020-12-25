@@ -50,15 +50,9 @@ Creative and technical aims, ideas annotation and drafts tracking.
 
 Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
-1. [**Visioni**](/visioni)
-	- <https://github.com/maxvoltar/photo-stream>
-	- <http://benschwarz.github.io/gallery-css/>
-	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/)
-	- Photo selection
-	- horizontal instead of vertical scrolling of the gallery
-	- PDF portfolio download
 1. In [[Books]]
    - add IDs to every row corresponding to the title of the book (I posted [a question about this on the Jekyll forum](https://talk.jekyllrb.com/t/table-data-id-in-tablerow-loop/5398))
+2. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)
 1. Replace SEO tag with Liquid syntax
 1. Take the most advantage possible from installed plugins
 1. The new Jar:
@@ -68,8 +62,6 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 	- index note
 		- not working links are because notes are private
 		- definition of Zettelkasten / Digital gardening
-2. Swap Kramdown with MultiMarkdown
-	- support for classes?
 3. Access tags colors from posts and jar lists (change the color slightly also for every entry which is untagged)
 4. **Tags**
 		1. Use [jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen) to generate tags pages
@@ -86,29 +78,29 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 6. Pagination
 7. Thumbnails in Zibaldone's feed
 8. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
-9. Style [caret-color](https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color)
+1. [**Visioni**](/visioni)
+	- <https://github.com/maxvoltar/photo-stream>
+	- <http://benschwarz.github.io/gallery-css/>
+	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/)
+	- Photo selection
+	- horizontal instead of vertical scrolling of the gallery
+	- PDF portfolio download
 10. Add `image` tag in Jar elements
-11. [jekyll-rakefile](https://github.com/avillafiorita/jekyll-rakefile)
 12. Self-host website
 13. Content history
 	- now page
 	- a timeline like [Jeremy gordon's](https://jgordon.io) or [jack.works](https://web.archive.org/web/20200513054829/http://jack.works/)
-14. Convert some Jar elements to `_data` files
+14. Evaluate converting some Jar elements to `_data` files?
 	- Quotes
 	- Parole
 	- Cinema
-	- Jack Frusciante
-	- Resources
 	- rimm-db
 15. Add [humans.txt](http://humanstxt.org)
-16. Use `@import` to add fonts instead of linking their CSS reference files in HTML
 17. Semantic HTML
 18. Use more icons (e.g. jam jar)
-19. `{% raw %}{% if page.tags contains 'draft' %}{% endraw %}` print a banner indicating that the page misses something
 20. Implement little cool Javascript features, from [W3schools](https://www.w3schools.com/howto/)
 21. Evaluate copyright change
 22. [Bookmarked threads](https://talk.jekyllrb.com/u/xplosionmind/activity/bookmarks) on [Jekyll Talk](https://talk.jekyllrb.com/) (Jelyll's forum)
-23. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)
 24. [improve header](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
 25. Configure global properties in `_config.yml` to perform changes in a quicker way
 26. [Typography](https://tommi.space/typography)
@@ -118,17 +110,11 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 	- [listmonk](https://listmonk.app) or [Mailtrain](https://mailtrain.org)
 	- [awesome-emails](https://github.com/jonathandion/awesome-emails)
 	- [responsive template](https://github.com/leemunroe/responsive-html-email-template)
-28. RSS Feeds management
-    - Atom feed vs RSS
-    - [customize `feed.xml`](https://stackoverflow.com/questions/12902840/how-to-add-a-permalink-to-a-jekyll-rss-feed)
-    - feeds:
-        - Poetry
-        - Italian posts
-        - English posts
-        - The Jar
 29. Mailtrain automation with RSS
-30. Hosting on [server](/server) instead of using [Netlify](https://netlify.com)
-    - Analytics (temporarily set up with [Goatcounter](https://goatcounter.com))
+28. italian content only RSS Feed
+2. Swap Kramdown with MultiMarkdown?
+11. [jekyll-rakefile](https://github.com/avillafiorita/jekyll-rakefile)
+30. Hosting on [[Server]] instead of using [Netlify](https://netlify.com)
 31. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
 32. Improved and smart use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
 	- `.box` and `.stuff` max heights
@@ -219,6 +205,7 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
     - [custom](https://nachtimwald.com/2020/06/10/full-text-search-with-jekyll/)
 - Hover effects
 - `id` anchor links
+- `{% raw %}{% if page.tags contains 'draft' %}{% endraw %}` print a banner indicating that the page misses something ✅ 2020-12-25
 - inline code styling
 - input fields styling
 - Language selection straight from landing page - 2020.09.11
@@ -259,3 +246,4 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 		1. ~~choose once and for all **`categories`** VS **`tags`**~~ (using `tags`)
 		1. ~~Instead of inlining specific properties, create classes for every tag and create a `for` loop in SCSS accessing `site.data.tags` colors~~
 		1. ~~Access tag data (such as color, bg-color, description) from the *_data* folder~~
+- Use `@import` to add fonts instead of linking their CSS reference files in HTML ✅ 2020.12.25
