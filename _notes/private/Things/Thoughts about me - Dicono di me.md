@@ -1,6 +1,6 @@
 ---
 date: 2020-04-18
-updated: 2020-11-25
+updated: 2020-12-26
 tags: track
 ---
 > se ci fossero ventimila Tommi in Italia in questo momento non saremmo in questa situazione disastrosa
@@ -112,3 +112,10 @@ Valentina Covella, Giffoni 25 agosto 2020
 > Tommi tu hai anima
 
 Cecilia Sicca, in videocall 25 Novembre 2020
+
+<br>
+<br>
+
+> Tommi♥️ mi sento tanto onorata di aver ricevuto questa lettera e sono tanto tanto fortunata ad averti nella Mia vita, sei stato la prima persona “reale” che Io abbia davvero ammirato e a tutt’oggi ne ammiro poche. Non sai quante cose mi hai insegnato e continui a insegnarmi e non so e non credo di poterti mai ringraziare abbastanza, ti voglio tanto bene♥️
+
+Michela Tarantino, messaggio del 26 dicembre 2020

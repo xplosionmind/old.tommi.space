@@ -1,41 +1,65 @@
 ---
 date: 2020-09-09
-updated: 2020-12-25
+updated: 2020-12-26
 description: "Books I own and books I’d love to read and/or have"
 tags: read
 redirect_from: /library
-toc: 0
+toc: false
 ---
 <style>
 	.library .col3 {
 		font-family: "Ubuntu Mono", mono
 	}
-    th {
-      position: sticky;
-      top: 0;
-      background: var(--background);
+    .col10 {
+      width: 7rem;
     }
 </style>
 <h2 id="Wishlist">Wishlist</h2>
+<div class="table-container">
 <table class="wishlist">
+
   {% for row in site.data.books-wishlist %}
     {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
+      <tr>
+        {% for pair in row %}
+          <th>{{ pair[0] }}</th>
+        {% endfor %}
+      </tr>
     {% endif %}
-	{% tablerow pair in row %}
-      {{ pair[1] }}
+    {% tablerow pair in row %}
+      <span id="{{ pair[1] | slugify }}">
+          {{ pair[1] }}
+      </span>
     {% endtablerow %}
   {% endfor %}
-</table>
 
-<br /><br /><br />
+</table>
+</div>
+
+<br />
+<br />
+<br />
 
 <h2 id="Library">Library</h2>
+<div class="table-container">
 <table class="library">
+
+  {% for row in site.data.library %}
+    {% if forloop.first %}
+      <tr>
+        {% for pair in row %}
+          <th>{{ pair[0] }}</th>
+        {% endfor %}
+      </tr>
+    {% endif %}
+    {% tablerow pair in row %}
+      <span id="{{ pair[1] | slugify }}">
+          {{ pair[1] }}
+      </span>
+    {% endtablerow %}
+  {% endfor %}
+
+  {% comment %}
   {% for row in site.data.library %}
     {% if forloop.first %}
     <tr>
@@ -48,4 +72,6 @@ toc: 0
       {{ pair[1] }}
     {% endtablerow %}
   {% endfor %}
+  {% endcomment %}
 </table>
+</div>

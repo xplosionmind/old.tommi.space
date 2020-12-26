@@ -370,17 +370,32 @@ blockquote {
 td,
 th,
 tr {
-	border: solid .5px var(--grey);
+	border: solid 1px var(--grey);
 }
 
-th,
-td {
+th {
 	padding: var(--small) var(--regular-less);
+    
+	/* making the header sticky */
+	position: sticky;
+    top: 0;
+    background: var(--background);
+}
+
+td {
+	font-size: .8em;
+	padding: var(--tiny) var(--small);
+}
+
+.table-container {
+	max-height: 90vh;
+	overflow-x: scroll;
+	border: solid 3px var(--grey);
+	border-radius: var(--radius-s);
+	box-shadow: var(--shadow);
 }
 
 table {
-	overflow-x: scroll;
-	width: 100%;
 	border-collapse: collapse;
 }
 
