@@ -543,13 +543,19 @@ h2 {
 	max-width: 100%;
 	color: var(--text);
 	padding: var(--big);
-	margin: var(--bigger) 0;
+	margin-top: var(--bigger);
+	margin-bottom: var(--bigger);
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
 	overflow: scroll;
 	h2 {
 		text-align: center;
 		margin-top: 0;
+	}
+	&.banner {
+		h3 {
+			margin: 0;
+		}
 	}
 }
 

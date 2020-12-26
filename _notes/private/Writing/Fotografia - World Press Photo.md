@@ -1,6 +1,6 @@
 ---
 date: 2019-11-03
-tags: ["ph", "draft"]
+tags: ph, draft
 ---
 mi domando
 

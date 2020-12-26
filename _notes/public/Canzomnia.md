@@ -2,7 +2,7 @@
 date: 2020-08-02
 updated: 2020-10-17
 lang: it
-toc: 0
+toc: false
 description: "Accordi e testi di canzoni da cantare a squarciagola e con la chitarra, davanti a un fuoco crepitante a qualunque ora del giorno o della notte"
 redirect_from:
   - /accordi

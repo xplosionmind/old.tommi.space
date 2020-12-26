@@ -1,6 +1,6 @@
 ---
 date: 2018-04-26
-tags: ["draft"]
+tags: draft
 ---
 Alla fine io sono giunto alla conclusione - sempre pronto a cambiare idea - che il più determinante fattore che compone la personalità umana sia la forza di volontà.
 

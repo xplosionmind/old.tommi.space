@@ -2,7 +2,6 @@
 date: 2020-07-10
 updated: 2020-12-10
 tags: qsm, geek
-description: ""
 redirect_from:
   - /internet-freedom-notes
   - /internet-freedom-roadmap

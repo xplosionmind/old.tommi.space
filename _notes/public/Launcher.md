@@ -2,7 +2,7 @@
 date: 2020-05-30
 updated: 2020-08-07
 tags: geek
-toc: 0
+toc: false
 description: "Every geek worth to be called so has a custom launcher. This is the story of how I changed my preferred one for my first time, after several years."
 ---
 **30<sup>th</sup> May 2020**

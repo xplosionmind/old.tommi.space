@@ -193,7 +193,7 @@ defaults:
     values:
       layout: jar
       lang: en
-      toc: 1
+      toc: true
       permalink: /:title
       hide: 0
 

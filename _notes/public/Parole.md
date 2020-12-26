@@ -2,7 +2,7 @@
 date: 2020-06-06
 updated: 2020-12-04
 lang: it
-toc: 0
+toc: false
 description: "Leggo e sento tante perole belle (oppure brutte ma con un gran significato) e ho paura di perderle oppure voglio segnarne l'importanza. Le segno qui."
 ---
 Gli eventuali numeri o lettere che seguono il link sono il significato specifico che mi interessa, la data corrisponde al momento in cui ho capito l'importanza di quella parola.

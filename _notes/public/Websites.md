@@ -7,7 +7,7 @@ redirect_from:
   - /philosophy-websites
   - /lifestyle-websites
   - /websites creation
-toc: 0
+toc: false
 ---
 Cool websites I should create:
 

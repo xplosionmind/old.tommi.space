@@ -5,6 +5,7 @@ tags: geek
 title: "The target=\"_blank\" argument"
 permalink: /target-blank
 redirect_from: /target-blank-argument
+toc: false
 ---
 The `target="_blank"` argument is a common dilemma among web developers: there are subjective choices to a common problem: should this link, if clicked, be opened in a new tab or not? Below, some articles on the topic.
 

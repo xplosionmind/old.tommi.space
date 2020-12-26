@@ -1,10 +1,9 @@
 ---
 date: 2020-03-13
-tags: ["writing", "draft"]
+updated: 2020-12-26
+tags: writing, draft
 ---
-# Woody
-
-Ma Woody Allen ci ha rotto le palle.
+Ma Woody Allen mi ha rotto le palle.
 
 Lui e la sua bella società di ragazzi belli e ben educati, di famiglie con soldi. Lui e i suoi favolosi personaggi che vengono sempre o distrutti dal mondo intorno o se ne sbattono altamente, perché tanto hanno solo quella là in testa.
 

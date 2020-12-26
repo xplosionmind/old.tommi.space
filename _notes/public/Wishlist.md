@@ -1,7 +1,7 @@
 ---
 date: 2020-07-17
 updated: 2020-12-24
-toc: 0
+toc: false
 description: "Stuff I need and things I just would love to have"
 redirect_from: /desideri
 ---

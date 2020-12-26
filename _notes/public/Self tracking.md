@@ -14,6 +14,7 @@ Self tracking is one of my tools towards [[Self improvement]].
 <br>
 
 ## My tracings
+
 - [[Dreams logging]]: write down summaries of dreams
 - [[Esame di coscienza]]: every night, revise the events of the day to check what could be improved and what shouldn't be repeated.
 

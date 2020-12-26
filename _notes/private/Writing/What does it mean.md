@@ -1,8 +1,7 @@
 ---
 date: 2020-01-19
-tags: ["draft"]
+tags: writing, draft
 ---
-
 What does it mean
 
 What does it mean to love.

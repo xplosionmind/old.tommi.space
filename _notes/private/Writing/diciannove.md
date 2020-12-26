@@ -1,6 +1,6 @@
 ---
 date: 2017-07-08
-tags: ["writing", "draft"]
+tags: writing, draft
 ---
 19 come i miei anni, da qualche minuto.
 

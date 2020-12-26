@@ -4,16 +4,10 @@ tags:
   - writing
   - draft
 ---
-# Enzimi
-
 Non sarà una lezione di chimica, ma non sarà lo stesso facile.
-
-
 
 Ci sono due tipi di reazioni chimiche: quelle esoergoniche e quelle endoergoniche.
 Per farla semplice (non illudetevi poi che io conosca la spiegazione più complessa) le prime liberano energia (tipo la combustione della legna che ci scalda) e le seconde necessitano di un’"energia di attivazione" per avvenire (ESEMPIO).
-
-
 
 Tutto ciò che è successo nella mia vita fino ad ora non è mai stato unicamente esoergonico. Non c’è mai nulla che possa fruttare in alcun modo senza impegno o sforzo.
 

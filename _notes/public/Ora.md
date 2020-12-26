@@ -4,7 +4,7 @@ updated: 2020-12-11
 ref: now
 lang: it
 description: "Le cose che sto facendo ora"
-hide: 1
+hide: true
 ---
 Quella che stai leggendo è molto più di una semplice pagina web, è parte di [un movimento](https://sive.rs/nowff). Tutto è partito dal mitico [Derek Sivers](https://sive.rs "Il sito web di Derek Sivers") nel 2015, l'idea [si è diffusa moltissimo](https://sive.rs/now3) e in poco tempo è cresciuta esponenzialmente. Per sapere di più riguardo la filosofia e scoprire [il numero immenso](https://nownownow.com "nownownow, il sito che raccoglie le now page") di persone che hanno sposato il progetto, basta visitare [nownownow.com](https://nownownow.com/about "la about page di nownownow.com").
 {:.box}

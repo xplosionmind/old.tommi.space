@@ -12,14 +12,8 @@ layout: wrapper
 	</div>
 
 	{% if page.toc %}
-		<div class="row toc">
-			<h2>
-				{% if page.lang == 'it' %}
-					Indice
-				{% else %}
-					Table of contents
-				{% endif %}
-			</h2>
+		<div class="toc row">
+			<h2>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h2>
 		{% include toc.html html=content sanitize=true %}
 	</div>
 	{% endif %}

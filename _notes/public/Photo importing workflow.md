@@ -1,7 +1,7 @@
 ---
 date: 2020-12-23
 tags: geek, draft
-toc: 0
+toc: false
 ---
 ## From mobile
 

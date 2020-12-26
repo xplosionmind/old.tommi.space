@@ -3,7 +3,7 @@ date: 2020-12-08
 updated: 2020-12-23
 tags: zen
 lang: 'it'
-toc: 0
+toc: false
 ---
 L'importanza di un esame di coscienza giornaliero per [[Self improvement|il miglioramento di sé stessi]], secondo Seneca:
 

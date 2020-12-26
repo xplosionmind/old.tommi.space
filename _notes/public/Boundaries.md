@@ -5,7 +5,7 @@ tags: zen
 redirect_from:
   - /routine
   - /habits
-toc: 0
+toc: false
 ---
 I believe the foundations of a peaceful, productive and full life are composed of a combination of [[Loops|habits]] and boundaries.\
 Below are the ones I set to myself.

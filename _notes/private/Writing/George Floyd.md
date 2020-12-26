@@ -1,5 +1,5 @@
 ---
-tags: ["writing", "draft"]
+tags: writing, draft
 ---
 - Come partire e migliorare il mondo, oppure gli elementi necessari a cambiare veramente qualcosa
     - Come unire le persone: terreno comune

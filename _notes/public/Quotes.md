@@ -2,7 +2,7 @@
 date: 2020-06-10
 updated: 2020-11-13
 tag: q
-toc: 0
+toc: false
 description: 'Some are from celebrities, some were pronounced by friends of mine and may have no meaning to the public, in realtà sono quasi tutte in italiano dunque non ha senso che scriva la descrizione in inglese.'
 redirect_from:
   - /cit

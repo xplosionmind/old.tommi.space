@@ -1,7 +1,7 @@
 ---
 date: 2020-05-06
 updated: 2020-12-23
-tags: ["geek", "wip"]
+tags: geek, wip
 image: "https://assets.tommi.space/images/apps.png"
 description: "A comprehensive list of apps I use + interesting apps I have to keep record of."
 redirect_from: ["/installed", "/installed-apps", "/applications", "/applicazioni", "/programs", "/programmi", "/software"]

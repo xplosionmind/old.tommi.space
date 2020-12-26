@@ -1,9 +1,7 @@
 ---
 date: 2020-03-31
-tags: ["writing", "draft"]
+tags: writing, draft
 ---
-# Consequences
-
 Partire da un episodio piccolo, insignificante, di una persona comune, per poi arrivare a mostrare le conseguenze in larga scala.
 
 - piano sequenza

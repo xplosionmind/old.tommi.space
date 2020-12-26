@@ -1,8 +1,10 @@
-<div class="draft red box">
-	<h3>🚧 {% if page.lang == 'it' %}PLavori in corso{% else %}PWork in progress{% endif %} 🏗</h3>
-	{% if page.lang == 'it' %}
-		Il contenuto di questa pagina non è completo; tutti gli articoli e le note in sospeso sono contraddistinte dal tag “[draft](/tags#draft "tutte le bozze")”
-	{% else %}
-		Content of this page is not complete: “[draft](/tags#draft "all of the pages tagged “draft”")”
-	{% endif %}
+<div class="one column row">
+	<div class="banner red box">
+		<h3>🚧 {% if page.lang == 'it' %}Lavori in corso{% else %}Work in progress{% endif %} 🏗</h3>
+		{% if page.lang == 'it' %}
+			Il contenuto di questa pagina non è completo; tutti gli articoli e le note in sospeso sono contraddistinte dal tag <a href="/tags#draft" title="tutte le bozze"><em>draft</em></a>
+		{% else %}
+			Content of this page is not complete: unfinished notes and articles are tagged with <a href="/tags#draft" title="all of the pages tagged “draft”"><em>draft</em></a> tag
+		{% endif %}
+	</div>
 </div>

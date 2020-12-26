@@ -1,9 +1,7 @@
 ---
 date: 2019-10-03
-tags: ["writing", "draft"]
+tags: writing, draft
 ---
-# Di Più
-
 discoteca. Una ragazza bellissima sta ballando e si diverte con le amiche. Tipiche scene di festa (v. La Grande Bellezza) e ragazzi che la approcciano.
 
 Esce, fuma una sigaretta su una panchina leggendo il telefono

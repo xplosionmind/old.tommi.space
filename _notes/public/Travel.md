@@ -2,6 +2,7 @@
 date: 2020-11-13
 updated: 2020-11-14
 description: "Insights about traveling"
+toc: false
 redirect_from:
   - /journeys
   - /travel-guide
