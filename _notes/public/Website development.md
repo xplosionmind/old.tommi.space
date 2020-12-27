@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2020-12-25
+updated: 2020-12-27
 tags: geek
 permalink: /development
 redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev"]
@@ -78,6 +78,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 6. Pagination
 7. Thumbnails in Zibaldone's feed
 8. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
+1. `text-shadow` CSS property in titles
 1. [**Visioni**](/visioni)
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>

@@ -97,8 +97,8 @@ body {
 @media only screen and (min-width: 640px) {
 	#menubar {
 		background: var(--primary) !important;
-		color: var(--background);
-		margin: 2vw;
+		color: var(--background) !important;
+		margin: 2vw !important;
 		border-radius: var(--radius-m);
 		box-shadow: var(--shadow);
 		padding: var(--small) var(--regular) !important;
@@ -136,6 +136,7 @@ body {
 	background: var(--background);
 	color: var(--text);
 	box-shadow: var(--inner-shadow);
+	text-indent: 8px;
 }
 
 #comments input[type="text"],
