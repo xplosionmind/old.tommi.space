@@ -21,15 +21,19 @@ body {
 
 	transition: var(--trans);
 
-	font-family: Inter, Helvetica, "Helvetica Neue", sans-serif !important;
+	font: 400 var(--regular) Inter, Helvetica, "Helvetica Neue", sans-serif !important;
 	color: var(--text) !important;
 	background: var(--background) !important;
 }
 
 .albThumbs li {
-	border-radius: var(--radius-m);
+	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
-	margin: var(--small) !important;
+	margin: var(--regular-less) !important;
+	&:hover {
+		transform: scale(1.05);
+		transition: all .1s;
+	}
 }
 
 .imageInfoTable, #imageInfos {
@@ -38,8 +42,9 @@ body {
 
 .wide #imageInfos {
 	margin-right: var(--regular);
+	margin-top: var(--regular);
 	box-shadow: var(--shadow);
-	border-radius: var(--radius-l);
+	border-radius: var(--radius-l) !important;
 }
 
 .theImageAndInfos {
@@ -48,8 +53,18 @@ body {
 
 .contentWithMenu,
 #menubar,
-#copyright {
+#copyright,
+#imageToolBar {
 	background: var(--background) !important;
+	a {
+		color: var(--text);
+	}
+}
+
+#copyright,
+#copyright a,
+.browsePathSeparator {
+	opacity: .5;
 }
 
 aside#menubar {
@@ -63,12 +78,18 @@ aside#menubar {
 #menubar {
 	text-transform: uppercase;
 	font-weight: 700;
+	dd {
+		background: var(--grey);
+		color: var(--text);
+		border-radius: var(--radius-m);
+		box-shadow: var(--shadow) !important;
+	}
 }
 
 .albLegend {
-	padding: var(--tiny) !important;
+	padding: var(--regular) var(--tiny) var(--small) !important;
 	background: none !important;
-	background-image: linear-gradient(to bottom,rgba(0,0,0,0.05),rgba(0,0,0,0.8))
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0.01),rgba(0,0,0,0.8));
 	div {
 		opacity: .6;
 	}
@@ -78,6 +99,15 @@ aside#menubar {
 	border: none;
 	border-radius: var(--radius-s);
 	background: var(--grey);
+}
+
+#comments input[type="text"],
+#comments TEXTAREA {
+	border: none;
+	border-radius: var(--radius-m);
+	background: var(--deep);
+	color: var(--text);
+	box-shadow: var(--shadow);
 }
 
 /* .categoryActions,
@@ -94,8 +124,9 @@ a .pwg-icon {
 	color: var(--text) !important;
 }
 
-.pwg-icon-menu {
+.pwg-icon.pwg-icon-menu {
 	padding: var(--small) !important;
+	margin: var(--small);
 	background: var(--primary) !important;
 	border-radius: var(--radius-s);
 	box-shadow: var(--little-shadow);
@@ -106,7 +137,7 @@ a .pwg-icon {
 @media only screen and (max-width: 640px) {
 	.contentWithMenu .titrePage h2,
 	.contentWithMenu .browsePath {
-		text-indent: 50px !important;
+		text-indent: 60px !important;
 	}
 }
 
@@ -116,6 +147,10 @@ a .pwg-icon {
 
 .titrePage {
 	background: none !important;
+	color: var(--text);
+	line-height: 45px !important;
+	padding: var(--small) !important;
+	margin: var(--small) 0;
 	h2 {
 		a {
 			color: var(--text) !important;
@@ -123,18 +158,20 @@ a .pwg-icon {
 	}
 }
 
+/* Style albums population */
 .titrePage h2 span.badge,
 span.menuInfoCat.badge {
 	color: var(--white-ish) !important;
-	background: var(--grey) !important;
+	opacity: .5;
+	/* background: var(--grey) !important;
 	box-shadow: var(--little-shadow);
-	border-radius: var(--radius-s);
+	border-radius: var(--radius-s); */
 }
 
 a {
+	color: var(--primary);
 	&:hover {
 		text-decoration: none !important;
-		color: var(--primary) !important;
 	}
 	&[href="identification.php"] {
 		opacity: .3;

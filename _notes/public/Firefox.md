@@ -1,6 +1,6 @@
 ---
 date: 2020-07-03
-updated: 2020-09-30
+updated: 2020-12-27
 tags: geek
 description: "I consider myself a Firefox power user: I love it and I take full advantage of its features. Here’s how I do it."
 redirect_from:
@@ -70,4 +70,5 @@ A record of all the tweaks I made in Firefox `about:config` page
 ## Sources
 
 - [PrivacyTools](https://www.privacytools.io/browsers/#about_config "about:config section on PrivacyTools")
-- [Mikaela Suomalainen](https://mikaela.info/browser-extensions.html)
+- [Mikaela Suomalainen](https://mikaela.info/browser-extensions.html "Browser extensions on mikaela.info")
+- [PrivacyTools Community post](https://forum.privacytools.io/t/changing-the-firefox-tweaks-recommendation/4752 "Changing the Firefox Tweaks Reccomendation")
