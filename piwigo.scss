@@ -26,6 +26,18 @@ body {
 	background: var(--background) !important;
 }
 
+* {
+	letter-spacing: unset !important;
+}
+
+#ato_header {
+	background: black !important;
+	ul {
+		background: black !important;
+		color: var(--light-grey) !important;
+	}
+}
+
 .albThumbs li {
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
@@ -56,8 +68,9 @@ body {
 #copyright,
 #imageToolBar {
 	background: var(--background) !important;
+	color: var(--text) !important;
 	a {
-		color: var(--text);
+		color: var(--text) !important;
 	}
 }
 
@@ -67,20 +80,24 @@ body {
 	opacity: .5;
 }
 
-aside#menubar {
-	top: 80px !important;
-	left: var(--regular);
-	border-radius: var(--radius-m);
-	box-shadow: var(--shadow);
-	opacity: 1;
+@media only screen and (max-width: 640px) {
+	aside#menubar {
+		top: 80px !important;
+		left: var(--regular);
+		border-radius: var(--radius-m);
+		box-shadow: var(--shadow);
+		opacity: 1;
+	}
 }
 
 #menubar {
+	width: unset !important;
+	padding: var(--regular) var(--small) var(--small);
 	text-transform: uppercase;
 	font-weight: 700;
 	dd {
-		background: var(--grey);
-		color: var(--text);
+		background: var(--grey) !important;
+		color: var(--text) !important;
 		border-radius: var(--radius-m);
 		box-shadow: var(--shadow) !important;
 	}
@@ -89,7 +106,7 @@ aside#menubar {
 .albLegend {
 	padding: var(--regular) var(--tiny) var(--small) !important;
 	background: none !important;
-	background-image: linear-gradient(to bottom,rgba(0,0,0,0.01),rgba(0,0,0,0.8));
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0.01),rgba(0,0,0,0.8)) !important;
 	div {
 		opacity: .6;
 	}
@@ -99,10 +116,12 @@ aside#menubar {
 	border: none;
 	border-radius: var(--radius-s);
 	background: var(--grey);
+	color: var(--text);
 }
 
 #comments input[type="text"],
-#comments TEXTAREA {
+#comments TEXTAREA,
+input {
 	border: none;
 	border-radius: var(--radius-m);
 	background: var(--deep);
@@ -160,7 +179,8 @@ a .pwg-icon {
 
 /* Style albums population */
 .titrePage h2 span.badge,
-span.menuInfoCat.badge {
+span.menuInfoCat.badge,
+#menubar .menuInfoCat {
 	color: var(--white-ish) !important;
 	opacity: .5;
 	/* background: var(--grey) !important;
