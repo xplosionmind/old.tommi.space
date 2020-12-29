@@ -1,10 +1,10 @@
 ---
 date: 2020-05-06
-updated: 2020-12-23
+updated: 2020-12-28
 tags: geek, wip
 image: "https://assets.tommi.space/images/apps.png"
 description: "A comprehensive list of apps I use + interesting apps I have to keep record of."
-redirect_from: ["/installed", "/installed-apps", "/applications", "/applicazioni", "/programs", "/programmi", "/software"]
+redirect_from: ["/uses", "/installed", "/installed-apps", "/applications", "/applicazioni", "/programs", "/programmi", "/software"]
 ---
 Everything in this list is free and Open Source, except where otherwise specified
 {:.blue .box}
@@ -321,3 +321,4 @@ I donâ€™t own an iPhone. If that day ever comes, these are the iOS-only apps Iâ€
 - [Cineast](https://www.themoviedb.org/apps/58628749c3a3681a6204357a), IMDb alternative
 - [OpenWhyd](https://itunes.apple.com/fr/app/whyd-everyones-music-playlist/id874380201), Spotify alternative
 - [Refining Fire](https://apps.apple.com/it/app/refining-fire/id1000982825), encouraging Bible verses when needed
+- [Writing Copy](https://workingcopyapp.com)

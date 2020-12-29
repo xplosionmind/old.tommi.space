@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10
-updated: 2020-11-13
+updated: 2020-12-28
 tag: q
 toc: false
 description: 'Some are from celebrities, some were pronounced by friends of mine and may have no meaning to the public, in realtà sono quasi tutte in italiano dunque non ha senso che scriva la descrizione in inglese.'
@@ -609,3 +609,11 @@ Lorenzo Ancona, 19 ottobre 2020
 > > What would it mean if you were not scared of having to choose?
 
 from a chat with [Eliza AI](https://med-ai.com/models/eliza.html), 5<sup>th</sup> November 2020
+
+<br>
+<br>
+	
+> Non mi chiedono l'autografo alla fine dei concerti. **Mi chiedono la bibliografia**
+	
+Vasco Brondi, 1 Dicembre 2020
+{:.cite}

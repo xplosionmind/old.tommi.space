@@ -9,8 +9,6 @@ Actually, I don't need to learn these things only, but here I note the main thin
 Gaps in knowledge should be covered with the right [[Resources|Learning Resources]], and remembered with an effective [[Knowledge management]].
 {:.blue .box}
 
-1. Markdown
-	- inline classes
 1. [Pandoc](https://pandoc.org/ "Pandoc official website")
 	- converting from `docx`
 	- understanding conversion engines, `mactex`, `latex`, etc.
@@ -24,13 +22,15 @@ Gaps in knowledge should be covered with the right [[Resources|Learning Resource
 1. Bitcoin, Blockchain, etc.
 4. OpenStreetMap and OSMand
 5. Github Actions
-6. [using fzf](https://www.youtube.com/watch?v=qgG5Jhi_Els)
-7. [The Missing Semester](https://missing.csail.mit.edu/)
-8. DigiKam
-9. Darktable
-10. Omega-T
+6. Makefile
+	1. [How to write a self-documenting Makefile](https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/ "How to write a self-documenting Makefile on victoria.dev")
+7. [using fzf](https://www.youtube.com/watch?v=qgG5Jhi_Els)
+8. [The Missing Semester](https://missing.csail.mit.edu/)
+9. DigiKam
+10. Darktable
+11. Omega-T
 
-### More
+## More
 
 When the basics aren't enough.
 

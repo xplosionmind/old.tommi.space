@@ -29,6 +29,7 @@ To-do list, progress status and purposes are tracked on the [roadmap](https://qu
 	- want to become fabous and be notices? Start writing emails, sending pictures, ask for collaborations
 	- want to earn money? Invent new ways to monetize your work (Patreon, etc.)
 - Add *The Great Hack* alongside *The Social Dilemma*
+- ***what*** are social media?
 - add donate button:
 ```
 <script src="https://liberapay.com/tommi/widgets/button.js"></script>

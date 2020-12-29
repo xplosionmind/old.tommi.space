@@ -69,3 +69,5 @@ tags: analog
 - [[2020-12-22 Daily]]
 - [[2020-12-23 Daily]]
 - [[2020-12-24 Daily]]
+- +++
+- [[2020-12-29 Piano Partenza]]

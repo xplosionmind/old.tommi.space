@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2020-12-27
+updated: 2020-12-28
 tags: geek
 permalink: /development
 redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev"]
@@ -35,7 +35,7 @@ Creative and technical aims, ideas annotation and drafts tracking.
 - [[Desk logging]]
 - add a “première” section to the [Everyone](/everyone) page
 - [[Around the world]]
-- [drafts](../_drafts/)
+- [drafts](/tags#draft "everything tagged as “draft”")
 
 <br>
 
@@ -50,11 +50,10 @@ Creative and technical aims, ideas annotation and drafts tracking.
 
 Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
-1. In [[Books]]
-   - add IDs to every row corresponding to the title of the book (I posted [a question about this on the Jekyll forum](https://talk.jekyllrb.com/t/table-data-id-in-tablerow-loop/5398))
 2. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)
 1. Replace SEO tag with Liquid syntax
 1. Take the most advantage possible from installed plugins
+1. Jekyll link checking (plugin?)
 1. The new Jar:
 	- show only parent tags / notes
 	- an unstyled simple bullet point list
@@ -78,7 +77,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 6. Pagination
 7. Thumbnails in Zibaldone's feed
 8. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
-1. `text-shadow` CSS property in titles
+1. `text-shadow` CSS property in titles and in `a:hover`
 1. [**Visioni**](/visioni)
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
@@ -127,17 +126,14 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
     - Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
     - Setup [Webmention.io](https://webmention.io/)
     - Setup [Bridgy](https://brid.gy/)
-36. Improve `blockquote`s; some insights:
-	- <https://codepen.io/valentingalmand/pen/doJvRR>
-	- <https://codepen.io/joshuajcollinsworth/pen/obbvYQ>
-	- <https://codepen.io/JoeHastings/pen/MOdRVm>
+1. In [Books](/books) add IDs to every row corresponding to the title of the book (I posted [a question about this on the Jekyll forum](https://talk.jekyllrb.com/t/table-data-id-in-tablerow-loop/5398)) (done but to be improved: IDs are generated for every `td`, I think it's necessary to use a for loop instead of a `tablerow` loop)
 37. Design improvements
 	- make shades slightly colored, according to the belonging object
 	- refine the color palette
 38. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
 39. Piwigo integration?
 40. Create Jekyll theme
-41. Switch to [Hugo](https://gohugo.io)
+41. Switch to [Hugo](https://gohugo.io "Hugo official website")
 
 <br>
 <br>
@@ -162,11 +158,15 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 
 <br>
 
-### Creative experiments
+### Creative ideas
 
-- desktop: floating “tags” column on the right
-- [Generative Art](http://tholman.com/post/generative-art-speedrun/)
+- [Generative Art](http://tholman.com/post/generative-art-speedrun/ "Generative Art on Tim Holman's blog")
     - always-changing colors, see Zander Martineau’s [website](https://zander.wtf/)
+- GIFs instead of images 
+- Improve `blockquote`s
+	- <https://codepen.io/valentingalmand/pen/doJvRR>
+	- <https://codepen.io/joshuajcollinsworth/pen/obbvYQ>
+	- <https://codepen.io/JoeHastings/pen/MOdRVm>
 
 <br>
 <br>
@@ -174,17 +174,17 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 ## Done
 
 - Animations (little and simple but effective)
-    - buttons: `x`s and menus (see tokyo-voice.jp or traxmag.com)
+	- buttons: `x`s and menus (see <tokyo-voice.jp> or <traxmag.com>)
 - back-to-top button
-- basic coloured biiig shapes
+- basic colored biiig shapes
 - Backlinks
 - Better [Open Graph Protocol](https://ogp.me/) integration
 - Button inner-shadow instead of transform when hovering
 - “blogroll”: a list of blogs which inspire me, see [Pawlean](https://pawlean.com/blogroll)
-- change mobile browser bar colour
+- change mobile browser bar color
 - Color Jar items according to the belonging tag
-- custom selection colour for text
-- customise 404 page
+- custom selection color for text
+- customize 404 page
 - Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
 - tags description and link to stuff
 - checkbox styling
@@ -195,15 +195,14 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 - final header configuration
 - Fix [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51).
 - **Get rid of jQuery**: it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time. Use pure JavaScript instead ✅ 2020-12-25 **FINALLY** !
-- gif instead of images 
 - **Global search**
-    - [Algolia](https://www.algolia.com/)
-        - [jekyll-algolia](https://community.algolia.com/jekyll-algolia/) plugin ([source](https://github.com/algolia/jekyll-algolia))
-        - [Algolia for Open Source](https://www.algolia.com/for-open-source/)
-    - [Lunr](https://lunrjs.com/)
-        - [Lunr setup](https://zoeleblanc.com/blog/adding-search-to-jekyll-sites-with-lunr/) article 1
-        - [Lunr setup](https://www.arcath.net/2016/02/setting-up-lunr-js-in-jekyll) article 2
-    - [custom](https://nachtimwald.com/2020/06/10/full-text-search-with-jekyll/)
+	- [Algolia](https://www.algolia.com/)
+		- [jekyll-algolia](https://community.algolia.com/jekyll-algolia/) plugin ([source](https://github.com/algolia/jekyll-algolia))
+		- [Algolia for Open Source](https://www.algolia.com/for-open-source/)
+	- [Lunr](https://lunrjs.com/)
+		- [Lunr setup](https://zoeleblanc.com/blog/adding-search-to-jekyll-sites-with-lunr/) article 1
+		- [Lunr setup](https://www.arcath.net/2016/02/setting-up-lunr-js-in-jekyll) article 2
+	- [custom](https://nachtimwald.com/2020/06/10/full-text-search-with-jekyll/)
 - Hover effects
 - `id` anchor links
 - `{% raw %}{% if page.tags contains 'draft' %}{% endraw %}` print a banner indicating that the page misses something ✅ 2020-12-25
@@ -214,37 +213,36 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 - `letter-spacing` and `word spacing` (it's nice as it is)
 - light/dark mode switch button (I'm deep and dark / I'm bright and shiny)
 - list of belonging tags at the top of the post page
-- Make [about](Home%20todo%20list.md#about) a page
+- Make [about](/about) a page
 - Mobile optimisation
 - move `stuff extended` to `The Jar`
 - [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6) **redesign**
 	1. Start by smoothing corners
 	1. go on by using [this tool](https://neumorphism.io/)
-	1. use [Eva icons](https://jekyllrb.com/docs/pagination/)
+	1. use Eva icons
 - [Now page](https://sivers.org/now)
 - page image preview when sending link, see the [Open Graph Protocol](https://ogp.me/)
 - Poetry
-    - ~~section instead of tag~~
-    - ~~custom styling~~
+	- section instead of tag
+	- custom styling
 - Privacy Policy
 - RSS Feed
 - Self-host media and heavy files on `assets.tommi.space` to make git folder lighter
-- separate website/repo/domain for web and online resources or for geek stuff in general (configured as _[The Jar](https://xplosionmind.tk/jar)_)
+- separate website/repo/domain for web and online resources or for geek stuff in general (configured as [*The Jar*](/jar))
 - Serif font styling in posts
 - Share button
 - [Share on Jekyll showcase](https://github.com/planetjekyll/showcase/pull/23)
-- `stuff extended`
+- [*stuff extended*](/tutto)
 - SVG buttons
 - Switch to **SCSS** for styling
 - [table of contents](https://github.com/allejo/jekyll-toc)
 - **Tags**
-	- ~~move tags specifications to `_data`~~
-	- ~~in every post, show the tags to which it belongs~~
-	- ~~create unique page for all tags, anchor to choose a single one~~
-		1. ~~Fix some tags which are repeated multiple times~~
-		1. ~~Fix gradient not being displayed as text color (check [CSS Tricks](https://css-tricks.com)' titles on hover)~~
-		1. ~~Display Jar elements in tags list~~
-		1. ~~choose once and for all **`categories`** VS **`tags`**~~ (using `tags`)
-		1. ~~Instead of inlining specific properties, create classes for every tag and create a `for` loop in SCSS accessing `site.data.tags` colors~~
-		1. ~~Access tag data (such as color, bg-color, description) from the *_data* folder~~
+	- move tags specifications to `_data`
+	- in every post, show the tags to which it belongs
+	- create unique page for all tags, anchor to choose a single one
+		1. Fix some tags which are repeated multiple times
+		1. Fix gradient not being displayed as text color (check [CSS Tricks](https://css-tricks.com)' titles on hover)
+		1. Display Jar elements in tags list
+		1. choose once and for all **`categories`** VS **`tags`** (chose `tags`)
+		1. Instead of inlining specific properties, create classes for every tag and create a `for` loop in SCSS accessing `site.data.tags` colors
 - Use `@import` to add fonts instead of linking their CSS reference files in HTML ✅ 2020.12.25
