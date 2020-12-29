@@ -64,7 +64,6 @@ body {
 }
 
 .contentWithMenu,
-#menubar,
 #copyright,
 #imageToolBar {
 	background: var(--background) !important;
@@ -92,6 +91,13 @@ body {
 	.contentWithMenu .browsePath {
 		text-indent: 60px !important;
 	}
+	#menubar {
+		background: var(--background) !important;
+		color: var(--text) !important;
+		a {
+			color: var(--text) !important;
+		}
+	}
 }
 
 @media only screen and (min-width: 640px) {
@@ -102,6 +108,9 @@ body {
 		border-radius: var(--radius-m);
 		box-shadow: var(--shadow);
 		padding: var(--small) var(--regular) !important;
+		a {
+			color: var(--background) !important;
+		}
 	}
 }
 

@@ -130,7 +130,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-watch
   - jekyll-redirect-from
-  - jekyll-admin
+#  - jekyll-admin
   - jekyll-debug
 #  - jekyll-optional-front-matter
   - jekyll-paginate-v2

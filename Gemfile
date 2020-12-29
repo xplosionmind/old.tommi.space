@@ -13,6 +13,7 @@ gem "jekyll"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "webrick"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
@@ -20,7 +21,7 @@ group :jekyll_plugins do
   gem "jekyll-target-blank"
   gem "jekyll-watch"
   gem "jekyll-redirect-from"
-  gem "jekyll-admin"
+# gem "jekyll-admin"
   gem "jekyll-debug"
   gem "jekyll-optional-front-matter"
 #  gem "jekyll-paginate"

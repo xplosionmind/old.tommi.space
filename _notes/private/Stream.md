@@ -16,14 +16,10 @@ tags: todo
 - Maniverse: `pigeon palace saddle tone embrace flat mirror turn awkward offer obvious finish alone amazing critic phone cry state shove current protect dinner ice antenna`
 - Il Ladro di Orchidee
 - Configure subz (subscriptions and end of payments (is an app necessary???))
-
-Tommi Richard Gere (deep relation among things) 
-Teo Salvatores
-Tommi Nicolò Fabi (le maschere)
-Teo Mastandrea
-Tommi Elena Sofia Ricci (influencers di cose nuove)
-
-
-La felicità non è più solo personale mentre lo rimane solo la tristezza
-
-Il ritoccare
+- Why no push notifications, better explanation
+	- you don't actually miss stuff
+	- you can leave internet and everything turned on, no sound will arrive unless really important and worth a distraction
+- why no long audios
+	- I write or I call
+	- communications becomes stressful: if I record long audios, obviously I need to listen to them… and they pile up. This is not good nor healthy
+- Post mindfulness: it is important to care also about the “after” of mindfulness
