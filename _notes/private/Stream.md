@@ -22,4 +22,4 @@ tags: todo
 - why no long audios
 	- I write or I call
 	- communications becomes stressful: if I record long audios, obviously I need to listen to them… and they pile up. This is not good nor healthy
-- Post mindfulness: it is important to care also about the “after” of mindfulness
+- Post mindfulness: it is important to care also about the “after” of mindfulnes

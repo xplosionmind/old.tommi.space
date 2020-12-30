@@ -23,15 +23,20 @@ body {
 	--deep: #111;
 	--link: var(--primary);
 	--primary: var(--yellow);
+	--primary-dark: var(--dark-yellow);
 	--secondary: var(--blue);
-	--internal: var(--blue);
+	--internal-link: var(--blue);
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
-	--shadow: 5px 5px 20px #000000DD, -5px -5px 20px #FFFFFF11;
+	--shadow: 5px 5px 20px #000000BB, -5px -5px 20px #FFFFFF11;
 	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFFFFF22;
-	--button-shadow: 3px 3px 8px #000000BB, -3px -3px 8px #FFFFFF1F;
-	--inner-shadow: inset 3px 3px 5px #00000088, inset -3px -3px 5px #FFFFFF22;
-	--inner-little-shadow: inset 2px 2px 3px #000000AA, inset -2px -2px 3px #FFFFFF11;
+	--button-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFFFFF11;
+	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF2;
+	--inner-little-shadow: inset 2px 2px 3px #000A, inset -2px -2px 3px #FFF1;
+	--header-shadow: 5px 5px 15px #000D, -5px -5px 15px #FFF2;
+
+	--text-shadow: -1px -1px 0px var(--link), 0px 0px 0px var(--grey), 1px 1px 1px var(--grey);
+	--title-text-shadow: -3px -3px 0px var(--text), -3px -2px 1px var(--grey), -2px -3px 1px var(--grey), -2px -2px 0px var(--grey), -1px -1px 0px var(--grey), 0px 0px 0px var(--grey);
 
 	transition: var(--trans);
 }
@@ -44,14 +49,15 @@ body {
 	--link: var(--secondary);
 	--primary: var(--blue);
 	--secondary: var(--razzmatazz);
-	--internal: var(--blue);
+	--internal-link: var(--blue);
 	--grey: var(--light-grey);
 	--other-grey: var(--dark-grey);
-	--shadow: 5px 5px 20px #0000001F, -5px -5px 20px #FFFFFFEF;
-	--little-shadow: 2px 2px 3px #00000055, -2px -2px 3px #FFFFFF66;
-	--button-shadow: 3px 3px 8px #00000055, -3px -3px 8px #FFFFFF66;
-	--inner-shadow: inset 3px 3px 5px #00000055, inset -3px -3px 5px #FFFFFF33;
-	--inner-little-shadow: inset 2px 2px 3px #00000022, inset -2px -2px 3px #FFFFFF33;
+	--shadow: 5px 5px 20px #0005, -5px -5px 20px #FFFFFFEF;
+	--little-shadow: 2px 2px 3px #0005, -2px -2px 3px #FFF6;
+	--button-shadow: 3px 3px 8px #0005, -3px -3px 8px #FFF6;
+	--inner-shadow: inset 3px 3px 5px #0005, inset -3px -3px 5px #FFF3;
+	--inner-little-shadow: inset 2px 2px 3px #0002, inset -2px -2px 3px #FFF3;
+	--header-shadow: 5px 5px 15px #0003, -5px -5px 15px #FFFF;
 
 	transition: var(--trans);
 }
@@ -59,7 +65,7 @@ body {
 body {
 	background: var(--background);
 	color: var(--text);
-	font: var(--regular) Inter, Helvetica, "Helvetica Neue", sans-serif;
+	font: var(--regular) Inter, -apple-system, Helvetica, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	margin: 0;
 	overflow-wrap: break-word;
 	hyphens: auto;
@@ -124,19 +130,82 @@ mark {
 a {
 	text-decoration: none;
 	color: var(--link);
-	h2 {
-		color: var(--text);
-	}
 	&:hover,
 	&:focus,
 	&:active {
 		.title {
-			box-shadow: var(--inner-shadow);
+			text-shadow: var(--title-text-shadow-hover);
+			color: var(--text);
 		}
 	}
 	.box {
 		&:hover {
 			box-shadow: var(--inner-shadow);
+		}
+	}
+}
+
+p,
+li,
+article li,
+.toc {
+	a {
+		font-weight: 600;
+		transition: var(--quicktrans);
+		&:hover,
+		&:focus {
+			text-shadow: var(--text-shadow);
+			color: transparent !important;
+		}
+		&:active {
+			text-shadow: none;
+		}
+		&[href*="jar" i],
+		&[href*="marmellata" i] {
+			&::before {
+				content: "🍯 ";
+			}
+		}
+		&[href*="@" i] {
+		&::before {
+			content: "✉️ ";
+			}
+		}
+		&[href*="giri" i] {
+		&::before {
+			content: "🧳 ";
+			}
+		}
+		&[href*="visioni" i],
+		&[href*="visions" i] {
+			&::before {
+				content: "🖼 ";
+				/*content: "📷" */
+			}
+		}
+		&[href="/about" i],
+		&[href*="about-it" i] {
+			&::before {
+				content: "🙋 ";
+			}
+		}
+		&[href="/zibaldone" i],
+		&[href="/zibenglish" i],
+		&[href="/blog" i] {
+			&::before {
+				content: "📜 ";
+				/*content: "📖"; */
+			}
+		}
+		&[href*="unive.it" i] {
+			&::before {
+				content: "🎓 ";
+			}
+		}
+		&[href^="/"],
+		&[href^="#"],
+		&[href*="https://tommi.space" i] {
+			color: var(--internal-link);
 		}
 	}
 }
@@ -154,15 +223,19 @@ a {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	grid-gap: var(--regular);
+	h3 {
+		text-align: center;
+	}
 	p {
 		font-size: .8em;
-		font-weight: 200;
+		font-weight: 300;
+		line-height: 1em;
 	}
 	.box {
 		margin: 0;
-		padding: var(--regular-less);
+		padding: 3%;
 	}
 }
 
@@ -179,23 +252,6 @@ button,
 	cursor: url({{ site.logos }}/cursor-hover.svg) 16 16, pointer;
 }
 
-p a:hover,
-p a:focus,
-article li a:hover,
-article li a:focus,
-.toc a:hover,
-.toc a:focus,
-.tag a:hover,
-.tag a:focus, {
-	outline: none !important;
-	border-bottom: 2px dashed;
-	transition: none;
-}
-
-/* internal links */
-a.internal {
-	color: var(--internal);
-}
 
 /* private or invalid links */
 .invalid-link {
@@ -207,12 +263,8 @@ a.internal {
 }
 
 li {
+	margin-bottom: var(--small);
 	line-height: var(--regular-more-em);
-}
-
-ol li,
-ul li {
-	margin-bottom: var(--regular-less);
 	li {
 		margin-bottom: 0;
 		list-style-type: "–   ";
@@ -233,8 +285,9 @@ ul li {
 	height: var(--regular);
 }
 
-.poetry {
-	font: 400 var(--regular-more) "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif;
+.poetry,
+.serif {
+	font-family: "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .post {
@@ -266,41 +319,11 @@ hr {
 	color: var(--text) !important;
 }
 
-.green {
-	background: var(--green);
-	color: var(--black-ish) !important;
-}
-
-.red {
-	background: var(--red);
-	color: white !important;
-}
-
-.blue {
-	background: var(--blue);
-	color: white !important;
-	a {
-		color: var(--yellow);
-	}
-}
-
-.yellow {
-	background: var(--yellow);
-	color: var(--black-ish) !important;
-	a {
-		color: var(--red);
-	}
-}
-
-.razzmatazz {
-	background: var(--razzmatazz) !important;
-	color: white !important;
-}
-
 .page-header {
 	h1 {
 		font-size: var(--mastodon);
 		margin: var(--regular-less);
+		text-shadow: var(--header-shadow);
 	}
 	p {
 		text-align: center;
@@ -310,8 +333,16 @@ hr {
 
 .toc {
 	margin: 0 10% var(--regular);
-	li li a {
-		color: var(--secondary);
+	li {
+		margin: 0;
+		li {
+			a {
+				opacity: .8;
+			}
+			li a {
+				opacity: .8;
+			}
+		}
 	}
 }
 
@@ -321,7 +352,7 @@ hr {
 
 pre,
 code {
-	font: 400 1.1em 'Ubuntu Mono', 'Roboto Mono', 'Fira Code', mono;
+	font: 400 1.1em 'Ubuntu Mono', 'Roboto Mono', 'Fira Code', mono, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	line-height: 1.2em;
 }
 
@@ -354,7 +385,7 @@ blockquote {
   	margin: 0 3vw;
 	padding: 0;
 	p {
-		font: 1em "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif;
+		font: 1em "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		color: var(--other-grey);
 	/*	&:first-child::before,
 		&:last-child::after {
@@ -460,11 +491,12 @@ table {
 		margin: auto;
 		width: 50%;
 	}
-	.title {
-		width: 60%;
-	}
 	.mobile {
 		display: none;
+	}
+	.box.post-preview img {
+		max-height: 24vh;
+		width: auto;
 	}
 }
 
@@ -486,7 +518,7 @@ figure {
 }
 
 figcaption {
-	font: var(--regular) "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif;
+	font: var(--regular) "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	line-height: var(--regular);
 	margin-top: var(--regular-less);
 	color: var(--other-grey);
@@ -508,7 +540,7 @@ p {
 
 strong,
 b {
-	font-weight: 700;
+	font-weight: 800;
 }
 
 /* make underline text dashed instead of solid */
@@ -520,6 +552,10 @@ b {
 article {
 	font-size: var(--regular-more);
 	padding: var(--twice) 10% var(--mastodon);
+}
+
+time {
+	font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -535,14 +571,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-	height: var(--height);
-	line-height: var(--height);
-	color: var(--text);
-	background: var(--background);
-	margin: var(--mastodon) auto var(--bigger);
-	border-radius: var(--radius-m);
-	box-shadow: var(--button-shadow);
+	font-weight: 800;
+	letter-spacing: .1em;
+	font-size: var(--twice);
+	color: transparent;
+	margin: var(--regular) auto;
+	text-shadow: var(--title-text-shadow);
 	text-align: center;
+	transition: var(--quicktrans);
 }
 
 h1 {
@@ -554,7 +590,6 @@ h1 {
 
 h2 {
 	font-size: var(--bigger);
-	margin: 0;
 }
 
 .box {
@@ -567,14 +602,24 @@ h2 {
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
 	overflow: scroll;
-	h2 {
-		text-align: center;
-		margin-top: 0;
-	}
-	&.banner {
-		h3 {
+	&.post-preview {
+		margin-top: var(--regular-less);
+		margin-bottom: var(--regular-less);
+		max-height: unset;
+		.serif {
+			margin: 0 var(--regular);
+		}
+		.date {
 			margin: 0;
 		}
+	}
+	h2,
+	h3 {
+		text-align: center;
+	}
+	h3,
+	h4 {
+		margin: 0;
 	}
 }
 
@@ -640,9 +685,6 @@ footer {
 	.page-header h1 {
 		font-size: var(--height);
 	}
-	.title {
-		width: 94%;
-	}
 	.box {
 		margin: var(--bigger) 3%;
 	}
@@ -650,24 +692,6 @@ footer {
 		margin-top: var(--bigger)
 	}
 }
-
-.tag {
-	max-height: unset;
-	li {
-		margin-left: 4vw;
-	}
-}
-
-{% for tag in site.data.tags %}
-	.{{ tag.title | slugify }} {
-		color: {{ tag.color }};
-		background: {{ tag.background }};
-		a {
-			color: {{ tag.color }};
-			border-bottom: 2px solid {{ tag.color }};
-		}
-	}
-{% endfor %}
 
 audio {
 	width: 100%;
@@ -701,7 +725,10 @@ button,
 	hyphens: none;
 	&:hover,
 	&:focus {
-		box-shadow: var(--inner-shadow) !important;
+		box-shadow: none;
+	}
+	&:active {
+		box-shadow: var(--inner-shadow);
 	}
 }
 
@@ -716,12 +743,6 @@ button,
 	margin: var(--small);
 	font-size: var(--big);
 	border-radius: var(--radius-s);
-}
-
-.border {
-	background: transparent;
-	color: var(--text);
-	border: var(--tiny) solid var(--text);
 }
 
 .sharing {
@@ -766,4 +787,67 @@ button,
 		width: 100%;
 		height: 100%;
 	}
+}
+
+.tag {
+	max-height: unset;
+	li {
+		margin-left: 4vw;
+	}
+}
+
+{% for tag in site.data.tags %}
+	.{{ tag.title | slugify }} {
+		color: {{ tag.color }};
+		background: {{ tag.background }};
+		a {
+			color: {{ tag.color }};
+			text-shadow: 1px 1px 2px var(--link);
+		}
+	}
+{% endfor %}
+
+.green {
+	background: var(--green);
+	color: var(--black-ish) !important;
+	border-color: var(--green) !important;
+}
+
+.red {
+	background: var(--red);
+	color: white !important;
+	border-color: var(--red) !important;
+	a {
+		color: var(--yellow);
+	}
+}
+
+.blue {
+	background: var(--blue);
+	color: white !important;
+	border-color: var(--blue) !important;
+	a {
+		color: var(--yellow);
+	}
+}
+
+.yellow {
+	background: var(--yellow);
+	color: var(--black-ish) !important;
+	border-color: var(--yellow) !important;
+	a {
+		color: var(--red);
+	}
+}
+
+.razzmatazz {
+	background: var(--razzmatazz);
+	color: white !important;
+	border-color: var(--razzmatazz) !important;
+}
+
+.border {
+	background: transparent;
+	color: var(--text);
+	border: 3px solid var(--text);
 }

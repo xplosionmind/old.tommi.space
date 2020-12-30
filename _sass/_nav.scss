@@ -54,14 +54,20 @@ nav {
 			margin: 0;
 			a {
 				display: block;
-				color: var(--text);
+				color: var(--text) !important;
 				line-height: var(--height);
 				height: var(--height);
 				padding: 0 var(--small);
 				font-size: var(--regular-more);
 				&:hover,
 				&:focus{
-					color: var(--primary);
+					text-shadow: var(--text-shadow);
+				}
+				&:active {
+					opacity: .6;
+				}
+				&::before {
+					content: none !important;
 				}
 			}
 		}

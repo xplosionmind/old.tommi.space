@@ -22,7 +22,9 @@ layout: wrapper
 
 	<div class="row">
 		<article class="e-content note">
-			<p>{{ page.description | markdownify }}</p>
+			{% if page.description != nil %}
+				<p>{{ page.description | markdownify }}</p>
+			{% endif %}
 			{% include anchor-parser.html html=content %}
 		</article>
 	</div>

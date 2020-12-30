@@ -14,18 +14,28 @@ ref: blog
 		<p><em>Zibaldone di Pensieri</em> is a great collection of notes by the great italian author Giacomo Leopardi. These writings don’t have even a tiny bit of profoundness, power and wit of the original collection. Just a touch of glee, craziness of my everyday life.</p>
 		<p>Translating the definition by Treccani encyclopedia, <a href="http://treccani.it/vocabolario/zibaldone/" rel="noopener noreferrer" target="_blank">żibaldóne</a>: […] <cite>Notebook where unordered news, notes, thoughts, quotes, schemes, sketches are noted</cite>.</p>
 		<p>Exactly that.</p>
-{% include tags.html %}
 	</div>
+
+	{% include tags.html %}
 
 	{% for post in site.posts %}
 		<div class="row">
 			<a href="{{ post.url }}">
-				<div class="flex box">
-					<h2>{{ post.title }}</h2>
-					<p class="right">{{ post.date | date_to_long_string }}</p>
+				<div class="post-preview box {% for tag in post.tags limit:1 %}{{ tag | slugify }}{% endfor %}">
+					<div class="one-fourth column">
+						<img src="{{ post.image }}" />
+					</div>
+					<div class="three-fourths column">
+						<h2 class="title">{{ post.title }}</h2>
+						<p class="date"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time></p>
+						<div class="serif">
+							{{ post.excerpt | strip_html | truncatewords: 30 }}
+						</div>
+					</div>
 				</div>
 			</a>
 		</div>
 	{% endfor %}
+
 
 </div>

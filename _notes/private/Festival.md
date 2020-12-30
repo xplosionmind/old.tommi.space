@@ -1,6 +1,7 @@
 ---
-tags: ["people", "festival"]
+tags: scambi
 ---
+- **SCHEDA LABS**
 - excel budget per TUTTO
 - Fabio Geda
 - un HQ alla Pigna per lavorare tutta l'estate

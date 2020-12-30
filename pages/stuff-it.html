@@ -17,15 +17,16 @@ ref: stuff
 	</div>
 </div>
 	
+
 <div class="row">
 	<div class="one column flex">
-		<h3>In sintesi</h3>
+		<h3>Indice dei contenuti</h3>
 		<ul>
 			{% assign stuff=site.data.stuff %}
-			<li><a href="#current">Cose attuali</a>
+			<li><a href="#current">Cose in corso</a>
 				<ul>
 					{% for thing in stuff %}{% if thing.current == '1' %}
-						<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
+					<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
 					{% endif %}{% endfor %}
 				</ul>
 			</li>
@@ -34,7 +35,7 @@ ref: stuff
 					{% for thing in stuff %}{% unless thing.current == '1' %}
 						<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
 					{% endunless %}{% endfor %}
-				</ul></p>
+				</ul>
 			</li>
 		</ul>
 	</div>

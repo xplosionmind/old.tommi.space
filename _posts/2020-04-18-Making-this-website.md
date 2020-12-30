@@ -1,6 +1,6 @@
 ---
 date: 2020-04-18
-tags: ["geek"]
+tags: geek, draft
 image: "https://assets.tommi.space/images/posts/2020-04-18-making-this-website.jpg"
 lang: en
 permalink: /themakingof
@@ -9,9 +9,6 @@ redirect-from:
   - /the-making-of
 ref: genesi
 ---
-This article isn’t completed yet, please check the Markdown file in the website GitHub repository to contribute.
-{:.red .box}
-<!--more-->
 Building a website from scratch can be challenging. It took me several months of study, practice, tests and neverending headaches to get to this result. The process can be overwhelming (to me it definitely has been): there are tons of different tools, resouces and tutorials; nevertheless, it’s always **so hard** to spend the right amount of time learning something by evaluating its overall usefulness. Since the beginning, I chose to do **everything** by myself: I decided not to use any framework, <abbr title="Content Management System">CMS</abbr> or copy and paste any code I couldn’t understand.
 
 I wanted to learn by doing and **do it in the best possible way**.

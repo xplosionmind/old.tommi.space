@@ -11,8 +11,8 @@ redirect_from:
   - /apri-firefox
   - /open-firefox
 ---
-Testa di belin,   
-non stai usando il browser che dovresti,   
-Tommi è deluso da te.
+Testa di belin\
+non stai usando il browser che dovresti,\
+Tommi è deluso da te ☹️.
 
 Clicca ovunque nella pagina per scaricare Firefox, se già non lo hai.

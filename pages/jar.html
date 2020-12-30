@@ -4,7 +4,6 @@ permalink: /jar
 redirect_from:
   - /the-jar
   - /thejar
-lang: en
 ref: jar
 ---
 <div id="feed" class="one column">
@@ -20,15 +19,13 @@ ref: jar
 		{% assign jar = site.notes %}
 		{% for note in jar %}
 			<a href="{{ note.url }}">
-				<div class="box">
-					<div class="row">
-						<h2>{{ note.title }}</h2>
+				<div class="box {% for tag in note.tags limit:1 %}{{ tag }}{% endfor %}">
+					<h3>{{ note.title }}</h3>
 						{% if note.description %}
-							<p>{{ note.description | markdownify | strip_html | truncatewords: 30 }}</p>
+						<p>{{ note.description | markdownify | strip_html | truncatewords: 30 }}</p>
 						{% else %}
-							<p>{{ note.excerpt | strip_html | truncatewords: 30 }}</p>
-						{% endif %}
-					</div>
+						<p>{{ note.excerpt | strip_html | truncatewords: 30 }}</p>
+					{% endif %}
 				</div>
 			</a>
 		{% endfor %}

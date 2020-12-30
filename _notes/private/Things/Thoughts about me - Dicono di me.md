@@ -1,18 +1,18 @@
 ---
 date: 2020-04-18
-updated: 2020-12-26
+updated: 2020-12-29
 tags: track
 ---
 > se ci fossero ventimila Tommi in Italia in questo momento non saremmo in questa situazione disastrosa
 
-Leo, Cineforum del 18 aprile 2020
+<p class="cite">Leo, Cineforum del 18 aprile 2020</p>
 
 <br>
 <br>
 
 > Tu hai bisogno di qualcuno tranquillo ma che ti accenda, che mandi la tua fantasia sulla luna, non che ti riporti sulla terra
 
-Licia, messaggio il 10 maggio 2020
+<p class="cite">Licia, messaggio il 10 maggio 2020</p>
 
 <br>
 <br>
@@ -47,14 +47,14 @@ Non credo tu lo sappia, ma qualche tempo fa ho sentito un motto, e da allora è 
 > Sei un grande
 > Non ho altre parole
 
-Luca, 12 maggio 2020
+<p class="cite">Luca Marchiano, 12 maggio 2020</p>
 
 <br>
 <br>
 
 > Tu mi riattivi il cervello
 
-Anna ad Aigovo, alle 00:31 del 6 giugno 2020
+<p class="cite">Anna ad Aigovo, alle 00:31 del 6 giugno 2020</p>
 
 <br>
 <br>
@@ -63,7 +63,7 @@ Anna ad Aigovo, alle 00:31 del 6 giugno 2020
 >
 > Mic: Perché credo in te, ti stimo, sei una delle poche persone della tua età che sprigiona gioia ed entusiasmo e sei il figlio che vorrei avere
 
-Zio Mic, 24 Maggio 2019
+<p class="cite">Zio Mic, 24 Maggio 2019</p>
 
 <br>
 <br>
@@ -84,7 +84,7 @@ Zio Mic, 24 Maggio 2019
 >
 > Poi sembra quasi che ti dimentichi di loro
 
-Anna Mastrantuono, 29 luglio 2020
+<p class="cite">Anna Mastrantuono, 29 luglio 2020</p>
 
 <br>
 <br>
@@ -92,7 +92,7 @@ Anna Mastrantuono, 29 luglio 2020
 
 > Sei un super Tommi un po' come Spider Man
 
-Marta Pepe, 21 agosto 2020
+<p class="cite">Marta Pepe, 21 agosto 2020</p>
 
 <br>
 <br>
@@ -104,18 +104,25 @@ https://www.instagram.com/p/CEIWRdsIda-/?igshid=1pv0df28db27n
 
 > Dovresti preoccuparti quando non conoscono te, non quando non li conosci
 
-Valentina Covella, Giffoni 25 agosto 2020
+<p class="cite">Valentina Covella, Giffoni 25 agosto 2020</p>
 
 <br>
 <br>
 
 > Tommi tu hai anima
 
-Cecilia Sicca, in videocall 25 Novembre 2020
+<p class="cite">Cecilia Sicca, in videocall 25 Novembre 2020</p>
 
 <br>
 <br>
 
 > Tommi♥️ mi sento tanto onorata di aver ricevuto questa lettera e sono tanto tanto fortunata ad averti nella Mia vita, sei stato la prima persona “reale” che Io abbia davvero ammirato e a tutt’oggi ne ammiro poche. Non sai quante cose mi hai insegnato e continui a insegnarmi e non so e non credo di poterti mai ringraziare abbastanza, ti voglio tanto bene♥️
 
-Michela Tarantino, messaggio del 26 dicembre 2020
+<p class="cite">Michela Tarantino, messaggio del 26 dicembre 2020</p>
+
+<br>
+<br>
+
+> che sei talmente intelligente che ti perdi in tutte le idee meravigliose che ti vengono <3
+
+<p class="cite">Lucilla, sulla chat di Zoom di Giffoni Winter Edition, il 29 dicembre 2020</p>

@@ -165,6 +165,7 @@ defaults:
       layout: "wrapper"
       lang: "en"
       image: "https://assets.tommi.space/images/preview.gif"
+      comments: true
 
   -
     scope:

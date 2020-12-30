@@ -1,3 +1,4 @@
+{% unless page.comments == false %}
 <div class="u-comment row">
 	<div id="comments" class="box">
 		<h2 class="title">{% case page.lang %}{% when 'it' %}Commenti{% else %}Comments{% endcase %}</h2>
@@ -12,3 +13,4 @@
 		</div>
 	</div>
 </div>
+{% endunless %}
