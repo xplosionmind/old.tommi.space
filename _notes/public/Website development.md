@@ -50,11 +50,13 @@ Creative and technical aims, ideas annotation and drafts tracking.
 
 Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
-2. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)
+1. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)
 1. Replace SEO tag with Liquid syntax
-1. Take the most advantage possible from installed plugins
-1. Jekyll link checking (plugin?)
-1. The new Jar:
+1. Configure [jekyll-tagging](https://github.com/pattex/jekyll-tagging) plugin
+1. Consider dropping Kramdown for better performance
+	- MultiMarkdown?
+	- [CommonMark](https://github.com/jekyll/jekyll-commonmark)?
+2. The new Jar:
 	- show only parent tags / notes
 	- an unstyled simple bullet point list
 	- show notes graph only
@@ -68,24 +70,18 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 		1. [article 1](https://blog.webjeda.com/jekyll-tags/)
 		1. [article 2](https://kylewbanks.com/blog/creating-tag-pages-in-jekyll-without-plugins)
 		1. Configure [jTag](https://github.com/ttscoff/jtag)
-	- [dropdown menu guide](https://www.w3schools.com/howto/howto_js_dropdown.asp)
-5. Switch to [Zettelkasten](/zettelkasten)
-	- [git submodules](https://www.taniarascia.com/git-submodules-private-content/)
-	- make backlinks optional: insert `if` statement out of the `div` and make the box appear only if at least one backlink is present
-	- ~~convert Zetelkasten links to ordinary links~~ 2020.12.12
-	- ~~Backlinking~~ 2020.12.03
-6. Pagination
-7. Thumbnails in Zibaldone's feed
+1. Zettelkasten graph
+6. Switch from Algolia to Lunr or to [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search)
+	1. [Searchyll](https://github.com/omc/searchyll)?
 8. Improve [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) plugin
-1. `text-shadow` CSS property in titles and in `a:hover`
-1. [**Visioni**](/visioni)
+10. [**Visioni**](/visioni)
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
 	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/)
 	- Photo selection
 	- horizontal instead of vertical scrolling of the gallery
 	- PDF portfolio download
-10. Add `image` tag in Jar elements
+11. Add `image` tag in Jar elements
 12. Self-host website
 13. Content history
 	- now page
@@ -96,66 +92,37 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 	- Cinema
 	- rimm-db
 15. Add [humans.txt](http://humanstxt.org)
-17. Semantic HTML
-18. Use more icons (e.g. jam jar)
-20. Implement little cool Javascript features, from [W3schools](https://www.w3schools.com/howto/)
-21. Evaluate copyright change
-22. [Bookmarked threads](https://talk.jekyllrb.com/u/xplosionmind/activity/bookmarks) on [Jekyll Talk](https://talk.jekyllrb.com/) (Jelyll's forum)
-24. [improve header](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
-25. Configure global properties in `_config.yml` to perform changes in a quicker way
-26. [Typography](https://tommi.space/typography)
+16. Semantic HTML
+18. Implement little cool Javascript features, from [W3schools](https://www.w3schools.com/howto/)
+19. Evaluate copyright change
+20. [Bookmarked threads](https://talk.jekyllrb.com/u/xplosionmind/activity/bookmarks) on [Jekyll Talk](https://talk.jekyllrb.com/) (Jelyll's forum)
+21. [improve header](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
+22. Configure global properties in `_config.yml` to perform changes in a quicker way
+23. [Typography](https://tommi.space/typography)
 	- better reasoned typographic choices
     - [Custom font](https://tommi.space/Typography#Custom-font)
-27. Setup mailing list
+24. Setup mailing list
 	- [listmonk](https://listmonk.app) or [Mailtrain](https://mailtrain.org)
 	- [awesome-emails](https://github.com/jonathandion/awesome-emails)
 	- [responsive template](https://github.com/leemunroe/responsive-html-email-template)
-29. Mailtrain automation with RSS
-28. italian content only RSS Feed
-2. Swap Kramdown with MultiMarkdown?
-11. [jekyll-rakefile](https://github.com/avillafiorita/jekyll-rakefile)
-30. Hosting on [[Server]] instead of using [Netlify](https://netlify.com)
-31. **CSS only** [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
-32. Improved and smart use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
-	- `.box` and `.stuff` max heights
-33. A page which contains links to ALL PAGES (a sitemap?)
-34. **Sorting** / **filtering** (using JavaScript?)
+25. Mailtrain automation with RSS
+26. italian content only RSS Feed
+28. Hosting on [[Server]] instead of using [Netlify](https://netlify.com "Netlify official website")
+31. A page which contains links to ALL PAGES (a sitemap?)
+32. **Sorting** / **filtering** (using JavaScript?)
 	- in Zibaldone and The Jar: language and tag filter
 	- in Books: Sorting
-35. Configure [**Webmentions**](https://indieweb.org/Webmention)
-    - Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
-    - Setup [Webmention.io](https://webmention.io/)
-    - Setup [Bridgy](https://brid.gy/)
-1. In [Books](/books) add IDs to every row corresponding to the title of the book (I posted [a question about this on the Jekyll forum](https://talk.jekyllrb.com/t/table-data-id-in-tablerow-loop/5398)) (done but to be improved: IDs are generated for every `td`, I think it's necessary to use a for loop instead of a `tablerow` loop)
-37. Design improvements
-	- make shades slightly colored, according to the belonging object
-	- refine the color palette
-38. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com)
-39. Piwigo integration?
-40. Create Jekyll theme
-41. Switch to [Hugo](https://gohugo.io "Hugo official website")
+33. Configure [**Webmentions**](https://indieweb.org/Webmention)
+	- Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
+	- Setup [Webmention.io](https://webmention.io/)
+	- Setup [Bridgy](https://brid.gy/)
+36. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com "Humane Tech") and [Victoria Drake](https://victoria.dev)
+37. Piwigo integration?
+29. CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
+38. Create Jekyll theme
+39. Switch to [Hugo](https://gohugo.io "Hugo official website")
 
 <br>
-<br>
-
-## Plugins
-
-Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-plugins/). A list of interesting plugins which aren't installed yet follows:
-
-- [Jekyll image processing](https://github.com/benubois/jekyll_image_processing)
-- [Titles from headings](https://github.com/benbalter/jekyll-titles-from-headings)
-- [Polyglot](https://polyglot.untra.io/), to easily make Jekyll multi-language
-- [Jekyll picture tag](https://github.com/rbuchberger/jekyll_picture_tag), responsive images
-- [Responsive images](https://github.com/wildlyinaccurate/jekyll-responsive-image)
-- [Jekyll Ordinal](https://github.com/patrickcate/Jekyll-Ordinal)
-- ~~[Jekyll Octopod](https://jekyll-octopod.github.io), podcast implementation~~ deprecated
-- [podcast feed](https://github.com/benubois/podcast-feed), create a podcast feed
-- [Jekyll Slim](https://github.com/sunnyrjuneja/jekyll-slim), to add [Slim Language](http://slim-lang.com) compatibility
-- [Jekyll Compose](https://github.com/jekyll/jekyll-compose), to create posts and drafts quicker
-- [Jekyll import](https://import.jekyllrb.com), to import content from other blogging platforms
-- [Jekyll Pandoc Multiple Formats](https://github.com/fauno/jekyll-pandoc-multiple-formats)
-- [Jekyll figure](https://github.com/paulrobertlloyd/jekyll-figure)
-
 <br>
 
 ### Creative ideas
@@ -206,6 +173,9 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 - Hover effects
 - `id` anchor links
 - `{% raw %}{% if page.tags contains 'draft' %}{% endraw %}` print a banner indicating that the page misses something ✅ 2020-12-25
+- Improved and smart use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
+	- `.box` and `.stuff` max heights
+- In [Books](/books) add IDs to every row corresponding to the title of the book (I posted [a question about this on the Jekyll forum](https://talk.jekyllrb.com/t/table-data-id-in-tablerow-loop/5398)) (done but to be improved: IDs are generated for every `td`, I think it's necessary to use a for loop instead of a `tablerow` loop). ✅ 2020.12.31
 - inline code styling
 - input fields styling
 - Language selection straight from landing page - 2020.09.11
@@ -235,6 +205,11 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 - [*stuff extended*](/tutto)
 - SVG buttons
 - Switch to **SCSS** for styling
+- Switch to [Zettelkasten](/zettelkasten)
+	- [git submodules](https://www.taniarascia.com/git-submodules-private-content/)
+	- make backlinks optional: insert `if` statement out of the `div` and make the box appear only if at least one backlink is present
+	- convert Zetelkasten links to ordinary links 2020.12.12
+	- Backlinking~~ 2020.12.03
 - [table of contents](https://github.com/allejo/jekyll-toc)
 - **Tags**
 	- move tags specifications to `_data`
@@ -245,4 +220,7 @@ Check [Awesome Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-pl
 		1. Display Jar elements in tags list
 		1. choose once and for all **`categories`** VS **`tags`** (chose `tags`)
 		1. Instead of inlining specific properties, create classes for every tag and create a `for` loop in SCSS accessing `site.data.tags` colors
+- `text-shadow` CSS property in titles and in `a:hover` ✅ 2020.12.30
+- Thumbnails in Zibaldone's feed ✅ 2020.12.30
 - Use `@import` to add fonts instead of linking their CSS reference files in HTML ✅ 2020.12.25
+- Use more Emojis ✅ 2020.12.30

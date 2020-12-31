@@ -422,10 +422,11 @@ td {
 	padding: var(--tiny) var(--small);
 }
 
-.table-container {
+.table {
 	max-height: 90vh;
-	overflow-x: scroll;
-	border: solid 3px var(--grey);
+	overflow: scroll;
+	margin: var(--height) 2vw;
+	border: 3px solid var(--grey);
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
 }
@@ -802,7 +803,6 @@ button,
 		background: {{ tag.background }};
 		a {
 			color: {{ tag.color }};
-			text-shadow: 1px 1px 2px var(--link);
 		}
 	}
 {% endfor %}
@@ -844,6 +844,11 @@ button,
 	background: var(--razzmatazz);
 	color: white !important;
 	border-color: var(--razzmatazz) !important;
+}
+
+.grey {
+	background: var(--grey);
+	border-color: var(--grey) !important;
 }
 
 .border {

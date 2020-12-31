@@ -3,20 +3,25 @@ date: 2020-09-09
 updated: 2020-12-26
 description: "Books I own and books I’d love to read and/or have"
 tags: read
-redirect_from: ["/library", "/bookshelf"]
+redirect_from: ["/library", "/bookshelf", "/libreria", "/libri"]
 toc: false
+layout: wrapper
 ---
 <style>
-	.library .col3 {
-		font-family: "Ubuntu Mono", mono
+	.col3 {
+		font-family: "Ubuntu Mono", mono;
+        width: 9rem
 	}
     .col10 {
-      width: 7rem;
+      width: 7rem
     }
 </style>
-<h2 id="Wishlist">Wishlist</h2>
-<div class="table-container">
-<table class="wishlist">
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+</div>
+<h2 class="title" id="Wishlist">Wishlist</h2>
+<div class="table">
+<table>
 
   {% for row in site.data.books-wishlist %}
     {% if forloop.first %}
@@ -40,9 +45,9 @@ toc: false
 <br />
 <br />
 
-<h2 id="Library">Library</h2>
-<div class="table-container">
-<table class="library">
+<h2 class="title" id="Library">Library</h2>
+<div class="table">
+<table>
 
   {% for row in site.data.library %}
     {% if forloop.first %}
