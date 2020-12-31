@@ -31,6 +31,7 @@ group :jekyll_plugins do
   gem "jekyll-mentions"
   gem "jekyll-liquify"
   gem "jekyll-auto-image"
+  gem "html-proofer"
 # gem "jekyll-admin"
 # gem "jekyll-optional-front-matter"
 #  gem "jekyll-paginate"

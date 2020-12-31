@@ -19,6 +19,8 @@ tags: todo
 - Why no push notifications, better explanation
 	- you don't actually miss stuff
 	- you can leave internet and everything turned on, no sound will arrive unless really important and worth a distraction
+- Markdown explanation
+- Signal explanation
 - why no long audios
 	- I write or I call
 	- communications becomes stressful: if I record long audios, obviously I need to listen to them… and they pile up. This is not good nor healthy

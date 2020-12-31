@@ -32,6 +32,17 @@ ref: blog
 							{{ post.excerpt | strip_html | truncatewords: 30 }}
 						</div>
 					</div>
+					<div class="flex row">
+						{% for tagg in site.data.tags %}
+							{% for present in post.tags %}
+								{% capture tag %}{{ tagg.title | downcase | slugify }}{% endcapture %}
+								{% capture post-tag %}{{ present | downcase | slugify }}{% endcapture %}
+								{% if tag == post-tag %}
+									<div rel="tag" class="{{ tag }} smaller written button">{{ tagg.title }}</div>
+								{% endif %}
+							{% endfor %}
+						{% endfor %}
+					</div>
 				</div>
 			</a>
 		</div>

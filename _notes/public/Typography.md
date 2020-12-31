@@ -1,6 +1,6 @@
 ---
 date: 2020-05-12
-updated: 2020-12-23
+updated: 2020-12-31
 tags: design
 redirect_from: /tipografia
 ---
@@ -9,7 +9,7 @@ A premise: I have a fetish for Typography. I really do. I often find myself twea
 
 <br>
 
-- [*The Vignelli Canon*](), a book on design, **the** book on design, by [Massimo Vignelli](https://www.wikiwand.com/en/Massimo_Vignelli "Massimo Vignelli on Wikipedia") (the legend who [designed the whole graphic of New York](https://nyti.ms/1mzoUBo)). This book inspired me, so much that it completely changed how I see the world (and made me fall in love with Typography).
+- [<cite>The Vignelli Canon</cite>](https://rationale-design.com/resources/vignelli-canon/ "The Vignelli Canon on Rationale Design"), a book on design, **the** book on design, by [Massimo Vignelli](https://www.wikiwand.com/en/Massimo_Vignelli "Massimo Vignelli on Wikipedia") (the legend who [designed the whole graphic of New York](https://nyti.ms/1mzoUBo)). This book inspired me, so much that it completely changed how I see the world (and made me fall in love with Typography).
 - [*I font preferiti dagli scrittori italiani*](https://www.ilpost.it/2020/02/09/font-preferiti-scrittori-italiani/ "I font preferiti dagli scrittori italiani - Il Post"), on [Il Post](https://ilpost.it).
 - Articles tagged with “[fonts](https://www.ilpost.it/tag/font/)” on [Il Post](https://ilpost.it).
 - [Web Typography](http://webtypography.net/), a website focused on typography on the Web, [Richard Rutter](http://clagnut.com/)<.
@@ -27,15 +27,15 @@ A premise: I have a fetish for Typography. I really do. I often find myself twea
 Update 3<sup>rd</sup> December 2020: the day I'll stop loving Inter and use it as my main font ==everywhere== I better provide some valid explanations or I won't be myself anymore; I totally love it.
 	- [play with it](https://rsms.me/inter/lab/)
 	- [why](/genesi#tipografia) this website uses Inter
-- [Merriweather](https://github.com/SorkinType/Merriweather), ~~the serif font I use on this blog~~ (not anymore), it’s designed by [Eben Sorkin](http://sorkintype.com/about.html).   
+- [Merriweather](https://github.com/SorkinType/Merriweather), ~~the serif font I use on this blog~~ (not anymore), it’s designed by [Eben Sorkin](http://sorkintype.com/about.html "About Eben Sorkin").   
 Update 3<sup>rd</sup> December 2020: I've been deluded: like [Playfair Display](https://github.com/clauseggers/Playfair-Display), it feels AWESOME at the beginning, it then gets itchy and bothering after a while.
 - [Graphik](https://commercialtype.com/catalog/graphik), Sans Serif
-- Garamond is the most widely used and loved font in the italian publishing industry, and to me it's the best serif font for narrative writing. [EB Garamond](http://www.georgduffner.at/ebgaramond/) is its renewed, open, digitally friendly alternative, and I use it when I want to use serif in my blog. Its designer is [a great guy](http://georgduffner.at/)
+- Garamond is the most widely used and loved font in the italian publishing industry, and to me it's the best serif font for narrative writing. [EB Garamond](http://www.georgduffner.at/ebgaramond/ "EB Garamond official website") is its renewed, open, digitally friendly alternative, and I use it when I want to use serif in my blog. Its designer is [a great guy](http://georgduffner.at/ "George Duffner personal website")
 
 <br>
 
 ## Custom Font
 
-- define a **name**
+- define a font name
 - cutting the leg of `x`s
 - sideways cutting of letter’s legs

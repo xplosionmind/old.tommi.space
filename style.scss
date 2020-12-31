@@ -159,6 +159,7 @@ article li,
 		}
 		&:active {
 			text-shadow: none;
+			color: var(--link) !important;
 		}
 		&[href*="jar" i],
 		&[href*="marmellata" i] {
@@ -166,7 +167,7 @@ article li,
 				content: "🍯 ";
 			}
 		}
-		&[href*="@" i] {
+		&[href*="mailto" i] {
 		&::before {
 			content: "✉️ ";
 			}
@@ -288,6 +289,9 @@ li {
 .poetry,
 .serif {
 	font-family: "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	p {
+		line-height: 1.5em;
+	}
 }
 
 .post {
@@ -386,19 +390,7 @@ blockquote {
 	padding: 0;
 	p {
 		font: 1em "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-		color: var(--other-grey);
-	/*	&:first-child::before,
-		&:last-child::after {
-			position: relative;
-		}
-		&:first-child::before {
-			content: '“';
-			right: var(--tiny);
-		}
-		&:last-child::after {
-			content: '„';
-			left: var(--tiny);
-		} */
+		opacity: .9;
 	}
 }
 
@@ -607,11 +599,15 @@ h2 {
 		margin-top: var(--regular-less);
 		margin-bottom: var(--regular-less);
 		max-height: unset;
+		padding: var(--small);
 		.serif {
 			margin: 0 var(--regular);
 		}
 		.date {
-			margin: 0;
+			margin: 0 var(--regular);
+		}
+		.button {
+			transform: scale(.7);
 		}
 	}
 	h2,
@@ -750,9 +746,6 @@ button,
 	.button {
 		margin-right: var(--small);
 		padding: .4rem;
-		box-shadow: var(--little-shadow);
-		&:hover {
-		}
 	}
 }
 
