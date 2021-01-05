@@ -1,20 +1,21 @@
 ---
 tags: todo
-aliases: ["to do", "todo", "to do list"]
+aliases: ["MOC", "Home", to do", "todo"]
 ---
 1. Study
-4. [[Festival]]
-9. [[Images]]
-6. Regalo Vale Conta
-8. [[Sconnesso]]
-10. [[Quit Social Media Notes]]
-11. [[Spese periodiche]]
-12. [[Databases]]
-13. [[Will]]
-14. [[Writing]]
-15. [[Geek todo|Geek stuff]]
-16. Wander in “Things” folder
-17. [[Knowledge#Missing|Learn]]
+1. [[Partenza]]
+1. *[[private/Scambi|Scambi]]*
+	1. Scheda di progetto sociale
+	1. Compilazione schede labs
+1. [[Images]]
+1. [[Will]]
+1. Regalo Vale Conta
+1. [[Sconnesso]]
+1. [[Databases]]
+1. [[Writing]]
+1. [[Geek todo|Geek stuff]]
+1. Wander in “Things” folder
+1. [[Knowledge#Missing|Learn]]
 	- [[Music]]
 
 <br>

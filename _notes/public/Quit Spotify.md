@@ -12,7 +12,7 @@ Quitting Spotify is hard.
 
 It's **very** hard, not only because it's convenient and easy to use, but mostly because almost everyone else uses it; thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. For these reasons, quitting and finding another tool to listen to music isn't enough: it's necessary to substitute the playlist creation and sharing workflow of Spotify while keeping it accessible and easy to experience for anybody.
 
-Quitting Spotify is one of the steps of the path to [[Internet Freedom]], and it follows the “[[Make the switch]]” philosophy.
+Quitting Spotify is one of the steps of the path to [[Internet Freedom]], and it follows the “[[Quit and switch]]” philosophy.
 {:.box}
 
 <br>

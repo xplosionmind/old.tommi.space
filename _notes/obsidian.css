@@ -10,16 +10,28 @@
 
 
 :root {
-	--primary: #FCC920;
-	--primary-light: #FCC920;
-	--secondary: #EC0868;
-	--blue: #4F99FF;
+	--black-ish: #222;
+	--white-ish: #E3E3E3;
+	--dark-grey: #555;
+	--light-grey: #AAA;
+	--yellow: #FCC920;
+	--dark-yellow: #D0A00E;
+	--light-blue: #A8DADC;
+	--blue: #3185FC;
+	--red: #D00;
+	--green: #20CE88;
+	--razzmatazz: #EC0868;
+	--purple: #884EE1;
+	--dark: #533066;
+	--primary: var(--yellow);
+	--primary-light: var(--yellow);
+	--secondary: var(--razzmatazz);
 	--accent: limegreen;
 	--default-font: Inter, -apple-system, sans-serif;
 	--font-monospace: 'Ubuntu Mono', monospace;
 }
 
-:not(hr):not(blockquote):not(.CodeMirror-cursor) {
+:not(hr):not(blockquote):not(.CodeMirror-cursor):not(td):not(th) {
 	border: none !important;
 }
 
@@ -28,6 +40,7 @@
 	--text-accent: var(--primary);
     --text-accent-hover: var(--primary-light);
     --scrollbar-bg: none !important;
+	--shadow: 5px 5px 20px #000000BB, -5px -5px 20px #FFFFFF11;
 }
 
 .theme-dark .cm-fat-cursor .CodeMirror-cursor {
@@ -40,6 +53,7 @@
 
 .theme-light {
     --scrollbar-bg: none !important;
+	--shadow: 5px 5px 20px #0005, -5px -5px 20px #FFFFFFEF;
 }
 
 .theme-light .cm-fat-cursor .CodeMirror-cursor {
@@ -167,4 +181,63 @@ blockquote {
 
 .cite::before {
 	content: '~ '
+}
+
+.box {
+	padding: 1.5rem;
+	border-radius: 1rem;
+	box-shadow: var(--shadow);
+}
+
+.green {
+	background: var(--green);
+	color: var(--black-ish) !important;
+	border-color: var(--green) !important;
+}
+
+.red {
+	background: var(--red);
+	color: white !important;
+	border-color: var(--red) !important;
+}
+
+.red a {
+	color: var(--yellow);
+}
+
+.blue {
+	background: var(--blue);
+	color: white !important;
+	border-color: var(--blue) !important;
+}
+
+.blue a {
+	color: var(--yellow);
+}
+
+.yellow {
+	background: var(--yellow);
+	color: var(--black-ish) !important;
+	border-color: var(--yellow) !important;
+}
+
+.yellow a {
+	color: var(--red);
+}
+
+.razzmatazz {
+	background: var(--razzmatazz);
+	color: white !important;
+	border-color: var(--razzmatazz) !important;
+}
+
+.grey {
+	background: var(--grey);
+	border-color: var(--grey) !important;
+}
+
+.border {
+	background: transparent;
+	color: var(--text);
+	border: 3px solid var(--text);
 }

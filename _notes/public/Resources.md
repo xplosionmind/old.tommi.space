@@ -1,12 +1,13 @@
 ---
 date: 2020-05-07
-updated: 2020-10-24
-aliases: ["Learning Resources"]
+updated: 2021-01-03
+aliases: "Learning Resources"
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
 redirect_from: /risorse
 ---
-Most of the things one could be looking for are very likely to be found in the **AWESOME** [Awesome Project](https://project-awesome.org). I'm writing nothing about it, just go on the page and dive in the power of the internet.
-{:.red .box}
+<div class="blue box">
+	Most of the things one could be looking for are very likely to be found in the <b>AWESOME</b> <a href="https://project-awesome.org" rel="noopener noreferrer" target="_blank" title="Project Awesome">Project Awesome</a>. I'm writing nothing about it, just go on the page and dive in the power of the internet.
+</div>
 
 <br>
 
@@ -19,22 +20,23 @@ Most of the things one could be looking for are very likely to be found in the *
 - [Free Software course](https://github.com/open-education-polito/free-software-course) by [Open Education PoliTo](https://openeducation.polito.it).
 - [FARE PoliTo](https://fare.polito.it/corsi-completi "FARE PoliTo")
 - [Corso base GNU Linux](https://linux.studenti.polito.it/wp/corso-gnu-linux-base-autunno-2019/) in italiano, del team Linux@studenti del Politecnico di Torino.
-- [The Missing Semester](https://missing.csail.mit.edu/), a great, awesome, life-changing set of lectures to improve Developer’s Tools usage and maximize efficency when working with computers.
-- [The Odin Project](https://www.theodinproject.com)
-- [Free Code Camp](https://www.freecodecamp.org/)
+- [The Missing Semester](https://missing.csail.mit.edu/ "The Missing Semester"), a great, awesome, life-changing set of lectures to improve Developer’s Tools usage and maximize efficency when working with computers.
+- [The Odin Project](https://www.theodinproject.com "The Odin Project")
+- [Free Code Camp](https://www.freecodecamp.org/ "Free Code Camp")
 - [Docker basic learning](https://github.com/championshuttler/docker-basicLearning)
 - [Papers We Love](https://paperswelove.org/), a [repository](https://github.com/papers-we-love/papers-we-love) of academic computer science papers and a [community](https://github.com/papers-we-love/papers-we-love/wiki/Creating-a-PWL-chapter) who loves reading them.
-- [HTML and CSS](http://www.htmlandcssbook.com/), a book by Jon Duckett
+- [HTML and CSS](http://www.htmlandcssbook.com/ "HTML and CSS the book"), a book by Jon Duckett
 - [CSS - An Art, a Science, a Nightmare](https://www.taniarascia.com/overview-of-css-concepts/), a comprehensive wonderful article by Tania Rascia
-- [SoloLearn](https://www.sololearn.com/)
+- [SoloLearn](https://www.sololearn.com/ "SoloLearn")
 - [Dataninja School](https://school.dataninja.it/)
+- [Suggestions by Victoria Drake](https://victoria.dev/blog/top-free-resources-for-developing-coding-superpowers/ "Top Free resources for Developing Coding Superpowers - victoria.dev")
 
 <br>
 
 ### vim
 
 - [Practical Vim](https://pragprog.com/book/dnvim/practical-vim) by Drew Neil
-- [VimCasts](vimcasts.org)
+- [VimCasts](http://vimcasts.org)
 - [Vim subreddit](https://www.reddit.com/r/vim/)
 
 <br>
@@ -81,7 +83,7 @@ Most of the things one could be looking for are very likely to be found in the *
 
 ## Speeches
 
-- [David Foster Wallace - “This is Water„](https://youtu.be/ms2BvRbjOYo)
+- [David Foster Wallace - “This is Water„](https://youtu.be/ms2BvRbjOYo "“This is Water„ by David Foster Wallace on YouTube")
 
 <br>
 <br>
@@ -90,12 +92,12 @@ Most of the things one could be looking for are very likely to be found in the *
 
 È assurdo che, nonostante cittadino italiano, io abbia una così scarsa conoscenza della Costituzione e delle leggi che governano il mio paese. Ho chiesto ad amici che studiano giurisprudenza di indicarmi dove e come posso cercare articoli in base a parole chiave o in base al contesto. Purtroppo lo stato italiano non offre un sistema ufficiale per cercare le informazioni e la digitalizzazione della Costituzione ha funzionalità estremamente limitate rispetto alle potenzialità che internet offrirebbe. In ogni caso, l'utilizzo di questi servizi diversi può essere molto utile
 
-- [La Costituzione](https://www.senato.it/1024) sul sito web del Senato italiano
-- [Brocardi](https://www.brocardi.it/): Consulenze legali, codici commentati, dizionario giuridico e notizie.
+- [La Costituzione](https://www.senato.it/1024 "La Costituzione italiana") sul sito web del Senato italiano
+- [Brocardi](https://www.brocardi.it/ "Brocardi"): Consulenze legali, codici commentati, dizionario giuridico e notizie.
 
 <br>
 
-- [Legge n. 47/1948](https://www.odg.it/legge-n-47-1948/24253) sulla stampa (dal sito dell'[Ordine dei Giornalisti](https://odg.it))
+- [Legge n. 47/1948](https://www.odg.it/legge-n-47-1948/24253 "Legge n. 47/1948") sulla stampa (dal sito dell'[Ordine dei Giornalisti](https://odg.it))
 
 <br>
 <br>
@@ -104,9 +106,9 @@ Most of the things one could be looking for are very likely to be found in the *
 
 - [The Internet Archive](https://archive.org)
 - [The Gutenberg Proect](http://www.gutenberg.org)
-- [https://eurekaddl.icu/](Eureka ddl)
-- [Open Library](https://openlibrary.org/) (just to take e-books on loan)
-- [The Pirate Bay](https://piratebay-proxylist.net/)
+- [Eureka ddl](https://eurekaddl.icu/ "Eureka ddl")
+- [Open Library](https://openlibrary.org/ "Open Library") (just to take e-books on loan)
+- [The Pirate Bay](https://thepiratebay.org "The Pirate Bay")
 - [Library Genesis](http://libgen.rs/)
 - [Academic Torrents](https://academictorrents.com/)
 - [Textbook Nova](https://textbooknova.com)

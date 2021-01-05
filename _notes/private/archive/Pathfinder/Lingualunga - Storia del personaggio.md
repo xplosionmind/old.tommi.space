@@ -1,6 +1,6 @@
 ---
 date: 2018-12-23
-tags: ["dnd"]
+tags: dnd
 ---
 # Storia del personaggio Lingualunga
 

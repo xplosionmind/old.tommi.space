@@ -1,10 +1,9 @@
 ---
 date: 2020-03-21
-updated: 2020-12-23
+updated: 2021-01-01
 tags: geek
 ---
 My server is a surprisingly powerful (considered how much I pay for it) <abbr title="Virtual Private Server">VPS</abbr> hosted in Germany by [Contabo](https://contabo.com "Contabo official website"). It runs [Ubuntu 20.04](https://releases.ubuntu.com/20.04/ "Ubuntu 20.04 release page").
-
 
 In [[Server setup]] there are step-by-step walkthroughs of my server setup and configuration.
 {:.box}
@@ -13,10 +12,14 @@ In [[Server setup]] there are step-by-step walkthroughs of my server setup and c
 
 ## Improvements and fixes
 
-- move Jitsi Meet from `call.tommiboom.tk` to `call.tommi.space`
+### Nextcloud
+
+- [Unlock locked files](https://central.owncloud.org/t/file-is-locked-how-to-unlock/985)
+	- <https://docs.nextcloud.com/server/19/admin_manual/configuration_files/files_locking_transactional.html>
+	- <https://help.nextcloud.com/t/how-to-resolve-server-replied-423-locked-to-put-https/96222>
+	- <https://help.nextcloud.com/t/solved-server-replied-locked-cant-sync-nextcloud-folders-webdav-error/35514/3>
 - Make Server from `AJAX` to `Cron`
 - [add Memcache to Nextcloud](https://docs.nextcloud.com/server/19/admin_manual/configuration_server/caching_configuration.html)
-- document server saving issues
 
 <br>
 <br>
@@ -28,6 +31,11 @@ In [[Server setup]] there are step-by-step walkthroughs of my server setup and c
 	- [[Server setup#Nextcloud cheatsheet|Nextcloud cheatsheet]]
 - [Jitsi Meet](https://jitsi.org "Jitsi Meet official website")
 	- [[Server setup#Install Jitsi Meet|Jitsi Meet configuration and installation walk-through]]
+- [OpenVPN](https://openvpn.net "OpenVPN official website") - ✅ 2020.01.01
+	- to install it, I followed this super simple and quick [guide](https://dev.to/phiilu/host-your-own-openvpn-server-in-a-few-seconds-73l "Host Your own OpenVPN Server in a few seconds - DEV")
+- [PolitePol](https://github.com/taroved/pol), transform any webpage in a RSS feed - ✅ 2020.01.01
+	- it doesn't work for social media
+	- I can't set up a reverse DNS, therefore the current address for the service is <http://167.86.82.148:8088>. Feel free to use it!
 	
 <br>
 <br>
@@ -49,39 +57,37 @@ In [[Server setup]] there are step-by-step walkthroughs of my server setup and c
 
 ## Wishlist
 
-Useful server apps or services I haven’t installed yet, in order of urgence and importance.
+Useful server apps or services I haven’t installed yet, in order of urgency and importance.
 
-1. [Pol](https://github.com/taroved/pol), transform any webpage in a RSS feed
-- [MastodonToTwitter](https://github.com/AmauryCarrade/MastodonToTwitter), Twitter - Mastodon cross-posting
-- [mastodon-bot](https://github.com/yogthos/mastodon-bot), to automatically post RSS feeds and tweets
-1. [Mailtrain](https://mailtrain.org) (very stable but old and not updated since 2 years ago) \|\| [listmonk](https://listmonk.app) (brand new and feature-packed, but in Alpha version), Newsletter managers
-1. [Mail server](#mail-server)
-1. [Heedy](https://github.com/heedy/heedy), for [[Self tracking]]
-1. ~~[Feedbin](https://feedbin.com "Feedbin official website"), arguably, the best RSS reader ou there~~. I wrote an email to them and they offered me a student free account, hosted by them.
-1. [Fediverse](https://fediverse.network/) platforms
-1. [Ferdi](https://github.com/getferdi/server), all services in one place
-1. [Ampache](http://ampache.org/), for music listening
-1. [Huginn](https://github.com/huginn/huginn), an IFTTT Alternative
-1. [Jellyfin](https://jellyfin.org/) personal streaming service
-1. [Kanboard](https://kanboard.org/) Kanban Project Management Software
-1. [OhMyForm](https://ohmyform.com/docs/install/) for forms
-1. [Plex](https://www.plex.tv), media streaming platform
+2. [MastodonToTwitter](https://github.com/AmauryCarrade/MastodonToTwitter), Twitter - Mastodon cross-posting
+3. [mastodon-bot](https://github.com/yogthos/mastodon-bot), to automatically post RSS feeds and tweets
+4. [Mailtrain](https://mailtrain.org) (very stable but old and not updated since 2 years ago) \|\| [listmonk](https://listmonk.app) (brand new and feature-packed, but in Alpha version), Newsletter managers
+5. [Mail server](#mail-server)
+6. [Heedy](https://github.com/heedy/heedy), for [[Self tracking]]
+7. ~~[Feedbin](https://feedbin.com "Feedbin official website"), arguably, the best RSS reader ou there~~. I wrote an email to them and they offered me a student free account, hosted by them.
+8. [Fediverse](https://fediverse.network/) platforms
+9. [Ferdi](https://github.com/getferdi/server), all services in one place
+10. [Huginn](https://github.com/huginn/huginn "Huginn repository on GitHub"), an IFTTT Alternative
+11. Personal streaming services
+	- [Jellyfin](https://jellyfin.org/) personal streaming service
+	- [OhMyForm](https://ohmyform.com/docs/install/ "OhMyForms docs") for forms
+	- [Plex](https://www.plex.tv "Plex official website"), media streaming platform
+	- [Ampache](http://ampache.org/ "Ampache"), for music listening
 
 <br>
 <br>
 
 ## General knowledge
 
-- [Make Your Computer Into a Server in 10 Minutes](https://www.instructables.com/id/Make-Your-Computer-Into-A-Server-in-10-Minutes-fr/)
-- [Apache for beginners \| WIRED](https://www.wired.com/2010/02/Apache_for_Beginners/)
-- [Be Your Own Open ID Provider](https://www.wired.com/2010/02/Be_Your_Own_OpenID_Provider/)
+- [Apache for beginners](https://www.wired.com/2010/02/Apache_for_Beginners/ "Apache for Beginners on WIRED")
+- [Be Your Own Open ID Provider](https://www.wired.com/2010/02/Be_Your_Own_OpenID_Provider/ "Be Your Own Open ID Provider - WIRED")
 
 <br>
 <br>
 
 ## Docker
 
-I hate Docker. Probably, because I don't get it. I believe that if one day I'll finally learn how it works, my life is going to change and everything will become easier. For this reason, I'm keeping at hand useful stuff which work and integrate with it.
+I hate Docker. Probably, it's because I don't get it. I believe that if one day I'll finally learn how it works, my life is going to change and everything will become easier. For this reason, I'm keeping at hand useful stuff which work and integrate with it.
 
 <br>
 <br>
@@ -91,12 +97,11 @@ I hate Docker. Probably, because I don't get it. I believe that if one day I'll 
 - <https://youtu.be/DlQNciGVgbQ>
 - <https://youtu.be/ohkMRA74MB4>
 - <https://youtu.be/GeDo8mjB5oU>
-- [Set Up a Home Server \| WIRED](https://www.wired.com/2010/02/set-up-a-home-server/)
+- [Set Up a Home Server](https://www.wired.com/2010/02/set-up-a-home-server/ "Set Up a Home Server - WIRED")
+- [Make Your Computer Into a Server in 10 Minutes](https://www.instructables.com/id/Make-Your-Computer-Into-A-Server-in-10-Minutes-fr/)
 
 ### Raspberry Pi
 
-- [IP Address](https://en.wikipedia.org/wiki/IP_address)
-- [Several Guides](https://pimylifeup.com/category/projects/server/)
-- [Less specific guides](https://pimylifeup.com/category/projects/server/)
-- [Nextcloud Server](https://lonewolfonline.net/raspberry-pi-personal-cloud-server/)
-- [Instructables](https://www.instructables.com/id/Ultimate-Pi-Based-Home-Server/)
+- [Several guides](https://pimylifeup.com/category/projects/server/ "Server - Pimpmylifeup")
+- [Nextcloud Server](https://lonewolfonline.net/raspberry-pi-personal-cloud-server/ "Raspberry Pi Personal cloud server")
+- [Instructables](https://www.instructables.com/id/Ultimate-Pi-Based-Home-Server/ "Ultimate Pi-Based Home Server")

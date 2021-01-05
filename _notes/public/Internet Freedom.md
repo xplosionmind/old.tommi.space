@@ -17,9 +17,9 @@ Here are noted various arguments, thoughts, speeches, documents, ideas and step-
 
 Just complaining, waiting for things to get better one way or another, believing that a conscious use is enough to keep clear from big tech negative impact is simply bullshit.
 
-To change something, to make things better just [[Make the switch|switch]] to healthier, more ethical, often even much better alternatives.
+To change something, to make things better just [[Quit and switch|switch]] to healthier, more ethical, often even much better alternatives.
 
-[[Make the switch]].
+[[Quit and switch]].
 
 <br>
 <br>

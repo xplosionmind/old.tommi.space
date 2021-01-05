@@ -1,27 +1,5 @@
 ---
 tags: todo
 ---
-- *Sindrome da Sanremo*
-- multiple pages with the same permalink check
-- Philosophical vocabulary
-- la mia cara bici
-- metodo di studio
-- How can I explain the continuous thinkering about tech
-- Update steps of the switch to Piwigo
-- More photos per gallery page on Piwigo
-- https://via.hypothes.is/https://www.ciwati.it/2020/12/26/fermare-tempo-clockdown/ take your time
-- put stuff in Stream and re-order them in a second moment
-- https://victoria.dev/blog/top-free-resources-for-developing-coding-superpowers/
-- What to public of notes AMD what not
-- Maniverse: `pigeon palace saddle tone embrace flat mirror turn awkward offer obvious finish alone amazing critic phone cry state shove current protect dinner ice antenna`
-- Il Ladro di Orchidee
-- Configure subz (subscriptions and end of payments (is an app necessary???))
-- Why no push notifications, better explanation
-	- you don't actually miss stuff
-	- you can leave internet and everything turned on, no sound will arrive unless really important and worth a distraction
-- Markdown explanation
-- Signal explanation
-- why no long audios
-	- I write or I call
-	- communications becomes stressful: if I record long audios, obviously I need to listen to them… and they pile up. This is not good nor healthy
-- Post mindfulness: it is important to care also about the “after” of mindfulnes
+- ??? Philosophical vocabulary
+- ??? la mia cara bici

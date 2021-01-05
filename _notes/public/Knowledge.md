@@ -14,4 +14,3 @@ redirect_from: /learn
 ## How
 
 - [[Self improvement]]
-- [Study effectively](https://youtu.be/IlU-zDU6aQ0 "Marty Lobdell - Study Less Study Smart - YouTube video")

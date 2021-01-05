@@ -15,7 +15,7 @@ What I'm doing right now:
 
 ## Quitting Social Media
 
-I made a life-changing choice: I'll **delete all of my Social Media accounts** by the end of 2020. There are a lot of reasons why I got to this point, and I discuss about this topic  **a l l  t h e  t i m e**  with my friends. At the moment my aim is to put together resources, articles, videos, documentaries and documents in [this website](https://quitsocialmedia.club "Quit Social Media"). Randomly stuffed, everything is [[Quit Social Media Notes|here]], in the meanwhile.
+I made a life-changing choice: I'll **delete all of my Social Media accounts** by the end of 2020. There are a lot of reasons why I got to this point, and I discuss about this topic  **a l l  t h e  t i m e**  with my friends. At the moment my aim is to put together resources, articles, videos, documentaries and documents in [this website](https://quitsocialmedia.club "Quit Social Media"). Randomly stuffed, everything is [[Notes|here]], in the meanwhile.
 
 <br>
 <br>

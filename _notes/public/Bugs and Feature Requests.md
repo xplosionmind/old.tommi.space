@@ -22,7 +22,7 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 
 ## Loop habit tracker
 
-[Loop Habit Tracker](+++) is an open source app for [[Self tracking]]
+[Loop Habit Tracker](https://loophabits.org "Loop Habit Tracker official website") is an open source app for [[Self tracking]]
 
 - Add the capability of inserting daily numbers instead of boolean values only. (e.g. to track how many candies I ate)
 
@@ -64,8 +64,9 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 
 [Joplin](http://joplinapp.org) is a wonderful and complete note-taking app.
 
-**Note**: I stopped using Joplin as my daily driver since November 2020 and I switched to [Obsidian](Bugs%20and%20Feature%20Requests.md#obsidian). The reasons why I did this are in [this blog post](/switch-to-zettelkasten)
-{:.yellow .box}
+<div class="red box">
+	<strong>Note</strong>: I stopped using Joplin as my daily driver since November 2020 and I switched to <a href="https://obsidian.md" rel="noopener noreferrer" target="_blank" title="Obsidian official website">Obsidian</a>. The reasons why I did this are in <a href="/switch-to-zettelkasten" title="Switch to Zettelkasten">this blog post</a>.
+</div>
 
 ### Features requests
 
@@ -93,11 +94,20 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 <br>
 <br>
 
+## Piwigo
+
+- One thing I'm still trying to figure out is how to make more pictures appear for a gallery page. They are too few and it's really complicated to modify the size of the thumbnail to make them look nice.
+- Sharing private galleries links (see [GitHub issue](https://github.com/petitssuisses/piwigo-ShareAlbum/issues/62 "an issue in piwigo-ShareAlbum repository"))
+
+<br>
+<br>
+
 ## Zettlr
 
 [Zettlr](https://www.zettlr.com) is the best Markdown editor out there.
 
-Since November 2020 I stopped using Zettlr since its work could be made by [Obsidian](Bugs%20and%20Feature%20Requests.md#obsidian) with much more features
-{:.yellow .box}
+<div class="red box">
+	Since November 2020 I stopped using Zettlr because its work could be made by <a href="https://obsidian.md" rel="noopener noreferrer" target="_blank" title="Obsidian official website">Obsidian</a>
+</div>
 
 - Implement split view: two different notes side by side

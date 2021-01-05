@@ -17,7 +17,7 @@ Quello che sto facendo:
 ## Abbandonando i Social Media
 
 Ho scelto di **eliminare tutti i miei profili sui Social** entro fine 2020. Ci sono un sacco di motivi, spiegazioni e ideali per cui ho preso questa decisione e ne **discuto  c o n t i n u a m e n t e** con tutte le persone che incontro.\
-Prima di farlo, il mio obiettivo è raccogliere studi, articoli, documentari e risorse di ogni genere sull'argomento su [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media"). Finché non avrò completato, miei appunti si trovano [[Quit Social Media Notes|qui]].
+Prima di farlo, il mio obiettivo è raccogliere studi, articoli, documentari e risorse di ogni genere sull'argomento su [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media"). Finché non avrò completato, miei appunti si trovano [[Notes|qui]].
 
 <br>
 <br>

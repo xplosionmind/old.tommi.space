@@ -12,3 +12,4 @@ toc: false
 - [[Boundaries]]: set some constraints and limit by yourself your own daily freedom, in order to achieve a greater one on an higher level
 - [[Monotasking]]: one thing at a time, only one. One.
 - [[Esame di coscienza]]: every day, at the end of the day, check what has been accomplished and what went wrong
+- [[Mindfulness]]: it's becoming very popular and more and more people start doing it. The art of training the mind to focus and commit on something by gifting it with few minutes a day of complete nothingness

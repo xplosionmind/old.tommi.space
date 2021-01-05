@@ -81,6 +81,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 	- Photo selection
 	- horizontal instead of vertical scrolling of the gallery
 	- PDF portfolio download
+1. A script to check permalinks overlapping
 12. Content history
 	- now page
 	- a timeline like [Jeremy gordon's](https://jgordon.io) or [jack.works](https://web.archive.org/web/20200513054829/http://jack.works/)
