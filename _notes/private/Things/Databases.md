@@ -1,5 +1,5 @@
 ---
-tags: ["geek, "todo"]
+tags: geek todo
 ---
 - [ ] People \|\| Guests
 - [x] Backup \|\| HDD sync

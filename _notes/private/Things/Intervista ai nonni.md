@@ -1,5 +1,5 @@
 ---
-tags: todo, wip
+tags: home todo wip
 ---
 ## Domande
 

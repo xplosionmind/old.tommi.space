@@ -1,6 +1,6 @@
 ---
 tags: geek
-aliases: ["Mail addresses"]
+aliases: "Mail addresses"
 ---
 - `main@tommi.space`
 	- `lostin@tommi.space`
@@ -9,7 +9,7 @@ aliases: ["Mail addresses"]
 	- `i.am@tommi.space`
 	- `iam@tommi.space`
 	- `browsing@tommi.space`
-	- `surfing@tommi.space`
+	- **`surfing@tommi.space`**
 	- `travelling@tommi.space`
 	- `browse.in@tommi.space`
 	- `surf.in@tommi.space`
@@ -23,12 +23,12 @@ aliases: ["Mail addresses"]
 - `website@tommi.space`
 	- `tommi.space@tommi.space`
 
-- `sono@tommasomarmo.com` / `@tommasomarmo.it`
-  - `main@tommasomarmo.com`
-  - `personale@tommasomarmo.com`
+<br>
+<br>
 
-ANONADDY ADDRESSES
+**[[AnonAddy addresses]]**
 
+<br>
 <br>
 
 ## Existing
@@ -36,6 +36,7 @@ ANONADDY ADDRESSES
 ### Protonmail
 
 - `lost.in@tommi.space`
+- **`surfing@tommi.space`**
 - `newsletter@tommi.space`
 - `tommiboom@protonmail.com`
 - `tommiboom@pm.me`
@@ -54,7 +55,6 @@ ANONADDY ADDRESSES
 	- `main@sconnesso.link`
 	- `podcast@sconnesso.link`
 	- `tommi@sconnesso.link`
-
 - **`hello@quitsocialmedia.club`**
 	- `ask@quitsocialmedia.club`
 	- `contrib*@quitsocialmedia.club`
@@ -65,3 +65,6 @@ ANONADDY ADDRESSES
 	- `more@quitsocialmedia.club`
 	- `website@quitsocialmedia.club`
 	- `why@quitsocialmedia.club`
+- **`mail@tommasomarmo.com`**
+	- `main@tommasomarmo.com`
+	- `personale@tommasomarmo.com`

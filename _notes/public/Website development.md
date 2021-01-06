@@ -90,6 +90,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 18. [Bookmarked threads](https://talk.jekyllrb.com/u/xplosionmind/activity/bookmarks) on [Jekyll Talk](https://talk.jekyllrb.com/) (Jelyll's forum)
 19. [improve sticky header](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
 20. Configure global properties in `_config.yml` to perform changes in a quicker way
+1. Consider using [Fontless](https://fontless.varld.co "self host fonts")
 21. [[Typography]]
 	- better reasoned typographic choices
 	- [[Typography#Custom Font|Custom Font]]

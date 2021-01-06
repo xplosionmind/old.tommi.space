@@ -1,12 +1,13 @@
 ---
 date: 2020-03-21
-updated: 2021-01-01
+updated: 2021-01-05
 tags: geek
 ---
 My server is a surprisingly powerful (considered how much I pay for it) <abbr title="Virtual Private Server">VPS</abbr> hosted in Germany by [Contabo](https://contabo.com "Contabo official website"). It runs [Ubuntu 20.04](https://releases.ubuntu.com/20.04/ "Ubuntu 20.04 release page").
 
-In [[Server setup]] there are step-by-step walkthroughs of my server setup and configuration.
-{:.box}
+<div class="box">
+	In [[Server setup]] there are step-by-step walkthroughs of my server setup and configuration.
+</div>
 
 <br>
 
@@ -34,7 +35,7 @@ In [[Server setup]] there are step-by-step walkthroughs of my server setup and c
 - [OpenVPN](https://openvpn.net "OpenVPN official website") - ✅ 2020.01.01
 	- to install it, I followed this super simple and quick [guide](https://dev.to/phiilu/host-your-own-openvpn-server-in-a-few-seconds-73l "Host Your own OpenVPN Server in a few seconds - DEV")
 - [PolitePol](https://github.com/taroved/pol), transform any webpage in a RSS feed - ✅ 2020.01.01
-	- it doesn't work for social media
+	- it doesn't work on Twitter or Instagram
 	- I can't set up a reverse DNS, therefore the current address for the service is <http://167.86.82.148:8088>. Feel free to use it!
 	
 <br>
@@ -59,6 +60,7 @@ In [[Server setup]] there are step-by-step walkthroughs of my server setup and c
 
 Useful server apps or services I haven’t installed yet, in order of urgency and importance.
 
+1. [RSS bridge](https://github.com/RSS-Bridge/rss-bridge "RSS Bridge on GitHub"), apparently, a more common, effective and popular alternative to PolitePol
 2. [MastodonToTwitter](https://github.com/AmauryCarrade/MastodonToTwitter), Twitter - Mastodon cross-posting
 3. [mastodon-bot](https://github.com/yogthos/mastodon-bot), to automatically post RSS feeds and tweets
 4. [Mailtrain](https://mailtrain.org) (very stable but old and not updated since 2 years ago) \|\| [listmonk](https://listmonk.app) (brand new and feature-packed, but in Alpha version), Newsletter managers

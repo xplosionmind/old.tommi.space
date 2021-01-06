@@ -1,16 +1,11 @@
 ---
 date: 2020-02-04
-updated: 2020-11-04
+updated: 2021-01-05
+tags: track
 aliases: "Di tutto e di più"
 lang: it
 ref: tutto
-redirect_from:
-  - /tuttopiu
-  - /stuff-extended
-  - /stuff-extended-it
-  - /stuff-extended/it
-  - /it/stuff-extended
-  - /everything
+redirect_from: ["/tuttopiu", "/stuff-extended", "/stuff-extended-it", "/stuff-extended/it", "/it/stuff-extended", "/everything"]
 ---
 Dato che per mia natura e vocazione finisco sempre in mezzo a una miriade di iniziative e progetti fantastici, mi trovo a partecipare o organizzare o condurre moltissimi piccoli eventi o interviste o incontri, e sono talmente tanti che alla fine rischio di dimenticarmeli e non riuscire più a trovarli. Per questo, proverò a tenere aggiornata questa lista di riferimento con tutto ciò a cui ho partecipato, attivamente o come spettatore, inserendo collegamenti a pagine, foto e informazioni.
 
@@ -125,6 +120,7 @@ A settembre 2018, il mio percorso da speaker di Radioimmaginaria si è concluso,
 	- [foto mie](https://www.flickr.com/gp/xplosionmind/CvT4qm)
 
 <br>
+<br>
 
 ## Scout
 
@@ -142,7 +138,9 @@ Per i profani: il San Giorgio è l’evento di due o tre giorni in cui si riunis
 - 28 e 29 ottobre 2016, [campetto di responsabilità](https://www.flickr.com/photos/xplosionmind/albums/72157710727851918), Laigueglia
 - 16 marzo 2019, [uscita di Clan](https://www.flickr.com/photos/xplosionmind/albums/72157690486947843) a Colla Micheri
 - il 26 maggio 2019 ho fatto servizio alla [Caccia di Zona](https://www.flickr.com/photos/xplosionmind/albums/72157708825090931) a Imperia
+- il 4 gennaio 2021 ho preso la *Partenza*
 
+<br>
 <br>
 
 ## Giffoni Film Festival
@@ -167,11 +165,13 @@ A Giffoni non scatto mai molte foto, per questo, oltre a quelli molto scarni sul
 - dal 18 al 22 e dal 25 al 29 agosto, [**Giffoni 2020**](https://www.giffonifilmfestival.it/diario-gff-2020.html)
 	- [foto]()
 	- [album di Giffoni](https://www.flickr.com/photos/giffonifilmfestival/collections/72157715587418446/)
+- dal 26 al 30 dicembre 2020 ho condotto la prima **Giffoni Winter Edition** insieme agli altri ragazzi della Giffoni Factory
 
 ### Giffoni Factory
 
-[Qui](https://www.instagram.com/giffoni_factory/) si trovano tutti i contenuti che ho creato con la Giffoni Factory.
+[Qui](https://www.instagram.com/ipso_factory/ "Ipso Factory su Instagram") si trovano tutti i contenuti che ho creato con la Giffoni Factory.
 
+<br>
 <br>
 
 ## Club Tenco
@@ -238,7 +238,7 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 	- [foto](https://flic.kr/s/aHsmHJjZQQ)
 - il 13 ottobre 2019, sempre grazie a Matteo, sono andato in giro per il centro di Milano a fare scatti per la [**Deejay Ten**](https://deejayten.deejay.it/milano/), la maratona di [Radio Deejay](https://deejay.it)
 	- [foto](https://www.flickr.com/photos/xplosionmind/albums/72157711360922608)
-- il maggio 2018 ho vinto la finale della categoria *Advanced* del [**Mouse Trap Grand Prix**](https://www.mousetraprace.com/), costruendo la macchinina in grado di percorrere cinque metri e tornare al punto di partenza nel minor tempo possibile, con la sola propulsione di una trappola per topi
+- il maggio 2018 ho vinto la finale della categoria *Advanced* del [**Mouse Trap Grand Prix**](https://www.mousetraprace.com/ "Mouse Trap Race official website"), costruendo la macchinina in grado di percorrere cinque metri e tornare al punto di partenza nel minor tempo possibile, con la sola propulsione di una trappola per topi
 	- [video intervista](https://youtu.be/EgQQ6rDfxr0)
 	- [foto](https://www.flickr.com/photos/xplosionmind/albums/72157714643331677)
 - Sono stato *Helper* ai campi [**ACLE**](https://www.acle.org/) ad Arma di Taggia nelle estati 2016 e 2017
@@ -246,18 +246,19 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 	- l’8 agosto 2017, [Imperia Unplugged Festival 2017](https://www.imperiamusicale.it/imperia-unplugged-festival-2017-3-edizione/), con Ermal Meta, Edoardo Chiesa e Emanuele Dabbono
 	- 23 dicembre 2017, [Briciole di Rock](https://www.imperiamusicale.it/eventi/)
 	- l’8 agosto 2018, [Imperia Unplugged Festival 2018](https://www.imperiamusicale.it/imperia-unplugged-festival-2018/)
-- il 7 novembre 2017 sono stato eletto Rappresentante d’Istituto del mio liceo, il [Liceo G.D. Cassini di Sanremo](https://www.liceogdcassini.edu.it/)
-- dal 2014 al 2018 ho partecipato agli allenamenti (anche alle gare, ma con risultati affatto lusinghieri) delle Olimpiadi di Matematica e della [Coppa Gauss a Squadre](http://gauss.dima.unige.it/).
-- Sono un appassionatissimo ma non altrettanto perito giocatore di Dungeons & Dragons. La mia prima ed unica campagna fin ora è iniziata nell’ottobre 2015 ed è tuttora in corso. Il nostro Game Master si sta ispirando principalmente all’avventura di [Rise of the Runelords](https://pathfinderwiki.com/wiki/Rise_of_the_Runelords).
+- il 7 novembre 2017 sono stato eletto Rappresentante d’Istituto del mio liceo, il [Liceo G.D. Cassini di Sanremo](https://www.liceogdcassini.edu.it/ "Liceo G.D. Cassini di Sanremo")
+- dal 2014 al 2018 ho partecipato agli allenamenti (anche alle gare, ma con risultati affatto lusinghieri) delle Olimpiadi di Matematica e della [Coppa Gauss a Squadre](http://gauss.dima.unige.it/ "Coppa Gauss - Università di Genova").
+- Sono un appassionatissimo ma non altrettanto perito giocatore di Dungeons & Dragons. La mia prima ed unica campagna fin ora è iniziata nell’ottobre 2015 e si è conclusa ad aprile 2020. Il nostro Game Master si sta ispirando principalmente all’avventura di [<cite>Rise of the Runelords</cite>](https://pathfinderwiki.com/wiki/Rise_of_the_Runelords "Rise of the Runelords on Pathfinder wiki").
 - Dal 2015 al 2018 sono stato aiuto-catechista nel corso dei cresimandi della parrocchia di Santo Stefano al Mare
-- Il 20 giugno 2020 ho co-organizzato a Sanremo [*Twenty Shoes Against racism*](https://www.sanremonews.it/2020/06/20/leggi-notizia/argomenti/altre-notizie/articolo/sanremo-le-sardine-ponentine-a-pian-di-nave-per-levento-20-shoes-against-racism-foto.html) l’evento di [6000sardine Ponentine](https://www.facebook.com/6000sardineponentine/) contro il razzismo
+- Il 20 giugno 2020 ho co-organizzato a Sanremo [<cite>Twenty Shoes Against racism</cite>](https://www.sanremonews.it/2020/06/20/leggi-notizia/argomenti/altre-notizie/articolo/sanremo-le-sardine-ponentine-a-pian-di-nave-per-levento-20-shoes-against-racism-foto.html) l’evento di [6000sardine Ponentine](https://www.facebook.com/6000sardineponentine/) contro il razzismo
 	- [immagini](https://www.flickr.com/photos/xplosionmind/albums/72157714829053321)
-- Dal 5 al 13 luglio 2020 ho partecipato al workshop di giornalismo de [Il Post](https://ilpost.it) a Peccioli. Ho scritto [questo articolo](https://www.ilpost.it/2020/07/12/sgomberi-bogota-coronavirus/)
-- Il 25 ottobre 2020 ho tenuto [questo talk](http://go.tommi.space/MDN-LinuxDay2020) su [MDN Web Docs](https://mdn.dev) al [Linux Day](https://linuxday.it/2020/)
+- Dal 5 al 13 luglio 2020 ho partecipato al workshop di giornalismo de [Il Post](https://ilpost.it "Il Post") a Peccioli. Ho scritto [questo articolo](https://www.ilpost.it/2020/07/12/sgomberi-bogota-coronavirus/ "Gli sgomberi a Bogotà, nonostante il coronavirus - Il Post")
+- Il 25 ottobre 2020 ho tenuto [questo talk](http://go.tommi.space/MDN-LinuxDay2020) su [MDN Web Docs](https://mdn.dev "MDN homepage") al [Linux Day](https://linuxday.it/2020/ "Linux Day 2020")
+- Il +++ settembre 2002 ho partecipato al[la prima <cite>Filosofia di gruppo</cite>](https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3 "Podcast Filosofia di Gruppo #1") su [[Notes on Ten Arguments For Deleting Your Social Media Accounts|Dieci ragioni per eliminare il proprio account sui social media]] organizzato da [Tlon](https://tlon.it "Sito ufficiale di Tlon"). Il mio intervento è a al minuto `44:45`
 
 <br>
 <br>
 
 ## Spettatore
 
-Tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante si trova nei [[Giri]].
+Tengo traccia di tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante, in *[[Giri]]*.

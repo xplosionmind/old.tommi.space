@@ -1,6 +1,6 @@
 ---
-date: 2020\.12\.05
-updated: 2020\.12\.24
+date: 2020-12-05
+updated: 2021-01-05
 tag: geek, zen
 aliases: ["Just quit", "Choose the alternative", "Go alternative", "Make the switch"]
 image: "https://assets.tommi.space/images/jar/just-quit.jpg"
@@ -14,8 +14,11 @@ redirect_from:
   - /alternative-software
   - /alternative
 ---
-- [Quit Social Media](https://quitsocialmedia.club) (**note**: the previous link leads to a website which is still [work in progress!](https://quitsocialmedia.club/notes "Notes - quitsocialmedia.club"))
-	- Replace followed accounts with [RSS feeds](https://politepol.com/en/) and newsletter subscriptions, where possible
+<div class="blue box">
+	Most of the times, the best thing to do is to [[Delete an account|just delete it]]
+</div>
+
+- [**<cite>Quit Social Media</cite>**](https://quitsocialmedia.club)
 	- Facebook ✅ (account deactivated on 2020.12.31)
 	- Twitter
 	- Instagram
@@ -23,13 +26,10 @@ redirect_from:
 - [[Quit Google]] (mostly done, but my Google account still exists)
 	- ~~Check Drive `Storage` folder~~ ✅ 2020.12.20
 	- ~~Check Drive `Shared with me` folder~~ (useful shared links moved to [[Google Drive shared links]]) ✅ 2020\.12\.10
-3. Reduce the **passive** [digital footprint](https://en.wikipedia.org/wiki/Digital_footprint "Digital footprint on Wikipedia")
+	- consider deleting my Gmail address for good
 - [[Quit Spotify]] (still trying to find a valid alternative / workaround)
 - Quit Flickr and [[Switch to Piwigo]] ✅ 2020.12.23
 - [[Quit listing]]
 - [[Switch to LineageOS]]
-- ~~Quit [IMDb](https://www.imdb.com/user/ur90419107/) and opt to a ethical alternative~~ ✅ 2020.12.20 - (switched to The Movie Database for now)
+- ~~Quit [IMDb](https://www.imdb.com/user/ur90419107/)~~ (switched to [The Movie Database](https://www.themoviedb.org/u/xplosionmind "My account on The Movie Database")) ✅ 2020.12.20
 - Consider switching from [Pocket](https://getpocket.com "Pocket") to a simple list of links in [[Ode to plain text|plain text]]
-
-How to do this?\
-[[Delete an account|Just delete it]].

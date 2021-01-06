@@ -1,5 +1,5 @@
 ---
-tags: geek, home
+tags: geek home todo
 ---
-- Render Nicholas Britell
-- DupeGuru
+1. DupeGuru
+1. Render Nicholas Britell

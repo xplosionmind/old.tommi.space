@@ -37,6 +37,7 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 - printing all broken links
 - in editor mode last 2 letters are hidden. (fixed by setting `.CodeMirror` `overflow: unset`)
 - cursor error
+- make wiki-like links work in `div`s too
 
 <br>
 <br>
