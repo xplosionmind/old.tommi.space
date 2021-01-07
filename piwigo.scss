@@ -133,14 +133,16 @@ body {
 	padding: var(--regular) var(--small) var(--small);
 	text-transform: uppercase;
 	font-weight: 700;
-	dd, .switchBox {
+	dd, .switchBox, .categoryActions {
 		background: var(--grey) !important;
 		color: var(--text) !important;
 		border-radius: var(--radius-m);
 		box-shadow: var(--shadow) !important;
+	}
+	dd {
 		li, #menuTagCloud {
 			a {
-				color: var(--text);
+				color: var(--text) !important;
 			}
 		}
 	}
@@ -212,7 +214,7 @@ a .pwg-icon {
 	color: var(--text);
 	line-height: 45px !important;
 	padding: var(--small) !important;
-	margin: var(--small) 0;
+	margin: var(--small) 3%;
 	h2 {
 		a {
 			color: var(--text) !important;
