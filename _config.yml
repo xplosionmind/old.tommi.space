@@ -44,6 +44,12 @@ collections:
   sconnesso:
     output: true
 
+# CommonMark
+# markdown: CommonMark
+# commonmark:
+#  options: ["FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE", "VALIDATE_UTF8"]
+#  extensions: ["strikethrough", "table", "tasklist", "autolink", "tagfilter"]
+
 # Pagination
 pagination:
   enabled: false
@@ -101,9 +107,11 @@ social:
     - https://open.spotify.com/user/xplosionmind
     - https://pcpartpicker.com/user/tommiboom/
     - https://pixabay.com/it/users/xplosionmind-3146531/
+    - https://www.ted.com/profiles/8307352
     - https://t.me/xplosionmind
     - https://twitter.com/xplosionmind
     - https://www.themoviedb.org/u/xplosionmind
+    - https://thenounproject.com/tommibooom/
     - https://www.vutuv.de/users/tommaso.marmo
     - https://www.yourworldoftext.com/~xplosionmind/
 tagline: "Tommi's virtual brain"

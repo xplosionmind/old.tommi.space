@@ -10,7 +10,7 @@ source "https://rubygems.org"
 gem "jekyll"
 
 # Add Liquid-C for faster rendering of Liquid
-gem "liquid-c"
+gem "liquid-c" # no sensible improvement in performance
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -18,6 +18,7 @@ gem "liquid-c"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "webrick"
+# gem "jekyll-commonmark" # performance doesn't change much
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"

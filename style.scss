@@ -18,6 +18,13 @@ html {
 
 /* DARK THEME */
 body {
+	background: var(--background);
+	color: var(--text);
+	margin: 0;
+	overflow-wrap: break-word;
+	hyphens: auto;
+	font: var(--regular) var(--font-sans);
+
 	--background: var(--black-ish);
 	--text: var(--white-ish);
 	--deep: #111;
@@ -60,15 +67,6 @@ body {
 	--header-shadow: 5px 5px 15px #0003, -5px -5px 15px #FFFF;
 
 	transition: var(--trans);
-}
-
-body {
-	background: var(--background);
-	color: var(--text);
-	font: var(--regular) Inter, -apple-system, Helvetica, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	margin: 0;
-	overflow-wrap: break-word;
-	hyphens: auto;
 }
 
 * {
@@ -288,7 +286,7 @@ li {
 
 .poetry,
 .serif {
-	font-family: "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: var(--font-serif);
 	p {
 		line-height: 1.5em;
 	}
@@ -356,7 +354,7 @@ hr {
 
 pre,
 code {
-	font: 400 1.1em 'Ubuntu Mono', 'Roboto Mono', 'Fira Code', mono, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font: 400 1.1em var(--font-mono);
 	line-height: 1.2em;
 }
 
@@ -389,7 +387,7 @@ blockquote {
   	margin: 0 3vw;
 	padding: 0;
 	p {
-		font: 1em "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		font: 1em var(--font-serif);
 		opacity: .9;
 	}
 }
@@ -511,7 +509,7 @@ figure {
 }
 
 figcaption {
-	font: var(--regular) "EB Garamond", Garamond, "Simoncini Garamond", Georgia, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font: var(--regular) var(--font-serif);
 	line-height: var(--regular);
 	margin-top: var(--regular-less);
 	color: var(--other-grey);

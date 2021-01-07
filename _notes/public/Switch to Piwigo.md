@@ -42,9 +42,10 @@ Why quitting [Flickr](https://www.flickr.com "Flickr") and choosing [Piwigo](htt
 </div>
 
 1. Since importing photos from Flickr is very effective and most of the metadata is preserved, there is almost no configuration to be done, for what concerns the pictures.
-2. Evaluate which plugins are **actually** useful and which should be installed.
-3. **Customizing the CSS**: for a greater ease of use, I created a stylesheet hosted on <https://tommi.space/piwigo.css> which contains all of the rules I need, and I `@import` it in Piwigo's CSS. I customized everything on top on the dark version of the default theme, by making it match this website's design.
-4. Setting a **custom domain**: there is no option to do it automatically from the settings, so I sent an email to Piwigo support in order to make <https://tommi.piwigo.com> match <https://images.tommi.space>, then, from my DNS records, I created several CNAMEs such as <https://visions.tommi.space> or <https://gallery.tommy.space>, and they all point to the domain I wrote in the email
+	1. For some reason, the albums' cover images do not always correspond, so they must be updated.
+1. Evaluate which plugins are **actually** useful and which should be installed.
+2. **Customizing the CSS**: for a greater ease of use, I created a stylesheet hosted on <https://tommi.space/piwigo.css> which contains all of the rules I need, and I `@import` it in Piwigo's CSS. I customized everything on top on the dark version of the default theme, by making it match this website's design.
+3. Setting a **custom domain**: there is no option to do it automatically from the settings, so I sent an email to Piwigo support in order to make <https://tommi.piwigo.com> match <https://images.tommi.space>, then, from my DNS records, I created several CNAMEs such as <https://visions.tommi.space> or <https://gallery.tommy.space>, and they all point to the domain I wrote in the email
 
 <br>
 <br>

@@ -2,6 +2,7 @@
 ---
 @import "../_sass/root";
 @import "https://assets.tommi.space/fonts/inter/inter.css";
+@import "https://assets.tommi.space/fonts/ubuntu-mono/ubuntu-mono.css";
 
 body {
 	--background: var(--black-ish);
@@ -50,13 +51,21 @@ body {
 
 .imageInfoTable, #imageInfos {
 	background: var(--background);
+	font-family: var(--font-sans);
 }
 
-.wide #imageInfos {
-	margin-right: var(--regular);
-	margin-top: var(--regular);
-	box-shadow: var(--shadow);
-	border-radius: var(--radius-l) !important;
+.wide {
+	#imageInfos {
+		margin-right: var(--regular);
+		margin-top: var(--regular);
+		box-shadow: var(--shadow);
+		border-radius: var(--radius-l) !important;
+	}
+	.imageInfo {
+		dd {
+			margin: 0 0 15px 0 !important;
+		}
+	}
 }
 
 .theImageAndInfos {
@@ -102,15 +111,20 @@ body {
 
 @media only screen and (min-width: 640px) {
 	#menubar {
+		height: var(--height);
+		line-height: var(--height);
 		background: var(--primary) !important;
 		color: var(--background) !important;
 		margin: 2vw !important;
 		border-radius: var(--radius-m);
 		box-shadow: var(--shadow);
-		padding: var(--small) var(--regular) !important;
+		padding: 0 var(--regular) !important;
 		a {
 			color: var(--background) !important;
 		}
+	}
+	#thumbnails {
+		margin: var(--regular) 5% !important;
 	}
 }
 
@@ -119,20 +133,24 @@ body {
 	padding: var(--regular) var(--small) var(--small);
 	text-transform: uppercase;
 	font-weight: 700;
-	dd {
+	dd, .switchBox {
 		background: var(--grey) !important;
 		color: var(--text) !important;
 		border-radius: var(--radius-m);
 		box-shadow: var(--shadow) !important;
+		li, #menuTagCloud {
+			a {
+				color: var(--text);
+			}
+		}
 	}
 }
 
 .albLegend {
 	padding: var(--regular) var(--tiny) var(--small) !important;
-	background: none !important;
 	background-image: linear-gradient(to bottom,rgba(0,0,0,0.01),rgba(0,0,0,0.8)) !important;
 	h4 {
-		margin: var(--small) var(--small) 0 var(--small);
+		margin: var(--small) var(--small) 0 var(--small) !important;
 	}
 	div {
 		margin: 0 var(--small);
@@ -142,10 +160,12 @@ body {
 
 #qsearchInput {
 	border: none;
-	background: var(--background);
-	color: var(--text);
-	box-shadow: var(--inner-shadow);
-	text-indent: 8px;
+	background: #0002;
+	color: #0009;
+	box-shadow: none;
+	&::placeholder {
+		color: #0009;
+	}
 }
 
 #comments input[type="text"],
@@ -155,7 +175,8 @@ input {
 	border-radius: var(--radius-s);
 	background: var(--deep);
 	color: var(--text);
-	box-shadow: var(--shadow);
+	box-shadow: var(--inner-shadow);
+	padding: 2px var(--small);
 }
 
 /* .categoryActions,
@@ -222,4 +243,15 @@ a {
 
 .navigationBar * {
 	color: var(--other-grey) !important;
+}
+
+.calItem {
+	padding: var(--tiny) var(--small) !important;
+	border-radius: var(--radius-s) !important;
+	border: none !important;
+	box-shadow: var(--button-shadow);
+}
+
+.navThumbs img {
+	border-radius: var(--radius-s);
 }

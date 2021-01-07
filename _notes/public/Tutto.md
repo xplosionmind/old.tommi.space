@@ -4,19 +4,21 @@ updated: 2021-01-05
 tags: track
 aliases: "Di tutto e di più"
 lang: it
-ref: tutto
 redirect_from: ["/tuttopiu", "/stuff-extended", "/stuff-extended-it", "/stuff-extended/it", "/it/stuff-extended", "/everything"]
 ---
-Dato che per mia natura e vocazione finisco sempre in mezzo a una miriade di iniziative e progetti fantastici, mi trovo a partecipare o organizzare o condurre moltissimi piccoli eventi o interviste o incontri, e sono talmente tanti che alla fine rischio di dimenticarmeli e non riuscire più a trovarli. Per questo, proverò a tenere aggiornata questa lista di riferimento con tutto ciò a cui ho partecipato, attivamente o come spettatore, inserendo collegamenti a pagine, foto e informazioni.
+Dato che, per mia natura, sono una trottola che gira ovunque per fare tante (troppe) diverse cose 
 
-Alcuni link fra i seguenti potrebbero essere privati. Se necessitate l'accesso, mandatemi un'email.
-{:.yellow .box}
+<div class="yellow box">
+Alcuni link fra i seguenti potrebbero essere privati oppure non aggiornati. Per qualunque cosa, <a class="u-email" href="mailto:{{ site.email | encode_email }}" rel="me" title="Scrivimi un'email">scrivetemi</a>.
+</div>
+
+<br>
 
 ## Concertini
 
 Ogni tanto organizzo qualche seratina di (buona) musica nel ponente ligure (casa mia).
 
-- 9 luglio 2019, [**Il mio CUBO suona il Rock**](https://www.facebook.com/events/318752479011472) al [CUBO](https://www.instagram.com/ilcuboofficial)
+- 9 luglio 2019, [**<cite>Il mio CUBO suona il Rock</cite>**](https://www.facebook.com/events/318752479011472) al [CUBO](https://www.instagram.com/ilcuboofficial "ilcuboofficial - Instagram")
 	- [Foto](https://www.flickr.com/gp/xplosionmind/6wU45V)
 	- [Video teaser](https://www.facebook.com/QuelDuoLi/videos/2333791650275489/)
 	- [Video intervista](https://vimeo.com/347306203)
@@ -42,13 +44,13 @@ Con e grazie a [Radioimmaginaria](/cose#radioimmaginaria) ho fatto la maggior pa
 	- [Puntate](/rimm-db#festival-di-sanremo-2015)
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710411503952)
 	- [Foto da Radioimmaginaria](https://flic.kr/s/aHskvtuM9o)
-- il 5 agosto 2015 ho organizzato con la redazione di Radioimmaginaria Sanremo il mio primo evento in assoluto, l’[**Ultra BEACH PARTY immaginario**](https://www.facebook.com/events/917289898363949/), a Riva Ligure
+- il 5 agosto 2015 ho organizzato con la redazione di Radioimmaginaria Sanremo il mio primo evento in assoluto, l’[**<cite>Ultra BEACH PARTY immaginario</cite>**](https://www.facebook.com/events/917289898363949/), a Riva Ligure
 	- [Foto](https://www.flickr.com/gp/xplosionmind/n17775)
 - dal 23 al 31 agosto e dal 29 al 31 ottobre 2015, **EXPO Milano 2015**
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710391363066)
 	- [Foto da Radioimmaginaria](https://flic.kr/s/aHskmDM2RX)
 	- [Puntate](/rimm-db#EXPO-Milano-2015)
-- il 19 settembre 2015, **Teen Parade**, a Castelguelfo di Bologna
+- il 19 settembre 2015, la prima edizione di **<cite>Teen Parade</cite>**, a Castelguelfo di Bologna
 	- [Puntate](/rimm-db#teen-parade-2015)
 	- [Video](https://vimeo.com/radioimmaginaria/tparade2015)
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710410135602)
@@ -61,14 +63,14 @@ Con e grazie a [Radioimmaginaria](/cose#radioimmaginaria) ho fatto la maggior pa
 	- [Puntate](/rimm-db#festival-di-sanremo-2016)
 	- [Foto da Radioimmaginaria](https://flic.kr/s/aHskvEz8fk)
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710720019412)
-- dall'8 al 10 aprile 2016, [**Radiocity**](http://www.radiocitymilano.it/) e [**International Radio Festival**](https://www.internationalradiofestival.com), Milano
+- dall'8 al 10 aprile 2016, [**<cite>Radiocity</cite>**](http://www.radiocitymilano.it/ "Radiocity Milano") e [**<cite>International Radio Festival</cite>**](https://www.internationalradiofestival.com "International Radio Festival"), Milano
 	- [Puntate](https://www.flickr.com/photos/xplosionmind/albums/72157710719651706)
 	- [Foto da Radioimmaginaria](https://www.flickr.com/photos/radioimmaginaria/albums/72157668517426676)
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710719651706)
 - dal 13 al 15 maggio 2016, **Missione a Londra**: sono andato con le mitiche Flora e Amalia in quel di Londra a salvare la redazione di Radioimmaginaria Londra
 	- [Puntata](https://www.spreaker.com/user/ariaimmaginaria/italy-meets-london)
 	- [Foto](https://www.flickr.com/photos/xplosionmind/albums/72157710719709951)
-- dal 15 al 24 luglio 2016, [**Giffoni Film Festival** 2016](https://www.giffonifilmfestival.it/diario-gff-2016.html)
+- dal 15 al 24 luglio 2016, [**<cite>Giffoni Film Festival</cite>** 2016](https://www.giffonifilmfestival.it/diario-gff-2016.html)
 	- [Foto da Radioimmaginaria](https://flic.kr/s/aHskK5eqx3)
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710729227317)
 - dal 24 al 27 agosto 2016, il primo **Radiocampo immaginario** a **Riva Ligure**, con **inaugurazione della Redazione** di Radioimmaginaria Riva Ligure
@@ -91,31 +93,31 @@ Con e grazie a [Radioimmaginaria](/cose#radioimmaginaria) ho fatto la maggior pa
 - 30 marzo 2017, l’**intervista ai [Cantiere 164**](https://www.facebook.com/Cantiere164) fu l’inizio di una grande stima e amicizia reciproca
 	- [Puntata](https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo)
 	- [Foto](https://www.flickr.com/photos/xplosionmind/albums/72157710733018483)
-- dal 21 al 23 aprile 2017, [**Radiocity**](http://www.radiocitymilano.it/), Milano
+- dal 21 al 23 aprile 2017, [**<cite>Radiocity</cite>**](http://www.radiocitymilano.it/ "Radiocity Milano"), Milano
 	- [Foto](https://flic.kr/s/aHskYWpS5q)
 - dal 20 al 25 agosto 2017 ho programmato e organizzato tutti gli appuntementi del [**Radiocampo immaginario**](https://www.facebook.com/events/1356117211103947/) a Riva Ligure.
 	- [Puntate](/rimm-db#teen-parade-2017)
 	- [Articolo](https://www.riviera24.it/2017/08/a-riva-ligure-ce-radioimmaginaria-per-il-radiocampo-263655/) su Riviera24
 	- [Un video bellissimo](https://vimeo.com/radioimmaginaria/comeguadagnare)
-- il 6 e 7 settembre 2017, [**Teen Parade**](https://vimeo.com/radioimmaginaria/tparade2017), Bologna Fiere
-	- [video](https://vimeo.com/search?q=Teen+Parade+2017)
+- il 6 e 7 settembre 2017, [**<cite>Teen Parade</cite>**](https://vimeo.com/radioimmaginaria/tparade2017 "Teen Parade 2017"), Bologna Fiere
+	- [video](https://vimeo.com/search?q=Teen+Parade+2017 "Tutti i video della Teen Parade 2017 su Vimeo")
 	- [foto](https://flic.kr/s/aHsm5bZ7rq)
 - dal 6 al 10 febbraio 2018, **Festival di Sanremo 2018**
 	- [puntate](/rimm-db#festival-di-sanremo-2018)
 	- [foto](https://flic.kr/s/aHsmeW5a5n)
-- dal 21 al 25 agosto 2018, [**Radiocampo immaginario**](https://radioimmaginaria.it/content/279-radiocampo-riva-ligure), Riva Ligure
+- dal 21 al 25 agosto 2018, [**<cite>Radiocampo immaginario</cite>**](https://radioimmaginaria.it/content/279-radiocampo-riva-ligure), Riva Ligure
 - dal 5 al 7 settembre 2018, [**Teen Parade**](https://vimeo.com/306153145), Bologna Fiere
 	- [tutte le foto](https://flic.kr/s/aHsmrUxy9Q)
 	- [best of](https://flic.kr/s/aHsmrUxy9Q)
 	- [video](https://vimeo.com/search?q=%22Teen+Parade+2018%22)
-- il 7 settembre 2018, ho presentato l’ultimo mio evento da tipo immaginario, [**CATCH-EyoU**](http://www.catcheyou.eu/), a Bruxelles
+- il 7 settembre 2018, ho presentato l’ultimo mio evento da tipo immaginario, [**<cite>CATCH-EyoU</cite>**](http://www.catcheyou.eu/ "CATCH-EyoU official website"), a Bruxelles
 	- [foto](https://www.flickr.com/photos/radioimmaginaria/albums/72157698540493742)
-	- [best of](https://www.spreaker.com/user/ariaimmaginaria/bruxelles-unione-europea)
+	- [best of](https://www.spreaker.com/user/ariaimmaginaria/bruxelles-unione-europea "Best of dell'evento")
 	- [puntata completa](https://www.spreaker.com/user/ariaimmaginaria/catcheyou-from-brussels)
 
 A settembre 2018, il mio percorso da speaker di Radioimmaginaria si è concluso, ma questa grande famiglia di matti geniali è sempre rimasta nel mio cuore e sono tornato più volte a dar loro una mano, principalmente facendo foto.
 
-- il 14 novembre 2019, [**Teen Parade**](https://radioimmaginaria.it/teenparade2019), Genova
+- il 14 novembre 2019, [**<cite>Teen Parade</cite>**](https://radioimmaginaria.it/teenparade2019), Genova
 	- [foto da Radioimmaginaria](https://flic.kr/s/aHsmJjqJpQ)
 	- [foto mie](https://www.flickr.com/gp/xplosionmind/CvT4qm)
 
@@ -124,13 +126,13 @@ A settembre 2018, il mio percorso da speaker di Radioimmaginaria si è concluso,
 
 ## Scout
 
-[Sono scout](/cose#scouting) da quando ho 8 anni. Con il mio gruppo (il [Costa Balenae](https://www.facebook.com/Agesci-Costabalenae-484902901713104/) di Santo Stefano al Mare) ho vissuto speciali e  indimenticabili avventure.
+[Sono scout](/cose#scouting) da quando ho 8 anni. Con il mio gruppo (il [Costa Balenae](https://www.facebook.com/Agesci-Costabalenae-484902901713104/ "Agesci Costabalenae su Facebook") di Santo Stefano al Mare) ho vissuto speciali e indimenticabili avventure.
 
-Per i profani: il San Giorgio è l’evento di due o tre giorni in cui si riuniscono i reparti di tutti i gruppi di una zona.
+Premessa per i profani: il <cite>San Giorgio</cite> è l’evento di due o tre giorni in cui si riuniscono i reparti di tutti i gruppi di una zona.
 
 - [San Giorgio 2015](https://www.flickr.com/photos/xplosionmind/albums/72157710372793511), Taggia
 - 6 giugno 2015, [Autofinanziamento a tema pirati](https://www.flickr.com/photos/xplosionmind/albums/72157710384848046), Campo Scout
-- il 13 giugno 2015, tutti gli scout AGESCI in Italia si sono riuniti in piazza San Pietro a Roma per un [incontro con il Papa](https://emiro.agesci.it/tag/agescidalpapa/). Io sono stato estratto come rappresentante della Regione Liguria per incontrarlo di persona
+- il 13 giugno 2015, tutti gli scout AGESCI in Italia si sono riuniti in piazza San Pietro a Roma per un [incontro con il Papa](https://emiro.agesci.it/tag/agescidalpapa/ "Agesci dal Papa"). Io sono stato estratto come rappresentante della Regione Liguria per incontrarlo di persona
 	- [foto](https://www.flickr.com/photos/xplosionmind/albums/72157710132331486)
 - dal 16 al 23 luglio 2015, [campo estivo](https://www.flickr.com/photos/xplosionmind/albums/72157710386835056), Mendatica
 - 8 e 9 novembre 2015, [passaggi](https://www.flickr.com/photos/xplosionmind/albums/72157710718504578), Carpasio e Cipressa
