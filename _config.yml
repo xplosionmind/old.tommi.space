@@ -47,7 +47,7 @@ collections:
 # CommonMark
 # markdown: CommonMark
 # commonmark:
-#  options: ["FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE", "VALIDATE_UTF8"]
+#  options: ["FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE", "SMART", "VALIDATE_UTF8", "UNSAFE", "LIBERAL_HTML_TAG", "HARDBREAKS"]
 #  extensions: ["strikethrough", "table", "tasklist", "autolink", "tagfilter"]
 
 # Pagination

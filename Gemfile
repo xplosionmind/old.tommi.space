@@ -18,7 +18,7 @@ gem "liquid-c" # no sensible improvement in performance
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "webrick"
-# gem "jekyll-commonmark" # performance doesn't change much
+# gem "jekyll-commonmark" # not working with bi-directional links generator plugin and with pure Liquid toc parser
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"

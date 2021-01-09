@@ -4,8 +4,9 @@ updated: 2020-08-03
 tags: geek
 description: "A walktrough of the steps I executed to set up my server"
 ---
-A **huge shoutout** to my friend [Claudio](http://claudiofaoro.com "Claudio Faoro's website"), who helped me understand and perform the most tricky passages.
-{:.box}
+<div class="box">
+	A <strong>huge shoutout</strong> to my friend <a href="http://claudiofaoro.com" title="Claudio's personal website" rel="noopener noreferrer" target="_blank">Claudio</a>, who helped me understand and perform the most tricky passages.
+</div>
 
 <br>
 <br>
@@ -88,8 +89,9 @@ NOTE: substitute `100.100.010.1` with the server’s IP address and `xplosionmin
 
 ### Change default SSH port
 
-Changing the default SSH port is useful to prevent randomized attacks which attempt to get access to the server from [port 22](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers), the default one.
-{:.box}
+<div class="box yellow">
+	Changing the default SSH port is useful to prevent randomized attacks which attempt to get access to the server from <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers" rel="noopener noreferrer" target="_blank">port 22</a>, the default one.
+</div>
 
 Enable the new SSH port from the firewall. In this case, the process I’ll be following configures port `5522`
 ```
@@ -358,8 +360,9 @@ systemctl restart apache2
 
 <figure><img src="https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg" alt="Nextcloud first setup page" title="Nextcloud first setup page" /><figcaption>Nextcloud first setup page</figcaption></figure>
 
-**Don’t** insert any data in the dialogue page above until connection is encrypted with `https://`. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
-{: .box}
+<div class="yelow box">
+	<u><strong>Don’t</srong> insert any data</u> in the dialogue page above until connection is encrypted with <code>https://</code>. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
+</div>
 
 <br />
 
@@ -438,8 +441,9 @@ sudo ufw allow in 10000:20000/udp
 
 Jitsi requires the Java Runtime Environment. Install OpenJDK JRE 8.
 
-**NOTE**: as of right now, Jitsi Meet needs JRE 8, ***not a newer version***!
-{:.box .red}
+<div class="red box">
+	<b>NOTE</b>: as of right now, Jitsi Meet needs JRE 8, and <u><strong>not a newer version</strong></u>!
+</div>
 
 ```
 sudo apt install -y openjdk-8-jre-headless
@@ -474,9 +478,9 @@ sudo ln -s /usr/bin/certbot /usr/sbin/certbot
 sudo /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 ```
 
-If something around here doesn’t work, no worries: just repeat the command, it should get fixed by itself
-{:.box}
-
+<div class="yellow box">
+	If something around here doesn’t work, no worries: just repeat the command, it should get fixed by itself
+</div>
 
 last tweaks should be done in here
 ```

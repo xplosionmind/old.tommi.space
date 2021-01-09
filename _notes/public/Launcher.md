@@ -5,8 +5,7 @@ tags: geek
 toc: false
 description: "Every geek worth to be called so has a custom launcher. This is the story of how I changed my preferred one for my first time, after several years."
 ---
-**30<sup>th</sup> May 2020**
-{:.date}
+<p class="date">30<sup>th</sup> May 2020</p>
 
 I was writing the list of the [[Apps#Android|apps on my Android phone]] and I got to the point where I had to add [Nova Launcher](http://novalauncher.com/).
 
@@ -27,8 +26,7 @@ I’ll dig more in depth to understand how they works and which one suits my nee
 
 <br />
 
-**1<sup>st</sup> June 2020**
-{:.date}
+<p class="date">1<sup>st</sup> June 2020</p>
 
 I need no more time. That’s it. **KISS Launcher** is my new launcher. I completely fell in love. I tested it first, and I gave a quick look to the others, but I already decided. It’s great:
 
@@ -53,8 +51,7 @@ Bye
 
 <br />
 
-**7<sup>th</sup> August 2020**
-{:.date}
+<p class="date">7<sup>th</sup> August 2020</p>
 
 I found another great launcher, but it’s very minimal and it makes it so hard to search for anything which isn’t an app.
 

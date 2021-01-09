@@ -12,22 +12,19 @@ layout: wrapper
 
 	{% include post-tags.html %}
 
-	{% if page.toc == 1 %}
-		<div class="row toc">
-			<h2>
-				{% if page.lang == 'it' %}
-					Indice
-				{% else %}
-					Table of contents
-				{% endif %}
-			</h2>
-		{% include toc.html html=content sanitize=true %}
-	</div>
-	{% endif %}
-
 	<div class="row">
 		<article class="e-content post">
+
+			{% if page.toc %}
+				<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+				{% include toc.html html=content sanitize=true %}
+			{% endif %}
+
+			<br />
+			<br />
+
 			{% include anchor-parser.html html=content %}
+
 		</article>
 	</div>
 

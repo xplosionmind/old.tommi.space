@@ -3,13 +3,13 @@ date: 2020-02-02
 updated: 2020-12-28
 tags: geek
 permalink: /development
-redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev"]
+redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev", "/website-development"]
 ---
 Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Not Working
 
-- Algolia search is only in the posts / blog
+- Algolia search index [is limited](https://github.com/algolia/algoliasearch-netlify/issues/166 "GitHub issue")
 
 <br>
 <br>
@@ -18,24 +18,17 @@ Creative and technical aims, ideas annotation and drafts tracking.
 
 ### WIP
 
-- [Making this website](/themakingof) article
+- [drafts](/tags#draft "everything tagged as “draft”")
 - [[Giri]]
 	- opera
 	- teatro
 	- concerti
 	- conferenze
-    - Alternanza Scuola-Lavoro
-    - date ospiti Giffoni cineforum
-    - Incontri Masterclass
-    - Film in concorso Giffoni
-- [[Playlist]]
-- [[Cinema]]
-- [[The Slot Philosophy]]
-- [[Hebertismo]]
-- [[Desk logging]]
+	- Alternanza Scuola-Lavoro
+	- date ospiti Giffoni cineforum
+	- Incontri Masterclass
+	- Film in concorso Giffoni
 - add a “première” section to the [Everyone](/everyone) page
-- [[Around the world]]
-- [drafts](/tags#draft "everything tagged as “draft”")
 
 <br>
 
@@ -50,20 +43,17 @@ Creative and technical aims, ideas annotation and drafts tracking.
 
 Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
-1. [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js)
 1. SEO
 	- Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) with Liquid syntax
 2. Configure [jekyll-tagging](https://github.com/pattex/jekyll-tagging) plugin
-3. Consider dropping Kramdown for better performance
-	- MultiMarkdown?
-	- [CommonMark](https://github.com/jekyll/jekyll-commonmark)?
-4. The new Jar:
-	- show only parent tags / notes
+4. The new [*Jar*](/jar):
+	- show only parent/main tags and notes
 	- an unstyled simple bullet point list
 	- show notes graph only
-	- index note
+	- index note explanations
 		- not working links are because notes are private
 		- definition of Zettelkasten / Digital gardening
+	- preview a note when hovering on link
 5. Access tags colors from posts and jar lists (change the color slightly also for every entry which is untagged)
 6. **Tags**
 		1. Use [jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen) to generate tags pages
@@ -74,10 +64,10 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 7. Zettelkasten graph
 8. Switch from Algolia to Lunr or to [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search)
 	1. [Searchyll](https://github.com/omc/searchyll)?
-9. [**Visioni**](/visioni)
+9. [***Visioni***](/visioni)
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
-	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/)
+	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ "How to build a responsive gallery with flexbox")
 	- Photo selection
 	- horizontal instead of vertical scrolling of the gallery
 	- PDF portfolio download
@@ -91,13 +81,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 19. [improve sticky header](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
 20. Configure global properties in `_config.yml` to perform changes in a quicker way
 1. Consider using [Fontless](https://fontless.varld.co "self host fonts")
-21. [[Typography]]
-	- better reasoned typographic choices
-	- [[Typography#Custom Font|Custom Font]]
-22. Setup mailing list
-	- [listmonk](https://listmonk.app) or [Mailtrain](https://mailtrain.org)
-	- [awesome-emails](https://github.com/jonathandion/awesome-emails)
-	- [responsive template](https://github.com/leemunroe/responsive-html-email-template)
+21. [[Typography|Typographic]] improvements
 23. Mailtrain automation with RSS
 24. Italian content only RSS Feed
 25. Hosting on [[Server]] instead of using [Netlify](https://netlify.com "Netlify official website")
@@ -112,7 +96,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 30. Piwigo integration?
 31. CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
 32. Create Jekyll theme
-33. Switch to [Hugo](https://gohugo.io "Hugo official website")
+33. Consider switching to [Hugo](https://gohugo.io "Hugo official website")
 
 <br>
 <br>
@@ -142,6 +126,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 - “blogroll”: a list of blogs which inspire me, see [Pawlean](https://pawlean.com/blogroll)
 - change mobile browser bar color
 - Color Jar items according to the belonging tag
+- Consider dropping Kramdown for better performance and use [CommonMark](https://github.com/jekyll/jekyll-commonmark "jekyll-commonmark plugin on GitHub") instead ✅ 2021.01.09
 - custom selection color for text
 - customize 404 page
 - Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
@@ -165,6 +150,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 - Hover effects
 - `id` anchor links
 - `{% raw %}{% if page.tags contains 'draft' %}{% endraw %}` print a banner indicating that the page misses something ✅ 2020-12-25
+- [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js) ❌ decided not to implement it. See [Sidenotes](/website-log#sidenotes)
 - Improved and smart use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
 	- `.box` and `.stuff` max heights
 - In [Books](/books) add IDs to every row corresponding to the title of the book (I posted [a question about this on the Jekyll forum](https://talk.jekyllrb.com/t/table-data-id-in-tablerow-loop/5398)) (done but to be improved: IDs are generated for every `td`, I think it's necessary to use a for loop instead of a `tablerow` loop). ✅ 2020.12.31
@@ -200,8 +186,8 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 - Switch to [Zettelkasten](/zettelkasten)
 	- [git submodules](https://www.taniarascia.com/git-submodules-private-content/)
 	- make backlinks optional: insert `if` statement out of the `div` and make the box appear only if at least one backlink is present
-	- convert Zetelkasten links to ordinary links 2020.12.12
-	- Backlinking~~ 2020.12.03
+	- convert Zetelkasten links to ordinary links ✅ 2020.12.12
+	- Backlinking ✅ 2020.12.03
 - [table of contents](https://github.com/allejo/jekyll-toc)
 - **Tags**
 	- move tags specifications to `_data`

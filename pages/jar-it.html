@@ -23,13 +23,22 @@ ref: jar
 		{% assign jar = site.notes %}
 		{% for note in jar %}
 			<a href="{{ note.url }}">
-				<div class="box {% for tag in note.tags limit:1 %}{{ tag }}{% endfor %}">
+				<div class="vertical flex box">
 					<h3>{{ note.title }}</h3>
 					{% if note.description %}
 						<p>{{ note.description | markdownify | strip_html | truncatewords: 30 }}</p>
 					{% else %}
 						<p>{{ note.excerpt | strip_html | truncatewords: 30 }}</p>
 					{% endif %}
+					{% for tagg in site.data.tags %}
+						{% for present in note.tags %}
+							{% capture tag %}{{ tagg.title | downcase | slugify }}{% endcapture %}
+							{% capture post-tag %}{{ present | downcase | slugify }}{% endcapture %}
+							{% if tag == post-tag %}
+								<div rel="tag" class="{{ tag }} tiny written button">{{ tagg.title }}</div>
+							{% endif %}
+						{% endfor %}
+					{% endfor %}
 				</div>
 			</a>
 		{% endfor %}

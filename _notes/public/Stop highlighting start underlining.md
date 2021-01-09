@@ -1,6 +1,6 @@
 ---
 date: 2020-12-11T00:00:00.000Z
-updated: '2021-01-08T18:37:33+01:00'
+updated: '2021-01-09T18:37:33+01:00'
 title: 'Stop highlighting, start underlining'
 tags: wit, reading
 toc: false
@@ -15,9 +15,9 @@ redirect_from:
 Highlighting is strong, excessive, distracting, aggressive.\
 Underlining is soft, neat, light, instead.
 
-While ==highlighting screams==: <q>LOOK AT ME COME ON!</q>, <u>underlining</u> raises a hand and timidly tells you: <q>hey! Remember this!</q>
+While <mark>highlighting screams</mark>: <q>LOOK AT ME COME ON!</q>, <u>underlining</u> raises a hand and timidly tells you: <q>hey! Remember this!</q>
 
-==Highlighting is egocentric== and annoying, <u>underlining is actually useful</u>: it catches the eye, but without stressing it with too many frills.
+<mark>Highlighting is egocentric</mark> and annoying, <u>underlining is actually useful</u>: it catches the eye, but without stressing it with too many frills.
 
 Underlining lets you focus on the content, which is what actually matters.
 

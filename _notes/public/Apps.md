@@ -6,8 +6,9 @@ image: "https://assets.tommi.space/images/apps.png"
 description: "A comprehensive list of apps I use + interesting apps I have to keep record of."
 redirect_from: ["/uses", "/installed", "/installed-apps", "/applications", "/applicazioni", "/programs", "/programmi", "/software"]
 ---
-Everything in this list is free and Open Source, except where otherwise specified
-{:.blue .box}
+<div class="blue box">
+	Everything in this list is free and Open Source, except where otherwise specified
+</div>
 
 <br>
 

@@ -12,20 +12,31 @@ ref: jar
 		<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
 		<p>I take this things, I throw them into <em>The Jar</em>.</p>
 		<p>I hope it can be useful to you.</p>
-{% include tags.html %}
+
+		{% include tags.html %}
+
 	</div>
 
 	<div class="grid">
 		{% assign jar = site.notes %}
 		{% for note in jar %}
 			<a href="{{ note.url }}">
-				<div class="box {% for tag in note.tags limit:1 %}{{ tag }}{% endfor %}">
+				<div class="vertical flex box">
 					<h3>{{ note.title }}</h3>
-						{% if note.description %}
+					{% if note.description %}
 						<p>{{ note.description | markdownify | strip_html | truncatewords: 30 }}</p>
-						{% else %}
+					{% else %}
 						<p>{{ note.excerpt | strip_html | truncatewords: 30 }}</p>
 					{% endif %}
+					{% for tagg in site.data.tags %}
+						{% for present in note.tags %}
+							{% capture tag %}{{ tagg.title | downcase | slugify }}{% endcapture %}
+							{% capture post-tag %}{{ present | downcase | slugify }}{% endcapture %}
+							{% if tag == post-tag %}
+								<div rel="tag" class="{{ tag }} tiny written button">{{ tagg.title }}</div>
+							{% endif %}
+						{% endfor %}
+					{% endfor %}
 				</div>
 			</a>
 		{% endfor %}
