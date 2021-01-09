@@ -586,6 +586,7 @@ h2 {
 	margin: var(--bigger) 3%;
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
+	overflow: scroll;
 	h2,
 	h3 {
 		text-align: center;
@@ -861,6 +862,9 @@ button,
 	}
 	.post-preview img {
 		max-height: unset;
+	}
+	.grid .box {
+		margin: 0 3%;
 	}
 }
 
