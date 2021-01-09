@@ -1,6 +1,6 @@
 ---
 date: 2017-03-26
-tags: ["silly-poems"]
+tags: event
 ---
 si brinda e si festeggia   
 color che   

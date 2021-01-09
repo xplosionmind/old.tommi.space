@@ -1,6 +1,6 @@
 ---
 date: 2019-02-06
-tags: ["a", "writing"]
+tags: event writing archive
 ---
 > Possiamo continuare con questo tabù, che poi significa che ogni ragazzino che ha vinto il concorso ritiene di dover esercitare l'azione penale a diritto e a rovescio, come gli pare e gli piace, senza rispondere a nessuno...? Non è possibile che si creda che un ragazzino, solo perché ha fatto il concorso di diritto romano, sia in grado di condurre indagini complesse contro la mafia e il traffico di droga. Questa è un'autentica sciocchezza! A questo ragazzino io non gli affiderei nemmeno l'amministrazione di una casa terrena, come si dice in Sardegna, una casa a un piano con una sola finestra, che è anche la porta.
 

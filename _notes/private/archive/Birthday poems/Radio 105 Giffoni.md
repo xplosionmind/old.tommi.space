@@ -1,6 +1,6 @@
 ---
 date: 2018-07-21
-tags: ["silly-poems"]
+tags: giffoni event poetry
 ---
 Eccoci qui su radio 105
 

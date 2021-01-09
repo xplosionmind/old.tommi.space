@@ -1,6 +1,6 @@
 ---
 date: 2018-01-01
-tags: ["silly-poems"]
+tags: poetry
 ---
 sensuale è l'abbigliamento femminile   
 una bella donzella arriva a casa tua e metti su un vinile   

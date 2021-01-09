@@ -1,5 +1,5 @@
 ---
-tags: ph
+tags: photography
 ---
 - Maxim Dondyuk
 - ![Shuttle 1](https://www.ilpost.it/wp-content/uploads/2011/07/AP97011503030.jpg)

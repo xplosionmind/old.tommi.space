@@ -1,6 +1,6 @@
 ---
 date: 2019-02-26
-tags: ["everyone", "a"]
+tags: everyone
 ---
 26 February shooting at 10.45 am and afternoon 
 

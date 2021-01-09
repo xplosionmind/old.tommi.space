@@ -1,6 +1,6 @@
 ---
 tags: todo
-aliases: ["MOC", "Home", to do", "todo"]
+aliases: ["MOC", "Home", "to do", "todo"]
 ---
 1. **Study**
 1. *[[private/Scambi|Scambi]]*

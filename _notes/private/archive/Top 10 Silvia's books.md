@@ -1,6 +1,6 @@
 ---
 date: 2020-01-02
-tags: ["read"]
+tags: reading
 ---
 - a scuola dallo stregone
 - il terzo occhio

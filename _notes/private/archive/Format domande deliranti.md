@@ -1,6 +1,6 @@
 ---
 date: 2020-08-19
-tags: ["giffoni", "formats", "ideas"]
+tags: ["giffoni", "formats", "idea"]
 ---
 # Domande deliranti - Format
 

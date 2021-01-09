@@ -1,5 +1,6 @@
 ---
-tags: "?"
+tags: questions
+aliases: "Serious questions"
 ---
 ## Physics
 

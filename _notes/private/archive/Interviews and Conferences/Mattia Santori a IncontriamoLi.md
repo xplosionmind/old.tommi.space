@@ -1,6 +1,6 @@
 ---
 date: 2020-06-15
-tags: ["people", "festival", "event"]
+tags: people scambi event
 ---
 **Bologna**
 

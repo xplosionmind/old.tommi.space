@@ -1,6 +1,6 @@
 ---
 date: 2019-06-10
-tags: ["silly-poems"]
+tags: poetry
 ---
 la penultima ora, del penultimo giorno, dell'ultimo anno   
 e la mitica inimitabile prof. Pitti i suoi alunni a scuola più non troveranno

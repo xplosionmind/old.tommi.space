@@ -1,6 +1,6 @@
 ---
 date: 2018-08-08
-tags: ["birthday"]
+tags: birthday
 ---
 oh Totta, diciotto anni   
 e quanti danni!
@@ -16,5 +16,3 @@ che fantastiche emozioni e creazioni è in grado di realizzare
 
 tanti auguri bellissima   
 altissima, bradipissima
-
-#birthday #silly-poems

@@ -1,5 +1,5 @@
 ---
-tags: ["writing", "?", "idea"]
+tags: writing idea
 ---
 - Algoritmo per valutare il valore affettivo?
 - Valore sballato, value, valore come lettura di un dato
@@ -8,5 +8,5 @@ tags: ["writing", "?", "idea"]
 - valore della vita, sopravvivenza artificiale, chemio
 - valore di una pubblicità: sponsorizzazione dei post, numero di persone, nascosto.
 - come fa l'intelligenza artificiale a dare IMPORTANZA? E poi, per funzionare ha bisogno di DATI, su cui basare le proprie ricerche... dove vanno a finire?
-    - Paolo Benanti
-    - equilibrio fra acquisire dati per ottimizzare un servizio e la profilazione dell'utente
+	- Paolo Benanti
+	- equilibrio fra acquisire dati per ottimizzare un servizio e la profilazione dell'utente

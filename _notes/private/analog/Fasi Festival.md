@@ -1,3 +1,3 @@
 ---
-tags: ["analog", "festival"]
+tags: analog scambi
 ---

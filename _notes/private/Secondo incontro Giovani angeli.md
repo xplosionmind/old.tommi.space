@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-tags: ["ac", "pray"]
+tags: pray
 ---
 > 35 Gli si avvicinarono Giacomo e Giovanni, i figli di Zebedeo, dicendogli: "Maestro, vogliamo che tu faccia per noi quello che ti chiederemo". 36 Egli disse loro: "Che cosa volete che io faccia per voi?". 37 Gli risposero: "Concedici di sedere, nella tua gloria, uno alla tua destra e uno alla tua sinistra". 38 Gesù disse loro: "<u>Voi non sapete quello che chiedete</u>. Potete bere il calice che io bevo, o essere battezzati nel battesimo in cui io sono battezzato?". 39 Gli risposero: "Lo possiamo". E Gesù disse loro: "Il calice che io bevo anche voi lo berrete, e nel battesimo in cui io sono battezzato anche voi sarete battezzati. 40 Ma sedere alla mia destra o alla mia sinistra non sta a me concederlo; è per coloro per i quali è stato preparato".
 > 

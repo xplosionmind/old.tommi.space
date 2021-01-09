@@ -1,6 +1,6 @@
 ---
 date: 2019-01-13
-tags: ["a", "everyone"]
+tags: archive
 ---
 # Shopping list for shooting at the house
 

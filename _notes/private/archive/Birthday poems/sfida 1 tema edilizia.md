@@ -1,6 +1,6 @@
 ---
 date: 2018-01-01
-tags: ["silly-poems"]
+tags: poetry
 ---
 e devi costruire una casa non farlo a muzzo   
 butti lì del calcestruzzo   

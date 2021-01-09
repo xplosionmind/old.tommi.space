@@ -76,6 +76,7 @@ social:
   name: xplosionmind
   links:
     - https://bandcamp.com/xplosionmind
+    - https://bookwyrm.social/user/tommi
     - https://cryptpad.fr/profile/#/2/profile/view/bGDyy3pKXdqc6mofB1EINV2ZstbhkmVjKUM3oPBk2IA/
     - https://dev.to/xplosionmind
     - https://www.discogs.com/user/xplosionmind
@@ -101,6 +102,7 @@ social:
     - https://listed.to/@tommi
     - https://discourse.mailinabox.email/u/xplosionmind/
     - https://mastodon.online/@xplosionmind
+    - https://nownownow.com/p/TFSu
     - https://forums.oneplus.com/members/xplosionmind.779670/
     - https://www.openstreetmap.org/user/xplosionmind
     - https://www.reddit.com/user/xplosionmind/
@@ -158,6 +160,7 @@ defaults:
       lang: "en"
       image: "https://assets.tommi.space/images/preview.gif"
       comments: true
+      serif: false
 
   -
     scope:

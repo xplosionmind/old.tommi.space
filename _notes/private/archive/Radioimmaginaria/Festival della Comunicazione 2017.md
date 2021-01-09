@@ -1,8 +1,8 @@
 ---
 date: 2017-09-10
-tags: ["camogli", "radioimmaginaria"]
+tags: radioimmaginaria
 ---
-### Titolo
+## Titolo
 Camogli Festival della Comunicazione 2017
 
 se è troppo lungo leva 2017
@@ -10,6 +10,8 @@ se è troppo lungo leva 2017
 ### Descrizione
 
 Tommi Boom non è abbastanza stanco dopo `#TParade2017` e gira per Camogli per il Festival della Comunicazione, quello che è successo e le interviste a Mario Calabresi, Mario Tozzi e Danco Singer in questo podcast da sogno!
+
+<br>
 
 ## Scaletta
 

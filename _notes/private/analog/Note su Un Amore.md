@@ -1,3 +1,3 @@
 ---
-tags: ["analog", "book", "read"]
+tags: ["analog", "book", "reading"]
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2020-06-10
 updated: 2020-12-28
-tag: q
+tag: quotes
 toc: false
 description: 'Some are from celebrities, some were pronounced by friends of mine and may have no meaning to the public, in realtà sono quasi tutte in italiano dunque non ha senso che scriva la descrizione in inglese.'
 redirect_from:
@@ -15,27 +15,24 @@ redirect_from:
 </style>
 > mal cammina qual si fa danno del ben fare altrui
 
-Dante, Paradiso VI, vv. 131-132
-{:.cite}
+<p class="cite">Dante, Paradiso VI, vv. 131-132</p>
 
-<br />
-<br />
+<br>
+<br>
 
 > L’uomo propone, Dio dispone"
 
-A.Dumas, <cite>Il Conte di Montecristo</cite>
-{:.cite}
+<p class="cite">A.Dumas, <cite>Il Conte di Montecristo</cite></p>
 
-<br />
-<br />
+<br>
+<br>
 
 > fai ciò che vedi, che senti, che vuoi
 
-Motto di Courbet
-{:.cite}
+<p class="cite">Motto di Courbet</p>
 
-<br />
-<br />
+<br>
+<br>
 
 > Ragazzi godetevi la vita, innamoratevi, siate
 felici ma diventate partigiani di questa nuova
@@ -48,51 +45,45 @@ attenti, siate vigili, siate sentinelle di voi stessi!
 L'avvenire è nelle vostre mani. Ricordatelo
 sempre!
 
-Antonino Caponnetto
-{:.cite}
+<p class="cite">Antonino Caponnetto</p>
 
-<br />
-<br />
+<br>
+<br>
 
 > Non può esserci libertà senza giustizia sociale e non può esserci giustizia sociale senza libertà.
 
-Sandro Pertini
-{:.cite}
+<p class="cite">Sandro Pertini</p>
 
-<br />
-<br />
+<br>
+<br>
 
 > La pazienza è la più eroica delle virtù, giusto perché non ha nessuna apparenza d’eroico
 
-Giacomo Leopardi
-{:.cite}
+<p class="cite">Giacomo Leopardi</p>
 
-<br />
-<br />
+<br>
+<br>
 
 > More than ninety percent of directing a picture is the right casting
 
-Martin Scorsese
-{:.cite}
+<p class="cite">Martin Scorsese</p>
 
-<br />
-<br />
+<br>
+<br>
 
 > Your job is to get your audience to care about your obsessions.
 
-Martin Scorsese
-{:.cite}
+<p class="cite">Martin Scorsese</p>
 
-<br />
-<br />
+<br>
+<br>
 
 > Il termine utopia è la maniera più comoda per liquidare quello che non si ha voglia, capacità, o coraggio di fare. Un sogno sembra un sogno fino a quando non si comincia da qualche parte, solo allora diventa un proposito, cioè qualcosa di infinitamente più grande.
 
-Adriano Olivetti
-{:.cite}
+<p class="cite">Adriano Olivetti</p>
 
-<br />
-<br />
+<br>
+<br>
 
 > I read in self-defense
 
@@ -104,7 +95,7 @@ Woody Allen
 
 > Ma si è così poco preparati
 
-Kafka, <cite>il processo</cite, nelle parole di Joseph K.
+Kafka, <cite>il processo</cite>, nelle parole di Joseph K.
 {:.cite}
 
 <br />
@@ -130,72 +121,71 @@ Anonimo
 Marina Martina Madrina
 {:.cite}
 
-<br />
-<br />
+<br>
+<br>
 
 > Maledetto sia Copernico!
 
 Pirandello, <cite>Il Fu Mattia Pascal</cite>
 {:.cite}
 
-<br />
-<br />
+<br>
+<br>
 
 > ...e l'uomo diventa sempre più furbo e più debole. Anzi si capisce che la sua furbizia cresce in proporzione alla sua debolezza.
 
-<cite>La Coscienza di Zeno</cite>, Svevo
-{:.cite}
+<p class="cite">Svevo, <cite>La Coscienza di Zeno</cite></p>
 
-<br />
-<br />
+<br>
+<br>
 
 > la morte si sconta vivendo
 
 Ungaretti, <cite>Sono una Creatura</cite>
 {:.cite}
 
-<br />
-<br />
+<br>
+<br>
 
 > Perché l’ASI è troppo importante
 
 Roberto Battiston, <cite>Fare Spazio</cite>
 {:.cite}
 
-<br />
-<br />
+<br>
+<br>
 
 > lei ha sempre una profondità di fondo
 
 Fra Maccario, parlando di Anna
 {:.cite}
 
-<br />
-<br />
+<br>
+<br>
 
 > ci sarà una nave che stanno distruggendo da qualche parte
 
 Anna
 {:.cite}
 
-<br />
-<br />
+<br>
+<br>
 
 > Finora la convinzione che tutto sia possibile sembra aver provato soltanto che tutto può esser distrutto
 
 Hannah Arendt
 {:.cite}
 
-<br />
-<br />
+<br>
+<br>
 
 > Nessuna ombra è nera
 
 Pierre-Auguste Renoir
 {:.cite}
 
-<br />
-<br />
+<br>
+<br>
 
 > È terribile sentirsi così contenti
 
@@ -220,11 +210,10 @@ Dolores, <cite>Santa Maradona</cite>
 > **Lucia**: <q>capisco.</q>   
 > **Bart**: <q>Possiamo fare l'amore adesso?</q>
 
-Santa Maradona (2001)
-{:.cite}
+<p class="cite">Santa Maradona (2001)</p>
 
-<br />
-<br />
+<br>
+<br>
 
 > il cinema non è stare da soli
 
@@ -549,8 +538,8 @@ Arthur Schopenhauer, <cite>L'arte di essere felici</cite>, massima n. 25
 <br />
 <br />
 
-> *Inter cuncta leges et percontabere doctos    
-> qua ragione queas traducere leniter aevum,    
+> *Inter cuncta leges et percontabere doctos   
+> qua ragione queas traducere leniter aevum,   
 > num te sempre inops agitet vexetque cupido,   
 > num pavor et rerum mediocriter utilium spes*   
 >

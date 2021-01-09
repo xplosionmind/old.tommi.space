@@ -25,6 +25,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 4. https://www.onlinelifecalendar.com
 5. Update Flickr links in [[Tutto]]
 1. [[Missing Knowledge#Geek stuff|Learng geek stuff]]
+1. MacBook Pro color profile
 
 <br>
 <br>

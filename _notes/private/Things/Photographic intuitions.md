@@ -1,5 +1,5 @@
 ---
-tags: ideas, ph
+tags: idea, photography
 ---
 - L'eternalizzazione, la celebrazione, l'apoteosi di un attimo
 - **Mirror**

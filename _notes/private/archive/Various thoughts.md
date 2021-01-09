@@ -1,6 +1,6 @@
 ---
 date: 2017-03-09
-tags: ["ideas"]
+tags: quotes, idea
 ---
 > The only way to keep moving is having something to move for
 ~ Boom

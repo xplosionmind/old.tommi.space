@@ -1,5 +1,5 @@
 ---
-tags: ["€€€"]
+tags: money
 ---
 - [x] Noce
 - [X] Steff

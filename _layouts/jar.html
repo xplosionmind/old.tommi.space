@@ -21,7 +21,7 @@ layout: wrapper
 	{% include post-tags.html %}
 
 	<div class="row">
-		<article class="e-content note">
+		<article class="e-content note{% if page.serif == true %} serif{% endif %}">
 			{% if page.description != nil %}
 				<p>{{ page.description | markdownify }}</p>
 			{% endif %}

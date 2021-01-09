@@ -1,3 +1,3 @@
 ---
-tags: ["analog", "book", "read", "scout", "zen"]
+tags: analog, book, reading, scout, zen, wip
 ---

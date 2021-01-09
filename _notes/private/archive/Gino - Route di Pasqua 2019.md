@@ -1,6 +1,7 @@
 ---
 date: 2019-04-22
-tags: ["scout", "event", "silly-poems"]
+tags: scout event poetry
+title: "Gino"
 ---
 # Gino
 

@@ -1,7 +1,7 @@
 ---
 date: 2020-12-10
 updated: 2020-12-10
-tags: a
+tags: archive
 ---
 - Club Tenco - [musica e parole](https://drive.google.com/drive/folders/1KJwG7oXcwr7XSPooRM1RmiJXM-B2BeGb?usp=sharing)
 - [asset grafici](https://drive.google.com/drive/folders/1AUPIGeDjvJPwUsdiYPTOOFw757HBdsFQ?usp=sharing "asset grafici Mozilla Italia") Mozilla Italia

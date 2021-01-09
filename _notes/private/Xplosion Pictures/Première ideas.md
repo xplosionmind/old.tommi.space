@@ -1,5 +1,5 @@
 ---
-tags: ["ideas", "event"]
+tags: ["idea", "event"]
 ---
 - movie screening
 - the soundtrack artist (little concert)

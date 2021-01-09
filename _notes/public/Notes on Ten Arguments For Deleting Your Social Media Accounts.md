@@ -1,7 +1,7 @@
 ---
 date: 2020-09-04
 updated: 2020-09-05
-tags: read, book
+tags: qsm reading book
 permalink: /lanier-social-media-notes
 redirect_from:
   - /quit-social-media-notes

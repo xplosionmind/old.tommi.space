@@ -1,5 +1,5 @@
 ---
-tags: ["todo", "track"]
+tags: todo track
 ---
 ## Borrowed
 

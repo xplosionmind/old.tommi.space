@@ -1,6 +1,6 @@
 ---
 date: 2018-12-30
-tags: ["silly-poems"]
+tags: poetry
 ---
 perché   
 si finisce sempre per finire?   

@@ -1,5 +1,5 @@
 ---
-tags: idea, future
+tags: idea, future, places
 ---
 # Idee gestione locale
 

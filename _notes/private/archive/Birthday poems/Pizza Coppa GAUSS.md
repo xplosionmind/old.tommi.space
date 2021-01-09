@@ -1,6 +1,6 @@
 ---
 date: 2018-04-13
-tags: ["silly-poems"]
+tags: event
 ---
 alle nostre professoresse   
 che ci aiutano ad essere persone meno fesse   

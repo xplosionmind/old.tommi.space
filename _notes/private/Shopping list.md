@@ -1,18 +1,17 @@
 ---
-tags: ["todo"]
 ---
-- [x] The
-- [x] fette biscottate
-- [x] mozzarella
-- [x] tonno
+- [ ] The
+- [ ] fette biscottate
+- [ ] mozzarella
+- [ ] tonno
 - [ ] patate
 - [ ] banane
-- [x] yogurt
+- [ ] yogurt
 - [ ] cotto fresco
-- [x] miele
+- [ ] miele
 - [ ] latte
-- [x] verdure
+- [ ] verdure
 - [ ] grissini
-- [x] biscotti
-- [x] Batteries
+- [ ] biscotti
+- [ ] Batteries
 - [ ] Fagiolini

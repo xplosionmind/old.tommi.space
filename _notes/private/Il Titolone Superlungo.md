@@ -1,5 +1,5 @@
 ---
-tags: ["giffoni", "?"]
+tags: giffoni questions
 ---
 ## Intro
 

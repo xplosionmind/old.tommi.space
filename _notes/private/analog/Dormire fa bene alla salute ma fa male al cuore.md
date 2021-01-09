@@ -1,3 +1,3 @@
 ---
-tags: ["analog", "q"]
+tags: analog quotes
 ---

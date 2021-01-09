@@ -28,7 +28,7 @@
 	--secondary: var(--razzmatazz);
 	--accent: limegreen;
 	--default-font: Inter, -apple-system, sans-serif;
-	--font-monospace: 'Ubuntu Mono', monospace;
+	--font-mono: 'Ubuntu Mono', monospace;
 }
 
 :not(hr):not(blockquote):not(.CodeMirror-cursor):not(td):not(th) {
@@ -41,6 +41,7 @@
     --text-accent-hover: var(--primary-light);
     --scrollbar-bg: none !important;
 	--shadow: 5px 5px 20px #000000BB, -5px -5px 20px #FFFFFF11;
+	--grey: var(--light-grey);
 }
 
 .theme-dark .cm-fat-cursor .CodeMirror-cursor {
@@ -54,6 +55,7 @@
 .theme-light {
     --scrollbar-bg: none !important;
 	--shadow: 5px 5px 20px #0005, -5px -5px 20px #FFFFFFEF;
+	--grey: var(--dark-grey);
 }
 
 .theme-light .cm-fat-cursor .CodeMirror-cursor {
@@ -71,7 +73,7 @@
 
 /* make the editor appear in mono */
 .CodeMirror-code {
-	font: 1.1em "Ubuntu Mono";
+	font: 1.1em var(--font-mono);
 }
 
 /* fix an error which causes the last letter of a row to be hidden */
@@ -79,9 +81,8 @@
 	overflow: unset;
 }
 
-.cm-s-obsidian .hmd-fold-html-stub, .cm-s-obsidian .hmd-fold-code-stub, .cm-s-obsidian.CodeMirror .HyperMD-hover > .HyperMD-hover-content code, .cm-s-obsidian .cm-formatting-hashtag, .cm-s-obsidian .cm-inline-code, .cm-s-obsidian .HyperMD-codeblock, .cm-s-obsidian .HyperMD-hr, .cm-s-obsidian .cm-hmd-frontmatter, .cm-s-obsidian .cm-hmd-orgmode-markup, .cm-s-obsidian .cm-formatting-code, .cm-s-obsidian .cm-math, .cm-s-obsidian span.hmd-fold-math-placeholder, .cm-s-obsidian .CodeMirror-linewidget kbd, .cm-s-obsidian .hmd-fold-html kbd {
-	font-family: "Ubuntu Mono", monospace;
-	color: #999;
+code, pre, .cm-s-obsidian .hmd-fold-html-stub, .cm-s-obsidian .hmd-fold-code-stub, .cm-s-obsidian.CodeMirror .HyperMD-hover > .HyperMD-hover-content code, .cm-s-obsidian .cm-formatting-hashtag, .cm-s-obsidian .cm-inline-code, .cm-s-obsidian .HyperMD-codeblock, .cm-s-obsidian .HyperMD-hr, .cm-s-obsidian .cm-hmd-frontmatter, .cm-s-obsidian .cm-hmd-orgmode-markup, .cm-s-obsidian .cm-formatting-code, .cm-s-obsidian .cm-math, .cm-s-obsidian span.hmd-fold-math-placeholder, .cm-s-obsidian .CodeMirror-linewidget kbd, .cm-s-obsidian .hmd-fold-html kbd {
+	font-family: var(--font-mono);
 }
 
 .view-header-title-container:after {
@@ -111,8 +112,24 @@
 h1, h2, h3, h4, h5, h6 {
 }
 
+p {
+	line-height: 1.75em;
+}
+
 a {
 	text-decoration: none;
+}
+
+li {
+	margin-bottom: var(--small);
+	line-height: var(--regular-more-em);
+	li {
+		margin-bottom: 0;
+		list-style-type: "–   ";
+		li {
+			list-style-type: "+  ";
+		}
+	}
 }
 
 .external-link:hover {
@@ -124,6 +141,11 @@ a {
 	text-decoration: none;
 }
 
+hr {
+	color: transparent;
+	border-top: 5px dotted var(--grey) !important;
+}
+
 .markdown-preview-view .internal-link:hover {
 	border-bottom: dashed 2px var(--blue);
 }
@@ -131,23 +153,7 @@ a {
 .markdown-preview-view ul > li.task-list-item.is-checked {
     text-decoration: line-through;
     margin: -1px 1px;
-    color: #CCC;
-}
-
-
-.markdown-preview-view code {
-	color: #DEDEDE;
-	background: #333;
-	font-family: "Ubuntu Mono", monospace;
-}
-
-.markdown-preview-view pre code {
-	background: none;
-}
-
-code,
-pre {
-	font-family: "Ubuntu Mono", monospace;
+    opacity: .5;
 }
 
 .markdown-preview-view pre,
@@ -166,11 +172,24 @@ pre {
 	hyphens: auto;
 }
 
+.theme-light .markdown-preview-view * {
+	text-decoration-color: #22222299 !important;
+}
+
+.theme-dark .markdown-preview-view * {
+	text-decoration-color: #E3E3E399 !important;
+}
+
 blockquote {
-	font: 1.1em "EB Garamond", serif;
+	font-family: "EB Garamond", serif;
+	opacity: .9;
     margin: 0 10%;
 	border: none !important;
 	border-radius: 10px;
+}
+
+blockquote p {
+	line-height: 1.3em;
 }
 
 .right,
