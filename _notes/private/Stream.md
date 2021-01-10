@@ -6,3 +6,6 @@ tags: todo
 - preview note content when hovering link in *The Jar*
 - where would the content of my distractions go if I wasn't distracted?
 - Update scouting in code, with partenza
+- for tools and nav in mobile use vh instead of vw
+- decrease grid > box padding and increase margin
+- https://rosano.hmm.garden/01ev1pxthspxdq5e5k5m54e1sg

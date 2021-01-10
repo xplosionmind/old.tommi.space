@@ -123,6 +123,9 @@ nav {
 }
 
 @media only screen and (max-width: 950px) {
+	.nav {
+		margin: 3vh;
+	}
 	.nav-mobile {
 		display: block;
 	}

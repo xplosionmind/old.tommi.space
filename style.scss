@@ -251,12 +251,12 @@ article li,
 }
 
 .theme-toggle {
-	right: calc(3% + 4rem);
+	right: calc(3vw + 4rem);
 }
 
 .tool {
 	position: fixed;
-	bottom: var(--bigger);
+	bottom: 3vw;
 	z-index: 9;
 	&.button {
 		padding: .3rem;
@@ -429,7 +429,7 @@ table {
 		bottom: var(--regular);
 	}
 	.button {
-		color: var(--primary);
+		color: var(--white-ish);
 		background: var(--background);
 		margin: var(--tiny) var(--regular-less);
 	}
@@ -589,10 +589,9 @@ h2 {
 	overflow: scroll;
 	h2,
 	h3 {
+		margin: 0;
 		text-align: center;
-		margin-top: 0;
 	}
-	h3,
 	h4 {
 		margin: 0;
 	}
@@ -616,7 +615,6 @@ h2 {
 }
 
 .post-preview {
-	max-height: 24vh;
 	width: auto;
 	margin-top: var(--regular-less);
 	margin-bottom: var(--regular-less);
@@ -627,6 +625,9 @@ h2 {
 	}
 	.date {
 		margin: 0 var(--regular);
+	}
+	img {
+		max-height: 24vh;
 	}
 }
 
@@ -708,14 +709,15 @@ button,
 }
 
 .written {
-	--link: var(--background);
+	--text: var(--background);
+	color: var(--text);
 	background: var(--primary);
 	margin: var(--big);
 }
 
 .smaller {
 	padding: var(--tiny) var(--regular-less);
-	margin: var(--small);
+	margin: .3rem;
 	font-size: var(--big);
 	border-radius: var(--radius-s);
 }
@@ -844,6 +846,7 @@ button,
 	.one-third,
 	.two-thirds,
 	.one-fourth,
+	.three-fourths,
 	.half,
 	.two-fifths,
 	.four-fifths,
@@ -860,12 +863,20 @@ button,
 	.line {
 		width: 20%;
 	}
-	.post-preview img {
-		max-height: unset;
+	.post-preview {
+		.title {
+			margin-top: var(--small);
+		}
+		img {
+			max-height: unset;
+		}
 	}
 	.grid .box {
 		margin: 0 3%;
 		height: unset;
+	}
+	.tool {
+		bottom: 3vh;
 	}
 }
 

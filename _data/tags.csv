@@ -1,7 +1,11 @@
 title,color,background,description
-geek,var(--black-ish),"linear-gradient(145deg, #CCC0C7, #95909D)","The title says it all. Geek stuff. Notes, resources indexing, useful shortcuts and any sort of knowledge to always have at hand."
-zen,var(--black-ish),"linear-gradient(145deg, #63f8c0, #40d98f)","About improving life, relationships, productivity, etc.<br />Everything which should make me happier."
-draft,var(--white-ish),"linear-gradient(145deg, #222222, #030303)",Work in progress content
-Inchiostro Digitale,#9CC455,"linear-gradient(145deg, #604BA5, #3B2071)","Qualche anno fa sono stato redattore e poi caporedattore dell’Ufficio Stampa del Liceo Cassini di Sanremo. Avevamo avviato una collaborazione con il giornale locale [Riviera Time](https://rivieratime.news), creando sul loro sito il blog [Inchiostro Digitale](https://www.rivieratime.news/blog/inchiostro-digitale/). Questi sono gli articoli che ho scritto. (Se volete divertirvi leggete l’inizio dell’ultimo. Io non ci credo che l’hanno pubblicato sul serio)."
-radioimmaginaria,white,"linear-gradient(145deg, #EE4249, #BC2F30)","È grazie a (o per colpa di) [Radioimmaginaria](/cose#radioimmaginaria) se ho cominciato a sentire quel piccolo ma inarrestabile fremito dal profondo del cuore che mi spinge a scrivere, parlare e condividere quello che mi passa per la testa. Questi sono gli articoli che ho scritto per il blog di radio, i miei primi in assoluto. (leggere con cognizione di causa: avevo sedici o diciassette anni)."
-film,white,"linear-gradient(145deg, #F1642B, #C04B10)",Stuff about cinema
+geek,#D9F8EF,"linear-gradient(160deg, #5E60CE, #6F00B1)","The title says it all. Geek stuff. Notes, resources indexing, useful shortcuts and any sort of knowledge to always have at hand."
+zen,#FFF3E6,"linear-gradient(160deg, #1A508B, #0D335D)","About improving life, relationships, productivity, etc.<br />Everything which should make me happier."
+cinema,#FAEFEA,"linear-gradient(160deg, #F28F3B, #C8553D)",Stuff about cinema
+draft,#F2E9E4,"linear-gradient(160deg, #4A4E69, #22223B)",To finish writing down
+wip,var(--white-ish),"linear-gradient(160deg, #222222, #030303)",Work in progress content
+Inchiostro Digitale,#9CC455,"linear-gradient(160deg, #604BA5, #3B2071)","Qualche anno fa sono stato redattore e poi caporedattore dell’Ufficio Stampa del Liceo Cassini di Sanremo. Avevamo avviato una collaborazione con il giornale locale [Riviera Time](https://rivieratime.news), creando sul loro sito il blog [Inchiostro Digitale](https://www.rivieratime.news/blog/inchiostro-digitale/). Questi sono gli articoli che ho scritto. (Se volete divertirvi leggete l’inizio dell’ultimo. Io non ci credo che l’hanno pubblicato sul serio)."
+radioimmaginaria,white,"linear-gradient(160deg, #EE4249, #BC2F30)","È grazie a (o per colpa di) [Radioimmaginaria](/cose#radioimmaginaria) se ho cominciato a sentire quel piccolo ma inarrestabile fremito dal profondo del cuore che mi spinge a scrivere, parlare e condividere quello che mi passa per la testa. Questi sono gli articoli che ho scritto per il blog di radio, i miei primi in assoluto. (leggere con cognizione di causa: avevo sedici o diciassette anni)."
+reading,#F3E9DC,"linear-gradient(160deg, #895737, #53291E)",Stopping the scrolling and diving into a paper deep reading
+scout,#F5F0C9,"linear-gradient(160deg, #3C6930, #284420)","Servire e vivere la comunità. Racconti dal mondo scout"
+idea,#1F6284,"linear-gradient(160deg, #FFE570, #E0B700)",Ephemeral lightnings in the mind.
