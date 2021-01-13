@@ -1,9 +1,7 @@
 ---
 date: 2020-03-13
-tags: ["film"]
+tags: cinema/film
 ---
-# Il ragazzo più felice del mondo
-
 - rispetto delle storie reali e dei personaggi
 - set come ambiente speciale di squadra amicizia, scuola e felicità
 - partenza da fantasia o storie reali? Per Gipi si parte da fantascienza

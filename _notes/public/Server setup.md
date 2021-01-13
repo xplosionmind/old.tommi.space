@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21
-updated: 2020-08-03
+updated: 2021-01-13
 tags: geek
 description: "A walktrough of the steps I executed to set up my server"
 ---
@@ -37,12 +37,12 @@ sudo apt autoremove -y && sudo apt autoclean -y
 It’s always better not to work and setup stuff straight from root user, it’s easy to mess everything up and very risky if you’re not 100% sure of what you’re doing (for me, most of the time).
 
 add user
-```
+```sh
 adduser tommi # “tommi”, in this case, is the username
 ```
 
 grant that user sudo permissions
-```
+```sh
 adduser -aG tommi sudo
 ```
 
@@ -171,13 +171,13 @@ Firstly, it’s necessary to create the folder where Nextcloud interface, thus p
 
 In this case, I configured a directory which is named exactly as the domain where the content it’s hosting will be found, for simplicity.
 ```
-sudo mkdir /var/www/cloud.tommiboom.tk
+sudo mkdir /var/www/cloud.tommi.space
 ```
 
 then, permissions can be changed, such that Nextcloud itself can handle this data, once installed. As you can see, these permissions must be set `-R` recursively.
 ```
-sudo chown -R $USER:$USER /var/www/cloud.tommiboom.tk
-sudo chmod -R 755 /var/www/cloud.tommiboom.tk
+sudo chown -R $USER:$USER /var/www/cloud.tommi.space
+sudo chmod -R 755 /var/www/cloud.tommi.space
 ```
 
 make the (private) directory where all of nextcloud data will be stored, and change its permissions, too
@@ -194,16 +194,16 @@ This is the essential content of an Apache configuration fil for nextcloud. It s
 
 create the configuration file by running
 ```
-sudo vim /etc/apache2/sites-available/cloud.tommiboom.tk.conf
+sudo vim /etc/apache2/sites-available/cloud.tommi.space.conf
 ```
 
 then, add this content
 ```apache
 <VirtualHost *:80>
 	ServerAdmin tommiboom@protonmail.com
-	ServerName cloud.tommiboom.tk
-	ServerAlias www.cloud.tommiboom.tk
-	DocumentRoot /var/www/cloud.tommiboom.tk/public_html
+	ServerName cloud.tommi.space
+	ServerAlias www.cloud.tommi.space
+	DocumentRoot /var/www/cloud.tommi.space/public_html
 
 	ErrorLog ${APACHE_LOG_DIR}/error.log
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
@@ -266,13 +266,13 @@ post_max_size = 16G # something similar to the above
 date.timezone = Europe/Rome # or your timezone
 ```
 
-<br />
+<br>
 
 ### Install Nextcloud
 
 download Nextcloud and place it in the virtual host directory
 ```
-sudo cd /var/www/cloud.tommiboom.tk/public_html && sudo wget https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip
+sudo cd /var/www/cloud.tommi.space/public_html && sudo wget https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip
 ```
 
 extract the downloaded package
@@ -282,7 +282,7 @@ unzip nextcloud-18.0.4.zip
 
 ### Install Let's Encrypt
 
-[Certbot](https://certbot.eff.org) will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
+[Certbot](https://certbot.eff.org "Certbot by EFF") will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
 ```
 sudo apt install certbot python3-certbot-apache
 ```
@@ -295,10 +295,10 @@ sudo ufw delete allow 'Apache'
 
 Generate TLS certificate
 ```
-sudo certbot --apache -d cloud.tommiboom.tk -d www.cloud.tommiboom.tk
+sudo certbot --apache -d cloud.tommi.space -d www.cloud.tommi.space
 ```
 
-<br />
+<br>
 
 Enable HTTP/2, and rewrite module
 ```
@@ -313,45 +313,45 @@ sudo a2enmod http2
 sudo service apache2 restart
 ```
 
-<br />
+<br>
 
 ### Enable HSTS
 
-add in cloud.tommiboom.tk-le-ssl.conf
+In `cloud.tommi.space-le-ssl.conf` add
 ```apache
 <IfModule mod_headers.c>
       Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
 </IfModule>
 ```
 
-to enable what has just been inserted, headers abilitation must be performed
-```
+to enable what has just been inserted, headers must be enabled
+```sh
 sudo a2enmod headers
 ```
 
 then, enable `.htaccess`
-```
-sudo vim /etc/apache2/sites-available/cloud.tommiboom.tk/cloud.tommiboom.tk-le-ssl.conf
+```sh
+sudo vim /etc/apache2/sites-available/cloud.tommi.space/cloud.tommi.space-le-ssl.conf
 ```
 
 paste in `<VirtualHost *:443>`
 ```apache
-<Directory "/var/www/cloud.tommiboom.tk/public_html">
-                Options Indexes FollowSymLinks
-                AllowOverride All
-                Require all granted
+<Directory "/var/www/cloud.tommi.space/public_html">
+	Options Indexes FollowSymLinks
+	AllowOverride All
+	Require all granted
 </Directory>
 ```
 
-<br />
+<br>
 
-restart apache
-```
+restart Apache
+```sh
 systemctl restart apache2
 ```
- 
-<br />
- 
+
+<br>
+
 ### Set the domain and complete setup 
 
 - point the chosen domain and subdomain to the server IP address
@@ -361,81 +361,37 @@ systemctl restart apache2
 <figure><img src="https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg" alt="Nextcloud first setup page" title="Nextcloud first setup page" /><figcaption>Nextcloud first setup page</figcaption></figure>
 
 <div class="yelow box">
-	<u><strong>Don’t</srong> insert any data</u> in the dialogue page above until connection is encrypted with <code>https://</code>. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
+	<u><strong>Don’t</strong> insert any data</u> in the dialogue page above until connection is encrypted with <code>https://</code>. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
 </div>
 
-<br />
+<br>
 
 ### Final adjustments
 
 Final adjustments are to be performed from the Nextcloud GUI. The [Nextcloud apps](https://apps.nextcloud.com/) I installed are listed [[Apps#Nextcloud]]
 
-<br />
+<br>
 
 ### fixes
 
-- fix [this](https://github.com/nextcloud/server/issues/8546#issuecomment-514139714) encryption error
+- fix [this](https://github.com/nextcloud/server/issues/8546#issuecomment-514139714 "An issue on Nextcloud repository on GitHub") encryption error
 
-<br />
-<br />
+<br>
+<br>
 
-## Nextcloud cheatsheet
+## Nextcloud Cheat Sheet
 
-A list of useful commands to perform when needed (often).
+See the [[Cheat sheets#Nextcloud|Nextcloud Cheat Sheet]] for list of useful commands to perform when needed (often).
 
-<br />
+<br>
+<br>
 
-### Manually install applications
+## Jitsi Meet
 
-move to the Nextcloud apps folder
-```
-cd /var/www/nextcloud/apps
-```
-
-download the application package from [Nextcloud apps website](https://apps.nextcloud.com/)
-```
-wget https://github.com/nextcloud/documentserver_community/releases/download/v0.1.5/documentserver_community.tar.gz # url to the package
-```
-
-extract it (by substituting `package_name` with the name of the app package)
-```
-tar -xvzf package_name.tar.gz
-```
-
-remove compressed package
-```
-rm -rf package_name.tar.gz
-```
-
-change permissions for the app’s directory
-```
-chown -R www-data:www-data /var/www/nextcloud/apps/app_name
-chmod -R 755 /var/www/nextcloud/apps/app-name
-```
-
-<br />
-
-### Manteinance mode
-
-enable manteinance mode
-```
-sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --on
-```
-
-disable manteinance mode
-```
-sudo -u www-data php /var/www/nextcloud/occ maintenance:mode --off
-```
-
-<br />
-<br />
-
-## Install Jitsi Meet
-
-[installation guide](https://www.vultr.com/docs/install-jitsi-meet-on-ubuntu-20-04-lts)
+[installation guide](https://www.vultr.com/docs/install-jitsi-meet-on-ubuntu-20-04-lts "Jitsi Meet installation guide - Vultr")
 
 allow firewall for ports 100000 to 200000
-```
+```sh
 sudo ufw allow in 10000:20000/udp
 ```
 
@@ -445,23 +401,23 @@ Jitsi requires the Java Runtime Environment. Install OpenJDK JRE 8.
 	<b>NOTE</b>: as of right now, Jitsi Meet needs JRE 8, and <u><strong>not a newer version</strong></u>!
 </div>
 
-```
+```sh
 sudo apt install -y openjdk-8-jre-headless
 ```
 
 check if installation went the right way and if the right version is installed
-```
+```sh
 java -version
 ```
 
 setup Java Runtime
-```
+```sh
 sudo echo "JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")" | sudo tee -a /etc/profile
 sudo source /etc/profile
 ```
 
 download Jitsi Meet and add it to `apt` downloadable list
-```
+```sh
 wget -qO - https://download.jitsi.org/jitsi-key.gpg.key | sudo apt-key add -
 echo "deb https://download.jitsi.org stable/"  | sudo tee -a /etc/apt/sources.list.d/jitsi-stable.list
 ```
@@ -471,7 +427,7 @@ install Jitsi Meet
 sudo apt install -y jitsi-meet
 ```
 
-run and enable certbot
+run and enable Certbot
 ```
 sudo sed -i 's/\.\/certbot-auto/certbot/g' /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 sudo ln -s /usr/bin/certbot /usr/sbin/certbot

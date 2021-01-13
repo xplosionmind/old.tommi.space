@@ -1,9 +1,7 @@
 ---
 date: 2020-06-08
-tags: ["film"]
+tags: cinema/film
 ---
-# Amelie
-
 - padri e figlie
 - solitudine
 	- uomo di vetro

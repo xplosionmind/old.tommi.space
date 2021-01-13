@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10
-updated: 2020-12-28
+updated: 2021-01-12
 tag: quotes
 toc: false
 description: 'Some are from celebrities, some were pronounced by friends of mine and may have no meaning to the public, in realtà sono quasi tutte in italiano dunque non ha senso che scriva la descrizione in inglese.'
@@ -20,7 +20,7 @@ redirect_from:
 <br>
 <br>
 
-> L’uomo propone, Dio dispone"
+> L’uomo propone, Dio dispone
 
 <p class="cite">A.Dumas, <cite>Il Conte di Montecristo</cite></p>
 
@@ -88,46 +88,41 @@ sempre!
 > I read in self-defense
 
 Woody Allen
-{:.cite}
 
 <br />
 <br />
 
 > Ma si è così poco preparati
 
-Kafka, <cite>il processo</cite>, nelle parole di Joseph K.
-{:.cite}
+<p class="cite">Kafka, <cite>il processo</cite>, nelle parole di Joseph K.</p>
 
 <br />
 <br />
 
 > Passano le mode, lo stile invece mai
 
-J-Ax
+<p class="cite">J-Ax</p>
 
 <br />
 <br />
 
 > Mi sento CTRL ALT canc, devo sbloccare i miei progetti
 
-Anonimo
-{:.cite}
+<p class="cite">Anonimo</p>
 
 <br />
 <br />
 
 > Dio scrive dritto sulle nostre righe storte
 
-Marina Martina Madrina
-{:.cite}
+<p class="cite">Marina Martina Madrina</p>
 
 <br>
 <br>
 
 > Maledetto sia Copernico!
 
-Pirandello, <cite>Il Fu Mattia Pascal</cite>
-{:.cite}
+<p class="cite">Pirandello, <cite>Il Fu Mattia Pascal</cite></p>
 
 <br>
 <br>
@@ -141,56 +136,49 @@ Pirandello, <cite>Il Fu Mattia Pascal</cite>
 
 > la morte si sconta vivendo
 
-Ungaretti, <cite>Sono una Creatura</cite>
-{:.cite}
+<p class="cite">Ungaretti, <cite>Sono una Creatura</cite></p>
 
 <br>
 <br>
 
 > Perché l’ASI è troppo importante
 
-Roberto Battiston, <cite>Fare Spazio</cite>
-{:.cite}
+<p class="cite">Roberto Battiston, <cite>Fare Spazio</cite></p>
 
 <br>
 <br>
 
 > lei ha sempre una profondità di fondo
 
-Fra Maccario, parlando di Anna
-{:.cite}
+<p class="cite">Fra Maccario, parlando di Anna</p>
 
 <br>
 <br>
 
 > ci sarà una nave che stanno distruggendo da qualche parte
 
-Anna
-{:.cite}
+<p class="cite">Anna</p>
 
 <br>
 <br>
 
 > Finora la convinzione che tutto sia possibile sembra aver provato soltanto che tutto può esser distrutto
 
-Hannah Arendt
-{:.cite}
+<p class="cite">Hannah Arendt</p>
 
 <br>
 <br>
 
 > Nessuna ombra è nera
 
-Pierre-Auguste Renoir
-{:.cite}
+<p class="cite">Pierre-Auguste Renoir</p>
 
 <br>
 <br>
 
 > È terribile sentirsi così contenti
 
-Dolores, <cite>Santa Maradona</cite>
-{:.cite}
+<p class="cite">Dolores, <cite>Santa Maradona</cite></p>
 
 <br />
 <br />
@@ -210,7 +198,7 @@ Dolores, <cite>Santa Maradona</cite>
 > **Lucia**: <q>capisco.</q>   
 > **Bart**: <q>Possiamo fare l'amore adesso?</q>
 
-<p class="cite">Santa Maradona (2001)</p>
+<p class="right">Santa Maradona (2001)</p>
 
 <br>
 <br>
@@ -291,8 +279,7 @@ Marco Rosa Gobbo
 
 > Le parole sono azioni.
 
-Wittgenstein, <cite>Pensieri diversi</cite>
-{:.cite}
+<p class="cite">Wittgenstein, <cite>Pensieri diversi</cite></p>
 
 <br />
 <br />
@@ -315,8 +302,7 @@ Hemingway, <cite>The Old Man and the Sea</cite>. Letto il 27 novembre 2019
 
 > you took the sourest lemon that life has to offer and turned it into something resembling lemonade
 
-<cite>This is Us</cite<, S01E01
-{:.cite}
+<p class="cite"><cite>This is Us</cite>, S01E01</p>
 
 <br />
 <br />
@@ -591,18 +577,23 @@ Lorenzo Ancona, 19 ottobre 2020
 <br>
 <br>
 
-> me:
-> > I'm scared of having to choose
->
-> Eliza
-> > What would it mean if you were not scared of having to choose?
+> me: <q>I'm scared of having to choose</q>
+> Eliza: <q>What would it mean if you were not scared of having to choose?</q>
 
-from a chat with [Eliza AI](https://med-ai.com/models/eliza.html), 5<sup>th</sup> November 2020
+<p class="right">from a chat with <a href="https://med-ai.com/models/eliza.html" rel="noopener noreferrer" target="_blank" title="Eliza AI">Eliza AI</a>, 5<sup>th</sup> November 2020</p>
 
 <br>
 <br>
-	
+
 > Non mi chiedono l'autografo alla fine dei concerti. **Mi chiedono la bibliografia**
-	
-Vasco Brondi, 1 Dicembre 2020
-{:.cite}
+
+<p class="cite">Vasco Brondi, 1 Dicembre 2020</p>
+
+<br>
+<br>
+
+> **Mari**: <q>che brutto lavoro il pescatore</q>   
+> **Tommi**: <q>Ma no dai! Perché?</q>
+> **Mari**: <q>Ti entrano tutte le goccioline d'acqua nel collo</q>
+
+<p class="cite">Con Mari, 11 gennaio 2021</p>

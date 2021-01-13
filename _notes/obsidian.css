@@ -28,7 +28,7 @@
 	--secondary: var(--razzmatazz);
 	--accent: limegreen;
 	--default-font: Inter, -apple-system, sans-serif;
-	--font-mono: 'Ubuntu Mono', monospace;
+	--font-monospace: 'Ubuntu Mono', monospace !important; /* substitute with default monospace */
 }
 
 :not(hr):not(blockquote):not(.CodeMirror-cursor):not(td):not(th) {
@@ -73,7 +73,7 @@
 
 /* make the editor appear in mono */
 .CodeMirror-code {
-	font: 1.1em var(--font-mono);
+	font: 1.1em var(--font-monospace);
 }
 
 /* fix an error which causes the last letter of a row to be hidden */
@@ -82,7 +82,7 @@
 }
 
 code, pre, .cm-s-obsidian .hmd-fold-html-stub, .cm-s-obsidian .hmd-fold-code-stub, .cm-s-obsidian.CodeMirror .HyperMD-hover > .HyperMD-hover-content code, .cm-s-obsidian .cm-formatting-hashtag, .cm-s-obsidian .cm-inline-code, .cm-s-obsidian .HyperMD-codeblock, .cm-s-obsidian .HyperMD-hr, .cm-s-obsidian .cm-hmd-frontmatter, .cm-s-obsidian .cm-hmd-orgmode-markup, .cm-s-obsidian .cm-formatting-code, .cm-s-obsidian .cm-math, .cm-s-obsidian span.hmd-fold-math-placeholder, .cm-s-obsidian .CodeMirror-linewidget kbd, .cm-s-obsidian .hmd-fold-html kbd {
-	font-family: var(--font-mono);
+	font-family: var(--font-monospace);
 }
 
 .view-header-title-container:after {
@@ -159,6 +159,7 @@ hr {
 .markdown-preview-view pre,
 .markdown-preview-view img {
 	border-radius: .8rem;
+	box-shadow: var(--inner-shadow);
 }
 
 .copy-code-button {
@@ -204,6 +205,7 @@ blockquote p {
 
 .box {
 	padding: 1.5rem;
+	margin: 2rem 0;
 	border-radius: 1rem;
 	box-shadow: var(--shadow);
 }

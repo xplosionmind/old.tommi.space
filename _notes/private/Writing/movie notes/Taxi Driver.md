@@ -1,9 +1,7 @@
 ---
 date: 2019-10-23
-tags: ["film"]
+tags: cinema/film
 ---
-# Taxi Driver
-
 Diary writing as voiceover “excuse"
 
 some day I'll / I don't care

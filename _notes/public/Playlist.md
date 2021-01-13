@@ -2,9 +2,9 @@
 date: 2020-07-17
 updated: 2020-12-31
 tags: music, draft, wip
-aliases: ["Music", "Xplosion Music"]
+aliases: "Xplosion Music"
 description: "Soundtracks of my life. The songs which marked my existence and made me who I am."
-redirect_from: ["/canzoni", "/songs", "/music", "/xplosion-music"]
+redirect_from: ["/canzoni", "/songs", "/xplosion-music"]
 ---
 <div class="yellow box">
 	I'm trying to pursue the [[Ode to plain text|Plain text philosophy]] by stopping to use all of these hateful music players, specially [[Quit Spotify|Spotify]]. This Playlist is here precisely for this reason

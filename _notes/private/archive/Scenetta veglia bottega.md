@@ -1,6 +1,6 @@
 ---
 date: 2019-05-05
-tags: ["scout"]
+tags: archive/scout
 ---
 Un un giorno di tempesta e fulmini prevista era la partenza del traghetto dell'amore lungo le coste del Mediterraneo. Si trovavano sulle coste della Libia tre individui con nessun bagaglio oltre alle loro tasche in fuga dalle persecuzioni nelle loro terre natali e pronti a salpare verso una nuova possibilità,
 

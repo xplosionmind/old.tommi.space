@@ -1,6 +1,6 @@
 ---
 date: 2018-11-24
-tags: ["scout"]
+tags: archive/scout
 ---
 Ikki è:
 1. Un lupo

@@ -24,6 +24,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 3. https://urlint.co/integration/github.html
 4. https://www.onlinelifecalendar.com
 5. Update Flickr links in [[Tutto]]
+1. [Zoom H4 support](https://zoomcorp.com "Zoom official website")
 1. [[Missing Knowledge#Geek stuff|Learng geek stuff]]
 1. MacBook Pro color profile
 

@@ -23,6 +23,6 @@ tags: archive
 	- [Referenze info database radioimmaginaria](https://docs.google.com/spreadsheets/d/1FwH_iX9WtHlip_zx-kdE7lY37JiJJWkNc6Hi3mTgEuE/edit?usp=sharing)
 - [Questione di rapporti](https://drive.google.com/drive/folders/0B_cC05kKsjeKSEx6NDNkWEtpcHc?usp=sharing) - Vittorio Cicchetti
 - [PortaParty](https://docs.google.com/forms/d/198Ejcx2JdltEWGtDZLxx5OiqN4Q57FPb_iWbAn_us_8/edit?usp=sharing)
-- [A Highly Regarded Expert's Guide to the Arcane Trickster](https://docs.google.com/document/d/1IZBcQbZlN5psPppnuQvOO3xJ5P84tI6UNPiQz5_jEGc/edit?usp=sharing) #dnd
+- [A Highly Regarded Expert's Guide to the Arcane Trickster](https://docs.google.com/document/d/1IZBcQbZlN5psPppnuQvOO3xJ5P84tI6UNPiQz5_jEGc/edit?usp=sharing) #archive/dnd
 - [C Programming Notes](https://docs.google.com/document/d/1kDGgpIFlDwkQ9a-3id8dAvuz9X5a57GPelyTXOppIcA/edit?usp=sharing) #geek 
 - 2020-12-19 [Palinsesto Giffoni Winter Edition](https://docs.google.com/spreadsheets/d/1pzR9_olVBq0bN3yDpngNa50jIOCgX79__gSr0-K0B_8/edit#gid=0)

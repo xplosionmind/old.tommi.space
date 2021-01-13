@@ -1,5 +1,5 @@
 ---
-tags: ["dnd"]
+tags: archive/dnd
 ---
 ## Forgia delle Rune
 

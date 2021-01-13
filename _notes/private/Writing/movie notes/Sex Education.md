@@ -1,9 +1,7 @@
 ---
 date: 2020-01-21
-tags: ["film"]
+tags: cinema/film
 ---
-# Sex Education
-
 Most of the things in life are struggle. This TV Serie, blablabla
 
 Basically, after S01, the whole point becomes waiting for those two

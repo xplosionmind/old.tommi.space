@@ -1,10 +1,8 @@
 ---
 date: 2020-05-13
 updated: 2020-05-15
-tags: ["film"]
+tags: cinema/film
 ---
-# Boris
-
 ### S02E01
 
 "qualità"

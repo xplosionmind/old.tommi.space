@@ -1,6 +1,6 @@
 ---
 date: 2017-09-10
-tags: ["people", "interviews", "radioimmaginaria"]
+tags: ["people", "interviews", "archive/radioimmaginaria"]
 ---
 - non funzionano più i titoli letterari ma didascalici sintetici
 - davvero AIUTA avere tutti questi dati?

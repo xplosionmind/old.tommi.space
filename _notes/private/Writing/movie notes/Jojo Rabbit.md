@@ -1,10 +1,8 @@
 ---
 date: 2020-04-16
 updated: 2020-04-18
-tags: ["film"]
+tags: cinema/film
 ---
-# Jojo Rabbit
-
 - Moonrise Kingdom vibes
 - "they could be just like us"
 - "are you a teardrop specialist?"

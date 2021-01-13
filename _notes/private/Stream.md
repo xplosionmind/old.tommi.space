@@ -3,9 +3,11 @@ tags: todo
 ---
 - ??? la mia cara bici
 - just as minimalism propose of getting rid of one thing at a time, should one consider to get rid of minimalism, too?
-- preview note content when hovering link in *The Jar*
 - where would the content of my distractions go if I wasn't distracted?
-- Update scouting in code, with partenza
-- for tools and nav in mobile use vh instead of vw
-- decrease grid > box padding and increase margin
-- https://rosano.hmm.garden/01ev1pxthspxdq5e5k5m54e1sg
+- Update scouting in cose, with Partenza
+
+Il problema del non avere i social è che necessariamente per forza ora diminuirebbe l'interazione. Sto vivendo molto meno l'umanità e le relazioni. Le persone 
+
+Parlare di determinate cose solo con determinate persone
+
+La preoccupante tendenza allo smarmellamento in tv, anche dei programmi seri

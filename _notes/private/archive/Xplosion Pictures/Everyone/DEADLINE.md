@@ -1,5 +1,5 @@
 ---
 date: 2019-07-20
-tags: everyone archive
+tags: archive/everyone
 ---
 25 AUGUST 2019

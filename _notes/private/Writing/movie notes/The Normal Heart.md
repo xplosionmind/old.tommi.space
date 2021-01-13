@@ -1,9 +1,7 @@
 ---
 date: 2020-05-12
-tags: ["film"]
+tags: cinema/film
 ---
-# The Normal Heart
-
 - in medias res
 - inquadratura porta che si apre
 - "è una versione gay di Woody Allen"

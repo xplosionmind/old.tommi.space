@@ -1,6 +1,6 @@
 ---
 date: 2017-09-10
-tags: radioimmaginaria
+tags: archive/radioimmaginaria
 ---
 ## Titolo
 Camogli Festival della Comunicazione 2017

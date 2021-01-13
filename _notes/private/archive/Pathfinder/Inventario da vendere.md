@@ -1,5 +1,5 @@
 ---
-tags: dnd
+tags: archive/dnd
 ---
 - [x] Generatore elettrico arcano (donato a Chalatil)
 - [ ] Maschera di Saroon

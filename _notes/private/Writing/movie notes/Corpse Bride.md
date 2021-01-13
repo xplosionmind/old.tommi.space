@@ -1,9 +1,7 @@
 ---
 date: 2020-05-15
-tags: ["film"]
+tags: cinema/film
 ---
-# Corpse Bride
-
 - “Marriage is a partnership”
 - la cravatta
 - il paradosso delle formalità che impediscono il semtimento

@@ -1,6 +1,6 @@
 ---
 date: 2017-11-04
-tags: ["radioimmaginaria"]
+tags: ["archive/radioimmaginaria"]
 ---
 esiste davvero la politica?
 davvero la democrazia conta?

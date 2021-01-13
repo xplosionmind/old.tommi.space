@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2020-12-28
+updated: 2021-01-12
 tags: geek
 permalink: /development
 redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev", "/website-development"]
@@ -54,24 +54,26 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 		- not working links are because notes are private
 		- definition of Zettelkasten / Digital gardening
 	- preview a note when hovering on link
+	- in grid boxes decrease padding and increase margin
 5. Access tags colors from posts and jar lists (change the color slightly also for every entry which is untagged)
-6. **Tags**
+6. Scroll-to-bottom button which transforms into scroll-to-top after a certain height scrolling the page
+7. **Tags**
 		1. Use [jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen) to generate tags pages
 		1. Check [this plugin](https://github.com/field-theory/jekyll-tag-pages))
 		1. [article 1](https://blog.webjeda.com/jekyll-tags/)
 		1. [article 2](https://kylewbanks.com/blog/creating-tag-pages-in-jekyll-without-plugins)
 		1. Configure [jTag](https://github.com/ttscoff/jtag)
-7. Zettelkasten graph
-8. Switch from Algolia to Lunr or to [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search)
+8. Zettelkasten graph
+9. Switch from Algolia to Lunr or to [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search)
 	1. [Searchyll](https://github.com/omc/searchyll)?
-9. [***Visioni***](/visioni)
+10. [***Visioni***](/visioni)
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
 	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ "How to build a responsive gallery with flexbox")
 	- Photo selection
 	- horizontal instead of vertical scrolling of the gallery
 	- PDF portfolio download
-1. A script to check permalinks overlapping
+11. A script to check permalinks overlapping
 12. Content history
 	- now page
 	- a timeline like [Jeremy gordon's](https://jgordon.io) or [jack.works](https://web.archive.org/web/20200513054829/http://jack.works/)
@@ -80,7 +82,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 18. [Bookmarked threads](https://talk.jekyllrb.com/u/xplosionmind/activity/bookmarks) on [Jekyll Talk](https://talk.jekyllrb.com/) (Jelyll's forum)
 19. [improve sticky header](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
 20. Configure global properties in `_config.yml` to perform changes in a quicker way
-1. Consider using [Fontless](https://fontless.varld.co "self host fonts")
+18. Consider using [Fontless](https://fontless.varld.co "self host fonts")
 21. [[Typography|Typographic]] improvements
 23. Mailtrain automation with RSS
 24. Italian content only RSS Feed

@@ -1,9 +1,7 @@
 ---
 date: 2017-05-16
-tags: ["film"]
+tags: cinema/film
 ---
-# Before the Flood
-
 - ci si concentrerà su ciò che riguarda noi adolescenti ed il nostro futuro:
 - Di Caprio solo portavoce, nessuno studio
 - Scioglimento dei ghiacci EPICO (m?)

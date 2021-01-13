@@ -1,6 +1,6 @@
 ---
 date: 2019-04-22
-tags: scout event poetry
+tags: archive/scout event poetry
 title: "Gino"
 ---
 # Gino

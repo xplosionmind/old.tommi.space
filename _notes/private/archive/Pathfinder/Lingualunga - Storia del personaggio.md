@@ -1,9 +1,7 @@
 ---
 date: 2018-12-23
-tags: dnd
+tags: archive/dnd
 ---
-# Storia del personaggio Lingualunga
-
 1. Non mi ricordo dove son nato, il ricordo più remoto che ho è di quando stavo suonando, con mio papà che mi insegnava, in una locanda del mio paese, di cui  non ricordo assolutamente nulla.
 2. Ricordo il volto di mio papà, non so chi fosse mia mamma. Sono moltissimi anni che non ho rapporti con loro. Mio papà era un bardo estremamente celebre che morì quando io ero adolescente. Mia mamma maga potentissima, che mi guidò verso la maturità ma mi procurò moltissime rogne, avendo nemici temibili che le davano la caccia. Per questo e per la mia serenità mi fece l’incantesimo che segue.
 3. Ho scelto di diventare avventuriero poiché lo sentivo. È l’unica cosa che ho sempre saputo e sempre perseguito. Una donna, che potrebbe essere mia mamma, mi ha fatto un incantesimo, quando io avevo solamente 10 anni: mi ricordo solamente i 10 anni precedenti della mia vita, ogni 10 anni mi si cancella la memoria. Ad esempio: a 55 anni ricordo la mia vita solo da quando avevo 50 anni. Avendo compreso questo sortilegio, ho provato a scrivere un diario, ma da questo ogni giorno si cancellano due parole ogni tre, rendendolo quasi incomprensibile. Segretamente cerco qualcuno che possa aiutarmi a ricordare.

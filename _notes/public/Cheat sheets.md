@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-updated: 2020-12-11
+updated: 2021-01-13
 tags: geek
 aliases: ["Cheat Sheet"]
 description: "I use tech devices a lot, maybe too much, but I don’t dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
@@ -9,19 +9,21 @@ redirect_from:
   - /cheatsheets
   - /cheat-sheet
 ---
+## Hotkeys
+
+[[Hotkeys]]
+
 ## CLI
 
 Useful [terminal](https://www.wikiwand.com/en/Terminal) commands
 
 change screenshot format
-
 ```
 defaults write com.apple.screencapture type jpg
 killall SystemUIServer
 ```
 
 build a Jekyll website and deploy it
-
 ```
 #!/bin/bash
 
@@ -29,7 +31,21 @@ JEKYLL_ENV=production bundle exec jekyll build
 rsync -avr --rsh='ssh' --delete-after --delete-excluded _site/ username@IP.Add.re.ss:~/notes/_site
 ```
 
-note: `-avr` could instead be `-avz`
+note: `-avr` could be `-avz` instead
+
+Compress a file or a folder
+```sh
+zip -r -X archive-name.zip folder-to-compress
+```
+
+### `sd`
+
+[`sd`](https://github.com/chmln/sd "sd source code") is a wonderful command-line tool to find and replace sub-strings in files
+
+Replace `foo` with `bar` in all files inside pwd:
+```sh
+sd "foo" "bar" ./*
+```
 
 <br>
 
@@ -38,32 +54,31 @@ note: `-avr` could instead be `-avz`
 - [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line), a GitHub repository by [Marcel Bischoff](https://herrbischoff.com/)
 
 <br>
+
+---
 <br>
+
 
 ## Pandoc
 
 Useful links:   
-- [format options](https://pandoc.org/MANUAL.html#option--from)
+- [format options](https://pandoc.org/MANUAL.html#option--from "“--from” in Pandoc manual")
 
 <br>
 
-Convert a Word file into a MultiMarkdown file   
-```
-pandoc input.docx -f docx -t markdown_mmd -o ~/Desktop/output.md
-```
-
-MultiMarkdown doesn't support checklists and classes, but is has everything else
-{:.yellow .box}
-
-for a greater compatibility, use CommonMark
+Convert a Word file into a Markdown file, following the [CommonMark](https://commonmark.org/ "CommonMark official website") standard
 ```
 pandoc input.docx -f docx -t commonmark -o ~/Desktop/output.md
 ```
 
-Convert multiple Word files in a folder in a standalone MultiMarkdown file
+Convert multiple Word files in a folder in a standalone Markdown file
 ```
-pandoc *.docx -f docx -t markdown_mmd -s -o ~/Desktop/output.md
+pandoc *.docx -f docx -t commonmark -s -o ~/Desktop/output.md
 ```
+
+<div class="box">
+	Replace <code>commonmark</code> with <code>markdown_mmd</code> to have more features
+</div>
 
 <br>
 <br>
@@ -72,8 +87,9 @@ pandoc *.docx -f docx -t markdown_mmd -s -o ~/Desktop/output.md
 
 Scripts for the awesome [ExifTool](https://exiftool.org/). I use them as part of my [[Photo importing workflow]]
 
-All of these scripts must be followed by the path of the image or the directory containing multiple pictures.
-{:.red .box}
+<div class="yellow box">
+	For all of these scripts, pwd must correspond to the folder which contains the pictures to be processed.
+</div>
 
 ### Show metadata
 
@@ -81,11 +97,12 @@ All of these scripts must be followed by the path of the image or the directory 
 exiftool -s -G
 ```
 
-**`-s`** is used to show the names in ExifTool commands format. *e.g.: instead of "Create Date" you see "CreateDate"*
-{:.blue .box}
 
-**`-G`** is used to show the metadata Group to which the metadata tag belongs.
-{:.blue .box}
+<div class="blue box">
+	<strong><code>-s</code></strong> is used to show the names in ExifTool commands format. <i>e.g.: instead of "Create Date" you see "CreateDate"</i>
+	<br />
+	<strong><code>-G</code></strong> is used to show the metadata Group to which the metadata tag belongs.
+</div>
 
 <br>
 
@@ -93,11 +110,13 @@ exiftool -s -G
 
 Rename files based on their date and time data.
 
+<div class="blue box">
 Images shot at the same moment (photo bursts, for example) are being sorted with increasing single-digit indexes.
-{:.blue .box}
+</div>
 	
-Since there are many parameters which **might contain conflicting times**, there are several different tags which can be analyzed. I sorted them such that the first ones are the ones which are more likely to be found but probably not exact, while the last ones are very precise tags, but less likely to be found in an image metadata.
-{:.yellow .box}
+<div class="yellow box">
+Since there are many parameters which <u>might contain conflicting times</u>, there are several different tags which can be analyzed. I sorted them such that the first ones are the ones which are more likely to be found but probably not exact, while the last ones are very precise tags, but less likely to be found in an image metadata.
+</div>
 
 ```sh
 exiftool '-FileName<FileModifyDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
@@ -119,8 +138,9 @@ exiftool '-FileName<DateTimeOriginal' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
 exiftool '-FileName<GPSDateTime' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
 ```
 
-adding **`-r`** is used to make the analysis _recursive_, which means that subfolders are scanned, too.
-{:.blue .box}
+<div class="blue box">
+	adding <b><code>-r</code></b> is used to make the analysis <i>recursive</i>, which means that subfolders are scanned, too.
+</div>
 
 <br />
 
@@ -128,14 +148,15 @@ adding **`-r`** is used to make the analysis _recursive_, which means that subfo
 
 Organize files in directories based on each image’s dimensions (resolution)
 
-**NOTE**: the directories are created in the working directory
-{:.yellow .box}
+<div class="yellow box">
+	<strong>NOTE</strong>: the directories are created in the working directory
+</div>
 
 ```sh
 "-Directory<imagesize"
 ```
 
-<br />
+<br>
 
 Move files to folders based on year and month
 
@@ -159,10 +180,11 @@ exiftool '-Directory<DateTimeOriginal' -d /path/to/directory/%Y/%Y.%m -r
 exiftool '-Directory<GPSDateTime' -d /path/to/directory/%Y/%Y.%m -r
 ```
 
-add **`-o`** after `exiftool` to copy each image instead of moving it.
-{:.blue .box}
+<div class="blue box">
+	add <b><code>-o</code></b> after <code>exiftool</code> to copy each image instead of moving it.
+</div>
 
-<br />
+<br>
 
 ### Resources
 
@@ -170,15 +192,61 @@ Commands above are a personal adaptation of the ones I found from the following 
 - [ExifTool Commands for Image Organization](https://ninedegreesbelow.com/photography/exiftool-commands.html), by [9° Below](https://ninedegreesbelow.com)
 - [exiftool Application Documentation](https://exiftool.org/exiftool_pod.html)
 
-<br />
-<br />
+<br>
+<br>
 
 ## git
 
 - [Dangit, Git!?!](https://dangitgit.com/)
 
-<br />
-<br />
+<br>
+<br>
+
+## Nextcloud
+### Manually install applications
+
+move to the Nextcloud apps folder
+```
+cd /var/www/nextcloud/apps
+```
+
+download the application package from [Nextcloud apps website](https://apps.nextcloud.com/ "Nextcloud Apps")
+```
+wget https://github.com/nextcloud/documentserver_community/releases/download/v0.1.5/documentserver_community.tar.gz # url to the package
+```
+
+extract it (by substituting `package_name` with the name of the app package)
+```
+tar -xvzf package_name.tar.gz
+```
+
+remove compressed package
+```
+rm -rf package_name.tar.gz
+```
+
+change permissions for the app’s directory
+```
+chown -R www-data:www-data /var/www/nextcloud/apps/app_name
+chmod -R 755 /var/www/nextcloud/apps/app-name
+```
+
+<br>
+
+### Maintenance mode
+
+enable maintenance mode
+```sh
+sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode --on
+```
+
+disable maintenance mode
+```sh
+sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode --off
+```
+
+<br>
+<br>
 
 ## Docker
 

@@ -1,6 +1,6 @@
 ---
 date: 2019-08-30
-tags: everyone archive
+tags: archive/everyone
 ---
 # Credits
 

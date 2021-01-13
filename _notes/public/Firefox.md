@@ -11,6 +11,20 @@ redirect_from:
   - /aboutconfig
   - /firefox-config
 ---
+## Shortcuts
+
+Standard shortcuts are in [Firefox shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly "Keyboard Shortcuts - Mozilla Support"), while the following are my custom shortcuts:
+
+| Action | keybinding |
+| :-------------------------------------------: | :-------: |
+| Copy the URL of the current page to clipboard | `⌥` + `C` |
+|                                               |           |
+
+[Developer toolbox shortcuts](https://developer.mozilla.org/en-US/docs/Tools/Keyboard_shortcuts "Keyboard shortcuts - MDN")
+
+<br>
+<br>
+
 ## Add-ons and Extensions
 
 Three different add-ons configurations can be found in my [Firefox Collections](https://addons.mozilla.org/en-US/firefox/collections/13538650 "Tommi's Firefox Collections"):

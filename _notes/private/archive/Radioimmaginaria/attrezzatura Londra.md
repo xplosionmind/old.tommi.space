@@ -1,6 +1,6 @@
 ---
 date: 2016-05-16
-tags: ["radioimmaginaria"]
+tags: archive/radioimmaginaria
 ---
 - Ciabatta 9 uscite italiane con attacco inglese
 - Mixer ZOOM R16 (con alimentatore)

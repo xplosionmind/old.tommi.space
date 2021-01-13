@@ -1,5 +1,5 @@
 ---
-tags: ["film"]
+tags: cinema/film
 ---
 - Prima si sperava di poter raggiungere un equilibrio, ora è tardi
 - Chris Meadows e Aurelio Peccei, J. Forrester

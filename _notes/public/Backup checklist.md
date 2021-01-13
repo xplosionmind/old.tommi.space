@@ -27,6 +27,8 @@ To keep the phone rolling smoothly, from time to time a classic data backup and 
 
 - Firefox
 	- export extensions configuration and settings
+	- `about:config` settings check
+- Espanso config
 
 <br>
 <br>

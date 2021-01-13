@@ -34,7 +34,8 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 - La canottiera serve veramente?
 - Quanto deve durare un abbraccio?
 - Se la Luna fosse una persona (famosa), chi sarebbe?
-- Siamo noi i padroni dei nostri gatti o sono i gatti padroni di noi?
+- Siamo noi i padroni dei gatti o sono i gatti padroni di noi?
+- Come si fa lo screenshot di uno screensaver?
 
 <br />
 <br />

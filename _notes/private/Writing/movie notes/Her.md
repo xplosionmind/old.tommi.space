@@ -1,9 +1,7 @@
 ---
 date: 2020-03-14
-tags: ["film"]
+tags: cinema/film
 ---
-# Her
-
 - unicità nel rapporto
 - riprese, stacchi
 - musiche e canzoni

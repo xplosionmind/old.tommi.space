@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21
-updated: 2021-01-05
+updated: 2021-01-12
 tags: geek
 ---
 My server is a surprisingly powerful (considered how much I pay for it) <abbr title="Virtual Private Server">VPS</abbr> hosted in Germany by [Contabo](https://contabo.com "Contabo official website"). It runs [Ubuntu 20.04](https://releases.ubuntu.com/20.04/ "Ubuntu 20.04 release page").
@@ -61,20 +61,12 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 Useful server apps or services I haven’t installed yet, in order of urgency and importance.
 
 1. [RSS bridge](https://github.com/RSS-Bridge/rss-bridge "RSS Bridge on GitHub"), apparently, a more common, effective and popular alternative to PolitePol
-2. [MastodonToTwitter](https://github.com/AmauryCarrade/MastodonToTwitter), Twitter - Mastodon cross-posting
-3. [mastodon-bot](https://github.com/yogthos/mastodon-bot), to automatically post RSS feeds and tweets
-4. [Mailtrain](https://mailtrain.org) (very stable but old and not updated since 2 years ago) \|\| [listmonk](https://listmonk.app) (brand new and feature-packed, but in Alpha version), Newsletter managers
+1. [Firefly III](https://www.firefly-iii.org "Firefly III"), a personal finance management tool
+4. [Mailtrain](https://mailtrain.org) or, alternatively, [listmonk](https://listmonk.app), newsletter managers
 5. [Mail server](#mail-server)
-6. [Heedy](https://github.com/heedy/heedy), for [[Self tracking]]
 7. ~~[Feedbin](https://feedbin.com "Feedbin official website"), arguably, the best RSS reader ou there~~. I wrote an email to them and they offered me a student free account, hosted by them.
 8. [Fediverse](https://fediverse.network/) platforms
-9. [Ferdi](https://github.com/getferdi/server), all services in one place
 10. [Huginn](https://github.com/huginn/huginn "Huginn repository on GitHub"), an IFTTT Alternative
-11. Personal streaming services
-	- [Jellyfin](https://jellyfin.org/) personal streaming service
-	- [OhMyForm](https://ohmyform.com/docs/install/ "OhMyForms docs") for forms
-	- [Plex](https://www.plex.tv "Plex official website"), media streaming platform
-	- [Ampache](http://ampache.org/ "Ampache"), for music listening
 
 <br>
 <br>

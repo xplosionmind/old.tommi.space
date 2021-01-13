@@ -1,6 +1,6 @@
 ---
 date: 2016-08-02
-tags: ["scout"]
+tags: archive/scout
 ---
 - Rifare Guidone
 - Tattiche di gioco

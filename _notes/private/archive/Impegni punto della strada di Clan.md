@@ -1,7 +1,7 @@
 ---
 date: 2020-02-28
 updated: 2020-10-12
-tags: scout
+tags: archive/scout
 ---
 ## io e gli altri
 
