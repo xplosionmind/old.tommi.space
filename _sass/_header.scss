@@ -53,16 +53,16 @@ nav {
 			float: left;
 			margin: 0;
 			a {
-				font-weight: 700;
 				display: block;
 				color: var(--text) !important;
 				line-height: var(--height);
 				height: var(--height);
 				padding: 0 var(--small);
 				font-size: var(--regular-more);
+				font-weight: 700;
 				&:hover,
 				&:focus{
-					text-shadow: var(--text-shadow);
+					text-shadow: var(--link-shadow);
 				}
 				&:active {
 					opacity: .6;

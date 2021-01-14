@@ -1,6 +1,3 @@
----
----
-
 @import "../_sass/search";
 @import "../_sass/highlight";
 @import "../_sass/header";
@@ -35,7 +32,7 @@ body {
 	--internal-link: var(--blue);
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
-	--transp-grey: #E3E3E399;
+	--transp-text: #FFFA;
 	--shadow: 5px 5px 20px #000000BB, -5px -5px 20px #FFFFFF11;
 	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFFFFF22;
 	--button-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFFFFF11;
@@ -43,8 +40,8 @@ body {
 	--inner-little-shadow: inset 2px 2px 3px #000A, inset -2px -2px 3px #FFF1;
 	--header-shadow: 5px 5px 15px #000D, -5px -5px 15px #FFF2;
 
-	--text-shadow: -1px -1px 0px var(--link), 0px 0px 0px var(--grey), 1px 1px 1px var(--grey);
-	--title-text-shadow: -3px -3px 0px var(--text), -3px -2px 1px var(--grey), -2px -3px 1px var(--grey), -2px -2px 0px var(--grey), -1px -1px 0px var(--grey), 0px 0px 0px var(--grey);
+	--link-shadow: 0 0 1em #FCC920AA;
+	--title-shadow: -3px -3px 0px var(--text), -3px -2px 1px var(--grey), -2px -3px 1px var(--grey), -2px -2px 0px var(--grey), -1px -1px 0px var(--grey), 0px 0px 0px var(--grey);
 
 	transition: var(--trans);
 
@@ -64,7 +61,7 @@ body {
 	--internal-link: var(--blue);
 	--grey: var(--light-grey);
 	--other-grey: var(--dark-grey);
-	--transp-grey: #22222299;
+	--transp-text: #0008;
 	--shadow: 5px 5px 20px #0005, -5px -5px 20px #FFFFFFEF;
 	--little-shadow: 2px 2px 3px #0005, -2px -2px 3px #FFF6;
 	--button-shadow: 3px 3px 8px #0005, -3px -3px 8px #FFF6;
@@ -84,7 +81,7 @@ body {
 
 * {
 	transition: var(--trans), transform var(--quicktrans), box-shadow var(--quicktrans);
-	text-decoration-color: var(--transp-grey) !important;
+	text-decoration-color: var(--transp-text) !important;
 }
 
 *,
@@ -108,6 +105,14 @@ mark {
 	font-weight: 500;
 }
 
+.double {
+	text-decoration-thickness: 3px;
+}
+
+.wavy {
+	text-decoration-style: wavy;
+}
+
 ::selection {
 	color: var(--background);
 	background: var(--primary);
@@ -119,7 +124,7 @@ a {
 	&:hover,
 	&:focus {
 		.title {
-			text-shadow: var(--title-text-shadow-hover);
+			text-shadow: var(--title-shadow-hover);
 			color: var(--text);
 		}
 	}
@@ -143,19 +148,17 @@ button,
 
 p,
 li,
-article li,
-.toc {
+.toc,
+article .box {
 	a {
 		font-weight: 500;
 		transition: var(--quicktrans);
 		&:hover,
 		&:focus {
-			text-shadow: var(--text-shadow);
-			color: transparent !important;
+			text-shadow: var(--link-shadow);
 		}
 		&:active {
 			text-shadow: none;
-			color: var(--link) !important;
 		}
 		&[href*="jar" i],
 		&[href*="marmellata" i] {
@@ -326,21 +329,6 @@ hr {
 		padding: 0 10%;
 	}
 }
-
-/* .toc {
-	margin: 0 10% var(--regular);
-	li {
-		margin: 0;
-		li {
-			a {
-				opacity: .8;
-			}
-			li a {
-				opacity: .8;
-			}
-		}
-	}
-} */
 
 .anchor {
 	height: var(--regular-more);
@@ -563,7 +551,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: var(--twice);
 	color: transparent;
 	margin: var(--regular) auto;
-	text-shadow: var(--title-text-shadow);
+	text-shadow: var(--title-shadow);
 	text-align: center;
 	transition: var(--quicktrans);
 }
@@ -572,7 +560,6 @@ h1 {
 	color: var(--text);
 	text-align: center;
 	font-size: var(--height);
-	text-decoration: none;
 }
 
 h2 {
@@ -595,6 +582,9 @@ h2 {
 	h4 {
 		margin: 0;
 	}
+	li {
+		margin: var(--regular-less) 10% 0;
+	}
 }
 
 .stuff {
@@ -604,6 +594,9 @@ h2 {
 	box-shadow: var(--shadow);
 	.column {
 		padding: 0 2vw;
+	}
+	li {
+		margin: var(--regular-less) 10% 0;
 	}
 }
 
@@ -717,7 +710,7 @@ button,
 
 .smaller {
 	padding: var(--tiny) var(--regular-less);
-	margin: .3rem;
+	margin: var(--tiny);
 	font-size: var(--big);
 	border-radius: var(--radius-s);
 }
@@ -791,6 +784,7 @@ button,
 	border-color: var(--green) !important;
 	&:not(.border) {
 		--text: var(--black-ish);
+		--transp-text: #0007;
 	}
 }
 
@@ -800,6 +794,7 @@ button,
 	&:not(.border) {
 		--text: white;
 		--link: var(--yellow);
+		--transp-text: #FFFA;
 	}
 }
 
@@ -809,6 +804,7 @@ button,
 	&:not(.border) {
 		--text: white;
 		--link: var(--yellow);
+		--transp-text: #FFFA;
 	}
 }
 
@@ -818,6 +814,7 @@ button,
 	&:not(.border) {
 		--text: var(--black-ish);
 		--link: var(--red);
+		--transp-text: #0007;
 	}
 }
 
@@ -826,6 +823,7 @@ button,
 	border-color: var(--razzmatazz) !important;
 	&:not(.border) {
 		--text: white;
+		--transp-text: #FFFA;
 	}
 }
 
@@ -879,4 +877,3 @@ button,
 		bottom: 3vh;
 	}
 }
-
