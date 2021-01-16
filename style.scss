@@ -1,3 +1,5 @@
+---
+---
 @import "../_sass/search";
 @import "../_sass/highlight";
 @import "../_sass/header";
@@ -105,8 +107,9 @@ mark {
 	font-weight: 500;
 }
 
-.double {
-	text-decoration-thickness: 3px;
+.double,
+.thick {
+	text-decoration-thickness: 3px !important;
 }
 
 .wavy {
