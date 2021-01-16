@@ -1,22 +1,10 @@
 ---
-title: "The Jar"
-permalink: /jar
-redirect_from:
-  - /the-jar
-  - /thejar
-ref: jar
+title: "The whole Jam"
+description: "Every single ingredient of <cite>The Jam</cite>"
+permalink: /whole-jam
+redirect_from: ["/tutta-la-marmellata", "/tutta-marmellata", "/the-whole-jam", "/wholejam"]
 ---
-<div id="feed" class="one column">
-	<div class="page-header row">
-		<h1>The Jar</h1>
-		<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
-		<p>I take this things, I throw them into <em>The Jar</em>.</p>
-		<p>I hope it can be useful to you.</p>
-
-		{% include tags.html %}
-
-	</div>
-
+<div class="one column">
 	<div class="grid">
 		{% assign jar = site.notes %}
 		{% for note in jar %}
@@ -41,5 +29,4 @@ ref: jar
 			</a>
 		{% endfor %}
 	</div>
-
 </div>

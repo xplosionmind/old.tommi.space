@@ -2,6 +2,7 @@
 date: 2020-11-13
 updated: 2020-11-13
 tags: zen
+aliases: ["Digital Garden", "Wiki"]
 description: "The best way to manage knowledge and ideas as well as memories and lecture notes: the ultimate digital brain database system."
 permalink: /zettelkasten
 redirect_from:

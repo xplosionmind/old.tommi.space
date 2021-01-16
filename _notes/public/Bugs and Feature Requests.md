@@ -99,6 +99,16 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 
 - ~~One thing I'm still trying to figure out is how to make more pictures appear for a gallery page. They are too few and it's really complicated to modify the size of the thumbnail to make them look nice~~. ✅ 2021.01.07 it's sufficient to go in the settings page of the user in question and change the value of “number of photos per page”
 - Sharing private galleries links (see [GitHub issue](https://github.com/petitssuisses/piwigo-ShareAlbum/issues/62 "an issue in piwigo-ShareAlbum repository"))
+- Implement ***Collections***, as in Flickr
+
+<br>
+
+### Flickr2Piwigo
+
+A plugin to [[Switch to Piwigo|import pictures from Flickr]].
+
+- Import album descriptions
+- Import Collections as parent albums
 
 <br>
 <br>

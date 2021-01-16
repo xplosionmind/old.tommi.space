@@ -3,6 +3,8 @@ date: 2020-12-31
 updatd: 2020-12-31
 tags: geek zen
 aliases: ["Plain text", "KISS"]
+permalink: /plain-text
+redirect_from: ["/ode-to-plain-text"]
 toc: false
 ---
 I'm not a developer, but I'm a geek.

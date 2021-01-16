@@ -1,5 +1,6 @@
 ---
 tags: money
+aliases: ["Abbonamenti", "Iscrizioni", "Subscriptions", "Payments"]
 ---
 ## Current
 

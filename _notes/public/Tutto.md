@@ -1,6 +1,6 @@
 ---
 date: 2020-02-04
-updated: 2021-01-05
+updated: 2021-01-14
 tags: track
 aliases: "Di tutto e di più"
 lang: it
@@ -16,12 +16,12 @@ Alcuni link fra i seguenti potrebbero essere privati oppure non aggiornati. Per 
 
 ## Concertini
 
-Ogni tanto organizzo qualche seratina di (buona) musica nel ponente ligure (casa mia).
+Ogni tanto organizzo qualche seratina di musica dal vivo nel ponente ligure (casa mia).
 
 - 9 luglio 2019, [**<cite>Il mio CUBO suona il Rock</cite>**](https://www.facebook.com/events/318752479011472) al [CUBO](https://www.instagram.com/ilcuboofficial "ilcuboofficial - Instagram")
-	- [Foto](https://www.flickr.com/gp/xplosionmind/6wU45V)
-	- [Video teaser](https://www.facebook.com/QuelDuoLi/videos/2333791650275489/)
-	- [Video intervista](https://vimeo.com/347306203)
+	- [Foto](https://images.tommi.space/index?/category/91-il_mio_cubo_suona_il_rock "“Il mio Cubo suona il rock” - Visioni")
+	- [Video teaser](https://www.facebook.com/QuelDuoLi/videos/2333791650275489/ "Video teaser su Facebook")
+	- [Video intervista](https://vimeo.com/347306203 "Intervista di Rivieratime")
 	- stampa
 		- [Riviera Time](https://web.archive.org/web/20200524174632/https://www.rivieratime.news/sanremo-tutto-pronto-per-il-mio-cubo-suona-il-rock-musica-live-con-quel-duo-li-e-cantiere-164/)
 		- [Sanremonews](https://web.archive.org/web/20200524175136/https://www.sanremonews.it/2019/07/08/leggi-notizia/argomenti/eventi-1/articolo/sanremo-domani-il-mio-cubo-suona-il-rock-con-il-live-di-quel-duo-li-e-cantiere-164-video.html)

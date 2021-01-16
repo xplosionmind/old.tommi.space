@@ -54,7 +54,7 @@
 
           {% if entry.content contains page.url or entry.content contains current_url_downcase %}
             {% case collection_name %}
-              {% when 'jar' %}
+              {% when 'notes' %}
               <li>🍯 <a href="{{ entry.url }}">{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
               {% when 'sconnesso' %}
                 <li>🎙️  <a href="{{ entry.url }}">{{ entry.title }}</a></li>
@@ -71,7 +71,7 @@
             {% capture redirect_ %}/{{ redirect }}{% endcapture %}
             {% if entry.content contains redirect_ %}
               {% case collection_name %}
-                {% when 'jar' %}
+                {% when 'notes' %}
                   <li>🍯 <a href="{{ entry.url }}">{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
                 {% when 'sconnesso' %}
                   <li>🎙️  <a href="{{ entry.url }}">{{ entry.title }}</a></li>

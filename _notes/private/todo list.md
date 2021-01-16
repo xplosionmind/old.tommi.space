@@ -4,7 +4,6 @@ aliases: ["MOC", "Home", "to do", "todo"]
 ---
 1. **Study**
 1. *[[private/Scambi|Scambi]]*
-	1. Scheda di progetto sociale
 	1. Compilazione schede labs
 1. [[Images]]
 1. Regalo Vale Conta

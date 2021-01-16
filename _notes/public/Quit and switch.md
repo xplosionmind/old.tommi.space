@@ -1,7 +1,7 @@
 ---
 date: 2020-12-05
-updated: 2021-01-05
-tag: geek, zen
+updated: 2021-01-17T00:49:13.095920+01:00
+tag: meta, geek, zen
 aliases: ["Just quit", "Choose the alternative", "Go alternative", "Make the switch"]
 image: "https://assets.tommi.space/images/jar/just-quit.jpg"
 description: "Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it's for the best, it's worth it. Below some of the things I'm quitting."
@@ -28,7 +28,7 @@ redirect_from:
 	- ~~Check Drive `Shared with me` folder~~ (useful shared links moved to [[Google Drive shared links]]) ✅ 2020\.12\.10
 	- consider deleting my Gmail address for good
 - [[Quit Spotify]] (still trying to find a valid alternative / workaround)
-- Quit Flickr and [[Switch to Piwigo]] ✅ 2020.12.23
+- Quit Flickr and [[Switch to Piwigo]] ✅ 2020.12.23 - 2021.01.18
 - [[Quit listing]]
 - [[Quit Mailchimp]] (even if I almost never used it)
 - [[Switch to LineageOS]]

@@ -1,7 +1,7 @@
 title: Tommi Space
 email: surfing@tommi.space
 description: >-
-  A web version of the mess inside Tommi Boom’s mind
+  A virtual representation of the mess inside Tommi’s mind
 baseurl: ""
 url: "https://tommi.space"
 author:
@@ -69,7 +69,7 @@ feed:
     filinge:
       path: /feeds/filinge.xml
     notes:
-      path: /feeds/jar.xml
+      path: /feeds/jam.xml
 
 # SEO
 social:
@@ -187,7 +187,7 @@ defaults:
       path: ""
       type: notes
     values:
-      layout: jar
+      layout: jam
       lang: en
       toc: true
       permalink: /:title
