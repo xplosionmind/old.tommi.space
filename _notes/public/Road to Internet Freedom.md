@@ -11,6 +11,7 @@ toc: false
 1. [[Quit and switch]]
 1. Check policies, usage terms, privacy conditions of all the tools and services in use
 1. [[RSSify]]
+1. Start using [[Indie Web]]
 1. ~~Delete unused accounts and subscriptions~~ ✅ 2020-12-20
 1. ~~Use [AnonAddy](https://anonaddy.com "AnonAddy official website") addresses everywhere~~ ✅ 2020-12-20
 1. Reduce the **passive** [digital footprint](https://en.wikipedia.org/wiki/Digital_footprint "Digital footprint on Wikipedia")

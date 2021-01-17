@@ -59,6 +59,9 @@ nav {
 				padding: 0 var(--small);
 				font-size: var(--regular-more);
 				font-weight: 700;
+				&::after {
+					content: none;
+				}
 				&:hover,
 				&:focus{
 					text-shadow: var(--link-shadow);

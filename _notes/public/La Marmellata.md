@@ -9,7 +9,7 @@ ref: jam
 toc: false
 ---
 Sul web viene comunemente chiamato [Digital Garden](https://dev.to/jbranchaud/the-digital-garden-l10 "The Digital Garden su DEV.to"), oppure può essere definito come *sistema [[Zettelkasten]]*. La mia, invece, è molto neno altisonante ed ambiziosa, ma frullat e gustosa. Si tratta di **una <a href="/marmellata" rel="noopener noreferrer" target="_blank" title="La Marmellata"><cite>Marmellata</cite></a>**.
-</cite>cite></
+
 Ci sono curiose scoperte e piccoli pensieri che voglio salvare prima che finiscano nel dimenticatoio, o nell'attesa che vengano riformulati in maniera migliore e raccontati ne <a href="/zibaldone" rel="noopener noreferrer" target="_blank" title="Zibaldone">Lo <cite>Zibaldone</cite></a>.
 
 Prendo tutte queste cose e ne faccio una <cite>Marmellata</cite>.
@@ -35,4 +35,4 @@ Ogni elemento della Marmellata è connesso ad un altro: in fondo ad ogni nota, f
 </ul>
 <div class="flex row">
 	<a class="red button" style="color:white;" href="/whole-jar" rel="noopener noreferrer" target="_blank" title="The Whole Jar">Tutte le note</a>
-</div> style="color:white;"
+</div>

@@ -37,12 +37,13 @@ body {
 	--transp-text: #FFFA;
 	--shadow: 5px 5px 20px #000000BB, -5px -5px 20px #FFFFFF11;
 	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFFFFF22;
-	--button-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFFFFF11;
+	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFFFFF11;
+	--button-shadow: inset 2px 2px 4px #FFF8, inset -2px -2px 4px #0008;
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF2;
 	--inner-little-shadow: inset 2px 2px 3px #000A, inset -2px -2px 3px #FFF1;
 	--header-shadow: 5px 5px 15px #000D, -5px -5px 15px #FFF2;
 
-	--link-shadow: 0 0 1em #FCC920AA;
+	--link-shadow: 1px 1px var(--small) #000f;
 	--title-shadow: -3px -3px 0px var(--text), -3px -2px 1px var(--grey), -2px -3px 1px var(--grey), -2px -2px 0px var(--grey), -1px -1px 0px var(--grey), 0px 0px 0px var(--grey);
 
 	transition: var(--trans);
@@ -66,10 +67,12 @@ body {
 	--transp-text: #0008;
 	--shadow: 5px 5px 20px #0005, -5px -5px 20px #FFFFFFEF;
 	--little-shadow: 2px 2px 3px #0005, -2px -2px 3px #FFF6;
-	--button-shadow: 3px 3px 8px #0005, -3px -3px 8px #FFF6;
+	--tool-shadow: 3px 3px 8px #0005, -3px -3px 8px #FFF6;
 	--inner-shadow: inset 3px 3px 5px #0005, inset -3px -3px 5px #FFF3;
 	--inner-little-shadow: inset 2px 2px 3px #0002, inset -2px -2px 3px #FFF3;
 	--header-shadow: 5px 5px 15px #0003, -5px -5px 15px #FFFF;
+
+	--link-shadow: 0 0 var(--small) #FFFF;
 
 	transition: var(--trans);
 
@@ -157,13 +160,24 @@ li,
 article .box:not(.tags) {
 	a {
 		font-weight: 500;
-		transition: var(--quicktrans);
-		&:hover,
-		&:focus {
-			text-shadow: var(--link-shadow);
+		position: relative;
+		display: inline-block;
+		vertical-align: bottom;
+		&::after {
+			content: "👈🏼";
+			position: absolute;
+			padding: 0 5px;
+			left: 85%;
+			transition: var(--quicktrans);
+			text-shadow: 1px 1px 3px var(--background), 0 0 3px var(--background), -1px -1px 3px var(--background), 0 0 4px var(--background), 0 0 5px var(--background);
+			z-index: 1;
+			opacity: 0;
 		}
-		&:active {
-			text-shadow: none;
+		&:hover::after,
+		&:focus::after {
+			left: 100%;
+			opacity: 1;
+			transition: left var(--quicktrans);
 		}
 		&[href*="jam" i],
 		&[href*="marmellata" i] {
@@ -254,8 +268,14 @@ article .box:not(.tags) {
 	}
 }
 
-.top {
+.top,
+.bottom {
 	right: 3vw;
+}
+
+.bottom {
+	transform: rotate(.5turn);
+	box-shadow: none !important;
 }
 
 .theme-toggle {
@@ -266,6 +286,7 @@ article .box:not(.tags) {
 	position: fixed;
 	bottom: 3vw;
 	z-index: 9;
+	box-shadow: var(--tool-shadow) !important;
 	&.button {
 		padding: .3rem;
 	}

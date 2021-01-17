@@ -5,6 +5,8 @@ ref: now
 lang: en
 description: "Stuff I'm up to in these days"
 comments: false
+todo:
+  - "history of previous “now”s when updating"
 ---
 <div class="blue box">
 	The one you're reading is more than a simple web page, it's part <a href="https://sive.rs/nowff" title="Now page - Derek Sivers" rel="noopener noreferrer" target="_blank">a movement</a>. It was started by the legendary <a href="https://sive.rs" title="Derek Sivers’ personal website" rel="noopener noreferrer" target="_blank">Derek Sivers</a> in 2015, and <a href="https://sive.rs/now3" rel="noopener noreferrer" target="_blank">it grew a lot</a> since then. To know more about the concept and find out <a href="https://nownownow.com" title="NowNowNow" rel="noopener noreferrer" target="_blank">how many people</a> are embracing it, visit <a href="https://nownownow.com/about" title="About NowNowNow" rel="noopener noreferrer" target="_blank">nownownow.com</a>

@@ -11,6 +11,7 @@ layout: compress
 
 		<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}Zibaldone feed{% else %}blog's feed{% endif %}" href="/feeds/zibaldone.xml" />
 		<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}feed di poesie{% else %}poetry feed{% endif %}" href="/feeds/poetry.xml" />
+		<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}Feed italiano{% else %}Italian posts{% endif %}" href="/feeds/italiano.xml" />
 		<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}feed filosofico{% else %}philosophy posts feed{% endif %}" href="/feeds/filinge.xml" />
 		<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}feed marmellata{% else %}notes feed{% endif %}" href="/jam.xml" />
 		<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}feed con solo cose nerd{% else %}only geek stuff feed{% endif %}" href="/feeds/geek.xml" />
@@ -55,9 +56,25 @@ layout: compress
 
 	<body>
 		{% include theme-toggle.html %}
-		<a href="#">
+		<a id="scroll-to-top" href="#" title="scroll to top">
 			<svg class="top button tool" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="background:var(--background)"><path d="M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z" fill="var(--primary)"/></svg>
 		</a>
+		<a id="scroll-to-bottom" href="#0" title="scroll to bottom">
+			<svg class="bottom button tool" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="background:var(--background)"><path d="M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z" fill="var(--primary)"/></svg>
+		</a>
+
+		<script>
+			scrollbottom = document.getElementById("scroll-to-bottom");
+			window.onscroll = function() {scroll()};
+			function scroll() {
+				if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+					scrollbottom.style.display = "none";
+				} else {
+					scrollbottom.style.display = "block";
+				}
+			}
+		</script>
+
 		<input id="search" rel="search" type="search" class="tool" />
 
 		{% include header.html %}
@@ -71,7 +88,6 @@ layout: compress
 		{{ content }}
 
 		{% include footer.html %}
-
-		{% include link-previews.html wrapperQuerySelector="content" %}
+		<div id="0"></div>
 	</body>
 </html>

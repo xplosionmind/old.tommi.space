@@ -1,14 +1,13 @@
 ---
 date: 2020-02-02
-updated: 2021-01-16
+updated: 2021-01-17T16:11:50.164924+01:00
 tags: meta, geek, web
 aliases: ["Development", "tommi.space", "Development Roadmap"]
 permalink: /development
 redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev", "/website-development", "tommi.space"]
 main: true
+description: "Creative and technical aims, ideas annotation and drafts tracking."
 ---
-Creative and technical aims, ideas annotation and drafts tracking.
-
 ## Not Working
 
 - Algolia search index [is limited](https://github.com/algolia/algoliasearch-netlify/issues/166 "GitHub issue")
@@ -45,44 +44,23 @@ Creative and technical aims, ideas annotation and drafts tracking.
 
 Items in the following list are <u>sorted by priority</u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
-1. SEO
-	- Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) with Liquid syntax
-1. Configure [jekyll-tagging](https://github.com/pattex/jekyll-tagging) plugin
-1. Preview a note when hovering on link in [[The Jam]]
-1. Notes graph in [[The Jam]]
-1. Scroll-to-bottom button which transforms into scroll-to-top after a certain height scrolling the page
+1. Configure [[Indie Web]]
+1. [[The Jam]]: Preview a note when hovering on link
+1. [[The Jam]]: Notes graph
 1. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
-1. **Tags**
-		1. Check [this plugin](https://github.com/field-theory/jekyll-tag-pages))
-		1. [article 1](https://blog.webjeda.com/jekyll-tags/)
-		1. Configure [jTag](https://github.com/ttscoff/jtag)
-10. Switch from Algolia to Lunr or to [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search)
-	1. [Searchyll](https://github.com/omc/searchyll)?
-11. [***Visions***](https://visions.tommi.space "Visioni - Tommi Space") (see [[Images]] and [[Switch to Piwigo]]).
-12. A script to check permalinks overlapping
-13. Content history
-	- now page
-	- a timeline like [Jeremy gordon's](https://jgordon.io) or [jack.works](https://web.archive.org/web/20200513054829/http://jack.works/)
-14. Add [humans.txt](http://humanstxt.org "humans.txt")
-16. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-18. [Bookmarked threads](https://talk.jekyllrb.com/u/xplosionmind/activity/bookmarks) on [Jekyll Talk](https://talk.jekyllrb.com/ "Jekyll Talk") (Jelyll's forum)
-	- [improve sticky header](https://www.w3schools.com/howto/howto_js_sticky_header.asp "W3Schools Sticky Header")
-1. Configure global properties in `_config.yml` to perform changes in a quicker way
-2. Consider using [Fontless](https://fontless.varld.co "self host fonts")
-3. [[Typography|Typographic]] improvements
-4. Mailtrain automation with RSS
-5. Italian content only RSS Feed
-7. **Sorting** / **filtering** using JavaScript
+1. Stop using Algolia and consider faster and simpler alternatives
+	- [Lunr](https://lunrjs.com "Lunr")
+	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
+	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
+1. [***Visions***](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Switch to Piwigo]]).
+1. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) with Liquid syntax
+1. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+1. **Sorting** and **filtering** using JavaScript
 	- in Zibaldone and The Jar: language and tag filter
 	- in Books: Sorting
-8. Configure [**Webmentions**](https://indieweb.org/Webmention)
-	- Follow [Indiewebify](https://indiewebify.me/send-webmentions/)'s guide
-	- Setup [Webmention.io](https://webmention.io/)
-	- Setup [Bridgy](https://brid.gy/)
-9. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com "Humane Tech") and [Victoria Drake](https://victoria.dev)
-10. Host pictures on Piwigo and display them via API or public link
-11. CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
-13. Consider switching to [Hugo](https://gohugo.io "Hugo official website")
+1. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
+1. CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
+1. A script to check permalinks overlapping
 
 <br>
 <br>
@@ -90,7 +68,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 ### Further ideas
 
 - [Generative Art](http://tholman.com/post/generative-art-speedrun/ "Generative Art on Tim Holman's blog")
-    - always-changing colors, see Zander Martineau’s [website](https://zander.wtf/)
+	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/ "Zander Martineau")
 - GIFs instead of images 
 - Improve `blockquote`s
 	- <https://codepen.io/valentingalmand/pen/doJvRR>
@@ -101,13 +79,18 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	- <http://benschwarz.github.io/gallery-css/>
 	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ "How to build a responsive gallery with flexbox")
 - Create Jekyll theme
-- Consider hosting on [[Server]] instead of using [Netlify](https://netlify.com "Netlify official website")
+- Consider hosting on [[Server]] instead of using [Netlify](https://netlify.com "Netlify")
+- Consider switching to [Hugo](https://gohugo.io "Hugo")
+- Add a timeline like [Jeremy Gordon's](https://jgordon.io "Jeremy Gordon") or [jack.works](https://web.archive.org/web/20200513054829/http://jack.works/)
+- Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com "Humane Tech") and [Victoria Drake](https://victoria.dev)
+- [[Typography|Typographic]] improvements
 
 <br>
 <br>
 
 ## Done
 
+- Add [`humans.txt`](http://humanstxt.org "humans.txt") ✅ 2021.01.17
 - Animations (little and simple but effective)
 	- buttons: `x`s and menus (see <tokyo-voice.jp> or <traxmag.com>)
 - back-to-top button
@@ -124,7 +107,6 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 - Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
 - tags description and link to stuff
 - checkbox styling
-- [Convert to **flex**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - CSS cleanup
 - CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
 - cursor styling
@@ -167,6 +149,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	- custom styling
 - Privacy Policy
 - RSS Feed
+- Scroll-to-bottom button which transforms into scroll-to-top after a certain height scrolling the page ✅ 2020.01.17
 - Self-host media and heavy files on `assets.tommi.space` to make git folder lighter
 - separate website/repo/domain for web and online resources or for geek stuff in general (configured as [*The Jar*](/jar))
 - Serif font styling in posts
@@ -196,4 +179,5 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	- an unstyled simple bullet point list ✅ 2021.01.16
 - Thumbnails in Zibaldone's feed ✅ 2020.12.30
 - Use `@import` to add fonts instead of linking their CSS reference files in HTML ✅ 2020.12.25
+- Use [**`flex`**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "A guide to flexbox on GSS Tricks")
 - Use more Emojis ✅ 2020.12.30
