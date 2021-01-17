@@ -3,13 +3,7 @@ date: 2020-07-03
 updated: 2020-12-27
 tags: geek
 description: "I consider myself a Firefox power user: I love it and I take full advantage of its features. Here’s how I do it."
-redirect_from:
-  - /firefox-tweaks
-  - /firefox-settings
-  - /mozilla-firefox
-  - /about-config
-  - /aboutconfig
-  - /firefox-config
+redirect_from: ["/firefox-tweaks", "/firefox-settings", "/mozilla-firefox", "/about-config", "/aboutconfig", "/firefox-config"]
 ---
 ## Shortcuts
 
@@ -51,21 +45,21 @@ A record of all the tweaks I made in Firefox `about:config` page
 - [x] `media.navigator.enabled` = `false` - Websites can track the microphone and camera status of your device.
 - [x] `network.cookie.cookieBehavior` = `1` - Disable cookies
 	- `0` = Accept all cookies by default
-    - `1` = Only accept from the originating site (block third-party cookies)
-    - `2` = Block all cookies by default
+	- `1` = Only accept from the originating site (block third-party cookies)
+	- `2` = Block all cookies by default
 - [x] `privacy.firstparty.isolate` = `true` - or preventing domains from accessing each other’s data. If something breaks, it’s most likely related to `this`.
 - [ ] `extensions.pocket.enabled` - `false` - make Pocket integration go away
 - [x] `geo.wifi.uri` = `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
 - [x] `network.IDN_show_punycode` = `true` to see punycode instead of UTF-8 in case of spoofing attempt.
 - [x] `ui.systemUsesDarkTheme` = `true` allow websites to know you're using dark theme
 - [x] `network.http.referer.XOriginPolicy` = `1` - Only send Referer header when the full hostnames match. (Note: if you notice significant breakage, you might try 1 combined with an XOriginTrimmingPolicy tweak below.) [Source](https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/)
-    - `0` = Send Referer in all cases
-    - `1` = Send Referer to same eTLD sites
-    - `2` = Send Referer only when the full hostnames match
+	- `0` = Send Referer in all cases
+	- `1` = Send Referer to same eTLD sites
+	- `2` = Send Referer only when the full hostnames match
 - [x] `network.http.referer.XOriginTrimmingPolicy` = `2` - When sending Referer across origins, only send scheme, host, and port in the Referer header of cross-origin requests. [Source](https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/)
-    - `0` = Send full url in Referer
-    - `1` = Send url without query string in Referer
-    - `2` = Only send scheme, host, and port in Referer
+	- `0` = Send full url in Referer
+	- `1` = Send url without query string in Referer
+	- `2` = Only send scheme, host, and port in Referer
 - [x] `beacon.enabled` = `false` - Disables sending additional analytics to web servers. Details
 - [x] `browser.safebrowsing.downloads.remote.enabled` = `false` - Prevents Firefox from sending information about downloaded executable files to Google Safe Browsing to determine whether it should be blocked for safety reasons. [Details](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work#w_what-information-is-sent-to-mozilla-or-its-partners-when-phishing-and-malware-protection-are-enabled)
 - [x] `network.IDN_show_punycode` = `true` - Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. [Source](https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636)

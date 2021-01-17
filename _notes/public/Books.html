@@ -1,48 +1,49 @@
 ---
 date: 2020-09-09
-updated: 2020-12-26
+updated: 2021-01-17
 description: "Books I own and books I’d love to read and/or have"
 tags: read
 redirect_from: ["/library", "/bookshelf", "/libreria", "/libri"]
 toc: false
 layout: wrapper
+main: true
 ---
 <style>
 	.col3 {
 		font-family: "Ubuntu Mono", mono;
-        width: 9rem
+				width: 9rem
 	}
-    .col10 {
-      width: 7rem
-    }
+		.col10 {
+			width: 7rem
+		}
 </style>
 <div class="page-header">
-  <h1>{{ page.title }}</h1>
+	<h1>{{ page.title }}</h1>
 </div>
 <h2 class="title" id="Wishlist">Wishlist</h2>
 
 <div class="yellow box">
-  <h4>Note</h4>
-  If you got here from the <a href="/wishlist">Wishlist</a>, please consider that most of the books below are merely readings I'm interested in and not <strong>books I actually need</strong>. Write me if you intend to gift me with a book (thanks for the idea ❤️)
+	<h4>Note</h4>
+	If you got here from the <a href="/wishlist" title="My Wishlist">Wishlist</a>, please consider that most of the books below are merely readings I'm interested in and not <strong>books I actually need</strong>. Write me if you intend to gift me with a book (thanks for the idea ❤️)
 </div>
 
 <div class="table">
 <table>
 
-  {% for row in site.data.books-wishlist %}
-    {% if forloop.first %}
-      <tr>
-        {% for pair in row %}
-          <th>{{ pair[0] }}</th>
-        {% endfor %}
-      </tr>
-    {% endif %}
-    {% tablerow pair in row %}
-      <span id="{{ pair[1] | slugify }}">
-          {{ pair[1] }}
-      </span>
-    {% endtablerow %}
-  {% endfor %}
+	{% for row in site.data.books-wishlist %}
+		{% if forloop.first %}
+			<tr>
+				{% for pair in row %}
+					<th>{{ pair[0] }}</th>
+				{% endfor %}
+			</tr>
+		{% endif %}
+		{% tablerow pair in row %}
+			<span id="{{ pair[1] | slugify }}">
+					{{ pair[1] }}
+			</span>
+		{% endtablerow %}
+	{% endfor %}
 
 </table>
 </div>
@@ -55,34 +56,44 @@ layout: wrapper
 <div class="table">
 <table>
 
-  {% for row in site.data.library %}
-    {% if forloop.first %}
-      <tr>
-        {% for pair in row %}
-          <th>{{ pair[0] }}</th>
-        {% endfor %}
-      </tr>
-    {% endif %}
-    {% tablerow pair in row %}
-      <span id="{{ pair[1] | slugify }}">
-          {{ pair[1] }}
-      </span>
-    {% endtablerow %}
-  {% endfor %}
+	{% for row in site.data.library %}
+		{% if forloop.first %}
+			<tr>
+				{% for pair in row %}
+					<th>{{ pair[0] }}</th>
+				{% endfor %}
+			</tr>
+		{% endif %}
+		{% tablerow pair in row %}
+			<span id="{{ pair[1] | slugify }}">
+					{{ pair[1] }}
+			</span>
+		{% endtablerow %}
+	{% endfor %}
 
-  {% comment %}
-  {% for row in site.data.library %}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    {% endif %}
+	{% comment %}
+	{% for row in site.data.library %}
+		{% if forloop.first %}
+		<tr>
+			{% for pair in row %}
+				<th>{{ pair[0] }}</th>
+			{% endfor %}
+		</tr>
+		{% endif %}
 	{% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
-  {% endfor %}
-  {% endcomment %}
+			{{ pair[1] }}
+		{% endtablerow %}
+	{% endfor %}
+	{% endcomment %}
 </table>
 </div>
+
+<h2 class="title" id="notes">Notes</h2>
+<p>All of my public notes on what I read</p>
+<ul>
+	{% for note in site.notes %}
+		{% if note.tags contains "book"%}
+			<li><a href="{{ note.url }}" rel="noener noreferrer" target="_blank" title="{{ note.title }}">{{ note.title }}</a></li>
+		{% endif %}
+	{% endfor %}
+</ul>

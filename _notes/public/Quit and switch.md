@@ -6,13 +6,8 @@ aliases: ["Just quit", "Choose the alternative", "Go alternative", "Make the swi
 image: "https://assets.tommi.space/images/jar/just-quit.jpg"
 description: "Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it's for the best, it's worth it. Below some of the things I'm quitting."
 permalink: /switch
-redirect_from:
-  - /make-the-switch
-  - /quit-and-switch
-  - /quit-switch
-  - /choose-the-alternative
-  - /alternative-software
-  - /alternative
+redirect_from: ["/make-the-switch", "/quit-and-switch", "/quit-switch", "/choose-the-alternative", "/alternative-software", "/alternative"]
+main: true
 ---
 <div class="blue box">
 	Most of the times, the best thing to do is to [[Delete an account|just delete it]]

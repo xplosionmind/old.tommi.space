@@ -2,10 +2,10 @@
 date: 2020-02-02
 updated: 2021-01-16
 tags: meta, geek, web
-main: true
 aliases: ["Development", "tommi.space", "Development Roadmap"]
 permalink: /development
 redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev", "/website-development", "tommi.space"]
+main: true
 ---
 Creative and technical aims, ideas annotation and drafts tracking.
 
@@ -43,21 +43,19 @@ Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Roadmap
 
-Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
+Items in the following list are <u>sorted by priority</u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
 1. SEO
 	- Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) with Liquid syntax
-2. Configure [jekyll-tagging](https://github.com/pattex/jekyll-tagging) plugin
-- preview a note when hovering on link in [[The Jam]]
-6. Scroll-to-bottom button which transforms into scroll-to-top after a certain height scrolling the page
-7. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
-8. **Tags**
-		1. Use [jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen) to generate tags pages
+1. Configure [jekyll-tagging](https://github.com/pattex/jekyll-tagging) plugin
+1. Preview a note when hovering on link in [[The Jam]]
+1. Notes graph in [[The Jam]]
+1. Scroll-to-bottom button which transforms into scroll-to-top after a certain height scrolling the page
+1. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
+1. **Tags**
 		1. Check [this plugin](https://github.com/field-theory/jekyll-tag-pages))
 		1. [article 1](https://blog.webjeda.com/jekyll-tags/)
-		1. [article 2](https://kylewbanks.com/blog/creating-tag-pages-in-jekyll-without-plugins)
 		1. Configure [jTag](https://github.com/ttscoff/jtag)
-9. Zettelkasten graph
 10. Switch from Algolia to Lunr or to [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search)
 	1. [Searchyll](https://github.com/omc/searchyll)?
 11. [***Visions***](https://visions.tommi.space "Visioni - Tommi Space") (see [[Images]] and [[Switch to Piwigo]]).
@@ -74,8 +72,7 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 3. [[Typography|Typographic]] improvements
 4. Mailtrain automation with RSS
 5. Italian content only RSS Feed
-6. Hosting on [[Server]] instead of using [Netlify](https://netlify.com "Netlify official website")
-7. **Sorting** / **filtering** (using JavaScript?)
+7. **Sorting** / **filtering** using JavaScript
 	- in Zibaldone and The Jar: language and tag filter
 	- in Books: Sorting
 8. Configure [**Webmentions**](https://indieweb.org/Webmention)
@@ -85,7 +82,6 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 9. Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com "Humane Tech") and [Victoria Drake](https://victoria.dev)
 10. Host pictures on Piwigo and display them via API or public link
 11. CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
-12. Create Jekyll theme
 13. Consider switching to [Hugo](https://gohugo.io "Hugo official website")
 
 <br>
@@ -104,6 +100,8 @@ Items in the following list are <u>sorted by <b>priority</b></u>. Thus, quick an
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
 	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ "How to build a responsive gallery with flexbox")
+- Create Jekyll theme
+- Consider hosting on [[Server]] instead of using [Netlify](https://netlify.com "Netlify official website")
 
 <br>
 <br>

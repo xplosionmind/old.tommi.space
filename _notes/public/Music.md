@@ -2,8 +2,9 @@
 date: 2021-01-12
 updated: 2021-01-12
 tags: music, wip
+main: true
 ---
-[[Playlist]], or [[Playlist|Xplosion Music]]
+My music is in [[Playlist]], or [[Playlist|Xplosion Music]]
 
 <br>
 <br>

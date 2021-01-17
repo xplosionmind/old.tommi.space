@@ -3,6 +3,7 @@ date: 2020-12-15
 updated: 2020-12-23
 tags: reading, wit
 permalink: /just-read
+toc: false
 ---
 All over the web the saying goes that <q>reading without taking notes is like not reading at all</q>. But, to me, it's not quite so.
 

@@ -1,7 +1,8 @@
 ---
 date: 2020-03-21
-updated: 2021-01-12
+updated: 2021-01-17
 tags: geek
+main: true
 ---
 My server is a surprisingly powerful (considered how much I pay for it) <abbr title="Virtual Private Server">VPS</abbr> hosted in Germany by [Contabo](https://contabo.com "Contabo official website"). It runs [Ubuntu 20.04](https://releases.ubuntu.com/20.04/ "Ubuntu 20.04 release page").
 
@@ -37,6 +38,7 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 - [PolitePol](https://github.com/taroved/pol), transform any webpage in a RSS feed - ✅ 2020.01.01
 	- it doesn't work on Twitter or Instagram
 	- I can't set up a reverse DNS, therefore the current address for the service is <http://167.86.82.148:8088>. Feel free to use it!
+	- **It's stupid**: [RSS bridge](https://github.com/RSS-Bridge/rss-bridge "RSS Bridge on GitHub") is much more stable, cool, and effective.
 	
 <br>
 <br>

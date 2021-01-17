@@ -74,49 +74,7 @@ feed:
 # SEO
 social:
   name: xplosionmind
-  links:
-    - https://bandcamp.com/xplosionmind
-    - https://bookwyrm.social/user/tommi
-    - https://cryptpad.fr/profile/#/2/profile/view/bGDyy3pKXdqc6mofB1EINV2ZstbhkmVjKUM3oPBk2IA/
-    - https://dev.to/xplosionmind
-    - https://www.discogs.com/user/xplosionmind
-    - https://disqus.com/by/xplosionmind/
-    - https://hub.docker.com/u/xplosionmind
-    - https://dribbble.com/xplosionmind
-    - https://www.flickr.com/xplosionmind/
-    - https://www.facebook.com/profile.php?id=100007931469414
-    - https://genius.com/xplosionmind
-    - https://gumroad.com/xplosionmind
-    - https://community.humanetech.com/u/xplosionmind
-    - https://hypothes.is/users/xplosionmind
-    - https://instagram.com/xplosionmind
-    - https://www.instructables.com/member/xplosionmind/
-    - https://inventaire.io/inventory/xplosionmind
-    - https://keybase.io/xplosionmind
-    - http://www.juzaphoto.com/p/Tommiboom
-    - https://leanpub.com/u/xplosionind # not working at the moment
-    - https://letterboxd.com/xplosionmind/
-    - https://lib.reviews/user/xplosionmind
-    - https://liberapay.com/tommi/
-    - https://www.linkedin.com/in/tommasomarmo/
-    - https://listed.to/@tommi
-    - https://discourse.mailinabox.email/u/xplosionmind/
-    - https://mastodon.online/@xplosionmind
-    - https://nownownow.com/p/TFSu
-    - https://forums.oneplus.com/members/xplosionmind.779670/
-    - https://www.openstreetmap.org/user/xplosionmind
-    - https://www.reddit.com/user/xplosionmind/
-    - https://open.spotify.com/user/xplosionmind
-    - https://pcpartpicker.com/user/tommiboom/
-    - https://pixabay.com/it/users/xplosionmind-3146531/
-    - https://www.ted.com/profiles/8307352
-    - https://t.me/xplosionmind
-    - https://twitter.com/xplosionmind
-    - https://www.themoviedb.org/u/xplosionmind
-    - https://thenounproject.com/tommibooom/
-    - https://www.vutuv.de/users/tommaso.marmo
-    - https://www.yourworldoftext.com/~xplosionmind/
-tagline: "Tommi's virtual brain"
+tagline: "Tommi's virtual mind"
 twitter:
   username: xplosionmind
   card: summary

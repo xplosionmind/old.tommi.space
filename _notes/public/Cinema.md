@@ -1,14 +1,16 @@
 ---
 date: 2020-06-10
-updated: 2020-08-02
+updated: 2021-01-17T0935:48.888963+01:00
 tags: cinema, wip
 description: "After watching these movies and series, I wasn’t the same anymore."
-redirect_from:
-  - /movies
-  - /film
-  - /films
+redirect_from: ["/movies", "/film", "/films"]
+main: true
 ---
-## *Santa Maradona*
+[This list](https://www.themoviedb.org/list/7072508 "“The Best„ on The Movie Database") on *The Movie Database*
+
+## <cite>Santa Maradona</cite>
+
+Tutto il mio amore per questo film è in “[[Santa Maradona]]„
 
 <br>
 

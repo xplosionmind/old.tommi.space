@@ -5,7 +5,7 @@ header {
 	font-weight: 700;
 	* {
 		border-radius: var(--radius-m);
-		list-style-type: none;
+		list-style-type: none !important;
 	}
 	/* activate the following if you choose to make the header fixed */
 	/*z-index: 9;
@@ -46,7 +46,6 @@ nav {
 		margin: var(--small);
 	}
 	ul {
-		list-style: none;
 		margin: 0;
 		padding: 0;
 		li {
@@ -72,9 +71,6 @@ nav {
 				}
 			}
 		}
-		ul {
-			list-style: none;
-		}
 	}
 }
 
@@ -93,8 +89,8 @@ nav {
 	height: var(--height);
 	width: var(--height);
 	position: absolute;
-	top: 2vw;
-	right: 2vw;
+	top: 3vh;
+	right: 3vh;
 	background: var(--background);
 	box-shadow: var(--shadow);
 	span {

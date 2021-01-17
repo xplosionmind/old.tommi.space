@@ -4,14 +4,9 @@ updated: 2020-11-22
 aliases: ["Radioamatori"]
 description: "Cose dal mondo dei Radioamatori"
 lang: it
-redirect_from:
-  - /radioham
-  - /radiantismo
-  - /radioamatore
-  - /radioamatori
-  - /radioamateur
-  - /radio-amateur
+redirect_from: ["/radioham", "/radiantismo", "/radioamatore", "/radioamatori", "/radioamateur", "/radio-amateur"]
 permalink: /radio-ham
+main: true
 ---
 Da anni ho intenzione di fare il test per ottenere il nominativo e la licenza da Radioamatore. Amo il mondo della Radio Ham e vorrei poterne essere parte, ma, un po' per tempo, un po' per pandemia, non sono ancora riuscito a farlo. Nel frattempo, leggo ascolto e accumulo cose sul mondo dei Radioamatori
 

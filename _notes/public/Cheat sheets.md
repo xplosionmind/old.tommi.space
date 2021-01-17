@@ -4,10 +4,7 @@ updated: 2021-01-13
 tags: geek
 aliases: ["Cheat Sheet"]
 description: "I use tech devices a lot, maybe too much, but I don’t dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
-redirect_from:
-  - /cheatsheet
-  - /cheatsheets
-  - /cheat-sheet
+redirect_from: ["/cheatsheet", "/cheatsheets", "/cheat-sheet"]
 ---
 ## Hotkeys
 
@@ -15,7 +12,7 @@ redirect_from:
 
 ## CLI
 
-Useful [terminal](https://www.wikiwand.com/en/Terminal) commands
+Useful [terminal](https://www.wikiwand.com/en/Terminal "Terminal on Wikipedia") commands
 
 change screenshot format
 ```
@@ -55,13 +52,13 @@ sd "foo" "bar" ./*
 
 <br>
 
----
-<br>
+***
 
+<br>
 
 ## Pandoc
 
-Useful links:   
+Useful links:
 - [format options](https://pandoc.org/MANUAL.html#option--from "“--from” in Pandoc manual")
 
 <br>
@@ -81,6 +78,9 @@ pandoc *.docx -f docx -t commonmark -s -o ~/Desktop/output.md
 </div>
 
 <br>
+
+***
+
 <br>
 
 ## ExifTool
@@ -193,6 +193,9 @@ Commands above are a personal adaptation of the ones I found from the following 
 - [exiftool Application Documentation](https://exiftool.org/exiftool_pod.html)
 
 <br>
+
+***
+
 <br>
 
 ## git
@@ -246,6 +249,9 @@ sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode
 ```
 
 <br>
+
+***
+
 <br>
 
 ## Docker

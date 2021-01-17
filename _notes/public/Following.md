@@ -1,11 +1,7 @@
 ---
 date: 2020-06-11
-updated: 2020-12-23
-redirect_from:
-  - /telegram-following
-  - /telegram-channels
-  - /subscriptions
-  - /newsletters
+updated: 2021-01-17
+redirect_from: ["/telegram-following", "/telegram-channels", "/subscriptions", "/newsletters"]
 ---
 In our world, especially on the web, there is **a lot** of content, maybe too much, and it's very easy for me to get anxious because I can't keep up with everything and I can't know or learn what I wanted.\
 For this reason, it's important to be very selective and aware of who I follow and what are the knowledge and news sources I'm subscribed to, in order to find the right equilibrium.
@@ -13,16 +9,18 @@ For this reason, it's important to be very selective and aware of who I follow a
 This is a comprehensive list of stuff I follow on the internet.
 Stuff means: Newsletters by people, newsletters by magazines, newsletters by computers, feeds of various sort, Telegram channels, Telegram Groups, Facebook Groups, Facebook Pages, people’s blogs.
 
-Content which is in Italian has its description in Italian
-{:.blue .box}
+<div class="blue box">
+	Content which is in Italian has its description in Italian
+</div>
 
 <br>
 
 ## RSS
 
-Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS). I think the whole world should evolve around it. Such a clever, useful, simple, neat, old but solid technology anybody should know. Click on the following link to download my feed (all the RSS Feeds I subscribed to).
+Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS "RSS on Wikipedia"). I think the whole world should use it. It's such a clever, useful, simple, neat, old but solid technology that I believe it could [replace social media](https://quitsocialmedia.club/solution#rss "RSS as a Solution on Quit Social Media").\
+I'm working hard to build an independent infrastructure on my [[Server|server]] capable of gettings social media feeds and making them RSS feeds I can subscribe to. In the meanwhile, I'm slowly and steadily transitioning to use exclusively it, and below there's a link to my feed subscriptions.
 
-[**My Feed Subscriptions**](https://assets.tommi.space/assets/subscriptions.xml) - updated on Nov 4<sup>th</sup>, 2020
+[**My Feed Subscriptions**](https://assets.tommi.space/assets/subscriptions.xml) - last updated on Nov 4<sup>th</sup>, 2020
 
 <br>
 <br>
@@ -30,11 +28,10 @@ Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS). I think the whole world s
 ## Telegram
 
 My Telegram channels:
+- [Maledetto Sia Copernico!](https://t.me/maledettocopernico "Maledetto sia Copernico"), occasional quick thoughts and links
+- [Internet Awesomeness](https://t.me/internet_awesomeness "Internet Awesomeness"), links of resources, websites and great stuff from the internet.
 
-- [Maledetto Sia Copernico!](https://t.me/maledettocopernico), occasional notable quick thoughts and links
-- [Internet Awesomeness](https://t.me/internet_awesomeness), links of resources, websites and great stuff from the internet.
-
-### Telegram channels
+### Following
 
 - [Blockstack Updates](https://t.me/BlockstackUpdate), updates from [Blockstack](https://blockstack.com)
 - [CICAP](https://t.me/CICAP_canale_ufficiale), il Comitato Italiano per il Controllo delle Affermazioni sulle Pseudoscienze.
@@ -51,7 +48,7 @@ My Telegram channels:
 - [Mozilla Italia](https://t.me/MozItaBot), aggiornamenti da [Mozilla Italia](http://mozillaitalia.org)
 - [The Devs](https://t.me/thedevs), from [The Devs Network](https://thedevs.network)
 
-#### Stopped Following
+### Stopped Following
 
 - [Ventagli di Parole](https://t.me/ventaglip), per scoprire libri
 - [offerte.tech](https://t.me/offertepuntotech)

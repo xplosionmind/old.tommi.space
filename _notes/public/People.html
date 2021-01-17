@@ -3,11 +3,9 @@ date: 2020-06-25
 updated: 2020-10-26
 ref: people
 description: "Real and fiction characters who left a mark in me"
-redirect_from:
-  - /characters
-  - /personages
-  - /figures
+redirect_from: ["/characters", "/personages", "/figures"]
 toc: false
+main: true
 ---
 <br />
 <ul>
@@ -15,6 +13,7 @@ toc: false
 		<li><a href="#{{ idol.name | slugify }}">{{ idol.name }}</a></li>
 	{% endfor %}
 </ul>
+
 <br />
 
 {% for idol in site.data.people %}

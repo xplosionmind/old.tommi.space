@@ -4,7 +4,12 @@ updated: 2021-01-03
 aliases: "Learning Resources"
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
 redirect_from: /risorse
+main: true
 ---
+<!--
+todo:
+- merge with [[Data]]
+-->
 <div class="blue box">
 	Most of the things one could be looking for are very likely to be found in the <b>AWESOME</b> <a href="https://project-awesome.org" rel="noopener noreferrer" target="_blank" title="Project Awesome">Project Awesome</a>. I'm writing nothing about it, just go on the page and dive in the power of the internet.
 </div>

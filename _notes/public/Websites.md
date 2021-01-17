@@ -2,11 +2,7 @@
 date: 2020-10-27
 updated: 2020-10-27
 tags: web, idea
-redirect_from:
-  - /websites-ideas
-  - /philosophy-websites
-  - /lifestyle-websites
-  - /websites creation
+redirect_from: ["/websites-ideas", "/philosophy-websites", "/lifestyle-websites", "/websites creation"]
 toc: false
 ---
 Cool websites I should create:

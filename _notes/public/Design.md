@@ -3,6 +3,7 @@ date: 2020-05-12
 updated: 2020-09-16
 tags: design
 description: "Little insights about the design world."
+main: true
 ---
 ## 101
 

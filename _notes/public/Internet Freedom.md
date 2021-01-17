@@ -3,6 +3,7 @@ date: 2020-07-10
 updated: 2021-01-05
 tags: qsm, geek
 redirect_from: ["/internet-freedom-notes", "/internet-freedom-roadmap"]
+main: true
 ---
 This awesome and revolutionary tool we call the Internet is so powerful that it's becoming a threat to the freedom of the average user, who, in exchange for services, hands over his/her data, therefore giving up personal independence and liberty.
 

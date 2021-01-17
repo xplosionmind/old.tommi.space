@@ -5,13 +5,8 @@ tags: zen
 aliases: ["Digital Garden", "Wiki"]
 description: "The best way to manage knowledge and ideas as well as memories and lecture notes: the ultimate digital brain database system."
 permalink: /zettelkasten
-redirect_from:
-  - /knowldege-management
-  - /data-management
-  - /digital-garden
-  - /knowledge-management
-related:
-  - /switch-to-zettelkasten
+redirect_from: ["/knowldege-management", "/data-management", "/digital-garden"]
+main: true
 ---
 Zettelkasten is a system for storing and accessing notes invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann "Niklas Luhmann on Wikipedia"). I'm very fascinated by its underlying philosophy and approach which I'd love to take advantage of, but I'm still learning and it will take quite a lot of time to fully commit to it.
 

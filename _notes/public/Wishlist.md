@@ -4,6 +4,7 @@ updated: 2020-12-28
 toc: false
 description: "Stuff I need and things I just would love to have"
 redirect_from: ["/desideri", "/regali"]
+main: true
 ---
 <div class="yellow box">
 	Items are sorted in order of urgency and need. Things at the top are the ones I need to buy ASAP

@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21
-updated: 2021-01-13
+updated: 2021-01-17
 tags: geek
 description: "A walktrough of the steps I executed to set up my server"
 ---
@@ -444,3 +444,13 @@ sudo vim /etc/apache2/conf-enabled/security.conf
 ```
 
 There are a few very nice things, such as hiding the “Jitsi” watermark from calls, which can be improved by editing Jitsi’s css file. Here’s [a customizations guide](https://technologyrss.com/how-to-customize-jitsi-meet-video-conference-server/).
+
+<br>
+
+***
+
+<br>
+
+## OpenVPN
+
+To install [OpenVPN](https://openvpn.com "OpenVPN"), I followed exactly this super simple and quick [guide](https://dev.to/phiilu/host-your-own-openvpn-server-in-a-few-seconds-73l "Host Your own OpenVPN Server in a few seconds - DEV"). It actualy took me 15 minutes to make everything work perfectly, and it still does after several months.

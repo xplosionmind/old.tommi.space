@@ -4,21 +4,20 @@ updated: 2020-11-06
 tags: geek, design
 aliases: ["Website inspiration"]
 description: "Blogs or websites worth remembering."
-redirect_from:
-  - /inspiration
-  - /websites
+redirect_from: ["/inspiration", "/websites"]
+main: true
 ---
 A website appears in this list for at least one of these three reasons:
 
 1. I admire its creator and/or author and/or owner
-2. its design is great and it may have inspired [my own website](https://tommi.space/home)
+2. its design is great and it may have inspired [my own website](https://tommi.space/home "Tommi Space")
 3. it has a particular unique or brilliant feature
 
 <br>
 
 The following list follows an alphabetical order.
 
-- [Leo Babauta](https://leobabauta.com)'s blog: the perfect example of a literally minimalistic website. It's not poor of content, yet it's neat, clean and intuitive.
+- [Leo Babauta](https://leobabauta.com "Leo Babauta")'s blog: the perfect example of a literally minimalistic website. It's not poor of content, yet it's neat, clean and intuitive.
 - [Backpackerz: rewind 2010s](https://thebackpackerz.com/special/rewind/2010/), the precursor of the new generation of “longreads” (a.k.a.: articles which take a lot of time to be read and written)
 - [Born Free Generation](https://www.bornfreegeneration.com/), transforming a short movie, a story, in a website, done the right way. Genuinely beautiful.
 - [Cafundó Academy Blog](https://cafundoestudio.com.br/blog/), those GIFs

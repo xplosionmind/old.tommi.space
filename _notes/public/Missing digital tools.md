@@ -5,17 +5,8 @@ tags: geek, idea
 aliases: ["Programming ideas", "Development ideas"]
 description: "Ideas for programs which would be very useful, but I didn't find yet"
 permalink: /missing-tools
-redirect_from:
-  - /tools-ideas
-  - /programming-ideas
-  - /programming
-  - /development-ideas
-  - /developing
-  - /developing-ideas
-  - /apps-ideas
-  - /programs-/ideas
-  - /missing-apps
-  - /missing-programs
+redirect_from: ["/tools-ideas", "/programming-ideas", "/programming", "/development-ideas", "/developing", "/developing-ideas", "/apps-ideas", "/programs", "/ideas", "/missing-apps", "/missing-programs"]
+main: true
 ---
 <p class="date">9<sup>th</sup> January 2021</p>
 
@@ -25,7 +16,7 @@ A Jekyll plugin which implements [[Website log#Sidenotes]] or transforms standar
 
 <br>
 
----
+***
 
 <br>
 
@@ -37,7 +28,7 @@ A setting/add-on to restore several old windows sessions of a browser, with all 
 
 <br>
 
----
+***
 
 <br>
 
@@ -49,7 +40,7 @@ A software which counts every time a key is clicked on a keyboard and does an av
 
 <br>
 
----
+***
 
 <br>
 
@@ -61,7 +52,7 @@ A script which poses you questions to debug you. Something in between [ELIZA AI]
 
 <br>
 
----
+***
 
 <br>
 
@@ -79,7 +70,7 @@ A unique, universal and simple **method to share stuff**.
 
 <br>
 
----
+***
 
 <br>
 
@@ -97,7 +88,7 @@ An audio recorder on steroids.
 
 <br>
 
----
+***
 
 <br>
 
@@ -110,7 +101,7 @@ Interesting and curious integrations which could be implemented in the [system D
 
 <br>
 
----
+***
 
 <br>
 
@@ -123,7 +114,7 @@ An app which automatizes the update of a profile picture on several different pl
 
 <br>
 
----
+***
 
 <br>
 
@@ -135,7 +126,7 @@ A plugin for OsmAnd (or OpenStreetMap) and/or Google Maps which shows the buildi
 
 <br>
 
----
+***
 
 <br>
 
@@ -145,7 +136,7 @@ An app which is capable of weighting stuff by reading an object's pressure on a 
 
 <br>
 
----
+***
 
 <br>
 
@@ -157,7 +148,7 @@ An app for lunatic people. Used to learn by themselves their sudden attitude cha
 
 <br>
 
----
+***
 
 <br>
 

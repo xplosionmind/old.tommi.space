@@ -5,12 +5,8 @@ title: 'Stop highlighting, start underlining'
 tags: wit, reading
 toc: false
 permalink: /underline
-redirect_from:
-  - /underlining
-  - /stop-highlighting
-  - /start-underlining
-  - /stop-highlighting-start-underlining
-
+redirect_from: ["/underlining", "/stop-highlighting", "/start-underlining", "/stop-highlighting-start-underlining"]
+main: true
 ---
 Highlighting is strong, excessive, distracting, aggressive.\
 Underlining is soft, neat, light, instead.

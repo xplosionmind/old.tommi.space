@@ -1,23 +1,20 @@
 ---
 date: 2020-06-04
-updated: 2020-07-03
+updated: 2021-01-17T09:38:47.347867+01:00
+tags: track wip
 permalink: /oggetti
 aliases: ["Oggetti"]
 lang: it
 description: "Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi."
-redirect_from:
-  - /compagni-di-viaggio
-  - /oggetti
-  - /cose-smarrite
-  - /oggetti-smarriti
-  - /lost-and-found
+redirect_from: ["/compagni-di-viaggio", "/oggetti", "/cose-smarrite", "/oggetti-smarriti", "/lost-and-found"]
+main: true
 ---
 È un comportamento che sembra esagerato, ma sono così affezionato loro, che, più che essere parte di me, sono diventati dei veri e propri compagni di viaggio. Per questo motivo ho deciso di registrare qui le loro generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.
 
 Sapete bene tutti quanto io sia appassionato, quasi ossessionato, dalle storie: mi sono sempre rifiutato di indossare vestiti e indumenti o utilizzare oggetti che non avessero un perché o una particolare relazione con me, se non il fatto che mi piacessero e li avessi acquistati o ricevuti in dono. Incredibilmente, tutti quelli ricordati qui, io stesso mi sorprendo quando ci penso, hanno una storia incredibile e sono stati protagonisti di peripezie straordinarie. Sarà dunque un po’ triste per me rievocare quando e come ho perso le tracce di ciascuno, ma, almeno, saranno ricordati per sempre.
 
 <br>
-<br >
+<br>
 
 ## Occhiali
 
@@ -27,7 +24,7 @@ Ho ereditato da mio papà una forte sensibilità alla luce, quindi raramente son
 
 ### I primi antenati
 
-I primi Xplosion Sunglasses degni di questo nome, che possono essere considerati i padri di tutti quelli che li seguiranno, sono un paio di [Ray-Ban Wayfarer Limited Edition](https://nitrolicious.com/wp-content/uploads/2010/06/RB-2140-1033.jpg) con una raffigurazione, all’esterno, della mappa della metropolitana di New York.
+I primi Xplosion Sunglasses degni di questo nome, che possono essere considerati i padri di tutti quelli che li seguiranno, sono un paio di [Ray-Ban Wayfarer Limited Edition](https://nitrolicious.com/wp-content/uploads/2010/06/RB-2140-1033.jpg "Ray-Ban Wayfarar Limited Edition") con una raffigurazione, all’esterno, della mappa della metropolitana di New York.
 
 Li vidi per l aprima volta a 12 anni, nella vetrina di un negozio a Savona (non me ne scorderò mai), e da quel momento non smisi di stressare i miei genitori per poterli avere anche io.
 
@@ -107,3 +104,7 @@ Da quel momento, la penna è sempre con me.
 ***Sempre*** è un eufemismo. L’ho smarrita più e più volte, sempre ritrovandola, dopo ore o dopo giorni. A volte, settimane.
 
 Si sono succedute varie TBoom pen, sempre simili fra loro, ma alla fine le ho perse tutte e è sempre tornata da me lei, l’originale, la prima.
+
+Nell'agosto 2020 a Giffoni, si è rotta la sua clip.
+
+A Natale 2020 la mamma mi ha regalato la *Tommi Pen*, l'evoluzione della *TBoom Pen*.

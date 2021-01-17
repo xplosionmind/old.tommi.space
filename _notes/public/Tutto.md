@@ -5,6 +5,7 @@ tags: track
 aliases: "Di tutto e di più"
 lang: it
 redirect_from: ["/tuttopiu", "/stuff-extended", "/stuff-extended-it", "/stuff-extended/it", "/it/stuff-extended", "/everything"]
+main: true
 ---
 Dato che, per mia natura, sono una trottola che gira ovunque per fare tante (troppe) diverse cose 
 

@@ -1,20 +1,18 @@
 ---
 date: 2020-07-20
-updated: 2020-11-25
+updated: 2021-01-17T0915:51.366467+01:00
 tags: places
 aliases: ["Places"]
 image: "https://assets.tommi.space/images/places.jpg"
 permalink: /places
-redirect_from:
-  - /around-the-world
-  - /world-places
-  - /posti
-  - /luoghi
+redirect_from: ["/around-the-world", "/world-places", "/posti", "/luoghi"]
+description: "Places I love around the world"
+main: true
 ---
-<cite>Around the World</cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places around the world. This isn’t a list of places I’ve been to, but a record of the ones I carry in my heart, for some reason
+<cite><a href="https://yewtu.be/watch?v=a9eNQZbjpJk" rel="noopener noreferrer" target="_blank" title="Red Hot Chili Peppers - Around The World">Around the World</a></cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places around the world. This is not merely a list of places I’ve been to in my life, but an ever growing and evolving record of the ones I carry in my heart.
 
-<br>
-<br>
+<br />
+<br />
 
 ## Sanremo
 
@@ -54,3 +52,8 @@ redirect_from:
 ## Venezia
 
 - [Ca' Foscari Zattere](https://www.unive.it/pag/13665/ "CFZ sul sito di Ca' Foscari")
+
+<br />
+<br />
+
+<div class="embed-container"><iframe src="https://www.youtube-nocookie.com/embed/a9eNQZbjpJk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

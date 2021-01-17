@@ -38,8 +38,7 @@ Domani all'Ariston ci sarà _**Brunori a Teatro** - Canzoni e Dialoghi sull'Ince
 
 ### Aggiornamento
 
-28 Aprile 2018, ore 00:23
-{:.date}
+<p 28 class="date">28 Aprile 2018, ore 00:23</p>
 
 *Dopo un'intera giornata di continui messaggi su instagram a Brunori ed email al suo manager, il manager mi ha risposto così:*
 
@@ -57,7 +56,6 @@ Domani all'Ariston ci sarà _**Brunori a Teatro** - Canzoni e Dialoghi sull'Ince
 
 ### Aggiornamento
 
-29 Aprile 2018, ore 23:01
-{:.date}
+<p class="date">29 Aprile 2018, ore 23:01</p>
 
 *Ho sbagliato! Non sono solo tre puntate! Ce ne sarà un’altra stasera!*

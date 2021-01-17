@@ -8,8 +8,9 @@ Google is one of the most famous companies in the world, and its tech services a
 
 While I keep working on a more detailed and exhaustive article on the topic, below are some great writings about Google alternatives and about the reason why quitting Google is not nonsense. Note: quitting Google doesn't mean being against Google no matter what!
 
-**Update**: Google is [now being sued](https://via.hypothes.is/https://www.nytimes.com/2020/10/20/technology/google-lawsuit.html "Why the Government Is Suing Google on Wired") by US'antitrust
-{:.box}
+<div class="box">
+	<b>Flash update</b>: Google <a href="https://via.hypothes.is/https://www.nytimes.com/2020/10/20/technology/google-lawsuit.html" rel="noopener noreferrer" target="_blank" title="Why the Government Is Suing Google on Wired">is now being sued</a> by US'antitrust
+</div>
 
 - [How I Fully Quit Google \(And You Can, Too\)](https://medium.com/s/story/how-i-fully-quit-google-and-you-can-too-4c2f3f85793a "How I Fully Quit Google \(And You Can, Too\) by Nithin Coca") by Nithin Coca, on Medium.\
 This is a great article, actually the first one I read about the topic.
