@@ -268,30 +268,6 @@ article .box:not(.tags) {
 	}
 }
 
-.top,
-.bottom {
-	right: 3vw;
-}
-
-.bottom {
-	transform: rotate(.5turn);
-	box-shadow: none !important;
-}
-
-.theme-toggle {
-	right: calc(3vw + 4rem);
-}
-
-.tool {
-	position: fixed;
-	bottom: 3vw;
-	z-index: 9;
-	box-shadow: var(--tool-shadow) !important;
-	&.button {
-		padding: .3rem;
-	}
-}
-
 li {
 	margin-bottom: var(--small);
 	line-height: var(--regular-more-em);
@@ -787,6 +763,30 @@ button,
 		width: 100%;
 		height: 100%;
 	}
+}
+
+.theme-toggle {
+	right: calc(3vw + 4rem);
+}
+
+.tool {
+	position: fixed;
+	bottom: 3vw;
+	z-index: 9;
+	box-shadow: var(--tool-shadow) !important;
+	&.button {
+		padding: .3rem;
+	}
+}
+
+.top,
+.bottom {
+	right: 3vw;
+}
+
+.bottom {
+	transform: rotate(.5turn);
+	box-shadow: none !important;
 }
 
 .tag {
