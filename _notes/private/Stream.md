@@ -12,22 +12,3 @@ Il problema del non avere i social è che necessariamente per forza ora diminuir
 Parlare di determinate cose solo con determinate persone
 
 La preoccupante tendenza allo smarmellamento in tv, anche dei programmi seri
-
-Luca Davide e ???\
-anche per spiegazione degli strumenti
-
-<br />
-<br />
-
-## Backup
-
-- Campo migranti s.antonio
-- 2016 \> phone
-- 2017 \> phone
-- 2017.12.22 Briciole di Rock, Imperia Musicale
-- giff 2017
-- acle 2017
-- 2020 factory video
-- 2019 \> phone
-- ALL media
-- barcellona school trip phone

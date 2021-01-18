@@ -22,3 +22,19 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 1. [Zoom H4 support](https://zoomcorp.com "Zoom official website")
 1. [[Missing Knowledge#Geek stuff|Learning geek stuff]]
 1. MacBook Pro color profile
+
+<br />
+<br />
+
+## Backup
+
+- Campo migranti s.antonio
+- 2016 \> phone
+- 2017 \> phone
+- 2017.12.22 Briciole di Rock, Imperia Musicale
+- giff 2017
+- acle 2017
+- 2020 factory video
+- 2019 \> phone
+- ALL media
+- barcellona school trip phone
