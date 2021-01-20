@@ -20,10 +20,11 @@ It's **very** hard, not only because it's convenient and easy to use, but mostly
 
 ## Why
 
-Why quitting Spotify?
+Reasons to quit Spotify
 
 - [Criticism of Spotify](https://en.m.wikipedia.org/wiki/Criticism_of_Spotify) on Wikipedia
-- It costs a lot, definitely too much for the quality of the service
+- [Stallman says this](https://stallman.org/spotify.html "Quit Spotify on Richard Stallman's website")
+- It costs a lot, and it grants musicians only a tiny share of the overall revenue
 - I prefer not to be tracked and I'd prefer for my listening preferences not to be used for advertising purposes.
 
 <br>

@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-updated: 2021-01-13
+updated: 2021-01-20
 tags: geek
 aliases: ["Cheat Sheet"]
 description: "I use tech devices a lot, maybe too much, but I don’t dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
@@ -88,7 +88,7 @@ pandoc *.docx -f docx -t commonmark -s -o ~/Desktop/output.md
 Scripts for the awesome [ExifTool](https://exiftool.org/). I use them as part of my [[Photo importing workflow]]
 
 <div class="yellow box">
-	For all of these scripts, pwd must correspond to the folder which contains the pictures to be processed.
+	For all of the following commands, <u><abbr title="present working directory">pwd</abbr> must correspond to the folder containing the pictures to be scanned</u>.
 </div>
 
 ### Show metadata
@@ -119,27 +119,27 @@ Since there are many parameters which <u>might contain conflicting times</u>, th
 </div>
 
 ```sh
-exiftool '-FileName<FileModifyDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
+exiftool '-FileName<FileModifyDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 ```
 
 ```sh
-exiftool '-FileName<DateTimeCreated' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
+exiftool '-FileName<DateTimeCreated' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 ```
 
 ```sh
-exiftool '-FileName<CreateDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
+exiftool '-FileName<CreateDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 ```
 
 ```sh
-exiftool '-FileName<DateTimeOriginal' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
+exiftool '-FileName<DateTimeOriginal' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 ```
 
 ```sh
-exiftool '-FileName<GPSDateTime' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
+exiftool '-FileName<GPSDateTime' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 ```
 
 <div class="blue box">
-	adding <b><code>-r</code></b> is used to make the analysis <i>recursive</i>, which means that subfolders are scanned, too.
+	<b><code>-r</code></b> makes the analysis <i>recursive</i>: subfolders are scanned, too.
 </div>
 
 <br />
@@ -149,11 +149,11 @@ exiftool '-FileName<GPSDateTime' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r
 Organize files in directories based on each image’s dimensions (resolution)
 
 <div class="yellow box">
-	<strong>NOTE</strong>: the directories are created in the working directory
+	<strong>NOTE</strong>: newly created directories are created in pwd
 </div>
 
 ```sh
-"-Directory<imagesize"
+"-Directory<imagesize" ./*
 ```
 
 <br>
@@ -161,23 +161,23 @@ Organize files in directories based on each image’s dimensions (resolution)
 Move files to folders based on year and month
 
 ```sh
-exiftool '-Directory<FileModifyDate' -d /path/to/directory/%Y/%Y.%m -r
+exiftool '-Directory<FileModifyDate' -d ./%Y/%Y.%m -r ./*
 ```
 
 ```sh
-exiftool '-Directory<DateTimeCreated' -d /path/to/directory/%Y/%Y.%m -r
+exiftool '-Directory<DateTimeCreated' -d ./%Y/%Y.%m -r ./*
 ```
 
 ```sh
-exiftool '-Directory<CreateDate' -d /path/to/directory/%Y/%Y.%m -r
+exiftool '-Directory<CreateDate' -d ./%Y/%Y.%m -r ./*
 ```
 
 ```sh
-exiftool '-Directory<DateTimeOriginal' -d /path/to/directory/%Y/%Y.%m -r
+exiftool '-Directory<DateTimeOriginal' -d ./%Y/%Y.%m -r ./*
 ```
 
 ```sh
-exiftool '-Directory<GPSDateTime' -d /path/to/directory/%Y/%Y.%m -r
+exiftool '-Directory<GPSDateTime' -d ./%Y/%Y.%m -r ./*
 ```
 
 <div class="blue box">

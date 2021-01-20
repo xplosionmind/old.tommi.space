@@ -1,6 +1,5 @@
 ---
 ---
 - foto da appendere
-- Taglierino e base per tagliare blu
 - Analogica?
 - sciarpa

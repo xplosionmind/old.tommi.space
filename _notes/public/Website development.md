@@ -11,6 +11,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 ## Not Working
 
 - Algolia search index [is limited](https://github.com/algolia/algoliasearch-netlify/issues/166 "GitHub issue")
+- Heading anchors
 
 <br>
 <br>
@@ -47,20 +48,21 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 1. Configure [[Indie Web]]
 1. [[The Jam]]: Preview a note when hovering on link
 1. [[The Jam]]: Notes graph
-1. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
-1. Stop using Algolia and consider faster and simpler alternatives
+2. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
+3. Stop using Algolia and consider faster and simpler alternatives
 	- [Lunr](https://lunrjs.com "Lunr")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
-1. [***Visions***](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Switch to Piwigo]]).
-1. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) with Liquid syntax
-1. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-1. **Sorting** and **filtering** using JavaScript
+4. [***Visions***](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Switch to Piwigo]]).
+5. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/) with Liquid syntax
+6. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+7. **Sorting** and **filtering** using JavaScript
 	- in Zibaldone and The Jar: language and tag filter
 	- in Books: Sorting
-1. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
-1. CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
-1. A script to check permalinks overlapping
+1. Improve `<noscript>`
+	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw)
+8. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
+9. A script to check permalinks overlapping
 
 <br>
 <br>
@@ -69,6 +71,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 
 - [Generative Art](http://tholman.com/post/generative-art-speedrun/ "Generative Art on Tim Holman's blog")
 	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/ "Zander Martineau")
+- [Integrating Telegram comments](https://dev.to/ayanb/integrating-telegram-comments-to-your-website-2fnh "Integrating Telegram Comments to Your Website on DEV.to") ([comments.app](https://comments.app) not working after login)
 - GIFs instead of images 
 - Improve `blockquote`s
 	- <https://codepen.io/valentingalmand/pen/doJvRR>

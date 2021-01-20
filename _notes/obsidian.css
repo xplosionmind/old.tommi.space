@@ -158,8 +158,13 @@ hr {
 
 .markdown-preview-view pre,
 .markdown-preview-view img {
-	border-radius: .8rem;
+	border-radius: .8rem !important;
 	box-shadow: var(--inner-shadow);
+}
+
+.run-code-button {
+	border-radius: 5px !important;
+	right: 10px !important;
 }
 
 .copy-code-button {

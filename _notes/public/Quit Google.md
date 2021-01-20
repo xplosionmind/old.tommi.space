@@ -16,3 +16,4 @@ While I keep working on a more detailed and exhaustive article on the topic, bel
 This is a great article, actually the first one I read about the topic.
 - [Three Years of Misery Inside Google, the Happiest Company in Tech](https://www.wired.com/story/inside-google-three-years-misery-happiest-company-tech/ "Three Years of Misery Inside Google, the Happiest Company in Tech on Wired"), on Wired
 - [How to Leave Google Behind: Quick Guide to Take Back Your Privacy Online.](https://tutanota.com/blog/posts/how-to-leave-google-gmail/ "How to Leave Google Behind: Quick Guide to Take Back Your Privacy Online by Tutanota") on Tutanota's blog
+- The great [Richard Stallman says we should quit](https://stallman.org/google.html "Quit Google on Richard Stallman's website")

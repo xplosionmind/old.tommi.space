@@ -29,7 +29,8 @@ aliases: ["MOC", "Home", "to do", "todo"]
 When at home:
 - [[Intervista ai nonni]]
 - digitalizzazione foto di famiglia
-- [[To do with powerful PC at home]]
+- [[Linuxplosion todo]]
+- 
 - Storage improvements and sync
 
 Venice:

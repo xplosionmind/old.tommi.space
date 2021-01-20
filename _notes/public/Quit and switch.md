@@ -1,6 +1,6 @@
 ---
 date: 2020-12-05
-updated: 2021-01-17T00:49:13.095920+01:00
+updated: 2021-01-20T17:31:12.204183+01:00
 tag: meta, geek, zen
 aliases: ["Just quit", "Choose the alternative", "Go alternative", "Make the switch"]
 image: "https://assets.tommi.space/images/jar/just-quit.jpg"
@@ -29,3 +29,4 @@ main: true
 - [[Switch to LineageOS]]
 - ~~Quit [IMDb](https://www.imdb.com/user/ur90419107/)~~ (switched to [The Movie Database](https://www.themoviedb.org/u/xplosionmind "My account on The Movie Database")) ✅ 2020.12.20
 - Consider switching from [Pocket](https://getpocket.com "Pocket") to a simple list of links in [[Ode to plain text|plain text]]
+- [[Quit Netflix]]

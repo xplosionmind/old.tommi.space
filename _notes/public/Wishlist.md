@@ -11,7 +11,7 @@ main: true
 </div>
 
 1. Thermometer for high temperatures designed for photographic development
-3. Storage (see [[Storage solutions]])
+3. Storage (see [[Storage]])
 1. Sound card
 	- Focusrite Scarlett 2i2
 5. Film Negatives Scanner

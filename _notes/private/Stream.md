@@ -6,6 +6,8 @@ tags: todo
 - where would the content of my distractions go if I wasn't distracted?
 - Update scouting in cose, with Partenza
 - Add notifications settings to phone backup
+- https://www.anonymous-project.com
+- I sent my name on Mars!
 
 Il problema del non avere i social è che necessariamente per forza ora diminuirebbe l'interazione. Sto vivendo molto meno l'umanità e le relazioni. Le persone 
 

@@ -1,0 +1,52 @@
+---
+date: 2020-12-24
+updated: 2021-01-20T16:23:31.132801+01:00
+tags: geek
+---
+## Data loss
+
+Firstly, a premise on my troubled experience with storage, hard drives and data management.
+
+I messed up several times in handling my few (three) nevertheless too many hard disks. <u>I lost all of my data two times</u>.
+
+The first time it happened it was summer 2015 and I was at [Giffoni Film Festival](/stuff#giffoni-film-festival "Giffoni Film Festival"); I was importing on my MacBook some pictures I just shot with my camera. After completing the import, I needed to free the SD card where the images were, and I mindlessly formatted it from MacOS's [Disk Utility]() without remembering I had my hard disk plugged, too. What I did was <u>resetting the hard disk instead of the SD Card</u>. Luckily, without overwriting anything, restoring data from a formatted device is not too complicated, and <u>I managed to recover most of what I had</u> on that memory device.
+
+I gotta admit that my first data loss <u>did not teach me anything</u> about care and meticolousness in handling external hard drives, especially when there's only one single copy of your data.
+
+Sure enough, it happened again.\
+In 2018 I was in a hurry and I had to quickly go from my bedroom to the living room to connect through LAN my MacBook and send some images ASAP. Those pictures were on an hard disk which while I was running from one room to another fell and broke.\
+As it's easy to imagine, this damage was irreparable. I was shocked, angry with myself and profoundly dejected. The only opportunity I had to somewhat recover something from that device was giving it to a data recovery company in Milan which asked me 990€ for the process. I rejected the offer, but if I could go back I would have payed. Memories have no price, and I no find myself with <u>no data whatsoever</u> about my three arguably most exciting years of my life, up to now; no pictures, no documents, no tickets of concerts I went to, no school homework; nothing.
+
+<br>
+<br>
+
+## up to 2020
+
+After the second data loss, I eventually learned my lesson. It's worth spending a couple hundred bucks more and a few hours to backup everything twice than risking to lose data. For my 18<sup>th</sup> birthday, one of the gifts my lovely friends made me was composed of two identical WD hard disks of 2TB of memory.
+
+Up to the end of 2020, everything I had fitted on the two devices, which contained two identical copies of the same data, so that if for any reason one of the two broke, I still wouldn't lose anything. Even all of the 500ish GB of raw footage of [Everyone](/everyone) did not fill the 2TB.
+
+Now (time of writing: January 2021), space is running out. I need to find a valuable alternative. I will try to solve my main issues here, publicly. In this way, I could easily receive suggestions (if any, [you may comment](#comments) below) and anyone who shares my same doubts may get in touch and discuss some solutions to address the huge problem of storage with me.
+
+<br>
+<br>
+
+## Issues
+
+Let's point out my needs, my questions and doubts on the topic.
+
+## Needs
+
+1. **Durability**: I want to be able to effortlessly access all of my data now as 30 years from now.
+1. **Reliability**: my storage system has to be <u>absolutely <strong>fail-proof</strong></u> (of course, no system is. I need to achieve the best reliability I can afford). I can't lose any of my data again.
+1. **Backward compatibility**: the solution I'll find has to be compatible with the current one.
+1. **Affordability**: I should not spend too much on this. In the end, shooting pictures is not my job (yet).
+1. **Accessibility**: if possible, I'd like to be able of accessing all of my pictures (mainly) from anywhere anytime
+
+## Doubts
+
+- Can I [[Switch to Piwigo|rely on Piwigo alone]] to host all of my JPGs, even my private ones?
+	- is it reliable? How much do I risk of losing my data?
+	- is it secure? Are my private pictures somehow server-side encrypted?
+- Does it make sense to use my [Cubbit Cell](https://cubbit.io "Cubbit")'s 4TB for long-term picture storage?
+- Should I use portable Hard Disks, as the ones I already have, or internal hard disks to plug to [[Linuxplosion]]?
