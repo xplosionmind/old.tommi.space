@@ -7,10 +7,11 @@ tags: todo
 - Update scouting in cose, with Partenza
 - Add notifications settings to phone backup
 - https://www.anonymous-project.com
-- I sent my name on Mars!
-
-Il problema del non avere i social è che necessariamente per forza ora diminuirebbe l'interazione. Sto vivendo molto meno l'umanità e le relazioni. Le persone 
-
-Parlare di determinate cose solo con determinate persone
-
-La preoccupante tendenza allo smarmellamento in tv, anche dei programmi seri
+- Claudio videocall to fix server issues
+	- Nextcloud locked files
+	- RSS bridge to definitely quit Social Media, while still using them 
+- a domain, a name, a format, etc. <u>unlinked from my name</u>
+- Il problema del non avere i social è che necessariamente per forza ora diminuirebbe l'interazione. Sto vivendo molto meno l'umanità e le relazioni. Le persone 
+- Parlare di determinate cose solo con determinate persone
+- La preoccupante tendenza allo smarmellamento in tv, anche dei programmi seri
+- Un nome più figo per la caccia al tesoro del FAI!

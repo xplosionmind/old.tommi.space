@@ -1,0 +1,20 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="{% if page.lang == 'it' %}it{% else %}en{% endif %}" xmlns:og="http://opengraphprotocol.org/schema/"></html>
+
+	{% include head.html %}
+
+	<body>
+		{% if page.textonly %}
+			<div class="one column">
+				<article>
+					{{content}}
+				</article>
+			</div>
+		{% else %}
+			{{ content }}
+		{% endif %}
+	</body>
+</html>
