@@ -1,10 +1,13 @@
 ---
 date: 2020-02-03
 updated: 2020-10-16
+tags: wip
 lang: it
 description: "Tutte le cose a cui ho assistito in giro, come spettatore, fan entusiasta, ascoltatore appassionato, studente curioso, insomma, ogni possibile variabile che mi rendeva uno che sta davanti al palco, non dietro come al solito"
 redirect_from: ["/spettatore", "/eventi-spettatore", "/pubblico", "/cose-spettatore"]
 main: true
+todo:
+  - "cross-reference data with email and calendar"
 ---
 ## Festival, Eventi, incontri
 

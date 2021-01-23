@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21
-updated: 2021-01-17
+updated: 2021-01-24T00:21:15.202180+01:00
 tags: geek
 description: "A walktrough of the steps I executed to set up my server"
 ---
@@ -454,3 +454,43 @@ There are a few very nice things, such as hiding the “Jitsi” watermark from 
 ## OpenVPN
 
 To install [OpenVPN](https://openvpn.com "OpenVPN"), I followed exactly this super simple and quick [guide](https://dev.to/phiilu/host-your-own-openvpn-server-in-a-few-seconds-73l "Host Your own OpenVPN Server in a few seconds - DEV"). It actualy took me 15 minutes to make everything work perfectly, and it still does after several months.
+
+<br>
+
+***
+
+<br>
+
+## RSS-Bridge
+
+### Installation
+
+I chose to deploy [RSS-Bridge]() through Docker. The process is not thoroughly and simply explained for a dumb newbie like me, nevertheless I somehow figured out how to deploy the app.
+
+My version of [the default Docker build](https://github.com/RSS-Bridge/rss-bridge/wiki/Docker "RSS-Bridge Docker setup"):
+
+```sh
+sudo docker create \
+--name=rss-bridge \
+--volume /home/xplosionmind/whitelist.txt:/app/whitelist.txt \
+--publish 3001:80 \
+rssbridge/rss-bridge:latest
+```
+
+<br>
+
+My `whitelist.txt` file:
+
+```
+*
+```
+
+<br>
+
+### Customization
+
+What's the real issue, to my surprise, wasn't get RSS-Bridge up and running as much as <u>making it actually work</u>.\
+Below I collected some articles useful to sort thing out.
+
+- [Reconnecting the Web with RSS-Bridge](https://webworxshop.com/reconnecting-the-web-with-rss-bridge/ "Reconnecting the Web with RSS-Bridge")
+- [RSS Bridge and Huginn: Feeds for everything](https://dev.to/mskog/rss-bridge-and-huginn-feeds-for-everything-4ec9 "RSS Bridge and Huginn: Feeds for everything - DEV.to")

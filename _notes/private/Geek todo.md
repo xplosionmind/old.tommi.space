@@ -11,20 +11,22 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 1. Nextcloud
 	- social valuate long-term durability of Nextcloud
 1. <https://svgbox.net>
-1. Enrico Francese per microfono e config
-1. [[Bugs and Feature Requests]]
-1. scripts: performing a command for every file in a directory (e.g. converting separate documents in another format with pandoc, but keeping them separated.)
-1. https://fontless.varld.co
-2. https://gradient-avatar.glitch.me/xplosionmind
-3. https://urlint.co/integration/github.html
-4. https://www.onlinelifecalendar.com
-5. Update Flickr links in [[Tutto]]
-1. [Zoom H4 support](https://zoomcorp.com "Zoom official website")
-1. [[Missing Knowledge#Geek stuff|Learning geek stuff]]
-1. MacBook Pro color profile
+2. Blogroll automation
+	- https://rusingh.com/blogroll/
+	- https://jlelse.blog/dev/miniflux-blogroll
+3. Enrico Francese per microfono e config
+4. [[Bugs and Feature Requests]]
+5. scripts: performing a command for every file in a directory (e.g. converting separate documents in another format with pandoc, but keeping them separated.)
+6. https://gradient-avatar.glitch.me/xplosionmind
+7. https://urlint.co/integration/github.html
+8. https://www.onlinelifecalendar.com
+9. Update Flickr links in [[Tutto]]
+10. [Zoom H4 support](https://zoomcorp.com "Zoom official website")
+11. [[Missing Knowledge#Geek stuff|Learning geek stuff]]
+12. MacBook Pro color profile
 
-<br />
-<br />
+<br>
+<br>
 
 ## Backup
 
@@ -38,3 +40,8 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 - 2019 \> phone
 - ALL media
 - barcellona school trip phone
+
+<br>
+<br>
+
+![[Linuxplosion todo]]

@@ -1,5 +1,5 @@
 ---
-tags: everyone todo
+tags: everyone
 ---
 Per tutelare i brani nel corto
 

@@ -1,14 +1,15 @@
 ---
 date: 2018-06-19
-tags: ["radioimmaginaria"]
-image: "https://assets.tommi.space/images/posts/2018-06-19-The-Bus-Blogger.jpg"
+tags: radioimmaginaria
+image: "https://assets.tommi.space/images/posts/2018-06-19-the-bus-blogger.jpg"
+redirect_from: ["/bus-blogging", "/bus-blogger", "/busblogging", "/busblogger", "/london-bus-blogging"]
 ---
 Chi non conosce o almeno una volta nella vita non vuole fare un giro sui mitici **bus "double-deck"** (a due piani) di Londra? Allora tenetevi forte, perché questi mezzi caratteristici stanno diventando sempre più avanzati e soprattutto ecocompatibili!
 
 <!--more-->
 
 <figure>
-  <img src="{{ page.image }}" alt="Tommi in posa davanti a un bus “double-deck”" />
+	<img src="{{ page.image }}" alt="Tommi in posa davanti a un bus “double-deck”" />
 </figure>
 
 È davvero incredibile quanto i trasporti siano efficienti e tecnologicamente integrati a Londra: sono qui da quasi due settimane per un viaggio studio e devo riconoscere che mi basta dare un occhio su Citymapper o Google Maps per sapere perfettamente il percorso che devo fare ed i vari ritardi, con una gran precisione! Tanto di cappello alla TFL (Transport for London)!
@@ -16,8 +17,8 @@ Chi non conosce o almeno una volta nella vita non vuole fare un giro sui mitici 
 Tornando ai bus, devo ammettere che sono rimasto sbalordito leggendo sul sito della TFL quanto rapidamente si stiano diffondendo i bus ecosostenibili.
 
 <figure>
-  <img src="https://live.staticflickr.com/4841/31455885817_4445f07693_k.jpg" alt="Tommi fa il figo davanti a un bus a due piani" />
-  <figcaption>Tommi fa il figo davanti a un bus a due piani</figcaption>
+	<img src="https://live.staticflickr.com/4841/31455885817_4445f07693_k.jpg" alt="Tommi fa il figo davanti a un bus a due piani" />
+	<figcaption>Tommi fa il figo davanti a un bus a due piani</figcaption>
 </figure>
 
 Prima di scrivere questo articolo ho avuto l'occasione di provare ogni tipologia di bus di cui ora parlerò, divertendomi a farmi silenziosamente trasportare da mezzi che, oltre ad essere fighissimi in qualunque epoca, sono quasi fantascientifici, soprattutto per esaltarmi a stare su mezzi di trasporto per me così straordinari ed un po' anche per quello per cui sono realmente concepiti, ossia per andare da una parte all'altra della città più grande dell'Europa occidentale.
@@ -32,8 +33,8 @@ Dunque, siccome ora ci sono già migliaia di fashion blogger, food blogger, trav
 Sono già il 30% di tutti i bus in giro per Londra. Nulla di particolare da dire al riguardo. Non avrei mai creduto di poterlo dire, ma sono normali, quasi banali a confronto di quelli di cui parlerò dopo. A partire da quest'anno, qualunque nuovo autobus che verrà messo in circolazione a Londra sarà **almeno** ibrido. Il primo bus a due piani nel mondo è stato quello introdotto nella linea 141 in ottobre 2015.
 
 <figure>
-  <img src="https://live.staticflickr.com/4820/32523259468_fe16478ad2_k.jpg" alt="io mentre indico il simbolo “Hybrid” su un autobus" />
-  <figcaption>il simbolo di un autobus ibrido</figcaption>
+	<img src="https://live.staticflickr.com/4820/32523259468_fe16478ad2_k.jpg" alt="io mentre indico il simbolo “Hybrid” su un autobus" />
+	<figcaption>il simbolo di un autobus ibrido</figcaption>
 </figure>
 
 <br>
@@ -50,8 +51,8 @@ Sono dieci, percorrono una linea particolare (RV1), da Covent Garden alla Tower 
 La spiegazione chimica del fatto che i bus scarichino acqua è piuttosto semplice. Mentre i combustibili fossili contengono Carbonio (lo stesso identico carbonio che si utilizza per datare quanto un fossile è vecchio) che nella combustione si ossigena divenendo CO2, quando è l'idrogeno a bruciare unendosi all'Ossigeno, questi formano H2O.
 
 <figure>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/HyFLEETCUTE-HydrogenBus-London3.JPG/1200px-HyFLEETCUTE-HydrogenBus-London3.JPG" alt="un autobus a idrogeno fermo a un bus stop" />
-  <figcaption>un autobus a idrogeno fermo a un <i>bus stop</i></figcaption>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/HyFLEETCUTE-HydrogenBus-London3.JPG/1200px-HyFLEETCUTE-HydrogenBus-London3.JPG" alt="un autobus a idrogeno fermo a un bus stop" />
+	<figcaption>un autobus a idrogeno fermo a un <i>bus stop</i></figcaption>
 </figure>
 
 ### Autobus elettrici

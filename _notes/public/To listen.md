@@ -1,6 +1,6 @@
 ---
 date: 2020-12-31
-updated: 2020-12-31
+updated: 2021-01-23T18:10:42.124491+01:00
 tags: music todo
 ---
 To comply with the *[[Ode to plain text|Plain text philosophy]]*, instead of creating playlists with music I want to listen to, I paste their links below. (Why doesn't Spotify use readable permalinks? 😩)
@@ -33,4 +33,4 @@ To comply with the *[[Ode to plain text|Plain text philosophy]]*, instead of cre
 - https://open.spotify.com/album/5ciBtE0wpwlIew7zvUKmd2
 - https://open.spotify.com/album/2uf5UmaOQP5FY7xARXGscj
 - https://open.spotify.com/album/715OP1HtF5iNmF7yCVvPgk
-- https://open.spotify.com/album/7sbmWLheY2Cwd7Hf7h114H
+- [Deproducers](https://open.spotify.com/artist/2w9RQvcvBLSk48hbtibRHr)

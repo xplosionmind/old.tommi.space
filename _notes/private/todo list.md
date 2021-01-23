@@ -5,11 +5,10 @@ aliases: ["MOC", "Home", "to do", "todo"]
 1. **Study**
 1. *[[private/Scambi|Scambi]]*
 	1. Compilazione schede labs
-1. [[Images]]
 1. [[To listen]]
 1. Regalo Vale Conta
 1. [[Sconnesso]]
-1. [[Databases]]
+1. Retrieve first Radioimmaginaria article (check email)
 1. Writing
 	1. [[Will]]
 	2. Rewrite tommi.space's captions
@@ -26,12 +25,15 @@ aliases: ["MOC", "Home", "to do", "todo"]
 
 <br>
 
-When at home:
+## Home
+
 - [[Intervista ai nonni]]
 - digitalizzazione foto di famiglia
 - [[Linuxplosion todo]]
-- 
 - Storage improvements and sync
+- [[Images#Home]]
 
-Venice:
-- hang printed pictures
+<br>
+
+## Venezia
+

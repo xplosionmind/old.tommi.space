@@ -237,6 +237,13 @@ article .box:not(.tags) {
 	}
 }
 
+.user-mention {
+	padding: 0 7px;
+	border-radius: var(--radius-s);
+	background: var(--transp-text);
+	color: var(--background);
+}
+
 .flex {
 	display: flex;
 	flex-wrap: wrap;
@@ -725,7 +732,7 @@ button,
 	border-radius: 4px;
 }
 
-.sharing {
+#share {
 	.button {
 		margin-right: var(--small);
 		padding: .4rem;

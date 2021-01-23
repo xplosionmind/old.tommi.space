@@ -1,8 +1,8 @@
 ---
 date: 2020-02-02
-updated: 2021-01-17T16:11:50.164924+01:00
+updated: 2021-01-22T23:04:29.871919+01:00
 tags: meta, geek, web
-aliases: ["Development", "tommi.space", "Development Roadmap"]
+aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
 redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev", "/website-development", "tommi.space"]
 main: true
@@ -39,24 +39,27 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 
 Items in the following list are <u>sorted by priority</u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
-1. Configure [[Indie Web]]
-1. [[The Jam]]: Preview a note when hovering on link
-1. [[The Jam]]: Notes graph
-2. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
-3. Stop using Algolia and consider faster and simpler alternatives
+1. Configure and implement [[Indie Web]]
+	- Note in footer that this website supports Webmentions
+2. [[The Jam]]: Preview a note when hovering on link
+3. [[The Jam]]: Notes graph
+4. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
+5. Stop using Algolia and consider faster and simpler alternatives
 	- [Lunr](https://lunrjs.com "Lunr")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
-4. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Switch to Piwigo]]).
-5. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
-6. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-7. **Sorting** and **filtering** using JavaScript
+6. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Switch to Piwigo]]).
+1. Fetch images previews to complete external links and preferences
+	- how to make use of <https://ogp.me> to retrieve data
+2. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
+3. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+4. **Sorting** and **filtering** using JavaScript
 	- in Zibaldone and The Jar: language and tag filter
 	- in Books: Sorting
-1. Improve `<noscript>`
+5. Improve `<noscript>`
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")
-8. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
-9. A script to check permalinks overlapping
+6. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
+7. A script to check permalinks overlapping
 
 <br>
 <br>

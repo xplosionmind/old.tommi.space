@@ -15,3 +15,7 @@ tags: todo
 - Parlare di determinate cose solo con determinate persone
 - La preoccupante tendenza allo smarmellamento in tv, anche dei programmi seri
 - Un nome più figo per la caccia al tesoro del FAI!
+- automate Wayback Machine backups
+	- recursive for every page of tommi.space
+	- where to do it from
+- https://daniele.tech/podcast/

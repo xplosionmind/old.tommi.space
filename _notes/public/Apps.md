@@ -1,6 +1,6 @@
 ---
 date: 2020-05-06
-updated: 2021-01-16
+updated: 2021-01-23T12:15:00.657645+01:00
 tags: geek
 aliases: ["Software", "Digital Tools"]
 image: "https://assets.tommi.space/images/apps.png"
@@ -60,7 +60,8 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [Jami](https://jami.net/ "Jami official website"), peer-to-peer unlimited video and voice communications. On paper it’s the go-to for everyone and I love it’s philosophy. Unfortunately, it still has a few bugs which make it impossible to use it regularly.
 - [Jitsi Meet](https://github.com/jitsi/jitsi-meet-electron), a video conferencing service which can be self-hosted. Since it should work only on Google Chrome browser, I installed the Electron-based app.
 - ~~[Joplin](https://joplinapp.org), basically it’s just a note-taking application, but it has **anything else** you can think of~~. Switched to Obsidian.
-- [Karabiner-Elements](https://karabiner-elements.pqrs.org/), keyboard remapping. I use it to swap the `esc` key with `CAPSLOCK`, for a better usability in vim.
+- ~~[Karabiner-Elements](https://karabiner-elements.pqrs.org/), keyboard remapping. I use it to swap the `esc` key with ⇪, for a better usability in vim~~. It's too complicated to configure and even using [Goku](https://github.com/yqrashawn/GokuRakuJoudo "Goku on GitHub") it's a mess. `⇪` can be remapped to `esc` from MacOS settings, without the need to install anything else.
+	- [Karabiner](https://wiki.nikitavoloboev.xyz/macos/macos-apps/karabiner "Karabiner on Nikita Voloboev's Wiki") page on [Nikita Voloboev's wiki](https://wiki.nikitavoloboev.xyz "Nikita Voloboev's wiki")
 - [KeePassXC](https://keepassxc.org "KeepassXC official website"), A community maintained fork of the popular discontinued [KeePassX](https://www.keepassx.org/ "KeePassX official website") application with more features and frequent updates.
 - [Keybase](https://keybase.io/ "Keybase"), a great secure messaging service.
 - ~~[LBRY](https://lbry.com/), the first digital marketplace to be controlled by the market's participants rather than a corporation or other 3rd-party. Basically, a healthier version of YouTube~~. I'm using [the web client](https://lbry.tv "LBRY TV") only, the app is not worth it.
@@ -116,17 +117,18 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [fzf](https://github.com/junegunn/fzf), a fuzzy finder which works in some way with Vim but I’m still figuring it out.
 - [gitupdate](https://github.com/nikitavoloboev/gitupdate "gitupdate source code on GitHub"), to commit and push updated files with file names as commit message
 - [massren](https://github.com/laurent22/massren), batch files renaming using a text editor (works great with vim). It’s developed by the same developer of Joplin
-- [ExifTool](https://exiftool.org/), an awesome and extremely useful little tool to edit almost anything in an image EXIF data. I use it to rename my images based on the date and time I shot them. [Here](https://github.com/xplosionmind/exiftool-cheatsheet)’s my Cheat Sheet, which I use myself to get things done, since I don’t remember ExifTool commands from time to time.
+- [ExifTool](https://exiftool.org/ "ExifTool"), an awesome and extremely useful little tool to edit almost anything in an image EXIF data. I use it to rename my images based on the date and time I shot them. [Here](https://github.com/xplosionmind/exiftool-cheatsheet)’s my Cheat Sheet, which I use myself to get things done, since I don’t remember ExifTool commands from time to time.
 - [yst](https://github.com/jgm/yst), create static websites from YAML data and string templates
-- [pandoc](https://pandoc.org/), a lovely swiss-army knife for document conversion. NOTE: I admire its genius creator, he’s a Philosopher developer whose name is [John MacFarlane](https://www.johnmacfarlane.net/)
-- [megacmd](https://mega.nz/cmd), a command-line tool to do actually anything with [Mega](http://mega.nz)
+- [pandoc](https://pandoc.org/ "Pandoc"), a lovely swiss-army knife for document conversion. NOTE: I admire its genius creator, he’s a Philosopher developer whose name is [John MacFarlane](https://www.johnmacfarlane.net/ "John MacFarlane's personal website")
+- ~~[megacmd](https://mega.nz/cmd "MEGA cmd"), a command-line tool to do actually anything with [Mega](http://mega.nz "MEGA")~~, not using MEGA anymore
 - [m-cli](https://github.com/rgcr/m-cli "m-cli source code on GitHub"), Swiss Army knife for MacOS
-- [nb](https://xwmx.github.io/), a CLI-based text editor. I'm still figuring out how to make it work
+- [nb](https://xwmx.github.io/ "nb documentation"), a CLI-based text editor. I'm still figuring out how to make it work
+- [tldr](https://tldr.sh "TL;DR"), a `man` crowd-sourced alternative made of super insightful examples
 - [rip](https://github.com/nivekuil/rip "rip source code on GitHub"), `rm` improved
 - [Subliminal](https://github.com/Diaoul/subliminal), a tool to download subtitles
 - [csvdiff](https://github.com/aswinkarthik/csvdiff "csvdiff source code on GitHub"), compare CSV files
 - [xsv](https://github.com/BurntSushi/xsv "xsv GitHub repository"), CSV management tool.
-- [you-get](https://you-get.org), to download stuff from the internet
+- <u class="wavy">[you-get](https://you-get.org "you-get"), to download stuff from the internet</u>
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl "youtube-dl source code"), a tool to download videos (and audios) from YouTube
 
 <br>
@@ -164,7 +166,8 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 - [F-Droid](https://f-droid.org/ "F-Droid"), a [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software "“FOSS on Wikipedia”") app store. My aim is to quit Google Play completely and just use this; [[Road to Internet Freedom|almost there]].
 - [FairEmail](https://email.faircode.eu/ "FairEmail"), the name says it all
 - [Fedilab](https://fedilab.app/ "Fedilab"), an Android client to post to the [Fedicerse](https://en.m.wikipedia.org/wiki/Fediverse), I use it for [Mastodon](https://joinmastodon.org/) and [Pixelfed](https://pixelfed.org/).
-- FeedMe
+- [Freezer](https://freezer.life "Freezer"), stream super high quality music from Deezer, for free
+- [FeedMe](https://play.google.com/store/apps/details?id=com.seazon.feedme "FeedMe on Google Play Store"), an RSS reader app which syncs with [Feedbin](https://feedbin.com "Feedbin")
 - [FiLMiC Pro](https://www.filmicpro.com/), a super powerful app to boost video shooting from the phone and tweak as much settings as possible. I paid for it and it’s not open source, because -unfortunately- [there’s no app like it](https://alternativeto.net/software/filmic-pro/?license=opensource).
 - I don’t care about bells and whistles while browsing on mobile, since I mostly read articles and quickly search stuff, one page at a time. Thus, I use [Firefox Focus](https://support.mozilla.org/en-US/kb/focus) as my main mobile browser: it’s extremely minimal, it has built-in tracking and ad blocking and it’s blazingly fast.
 - ~~[Firefox Send](https://send.firefox.com/), to send files up to 2.5GB, with server-side encryption. I hate to say it, but it’s not completely bug-free.~~ Project temporarily discontinued.

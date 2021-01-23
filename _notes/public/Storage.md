@@ -2,6 +2,8 @@
 date: 2020-12-24
 updated: 2021-01-20T16:23:31.132801+01:00
 tags: geek
+aliases: "Backup"
+redirect_from: ["/backup", "/backups"]
 ---
 ## Data loss
 
@@ -50,3 +52,10 @@ Let's point out my needs, my questions and doubts on the topic.
 	- is it secure? Are my private pictures somehow server-side encrypted?
 - Does it make sense to use my [Cubbit Cell](https://cubbit.io "Cubbit")'s 4TB for long-term picture storage?
 - Should I use portable Hard Disks, as the ones I already have, or internal hard disks to plug to [[Linuxplosion]]?
+
+<br>
+<br>
+
+## Resources
+
+- This [lecture on *Backups*](https://missing.csail.mit.edu/2019/backups/ "Backups - Missing Semester"), from MIT’s [Missing Semester](https://missing.csail.mit.edu/ "The Missing Semester") is useful to understand the reasoning behind safe backups. Note that what *The Missing Semester* evolves around is code, hence small if not tiny plain text files, while our interest is in huge amounts of data, such as high quality videos and images.

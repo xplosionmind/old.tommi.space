@@ -1,15 +1,14 @@
 ---
 date: 2020-05-07
-updated: 2021-01-03
+updated: 2021-01-22T23:01:26.132387+01:00
+tags: todo
 aliases: "Learning Resources"
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
 redirect_from: /risorse
 main: true
----
-<!--
 todo:
-- merge with [[Data]]
--->
+  - "merge with [[Data]]"
+---
 <div class="blue box">
 	Most of the things one could be looking for are very likely to be found in the <b>AWESOME</b> <a href="https://project-awesome.org" rel="noopener noreferrer" target="_blank" title="Project Awesome">Project Awesome</a>. I'm writing nothing about it, just go on the page and dive in the power of the internet.
 </div>
@@ -107,15 +106,23 @@ todo:
 <br>
 <br>
 
+## Various
+
+- [MIT OpenCourseWare](https://openlearning.mit.edu/courses-programs/mit-opencourseware "MIT OpenCourseWare"), a free, publicly accessible, openly-licensed digital collection of high-quality teaching and learning materials from @MIT, presented in an easily accessible format.
+- [*190 universities just launched 600 free online courses. Here’s the full list.*](https://www.classcentral.com/report/new-courses-october-2018/ "190 universities just launched 600 free online courses. Here’s the full list.")
+
+<br>
+<br>
+
 ## Free eBooks
 
-- [The Internet Archive](https://archive.org)
-- [The Gutenberg Proect](http://www.gutenberg.org)
+- [The Internet Archive](https://archive.org "The Internet Archive")
+- [The Gutenberg Proect](http://www.gutenberg.org "Project Gutenberg")
 - [Eureka ddl](https://eurekaddl.icu/ "Eureka ddl")
 - [Open Library](https://openlibrary.org/ "Open Library") (just to take e-books on loan)
 - [The Pirate Bay](https://thepiratebay.org "The Pirate Bay")
-- [Library Genesis](http://libgen.rs/)
-- [Academic Torrents](https://academictorrents.com/)
+- [Library Genesis](http://libgen.rs/ "Library Genesis")
+- [Academic Torrents](https://academictorrents.com/ "Academic Torrents")
 - [Textbook Nova](https://textbooknova.com)
 - [Manybooks](http://www.manybooks.net)
 - [Online Self Education](https://onlineselfeducation.com/) (registrations number is limited and access is allowed only to logged users)
