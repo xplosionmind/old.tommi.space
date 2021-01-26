@@ -1,7 +1,8 @@
 ---
 date: 2021-01-17T12:11:06.045451+01:00
-updated: 2021-01-22T22:58:34.965878+01:00
+updated: 2021-01-25T11:15:02.041892+01:00
 tags: geek wip todo
+aliases: ["Webmentions"]
 description: "Connecting the web through independent websites"
 redirect_from: ["/webmentions", "/indiewebify"]
 toc: false
@@ -36,6 +37,7 @@ toc: false
 - Setup [Webmention.io](https://webmention.io/ "Webmention")
 - Setup [Bridgy](https://brid.gy/ "Bridgy"), to connect your web site to social media.
 - Setup [twtxt](https://github.com/buckket/twtxt "twtxt source code on GitHub"), a decentralised, minimalist microblogging service for hackers.
+- [jekyll-webmention](https://github.com/aarongustafson/jekyll-webmention_io/ "jekyll-webmention_io on GitHub") plugin
 
 <br>
 <br>

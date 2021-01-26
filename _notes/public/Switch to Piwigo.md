@@ -46,7 +46,7 @@ Why quitting [Flickr](https://www.flickr.com "Flickr") and choosing [Piwigo](htt
 	1. I imported a lot of tags, which are meaningful in Flickr to improve SEO and public posts popularity, but in Piwigo they should have a practical focus. I deleted most of them and I kept the essential meaningful ones
 1. Evaluate which plugins are **actually** useful and which should be installed.
 2. **Customizing the CSS**: for a greater ease of use, I created a stylesheet hosted on <https://tommi.space/piwigo.css> which contains all of the rules I need, and I `@import` it in Piwigo's CSS. I customized everything on top on the dark version of the default theme, by making it match this website's design.
-3. Setting a **custom domain**: there is no option to do it automatically from the settings, so I sent an email to Piwigo support in order to make <https://tommi.piwigo.com> match <https://images.tommi.space>, then, from my DNS records, I created several CNAMEs such as <https://visions.tommi.space> or <https://gallery.tommy.space>, and they all point to the domain I wrote in the email
+3. Setting a **custom domain**: there is no option to do it automatically from the settings, so I sent an email to Piwigo support in order to make <https://tommi.piwigo.com> match <https://images.tommi.space>, then, from my DNS records, I created several CNAMEs such as <https://visions.tommi.space> or <https://gallery.tommi.space>, and they all point to the domain I wrote in the email
 
 <br>
 <br>

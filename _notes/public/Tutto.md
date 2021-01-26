@@ -2,9 +2,9 @@
 date: 2020-02-04
 updated: 2021-01-14
 tags: track
-aliases: "Di tutto e di più"
+aliases: ["Cose extended", "Tutte le cose", "Stuff extended", "Di tutto e di più"]
 lang: it
-redirect_from: ["/tuttopiu", "/stuff-extended", "/stuff-extended-it", "/stuff-extended/it", "/it/stuff-extended", "/everything"]
+redirect_from: ["/tuttopiu", "/cose-extended", "/stuff-extended", "/stuff-extended-it", "/stuff-extended/it", "/it/stuff-extended", "/everything"]
 main: true
 ---
 Dato che, per mia natura, sono una trottola che gira ovunque per fare tante (troppe) diverse cose 
@@ -50,7 +50,7 @@ Con e grazie a [Radioimmaginaria](/cose#radioimmaginaria) ho fatto la maggior pa
 - dal 23 al 31 agosto e dal 29 al 31 ottobre 2015, **EXPO Milano 2015**
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710391363066)
 	- [Foto da Radioimmaginaria](https://flic.kr/s/aHskmDM2RX)
-	- [Puntate](/rimm-db#EXPO-Milano-2015)
+	- [Puntate](/rimm-db#expo-milano-2015)
 - il 19 settembre 2015, la prima edizione di **<cite>Teen Parade</cite>**, a Castelguelfo di Bologna
 	- [Puntate](/rimm-db#teen-parade-2015)
 	- [Video](https://vimeo.com/radioimmaginaria/tparade2015)
@@ -181,7 +181,7 @@ A Giffoni non scatto mai molte foto, per questo, oltre a quelli molto scarni sul
 
 Tutto è partito da un progetto di classe per alternanza scuola-lavoro nel 2016, ma poi è diventato un amore vero per la musica d’autore e per tutti i fuori di testa del [Club Tenco](/cose#club-tenco) di Sanremo
 
-- il 27 maggio 2017, con la mia classe abbiamo ideato *[**Confusion in an old station**](https://www.flickr.com/photos/xplosionmind/albums/72157710756220461)*, durante cui abbiamo proiettato un nostro videoclip di [*Un Matto*](https://vimeo.com/tommiboom/unmatto), di Fabrizio De Andrè.
+- il 27 maggio 2017, con la mia classe abbiamo ideato *[**Confusion in an old station**](https://www.flickr.com/photos/xplosionmind/albums/72157710756220461)*, durante cui abbiamo proiettato un nostro videoclip di [*Un Matto*](https://vimeo.com/xplosionmind/unmatto), di Fabrizio De Andrè.
 	- I [dietro le quinte](https://www.flickr.com/photos/xplosionmind/albums/72157710733237203) di Un Matto
 	- stampa
 		- [Riviera 24](https://web.archive.org/web/20200613083824/http://www.riviera24.it/evento/confusion-in-an-old-station-in-mostra-le-opere-degli-studenti-del-liceo-cassini-di-sanremo/)

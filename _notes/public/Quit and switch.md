@@ -30,3 +30,5 @@ main: true
 - ~~Quit [IMDb](https://www.imdb.com/user/ur90419107/)~~ (switched to [The Movie Database](https://www.themoviedb.org/u/xplosionmind "My account on The Movie Database")) ✅ 2020.12.20
 - Consider switching from [Pocket](https://getpocket.com "Pocket") to a simple list of links in [[Ode to plain text|plain text]]
 - [[Quit Netflix]]
+- [[Switch to Darktable]]
+- [[Quit IMDb]]

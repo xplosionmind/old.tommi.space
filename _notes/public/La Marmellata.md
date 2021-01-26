@@ -34,5 +34,5 @@ Ogni elemento della Marmellata è connesso ad un altro: in fondo ad ogni nota, f
 	{% endfor %}
 </ul>
 <div class="flex row">
-	<a class="red button" style="color:white;" href="/whole-jar" rel="noopener noreferrer" target="_blank" title="The Whole Jar">Tutte le note</a>
+	<a class="red button" style="color:white;" href="/whole-jam" rel="noopener noreferrer" target="_blank" title="The Whole Jar">Tutte le note</a>
 </div>

@@ -37,13 +37,13 @@ Per il capodanno fra il 2017 e il 2018, trascorsi con alcuni amici qualche giorn
 
 Disperato, sono andato a cercare di nuovo il modello su ebay. 738$.
 
-[I miei occhiali, dopo qualche anno, su ebay](/images/2018-01-07-broken-sunglasses.jpg)
+[I miei occhiali, dopo qualche anno, su ebay]({{ site.images}}/2018-01-07-broken-sunglasses.jpg)
 
 <br />
 
 ### I Blackfin
 
-Ad aprile 2015, partecipai con [Radioimmaginaria](/tutto#radioimmaginaria) all’[International Radio Festival](https://www.facebook.com/irfradiofest/), tenutosi nell’[Unicredit Pavilion](https://it.wikipedia.org/wiki/IBM_Studios) in Piazza Gae Aulenti a Milano. È stato fighissimo e tutto quello che abbiamo fatto è raccolto [qui](/tutto+#radioimmaginaria).
+Ad aprile 2015, partecipai con [Radioimmaginaria](/tutto#radioimmaginaria) all’[International Radio Festival](https://www.facebook.com/irfradiofest/), tenutosi nell’[Unicredit Pavilion](https://it.wikipedia.org/wiki/IBM_Studios) in Piazza Gae Aulenti a Milano. È stato fighissimo e tutto quello che abbiamo fatto è raccolto [qui](/tutto#radioimmaginaria).
 
 C’erano un sacco stand di brand e radio molto importanti, fra cui quello di [Blackfin](https://www.blackfin.eu/). Io, come mio solito, mi aggiravo per il padiglione parlando con tutte le persone che incontravo, disturbando le dirette delle altre radio e facendo un sacco di rumore.
 
@@ -83,7 +83,7 @@ Presi l’abitudine di portare gli occhiali 24/7, e nei pochi momenti in cui non
 
 Con questa intelligentissima operazione, persi per ben due volte la stanghetta sinistra dei miei occhiali, la prima volta mi venne sostituita gratuitamente, la seconda volta non mi osavo nemmeno a entrare in negozio, così, la mamma trovò online un’occasione incredibile e comprammo in supersconto *Oakley II*. L’unico problema era che *Oakley II* aveva [montatura nera](https://www.oakley.com/en-ie/product/W0OO9013?variant=888392454690), *Oakley I*, invece, trasparente. Così, cominciai a girare con *Oakley I* e stanghette di colori diversi, ma dopo un po’ finii per indossare solo *Oakley II*.
 
-Filò tutto liscio per un po’ di tempo, ma, proprio quando abbassai la guardia, la sera in cui suonarono [gli Zen Circus a Balla coi Cinghiali](/images/2018-08-25-Zen-Circus-a-Balla-coi-Cinghiali.mov) (esattamente dopo la canzone del video, quando la gente cominciò a pogare), gli occhiali mi caddero e finirono per terra, calpestati un sacco di volte dalla folla. Persi una stanghetta, ma tutto ciò che rimase era graffiato e rovinato.
+Filò tutto liscio per un po’ di tempo, ma, proprio quando abbassai la guardia, la sera in cui suonarono [gli Zen Circus a Balla coi Cinghiali]({{ site.images }}/2018-08-25-Zen-Circus-a-Balla-coi-Cinghiali.mov) (esattamente dopo la canzone del video, quando la gente cominciò a pogare), gli occhiali mi caddero e finirono per terra, calpestati un sacco di volte dalla folla. Persi una stanghetta, ma tutto ciò che rimase era graffiato e rovinato.
 
 Fu la fine della dinastia *Oakley*.
 

@@ -17,7 +17,7 @@ main: true
 <br />
 
 {% for idol in site.data.people %}
-	<h2 class="title">{{ idol.name }}</h2>
+	<h2 id="{{ idol.name | slugify }}" class="title">{{ idol.name }}</h2>
 	<a href="{{ idol.link }}" rel="noopener noreferrer" target="_blank"><figure><img src="{{ idol.img }}" title="{{ idol.name }}" alt="A photo portraying {{ idol.name }}" /></figure></a>
 	<p>{{ idol.description }}</p>
 	<br />

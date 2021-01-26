@@ -24,7 +24,7 @@ layout: wrapper
 			{% if page.description != nil %}
 				<p>{{ page.description | markdownify }}</p>
 			{% endif %}
-			{% include anchor-parser.html html=content %}
+			{% include anchor-parser.html html=content anchorBody="#" anchorClass="anchor" %}
 		</article>
 	</div>
 

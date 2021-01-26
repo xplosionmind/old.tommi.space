@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-updated: 2021-01-20
+updated: 2021-01-26T11:02:25.635756+01:00
 tags: geek
 aliases: ["Cheat Sheet"]
 description: "I use tech devices a lot, maybe too much, but I don’t dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
@@ -15,13 +15,13 @@ redirect_from: ["/cheatsheet", "/cheatsheets", "/cheat-sheet"]
 Useful [terminal](https://www.wikiwand.com/en/Terminal "Terminal on Wikipedia") commands
 
 change screenshot format
-```
+```sh
 defaults write com.apple.screencapture type jpg
 killall SystemUIServer
 ```
 
 build a Jekyll website and deploy it
-```
+```sh
 #!/bin/bash
 
 JEKYLL_ENV=production bundle exec jekyll build
@@ -37,12 +37,25 @@ zip -r -X archive-name.zip folder-to-compress
 
 ### `sd`
 
-[`sd`](https://github.com/chmln/sd "sd source code") is a wonderful command-line tool to find and replace sub-strings in files
+[`sd`](https://github.com/chmln/sd "sd source code") is a wonderful command-line tool to find and replace sub-strings in files. Its original version is `sed`, which comes by default in shell.
 
 Replace `foo` with `bar` in all files inside pwd:
 ```sh
 sd "foo" "bar" ./*
 ```
+
+<br>
+
+### HTML proofer
+
+[HTML proofer](https://github.com/gjtorikian/html-proofer "HTML proofer GitHub repository") is a Ruby script to check HTML quality of a local folder. It can both be used as a library and as [a command line tool](https://github.com/gjtorikian/html-proofer#using-on-the-command-line "Using HTML Proofer in the command line").
+
+basic check of a Jekyll website
+```sh
+bundle exec htmlproofer --assume-extension --allow_hash_href --check_favicon --check_opengraph --check_html --check_img_http --http_status_ignore 429 --url_ignore '#!' --checks_to_ignore '#!' --report_eof_tags --report_invalid_tags --report_mismatched_tags --report_missing_names --report_script_embeds /Users/xplosionmind/tommi.space/\_site # --report_missing_doctype
+```
+
+See [HTML Proofer \> Configuration](https://github.com/gjtorikian/html-proofer#configuration "HTML Proofer Configuration") for the complete parameters list.
 
 <br>
 

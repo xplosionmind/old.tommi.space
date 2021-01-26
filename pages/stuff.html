@@ -20,14 +20,14 @@ ref: stuff
 		<h3>Table of contents</h3>
 		<ul>
 			{% assign stuff=site.data.stuff %}
-			<li><a href="#current">Ongoing stuff</a>
+			<li>Ongoing stuff
 				<ul>
 					{% for thing in stuff %}{% if thing.current == '1' %}
 					<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>
 					{% endif %}{% endfor %}
 				</ul>
 			</li>
-			<li><a href="#previous">Previous stuff</a>
+			<li>Previous stuff
 				<ul>
 					{% for thing in stuff %}{% unless thing.current == '1' %}
 						<li><a href="#{{ thing.title | slugify }}">{{ thing.title }}</a></li>

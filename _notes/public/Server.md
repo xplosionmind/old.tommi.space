@@ -63,10 +63,10 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 Useful server apps or services I haven’t installed yet, in order of urgency and importance.
 
 1. [Firefly III](https://www.firefly-iii.org "Firefly III"), a personal finance management tool
-4. [Mailtrain](https://mailtrain.org) or, alternatively, [listmonk](https://listmonk.app), newsletter managers
+4. [Mailtrain](https://github.com/Mailtrain-org/mailtrain "Mailtrain on GitHub") or, alternatively, [listmonk](https://listmonk.app), newsletter managers
 5. [Mail server](#mail-server)
 7. ~~[Feedbin](https://feedbin.com "Feedbin official website"), arguably, the best RSS reader ou there~~. I wrote an email to them and they offered me a student free account, hosted by them.
-8. [Fediverse](https://fediverse.network/) platforms
+8. [Fediverse](https://fediverse.party) platforms
 10. [Huginn](https://github.com/huginn/huginn "Huginn repository on GitHub"), an IFTTT Alternative
 
 <br>
@@ -74,8 +74,8 @@ Useful server apps or services I haven’t installed yet, in order of urgency an
 
 ## General knowledge
 
-- [Apache for beginners](https://www.wired.com/2010/02/Apache_for_Beginners/ "Apache for Beginners on WIRED")
-- [Be Your Own Open ID Provider](https://www.wired.com/2010/02/Be_Your_Own_OpenID_Provider/ "Be Your Own Open ID Provider - WIRED")
+- [Apache for beginners](https://web.archive.org/web/20161227005904/https://www.wired.com/2010/02/Apache_for_Beginners "Apache for Beginners on WIRED")
+- [Be Your Own Open ID Provider](https://web.archive.org/web/20161227023027/https://www.wired.com/2010/02/Be_Your_Own_OpenID_Provider "Be Your Own Open ID Provider - WIRED")
 
 <br>
 <br>

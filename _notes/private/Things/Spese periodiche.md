@@ -13,12 +13,17 @@ aliases: ["Abbonamenti", "Iscrizioni", "Subscriptions", "Payments", "Periodic ex
 | [Contabo](https://my.contabo.com/account/payment "Contabo payments")                              | 2020.06.01 | 2022.27.11 |
 | [AnonAddy](https://app.anonaddy.com/settings/subscription "AnonAddy Subscription settings")       | 2020.09.13 | 2021.09.13 |
 | [Iliad](https://www.iliad.it/account/ "Iliad account")                                            | 2018.07.29 | ∞          |
-| Abbonamento Tenco                                                                                 |            |            |
-| Abbonamento LIBERA                                                                                |            |            |
+
+### Associazioni
+
+| Associazione | from | to  |
+| ------------ | ---- | --- |
+| Club Tenco   | +++  | +++ |
+| Libera       | +++  | +++ |
 
 <br>
 
-## 2020
+## Previous
 
 | Provider                                                                                              | from       | to         |
 | :---------------------------------------------------------------------------------------------------- | :--------- | :--------- |
@@ -26,3 +31,4 @@ aliases: ["Abbonamenti", "Iscrizioni", "Subscriptions", "Payments", "Periodic ex
 | [Il Post](https://abbonati.ilpost.it/mio-account/view-subscription/58259/ "Il Post - il mio account") | 2020.01.08 | 2021.01.08 |
 | [Vimeo](https://vimeo.com/settings/billing/purchases "Vimeo purchases")                               | 2019.12.02 | 2020.12.02 |
 | [ProtonVPN](https://account.protonvpn.com/dashboard "ProtonVPN account dashboard")                    | 2020.02.03 | 2021.02.03 |
+| [Spotify](https://www.spotify.com/de/account/subscription/receipt/ "Spotify Receipts")                                            | 2019.06.11 | 2021.03.11 |

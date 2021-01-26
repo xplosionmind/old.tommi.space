@@ -18,7 +18,7 @@ redirect_from: ["/mailchimp", "/quitting-mailchimp", "/mailtrain"]
 
 ## Alternatives
 
-- [listmonk](https://listmonk.app) or [Mailtrain](https://mailtrain.org)
+- [listmonk](https://listmonk.app) or [Mailtrain](https://github.com/Mailtrain-org/mailtrain "Mailtrain on GitHub")
 - [awesome-emails](https://github.com/jonathandion/awesome-emails)
 
 <br>

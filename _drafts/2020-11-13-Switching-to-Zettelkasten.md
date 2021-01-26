@@ -9,7 +9,7 @@ This is bad, and it is the symptom of a broader problem, which is how I relate w
 
 So, after this long premise to frame the context of this article and my feelings prior to its conclusion, let's get to the point.
 
-I believe the most relevant problem, which makes everything else harder, if not impossible, is the case of **knowledge management**. I have [a dedicated jar item](/knowledge) containing a few insights about the topic, to which up to now I didn't pay much attention. Now, it's time to start using a great, brilliant system: **Zettelkasten**. More on the system later, let's focus of my current note-taking workflow, my necessities and my purpose.
+I believe the most relevant problem, which makes everything else harder, if not impossible, is the case of **knowledge management**. I have [a dedicated item in *The Jam*](/knowledge) containing a few insights about the topic, to which up to now I didn't pay much attention. Now, it's time to start using a great, brilliant system: **Zettelkasten**. More on the system later, let's focus of my current note-taking workflow, my necessities and my purpose.
 
 note: I'm writing this post *while* performing the transition, so what I'm writing is helpful also to me, helping me understand my detailed needs and scopes.
 {:.box}
@@ -26,7 +26,7 @@ I switched to [Joplin](https://joplinapp.org) after dropping Google Keep.
 
 In the meanwhile, I started university, and I had to take notes more seriously and find or develop a future-proof database system to maximize proficiency and uniformity. Unable to find the *perfect* solution that could completely satisfy me, I went by simply creating a markdown file for every new class, with the format `YYYY-MMM-DD.md`, each in a folder with the course name, and editing everything with [Zettlr](https://zettlr.com) or [Vim](https://vim.org).
 
-On top of note-taking, I recently redesigned my website, whose pages are all stored in plain markdown on my computer (I use [Jekyll](https://jekyllrb.com) as a [static site generator](https://staticgen.com)) and I've never been very happy that I couldn't integrate private Joplin content with [The Jar](/jar) content.
+On top of note-taking, I recently redesigned my website, whose pages are all stored in plain markdown on my computer (I use [Jekyll](https://jekyllrb.com) as a [static site generator](https://staticgen.com)) and I've never been very happy that I couldn't integrate private Joplin content with [The Jam](/jam) content.
 
 These dissatisfactions kept me skeptic about the durability and effectiveness of this system, and, while in love with the system I used and their philosophy, I couldn't help but thinking there might be a better solution.
 
@@ -63,7 +63,7 @@ one feature which made me stick with Google Keep before and Joplin later is the 
 
 ## The Zettelkasten approach
 
-Here we are. Now it's time to switch to [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), the great method invented and used by that genius of [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann). I won't focus on what it is and how it works, there are several great explanations which I listed in [the Zettelkasten Jar item](/zettelkasten).
+Here we are. Now it's time to switch to [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), the great method invented and used by that genius of [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann). I won't focus on what it is and how it works, there are several great explanations which I listed in [the Zettelkasten Jam item](/zettelkasten).
 
 ### Drawbacks
 

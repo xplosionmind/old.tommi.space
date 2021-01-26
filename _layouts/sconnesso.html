@@ -18,7 +18,7 @@ layout: wrapper
 				<source src='https://assets.tommi.space/assets/audio/{{ page.audio }}.wav'>
 			</audio>
 
-			{{ content }}
+			{% include anchor-parser.html html=content anchorBody="#" anchorClass="anchor" %}
 
 		</article>
 	</div>

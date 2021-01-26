@@ -1,13 +1,10 @@
 ---
 date: 2020-06-06
-updated: 2020-12-04
+updated: 2021-01-24T20:37:58.047380+01:00
 lang: it
 toc: false
-description: "Leggo e sento tante perole belle (oppure brutte ma con un gran significato) e ho paura di perderle oppure voglio segnarne l'importanza. Le segno qui."
+description: "Leggo e sento tante perole belle (oppure brutte ma con un gran significato) e ho paura di perderle, perciò le annoto qui."
 ---
-Gli eventuali numeri o lettere che seguono il link sono il significato specifico che mi interessa, la data corrisponde al momento in cui ho capito l'importanza di quella parola.
-{:.box}
-
 - 2015 - [gorgeous](https://dictionary.cambridge.org/dictionary/english/gorgeous)
 - 2019.10 - [yield](https://dictionary.cambridge.org/dictionary/english/yield)
 - 2020.06.06 - [onanismo](http://www.treccani.it/vocabolario/onanismo/), `3`
@@ -37,3 +34,4 @@ Gli eventuali numeri o lettere che seguono il link sono il significato specifico
 - 2020.12.04 [virtually](https://www.merriam-webster.com/dictionary/virtually)
 - 2020.12.12 [entail](https://www.merriam-webster.com/dictionary/entail)
 - 2020.12.19 [stigmatizzante](https://www.treccani.it/vocabolario/stigmatizzare/)
+- 2021.01.24 [oblivious](https://www.merriam-webster.com/dictionary/oblivious "“oblivious” on Merriam Webster dictionary") (from *[[Adaptation.]]*)

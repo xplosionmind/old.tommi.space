@@ -1,7 +1,6 @@
 ---
 date: 2017-06-04
-tags:
-  - Inchiostro Digitale
+tags: "Inchiostro Digitale"
 image: "https://assets.tommi.space/images/posts/2017-06-04-prima-di-scattare-pensa.jpg"
 ---
 È un attimo, un istante fulmineo che può passare alla storia o può essere dimenticato 0.1 secondi dopo averlo scattato. È quell’immagine che hai rincorso per tutta la vita, è la perfezione, oppure è l’ennesima, sfocata e -forse- senza senso.

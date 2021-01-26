@@ -3,10 +3,8 @@ date: 2020-04-18
 tags: geek, draft
 image: "https://assets.tommi.space/images/posts/2020-04-18-making-this-website.jpg"
 lang: en
-permalink: /themakingof
-redirect-from:
-  - /making-this-website
-  - /the-making-of
+permalink: /the-making-of
+redirect-from: ["/making-this-website", "/themakingof"]
 ref: genesi
 ---
 Building a website from scratch can be challenging. It took me several months of study, practice, tests and neverending headaches to get to this result. The process can be overwhelming (to me it definitely has been): there are tons of different tools, resouces and tutorials; nevertheless, it’s always **so hard** to spend the right amount of time learning something by evaluating its overall usefulness. Since the beginning, I chose to do **everything** by myself: I decided not to use any framework, <abbr title="Content Management System">CMS</abbr> or copy and paste any code I couldn’t understand.
@@ -26,7 +24,7 @@ Eventually, another point it’s worth making is that web develpement is **ridic
 
 ## The Beginning
 
-I had absolutely no idea where to start. My only notions of programming were some basic concepts of C, which I studied at University. I knew nothing about server management, HTML, CSS, JavaScript or web hosting. My <a href="https://xplosionmind.wixsite.com/xplosionmind" rel="noopener noreferrer" target="_blank">previous website</a> was created on <a href="https://wix.com" rel="noopener noreferrer" target="_blank">Wix</a> with a drag-and-drop <abbr title="Graphical User Interface">GUI</abbr> to build anything.
+I had absolutely no idea where to start. My only notions of programming were some basic concepts of C, which I studied at University. I knew nothing about server management, HTML, CSS, JavaScript or web hosting. My <a href="https://web.archive.org/web/20210101144927/https://xplosionmind.wixsite.com/xplosionmind" rel="noopener noreferrer" target="_blank" title="xplosionmind on Wix">previous website</a> was created on <a href="https://wix.com" rel="noopener noreferrer" target="_blank" title="Wix">Wix</a> with a drag-and-drop <abbr title="Graphical User Interface">GUI</abbr> to build anything.
 
 So, the first question I asked myself was:
 

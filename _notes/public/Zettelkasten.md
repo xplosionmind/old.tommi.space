@@ -1,6 +1,6 @@
 ---
 date: 2020-11-13
-updated: 2020-11-13
+updated: 2021-01-25T12:24:39.316841+01:00
 tags: zen
 aliases: ["Digital Garden", "Wiki"]
 description: "The best way to manage knowledge and ideas as well as memories and lecture notes: the ultimate digital brain database system."
@@ -10,7 +10,7 @@ main: true
 ---
 Zettelkasten is a system for storing and accessing notes invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann "Niklas Luhmann on Wikipedia"). I'm very fascinated by its underlying philosophy and approach which I'd love to take advantage of, but I'm still learning and it will take quite a lot of time to fully commit to it.
 
-[A full article about the topic](/switch-to-zettelkasten)
+[A full article about the topic](/switch-to-zettelkasten "Switching to Zettelkasten")
 
 <br>
 
@@ -35,6 +35,6 @@ Zettelkasten is a system for storing and accessing notes invented by [Niklas Luh
 
 - [Obsidian](https://obsidian.md), a fresh, recent, powerful and intriguing Zettlekasten-centered app.   
 It's not open source, there have been a lot of discussions about this, yet it's arguably the best.
-  - [Zettelkasten with Obsidian, a video](https://youtu.be/hGLVu4ODs0w)
-  - [A Zettelkasten about Zettelkasten in Obsidian](https://forum.obsidian.md/t/obsidian-zettelkasten/)
+	- [Zettelkasten with Obsidian, a video](https://youtu.be/hGLVu4ODs0w)
+	- [A Zettelkasten about Zettelkasten in Obsidian](https://forum.obsidian.md/t/obsidian-zettelkasten/)
 - [Neuron](https://neuron.zettel.page), a great open-source app to manage Zettelkasten notes from CLI.

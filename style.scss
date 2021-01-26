@@ -85,7 +85,7 @@ body {
 }
 
 * {
-	transition: var(--trans), transform var(--quicktrans), box-shadow var(--quicktrans);
+	transition: var(--trans), transform var(--quicktrans), box-shadow var(--quicktrans), text-shadow var(--quicktrans);
 	text-decoration-color: var(--transp-text) !important;
 }
 
@@ -340,10 +340,6 @@ hr {
 	}
 }
 
-.anchor {
-	height: var(--regular-more);
-}
-
 pre,
 code {
 	font: 400 1.1em var(--font-mono);
@@ -542,17 +538,15 @@ time {
 
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
-	display: block;
-	&:hover {
-		.anchor {
-			display: block;
-			position: absolute;
-			top: 50px;
-			right: 10px;
-		}
-	}
+	transition: var(--quicktrans);
 	.anchor {
-		display: none;
+		opacity: 0;
+	}
+	&:hover {
+		text-shadow: var(--header-shadow);
+		.anchor {
+			opacity: 1;
+		}
 	}
 }
 
@@ -575,6 +569,9 @@ h1 {
 
 h2 {
 	font-size: var(--bigger);
+	.anchor::after {
+		content: '#';
+	}
 }
 
 .box {

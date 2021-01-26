@@ -5,8 +5,8 @@ image: "https://live.staticflickr.com/4855/45948750785_f71661ac06_k.jpg"
 Alla nostra età (a libera interpretazione se mi stia riferendo alla mia generazione o se più narcisisticamente stia utilizzando un plurale maiestatis) sentiamo ripetutamente principalmente due grandi sentenze, per dirla alla Seneca, che rispecchiano due generali correnti di pensiero la cui esistenza è volta in maniera particolare a spronarci ed indirizzarci verso la direzione giusta che la nostra vita dovrebbe prendere o -teoricamente- ad aiutarci renderci consapevoli di dove noi in fondo vogliamo ci porti questo inesorabile cammino.<!--more-->
 
 <figure>
-  <img src="{{ page.image }}" alt="a dad looking after his kid at London Tate Museum for Modern Art in London, June 2018" />
-  <figcaption>a dad looking after his kid at London Tate Museum for Modern Art in London, June 2018</figcaption>
+	<img src="{{ page.image }}" alt="a dad looking after his kid at London Tate Museum for Modern Art in London, June 2018" />
+	<figcaption>a dad looking after his kid at London Tate Museum for Modern Art in London, June 2018</figcaption>
 </figure>
 
 La **prima**, a tutti comune e nata con l'umanità stessa, è quella pronunciata dai genitori:
@@ -21,7 +21,7 @@ in linea di massima, con le dovute declinazioni soggettive, il contenuto è quel
 Questo perché loro, avendoci generato, ci conoscono meglio di chiunque altro e considerano, amandoci profondamente, come una propria mancanza anche il nostro più piccolo fallimento; tuttavia il significato di questa parola può essere decisamente soggettivo.
 
 
-Ho controllato <a href="http://www.treccani.it/vocabolario/fallimento" rel="noopener noreferrer" target="_blank">sulla Treccani</a>, in fondo non mi dà torto:
+Ho controllato [sul Treccani](http://www.treccani.it/vocabolario/fallimento "“fallimento” sul vocabolario Treccani"), in fondo non mi dà torto:
 
 1b: la mancanza è nostra o di chi, giudicandoci, ritiene tale una nostra qualunque qualità?
 
@@ -35,7 +35,7 @@ La **seconda**, esiste da sempre, come la prima, ma nella forma di cui parlo ade
 _segui i tuoi sogni, non farti scoraggiare, credi in ciò che fai_
 
 
-fondamentalmente, anche in questo caso, il succo è questo. Il massimo esempio: [Casey Neistat](https://youtu.be/jG7dSXcfVqE), ma ci sono anche tutti gli altri: <a href="https://youtu.be/lDfu8pA8tlo?t=541" rel="noopener" target="_blank">tony Hawk</a>, ... (dopo la virgola ho perso un botto di tempo a cercare altri video che mi ricordo di aver visto che dicono parole simili ma non li trovo, ce n'è infiniti di HumanSafari, Favij & company)
+fondamentalmente, anche in questo caso, il succo è questo. Il massimo esempio: [Casey Neistat](https://youtu.be/jG7dSXcfVqE "Do what you can't"), ma ci sono anche tutti gli altri: <a href="https://youtu.be/lDfu8pA8tlo?t=541" rel="noopener" target="_blank">tony Hawk</a>, … (dopo la virgola ho perso un botto di tempo a cercare altri video che mi ricordo di aver visto che dicono parole simili ma non li trovo, ce n'è infiniti di HumanSafari, Favij & company)
 
 
 Ora, è davvero facile dirci quando stiamo sbagliando.
@@ -58,18 +58,13 @@ Eh no. Non così fece il grande Svevo che, durante la Prima Guerra Mondiale, all
 
 E io, adesso, a 18 anni, se mi dicono che nella vita sarò un grande pallanuotista, ma amo profondamente le biglie, come faccio a dire loro che a 37 anni potrei diventare il campione mondiale di biglie?
 
-
 Come fanno le persone a dire cosa è buono, cosa non è sicuro, cosa non sarebbe il caso di fare, cosa ci renderà felici, cosa non saremo in grado di affrontare?
-
 
 Essere distratti, avere la testa fra le nuvole, dimenticarsi tutto, fare troppe cose male, essere stonati, mettere scarpe di due colori diversi, cercare continuamente nonostante non si sappia cosa, correre <a href="https://youtu.be/QgnJ8GpsBG8" rel="noopener norererrer" target="_blank">senza meta</a>, rompere le cose, <a href="https://it.wikisource.org/wiki/I_Manifesti_del_futurismo/Manifesto_tecnico_della_letteratura_futurista" rel="noopener noreferrer" target="_blank">scrivere male cose senza senso</a>, avere scarsi risultati a scuola sono comunemente difetti, particolarità che facilmente vengono viste con accezione negativa, che tendono ad essere **corrette**, che fanno storcere il naso.
 
-
 Ma, eccetto <a href="https://www.amazon.it/Viaggio-nel-tempo-Ediz-illustrata/dp/8838473463/ref=sr_1_1?s=books&ie=UTF8&qid=1548350769&sr=1-1&keywords=Viaggio+nel+Tempo+1+Geronimo+Stilton" rel="noopener noreferrer" target="_blank">Geronimo Stilton</a> e gli <a href="https://youtu.be/CkwnU47TZ1M" rel="noopener noreferrer" target="_blank">Eugenio in Via di Gioia</a>, chi può dire che nel 2050 il mestiere più prestigioso non sarà il "tuttofare incasinato", che la facoltà più ambita non sarà "deconcentrazione" o che il futuro del mondo non sarà nella ricerca scientifica, matematica o filosofica, ma nella sola <a href="http://tuttiascuola-padova.blogautore.repubblica.it/2016/11/21/cercare-con-il-lanternino-2/" rel="noopener noreferrer" target="_blank">Riverca</a>?
 
-
-Tutti, ovviamente, dicevano che <a href="https://www.google.com/search?q=Kandinskij&newwindow=1&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiR-9-Y-obgAhUIz4UKHS67BSkQ_AUIDigB&biw=1440&bih=821" rel="noopener noreferrer" target="_blank">certi quadri</a> li poteva fare chiunque, che <a href="https://www.highly.co/hl/1B871CYM50rNXa" rel="noopener noreferrer" target="_blank">certa gente</a> era matta, che [un altro era un genio e non andasse ascoltato](!#) o che lo scopo della musica [non è quello di far ridere](!#).
-
+Tutti, ovviamente, dicevano che <a href="https://www.google.com/search?q=Kandinskij&newwindow=1&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiR-9-Y-obgAhUIz4UKHS67BSkQ_AUIDigB&biw=1440&bih=821" rel="noopener noreferrer" target="_blank">certi quadri</a> li poteva fare chiunque, che <a href="https://www.highly.co/hl/1B871CYM50rNXa" rel="noopener noreferrer" target="_blank">certa gente</a> era matta, che [un altro era un genio e non andasse ascoltato](#!) o che lo scopo della musica [non è quello di far ridere](#!).
 
 Però, tutto e tutti dimostrano che non c'è giusto o sbagliato. Che non si deve fare nulla, che si può fare tutto, che solamente crederci non basta, che fallire non vuol dire aver definitivamente fallito, che essere disprezzati vuol dire essere nel torto.
 

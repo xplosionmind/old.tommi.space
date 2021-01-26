@@ -1,6 +1,6 @@
 ---
 date: 2020-05-06
-updated: 2021-01-23T12:15:00.657645+01:00
+updated: 2021-01-25T07:53:33.893935+01:00
 tags: geek
 aliases: ["Software", "Digital Tools"]
 image: "https://assets.tommi.space/images/apps.png"
@@ -35,7 +35,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - ~~[BlackHole](https://blackhole.run/), to share any file. Fast and private. Based on [Blockstack](https://blockstack.org/).~~ It's useless.
 - ~~[Blockstack](https://blockstack.org/), ideally, it’s something **awesome**, definitely game-changing.~~ Practically, it doesn’t work on my Mac (I tried <a href="https://forum.blockstack.org/t/cant-use-any-dapp/10628" rel="noopener noreferrer" target="_blank">everything</a>). I uninstalled and I’m not using it, then.
 - [Clean Me](https://kevin-de-koninck.github.io/Clean-Me "Clean Me official website"), an Open Source, better, neat and perfectly working alternative to CCleaner written in Swift.
-- [Comma Chamelon](https://comma-chamelon.io), editing CSV files.
+- [Comma Chamelon](https://comma-chameleon.io "Comma Chamelon"), editing CSV files.
 - [CopyQ](https://hluk.github.io/CopyQ/), a clipboard history recorder, which keeps a record of all copied text and items. It saved my life several times
 - ~~[Darktable](https://www.darktable.org/ "Darktable official website"), widely used (still, not the first option for pros) photo editing software. I wish I’d love it but, damn, it’s so friggin complicated~~. Using Lightroom. I'm sorry, but it simpler, faster, nicer.
 - ~~[Digikam](https://www.digikam.org/ "Digikam official website"), a photo management software~~. I don't have time to learn it and it isn't so essential.
@@ -49,14 +49,14 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [FreeTube](https://freetubeapp.io "FreeTube official website"), a private, simple, nice desktop client for YouTube.
 - ~~[GIMP](https://www.gimp.org/)</a>, photo manipulation and editing software. Better known as the Photoshop free alternative, it’s full of resources and it misses almost no feature, but it’s so so so messed up and confusing (as Photoshop is). Too much stuff in too many different places.~~ I tried as hard as I could, but it was too stressful. Back to Photoshop
 - [GitHub Desktop](https://desktop.github.com/), to easily manage stuff when GitUp and git from terminal don’t make sense.
-- [GitUp](http://gitup.co "GitUp official website"), the best GUI interface for git.
+- [GitUp](https://gitup.co "GitUp official website"), the best GUI interface for git.
 - [Get It](https://github.com/Kevin-De-Koninck/Get-It), a GUI interface for `youtube-dl`. Basically, a tool to download videos from YouTube.
 - [Gifski](https://gif.ski "Gifski official website"), to create GIFs
 - [GPG Keychain](https://gpgtools.org/keychain/index.html "GPG Suite homepage")</a>, to store and handle PGP Keys.
 - [HandBrake](https://handbrake.fr/ "HandBrake official website"), anythin you need to do with video files, it gets it done (in a short or eternal amount of time).
 - ~~[Hidden Bar](https://github.com/dwarvesf/hidden "Hidden Bar official page"), to hide itchy icons from the menu bar~~. If the status bar is set to be hidden automatically, it doesn’t make sense to hide icons inside it.
 - [Inkscape](https://inkscape.org/ "Inkscape official website"). Anything with graphics? Use this. I definitely love it.
-- [iTerm](http://iterm.sourceforge.net/ "iTerm official website"), a feature-packed terminal emulator.
+- [iTerm](https://iterm.sourceforge.net/ "iTerm official website"), a feature-packed terminal emulator.
 - [Jami](https://jami.net/ "Jami official website"), peer-to-peer unlimited video and voice communications. On paper it’s the go-to for everyone and I love it’s philosophy. Unfortunately, it still has a few bugs which make it impossible to use it regularly.
 - [Jitsi Meet](https://github.com/jitsi/jitsi-meet-electron), a video conferencing service which can be self-hosted. Since it should work only on Google Chrome browser, I installed the Electron-based app.
 - ~~[Joplin](https://joplinapp.org), basically it’s just a note-taking application, but it has **anything else** you can think of~~. Switched to Obsidian.
@@ -66,12 +66,12 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [Keybase](https://keybase.io/ "Keybase"), a great secure messaging service.
 - ~~[LBRY](https://lbry.com/), the first digital marketplace to be controlled by the market's participants rather than a corporation or other 3rd-party. Basically, a healthier version of YouTube~~. I'm using [the web client](https://lbry.tv "LBRY TV") only, the app is not worth it.
 - ~~[LibreOffice](https://www.libreoffice.org/ "LibreOffice official website"), the best open Office Suite.~~ for my needs, the default Apple office apps are more than enough. If I need a file in `.odt`, I export in `.docx` from Pages and I convert it in `.odt` with Pandoc.
-- ~~[MacDown](http://macdown.uranusjr.com/), a markdown editor which has everything I need. I don’t use it much since I have both Joplin and Vim to open and edit `.md` files, but it’s very lightweight and it’s handy to have an app to view and edit them on the fly.~~ using MacVim + Marked 2, instead.
+- ~~[MacDown](https://macdown.uranusjr.com/), a markdown editor which has everything I need. I don’t use it much since I have both Joplin and Vim to open and edit `.md` files, but it’s very lightweight and it’s handy to have an app to view and edit them on the fly.~~ using MacVim + Marked 2, instead.
 - [MacVim](https://macvim-dev.github.io/macvim/ "MacVim official website"), gvim for MacOS. pretty nice to edit files on the go.
 - ~~[MEGAsync](https://mega.nz/sync "MEGAsync official page"), the synchronization app for [MEGA](https://mega.nz "MEGA official website") Cloud service.~~ I'm not using anymore. Nextcloud + Cubbit only.
-- [NetNewsWire](https://ranchero.com/netnewswire/ "NetNewsWire official website"), the best [RSS reader](https://www.wikiwand.com/en/Comparison_of_feed_aggregators "“Comparison of Feed aggregators” on Wikipedia") ever. I sync it with [Feedbin](https://feedbin.com "Feedbin").
+- [NetNewsWire](https://ranchero.com/netnewswire/ "NetNewsWire official website"), the best [RSS reader](https://www.wikiwand.com/en/Comparison_of_feed_aggregators "“Comparison of Feed aggregators” on Wikipedia") ever. I sync it with the awesome [Feedbin](https://feedbin.com "Feedbin").
 - [Nextcloud](https://nextcloud.com/ "Nextcloud official website") desktop client.
-- ~~[OmegaT](http://www.omegat.org/), a translation memory application written in Java. I use it to translate [MDN](https://mdn.dev/) articles for Mozilla Italia.~~ I don’t use it that much
+- ~~[OmegaT](https://omegat.org "OmegaT"), a translation memory application written in Java. I use it to translate [MDN](https://mdn.dev/) articles for Mozilla Italia.~~ I don’t use it that much
 - [Obsidian](https://obsidian.md "Obsidian official website"), the best markdown-based knowledge management software ever!
 - [OnionShare](https://onionshare.org "OnionShare official website"). Stop using WeTransfer! Use this.
 - ~~[ONLYOFFICE](https://www.onlyoffice.com/), the office provider I use, synced with [my Nextcloud instance](https://cloud.tommi.space)~~ LibreOffice is enough
@@ -79,7 +79,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [OpenVPN Connect](https://openvpn.net/download-open-vpn/ "OpenVPN clients"), the desktop client for [OpenVPN](https://openvpn.net "OpenVPN official website"), which I host on [[Server|my server]].
 - [PDF Expert](https://pdfexpert.com "PDF Expert"), PDF Swiss Army knife. Not open source and quit pricey, but it does its job very well. I got it with a students' 30% discount.
 - [Pock](https://pock.dev/ "Pock official website"), to move the Dock in the Touch Bar.
-- [Pocket](https://getpocket.com "Pocket official website"), save articles for later. It’s not Open Source but I use it anyway because it’s owned by Mozilla (and [I love Mozilla](/stuff#Mozilla-Italia) and I have so many pages there that transferring them someplace else would be painfully annoying.
+- [Pocket](https://getpocket.com "Pocket official website"), save articles for later. It’s not Open Source but I use it anyway because it’s owned by Mozilla (and [I love Mozilla](/stuff#mozilla-italia) and I have so many pages there that transferring them someplace else would be painfully annoying.
 - [Protonmail Bridge](https://protonmail.com/bridge/ "ProtonMail Bridge"), an app which allows me to access and use my ProtonMail account from Apple Mail.
 - ~~[ProtonVPN](https://protonvpn.com/ "ProtonVPN official website"), a security-focused VPN developed by CERN scientists from the ProtonMail team. It’s free, but I pay for it, it’s a great service~~. Switched to self-hosted OpenVPN
 - [qBittorrent](https://qbittorrent.org/), the best and lightest torrent client you can find out there.
@@ -87,7 +87,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [Signal](https://signal.org/ "Signal official website"), the best encryption system in the world, easy and fast communication, plus, it’s owned by a non-profit. Thus, a healthier WhatsApp.
 - ~~[Skype](https://skype.com "Skype official website"), you know it. Proprietary software, [ouch](http://stallman.org/skype.html "Reasons not to use Skype, from Richard Stallman's blog").~~ Using alternative services only.
 - ~~[smcFanControl](https://github.com/hholtmann/smcFanControl), Control the fans of the Mac to make it run cooler~~. Not used it once.
-- ~~[Sozi](http://sozi.baierouge.fr), a presentation tool which uses SVG images to create zooming and panning animations. It’s astounding how cool it is.~~ Not much used.
+- ~~[Sozi](https://sozi.baierouge.fr), a presentation tool which uses SVG images to create zooming and panning animations. It’s astounding how cool it is.~~ Not much used.
 - [Spotify](https://www.spotify.com "Spotify official website"), to listen to music by paying and using propietary software. Any legal affordable solution? I can’t find one. I’m stuck with this.
 - [Sub It](https://github.com/Kevin-De-Koninck/Sub-It), a GUI interface for `Subliminal`, a tool to download movie subtitles ithout ads
 - [Telegram](https://telegram.org/ "Telegram official website"), WhatsApp on steroids. I wish the back-end software was Open Source, too.
@@ -108,9 +108,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 
 - [Homebrew](https://brew.sh/), MacOS package manager
 - [git](https://git-scm.com/), a <abbr title="Version Control Software">VCS</abbr> no one can live without.
-- [Vim](http://vim.org) is the best text editor in the world, and it’s more than that; it’s a philosophy, a lifestyle. Actually, it’s preinstalled on UNIX-based OSs, but I installed [Neovim](https://neovim.io) which is so great. I use it on a daily basis and I love it.
-	- [Vim casts](http://vimcasts.org/), the best video tutorials you can find
-	- [Practical Vim](https://pragprog.com/book/dnvim2/practical-vim-second-edition) a book - the best book you can find - on Vim, by the same creator of Vim Casts: [Drew Neil](http://drewneil.com/).
+- [Vim](https://www.vim.org "vim official website") is the best text editor in the world, and it’s more than that; it’s a philosophy, a lifestyle. Actually, it’s preinstalled on UNIX-based OSs, but I installed [Neovim](https://neovim.io "Neovim official website") which is so great. I use it on a daily basis and I love it. See [[Resources#vim]] for learning material.
 - [Animated QR code generator](https://github.com/sylnsfar/qrcode)
 - [Exposé](https://github.com/Jack000/Expose), a simple and beautiful static site generator for photoessays
 - [fd](https://github.com/sharkdp/fd "fd source code on GitHub"), `find` improved
@@ -120,7 +118,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [ExifTool](https://exiftool.org/ "ExifTool"), an awesome and extremely useful little tool to edit almost anything in an image EXIF data. I use it to rename my images based on the date and time I shot them. [Here](https://github.com/xplosionmind/exiftool-cheatsheet)’s my Cheat Sheet, which I use myself to get things done, since I don’t remember ExifTool commands from time to time.
 - [yst](https://github.com/jgm/yst), create static websites from YAML data and string templates
 - [pandoc](https://pandoc.org/ "Pandoc"), a lovely swiss-army knife for document conversion. NOTE: I admire its genius creator, he’s a Philosopher developer whose name is [John MacFarlane](https://www.johnmacfarlane.net/ "John MacFarlane's personal website")
-- ~~[megacmd](https://mega.nz/cmd "MEGA cmd"), a command-line tool to do actually anything with [Mega](http://mega.nz "MEGA")~~, not using MEGA anymore
+- ~~[megacmd](https://mega.nz/cmd "MEGA cmd"), a command-line tool to do actually anything with [Mega](https://mega.nz "MEGA")~~, not using MEGA anymore
 - [m-cli](https://github.com/rgcr/m-cli "m-cli source code on GitHub"), Swiss Army knife for MacOS
 - [nb](https://xwmx.github.io/ "nb documentation"), a CLI-based text editor. I'm still figuring out how to make it work
 - [tldr](https://tldr.sh "TL;DR"), a `man` crowd-sourced alternative made of super insightful examples
@@ -147,7 +145,7 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 [[Launcher|Here]] are my notes dedicated to choosing my phone's [launcher](https://en.wikipedia.org/wiki/Comparison_of_desktop_application_launchers "“Launchers” on Wikipedia").
 
 - ~~[AGESCI](https://play.google.com/store/apps/details?id=com.devextreme.Agesci.App.Mobile), to manage and check my [scouting](/stuff#scouting) camps and activities~~. I don't need an app for this.
-- [AndFTP](http://www.lysesoft.com/products/andftp/ "AndFTP official website"), to perform on-the-go FTP transfers to my server while. Not open source.
+- [AndFTP](https://www.lysesoft.com/products/andftp/ "AndFTP official website"), to perform on-the-go FTP transfers to my server while. Not open source.
 - [andOTP](https://github.com/andOTP/andOTP), [2FA](https://en.wikipedia.org/wiki/Multi-factor_authentication) app
 - [AnonAddy](https://anonaddy.com "AnonAddy official website"), mobile client for [AnonAddy](https://anonaddy.com "AnonAddy official website").
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io "AnySoftKeyboard official website"), simple, neat and lightweight yet feature-rich keyboard. Settings are a bit messy.
@@ -180,7 +178,7 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 - [Loop Habit Tracker](https://loophabits.org "Loop Habit Tracker"), to keep track of daily accomplishments. Feature requests and bugs are [here](/bugs#loop-habit-tracker)
 - [Hype](https://play.google.com/store/apps/details?id=it.hype.app&hl=it "Hype app on Google Play"), money stuff. Proprietary software. (Nevertheless, an [awesome service](https://www.hype.it/ "Hype official website"))
 - [Hourly Reminder](https://f-droid.org/en/packages/com.github.axet.hourlyreminder/), I often lose track of time and I get distracted very easily. This app helps a tiny little bit, reminding me time is flowing and I need to get things done!
-- I can’t chat with God, but sometimes I read what he says. I use [iBreviary](http://www.ibreviary.org/ "iBreviary official website") to do it. Non-free software.
+- I can’t chat with God, but sometimes I read what he says. I use [iBreviary](https://www.ibreviary.org/ "iBreviary official website") to do it. Non-free software.
 - [Image Editor](https://play.google.com/store/apps/details?id=com.pcvirt.ImageEditor "Image Editor on Google Play"), not open source, but it’s free. I love it. Basically, it’s an Android version of Photoshop. You can do **anything** to a photo with it.
 - [Imaging Edge Mobile](https://play.google.com/store/apps/details?id=com.sony.playmemories.mobile), to import images from [my Sony camera](https://www.sony.com/electronics/interchangeable-lens-cameras/ilce-6500-body-kit). I hould’ve said “quickly import”, but no, the process is itchy and annoying. Obviously, since the app is made by Sony to achieve this purpose, it’s nonfree software and I can’t find anything which works better. I’m bound to continue using it until I change my Camera brand (very unlikely).
 - [IO](https://io.italia.it/ "IO official website"), a curious open source app to manage public services in Italy. As of when I’m writing, it’s very new and I haven’t had any chance to use it yet.
@@ -194,7 +192,7 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 - [KISS Launcher](https://kisslauncher.com/ "KISS launcher official website"), as in **K**eep **i**t **s**imple and **s**tupid. I friggin’love it. It has [[Launcher|a dedicated note]] in The Jar.
 - [Konele](https://kaljurand.github.io/K6nele/ "Konele official website"), which offers speech-to-text user interfaces and services to other apps.
 - [LBRY](https://github.com/lbryio/lbry-android), same as on Mac.
-- [Librera Reader](http://librera.mobi/), ebook and PDF reader.
+- [Librera Reader](https://librera.mobi/), ebook and PDF reader.
 - [LibreSpeed](https://librespeed.org/), an open-source alternative to the ubiquitous ads-clumsed [Ookla Speedtest](https://www.speedtest.net/)
 - [Lightroom](https://play.google.com/store/apps/details?id=com.adobe.lrmobile), same as on Mac (grrr).
 - Manyverse
@@ -221,18 +219,15 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 - [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/), open source version of *Find my iPhone* for android
 - [Padland](https://github.com/mikifus/padland), to manage, share, remember and read Etherpad documents
 - PayPal
-- [Photographer’s notebook](https://bitbucket.org/sdraxler/photographers-notebook/wiki/Home), to note metadata of film photos shot with analog cameras, thus not recording anything except light.
 - PhoneTrack
 - [Piwigo](https://f-droid.org/en/packages/org.piwigo.android/ "Piwigo on F-Droid"), the app ain't great or perfect, but it accomplishes the most important tasks.
 - ~~[plees tracker](https://vmiklos.hu/plees-tracker/), a sleep tracking app~~. I forgot to note on the app my sleeping times, so it was useless.
 - [Pocket](https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro), same as on Mac
 - [Poet Assistant](https://f-droid.org/en/packages/ca.rmen.android.poetassistant/), A set of tools to help with writing poems. I’m not good, but I can use a little help.
 - [PosteID](https://posteid.poste.it/), to manage my virtual ID Card
-- ProtonCalendar
 - [ProtonMail](https://protonmail.com/), to get my emails from my ProtonMail accounts. I need to use ProtonMail’s app because of its emails’ encryption.
 - ~~[ProtonVPN](https://protonvpn.com/ "ProtonVPN")~~, same as on Mac
-- Radio24
-- [Rai Play](https://play.google.com/store/apps/details?id=it.rainet), RAI’s streaming service. ([RAI](http://www.rai.it/) is the [italian public television](https://en.wikipedia.org/wiki/RAI))
+- [Rai Play](https://play.google.com/store/apps/details?id=it.rainet), RAI’s streaming service. ([RAI](https://www.rai.it/) is the [italian public television](https://en.wikipedia.org/wiki/RAI))
 - [Red Moon](https://github.com/LibreShift/red-moon), a screen filter app for night time phone use
 - [Reddit](https://play.google.com/store/apps/details?id=com.reddit.frontpage), Reddit
 - Satispay
@@ -307,6 +302,6 @@ I don’t own an iPhone. If that day ever comes, these are the iOS-only apps I�
 
 - [Recall Photos](https://app.recall.photos/), decentralized Google Photos alternative
 - [Cineast](https://www.themoviedb.org/apps/58628749c3a3681a6204357a), IMDb alternative
-- [OpenWhyd](https://itunes.apple.com/fr/app/whyd-everyones-music-playlist/id874380201), Spotify alternative
+- [OpenWhyd](https://openwhyd.org "Openwhyd"), Spotify alternative
 - [Refining Fire](https://apps.apple.com/it/app/refining-fire/id1000982825), encouraging Bible verses when needed
 - [Writing Copy](https://workingcopyapp.com), handling GitHub repositories

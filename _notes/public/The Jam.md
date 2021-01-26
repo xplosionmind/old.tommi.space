@@ -18,7 +18,7 @@ I take all of these things and I make <cite>The Jam</cite> out of them.
 
 From this page, it's possible to start navigating in The Jam. There are two different ways to do this:
 - by topic—choosing a tag from the ones below
-- by clicking on one of the macro-notes (or <abbr title="Map Of Content">MOC</abbr></a>) and diving deeper and deeper in growingly branched notes.
+- by clicking on one of the macro-notes (or <abbr title="Map Of Content">MOC</abbr>) and diving deeper and deeper in growingly branched notes.
 
 Every single element in The Jam is connected to at least another one: at the end of every note, in the *backlinks*, are listed all of the pages which link to the current one.
 
@@ -36,5 +36,5 @@ Every single element in The Jam is connected to at least another one: at the end
 	{% endfor %}
 </ul>
 <div class="flex row">
-	<a class="red button" style="color:white;" href="/whole-jar" rel="noopener noreferrer" target="_blank" title="The Whole Jar">The Whole Jar</a>
+	<a class="red button" style="color:white;" href="/whole-jam" rel="noopener noreferrer" target="_blank" title="The Whole Jar">The Whole Jar</a>
 </div>

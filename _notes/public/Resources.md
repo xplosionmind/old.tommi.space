@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-updated: 2021-01-22T23:01:26.132387+01:00
+utdate: 2021-01-25T19:05:42.803455+01:00
 tags: todo
 aliases: "Learning Resources"
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
@@ -39,9 +39,9 @@ todo:
 
 ### vim
 
-- [Practical Vim](https://pragprog.com/book/dnvim/practical-vim) by Drew Neil
-- [VimCasts](http://vimcasts.org)
-- [Vim subreddit](https://www.reddit.com/r/vim/)
+- [Vim casts](https://vimcasts.org/ "Vim casts"), the best video tutorials you can find
+- [Practical Vim](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/ "Practical Vim, Second Edition") a book - the best book you can find - on Vim, by the same creator of Vim Casts: [Drew Neil](http://drewneil.com/).
+- [Vim subreddit](https://www.reddit.com/r/vim/ "r/vim")
 
 <br>
 
@@ -117,7 +117,7 @@ todo:
 ## Free eBooks
 
 - [The Internet Archive](https://archive.org "The Internet Archive")
-- [The Gutenberg Proect](http://www.gutenberg.org "Project Gutenberg")
+- [The Gutenberg Proect](https://www.gutenberg.org "Project Gutenberg")
 - [Eureka ddl](https://eurekaddl.icu/ "Eureka ddl")
 - [Open Library](https://openlibrary.org/ "Open Library") (just to take e-books on loan)
 - [The Pirate Bay](https://thepiratebay.org "The Pirate Bay")

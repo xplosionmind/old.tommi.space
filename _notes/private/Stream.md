@@ -19,3 +19,5 @@ tags: todo
 	- recursive for every page of tommi.space
 	- where to do it from
 - https://daniele.tech/podcast/
+- l'inconoscibilità e l'inafferrabilità del tutto
+- https://medium.com/sentien-blog/3-reasons-to-use-the-free-sentien-launcher-for-android-b258e13272c5

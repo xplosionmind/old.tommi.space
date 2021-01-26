@@ -4,26 +4,29 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 ---
 1. [[Images]]
 1. Integrate audios, albums and images in daily Zettelkasten system (unique images and audios links to be opened)
+1. Defining a threat model
+1. The matter of handling (large) attachments to Zettelkasten
+	- Any alternative to having to create a page for every new recording? (as with #analog)
 1. [[Website development]]
-1. [[Internet Freedom]]
-1. [bindle](https://github.com/xwmx/bindle) setup
-1.  a git repository in Jitsi `all.css`'s folder to merge updates with personal style
-1. Nextcloud
+2. [[Internet Freedom]]
+3. [bindle](https://github.com/xwmx/bindle) setup
+4.  a git repository in Jitsi `all.css`'s folder to merge updates with personal style
+5. Nextcloud
 	- social valuate long-term durability of Nextcloud
-1. <https://svgbox.net>
-2. Blogroll automation
+6. <https://svgbox.net>
+7. Blogroll automation
 	- https://rusingh.com/blogroll/
 	- https://jlelse.blog/dev/miniflux-blogroll
-3. Enrico Francese per microfono e config
-4. [[Bugs and Feature Requests]]
-5. scripts: performing a command for every file in a directory (e.g. converting separate documents in another format with pandoc, but keeping them separated.)
-6. https://gradient-avatar.glitch.me/xplosionmind
-7. https://urlint.co/integration/github.html
-8. https://www.onlinelifecalendar.com
-9. Update Flickr links in [[Tutto]]
-10. [Zoom H4 support](https://zoomcorp.com "Zoom official website")
-11. [[Missing Knowledge#Geek stuff|Learning geek stuff]]
-12. MacBook Pro color profile
+8. Enrico Francese per microfono e config
+9. [[Bugs and Feature Requests]]
+10. scripts: performing a command for every file in a directory (e.g. converting separate documents in another format with pandoc, but keeping them separated.)
+11. https://gradient-avatar.glitch.me/xplosionmind
+12. https://urlint.co/integration/github.html
+13. https://www.onlinelifecalendar.com
+14. Update Flickr links in [[Tutto]]
+15. [Zoom H4 support](https://zoomcorp.com "Zoom official website")
+16. [[Missing Knowledge#Geek stuff|Learning geek stuff]]
+17. MacBook Pro color profile
 
 <br>
 <br>
