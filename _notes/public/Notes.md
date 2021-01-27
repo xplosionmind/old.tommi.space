@@ -3,18 +3,19 @@ aliases: ["QSM", "Quit Social Media"]
 permalink: /quit-social-media
 redirect_from: ["/qsm-notes", "/quit-social-media-notes", "/appunti"]
 ---
-<div class="red box">
+<div class="yellow box">
 	Content in this page are random, pretty messed up and both in English and Italian, since these are quick notes for the website content creation.
 </div>
 
 <div class="box">
-	To-do list, progress status and purposes are tracked on the <a href="https://quitsocialmedia.club/roadmap" target="_blank">Roadmap</a>
+	To-do list, progress status and purposes of the project are tracked on the <a href="https://quitsocialmedia.club/roadmap" target="_blank">Roadmap</a>
 </div>
 
 <br>
 
 ## Content
 
+- Domain change?
 - [Cos'è il Free Software](https://www.gnu.org/philosophy/free-sw.it.html)
 - [Differenze fra Free Software e Open Source](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
 - hypothes.is tags with language
@@ -33,11 +34,8 @@ redirect_from: ["/qsm-notes", "/quit-social-media-notes", "/appunti"]
 - Ethical ads?
 - <https://okuna.io>
 - <https://www.facebook.com/help/250563911970368/?helpref=hc_fnav>
-- add donate button:
-```
-<script src="https://liberapay.com/tommi/widgets/button.js"></script>
-<noscript><a href="https://liberapay.com/tommi/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" /><a></noscript>
-```
+
+
 > The present treatise contains everything that I have been able to accomplish in this area. Not that I have attempted to collect here all the different arguments that could be put forward to establish the same results, for this does not seem worthwhile except in cases where no single argument is regarded as sufficiently reliable. What I have done is to take merely the principal and most important arguments and develop them in such a way that I would now venture to put them forward as very certain and evident demonstrations.
 
 <br>

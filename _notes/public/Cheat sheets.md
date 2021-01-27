@@ -35,6 +35,18 @@ Compress a file or a folder
 zip -r -X archive-name.zip folder-to-compress
 ```
 
+prevent sleep
+```sh
+caffeinate -i -t 3600
+```
+
+Change update interval
+```sh
+defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
+```
+
+<br>
+
 ### `sd`
 
 [`sd`](https://github.com/chmln/sd "sd source code") is a wonderful command-line tool to find and replace sub-strings in files. Its original version is `sed`, which comes by default in shell.

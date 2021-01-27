@@ -85,7 +85,7 @@ body {
 }
 
 * {
-	transition: var(--trans), transform var(--quicktrans), box-shadow var(--quicktrans), text-shadow var(--quicktrans);
+	transition: var(--trans), transform var(--quicktrans), box-shadow var(--quicktrans), text-shadow var(--quicktrans) text-decoration ease-in .1s;
 	text-decoration-color: var(--transp-text) !important;
 }
 
@@ -156,28 +156,13 @@ button,
 
 p,
 li,
-.toc,
+#toc,
 article .box:not(.tags) {
 	a {
 		font-weight: 500;
-		position: relative;
-		display: inline-block;
-		vertical-align: bottom;
-		&::after {
-			content: "👈🏼";
-			position: absolute;
-			padding: 0 5px;
-			left: 85%;
-			transition: var(--quicktrans);
-			text-shadow: 1px 1px 3px var(--background), 0 0 3px var(--background), -1px -1px 3px var(--background), 0 0 4px var(--background), 0 0 5px var(--background);
-			z-index: 1;
-			opacity: 0;
-		}
-		&:hover::after,
-		&:focus::after {
-			left: 100%;
-			opacity: 1;
-			transition: left var(--quicktrans);
+		&:hover {
+			text-decoration: underline var(--primary) 5px !important;
+			text-decoration-skip-ink: none;
 		}
 		&[href*="jam" i],
 		&[href*="marmellata" i] {
@@ -238,7 +223,7 @@ article .box:not(.tags) {
 }
 
 .user-mention {
-	padding: 0 7px;
+	padding: 0 4px;
 	border-radius: var(--radius-s);
 	background: var(--transp-text);
 	color: var(--background);
@@ -388,11 +373,11 @@ tr {
 
 th {
 	padding: var(--small) var(--regular-less);
-    
+
 	/* making the header sticky */
 	position: sticky;
-    top: 0;
-    background: var(--background);
+	top: 0;
+	background: var(--background);
 }
 
 td {
@@ -542,7 +527,7 @@ h1, h2, h3, h4, h5, h6 {
 	.anchor {
 		opacity: 0;
 	}
-	&:hover {
+	&:not(.title):hover {
 		text-shadow: var(--header-shadow);
 		.anchor {
 			opacity: 1;
@@ -574,6 +559,13 @@ h2 {
 	}
 }
 
+h3 {
+	font-size: var(--big);
+	.anchor::after {
+		content: '##';
+	}
+}
+
 .box {
 	max-width: 100%;
 	color: var(--text);
@@ -589,9 +581,10 @@ h2 {
 	h4 {
 		margin: 0;
 	}
-	li {
-		margin: var(--regular-less) 10% 0;
-	}
+}
+
+#toc {
+	padding: var(--big) 10%;
 }
 
 .stuff {
@@ -905,5 +898,8 @@ button,
 	}
 	.tool {
 		bottom: 3vh;
+	}
+	nav ul li a {
+		padding: 0 var(--regular-more);
 	}
 }

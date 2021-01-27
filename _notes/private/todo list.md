@@ -8,16 +8,16 @@ aliases: ["MOC", "Home", "to do", "todo"]
 1. [[To listen]]
 1. Regalo Vale Conta
 1. [[Sconnesso]]
-1. Retrieve first Radioimmaginaria article (check email)
 1. Writing
-	1. [[Will]]
-	2. Rewrite tommi.space's captions
-	3. Better [[Explanations]]
-	4. [[Lettera per la Partenza]]
-	5. [[Lettera a mamma e papà]]
-	6. tags “draft” and “writing”
-	7. [[Articles ideas]]
-	8. [[Writing ideas]]
+	1. [Quit Social Media](file:///Users/xplosionmind/quitsocialmedia.club/)
+	2. [[Will]]
+	3. Rewrite tommi.space's captions
+	4. Better [[Explanations]]
+	5. [[Lettera per la Partenza]]
+	6. [[Lettera a mamma e papà]]
+	7. tags “draft” and “writing”
+	8. [[Articles ideas]]
+	9. [[Writing ideas]]
 1. [[Geek todo|Geek stuff]]
 1. [[Missing Knowledge|Learn]]
 	- [[Music]]

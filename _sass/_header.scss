@@ -130,7 +130,8 @@ nav {
 	}
 	.nav-list {
 		position: fixed;
-		top: var(--mastodon);
+		min-width: 50vw;
+		top: 5rem;
 		right: -500px;
 		background: var(--background);
 		box-shadow: var(--shadow);
@@ -143,7 +144,7 @@ nav {
 
 .open-menu {
 	.nav-list {
-		right: var(--small);
+		right: 3vh;
 		transition: .5s;
 	}
 	 .nav-mobile span {

@@ -1,5 +1,9 @@
 ---
 ---
+- [ ] Sapone faccia
+- [ ] Candeggina
+- [ ] Guanti
+- [ ] Sapone piatti
 - [ ] The
 - [ ] fette biscottate
 - [ ] mozzarella
