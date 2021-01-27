@@ -13,7 +13,11 @@ layout: wrapper
 	<div class="row">
 		<article class="e-content note{% if page.serif == true %} serif{% endif %}">
 
-			{{ content | toc }}
+			{% if page.toc %}
+				<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+				{% include toc.html html=content sanitize=true id="toc" %}
+			{% endif %}
+
 
 			<br />
 			<br />

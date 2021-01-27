@@ -156,7 +156,6 @@ button,
 
 p,
 li,
-#toc,
 article .box:not(.tags) {
 	a {
 		font-weight: 500;
@@ -584,7 +583,7 @@ h3 {
 }
 
 #toc {
-	padding: var(--big) 10%;
+	padding: 0 10%;
 }
 
 .stuff {

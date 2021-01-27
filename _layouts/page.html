@@ -10,7 +10,11 @@ layout: wrapper
 	<div class="row">
 		<article class="page">
 
-			{{ content | toc }}
+			{% if page.toc %}
+				<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+				{% include toc.html html=content sanitize=true id="toc" %}
+			{% endif %}
+
 
 			<br />
 			<br />
