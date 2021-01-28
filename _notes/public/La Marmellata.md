@@ -8,7 +8,7 @@ lang: it
 ref: jam
 toc: false
 ---
-Sul web viene comunemente chiamato [Digital Garden](https://dev.to/jbranchaud/the-digital-garden-l10 "The Digital Garden su DEV.to"), oppure può essere definito come *sistema [[Zettelkasten]]*. La mia, invece, è molto neno altisonante ed ambiziosa, ma frullat e gustosa. Si tratta di **una <a href="/marmellata" rel="noopener noreferrer" target="_blank" title="La Marmellata"><cite>Marmellata</cite></a>**.
+Sul web viene comunemente chiamato [Digital Garden](https://dev.to/jbranchaud/the-digital-garden-l10 "The Digital Garden su DEV.to"), oppure può essere definito come *sistema [[Zettelkasten]]*. La mia, invece, è molto neno altisonante ed ambiziosa, ma frullata e gustosa. Si tratta di **una <a href="/marmellata" rel="noopener noreferrer" target="_blank" title="La Marmellata"><cite>Marmellata</cite></a>**.
 
 Ci sono curiose scoperte e piccoli pensieri che voglio salvare prima che finiscano nel dimenticatoio, o nell'attesa che vengano riformulati in maniera migliore e raccontati ne <a href="/zibaldone" rel="noopener noreferrer" target="_blank" title="Zibaldone">Lo <cite>Zibaldone</cite></a>.
 

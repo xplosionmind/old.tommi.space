@@ -116,7 +116,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 - “blogroll”: a list of blogs which inspire me, see [Pawlean](https://pawlean.com/blogroll)
 - change mobile browser bar color
 - Color Jam items according to the belonging tag
-- Consider dropping Kramdown for better performance and use [CommonMark](https://github.com/jekyll/jekyll-commonmark "jekyll-commonmark plugin on GitHub") instead ✅ 2021.01.09
+- Consider dropping Kramdown for better performance and use [CommonMark](https://github.com/jekyll/jekyll-commonmark "jekyll-commonmark plugin on GitHub") instead ❌ (not working) 2021.01.09
 - custom selection color for text
 - customize 404 page
 - Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**

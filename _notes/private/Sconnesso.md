@@ -20,10 +20,6 @@ tags: draft
 ## Roadmap
 
 - submit RSS feed to
-	- [Apple Podcast](https://podcastsconnect.apple.com/my-podcasts/new-feed)
-		- <https://help.apple.com/itc/podcasts_connect/#/itcb54353390>
-		- <https://help.apple.com/itc/podcasts_connect/#/itc1723472cb>
-	- [Google Podcast](https://podcastsmanager.google.com)
 	- Soundcloud
 	- Bandcamp
 	- Funkwhale

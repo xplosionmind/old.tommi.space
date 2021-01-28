@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21
-updated: 2021-01-24T00:21:15.202180+01:00
+updated: 2021-01-28T12:22:55.367195+01:00
 tags: geek
 description: "A walktrough of the steps I executed to set up my server"
 ---
@@ -14,6 +14,10 @@ description: "A walktrough of the steps I executed to set up my server"
 ## General knowledge
 
 Resources, apps, tutorials and several knowledge sources are mentioned in the [[Server]] page.
+
+## Docker setup
+
+Please refer to [[Docker Server Setup]] to see how I re-deployed everything on my server through [Docker](https://www.docker.com "Docker").
 
 <br>
 <br>
@@ -37,6 +41,7 @@ sudo apt autoremove -y && sudo apt autoclean -y
 It’s always better not to work and setup stuff straight from root user, it’s easy to mess everything up and very risky if you’re not 100% sure of what you’re doing (for me, most of the time).
 
 add user
+
 ```sh
 adduser tommi # “tommi”, in this case, is the username
 ```
@@ -74,7 +79,7 @@ sudo ufw allow 'Apache'
 
 ### configure SSH Authentication Key-pair
 
-create [ssh](https://www.ssh.com/ssh/) folder to store allowed keys
+create [ssh](https://www.ssh.com/ssh/ "ssh.com") folder to store allowed keys
 ```
 mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
 ```
@@ -104,21 +109,32 @@ sudo vim /etc/ssh/sshd_config
 In this file, replace `#Port 22` with `Port 5522`
 
 after this, disable connections from port 22
-```
+
+```sh
 sudo ufw deny 22
 ```
 
 restart ssh
-```
+
+```sh
 sudo systemctl restart ssh
 ```
 
-<br />
+<br>
+
+### Disable root access
+
+```sh
+PermitRootLoogin no # was: yes
+```
+
+<br>
 
 ### Install git
 
-install [git](https://git-scm.com/)
-```
+install [git](https://git-scm.com/ "git official website")
+
+```sh
 apt install git
 ```
 
@@ -126,28 +142,33 @@ apt install git
 
 ### Install zsh
 
-install [zsh](https://www.zsh.org/)
-```
+install [zsh](https://www.zsh.org/ "zsh.org")
+
+```sh
 apt install zsh
 ```
 
 set zsh as default shell
-```
+
+```sh
 chsh -s /usr/bin/zsh root
 ```
 
 install zsh syntax highlighting
-```
+
+```sh
 apt install zsh-syntax-highlighting
 ```
 
-install [oh-my-zsh](https://ohmyz.sh/)
-```
+install [oh-my-zsh](https://ohmyz.sh/ "ohmyz.sh")
+
+```sh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 enable zsh syntax highlighting
-```
+
+```sh
 echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 ```
 
@@ -244,17 +265,17 @@ mysql> FLUSH PRIVILEGES;
 ### Install PHP
 
 Install [PHP](https://www.php.net/) modules
-```
+```sh
 sudo apt install php libapache2-mod-php php-mysql
 ```
 
 install Nextcloud dependencies
-```
+```sh
 sudo apt install php-curl php-dom php-gd php-json php-xml php-mbstring php-zip
 ```
 
 adjust `PHP.ini`
-```
+```sh
 sudo vim /etc/php/7.4/apache2/php.ini
 ```
 
@@ -271,37 +292,45 @@ date.timezone = Europe/Rome # or your timezone
 ### Install Nextcloud
 
 download Nextcloud and place it in the virtual host directory
-```
+
+```sh
 sudo cd /var/www/cloud.tommi.space/public_html && sudo wget https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip
 ```
 
 extract the downloaded package
-```
+
+```sh
 unzip nextcloud-18.0.4.zip
 ```
+
+<br>
 
 ### Install Let's Encrypt
 
 [Certbot](https://certbot.eff.org "Certbot by EFF") will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
-```
+
+```sh
 sudo apt install certbot python3-certbot-apache
 ```
 
 Enable port `443` instead of port `80`
-```
+
+```sh
 sudo ufw allow 'Apache Full'
 sudo ufw delete allow 'Apache'
 ```
 
 Generate TLS certificate
-```
+
+```sh
 sudo certbot --apache -d cloud.tommi.space -d www.cloud.tommi.space
 ```
 
 <br>
 
 Enable HTTP/2, and rewrite module
-```
+
+```sh
 sudo apt install php7.4-fpm
 sudo a2enmod proxy_fcgi
 sudo a2enconf php7.4-fpm
@@ -330,6 +359,7 @@ sudo a2enmod headers
 ```
 
 then, enable `.htaccess`
+
 ```sh
 sudo vim /etc/apache2/sites-available/cloud.tommi.space/cloud.tommi.space-le-ssl.conf
 ```
@@ -346,6 +376,7 @@ paste in `<VirtualHost *:443>`
 <br>
 
 restart Apache
+
 ```sh
 systemctl restart apache2
 ```
@@ -391,6 +422,7 @@ See the [[Cheat sheets#Nextcloud|Nextcloud Cheat Sheet]] for list of useful comm
 [installation guide](https://www.vultr.com/docs/install-jitsi-meet-on-ubuntu-20-04-lts "Jitsi Meet installation guide - Vultr")
 
 allow firewall for ports 100000 to 200000
+
 ```sh
 sudo ufw allow in 10000:20000/udp
 ```
@@ -423,12 +455,14 @@ echo "deb https://download.jitsi.org stable/"  | sudo tee -a /etc/apt/sources.li
 ```
 
 install Jitsi Meet
-```
+
+```sh
 sudo apt install -y jitsi-meet
 ```
 
 run and enable Certbot
-```
+
+```sh
 sudo sed -i 's/\.\/certbot-auto/certbot/g' /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 sudo ln -s /usr/bin/certbot /usr/sbin/certbot
 sudo /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
@@ -439,7 +473,8 @@ sudo /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 </div>
 
 last tweaks should be done in here
-```
+
+```sh
 sudo vim /etc/apache2/conf-enabled/security.conf
 ```
 
