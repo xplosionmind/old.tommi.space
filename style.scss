@@ -85,7 +85,7 @@ body {
 }
 
 * {
-	transition: var(--trans), transform var(--quicktrans), box-shadow var(--quicktrans), text-shadow var(--quicktrans) text-decoration ease-in .1s;
+	transition: var(--trans), transform var(--quicktrans), box-shadow var(--quicktrans), text-shadow var(--quicktrans);
 	text-decoration-color: var(--transp-text) !important;
 }
 
@@ -203,6 +203,112 @@ article .box:not(.tags) {
 		&[href*="unive.it" i] {
 			&::before {
 				content: "🎓 ";
+			}
+		}
+		&[href*="cinema" i],
+		&[href*="film" i] {
+			&::before {
+				content: "🎬 ";
+			}
+		}
+		&[href*="music" i] {
+			&::before {
+				content: "🎧 ";
+			}
+		}
+		&[href*="server" i] {
+			&::before {
+				content: "📟 ";
+			}
+		}
+		&[href^="/radio" i] {
+			&::before {
+				content: "📡 ";
+			}
+		}
+		&[href*="photography" i] {
+			&::before {
+				content: "📸 ";
+			}
+		}
+		&[href*="books" i] {
+			&::before {
+				content: "📚 ";
+			}
+		}
+		&[href^="/read" i] {
+			&::before {
+				content: "📖 ";
+			}
+		}
+		&[href*="zettelkasten" i],
+		&[href*="knowledge" i] {
+			&::before {
+				content: "🧠 ";
+			}
+		}
+		&[href^="/places" i] {
+			&::before {
+				content: "🗺 ";
+			}
+		}
+		&[href^="/dev" i] {
+			&::before {
+				content: "💻 ";
+			}
+		}
+		&[href^="/tutto" i] {
+			&::before {
+				content: "🤯 ";
+			}
+		}
+		&[href*="design" i] {
+			&::before {
+				content: "📐 ";
+			}
+		}
+		&[href^="/meta" i] {
+			&::before {
+				content: "👨🏻‍💻 ";
+			}
+		}
+		&[href*="quote" i] {
+			&::before {
+				content: "💬 ";
+			}
+		}
+		&[href^="/self" i] {
+			&::before {
+				content: "🧘🏻‍♂️ ";
+			}
+		}
+		&[href*="people" i] {
+			&::before {
+				content: "🕺🏻 ";
+			}
+		}
+		&[href*="quit" i],
+		&[href*="switch" i] {
+			&::before {
+				content: "🔄 ";
+			}
+		}
+		&[href*="blogroll" i],
+		&[href*="idea" i] {
+			&::before {
+				content: "💡 ";
+			}
+		}
+		&[href*="wish" i] {
+			&::before {
+				content: "🧞‍♂️ ";
+			}
+		}
+		&[href*="poetry" i],
+		&[href*="poem" i],
+		&[href*="poesi" i] {
+			&::before {
+				content: "🖋 ";
 			}
 		}
 		&[href^="/"],
@@ -387,10 +493,13 @@ td {
 .table {
 	max-height: 90vh;
 	overflow: scroll;
-	margin: var(--height) 2vw;
+	margin: var(--height) 3vw;
 	border: 3px solid var(--grey);
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
+	table {
+		width: 100%;
+	}
 }
 
 table {
@@ -728,11 +837,17 @@ button,
 	}
 }
 
+.listen-on,
+.filter-by, {
+	font-size: var(--bigger);
+	.button,
+	a {
+		margin-right: .7rem;
+	}
+}
+
 .listen-on {
 	background: var(--deep);
-	.button {
-		margin-right: .5rem;
-	}
 }
 
 #license {
@@ -786,6 +901,9 @@ button,
 }
 
 .tag {
+	p {
+		margin: var(--regular) 10%;
+	}
 	li {
 		margin-left: 4vw;
 	}

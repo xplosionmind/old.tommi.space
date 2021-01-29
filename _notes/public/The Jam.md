@@ -27,14 +27,21 @@ Every single element in The Jam is connected to at least another one: at the end
 <div class="yellow box">
 	The key feature which makes The Jam so effective and powerful is the connection among different thoughts. For this reason, in the same jar which contains this The Jam there are several different private and intimate notes. You may encounter links which look [[like this]], you can't click on them, it's totally normal since they're only privately available to me.
 </div>
+
+<div class="flex row">
+	<a class="red button" style="color:white;" href="/whole-jam" rel="noopener noreferrer" target="_blank" title="The Whole Jam">The Whole Jam</a>
+</div>
+
+{% include filter-lang.html %}
+
 <ul>
 	{% assign jam = site.notes %}
 	{% for note in jam %}
 		{% if note.main %}
-			<li><a href="{{ note.url }}">{{ note.title }}</a> - {% if note.description %}{{ note.description | markdownify | strip_html | truncatewords: 30 }}{% else %}{{ note.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
+			<li lang="{{ note.lang }}"><a href="{{ note.url }}" lang="{{ note.lang }}">{{ note.title }}</a> - {% if note.description %}{{ note.description | markdownify | strip_html | truncatewords: 30 }}{% else %}{{ note.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
 		{% endif %}
 	{% endfor %}
 </ul>
 <div class="flex row">
-	<a class="red button" style="color:white;" href="/whole-jam" rel="noopener noreferrer" target="_blank" title="The Whole Jar">The Whole Jar</a>
+	<a class="red button" style="color:white;" href="/whole-jam" rel="noopener noreferrer" target="_blank" title="The Whole Jam">The Whole Jam</a>
 </div>

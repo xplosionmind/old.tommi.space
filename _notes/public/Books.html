@@ -17,9 +17,16 @@ main: true
 			width: 7rem
 		}
 </style>
+<script src="/sort-table.js"></script>
 <div class="page-header">
 	<h1>{{ page.title }}</h1>
+	<p>{{ page.description }}</p>
 </div>
+
+<div class="blue box">
+	Click on a table header to alphabetically sort the content of the selected column (it takes quite some time, sorting is not immediate).
+</div>
+
 <h2 class="title" id="Wishlist">Wishlist</h2>
 
 <div class="yellow box">
@@ -28,13 +35,13 @@ main: true
 </div>
 
 <div class="table">
-<table>
+<table class="sort-table">
 
 	{% for row in site.data.books-wishlist %}
 		{% if forloop.first %}
 			<tr>
 				{% for pair in row %}
-					<th>{{ pair[0] }}</th>
+					<th onclick="sortTable({{ forloop.index0 }})">{{ pair[0] }}</th>
 				{% endfor %}
 			</tr>
 		{% endif %}
@@ -53,14 +60,15 @@ main: true
 <br />
 
 <h2 class="title" id="Library">Library</h2>
+
 <div class="table">
-<table>
+<table class="sort-table">
 
 	{% for row in site.data.library %}
 		{% if forloop.first %}
 			<tr>
 				{% for pair in row %}
-					<th>{{ pair[0] }}</th>
+					<th onclick="sortTable({{ forloop.index0 }})">{{ pair[0] }}</th>
 				{% endfor %}
 			</tr>
 		{% endif %}
@@ -88,12 +96,14 @@ main: true
 </table>
 </div>
 
-<h2 class="title" id="notes">Notes</h2>
-<p>All of my public notes on what I read</p>
-<ul>
-	{% for note in site.notes %}
-		{% if note.tags contains "book"%}
-			<li><a href="{{ note.url }}" rel="noener noreferrer" target="_blank" title="{{ note.title }}">{{ note.title }}</a></li>
-		{% endif %}
-	{% endfor %}
-</ul>
+<article>
+	<h2 class="title" id="notes">Notes</h2>
+	<p>All of my public notes on what I read</p>
+	<ul>
+		{% for note in site.notes %}
+			{% if note.tags contains "book"%}
+				<li><cite><a href="{{ note.url }}" rel="noener noreferrer" target="_blank" title="{{ note.title }}">{{ note.title }}</a></cite></li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</article>

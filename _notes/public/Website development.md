@@ -64,15 +64,12 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 1. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
 4. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
 5. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-6. **Sorting** and **filtering** using JavaScript
-	- in Zibaldone and The Jam: language and tag filter
-	- in Books: Sorting
 7. Improve `<noscript>`
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")
 1. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
 8. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
 9. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
-10. A script to check permalinks overlapping
+10. A script to check overlapping permalinks
 
 <br>
 <br>
@@ -170,6 +167,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 - Serif font styling in posts
 - Share button
 - [Share on Jekyll showcase](https://github.com/planetjekyll/showcase/pull/23)
+- **Sorting** and **filtering** using JavaScript ✅ 2021.01.29
 - *[[Tutto|stuff extended]]*
 - SVG buttons
 - Switch to **SCSS** for styling

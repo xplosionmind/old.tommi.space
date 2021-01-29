@@ -25,14 +25,21 @@ Ogni elemento della Marmellata è connesso ad un altro: in fondo ad ogni nota, f
 <div class="yellow box">
 	La caratteristica fondamentale che rende la Marmellata efficace e così sorprendentemente potente è la connessione fra vari differenti pensieri. Per questo motivo, nello stesso vasetto che contiene questa marmellata si trovano anche appunti e note molto intimi e privati. Potrebbe accadere che alcuni di questi siano riportati in una nota pubblica; i link che portano a pagine private non funzioneranno, appariranno [[così]].
 </div>
+
+<div class="flex row">
+	<a class="red button" style="color:white;" href="/whole-jam" rel="noopener noreferrer" target="_blank" title="The Whole Jam">Tutte le note</a>
+</div>
+
+{% include filter-lang.html %}
+
 <ul>
 	{% assign jam = site.notes %}
 	{% for note in jam %}
 		{% if note.main %}
-			<li><a href="{{ note.url }}">{{ note.title }}</a> - {% if note.description %}{{ note.description | markdownify | strip_html | truncatewords: 30 }}{% else %}{{ note.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
+			<li lang="{{ note.lang }}"><a href="{{ note.url }}" lang="{{ note.lang }}">{{ note.title }}</a> - {% if note.description %}{{ note.description | markdownify | strip_html | truncatewords: 30 }}{% else %}{{ note.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
 		{% endif %}
 	{% endfor %}
 </ul>
 <div class="flex row">
-	<a class="red button" style="color:white;" href="/whole-jam" rel="noopener noreferrer" target="_blank" title="The Whole Jar">Tutte le note</a>
+	<a class="red button" style="color:white;" href="/whole-jam" rel="noopener noreferrer" target="_blank" title="The Whole Jam">Tutte le note</a>
 </div>

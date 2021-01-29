@@ -14,11 +14,13 @@ pagination:
 		<p>Esattamente quello.</p>
 	</div>
 
+	{% include filter-lang.html %}
+
 	{% include tags.html %}
 
 	{% for post in site.posts %}
 		<div class="row">
-			<a href="{{ post.url }}">
+			<a href="{{ post.url }}" lang="{{ post.lang }}">
 				<div class="post-preview box">
 					<div class="row">
 						<div class="one-fourth column">

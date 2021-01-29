@@ -7,29 +7,27 @@ description: "Every topic, every recurrency, anything you need to find can be fo
 ---
 {% for tag in site.data.tags %}
 
-	<div class="tag box row {{ tag.title | slugify }}" id="{{ tag.title | slugify }}">
+	<div class="row tag" id="{{ tag.title | slugify }}">
 		<h2 class="title">{{ tag.title }}</h2>
-		<div class="caption">
-			<p>{{ tag.description | markdownify }}</p>
-		</div>
+		<p>{{ tag.description | markdownify }}</p>
 		<div class="half column">
 			<ul>
-    			{% for note in site.notes %}
+				{% for note in site.notes %}
 					{% if note.tags contains tag.title %}
 						<li>🍯 <a href="{{ note.url }}" title="{{ note.title }}">{{ note.title }}</a></li>
 					{% endif %}
 				{% endfor %}
-    			{% for ep in site.sconnesso %}
+				{% for ep in site.sconnesso %}
 					{% if ep.tags contains tag.title %}
 						<li>🎙 <a href="{{ ep.url }}" title="{{ ep.title }}">{{ ep.title }}</a></li>
 					{% endif %}
 				{% endfor %}
-    			{% for art in site.filinge %}
+				{% for art in site.filinge %}
 					{% if art.tags contains tag.title %}
 						<li>💭 <a href="{{ art.url }}" title="{{ art.title }}">{{ art.title }}</a></li>
 					{% endif %}
 				{% endfor %}
-    			{% for poem in site.poetry %}
+				{% for poem in site.poetry %}
 					{% if poem.tags contains tag.title %}
 						<li>🥴 <a href="{{ poem.url }}" title="{{ poem.title }}">{{ poem.title }}</a></li>
 					{% endif %}

@@ -4,7 +4,16 @@ description: "Every single ingredient of <cite>The Jam</cite>"
 permalink: /whole-jam
 redirect_from: ["/tutta-la-marmellata", "/tutta-marmellata", "/the-whole-jam", "/wholejam"]
 ---
+<style>
+	.grid div {
+		overflow: hidden;
+	}
+</style>
+<div class="page-header">
+	<h1>{{ page.title }}</h1>
+</div>
 <div class="one column">
+	{% include filter-lang.html %}
 	<div class="grid">
 		{% assign jar = site.notes %}
 		{% for note in jar %}
