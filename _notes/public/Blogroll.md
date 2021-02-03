@@ -29,6 +29,7 @@ The following list follows an alphabetical order.
 - [Andy Matuschak](https://andymatuschak.org/ "Andy Matuschak")'s personal website and [his notes](https://notes.andymatuschak.org "Andyʼs working notes") are arguably the best example of exploitation of the power and beauty of the internet. Andy's notes are an example and source of inspiration for everyone who grows a [[Zettelkasten]] or [[Zettelkasten|Digital Garden]]
 - [Tania Rascia](https://taniarascia.com)'s blog: Tania has a great story, but the thing I love the most is the clean, minimal, neat design and layout. You get what you’re looking for in no time.
 - [Derek Sivers](https://sivers.org): there’s so much content and wit, so many insights, pages and links it makes anyone browsing around get crazy. I like it a lot. Also, but more importantly: this guy is so cool
+- [Dusty Cloud](https://dustycloud.org/ "Dusty Cloud"), Morgan Lemmer-Webber’s personal website. Its homepage is lovely: it's the perfect example of introducing a virtual place as an *actual* space.
 - [Luke Smith](https://lukesmith.xyz/), gosh, what an individual. I love his philosophy about the internet. His website is here because of his [personal library page](https://lukesmith.xyz/library)
 - [Trax Magazine](https://www.traxmag.com "Trax Magazine"). Let’s be honest: in the end every online magazine / news website looks the same. This one has a unique identity, great colors and a wonderful design, which doesn’t jeopardize readability and focus
 - [UX Essays](https://essays.uxdesign.cc/), every blog should be like this

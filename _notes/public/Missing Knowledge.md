@@ -30,7 +30,7 @@ Actually, I don't need to learn these things only, but here I note the main thin
 1. Criptocurrencies
 	- [If you are new to cryptocurrency](https://forum.privacytools.io/t/if-you-are-new-to-cryptocurrency/4571 "If you are new to cryptocurrency on PrivacyTools community") on PrivacyTools community
 2. OpenStreetMap and OSMand
-3. Github Actions
+3. [Github Actions](https://docs.github.com/en/actions/learn-github-actions "Learn GitHub Actions")
 4. Makefile
 	1. [How to write a self-documenting Makefile](https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/ "How to write a self-documenting Makefile on victoria.dev")
 5. [using fzf](https://www.youtube.com/watch?v=qgG5Jhi_Els)

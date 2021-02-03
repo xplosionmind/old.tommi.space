@@ -21,3 +21,12 @@ tags: todo
 - https://daniele.tech/podcast/
 - l'inconoscibilità e l'inafferrabilità del tutto
 - https://medium.com/sentien-blog/3-reasons-to-use-the-free-sentien-launcher-for-android-b258e13272c5
+- Netflix documentaries are like pings
+- think of a note-taking alternative (Standard Notes / Simple Notes / Joplin with Mega)
+- AntennaPod sync (Feedbin support request)
+- Cubo in The Jam
+- Ciao cara Luci, mi vergogno molto di farmi vivo solamente ora, dopo troppo tempo. Come stai? Io sono a Venezia e ti mando un abbraccio
+- Add Corner to Places
+- give a consistent framework to all lists
+- quit TMDb, too and self host the whole list
+- WebDAV with Cubbit?

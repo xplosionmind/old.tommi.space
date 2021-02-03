@@ -160,8 +160,7 @@ article .box:not(.tags) {
 	a {
 		font-weight: 500;
 		&:hover {
-			text-decoration: underline var(--primary) 5px !important;
-			text-decoration-skip-ink: none;
+			filter: hue-rotate(.3turn);
 		}
 		&[href*="jam" i],
 		&[href*="marmellata" i] {
@@ -837,10 +836,8 @@ button,
 	}
 }
 
-.listen-on,
-.filter-by, {
+.filter-by {
 	font-size: var(--bigger);
-	.button,
 	a {
 		margin-right: .7rem;
 	}
@@ -848,6 +845,9 @@ button,
 
 .listen-on {
 	background: var(--deep);
+	.button {
+		margin-right: .2rem;
+	}
 }
 
 #license {

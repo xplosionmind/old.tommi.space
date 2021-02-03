@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-utdate: 2021-01-25T19:05:42.803455+01:00
+updated: 2021-01-31T09:37:03.221854+01:00
 tags: todo
 aliases: "Learning Resources"
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
@@ -17,7 +17,8 @@ todo:
 
 ## Geek stuff
 
-- [A2Z Learning Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students), a comprehensive and rich repository with almost anything someone keen to improve its developing skills cen ask for
+- [A2Z Learning Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students), a comprehensive and rich repository with almost anything someone keen to improve its developing skills can ask for
+- [Free Programming Books](https://github.com/EbookFoundation/free-programming-books "Free Programming Books"), a GitHub repository which contains, guess what, free e-books to learn programming.
 - [Awesome Humane Tech](https://github.com/humanetech-community/awesome-humane-tech), a list of tools which meets the Humane Tech principles
 - [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 - Tania Rascia’s [blog](https://www.taniarascia.com/)

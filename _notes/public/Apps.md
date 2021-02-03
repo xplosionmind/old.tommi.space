@@ -1,6 +1,6 @@
 ---
 date: 2020-05-06
-updated: 2021-01-25T07:53:33.893935+01:00
+updated: 2021-02-02T10:50:51.925583+01:00
 tags: geek
 aliases: ["Software", "Digital Tools"]
 image: "https://assets.tommi.space/images/apps.png"
@@ -41,6 +41,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - ~~[Digikam](https://www.digikam.org/ "Digikam official website"), a photo management software~~. I don't have time to learn it and it isn't so essential.
 - <a href="https://dupeguru.voltaicideas.net/" rel="noopener noreferrer" target="_blank">dupeGuru</a>, a file (specially images) duplicate finder. It would be fantastic, but it doesn’t work with more than 200 photos, for me.
 - [DWAgent](https://www.dwservice.net/en/download.html?_request=main&page=download) by [DWS Service](https://www.dwservice.net/), a great, simple and lightweight VNC, thus a program which allows you to access your computer remotely from any web browser.
+- [Element](https://element.io "Element") the most common and stable [Matrix](https://matrix.org "Matrix") client
 - [Espanso](https://espanso.org/ "Espanso official website"), a wonderful text expander
 - [FileZilla](https://filezilla-project.org/ "FileZilla official website"), the best and most used [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol "FTP on Wikipedia").
 - [Final Cut Pro](https://www.apple.com/final-cut-pro/ "Final Cut Pro"), again, pricey and proprietary, but it’s so optimised for MacOS, thus so fast, that I really need it to edit with ease videos I need to have ready in a short time.
@@ -160,6 +161,7 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 - [Cythara](https://github.com/gstraube/cythara), guitar tuner
 - [DAVx<sup>5</sup>](https://www.davx5.com/ "DAVx5 official website"), to sync contacts, calendar, and reminders via [WebDAV](https://en.wikipedia.org/wiki/WebDAV)
 - [Deck](https://f-droid.org/en/packages/it.niedermann.nextcloud.deck "Deck on F-Droid"), [Nextcloud Deck](https://apps.nextcloud.com/apps/deck "Nextcloud Deck") mobile client
+- [Element](https://element.io "Element") the most common and stable [Matrix](https://matrix.org "Matrix") client
 - ~~[Etar](https://github.com/Etar-Group/Etar-Calendar), a simple, light and very nice calendar~~ it was a lie, it was old and I fear its development is discontinued. Replaced it with Simple Calendar Pro.
 - [F-Droid](https://f-droid.org/ "F-Droid"), a [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software "“FOSS on Wikipedia”") app store. My aim is to quit Google Play completely and just use this; [[Road to Internet Freedom|almost there]].
 - [FairEmail](https://email.faircode.eu/ "FairEmail"), the name says it all

@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-01-26T11:02:09.668033+01:00
+updated: 2021-02-02T22:51:40.214928+01:00
 tags: meta, geek, web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -40,6 +40,11 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 
 1. Configure and implement [[Indie Web]]
 	- Note in footer that this website supports Webmentions
+2. Stop using Algolia and consider faster and simpler alternatives
+	- [Lunr](https://lunrjs.com "Lunr")
+		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "")
+	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
+	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
 2. [[The Jam]]: Preview a note when hovering on link
 3. [[The Jam]]: Notes graph
 4. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
@@ -48,27 +53,22 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 		- how to remove invalid links
 		- Folder structure becomes fundamental and links must be changed when file is moved (Obsidian should automatically handle this)
 		- Current Liquid permalinks parsing may not work anymore
-1. Use [jekyll-auth](https://github.com/benbalter/jekyll-auth/ "jekyll-auth on GitHub") to limit content availability
 1. Integrate [jekyll-time-to-read](https://github.com/gjtorikian/jekyll-time-to-read/ "jekyll-time-to-read on GitHub")
-2. Stop using Algolia and consider faster and simpler alternatives
-	- [Lunr](https://lunrjs.com "Lunr")
-		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "")
-	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
-	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
 1. Integrate [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier/ "jekyll-minifier") if it proves to be better for performance and / or more stable (keep in mind that Netlify offers JS and CSS minification)
+1. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
 1. [Tags](/tags):
 	- consider switching from a unique page list to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
 2. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Switch to Piwigo]]).
 3. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
-1. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
 4. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
+9. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
 5. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
 7. Improve `<noscript>`
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")
 1. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
 8. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
-9. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
+1. Use [jekyll-auth](https://github.com/benbalter/jekyll-auth/ "jekyll-auth on GitHub") to limit content availability
 10. A script to check overlapping permalinks
 
 <br>
@@ -94,6 +94,15 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	- [jekyll-ftp](https://github.com/JesseHerrick/jekyll-ftp/ "jekyll-ftp on GitHub")
 - Consider switching to [Hugo](https://gohugo.io "Hugo")
 - Add a timeline like [Jeremy Gordon's](https://jgordon.io "Jeremy Gordon") or [jack.works](https://web.archive.org/web/20200513054829/http://jack.works/)
+	- [CSS Timelines examples](https://freefrontend.com/css-timelines/ "65 CSS Timelines")
+	- more promising ones:
+		- https://codepen.io/ArnaudBalland/pen/rLeQgd/ (uses JavaScript)
+		- https://codepen.io/triss90/pen/GqRKeW/
+		- https://codepen.io/chriswrightdesign/pen/XJzNBN/, the prettier one (it has no dedicated space to dates)
+		- https://codepen.io/P233/pen/lGewF/
+		- https://codepen.io/rprajapatii/pen/AXoWyd (animations with JavaScript)
+		- https://codepen.io/NilsWe/pen/FemfK
+		- https://codepen.io/allisonching/pen/XeLjGd (simple minimal horizontal)
 - Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com "Humane Tech") and [Victoria Drake](https://victoria.dev)
 - [[Typography|Typographic]] improvements
 

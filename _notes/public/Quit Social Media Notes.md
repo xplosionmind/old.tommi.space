@@ -1,7 +1,7 @@
 ---
 aliases: ["QSM", "Quit Social Media"]
-permalink: /quit-social-media
-redirect_from: ["/qsm-notes", "/quit-social-media-notes", "/appunti"]
+permalink: /qsm
+redirect_from: ["/qsm-notes", "/quit-social-media-notes", "/appunti", "/quit-social-media"]
 ---
 <div class="yellow box">
 	Content in this page are random, pretty messed up and both in English and Italian, since these are quick notes for the website content creation.
@@ -12,9 +12,24 @@ redirect_from: ["/qsm-notes", "/quit-social-media-notes", "/appunti"]
 </div>
 
 <br>
+<br>
+
+## Timeline
+
+1. Start sending emails
+6. Complete writings and add more links, by asking to people
+1. “Ma”
+5. illustrations
+7. Finalize RSS Bridge
+
+<br>
+<br>
 
 ## Content
 
+- la differenza generazionale
+- differenza con la TV
+- l'educazione e la difficoltà
 - Domain change?
 - [Cos'è il Free Software](https://www.gnu.org/philosophy/free-sw.it.html)
 - [Differenze fra Free Software e Open Source](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
@@ -35,8 +50,30 @@ redirect_from: ["/qsm-notes", "/quit-social-media-notes", "/appunti"]
 - <https://okuna.io>
 - <https://www.facebook.com/help/250563911970368/?helpref=hc_fnav>
 
-
 > The present treatise contains everything that I have been able to accomplish in this area. Not that I have attempted to collect here all the different arguments that could be put forward to establish the same results, for this does not seem worthwhile except in cases where no single argument is regarded as sufficiently reliable. What I have done is to take merely the principal and most important arguments and develop them in such a way that I would now venture to put them forward as very certain and evident demonstrations.
+
+### Random links
+
+- https://www.wired.com/story/plaintext-facebook-cant-fix-what-it-wont-admit-to/
+- https://ethical.net/guide/facebook-alternatives-guide-how-and-why-to-avoid-facebook/
+- https://www.theverge.com/2019/6/19/18681845/facebook-moderator-interviews-video-trauma-ptsd-cognizant-tampa
+- https://www.humanetech.com
+- https://victoria.dev/blog/why-pixelfed-wont-save-us-from-instagram/
+- https://slate.com/technology/2020/07/data-privacy-surveillance-law-marketers.html
+- https://www.wired.com/beyond-the-beyond/2018/11/twenty-years-surveillance-marketing/
+- https://mattstoller.substack.com/p/the-end-of-the-facebook-crime-spree
+- https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=3247362
+- https://www.eff.org/deeplinks/2020/11/dont-blame-section-230-big-techs-failures-blame-big-tech
+- https://www.foreignaffairs.com/articles/united-states/2020-11-24/fukuyama-how-save-democracy-technology
+- https://www.politico.com/news/2020/12/13/facebook-antitrust-flip-flop-444652
+- https://www.nytimes.com/2020/12/09/technology/facebook-antitrust-monopoly.html
+- https://www.theguardian.com/technology/2018/apr/20/facebook-tech-companies-us-privacy-poll
+- https://techcrunch.com/2016/12/14/donald-trump-meets-with-tech-leaders/?guccounter=1&guce\_referrer=aHR0cHM6Ly9nZXRwb2NrZXQuY29tL3JlYWQvMTUxODMyNzMzOQ&guce\_referrer\_sig=AQAAAC9tvzye5obVt4oCTd\_1y-wT4AqlAE3oQhzsyAeLX\_CL4ibsjTCUi7S3jtPcjZHIKl7qEgtzEZs2rkgb5nGLxAqapDX-AjLkABiXnjPCkzmw9JsoQlHkxt02pbttKZU\_uKFLB4qSI7I9FFuAK226WRnoPSE2eXKNmXQqrvHofcaG
+- https://www.eff.org/deeplinks/2020/10/congress-fails-ask-tech-ceos-hard-questions
+- https://www.eff.org/deeplinks/2020/10/antitrust-suit-against-google-watershed-moment-0
+- https://www.digital-democracy.org/
+- https://simplysecure.org/underexposed/
+- https://decentpatterns.xyz
 
 <br>
 <br>
@@ -54,11 +91,13 @@ Randomly ordered links to articles, videos, documents, etc. about social media i
 - [RaiPlay interview to Jaron Lanier](https://www.raiplay.it/video/2019/08/Codice-intervista-esclusiva-a-Jaron-Lanier-pioniere-della-realta-virtuale-98a38fd9-6fa9-46d6-9b49-f9deccc7d1c6.html) (in English)
 
 <br>
+<br>
 
 ## Concept
 
 L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi e le questioni per cui i social network così come li conosciamo sono socialmente dannosi e successivamente spingere in ogni modo le persone a firmarlo. Utopisticamente, il fine sarebbe che tutte le persone che hanno firmato il manifesto, una volta raggiunto un (grande) numero stabilito, in massa escano dai social proprietari, creando un vero e proprio movimento indipendente che promuove l’abbandono delle piattaforme brutte, grosse e cattive.
 
+<br>
 <br>
 
 ## Notes from *Ten Arguments for your deleting Social Media accounts*
@@ -85,6 +124,7 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 ```
 
 <br>
+<br>
 
 ## Random thoughts
 
@@ -100,78 +140,71 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 - semplicità vs semplificazione
 
 <br>
+<br>
 
 ## Video spiegazione
 
 - non TUTTI gli argomenti spiegati sono oggettivamente inequivocabilmente sempre veri, ma unendoli insieme emerge piuttosto chiaramente e oggettivamente che c'è un problema, piuttosto grosso.e
 - perché
-    - partire dall'utente
-    - un luogo che raccolga TUTTI i motivi per cui i social proprietari sono dannosi, sotto ogni punto di vista
-    - perché di solito la divulgazione è ahtereferenziale, fra persone già interessate o del mestiere, o, semplicemente, nerd. Invece, siccome riguarda tutti, dovrebbe essere comprensibile e accessibile e conosciuto da tutti
+	- partire dall'utente
+	- un luogo che raccolga TUTTI i motivi per cui i social proprietari sono dannosi, sotto ogni punto di vista
+	- perché di solito la divulgazione è ahtereferenziale, fra persone già interessate o del mestiere, o, semplicemente, nerd. Invece, siccome riguarda tutti, dovrebbe essere comprensibile e accessibile e conosciuto da tutti
 - obiettivi
-    - firmare su change.org per tenere traccia, a 500 000 persone, in massa usciamo
-    - creare una community che si ritrovi a scegliere di non usare più piattaforme proprietarie
-    - aziende, imprese, personaggi pubblici, pagine: quando il 60% dei propri followers si sarà spostato su alternative, si eliminerà la pagina.
+	- firmare su change.org per tenere traccia, a 500 000 persone, in massa usciamo
+	- creare una community che si ritrovi a scegliere di non usare più piattaforme proprietarie
+	- aziende, imprese, personaggi pubblici, pagine: quando il 60% dei propri followers si sarà spostato su alternative, si eliminerà la pagina.
 - alternative
-    - pro e contro
-        - fediverse, tutto connesso
-        - scarsa o assente moderazione o censura
-        - impossibilità di "promuovere post"
-        - completa trasparenza
-        - gestito da non profit o addirittura singoli
-        - chiunque può contribuire
-        - imperituri e impossibili da chiudere
-    - alternativeto.net
+	- pro e contro
+		- fediverse, tutto connesso
+		- scarsa o assente moderazione o censura
+		- impossibilità di "promuovere post"
+		- completa trasparenza
+		- gestito da non profit o addirittura singoli
+		- chiunque può contribuire
+			- imperituri e impossibili da chiudere
+	- alternativeto.net
 - note
-    - non sono pagato
-    - non so perfettamente tutto. Ci sono persone che fanno questo da una vita e ancora non sono considerate. Chiunque può contribuire con miglioramenti e correzioni
-    - ma allora perché condividere e pubblicare questo proprio sui social che si vogliono abbandonare?
-         - se lo facessi già su piattaforme alternative, non avrebbe senso, perché raggiungerei coloro che già hanno consapevolezza, e non sarebbe nulal di nuovo per loro
-         - perché dobbiamo usare i social per distruggere i social / perché, su internet, ogni mezzo è lecito per salvare internet
-         - perché dobbiamo dare un forte segnale e rendere un contenuto virale, cosa difficile se non impossibile su altre piattaforme, poiché non hanno sufficienti utenti
+	- non sono pagato
+	- non so perfettamente tutto. Ci sono persone che fanno questo da una vita e ancora non sono considerate. Chiunque può contribuire con miglioramenti e correzioni
+	- ma allora perché condividere e pubblicare questo proprio sui social che si vogliono abbandonare?
+		- se lo facessi già su piattaforme alternative, non avrebbe senso, perché raggiungerei coloro che già hanno consapevolezza, e non sarebbe nulal di nuovo per loro
+		- perché dobbiamo usare i social per distruggere i social / perché, su internet, ogni mezzo è lecito per salvare internet
+		- perché dobbiamo dare un forte segnale e rendere un contenuto virale, cosa difficile se non impossibile su altre piattaforme, poiché non hanno sufficienti utenti
  - non "perché?", ma "perché no?"
  - non più solo mezzo, anche fine
 
 <br>
 <br>
 
-## Advices
+## Contact
 
-- veronica.piccolo@unive.it
-
-<br>
-
-## Preview
-
-Who to share an early beta version of the website
-
-- Carlo Lascialfari
-- Lorenzo Ancona
-- Vlad
-
-## Share with
-
-- Settime
-- Claudio
-- Mozilla Italia
-- Internet Freedom Festival
-- Derek Sivers: `derek@sive.rs`
-- Jaron Lanier: `hello@jaronlanier.com`
-- Awesome Humane Tech
-- Redecentealize + 
-- Clarice Subiaco (Tlon videocall)
-- Salvatore Cotogno (Tlon videocall)
-- Erika Barbacelli
-- <https://austinhuang.me/reference>
+- [x] veronica.piccolo@unive.it
+- [x] [Vittorio Bertola](https://bertola.eu "Vittorio Bertola personal website")
+- [x] Carlo Lascialfari
+- [ ] Lorenzo Ancona
+- [ ] Vlad
+- [x] Settime
+- [ ] Claudio
+- [ ] Mozilla Italia
+- [ ]Internet Freedom Festival
+- [ ] Derek Sivers
+- [ ] Jaron Lanier: `hello@jaronlanier.com`
+- [ ] Awesome Humane Tech
+- [ ] Redecentealize
+- [x] Clarice Subiaco
+- [x] Salvatore Cotogno
+- [ ] <https://austinhuang.me/reference>
+- [ ] hello@redecentralize.org
+- [ ] [Carissa Véliz](https://www.carissaveliz.com/contact )
 
 ### Communities
 
-- [Humane Tech Community](https://community.humanetech.com/)
-- [Disroot Community](https://disroot.org/en/community)
-- [Free Software Foundation Europe](https://fsfe.org/contact/contact.en.html)
-- [Free Software Foundation Europe Milano](https://t.me/fsfemilano)
-- [The Devs](https://thedevs.network/)
-- Tlon
+- [x] [Humane Tech Community](https://community.humanetech.com/)
+- [ ] [Disroot Community](https://disroot.org/en/community)
+- [ ] [Free Software Foundation Europe](https://fsfe.org/contact/contact.en.html)
+- [ ] [Free Software Foundation Europe Milano](https://t.me/fsfemilano)
+- [ ] [The Devs](https://thedevs.network/)
+- [ ] Tlon
 
 <br>
 
@@ -180,9 +213,11 @@ Who to share an early beta version of the website
 - Giffoni Film Festival
 - Radioimmaginaria
 
+<br>
+
 ## Press
 
 - Comunicato stampa
-	- ilpost (Arianna + Sofri)
+	- ilPost (Arianna + Sofri)
 	- codice, RaiPlay
 	- Press kit (`/press` e `/stampa`)

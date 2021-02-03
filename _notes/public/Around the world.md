@@ -1,6 +1,6 @@
 ---
 date: 2020-07-20
-updated: 2021-01-17T0915:51.366467+01:00
+updated: 2021-02-02T13:26:43.098873+01:00
 tags: places
 aliases: ["Places"]
 image: "https://assets.tommi.space/images/places.jpg"
@@ -16,7 +16,7 @@ main: true
 
 ## Sanremo
 
-- [Il Cubo](https://www.facebook.com/ilcubotreponti "Il Cubo Facebook page")
+- [[Il Cubo]]
 - [La Casbah](https://www.facebook.com/lacasbahsanremo/ "La Casbah Facebook page")
 - La Madonna della Guardia (al tramonto)
 
@@ -51,6 +51,7 @@ main: true
 
 ## Venezia
 
+- [[Al Canton]]
 - [Ca' Foscari Zattere](https://www.unive.it/pag/13665/ "CFZ sul sito di Ca' Foscari")
 
 <br />

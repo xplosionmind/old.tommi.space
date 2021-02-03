@@ -1,14 +1,21 @@
 ---
 tags: todo
-aliases: ["MOC", "Home", "to do", "todo"]
+aliases: ["MOC", "Home", "to do", "todo", "main"]
 ---
+1. [[Quit Social Media Notes]]
+1. *[[Scambi]]*
+	1. Materiale Tartarughe
+	1. Presentazione Festival
+	2. Wordpress
+	3. Compilazione schede labs
+	4. sentire Chicca
+	1. Marco Ponti
 1. **Study**
-1. *[[private/Scambi|Scambi]]*
-	1. Compilazione schede labs
 1. [[To listen]]
 1. Regalo Vale Conta
 1. [[Sconnesso]]
 1. Writing
+	1. [[Writing/Algoritmo]]
 	1. [Quit Social Media](file:///Users/xplosionmind/quitsocialmedia.club/)
 	2. [[Will]]
 	3. Rewrite tommi.space's captions
@@ -22,6 +29,10 @@ aliases: ["MOC", "Home", "to do", "todo"]
 1. [[Missing Knowledge|Learn]]
 	- [[Music]]
 	- [[Missing Knowledge#Geek stuff|Geek stuff]]
+	- Read
+		- Books
+		- [Pocket](https://app.getpocket.com "Pocket")
+		- “[Leggere](https://beta.protonmail.com "ProtonMail web app")„ email folder
 
 <br>
 

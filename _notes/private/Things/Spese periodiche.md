@@ -8,7 +8,7 @@ aliases: ["Abbonamenti", "Iscrizioni", "Subscriptions", "Payments", "Periodic ex
 |:------------------------------------------------------------------------------------------------- |:---------- |:---------- |
 | [Piwigo](https://tommi.piwigo.com/admin.php?page=account_manage "Piwigo account manage")          | 2021.01.18 | 2024.01.18 |
 | [New York Times](https://myaccount.nytimes.com/seg/subscription/billing "New York Times billing") | 2020.21.01 | ∞          |
-| [Wired]()                                                                                         | +++        | +++        |
+| [Wired](https://wired.com "Wired")                                                                                         | +++        | +++        |
 | [Protonmail](https://account.protonmail.com/u/3/subscription "ProtonMail subscription page")      | 2020.02.03 | 2022.01.18 |
 | [Contabo](https://my.contabo.com/account/payment "Contabo payments")                              | 2020.06.01 | 2022.27.11 |
 | [AnonAddy](https://app.anonaddy.com/settings/subscription "AnonAddy Subscription settings")       | 2020.09.13 | 2021.09.13 |
@@ -16,10 +16,11 @@ aliases: ["Abbonamenti", "Iscrizioni", "Subscriptions", "Payments", "Periodic ex
 
 ### Associazioni
 
-| Associazione | from | to  |
-| ------------ | ---- | --- |
-| Club Tenco   | +++  | +++ |
-| Libera       | +++  | +++ |
+| Associazione                                                                                                                                      | from       | to         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- |
+| Club Tenco                                                                                                                                        | +++        | +++        |
+| Libera                                                                                                                                            | 2021.01.28 | 2022.01.01 |
+| [Internet Society, Italian Chapter](http://isoc.it/partecipa/come-partecipare/socio-individuale "ISOC.it - Come partecipare - Socio individuale") | ???        | ???        |
 
 <br>
 

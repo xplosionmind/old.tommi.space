@@ -3,7 +3,7 @@ date: 2020-12-02
 ---
 <p class="date">Santo Natale 2020</p>
 
-Caro +++,
+Cara +++,
 
 lo scorso Natale ho scelto di concentrare il mio affetto e i miei auguri in una lettera speciale, unica, dedicata alle persone a me più care. Il mio regalo è stato imbustare decine e decine di messaggi che ho consegnato a ciascuno singolarmente. È stato per me un lavoro pazzesco, che non mi sarei mai aspettato: ho trascorso due ore ogni giorno, per due settimane, a trovare le parole adatte per scrivere ai miei amici ciò che li rende importanti per me. Fare questo non è stato pesante quanto intenso, magico, profondamente gratificante e dal risultato commovente.
 

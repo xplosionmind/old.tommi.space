@@ -3,6 +3,7 @@ date: 2021-01-20T16:55:39.252241+01:00
 updated: 2021-01-20T16:55:39.252241+01:00
 tags: geek, wip
 aliases: ["Ubuntu Workstation"]
+redirect_from: ["/workstation", "/ubuntu-pc", "/linux-pc"]
 description: "<cite>Linuxplosion</cite> is my awesome workstation which I assembled in 2019 to edit [Everyone](/everyone). I now use for my most heavy computing tasks, such as video editing or image processing"
 ---
 ## About

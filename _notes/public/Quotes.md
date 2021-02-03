@@ -452,7 +452,9 @@ Woody Allen
 <br />
 <br />
 
-> Studiare è sopravvalutato
+<blockquote id="pista-studiare-sopravvalutato">
+	<p>Studiare è sopravvalutato</p>
+</blockquote>
 
 <p class="cite">Pista al Cubo, 9 giugno 2020</p>
 

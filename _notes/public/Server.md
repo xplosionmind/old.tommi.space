@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21
-updated: 2021-01-24T00:21:04.829411+01:00
+updated: 2021-02-02T22:55:30.060971+01:00
 tags: geek
 main: true
 ---
@@ -14,14 +14,13 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 
 ## Improvements and fixes
 
+- Re-install RSS-Bridge with docker-compose
+- Install Jitsi Meet from Docker
+
 ### Nextcloud
 
-- [Unlock locked files](https://central.owncloud.org/t/file-is-locked-how-to-unlock/985)
-	- <https://docs.nextcloud.com/server/19/admin_manual/configuration_files/files_locking_transactional.html>
-	- <https://help.nextcloud.com/t/how-to-resolve-server-replied-423-locked-to-put-https/96222>
-	- <https://help.nextcloud.com/t/solved-server-replied-locked-cant-sync-nextcloud-folders-webdav-error/35514/3>
 - Make Server from `AJAX` to `Cron`
-- [add Memcache to Nextcloud](https://docs.nextcloud.com/server/19/admin_manual/configuration_server/caching_configuration.html)
+- Add OnlyOffice support
 
 <br>
 <br>
@@ -35,9 +34,10 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 	- [[Server setup#Install Jitsi Meet|Jitsi Meet configuration and installation walk-through]]
 - [OpenVPN](https://openvpn.net "OpenVPN official website") - ✅ 2020.01.01
 	- to install it, I followed this super simple and quick [guide](https://dev.to/phiilu/host-your-own-openvpn-server-in-a-few-seconds-73l "Host Your own OpenVPN Server in a few seconds - DEV")
-- [PolitePol](https://github.com/taroved/pol), transform any webpage in a RSS feed - ✅ 2020.01.01
+- ~~[PolitePol](https://github.com/taroved/pol), transform any webpage in a RSS feed - ✅ 2020.01.01~~.
 	- it doesn't work on Twitter or Instagram
 	- **It's stupid**: [RSS bridge](https://github.com/RSS-Bridge/rss-bridge "RSS Bridge on GitHub") is much more stable, cool, and effective.
+	- **uninstalled**
 1. [RSS bridge](https://github.com/RSS-Bridge/rss-bridge "RSS Bridge on GitHub"), apparently, a more common, effective and popular alternative to PolitePol. It's now running at <http://167.86.82.148:3001> ✅ 2021.01.24, [[Server setup#RSS-Bridge|setup]]
 	
 <br>
