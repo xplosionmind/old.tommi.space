@@ -1,18 +1,13 @@
 ---
 date: 2020-07-03
-updated: 2020-12-27
+updated: 2021-02-04T09:08:07.766379+01:00
 tags: geek
 description: "I consider myself a Firefox power user: I love it and I take full advantage of its features. Here’s how I do it."
 redirect_from: ["/firefox-tweaks", "/firefox-settings", "/mozilla-firefox", "/about-config", "/aboutconfig", "/firefox-config"]
 ---
 ## Shortcuts
 
-Standard shortcuts are in [Firefox shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly "Keyboard Shortcuts - Mozilla Support"), while the following are my custom shortcuts:
-
-| Action | keybinding |
-| :-------------------------------------------: | :-------: |
-| Copy the URL of the current page to clipboard | `⌥` + `C` |
-|                                               |           |
+Standard shortcuts are in [Firefox shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly "Keyboard Shortcuts - Mozilla Support"), while my custom shortcuts are [[Hotkeys#Firefox|Here]]
 
 [Developer toolbox shortcuts](https://developer.mozilla.org/en-US/docs/Tools/Keyboard_shortcuts "Keyboard shortcuts - MDN")
 

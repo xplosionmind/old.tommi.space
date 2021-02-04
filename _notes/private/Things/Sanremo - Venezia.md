@@ -2,4 +2,5 @@
 ---
 - foto da appendere
 - Analogica?
-- sciarpa
+- Sapone viso
+- graphic table

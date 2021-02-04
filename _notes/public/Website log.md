@@ -4,7 +4,7 @@ updated: 2021-01-09
 tags: geek web
 aliases: ["Meta"]
 permalink: /meta
-redirect_from: ["/website-log", "/websitelog"]
+redirect_from: ["/website-log", "/websitelog", "/log"]
 description: "Since I put a lot of care and attention to details in this website (probably even too much) I figured out it's worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts."
 main: true
 ---

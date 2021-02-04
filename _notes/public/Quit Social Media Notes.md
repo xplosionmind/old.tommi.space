@@ -1,4 +1,5 @@
 ---
+updated: 2021-02-04T13:44:23.191562+01:00
 aliases: ["QSM", "Quit Social Media"]
 permalink: /qsm
 redirect_from: ["/qsm-notes", "/quit-social-media-notes", "/appunti", "/quit-social-media"]
@@ -137,7 +138,7 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 - discutere
 - decentralizzazione
 - non più solo mezzo, anche fine
-- semplicità vs semplificazione
+- Il problema del non avere i social è che necessariamente per forza ora diminuirebbe l'interazione. Sto vivendo molto meno l'umanità e le relazioni.
 
 <br>
 <br>

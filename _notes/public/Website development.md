@@ -48,6 +48,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 2. [[The Jam]]: Preview a note when hovering on link
 3. [[The Jam]]: Notes graph
 4. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
+1. Configure [Peekalink](https://peekalink.io "Peekalink") in [[Cinema]] to replace [The Movie Database](https://themoviedb.org "The Movie Database") list and quit it.
 1. Avoid having to use special plugins to parse `[[wikilinks]]`, and use simple markdown links, integrating them in Jekyll with [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links "jekyll-relative-links on GitHub")
 	- problems
 		- how to remove invalid links
@@ -63,6 +64,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	- how to make use of <https://ogp.me> to retrieve data
 4. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
 9. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
+1. Give a consistent framework to all lists (use CSV data or markdown tables only)
 5. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
 7. Improve `<noscript>`
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")

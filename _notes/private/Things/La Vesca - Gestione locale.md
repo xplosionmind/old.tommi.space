@@ -12,3 +12,6 @@ tags: idea, future, places
 
 - *Tappa Obbligatoria*
 - *Insomnia*
+- *Puzzolina*
+- *La Puzzolina parlante*
+- *Il Beliscimu*

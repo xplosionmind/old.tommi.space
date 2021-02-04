@@ -16,6 +16,7 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 
 - Re-install RSS-Bridge with docker-compose
 - Install Jitsi Meet from Docker
+- Automate Wayback Machine backups of meaningful website pages.
 
 ### Nextcloud
 
@@ -39,7 +40,7 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 	- **It's stupid**: [RSS bridge](https://github.com/RSS-Bridge/rss-bridge "RSS Bridge on GitHub") is much more stable, cool, and effective.
 	- **uninstalled**
 1. [RSS bridge](https://github.com/RSS-Bridge/rss-bridge "RSS Bridge on GitHub"), apparently, a more common, effective and popular alternative to PolitePol. It's now running at <http://167.86.82.148:3001> ✅ 2021.01.24, [[Server setup#RSS-Bridge|setup]]
-	
+
 <br>
 <br>
 
@@ -76,6 +77,23 @@ Useful server apps or services I haven’t installed yet, in order of urgency an
 
 - [Apache for beginners](https://web.archive.org/web/20161227005904/https://www.wired.com/2010/02/Apache_for_Beginners "Apache for Beginners on WIRED")
 - [Be Your Own Open ID Provider](https://web.archive.org/web/20161227023027/https://www.wired.com/2010/02/Be_Your_Own_OpenID_Provider "Be Your Own Open ID Provider - WIRED")
+
+<br>
+<br>
+
+## Cron Jobs
+
+### How to configure a Cron Job
+
+- [<q>How do I set up a Cron Job?</q>](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job "How do I set up a Cron Job? - AskUbuntu") on AskUbuntu
+- [Creating a custom Cron Job](https://help.dreamhost.com/hc/en-us/articles/215767047-Creating-a-custom-Cron-Job "Creating a custom Cron Job"), in DreamHost Knowledge Base
+- More detailed information in [Ubuntu Community Help Wiky](https://help.ubuntu.com/community "Ubuntu Community Help Wik") &rarr; [CronHowto](https://help.ubuntu.com/community/CronHowto "CronHowto in Ubuntu Community Help Wiki")
+
+In short, simply by typing: `crontab -e`
+
+## My Cron Jobs
+
+- [[Cron Job wayback_archiver]]
 
 <br>
 <br>

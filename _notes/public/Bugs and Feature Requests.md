@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04
-updated: 2021-01-07
+updated: 2021-02-04T14:17:32.933160+01:00
 tags: geek
 permalink: /bugs
 redirect_from: ["/feature-requests", "/bugs-and-feature-requests"]
@@ -29,24 +29,38 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 <br>
 <br>
 
+## DupeGuru
+
+- scanning also mirrored images and rotated ones
+
+<br>
+<br>
+
 ## Obsidian
 
-[Obsidian](https://obsidian.md "Obsidian official website") is an awesome Zettelkasten management system which perfectly integrates with markdown and Jekyll.
+### Feature requests
 
 - choose to hide front matter when embedding other notes, even if “show YAML front matter” is switched on for the notes
-- printing all broken links
-- in editor mode last 2 letters are hidden. (fixed by setting `.CodeMirror` `overflow: unset`)
-- cursor error
-- make wiki-like links work in `div`s too
+- Multiple hotkeys for one action
+- In links, update also headings when their name is changes
+
+<br>
+
+### Bugs
+
+- in editor mode last 2 letters are hidden. (fixed by setting `.CodeMirror` `overflow: unset` in `obsidian.css`)
+- cursor width not corresponding to a single character’s spacing
+- wiki-like links don’t work in `div`s
 
 <br>
 <br>
 
 ## Cubbit
 
-[Cubbit](https://cubbit.io) is a great decentralized cloud. I'm among the first backers and I love it.
+## Feature requests
 
-- Possibility to use a custom domain
+- Using a custom domain
+- WebDAV support
 
 <br>
 <br>
@@ -105,7 +119,7 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 
 ### Flickr2Piwigo
 
-A plugin to [[Switch to Piwigo|import pictures from Flickr]].
+[Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 "Flickr2Piwigo in Piwigo Extensions Marketplace") is a plugin to [[Switch to Piwigo|import pictures from Flickr]].
 
 - Import album descriptions
 - Import Collections as parent albums

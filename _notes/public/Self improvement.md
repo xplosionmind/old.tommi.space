@@ -14,3 +14,4 @@ main: true
 - [[Monotasking]]: one thing at a time, only one. One.
 - [[Esame di coscienza]]: every day, at the end of the day, check what has been accomplished and what went wrong
 - [[Mindfulness]]: it's becoming very popular and more and more people start doing it. The art of training the mind to focus and commit on something by gifting it with few minutes a day of complete nothingness
+- [[Being a self editor]]: understanding what is important for the self in the whole life picture, as an editor does with its movie.

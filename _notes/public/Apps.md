@@ -1,6 +1,6 @@
 ---
 date: 2020-05-06
-updated: 2021-02-02T10:50:51.925583+01:00
+updated: 2021-02-04T10:43:24.343218+01:00
 tags: geek
 aliases: ["Software", "Digital Tools"]
 image: "https://assets.tommi.space/images/apps.png"
@@ -34,9 +34,12 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - ~~[BitBar](https://getbitbar.com "BitBar official website"), run any plugin from the top bar~~. I didn't use it.
 - ~~[BlackHole](https://blackhole.run/), to share any file. Fast and private. Based on [Blockstack](https://blockstack.org/).~~ It's useless.
 - ~~[Blockstack](https://blockstack.org/), ideally, it’s something **awesome**, definitely game-changing.~~ Practically, it doesn’t work on my Mac (I tried <a href="https://forum.blockstack.org/t/cant-use-any-dapp/10628" rel="noopener noreferrer" target="_blank">everything</a>). I uninstalled and I’m not using it, then.
+- ~~[Cakebrew](https://www.cakebrew.com "Cakebrew"), Homebrew GUI~~, it is useless
 - [Clean Me](https://kevin-de-koninck.github.io/Clean-Me "Clean Me official website"), an Open Source, better, neat and perfectly working alternative to CCleaner written in Swift.
-- [Comma Chamelon](https://comma-chameleon.io "Comma Chamelon"), editing CSV files.
-- [CopyQ](https://hluk.github.io/CopyQ/), a clipboard history recorder, which keeps a record of all copied text and items. It saved my life several times
+- [Clipy](https://clipy-app.com "Clipy"), clipboard hystory logger
+- ~~[CopyQ](https://hluk.github.io/CopyQ/), a clipboard history recorder, which keeps a record of all copied text and items. It saved my life several times~~. I like Clipy much more
+- [[Cubbit]] desktop synchronization client
+- [Curiosity](https://github.com/Dimillian/RedditOS "RedditOS repository on GitHub"), a MacOS Reddit client
 - ~~[Darktable](https://www.darktable.org/ "Darktable official website"), widely used (still, not the first option for pros) photo editing software. I wish I’d love it but, damn, it’s so friggin complicated~~. Using Lightroom. I'm sorry, but it simpler, faster, nicer.
 - ~~[Digikam](https://www.digikam.org/ "Digikam official website"), a photo management software~~. I don't have time to learn it and it isn't so essential.
 - <a href="https://dupeguru.voltaicideas.net/" rel="noopener noreferrer" target="_blank">dupeGuru</a>, a file (specially images) duplicate finder. It would be fantastic, but it doesn’t work with more than 200 photos, for me.
@@ -68,8 +71,9 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - ~~[LBRY](https://lbry.com/), the first digital marketplace to be controlled by the market's participants rather than a corporation or other 3rd-party. Basically, a healthier version of YouTube~~. I'm using [the web client](https://lbry.tv "LBRY TV") only, the app is not worth it.
 - ~~[LibreOffice](https://www.libreoffice.org/ "LibreOffice official website"), the best open Office Suite.~~ for my needs, the default Apple office apps are more than enough. If I need a file in `.odt`, I export in `.docx` from Pages and I convert it in `.odt` with Pandoc.
 - ~~[MacDown](https://macdown.uranusjr.com/), a markdown editor which has everything I need. I don’t use it much since I have both Joplin and Vim to open and edit `.md` files, but it’s very lightweight and it’s handy to have an app to view and edit them on the fly.~~ using MacVim + Marked 2, instead.
+- [MacSVG](https://github.com/dsward2/macSVG "MacSVG repository on GitHub"), to create animated SVGs
 - [MacVim](https://macvim-dev.github.io/macvim/ "MacVim official website"), gvim for MacOS. pretty nice to edit files on the go.
-- ~~[MEGAsync](https://mega.nz/sync "MEGAsync official page"), the synchronization app for [MEGA](https://mega.nz "MEGA official website") Cloud service.~~ I'm not using anymore. Nextcloud + Cubbit only.
+- ~~[MEGAsync](https://mega.nz/sync "MEGAsync official page"), the synchronization app for [MEGA](https://mega.nz "MEGA official website") Cloud service.~~ I'm not using anymore. Nextcloud + [[Cubbit]] only.
 - [NetNewsWire](https://ranchero.com/netnewswire/ "NetNewsWire official website"), the best [RSS reader](https://www.wikiwand.com/en/Comparison_of_feed_aggregators "“Comparison of Feed aggregators” on Wikipedia") ever. I sync it with the awesome [Feedbin](https://feedbin.com "Feedbin").
 - [Nextcloud](https://nextcloud.com/ "Nextcloud official website") desktop client.
 - ~~[OmegaT](https://omegat.org "OmegaT"), a translation memory application written in Java. I use it to translate [MDN](https://mdn.dev/) articles for Mozilla Italia.~~ I don’t use it that much
@@ -91,9 +95,11 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - ~~[Sozi](https://sozi.baierouge.fr), a presentation tool which uses SVG images to create zooming and panning animations. It’s astounding how cool it is.~~ Not much used.
 - [Spotify](https://www.spotify.com "Spotify official website"), to listen to music by paying and using propietary software. Any legal affordable solution? I can’t find one. I’m stuck with this.
 - [Sub It](https://github.com/Kevin-De-Koninck/Sub-It), a GUI interface for `Subliminal`, a tool to download movie subtitles ithout ads
+- [TableTool](+++)
 - [Telegram](https://telegram.org/ "Telegram official website"), WhatsApp on steroids. I wish the back-end software was Open Source, too.
 - [Timer](https://github.com/michaelvillar/timer-app "Timer source code on GitHub"), sometimes it's quicker to set it from the laptop than from my smartphone
 - ~~[The Desk](https://thedesk.top/), something like TweetDeck for Mastodon (and all of the Fediverse apps)~~. Never actually used it. The web client is nicer and just works.
+- [TomatoBar](https://github.com/ivoronin/TomatoBar "TomatoBar on GitHub"), set simple working timers
 - [Tor browser](https://www.torproject.org/), to navigate online completely anonimously
 - [TweetDeck](https://tweetdeck.twitter.com "TweetDeck official website"), to tweet as bad as I can. Obviously, this is a very bad propietary software.
 - [uTox](https://github.com/uTox/uTox "uTox source code"), a tiny, light super-private, peer-to-peer app to chat with my geek privacy-obsessed friends.

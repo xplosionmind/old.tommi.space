@@ -3,6 +3,8 @@ tags: todo geek
 aliases: ["Geek stuff", "Geek stuff todo"]
 ---
 1. [[Images]]
+1. [Mackup](https://github.com/lra/mackup "Mackup on GitHub") setup
+1. Configure [shallow-backup](https://github.com/alichtman/shallow-backup "shallow-backup on MacOS")
 1. Integrate audios, albums and images in daily Zettelkasten system (unique images and audios links to be opened)
 1. Defining a threat model
 1. The matter of handling (large) attachments to Zettelkasten
@@ -27,6 +29,16 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 15. [Zoom H4 support](https://zoomcorp.com "Zoom official website")
 16. [[Missing Knowledge#Geek stuff|Learning geek stuff]]
 17. MacBook Pro color profile
+1. Understanding WhatsApp and Signal backups
+	- format
+	- readability
+	- can they be stored in pure plain text?
+- move stuff in Pocket archive to a plain text file with explanation
+- cross-environment **tag integration**
+	- **audios**: notes containing shared links of files in Cubbit?
+	- **images**: consider collecting shared links of albums in a private *[[Giri]]*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
+- Phisical notebooks log / timeline. Improve [[analog]] implementation
+- Add links to Stallman in [[Quit and switch|Just quit]]
 
 <br>
 <br>
@@ -47,4 +59,4 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 <br>
 <br>
 
-![[Linuxplosion todo]]
+![[Linuxplosion#Linuxplosion todo]]

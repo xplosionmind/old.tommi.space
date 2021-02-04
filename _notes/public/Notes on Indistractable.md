@@ -1,5 +1,6 @@
 ---
 date: 2020-12-13
+updated: 2021-02-04T13:56:31.274310+01:00
 tags: book, reading, wip
 toc: false
 ---
@@ -33,3 +34,10 @@ p.27
 <br>
 
 The argument of discomfort and uneasiness regardless of luck and overall welfare and wellness: <q>why are we perpetuously restless and unsatisfied?</q>
+
+<br>
+<br>
+
+## Questions
+
+- If I was not distracted, where would the content of my distractions go?

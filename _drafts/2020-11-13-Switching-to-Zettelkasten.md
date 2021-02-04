@@ -59,6 +59,8 @@ I often use both English and Italian (my mother language), and in the future I m
 1. **Reminders**   
 one feature which made me stick with Google Keep before and Joplin later is the ability to set reminders and send push notifications on the smartphone at a given time. This is a crucial need to me, and it should be on top, but since my reminders aren't strictly related to my notes' content, I can use a different app focused on reminders only if the above condition are satisfied.
 
+Furthermore, I need to work on **a fallback system**, so that if for some problem due to a bug or any type of disservice, I can still be able to at least take notes, if I need to.
+
 <br>
 
 ## The Zettelkasten approach

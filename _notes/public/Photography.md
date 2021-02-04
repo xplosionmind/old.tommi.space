@@ -10,3 +10,10 @@ main: true
 
 - [Maxim Dondyuk](https://maximdondyuk.com/)
 - [Antonio Masiello](https://antoniomasiello.portfoliobox.net/)
+
+<br>
+<br>
+
+## Projects
+
+- [The Anonymous Project](https://www.anonymous-project.com/ "The Anonymous Project"), collect everyday life pictures of people from all over the world, by [Lee Shulman](https://www.leeshulman.com/ "Lee Shulman")

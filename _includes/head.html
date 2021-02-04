@@ -15,32 +15,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="mobile-web-app-capable" content="yes" />
-	<link rel="icon" href="/favicon.ico" sizes="32x32" />
-	<link rel="icon" href="/favicon.ico" sizes="64x64" />
-	<link rel="icon" href="/favicon.ico" sizes="160x160" />
+	<link rel="icon" href="/favicon.ico" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<meta name="theme-color" content="{{ page.primary }}" />
 	<meta property="og:type" content="website" />
 	<meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+	<meta property="article:modified_time" content="{% if page.updated %}{{ page.updated }}{% else %}{{ page.last_modified_at | date_to_xmlschema }}{% endif %}" />
 	<meta property="og:locale:alternate" content="{% if page.lang == 'it' %}en{% else %}it{% endif %}" />
 	<link rel="webmention" href="https://webmention.io/username/webmention" />
 	<link rel="pingback" href="https://webmention.io/username/xmlrpc" />
 
-	<link rel="me" href="https://bandcamp.com/xplosionmind" />
-	<link rel="me" href="https://bookwyrm.social/user/tommi" />
-	<link rel="me" href="https://cryptpad.fr/profile/#/2/profile/view/bGDyy3pKXdqc6mofB1EINV2ZstbhkmVjKUM3oPBk2IA/" />
-	<link rel="me" href="https://dev.to/xplosionmind" />
-	<link rel="me" href="https://www.deezer.com/us/profile/4169000022" />
-	<link rel="me" href="https://www.discogs.com/user/xplosionmind" />
-	<link rel="me" href="https://disqus.com/by/xplosionmind/" />
-	<link rel="me" href="https://hub.docker.com/u/xplosionmind" />
-	<link rel="me" href="https://dribbble.com/xplosionmind" />
-	<link rel="me" href="https://www.flickr.com/xplosionmind/" />
-	<link rel="authn me" href="https://github.com/xplosionmind" />
+	<link rel="me" href="https://bandcamp.com/xplosionmind" title="xplosionmind on Bandcamp" />
+	<link rel="me" href="https://bookwyrm.social/user/tommi" title="Tommi on Bookwyrm" />
+	<link rel="me" href="https://cryptpad.fr/profile/#/2/profile/view/bGDyy3pKXdqc6mofB1EINV2ZstbhkmVjKUM3oPBk2IA/" title="Tommi on Cryptpad" />
+	<link rel="me" href="https://dev.to/xplosionmind" title="xplosionmind on DEV.to" />
+	<link rel="me" href="https://www.deezer.com/us/profile/4169000022" title="xplosionmind on Deezer" />
+	<link rel="me" href="https://www.discogs.com/user/xplosionmind" title="xplosionmind on Discogs" />
+	<link rel="me" href="https://disqus.com/by/xplosionmind/" title="xplosionmind on Disqus" />
+	<link rel="me" href="https://hub.docker.com/u/xplosionmind" title="xplosionmind on Docker Hub" />
+	<link rel="me" href="https://dribbble.com/xplosionmind" title="xplosionmind on Dribbble" />
+	<link rel="me" href="https://www.flickr.com/xplosionmind/" title="Tommi’s pictures on Flickr" />
+	<link rel="authn me" href="https://github.com/xplosionmind" title="xplosionmind on GitHub" />
 	<link rel="me" href="https://genius.com/xplosionmind" />
 	<link rel="me" href="https://gumroad.com/xplosionmind" />
 	<link rel="me" href="https://community.humanetech.com/u/xplosionmind" />
-	<link rel="me" href="https://hypothes.is/users/xplosionmind" />
+	<link rel="me" href="https://hypothes.is/users/xplosionmind" title="xplosionmind on Hypothes.is" />
 	<link rel="me" href="https://www.instructables.com/member/xplosionmind/" />
 	<link rel="me" href="https://inventaire.io/inventory/xplosionmind" />
 	<link rel="me" href="https://keybase.io/xplosionmind" />
@@ -68,6 +67,12 @@
 	<link rel="me" href="https://thenounproject.com/xplosionmind/" />
 	<link rel="me" href="https://www.vutuv.de/users/tommaso.marmo" />
 	<link rel="me" href="https://www.yourworldoftext.com/~xplosionmind/" />
+
+	<link rel="me pgpkey" href="https://api.protonmail.ch/pks/lookup?op=get&search=surfing@tommi.space" />
+	<link rel="openid.delegate" href="https://tommi.space" />
+	<link rel="openid.server" href="https://openid.indieauth.com/openid" />
+	<link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+	<link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
 
 	{% comment %}
 		<!-- DEACTIVATED PROFILES -->

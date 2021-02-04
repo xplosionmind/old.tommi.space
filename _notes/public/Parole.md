@@ -1,6 +1,6 @@
 ---
 date: 2020-06-06
-updated: 2021-01-27T14:08:10.441840+01:00
+updated: 2021-02-04T14:14:05.131687+01:00
 lang: it
 toc: false
 description: "Leggo e sento tante perole belle (oppure brutte ma con un gran significato) e ho paura di perderle, perciò le annoto qui."
@@ -36,3 +36,8 @@ description: "Leggo e sento tante perole belle (oppure brutte ma con un gran sig
 - 2020.12.19 [stigmatizzante](https://www.treccani.it/vocabolario/stigmatizzare/ "“stigmatizzare” nel vocabolario Treccani")
 - 2021.01.24 [oblivious](https://www.merriam-webster.com/dictionary/oblivious "“oblivious” on Merriam Webster dictionary") (from *[[Adaptation.]]*)
 - 2021.01.27 [esperimento](https://www.treccani.it/vocabolario/esperimento/ "“esperimento” nel vocabolario Treccani")
+- 2021.02.03 [tuttavia](https://www.treccani.it/vocabolario/tuttavia/ "“tuttavia” nel vocabolario Treccani")
+
+
+- 2021.01.24 [placeholder](https://www.merriam-webster.com/dictionary/placeholder "“placeholder” on Merriam Webster dictionary")
+- 2020.12.03 [segnaposto](https://www.treccani.it/vocabolario/segnaposto "“segnaposto” nel vocabolario Treccani")

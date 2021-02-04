@@ -1,6 +1,6 @@
 ---
 date: 2021-01-20T16:55:39.252241+01:00
-updated: 2021-01-20T16:55:39.252241+01:00
+updated: 2021-02-04T10:48:35.094149+01:00
 tags: geek, wip
 aliases: ["Ubuntu Workstation"]
 redirect_from: ["/workstation", "/ubuntu-pc", "/linux-pc"]
@@ -27,5 +27,10 @@ I currently don't use Linuxplosion much since it's not where I live and I seldom
 <br>
 <br>
 
+## Linuxplosion todo
 
-![[Linuxplosion todo]] (&larr; a private note where I keep track of tasks I need to perform when I'm at home and I can exploit my beautiful device)
+Personal notes on stuff I need to remember to do
+
+- Flickr2Piwigo last attempt
+- Nicholas Britell handbrake
+- +++

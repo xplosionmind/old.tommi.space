@@ -1,7 +1,7 @@
 ---
 date: 2020-12-05
-updated: 2021-01-14T11:54:43.237155+01:00
-tags: geek, wip
+updated: 2021-02-04T14:39:46.366313+01:00
+tags: geek todo
 aliases: ["Quitting Flickr", "Quit Flickr"]
 description: "Thoughts and decisions about quitting Flickr and switching to Piwigo"
 image: "https://assets.tommi.space/images/jar/quit-flickr.jpg"
@@ -47,6 +47,8 @@ Why quitting [Flickr](https://www.flickr.com "Flickr") and choosing [Piwigo](htt
 1. Evaluate which plugins are **actually** useful and which should be installed.
 2. **Customizing the CSS**: for a greater ease of use, I created a stylesheet hosted on <https://tommi.space/piwigo.css> which contains all of the rules I need, and I `@import` it in Piwigo's CSS. I customized everything on top on the dark version of the default theme, by making it match this website's design.
 3. Setting a **custom domain**: there is no option to do it automatically from the settings, so I sent an email to Piwigo support in order to make <https://tommi.piwigo.com> match <https://images.tommi.space>, then, from my DNS records, I created several CNAMEs such as <https://visions.tommi.space> or <https://gallery.tommi.space>, and they all point to the domain I wrote in the email
+1. Improve private albums sharing
+2. Read Piwigo privacy policy to check reliability for private pictures
 
 <br>
 <br>
