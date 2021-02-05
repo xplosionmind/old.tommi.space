@@ -176,7 +176,11 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 - [ ] Carlo
 - [ ] Luca
 - [ ] Rebecca
-- [ ] 
+- [ ] Giulietta
+- [ ] Ale Rebora
+- [ ] Salvo
+- [ ] Giulio
+- [ ] Matto
 
 ### Istruzioni
 

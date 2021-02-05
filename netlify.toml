@@ -1,42 +1,14 @@
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
 
-  # optional, fails build when a category is below a threshold
-  [plugins.inputs.thresholds]
-    performance = 0.8
-    accessibility = 0.8
-    best-practices = 0.8
-    seo = 0.8
-
   # to audit a specific absolute url
   [[plugins.inputs.audits]]
     url = "https://tommi.space/zibaldone"
-
-    # you can specify thresholds per audit
-    [plugins.inputs.audits.thresholds]
-      performance = 0.8
-      accessibility = 0.8
-      best-practices = 0.9
-      seo = 0.9
 
   # to audit a specific absolute url
   [[plugins.inputs.audits]]
     url = "https://tommi.space/home"
 
-    # you can specify thresholds per audit
-    [plugins.inputs.audits.thresholds]
-      performance = 0.8
-      accessibility = 0.8
-      best-practices = 0.9
-      seo = 0.9
-
   # to audit a specific absolute url
   [[plugins.inputs.audits]]
     url = "https://tommi.space/stuff"
-
-    # you can specify thresholds per audit
-    [plugins.inputs.audits.thresholds]
-      performance = 0.8
-      accessibility = 0.8
-      best-practices = 0.9
-      seo = 0.9
