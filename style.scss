@@ -420,8 +420,13 @@ hr {
 	margin-top: var(--bigger);
 	h1 {
 		font-size: var(--mastodon);
-		margin: var(--regular-less);
+		margin: 0;
 		text-shadow: var(--header-shadow);
+	}
+	h2 {
+		margin-top: 0;
+		text-transform: none;
+		text-align: center;
 	}
 	p {
 		text-align: center;

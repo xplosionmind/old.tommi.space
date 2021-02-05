@@ -4,6 +4,9 @@ layout: wrapper
 <div class="h-entry one column">
 	<div class="row page-header">
 		<a class="u-uid u-url" href="{{ page.url | absolute_url }}"><h1 class="p-name">{{ page.title }}</h1></a>
+		{% if page.subtitle %}
+			<h2>{{ page.subtitle }}</h2>
+		{% endif %}
 		<link rel="author" class="p-author" href="/about" title="About Tommi" />
 		<p class="last-modified">{% if page.lang == 'it' %}ultima modifica: <time class="dt-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: '%d %b %Y alle %H:%M' }}</time>{% else %}latest edit: <time class="dt-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: '%d %b %Y at %l:%M %p' }}</time>{% endif %}</p>
 	</div>

@@ -21,7 +21,7 @@ redirect_from: ["/qsm-notes", "/quit-social-media-notes", "/appunti", "/quit-soc
 6. Complete writings and add more links, by asking to people
 1. “Ma”
 5. illustrations
-7. Finalize RSS Bridge
+8. ["/press-kit", "/stampa"]
 
 <br>
 <br>
@@ -32,29 +32,25 @@ redirect_from: ["/qsm-notes", "/quit-social-media-notes", "/appunti", "/quit-soc
 - differenza con la TV
 - l'educazione e la difficoltà
 - Domain change?
-- [Cos'è il Free Software](https://www.gnu.org/philosophy/free-sw.it.html)
-- [Differenze fra Free Software e Open Source](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
-- hypothes.is tags with language
-- [Translate](https://wiki.fsfe.org/TechDocs/Mainpage/Translations) “[What is Free Software](https://fsfe.org/freesoftware/freesoftware.it.html) page in Italian, on <fsfe.org>
-- [Snowden Stuff on Wired](https://www.wired.com/tag/edward-snowden/)
-- <https://deletefacebook.com>
-- <https://mzl.la/unfck>
-- <https://indigenous.realize.be>
-- <https://humanetech.community>
-- <http://datascientia.disi.unitn.it>
 - Do we really need to share everything? Does someone who is not interested in communication or media our cinema or art etc really need to share what goes on with our life?
-	- want to become fabous and be notices? Start writing emails, sending pictures, ask for collaborations
+	- want to become famous and be notices? Start writing emails, sending pictures, ask for collaborations
 	- want to earn money? Invent new ways to monetize your work (Patreon, etc.)
-- Add *The Great Hack* alongside *The Social Dilemma*
-- ***what*** are social media?
+- Add *The Great Hack* and other documentaries
 - Ethical ads?
 - <https://okuna.io>
 - <https://www.facebook.com/help/250563911970368/?helpref=hc_fnav>
 
 > The present treatise contains everything that I have been able to accomplish in this area. Not that I have attempted to collect here all the different arguments that could be put forward to establish the same results, for this does not seem worthwhile except in cases where no single argument is regarded as sufficiently reliable. What I have done is to take merely the principal and most important arguments and develop them in such a way that I would now venture to put them forward as very certain and evident demonstrations.
 
+<br>
+
 ### Random links
 
+- <https://mzl.la/unfck>
+- <https://indigenous.realize.be>
+- <https://humanetech.community>
+- <http://datascientia.disi.unitn.it>
+- [Snowden Stuff on Wired](https://www.wired.com/tag/edward-snowden/)
 - https://www.wired.com/story/plaintext-facebook-cant-fix-what-it-wont-admit-to/
 - https://ethical.net/guide/facebook-alternatives-guide-how-and-why-to-avoid-facebook/
 - https://www.theverge.com/2019/6/19/18681845/facebook-moderator-interviews-video-trauma-ptsd-cognizant-tampa
@@ -103,7 +99,7 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 
 ## Notes from *Ten Arguments for your deleting Social Media accounts*
 
-[Here are](https://tommi.space/lanier-social-media-notes) the notes from the great book by [Jaron Lanier](http://www.jaronlanier.com/), [Ten Arguments for Your Deleting Social Media Accounts - Right Now](http://www.jaronlanier.com/tenarguments.html), which I discovered almost at the end of my journey of writing the [*Quit Social Media Manifesto*](/manifesto), but it explains in a better and more detailed way what I’ve been thinking about for months now.
+[Here are](https://tommi.space/lanier-social-media-notes) the notes from the great book by [Jaron Lanier](http://www.jaronlanier.com/), [Ten Arguments for Your Deleting Social Media Accounts - Right Now](http://www.jaronlanier.com/tenarguments.html), which I discovered almost at the end of my journey of writing the main [*quitsocialmedia.club*](https://quitsocialmedia.club/why) arguments, but it explains in a better and more detailed way what I have been thinking about for months now.
 
 <br>
 <br>
@@ -114,15 +110,12 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 - what is shown you have no control over what you're shown
 - they foster division and polarization
 - It's not just a few ads: lies are fostered
-
-```
-1. paradosso della libertà di espressione contro il monopolio dei mezzi di comunicazione
-2. impatto ambientale
-3. ricavi economici ("regalo likes")
-4. cenni di privacy (è uno degli argomenti che più sta a cuore alle società digitali del momento: non occorre focalizzarsi su questo)
-5. tempo "perso"
-6. chi possiede i dati?)
-```
+- paradosso della libertà di espressione contro il monopolio dei mezzi di comunicazione
+- impatto ambientale
+- ricavi economici ("regalo likes")
+- cenni di privacy (è uno degli argomenti che più sta a cuore alle società digitali del momento: non occorre focalizzarsi su questo)
+- tempo "perso"
+- chi possiede i dati?
 
 <br>
 <br>
@@ -177,6 +170,42 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 <br>
 <br>
 
+## Podcast
+
+- [ ] Sveva
+- [ ] Carlo
+- [ ] Luca
+- [ ] Rebecca
+- [ ] 
+
+### Istruzioni
+
+```
+*Istruzioni pre-registrazione*
+Il giorno prima o diverse ore prima di registrare, mandami i titoli dei tre o quattro paragrafi che vorresti leggere, poi io ti dirò se ci fosse qualcosa da cambiare e te ne assegnerò altri. Nella puntata finale, saranno almeno due i paragrafi in cui tu sarai. (per paragrafo si intende tutta la sezione raccolta sotto lo stesso titolo). Ci sono **ventidue** paragrafi in totale, quindi ti prego massima precisione.
+
+*Istruzioni per la registrazione*
+- tieni il telefono più fermo possibile, a una spanna dal viso (più o meno, a seconda del tuo tono di voce)
+- Leggi anche i titoletti dei paragrafi
+- piuttosto che ricominciare da capo e fare mille registrazioni, fai delle pause anche molto lunghe, poi io le posso tagliare
+- Non inviarmi più registrazioni della stessa cosa, scegli tu la migliore
+- salta a pié pari tutte le parti “maggiori informazioni”
+
+*Istruzioni per l’invio*
+- Fai un file separato per ogni paragrafo
+- nomina ogni registrazione ```tuo nome - nome paragrafo```
+- inviami tutto in un’email a lost.in@tommi.space
+- invia entro lunedì sera al massimo, se avessi problemi e dovessi ritardare, scrivimi in privato
+
+
+L’episodio del podcast andrà in onda giovedì 11 febbraio, scrivimi qui di seguito se preferisci non essere nominato fra i ringraziamenti, alla fine.
+
+Grazie mille, ti sono davvero grato e sono un sacco felice che tu abbia voluto darmi una mano ❤️
+```
+
+<br>
+<br>
+
 ## Contact
 
 - [x] veronica.piccolo@unive.it
@@ -187,7 +216,7 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 - [x] Settime
 - [ ] Claudio
 - [ ] Mozilla Italia
-- [ ]Internet Freedom Festival
+- [ ] Internet Freedom Festival
 - [ ] Derek Sivers
 - [ ] Jaron Lanier: `hello@jaronlanier.com`
 - [ ] Awesome Humane Tech
@@ -202,7 +231,7 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 
 - [x] [Humane Tech Community](https://community.humanetech.com/)
 - [ ] [Disroot Community](https://disroot.org/en/community)
-- [ ] [Free Software Foundation Europe](https://fsfe.org/contact/contact.en.html)
+- [ ] [Free Software Foundation Europe](https://fsfe.org/contact/contact.en.html)
 - [ ] [Free Software Foundation Europe Milano](https://t.me/fsfemilano)
 - [ ] [The Devs](https://thedevs.network/)
 - [ ] Tlon
