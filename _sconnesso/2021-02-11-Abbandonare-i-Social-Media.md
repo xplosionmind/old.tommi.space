@@ -7,7 +7,7 @@ length: "2138"
 permalink: /sconnesso/quitsocialmedia
 redirect_from: ["/sconnesso/qsm", "/sconnesso/abbandonare-i-social-media", "/sconnesso/abbandonare-i-social", "/sconnesso/abbandonare-social"]
 ---
-https://quitsocialmedia.club è il sito web attorno a cui ruota questo episodio, in particolare, viene letta la pagina “[Perché](https://quitsocialmedia.club/perché "Perché - quitsocialmedia.club")”.
+https://quitsocialmedia.club è il sito web attorno a cui ruota questo episodio, in particolare, viene letta la pagina “[Perché]({{ https://quitsocialmedia.club/perché | uri_escape }} "Perché - quitsocialmedia.club")”.
 
 Un ringraziamento ai favolosi lettori: Sveva, Alessandro, Michela, Luca, Meggie, Livia, Marta e Matto.
 
