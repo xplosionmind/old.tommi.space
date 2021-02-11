@@ -6,4 +6,4 @@ description: "[Cubbit](https://cubbit.io 'Cubbit') is a great decentralized clou
 toc: false
 
 ---
-- [[Bugs and Feature Requests#Cubbit]]Bugs and feature requests
+- [[Bugs and Feature Requests#Cubbit|Bugs and feature requests]]

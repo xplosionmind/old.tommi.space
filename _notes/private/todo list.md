@@ -16,7 +16,10 @@ aliases: ["MOC", "Home", "to do", "todo", "main"]
 1. [[To listen]]
 1. Tweet smarmellamento
 1. Historical timeline with main events
-1. Writing
+1. Call
+	1. Morna
+	2. Letizia
+2. Writing
 	1. [[Writing/Algoritmo]]
 	1. [Quit Social Media](file:///Users/xplosionmind/quitsocialmedia.club/)
 	1. Vademecum anti-nichilista
@@ -32,10 +35,10 @@ aliases: ["MOC", "Home", "to do", "todo", "main"]
 	1. Vademecum anti-nichilista
 	1. Vivere la religiosità
 	2. A record of lost and stolen stuff
-2. Translate [Structured Procrastination](https://structuredprocrastination.com "Structured Procrastination")
-3. [[Sconnesso]]
-4. [[Geek todo|Geek stuff]]
-5. [[Missing Knowledge|Learn]]
+3. Translate [Structured Procrastination](https://structuredprocrastination.com "Structured Procrastination")
+4. [[Sconnesso]]
+5. [[Geek todo|Geek stuff]]
+6. [[Missing Knowledge|Learn]]
 	- [[Music]]
 	- [[Missing Knowledge#Geek stuff|Geek stuff]]
 	- Read

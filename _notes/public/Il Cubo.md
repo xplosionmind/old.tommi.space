@@ -1,6 +1,6 @@
 ---
 date: 2021-02-02T11:00:18.972059+01:00
-updated: 2021-02-02T12:04:01.085917+01:00
+updated: 2021-02-11T20:03:15.116107+01:00
 tags: places
 todo:
   - "Foto del Cubo"
@@ -23,6 +23,8 @@ I gestori del Cubo sono Andrea e Silvia, *arguably* i due meno associali e più 
 Il Cubo, come se non bastasse, è l’unico locale sul pianeta Terra a poter annoverare fra la lista dei propri drink il <cite>Tommi Boom</cite>, drink dagli ingredienti segreti nato lo stesso giorno di colui che gli dà il nome, cioè il fantastico me.
 
 Non può esistere luogo migliore del Cubo in cui essere all’imbrunire, sorseggiando, a seconda della stagione, una delicata sangria o un delizioso vin brulé.
+
+Se Super Pippo frequentasse il Cubo, sarebbe la persona più felice del mondo. Con il suo dolcissimo sorriso, la Stefi sommerge gli *abitué* con inesauribili montagne di arachidi, donando loro attimi di platonica gioia.
 
 Il Cubo è perfetto per studiare: sia nel periodo della sessione estiva che di quella autunnale, recandovisi, facilmente ci si potrà imbattere in assembramenti di ingegneri (che nella sessione invernale, invece, affollano [l’aula verde](/avanguardia "L’Avanguardia")) crucciati a risolvere un problema di cui già sanno di non saper giungere a soluzione, ma che sono consapevoli che il solo scervellarsi seduti ad un tavolino del Cubo può aumentare il loro quoziente intellettivo di almeno dodici punti.
 
