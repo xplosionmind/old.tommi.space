@@ -1,6 +1,6 @@
 ---
 date: 2020-05-06
-updated: 2021-02-04T10:43:24.343218+01:00
+updated: 2021-02-08T12:46:32.139144+01:00
 tags: geek
 aliases: ["Software", "Digital Tools"]
 image: "https://assets.tommi.space/images/apps.png"
@@ -155,6 +155,7 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 - [AndFTP](https://www.lysesoft.com/products/andftp/ "AndFTP official website"), to perform on-the-go FTP transfers to my server while. Not open source.
 - [andOTP](https://github.com/andOTP/andOTP), [2FA](https://en.wikipedia.org/wiki/Multi-factor_authentication) app
 - [AnonAddy](https://anonaddy.com "AnonAddy official website"), mobile client for [AnonAddy](https://anonaddy.com "AnonAddy official website").
+- Antennapod, the best podcast player for Android
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io "AnySoftKeyboard official website"), simple, neat and lightweight yet feature-rich keyboard. Settings are a bit messy.
 - [Audius](https://audius.co "Audius Music official website"), [Audius Music](https://audius.co "Audius Music official website") mobile client.
 - [Banca Etica](https://play.google.com/store/apps/details?id=it.bancaetica.bank "Banca Etica on Google Play"), internet banking for [Banca Etica](https://www.bancaetica.it "Banca Etica"). It's not open source and it works very badly. Considering to disinstall it, since the web client is exactly the same.
@@ -246,7 +247,7 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 - ~~[StreetComplete](https://github.com/westnordost/StreetComplete), to contribute to [OpenStreetMap](https://openstreetmap.org)~~. To be honest, I don't contribute to OSM; when I occasionally do, I do it through the web interface, from desktop.
 - ~~[Super Tuner](https://play.google.com/store/apps/details?id=com.music.supertuner), a very ugly yet lightweight and working (it’s just what I need: stuff that actually works) guitar tuner~~ replaced with Cythara, which is open source
 - [Ultimate Guitar Tabs](https://play.google.com/store/apps/details?id=com.ultimateguitar.tabs), to access [Ultimate Guitar](https://ultimate-guitar.com) from mobile
-- [Ultrasonic](https://ultrasonic.github.io/), to connect to my [Funkwhale instance](https://open.audio/xplosionmind)
+- ~~[Ultrasonic](https://ultrasonic.github.io/), to connect to my [Funkwhale instance](https://open.audio/xplosionmind)~~. I never used it in several months.
 - Talk Faster!
 - [Thorium](https://github.com/sschueller/peertube-android), a PeerTube Android client
 - [Telegram](https://telegram.org/dl/android), same as on Mac

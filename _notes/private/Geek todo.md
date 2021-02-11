@@ -39,6 +39,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 	- **images**: consider collecting shared links of albums in a private *[[Giri]]*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
 - Phisical notebooks log / timeline. Improve [[analog]] implementation
 - Add links to Stallman in [[Quit and switch|Just quit]]
+- [Learn EQ](https://youtu.be/e4C5DxOepsM)
 
 <br>
 <br>

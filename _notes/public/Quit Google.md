@@ -1,6 +1,6 @@
 ---
 date: 2020-12-23
-updated: 2021-01-21T11:08:33.683284+01:00
+updated: 2021-02-09T12:59:50.297017+01:00
 tags: qsm, geek, wip
 aliases: ["Delete Google"]
 redirect_from: ["/delete-google", "/quitgoogle", "/quit-google", "/google"]
@@ -17,3 +17,4 @@ This is a great article, actually the first one I read about the topic.
 - [Three Years of Misery Inside Google, the Happiest Company in Tech](https://www.wired.com/story/inside-google-three-years-misery-happiest-company-tech/ "Three Years of Misery Inside Google, the Happiest Company in Tech on Wired"), on Wired
 - [How to Leave Google Behind: Quick Guide to Take Back Your Privacy Online.](https://tutanota.com/blog/posts/how-to-leave-google-gmail/ "How to Leave Google Behind: Quick Guide to Take Back Your Privacy Online by Tutanota") on Tutanota's blog
 - The great [Richard Stallman says we should quit](https://stallman.org/google.html "Quit Google on Richard Stallman's website")
+- [A new and innovative way for Google to kill your SaaS startup](https://gomox.medium.com/google-safe-browsing-can-kill-your-startup-7d73c474b98d "A new and innovative way for Google to kill your SaaS startup")

@@ -3,19 +3,10 @@ date: 2020-09-04
 updated: 2020-09-05
 tags: qsm reading book
 permalink: /lanier-social-media-notes
-redirect_from:
-  - /quit-social-media-notes
-  - /lanier-quit-social-media
-  - /quit-social-media-lanier
-  - /lanier-notes
-  - /notes-lanier
-  - /ten-arguments-notes
-  - /ten-arguments-social
-  - /notes-ten-arguments
-  - /Notes-on-Ten-Arguments-For-Deleting-Your-Social-Media-Accounts
-toc: 0
+redirect_from: ["/quit-social-media-notes", "/lanier-quit-social-media", "/quit-social-media-lanier", "/lanier-notes", "/notes-lanier", "/ten-arguments-notes", "/ten-arguments-social", "/ten-arguments-lanier", "/lanier-ten-arguments", "/notes-ten-arguments", "/Notes-on-Ten-Arguments-For-Deleting-Your-Social-Media-Accounts"]
+toc: false
 ---
-Notes from the great book by [Jaron Lanier](http://jaronlanier.com), [*Ten Arguments for Deleting Your Social Media Accounts*](http://www.jaronlanier.com/tenarguments.html), which I discovered almost at the end of my journey in creating [quitsocialmedia.club](https://quitsocialmedia.club). It explains in a better and more detailed way what I’ve been thinking about for months now.
+Notes from the great book by [Jaron Lanier](http://jaronlanier.com), [*Ten Arguments for Deleting Your Social Media Accounts*](http://www.jaronlanier.com/tenarguments.html), which I discovered almost at the end of my journey in creating [quitsocialmedia.club](https://quitsocialmedia.club). It explains in a better and more detailed way what I have been thinking about for months now.
 
 - We become addicted to a fiction, none of that stimuli is actually real. \- `p. 15`   
 > negative emotions are being amplified more than positive ones - `p. 18`
@@ -55,7 +46,7 @@ Notes from the great book by [Jaron Lanier](http://jaronlanier.com), [*Ten Argum
 
 > Your character is like your health, more valuable than anything you can buy. Don’t throw it away. - `p. 45`
 
-- We’re like wolves: we can either be solitary or members of a pack of wolves. When we’re solitary wolves, we’re more free. We’re cautious, but also more capable of joy. When we’re in a pack, interactions with others become the most important thing in the world. - `p. 45`
+- We are like wolves: we can either be solitary or members of a pack of wolves. When we’re solitary wolves, we’re more free. We’re cautious, but also more capable of joy. When we’re in a pack, interactions with others become the most important thing in the world. - `p. 45`
 - Comparison with **climate change denial** - `p.45`
 
 > The “Pack setting” of the “switch” makes you pay so much attention to your peers and your enemies in the world of packs that you can become blind to what’s happening right in front of your face. - `p. 46`
@@ -63,7 +54,7 @@ Notes from the great book by [Jaron Lanier](http://jaronlanier.com), [*Ten Argum
 - BUMMER deemphasizes our uniqueness - `p. 48`
 - LinkedIn is BUMMER, too, but it’s not **as** harmful to users because it earns money by connecting employers with hires rather than by manipulating people to make purchases or change behaviors - `p. 49-50`
 
-> What we need is *anything* that£s real beyond social pretensions that people can focus on instead of becoming assholes - `p. 51`
+> What we need is *anything* that’s real beyond social pretensions that people can focus on instead of becoming assholes - `p. 51`
 
 - If Twitter ceased operations tomorrow, Trump would become a nicer person - `p. 52`
 

@@ -29,6 +29,14 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 <br>
 <br>
 
+## Nextcloud Notes
+
+- Front matter recognition
+- Monospaced fonts for raw Markdown only (only while editing)
+
+<br>
+<br>
+
 ## DupeGuru
 
 - scanning also mirrored images and rotated ones

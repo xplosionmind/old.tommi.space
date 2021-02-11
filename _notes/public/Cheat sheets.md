@@ -145,21 +145,9 @@ Since there are many parameters which <u>might contain conflicting times</u>, th
 
 ```sh
 exiftool '-FileName<FileModifyDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
-```
-
-```sh
 exiftool '-FileName<DateTimeCreated' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
-```
-
-```sh
 exiftool '-FileName<CreateDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
-```
-
-```sh
 exiftool '-FileName<DateTimeOriginal' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
-```
-
-```sh
 exiftool '-FileName<GPSDateTime' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 ```
 
@@ -187,21 +175,9 @@ Move files to folders based on year and month
 
 ```sh
 exiftool '-Directory<FileModifyDate' -d ./%Y/%Y.%m -r ./*
-```
-
-```sh
 exiftool '-Directory<DateTimeCreated' -d ./%Y/%Y.%m -r ./*
-```
-
-```sh
 exiftool '-Directory<CreateDate' -d ./%Y/%Y.%m -r ./*
-```
-
-```sh
 exiftool '-Directory<DateTimeOriginal' -d ./%Y/%Y.%m -r ./*
-```
-
-```sh
 exiftool '-Directory<GPSDateTime' -d ./%Y/%Y.%m -r ./*
 ```
 
@@ -292,25 +268,25 @@ sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode
 
 to list all running containers
 
-```
+```sh
 docker ps
 ```
 
 to list running and non-running containers
 
-```
+```sh
 docker ps -a
 ```
 
 to list all the details about a container
 
-```
+```sh
 docker inspect some-container
 ```
 
 to see all the logs of a container running in a background
 
-```
+```sh
 docker logs some-container
 ```
 

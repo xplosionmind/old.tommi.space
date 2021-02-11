@@ -1,5 +1,6 @@
 ---
 ---
+- [ ] Carta igenica
 - [ ] Sapone faccia
 - [ ] Candeggina
 - [ ] Guanti
