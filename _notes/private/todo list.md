@@ -2,12 +2,8 @@
 tags: todo
 aliases: ["MOC", "Home", "to do", "todo", "main"]
 ---
-1. Pagare bollette
-1. Pulire casa
 1. **Study**
 1. [[Quit Social Media Notes|Quit Social Media]]
-1. sentire Chicca
-2. [[Idee format Sanremo 2021]]
 1. *[[Scambi]]*
 	1. Presentazione
 	1. Email concorso
