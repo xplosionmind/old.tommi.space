@@ -3,17 +3,16 @@ tags: todo
 aliases: ["MOC", "Home", "to do", "todo", "main"]
 ---
 1. **Study**
-1. [[Quit Social Media Notes|Quit Social Media]]
+1. Extra courses for the II semester
+1. History classes plan
 1. *[[Scambi]]*
 	1. Presentazione
 	1. Email concorso
 	2. Wordpress
 	3. Compilazione schede labs
 1. [[To listen]]
-1. Tweet smarmellamento
 1. Historical timeline with main events
 1. Call
-	1. Morna
 	2. Letizia
 2. Writing
 	1. [[Writing/Algoritmo]]

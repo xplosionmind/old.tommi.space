@@ -25,12 +25,12 @@ Please refer to [[Docker Server Setup]] to see how I re-deployed everything on m
 ## System configuration and environment setup
 
 update [Ubuntu](https://ubuntu.com/server "Ubuntu server website") (`-y` parameter is used to accept by default any question)
-```
+```sh
 sudo apt update -y && sudo apt upgrade -y
 ```
 
 remove debris
-```
+```sh
 sudo apt autoremove -y && sudo apt autoclean -y
 ```
 

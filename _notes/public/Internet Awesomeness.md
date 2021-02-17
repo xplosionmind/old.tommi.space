@@ -1,6 +1,6 @@
 ---
 date: 2020-10-27
-updated: 2021-01-17T10:55:35.283473+01:00
+updated: 2021-02-13T12:13:50.549849+01:00
 tags: geek, wip
 redirect_from: ["/great-websites", "/great-internet", "/internet-greatness"]
 toc: false
@@ -19,3 +19,5 @@ todo:
 - [Darius Kazemi’s Projects](https://tinysubversions.com/projects/ "Tiny Subversions - Projects")
 - [Playbit](https://playb.it "Playbit")
 - [The Reboot](https://thereboot.com "The Reboot"), 2021-02-02
+- [Create Habit](https://programs.clearerthinking.org/daily_ritual.html "Create habit"), 2021-01-12
+- [xiffy](https://xiffy.nl "Xiffy"), 2021-01-13

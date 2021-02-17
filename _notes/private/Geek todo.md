@@ -40,6 +40,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 - Phisical notebooks log / timeline. Improve [[analog]] implementation
 - Add links to Stallman in [[Quit and switch|Just quit]]
 - [Learn EQ](https://youtu.be/e4C5DxOepsM)
+- Setup [Hype Machine](https://hypem.com)
 
 <br>
 <br>

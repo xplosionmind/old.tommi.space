@@ -1,8 +1,5 @@
----
----
-- [ ] Carta igenica
-- [ ] Sapone faccia
-- [ ] Candeggina
+- [ ] Scottex
+- [ ] Sapone
 - [ ] Guanti
 - [ ] Sapone piatti
 - [ ] The
