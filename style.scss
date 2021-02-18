@@ -939,6 +939,7 @@ button,
 	&:not(.border) {
 		--text: white;
 		--link: var(--yellow);
+		--internal-link: var(--link);
 		--transp-text: #FFFA;
 	}
 }
@@ -949,6 +950,7 @@ button,
 	&:not(.border) {
 		--text: white;
 		--link: var(--yellow);
+		--internal-link: var(--link);
 		--transp-text: #FFFA;
 	}
 }
@@ -959,6 +961,7 @@ button,
 	&:not(.border) {
 		--text: var(--black-ish);
 		--link: var(--red);
+		--internal-link: var(--link);
 		--transp-text: #0007;
 	}
 }

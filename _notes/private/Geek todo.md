@@ -37,10 +37,13 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 - cross-environment **tag integration**
 	- **audios**: notes containing shared links of files in Cubbit?
 	- **images**: consider collecting shared links of albums in a private *[[Giri]]*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
-- Phisical notebooks log / timeline. Improve [[analog]] implementation
-- Add links to Stallman in [[Quit and switch|Just quit]]
-- [Learn EQ](https://youtu.be/e4C5DxOepsM)
-- Setup [Hype Machine](https://hypem.com)
+1. Phisical notebooks log / timeline. Improve [[analog]] implementation
+1. Add links to Stallman in [[Quit and switch|Just quit]]
+1. [Learn EQ](https://youtu.be/e4C5DxOepsM)
+1. Setup [Hype Machine](https://hypem.com)
+2. Setup Syncthing
+3. Update [[Apps]] and finalize [[Switch to LineageOS]]
+4. Manage cross-system links (apps on Android not working on iOS and vice-versa)
 
 <br>
 <br>

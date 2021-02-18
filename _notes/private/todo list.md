@@ -15,21 +15,22 @@ aliases: ["MOC", "Home", "to do", "todo", "main"]
 1. Call
 	2. Letizia
 2. Writing
+	1. [[Articolo Scambi]]
 	1. [[Writing/Algoritmo]]
-	1. [Quit Social Media](file:///Users/xplosionmind/quitsocialmedia.club/)
-	1. Vademecum anti-nichilista
-	2. [[Will]]
-	3. Rewrite tommi.space’s captions
-	4. Better [[Explanations]]
-	5. [[Lettera per la Partenza]]
-	6. [[Lettera a mamma e papà]]
-	7. tags “draft” and “writing”
-	8. [[Articles ideas]]
-	9. [[Writing ideas]]
-	1. Cities, telling their story from my point of view
-	1. Vademecum anti-nichilista
-	1. Vivere la religiosità
-	2. A record of lost and stolen stuff
+	2. [Quit Social Media](file:///Users/xplosionmind/quitsocialmedia.club/)
+	3. Vademecum anti-nichilista
+	4. [[Will]]
+	5. Rewrite tommi.space’s captions
+	6. Better [[Explanations]]
+	7. [[Lettera per la Partenza]]
+	8. [[Lettera a mamma e papà]]
+	9. tags “draft” and “writing”
+	10. [[Articles ideas]]
+	11. [[Writing ideas]]
+	12. Cities, telling their story from my point of view
+	13. Vademecum anti-nichilista
+	14. Vivere la religiosità
+	15. A record of lost and stolen stuff
 3. Translate [Structured Procrastination](https://structuredprocrastination.com "Structured Procrastination")
 4. [[Sconnesso]]
 5. [[Geek todo|Geek stuff]]
