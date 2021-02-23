@@ -10,3 +10,7 @@ tags: todo
 - photo sync (Syncthing?)
 - backup reminders!
 - Elouenn pictures
+
+```
+EsUE rwAt WEoB VVZ2 i3Tx 49th Twhx vk5Y Eqpb YBFm u21g juVN
+```

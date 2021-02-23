@@ -2,19 +2,15 @@
 tags: todo
 aliases: ["MOC", "Home", "to do", "todo", "main"]
 ---
-1. **Study**
-1. Extra courses for the II semester
-1. History classes plan
-1. *[[Scambi]]*
+3. **Study**
+4. History classes plan
+5. *[[Scambi]]*
 	1. Presentazione
 	1. Email concorso
 	2. Wordpress
 	3. Compilazione schede labs
-1. [[To listen]]
-1. Historical timeline with main events
-1. Call
-	2. Letizia
-2. Writing
+6. [[To listen]]
+7. Writing
 	1. [[Articolo Scambi]]
 	1. [[Writing/Algoritmo]]
 	2. [Quit Social Media](file:///Users/xplosionmind/quitsocialmedia.club/)
@@ -31,10 +27,10 @@ aliases: ["MOC", "Home", "to do", "todo", "main"]
 	13. Vademecum anti-nichilista
 	14. Vivere la religiosità
 	15. A record of lost and stolen stuff
-3. Translate [Structured Procrastination](https://structuredprocrastination.com "Structured Procrastination")
-4. [[Sconnesso]]
-5. [[Geek todo|Geek stuff]]
-6. [[Missing Knowledge|Learn]]
+8. Translate [Structured Procrastination](https://structuredprocrastination.com "Structured Procrastination")
+9. [[Sconnesso]]
+10. [[Geek todo|Geek stuff]]
+11. [[Missing Knowledge|Learn]]
 	- [[Music]]
 	- [[Missing Knowledge#Geek stuff|Geek stuff]]
 	- Read

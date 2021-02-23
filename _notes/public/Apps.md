@@ -1,6 +1,6 @@
 ---
 date: 2020-05-06
-updated: 2021-02-17T00:04:15.845220+01:00
+updated: 2021-02-23T19:16:30.140673+01:00
 tags: geek
 aliases: ["Software", "Digital Tools"]
 image: "https://assets.tommi.space/images/apps.png"
@@ -26,6 +26,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 
 - [Adobe Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html), alas, the best photo editing software out there. I hate Adobe, but it works so damn good. I’m doing my best to completely switch to the two following programs but, damn, it’s so hard. Also: I have to keep Lightroom on my device because it’s impossible to move photography edits committed with Lightroom to Darktable.
 - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html). I tried living without it. I couldn't. Hands down, it's the best visual editing software in the world. You could do anything with it.
+- [AEScrypt](https://www.aescrypt.com "AEScrypt") file encrypter and decrypter
 - [Android File Transfer](https://www.android.com/filetransfer/), the name says it all. It’s simple and it works great.
 - [AppCleaner](https://freemacsoft.net/appcleaner) is not open source, but, damn, it’s so useful I have to keep it.
 - ~~[Audacity](https://www.audacityteam.org/ "Audacity official website"), audio editing software. I know, I have Garage Band which is awesome but… Audacity works the same way anywhere.~~ I need very little sound editing, mixing, etc: GarageBand is fine; furthermore, it's neat, simple and quick.
@@ -38,6 +39,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [Clean Me](https://kevin-de-koninck.github.io/Clean-Me "Clean Me official website"), an Open Source, better, neat and perfectly working alternative to CCleaner written in Swift.
 - [Clipy](https://clipy-app.com "Clipy"), clipboard hystory logger
 - ~~[CopyQ](https://hluk.github.io/CopyQ/), a clipboard history recorder, which keeps a record of all copied text and items. It saved my life several times~~. I like Clipy much more
+- [Cosmicast](https://www.poeticbytes.com/cosmicast "Cosmicast"), a minimal and beautiful podcast player which syncs with iOS through iCloud. It is proprietary software and it costs 3,50€
 - [[Cubbit]] desktop synchronization client
 - [Curiosity](https://github.com/Dimillian/RedditOS "RedditOS repository on GitHub"), a MacOS Reddit client
 - ~~[Darktable](https://www.darktable.org/ "Darktable official website"), widely used (still, not the first option for pros) photo editing software. I wish I’d love it but, damn, it’s so friggin complicated~~. Using Lightroom. I'm sorry, but it simpler, faster, nicer.
@@ -73,6 +75,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - ~~[MacDown](https://macdown.uranusjr.com/), a markdown editor which has everything I need. I don’t use it much since I have both Joplin and Vim to open and edit `.md` files, but it’s very lightweight and it’s handy to have an app to view and edit them on the fly.~~ using MacVim + Marked 2, instead.
 - [MacSVG](https://github.com/dsward2/macSVG "MacSVG repository on GitHub"), to create animated SVGs
 - [MacVim](https://macvim-dev.github.io/macvim/ "MacVim official website"), gvim for MacOS. pretty nice to edit files on the go.
+- [Mast](https://apps.apple.com/us/app/mast-for-mastodon/id1437429129 "Mast") is a wonderful, simple and neat [Mastodon](https://joinmastodon.org "Mastodon") [client](https://joinmastodon.org/apps "Mastodon clients"). Unfortunately, it is non-free software, in every sense; it costs 3,50€.
 - ~~[MEGAsync](https://mega.nz/sync "MEGAsync official page"), the synchronization app for [MEGA](https://mega.nz "MEGA official website") Cloud service.~~ I'm not using anymore. Nextcloud + [[Cubbit]] only.
 - [NetNewsWire](https://ranchero.com/netnewswire/ "NetNewsWire official website"), the best [RSS reader](https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators "“Comparison of Feed aggregators” on Wikipedia") ever. I sync it with the awesome [Feedbin](https://feedbin.com "Feedbin").
 - [Nextcloud](https://nextcloud.com/ "Nextcloud official website") desktop client.
@@ -106,7 +109,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 - [uTox](https://github.com/uTox/uTox "uTox source code"), a tiny, light super-private, peer-to-peer app to chat with my geek privacy-obsessed friends.
 - [VLC](https://www.videolan.org/vlc/ "VLC official website"), to watch anything.
 - [Tor Browser](https://www.torproject.org/projects/torbrowser.html), when I feel a VPN is not enough.
-- [Whalebird](https://whalebird.social "Whalebird"), [Mastodon](https://joinmastodon.org "Mastodon") desktop client
+- ~~[Whalebird](https://whalebird.social "Whalebird"), [Mastodon](https://joinmastodon.org "Mastodon") desktop client~~. Mast is much better.
 - ~~[WhatsApp](https://www.whatsapp.com/), well, you know it. Owned by that monster called Facebook and surprisingly free but, guess what? Proprietary software~~. If I need to check it from the computer, I do it through [WhatsApp Web](https://web.whatsapp.com "WhatsApp Web")
 - ~~[Zettlr](https://www.zettlr.com/), fully-featured Markdown editing app~~. Switched to Obsidian
 - [Zoom](https://zoom.us "Zoom official website"), you all know it. I'm not a fan and if it was for me I'd use [Jitsi Meet](https://meet.jit.si "Jitsi Meet") only, but I need it to access my university's classes.
@@ -147,6 +150,45 @@ I use Firefox as my main (and only) browser, the awesome extensions I use are li
 <br>
 <br>
 
+## iOS
+
+Apps installed on my [iPhone 12 mini](https://www.apple.com/it/iphone-12/ "iPhone 12")
+
+- [Affluences](https://apps.apple.com/us/app/affluences/id869919405 "Affluences on the App Store"), to reserve seats and book meetings for [my university](https://unive.it "Ca’Foscari University of Venice").
+- [Bandcamp](https://bandcamp.com "Bandcamp"), mobile client for [Bandcamp](https://bandcamp.com "Bandcamp").
+- [Chime](https://apps.apple.com/us/app/chime/id414830146 "Chime in App Store"), the homologous of [Hourly Reminder](https://f-droid.org/en/packages/com.github.axet.hourlyreminder/ "Hourly Reminder on F-Droid") in iOS. Even though it is a relatively old app, it still works wonderfully
+- [Cineast](https://www.themoviedb.org/apps/58628749c3a3681a6204357a "Cineast"), TMDb client. It costs 1,09€
+- [CloudNotes](https://apps.apple.com/app/cloudnotes-owncloud-notes/id813973264 "CloudNotes"), a notes app which syncs with [Nextcloud Notes](https://apps.nextcloud.com/apps/notes "Nextcloud Notes App"); it costs 2,30€
+- [Cosmicast](https://www.poeticbytes.com/cosmicast "Cosmicast"), a minimal and beautiful podcast player which syncs with MacOS through iCloud. It is proprietary software by [Poetic Bytes](https://www.poeticbytes.com "Poetic Bytes") and it costs 3,50€
+- [Element](https://element.io "Element") the most common and stable [Matrix](https://matrix.org "Matrix") client
+- [FiLMiC Pro](https://www.filmicpro.com/ "FiLmiC Pro"), a super powerful app to boost video shooting from the phone and tweak as much settings as possible. I paid for it and it is not open source, because -unfortunately- [there’s no app like it](https://alternativeto.net/software/filmic-pro/?license=opensource).
+- [Firefox](https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926 "Firefox"), the best browser in the world, even if on iOS it is exactly like Safari but with the Firefox interface.
+- [Hype](https://apps.apple.com/it/app/hype-carta-conto-e-app/id943405905 "Hype app on App Store"), the mobile client for [Hype](https://www.hype.it/ "Hype official website"). Proprietary software.
+- [Imaging Edge Mobile](https://support.d-imaging.sony.co.jp/app/iemobile/), to import images from [my Sony camera](https://www.sony.com/electronics/interchangeable-lens-cameras/ilce-6500-body-kit).
+- [Jitsi Meet](https://jitsi.org/#download), video conferencing, same as on Mac
+- [KeePass Touch](https://www.innervate.de/keepass-touch.html "KeePass Touch"), a bare-bones yet perfectly working KeePass manager
+- [Lightroom](https://apps.apple.com/us/app/adobe-lightroom-photo-editor/id878783582 "Lightroom for iOS"), same as on Mac (grrr).
+- [Mast](https://apps.apple.com/us/app/mast-for-mastodon/id1437429129 "Mast") is a wonderful, simple and neat [Mastodon](https://joinmastodon.org "Mastodon") [client](https://joinmastodon.org/apps "Mastodon clients"). Unfortunately, it is non-free software and it is developed by [Poetic Bytes](https://www.poeticbytes.com "Poetic Bytes"), in every sense; it costs 3,50€.
+- [NetNewsWire](https://ranchero.com/netnewswire/ "NetNewsWire official website"), same as on MacOS
+- [Nextcloud](https://nextcloud.com/install/#tab-mobile "Nexxtcloud mobile clients"), same as on Mac
+- [OpenVPN Connect](https://apps.apple.com/us/app/openvpn-connect/id590379981 "OpenVPN Connect"), [OpenVPN](https://openvpn.net/ "OpenVPN") iOS Client
+- [PGPro](https://pgpro.app "PGPro"), a [PGP Keys] manager and message encrypter and decrypter for iOS
+- [Piwigo](https://github.com/Piwigo/Piwigo-Mobile "Piwigo for iOS on GitHub"), a lovely feature-packed mobile client for [Piwigo](https://piwigo.org "Piwigo")
+- [Pocket](https://apps.apple.com/us/app/pocket-save-read-grow/id309601447 "Pocket"), same as on Mac
+- [PosteID](https://posteid.poste.it/ "Poste ID"), to manage my virtual ID Card
+- [ProtonMail](https://protonapps.com "ProtonMail Apps"), to get my emails from my [ProtonMail](https://protonmail.com "ProtonMail") accounts. I need to use ProtonMail’s app because of its emails’ encryption.
+- [Refining Fire](https://apps.apple.com/us/app/refining-fire/id1000982825 "Refining Fire in App Store"), encouraging Bible verses when needed
+- [Signal](https://signal.org/install/ "Signal"), same as on Mac, even if it is meant for mobile use.
+- [Step Two](https://steptwo.app "Step Two"), a beautifully designed [2FA](https://en.wikipedia.org/wiki/Multi-factor_authentication "Two Factor Autentication") app which syncs with MacOS through iCloud
+- [Telegram](https://telegram.org/dl/ios "Telegram for iOS"), same as on Mac
+- [Trenitalia](https://www.trenitalia.com/content/tcom/it/informazioni/acquista_con_smartphoneetablet.html "Trenitalia mobile"), official app for Italian rails service
+- [WhatsApp](https://www.whatsapp.com/ios "WhatsApp"), same as on Mac
+- [Working Copy](https://workingcopyapp.com "Writing Copy"), handling GitHub repositories
+- [Zen Tuner](https://apps.apple.com/us/app/zen-tuner/id1550640624 "Zen Tuner on App Store"), an open source minimal instrument tuner, 
+
+<br>
+<br>
+
 ## Android
 
 Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") running ~~[Oxygen OS](https://www.oneplus.com/oxygenos "OxygenOS on OnePlus’ website")~~ [LineageOS](+++).
@@ -159,14 +201,14 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 
 [[Launcher|Here]] are my notes dedicated to choosing my phone's [launcher](https://en.wikipedia.org/wiki/Comparison_of_desktop_application_launchers "“Launchers” on Wikipedia").
 
-- [andOTP](https://github.com/andOTP/andOTP), [2FA](https://en.wikipedia.org/wiki/Multi-factor_authentication) app
+- [andOTP](https://github.com/andOTP/andOTP), [2FA](https://en.wikipedia.org/wiki/Multi-factor_authentication "Two Factor Autentication") app
 - [AnonAddy](https://anonaddy.com "AnonAddy official website"), mobile client for [AnonAddy](https://anonaddy.com "AnonAddy official website").
 - [AntennaPod](https://antennapod.org "AntennaPod"), the best podcast player for Android
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io "AnySoftKeyboard official website"), simple, neat and lightweight yet feature-rich keyboard. Settings are a bit messy.
 - [Audius](https://audius.co "Audius Music official website"), [Audius Music](https://audius.co "Audius Music official website") mobile client.
 - [Banca Etica](https://play.google.com/store/apps/details?id=it.bancaetica.bank "Banca Etica on Google Play"), internet banking for [Banca Etica](https://www.bancaetica.it "Banca Etica"). It's not open source and it works very badly. Considering to uninstall it, since the web client is exactly the same.
 - [Bandcamp](https://bandcamp.com "Bandcamp"), mobile client for [Bandcamp](https://bandcamp.com "Bandcamp").
-- [Barinsta](https://barinsta.austinhuang.me/en/latest/ "Barinsta official website"), a lightweight Instagram client for Android. You can't post from there, but you can search and view public stuff without having to login.
+- [Barinsta](https://barinsta.austinhuang.me/en/latest/ "Barinsta official website"), a lightweight Instagram client for Android. You cannot post from there, but you can search and view public stuff without having to login.
 - Bible Study
 - ~~[Blokada](https://blokada.org/), efficient and powerful ad blocker. It has some issues working with VPN on, still trying to fix it~~. Not compatible with VPN.
 - ~~[Book Reader](https://gitlab.com/axet/android-book-reader), a book reader with a simple UI~~ Librera Reader is way better.
@@ -181,23 +223,23 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 - [Fedilab](https://fedilab.app/ "Fedilab"), an Android client to post to the [Fediverse](https://en.wikipedia.org/wiki/Fediverse), I use it for [Mastodon](https://joinmastodon.org/) and [Pixelfed](https://pixelfed.org/).
 - [Freezer](https://freezer.life "Freezer"), stream super high quality music from Deezer, for free
 - [FeedMe](https://play.google.com/store/apps/details?id=com.seazon.feedme "FeedMe on Google Play Store"), an RSS reader app which syncs with [Feedbin](https://feedbin.com "Feedbin")
-- [FiLMiC Pro](https://www.filmicpro.com/), a super powerful app to boost video shooting from the phone and tweak as much settings as possible. I paid for it and it’s not open source, because -unfortunately- [there’s no app like it](https://alternativeto.net/software/filmic-pro/?license=opensource).
+- [FiLMiC Pro](https://www.filmicpro.com/ "FiLmiC Pro"), a super powerful app to boost video shooting from the phone and tweak as much settings as possible. I paid for it and it is not open source, because -unfortunately- [there’s no app like it](https://alternativeto.net/software/filmic-pro/?license=opensource).
 - ~~I don’t care about bells and whistles while browsing on mobile, since I mostly read articles and quickly search stuff, one page at a time. Thus, I use [Firefox Focus](https://support.mozilla.org/en-US/kb/focus) as my main mobile browser: it’s extremely minimal, it has built-in tracking and ad blocking and it’s blazingly fast~~.
 - [Fennec F-Droid](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/ "Fennec on F-Droid"), a browser based on [the latest Firefox release](https://github.com/mozilla-mobile/fenix "Fenix on GitHub") (codenamed [Fenix](https://github.com/mozilla-mobile/fenix "Fenix on GitHub")), and it has proprietary bits and telemetry removed. It works wonderfully.
 - ~~[Firefox Send](https://send.firefox.com/), to send files up to 2.5GB, with server-side encryption. I hate to say it, but it’s not completely bug-free.~~ Project temporarily discontinued.
 - ~~[Flickr](https://play.google.com/store/apps/details?id=com.flickr.android "Flickr on Google Play"), to access my photo storage. As of right now, this is also the only not-open-source service I’m paying for. I won’t lie: price ain’t that low, but it’s a pretty solid service~~. [[Switch to Piwigo|Switched to Piwigo]].
 - ~~[Frost](https://f-droid.org/en/packages/com.pitchedapps.frost/ "Frost on F-Droid"), lightweight open source Facebook client for Android~~. I deleted my Facebook account.
-- I’m not a music expert, definitely, but I am a music enthusiast and I listen to tons of different songs every day. I use [Genius](https://genius.com/ "Genius official website") to learn more about what I listen to and who wrote it. It’s not open source but, again, there’s nothing as good nor even [comparable](https://alternativeto.net/software/rap-genius/?license=opensource) to it.
+- ~~I am not a music expert, definitely, but I am a music enthusiast and I listen to tons of different songs every day. I use [Genius](https://genius.com/ "Genius official website") to learn more about what I listen to and who wrote it. It is not open source but, again, there’s nothing as good nor even [comparable](https://alternativeto.net/software/rap-genius/?license=opensource) to it~~. Using it from the web.
 - ~~[GitHub](https://play.google.com/store/apps/details?id=com.github.android "GitHub on Google Play"), when geek attraction to software cannot wait for me to get back to my desktop~~. The web client is enough for activities seldom performed.
 - ~~[GitJournal](https://gitjournal.io/ "GitJournal official website"), intended to be a note editor to be synced with GitHub, but I use it to update this website on the go.~~ MGit is more functional
 - ~~[H20 Icon Pack](https://play.google.com/store/apps/details?id=com.marcotls.icons.h2o.free), [look](https://assets.tommi.space/images/iconpack.jpg) how gorgeous it looks~~. No icons displayed anymore: I am [turning my smartphone a boring tool](https://maximevaillancourt.com/blog/turning-my-smartphone-into-a-boring-tool "an article by Maxime Vaillancourt")
-- [Loop Habit Tracker](https://loophabits.org "Loop Habit Tracker"), to keep track of daily accomplishments. Feature requests and bugs are [here](/bugs#loop-habit-tracker)
-- [Hype](https://play.google.com/store/apps/details?id=it.hype.app&hl=it "Hype app on Google Play"), money stuff. Proprietary software. (Nevertheless, an [awesome service](https://www.hype.it/ "Hype official website"))
+- [Loop Habit Tracker](https://loophabits.org "Loop Habit Tracker"), to keep track of daily accomplishments. Feature requests and bugs are [here](/bugs#loop-habit-tracker "Loop Habit Tracker Bugs and Feature requests")
+- [Hype](https://play.google.com/store/apps/details?id=it.hype.app&hl=it "Hype app on Google Play"), the mobile client for [Hype](https://www.hype.it/ "Hype official website"). Proprietary software.
 - [Hourly Reminder](https://f-droid.org/en/packages/com.github.axet.hourlyreminder/ "Hourly Reminder on F-Droid"), I often lose track of time and I get distracted very easily. This app helps a tiny little bit, reminding me time is flowing and I need to get things done!
 - I can’t chat with God, but sometimes I read what he says. I use [iBreviary](https://www.ibreviary.org/ "iBreviary official website") to do it. Non-free software.
 - [Image Editor](https://play.google.com/store/apps/details?id=com.pcvirt.ImageEditor "Image Editor on Google Play"), not open source, but it’s free. I love it. Basically, it’s an Android version of Photoshop. You can do **anything** to a photo with it.
-- [Imaging Edge Mobile](https://play.google.com/store/apps/details?id=com.sony.playmemories.mobile), to import images from [my Sony camera](https://www.sony.com/electronics/interchangeable-lens-cameras/ilce-6500-body-kit). I hould’ve said “quickly import”, but no, the process is itchy and annoying. Obviously, since the app is made by Sony to achieve this purpose, it’s nonfree software and I can’t find anything which works better. I’m bound to continue using it until I change my Camera brand (very unlikely).
-- [IO](https://io.italia.it/ "IO official website"), a curious open source app to manage public services in Italy. As of when I’m writing, it’s very new and I haven’t had any chance to use it yet.
+- [Imaging Edge Mobile](https://support.d-imaging.sony.co.jp/app/iemobile/), to import images from [my Sony camera](https://www.sony.com/electronics/interchangeable-lens-cameras/ilce-6500-body-kit). I would have said “quickly import”, but no, the process is itchy and annoying. Obviously, since the app is made by Sony to achieve this purpose, it is non-free software and I cannot find anything which works better. I’m bound to continue using it until I change my Camera brand (very unlikely).
+- [IO](https://io.italia.it/ "IO official website"), a curious open source app to manage public services in Italy.
 - [Jami](https://jami.net/download-jami-android/ "Jami Android page on Jami's website"), same as on Mac. Still hoping.
 - [Jitsi Meet](https://jitsi.org/#download), video conferencing, same as on Mac
 - ~~[Joplin](https://play.google.com/store/apps/details?id=net.cozic.joplin "Joplin on Google Play"), same as on Mac, but here it isn’t customizable, thus unsolvably crap~~. I now use Nextcloud Notes
@@ -228,23 +270,23 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 - [Open Note Scanner](https://github.com/ctodobom/OpenNoteScanner "Open Note Scanner GitHub repository: source code"), a simple and intuitive app to scan documents. Its scanning resolution is very bad, I wish they improved it.
 - [OpenKeychain](https://www.openkeychain.org/ "OpenKeychain official website"), to manage PGP keys. It works hand in hand with FairEmail.
 - [OpenTracks](https://f-droid.org/en/packages/de.dennisguse.opentracks/), track tracks and paths
-- [OpenVPN Connect](), OpenVPN Android client. Installed through [APKMirror](https://www.apkmirror.com/apk/openvpn/openvpn-connect/ "OpenVPN Connect on APKMirror")
+- [OpenVPN Connect](https://play.google.com/store/apps/details?id=net.openvpn.openvpn "OpenVPN Connect"), [OpenVPN](https://openvpn.net/ "OpenVPN") Android client. Installed through [APKMirror](https://www.apkmirror.com/apk/openvpn/openvpn-connect/ "OpenVPN Connect on APKMirror")
 - openWorkout
-- [OsmAnd+](https://osmand.net/), a great Google Maps alternative, based on [OpenStreetMap](https://www.openstreetmap.org)
+- [OsmAnd+](https://osmand.net/ "OsmAnd"), a great Google Maps alternative, based on [OpenStreetMap](https://www.openstreetmap.org "OpenStreetMap")
 - [PhoneTrack](https://f-droid.org/en/packages/net.eneiluj.nextcloud.phonetrack/), open source version of *Find my iPhone* for android
 - [Padland](https://github.com/mikifus/padland), to manage, share, remember and read Etherpad documents
 - PhoneTrack
 - ~~[plees tracker](https://vmiklos.hu/plees-tracker/), a sleep tracking app~~. I forgot to note on the app my sleeping times, so it was useless.
 - [Pocket](https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro), same as on Mac. It [requires Google Play](#only-on-google-play) but I installed it through [APKMirror](https://www.apkmirror.com/apk/read-it-later/pocket/ "Pocket on APKMirror").
 - [Poet Assistant](https://f-droid.org/en/packages/ca.rmen.android.poetassistant/), A set of tools to help with writing poems. I’m not good, but I can use a little help.
-- [PosteID](https://posteid.poste.it/), to manage my virtual ID Card
-- [ProtonMail](https://protonapps.com "ProtonMail Apps"), to get my emails from my ProtonMail accounts. I need to use ProtonMail’s app because of its emails’ encryption.
+- [PosteID](https://posteid.poste.it/ "Poste ID"), to manage my virtual ID Card
+- [ProtonMail](https://protonapps.com "ProtonMail Apps"), to get my emails from my [ProtonMail](https://protonmail.com "ProtonMail") accounts. I need to use ProtonMail’s app because of its emails’ encryption.
 - ~~[ProtonVPN](https://protonvpn.com/ "ProtonVPN")~~, same as on Mac
 - ~~[Rai Play](https://play.google.com/store/apps/details?id=it.rainet), [RAI](https://www.rai.it/ "RAI")’s streaming service~~. Not watching stuff on tiny screen.
 - ~~[Rai Play Radio](https://play.google.com/store/apps/details?id=it.rainet), [RAI](https://www.rai.it/ "RAI") radio channels’ streaming service~~.
 - [Red Moon](https://github.com/LibreShift/red-moon), a screen filter app for night time phone use
 - [RHVoice](https://f-droid.org/en/packages/com.github.olga_yakovleva.rhvoice.android/ "RHVoice on F-Droid"), an open source <abbr title="Text To Speech">TTS</abbr> engine
-- [Signal](https://signal.org/install/), same as on Mac, even if it’s meant for mobile use.
+- [Signal](https://signal.org/install/ "Signal"), same as on Mac, even if it is meant for mobile use.
 - [Simple Calendar Pro](https://www.simplemobiletools.com/calendar/), a light and neat calendar app, with the right features and without too many useless bells and whistles
 - ~~[StreetComplete](https://github.com/westnordost/StreetComplete), to contribute to [OpenStreetMap](https://openstreetmap.org)~~. To be honest, I don't contribute to OSM; when I occasionally do, I do it through the web interface, from desktop.
 - ~~[Super Tuner](https://play.google.com/store/apps/details?id=com.music.supertuner), a very ugly yet lightweight and working (it’s just what I need: stuff that actually works) guitar tuner~~ replaced with Cythara, which is open source
@@ -252,10 +294,10 @@ Right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") run
 - Talk Faster!
 - [Thorium](https://github.com/sschueller/peertube-android), a PeerTube Android client
 - [Telegram](https://telegram.org/dl/android "Telegram for Android"), same as on Mac
-- [Termux](https://termux.com/), a terminal emulator for Android
+- [Termux](https://termux.com/ "Termux"), a terminal emulator for Android
 - [Trail Sense](https://f-droid.org/en/packages/com.kylecorry.trail_sense/), to survive when pretending to be Bear Grylls
 - Tutanota
-- [UltraSonic](https://www.f-droid.org/en/packages/org.moire.ultrasonic/), a [Funkwhale](https://funkwhale.audio/) client for Android
+- [UltraSonic](https://www.f-droid.org/en/packages/org.moire.ultrasonic/ "UltraSonic on F-Droid"), a [Funkwhale](https://funkwhale.audio/ "Funkwhale") client for Android
 - [UntrackMe](https://fedilab.app/wiki/untrackme/), to transform YouTube and Twitter links into Invidious and Nitter links respectively
 - ~~[Vespucci](https://f-droid.org/packages/de.blau.android/), to contribute to [OpenStreetMap](https://openstreetmap.org)~~. StreetComplete is way simpler, this only has a better name
 - [WhatsApp](https://www.whatsapp.com/android "WhatsApp"), same as on Mac
@@ -277,7 +319,7 @@ Apps which i cannot install since they are available on [Google Play](https://pl
 - Satispay
 - When I hear a new song I enjoy but I don’t know, I use [Shazam](https://www.shazam.com/) to tell me its title. Proprietary software, [no alternatives](https://alternativeto.net/software/shazam/?license=opensource)
 - [Spotify](https://play.google.com/store/apps/details?id=com.spotify.music "Spotify for Android"), same as on Mac
-- [Trenitalia](https://www.trenitalia.com/content/tcom/it/informazioni/acquista_con_smartphoneetablet.html), official app for Italian rails service
+- [Trenitalia](https://www.trenitalia.com/content/tcom/it/informazioni/acquista_con_smartphoneetablet.html "Trenitalia mobile"), official app for Italian rails service
 - [Ultimate Guitar Tabs](https://play.google.com/store/apps/details?id=com.ultimateguitar.tabs), to access [Ultimate Guitar](https://ultimate-guitar.com) from mobile
 - [Vimeo](https://play.google.com/store/apps/details?id=com.vimeo.android.videoapp "Vimeo on Google Play"), that thing which wants to take over YouTube, preferred in the cinema world.
 - [Where Are U](https://play.google.com/store/apps/details?id=it.Beta80Group.whereareu), an emergency app which, if triggered, immediately sends my location to Italian authorities. Proprietary software
@@ -318,16 +360,3 @@ Apps which aren't installed but it's worth remembering.
 - [Taskbar](https://f-droid.org/packages/com.farmerbb.taskbar/), and android app which simulates a desktop-like dock for recent apps
 - [World Scribe](https://github.com/MarquisLP/World-Scribe), an Android app for fictional world-building 
 - [OPAC App](https://opac.app/), Android app to access libraries catalogues around the world (not in use since the ones I frequent aren't supported)
-
-<br>
-<br>
-
-### iOS Apps
-
-I don’t own an iPhone. If that day ever comes, these are the iOS-only apps I’d install:
-
-- [Recall Photos](https://app.recall.photos/), decentralized Google Photos alternative
-- [Cineast](https://www.themoviedb.org/apps/58628749c3a3681a6204357a), IMDb alternative
-- [OpenWhyd](https://openwhyd.org "Openwhyd"), Spotify alternative
-- [Refining Fire](https://apps.apple.com/it/app/refining-fire/id1000982825), encouraging Bible verses when needed
-- [Writing Copy](https://workingcopyapp.com), handling GitHub repositories

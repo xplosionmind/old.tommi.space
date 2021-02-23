@@ -1,10 +1,10 @@
 ---
 ---
 - [ ] Scottex
-- [ ] Sapone
-- [ ] Guanti
-- [ ] Sapone piatti
-- [ ] The
+- [ ] Sapone per lavandino
+- [ ] guanti
+- [x] Sapone piatti
+- [x] The
 - [ ] fette biscottate
 - [ ] mozzarella
 - [ ] tonno
@@ -17,5 +17,4 @@
 - [ ] verdure
 - [ ] grissini
 - [ ] biscotti
-- [ ] Batteries
-- [ ] Fagiolini
+- [ ] fagiolini

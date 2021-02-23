@@ -1,10 +1,11 @@
 ---
 date: 2021-01-12
-updated: 2021-01-12
-tags: music, wip
+updated: 2021-02-21T14:14:25.301091+01:00
+tags: music
 main: true
+description: "Insights about music when made, played, or listened"
 ---
-My music is in [[Playlist]], or [[Playlist|Xplosion Music]]
+The music I listen to is in my [[Playlists|playlists]].
 
 <br>
 <br>

@@ -12,8 +12,8 @@ Below are the ones I set to myself.
 	The following decisions go hand in hand with [[The Slot Philosophy]], which is my main approach to [[Self improvement]]
 </div>
 
-- from 2013, stop playing and installing games on my mobile
-- from June 2016, turning off all push notifications, except alarms and reminders
+- from 2013, stop playing any videogame and stop installing any game app on my mobile
+- from June 2016, [turning off all push notifications](https://www.wired.com/story/turn-off-your-push-notifications/ "“Turn off your Push Notifications” on Wired"), except alarms and reminders
 	- you don't actually miss any message
 	- you can leave internet and everything turned on, nothing will distract you unless really important and worth your immediate attention
 - from 9<sup>th</sup> November 2020, never use my laptop while in bed, except to watch movies or series
@@ -29,6 +29,6 @@ Below are the ones I set to myself.
 
 A handful of links which led me to set **some of** the boundaries above.
 
-- [Tania Rascia](https://taniarascia.com)’s [Everyday Systems](https://www.taniarascia.com/everyday-systems/)
-- [Leo Babauta](https://zenhabits.net)’s [*A Case against optimizing your life*](https://zenhabits.net/unoptimizing/)
-- [*Turn off your Push Notifications*](https://www.wired.com/story/turn-off-your-push-notifications/ "“Turn off your Push Notifications” on Wired"), on Wired
+- [<cite>Everyday Systems That Help Me</cite>](https://www.taniarascia.com/everyday-systems/ "Everyday Systems That Help Me"), by [Tania Rascia](https://taniarascia.com "Tania Rascia")
+- [*A Case against optimizing your life*](https://zenhabits.net/unoptimizing/ "A Case against optimizing your life - Zen Habits"), by [Leo Babauta](https://zenhabits.net "Leo Babauta")
+- [*Turn off your Push Notifications*](https://www.wired.com/story/turn-off-your-push-notifications/ "“Turn off your Push Notifications” on Wired"), by @pierce on Wired

@@ -17,7 +17,7 @@ redirect_from: ["/tutta-la-marmellata", "/tutta-marmellata", "/the-whole-jam", "
 	<div class="grid">
 		{% assign jar = site.notes %}
 		{% for note in jar %}
-			<a href="{{ note.url }}">
+			<a href="{{ note.url }}" lang="{{ note.lang }}" title="{{ note.title }}">
 				<div class="vertical flex box">
 					<h3>{{ note.title }}</h3>
 					{% if note.description %}

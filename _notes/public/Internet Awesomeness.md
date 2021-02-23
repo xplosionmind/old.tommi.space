@@ -1,6 +1,6 @@
 ---
 date: 2020-10-27
-updated: 2021-02-13T12:13:50.549849+01:00
+updated: 2021-02-23T19:17:17.815197+01:00
 tags: geek, wip
 redirect_from: ["/great-websites", "/great-internet", "/internet-greatness"]
 toc: false
@@ -21,3 +21,5 @@ todo:
 - [The Reboot](https://thereboot.com "The Reboot"), 2021-02-02
 - [Create Habit](https://programs.clearerthinking.org/daily_ritual.html "Create habit"), 2021-01-12
 - [xiffy](https://xiffy.nl "Xiffy"), 2021-01-13
+- [The Search Engines Map](https://www.searchenginemap.com "The Search Engines Map"), 2021-02-23
+- [The Internet Map](https://internet-map.net "The Internet Map"), 2021-02-23
