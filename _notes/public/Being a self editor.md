@@ -2,7 +2,7 @@
 date: 2021-02-04T13:58:44.684597+01:00
 updated: 2021-02-25T15:32:11.680362+01:00
 tags: writing zen idea draft
-description: "I am a self editor, I am the editor of myself.""
+description: "I am a self editor, I am the editor of myself."
 toc: false
 ---
 <div class="blue box">
