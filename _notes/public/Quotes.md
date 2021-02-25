@@ -96,6 +96,13 @@ Woody Allen
 <p class="cite">Kafka, <cite>il processo</cite>, nelle parole di Joseph K.</p>
 
 <br />
+<br id="striscia-inciampa" />
+
+> Chi striscia non inciampa
+
+<p class="cite">Zio Mic, 2018</p>
+
+<br />
 <br />
 
 > Passano le mode, lo stile invece mai
