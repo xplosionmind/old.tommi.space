@@ -1,11 +1,15 @@
 ---
 date: 2020-05-22
-updated: 2020-09-16
-tags: design, geek, wip, web
+updated: 2021-02-25T10:29:33.855575+01:00
+tags: design geek wip web
 description: "A collection of colors I love and where I use them"
 redirect_from: ["/colours", "/colori"]
+todo:
+  - add quitsocialmedia
+  - add links to CSSs files and find a way to automate the update
+  - Check if `view-source:…` works
 ---
-## xplosionmind
+## tommi.space
 
 [tommi.space](https://tommi.space "Tommi Space") [palette](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_root.scss "tommi.space main colors in a CSS file")
 
@@ -26,7 +30,7 @@ redirect_from: ["/colours", "/colori"]
 
 ## Dark and green website
 
-Color scheme for [Philosophy & Engineering](/filosofia) blog.
+Color scheme for [Philosophy & Engineering](/filosofia "Philosophy section of the blog") blog.
 
 - `#000000` deep black, `background`
 - `#444444` dark gray, `separator`
@@ -38,10 +42,11 @@ Color scheme for [Philosophy & Engineering](/filosofia) blog.
 - `#F41C73` even more vibrant pink, `link hover`
 
 <br>
+<br>
 
 ## Red
 
-Ah, red, what a color. So wonderful I gotta keep note of all the nice shades of it I lay my eye on. Also, I have a great passion for red tending towards magenta.
+Ah, red, what a color. It is o wonderful I have to keep note of all the nice shades of it I lay my eye on. Also, I have a great passion for red tending towards magenta.
 
 - `#FF0000`, FULL, **strong**, total red
 - `#EC0868`, [*Razzmatazz*](https://en.wikipedia.org/wiki/Razzmatazz_(song) "Razzmatazz on Wikipedia")
@@ -49,12 +54,15 @@ Ah, red, what a color. So wonderful I gotta keep note of all the nice shades of 
 - `#D00`, dosso corsa
 - `#DF2935`, Rose Madder
 - `#D7263D`, Crimson
+- `#AF0539`, [Ca’ Foscari University](https://unive.it "Ca’Foscari University")’s main theme color, picked <a href="view-source:https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo_Universit%C3%A0_Ca'_Foscari_Venezia.svg#line11" rel="noopener noreferrer" target="_blank" title="The line of the source code of the SVG of the logo of Ca’Foscari containing the HEX code of the color">from the SVG </a>of <a href="{{ https://en.wikipedia.org/wiki/Ca'_Foscari_University_of_Venice#/media/File:Logo_Università_Ca'_Foscari_Venezia.svg | uri_escape }}" rel="noopener noreferrer" target="_blank" title="Logo dell’Università Ca’ Foscari di Venezia">University logo</a>
+- `#AC0033`, always [Ca’ Foscari University](https://unive.it "Ca’Foscari University")’s main theme color, but <a href="view-source:https://www.unive.it/#line32" rel="noopener noreferrer" target="_blank" title="Link to Ca’Foscari website source code">picked from the university website’s source code</a>
 
+<br>
 <br>
 
 ## Coding syntax
 
-[Monokai Pro](https://monokai.pro) inspired
+[Monokai Pro](https://monokai.pro "Monokai Pro") inspired
 
 - `#2C292D` Black-ish
 - `#FF1688` Red (actually kind of light magenta)
@@ -64,6 +72,7 @@ Ah, red, what a color. So wonderful I gotta keep note of all the nice shades of 
 - `#8DD8EF` Cyan
 - `#AB9DF2` Violet
 
+<br>
 <br>
 
 ## Dark app palette
@@ -79,21 +88,27 @@ MacOS dark theme system background colors. The accent colors can be found [here]
 - `#72BE47`, expand
 
 <br>
+<br>
 
 ## Other palettes
 
-- “[Persistence](https://www.color-hex.com/color-palette/89620)”, a wonderful green gradient palette
+- [<cite>Persistence</cite>](https://www.color-hex.com/color-palette/89620 "Persistence color palette"), a wonderful green gradient palette
 
 <br>
+<br>
 
-## Random colors I like
+## Various
 
 - `#451960` a dark, deep purple (with no smoke on the water)
 - `#F28F3B` tiger orange
+- `#AF0539`, [Ca’ Foscari University](https://unive.it "Ca’Foscari University")’s main theme color
 
 <br>
+<br>
 
-## Color palettes generators
+## Generators
+
+Color palettes generators
 
 - [Colormind](http://colormind.io/ "Colormind")
 - [Coolors](https://coolors.co/ "Coolors")

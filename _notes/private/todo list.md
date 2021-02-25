@@ -2,14 +2,15 @@
 tags: todo
 aliases: ["MOC", "Home", "to do", "todo", "main"]
 ---
-3. **Study**
-4. History classes plan
+1. **Study**
+1. Improve writing of Sanremo Festival formats
 5. *[[Scambi]]*
 	1. Presentazione
 	1. Email concorso
 	2. Wordpress
 	3. Compilazione schede labs
-6. [[To listen]]
+1. Sistemare problema con iOS
+4. Configure Cheon
 7. Writing
 	1. [[Articolo Scambi]]
 	1. [[Writing/Algoritmo]]

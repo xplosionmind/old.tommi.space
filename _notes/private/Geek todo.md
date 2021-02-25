@@ -34,15 +34,17 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 	- readability
 	- can they be stored in pure plain text?
 - move stuff in Pocket archive to a plain text file with explanation
+- sistemare [[To listen]] e trovare soluzione definitiva per [[Quit Spotify]]
 - cross-environment **tag integration**
 	- **audios**: notes containing shared links of files in Cubbit?
 	- **images**: consider collecting shared links of albums in a private *[[Giri]]*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
-1. Phisical notebooks log / timeline. Improve [[analog]] implementation
+1. Physical notebooks log / timeline. Improve [[analog]] implementation
 1. Add links to Stallman in [[Quit and switch|Just quit]]
 1. [Learn EQ](https://youtu.be/e4C5DxOepsM)
 1. Setup [Hype Machine](https://hypem.com)
 2. Setup Syncthing
 3. Update [[Apps]] and finalize [[Switch to LineageOS]]
+1. Create a CSS framework
 4. Manage cross-system links (apps on Android not working on iOS and vice-versa)
 
 <br>

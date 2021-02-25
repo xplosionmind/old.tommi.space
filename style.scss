@@ -191,8 +191,8 @@ article .box:not(.tags) {
 				content: "🙋🏻‍♂️ ";
 			}
 		}
-		&[href="/zibaldone" i],
-		&[href="/zibenglish" i],
+		&[href*="/zibaldone" i],
+		&[href*="/zibenglish" i],
 		&[href="/blog" i] {
 			&::before {
 				content: "📜 ";
@@ -210,12 +210,14 @@ article .box:not(.tags) {
 				content: "🎬 ";
 			}
 		}
-		&[href*="music" i] {
+		&[href*="music" i],
+		&[href*="playlist" i] {
 			&::before {
 				content: "🎧 ";
 			}
 		}
-		&[href*="server" i] {
+		&[href*="server" i],
+		&[href*="linuxplosion" i] {
 			&::before {
 				content: "📟 ";
 			}
@@ -276,7 +278,8 @@ article .box:not(.tags) {
 				content: "💬 ";
 			}
 		}
-		&[href^="/self" i] {
+		&[href^="/self" i],
+		&[href^="/mind" i] {
 			&::before {
 				content: "🧘🏻‍♂️ ";
 			}
@@ -308,6 +311,34 @@ article .box:not(.tags) {
 		&[href*="poesi" i] {
 			&::before {
 				content: "🖋 ";
+			}
+		}
+		&[href*="/filinge" i],
+		&[href*="/filosofia" i],
+		&[href*="/philosophy" i] {
+			&::before {
+				content: "💭 ";
+			}
+		}
+		&[href*="/ital" i] {
+			&::before {
+				content: "🇮🇹 ";
+			}
+		}
+		&[href*="/sconnesso" i] {
+			&::before {
+				content: "🎙 ";
+			}
+		}
+		&[href^="/geek" i],
+		&[href^="/feeds/geek" i] {
+			&::before {
+				content: "💻 ";
+			}
+		}
+		&[href*="/storage" i] {
+			&::before {
+				content: "💾 ";
 			}
 		}
 		&[href^="/"],
