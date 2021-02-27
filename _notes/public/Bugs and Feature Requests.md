@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04
-updated: 2021-02-04T14:17:32.933160+01:00
+updated: 2021-02-27T16:28:35.193851+01:00
 tags: geek
 permalink: /bugs
 redirect_from: ["/feature-requests", "/bugs-and-feature-requests"]
@@ -10,12 +10,27 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 <br>
 <br>
 
+## iOS
+
+Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]].
+
+<br>
+
+### Messages
+
+- Improved audio handling
+	- recording stops when screen shuts off
+- Delete for me / delete for everybody option
+
+<br>
+<br>
+
 ## Signal
 
 [Signal](https://signal.org "Signal official website") is the most secure and private messaging app in the world
 
 - markdown syntax (or any text formatting capability)
-- setting to choose to automatically download media
+- setting to choose to automatically download media and add to Library
 
 <br>
 <br>

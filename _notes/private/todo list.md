@@ -23,7 +23,7 @@ aliases: ["MOC", "Home", "to do", "todo", "main"]
 	8. [[Lettera a mamma e papà]]
 	9. tags “draft” and “writing”
 	10. [[Articles ideas]]
-	11. [[Writing ideas]]
+	11. [[Writing]]
 	12. Cities, telling their story from my point of view
 	13. Vademecum anti-nichilista
 	14. Vivere la religiosità

@@ -1,11 +1,13 @@
 ---
 date: 2020-06-10
-updated: 2021-01-12
+updated: 2021-02-27T16:24:17.190992+01:00
 tag: quotes
 toc: false
 description: 'Some are from celebrities, some were pronounced by friends of mine and may have no meaning to the public, in realtà sono quasi tutte in italiano dunque non ha senso che scriva la descrizione in inglese.'
 redirect_from: ["cit", "/citazioni"]
 main: true
+todo:
+  - "This file is getting too long! Solutions?"
 ---
 <style>
 	.cite {
@@ -551,7 +553,7 @@ Woody Allen
 <br>
 <br>
 
-> Non mi chiedono l'autografo alla fine dei concerti. **Mi chiedono la bibliografia**
+> Non mi chiedono l’autografo alla fine dei concerti. **Mi chiedono la bibliografia**
 
 <p class="cite">Vasco Brondi, 1 Dicembre 2020</p>
 
@@ -560,6 +562,44 @@ Woody Allen
 
 > **Mari**: <q>che brutto lavoro il pescatore</q>   
 > **Tommi**: <q>Ma no dai! Perché?</q>
-> **Mari**: <q>Ti entrano tutte le goccioline d'acqua nel collo</q>
+> **Mari**: <q>Ti entrano tutte le goccioline d’acqua nel collo</q>
 
 <p class="cite">Con Mari, 11 gennaio 2021</p>
+
+<br>
+<br>
+
+> Ma quanto è alta stasera la Luna?
+
+<p id="grandeluna" class="cite">Costanza Rossi, il 23 febbraio 2021 dal terrazzo di casa a Venezia</p>
+
+<br>
+<br>
+
+> È un anagramma di ritmo
+
+<p class="cite">Tre allegri ragazzi morti, <cite>Allegria senza fine</cite></p>
+
+<br>
+<br>
+
+> ecco perché parla dello sguardo oggettificante, perché era strabico
+
+<p class="cite">Marghe, parlando di Sartre; 27 febbraio 2021 - Palazzo Grazzi, Venezia</p>
+
+<br>
+<br>
+
+> La dialettica della ripetizione è semplice: ciò che infatti viene ripetuto, è stato, altrimenti non potrebbe venire ripetuto; ma proprio il fatto che ciò è stato determina la novità della ripetizione. Dicendo che ogni conoscere è ricordare, i Greci dicevano: <q>l’intera esistenza attuale è esistita</q>. Dicendo che la vita è una ripetizione, si dice: «l’esistenza passata viene a esistere ora». Senza la categoria di reminiscenza o di ripetizione, la vita intera svanisce in un rumore vuoto e inconsistente.
+
+<p class="cite">Søren Kierkegaard, <cite>La Ripetizione</cite>, 1843</p>
+
+<br>
+<br>
+
+> …for God gave us a spirit not of fear but of power and love and self-control.
+
+<p class="cite"><a href="https://www.biblegateway.com/passage/?search=2+Timothy+1.7&version=ESV" rel="noopener noreferrer" target="_blank" title="2 Timothy 1.7">2 Timothy 1.7</a></p> 
+
+<br>
+<br>

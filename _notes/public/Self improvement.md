@@ -7,7 +7,7 @@ description: "I am a clumsy, messy, confused guy, and I need to work hard to ach
 toc: false
 main: true
 ---
-- [[Self debugging]]: sitting down, breathing, switching off anything which is switchable, and debug yourself, as you would do with a program
+- [[Self debugging app]]: sitting down, breathing, switching off anything which is switchable, and debug yourself, as you would do with a program
 - [[Self tracking]]: Keeping track of anything which has to or shouldnt't occur repetitively
 - [[Loops]]: acquire habits and take advantage of them to waste less time
 - [[Boundaries]]: set some constraints and limit by yourself your own daily freedom, in order to achieve a greater one on an higher level

@@ -1,6 +1,6 @@
 ---
 date: 2020-06-06
-updated: 2021-02-15T15:47:27.998827+01:00
+updated: 2021-02-25T17:35:32.938710+01:00
 lang: it
 toc: false
 description: "Leggo e sento tante perole belle (oppure brutte ma con un gran significato) e ho paura di perderle, perciò le annoto qui."
@@ -37,8 +37,7 @@ description: "Leggo e sento tante perole belle (oppure brutte ma con un gran sig
 - 2021.01.24 [oblivious](https://www.merriam-webster.com/dictionary/oblivious "“oblivious” on Merriam Webster dictionary") (from *[[Adaptation.]]*)
 - 2021.01.27 [esperimento](https://www.treccani.it/vocabolario/esperimento/ "“esperimento” nel vocabolario Treccani")
 - 2021.02.03 [tuttavia](https://www.treccani.it/vocabolario/tuttavia/ "“tuttavia” nel vocabolario Treccani")
-
-
 - 2021.01.24 [placeholder](https://www.merriam-webster.com/dictionary/placeholder "“placeholder” on Merriam Webster dictionary")
 - 2020.12.03 [segnaposto](https://www.treccani.it/vocabolario/segnaposto "“segnaposto” nel vocabolario Treccani")
-- 2021.02.15 bizarre
+- 2021.02.15 [bizzarro](https://www.treccani.it/vocabolario/bizzarro "“bizzarro” nel vocabolario Treccani")
+- 2021.02.25 [melomane](https://www.treccani.it/vocabolario/melomane "“melomane” nel vocabolario Treccani")

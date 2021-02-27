@@ -122,6 +122,11 @@ Scripts for the awesome [ExifTool](https://exiftool.org/). I use them as part of
 exiftool -s -G
 ```
 
+<br>
+
+```sh
+exiftool "=-all"
+```
 
 <div class="blue box">
 	<strong><code>-s</code></strong> is used to show the names in ExifTool commands format. <i>e.g.: instead of "Create Date" you see "CreateDate"</i>

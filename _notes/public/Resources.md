@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-updated: 2021-01-31T09:37:03.221854+01:00
+updated: 2021-02-26T10:09:09.444885+01:00
 tags: todo
 aliases: "Learning Resources"
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
@@ -68,6 +68,7 @@ todo:
 - [git official documentation](https://git-scm.com/doc)
 - [escape a git mess](http://justinhileman.info/article/git-pretty/git-pretty.png)
 - [git interactive **Cheat Sheet**](https://ndpsoftware.com/git-cheatsheet.html)
+- [ohmygit.org](https://ohmygit.org "Oh My Git!"), a game to learn git
 
 <br>
 

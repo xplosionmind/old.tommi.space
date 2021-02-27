@@ -31,6 +31,8 @@ exclude:
   - _notes/templates/
   - _notes/.obsidian
   - _notes/.trash
+  - _notes/PISE
+  - _notes/university
 keep_files:
   - images/
   - assets/

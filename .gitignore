@@ -1,5 +1,17 @@
 # Private notes
 _notes/private/
+_notes/PISE
+_notes/university
 
 # Notes graph metadata
 _includes/notes_graph.json
+
+# not shareable content
+copyrighted-content/
+to-publish/
+/various
+*/copyrighted-content
+*/*/copyrighted-content
+private
+*/private
+*/*/private
