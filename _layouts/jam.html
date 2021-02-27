@@ -26,14 +26,14 @@ layout: wrapper
 			{% if page.lang == 'it' %}
 				ultima modifica: 
 				{% if page.updated != nil %}
-					<time class="dt-updated" datetime="{{ page.updated | date_to_xmlschema }}">{{ page.updated | date: '%d %b %Y alle %H:%M' }}</time>
+					<time class="dt-updated" datetime="{{ page.updated }}">{{ page.updated | date: '%d %b %Y alle %H:%M' }}</time>
 				{% else %}
 					<time class="dt-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: '%d %b %Y alle %H:%M' }}</time>
 				{% endif %}
 			{% else %}
 				latest edit: 
 				{% if page.updated != nil %}
-					<time class="dt-updated" datetime="{{ page.updated | date_to_xmlschema }}">{{ page.updated | date: '%d %b %Y at %H:%M' }}</time>
+					<time class="dt-updated" datetime="{{ page.updated }}">{{ page.updated | date: '%d %b %Y at %H:%M' }}</time>
 				{% else %}
 					<time class="dt-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: '%d %b %Y at %H:%M' }}</time>
 				{% endif %}
