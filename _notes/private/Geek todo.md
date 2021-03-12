@@ -21,6 +21,8 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 	- https://rusingh.com/blogroll/
 	- https://jlelse.blog/dev/miniflux-blogroll
 13. Enrico Francese per microfono e config
+1. [Integrate](https://github.com/cjeller1592/WriteFreely-API) noblogo.org / Writefreely with Jekyll
+2. [customize](https://writefreely.org/docs/latest/writer/css) noblogo.org / WriteFreely style
 14. [[Bugs and Feature Requests]]
 15. scripts: performing a command for every file in a directory (e.g. converting separate documents in another format with pandoc, but keeping them separated.)
 16. https://gradient-avatar.glitch.me/xplosionmind
@@ -33,10 +35,10 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 	- format
 	- readability
 	- can they be stored in pure plain text?
-1. move stuff in Pocket archive to a plain text file with explanation
-1. Update [[Storage|Backup]] and [[Backup checklist]] and add the roadmap to import iOS pictures in MacOS
-1. sistemare [[To listen]] e trovare soluzione definitiva per [[Quit Spotify]]
-1. cross-environment **tag integration**
+12. move stuff in Pocket archive to a plain text file with explanation
+13. Update [[Storage|Backup]] and [[Backup checklist]] and add the roadmap to import iOS pictures in MacOS
+14. sistemare [[To listen]] e trovare soluzione definitiva per [[Quit Spotify]]
+15. cross-environment **tag integration**
 	- **audios**: notes containing shared links of files in Cubbit?
 	- **images**: consider collecting shared links of albums in a private *[[Giri]]*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
 24. Physical notebooks log / timeline. Improve [[analog]] implementation
@@ -47,7 +49,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 29. Update [[Android Apps]] and finalize [[Switch to LineageOS]]
 30. Add GitLab and GitPull.it/gite a.it mirrors
 30. Create a CSS framework
-1. [simple.css](https://github.com/xplosionmind/simple.css) ([website](https://simplecss.org))
+24. [simple.css](https://github.com/xplosionmind/simple.css) ([website](https://simplecss.org))
 31. Manage cross-system links (apps on Android not working on iOS and vice-versa)
 
 <br>

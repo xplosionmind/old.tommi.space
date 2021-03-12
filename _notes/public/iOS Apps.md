@@ -6,6 +6,8 @@ description: "Apps installed on my <a href='https://www.apple.com/it/iphone-12/'
 permalink: /ios
 redirect_from: ["/ios-apps", "/iphone", "/iphone-apps"]
 toc: false
+todo:
+  - "update"
 ---
 - [1Writer](https://1writerapp.com "1Writer") is arguably [the best iOS text editor](https://brettterpstra.com/ios-text-editors/ "iOS text editors comparison by Brett Terpstra"), I use it via WebDAV to edit my [Nextcloud Notes](https://apps.nextcloud.com/apps/notes "Nextcloud Notes App") on the go; the app costs 5,50€.
 - [Actual](https://actualbudget.com "Actual budget"), experimenting this private and encrypted personal finance management service
