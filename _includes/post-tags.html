@@ -3,7 +3,7 @@
 		{% for present in page.tags %}
 			{% capture tag %}{{ tagg.title | downcase | slugify }}{% endcapture %}
 			{% capture post-tag %}{{ present | downcase | slugify }}{% endcapture %}
-			{% if tag == post-tag %}
+			{% if post-tag contains tag %}
 				<a href="/tags#{{ tag }}" rel="tag" class="{{ tag }} smaller written button p-category">{{ tagg.title }}</a>
 			{% endif %}
 		{% endfor %}

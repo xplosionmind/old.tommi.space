@@ -1,7 +1,7 @@
 ---
 date: 2020-02-11
 updated: 2020-02-12
-tags: ["giffoni"]
+tags: event/giffoni
 ---
 Giffoni è un sacco di cose: probabilmente ogni singola declinazione della cultura, dell’unione e dell’innovazione trova una sua qualche rappresentazione a Giffoni.
 

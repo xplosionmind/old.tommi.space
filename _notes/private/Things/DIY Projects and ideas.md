@@ -1,7 +1,5 @@
 ---
-tags:
-  - diy
-  - idea
+tags: diy wip idea
 ---
 - [ ] [[Attic]]
 - [ ] Live stairs webcam

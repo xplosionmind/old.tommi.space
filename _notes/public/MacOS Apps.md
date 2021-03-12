@@ -1,7 +1,7 @@
 ---
 date: 2021-02-26T10:19:47.219741+01:00
 updated: 2021-02-27T07:51:56.765853+01:00
-tags: geek apps
+tags: geek geek/apps
 description: "Right now on my <a href='https://support.apple.com/kb/SP799' rel='noopener noreferrer' target='_blank' title='MacBook Pro 13\" 2019 tech specs'>MacBook Pro 13\" 2019</a>"
 permalink: /macos
 redirect_from: ["/macos-apps", "/mac-apps"]
@@ -10,6 +10,7 @@ toc: false
 - [Adobe Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html), alas, the best photo editing software out there. I hate Adobe, but it works so damn good. I’m doing my best to completely switch to the two following programs but, damn, it’s so hard. Also: I have to keep Lightroom on my device because it’s impossible to move photography edits committed with Lightroom to Darktable.
 - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html). I tried living without it. I couldn't. Hands down, it's the best visual editing software in the world. You could do anything with it.
 - [AEScrypt](https://www.aescrypt.com "AEScrypt") file encrypter and decrypter
+- [alltomp3](https://alltomp3.org "alltomp3"), mp3 downloader
 - [Android File Transfer](https://www.android.com/filetransfer/), the name says it all. It’s simple and it works great.
 - [AppCleaner](https://freemacsoft.net/appcleaner) is not open source, but, damn, it’s so useful I have to keep it.
 - ~~[Audacity](https://www.audacityteam.org/ "Audacity official website"), audio editing software. I know, I have Garage Band which is awesome but… Audacity works the same way anywhere.~~ I need very little sound editing, mixing, etc: GarageBand is fine; furthermore, it's neat, simple and quick.
@@ -56,6 +57,7 @@ toc: false
 - [Keybase](https://keybase.io/ "Keybase"), a great secure messaging service.
 - ~~[LBRY](https://lbry.com/), the first digital marketplace to be controlled by the market's participants rather than a corporation or other 3rd-party. Basically, a healthier version of YouTube~~. I'm using [the web client](https://lbry.tv "LBRY TV") only, the app is not worth it.
 - ~~[LibreOffice](https://www.libreoffice.org/ "LibreOffice official website"), the best open Office Suite.~~ for my needs, the default Apple office apps are more than enough. If I need a file in `.odt`, I export in `.docx` from Pages and I convert it in `.odt` with Pandoc.
+- [LyricsX](https://github.com/ddddxxx/LyricsX "LyricsX"), a lyrics app which integrates with Spotify and Apple Music
 - ~~[MacDown](https://macdown.uranusjr.com/), a markdown editor which has everything I need. I don’t use it much since I have both Joplin and Vim to open and edit `.md` files, but it’s very lightweight and it’s handy to have an app to view and edit them on the fly.~~ using MacVim + Marked 2, instead.
 - [MacSVG](https://github.com/dsward2/macSVG "MacSVG repository on GitHub"), to create animated SVGs
 - [MacVim](https://macvim-dev.github.io/macvim/ "MacVim official website"), gvim for MacOS. pretty nice to edit files on the go.

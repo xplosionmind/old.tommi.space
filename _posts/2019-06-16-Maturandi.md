@@ -1,9 +1,7 @@
 ---
 date: 2019-06-16
 image: "https://assets.tommi.space/images/posts/2019-06-16-maturandi.jpg"
-redirect_from:
-  - /maturità
-  - /maturita
+redirect_from: ["/maturità", "/maturita"]
 ---
 Questo è proprio il momento chiave, QUEL momento.
 
@@ -56,5 +54,6 @@ Poi, se vorremo cambiare qualcosa, avremo tempo, poi, con calma, più avanti…
 
 > We are defined by our actions, not our words
 
-~ Ben, Captain Fantastic
-{:.right}
+<div class="cite">
+	Ben, Captain Fantastic
+</div>

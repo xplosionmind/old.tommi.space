@@ -1,5 +1,5 @@
 ---
-tags: giffoni questions
+tags: event/giffoni questions
 ---
 ## Intro
 

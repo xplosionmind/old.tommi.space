@@ -1,6 +1,8 @@
 ---
 date: 2017-03-09
-tags: quotes, idea
+tags: wip quote
+todo:
+  - "Integrate with quotes"
 ---
 > The only way to keep moving is having something to move for
 ~ Boom

@@ -1,3 +1,3 @@
 ---
-tags: ["analog"]
+tags: ["analog/jarvis"]
 ---

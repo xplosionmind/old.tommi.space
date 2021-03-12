@@ -1,6 +1,6 @@
 ---
 date: 2017-09-30
-tags: ["people", "interviews"]
+tags: ["people", "interview"]
 ---
 - Hai parlato fino ad ora di TV e Rai come una persona che fa questo lavoro da tutta la vita. Cosa dici invece di quando la guardavi? I tuoi ricordi? Il tuo programma preferito?
 - Hai studiato all'università Cattolica, ha cambiato qualcosa nel tuo punto di vista?

@@ -1,7 +1,7 @@
 ---
 date: 2020-03-21
 updated: 2021-02-08T12:44:39.251695+01:00
-tags: geek
+tags: geek geek/server
 main: true
 ---
 My server is a surprisingly powerful (considered how much I pay for it) <abbr title="Virtual Private Server">VPS</abbr> hosted in Germany by [Contabo](https://contabo.com "Contabo official website"). It runs [Ubuntu 20.04](https://releases.ubuntu.com/20.04/ "Ubuntu 20.04 release page").

@@ -1,7 +1,7 @@
 ---
 date: 2020-03-13
 updated: 2020-12-26
-tags: writing, draft
+tags: writing draft
 ---
 Ma Woody Allen mi ha rotto le palle.
 

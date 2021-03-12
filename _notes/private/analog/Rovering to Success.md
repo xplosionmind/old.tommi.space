@@ -1,3 +1,3 @@
 ---
-tags: analog, book, reading, scout, zen, wip
+tags: analog/jarvis book/wip scout zen
 ---

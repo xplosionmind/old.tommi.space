@@ -1,6 +1,6 @@
 ---
 date: 2019-03-18
-tags: ["msg"]
+tags: archive/message
 ---
 Buongiorno amici.
 

@@ -1,6 +1,6 @@
 ---
 date: 2018-03-03
-tags: ["birthday"]
+tags: archive/birthday
 ---
 Mattia amico stretto poiché sarà influente   
 Poiché ci troviamo di fronte all'incarnazione della sapienza della fisica,

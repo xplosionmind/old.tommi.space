@@ -1,9 +1,7 @@
 ---
 date: 2018-05-03
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Mia mamma ce l'ha con me
-
 ```
 CAPO 3
 B E F# B

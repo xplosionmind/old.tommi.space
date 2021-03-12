@@ -1,5 +1,5 @@
 ---
-tags: ["wip", "msg"]
+tags: archive/message
 ---
 Cari mamma e papà,
 

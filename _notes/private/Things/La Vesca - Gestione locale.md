@@ -1,11 +1,11 @@
 ---
-tags: idea, future, places
+tags: idea/future places
+aliases: ["Idee Gestione Locale"]
 ---
-# Idee gestione locale
-
 - Luci di posizione della macchina nei tavoli al posto delle candele
 - servizio alla spiaggia sotto con vassoi
 
+<br>
 <br>
 
 ## Nome
@@ -15,3 +15,8 @@ tags: idea, future, places
 - *Puzzolina*
 - *La Puzzolina parlante*
 - *Il Beliscimu*
+
+<br>
+<br>
+
+![[Aprire un locale]]

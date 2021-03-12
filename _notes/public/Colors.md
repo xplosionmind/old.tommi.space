@@ -1,11 +1,10 @@
 ---
 date: 2020-05-22
-updated: 2021-02-25T10:29:33.855575+01:00
-tags: design geek wip web
+updated: 2021-03-12T18:17:01.055182+01:00
+tags: design geek/web
 description: "A collection of colors I love and where I use them"
 redirect_from: ["/colours", "/colori"]
 todo:
-  - add quitsocialmedia
   - add links to CSSs files and find a way to automate the update
   - Check if `view-source:…` works
 ---
@@ -26,6 +25,25 @@ todo:
 - `limegreen` green, warning
 - `#20CE88` second “geek” green
 
+<br>
+
+### tommi.space Syntax Highlight
+
+This website’s code snippets use a custom made syntax highlight; its source is [here](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_highlight.scss "tommi.space’s highlight.scss").
+
+<br>
+<br>
+
+## quitsocialmedia.club
+
+[quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") [palette](https://github.com/xplosionmind/quitsocialmedia.club/blob/8763e5636a9716bd947527459e6731ccefa42afc/style.scss#L12 "quitsocialmedia.club’s CSS")
+
+- `#F1FAEE` a white which is not completely white, but not even grey, something towards green; is the background color
+- `#A8DADC` light blue, for boxes and hilights
+- `#1D3557` dark blue, main text color
+- `#E63946` red, links and warning boxes background;
+
+<br>
 <br>
 
 ## Dark and green website
@@ -54,15 +72,16 @@ Ah, red, what a color. It is o wonderful I have to keep note of all the nice sha
 - `#D00`, dosso corsa
 - `#DF2935`, Rose Madder
 - `#D7263D`, Crimson
-- `#AF0539`, [Ca’ Foscari University](https://unive.it "Ca’Foscari University")’s main theme color, picked <a href="view-source:https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo_Universit%C3%A0_Ca'_Foscari_Venezia.svg#line11" rel="noopener noreferrer" target="_blank" title="The line of the source code of the SVG of the logo of Ca’Foscari containing the HEX code of the color">from the SVG </a>of <a href="{{ https://en.wikipedia.org/wiki/Ca'_Foscari_University_of_Venice#/media/File:Logo_Università_Ca'_Foscari_Venezia.svg | uri_escape }}" rel="noopener noreferrer" target="_blank" title="Logo dell’Università Ca’ Foscari di Venezia">University logo</a>
+- `#E63946`, [Quit Social Media](#quitsocialmediaclub) red
+- `#AF0539`, [Ca’ Foscari University](https://unive.it "Ca’Foscari University")’s main theme color, picked <a href="view-source:https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo_Universit%C3%A0_Ca'_Foscari_Venezia.svg#line11" rel="noopener noreferrer" target="_blank" title="The line of the source code of the SVG of the logo of Ca’Foscari containing the HEX code of the color">from the SVG </a>of <a href="{{ "https://en.wikipedia.org/wiki/Ca'_Foscari_University_of_Venice#/media/File:Logo_Università_Ca'_Foscari_Venezia.svg" | uri_escape }}" rel="noopener noreferrer" target="_blank" title="Logo dell’Università Ca’ Foscari di Venezia">University logo</a>
 - `#AC0033`, always [Ca’ Foscari University](https://unive.it "Ca’Foscari University")’s main theme color, but <a href="view-source:https://www.unive.it/#line32" rel="noopener noreferrer" target="_blank" title="Link to Ca’Foscari website source code">picked from the university website’s source code</a>
 
 <br>
 <br>
 
-## Coding syntax
+## Sintax highlight
 
-[Monokai Pro](https://monokai.pro "Monokai Pro") inspired
+[Monokai Pro](https://monokai.pro "Monokai Pro") inspired sintax highlight, which does not correspond to [this website code snippets’ syntax](#tommispace-syntax-highlight)
 
 - `#2C292D` Black-ish
 - `#FF1688` Red (actually kind of light magenta)

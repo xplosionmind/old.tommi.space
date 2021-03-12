@@ -2,7 +2,7 @@
 date: 2020-12-11T00:00:00.000Z
 updated: '2021-01-09T18:37:33+01:00'
 title: 'Stop highlighting, start underlining'
-tags: wit, reading
+tags: wit reading
 toc: false
 permalink: /underline
 redirect_from: ["/underlining", "/stop-highlighting", "/start-underlining", "/stop-highlighting-start-underlining"]

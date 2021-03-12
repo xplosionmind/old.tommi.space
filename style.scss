@@ -1,6 +1,6 @@
 ---
 ---
-@import "../_sass/search";
+/*@import "../_sass/search";*/ /* temporarily disabled to improve performance */
 @import "../_sass/highlight";
 @import "../_sass/header";
 @import "../_sass/root";
@@ -664,7 +664,7 @@ time {
 	font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
+:not(.landing) h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	transition: var(--quicktrans);
 	.anchor {

@@ -1,9 +1,7 @@
 ---
 date: 2018-04-21
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Madonna del Buon Consiglio
-
 ```
 A D E  (B)
 

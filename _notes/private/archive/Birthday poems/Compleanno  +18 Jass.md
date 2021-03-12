@@ -1,6 +1,6 @@
 ---
 date: 2019-01-11
-tags: ["birthday"]
+tags: archive/birthday
 ---
 Jasmì   
 n Abd El Gelì   

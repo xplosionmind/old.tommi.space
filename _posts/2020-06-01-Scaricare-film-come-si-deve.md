@@ -1,19 +1,15 @@
 ---
 date: 2020-06-01
-utdated: 2021-01-17T00:42:20.778757+01:00
-sitemap: false
+updated: 2021-03-12T11:43:17.505812+01:00
 layout: jam
-lang: it
-permalink: /torrent
 title: "Scaricare film, come si deve"
+permalink: /scaricare-film
 toc: true
-redirect_from: ["/scaricare-un-film", "/film-download", "/download-film", "/download-serie", "/serie-download", "/scaricare-film", "/scaricare serie", "/movie-download", "/download-movie"]
+redirect_from: ["/scaricare-un-film", "/film-download", "/download-film", "/download-serie", "/serie-download", "/scaricare-film", "/scaricare-serie", "/movie-download", "/download-movie", "/torrent"]
 ---
 ## Premessa
 
-Se sei qui è perché ti ho inviato questo link. Questo articolo non è indicizzato, è nascosto e si può accedere unicamente conoscendone l’indirizzo. Il motivo è che non sono certo questa guida sia del tutto legale e, soprattutto, sicuramente non è eticamente corretta.
-
-In ogni caso, se segui queste istruzioni alla lettera puoi stare tranquillo; il procedimento è semplice e sicuro. Per qualunque problema scrivimi o chiedimi indicazioni, spero di poterti aiutare.
+Questo articolo contiene le istruzioni step-by-step per scaricare contenuti multimediali online. Se avessi bisogno di aiuto [scrivimi](mailto:surfing@tommi.space "Scrivimi un’email")
 
 <div class="yellow box">
 	<b>Nota</b>: queste istruzioni vanno eseguite da computer, da telefono è molto più complicato e noioso, per cui conviene scaricare il film da computer e poi trasferirlo su telefono con il cloud o via cavo.
@@ -84,8 +80,9 @@ Una volta che si è selezionato il film, cliccando comparirà una pagina, in cui
 
 ![A torrent file page on The Pirate Bay](https://assets.tommi.space/images/2020-06-01-torrent/2.jpg)
 
-**ATTENZIONE**: in moltissimi casi, la scritta “download torrent” è una pubblicità; cliccarci può portare a risultati sipacevoli. Individuare con criterio il pulsante giusto. Di solito, la scritta che funziona è quella più sobria e meno grande, come quella nell’immagine sopra.
-{:.red .warning}
+<div class="red box">
+	<b>ATTENZIONE</b>: in moltissimi casi, la scritta “download torrent” è una pubblicità; cliccarci può portare a risultati sipacevoli. Individuare con criterio il pulsante giusto. Di solito, la scritta che funziona è quella più sobria e meno grande, come quella nell’immagine sopra.
+</div>
 
 <br />
 

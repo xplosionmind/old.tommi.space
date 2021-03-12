@@ -1,6 +1,6 @@
 ---
-tags: ["birthday"]
 date: 2018-07-07
+tags: archive/birthday
 ---
 ecco qua, con impeto e grandiosità sono giunti i 18 anni di Federico Griseri   
 colui che con un solo sorriso manda via di chiunque tutti i cattivi pensieri

@@ -1,6 +1,6 @@
 ---
 date: 2017-07-14
-tags: ["people", "interviews"]
+tags: ["people", "interview"]
 ---
 - è risaputo che di solito a noi giovani non piace studiare. secondo te, COME?
 - come noi spesso guardiamo il lavoro dei nostri prof. e immedesimandoci in loro critichiamo ciò che fanno di sbagliato secondo noi, tu hai mai pensato o ti sei mai interessato al

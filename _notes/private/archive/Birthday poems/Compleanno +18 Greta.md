@@ -1,6 +1,6 @@
 ---
 date: 2019-06-01
-tags: ["birthday"]
+tags: archive/birthday
 ---
 Sono giunti ora i 18 anni di Greta Gobbetti   
 una stirpe di matti e alcolisti provetti

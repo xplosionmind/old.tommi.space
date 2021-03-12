@@ -14,28 +14,28 @@ layout: wrapper
 				{% if page.location != nil %}
 					da <strong>{{ page.location }}</strong> 
 				{% endif %}
-				il <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d %b %Y' }}</time>
+				il <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%e %B %Y' }}</time>
 			{% else %}
 				published 
 				{% if page.location != nil %}
 					from <strong>{{ page.location }}</strong> 
 				{% endif %}
-				on <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d %b %Y' }}</time>
+				on <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%e %B %Y' }}</time>
 			{% endif %}
 			<br />
 			{% if page.lang == 'it' %}
 				ultima modifica: 
 				{% if page.updated != nil %}
-					<time class="dt-updated" datetime="{{ page.updated }}">{{ page.updated | date: '%d %b %Y alle %H:%M' }}</time>
+					<time class="dt-updated" datetime="{{ page.updated }}">{{ page.updated | date: '%e %B %Y alle %k:%m' }}</time>
 				{% else %}
-					<time class="dt-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: '%d %b %Y alle %H:%M' }}</time>
+					<time class="dt-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: '%e %B %Y alle %k:%m' }}</time>
 				{% endif %}
 			{% else %}
 				latest edit: 
 				{% if page.updated != nil %}
-					<time class="dt-updated" datetime="{{ page.updated }}">{{ page.updated | date: '%d %b %Y at %H:%M' }}</time>
+					<time class="dt-updated" datetime="{{ page.updated }}">{{ page.updated | date: '%e %B %Y at %k:%m' }}</time>
 				{% else %}
-					<time class="dt-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: '%d %b %Y at %H:%M' }}</time>
+					<time class="dt-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: '%e %B %Y at %k:%m' }}</time>
 				{% endif %}
 			{% endif %}
 		</p>

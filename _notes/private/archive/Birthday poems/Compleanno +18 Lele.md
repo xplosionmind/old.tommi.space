@@ -1,6 +1,6 @@
 ---
 date: 2018-11-23
-tags: ["birthday"]
+tags: archive/birthday
 ---
 C'è chi, prima di scrivere un poema, invoca le muse   
 per essere in grado di utilizzare abilmente parole astruse

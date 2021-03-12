@@ -1,6 +1,6 @@
 ---
-tags: ["birthday"]
 date: 2018-02-02
+tags: archive/birthday
 ---
 È giunta la maggiore età del magnifico Federico Cirimele   
 e fino ad ora la sua vita ha proceduto a gonfie vele

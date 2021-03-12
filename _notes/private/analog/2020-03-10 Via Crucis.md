@@ -1,4 +1,4 @@
 ---
 date: 2020-03-10
-tags: analog
+tags: analog/jarvis
 ---

@@ -1,6 +1,6 @@
 ---
 date: 2020-08-29
-tags: ["giffoni"]
+tags: event/giffoni
 ---
 Non sentite anche voi la necessità di afferrare la realtà completamente e viverla, respirarla?
 

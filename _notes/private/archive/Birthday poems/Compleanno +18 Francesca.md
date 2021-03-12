@@ -1,6 +1,6 @@
 ---
 date: 2018-05-06
-tags: ["birthday"]
+tags: archive/birthday
 ---
 o bella, anziana, matta Francesca   
 talmente sublime che sei per ogni uomo assennato la più perfetta esca

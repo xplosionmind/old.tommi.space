@@ -1,6 +1,6 @@
 ---
 date: 2018-02-24
-tags: ["birthday"]
+tags: archive/birthday
 ---
 sembra tanto disinvolta ed agile   
 eppure è appena divenuta una vecchietta assai fragile

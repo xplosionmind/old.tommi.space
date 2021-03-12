@@ -1,6 +1,6 @@
 ---
 date: 2020-11-24
-tags: ["birthday"]
+tags: archive/birthday
 ---
 Oh Pierin Pierin,   
 l'uomo di Sanremo con il più lungo belin

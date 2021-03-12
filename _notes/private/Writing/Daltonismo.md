@@ -1,6 +1,7 @@
 ---
 date: 2019-10-12
-tags: writing, draft
+tags: writing draft
+aliases: ["Dalton"]
 ---
 Per fortuna non porto gli occhiali, ci vedo bene, ma sono fortemente daltonico. Non perché affetto da Daltonismo, ma perché grande fan e ammiratore di John Dalton.
 

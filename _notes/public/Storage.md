@@ -1,7 +1,7 @@
 ---
 date: 2020-12-24
-updated: 2021-02-09T14:49:09.376531+01:00
-tags: geek
+updated: 2021-03-10T09:18:01.865851+01:00
+tags: geek draft
 aliases: "Backup"
 redirect_from: ["/backup", "/backups"]
 ---
@@ -59,7 +59,7 @@ Let's point out my needs, my questions and doubts on the topic.
 ## Resources
 
 - This [lecture on *Backups*](https://missing.csail.mit.edu/2019/backups/ "Backups - Missing Semester"), from MIT’s [Missing Semester](https://missing.csail.mit.edu/ "The Missing Semester") is useful to understand the reasoning behind safe backups. Note that what *The Missing Semester* evolves around is code, hence small if not tiny plain text files, while our interest is in huge amounts of data, such as high quality videos and images.
-
+- [<cite>An engineer’s guide to cloud capacity planning</cite>](https://increment.com/cloud/an-engineers-guide-to-cloud-capacity-planning/ "An engineer’s guide to cloud capacity planning")
 
 <br>
 <br>

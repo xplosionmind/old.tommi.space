@@ -1,7 +1,7 @@
 ---
 date: 2020-03-21
 updated: 2021-01-28T12:22:55.367195+01:00
-tags: geek
+tags: geek geek/server
 description: "A walktrough of the steps I executed to set up my server"
 ---
 <div class="box">

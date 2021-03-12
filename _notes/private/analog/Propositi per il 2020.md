@@ -1,3 +1,3 @@
 ---
-tags: ["analog", "zen"]
+tags: ["analog/jarvis", "zen"]
 ---

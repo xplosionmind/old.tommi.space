@@ -1,5 +1,5 @@
 ---
-tags: geek idea
+tags: geek idea geek/idea
 toc: false
 ---
 **Found**: [*One*Tab](https://www.one-tab.com/ "OneTab"), but it is not open source. I do not like it very much

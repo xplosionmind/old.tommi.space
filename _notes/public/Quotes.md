@@ -1,7 +1,7 @@
 ---
 date: 2020-06-10
 updated: 2021-02-27T16:24:17.190992+01:00
-tag: quotes
+tag: quote
 toc: false
 description: 'Some are from celebrities, some were pronounced by friends of mine and may have no meaning to the public, in realtà sono quasi tutte in italiano dunque non ha senso che scriva la descrizione in inglese.'
 redirect_from: ["cit", "/citazioni"]

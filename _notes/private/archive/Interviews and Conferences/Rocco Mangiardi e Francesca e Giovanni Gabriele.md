@@ -1,6 +1,6 @@
 ---
 date: 2018-02-21
-tags: ["people", "interviews"]
+tags: ["people", "interview"]
 ---
 - Voi alla nostra età conoscevate a mafia? Cosa ne pensavate?
 - Lei era a conoscenza delle richieste di pizzo a cui erano sottoposti glia altri commercianti della sua città?

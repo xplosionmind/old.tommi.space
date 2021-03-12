@@ -1,6 +1,6 @@
 ---
-tags: ["birthday"]
 date: 2018-03-12
+tags: archive/birthday
 ---
 ecco, di fronte a noi si erge il più potente cammello 4 tempi   
 così efficiente che di lui si parla in 9 continenti

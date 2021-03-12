@@ -1,6 +1,6 @@
 ---
 date: 2020-05-06
-updated: 2021-02-27T14:15:38.144267+01:00
+updated: 2021-03-04T18:44:00.807895+01:00
 tags: geek geek/apps
 aliases: ["Software", "Digital Tools"]
 image: "https://assets.tommi.space/images/apps.png"
@@ -45,9 +45,11 @@ Lists with a ton of apps which are too valuable to be forgotten
 
 Apps which are not installed but it is worth remembering.
 
+- [Andy Works](https://www.andy.works/works "Andy Works"): not boring apps
 - [ad-free](https://abertschi.github.io/ad-free/landing/ "ad-free website"), mute audio while audio ads are played (built to work with Spotify in particular)
 - [Black Light](https://michelf.ca/projects/black-light/ "Black Light"), to add display color filters in MacOS
 - [doing](https://github.com/ttscoff/doing "doing"), a CLI script to remember what you were doing
 - [Hook](https://hookproductivity.com/ "Hook"), to link stuff in MacOS
 - [World Scribe](https://github.com/MarquisLP/World-Scribe "World Scribe"), an Android app for fictional world-building 
 - [OPAC App](https://opac.app/ "OPAC App"), Android app to access libraries catalogues around the world (not in use since the ones I frequent are not supported)
+- [Timeline](http://thetimelineproj.sourceforge.net/ "Timeline"), a timeline manager, for Linux and Windows only

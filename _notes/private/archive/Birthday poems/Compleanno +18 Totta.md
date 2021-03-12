@@ -1,6 +1,6 @@
 ---
 date: 2018-08-08
-tags: birthday
+tags: archive/birthday
 ---
 oh Totta, diciotto anni   
 e quanti danni!

@@ -1,7 +1,7 @@
 ---
 date: 2020-08-17
 updated: 2020-08-29
-tags: giffoni
+tags: event/giffoni
 ---
 ## Interviste
 

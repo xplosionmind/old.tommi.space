@@ -1,22 +1,23 @@
 ---
 date: 2021-02-26T10:23:12.234891+01:00
-updated: 2021-02-26T10:23:12.234891+01:00
+updated: 2021-03-06T15:28:09.449051+01:00
 tags: geek geek/apps
 description: "Apps installed on my <a href='https://www.apple.com/it/iphone-12/' rel='noopener noreferrer' target='_blank' title='iPhone 12'>iPhone 12 mini</a>"
 permalink: /ios
 redirect_from: ["/ios-apps", "/iphone", "/iphone-apps"]
 toc: false
 ---
+- [1Writer](https://1writerapp.com "1Writer") is arguably [the best iOS text editor](https://brettterpstra.com/ios-text-editors/ "iOS text editors comparison by Brett Terpstra"), I use it via WebDAV to edit my [Nextcloud Notes](https://apps.nextcloud.com/apps/notes "Nextcloud Notes App") on the go; the app costs 5,50€.
 - [Actual](https://actualbudget.com "Actual budget"), experimenting this private and encrypted personal finance management service
 - [Affluences](https://apps.apple.com/us/app/affluences/id869919405 "Affluences on the App Store"), to reserve seats and book meetings for [my university](https://unive.it "Ca’Foscari University of Venice").
 - [Bandcamp](https://bandcamp.com "Bandcamp"), mobile client for [Bandcamp](https://bandcamp.com "Bandcamp").
 - [Cheon](https://cheon.app "Cheon Planner"), an app which syncs with CalDAV to plan study hours
 - [Chime](https://apps.apple.com/us/app/chime/id414830146 "Chime in App Store"), the homologous of [Hourly Reminder](https://f-droid.org/en/packages/com.github.axet.hourlyreminder/ "Hourly Reminder on F-Droid") in iOS. Even though it is a relatively old app, it still works wonderfully
-- [Cineast](https://www.themoviedb.org/apps/58628749c3a3681a6204357a "Cineast"), TMDb client. It costs 1,09€
-- [CloudNotes](https://apps.apple.com/app/cloudnotes-owncloud-notes/id813973264 "CloudNotes"), a notes app which syncs with [Nextcloud Notes](https://apps.nextcloud.com/apps/notes "Nextcloud Notes App"); it costs 2,30€
+- [Cineast](https://www.themoviedb.org/apps/58628749c3a3681a6204357a "Cineast"), (a very buggy) TMDb client. It costs 1,09€
+- ~~[CloudNotes](https://apps.apple.com/app/cloudnotes-owncloud-notes/id813973264 "CloudNotes"), a notes app which syncs with [Nextcloud Notes](https://apps.nextcloud.com/apps/notes "Nextcloud Notes App"); it costs 2,30€~~. 1Writer is **way** better.
 - [Cosmicast](https://www.poeticbytes.com/cosmicast "Cosmicast"), a minimal and beautiful podcast player which syncs with MacOS through iCloud. It is proprietary software by [Poetic Bytes](https://www.poeticbytes.com "Poetic Bytes") and it costs 3,50€
-- [CSV Editor](https://apps.apple.com/us/app/csv-easy-editor/id1000358989 "CSV Easy Editor on App Store"), a 2,29€ minimal CSV editor which I use to edit on the go [my data folder](https://github.com/xplosionmind/tommi.space/tree/main/_data "_data folder of this website on GitHub")
-- [Element](https://element.io "Element") the most common and stable [Matrix](https://matrix.org "Matrix") client
+- ~~[CSV Editor](https://apps.apple.com/us/app/csv-easy-editor/id1000358989 "CSV Easy Editor on App Store"), a 2,29€ minimal CSV editor which I use to edit on the go [my data folder](https://github.com/xplosionmind/tommi.space/tree/main/_data "_data folder of this website on GitHub")~~. It saves edited CSVs only locally!
+- [Element](https://element.io "Element") the most common [Matrix](https://matrix.org "Matrix") client
 - [FiLMiC Pro](https://www.filmicpro.com/ "FiLmiC Pro"), a super powerful app to boost video shooting from the phone and tweak as much settings as possible. I paid for it and it is not open source, because -unfortunately- [there’s no app like it](https://alternativeto.net/software/filmic-pro/?license=opensource).
 - [Firefox](https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926 "Firefox"), the best browser in the world, even if on iOS it is exactly like Safari but with the Firefox interface.
 - [Hype](https://apps.apple.com/it/app/hype-carta-conto-e-app/id943405905 "Hype app on App Store"), the mobile client for [Hype](https://www.hype.it/ "Hype official website"). Proprietary software.

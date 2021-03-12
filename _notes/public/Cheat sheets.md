@@ -90,12 +90,12 @@ Useful links:
 
 Convert a Word file into a Markdown file, following the [CommonMark](https://commonmark.org/ "CommonMark official website") standard
 ```
-pandoc input.docx -f docx -t commonmark -o ~/Desktop/output.md
+pandoc input.docx -f docx -t commonmark --wrap=auto -o ~/Desktop/output.md
 ```
 
 Convert multiple Word files in a folder in a standalone Markdown file
 ```
-pandoc *.docx -f docx -t commonmark -s -o ~/Desktop/output.md
+pandoc *.docx -f docx -t commonmark --wrap=auto -s -o ~/Desktop/output.md
 ```
 
 <div class="box">
@@ -215,27 +215,27 @@ Commands above are a personal adaptation of the ones I found from the following 
 ### Manually install applications
 
 move to the Nextcloud apps folder
-```
+```sh
 cd /var/www/nextcloud/apps
 ```
 
 download the application package from [Nextcloud apps website](https://apps.nextcloud.com/ "Nextcloud Apps")
-```
+```sh
 wget https://github.com/nextcloud/documentserver_community/releases/download/v0.1.5/documentserver_community.tar.gz # url to the package
 ```
 
 extract it (by substituting `package_name` with the name of the app package)
-```
+```sh
 tar -xvzf package_name.tar.gz
 ```
 
 remove compressed package
-```
+```sh
 rm -rf package_name.tar.gz
 ```
 
 change permissions for the app’s directory
-```
+```sh
 chown -R www-data:www-data /var/www/nextcloud/apps/app_name
 chmod -R 755 /var/www/nextcloud/apps/app-name
 ```
@@ -252,6 +252,13 @@ sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode
 disable maintenance mode
 ```sh
 sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode --off
+```
+
+<br>
+
+Using the `occ` command in a dockerized instance
+```sh
+docker-compose exec --user www-data app php occ
 ```
 
 <br>

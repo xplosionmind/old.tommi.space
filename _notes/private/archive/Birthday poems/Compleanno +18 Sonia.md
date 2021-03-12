@@ -1,6 +1,6 @@
 ---
 date: 2017-12-17
-tags: ["birthday"]
+tags: archive/birthday
 ---
 Or son giunti i diciotto   
 sei già vecchia, in quattro e quattr'otto!

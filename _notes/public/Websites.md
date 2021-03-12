@@ -1,7 +1,7 @@
 ---
 date: 2020-10-27
 updated: 2021-02-04T13:33:10.850727+01:00
-tags: web, idea
+tags: geek/web idea
 redirect_from: ["/websites-ideas", "/philosophy-websites", "/lifestyle-websites", "/websites creation", "/domains"]
 aliases: ["Domains"]
 toc: false

@@ -1,6 +1,6 @@
 ---
 date: 2020-12-04
-tags: ["msg"]
+tags: archive/message
 ---
 Hello guys.
 

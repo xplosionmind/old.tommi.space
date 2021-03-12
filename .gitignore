@@ -3,6 +3,9 @@ _notes/private/
 _notes/PISE
 _notes/university
 
+# Private data
+_data/private
+
 # Notes graph metadata
 _includes/notes_graph.json
 

@@ -1,6 +1,6 @@
 ---
 date: 2020-12-07
-tags: ["msg"]
+tags: archive/message
 ---
 <p class="date">2 dicembre 2020</p>
 

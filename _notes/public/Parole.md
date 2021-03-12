@@ -1,9 +1,11 @@
 ---
 date: 2020-06-06
-updated: 2021-02-25T17:35:32.938710+01:00
+updated: 2021-03-11T09:57:55.467194+01:00
 lang: it
 toc: false
 description: "Leggo e sento tante perole belle (oppure brutte ma con un gran significato) e ho paura di perderle, perciò le annoto qui."
+aliases: ["Words"]
+redirect_from: ["/words"]
 ---
 - 2015 - [gorgeous](https://dictionary.cambridge.org/dictionary/english/gorgeous "“gorgeous” on Cambridge dictionary")
 - 2019.10 - [yield](https://dictionary.cambridge.org/dictionary/english/yield "“yield” on Cambridge dictionary")
@@ -41,3 +43,6 @@ description: "Leggo e sento tante perole belle (oppure brutte ma con un gran sig
 - 2020.12.03 [segnaposto](https://www.treccani.it/vocabolario/segnaposto "“segnaposto” nel vocabolario Treccani")
 - 2021.02.15 [bizzarro](https://www.treccani.it/vocabolario/bizzarro "“bizzarro” nel vocabolario Treccani")
 - 2021.02.25 [melomane](https://www.treccani.it/vocabolario/melomane "“melomane” nel vocabolario Treccani")
+- 2021.03.10 [foster](https://www.merriam-webster.com/dictionary/foster "“foster” on Merriam Webster dictionary")
+- 2021.03.10 [pluralism](https://www.merriam-webster.com/dictionary/pluralism "“pluralism” on Merriam Webster dictionary")
+- 2021.03.11 [grim](https://www.merriam-webster.com/dictionary/grim "“grim” on Merriam Webster dictionary")

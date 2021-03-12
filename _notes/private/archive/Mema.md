@@ -1,6 +1,6 @@
 ---
 date: 2020-03-13
-tags: ["msg"]
+tags: archive/message
 ---
 Non ho mai detto a nessuno "hai chiuso con me" né nessuno l'ha mai detto a me prima di te, poco fa. È stato doloroso per me. Spero davvero sia solo frutto di un tuo legittimo e assolutamente giustificato rancore verso di me, ma non un motivo di credermi una persona talmente brutta da voler chiudere i rapporti con lei. Ho fatto un errore, ho detto a Ilaria una parola sbagliata e ammetto di averla scritta sovrappensiero e con troppa leggerezza, ma ti do la mia parola, ti giuro, nella massima innocenza.
 

@@ -3,44 +3,26 @@ title: "Polizia cinese"
 date: 2019-10-12
 lang: it
 ---
-l’altro giorno ho tentato di entrare
-
+l’altro giorno ho tentato di entrare  
 nella stazione della polizia
 
-<br />
-
-prima con un dito,
-
-poi ho infilato la mano,
-
-il braccio,
-
-la spalla,
-
-il busto,
-
-il bacino,
-
-gamba destra,
-
+prima con un dito,  
+poi ho infilato la mano,  
+il braccio,  
+la spalla,  
+il busto,  
+il bacino,  
+gamba destra,  
 gamba sinistra.
 
-<br />
-
-e questi tipi gialli con gli occhietti neri,
-
-tutti lo stesso sorriso stampato in faccia
-
-mi guardavano
-
+e questi tipi gialli con gli occhietti neri,  
+tutti lo stesso sorriso stampato in faccia  
+mi guardavano  
 io guardavo loro
 
-<br />
-
-poi la mamma mi ha chiamato
-
+poi la mamma mi ha chiamato  
 e ho smesso di giocare con i LEGO.
 
 <br />
 
- T
+T

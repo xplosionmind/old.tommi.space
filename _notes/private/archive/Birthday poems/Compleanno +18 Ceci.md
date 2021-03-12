@@ -1,6 +1,6 @@
 ---
 date: 2019-02-01
-tags: ["birthday"]
+tags: archive/birthday
 ---
 Ci ha messo un po' più degli altri   
 dopo essere nel frattempo stata da ovunque parti

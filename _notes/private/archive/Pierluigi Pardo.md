@@ -1,6 +1,6 @@
 ---
 date: 2020-08-20
-tags: ["people", "giffoni", "interviews"]
+tags: event/giffoni people interview
 ---
 - quali sono le tue impressioni a caldo dell’incontro con i ragazzi? Qualcosa in particolare ti ha colpito della discussione che avete fatto?
 - il prevedere, il muoversi d’anticipo, l’intuizione, il giornalismo stesso come sport

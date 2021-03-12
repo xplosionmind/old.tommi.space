@@ -11,8 +11,9 @@ So, after this long premise to frame the context of this article and my feelings
 
 I believe the most relevant problem, which makes everything else harder, if not impossible, is the case of **knowledge management**. I have [a dedicated item in *The Jam*](/knowledge) containing a few insights about the topic, to which up to now I didn't pay much attention. Now, it's time to start using a great, brilliant system: **Zettelkasten**. More on the system later, let's focus of my current note-taking workflow, my necessities and my purpose.
 
-note: I'm writing this post *while* performing the transition, so what I'm writing is helpful also to me, helping me understand my detailed needs and scopes.
-{:.box}
+<div class="box">
+note: I am writing this post <i>while</i> performing the transition, so what I'm writing is helpful also to me, helping me understand my detailed needs and scopes.
+</div>
 
 ## My old original system
 

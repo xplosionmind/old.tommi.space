@@ -1,6 +1,7 @@
 ---
 tags: ["birthday"]
 date: 2019-04-07
+tags: archive/birthday
 ---
 i mesi in cui sei cresciuta
 

@@ -1,6 +1,6 @@
 ---
 date: 2017-07-14
-tags: ["people", "giffoni", "archive/radioimmaginaria", "interviews"]
+tags: people event/giffoni archive/radioimmaginaria interview
 ---
 - you said children are important to improve the politics and the lifestyle of a city. What do you do for teens in Albania?
 

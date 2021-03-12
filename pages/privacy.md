@@ -5,8 +5,10 @@ lang: en
 permalink: /privacy
 layout: page
 ---
-I’m sorry I’m no lawyer and I know nothing about this stuff, but I’m very concerned about this as a user so I feel like it’s important to insert this website Privacy Policy, too.
+I am not a lawyer and I know nothing about this topic, but as a user I am very concernet about these matters, therefore I believe it is important to write a <cite>Privacy Policy</cite> for this website, [tommi.space](/home "tommi.space home")
 
-Actually, there’s nothing to worry about. I collect no data from you.
+Actually, there is nothing to worry about. I collect no data from you.
 
-Whenever you write me an email or you subscribe to the newsletter by clicking the box at the end of every page, I get your email address. It won't be shared with any third party service or person, the only scenario which would obligate me to give your email is the one where I’m forced by a legal action. I’ll promptly delete it from my database if you request it. I manage subscribers's data in compliance to European [GDPR]()
+Whenever you write me an email or you subscribe to the newsletter by clicking the box at the end of every page, I get your name and email address. It is not being shared with anyone; the only scenario which would obligate me to hand out your data is the one where I am forced by a legal action. I am going to promptly delete your data from my database if you request it.
+
+Temporarily, subscribers’ data and newsletters are handled with [Mailchimp](https://mailchimp.com "Mailchimp"), whose Privacy Policy is [here](https://mailchimp.com/legal "Mailchimp Legal")

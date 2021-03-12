@@ -1,6 +1,6 @@
 ---
 date: 2019-04-11
-tags: ["msg"]
+tags: archive/message
 ---
 caro Campu, tu scrivo questa lettera qualche minuto dopo la nostra discussione. Io mi sento davvero in colpa per ogni accusa che ho mosso verso di te, è brutto e difficile parlare schiettamente ad una persona di quali sono le cose che non vanno di lei: chi sono io per dirti cosa non va?
 

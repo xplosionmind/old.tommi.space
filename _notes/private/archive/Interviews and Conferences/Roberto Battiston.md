@@ -1,6 +1,6 @@
 ---
 date: 2019-11-10
-tags: ["people", "interviews"]
+tags: ["people", "interview"]
 ---
 - competitività positiva negativa?
 - discontinuità, come sistemarla?

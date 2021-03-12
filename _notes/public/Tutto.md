@@ -1,10 +1,10 @@
 ---
 date: 2020-02-04
-updated: 2021-01-14
+updated: 2021-03-04T19:57:21.464608+01:00
 tags: track
-aliases: ["Cose extended", "Tutte le cose", "Stuff extended", "Di tutto e di più"]
+aliases: ["Cose extended", "Tutte le cose", "Stuff extended", "Di tutto e di più", "Done", "Fatto"]
 lang: it
-redirect_from: ["/tuttopiu", "/cose-extended", "/stuff-extended", "/stuff-extended-it", "/stuff-extended/it", "/it/stuff-extended", "/everything"]
+redirect_from: ["/tuttopiu", "/cose-extended", "/stuff-extended", "/stuff-extended-it", "/stuff-extended/it", "/it/stuff-extended", "/everything", "/done", "/fatto", "/fatte"]
 main: true
 ---
 Dato che, per mia natura, sono una trottola che gira ovunque per fare tante (troppe) diverse cose 
@@ -212,7 +212,7 @@ Dal 2016 al 2019 ho lavorato nell’[Ufficio Stampa](https://www.lanuovacorrente
 Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuova Corrente](https://www.youtube.com/channel/UCEvYS5AWyxWIQrRpyC27MHg/).
 
 - Nel 2017 siamo stati fra i vincitori del premio dell’Ordine dei Giornalisti [*Fare il Giornale nelle Scuole*](https://www.odg.it/il-giornale-nelle-scuole) e abbiamo partecipato, l’11 e il 12 aprile, alla [cerimonia di premiazione](https://youtu.be/bCrHQz4rCQs), partecipando successivamente a una delle conferenze che più mi hanno segnato in tutta la mia vita, con Paolo Borrometi e Federica Angeli.
-- Nel 2018 abbiamo ricevuto nuovamente il premio, tornando a Cesena per la premiazione per il secondo anno di seguito.
+- Nel 2018 abbiamo ricevuto nuovamente il premio, tornando a Cesena per la premiazione il 4 ed il 5 aprile.
 - Dal 6 al 10 febbraio 2018, con una squadra di altri tre coraggiosi pseudo-giornalisti, ci siamo intrufolati nella sala stampa del Festival di Sanremo e ci siamo messi a riprendere un po’ tutto quello che ci sta dentro. Incredibilmente, una delle nostre interviste ha raggiunto le [44 mila visualizzazioni](https://www.youtube.com/watch?v=NjzHlPC_r-4), non chiedetemi come. Altri video e interviste dal Festival possono essere trovati sul medesimo canale.
 
 <br>
@@ -257,7 +257,8 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 	- [immagini](https://www.flickr.com/photos/xplosionmind/albums/72157714829053321)
 - Dal 5 al 13 luglio 2020 ho partecipato al workshop di giornalismo de [Il Post](https://ilpost.it "Il Post") a Peccioli. Ho scritto [questo articolo](https://www.ilpost.it/2020/07/12/sgomberi-bogota-coronavirus/ "Gli sgomberi a Bogotà, nonostante il coronavirus - Il Post")
 - Il 25 ottobre 2020 ho tenuto [questo talk](http://go.tommi.space/MDN-LinuxDay2020) su [MDN Web Docs](https://mdn.dev "MDN homepage") al [Linux Day](https://linuxday.it/2020/ "Linux Day 2020")
-- Il +++ settembre 2002 ho partecipato al[la prima <cite>Filosofia di gruppo</cite>](https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3 "Podcast Filosofia di Gruppo #1") su [[Notes on Ten Arguments For Deleting Your Social Media Accounts|Dieci ragioni per eliminare il proprio account sui social media]] organizzato da [Tlon](https://tlon.it "Sito ufficiale di Tlon"). Il mio intervento è a al minuto `44:45`
+- Il +++ settembre 2020 ho partecipato al[la prima <cite>Filosofia di gruppo</cite>](https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3 "Podcast Filosofia di Gruppo #1") su [[Notes on Ten Arguments For Deleting Your Social Media Accounts|Dieci ragioni per eliminare il proprio account sui social media]] organizzato da [Tlon](https://tlon.it "Sito ufficiale di Tlon"). Il mio intervento è a al minuto `44:45`
+- dal 1 al 6 Marzo 2021 ho gestito [la pagina Instagram](https://instagram.com/sanremonews "Sanremonews su Instagram") di [Sanremonews](https://sanremonews.it "Sanremonews") in occasione del Festival di Sanremo 2021
 
 <br>
 <br>

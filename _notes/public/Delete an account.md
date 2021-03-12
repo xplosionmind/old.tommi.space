@@ -1,7 +1,7 @@
 ---
 date: 2020-08-05
 updated: 2020-12-20
-tags: geek, qsm
+tags: geek qsm
 permalink: /delete
 redirect_from: ["/delete-account", "/GDPR-claim", "/claim-GDPR", "/just-delete-it", "/just-deleteit", "/quit", "/GDPR-delete"]
 ---

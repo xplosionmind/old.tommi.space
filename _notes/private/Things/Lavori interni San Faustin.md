@@ -1,8 +1,6 @@
 ---
 date: 2019-06-28
-tags:
-  - diy
-  - aigovo
+tags: diy aigovo
 ---
 - [ ] PULIZIA GENERALE
 - [ ] RIVERNICIARE e STUCCARE CREPE

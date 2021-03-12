@@ -1,3 +1,3 @@
 ---
-tags: analog quotes
+tags: analog/jarvis quote
 ---

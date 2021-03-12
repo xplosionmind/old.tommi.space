@@ -1,5 +1,5 @@
 ---
-tags: places future
+tags: places idea/future
 ---
 ## Riva Ligure
 - Sensual

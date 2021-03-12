@@ -1,6 +1,6 @@
 ---
 date: 2018-08-18
-tags: ["birthday"]
+tags: archive/birthday
 ---
 E così giunsero i 18 anni di Rebecca Ambra .... Bruschetta   
 più che per il suo nome assai nota per essere, i generale, la più furbetta...

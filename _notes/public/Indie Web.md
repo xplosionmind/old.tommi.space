@@ -38,6 +38,7 @@ toc: false
 - Setup [Bridgy](https://brid.gy/ "Bridgy"), to connect your web site to social media.
 - Setup [twtxt](https://github.com/buckket/twtxt "twtxt source code on GitHub"), a decentralised, minimalist microblogging service for hackers.
 - [jekyll-webmention](https://github.com/aarongustafson/jekyll-webmention_io/ "jekyll-webmention_io on GitHub") plugin
+- https://hugo.md/post/add-webmentions-to-hugo-from-micro-blog/
 
 <br>
 <br>

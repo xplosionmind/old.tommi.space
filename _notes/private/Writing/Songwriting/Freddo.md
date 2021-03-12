@@ -1,9 +1,7 @@
 ---
 date: 2018-06-04
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Freddo
-
 ```
 non trovo nulla di speciale
 in questo caldo tropicale

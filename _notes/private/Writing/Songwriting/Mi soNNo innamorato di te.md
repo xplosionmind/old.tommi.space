@@ -1,9 +1,7 @@
 ---
 date: 2018-11-26
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Mi soNNo innamorato di te
-
 ```
 no no non ho altro che te
 no no in testa non ho altro che te

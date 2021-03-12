@@ -1,5 +1,5 @@
 ---
-tags: ["analog", "event"]
+tags: ["analog/jarvis", "event"]
 ---
 - [[2020-07-06 Il Post a Peccioli I]]
 - [[2020-07-07 Il Post a Peccioli II]]

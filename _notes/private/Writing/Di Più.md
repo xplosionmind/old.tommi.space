@@ -1,6 +1,6 @@
 ---
 date: 2019-10-03
-tags: writing, draft
+tags: archive/writing
 ---
 discoteca. Una ragazza bellissima sta ballando e si diverte con le amiche. Tipiche scene di festa (v. La Grande Bellezza) e ragazzi che la approcciano.
 

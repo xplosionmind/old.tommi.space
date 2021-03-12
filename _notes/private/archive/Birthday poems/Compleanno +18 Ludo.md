@@ -1,6 +1,6 @@
 ---
 date: 2018-07-11
-tags: ["birthday"]
+tags: archive/birthday
 ---
 Eh già, è proprio una vecchietta   
 talmente matura e paziente che gli amici lontani per festeggiare il suo diciottesimo compleanno aspetta

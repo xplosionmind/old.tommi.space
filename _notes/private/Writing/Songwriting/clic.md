@@ -1,9 +1,7 @@
 ---
 date: 2017-12-18
-tags: ["songwriting"]
+tags: songwriting
 ---
-# clic
-
 ```
 D
 ho goniometria

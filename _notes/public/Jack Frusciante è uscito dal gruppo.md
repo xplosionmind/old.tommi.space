@@ -1,7 +1,7 @@
 ---
 date: 2020-05-11
 updated: 2020-12-23
-tags: book reading
+tags: book
 lang: it
 permalink: /jack-frusciante
 redirect_from: ["/jack-frusciante-note", "/jack-frusciante-notes", "/jack-frusciante-quotes", "/brizzi-frusciante"]

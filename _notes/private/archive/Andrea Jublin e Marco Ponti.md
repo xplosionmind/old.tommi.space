@@ -1,6 +1,6 @@
 ---
 date: 2020-08-28
-tags: ["giffoni", "interviews", "people"]
+tags: event/giffoni interview people
 ---
 - Giffoni per voi, Giffoni 50
 - A stretto contatto con i ragazzi, interazione più intensa e confronto 

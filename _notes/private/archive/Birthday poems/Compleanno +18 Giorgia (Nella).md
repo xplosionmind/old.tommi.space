@@ -1,6 +1,6 @@
 ---
 date: 2018-10-26
-tags: ["birthday"]
+tags: archive/birthday
 ---
 ecco giunti della bellissima splendente giorgia gli anni 18   
 che appena la vede ogni bellimbusto pur di conquistarla fa un 48

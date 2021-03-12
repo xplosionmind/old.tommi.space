@@ -1,9 +1,7 @@
 ---
 date: 2018-07-07
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Fuori luogo A
-
 ```
 B                   		                   F#
 vorrei poter ballare un lento ma in discoteca non c’è la musica adatta

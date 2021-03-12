@@ -1,8 +1,7 @@
 ---
 date: 2018-11-24
+tags: unfinished scout
 ---
-# Fratel Bigio
-
 Da anni non entravo in tana.
 Da troppo tempo non mettevo piede in quella stanzetta colorata e speciale da cui sono partite alcune fra le esperienze più importanti della mia vita. La sede del Branco Roccia della Pace del gruppo Costa Balenae di Santo Stefano al Mare è dove sono cresciuto, dove mi sono preso una secchiata d’acqua in testa per aver continuato insopportabilmente a saltare sulle spalle dei capi per rompere le palle, dove non si può entrare quando c’è la festa della mamma perché è tutto pieno di bouquet di fiori per l’autofinanziamento, dove si impara a stare zitti quando si alza il dito.
 

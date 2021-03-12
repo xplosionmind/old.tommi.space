@@ -23,3 +23,16 @@ todo:
 - [xiffy](https://xiffy.nl "Xiffy"), 2021-01-13
 - [The Search Engines Map](https://www.searchenginemap.com "The Search Engines Map"), 2021-02-23
 - [The Internet Map](https://internet-map.net "The Internet Map"), 2021-02-23
+- [NeverSSL](https://neverssl.com/ "NeverSSL"), 2021-03-11
+- [Good Old Web](https://www.goodoldweb.com "Good Old Web"), 2021-03-11
+- [The Indie Web](https://theindieweb.com "The Indie Web"), 2021-03-11
+- [Mondrian and me](https://mondrianandme.com/ "Mondrian and me"), 2021-03-11
+- [The Zen Zone](https://thezen.zone "The Zen Zone"), 2021-03-11
+- [Binary Music Player](https://tholman.com/binary-music-player/ "Binary music Player"), 2021-03-11
+- [Minimal IP address finder](https://ipaddress.sh "IPaddress.sh"), 2021-03-11
+-[Can’t Not Tweet This](https://cant-not-tweet-this.com "Can’t Not Tweet This"), 2021-03-11
+- [The Useless Web](https://theuselessweb.com/sites/ "The Useless Web"), 2021-03-11
+- [The 512KB Club](https://512kb.club "The 512KB Club"), 2021-03-11
+- The [1MB Club](https://1mb.club "1MB Club"), 2021-03-11
+- [The 250KB Club](https://250kb.club "The 250KB Club"), 2021-03-11
+- [NoJS Club](https://nojs.club "NoJS Club"), 2021-03-11

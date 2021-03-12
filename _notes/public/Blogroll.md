@@ -1,11 +1,13 @@
 ---
 date: 2020-07-02
-updated: 2020-11-06
-tags: geek, design
+updated: 2021-03-11T12:40:41.715921+01:00
+tags: geek/web design
 aliases: ["Website inspiration"]
 description: "Blogs or websites worth remembering."
 redirect_from: ["/inspiration", "/websites"]
 main: true
+todo:
+  - "distinguish between "
 ---
 A website appears in this list for at least one of these three reasons:
 
@@ -18,14 +20,13 @@ A website appears in this list for at least one of these three reasons:
 The following list follows an alphabetical order.
 
 - [Leo Babauta](https://leobabauta.com "Leo Babauta")'s blog: the perfect example of a literally minimalistic website. It's not poor of content, yet it's neat, clean and intuitive.
-- [Backpackerz: rewind 2010s](https://thebackpackerz.com/special/rewind/2010/), the precursor of the new generation of “longreads” (a.k.a.: articles which take a lot of time to be read and written)
+- [Backpackerz: rewind 2010s](https://thebackpackerz.com/special/rewind/2010/ "The Backpackerz - rewind 2010s"), the precursor of the new generation of “longreads” (a.k.a.: articles which take a lot of time to be read and written)
 - [Born Free Generation](https://www.bornfreegeneration.com/), transforming a short movie, a story, in a website, done the right way. Genuinely beautiful.
-- [Cafundó Academy Blog](http://cafundoestudio.com.br/blog/), those GIFs
-- [CANALS](https://canals-amsterdam.nl/), a digital exhibit which travels through the history of Amsterdam’s canals
-- [Once Upon a Time Magazine](https://www.onceuponatimemag.com), some sort of web magazine on [Once Upon a Time in Hollywood](https://www.imdb.com/title/tt7131622/) by Quentin Tarantino. This website is astounding, it left me open-mouthed, it’s a great work and it feels so good: it’s a piece of art, literally.
-- [Tim Holman](http://tholman.com/): this man is the perfect stereotype of the crazy, eccentric and hilarious geek. Parts of me want to be like him. Creations inside this website are madly clever.
-	- [tholman/tholman.com](https://github.com/tholman/tholman.com)
-	- [tholman/inspiring-online](https://github.com/tholman/inspiring-online)
+- [Cafundó Academy Blog](http://cafundoestudio.com.br/blog/ ""), those GIFs
+- [CANALS](https://canals-amsterdam.nl/ "Amsterdam Canals"), a digital exhibit which travels through the history of Amsterdam’s canals
+- [Hejo](https://hejo.org "Hejo"), a personal website whose looks I do not like at all, but I love the dashboard-like homepage.
+- [Once Upon a Time Magazine](https://www.onceuponatimemag.com "Once Upon a Time Magazine"), some sort of web magazine on [Once Upon a Time in Hollywood](https://www.imdb.com/title/tt7131622/ "Once Upon a Time in Hollywood") by Quentin Tarantino. This website is astounding, it left me open-mouthed, it’s a great work and it feels so good: it’s a piece of art, literally.
+- [Tim Holman](http://tholman.com/ "Tim Holman"): this man is the perfect stereotype of the crazy, eccentric and hilarious geek. Parts of me want to be like him. Creations inside this website are madly clever. [source code](https://github.com/tholman/tholman-blog "tholman.com source code on GitHub").
 - [Andy Matuschak](https://andymatuschak.org/ "Andy Matuschak")'s personal website and [his notes](https://notes.andymatuschak.org "Andyʼs working notes") are arguably the best example of exploitation of the power and beauty of the internet. Andy's notes are an example and source of inspiration for everyone who grows a [[Zettelkasten]] or [[Zettelkasten|Digital Garden]]
 - [Tania Rascia](https://taniarascia.com)'s blog: Tania has a great story, but the thing I love the most is the clean, minimal, neat design and layout. You get what you’re looking for in no time.
 - [Derek Sivers](https://sivers.org): there’s so much content and wit, so many insights, pages and links it makes anyone browsing around get crazy. I like it a lot. Also, but more importantly: this guy is so cool

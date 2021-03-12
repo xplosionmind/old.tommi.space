@@ -1,9 +1,7 @@
 ---
 date: 2017-11-11
-tags: ["songwriting"]
+tags: songwriting
 ---
-# No clue
-
 ```
 Ag-Ag - A-A-A      E - Eg-Eg - E-E-E
 niice

@@ -1,4 +1,4 @@
 ---
 date: 2020-10-07
-tags: analog scambi
+tags: analog/jarvis scambi
 ---

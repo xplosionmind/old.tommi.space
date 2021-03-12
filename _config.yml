@@ -33,6 +33,7 @@ exclude:
   - _notes/.trash
   - _notes/PISE
   - _notes/university
+  - _data/private
 keep_files:
   - images/
   - assets/

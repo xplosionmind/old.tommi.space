@@ -1,7 +1,7 @@
 ---
 date: 2020-06-17
 updated: 2020-06-25
-tags: giffoni
+tags: event/giffoni
 ---
 - [gruppo Telegram](t.me/giffoniriva)
 - [Database giurati](https://cloud.tommi.space/index.php/s/i48fBzRbDbS5J9f)

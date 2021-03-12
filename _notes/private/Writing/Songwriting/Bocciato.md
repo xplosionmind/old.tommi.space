@@ -1,9 +1,7 @@
 ---
 date: 2018-09-27
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Bocciato
-
 ```
 D
 Bocciato

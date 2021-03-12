@@ -1,9 +1,7 @@
 ---
 date: 2019-03-27
-tags: ["songwriting"]
+tags: songwriting
 ---
-# mappamondo
-
 ```
 ma dove è finito il mondo
 

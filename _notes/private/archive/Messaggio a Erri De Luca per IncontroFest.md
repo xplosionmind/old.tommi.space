@@ -1,6 +1,6 @@
 ---
 date: 2020-06-14
-tags: ["msg"]
+tags: archive/message
 ---
 Ciao Erri, mi permetto di darti del tu. Mi chiamo Tommi, sono un matto di 19 anni che, per venire subito al dunque, ha messo insieme un gruppo di quindici giovani entusiasti provenienti da ogni parte d’Italia per organizzare a Sanremo (dove la maggior parte di noi abita) _incontroFest_, il Festival dell’incontro, a fine agosto 2021.
 

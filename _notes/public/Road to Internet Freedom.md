@@ -1,7 +1,7 @@
 ---
 date: 2020-12-10
 updated: 2021-01-05
-tags: geek, qsm
+tags: wip geek qsm
 aliases: "Path to Internet Freedom"
 permalink: /internet-freedom-roadmap
 redirect_from: ["/road-to-internet-freedom", "/internet-freedom-path", "/path-to-internet-freedom"]

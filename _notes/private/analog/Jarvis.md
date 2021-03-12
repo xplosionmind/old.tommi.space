@@ -1,5 +1,5 @@
 ---
-tags: analog
+tags: analog/jarvis
 ---
 # Notes in Jarvis
 
@@ -69,5 +69,28 @@ tags: analog
 - [[2020-12-22 Daily]]
 - [[2020-12-23 Daily]]
 - [[2020-12-24 Daily]]
-- +++
+- 2020-12-25 [[Il Secolo dei Giovani e il mito di James Dean]]
+- [[2020-12-26 Focus]]
+- [[2020-12-26 Daily]]
 - [[2020-12-29 Piano Partenza]]
+- [[2021-01-01 Nessun proposito]]
+- [[2021-01-02 Rilettura estemporanea di Come Diventare Vivi]]
+- [[2021-01-02 Meditation 101]]
+- [[2021-01-06 Daily]]
+- [[2021-01-07 Quitting nothingness]]
+- [[2021-01-08 La Sincerità di un attimo]]
+- [[2021-01-09 Dream]]
+- [[2021-01-09 Rethinking To-Dos]]
+- [[2021-01-10 Dream]]
+- [[2021-01-13 Perché non sono soddisfatto]]
+- [[2021-01-19 Basta lasciare pagine vuote]]
+- [[2021-01-16 Tools]]
+- 2021-01-20 [[Cronofagia]]
+- [[2021-01-27 Fare cose]]
+- [[2021-02-20 Il giornalista locale]]
+- [[2021-02-14 la famiglia che vorrei costruire]]
+- [[2021-02-18 Missing Vilfredo]]
+- [[2021-02-18]]
+- [[2021-02-25]]
+- 2021-02-25 [[Le Notti Bianche]]
+- [[2021-03-03 Once at a time]]

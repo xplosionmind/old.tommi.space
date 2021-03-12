@@ -1,6 +1,6 @@
 ---
 date: 2019-11-06
-tags: ["interviews"]
+tags: ["interview"]
 ---
 - spazio sola / connessa
 - ISS toilet

@@ -1,7 +1,7 @@
 ---
 date: 2020-11-30
 updated: 2020-11-30
-tags: ["writing", "draft"]
+tags: writing draft
 ---
 Ero ferito dalle fessure accecanti che sfuggivano al controllo di quella maledetta tapparella, quella Jana mattina da solo nello spazioso vuoto letto che mi sembrava troppo per me.
 

@@ -1,3 +1,3 @@
 ---
-tags: ["analog", "book", "reading"]
+tags: analog/jarvis book
 ---

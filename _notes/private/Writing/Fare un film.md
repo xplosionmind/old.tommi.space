@@ -1,8 +1,7 @@
 ---
 date: 2019-07-07
+tags: cinema
 ---
-# Fare un film
-
 Fare un film.
 
 Qualcosa di diverso, che suona tanto figo quanto poco plausibile, un lavoro per pochi, un sogno per molti (temo, però, sempre meno).

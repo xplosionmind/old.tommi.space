@@ -1,8 +1,6 @@
 ---
 date: 2018-10-16
 ---
-# con-fuso nel cinema
-
 c'è confusione. Quella che si percepisce aprendo gli occhi la mattina,
 quella che ci distrugge nel mezzo di un compito di italiano, quella che
 ci impedisce di essere quieti persino nel sonno, quella che ci

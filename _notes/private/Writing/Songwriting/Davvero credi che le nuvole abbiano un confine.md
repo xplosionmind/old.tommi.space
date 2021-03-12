@@ -1,9 +1,7 @@
 ---
 date: 2018-05-14
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Davvero credi che le nuvole abbiano un confine
-
 ```
 C (+f) F C G
 

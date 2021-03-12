@@ -1,9 +1,7 @@
 ---
 date: 2019-12-26
-tags: ["songwriting"]
+tags: songwriting
 ---
-# La Sazietà
-
 ```
 [Intro]
 D

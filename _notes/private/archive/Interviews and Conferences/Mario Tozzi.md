@@ -1,6 +1,6 @@
 ---
 date: 2017-09-10
-tags: ["people", "interviews", "archive/radioimmaginaria"]
+tags: ["people", "interview", "archive/radioimmaginaria"]
 ---
 - hai scritto il libro "Paure Fuori Luogo", di cui in parte hai parlato anche oggi. Tu cosa temi di più?
 - da 1 a 10 quanto conta la consapevolezza della popolazione per la previsione/riabilitazione nelle catastrofi naturali?

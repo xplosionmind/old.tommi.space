@@ -1,7 +1,7 @@
 ---
 date: 2020-02-02
-updated: 2021-02-27T17:40:57.951540+01:00
-tags: meta geek web
+updated: 2021-03-11T12:59:59.269120+01:00
+tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
 redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev", "/website-development", "tommi.space"]
@@ -32,43 +32,71 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 
 1. Configure and implement [[Indie Web]]
 	- Note in footer that this website supports Webmentions
-2. Stop using Algolia and consider faster and simpler alternatives
+1. Telegram comments: `<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="bfg-ZXp6" data-limit="5" data-color="FCC920" data-dark="1"></script>`
+3. Stop using Algolia and consider faster and simpler alternatives
 	- [Lunr](https://lunrjs.com "Lunr")
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
-1. Develop a [[Timeline development|timeline]]
-2. [[The Jam]]: Preview a note when hovering on link
-3. [[The Jam]]: Notes graph
-1. `page.location` improvement:
+4. Develop a [[Timeline development|timeline]]
+1. Make [[Permanent HTML]]
+5. Update Flickr links in [[Tutto]]
+6. [[The Jam]]: Preview a note when hovering on link
+7. [[The Jam]]: Notes graph
+8. `page.location` improvement:
 	1. `location-url` in _data?
 	2. Use coordinates and find a way to create an ecosystem of places
-2. Check the OpenStreetMap API and figure out a way to implement [[Around the world|Places]] in a map interface, integrating it with [[Timeline development|Timeline]]
-3. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
-4. Configure [Peekalink](https://peekalink.io "Peekalink") in [[Cinema]] to replace [The Movie Database](https://themoviedb.org "The Movie Database") list and quit it.
-5. Avoid having to use special plugins to parse `[[wikilinks]]`, and use simple markdown links, integrating them in Jekyll with [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links "jekyll-relative-links on GitHub")
+9. Check the OpenStreetMap API and figure out a way to implement [[Around the world|Places]] in a map interface, integrating it with [[Timeline development|Timeline]]
+1. At the top of the page, add anchors buttons which link to comments, backlinks, etc.
+1. Develop a [[Light]] version of the website
+`<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
+1. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
+2. Configure [Peekalink](https://peekalink.io "Peekalink") in [[Cinema]] to replace [The Movie Database](https://themoviedb.org "The Movie Database") list and quit it.
+3. Avoid having to use special plugins to parse `\[\[wikilinks\]\]`, and use simple markdown links, integrating them in Jekyll with [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links "jekyll-relative-links on GitHub")
 	- problems
 		- how to remove invalid links
 		- Folder structure becomes fundamental and links must be changed when file is moved (Obsidian should automatically handle this)
 		- Current Liquid permalinks parsing may not work anymore
-6. Integrate [jekyll-time-to-read](https://github.com/gjtorikian/jekyll-time-to-read/ "jekyll-time-to-read on GitHub")
-7. Integrate [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier/ "jekyll-minifier") if it proves to be better for performance and / or more stable (keep in mind that Netlify offers JS and CSS minification)
-8. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
-9. [Tags](/tags):
+4. Integrate [jekyll-time-to-read](https://github.com/gjtorikian/jekyll-time-to-read/ "jekyll-time-to-read on GitHub")
+5. Integrate [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier/ "jekyll-minifier") if it proves to be better for performance and / or more stable (keep in mind that Netlify offers JS and CSS minification)
+6. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
+7. [Tags](/tags):
 	- consider switching from a unique page list to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
-10. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Switch to Piwigo]]).
-11. Fetch images previews to complete external links and preferences
+8. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Switch to Piwigo]]).
+9. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
-12. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
-13. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
-14. Give a consistent framework to all lists (use CSV data or markdown tables only)
-15. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-16. Improve `<noscript>`
+10. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
+11. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
+12. Give a consistent framework to all lists (use CSV data or markdown tables only)
+13. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+14. Improve `<noscript>`
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")
-17. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
-18. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
-19. Use [jekyll-auth](https://github.com/benbalter/jekyll-auth/ "jekyll-auth on GitHub") to limit content availability
-20. A script to check overlapping permalinks
+15. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
+16. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
+17. Use [jekyll-auth](https://github.com/benbalter/jekyll-auth/ "jekyll-auth on GitHub") to limit content availability
+18. A script to check overlapping permalinks
+
+<ul>
+	{% for p in site.pages %}
+		{% if p.todo != nil %}
+			<li><a href="{{ p.url }}" rel="noopener noreferrer" target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
+				{% for td in p.todo %}
+					<li>{{ td }}</li>
+				{% endfor %}
+			</ul></li>
+		{% endif %}
+	{% endfor %}
+	
+	{% for p in site.notes %}
+		{% if p.todo != nil %}
+			<li><a href="{{ p.url }}" rel="noopener noreferrer" target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
+				{% for td in p.todo %}
+					<li>{{ td }}</li>
+				{% endfor %}
+			</ul></li>
+		{% endif %}
+	{% endfor %}
+</ul>
 
 <br>
 <br>
@@ -76,7 +104,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 ### Further ideas
 
 - Figure out [jekyll-hardlinks](https://0xacab.org/sutty/jekyll/jekyll-hardlinks "jekyll-hardlinks source code")
-- [Generative Art](http://tholman.com/post/generative-art-speedrun/ "Generative Art on Tim Holman's blog")
+- [Generative Art](https://generativeartistry.com "Generative artistry")
 	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/ "Zander Martineau")
 - [Integrating Telegram comments](https://dev.to/ayanb/integrating-telegram-comments-to-your-website-2fnh "Integrating Telegram Comments to Your Website on DEV.to") ([comments.app](https://comments.app) not working after login)
 - GIFs instead of images 

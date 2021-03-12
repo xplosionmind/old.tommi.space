@@ -1,6 +1,6 @@
 ---
 date: 2019-06-22
-tags: msg
+tags: archive/message
 ---
 Mi dispiace doverti scrivere qui, quando se non avessi avuto con me unicamente il mio taccuino ti avrei scritto un messaggio come si deve e come sono abituato a fare quando si tratta di fermare e trattenere scrivendo parole che altrimenti andrebbero perse nella volatilità di un dialogo.
 

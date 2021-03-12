@@ -1,9 +1,7 @@
 ---
 date: 2019-06-16
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Maturerò
-
 ```
 GDCG
 maturerò, forse un giorno sì ma non lo so

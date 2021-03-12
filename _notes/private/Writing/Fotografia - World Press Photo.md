@@ -2,11 +2,9 @@
 date: 2019-11-03
 tags: photography, draft
 ---
-mi domando
-
-mi domando con stupore e incredibile sorpresa
-come si faccia a non amare una fotografia.
-
+mi domando  
+mi domando con stupore e incredibile sorpresa  
+come si faccia a non amare una fotografia.  
 In realtà, probabilmente però sono soprattutto io che mi gaso, mi chiedo come si possa non amare LA fotografia, come arte, come poesia, come mezzo potentissimo di denuncia, come provocazione, come testimonianza, come ultima speranza, come unico mezzo per diventare qualcuno.
 
 Faccio qualche passo indietro e mi spiego meglio (che poi ovviamente come ben sapete è un’utopia che di certo non si verificherà stavolta).
@@ -18,10 +16,8 @@ Io mi sento fortunato a saper apprezzare, ancora più, ad AMARE, gli scatti magi
 
 Però temo che, come il mitico Sherlock Holmes direbbe al suo caro dottor Watson, il nostro problema è che “lei vede Watson, vede tutto, ma non osserva!”
 
-Ho paura della perdita della capacità di osservare.
-
-Ho paura che tutto diventi normale.
-
+Ho paura della perdita della capacità di osservare.  
+Ho paura che tutto diventi normale.  
 Ho paura che, dato che uno schermo può riprodurre qualsiasi immagine noi gli comandiamo, l’estrema accessibilità che ne deriva faccia diventare naturale potersi trovare di fronte un’immagine che qualcuno ha rischiato la vita pur di scattare.
 
 Mi mancava la sensazione di profonda piccolezza ed impotenza che ho sentito appena uscito dalla mostra della mostra World Press Photo a Torino, la settimana scorsa.

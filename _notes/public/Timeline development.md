@@ -1,7 +1,7 @@
 ---
 date: 2020-12-15T15:56:57.856311+01:00
 updated: 2021-02-27T16:21:24.548067+01:00
-tags: geek idea wip
+tags: wip geek idea
 description: "Developing a timeline which integrates with everything I do and locations all over the world"
 aliases: ["Timeline"]
 toc: false
@@ -16,7 +16,14 @@ Make a huge CSV (or YAML, so that there can be an array of links for every resou
 <br>
 <br>
 
-## Implementations
+## Tools
+
+- [TimelineJS](https://timeline.knightlab.com "TimelineJS")
+
+<br>
+<br>
+
+## Examples
 
 Add a timeline like [Jeremy Gordon's](https://jgordon.io "Jeremy Gordon") or [jack.works](https://web.archive.org/web/20200513054829/http://jack.works/)
 	- [CSS Timelines examples](https://freefrontend.com/css-timelines/ "65 CSS Timelines")

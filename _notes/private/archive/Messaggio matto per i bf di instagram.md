@@ -1,6 +1,6 @@
 ---
 date: 2019-03-27
-tags: ["msg"]
+tags: archive/message
 ---
 MESSAGGIO MATTO PER I BF DI INSTAGRAM (A CASO, MA OVVIAMENTE SOLO CON DOPPIE FINALITÀ PER CECILIA)
 

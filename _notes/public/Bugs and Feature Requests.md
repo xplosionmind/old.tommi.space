@@ -59,6 +59,16 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]].
 <br>
 <br>
 
+## Hypothes.is
+
+[Hypothes.is](https://hypothes.is "Hypothes.is") is an annotation and highlighting service for web pages
+
+- design improvement
+- WebMentions and IndieWeb integration
+
+<br>
+<br>
+
 ## Obsidian
 
 ### Feature requests
@@ -66,6 +76,7 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]].
 - choose to hide front matter when embedding other notes, even if “show YAML front matter” is switched on for the notes
 - Multiple hotkeys for one action
 - In links, update also headings when their name is changes
+- Tags aliases (e.g. &num;place == &num;places)
 
 <br>
 

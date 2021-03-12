@@ -1,6 +1,6 @@
 ---
 date: 2018-01-11
-tags: ["birthday"]
+tags: archive/birthday
 ---
 Ei Luisa, i 18 sono arrivati anche per te   
 ed ora ti sarebbe addirittura permesso di guidare la macchina, ahimè

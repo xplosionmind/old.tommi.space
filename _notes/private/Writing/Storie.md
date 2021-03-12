@@ -1,6 +1,6 @@
 ---
 date: 2019-06-30
-tags: writing, draft
+tags: writing draft
 ---
 T.S. Eliot. Lo scrittore ed i suoi sentimenti non devono compromettere lo stile ed il soggetto trattato. E allora? Di cosa si scriverà? Di altri? Ma chi sei tu per mettere qualcosa di un altro su uno schermo senza viverlo, senza sentirlo ed inquinarlo con la tua passione e la tua profondità?
 

@@ -1,9 +1,7 @@
 ---
 date: 2018-10-21
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Cameriere
-
 ```
 A
 Le cameriere

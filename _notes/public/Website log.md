@@ -1,7 +1,7 @@
 ---
 date: 2021-01-09
 updated: 2021-01-09
-tags: geek web
+tags: geek/web
 aliases: ["Meta"]
 permalink: /meta
 redirect_from: ["/website-log", "/websitelog", "/log"]

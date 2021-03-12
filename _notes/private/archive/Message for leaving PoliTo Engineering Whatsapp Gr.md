@@ -1,6 +1,6 @@
 ---
 date: 2020-09-12
-tags: ["msg"]
+tags: archive/message
 ---
 Good morning dear friends,
 

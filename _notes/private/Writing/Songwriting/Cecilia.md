@@ -1,9 +1,7 @@
 ---
 date: 2018-10-02
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Cecilia
-
 ```
 D		       G
 Cecilia, la ragazza nei sogni

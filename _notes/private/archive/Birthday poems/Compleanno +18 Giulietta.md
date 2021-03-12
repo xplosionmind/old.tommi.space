@@ -1,6 +1,6 @@
 ---
 date: 2018-08-20
-tags: ["birthday"]
+tags: archive/birthday
 ---
 In questa sera di focose ed intense emozioni   
 del 18esimo compleanno di Pasquali Giulia si svolgono le celebrazioni

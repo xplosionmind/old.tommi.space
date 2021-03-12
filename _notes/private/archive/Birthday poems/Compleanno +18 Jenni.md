@@ -1,6 +1,6 @@
 ---
 date: 2019-02-01
-tags: ["birthday"]
+tags: archive/birthday
 ---
 Cara Jenni matta e grandiosa    
 con la tua voce strepitosa

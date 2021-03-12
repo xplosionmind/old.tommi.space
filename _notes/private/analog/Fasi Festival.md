@@ -1,3 +1,3 @@
 ---
-tags: analog scambi
+tags: analog/jarvis scambi
 ---

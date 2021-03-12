@@ -1,6 +1,6 @@
 ---
 date: 2020-05-10
-tags: ["msg"]
+tags: archive/message
 ---
 Cari amici,
 
