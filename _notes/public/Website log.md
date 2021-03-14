@@ -1,7 +1,7 @@
 ---
 date: 2021-01-09
-updated: 2021-01-09
-tags: geek/web
+updated: 2021-03-14T10:27:50.026127+01:00
+tags: draft geek/web meta
 aliases: ["Meta"]
 permalink: /meta
 redirect_from: ["/website-log", "/websitelog", "/log"]
@@ -30,6 +30,24 @@ I decided not to, for now, for three main reasons:
 <br>
 <br>
 
+<p class="date">14 March 2021</p>
 
+## Minimalizing
+
+![[Minimalizing]]
+
+<br>
+<br>
+
+## Analytics
+
++++
+
+<br>
+<br>
+
+## Algolia Search
+
++++
 
 [^test]: Lovely arrow test ->

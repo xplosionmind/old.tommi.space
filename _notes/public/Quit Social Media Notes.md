@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10
-updated: 2021-03-12T19:45:09.695502+01:00
+updated: 2021-03-14T10:13:50.885400+01:00
 permalink: /qsm
 aliases: ["QSM"]
 description: 'Notes about <a href="https://quitsocialmedia.club" rel="noopener noreferrer" target="_blank" title="Quit Social Media">quitsocialmedia.club</a>'
@@ -222,6 +222,8 @@ Grazie mille, ti sono davvero grato e sono un sacco felice che tu abbia voluto d
 - [ ] [Alina Utrata](https://www.alinautrata.com "Alina Utrata")
 - [ ] ontech@nytimes.com
 - [ ] Sabina Guzzanti (vedi Propaganda del 12.03 al min ~90)
+- [ ] hfbmartinus@gmail.com, Herman Martinus: developer of Bearblog
+- [ ] hello@uglyduck.ca
 
 ### Communities
 

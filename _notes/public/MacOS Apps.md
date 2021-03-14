@@ -1,6 +1,6 @@
 ---
 date: 2021-02-26T10:19:47.219741+01:00
-updated: 2021-02-27T07:51:56.765853+01:00
+updated: 2021-03-14T10:34:49.260156+01:00
 tags: geek geek/apps
 description: "Right now on my <a href='https://support.apple.com/kb/SP799' rel='noopener noreferrer' target='_blank' title='MacBook Pro 13\" 2019 tech specs'>MacBook Pro 13\" 2019</a>"
 permalink: /macos
@@ -10,6 +10,7 @@ toc: false
 - [Adobe Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html), alas, the best photo editing software out there. I hate Adobe, but it works so damn good. I’m doing my best to completely switch to the two following programs but, damn, it’s so hard. Also: I have to keep Lightroom on my device because it’s impossible to move photography edits committed with Lightroom to Darktable.
 - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html). I tried living without it. I couldn't. Hands down, it's the best visual editing software in the world. You could do anything with it.
 - [AEScrypt](https://www.aescrypt.com "AEScrypt") file encrypter and decrypter
+- [AlDente](https://github.com/davidwernhart/AlDente "AlDente source code on GitHub"), a MacBook utility to avoid over-charging the battery when the device is plugged and it have reached 100% charge
 - [alltomp3](https://alltomp3.org "alltomp3"), mp3 downloader
 - [Android File Transfer](https://www.android.com/filetransfer/), the name says it all. It’s simple and it works great.
 - [AppCleaner](https://freemacsoft.net/appcleaner) is not open source, but, damn, it’s so useful I have to keep it.

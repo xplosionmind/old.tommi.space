@@ -30,9 +30,14 @@ todo:
 - [The Zen Zone](https://thezen.zone "The Zen Zone"), 2021-03-11
 - [Binary Music Player](https://tholman.com/binary-music-player/ "Binary music Player"), 2021-03-11
 - [Minimal IP address finder](https://ipaddress.sh "IPaddress.sh"), 2021-03-11
--[Can’t Not Tweet This](https://cant-not-tweet-this.com "Can’t Not Tweet This"), 2021-03-11
+- [Can’t Not Tweet This](https://cant-not-tweet-this.com "Can’t Not Tweet This"), 2021-03-11
 - [The Useless Web](https://theuselessweb.com/sites/ "The Useless Web"), 2021-03-11
 - [The 512KB Club](https://512kb.club "The 512KB Club"), 2021-03-11
 - The [1MB Club](https://1mb.club "1MB Club"), 2021-03-11
 - [The 250KB Club](https://250kb.club "The 250KB Club"), 2021-03-11
 - [NoJS Club](https://nojs.club "NoJS Club"), 2021-03-11
+- [Jam](https://jam.systems "Jam"), 2021-03-13
+- [Bearblog](https://bearblog.dev/ "Bearblog"), 2021-03-14
+- [JustSketchMe](https://app.justsketch.me "JustSketchMe"), 2021-03-14
+- [magic.do](https://www.magic.do "magic.do"), 2021-03-14
+- [Frugal Web Browser](https://frugalweb.xyz "Frugal Web Browser"), 2021-03-14

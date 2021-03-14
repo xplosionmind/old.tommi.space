@@ -1,6 +1,5 @@
 ---
 ---
-/*@import "../_sass/search";*/ /* temporarily disabled to improve performance */
 @import "../_sass/highlight";
 @import "../_sass/header";
 @import "../_sass/root";
@@ -1061,5 +1060,20 @@ button,
 	}
 	nav ul li a {
 		padding: 0 var(--regular-more);
+	}
+}
+
+@media only screen and (min-width: 950px) {
+	ul.two,
+	ol.two {
+		columns: 2;
+		-webkit-columns: 2;
+		-moz-columns: 2;
+	}
+	ul.three,
+	ol.three {
+		columns: 3;
+		-webkit-columns: 3;
+		-moz-columns: 3;
 	}
 }

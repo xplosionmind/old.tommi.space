@@ -8,6 +8,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 1. [Mackup](https://github.com/lra/mackup "Mackup on GitHub") setup
 2. Configure [shallow-backup](https://github.com/alichtman/shallow-backup "shallow-backup on MacOS")
 3. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
+1. [Reset MacBook Pro](https://www.wired.com/story/how-to-factory-reset-mac-windows-chromebook "Factory reset MacOS")
 4. Defining a threat model
 1. https://searx.devol.it/
 5. The matter of handling (large) attachments to Zettelkasten
