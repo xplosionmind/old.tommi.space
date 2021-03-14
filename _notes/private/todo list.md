@@ -3,6 +3,7 @@ tags: todo
 aliases: ["MOC", "Home", "to do", "todo", "main"]
 ---
 1. **Study**
+1. Tighten Aida’s screws
 5. *[[Scambi]]*
 7. [[Writing]]
 8. Translate [[Structured Procrastination]]

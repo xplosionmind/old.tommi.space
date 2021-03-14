@@ -2,8 +2,10 @@
 date: 2020-05-13
 updated: 2020-10-24
 redirect_from: /data
+todo:
+  - "Where to find reliable poll results? Official raw data, but simple?"
 ---
-There are hundreds (if not thousands) of free data sets available, ready to be used and analyzed by anyone willing to look for them.  Below is a list of some of the most globally interesting I’ve come across, but there are many, many more in many different niches.
+There are hundreds (if not thousands) of free data sets available, ready to be used and analyzed by anyone willing to look for them.  Below is a list of some of the most globally interesting I have come across, but there are many, many more in many different niches.
 
 - [Mozilla Data Stewardship Landscape Scan](https://airtable.com/shrn9jnFOQByon2i7/tblOrlwkMkuRn4HjV/viwOyRIDzKGemXbLW)
 - [Data.gov](http://data.gov/) The US Government pledged last year to make all government data available freely online. This site is the first stage and acts as a portal to all sorts of amazing information on everything from climate to crime.

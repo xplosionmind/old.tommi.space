@@ -2,8 +2,9 @@
 date: 2020-06-10
 updated: 2021-03-12T19:45:09.695502+01:00
 permalink: /qsm
-redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-notes", "/quit-social-media-notes", "/quit-social-media"]
+aliases: ["QSM"]
 description: 'Notes about <a href="https://quitsocialmedia.club" rel="noopener noreferrer" target="_blank" title="Quit Social Media">quitsocialmedia.club</a>'
+redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-notes", "/quit-social-media-notes", "/quit-social-media"]
 ---
 <div class="blue box">
 	Content in this page are random, pretty messed up and both in English and Italian, mostly personal to-dos for Tommi.
@@ -23,17 +24,17 @@ description: 'Notes about <a href="https://quitsocialmedia.club" rel="noopener n
 ### Content
 
 - legittimazione a non uscire per troppo tempo da investire nel cambio
-- in [ma](/ma): ma prendere soluzioni così drastiche, nella storia, non è mai servito a nulla
+- in [ma](https://quitsocialmedia.club/ma "“Ma” in quitsocialmedia.club"): ma prendere soluzioni così drastiche, nella storia, non è mai servito a nulla
 - la differenza generazionale
 - differenza con la TV
 - l'educazione e la difficoltà
 - Do we really need to share everything? Does someone who is not interested in communication or media our cinema or art etc really need to share what goes on with our life?
 	- want to become famous and be noticed? Start writing emails, sending pictures, ask for collaborations
-	- want to earn money? Invent new ways to monetize your work (Patreon, etc.)
+	- want to earn money? Invent and exploit new ways to monetize your work (Patreon, etc.)
 
 > The present treatise contains everything that I have been able to accomplish in this area. Not that I have attempted to collect here all the different arguments that could be put forward to establish the same results, for this does not seem worthwhile except in cases where no single argument is regarded as sufficiently reliable. What I have done is to take merely the principal and most important arguments and develop them in such a way that I would now venture to put them forward as very certain and evident demonstrations.
 
-<p class="cite">Hume</p>
+<p class="cite">David Hume</p>
 
 <br>
 <br>
@@ -219,6 +220,8 @@ Grazie mille, ti sono davvero grato e sono un sacco felice che tu abbia voluto d
 - [ ] hello@redecentralize.org
 - [x] [Carissa Véliz](https://www.carissaveliz.com/contact "Carissa Véliz]")
 - [ ] [Alina Utrata](https://www.alinautrata.com "Alina Utrata")
+- [ ] ontech@nytimes.com
+- [ ] Sabina Guzzanti (vedi Propaganda del 12.03 al min ~90)
 
 ### Communities
 

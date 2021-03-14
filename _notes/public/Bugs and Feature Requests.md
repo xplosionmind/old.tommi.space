@@ -89,6 +89,20 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]].
 <br>
 <br>
 
+## 1Writer
+
+[1Writer](https://1writerapp.com/ "1Writer") is arguably the best Markdown writer app for iOS
+
+- Scroll to top / scroll to bottom buttons
+- Custom display front matter
+- read front matter metadata and use it
+- add a GUI metadata editor which modifies front matter content
+- support anchor links in wililinks
+- support pages embedding
+
+<br>
+<br>
+
 ## Cubbit
 
 ## Feature requests
