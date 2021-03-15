@@ -9,4 +9,4 @@ toc: false
 - *[[Xplosion Music Extended]]* contains everything which is in *Xplosion Music*, plus songs that do not make it to my life’s soundtrack, but I love them so much.
 - *[[Classical Xplosion]]*, an explosion of classical music which makes me jump around graciously and move vehemently in the peaks of power (I cannot dance).
 - *[[Metamusic]]*, music that talks about music.
-- +++to be completed
+- +++ to be completed

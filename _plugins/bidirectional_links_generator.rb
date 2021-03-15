@@ -9,6 +9,8 @@ class BidirectionalLinksGenerator < Jekyll::Generator
 
     all_docs = all_notes + all_pages
 
+    link_extension = !!site.config["use_html_extension"] ? '.html' : ''
+
     # Convert all Wiki/Roam-style double-bracket link syntax to plain HTML
     # anchor tag elements (<a>) with "internal-link" CSS class
     all_docs.each do |current_note|
@@ -18,32 +20,35 @@ class BidirectionalLinksGenerator < Jekyll::Generator
           File.extname(note_potentially_linked_to.basename)
         ).gsub('_', ' ').gsub('-', ' ').capitalize
 
+        new_href = "#{site.baseurl}#{note_potentially_linked_to.url}#{link_extension}"
+        anchor_tag = "<a class='internal' href='#{new_href}'>\\1</a>"
+
         # Replace double-bracketed links with label using note title
         # [[A note about cats|this is a link to the note about cats]]
         current_note.content = current_note.content.gsub(
           /\[\[#{title_from_filename}\|(.+?)(?=\])\]\]/i,
-          "<a class='internal' href='#{note_potentially_linked_to.url}'>\\1</a>"
+          anchor_tag
         )
 
         # Replace double-bracketed links with label using note filename
         # [[cats|this is a link to the note about cats]]
         current_note.content = current_note.content.gsub(
           /\[\[#{note_potentially_linked_to.data['title']}\|(.+?)(?=\])\]\]/i,
-          "<a class='internal' href='#{note_potentially_linked_to.url}'>\\1</a>"
+          anchor_tag
         )
 
         # Replace double-bracketed links using note title
         # [[a note about cats]]
         current_note.content = current_note.content.gsub(
           /\[\[(#{note_potentially_linked_to.data['title']})\]\]/i,
-          "<a class='internal' href='#{note_potentially_linked_to.url}'>\\1</a>"
+          anchor_tag
         )
 
         # Replace double-bracketed links using note filename
         # [[cats]]
         current_note.content = current_note.content.gsub(
           /\[\[(#{title_from_filename})\]\]/i,
-          "<a class='internal' href='#{note_potentially_linked_to.url}'>\\1</a>"
+          anchor_tag
         )
       end
 
@@ -53,7 +58,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       current_note.content = current_note.content.gsub(
         /\[\[(.*)\]\]/i, # match on the remaining double-bracket links
         <<~HTML.chomp    # replace with this HTML (\\1 is what was inside the brackets)
-          <span title='This note is private' class='invalid-link'>
+          <span title='This note is private.' class='invalid-link'>
             <span class='invalid-link-brackets'>[[</span>
             \\1
             <span class='invalid-link-brackets'>]]</span></span>

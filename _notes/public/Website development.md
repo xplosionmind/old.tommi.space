@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-03-13T22:06:16.693577+01:00
+updated: 2021-03-15T08:11:26.053258+01:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -11,10 +11,8 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 ## Not Working
 
 - Liquid `| sort` filter!
-- Algolia search index [is limited](https://github.com/algolia/algoliasearch-netlify/issues/166 "GitHub issue")
-- Overflow of button shadows in Safari
+- Hidden overflow of button shadows in Safari
 - scrollbars always displayed in Linux distros when `overflow: scroll` is on
-- https://tommi.space/timeline -> https://timeline.tommi.space
 
 <br>
 <br>
@@ -33,22 +31,26 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 1. Configure and implement [[Indie Web]]
 	- Note in footer that this website supports Webmentions
 1. Telegram comments: `<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="bfg-ZXp6" data-limit="5" data-color="FCC920" data-dark="1"></script>`
-3. Stop using Algolia and consider faster and simpler alternatives
+2. Create Newsletter pages
+	- successful subscription page
+	- I am sad you are unsubscribing
+1. Stop using Algolia and consider faster and simpler alternatives
 	- [Lunr](https://lunrjs.com "Lunr")
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
-4. Develop a [[Timeline development|timeline]]
-1. Make [[Permanent HTML]]
-5. Update Flickr links in [[Tutto]]
-6. [[The Jam]]: Preview a note when hovering on link
-7. [[The Jam]]: Notes graph
-8. `page.location` improvement:
+5. Develop a [[Timeline development|timeline]]
+6. Make [[Permanent HTML]]
+7. Update Flickr links in [[Tutto]]
+8. [[The Jam]]: Preview a note when hovering on link
+9. [[The Jam]]: Notes graph
+10. save Nextcloud commands in cheat sheets
+11. `page.location` improvement:
 	1. `location-url` in _data?
 	2. Use coordinates and find a way to create an ecosystem of places
-9. Check the OpenStreetMap API and figure out a way to implement [[Around the world|Places]] in a map interface, integrating it with [[Timeline development|Timeline]]
-1. At the top of the page, add anchors buttons which link to comments, backlinks, etc.
-1. Develop a [[Light]] version of the website
+12. Check the OpenStreetMap API and figure out a way to implement [[Around the world|Places]] in a map interface, integrating it with [[Timeline development|Timeline]]
+13. At the top of the page, add anchors buttons which link to comments, backlinks, etc.
+14. Develop a [[Light]] version of the website
 `<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
 1. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
 2. Configure [Peekalink](https://peekalink.io "Peekalink") in [[Cinema]] to replace [The Movie Database](https://themoviedb.org "The Movie Database") list and quit it.

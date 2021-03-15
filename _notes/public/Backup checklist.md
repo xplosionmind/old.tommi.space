@@ -1,6 +1,6 @@
 ---
 date: 2020-09-14
-updated: 2021-02-04T13:46:58.024395+01:00
+updated: 2021-03-15T08:07:35.462191+01:00
 tags: geek
 image: "https://assets.tommi.space/images/backup.jpg"
 permalink: /backup
@@ -14,6 +14,7 @@ description: "To keep the phone rolling smoothly, from time to time a classic da
 	- export extensions configuration and settings
 	- `about:config` settings check
 - Espanso config
+- `/Library/User\ Pictures`
 
 <br>
 <br>

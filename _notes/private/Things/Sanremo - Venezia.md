@@ -1,5 +1,8 @@
 ---
 ---
+- uniforme
+- long LAN cable
+- LAN-USB C adapter
 - foto da appendere
 - Analogica?
 - Sapone viso

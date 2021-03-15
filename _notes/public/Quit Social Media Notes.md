@@ -24,6 +24,7 @@ redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-n
 ### Content
 
 - legittimazione a non uscire per troppo tempo da investire nel cambio
+- Fediverse (specifically mastodon) features list + point out how recent they are
 - in [ma](https://quitsocialmedia.club/ma "“Ma” in quitsocialmedia.club"): ma prendere soluzioni così drastiche, nella storia, non è mai servito a nulla
 - la differenza generazionale
 - differenza con la TV

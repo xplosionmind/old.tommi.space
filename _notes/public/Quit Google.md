@@ -1,7 +1,7 @@
 ---
 date: 2020-12-23
 updated: 2021-02-09T12:59:50.297017+01:00
-tags: qsm, geek, wip
+tags: qsm geek wip
 aliases: ["Delete Google"]
 redirect_from: ["/delete-google", "/quitgoogle", "/quit-google", "/google"]
 image: "https://assets.tommi.space/images/jar/quit-google.jpg"

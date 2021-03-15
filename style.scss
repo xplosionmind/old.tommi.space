@@ -1,11 +1,9 @@
 ---
 ---
-@import "../_sass/highlight";
-@import "../_sass/header";
 @import "../_sass/root";
-@import "{{ site.fonts }}/inter/inter.css";
-@import "{{ site.fonts }}/ubuntu-mono/ubuntu-mono.css";
-@import "{{ site.fonts }}/eb-garamond/eb-garamond.css";
+@import "../_sass/inter";
+@import "../_sass/header";
+@import "../_sass/highlight";
 
 html {
 	box-sizing: border-box;

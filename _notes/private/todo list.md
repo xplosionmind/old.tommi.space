@@ -3,13 +3,15 @@ tags: todo
 aliases: ["MOC", "Home", "to do", "todo", "main"]
 ---
 1. **Study**
-1. Tighten Aida’s screws
-5. *[[Scambi]]*
-7. [[Writing]]
-8. Translate [[Structured Procrastination]]
-9. [[Sconnesso]]
-10. [[Geek todo|Geek stuff]]
-11. [[Missing Knowledge|Learn]]
+	- understanding the 2008 economic crisis
+	- Weimar republic
+2. Tighten Aida’s screws
+3. *[[Scambi]]*
+4. [[Writing]]
+5. Translate [[Structured Procrastination]]
+6. [[Sconnesso]]
+7. [[Geek todo|Geek stuff]]
+8. [[Missing Knowledge|Learn]]
 	- [[Music]]
 	- [[Missing Knowledge#Geek stuff|Geek stuff]]
 	- Read
