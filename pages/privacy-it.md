@@ -15,4 +15,4 @@ Questo sito web non possiede alcuna pubblicità né sponsorizzazione (eccetto do
 Qualora si intendesse iscriversi alla newsletter, possiederò unicamente l’indirizzo email ed il nome dell’utente; lo utilizzerò al solo fine di aggiornarlo sui nuovi contenuti di questo sito.   
 Non condividerò i dati con nessuno né li utilizzerò per fini diversi da quelli di invio newsletter. Cederò tali informazioni unicamente nel caso in cui ci sia una richiesta da parte di autorità giudiziarie. Se richiesto, eliminerò prontamente dal mio database, in maniera definitiva, tutti i dati in mio possesso relativi ad una persona che possa dimostrare la propria identità.
 
-Provvisoriamente, l’unico ente terzo coinvolto nell’invio della newsletter è [Mailchimp](https://mailchimp.com/ "Mailchimp"), la cui *privacy policy* è [qui](https://mailchimp.com/legal/ "Mailchimp Legal")
+Provvisoriamente, l’unico ente terzo coinvolto nell’invio della newsletter è [Buttondown](https://buttondown.email "Buttondown"), la cui *privacy policy* è [qui](https://buttondown.email/privacy "Buttondown Privacy")

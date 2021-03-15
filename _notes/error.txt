@@ -1,0 +1,44 @@
+sudo add-apt-repository ppa:stebbins/handbrake-releases
+[sudo] password for tommi: 
+Sorry, try again.
+[sudo] password for tommi: 
+Repository: 'deb http://ppa.launchpad.net/stebbins/handbrake-releases/ubuntu/ groovy main'
+Description:
+These are the official HandBrake releases for Ubuntu. Official web site http://handbrake.fr/
+
+HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder, available for MacOS X, Linux and Windows.
+
+After adding this PPA to your list of repositories (see "Adding this PPA to your system" below), you can install the HandBrake gtk gui with the command:
+
+apt-get install handbrake-gtk
+
+And you can install the HandBrake CLI with the command:
+
+apt-get install handbrake-cli
+More info: https://launchpad.net/~stebbins/+archive/ubuntu/handbrake-releases
+Adding repository.
+Press [ENTER] to continue or Ctrl-c to cancel.
+Found existing deb entry in /etc/apt/sources.list.d/stebbins-ubuntu-handbrake-releases-groovy.list
+Adding deb entry to /etc/apt/sources.list.d/stebbins-ubuntu-handbrake-releases-groovy.list
+Found existing deb-src entry in /etc/apt/sources.list.d/stebbins-ubuntu-handbrake-releases-groovy.list
+Adding disabled deb-src entry to /etc/apt/sources.list.d/stebbins-ubuntu-handbrake-releases-groovy.list
+Adding key to /etc/apt/trusted.gpg.d/stebbins-ubuntu-handbrake-releases.gpg with fingerprint 43D3A9F60C58A7169778E6FB8771ADB0816950D8
+Hit:1 http://it.archive.ubuntu.com/ubuntu groovy InRelease
+Hit:2 http://ppa.launchpad.net/appimagelauncher-team/stable/ubuntu groovy InRelease
+Hit:3 https://linux.teamviewer.com/deb stable InRelease                        
+Hit:4 http://it.archive.ubuntu.com/ubuntu groovy-updates InRelease             
+Hit:5 http://it.archive.ubuntu.com/ubuntu groovy-backports InRelease           
+Ign:6 http://ppa.launchpad.net/stebbins/handbrake-git-snapshots/ubuntu groovy InRelease
+Hit:7 http://security.ubuntu.com/ubuntu groovy-security InRelease
+Ign:8 http://ppa.launchpad.net/stebbins/handbrake-releases/ubuntu groovy InRelease
+Err:9 http://ppa.launchpad.net/stebbins/handbrake-git-snapshots/ubuntu groovy Release
+  404  Not Found [IP: 91.189.95.85 80]
+Err:10 http://ppa.launchpad.net/stebbins/handbrake-releases/ubuntu groovy Release
+  404  Not Found [IP: 91.189.95.85 80]
+Reading package lists... Done                      
+E: The repository 'http://ppa.launchpad.net/stebbins/handbrake-git-snapshots/ubuntu groovy Release' does not have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: The repository 'http://ppa.launchpad.net/stebbins/handbrake-releases/ubuntu groovy Release' does not have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.

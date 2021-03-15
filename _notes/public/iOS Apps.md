@@ -1,7 +1,7 @@
 ---
 date: 2021-02-26T10:23:12.234891+01:00
-updated: 2021-03-06T15:28:09.449051+01:00
-tags: geek geek/apps
+updated: 2021-03-15T12:56:16.086536+01:00
+tags: geek/apps
 description: "Apps installed on my <a href='https://www.apple.com/it/iphone-12/' rel='noopener noreferrer' target='_blank' title='iPhone 12'>iPhone 12 mini</a>"
 permalink: /ios
 redirect_from: ["/ios-apps", "/iphone", "/iphone-apps"]
@@ -13,6 +13,7 @@ todo:
 - [Actual](https://actualbudget.com "Actual budget"), experimenting this private and encrypted personal finance management service
 - [Affluences](https://apps.apple.com/us/app/affluences/id869919405 "Affluences on the App Store"), to reserve seats and book meetings for [my university](https://unive.it "Ca’Foscari University of Venice").
 - [Bandcamp](https://bandcamp.com "Bandcamp"), mobile client for [Bandcamp](https://bandcamp.com "Bandcamp").
+- [ChatSecure](https://chatsecure.org "ChatSecure"), a free and open source XMPP messaging client
 - [Cheon](https://cheon.app "Cheon Planner"), an app which syncs with CalDAV to plan study hours
 - [Chime](https://apps.apple.com/us/app/chime/id414830146 "Chime in App Store"), the homologous of [Hourly Reminder](https://f-droid.org/en/packages/com.github.axet.hourlyreminder/ "Hourly Reminder on F-Droid") in iOS. Even though it is a relatively old app, it still works wonderfully
 - [Cineast](https://www.themoviedb.org/apps/58628749c3a3681a6204357a "Cineast"), (a very buggy) TMDb client. It costs 1,09€
@@ -30,6 +31,7 @@ todo:
 - [Mast](https://apps.apple.com/us/app/mast-for-mastodon/id1437429129 "Mast") is a wonderful, simple and neat [Mastodon](https://joinmastodon.org "Mastodon") [client](https://joinmastodon.org/apps "Mastodon clients"). Unfortunately, it is non-free software and it is developed by [Poetic Bytes](https://www.poeticbytes.com "Poetic Bytes"), in every sense; it costs 3,50€.
 - [NetNewsWire](https://ranchero.com/netnewswire/ "NetNewsWire official website"), same as on MacOS
 - [Nextcloud](https://nextcloud.com/install/#tab-mobile "Nexxtcloud mobile clients"), same as on Mac
+- [Odysee](https://lbry.com/get "Get Odysee"), a [LBRY](https://lbry.tv "LBRY") client
 - [OpenVPN Connect](https://apps.apple.com/us/app/openvpn-connect/id590379981 "OpenVPN Connect"), [OpenVPN](https://openvpn.net/ "OpenVPN") iOS Client
 - [PGPro](https://pgpro.app "PGPro"), a [PGP Keys] manager and message encrypter and decrypter for iOS
 - [Piwigo](https://github.com/Piwigo/Piwigo-Mobile "Piwigo for iOS on GitHub"), a lovely feature-packed mobile client for [Piwigo](https://piwigo.org "Piwigo")

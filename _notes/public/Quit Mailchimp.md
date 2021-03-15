@@ -1,25 +1,33 @@
 ---
 date: 2021-01-09
-updated: 2021-01-17T16:08:03.889107+01:00
-tags: geek qsm wip
+updated: 2021-03-15T16:43:06.449510+01:00
+tags: geek qsm
 aliases: ["Quitting Mailchimp", "Switch to Mailtrain"]
 description: "Thoughts and decisions about quitting Mailchimp"
 permalink: /quit-mailchimp
 redirect_from: ["/mailchimp", "/quitting-mailchimp", "/mailtrain"]
 ---
-## Roadmap
+## Why
 
-- Self host one of the [alternatives](#alternatives)
-- Export data from Mailchimp and import it in the new service
-- Automate RSS feeds publication
+[Mailchimp](https://mailchimp.com "Mailchimp") is almost ubiquitous. It even acquired [TinyLetter](https://tinyletter.com/ "TinyLetter"). It is growing bigger and bigger and it exploits user data. I feel very bad bout having to hand my subscribers’s data to this company.
 
 <br>
 <br>
 
 ## Alternatives
 
-- [listmonk](https://listmonk.app) or [Mailtrain](https://github.com/Mailtrain-org/mailtrain "Mailtrain on GitHub")
-- [awesome-emails](https://github.com/jonathandion/awesome-emails)
+### Self hosted
+
+- [Mailtrain](https://mailtrain.org "Mailtrain")
+- [listmonk](https://listmonk.app "listmonk") (still in beta) 
+
+<br>
+
+### Ad interim
+
+Viable *ad interim* solutions if somebody has the same hard time as me in setting up Mailtrain
+
+- [Buttondown](https://buttondown.email "Buttondown") (if you subscribe now, you will subscribe through it)
 
 <br>
 <br>
@@ -27,3 +35,4 @@ redirect_from: ["/mailchimp", "/quitting-mailchimp", "/mailtrain"]
 ## Useful links
 
 - [responsive template](https://github.com/leemunroe/responsive-html-email-template)
+- [awesome-emails](https://github.com/jonathandion/awesome-emails "awesome-emails on GitHub")

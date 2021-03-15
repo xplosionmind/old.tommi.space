@@ -1,7 +1,7 @@
 ---
 date: 2021-02-26T10:19:47.219741+01:00
-updated: 2021-03-14T10:34:49.260156+01:00
-tags: geek geek/apps
+updated: 2021-03-15T12:56:35.970574+01:00
+tags: geek/apps
 description: "Right now on my <a href='https://support.apple.com/kb/SP799' rel='noopener noreferrer' target='_blank' title='MacBook Pro 13\" 2019 tech specs'>MacBook Pro 13\" 2019</a>"
 permalink: /macos
 redirect_from: ["/macos-apps", "/mac-apps"]
@@ -20,6 +20,7 @@ toc: false
 - ~~[BitBar](https://getbitbar.com "BitBar official website"), run any plugin from the top bar~~. I didn't use it.
 - ~~[BlackHole](https://blackhole.run/), to share any file. Fast and private. Based on [Blockstack](https://blockstack.org/).~~ It's useless.
 - ~~[Blockstack](https://blockstack.org/), ideally, it’s something **awesome**, definitely game-changing.~~ Practically, it doesn’t work on my Mac (I tried <a href="https://forum.blockstack.org/t/cant-use-any-dapp/10628" rel="noopener noreferrer" target="_blank">everything</a>). I uninstalled and I’m not using it, then.
+- [ChatSecure](https://chatsecure.org "ChatSecure"), a free and open source XMPP messaging client
 - ~~[Cakebrew](https://www.cakebrew.com "Cakebrew"), Homebrew GUI~~, it is useless
 - [Clean Me](https://kevin-de-koninck.github.io/Clean-Me "Clean Me official website"), an Open Source, better, neat and perfectly working alternative to CCleaner written in Swift.
 - [Clipy](https://clipy-app.com "Clipy"), clipboard hystory logger
@@ -64,6 +65,7 @@ toc: false
 - [MacVim](https://macvim-dev.github.io/macvim/ "MacVim official website"), gvim for MacOS. pretty nice to edit files on the go.
 - [Mast](https://apps.apple.com/us/app/mast-for-mastodon/id1437429129 "Mast") is a wonderful, simple and neat [Mastodon](https://joinmastodon.org "Mastodon") [client](https://joinmastodon.org/apps "Mastodon clients"). Unfortunately, it is non-free software, in every sense; it costs 3,50€.
 - ~~[MEGAsync](https://mega.nz/sync "MEGAsync official page"), the synchronization app for [MEGA](https://mega.nz "MEGA official website") Cloud service.~~ I'm not using anymore. Nextcloud + [[Cubbit]] only.
+- [Mumble](https://www.mumble.info "Mumble"), the most common open-source VoIP service. I use it with the awesome [NixNet Services](https://nixnet.services/mumble "Mumble on NixNet Services")
 - [NetNewsWire](https://ranchero.com/netnewswire/ "NetNewsWire official website"), the best [RSS reader](https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators "“Comparison of Feed aggregators” on Wikipedia") ever. I sync it with the awesome [Feedbin](https://feedbin.com "Feedbin").
 - [Nextcloud](https://nextcloud.com/ "Nextcloud official website") desktop client.
 - ~~[OmegaT](https://omegat.org "OmegaT"), a translation memory application written in Java. I use it to translate [MDN](https://mdn.dev/) articles for Mozilla Italia.~~ I don’t use it that much

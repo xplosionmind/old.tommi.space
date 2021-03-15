@@ -2,6 +2,7 @@
 tags: geek todo
 aliases: ["Geek stuff", "Geek stuff todo"]
 ---
+1. Reset MacBook Pro
 1. [[Images]]
 	- consider using Syncthing for sync
 	- consider using a CRON job for the server to do stuff and transfer from a computer to another
