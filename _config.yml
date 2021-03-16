@@ -18,13 +18,13 @@ future: true
 profile: true
 livereload: true
 strict_front_matter: true
-images: "https://assets.tommi.space/images"
-post-images: "https://assets.tommi.space/images/posts"
+images: "/images"
+post-images: "/images/posts"
 assets: "https://assets.tommi.space/assets"
 video: "https://assets.tommi.space/video"
 audio: "https://assets.tommi.space/audio"
-logos: "https://assets.tommi.space/logos"
-fonts: "https://assets.tommi.space/fonts"
+logos: "/logos"
+fonts: "/fonts"
 exclude:
   - riordinare/
   - _notes/private/

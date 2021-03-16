@@ -4,9 +4,10 @@ textonly: true
 title: "Tommi's quick links"
 permalink: /links
 redirect_from: ["/linktree", "/quick-links", "/link-tree", "/quicklinks"]
+image: "/images/profile.jpg"
 ---
 <figure>
-	<img src="https://assets.tommi.space/images/profile.jpg" rel="me" title="A picture of Tommi" alt="A picture of Tommi" style="max-height:20vh;" />
+	<img src="{{ page.image }}" rel="me" title="A picture of Tommi" alt="A picture of Tommi" style="max-height:20vh;" />
 </figure>
 
 This is an ugly quick reference of links you might be interested in.

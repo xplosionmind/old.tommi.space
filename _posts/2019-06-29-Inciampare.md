@@ -1,6 +1,6 @@
 ---
 date: 2019-06-29
-image: "https://assets.tommi.space/images/posts/2019-06-29-inciampare.jpg"
+image: "/images/posts/2019-06-29-inciampare.jpg"
 ---
 Chi non sarò sarà sempre l’ombra di chi sono.
 

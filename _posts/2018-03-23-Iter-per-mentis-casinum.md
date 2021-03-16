@@ -1,6 +1,6 @@
 ---
 date: 2018-03-23
-image: "https://assets.tommi.space/images/posts/2018-03-23-iter-per-mentis-casinum.jpg"
+image: "/images/posts/2018-03-23-iter-per-mentis-casinum.jpg"
 ---
 Premetto che segue un articolo estremamente personale, oserei quasi dire egoista, in cui parlo molto di me stesso ed espongo alcune riflessioni profonde che riguardano me.
 

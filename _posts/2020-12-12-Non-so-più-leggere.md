@@ -1,6 +1,6 @@
 ---
 date: 2020-12-12
-image: "https://assets.tommi.space/images/posts/2020-12-12-non-so-piu-leggere.jpg"
+image: "/images/posts/2020-12-12-non-so-piu-leggere.jpg"
 redirect_from:
   - /analfabetismo
   - /non-so-leggere

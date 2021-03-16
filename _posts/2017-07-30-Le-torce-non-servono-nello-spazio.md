@@ -1,7 +1,7 @@
 ---
 date: 2017-07-30
 tags: "Inchiostro Digitale"
-image: "https://assets.tommi.space/images/posts/2017-07-30-le-torce-non-servono-nello-spazio.jpg"
+image: "/images/posts/2017-07-30-le-torce-non-servono-nello-spazio.jpg"
 ---
 Non è solo adrenalina, scienza, scoperta, desiderio, speranza, orbita, è Vita.
 Il buon vecchio Paolo Nespoli ritorna sulla ISS (International Space Station): ha 60 anni, due figli e potrebbe dirsi soddisfatto.

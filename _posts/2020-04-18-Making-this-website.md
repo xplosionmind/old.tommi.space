@@ -1,7 +1,7 @@
 ---
 date: 2020-04-18
 tags: geek, draft
-image: "https://assets.tommi.space/images/posts/2020-04-18-making-this-website.jpg"
+image: "/images/posts/2020-04-18-making-this-website.jpg"
 lang: en
 permalink: /the-making-of
 redirect-from: ["/making-this-website", "/themakingof"]

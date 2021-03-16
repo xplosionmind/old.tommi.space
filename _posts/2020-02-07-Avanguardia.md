@@ -1,6 +1,6 @@
 ---
 date: 2020-02-07
-image: "https://assets.tommi.space/images/posts/2020-02-07-avanguardia.jpg"
+image: "/images/posts/2020-02-07-avanguardia.jpg"
 title: "L’avanguardia"
 permalink: /avanguardia
 redirect_from: ["/lavanguardia", "/l-avanguardia"]

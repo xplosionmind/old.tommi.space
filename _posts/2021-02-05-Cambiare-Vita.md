@@ -1,7 +1,7 @@
 ---
 title: Cambiare Vita
 subtitle: E fare le cose bene
-image: "https://assets.tommi.space/images/camogli-grandangolo.jpg"
+image: "/images/camogli-grandangolo.jpg"
 jekyll-mentions: https://instagram.com
 ---
 Penso sia inutile sottolinearlo: è un periodo del cavolo.\
@@ -39,7 +39,7 @@ Non c'è un punto di arrivo finale, e non è umano attendere che la [*Now page*]
 Fare una cosa alla volta e farla bene non basta. La frase della maglietta che ho riportato sopra tralascia i punti di vista dell’emozione, della paura, dell’insoddifazione. Io metto da parte l’impossibile, perseguo ideali di libertà e giuscizia, con impegno; e come dovrei sentirmi? Sembra naturale ed immediato che all’impegnarsi per una cosa buona e giusta conseguano gioia, compiacimento e convinzione, ma non è così. Sono necessari degli ulteriori passi, un impegno ancora maggiore, un punto di vista grandangolare che possa abbracciare la totalità delle nostre pulsioni e collocarle in uno schema ampio, collettivo.
 
 <figure>
-  <img src="https://assets.tommi.space/images/camogli-supertele.jpg" title="Un ragazzo con un 350mm - Camogli, settembre 2019" alt="Un ragazzo con un 350mm - Camogli, settembre 2019" />
+  <img src="/images/camogli-supertele.jpg" title="Un ragazzo con un 350mm - Camogli, settembre 2019" alt="Un ragazzo con un 350mm - Camogli, settembre 2019" />
   <figcaption>
     Un ragazzo con un 350mm<br />
     Camogli, settembre 2019
@@ -59,4 +59,4 @@ Fino ad ora, sulla macchina fotografica della mia vita ho sempre montato un 350 
 Ciò che resta da fare è esclusivamente uscire di casa e cominciare a scattare.
 
 [^1]: Nel momento in cui scrivo, sta facendo un esame. Già che ci siamo, incrociamo le dita collettivamente e pensiamola.
-[^2]: C’è [la pagina delle notifiche su GitHub](https://assets.tommi.space/images/github-notifications.jpg "Empty GitHub notifications page") che dice una cosa simile e mi fa innervosire perché non funziona così nel mondo reale, belin! *<u>It’s never <q>all caught up</q></u>, never, not in real life*.
+[^2]: C’è [la pagina delle notifiche su GitHub](/images/github-notifications.jpg "Empty GitHub notifications page") che dice una cosa simile e mi fa innervosire perché non funziona così nel mondo reale, belin! *<u>It’s never <q>all caught up</q></u>, never, not in real life*.

@@ -1,6 +1,6 @@
 ---
 date: 2020-01-14
-image: "https://assets.tommi.space/images/posts/2020-01-14-domodossola.jpg"
+image: "/images/posts/2020-01-14-domodossola.jpg"
 ---
 Ciò che di più bello c’è a Torino, il quattordici gennaio duemilaventi come un giorno qualunque di gennaio come un giorno qualunque di inverno, sono i rami intirizziti stropicciati rinsecchiti che per tutto corso Racconigi si ramificano nel cielo piatto, come neri capillari che lo alimentano del grigiore di cui sembra non riuscire a liberarsi mai.
 

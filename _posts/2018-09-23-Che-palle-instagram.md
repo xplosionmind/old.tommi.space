@@ -1,6 +1,6 @@
 ---
 date: 2018-09-23
-image: "https://assets.tommi.space/images/posts/2018-09-23-che-palle-instagram.jpg"
+image: "/images/posts/2018-09-23-che-palle-instagram.jpg"
 aliases: ["Annichilimento Social"]
 redirect_from: ["/annichilimento-social"]
 ---
@@ -28,7 +28,7 @@ Per prima condivido qui la breve lettera di Michele Ferrari, mio mentore e fonda
 _Non so quanto sia corretto pubblicare uno screenshot, però Mic mi ha dato il permesso e tutta la mia famiglia è abbonata ad Avvenire quindi se a Marco Tarquinio capiterà di leggere -comunque assai improbabile- gli chiedo di chiudere un occhio e ricordarsi delle belle foto che ho fatto per la festa di Avvenire l’anno scorso a Ventimiglia…_
 
 <figure>
-  <img src="https://assets.tommi.space/images/posts/2018-09-23-che-palle-instagram-1.png" alt="Articolo di Michele Ferrari su Avvenire" />
+  <img src="/images/posts/2018-09-23-che-palle-instagram-1.png" alt="Articolo di Michele Ferrari su Avvenire" />
 </figure>
 
 
@@ -45,7 +45,7 @@ Per secondo consiglio [questa guida](https://www.wired.com/story/wired-guide-to-
 ### THREE.
 
 <figure>
-  <img src="https://assets.tommi.space/images/posts/2018-09-23-che-palle-instagram-2.jpg" alt="una foto di me con Giuseppe Montesano" title="una foto di me con Giuseppe Montesano" />
+  <img src="/images/posts/2018-09-23-che-palle-instagram-2.jpg" alt="una foto di me con Giuseppe Montesano" title="una foto di me con Giuseppe Montesano" />
   <figcaption>
     io e il grande Giuseppe Montesano al Salone del Libro di Torino 2018 (non mi assumo nessuna responsabilità sullo stato dei miei capelli)
   </figcaption>
@@ -54,7 +54,7 @@ Per secondo consiglio [questa guida](https://www.wired.com/story/wired-guide-to-
 Per concludere, cito un passo di uno dei miei libri preferiti, che VA LETTO assolutamente se si vuole almeno provare a diventare persone serie: _Come diventare Vivi - Vademecum per lettori selvaggi_ di Giuseppe Montesano che, oltre ad essere scrittore, è un prof. di filosofia ed io ho avuto il piacere di conoscerlo al Salone del Libro di Torino lo scorso maggio. Approfitto di questa parentesi per salutarlo e ringraziarlo per essere stato l’unico ad avermi convinto a terminare _Delitto e Castigo_ di Dostoevskij, che all’inizio mi ha fatto impazzire e lo avrei subito abbandonato, altrimenti.
 
 <figure>
-  <img src="https://assets.tommi.space/images/posts/2018-09-23-che-palle-instagram-3.jpg" alt="la scansione di due pagine di Come diventare Vivi - Vademecum per lettori selvaggi di Giuseppe Montesano" title="la scansione di due pagine di Come diventare Vivi - Vademecum per lettori selvaggi di Giuseppe Montesano" />
+  <img src="/images/posts/2018-09-23-che-palle-instagram-3.jpg" alt="la scansione di due pagine di Come diventare Vivi - Vademecum per lettori selvaggi di Giuseppe Montesano" title="la scansione di due pagine di Come diventare Vivi - Vademecum per lettori selvaggi di Giuseppe Montesano" />
   <figcaption>
     Due pagine di <cite>Come diventare Vivi - Vademecum per lettori selvaggi</cite> di Giuseppe Montesano
   </figcaption>

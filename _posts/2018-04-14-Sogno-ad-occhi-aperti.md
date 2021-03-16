@@ -1,7 +1,7 @@
 ---
 date: 2018-04-14
 tags: "Inchiostro Digitale"
-image: "https://assets.tommi.space/images/posts/2018-04-14-sogno-ad-occhi-aperti.jpg"
+image: "/images/posts/2018-04-14-sogno-ad-occhi-aperti.jpg"
 ---
 Qui nel letto in camera mia si sta bene.
 

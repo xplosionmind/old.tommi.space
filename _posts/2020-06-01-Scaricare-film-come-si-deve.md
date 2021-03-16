@@ -61,7 +61,7 @@ Una volta entrati nel sito, basta individuare la barra di ricerca ed inserire il
 
 È assolutamente normale dover cliccare diverse volte sul tasto di ricerca, prima di vedere i risultati della ricerca e non dei siti poco ortodossi con pubblicità invadenti. Basta chiudere le pagine inopportune senza cliccare nulla, e continuare a cliccare sul tasto desiderato; prima o poi funzionerà.
 
-![A Pirate Bay results page](https://assets.tommi.space/images/2020-06-01-torrent/1.jpg)
+![A Pirate Bay results page](/images/2020-06-01-torrent/1.jpg)
 
 <div class="yellow box">
 	I nomi dei risultati della ricerca sono sempre lunghissimi e contengono sigle che rivelano informazioni estremamente importanti sul file che contegono. Elencherò di seguito le sigle più importanti; una lista completa può esser cosultataa<a href="https://www.ildottoredeicomputer.it/il-significato-delle-sigle-di-torrent-cam-ts-fs-ws-md/" rel="noopener noreferrer" target="_blank" title="Il Significato delle sigle Torrent">qui</a>) oa<a href="https://en.wikipedia.org/wiki/Pirated_movie_release_types" rel="noopener noreferrer" target="_blank" title="Pirated movie release types">qui</a>.
@@ -78,7 +78,7 @@ Una volta entrati nel sito, basta individuare la barra di ricerca ed inserire il
 
 Una volta che si è selezionato il film, cliccando comparirà una pagina, in cui bisogna cercare questa piccola icona, che indica il magnet link. Alternativamente, si può cliccare su “download torrent”. Su The Pirate Bay è così:
 
-![A torrent file page on The Pirate Bay](https://assets.tommi.space/images/2020-06-01-torrent/2.jpg)
+![A torrent file page on The Pirate Bay](/images/2020-06-01-torrent/2.jpg)
 
 <div class="red box">
 	<b>ATTENZIONE</b>: in moltissimi casi, la scritta “download torrent” è una pubblicità; cliccarci può portare a risultati sipacevoli. Individuare con criterio il pulsante giusto. Di solito, la scritta che funziona è quella più sobria e meno grande, come quella nell’immagine sopra.
@@ -92,7 +92,7 @@ Il grosso, ora è fatto. Se tutto ha funzionato, dopo aver cliccato sul magnete 
 
 Successivamente, si aprirà qBittorrent e vi mostrerà una finestra simile a questa:
 
-![qBittorrnt dialogue page](https://assets.tommi.space/images/2020-06-01-torrent/3.jpg)
+![qBittorrnt dialogue page](/images/2020-06-01-torrent/3.jpg)
 
 In caso aveste intenzione di cominciare a guardare il film immediatamente, basta spuntare “download in sequential order”, o il corrispettivo in italiano che non mi ricordo.
 
@@ -106,7 +106,7 @@ Per scaricarli, basta digitare il titolo del film e selezionare la lingua deside
 
 I risultati possono essere ordinati per numero di download. Di solito, più download significa maggiore accuratezza e affidabilità.
 
-![An Open Subtitles window](https://assets.tommi.space/images/2020-06-01-torrent/4.jpg)
+![An Open Subtitles window](/images/2020-06-01-torrent/4.jpg)
 
 <div class="yellow box">
 	<b>NOTA</b>: i sottotitoli potrebbero essere basati su file di film diversi da quello da voi scaricato, dalla durata lievemente differente. In questo caso ci sono due alternative: o si traslano i sottotitoli già scaricati, oppure si scarica un altro file, finchè non si trova quello giusto.

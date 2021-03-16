@@ -2,7 +2,7 @@
 date: 2017-07-10
 tags:
   - radioimmaginaria
-image: "https://assets.tommi.space/images/posts/2017-07-10-borderlife-3.jpg"
+image: "/images/posts/2017-07-10-borderlife-3.jpg"
 ---
 <figure><img src="{{ page.image }}" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" /></figure>
 <!--more-->

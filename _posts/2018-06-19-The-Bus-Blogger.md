@@ -1,7 +1,7 @@
 ---
 date: 2018-06-19
 tags: radioimmaginaria
-image: "https://assets.tommi.space/images/posts/2018-06-19-the-bus-blogger.jpg"
+image: "/images/posts/2018-06-19-the-bus-blogger.jpg"
 redirect_from: ["/bus-blogging", "/bus-blogger", "/busblogging", "/busblogger", "/london-bus-blogging"]
 ---
 Chi non conosce o almeno una volta nella vita non vuole fare un giro sui mitici **bus "double-deck"** (a due piani) di Londra? Allora tenetevi forte, perché questi mezzi caratteristici stanno diventando sempre più avanzati e soprattutto ecocompatibili!

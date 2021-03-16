@@ -1,6 +1,6 @@
 ---
 date: 2020-11-04
-image: "https://assets.tommi.space/images/posts/2020-11-04-non-sono-abbastanza.jpg"
+image: "/images/posts/2020-11-04-non-sono-abbastanza.jpg"
 tags: ["zen"]
 ---
 Sono agitato.
