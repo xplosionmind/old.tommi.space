@@ -15,7 +15,7 @@ Actually, I don't need to learn these things only, but here I note the main thin
 <br>
 <br>
 
-## Geek stuff
+## Geek
 
 1. [Pandoc](https://pandoc.org/ "Pandoc official website") see [[Cheat sheets#Pandoc]]
 	- converting from `docx`

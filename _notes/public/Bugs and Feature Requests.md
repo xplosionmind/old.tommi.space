@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04
-updated: 2021-02-27T16:28:35.193851+01:00
+updated: 2021-03-16T17:26:27.989876+01:00
 tags: geek
 permalink: /bugs
 redirect_from: ["/feature-requests", "/bugs-and-feature-requests"]
@@ -12,7 +12,10 @@ The [[Apps]] I use the most are open source software in active development. Ofte
 
 ## iOS
 
-Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]].
+Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. [iPhone feedback form](https://www.apple.com/feedback/iphone.html "iPhone feedback")
+
+- Clicking multiple times to toggle WiFi and Bluetooth: one click to disable it (white color), two clicks to completely switch it off. Alternatively, adding in the long-press pop-up the option to switch it off completely.
+- More selective notifications options, as in Android: select only specific types of notifications to mute
 
 <br>
 

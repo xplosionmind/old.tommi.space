@@ -1,6 +1,6 @@
 ---
 date: 2020-07-20
-updated: 2021-02-02T13:26:43.098873+01:00
+updated: 2021-03-16T17:43:07.586334+01:00
 tags: places
 aliases: ["Places"]
 image: "https://assets.tommi.space/images/places.jpg"
@@ -54,7 +54,15 @@ todo:
 ## Venezia
 
 - [[Al Canton]]
-- [Ca' Foscari Zattere](https://www.unive.it/pag/13665/ "CFZ sul sito di Ca' Foscari")
+- [Ca’ Foscari Zattere](https://www.unive.it/pag/13665/ "CFZ sul sito di Ca' Foscari")
+
+<br>
+<br>
+
+## Resources
+
+- [The Treasure Map](https://the-treasure-map.herokuapp.com "The Treasure Map")
+- [Atlas Obscura](https://www.atlasobscura.com "Atlas Obscura")
 
 <br />
 <br />

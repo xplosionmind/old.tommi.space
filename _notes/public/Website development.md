@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-03-15T08:11:26.053258+01:00
+updated: 2021-03-16T19:09:26.380114+01:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -76,6 +76,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 1. Improve `<noscript>`
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")
 2. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
+1. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint")
 3. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
 4. Use [jekyll-auth](https://github.com/benbalter/jekyll-auth/ "jekyll-auth on GitHub") to limit content availability
 5. A script to check overlapping permalinks
@@ -111,7 +112,8 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 - [Generative Art](https://generativeartistry.com "Generative artistry")
 	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/ "Zander Martineau")
 - [Integrating Telegram comments](https://dev.to/ayanb/integrating-telegram-comments-to-your-website-2fnh "Integrating Telegram Comments to Your Website on DEV.to") ([comments.app](https://comments.app) not working after login)
-- GIFs instead of images 
+- GIFs instead of images
+- [Trigger Netlify builds from external sources](https://writxt.fun/instructions/ "Writxt instructions")
 - Improve `blockquote`s
 	- <https://codepen.io/valentingalmand/pen/doJvRR>
 	- <https://codepen.io/joshuajcollinsworth/pen/obbvYQ>
@@ -124,6 +126,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 - Consider hosting on [[Server]] instead of using [Netlify](https://netlify.com "Netlify")
 	- [jekyll-ftp](https://github.com/JesseHerrick/jekyll-ftp/ "jekyll-ftp on GitHub")
 - Consider switching to [Hugo](https://gohugo.io "Hugo")
+	- [Blogroll automated Generation](https://jlelse.blog/dev/miniflux-blogroll "Miniflux Blogroll")
 - Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com "Humane Tech") and [Victoria Drake](https://victoria.dev)
 - [[Typography|Typographic]] improvements
 

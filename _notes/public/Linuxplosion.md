@@ -34,3 +34,4 @@ I currently don’t use *Linuxplosion* much since it's not where I live and I se
 - Fix [HandBrake installation issue](https://github.com/HandBrake/HandBrake/issues/3484 "Ubuntu download error issue on GitHub")
 - Flickr2Piwigo last attempt
 - Nicholas Britell handbrake
+- Install and setup Mackup

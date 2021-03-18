@@ -1,18 +1,18 @@
 ---
 date: 2020-05-07
-updated: 2021-01-26T11:02:25.635756+01:00
+updated: 2021-03-16T18:59:20.944162+01:00
 tags: geek
 aliases: ["Cheat Sheet"]
-description: "I use tech devices a lot, maybe too much, but I don’t dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
+description: "I use tech devices a lot, maybe too much, but I do not dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
 redirect_from: ["/cheatsheet", "/cheatsheets", "/cheat-sheet"]
 ---
 ## Hotkeys
 
-[[Hotkeys]]
+![[Hotkeys]]
 
 ## CLI
 
-Useful [terminal](https://www.wikiwand.com/en/Terminal "Terminal on Wikipedia") commands
+Useful [terminal](https://en.wikipedia.org/wiki/Terminal "Terminal on Wikipedia") commands
 
 change screenshot format
 ```sh
@@ -45,9 +45,21 @@ Change update interval
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 ```
 
+A quick for loop
+```sh
+for f in *.txt; do pandoc "$f" -s -o "${f%.txt}.rtf"; done
+```
+
 <br>
 
-### `sd`
+### Resources
+
+- [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line), a GitHub repository by [Marcel Bischoff](https://herrbischoff.com/)
+
+<br>
+<br>
+
+## `sd`
 
 [`sd`](https://github.com/chmln/sd "sd source code") is a wonderful command-line tool to find and replace sub-strings in files. Its original version is `sed`, which comes by default in shell.
 
@@ -57,8 +69,9 @@ sd "foo" "bar" ./*
 ```
 
 <br>
+<br>
 
-### HTML proofer
+## HTML proofer
 
 [HTML proofer](https://github.com/gjtorikian/html-proofer "HTML proofer GitHub repository") is a Ruby script to check HTML quality of a local folder. It can both be used as a library and as [a command line tool](https://github.com/gjtorikian/html-proofer#using-on-the-command-line "Using HTML Proofer in the command line").
 
@@ -69,11 +82,6 @@ bundle exec htmlproofer --assume-extension --allow_hash_href --check_favicon --c
 
 See [HTML Proofer \> Configuration](https://github.com/gjtorikian/html-proofer#configuration "HTML Proofer Configuration") for the complete parameters list.
 
-<br>
-
-### Resources
-
-- [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line), a GitHub repository by [Marcel Bischoff](https://herrbischoff.com/)
 
 <br>
 

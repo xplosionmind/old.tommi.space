@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21
-updated: 2021-02-08T12:44:39.251695+01:00
+updated: 2021-03-16T18:51:34.762631+01:00
 tags: geek geek/server
 main: true
 ---
@@ -65,8 +65,10 @@ Useful server apps or services I haven’t installed yet, in order of urgency an
 	- [Docker installation guide](https://docs.firefly-iii.org/firefly-iii/installation/docker/ "FIrefly III Docker installation guide")
 1. [Mailtrain](https://github.com/Mailtrain-org/mailtrain "Mailtrain on GitHub") or, alternatively, [listmonk](https://listmonk.app), newsletter managers
 2. [Huginn](https://github.com/huginn/huginn "Huginn repository on GitHub"), an IFTTT Alternative
-3. [Mail server](#mail-server)
-4. ~~[Feedbin](https://feedbin.com "Feedbin official website"), arguably, the best RSS reader ou there~~. I wrote an email to them and they offered me a student free account, hosted by them.
+3. [Linkding](https://github.com/sissbruecker/linkding "Linkding on GitHub")
+4. [Mail server](#mail-server)
+5. ~~[Feedbin](https://feedbin.com "Feedbin official website"), arguably, the best RSS reader ou there~~. I wrote an email to them and they offered me a student free account, hosted by them.
+1. [Miniflux](https://miniflux.app/ "Miniflux")
 
 <br>
 <br>
