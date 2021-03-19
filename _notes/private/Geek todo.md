@@ -16,6 +16,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 2. [customize](https://writefreely.org/docs/latest/writer/css) noblogo.org / WriteFreely style
 20. [Zoom H4 support](https://zoomcorp.com "Zoom official website")
 21. [[Missing Knowledge#Geek stuff|Learning geek stuff]]
+1. create shortcut to add something to the last line of Stream in 1Writer
 23. Understanding WhatsApp and Signal backups
 	- format
 	- readability

@@ -4,7 +4,7 @@ updated: 2021-02-09T12:59:50.297017+01:00
 tags: qsm geek wip
 aliases: ["Delete Google"]
 redirect_from: ["/delete-google", "/quitgoogle", "/quit-google", "/google"]
-image: "https://assets.tommi.space/images/jar/quit-google.jpg"
+image: "/images/jar/quit-google.jpg"
 toc: false
 ---
 Google is one of the most famous companies in the world, and its tech services are by the most widely used. Even if the in proportion the amount of users quitting it is minimal, the number of people stopping to use Google Services is **huge**.

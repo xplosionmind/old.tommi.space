@@ -20,7 +20,7 @@ Stuff means: Newsletters by people, newsletters by magazines, newsletters by com
 Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS "RSS on Wikipedia"). I think the whole world should use it. It's such a clever, useful, simple, neat, old but solid technology that I believe it could [replace social media](https://quitsocialmedia.club/solution#rss "RSS as a Solution on Quit Social Media").\
 I'm working hard to build an independent infrastructure on my [[Server|server]] capable of gettings social media feeds and making them RSS feeds I can subscribe to. In the meanwhile, I'm slowly and steadily transitioning to use exclusively it, and below there's a link to my feed subscriptions.
 
-[**My Feed Subscriptions**](https://assets.tommi.space/assets/subscriptions.xml) - last updated on Nov 4<sup>th</sup>, 2020
+[**My Feed Subscriptions**](/assets/subscriptions.xml) - last updated on Nov 4<sup>th</sup>, 2020
 
 <br>
 <br>

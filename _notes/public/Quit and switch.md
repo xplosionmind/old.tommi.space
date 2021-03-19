@@ -3,7 +3,7 @@ date: 2020-12-05
 updated: 2021-03-16T18:55:49.969965+01:00
 tag: meta geek zen main
 aliases: ["Just quit", "Choose the alternative", "Go alternative", "Make the switch"]
-image: "https://assets.tommi.space/images/jar/just-quit.jpg"
+image: "/images/jar/just-quit.jpg"
 description: "Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it's for the best, it's worth it. Below some of the things I'm quitting."
 permalink: /switch
 redirect_from: ["/make-the-switch", "/quit-and-switch", "/quit-switch", "/choose-the-alternative", "/alternative-software", "/alternative"]

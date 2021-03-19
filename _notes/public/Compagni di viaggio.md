@@ -36,7 +36,7 @@ Per il capodanno fra il 2017 e il 2018, trascorsi con alcuni amici qualche giorn
 
 Disperato, sono andato a cercare di nuovo il modello su ebay. 738$.
 
-![I miei occhiali, dopo qualche anno, su ebay](https://assets.tommi.space/images/2018-01-07-broken-sunglasses.jpg "I miei occhiali, dopo qualche anno, su ebay")
+![I miei occhiali, dopo qualche anno, su ebay](/images/2018-01-07-broken-sunglasses.jpg "I miei occhiali, dopo qualche anno, su ebay")
 
 <br />
 

@@ -3,7 +3,7 @@ date: 2020-05-06
 updated: 2021-03-04T18:44:00.807895+01:00
 tags: geek geek/apps
 aliases: ["Software", "Digital Tools"]
-image: "https://assets.tommi.space/images/apps.png"
+image: "/images/apps.png"
 description: "A comprehensive list of apps I use + interesting apps I have to keep record of."
 redirect_from: ["/uses", "/installed", "/installed-apps", "/applications", "/applicazioni", "/programs", "/programmi", "/software"]
 toc: false

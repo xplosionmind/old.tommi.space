@@ -2,7 +2,7 @@
 date: 2020-09-14
 updated: 2021-03-15T08:07:35.462191+01:00
 tags: geek
-image: "https://assets.tommi.space/images/backup.jpg"
+image: "/images/backup.jpg"
 permalink: /backup
 redirect_from: ["/mobile-backup-checklist", "/phone-formatting-checklist", "/mobile-formatting", "/phone-backup-checklist", "/phone-backup-checklist", "/phone-backup", "/mobile-backup", "/adb-file-transfer", "/android-file-transfer", "/macos-backup", "/formatting-checklist"]
 toc: 0

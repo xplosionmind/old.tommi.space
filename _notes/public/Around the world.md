@@ -3,7 +3,7 @@ date: 2020-07-20
 updated: 2021-03-16T17:43:07.586334+01:00
 tags: places
 aliases: ["Places"]
-image: "https://assets.tommi.space/images/places.jpg"
+image: "/images/places.jpg"
 permalink: /places
 redirect_from: ["/around-the-world", "/world-places", "/posti", "/luoghi"]
 description: "Places I love around the world"

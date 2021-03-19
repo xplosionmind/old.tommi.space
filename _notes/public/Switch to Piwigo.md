@@ -4,7 +4,7 @@ updated: 2021-02-04T14:39:46.366313+01:00
 tags: geek todo
 aliases: ["Quitting Flickr", "Quit Flickr"]
 description: "Thoughts and decisions about quitting Flickr and switching to Piwigo"
-image: "https://assets.tommi.space/images/jar/quit-flickr.jpg"
+image: "/images/jar/quit-flickr.jpg"
 redirect_from: ["/flickr", "/piwigo", "/quitting-flickr", "/switch-to-piwigo", "/piwigo-switch"]
 ---
 <div class="blue box">

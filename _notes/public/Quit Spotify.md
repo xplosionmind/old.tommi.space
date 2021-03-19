@@ -6,7 +6,7 @@ aliases: ["Quitting Spotify"]
 description: "Thoughts and decisions about quitting Spotify"
 permalink: /quit-spotify
 redirect_from: ["/spotify", "/quitting-spotify"]
-image: "https://assets.tommi.space/images/jar/quit-spotify.jpg"
+image: "/images/jar/quit-spotify.jpg"
 ---
 Quitting Spotify is hard.
 
@@ -30,7 +30,7 @@ Reasons to quit Spotify
 <br>
 
 <figure>
-	<img src="https://assets.tommi.space/images/Spotify-close-account.jpg" title="repercussions of closing Spotify account" alt="repercussions of closing Spotify account" />
+	<img src="/images/Spotify-close-account.jpg" title="repercussions of closing Spotify account" alt="repercussions of closing Spotify account" />
 	<figcaption>
 		Closing the account means deleting all playlists, thus the account can't be closed, but it must be kept with free subscription.
 	</figcaption>

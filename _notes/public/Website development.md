@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-03-16T19:09:26.380114+01:00
+updated: 2021-03-19T11:06:46.341461+01:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -34,6 +34,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 2. Create Newsletter pages
 	- successful subscription page
 	- I am sad you are unsubscribing
+1. `max-height` for tags list in Zibaldone
 1. Stop using Algolia and consider faster and simpler alternatives
 	- [Lunr](https://lunrjs.com "Lunr")
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "")
@@ -61,6 +62,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 		- Current Liquid permalinks parsing may not work anymore
 4. Integrate [jekyll-time-to-read](https://github.com/gjtorikian/jekyll-time-to-read/ "jekyll-time-to-read on GitHub")
 5. Integrate [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier/ "jekyll-minifier") if it proves to be better for performance and / or more stable (keep in mind that Netlify offers JS and CSS minification)
+1. OMDb integration
 1. Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts
 	- create subsections: creative help, hands-on help (e.g. Scambi), technical help, long-term help (collaborations), contacts help (I need to reach somebody and I cannot)
 6. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
