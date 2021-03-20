@@ -1,6 +1,6 @@
 ---
 date: 2021-02-26T10:19:47.219741+01:00
-updated: 2021-03-16T18:31:22.981679+01:00
+updated: 2021-03-19T22:31:06.747191+01:00
 tags: geek/apps
 description: "Right now on my <a href='https://support.apple.com/kb/SP799' rel='noopener noreferrer' target='_blank' title='MacBook Pro 13\" 2019 tech specs'>MacBook Pro 13\" 2019</a>"
 permalink: /macos
@@ -25,7 +25,7 @@ toc: false
 - [Clean Me](https://kevin-de-koninck.github.io/Clean-Me "Clean Me official website"), an Open Source, better, neat and perfectly working alternative to CCleaner written in Swift.
 - [Clipy](https://clipy-app.com "Clipy"), clipboard hystory logger
 - ~~[CopyQ](https://hluk.github.io/CopyQ/), a clipboard history recorder, which keeps a record of all copied text and items. It saved my life several times~~. I like Clipy much more
-- [Cosmicast](https://www.poeticbytes.com/cosmicast "Cosmicast"), a minimal and beautiful podcast player which syncs with iOS through iCloud. It is proprietary software and it costs 3,50€
+- ~~[Cosmicast](https://www.poeticbytes.com/cosmicast "Cosmicast"), a minimal and beautiful podcast player which syncs with iOS through iCloud. It is proprietary software and it costs 3,50€~~. Definitely not worth the price: the app is buggy, it has a lot of problems and limits; I moved to Apple Podcasts… it syncs perfectly and it allows importing RSS feeds.
 - [[Cubbit]] desktop synchronization client
 - [Curiosity](https://github.com/Dimillian/RedditOS "RedditOS repository on GitHub"), a MacOS Reddit client
 - [DarkModeBuddy](https://github.com/insidegui/DarkModeBuddy "DarkModeBuddy on GitHub"), a **must have**: MacOS theme changes from light to dark based on surrounding ambient light
