@@ -49,7 +49,7 @@ body {
 
 .imageInfoTable, #imageInfos {
 	background: var(--background);
-	font-family: var(--font-sans);
+	font-family: var(--font-sans) !important;
 }
 
 .wide {
@@ -62,8 +62,12 @@ body {
 	}
 	.imageInfo {
 		dd {
-			margin: 0 0 15px 0 !important;
+			font-family: var(--font-mono) !important;
 		}
+	}
+	.imageInfoTable {
+		padding: 20px 10px 20px 15px;
+		border-radius: 0 0 1rem 1rem;
 	}
 }
 
@@ -151,6 +155,7 @@ body {
 .albLegend {
 	padding: var(--regular) var(--tiny) var(--small) !important;
 	background-image: linear-gradient(to bottom,rgba(0,0,0,0.01),rgba(0,0,0,0.8)) !important;
+	text-shadow: 1px 1px 5px #000E;
 	h4 {
 		margin: var(--small) var(--small) 0 var(--small) !important;
 	}
