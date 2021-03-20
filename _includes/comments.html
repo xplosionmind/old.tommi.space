@@ -1,7 +1,7 @@
-{% unless page.comments == false %}
+{% if page.comments != false %}
 <div class="u-comment row">
 	<div id="comments" class="box">
-		<h2 class="title">{% case page.lang %}{% when 'it' %}Commenti{% else %}Comments{% endcase %}</h2>
+		<h2 class="title">{% if page.lang 'it' %}Commenti{% else %}Comments{% endif %}</h2>
 			<script src="https://utteranc.es/client.js"
 				repo="xplosionmind/tommi.space"
 				issue-term="title"
@@ -13,4 +13,4 @@
 		</div>
 	</div>
 </div>
-{% endunless %}
+{% endif %}

@@ -1,13 +1,14 @@
 ---
 date: 2020-05-07
-updated: 2021-02-26T10:09:09.444885+01:00
-tags: todo
+updated: 2021-03-20T13:17:56.684675+01:00
+tags: geek todo
 aliases: "Learning Resources"
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
 redirect_from: /risorse
 main: true
 todo:
   - "merge with [[Data]]"
+  - "Better integrate with [[Missing Knowledge]]"
 ---
 <div class="blue box">
 	Most of the things one could be looking for are very likely to be found in the <b>AWESOME</b> <a href="https://project-awesome.org" rel="noopener noreferrer" target="_blank" title="Project Awesome">Project Awesome</a>. I'm writing nothing about it, just go on the page and dive in the power of the internet.
@@ -35,6 +36,7 @@ todo:
 - [SoloLearn](https://www.sololearn.com/ "SoloLearn")
 - [Dataninja School](https://school.dataninja.it/)
 - [Suggestions by Victoria Drake](https://victoria.dev/blog/top-free-resources-for-developing-coding-superpowers/ "Top Free resources for Developing Coding Superpowers - victoria.dev")
+- [Project-based learning](https://github.com/tuvtran/project-based-learning "project-based-learning on GitHub")
 
 <br>
 

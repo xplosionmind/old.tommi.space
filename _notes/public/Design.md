@@ -1,6 +1,6 @@
 ---
 date: 2020-05-12
-updated: 2020-09-16
+updated: 2021-03-20T13:42:16.434418+01:00
 tags: design
 description: "Little insights about the design world."
 main: true
@@ -37,3 +37,10 @@ main: true
 ## Brand identities
 
 - [Mailchimp](https://mailchimp.com/design "Mailchimp design page")
+
+<br>
+<br>
+
+## Other
+
+- [Awesome Design Tools](https://github.com/goabstract/Awesome-Design-Tools "Awesome Design Tools on GitHub")

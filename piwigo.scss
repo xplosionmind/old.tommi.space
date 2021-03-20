@@ -1,8 +1,6 @@
 ---
 ---
 @import "../_sass/root";
-@import "https://assets.tommi.space/fonts/inter/inter.css";
-@import "https://assets.tommi.space/fonts/ubuntu-mono/ubuntu-mono.css";
 
 body {
 	--background: var(--black-ish);
@@ -60,6 +58,7 @@ body {
 		margin-top: var(--regular);
 		box-shadow: var(--shadow);
 		border-radius: var(--radius-l) !important;
+		background: black !important;
 	}
 	.imageInfo {
 		dd {
@@ -74,7 +73,8 @@ body {
 
 .contentWithMenu,
 #copyright,
-#imageToolBar {
+#imageToolBar,
+.switchBox {
 	background: var(--background) !important;
 	color: var(--text) !important;
 	a {
@@ -256,4 +256,18 @@ a {
 
 .navThumbs img {
 	border-radius: var(--radius-s);
+}
+
+#imageHeaderBar H2 {
+	font-weight: 800;
+	color: var(--text);
+}
+
+.imageNumber {
+	font-weight: 300;
+	color: var(--text);
+}
+
+li .bullet {
+	background: url(https://tommi.space/logos/bpm.gif) no-repeat scroll !important;
 }
