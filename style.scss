@@ -405,6 +405,16 @@ li {
 	}
 }
 
+ul.two,
+ol.two {
+	columns: 2;
+}
+
+ul.three,
+ol.three {
+	columns: 3;
+}
+
 .task-list-item {
 	list-style: none;
 }
@@ -1067,20 +1077,5 @@ button,
 	}
 	p {
 		line-height: 1.5em;
-	}
-}
-
-@media only screen and (min-width: 950px) {
-	ul.two,
-	ol.two {
-		columns: 2;
-		-webkit-columns: 2;
-		-moz-columns: 2;
-	}
-	ul.three,
-	ol.three {
-		columns: 3;
-		-webkit-columns: 3;
-		-moz-columns: 3;
 	}
 }

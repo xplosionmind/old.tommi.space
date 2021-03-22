@@ -36,11 +36,11 @@ todo:
 </div>
 
 
-<ul>
+<ul class="two">
 	{% for book in site.data.books-wishlist %}
 
 		<li>
-			{% if book.author != nil %}
+			{% if book.author != '' %}
 				<a href="https://openlibrary.org/search/authors?q={{ book.author | uri_escape }}&mode=everything" rel="noopener noreferrer" target="_blank" title="{{ book.author }} in the Open Library">
 					{{ book.author }}
 				</a> - 
@@ -60,17 +60,17 @@ todo:
 
 <h2 class="title" id="Library">Library</h2>
 
-<ul>
+<ul class="two">
 	{% for book in site.data.library %}
 
 		<li>
-			{% if book.author != nil %}
+			{% if book.author != '' %}
 				<a href="https://openlibrary.org/search/authors?q={{ book.author | uri_escape }}&mode=everything" rel="noopener noreferrer" target="_blank" title="{{ book.author }} in the Open Library">
 					{{ book.author }}
 				</a> - 
 			{% endif %}
 			<cite>
-				{% if book.isbn != nil %}
+				{% if book.isbn != '' %}
 					<a href="https://openlibrary.org/isbn/{{ book.isbn | remove: '-' }}" rel="noopener noreferrer" target="_blank" title="{{ book.title }} in the Open Library">
 						{{ book.title }}
 					</a>
