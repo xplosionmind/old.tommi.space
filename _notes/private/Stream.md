@@ -1,20 +1,8 @@
 ---
 tags: todo
 ---
-- [notification differences with android](https://assets.tommi.space/images/IMG_0867.PNG)
 - Toolify
-- Purposify 
-- `tommi@mastodon.uno` email: `tommiboom@protonmail.com`
-- Searx devol tutorial
-- https://dev.to/stackfindover/how-to-create-a-custom-right-click-menu-54h2
-- Make [[Web development tools]]
-	- https://www.glitch.io/
-	- https://undraw.co/
-	- csstricks
-	- mdn
-	- w3schools useful links
-- cool app image preview if a page is added to a home shortcut
-- Move back Quit Social Media assets to tommi.space!
-- https://github.com/jart/cosmopolitan
-- https://github.com/TheAlgorithms/C
-- https://github.com/microsoft/Web-Dev-For-Beginners
+- Purposify
+- #writing/idea: setting up a VNC on MacOS and Linux
+- #writing/idea: aprire l’accesso SSH tremite dominio pubblico in una Vodafone Station
+- read AlDente documentation

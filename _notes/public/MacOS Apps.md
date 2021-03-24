@@ -62,7 +62,7 @@ toc: false
 - [LyricsX](https://github.com/ddddxxx/LyricsX "LyricsX"), a lyrics app which integrates with Spotify and Apple Music
 - ~~[MacDown](https://macdown.uranusjr.com/), a markdown editor which has everything I need. I don’t use it much since I have both Joplin and Vim to open and edit `.md` files, but it’s very lightweight and it’s handy to have an app to view and edit them on the fly.~~ using MacVim + Marked 2, instead.
 - [MacSVG](https://github.com/dsward2/macSVG "MacSVG repository on GitHub"), to create animated SVGs
-- [MacVim](https://macvim-dev.github.io/macvim/ "MacVim official website"), gvim for MacOS. pretty nice to edit files on the go.
+- [MacVim](https://macvim-dev.github.io/macvim/ "MacVim official website"), a standalone [[Vim]] app for MacOS. pretty nice to edit files on the go.
 - [Mast](https://apps.apple.com/us/app/mast-for-mastodon/id1437429129 "Mast") is a wonderful, simple and neat [Mastodon](https://joinmastodon.org "Mastodon") [client](https://joinmastodon.org/apps "Mastodon clients"). Unfortunately, it is non-free software, in every sense; it costs 3,50€.
 - ~~[MEGAsync](https://mega.nz/sync "MEGAsync official page"), the synchronization app for [MEGA](https://mega.nz "MEGA official website") Cloud service.~~ I'm not using anymore. Nextcloud + [[Cubbit]] only.
 - [Mumble](https://www.mumble.info "Mumble"), the most common open-source VoIP service. I use it with the awesome [NixNet Services](https://nixnet.services/mumble "Mumble on NixNet Services")
@@ -109,7 +109,7 @@ toc: false
 
 - [Homebrew](https://brew.sh/), MacOS package manager
 - [git](https://git-scm.com/), a <abbr title="Version Control Software">VCS</abbr> no one can live without.
-- [Vim](https://www.vim.org "vim official website") is the best text editor in the world, and it’s more than that; it’s a philosophy, a lifestyle. Actually, it’s preinstalled on UNIX-based OSs, but I installed [Neovim](https://neovim.io "Neovim official website") which is so great. I use it on a daily basis and I love it. See [[Resources#vim]] for learning material.
+- [[Vim]] is preinstalled on UNIX-based OSs, but I installed [Neovim](https://neovim.io "Neovim official website") which is so great. I use it on a daily basis and I love it. See [[Vim#Resources]] for learning material.
 - [Mackup](https://github.com/lra/mackup "Mackup on GitHub"), an awesome tool to <u>sync settings among Macs and Linux devices</u>
 - [Animated QR code generator](https://github.com/sylnsfar/qrcode)
 - [Exposé](https://github.com/Jack000/Expose), a simple and beautiful static site generator for photoessays
@@ -122,6 +122,7 @@ toc: false
 - [pandoc](https://pandoc.org/ "Pandoc"), a lovely swiss-army knife for document conversion. NOTE: I admire its genius creator, he’s a Philosopher developer whose name is [John MacFarlane](https://www.johnmacfarlane.net/ "John MacFarlane's personal website")
 - ~~[megacmd](https://mega.nz/cmd "MEGA cmd"), a command-line tool to do actually anything with [Mega](https://mega.nz "MEGA")~~, not using MEGA anymore
 - [m-cli](https://github.com/rgcr/m-cli "m-cli source code on GitHub"), Swiss Army knife for MacOS
+- [miller](https://github.com/johnkerl/miller "miller"), CSV sorting and editing tool (something like a combination of sed and awk)
 - [nb](https://xwmx.github.io/ "nb documentation"), a CLI-based text editor. I'm still figuring out how to make it work
 - [tldr](https://tldr.sh "TL;DR"), a `man` crowd-sourced alternative made of super insightful examples
 - [rip](https://github.com/nivekuil/rip "rip source code on GitHub"), `rm` improved

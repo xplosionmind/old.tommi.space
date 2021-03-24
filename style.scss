@@ -5,6 +5,7 @@
 @import "../_sass/header";
 @import "../_sass/highlight";
 @import "../_sass/ubuntu-mono";
+@import "../_sass/links-emojis";
 
 html {
 	box-sizing: border-box;
@@ -160,185 +161,6 @@ article .box:not(.tags) {
 		&:hover {
 			filter: hue-rotate(.3turn);
 		}
-		&[href*="jam" i],
-		&[href*="marmellata" i] {
-			&::before {
-				content: "🍯 ";
-			}
-		}
-		&[href*="mailto" i] {
-		&::before {
-			content: "✉️ ";
-			}
-		}
-		&[href*="giri" i] {
-		&::before {
-			content: "🧳 ";
-			}
-		}
-		&[href*="visioni" i],
-		&[href*="visions" i] {
-			&::before {
-				content: "🖼 ";
-				/*content: "📷" */
-			}
-		}
-		&[href="/about" i],
-		&[href*="about-it" i] {
-			&::before {
-				content: "🙋🏻‍♂️ ";
-			}
-		}
-		&[href*="/zibaldone" i],
-		&[href*="/zibenglish" i],
-		&[href="/blog" i] {
-			&::before {
-				content: "📜 ";
-				/*content: "📖"; */
-			}
-		}
-		&[href*="unive.it" i] {
-			&::before {
-				content: "🎓 ";
-			}
-		}
-		&[href*="cinema" i],
-		&[href*="film" i] {
-			&::before {
-				content: "🎬 ";
-			}
-		}
-		&[href*="music" i],
-		&[href*="playlist" i] {
-			&::before {
-				content: "🎧 ";
-			}
-		}
-		&[href*="server" i],
-		&[href*="linuxplosion" i] {
-			&::before {
-				content: "📟 ";
-			}
-		}
-		&[href^="/radio" i] {
-			&::before {
-				content: "📡 ";
-			}
-		}
-		&[href*="photography" i] {
-			&::before {
-				content: "📸 ";
-			}
-		}
-		&[href*="books" i] {
-			&::before {
-				content: "📚 ";
-			}
-		}
-		&[href^="/read" i] {
-			&::before {
-				content: "📖 ";
-			}
-		}
-		&[href*="zettelkasten" i],
-		&[href*="knowledge" i] {
-			&::before {
-				content: "🧠 ";
-			}
-		}
-		&[href^="/places" i] {
-			&::before {
-				content: "🗺 ";
-			}
-		}
-		&[href^="/dev" i] {
-			&::before {
-				content: "💻 ";
-			}
-		}
-		&[href^="/tutto" i] {
-			&::before {
-				content: "🤯 ";
-			}
-		}
-		&[href*="design" i] {
-			&::before {
-				content: "📐 ";
-			}
-		}
-		&[href^="/meta" i] {
-			&::before {
-				content: "👨🏻‍💻 ";
-			}
-		}
-		&[href*="quote" i] {
-			&::before {
-				content: "💬 ";
-			}
-		}
-		&[href^="/self" i],
-		&[href^="/mind" i] {
-			&::before {
-				content: "🧘🏻‍♂️ ";
-			}
-		}
-		&[href*="people" i] {
-			&::before {
-				content: "🕺🏻 ";
-			}
-		}
-		&[href*="quit" i],
-		&[href*="switch" i] {
-			&::before {
-				content: "🔄 ";
-			}
-		}
-		&[href*="blogroll" i],
-		&[href*="idea" i] {
-			&::before {
-				content: "💡 ";
-			}
-		}
-		&[href*="wish" i] {
-			&::before {
-				content: "🧞‍♂️ ";
-			}
-		}
-		&[href*="poetry" i],
-		&[href*="poem" i],
-		&[href*="poesi" i] {
-			&::before {
-				content: "🖋 ";
-			}
-		}
-		&[href*="/filinge" i],
-		&[href*="/filosofia" i],
-		&[href*="/philosophy" i] {
-			&::before {
-				content: "💭 ";
-			}
-		}
-		&[href*="/ital" i] {
-			&::before {
-				content: "🇮🇹 ";
-			}
-		}
-		&[href*="/sconnesso" i] {
-			&::before {
-				content: "🎙 ";
-			}
-		}
-		&[href^="/geek" i],
-		&[href^="/feeds/geek" i] {
-			&::before {
-				content: "💻 ";
-			}
-		}
-		&[href*="/storage" i] {
-			&::before {
-				content: "💾 ";
-			}
-		}
 		&[href^="/"],
 		&[href^="#"],
 		&[href*="https://tommi.space" i] {
@@ -475,18 +297,21 @@ hr {
 
 pre,
 code {
-	font: 400 1.1em var(--font-mono);
+	font: 400 1.05em var(--font-mono);
 	line-height: 1.2em;
+	background: var(--black-ish);
+	color: var(--white-ish);
 }
 
 pre {
 	overflow-x: scroll;
-	margin: var(--bigger) 0;
-	padding: var(--regular-more);
+	padding: var(--regular);
+	translate: 0 -1.1rem;
 	border-radius: var(--radius-m);
 	box-shadow: var(--inner-shadow);
-	background: var(--black-ish);
 	code {
+		padding: 0;
+		line-height: unset;
 		box-shadow: unset;
 	}
 }

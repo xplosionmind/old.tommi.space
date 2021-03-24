@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-updated: 2021-03-20T13:17:56.684675+01:00
+updated: 2021-03-23T08:18:37.305521+01:00
 tags: geek todo
 aliases: "Learning Resources"
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
@@ -11,7 +11,7 @@ todo:
   - "Better integrate with [[Missing Knowledge]]"
 ---
 <div class="blue box">
-	Most of the things one could be looking for are very likely to be found in the <b>AWESOME</b> <a href="https://project-awesome.org" rel="noopener noreferrer" target="_blank" title="Project Awesome">Project Awesome</a>. I'm writing nothing about it, just go on the page and dive in the power of the internet.
+	Most of the things one could be looking for are very likely to be found in the <b>AWESOME</b> <a href="https://project-awesome.org" rel="noopener noreferrer" target="_blank" title="Project Awesome">Project Awesome</a>. I am not writing anything about the main sources cited in there.
 </div>
 
 <br>
@@ -37,29 +37,29 @@ todo:
 - [Dataninja School](https://school.dataninja.it/)
 - [Suggestions by Victoria Drake](https://victoria.dev/blog/top-free-resources-for-developing-coding-superpowers/ "Top Free resources for Developing Coding Superpowers - victoria.dev")
 - [Project-based learning](https://github.com/tuvtran/project-based-learning "project-based-learning on GitHub")
+- [Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners "Web Development for Beginners on GitHub") by Microsoft
 
 <br>
 
-### vim
-
-- [Vim casts](https://vimcasts.org/ "Vim casts"), the best video tutorials you can find
-- [Practical Vim](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/ "Practical Vim, Second Edition") a book - the best book you can find - on Vim, by the same creator of Vim Casts: [Drew Neil](http://drewneil.com/).
-- [Vim subreddit](https://www.reddit.com/r/vim/ "r/vim")
-
-<br>
+![[Vim#Resources]]
 
 ### JavaScript
 
 - [Derek Sivers’s guide](https://sivers.org/learn-js)
-- [JavaScript and JQuery](http://www.javascriptbook.com/) a book by Jon Duckett
+- <cite><a href="http://www.javascriptbook.com/" rel="noopener noreferrer" target="_blank" title="JavaScript and JQuery">JavaScript and JQuery</a></cite>, a book by [Jon Duckett](https://en.wikipedia.org/wiki/John_Duckett "Jon Duckett on Wikipedia")
+
+#### React
+
+- Beginner’s [React developer roadmap](https://dev.to/monicafidalgo/react-developer-roadmap-beginners-guide-14fc "React developer roadmap")
 
 <br>
 
 ### C
 
-- [Excercises in C](https://www.w3resource.com/c-programming-exercises/)
-- [GCC Compiler options](https://www.thegeekstuff.com/2012/10/gcc-compiler-options/)
-- [Invoking GCC](https://gcc.gnu.org/onlinedocs/gcc/Invoking-GCC.html)
+- [Exercises in C](https://www.w3resource.com/c-programming-exercises/ "W3 resource - C programming exercises")
+- [Algorithms\_in\_C](https://thealgorithms.github.io/C/index.html "Algorithms\_in\_C"), a set of algorithms implemented in C by [The Algorithms](https://the-algorithms.com "The Algorithms")
+- [GCC options](https://www.thegeekstuff.com/2012/10/gcc-compiler-options/ "GCC Compiler options")
+- [Invoking GCC](https://gcc.gnu.org/onlinedocs/gcc/Invoking-GCC.html "Invoking GCC")
 
 
 <br>
@@ -73,39 +73,25 @@ todo:
 - [ohmygit.org](https://ohmygit.org "Oh My Git!"), a game to learn git
 
 <br>
-
-### Blockstack
-
-- [Blockstack Forum](https://forum.blockstack.org/)
-- [Reddit](https://www.reddit.com/r/blockstack/)
-- [Interplanetary File System](https://proto.school/#/mutable-file-system/)
-- [Why decentralisation matters](https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e)
-
-#### DApps
-
-- [hosting](https://hearth.eternum.io/)
-- [list](https://app.co/blockstack)
-
-<br>
 <br>
 
 ## Speeches
 
-- [David Foster Wallace - “This is Water„](https://youtu.be/ms2BvRbjOYo "“This is Water„ by David Foster Wallace on YouTube")
+- [<cite>This is Water</cite>](https://youtu.be/ms2BvRbjOYo "“This is Water„ by David Foster Wallace on YouTube") by David Foster Wallace
 
 <br>
 <br>
 
 ## Costituzione italiana
 
-È assurdo che, nonostante cittadino italiano, io abbia una così scarsa conoscenza della Costituzione e delle leggi che governano il mio paese. Ho chiesto ad amici che studiano giurisprudenza di indicarmi dove e come posso cercare articoli in base a parole chiave o in base al contesto. Purtroppo lo stato italiano non offre un sistema ufficiale per cercare le informazioni e la digitalizzazione della Costituzione ha funzionalità estremamente limitate rispetto alle potenzialità che internet offrirebbe. In ogni caso, l'utilizzo di questi servizi diversi può essere molto utile
+<p lang="it">È assurdo che, nonostante cittadino italiano, io abbia una così scarsa conoscenza della Costituzione e delle leggi che governano il mio paese. Ho chiesto ad amici che studiano giurisprudenza di indicarmi dove e come posso cercare articoli in base a parole chiave o in base al contesto. Purtroppo lo stato italiano non offre un sistema ufficiale per cercare le informazioni e la digitalizzazione della Costituzione ha funzionalità estremamente limitate rispetto alle potenzialità che internet offrirebbe. In ogni caso, l’utilizzo di questi servizi diversi può essere molto utile</p>
 
 - [La Costituzione](https://www.senato.it/1024 "La Costituzione italiana") sul sito web del Senato italiano
 - [Brocardi](https://www.brocardi.it/ "Brocardi"): Consulenze legali, codici commentati, dizionario giuridico e notizie.
 
 <br>
 
-- [Legge n. 47/1948](https://www.odg.it/legge-n-47-1948/24253 "Legge n. 47/1948") sulla stampa (dal sito dell'[Ordine dei Giornalisti](https://odg.it))
+- [Legge n. 47/1948](https://www.odg.it/legge-n-47-1948/24253 "Legge n. 47/1948") sulla libertà di stampa (dal sito dell’[Ordine dei Giornalisti](https://odg.it "Ordine dei Giornalisti"))
 
 <br>
 <br>
@@ -114,6 +100,7 @@ todo:
 
 - [MIT OpenCourseWare](https://openlearning.mit.edu/courses-programs/mit-opencourseware "MIT OpenCourseWare"), a free, publicly accessible, openly-licensed digital collection of high-quality teaching and learning materials from @MIT, presented in an easily accessible format.
 - [*190 universities just launched 600 free online courses. Here’s the full list.*](https://www.classcentral.com/report/new-courses-october-2018/ "190 universities just launched 600 free online courses. Here’s the full list.")
+- [Oppia](https://www.oppia.org "Oppia") is <q cite="https://www.oppiafoundation.org/about-oppia">an engaging new approach to online learning that caters specifically to the unique needs of the world's most underserved youth</q>.
 
 <br>
 <br>
@@ -122,6 +109,7 @@ todo:
 
 - [The Internet Archive](https://archive.org "The Internet Archive")
 - [The Gutenberg Proect](https://www.gutenberg.org "Project Gutenberg")
+- [z-lib.org](https://z-lib.org "z-lib.org")
 - [Eureka ddl](https://eurekaddl.icu/ "Eureka ddl")
 - [Open Library](https://openlibrary.org/ "Open Library") (just to take e-books on loan)
 - [The Pirate Bay](https://thepiratebay.org "The Pirate Bay")

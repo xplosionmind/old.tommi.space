@@ -392,7 +392,7 @@ systemctl restart apache2
 <figure><img src="https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg" alt="Nextcloud first setup page" title="Nextcloud first setup page" /><figcaption>Nextcloud first setup page</figcaption></figure>
 
 <div class="yelow box">
-	<u><strong>Don’t</strong> insert any data</u> in the dialogue page above until connection is encrypted with <code>https://</code>. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
+	<u><strong>Do not</strong> insert any data</u> in the dialogue page above until connection is encrypted with <code>https://</code>. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
 </div>
 
 <br>

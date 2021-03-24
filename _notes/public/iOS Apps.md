@@ -25,6 +25,7 @@ todo:
 - [Firefox](https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926 "Firefox"), the best browser in the world, even if on iOS it is exactly like Safari but with the Firefox interface.
 - [Hype](https://apps.apple.com/it/app/hype-carta-conto-e-app/id943405905 "Hype app on App Store"), the mobile client for [Hype](https://www.hype.it/ "Hype official website"). Proprietary software.
 - [Imaging Edge Mobile](https://support.d-imaging.sony.co.jp/app/iemobile/), to import images from [my Sony camera](https://www.sony.com/electronics/interchangeable-lens-cameras/ilce-6500-body-kit).
+- [iSH](https://ish.app/ "iSH"), a terminal emulator fo iOS
 - [Jitsi Meet](https://jitsi.org/#download), video conferencing, same as on Mac
 - [KeePass Touch](https://www.innervate.de/keepass-touch.html "KeePass Touch"), a bare-bones yet perfectly working KeePass manager
 - [Lightroom](https://apps.apple.com/us/app/adobe-lightroom-photo-editor/id878783582 "Lightroom for iOS"), same as on Mac (grrr).

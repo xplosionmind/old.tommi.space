@@ -1,6 +1,6 @@
 ---
 updated: 2020-10-24
-date: 2020-10-24
+updated: 2021-03-22T12:14:06.725510+01:00
 tags: zen
 aliases: ["Quantified self", "Life logging"]
 description: "Gaining knowledge and awareness of ourselves by collecting any sort of data which concern us"
@@ -35,3 +35,12 @@ Self tracking is one of my tools towards [[Self improvement]].
 ## Tools
 
 - [Awesome Quantified Self](https://project-awesome.org/woop/awesome-quantified-self): a list of awesome software to enhance Quantified self capabilities.
+
+<br>
+<br>
+
+## Articles
+
+> The key concept is that you will tell the system what you’re trying to achieve, and it will then build you a plan for achieving those goals based on everything it knows about what works and what doesn’t work for people like you.
+
+<a href="https://danielmiessler.com" rel="noopener noreferrer" target="_blank" title="Daniel Messler">Daniel Messler</a>, <cite><a href="https://danielmiessler.com/blog/the-life-dashboard/" rel="noopener noreferrer" target="_blank" title="The Life Dashboard">The Life Dashboard</a></cite> 

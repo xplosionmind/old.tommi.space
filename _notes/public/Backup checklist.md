@@ -1,10 +1,10 @@
 ---
 date: 2020-09-14
-updated: 2021-03-15T08:07:35.462191+01:00
+updated: 2021-03-24T08:05:29.563656+01:00
 tags: geek
 image: "/images/backup.jpg"
 permalink: /backup
-redirect_from: ["/mobile-backup-checklist", "/phone-formatting-checklist", "/mobile-formatting", "/phone-backup-checklist", "/phone-backup-checklist", "/phone-backup", "/mobile-backup", "/adb-file-transfer", "/android-file-transfer", "/macos-backup", "/formatting-checklist"]
+redirect_from: ["/mobile-backup-checklist", "/phone-formatting-checklist", "/mobile-formatting", "/phone-backup-checklist", "/phone-backup-checklist", "/phone-backup", "/mobile-backup", "/adb-file-transfer", "/android-file-transfer", "/macos-backup", "/formatting-checklist", "/backup-checklist"]
 toc: 0
 description: "To keep the phone rolling smoothly, from time to time a classic data backup and factory reset are necessary, but it’s important not to forget what to save before hitting the red button. These are my checklist and importing workflow."
 ---
@@ -15,6 +15,7 @@ description: "To keep the phone rolling smoothly, from time to time a classic da
 	- `about:config` settings check
 - Espanso config
 - `/Library/User\ Pictures`
+- Custom fonts
 
 <br>
 <br>

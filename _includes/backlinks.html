@@ -21,7 +21,7 @@
 			{% capture current_url_downcase %}{{ page.url | downcase }}{% endcapture %}
 
 			{% for entry in site.pages %}
-				{% unless entry.url contains '.json' or entry.url contains '.csv' or entry.url contains '.css' or entry contains '.txt' or entry.url contains 'home' or entry.url contains 'tuffo' %}
+				{% unless entry.url contains '.json' or entry.url contains '.csv' or entry.url contains '.css' or entry contains '.txt' or entry.url contains 'home' or entry.url contains 'tuffo' or entry.url contains 'marmellata' or entry.url contains 'jam' %}
 					{% if entry.content contains page.url or entry.content contains current_url_downcase %}
 						<li>
 							<a href="{{ entry.url }}">{{ entry.title }}</a>
@@ -55,7 +55,7 @@
 					{% if entry.content contains page.url or entry.content contains current_url_downcase %}
 						{% case collection_name %}
 							{% when 'notes' %}
-							<li>🍯 <a href="{{ entry.url }}">{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
+							<li><a href="{{ entry.url }}">{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
 							{% when 'sconnesso' %}
 								<li>🎙️  <a href="{{ entry.url }}">{{ entry.title }}</a></li>
 							{% when 'posts' %}
@@ -72,7 +72,7 @@
 						{% if entry.content contains redirect_ %}
 							{% case collection_name %}
 								{% when 'notes' %}
-									<li>🍯 <a href="{{ entry.url }}">{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
+									<li><a href="{{ entry.url }}">{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
 								{% when 'sconnesso' %}
 									<li>🎙️  <a href="{{ entry.url }}">{{ entry.title }}</a></li>
 								{% when 'posts' %}

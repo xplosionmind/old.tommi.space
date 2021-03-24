@@ -59,6 +59,11 @@ for f in *.txt; do pandoc "$f" -s -o "${f%.txt}.rtf"; done
 <br>
 <br>
 
+![[Vim]]
+
+<br>
+<br>
+
 ## `sd`
 
 [`sd`](https://github.com/chmln/sd "sd source code") is a wonderful command-line tool to find and replace sub-strings in files. Its original version is `sed`, which comes by default in shell.

@@ -27,6 +27,7 @@ Standard shortcuts are in [Firefox shortcuts](https://support.mozilla.org/en-US/
 | Pin tab                     | `⌘` + `.`             |
 | Close all other panes       | `⌘` + `⇧` + `W`       |
 | Delete current file         | `⌘` + `Backspace`     |
+| Copy file path              | `⌘` + `⎇` + `C`       |
 | Open another vault          | `⌘` + `⇧` + `O`       |
 | Find unlinked files         | `⌘` + `U`             |
 | Focus on pane above         | `⌘` + `↑`             |
@@ -42,3 +43,4 @@ Standard shortcuts are in [Firefox shortcuts](https://support.mozilla.org/en-US/
 | Move file to another folder | `⌘` + `M`             |
 | Toggle app ribbon           | `⌘` + `⇧` + `,`       |
 | Toggle status bar           | `⌃` + `⌘` + `⎇` + `,` |
+| Meld encrypt: Encrypt/Decrypt | `⎇` + `⇧` + `4`     |
