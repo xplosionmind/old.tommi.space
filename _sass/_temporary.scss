@@ -1,0 +1,11 @@
+.qsm {
+	background: #E63946;
+	.button {
+		background: #1D3557;
+	}
+}
+@media only screen and (min-width: 900px) {
+	.qsm {
+		margin: var(--height) 15%;
+	}
+}

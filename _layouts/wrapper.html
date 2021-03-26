@@ -17,12 +17,15 @@
 
 		<script>
 			scrollbottom = document.getElementById("scroll-to-bottom");
+			scrolltop = document.getElementById("scroll-to-top");
 			window.onscroll = function() {scroll()};
 			function scroll() {
 				if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
 					scrollbottom.style.display = "none";
+					scrolltop.style.display = "block";
 				} else {
 					scrollbottom.style.display = "block";
+					scrolltop.style.display = "none";
 				}
 			}
 		</script>

@@ -6,3 +6,12 @@ tags: todo
 - #writing/idea: setting up a VNC on MacOS and Linux
 - #writing/idea: aprire l’accesso SSH tremite dominio pubblico in una Vodafone Station
 - read AlDente documentation
+- https://luxagraf.net/technology
+- add Humane Tech forums to QSM
+- https://www.quora.com/How-did-your-life-change-after-leaving-social-media
+- Limits to Growth 1972 and 2004
+- https://gist.github.com/Mte90/2ebc9449f39fe37d22c612b31bdbb339
+- https://robotmoon.com/ssh-tunnels/
+- Video factory
+- docs CoCa e PE
+- promemoria per iscrizione eventi e pagare quota a francesco

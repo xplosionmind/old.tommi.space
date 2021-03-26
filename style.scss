@@ -571,6 +571,9 @@ h3 {
 	margin: var(--height) 3vw;
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
+	.serif {
+		margin: 0 5%;
+	}
 	.column {
 		padding: 0 2vw;
 	}
@@ -592,9 +595,6 @@ h3 {
 	margin-bottom: var(--regular-less);
 	padding: var(--small);
 	justify-content: space-between;
-	.serif {
-		margin: 0 7%;
-	}
 	.date {
 		margin: 0 var(--regular);
 	}
@@ -762,7 +762,6 @@ button,
 	position: fixed;
 	bottom: 3vw;
 	z-index: 9;
-	box-shadow: var(--tool-shadow) !important;
 	&.button {
 		padding: .3rem;
 	}
@@ -775,7 +774,13 @@ button,
 
 .bottom {
 	transform: rotate(.5turn);
-	box-shadow: none !important;
+	box-shadow: inset -2px -2px 4px #FFF8, inset 2px 2px 4px #0008 !important;
+	&:hover {
+		box-shadow: none !important;
+	}
+	&:active {
+		box-shadow: var(--button-shadow) !important;
+	}
 }
 
 .tag {
@@ -904,3 +909,5 @@ button,
 		line-height: 1.5em;
 	}
 }
+
+@import "../_sass/temporary";

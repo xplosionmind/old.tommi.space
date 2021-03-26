@@ -11,23 +11,6 @@ toc: false
 todo:
   - "LATER: unique loop for Obsidian and Jekyll"
 ---
-{% comment %}
-![[Timeline development]]   
-![[Screen empathy]]   
-![[Jekyll sidenotes]]   
-![[Keys]]   
-![[Self debugging app]]   
-![[Social]]   
-![[Recorder]]   
-![[Digital Wellbeing implementations]]   
-*![[Just once]]*   
-![[Shadow map]]   
-![[Scale app]]
-![[Lunapp]]   
-~~![[Batch reopen]]~~
-
-{% endcomment %}
-
 <ul>
 {% for note in site.notes %}
 	{% if note.tags contains "idea" and note.tags contains "geek" and note.permalink != "/missing-tools" %}

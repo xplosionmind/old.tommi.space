@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-03-19T11:06:46.341461+01:00
+updated: 2021-03-26T10:03:01.276628+01:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -11,7 +11,6 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 ## Not Working
 
 - Liquid `| sort` filter!
-- Hidden overflow of button shadows in Safari
 - scrollbars always displayed in Linux distros when `overflow: scroll` is on
 
 <br>
@@ -30,7 +29,6 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 
 1. Configure and implement [[Indie Web]]
 	- Note in footer that this website supports Webmentions
-1. Telegram comments: `<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="bfg-ZXp6" data-limit="5" data-color="FCC920" data-dark="1"></script>`
 2. Create Newsletter pages
 	- successful subscription page
 	- I am sad you are unsubscribing
@@ -222,6 +220,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 		1. Display Jam elements in tags list
 		1. choose once and for all **`categories`** VS **`tags`** (chose `tags`)
 		1. Instead of inlining specific properties, create classes for every tag and create a `for` loop in SCSS accessing `site.data.tags` colors
+- Telegram comments: `<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="bfg-ZXp6" data-limit="5" data-color="FCC920" data-dark="1"></script>` - ❌ 2021.03.26 not working! Also: probably the script works only for individual domains, not for every page.
 - `text-shadow` CSS property in titles and in `a:hover` ✅ 2020.12.30
 - The new [[The Jam|Jam]]:
 	- show only parent/main tags and notes ✅ 2021.01.16

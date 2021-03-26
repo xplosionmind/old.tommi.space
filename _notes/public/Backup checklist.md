@@ -10,10 +10,6 @@ description: "To keep the phone rolling smoothly, from time to time a classic da
 ---
 ## Laptop
 
-- Firefox
-	- export extensions configuration and settings
-	- `about:config` settings check
-- Espanso config
 - `/Library/User\ Pictures`
 - Custom fonts
 
