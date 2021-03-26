@@ -4,7 +4,7 @@ ref: privacy
 lang: it
 description: "La Privacy Policy di tommi.space"
 permalink: /privacy-it
-redirect_from: ["/privacy/it", "/it/privacy", "/trattamentodati", "/trattamento-dati"]
+redirect_from: ["/privacy/it", "/it/privacypolicy", "/it/privacy-policy", "/it/privacy", "/trattamentodati", "/trattamento-dati"]
 layout: page
 ---
 Non sono un avvocato e non capisco nulla di questo genere di questioni.   

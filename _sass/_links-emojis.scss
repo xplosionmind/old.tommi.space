@@ -13,6 +13,12 @@ article .box:not(.tags) {
 			content: "✉️ ";
 			}
 		}
+		&[href^="https://buttondown.email/tommi" i],
+		&[href*="/newsletter" i] {
+		&::before {
+			content: " 💌";
+			}
+		}
 		&[href*="giri" i] {
 		&::before {
 			content: "🧳 ";

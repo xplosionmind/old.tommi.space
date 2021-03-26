@@ -169,6 +169,26 @@ article .box:not(.tags) {
 	}
 }
 
+input[type="email"] {
+	line-height: var(--bigger);
+	border: none;
+	background: var(--background);
+	color: var(--text);
+	border-radius: var(--radius-s);
+	box-shadow: var(--inner-shadow);
+	padding: var(--small) var(--regular);
+	font-size: var(--bigger);
+	max-width: 100%;
+	&::placeholder {
+		color: var(--other-grey);
+	}
+}
+
+input.button {
+	color: var(--text);
+	border: none;
+}
+
 .invalid-link {
 	opacity: .5;
 	cursor: not-allowed;

@@ -3,6 +3,7 @@ title: Privacy
 ref: privacy
 lang: en
 permalink: /privacy
+redirect_from: ["/privacy-policy", "/privacypolicy"]
 layout: page
 ---
 I am not a lawyer and I know nothing about this topic, but as a user I am very concernet about these matters, therefore I believe it is important to write a <cite>Privacy Policy</cite> for this website, [tommi.space](/home "tommi.space home")

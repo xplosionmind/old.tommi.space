@@ -2,7 +2,8 @@
 startingdate: 2021-03-06T23:08:56.244314+01:00
 updated: 2021-03-26T11:00:30.378182+01:00
 tags: zen philosophy
-title: "L’Arte del Procrastinare"
+title: L’Arte del Procrastinare
+subtitle: Nonché la mia filosofia di vita
 permalink: /procrastinazione
 redirect_from: ["/structured-procrastination", "/structuredprocrastination", "/procrastinare", "/procrastinazione-strutturata", "/arte-del-procrastinare", "/procrastinare-arte", "/arte-procrastinare"]
 aliases: ["Procrastinazione Strutturata", "Structured Procrastination"]
