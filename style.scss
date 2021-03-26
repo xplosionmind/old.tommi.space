@@ -487,7 +487,7 @@ b {
 
 article {
 	font-size: var(--regular-more);
-	padding: 10vh 5vw 15vh;
+	padding: 8vh 5vw 15vh;
 	.box {
 		margin: var(--bigger) 0;
 	}
@@ -907,6 +907,12 @@ button,
 	}
 	p {
 		line-height: 1.5em;
+	}
+}
+
+@media only screen and (min-width: 950px) {
+	.post {
+		padding: 8vh 12vw 15vh;
 	}
 }
 

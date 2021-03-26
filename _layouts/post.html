@@ -18,12 +18,9 @@ layout: wrapper
 
 			{% if page.toc %}
 				<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-				{% include toc.html html=content sanitize=true id="toc" %}
+			{% include toc.html html=content sanitize=true id="toc" %}
+
 			{% endif %}
-
-			<br />
-			<br />
-
 			{% include anchor-parser.html html=content anchorBody="#" anchorClass="anchor" %}
 
 		</article>
