@@ -10,13 +10,13 @@ article .box:not(.tags) {
 		}
 		&[href*="mailto" i] {
 		&::before {
-			content: "✉️ ";
+			content: " ✉️ ";
 			}
 		}
 		&[href^="https://buttondown.email/tommi" i],
 		&[href*="/newsletter" i] {
 		&::before {
-			content: " 💌";
+			content: " 💌 ";
 			}
 		}
 		&[href*="giri" i] {

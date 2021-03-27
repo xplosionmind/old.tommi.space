@@ -3,17 +3,10 @@ tags: geek todo
 aliases: ["Geek stuff", "Geek stuff todo"]
 ---
 1. move to `tommi@mastodon.uno` email: `tommiboom@protonmail.com`
-1. VNC
-	1. https://youtu.be/r-lQ1VjY02s
-	1. https://web.archive.org/web/20210131045332/www.karlrunge.com/x11vnc/
-	2. https://web.archive.org/web/20201111224641/http://www.karlrunge.com/x11vnc/ssvnc.html
-	1. https://web.archive.org/web/20210304200604/www.karlrunge.com/x11vnc/faq.html
-	1. https://github.com/LibVNC/x11vnc
-	2. http://macappstore.org/x11vnc/
-	1. https://unix.stackexchange.com/questions/356569/how-to-connect-to-x11vnc-server-on-linux-from-os-x-macos
 1. [Reset MacBook Pro](https://www.wired.com/story/how-to-factory-reset-mac-windows-chromebook "Factory reset MacOS")
 2. https://bigtechdetective.net
 3. Searx setup and tutorial
+1. VNC
 4. [[Images]]
 	- consider using Syncthing for sync
 	- consider using a CRON job for the server to do stuff and transfer from a computer to another
