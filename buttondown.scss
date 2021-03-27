@@ -5,12 +5,24 @@
 
 .app-container {
 	--button-shadow: inset 2px 2px 4px #FFF8, inset -2px -2px 4px #0008;
+	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF2;
 	font-family: Inter, -apple-system, sans-serif;
 	background: var(--black-ish);
 }
 
 #app {
 	color: var(--white-ish) !important;
+}
+
+.subject {
+	margin: 8vh 0;
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width:900px) {
+	.body {
+		padding: 3vh 5vw;
+	}
 }
 
 h2 {
@@ -21,7 +33,7 @@ h2 {
 }
 
 form {
-	margin-top: 5vh !important;
+	margin-top: 9vh !important;
 }
 
 input[type="email"] {
@@ -38,12 +50,13 @@ input[type="email"] {
 	}
 }
 
-button {
-	color: var(--background) !important;
+button, .share-network-facebook, .share-network-twitter, .share-network-email {
+	color: var(--black-ish) !important;
 	text-transform: uppercase;
 	border-radius: var(--radius-m) !important;
 	box-shadow: var(--button-shadow);
-	margin-bottom: 5vh !important;
+	margin-bottom: 9vh !important;
+	font-weight: 800;
 	&[disabled] {
 		box-shadow: none !important;
 	}
@@ -55,4 +68,8 @@ label {
 
 a {
 	text-decoration: none;
+	font-weight: 500;
+	&:hover {
+		filter: hue-rotate(.3turn);
+	}
 }
