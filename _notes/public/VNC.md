@@ -5,7 +5,7 @@ tags: wip todo geek
 aliases: ["x11vnc", "TeamViewer"]
 description: "Connecting visually to a remote device through SSH"
 ---
-[VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing "Virtual Network Computing on Wikipedia") stands for Virtual Network Computing, and basically it means connecting to a remote host’s desktop through [SSH](https://en.wikipedia.org/wiki/SSH\_(Secure\_Shell) "SSH on Wikipedia") (Secure SHell).
+[VNC](https://en.wikipedia.org/wiki/Virtual_Network_Computing "Virtual Network Computing on Wikipedia") stands for Virtual Network Computing, and basically it means connecting to a remote host’s desktop through [SSH]({{ "https://en.wikipedia.org/wiki/SSH\_(Secure\_Shell)" | uri_escape }} "SSH on Wikipedia") (Secure SHell).
 
 x11vnc:
 1. https://youtu.be/r-lQ1VjY02s

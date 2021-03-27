@@ -1,9 +1,11 @@
 ---
 ---
+@import "../_sass/inter";
 @import "../_sass/root";
 
 .app-container {
 	--button-shadow: inset 2px 2px 4px #FFF8, inset -2px -2px 4px #0008;
+	font-family: Inter, -apple-system, sans-serif;
 	background: var(--black-ish);
 }
 
