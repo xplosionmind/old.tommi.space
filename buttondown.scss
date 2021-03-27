@@ -1,0 +1,56 @@
+---
+---
+@import "../_sass/root";
+
+.app-container {
+	--button-shadow: inset 2px 2px 4px #FFF8, inset -2px -2px 4px #0008;
+	background: var(--black-ish);
+}
+
+#app {
+	color: var(--white-ish) !important;
+}
+
+h2 {
+	margin-top: 8vh;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: var(--bigger) !important;
+}
+
+form {
+	margin-top: 5vh !important;
+}
+
+input[type="email"] {
+	line-height: var(--bigger);
+	border: none !important;
+	background: var(--background);
+	color: var(--text);
+	border-radius: var(--radius-s) !important;
+	box-shadow: var(--inner-shadow);
+	padding: var(--small) var(--regular);
+	font-size: var(--bigger);
+	&::placeholder {
+		color: var(--other-grey);
+	}
+}
+
+button {
+	color: var(--background) !important;
+	text-transform: uppercase;
+	border-radius: var(--radius-m) !important;
+	box-shadow: var(--button-shadow);
+	margin-bottom: 5vh !important;
+	&[disabled] {
+		box-shadow: none !important;
+	}
+}
+
+label {
+	color: var(--light-grey) !important;
+}
+
+a {
+	text-decoration: none;
+}
