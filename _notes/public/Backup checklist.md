@@ -1,6 +1,6 @@
 ---
 date: 2020-09-14
-updated: 2021-03-24T08:05:29.563656+01:00
+updated: 2021-03-27T08:04:11.446542+01:00
 tags: geek
 image: "/images/backup.jpg"
 permalink: /backup
@@ -12,6 +12,7 @@ description: "To keep the phone rolling smoothly, from time to time a classic da
 
 - `/Library/User\ Pictures`
 - Custom fonts
+- Custom bash [[Scripts]]
 
 <br>
 <br>

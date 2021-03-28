@@ -15,3 +15,6 @@ tags: todo
 - Video factory
 - docs CoCa e PE
 - promemoria per iscrizione eventi e pagare quota a francesco
+- https://joindeleteme.com/
+- https://vanishlist.ml/
+- https://www.deseat.me/

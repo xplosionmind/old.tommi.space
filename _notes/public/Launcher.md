@@ -41,7 +41,7 @@ I’m sorry for the other launchers, but, in the end
 
 - Lawnchair is nothing new - boring.
 - Slim Launcher is quite nice but too slim, it makes too hard to do accomplish some specific tasks
-- a GREAT shoutout fo T-UI, which is developed by a fellow Italian developer, [Francesco Andreuzzi](https://fandreuzzi.me/ "Francesco Andreuzzi personal website"), which developed it at 17 years old. The launcher itself is awesome, as I pointed out, it transforms your android home in a Linux shell. You get anywhere in your phone from there. I didn’t choose because sometimes I need to get things done very very quickly and with T-UI not every action can be performed in a few taps.
+- a GREAT shout-out fo T-UI, which is developed by a fellow Italian developer, [Francesco Andreuzzi](https://fandreuzzi.me/ "Francesco Andreuzzi personal website"), which developed it at 17 years old. The launcher itself is awesome, as I pointed out, it transforms your android home in a Linux shell. You get anywhere in your phone from there. I didn’t choose because sometimes I need to get things done very very quickly and with T-UI not every action can be performed in a few taps.
 
 That’s it. Wrapping it up, I’m so happy I found the best launcher ever.
 

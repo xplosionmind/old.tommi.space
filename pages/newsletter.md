@@ -4,12 +4,15 @@ permalink: /newsletter
 redirect_from: ["/parole-sconnesse", "/parolesconnesse"]
 lang: it
 layout: page
+description: "Parole Sconnesse è la mia pseudo-newsletter in cui, ogni tot, condivido idee, racconto vicessitudini relativamente interessanti e pubblico aggiornamenti sulle varie questioni a cui mi sto dedicando."
 ---
 <div lang="en" class="yellow box">
 	<b>For English speakers</b>: as of right now, the newsletter is sent in Italian only. Please stay tuned <a href="/feeds" target="_blank" title="tommi.space feeds">via RSS</a> since I may be starting a newsletter in English, too!
 </div>
 
-***Parole Sconnesse*** è la mia pseudo-newsletter in cui, ogni tot, condivido idee, racconto vicessitudini relativamente interessanti e pubblico aggiornamenti sulle varie questioni a cui mi sto interessando.
+<br>
+
+***Parole Sconnesse*** è la mia pseudo-newsletter in cui, ogni tot, condivido idee, racconto vicessitudini relativamente interessanti e pubblico aggiornamenti sulle varie questioni a cui mi sto dedicando.
 
 Se fossi così impavido da volerti iscrivere, basta compilare il modulo qui di seguito, oppure, se preferisci, [iscriviti via RSS](https://buttondown.email/tommi/rss "Il feed RSS di Parole Sconnesse").  
 Rock’n’roll!

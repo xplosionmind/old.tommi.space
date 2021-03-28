@@ -5,7 +5,7 @@ tags: geek geek/server
 description: "A walktrough of the steps I executed to set up my server"
 ---
 <div class="box">
-	A <strong>huge shoutout</strong> to my friend <a href="http://claudiofaoro.com" title="Claudio's personal website" rel="noopener noreferrer" target="_blank">Claudio</a>, who helped me understand and perform the most tricky passages.
+	A <strong>huge shout-out</strong> to my friend <a href="http://claudiofaoro.com" title="Claudio's personal website" rel="noopener noreferrer" target="_blank">Claudio</a>, who helped me understand and perform the most tricky passages.
 </div>
 
 <br>

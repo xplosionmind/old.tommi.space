@@ -102,13 +102,13 @@ Useful links:
 <br>
 
 Convert a Word file into a Markdown file, following the [CommonMark](https://commonmark.org/ "CommonMark official website") standard
-```
-pandoc input.docx -f docx -t commonmark --wrap=auto -o ~/Desktop/output.md
+```sh
+pandoc input.docx -f docx -t commonmark --wrap=none -o ~/Desktop/output.md
 ```
 
 Convert multiple Word files in a folder in a standalone Markdown file
-```
-pandoc *.docx -f docx -t commonmark --wrap=auto -s -o ~/Desktop/output.md
+```sh
+pandoc *.docx -f docx -t commonmark --wrap=none -s -o ~/Desktop/output.md
 ```
 
 <div class="box">

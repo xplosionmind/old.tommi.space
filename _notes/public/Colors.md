@@ -1,6 +1,6 @@
 ---
 date: 2020-05-22
-updated: 2021-03-12T18:17:01.055182+01:00
+updated: 2021-03-27T17:05:14.292688+01:00
 tags: design geek/web
 description: "A collection of colors I love and where I use them"
 redirect_from: ["/colours", "/colori"]
@@ -58,6 +58,19 @@ Color scheme for [Philosophy & Engineering](/filosofia "Philosophy section of th
 - `#77CEAB` pale green, `selection color`
 - `#CE2066` vibrant pink, `link`
 - `#F41C73` even more vibrant pink, `link hover`
+
+<br>
+<br>
+
+## Scambi
+
+The main colors of [Scambi Festival](https://scambi.org)
+
+- `3A83B7` light blue
+- `E2A05A` orange
+- `69088D` purple
+- `1B004D` deep purple
+- `4756A8` dark blue
 
 <br>
 <br>

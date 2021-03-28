@@ -4,6 +4,7 @@ aliases: ["MOC", "Home", "to do", "todo", "main"]
 ---
 1. **Study**
 1. How to refocus on romance, literature, feelings, analogic stuff; how to regain the feelings that tell me I need to shoot film
+1. chiedere sul gruppo mastodon che fare con Facebook
 2. *[[Scambi]]*
 3. [[Writing]]
 7. custodia chitarra elettrica

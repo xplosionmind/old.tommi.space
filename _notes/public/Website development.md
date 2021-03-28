@@ -33,6 +33,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	- successful subscription page
 	- I am sad you are unsubscribing
 1. `max-height` for tags list in Zibaldone
+1. Full width images in posts
 1. Stop using Algolia and consider faster and simpler alternatives
 	- [Lunr](https://lunrjs.com "Lunr")
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "")
