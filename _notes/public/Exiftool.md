@@ -42,15 +42,14 @@ Images shot at the same moment (photo bursts, for example) are being sorted with
 </div>
 	
 <div class="yellow box">
-Since there are many parameters which <u>might contain conflicting times</u>, there are several different tags which can be analyzed. I sorted them such that the first ones are the ones which are more likely to be found but probably not exact, while the last ones are very precise tags, but less likely to be found in an image metadata.
+Since there are many parameters which <u>might contain conflicting times</u>, there are several different tags which can be analyzed. I sorted them such that the first ones are the ones which are more likely to be found but probably not exact, while the last ones are very precise tags, but less likely to be found in an image metadata see <a href="https://exiftool.org/forum/index.php?topic=12325.0" rel="noopener noreferrer" target="_blank" title="">this post</a> on the <a href="https://exiftool.org/forum/" rel="noopener noreferrer" target="_blank" title="ExifTool Forum">ExifTool forum</a>.
 </div>
 
 ```sh
 exiftool '-FileName<FileModifyDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 exiftool '-FileName<DateTimeCreated' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
-exiftool '-FileName<CreateDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 exiftool '-FileName<DateTimeOriginal' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
-exiftool '-FileName<GPSDateTime' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
+exiftool '-FileName<CreateDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 ```
 
 <div class="blue box">

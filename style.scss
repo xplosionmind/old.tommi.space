@@ -329,6 +329,7 @@ pre {
 	translate: 0 -1.1rem;
 	border-radius: var(--radius-m);
 	box-shadow: var(--inner-shadow);
+	scrollbar-width: none;
 	code {
 		padding: 0;
 		line-height: unset;

@@ -17,6 +17,7 @@ Actually, I do not need to learn these things only, but here I note the main thi
 
 ## Geek
 
+1. [Learn and configure Syncthing](https://docs.syncthing.net/intro/getting-started.html "Getting Started - Syncthing")
 1. [[Pandoc#To learn]]
 3. [git](https://git-scm.com "git official website")
 	- [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)

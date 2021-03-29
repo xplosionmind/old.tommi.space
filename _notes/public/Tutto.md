@@ -1,16 +1,20 @@
 ---
 date: 2020-02-04
-updated: 2021-03-04T19:57:21.464608+01:00
-tags: track
+updated: 2021-03-29T12:47:59.912333+02:00
+tags: log
 aliases: ["Cose extended", "Tutte le cose", "Stuff extended", "Di tutto e di più", "Done", "Fatto"]
 lang: it
 redirect_from: ["/tuttopiu", "/cose-extended", "/stuff-extended", "/stuff-extended-it", "/stuff-extended/it", "/it/stuff-extended", "/everything", "/done", "/fatto", "/fatte"]
 main: true
+description: "Un archivio di tutte le cose che faccio e che ho fatto"
+todo:
+  - "Move this to a CSV file"
+  - "Sort everything BY DATE, with YEAR as H2; current H2s should become tags"
 ---
 Dato che, per mia natura, sono una trottola che gira ovunque per fare tante (troppe) diverse cose 
 
 <div class="yellow box">
-Alcuni link fra i seguenti potrebbero essere privati oppure non aggiornati. Per qualunque cosa, <a class="u-email" href="mailto:{{ site.email | encode_email }}" rel="me" title="Scrivimi un'email">scrivetemi</a>.
+Alcuni link fra i seguenti potrebbero essere protetti da password oppure non aggiornati. Se aveste bisogno di accedere a immagini private, <a class="u-email" href="mailto:{{ site.email | encode_email }}" rel="me" title="Scrivimi un'email">scrivetemi</a>.
 </div>
 
 <br>
@@ -91,7 +95,7 @@ Con e grazie a [Radioimmaginaria](/cose#radioimmaginaria) ho fatto la maggior pa
 	- [Puntate](rimm-db#festival-di-sanremo-2017)
 	- [Foto di Radioimmaginaria](https://flic.kr/s/aHskRvXnWV)
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710733326752)
-- 30 marzo 2017, l’**intervista ai [Cantiere 164**](https://www.facebook.com/Cantiere164) fu l’inizio di una grande stima e amicizia reciproca
+- 30 marzo 2017, l’**intervista ai [Cantiere 164](https://www.facebook.com/Cantiere164 "Pagina Facebook dei Cantiere 164")** fu l’inizio di una grande stima e amicizia reciproca
 	- [Puntata](https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo)
 	- [Foto](https://www.flickr.com/photos/xplosionmind/albums/72157710733018483)
 - dal 21 al 23 aprile 2017, [**<cite>Radiocity</cite>**](http://www.radiocitymilano.it/ "Radiocity Milano"), Milano
@@ -216,6 +220,14 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 - Dal 6 al 10 febbraio 2018, con una squadra di altri tre coraggiosi pseudo-giornalisti, ci siamo intrufolati nella sala stampa del Festival di Sanremo e ci siamo messi a riprendere un po’ tutto quello che ci sta dentro. Incredibilmente, una delle nostre interviste ha raggiunto le [44 mila visualizzazioni](https://www.youtube.com/watch?v=NjzHlPC_r-4), non chiedetemi come. Altri video e interviste dal Festival possono essere trovati sul medesimo canale.
 
 <br>
+<br>
+
+## quitsocialmedia.club
+
+Ho ideato e concepito [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media"). Interviste e pubblicazioni al riguardo sono elencate nel[la sezione “Interviste e pubblicazioni” di quitsocialmedia.club](https://quitsocialmedia.club/stampa#interviste-e-pubblicazioni "Stampa &rarr; Interviste e pubblicazioni - quitsocialmedia.club")
+
+<br>
+<br>
 
 ## altro
 
@@ -258,7 +270,7 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 - Dal 5 al 13 luglio 2020 ho partecipato al workshop di giornalismo de [Il Post](https://ilpost.it "Il Post") a Peccioli. Ho scritto [questo articolo](https://www.ilpost.it/2020/07/12/sgomberi-bogota-coronavirus/ "Gli sgomberi a Bogotà, nonostante il coronavirus - Il Post")
 - Il 25 ottobre 2020 ho tenuto [questo talk](http://go.tommi.space/MDN-LinuxDay2020) su [MDN Web Docs](https://mdn.dev "MDN homepage") al [Linux Day](https://linuxday.it/2020/ "Linux Day 2020")
 - Il +++ settembre 2020 ho partecipato al[la prima <cite>Filosofia di gruppo</cite>](https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3 "Podcast Filosofia di Gruppo #1") su [[Notes on Ten Arguments For Deleting Your Social Media Accounts|Dieci ragioni per eliminare il proprio account sui social media]] organizzato da [Tlon](https://tlon.it "Sito ufficiale di Tlon"). Il mio intervento è a al minuto `44:45`
-- dal 1 al 6 Marzo 2021 ho gestito [la pagina Instagram](https://instagram.com/sanremonews "Sanremonews su Instagram") di [Sanremonews](https://sanremonews.it "Sanremonews") in occasione del Festival di Sanremo 2021
+- dall’1 al 6 Marzo 2021 ho gestito [la pagina Instagram](https://instagram.com/sanremonews "Sanremonews su Instagram") di [Sanremonews](https://sanremonews.it "Sanremonews") in occasione del Festival di Sanremo 2021
 
 <br>
 <br>
