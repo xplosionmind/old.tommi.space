@@ -65,13 +65,13 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 1. Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts
 	- create subsections: creative help, hands-on help (e.g. Scambi), technical help, long-term help (collaborations), contacts help (I need to reach somebody and I cannot)
 6. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
+11. [Host pictures on Piwigo](https://piwigo.org/forum/viewtopic.php?id=31165 "Embedding images and galleries in HTML - Piwigo Forum") and display them via API or public link
 7. [Tags](/tags):
 	- consider switching from a unique page list to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
-8. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Switch to Piwigo]]).
+8. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
 9. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
 10. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
-11. Host pictures [on Piwigo](https://visions.tommi.space "My Piwigo photo gallery") and display them via API or public link
 12. Give a consistent framework to all lists (use CSV data or markdown tables only)
 13. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
 1. Improve `<noscript>`

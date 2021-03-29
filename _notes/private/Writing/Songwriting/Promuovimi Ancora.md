@@ -1,9 +1,7 @@
 ---
 date: 2019-06-23
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Promuovimi Ancora
-
 ```
 One, due, tre, four.
 C  G  Dm  F G

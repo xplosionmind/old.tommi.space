@@ -47,7 +47,7 @@ Let's point out my needs, my questions and doubts on the topic.
 
 ## Doubts
 
-- Can I [[Switch to Piwigo|rely on Piwigo alone]] to host all of my JPGs, even my private ones?
+- Can I [[Piwigo|rely on Piwigo alone]] to host all of my JPGs, even my private ones?
 	- is it reliable? How much do I risk of losing my data?
 	- is it secure? Are my private pictures somehow server-side encrypted?
 - Does it make sense to use my [Cubbit Cell](https://cubbit.io "Cubbit")'s 4TB for long-term picture storage?

@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10
-updated: 2021-03-14T10:13:50.885400+01:00
+updated: 2021-03-28T21:22:19.994794+02:00
 permalink: /qsm
 aliases: ["QSM"]
 description: 'Notes about <a href="https://quitsocialmedia.club" rel="noopener noreferrer" target="_blank" title="Quit Social Media">quitsocialmedia.club</a>'
@@ -23,6 +23,7 @@ redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-n
 
 ### Content
 
+- troppi troppi GB
 - legittimazione a non uscire per troppo tempo da investire nel cambio
 - Fediverse (specifically mastodon) features list + point out how recent they are
 - in [ma](https://quitsocialmedia.club/ma "“Ma” in quitsocialmedia.club"): ma prendere soluzioni così drastiche, nella storia, non è mai servito a nulla

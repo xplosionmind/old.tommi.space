@@ -1,9 +1,10 @@
 ---
 date: 2020-08-04
-updated: 2021-03-16T17:26:27.989876+01:00
+updated: 2021-03-29T04:04:35.518587+02:00
 tags: geek
 permalink: /bugs
 redirect_from: ["/feature-requests", "/bugs-and-feature-requests"]
+description: "Bugs and Feature requests for the apps I use"
 ---
 The [[Apps]] I use the most are open source software in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports.
 
@@ -100,7 +101,7 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 - Custom display front matter
 - read front matter metadata and use it
 - add a GUI metadata editor which modifies front matter content
-- support anchor links in wililinks
+- support anchor links in wikilinks
 - support pages embedding
 
 <br>
@@ -118,13 +119,21 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 
 ## Oxygen OS
 
-[Oxygen OS](https://www.oneplus.com/it/oxygenos) is the Android flavor developed and used by [OnePlus](https://oneplus.com)
+[Oxygen OS](https://www.oneplus.com/it/oxygenos "OnePlus’ Oxygen OS") is the Android flavor developed and used by [OnePlus](https://oneplus.com "OnePlus")
+
+<div class="red box">
+	I stopped using my OnePlus 6T as my main device in February 2018
+</div>
 
 - match the lock screen and ambient display design (right now digital clocks have two different fonts and sizes)
 - add the capability to customize the alert slider
 
 <br>
 <br>
+
+![[Piwigo#Bugs]]
+
+![[Piwigo#Feature requests]]
 
 ## Joplin
 
@@ -156,24 +165,6 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 ### Bugs
 
 - `cmd + E` works only to switch external editing on, not to turn it off
-
-<br>
-<br>
-
-## Piwigo
-
-- ~~One thing I'm still trying to figure out is how to make more pictures appear for a gallery page. They are too few and it's really complicated to modify the size of the thumbnail to make them look nice~~. ✅ 2021.01.07 it's sufficient to go in the settings page of the user in question and change the value of “number of photos per page”
-- Sharing private galleries links (see [GitHub issue](https://github.com/petitssuisses/piwigo-ShareAlbum/issues/62 "an issue in piwigo-ShareAlbum repository"))
-- Implement ***Collections***, as in Flickr
-
-<br>
-
-### Flickr2Piwigo
-
-[Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 "Flickr2Piwigo in Piwigo Extensions Marketplace") is a plugin to [[Switch to Piwigo|import pictures from Flickr]].
-
-- Import album descriptions
-- Import Collections as parent albums
 
 <br>
 <br>

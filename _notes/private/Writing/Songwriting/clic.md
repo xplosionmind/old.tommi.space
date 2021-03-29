@@ -60,8 +60,6 @@ il sentimento che è qui a percuotere
 			D	             			G
 la mia testa in festa perciò non ho posto per un po’ di serietà
 
-
-
      D					G                                    A
 le vere feste in fondo son quelle in cui alla fine hai capito tutto di tutti e 
 		  D		                   G
@@ -106,5 +104,5 @@ che ti ha reso così donna
 
 ai miei occhi
 						         C
-aspetta, non scappare! Basta che vieni e mi tocchi! e|-3-7—8-|
+aspetta, non scappare! Basta che vieni e mi tocchi! e||-3-7—8-|
 ```

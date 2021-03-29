@@ -1,9 +1,8 @@
 ---
 date: 2018-11-26
-tags: ["songwriting"]
+tags: songwriting
+aliases: ["Instagram delle meraviglie", "5w Instagram"]
 ---
-# w instagram o instagram delle meraviglie o 5w instagram
-
 ```
 D - D piatto - D7 - G - Gm
 

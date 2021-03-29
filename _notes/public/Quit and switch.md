@@ -23,7 +23,7 @@ main: true
 	- ~~Check Drive `Shared with me` folder~~ (useful shared links moved to [[Google Drive and Dropbox shared links]]) ✅ 2020\.12\.10
 	- consider deleting my Gmail address for good ([[Quit Gmail]])
 - [[Quit Spotify]] (still trying to find a valid alternative / workaround)
-- Quit Flickr and [[Switch to Piwigo]] ✅ 2020.12.23 - 2021.01.18
+- Quit Flickr and [[Piwigo]] ✅ 2020.12.23 - 2021.01.18
 - [[Quit listing]]
 - [[Quit Mailchimp]] (even if I almost never used it)
 - [[Switch to LineageOS]]

@@ -1,9 +1,7 @@
 ---
 date: 2017-11-11
-tags: ["songwriting"]
+tags: songwriting
 ---
-# Vietato essere normali
-
 ```
 VERSE 1
 C                   G/G7

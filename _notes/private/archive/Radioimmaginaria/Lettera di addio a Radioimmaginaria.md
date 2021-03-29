@@ -1,6 +1,7 @@
 ---
 date: 2018-09-11
-tags: ["archive/radioimmaginaria"]
+tags: archive/radioimmaginaria
+aliases: ["Ciao Radioimmaginaria"]
 ---
 Un dì di Giffoni 2017 Mic disse "le riunioni sono sempre molto più brevi per chi le fa, estremamente più noiose per chi le ascolta e basta".
 

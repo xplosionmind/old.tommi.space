@@ -8,7 +8,7 @@ image: "/images/jar/quit-flickr.jpg"
 redirect_from: ["/flickr", "/piwigo", "/quitting-flickr", "/switch-to-piwigo", "/piwigo-switch"]
 ---
 <div class="blue box">
-	The process of quitting Flickr and switching to Piwigo took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, and it took me until the 18<sup>th</sup> January 2021 to completely configure the gallery and optimize the workflow, for good
+	The process of quitting Flickr and switching to Piwigo took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, and it took me until the Q1 of 2021 to completely configure the gallery and optimize the workflow, for good
 </div>
 
 ## Why
@@ -35,7 +35,7 @@ Why quitting [Flickr](https://www.flickr.com "Flickr") and choosing [Piwigo](htt
 <br>
 <br>
 
-## Customizing Piwigo
+## Setting up Piwigo
 
 <div class="red box">
 	There are some very important features which are missing in Piwigo. I track them <a href="/bugs#piwigo" title="Piwigo bugs and feature requests">here</a>
@@ -49,6 +49,41 @@ Why quitting [Flickr](https://www.flickr.com "Flickr") and choosing [Piwigo](htt
 3. Setting a **custom domain**: there is no option to do it automatically from the settings, so I sent an email to Piwigo support in order to make <https://tommi.piwigo.com> match <https://images.tommi.space>, then, from my DNS records, I created several CNAMEs such as <https://visions.tommi.space> or <https://gallery.tommi.space>, and they all point to the domain I wrote in the email
 1. Improve private albums sharing
 2. Read Piwigo privacy policy to check reliability for private pictures
+
+<br>
+<br>
+
+## Embed image
+
+```url
+https://images.tommi.space/plugins/download_by_size/action.php?id=16172&part=e&size=medium
+```
+
+[API settings](https://images.tommi.space/tools/ws.htm "images.tommi.space API")
+
+<br>
+<br>
+
+## Feature requests
+
+- ~~One thing I'm still trying to figure out is how to make more pictures appear for a gallery page. They are too few and it's really complicated to modify the size of the thumbnail to make them look nice~~. ✅ 2021.01.07 it is sufficient to go in the settings page of the user in question and change the value of “number of photos per page”
+- ~~Implement ***Collections***, as in Flickr~~ ✅ this can be done by creating an album which contains little ones
+
+<br>
+
+### Flickr2Piwigo
+
+[Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 "Flickr2Piwigo in Piwigo Extensions Marketplace") is a plugin to [[Piwigo|import pictures from Flickr]].
+
+- Import album descriptions
+- Import Collections as parent albums
+
+<br>
+<br>
+
+## Bugs
+
+- [ShareAlbum plugin](https://github.com/petitssuisses/piwigo-ShareAlbum/ "piwigo-ShareAlbum on GitHub"): [`You are not authorized to access the requested page`](https://github.com/petitssuisses/piwigo-ShareAlbum/issues/71 "Issue &num;71 on GitHub")
 
 <br>
 <br>

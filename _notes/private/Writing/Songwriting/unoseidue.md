@@ -1,9 +1,7 @@
 ---
 date: 2018-06-19
-tags: ["songwriting"]
+tags: songwriting
 ---
-# unoseidue.
-
 ```
 RIFF
 A||--3--5--7--5---blabla---3~~~

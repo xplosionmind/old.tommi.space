@@ -2,7 +2,6 @@
 tags: geek todo
 aliases: ["Geek stuff", "Geek stuff todo"]
 ---
-1. move to `tommi@mastodon.uno` email: `tommiboom@protonmail.com`
 1. [Reset MacBook Pro](https://www.wired.com/story/how-to-factory-reset-mac-windows-chromebook "Factory reset MacOS")
 1. [[VNC]]
 4. [[Images]]
