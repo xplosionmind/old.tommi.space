@@ -6,8 +6,6 @@ aliases: ["Cheat Sheet"]
 description: "I use tech devices a lot, maybe too much, but I do not dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
 redirect_from: ["/cheatsheet", "/cheatsheets", "/cheat-sheet"]
 ---
-## Hotkeys
-
 ![[Hotkeys]]
 
 ## CLI
@@ -56,14 +54,6 @@ for f in *.txt; do pandoc "$f" -s -o "${f%.txt}.rtf"; done
 
 - [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line), a GitHub repository by [Marcel Bischoff](https://herrbischoff.com/)
 
-<br>
-<br>
-
-![[Vim]]
-
-<br>
-<br>
-
 ## `sd`
 
 [`sd`](https://github.com/chmln/sd "sd source code") is a wonderful command-line tool to find and replace sub-strings in files. Its original version is `sed`, which comes by default in shell.
@@ -87,129 +77,11 @@ bundle exec htmlproofer --assume-extension --allow_hash_href --check_favicon --c
 
 See [HTML Proofer \> Configuration](https://github.com/gjtorikian/html-proofer#configuration "HTML Proofer Configuration") for the complete parameters list.
 
+![[Vim#Cheat Sheet]]
 
-<br>
+![[Pandoc#Cheat sheet]]
 
-***
-
-<br>
-
-## Pandoc
-
-Useful links:
-- [format options](https://pandoc.org/MANUAL.html#option--from "“--from” in Pandoc manual")
-
-<br>
-
-Convert a Word file into a Markdown file, following the [CommonMark](https://commonmark.org/ "CommonMark official website") standard
-```sh
-pandoc input.docx -f docx -t commonmark --wrap=none -o ~/Desktop/output.md
-```
-
-Convert multiple Word files in a folder in a standalone Markdown file
-```sh
-pandoc *.docx -f docx -t commonmark --wrap=none -s -o ~/Desktop/output.md
-```
-
-<div class="box">
-	Replace <code>commonmark</code> with <code>markdown_mmd</code> to have more features
-</div>
-
-<br>
-
-***
-
-<br>
-
-## ExifTool
-
-Scripts for the awesome [ExifTool](https://exiftool.org/). I use them as part of my [[Photo importing workflow]]
-
-<div class="yellow box">
-	For all of the following commands, <u><abbr title="present working directory">pwd</abbr> must correspond to the folder containing the pictures to be scanned</u>.
-</div>
-
-### Show metadata
-
-```sh
-exiftool -s -G
-```
-
-<br>
-
-```sh
-exiftool "=-all"
-```
-
-<div class="blue box">
-	<strong><code>-s</code></strong> is used to show the names in ExifTool commands format. <i>e.g.: instead of "Create Date" you see "CreateDate"</i>
-	<br />
-	<strong><code>-G</code></strong> is used to show the metadata Group to which the metadata tag belongs.
-</div>
-
-<br>
-
-### File renaming
-
-Rename files based on their date and time data.
-
-<div class="blue box">
-Images shot at the same moment (photo bursts, for example) are being sorted with increasing single-digit indexes.
-</div>
-	
-<div class="yellow box">
-Since there are many parameters which <u>might contain conflicting times</u>, there are several different tags which can be analyzed. I sorted them such that the first ones are the ones which are more likely to be found but probably not exact, while the last ones are very precise tags, but less likely to be found in an image metadata.
-</div>
-
-```sh
-exiftool '-FileName<FileModifyDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
-exiftool '-FileName<DateTimeCreated' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
-exiftool '-FileName<CreateDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
-exiftool '-FileName<DateTimeOriginal' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
-exiftool '-FileName<GPSDateTime' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
-```
-
-<div class="blue box">
-	<b><code>-r</code></b> makes the analysis <i>recursive</i>: subfolders are scanned, too.
-</div>
-
-<br />
-
-### Directories
-
-Organize files in directories based on each image’s dimensions (resolution)
-
-<div class="yellow box">
-	<strong>NOTE</strong>: newly created directories are created in pwd
-</div>
-
-```sh
-"-Directory<imagesize" ./*
-```
-
-<br>
-
-Move files to folders based on year and month
-
-```sh
-exiftool '-Directory<FileModifyDate' -d ./%Y/%Y.%m -r ./*
-exiftool '-Directory<DateTimeCreated' -d ./%Y/%Y.%m -r ./*
-exiftool '-Directory<CreateDate' -d ./%Y/%Y.%m -r ./*
-exiftool '-Directory<DateTimeOriginal' -d ./%Y/%Y.%m -r ./*
-exiftool '-Directory<GPSDateTime' -d ./%Y/%Y.%m -r ./*
-```
-
-<div class="blue box">
-	add <b><code>-o</code></b> after <code>exiftool</code> to copy each image instead of moving it.
-</div>
-
-<br>
-
-### Resources
-
-Commands above are a personal adaptation of the ones I found from the following sources:
-- [ExifTool Commands for Image Organization](https://ninedegreesbelow.com/photography/exiftool-commands.html), by [9° Below](https://ninedegreesbelow.com)
-- [exiftool Application Documentation](https://exiftool.org/exiftool_pod.html)
+![[Exiftool#Cheat Sheet]]
 
 <br>
 
@@ -219,7 +91,7 @@ Commands above are a personal adaptation of the ones I found from the following 
 
 ## git
 
-- [Dangit, Git!?!](https://dangitgit.com/)
+- [Dangit, Git!?!](https://dangitgit.com/ "Dangit, Git!?!")
 
 <br>
 <br>

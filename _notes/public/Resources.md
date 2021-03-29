@@ -1,10 +1,10 @@
 ---
 date: 2020-05-07
-updated: 2021-03-23T08:18:37.305521+01:00
+updated: 2021-03-29T05:54:05.186576+02:00
 tags: geek todo
 aliases: "Learning Resources"
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
-redirect_from: /risorse
+redirect_from: ["/risorse", "/learning-resources"]
 main: true
 todo:
   - "merge with [[Data]]"
@@ -16,7 +16,7 @@ todo:
 
 <br>
 
-## Geek stuff
+## Geek
 
 - [A2Z Learning Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students), a comprehensive and rich repository with almost anything someone keen to improve its developing skills can ask for
 - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books "Free Programming Books"), a GitHub repository which contains, guess what, free e-books to learn programming.
@@ -61,6 +61,12 @@ todo:
 - [GCC options](https://www.thegeekstuff.com/2012/10/gcc-compiler-options/ "GCC Compiler options")
 - [Invoking GCC](https://gcc.gnu.org/onlinedocs/gcc/Invoking-GCC.html "Invoking GCC")
 
+
+<br>
+
+### Open Street Map
+
+- https://learnosm.org
 
 <br>
 

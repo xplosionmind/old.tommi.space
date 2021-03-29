@@ -1,12 +1,12 @@
 ---
 date: 2020-12-09
-updated: 2020-01-05
-tags: geek
-aliases: ["Learn"]
+updated: 2021-03-29T05:30:17.414403+02:00
+aliases: ["Learn", "To learn"]
 description: "What I need / have / would love to learn, in order of urgency"
 toc: false
+redirect_from: ["/learn", "/to-learn", "/tolearn", "/missingknowledge", "/learning", "/learning path"]
 ---
-Actually, I don't need to learn these things only, but here I note the main things that sooner or later will make me sit down and bingewatch tutorials on the argument to get a deep understanding of the concept, in order to make use of it in the best possible way. As you can see, it's mainly [geek](/geek "Geek tag page")-related stuff, which is the easier to keep track of.
+Actually, I do not need to learn these things only, but here I note the main things that sooner or later will make me sit down and bingewatch tutorials on the argument to get a deep understanding of the concept, in order to make use of it in the best possible way. As you can see, it's mainly [geek](/tags#geek "Geek tag page")-related stuff, which is the easier to keep track of.
 
 <div class="blue box">
 	Gaps in knowledge should be covered with the right [[Resources|Learning Resources]], and remembered with an effective [[Knowledge management]].
@@ -17,19 +17,13 @@ Actually, I don't need to learn these things only, but here I note the main thin
 
 ## Geek
 
-1. [Pandoc](https://pandoc.org/ "Pandoc official website") see [[Cheat sheets#Pandoc]]
-	- converting from `docx`
-	- understanding conversion engines, `mactex`, `latex`, etc.
-	- understanding citation method
-		- <https://www.simonlindgren.com/notes/2019/11/15/setup-for-writing-in-markdown-citing-with-zotero-and-publishing-with-pandoc>
-	- CSS styling
-	- merge multiple `md` files into a single PDF
+1. [[Pandoc#To learn]]
 3. [git](https://git-scm.com "git official website")
 	- [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 		- Tania Rascia's [guide](https://www.taniarascia.com/git-submodules-private-content/)
-1. Criptocurrencies
+1. Cryptocurrencies
 	- [If you are new to cryptocurrency](https://forum.privacytools.io/t/if-you-are-new-to-cryptocurrency/4571 "If you are new to cryptocurrency on PrivacyTools community") on PrivacyTools community
-2. OpenStreetMap and OSMand
+2. Improve OpenStreetMap and OSMand knowledge
 3. [Github Actions](https://docs.github.com/en/actions/learn-github-actions "Learn GitHub Actions")
 4. Makefile
 	1. [How to write a self-documenting Makefile](https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/ "How to write a self-documenting Makefile on victoria.dev")
@@ -37,10 +31,6 @@ Actually, I don't need to learn these things only, but here I note the main thin
 6. [The Missing Semester](https://missing.csail.mit.edu/)
 7. DigiKam
 8. Darktable
-9. Omega-T
-10. in-depth CSS learning
+9. in-depth CSS learning
 	- [Tania Rascia](https://taniarascia.com)'s [Overview of CSS concepts](https://www.taniarascia.com/overview-of-css-concepts/)
-11. [SCSS](https://sass-lang.com/) deeper understanding
-12. [YAML](https://yaml.org "YAML official website") deeper understanding
-	- [learnxinyminutes](https://learnxinyminutes.com/docs/yaml/)
-	- [cheat sheet](https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml)
+23. [Learn EQ](https://youtu.be/e4C5DxOepsM)

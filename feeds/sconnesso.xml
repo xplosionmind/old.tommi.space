@@ -52,7 +52,7 @@ title: "Feed Sconnesso"
 			</itunes:keywords>
 			<itunes:duration>{{ episode.length | xml_escape }}</itunes:duration>
 			<guid isPermaLink='true'>{{ site.url }}{{ episode.url }}</guid>
-			<enclosure url='https://assets.tommi.space/audio/{{ episode.audio }}.wav' length='{{ episode.length | xml_escape }}' type='audio/wav' />
+			<enclosure url='{{ episode.audio }}' length='{{ episode.length | xml_escape }}' type='audio/wav' />
 			<itunes:summary>
 				{{ episode.content | xml_escape | strip_newlines }}
 			</itunes:summary>
