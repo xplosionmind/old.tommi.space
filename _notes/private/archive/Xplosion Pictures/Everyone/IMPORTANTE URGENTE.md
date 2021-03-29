@@ -1,6 +1,0 @@
----
-date: 2019-01-30
----
-FARE PRESTO IL PUNTO PER IL DAY 3 PER LE RIPRESE!
-
-Manca il papà!
