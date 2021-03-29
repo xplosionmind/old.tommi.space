@@ -43,6 +43,14 @@ title: "Feed Sconnesso"
 			<itunes:order>{{ episode.episode }}</itunes:order>
 			<itunes:episodeType>{{ episode.episodeType }}</itunes:episodeType>
 			<itunes:explicit>{{ episode.explicit }}</itunes:explicit>
+			{% if page.image != nil %}
+				<itunes:image href='{{ page.image | absolute_url }}' />
+				<image>
+					<url>{{ page.image | absolute_url }}</url>
+					<title>{{ episode.title }}</title>
+					<link>{{ site.url | absolute_url }}</link>
+				</image>
+			{% endif %}
 			<link>{{ episode.url | absolute_url }}</link>
 			<pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
 			<itunes:keywords>
