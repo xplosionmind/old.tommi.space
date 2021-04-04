@@ -56,22 +56,22 @@ adduser -aG tommi sudo
 ### Firewall configuration
 
 Enable default configuration
-```
+```sh
 ufw allow OpenSSH
 ```
 
 enable firewall
-```
+```sh
 ufw enable
 ```
 
 check if everything is working
-```
+```sh
 ufw status
 ```
 
 first things firts:
-```
+```sh
 sudo ufw allow 'Apache'
 ```
 
@@ -80,15 +80,23 @@ sudo ufw allow 'Apache'
 ### configure SSH Authentication Key-pair
 
 create [ssh](https://www.ssh.com/ssh/ "ssh.com") folder to store allowed keys
-```
+```sh
 mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
 ```
 
 **on local device**:
+```sh
+ssh-copy-id xplosionmind@100.100.010.1 -p 5002
 ```
-scp ~/.ssh/id_rsa.pub xplosionmind@100.100.010.1:~/.ssh/authorized_keys
+
+Alternatively:
+```sh
+scp -P 5002 ~/.ssh/id_rsa.pub xplosionmind@100.100.010.1:~/.ssh/authorized_keys
 ```
-NOTE: substitute `100.100.010.1` with the server’s IP address and `xplosionmind` with both `root` user and limited user
+
+Substitute `100.100.010.1` with the server’s IP address, `xplosionmind` with the wanted username, and `5002` with your port
+
+More information on [Linode’s guide](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/ "Use SSH Public Key Authentication on Linux, macOS, and Windows - Linode") on the topic
 
 <br />
 
@@ -99,11 +107,11 @@ NOTE: substitute `100.100.010.1` with the server’s IP address and `xplosionmin
 </div>
 
 Enable the new SSH port from the firewall. In this case, the process I’ll be following configures port `5522`
-```
+```sh
 sudo ufw allow 5522/tcp
 ```
 Open the SSH configuration file `/etc/ssh/sshd_config`
-```
+```sh
 sudo vim /etc/ssh/sshd_config
 ```
 In this file, replace `#Port 22` with `Port 5522`

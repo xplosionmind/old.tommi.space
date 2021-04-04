@@ -5,7 +5,7 @@ tags: geek/apps
 ---
 ## Cheat Sheet
 
-Scripts for the awesome [ExifTool](https://exiftool.org/ "ExifTool"). I use them as part of my [[Photo importing workflow]]
+Scripts for the awesome [ExifTool](https://exiftool.org/ "ExifTool"). I use them as part of my [[Importing workflow]]
 
 <div class="yellow box">
 	For all of the following commands, <u><abbr title="present working directory">pwd</abbr> must correspond to the folder containing the pictures to be scanned</u>.

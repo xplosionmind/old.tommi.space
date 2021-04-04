@@ -1,24 +1,28 @@
 ---
-tags: archive/radioimmaginaria
+tags: archive/radioimmaginaria data
 lang: it
 title: "Tutte le mie puntate su Radioimmaginaria"
-aliases: ["Tutte le mie puntate su Radioimaginaria"]
-aliases: ["Puntate Radioimmaginaria"]
+aliases: ["Tutte le mie puntate su Radioimaginaria", "Puntate Radioimmaginaria"]
 permalink: /rimm-db
 redirect_from: ["/radioimmaginaria-db", "/rimm-database", "/rimm-episodes", "/puntate-rimm", "/tutto-radioimmaginaria", "/rimm-tutto", "/radioimmaginaria-tutto", "/tutto-rimm", "/puntate-radioimmaginaria", "/radioimmaginaria-puntate"]
 description: "Un database incompleto (mancano gli ultimi anni, alcuni eventi alcune puntate in mezzo) di tutte le puntate di Radioimmaginaria a cui ho partecipato.<br />I post di Facebook nei link non sono pubblici: Radioimmaginaria non usa più i social.<br />Gli hashtag nei titoli delle puntate indicano la redazione o, in caso di eventi, il nome del programma.<br /><mark>&num;you2</mark> sono le puntate in inglese, <mark>&num;toiaussi</mark> quelle in francese, <mark>&num;tete</mark> quelle in spagnolo."
 layout: page
+todo:
+  - "convert to a CSV or JSON file"
+  - "refactor"
 ---
-- 2014.01.12 <a href="https://spreaker.com/user/ariaimmaginaria/scout" rel="noopener noreferrer" target="_blank">Scoutismo</a> [min 11:20]
-- 2014.02.12 Prima intervista in assoluto, <a rel="noopener noreferrer" target="_blank" href="https://spreaker.com/user/ariaimmaginaria/mario-guglielmi">Mario Guglielmi</a>
+- 2014.01.12 [Scoutismo](https://spreaker.com/user/ariaimmaginaria/scout) (min 11:20)
+- 2014.02.12 Prima intervista in assoluto, [Mario Guglielmi](https://spreaker.com/user/ariaimmaginaria/mario-guglielmi)
 
 <br />
+<br>
 
 ## Festival di Sanremo 2014
 
-- 2014.02.22 intervista a <a href="https://www.spreaker.com/user/ariaimmaginaria/duccio-forzano" rel="noopener noreferrer" target="_blank">Duccio Forzano</a> [min 01:20]
+- 2014.02.22 intervista a <a href="https://www.spreaker.com/user/ariaimmaginaria/duccio-forzano" rel="noopener noreferrer" target="_blank">Duccio Forzano</a> (min 01:20)
 
 <br />
+<br>
 
 - 2014.05.01 <a href="https://www.spreaker.com/user/ariaimmaginaria/elicotteri-co" rel="noopener noreferrer" target="_blank">Elicotteri&amp;co.</a> prima puntata con Corra (28:30)
 	- <a href="https://www.facebook.com/radioimmaginaria/posts/707479755977233" rel="noopener noreferrer" target="_blank">facebook post</a>
@@ -26,6 +30,7 @@ layout: page
 - 2014.07.02 <a href="https://spreaker.com/user/ariaimmaginaria/med-party-perche-no" rel="noopener noreferrer" target="_blank">Party, perché no?</a>, intervista a Marina Muzi, Osservatorio di Perinaldo [min 16:05]
 
 <br />
+<br>
 
 ## Radiocampo 2014
 
@@ -36,17 +41,20 @@ Radiocampo Green Teen 2014, Riccione
 - 2014.08.25 <a href="https://www.spreaker.com/user/ariaimmaginaria/rc-third-base-live_1" rel="noopener noreferrer" target="_blank">&num;rc Third Base live</a>
 
 <br />
+<br>
 
 - 2014.11.20 <a href="https://spreaker.com/user/ariaimmaginaria/rili-forza-liguria_1" rel="noopener noreferrer" target="_blank">Forza Liguria</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/posts/809586699099871" rel="noopener noreferrer" target="_blank">facebook post</a>
 
 <br />
+<br>
 
 ## Festival di Sanremo 2014
 
 - 
 
 <br />
+<br>
 
 - 2015.02.06 - <a href="https://spreaker.com/user/ariaimmaginaria/omernas-sanremo-festival-orchestra" rel="noopener noreferrer" target="_blank">&num;omernas Sanremo Festival Orchestra</a>, Intervista ai maestri dell’Orchestra Sinfonica di Sanremo
 	- <a href="https://www.facebook.com/radioimmaginaria/posts/853498594708681" rel="noopener noreferrer" target="_blank">facebook post</a>
@@ -54,6 +62,7 @@ Radiocampo Green Teen 2014, Riccione
 	- <a href="https://www.facebook.com/radioimmaginaria/posts/866554426736431" rel="noopener noreferrer" target="_blank">facebook post</a>
 
 <br />
+<br>
 
 ## Salone del Libro di Torino 2014
 
@@ -61,6 +70,7 @@ Radiocampo Green Teen 2014, Riccione
 - 2014.05.13 <a href="https://spreaker.com/user/ariaimmaginaria/boom-da-torino" rel="noopener noreferrer" target="_blank">Boom da Torino</a>, intervista a Elisa (ed. Quiqajon), Marino Sinibaldi e Mario Calabresi
 
 <br />
+<br>
 
 - 2016.01.29 Radioimmaginaria all’**Istituto Superiore Mario Boella** di Torino
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1065427373515801/" rel="noopener noreferrer" target="_blank">facebook post 1</a>, <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1065353596856512/" rel="noopener noreferrer" target="_blank">facebook post 2</a>
@@ -80,13 +90,18 @@ Radiocampo Green Teen 2014, Riccione
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1163272943731243/" target="_blank" rel="noopener noreferrer">facebook post</a>
 
 <br />
+	<br>
 
 ## EXPO Milano 2015
 
 <br />
+<br>
 
 ## Teen Parade 2015
 
+<br>
+<br>
+	
 ## Giffoni Film Festival 2016
 
 - 2016.07.15 <a href="https://spreaker.com/user/ariaimmaginaria/usteens-giffoni-experience-2016" rel="noopener noreferrer" target="_blank">&num;UsTeens Giffoni Experience 2016</a>
@@ -97,6 +112,7 @@ Radiocampo Green Teen 2014, Riccione
 - 2016.07.17 ==&num;you2== <a rel="noopener noreferrer" target="_blank" href="https://spreaker.com/user/ariaimmaginaria/giff2016-discovering-giffoni-experience">Discovering Giffoni Experience</a>
 
 <br />
+<br>
 
 ## Radiocampo 2016
 
@@ -104,18 +120,21 @@ Radiocampo Green Teen 2014, Riccione
 
 
 <br />
+<br>
 
 - <a href="https://spreaker.com/user/ariaimmaginaria/andrea-dalessio" rel="noopener noreferrer" target="_blank">Andrea D’Alessio</a>
 - 2016.09.07 <a rel="noopener noreferrer" target="_blank" href="https://spreaker.com/user/ariaimmaginaria/smo-pubblicita-spaziali">Pubblicità Spaziali</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1213900758668461/" rel="noopener noreferrer" target="_blank">facebook post</a>
 
 <br />
+<br>
 
 ## Teen Parade 2016
 
 - 
 
 <br />
+<br>
 
 - 2016.09.19 <a href="https://spreaker.com/user/ariaimmaginaria/smo-the100-motivi-per-essere-felici" rel="noopener noreferrer" target="_blank">The100 motivi per essere felici</a>
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1225333127525224/" rel="noopener noreferrer" target="_blank">facebook post</a>
@@ -170,11 +189,13 @@ Radiocampo Green Teen 2014, Riccione
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1365404043518131/" rel="noopener noreferrer" target="_blank">facebook post</a>
 
 <br />
+<br>
 
 ## Festival di Sanremo 2017
 
 - 
 
+<br>
 <br />
 
 - <a href="https://spreaker.com/user/ariaimmaginaria/scatolone-trasloco-a-sanremo" rel="noopener noreferrer" target="_blank">&num;smo Scatolone trasloco a sanremo</a>
@@ -188,6 +209,7 @@ Radiocampo Green Teen 2014, Riccione
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1513350162056851/" rel="noopener noreferrer" target="_blank">facebook post</a>
 
 <br />
+<br>
 
 ## Giffoni Film Festival 2017
 
@@ -207,24 +229,28 @@ Radiocampo Green Teen 2014, Riccione
 	- <a href="https://www.facebook.com/radioimmaginaria/photos/a.143551849036696/1530589970332870/" rel="noopener noreferrer" target="_blank">facebook post</a>
 
 <br />
+<br>
 
 ## Radiocampo 2017
 
 -
 
 <br />
+<br>
 
 ## Teen Parade 2017
 
 -
 
 <br />
+<br>
 
 ## Festival di Sanremo 2018
 
 -
 
 <br />
+<br>
 
 ## CATCH-EyoU
 
@@ -234,6 +260,7 @@ Il mio ultimo evento e la mia ultima puntata da speaker di Radioimmaginaria
 - [puntata completa](https://www.spreaker.com/user/ariaimmaginaria/catcheyou-from-brussels)
 
 <br />
+<br>
 
 ## Imbucato
 

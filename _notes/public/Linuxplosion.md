@@ -1,6 +1,6 @@
 ---
 date: 2021-01-20T16:55:39.252241+01:00
-updated: 2021-03-28T12:06:42.577951+02:00
+updated: 2021-04-02T12:00:00.252241+01:00
 tags: geek
 aliases: ["Ubuntu Workstation"]
 redirect_from: ["/workstation", "/ubuntu-pc", "/linux-pc", "/pc", "/PC", "/computer-fisso"]
@@ -47,7 +47,54 @@ I currently do not use *Linuxplosion* much since it is not in the house where I 
 <br>
 <br>
 
+## Schedule
+
+Linuxplosion is not a [[Server]], hence it has not to stay switched on all of the time (also because it is so powerful that it sucks a lot of power). Nevertheless, I needed to make it magically turn on by itself at a given day of the week, so that I can [[Importing workflow#Mobile|import media from my phone]]. To do so, I run [[Cron Job PhotoSync|this Cron Job]].
+
+<br>
+
+### Background knowledge
+- https://unix.stackexchange.com/questions/185475/is-there-a-way-to-auto-turn-on-linux-machine#185481
+- https://www.maketecheasier.com/alarm-automatically-power-on-linux/
+
+<br>
+<br>
+
+## Cheat sheet
+
+This Cheat sheet is not in the same location as [[Cheat sheets|the main one]], since Ubuntu commands may be somewhat different, and I do not use them often.
+
+<br>
+
+### mounting a disk
+
+```sh
+udisksctl mount -b /dev/sda2
+```
+
+### remove user password
+
+```sh
+sudo visudo
+```
+
+in order not to be prompted for the password the file which opens up add the following line:
+```
+ernesto ALL=(ALL) NOPASSWD:ALL
+```
+
+where `ernesto` should be the name of your user.
+
+to subsequently delete the password, run:
+```sh
+sudo passwd -d `whoami`
+```
+
+<br>
+<br>
+
 ## Linuxplosion todo
 
-- Fix [HandBrake installation issue](https://github.com/HandBrake/HandBrake/issues/3484 "Ubuntu download error issue on GitHub")
 - Flickr2Piwigo last attempt
+- [Configure WebDAV](https://www.digitalocean.com/community/tutorials/how-to-configure-webdav-access-with-apache-on-ubuntu-18-04 "How To Configure WebDAV Access with Apache on Ubuntu 18.04")
+- [Install PhotoPrism](https://github.com/photoprism/photoprism/discussions/1160 "Build PhotoPrism locally")

@@ -2,11 +2,8 @@
 tags: geek todo
 aliases: ["Geek stuff", "Geek stuff todo"]
 ---
-1. [Reset MacBook Pro](https://www.wired.com/story/how-to-factory-reset-mac-windows-chromebook "Factory reset MacOS")
 1. [[VNC]]
 4. [[Images]]
-	- consider using Syncthing for sync
-	- consider using a CRON job for the server to do stuff and transfer from a computer to another
 5. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 6. a jekyll-backlinks repository (for the Liquid thing) as a submodule of tommi.space
 7. Defining a threat model

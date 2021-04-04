@@ -77,11 +77,14 @@ bundle exec htmlproofer --assume-extension --allow_hash_href --check_favicon --c
 
 See [HTML Proofer \> Configuration](https://github.com/gjtorikian/html-proofer#configuration "HTML Proofer Configuration") for the complete parameters list.
 
+![[Linuxplosion#Cheat Sheet]]
+
 ![[Vim#Cheat Sheet]]
 
 ![[Pandoc#Cheat sheet]]
 
 ![[Exiftool#Cheat Sheet]]
+
 
 <br>
 

@@ -18,10 +18,10 @@ main: true
 	- Twitter
 	- Instagram ✅ (deleted on 2021.03.16)
 		- Full data backup requested on 2020.12.31
-- [[Quit Google]] (mostly done, but my Google account still exists)
+- [[Quit Google]] - deleted all accounts on 2021.03.31 ✅
 	- ~~Check Drive `Storage` folder~~ ✅ 2020.12.20
 	- ~~Check Drive `Shared with me` folder~~ (useful shared links moved to [[Google Drive and Dropbox shared links]]) ✅ 2020\.12\.10
-	- consider deleting my Gmail address for good ([[Quit Gmail]])
+	- ~~consider deleting my Gmail address for good ([[Quit Gmail]])~~
 - [[Quit Spotify]] (still trying to find a valid alternative / workaround)
 - Quit Flickr and [[Piwigo]] ✅ 2020.12.23 - 2021.01.18
 - [[Quit listing]]

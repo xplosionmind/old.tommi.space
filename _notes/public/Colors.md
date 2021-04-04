@@ -12,15 +12,14 @@ todo:
 
 [tommi.space](https://tommi.space "Tommi Space") [palette](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_root.scss "tommi.space main colors in a CSS file")
 
-- `white`, background for light theme
 - `#111` almost black
-- `#333`, black-ish: the main text color for light theme and background color for the dark theme
-- `#E0E0E0` almost white, main for dark theme
-- `#555` dark-grey, grey for dark theme
-- `#AAA` light-grey, grey for light theme
+- `#222`, black-ish: the main text color for light theme and background color for the dark theme
+- `#E0E0E0` almost white, text color for dark theme and background for light theme
+- `#555` dark-gray, gray for dark theme
+- `#AAA` light-gray, gray for light theme
 - `#FCC920` yellow, primary in dark theme
 - `#3185FC` blue, secondary in dark theme and primary in light theme
-- `#EC0868`, [*Razzmatazz*](https://en.wikipedia.org/wiki/Razzmatazz_(song) "Razzmatazz on Wikipedia"), secondary in light theme
+- `#EC0868`, [<cite>Razzmatazz</cite>](https://en.wikipedia.org/wiki/Razzmatazz_(song) "Razzmatazz on Wikipedia"), secondary in light theme
 - `#D00` red, warning
 - `limegreen` green, warning
 - `#20CE88` second “geek” green
@@ -30,6 +29,19 @@ todo:
 ### tommi.space Syntax Highlight
 
 This website’s code snippets use a custom made syntax highlight; its source is [here](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_highlight.scss "tommi.space’s highlight.scss").
+
+<br>
+<br>
+
+## Scambi
+
+The main colors of [Scambi Festival’s website](https://scambi.org "Scambi")
+
+- `3A83B7` light blue
+- `E2A05A` orange
+- `69088D` purple
+- `1B004D` deep purple
+- `4756A8` dark blue
 
 <br>
 <br>
@@ -62,22 +74,9 @@ Color scheme for [Philosophy & Engineering](/filosofia "Philosophy section of th
 <br>
 <br>
 
-## Scambi
-
-The main colors of [Scambi Festival](https://scambi.org)
-
-- `3A83B7` light blue
-- `E2A05A` orange
-- `69088D` purple
-- `1B004D` deep purple
-- `4756A8` dark blue
-
-<br>
-<br>
-
 ## Red
 
-Ah, red, what a color. It is o wonderful I have to keep note of all the nice shades of it I lay my eye on. Also, I have a great passion for red tending towards magenta.
+Ah, red, what a color. It is so wonderful I have to keep note of all the nice shades of it I lay my eye upon. Also, I have a great passion for <u>red tending towards magenta</u>.
 
 - `#FF0000`, FULL, **strong**, total red
 - `#EC0868`, [*Razzmatazz*](https://en.wikipedia.org/wiki/Razzmatazz_(song) "Razzmatazz on Wikipedia")
@@ -92,7 +91,7 @@ Ah, red, what a color. It is o wonderful I have to keep note of all the nice sha
 <br>
 <br>
 
-## Sintax highlight
+## Syntax highlight
 
 [Monokai Pro](https://monokai.pro "Monokai Pro") inspired sintax highlight, which does not correspond to [this website code snippets’ syntax](#tommispace-syntax-highlight)
 
@@ -114,7 +113,7 @@ MacOS dark theme system background colors. The accent colors can be found [here]
 - `#333`, standard background
 - `#1E1E1E`, darker background for alternate rows
 - `#292929`, lighter background for alternate rows
-- `#656565`, light grey for selection
+- `#656565`, light gray for selection
 - `#ED655A`, close window
 - `#FCC04C`, minimize
 - `#72BE47`, expand

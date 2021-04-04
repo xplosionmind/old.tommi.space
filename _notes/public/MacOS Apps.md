@@ -1,29 +1,28 @@
 ---
 date: 2021-02-26T10:19:47.219741+01:00
-updated: 2021-03-19T22:31:06.747191+01:00
+updated: 2021-04-02T19:01:44.086660+02:00
 tags: geek/apps
 description: "Right now on my <a href='https://support.apple.com/kb/SP799' rel='noopener noreferrer' target='_blank' title='MacBook Pro 13\" 2019 tech specs'>MacBook Pro 13\" 2019</a>"
 permalink: /macos
-redirect_from: ["/macos-apps", "/mac-apps"]
+redirect_from: ["/macos-apps", "/mac-apps", "/macos", "/macbook", "/macbook-pro", "/macbookpro", "/tommis-mac", "/tommis-macbook", "/tommis-macbook-pro", "/tommismacbookpro"]
 toc: false
 ---
 - [Adobe Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html), alas, the best photo editing software out there. I hate Adobe, but it works so damn good. I’m doing my best to completely switch to the two following programs but, damn, it’s so hard. Also: I have to keep Lightroom on my device because it’s impossible to move photography edits committed with Lightroom to Darktable.
 - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html). I tried living without it. I couldn't. Hands down, it's the best visual editing software in the world. You could do anything with it.
-- [AEScrypt](https://www.aescrypt.com "AEScrypt") file encrypter and decrypter
+- ~~[AEScrypt](https://www.aescrypt.com "AEScrypt") file encrypter and decrypter~~ I do not use it. If needed, same stuff can be done via CLI
 - [AlDente](https://github.com/davidwernhart/AlDente "AlDente source code on GitHub"), a MacBook utility to avoid over-charging the battery when the device is plugged and it have reached 100% charge
-- [alltomp3](https://alltomp3.org "alltomp3"), mp3 downloader
-- [Android File Transfer](https://www.android.com/filetransfer/), the name says it all. It’s simple and it works great.
-- [AppCleaner](https://freemacsoft.net/appcleaner) is not open source, but, damn, it’s so useful I have to keep it.
+- ~~[Android File Transfer](https://www.android.com/filetransfer/ "Android File Transfer"), the name says it all. It’s simple and it works great~~. I do not own an Android device anymore.
+- [AppCleaner](https://freemacsoft.net/appcleaner "AppCleaner") is not open source, but, damn, it’s so useful I have to keep it.
 - ~~[Audacity](https://www.audacityteam.org/ "Audacity official website"), audio editing software. I know, I have Garage Band which is awesome but… Audacity works the same way anywhere.~~ I need very little sound editing, mixing, etc: GarageBand is fine; furthermore, it's neat, simple and quick.
-- [Backtrack](https://www.backtrack.team/), the Holy Graal for university students which get easily distracted (me). It allows you to recover audio up to 5 hours before. It’s not Open Source and I payed 2€ for it. Totally worth it.
-- ~~[balenaEtcher](https://www.balena.io/etcher/), the safest, simplest and quickest software to flash OS images to external drives.~~ I wasn't using it so much.
+- [Backtrack](https://www.backtrack.team/ "Backtrack"), the Holy Graal for university students which get easily distracted (me). It allows you to recover audio up to 5 hours before. It’s not Open Source and I payed 2€ for it. Totally worth it.
+- ~~[balenaEtcher](https://www.balena.io/etcher/ "Etcher"), the safest, simplest and quickest software to flash OS images to external drives.~~ I was not using it so much.
 - ~~[BitBar](https://getbitbar.com "BitBar official website"), run any plugin from the top bar~~. I didn't use it.
-- ~~[BlackHole](https://blackhole.run/), to share any file. Fast and private. Based on [Blockstack](https://blockstack.org/).~~ It's useless.
+- ~~[BlackHole](https://blackhole.run/ "BlackHole"), to share any file. Fast and private. Based on [Blockstack](https://blockstack.org/).~~ It’s useless.
 - ~~[Blockstack](https://blockstack.org/), ideally, it’s something **awesome**, definitely game-changing.~~ Practically, it doesn’t work on my Mac (I tried <a href="https://forum.blockstack.org/t/cant-use-any-dapp/10628" rel="noopener noreferrer" target="_blank">everything</a>). I uninstalled and I’m not using it, then.
 - [ChatSecure](https://chatsecure.org "ChatSecure"), a free and open source XMPP messaging client
 - ~~[Cakebrew](https://www.cakebrew.com "Cakebrew"), Homebrew GUI~~, it is useless
 - [Clean Me](https://kevin-de-koninck.github.io/Clean-Me "Clean Me official website"), an Open Source, better, neat and perfectly working alternative to CCleaner written in Swift.
-- [Clipy](https://clipy-app.com "Clipy"), clipboard hystory logger
+- [Clipy](https://clipy-app.com "Clipy"), clipboard history logger
 - ~~[CopyQ](https://hluk.github.io/CopyQ/), a clipboard history recorder, which keeps a record of all copied text and items. It saved my life several times~~. I like Clipy much more
 - ~~[Cosmicast](https://www.poeticbytes.com/cosmicast "Cosmicast"), a minimal and beautiful podcast player which syncs with iOS through iCloud. It is proprietary software and it costs 3,50€~~. Definitely not worth the price: the app is buggy, it has a lot of problems and limits; I moved to Apple Podcasts… it syncs perfectly and it allows importing RSS feeds.
 - [[Cubbit]] desktop synchronization client
@@ -31,25 +30,26 @@ toc: false
 - [DarkModeBuddy](https://github.com/insidegui/DarkModeBuddy "DarkModeBuddy on GitHub"), a **must have**: MacOS theme changes from light to dark based on surrounding ambient light
 - ~~[Darktable](https://www.darktable.org/ "Darktable official website"), widely used (still, not the first option for pros) photo editing software. I wish I’d love it but, damn, it’s so friggin complicated~~. Using Lightroom. I'm sorry, but it simpler, faster, nicer.
 - ~~[Digikam](https://www.digikam.org/ "Digikam official website"), a photo management software~~. I don't have time to learn it and it isn't so essential.
-- <a href="https://dupeguru.voltaicideas.net/" rel="noopener noreferrer" target="_blank">dupeGuru</a>, a file (specially images) duplicate finder. It would be fantastic, but it doesn’t work with more than 200 photos, for me.
-- [DWAgent](https://www.dwservice.net/en/download.html?_request=main&page=download) by [DWS Service](https://www.dwservice.net/), a great, simple and lightweight VNC, thus a program which allows you to access your computer remotely from any web browser.
+- [dupeGuru](https://dupeguru.voltaicideas.net/ "dupeGuru"), a file (specially images) duplicate finder. It would be fantastic, but it does not work with more than 200 photos, for me.
+- [DWAgent](https://www.dwservice.net/en/download.html?_request=main&page=download) by [DWS Service](https://www.dwservice.net/ "DWS Service"), a great, simple and lightweight VNC, thus a program which allows you to access your computer remotely from any web browser.
 - [Element](https://element.io "Element") the most common and stable [Matrix](https://matrix.org "Matrix") client
 - [Espanso](https://espanso.org/ "Espanso official website"), a wonderful text expander
 - [FileZilla](https://filezilla-project.org/ "FileZilla official website"), the best and most used [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol "FTP on Wikipedia").
 - [Final Cut Pro](https://www.apple.com/final-cut-pro/ "Final Cut Pro"), again, pricey and proprietary, but it’s so optimised for MacOS, thus so fast, that I really need it to edit with ease videos I need to have ready in a short time.
 - [Mozilla Firefox](https://firefox.com "Mozilla Firefox official website"), the best browser ever.
-- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/), to debug and improve Web Design and front-end Web development experience.
+- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/ "Firefox Developer Edition"), to debug and improve Web Design and front-end Web development experience.
 - [FreeTube](https://freetubeapp.io "FreeTube official website"), a private, simple, nice desktop client for YouTube.
-- ~~[GIMP](https://www.gimp.org/)</a>, photo manipulation and editing software. Better known as the Photoshop free alternative, it’s full of resources and it misses almost no feature, but it’s so so so messed up and confusing (as Photoshop is). Too much stuff in too many different places.~~ I tried as hard as I could, but it was too stressful. Back to Photoshop
-- [GitHub Desktop](https://desktop.github.com/), to easily manage stuff when GitUp and git from terminal don’t make sense.
+- ~~[GIMP](https://www.gimp.org/ "GIMP"), photo manipulation and editing software. Better known as the Photoshop free alternative, it’s full of resources and it misses almost no feature, but it’s so so so messed up and confusing (as Photoshop is). Too much stuff in too many different places.~~ I tried as hard as I could, but it was too stressful. Back to Photoshop
+- ~~[GitHub Desktop](https://desktop.github.com/ "GitHub Desktop"), to easily manage stuff when GitUp and git from terminal do not make sense~~. Not really using it.
 - [GitUp](https://gitup.co "GitUp official website"), the best GUI interface for git.
 - [Get It](https://github.com/Kevin-De-Koninck/Get-It), a GUI interface for `youtube-dl`. Basically, a tool to download videos from YouTube.
 - [Gifski](https://gif.ski "Gifski official website"), to create GIFs
 - [GPG Keychain](https://gpgtools.org/keychain/index.html "GPG Suite homepage")</a>, to store and handle PGP Keys.
-- [HandBrake](https://handbrake.fr/ "HandBrake official website"), anythin you need to do with video files, it gets it done (in a short or eternal amount of time).
+- [HandBrake](https://handbrake.fr/ "HandBrake official website"), anything you need to do with video files, it gets it done (in a short or eternal amount of time).
 - ~~[Hidden Bar](https://github.com/dwarvesf/hidden "Hidden Bar official page"), to hide itchy icons from the menu bar~~. If the status bar is set to be hidden automatically, it doesn’t make sense to hide icons inside it.
 - [Inkscape](https://inkscape.org/ "Inkscape official website"). Anything with graphics? Use this. I definitely love it.
 - [iTerm](https://iterm.sourceforge.net/ "iTerm official website"), a feature-packed terminal emulator.
+	- [Change theme following system theme](https://gist.github.com/jamesmacfie/2061023e5365e8b6bfbbc20792ac90f8 " iTerm 2 - script to change theme depending on Mac OS dark mode")
 - [Jami](https://jami.net/ "Jami official website"), peer-to-peer unlimited video and voice communications. On paper it’s the go-to for everyone and I love it’s philosophy. Unfortunately, it still has a few bugs which make it impossible to use it regularly.
 - [Jitsi Meet](https://github.com/jitsi/jitsi-meet-electron), a video conferencing service which can be self-hosted. Since it should work only on Google Chrome browser, I installed the Electron-based app.
 - ~~[Joplin](https://joplinapp.org), basically it’s just a note-taking application, but it has **anything else** you can think of~~. Switched to Obsidian.
@@ -94,7 +94,7 @@ toc: false
 - ~~[The Desk](https://thedesk.top/), something like TweetDeck for Mastodon (and all of the Fediverse apps)~~. Never actually used it. The web client is nicer and just works.
 - [TomatoBar](https://github.com/ivoronin/TomatoBar "TomatoBar on GitHub"), set simple working timers
 - [Tor browser](https://www.torproject.org/), to navigate online completely anonymously
-- [TweetDeck](https://tweetdeck.twitter.com "TweetDeck official website"), to tweet as bad as I can. Obviously, this is a very bad proprietary software.
+- ~~[TweetDeck](https://tweetdeck.twitter.com "TweetDeck official website"), to tweet as bad as I can. Obviously, this is a very bad proprietary software~~. I [deleted](https://quitsocialmedia.club "Quit Social Media") my Twitter account.
 - [uTox](https://github.com/uTox/uTox "uTox source code"), a tiny, light super-private, peer-to-peer app to chat with my geek privacy-obsessed friends.
 - [VLC](https://www.videolan.org/vlc/ "VLC official website"), to watch anything.
 - [Tor Browser](https://www.torproject.org/projects/torbrowser.html), when I feel a VPN is not enough.
@@ -104,8 +104,9 @@ toc: false
 - [Zoom](https://zoom.us "Zoom official website"), you all know it. I'm not a fan and if it was for me I'd use [Jitsi Meet](https://meet.jit.si "Jitsi Meet") only, but I need it to access my university's classes.
 
 <br>
+<br>
 
-### Terminal
+## Terminal
 
 - [Homebrew](https://brew.sh/), MacOS package manager
 - [git](https://git-scm.com/), a <abbr title="Version Control Software">VCS</abbr> no one can live without.
@@ -131,3 +132,12 @@ toc: false
 - [xsv](https://github.com/BurntSushi/xsv "xsv GitHub repository"), CSV management tool.
 - <u class="wavy"><a href="https://you-get.org" rel="noopener noreferrer" target="_blank" title="you-get">you-get</a>, to download stuff from the internet</u>
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl "youtube-dl source code"), a tool to download videos (and audios) from YouTube
+
+<br>
+<br>
+
+## AppleScript
+
+[Enable the AppleScript menu on the Mac OS X menu bar](https://alvinalexander.com/mac-os-x/how-to-show-applescript-menu-item-mac-osx-menu-bar/ "How to enable the AppleScript menu on the Mac OS X menu bar")
+
+- [Get Message URL](https://www.jeffporten.com/2018/07/16/get-message-url/ "Get Message URL - Jeff Porten"): copies a link to the current message in the Mail app

@@ -3,6 +3,7 @@ date: 2021-01-15
 updated: 2021-03-12T17:28:29.013657+01:00
 redirect_from: ["/name-on-mars", "/mars", "/name-mars"]
 description: "My name is engraved in a plate on NASA’s Perseverance rover which is on Mars"
+tags: archive
 ---
 <style>
 	@media only screen and (min-width: 950px) {

@@ -94,6 +94,7 @@ In short, simply by typing: `crontab -e`
 ## My Cron Jobs
 
 - [[Cron Job wayback_archiver]]
+- [[Cron Job PhotoSync]]
 
 <br>
 <br>

@@ -39,9 +39,12 @@
 	--text-normal: #E1E1E1;
 	--text-accent: var(--primary);
     --text-accent-hover: var(--primary-light);
-    --scrollbar-bg: none !important;
-	--shadow: 5px 5px 20px #000000BB, -5px -5px 20px #FFFFFF11;
+    /*--scrollbar-bg: none !important;
+	--shadow: 5px 5px 20px #000000BB, -5px -5px 20px #FFFFFF11;*/
 	--grey: var(--light-grey);
+}
+
+.theme-light {
 }
 
 .theme-dark .cm-fat-cursor .CodeMirror-cursor {
@@ -53,8 +56,9 @@
 }
 
 .theme-light {
-    --scrollbar-bg: none !important;
-	--shadow: 5px 5px 20px #0005, -5px -5px 20px #FFFFFFEF;
+	--text-accent: var(--razzmatazz);
+    /*--scrollbar-bg: none !important;
+	--shadow: 5px 5px 20px #0005, -5px -5px 20px #FFFFFFEF;*/
 	--grey: var(--dark-grey);
 }
 

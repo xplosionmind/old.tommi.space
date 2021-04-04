@@ -73,4 +73,4 @@ And it's done. This is how simple, neat, fast, and powerful this process is.
 
 ### Mobile photo importing workflow
 
-My [[Photo importing workflow]]
+My [[Importing workflow]]

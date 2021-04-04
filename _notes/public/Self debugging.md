@@ -1,5 +1,6 @@
 ---
 date: 2020-12-08
+updated: 2021-03-31
 tags: zen, wip
 title: "Self-debugging"
 ---
@@ -12,7 +13,7 @@ title: "Self-debugging"
 
  1. Switch off everything, distraction included
  1. Loosen the self for a few minutes, getting ready to stay focused for a long time
- 2. Pinpoint a problem, the source of stress or pain, define its extension and its area of influence
+ 2. Pinpoint a problem, hence try to identify the source of stress or pain, define its extension and influence
  3. Start the very debugging process:
 	 1. identify the source of the problem
 	 2. identify its effects
@@ -28,4 +29,4 @@ title: "Self-debugging"
 
 ## Notes
 
-A great [[Loops|habit]] would be to perform self debugging even if there's nothing relevant bothering or pressuring us. Addressing the cause of some suffering while not suffering for it could open a new, brighter and helpful new perspective on a possible solution — or, to stay in the Computer Sciences vocabulary, a possible *fix*.
+A great [[Loops|habit]] would be to perform self debugging even if there's nothing relevant bothering or pressuring us. <u>Addressing the cause of some suffering while not suffering for it</u> could open a new, brighter and helpful new perspective on a possible solution — or, to stay in the Computer Sciences vocabulary, a possible *fix*.

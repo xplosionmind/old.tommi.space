@@ -1,6 +1,7 @@
 ---
 date: 2020-05-13
 updated: 2021-03-16T17:26:39.174719+01:00
+tags: geek
 redirect_from: ["/datasets", "data-sets", "/databases", "/public-data"]
 todo:
   - "Where to find reliable poll results? Official raw data, but simple?"

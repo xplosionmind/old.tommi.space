@@ -1,7 +1,7 @@
 ---
 date: 2020-12-24
-updated: 2021-03-10T09:18:01.865851+01:00
-tags: geek draft
+updated: 2021-04-02T19:41:20.871577+02:00
+tags: geek
 aliases: "Backup"
 redirect_from: ["/backup", "/backups"]
 ---
@@ -33,17 +33,16 @@ Now (time of writing: January 2021), space is running out. I need to find a valu
 <br>
 <br>
 
-## Issues
-
-Let's point out my needs, my questions and doubts on the topic.
-
 ## Needs
 
 1. **Durability**: I want to be able to effortlessly access all of my data now as 30 years from now.
 1. **Reliability**: my storage system has to be <u>absolutely <strong>fail-proof</strong></u> (of course, no system is. I need to achieve the best reliability I can afford). I can't lose any of my data again.
-1. **Backward compatibility**: the solution I'll find has to be compatible with the current one.
+1. **Backward compatibility**: the solution I will find has to be compatible with the current one.
 1. **Affordability**: I should not spend too much on this. In the end, shooting pictures is not my job (yet).
-1. **Accessibility**: if possible, I'd like to be able of accessing all of my pictures (mainly) from anywhere anytime
+1. **Accessibility**: if possible, I would like to be able of accessing all of my pictures (mainly) from anywhere anytime
+
+<br>
+<br>
 
 ## Doubts
 
@@ -52,6 +51,14 @@ Let's point out my needs, my questions and doubts on the topic.
 	- is it secure? Are my private pictures somehow server-side encrypted?
 - Does it make sense to use my [Cubbit Cell](https://cubbit.io "Cubbit")'s 4TB for long-term picture storage?
 - Should I use portable Hard Disks, as the ones I already have, or internal hard disks to plug to [[Linuxplosion]]?
+
+## Solution
+
+The solution I found out to be working greatly up to now is the one described in [[Importing workflow]], which consists in setting a window of [[Cron Job PhotoSync|a few hours per week]] while [[Linuxplosion]] is available to synchronize pictures and run tasks via SSH. In this way, storage is safely and redundantly backed up at home.
+
+Cubbit would have been great, but it lacks two crucial features:
+- it is hardly expandable: I could easily fill up the maximum 4TB of storage in few years
+- it is not optimized for pictures (yet): albums and photo galleries are limited to folders and sub-folders, there is not even any support for tags.
 
 <br>
 <br>
