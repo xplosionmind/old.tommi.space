@@ -1,7 +1,7 @@
 ---
 date: 2021-01-07
 updated: 2021-01-07
-tags: book draft
+tags: reading/book/wip
 description: 
 permalink: /dorian-gray
 redirect_from: ["/the-picture-of-dorian-gray", "/picture-of-dorian-gray"]

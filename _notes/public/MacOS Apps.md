@@ -1,6 +1,6 @@
 ---
 date: 2021-02-26T10:19:47.219741+01:00
-updated: 2021-04-02T19:01:44.086660+02:00
+updated: 2021-04-04T15:58:01.072699+02:00
 tags: geek/apps
 description: "Right now on my <a href='https://support.apple.com/kb/SP799' rel='noopener noreferrer' target='_blank' title='MacBook Pro 13\" 2019 tech specs'>MacBook Pro 13\" 2019</a>"
 permalink: /macos
@@ -131,6 +131,7 @@ toc: false
 - [csvdiff](https://github.com/aswinkarthik/csvdiff "csvdiff source code on GitHub"), compare CSV files
 - [xsv](https://github.com/BurntSushi/xsv "xsv GitHub repository"), CSV management tool.
 - <u class="wavy"><a href="https://you-get.org" rel="noopener noreferrer" target="_blank" title="you-get">you-get</a>, to download stuff from the internet</u>
+- [gping](https://github.com/orf/gping "gping source code on GitHub"), ping with a graph
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl "youtube-dl source code"), a tool to download videos (and audios) from YouTube
 
 <br>

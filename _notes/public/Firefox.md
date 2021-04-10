@@ -1,6 +1,6 @@
 ---
 date: 2020-07-03
-updated: 2021-02-04T09:08:07.766379+01:00
+updated: 2021-04-09T11:07:45.246+02:00
 tags: geek/apps
 description: "I consider myself a Firefox power user: I love it and I take full advantage of its features. Here’s how I do it."
 redirect_from: ["/firefox-tweaks", "/firefox-settings", "/mozilla-firefox", "/about-config", "/aboutconfig", "/firefox-config"]
@@ -25,26 +25,38 @@ Three different add-ons configurations can be found in my [Firefox Collections](
 <br>
 <br>
 
+## userChrome.css
+
+userChrome.css is the CSS file which can be used to modify the appearance of Firefox. Below there are my little modifications.
+
+```css
+/* Hide the back and forward buttons */
+#back-button, #forward-button { display:none!important; }
+```
+
+<br>
+<br>
+
 ## about:config
 
 A record of all the tweaks I made in Firefox `about:config` page
 
-- [ ] `privacy.trackingprotection.fingerprinting.enabled` = `true` - [FF67+] Blocks Fingerprinting
+- [x] `privacy.trackingprotection.fingerprinting.enabled` = `true` - [FF67+] Blocks Fingerprinting
 - [x] `privacy.trackingprotection.cryptomining.enabled` = `true` - [FF67+] Blocks CryptoMining
-- [ ] `privacy.resistFingerprinting` = `true` - A result of the Tor Uplift effort, this preference makes Firefox more resistant to browser fingerprinting.
+- [x] `privacy.resistFingerprinting` = `true` - A result of the Tor Uplift effort, this preference makes Firefox more resistant to browser fingerprinting.
 - [ ] `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is used to hide real browser size.
 - [x] `privacy.trackingprotection.enabled` = `true` - This is Mozilla's new built-in tracking protection. One of it's benefits is blocking tracking (i.e. Google Analytics) on privileged pages where add-ons that usually do that are disabled.
 - [x] `dom.event.clipboardevents.enabled` = `false` - Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.
-- [x] `media.eme.enabled` = `false` - Disables playback of DRM-controlled HTML5 content, which, if enabled, automatically downloads the Widevine Content Decryption Module provided by Google Inc. Details
+- [ ] `media.eme.enabled` = `false` - Disables playback of DRM-controlled HTML5 content, which, if enabled, automatically downloads the Widevine Content Decryption Module provided by Google Inc. Details
 	- [ ] `media.gmp-widevinecdm.enabled` = `false` - Disables the Widevine Content Decryption Module provided by Google Inc., used for the playback of DRM-controlled HTML5 content.
 - [x] `media.navigator.enabled` = `false` - Websites can track the microphone and camera status of your device.
 - [x] `network.cookie.cookieBehavior` = `1` - Disable cookies
 	- `0` = Accept all cookies by default
 	- `1` = Only accept from the originating site (block third-party cookies)
 	- `2` = Block all cookies by default
-- [x] `privacy.firstparty.isolate` = `true` - or preventing domains from accessing each other’s data. If something breaks, it’s most likely related to `this`.
+- [ ] `privacy.firstparty.isolate` = `true` - or preventing domains from accessing each other’s data. If something breaks, it is most likely related to this.
 - [ ] `extensions.pocket.enabled` - `false` - make Pocket integration go away
-- [x] `geo.wifi.uri` = `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. See also [MLS Software](https://wiki.mozilla.org/CloudServices/Location/Software).
+- [ ] `geo.wifi.uri` = `https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%` in order to send nearby WiFi networks to Mozilla instead of Google. In order to request an API Key and to find out more about the project, visit [Mozilla Location Services](https://location.services.mozilla.com/ "Mozilla Location Services").
 - [x] `network.IDN_show_punycode` = `true` to see punycode instead of UTF-8 in case of spoofing attempt.
 - [x] `ui.systemUsesDarkTheme` = `true` allow websites to know you're using dark theme
 - [x] `network.http.referer.XOriginPolicy` = `1` - Only send Referer header when the full hostnames match. (Note: if you notice significant breakage, you might try 1 combined with an XOriginTrimmingPolicy tweak below.) [Source](https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/)
@@ -58,9 +70,8 @@ A record of all the tweaks I made in Firefox `about:config` page
 - [x] `beacon.enabled` = `false` - Disables sending additional analytics to web servers. Details
 - [x] `browser.safebrowsing.downloads.remote.enabled` = `false` - Prevents Firefox from sending information about downloaded executable files to Google Safe Browsing to determine whether it should be blocked for safety reasons. [Details](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work#w_what-information-is-sent-to-mozilla-or-its-partners-when-phishing-and-malware-protection-are-enabled)
 - [x] `network.IDN_show_punycode` = `true` - Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. [Source](https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636)
-- [x] `network.trr.early-AAAA` = `true` to hopefully prefer IPv6
 - [ ] `network.trr.bootstrapAddress` = `149.112.112.112` (Resolver 2 of [Quad9](https://quad9.net/)) -  DNS server to use for resolving the DoH name.
-- [ ] `media.peerconnection.enabled` = `false` - While software like NoScript prevents this, it's probably a good idea to block this protocol directly as well, just to be safe. Note: This **disables browser-based call functionality that is used for webapps**
+- [ ] `media.peerconnection.enabled` = `false` - While software like NoScript prevents this, it's probably a good idea to block this protocol directly as well, just to be safe. Note: This <u>disables browser-based call functionality that is used for webapps</u>
 - [x] `services.sync.prefs.sync.privacy.trackingprotection.enabled` = `true`
 - [x] `apz.allow_zooming` = `true`
 - [x] `dom.gamepad.extensions.lightindicator` = `true` - seems like a cool thing to do

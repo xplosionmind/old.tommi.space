@@ -1,13 +1,14 @@
 ---
 date: 2020-09-09
+updated: 2021-04-10T11:44:52.971651+02:00
 description: "Books I own and books I’d love to read and/or have"
-tags: read
+tags: reading
 redirect_from: ["/library", "/bookshelf", "/libreria", "/libri"]
 main: true
 toc: false
 todo:
   - "Add reading times and gifts"
-  - "Better implementation of the Open Library: display book pictures and read JSON"
+  - "fix reading notes display issues"
 ---
 <style>
 	li {
@@ -41,15 +42,9 @@ todo:
 
 		<li>
 			{% if book.author != '' %}
-				<a href="https://openlibrary.org/search/authors?q={{ book.author | uri_escape }}&mode=everything" rel="noopener noreferrer" target="_blank" title="{{ book.author }} in the Open Library">
-					{{ book.author }}
-				</a> - 
+				{{ book.author }}
 			{% endif %}
-			<cite>
-				<a href="https://openlibrary.org/search/?q={{ book.title | uri_escape }}&mode=everything" rel="noopener noreferrer" target="_blank" title="{{ book.title }} in the Open Library">
-					{{ book.title }}
-				</a>
-			</cite>
+			<cite>{{ book.title }}</cite>
 		</li>
 	{% endfor %}
 </ul>
@@ -60,27 +55,43 @@ todo:
 
 <h2 class="title" id="Library">Library</h2>
 
-<ul class="two">
+<div class="library">
 	{% for book in site.data.library %}
-
-		<li>
-			{% if book.author != '' %}
-				<a href="https://openlibrary.org/search/authors?q={{ book.author | uri_escape }}&mode=everything" rel="noopener noreferrer" target="_blank" title="{{ book.author }} in the Open Library">
-					{{ book.author }}
-				</a> - 
+	<a href="https://openlibrary.org/isbn/{{ book.isbn }}" rel="noopener noreferrer" target="_blank" title="{{ book.title }} in the Open Library">
+			{% if book.isbn %}
+			<img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg?default=false" alt="{{ book.title }}" title="{{ book.title }}" />
+			{% else %}
+				<div class="fake-book-cover">
+					<cite>{{ book.title }}</cite>
+				</div>
 			{% endif %}
-			<cite>
-				{% if book.isbn != '' %}
-					<a href="https://openlibrary.org/isbn/{{ book.isbn | remove: '-' }}" rel="noopener noreferrer" target="_blank" title="{{ book.title }} in the Open Library">
-						{{ book.title }}
-					</a>
-				{% else %}
-					{{ book.title }}
-				{% endif %}
-			</cite>
-		</li>
+			<div class="popup">
+				<div class="half column">
+					<p>title: <strong><cite>{{ book.title }}</cite></strong>
+						<br />
+					author: <strong>{{ book.author }}</strong>
+						<br />
+						read: 
+						{% if book.started %}
+							{% if book.finished %}
+								yes
+							{% else %}
+								started, but not finished
+							{% endif %}
+						{% else %}
+							no
+						{% endif %}
+						<br />
+						location: {{ book.location }}
+					</p>
+				</div>
+				<div class="half column">
+					<img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false" title="{{ book.title }}" />
+				</div>
+			</div>
+		</a>
 	{% endfor %}
-</ul>
+</div>
 
 <br />
 <br />

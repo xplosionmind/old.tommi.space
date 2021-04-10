@@ -1,7 +1,7 @@
 ---
 date: 2020-11-07
-updated: 2021-02-13T12:14:22.647452+01:00
-tags: qsm, geek
+updated: 2021-04-04T11:53:45.837519+02:00
+tags: geek
 aliases: ["Quitting Spotify"]
 description: "Thoughts and decisions about quitting Spotify"
 permalink: /quit-spotify
@@ -10,20 +10,26 @@ image: "/images/jar/quit-spotify.jpg"
 ---
 Quitting Spotify is hard.
 
-It's **very** hard, not only because it's convenient and easy to use, but mostly because almost everyone else uses it; thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. For these reasons, quitting and finding another tool to listen to music isn't enough: it's necessary to substitute the playlist creation and sharing workflow of Spotify while keeping it accessible and easy to experience for anybody.
+<div class="yellow box">
+	<b>Update</b>: I figured I heve to come to a compromise: Spotify is actually useful and not all bad. Yes, it has its issues, but in the end music listening is one of the few things I want to do <i lang="it">e basta</i>, without having to waste time on a better way to do it.<br>
+	For now, I am sticking with Spotify. If you have simple, neat, inexpensive, and effective solutions, please get in touch!
+</div>
+
+It is **very** hard, not only because it is convenient and easy to use, but mostly because almost everyone else uses it; thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. For these reasons, quitting and finding another tool to listen to music isn't enough: it's necessary to substitute the playlist creation and sharing workflow of Spotify while keeping it accessible and easy to experience for anybody.
 
 <div class="blue box">
 	Quitting Spotify is one of the steps of the path to [[Internet Freedom]], and it follows the “[[Quit and switch]]” philosophy.
 </div>
 
 <br>
+<br>
 
 ## Why
 
 Reasons to quit Spotify
 
-- [Criticism of Spotify](https://en.m.wikipedia.org/wiki/Criticism_of_Spotify) on Wikipedia
-- [Stallman says this](https://stallman.org/spotify.html "Quit Spotify on Richard Stallman's website")
+- [Criticism of Spotify](https://en.m.wikipedia.org/wiki/Criticism_of_Spotify "Criticism of Spotify") on Wikipedia
+- [RMS says this](https://stallman.org/spotify.html "Quit Spotify on Richard Stallman’s website")
 - It costs a lot, and it grants musicians only a tiny share of the overall revenue
 - I prefer not to be tracked and I'd prefer for my listening preferences not to be used for advertising purposes.
 

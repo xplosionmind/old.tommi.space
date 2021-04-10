@@ -1,7 +1,7 @@
 ---
 date: 2020-10-27
 updated: 2020-10-27
-tags: zen, wip
+tags: zen wip
 redirect_from: ["/time", "/time-management", "/moduli"]
 description: "I get distracted very easily, an my mind goes from a topic to a totally different one in no time. While this can be a great quality to be creative (not so much, in the end), it's a very stressful, time-consuming and unproductive lifestyle. This is why I conceived slots."
 ---

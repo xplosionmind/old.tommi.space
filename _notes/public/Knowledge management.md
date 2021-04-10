@@ -1,6 +1,7 @@
 ---
 date: 2020-12-09
 updated: 2020-12-21
+tags: knowledge
 ---
 It's so hard to forget what has been learned. Here are some efficient ways to keep track of content
 

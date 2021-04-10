@@ -6,12 +6,11 @@ baseurl: ""
 url: "https://tommi.space"
 author:
   name: Tommi
-  twitter: xplosionmind
+  username: tommi
   picture: "/images/profile.jpg"
-logo: "/favicon.png"
+logo: "/favicon.ico"
 publisher: Tommi
 timezone: Europe/Rome
-twitter_username: xplosionmind
 github_username: xplosionmind
 git_repository: "tommi.space"
 future: true
@@ -77,7 +76,7 @@ feed:
 # SEO
 social:
   name: xplosionmind
-tagline: "Tommi's virtual mind"
+tagline: "Tommi’s virtual mind"
 twitter:
   username: xplosionmind
   card: summary

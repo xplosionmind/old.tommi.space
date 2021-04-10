@@ -235,6 +235,48 @@ input.button {
 	}
 }
 
+.library {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+	grid-gap: var(--tiny);
+	a {
+		& > img,
+		& > .fake-book-cover {
+			font: italic .5em var(--font-serif);
+			line-height: unset;
+			text-align: center;
+			color: #E1DCC5;
+			background: linear-gradient(-30deg, #39281E, #4E3C2B);
+			margin-top: 15%;
+			border-radius: 3px;
+			box-shadow: var(--little-shadow);
+			min-height: 80%;
+		}
+		&:hover {
+			.popup {
+				display: block;
+			}
+		}
+	}
+	.fake-book-cover {
+		height: 95%;
+		padding: 20% 2px 0;
+	}
+}
+
+.popup {
+	display: none;
+	position: fixed;
+	padding: var(--twice);
+	top: 10vh;
+	left: 20vw;
+	width: 60vw;
+	background: var(--background);
+	border-radius: var(--radius-l);
+	box-shadow: var(--shadow);
+	color: var(--text) !important;
+}
+
 li {
 	margin-bottom: var(--small);
 	line-height: var(--regular-more-em);
@@ -824,7 +866,7 @@ button,
 {% endfor %}
 
 .green {
-	background: var(--green);
+	background: var(--green) !important;
 	border-color: var(--green) !important;
 	&:not(.border) {
 		--text: var(--black-ish);
@@ -928,6 +970,9 @@ button,
 	}
 	p {
 		line-height: 1.5em;
+	}
+	.popup {
+		left: 5vw;
 	}
 }
 

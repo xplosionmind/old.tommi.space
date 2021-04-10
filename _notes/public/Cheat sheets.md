@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-updated: 2021-03-16T18:59:20.944162+01:00
+updated: 2021-04-06T14:57:47.011159+02:00
 tags: geek
 aliases: ["Cheat Sheet"]
 description: "I use tech devices a lot, maybe too much, but I do not dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
@@ -8,7 +8,7 @@ redirect_from: ["/cheatsheet", "/cheatsheets", "/cheat-sheet"]
 ---
 ![[Hotkeys]]
 
-## CLI
+## Terminal
 
 Useful [terminal](https://en.wikipedia.org/wiki/Terminal "Terminal on Wikipedia") commands
 
@@ -48,11 +48,24 @@ A quick for loop
 for f in *.txt; do pandoc "$f" -s -o "${f%.txt}.rtf"; done
 ```
 
+watch Star Wars - A New Hope in ASCII (not a joke)
+```sh
+nc towel.blinkenlights.nl 23
+```
+
 <br>
 
 ### Resources
 
 - [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line), a GitHub repository by [Marcel Bischoff](https://herrbischoff.com/)
+- [Commandlinefu best commands](https://www.commandlinefu.com/commands/browse/sort-by-votes "Commandlinefu best commands"), a record of little great command line tips
+- [Handy Bash Shell Aliases For Linux](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html "30 Handy Bash Shell Aliases For Linux")
+- [Shell commands for simple tasks of processing CSV file](https://dev.to/0xbf/shell-commands-for-simple-tasks-of-processing-csv-files-linux-tips-48ea "Shell commands for simple tasks of processing CSV file")
+- [`chmod` guide](https://chmodcommand.com "Chmodcommand")
+- A complete dive in the Terminal language, Bash, by visiting [[Bash]]
+
+<br>
+<br>
 
 ## `sd`
 
@@ -77,85 +90,52 @@ bundle exec htmlproofer --assume-extension --allow_hash_href --check_favicon --c
 
 See [HTML Proofer \> Configuration](https://github.com/gjtorikian/html-proofer#configuration "HTML Proofer Configuration") for the complete parameters list.
 
+<br>
+<br>
+
+## Linux
+
 ![[Linuxplosion#Cheat Sheet]]
+
+<br>
+<br>
+
+## Vim
 
 ![[Vim#Cheat Sheet]]
 
+<br>
+<br>
+
+## Pandoc
+
 ![[Pandoc#Cheat sheet]]
+
+<br>
+<br>
+
+## Exiftool
 
 ![[Exiftool#Cheat Sheet]]
 
-
 <br>
-
-***
-
 <br>
 
 ## git
 
-- [Dangit, Git!?!](https://dangitgit.com/ "Dangit, Git!?!")
+![[git#Cheat sheet]]
 
 <br>
 <br>
 
-## Nextcloud
-### Manually install applications
-
-move to the Nextcloud apps folder
-```sh
-cd /var/www/nextcloud/apps
-```
-
-download the application package from [Nextcloud apps website](https://apps.nextcloud.com/ "Nextcloud Apps")
-```sh
-wget https://github.com/nextcloud/documentserver_community/releases/download/v0.1.5/documentserver_community.tar.gz # url to the package
-```
-
-extract it (by substituting `package_name` with the name of the app package)
-```sh
-tar -xvzf package_name.tar.gz
-```
-
-remove compressed package
-```sh
-rm -rf package_name.tar.gz
-```
-
-change permissions for the app’s directory
-```sh
-chown -R www-data:www-data /var/www/nextcloud/apps/app_name
-chmod -R 755 /var/www/nextcloud/apps/app-name
-```
+![[Server Setup#Nextcloud Cheat Sheet]]
 
 <br>
-
-### Maintenance mode
-
-enable maintenance mode
-```sh
-sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode --on
-```
-
-disable maintenance mode
-```sh
-sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode --off
-```
-
-<br>
-
-Using the `occ` command in a dockerized instance
-```sh
-docker-compose exec --user www-data app php occ
-```
-
-<br>
-
-***
-
 <br>
 
 ## Docker
+
+<br>
 
 ### Notes
 

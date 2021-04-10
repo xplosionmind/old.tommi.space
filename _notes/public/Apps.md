@@ -51,5 +51,8 @@ Apps which are not installed but it is worth remembering.
 - [doing](https://github.com/ttscoff/doing "doing"), a CLI script to remember what you were doing
 - [Hook](https://hookproductivity.com/ "Hook"), to link stuff in MacOS
 - [World Scribe](https://github.com/MarquisLP/World-Scribe "World Scribe"), an Android app for fictional world-building 
-- [OPAC App](https://opac.app/ "OPAC App"), Android app to access libraries catalogues around the world (not in use since the ones I frequent are not supported)
+- [OPAC App](https://opac.app/ "OPAC App"), Android app to access libraries catalogs around the world (not in use since the ones I frequent are not supported)
 - [Timeline](http://thetimelineproj.sourceforge.net/ "Timeline"), a timeline manager, for Linux and Windows only
+- [Timelines](https://timelines.app/ "Timelines App"), an iOS only app for time tracking. It is incredibly similar to my concept of [[Timeline development|Timeline]], but it has a pro subscription.
+- [pass](https://www.passwordstore.org/ "pass - the standard unix password manager"), the standard Unix password manager
+- [Knil](https://apps.apple.com/app/knil-universal-link-testing/id1195310358 "Knil on Apple App Store"), universal link testing

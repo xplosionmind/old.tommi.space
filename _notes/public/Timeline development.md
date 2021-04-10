@@ -1,7 +1,7 @@
 ---
 date: 2020-12-15T15:56:57.856311+01:00
-updated: 2021-02-27T16:21:24.548067+01:00
-tags: wip geek idea
+updated: 2021-04-06T11:48:30.541372+02:00
+tags: wip geek/idea
 description: "Developing a timeline which integrates with everything I do and locations all over the world"
 aliases: ["Timeline"]
 toc: false
@@ -12,6 +12,13 @@ Make a huge CSV (or YAML, so that there can be an array of links for every resou
 - subsections of this everything are put in more specific pages of the websites to add accomplishments (e.g. [[Server]], [[Tutto]], [[Giri]])
 - use tags to split stuff into the above mentioned subsections
 - add **locations**, too! Check OSM API to integrate the system
+
+<br>
+<br>
+
+## Automations
+
+- Take `page.date` and `page.updated` values of the websites’ pages to automatically know the moments when they were being created/edited
 
 <br>
 <br>
@@ -50,8 +57,9 @@ Timeline is the social network of timelines, on which anybody can share their pe
 Timeline is static, flexible, neat, minimal and simple: an `ul` of elements which are distanced proportionally with the time which separates them
 
 <br>
+<br>
 
-### mine
+## mine
 
 Notes about my personal timeline (you will not see anything below because content is encrypted)
 

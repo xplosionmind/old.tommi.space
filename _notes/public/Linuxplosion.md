@@ -49,13 +49,20 @@ I currently do not use *Linuxplosion* much since it is not in the house where I 
 
 ## Schedule
 
-Linuxplosion is not a [[Server]], hence it has not to stay switched on all of the time (also because it is so powerful that it sucks a lot of power). Nevertheless, I needed to make it magically turn on by itself at a given day of the week, so that I can [[Importing workflow#Mobile|import media from my phone]]. To do so, I run [[Cron Job PhotoSync|this Cron Job]].
+Linuxplosion is not a [[Server]], hence it should not stay switched on all of the time (also because it is so powerful that it sucks a lot of power). Nevertheless, I needed to make it magically turn on by itself at a given day of the week, so that I can [[Importing workflow#Mobile|import media from my phone]]. To do so, I run [[Cron Jobs#rtcwake|this Cron Job]].
 
 <br>
 
 ### Background knowledge
 - https://unix.stackexchange.com/questions/185475/is-there-a-way-to-auto-turn-on-linux-machine#185481
 - https://www.maketecheasier.com/alarm-automatically-power-on-linux/
+
+<br>
+
+### Wake-on-LAN
+
+- [How To Wake Up Computers Using Linux Command \[ Wake-on-LAN ( WOL ) \] By Sending Magic Packets](https://www.cyberciti.biz/tips/linux-send-wake-on-lan-wol-magic-packets.html "How To Wake Up Computers Using Linux Command \[ Wake-on-LAN ( WOL ) \] By Sending Magic Packets")
+- [Simple Shell Script To Wake Up NAS Devices Using Linux or Unix Computer](https://bash.cyberciti.biz/misc-shell/simple-shell-script-to-wake-up-nas-devices-computers/ "Simple Shell Script To Wake Up NAS Devices Using Linux or Unix Computer")
 
 <br>
 <br>

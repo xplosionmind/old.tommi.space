@@ -54,7 +54,7 @@ Now (time of writing: January 2021), space is running out. I need to find a valu
 
 ## Solution
 
-The solution I found out to be working greatly up to now is the one described in [[Importing workflow]], which consists in setting a window of [[Cron Job PhotoSync|a few hours per week]] while [[Linuxplosion]] is available to synchronize pictures and run tasks via SSH. In this way, storage is safely and redundantly backed up at home.
+The solution I found out to be working greatly up to now is the one described in [[Importing workflow]], which consists in setting a window of [[Cron Jobs|a few hours per week]] while [[Linuxplosion]] is available to synchronize pictures and run tasks via SSH. In this way, storage is safely and redundantly backed up at home.
 
 Cubbit would have been great, but it lacks two crucial features:
 - it is hardly expandable: I could easily fill up the maximum 4TB of storage in few years

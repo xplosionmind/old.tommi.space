@@ -33,31 +33,32 @@ date,website,url,tags,notes
 2020-11-29,Gwern,https://www.gwern.net/index,,
 2020-11-29,Maggie Appleton,https://maggieappleton.com,,
 2020-12-10,HTML Energy,https://html.energy,,
-2020-12-15,LablNet,https://lablnet.github.io/board/,,
+2020-12-15,Board,https://lablnet.github.io/board/,,an interactive board
 2020-12-15,,https://olawalejuwonm.github.io/rest-countries-api-with-color-theme-switcher/,,
 2020-12-15,Webapp Tools,https://webapp.tools,,
-2020-12-15,1pt.co,https://1pt.co,,
+2020-12-15,1 Point,https://1pt.co,geek service,URL shortener
 2020-12-15,Unavatar,https://unavatar.now.sh,,
 2020-12-16,Excalidraw,https://excalidraw.com,,
 2021-01-06,Litewrite,https://litewrite.net/,,
 2021-01-06,0data,https://0data.app/,,
 2021-01-06,Find internet4000,https://find.internet4000.com,,
 2021-01-07,Infinite Gnossiennes,https://gnossiennes.mousereeve.com,,
-2021-01-16,Pussthecat,https://pussthecat.org,,
+2021-01-16,Pussthecat,https://pussthecat.org,geek service,hosted open source services
 2021-01-16,LearnAnything,https://learn-anything.xyz,,
-2021-01-16,ss64,https://ss64.com,,
+2021-01-16,ss64,https://ss64.com,geek,command line reference
 2021-01-16,Blank Website,http://www.blankwebsite.com,,
 2021-01-17,Webjeda,https://webjeda.com,,
 2021-01-17,Color mixer,https://colormixer.web.app,,
 2021-01-18,Lunar Explosion,https://lunarexploration.esa.int/intro,,
-2021-01-22,Bernie sits,https://bernie-sits.herokuapp.com,,
+2021-01-22,Bernie sits,https://bernie-sits.herokuapp.com,odd,
 2021-01-23,Nikita Voloboev’s Wiki,https://wiki.nikitavoloboev.xyz,,
 2021-01-31,Darius Kazemi,https://tinysubversions.com/vibes/,,
 2021-01-31,Person,https://tinysubversions.com/stuff/person/,,
 2021-02-02,The Reboot,https://thereboot.com,,
 2021-01-12,Create Habit,https://programs.clearerthinking.org/daily_ritual.html,,
 2021-01-13,xiffy,https://xiffy.nl,,
-2021-02-23,The Search Engines Map,https://www.searchenginemap.com,,
+2021-01-13,Bookwyrm,https://bookwyrm.social,service,"an open source, decentralized, and federated GoodReads alternative"
+2021-02-23,The Search Engine Map,https://www.searchenginemap.com,,
 2021-02-23,The Internet Map,https://internet-map.net,,
 2021-03-11,NeverSSL,https://neverssl.com/,,
 2021-03-11,Good Old Web,https://www.goodoldweb.com,,
@@ -67,7 +68,7 @@ date,website,url,tags,notes
 2021-03-11,Binary Music Player,https://tholman.com/binary-music-player/,,
 2021-03-11,Minimal IP address finder,https://ipaddress.sh,,
 2021-03-11,Can’t Not Tweet This,https://cant-not-tweet-this.com,,
-2021-03-11,The Useless Web,https://theuselessweb.com/sites/,,
+2021-03-11,The Useless Web,https://theuselessweb.com/sites/,odd,
 2021-03-11,The 512KB Club,https://512kb.club,,
 2021-03-11,The 1MB Club,https://1mb.club,,
 2021-03-11,The 250KB Club,https://250kb.club,,
@@ -92,3 +93,13 @@ date,website,url,tags,notes
 2021-03-22,Wizard Zines,https://wizardzines.com,geek,Learn Computer Science basic concepts through wonderful zines
 2021-03-23,Fedidb,https://fedidb.org,geek,a database which keeps count of federated social networks’ instances
 2021-03-23,Big Tech Detective,https://bigtechdetective.net,geek,a browser extension which highlights which big tech companies visited websites use
+2021-04-04,clickclickclick.click,https://clickclickclick.click,geek game,a little online game based on user tracking
+2021-04-04,Hemingway,https://hemingwayapp.com/,writing,a tool to check repetitions and language use in a pasted text
+2021-04-04,Scratch,https://hole.dev/scratch/,geek,an interactive JavaScript scratchpad
+2021-04-04,drumbit,https://drumbit.app/,music,an online drum machine
+2021-04-04,Vestigory,https://www.jacksondame.com/vestigory/get-started,lifelogging csv geek ios tool,a self-tracking app built with Shortcuts
+2021-04-04,commandlinefu,https://www.commandlinefu.com/,geek,is the place to record those command-line gems that you return to again and again
+2021-04-05,LibreTranslate,https://libretranslate.com/,tool translate,"an open API for translating, with a web client for occasional personal use"
+2021-04-05,Up1,https://up1.ca/,geek service,upload files encrypted by the client
+2021-04-05,Himico Cloud Services,https://himiko.cloud/directory/,geek service,"a great guy providing the main open source services out there for free, hosted by him"
+2021-04-05,Have I been Facebooked?,https://haveibeenfacebooked.com/,geek tool,a tool to understand if Facebook has your phone number

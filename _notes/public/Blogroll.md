@@ -7,7 +7,7 @@ description: "Blogs or websites worth remembering."
 redirect_from: ["/inspiration", "/websites"]
 main: true
 todo:
-  - "distinguish between "
+  - "Integrate with [[Internet Awesomeness]]"
 ---
 A website appears in this list for at least one of these three reasons:
 

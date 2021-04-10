@@ -1,7 +1,7 @@
 ---
 date: 2020-11-13
 updated: 2021-01-25T12:24:39.316841+01:00
-tags: zen
+tags: zen knowledge
 aliases: ["Digital Garden", "Wiki"]
 description: "The best way to manage knowledge and ideas as well as memories and lecture notes: the ultimate digital brain database system."
 permalink: /zettelkasten
@@ -13,6 +13,7 @@ Zettelkasten is a system for storing and accessing notes invented by [Niklas Luh
 [A full article about the topic](/switch-to-zettelkasten "Switching to Zettelkasten")
 
 <br>
+<br>
 
 ## Resources
 
@@ -23,12 +24,15 @@ Zettelkasten is a system for storing and accessing notes invented by [Niklas Luh
 - [Zettelkasten.de](https://zettelkasten.de)
 - [A great explanation video](https://youtu.be/XUltI4v_UU4)
 
+<br>
+
 ### Articles
 
 - [Zettelkasten for researchers](https://www.seanlawson.net/2017/09/zettelkasten-researchers-academics/)
 - [How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
 - [Zettelkasten with Typora](https://stoweboyd.com/post/190446627182/building-a-zettelkasten-in-typora)
 
+<br>
 <br>
 
 ## Software

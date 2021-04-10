@@ -1,7 +1,7 @@
 ---
 date: 2021-01-17T12:11:06.045451+01:00
 updated: 2021-01-25T11:15:02.041892+01:00
-tags: geek wip todo
+tags: geek/wip todo
 aliases: ["Webmentions"]
 description: "Connecting the web through independent websites"
 redirect_from: ["/webmentions", "/indiewebify"]

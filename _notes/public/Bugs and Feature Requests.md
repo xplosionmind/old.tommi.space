@@ -17,6 +17,7 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 
 - Clicking multiple times to toggle WiFi and Bluetooth: one click to disable it (white color), two clicks to completely switch it off. Alternatively, adding in the long-press pop-up the option to switch it off completely.
 - More selective notifications options, as in Android: select only specific types of notifications to mute
+- Extended screenshots
 
 <br>
 
@@ -79,7 +80,7 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 
 - choose to hide front matter when embedding other notes, even if “show YAML front matter” is switched on for the notes
 - Multiple hotkeys for one action
-- In links, update also headings when their name is changes
+- In links, update also headings when their name is changed
 - Tags aliases (e.g. &num;place == &num;places)
 
 <br>
@@ -109,10 +110,7 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 
 ## Cubbit
 
-## Feature requests
-
-- Using a custom domain
-- WebDAV support
+![[Cubbit#Feature requests]]
 
 <br>
 <br>

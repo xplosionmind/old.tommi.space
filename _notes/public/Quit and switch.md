@@ -1,34 +1,39 @@
 ---
 date: 2020-12-05
-updated: 2021-03-16T18:55:49.969965+01:00
-tag: meta geek zen main
+updated: 2021-04-04T11:44:26.316276+02:00
+tag: geek zen main
 aliases: ["Just quit", "Choose the alternative", "Go alternative", "Make the switch"]
 image: "/images/jar/just-quit.jpg"
 description: "Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it's for the best, it's worth it. Below some of the things I'm quitting."
 permalink: /switch
 redirect_from: ["/make-the-switch", "/quit-and-switch", "/quit-switch", "/choose-the-alternative", "/alternative-software", "/alternative"]
 main: true
+toc: false
 ---
 <div class="blue box">
 	Most of the times, the best thing to do is to [[Delete an account|just delete it]]
 </div>
 
-- [**<cite>Quit Social Media</cite>**](https://quitsocialmedia.club)
-	- Facebook ✅ (account deactivated on 2020.12.31)
-	- Twitter
-	- Instagram ✅ (deleted on 2021.03.16)
-		- Full data backup requested on 2020.12.31
-- [[Quit Google]] - deleted all accounts on 2021.03.31 ✅
-	- ~~Check Drive `Storage` folder~~ ✅ 2020.12.20
-	- ~~Check Drive `Shared with me` folder~~ (useful shared links moved to [[Google Drive and Dropbox shared links]]) ✅ 2020\.12\.10
-	- ~~consider deleting my Gmail address for good ([[Quit Gmail]])~~
-- [[Quit Spotify]] (still trying to find a valid alternative / workaround)
-- Quit Flickr and [[Piwigo]] ✅ 2020.12.23 - 2021.01.18
+- [**<cite>Quit Social Media</cite>**](https://quitsocialmedia.club) ✅
+- [[Quit Google]] ✅
+- ~~[[Quit Spotify]]~~: it is hard to live without it.
+- Quit Flickr and [[Piwigo|Switch to Piwigo]] ✅ 2020.12.23 - 2021.01.18
 - [[Quit listing]]
 - [[Quit Mailchimp]] (even if I almost never used it)
 - [[Switch to LineageOS]]
-- ~~Quit [IMDb](https://www.imdb.com/user/ur90419107/)~~ (switched to [The Movie Database](https://www.themoviedb.org/u/xplosionmind "My account on The Movie Database")) ✅ 2020.12.20
-- Consider switching from [Pocket](https://getpocket.com "Pocket") to a simple list of links in [[Ode to plain text|plain text]]
 - [[Quit Netflix]]
 - [[Switch to Darktable]]
 - [[Quit IMDb]]
+- [[Switch to Linux]]
+
+<br>
+<br>
+
+## Quitting
+
+Services to clean up data and guiding you through deletion
+
+- [JustDeleteMe](https://justdeleteme.xyz/ "JustDeleteMe"), direct, up-to-date links to delete your accounts
+- [DeleteMe](https://joindeleteme.com "DeleteMe"): pay a company to keep your data off data brokers websites
+- [Vanish](https://vanishlist.ml/ "Vanish"): guide to delete main online services’ accounts
+- [DeseatMe](https://www.deseat.me/ "DeseatMe"): find accounts linked to your Google or Outlook email, and choose which ones to delete and which ones to keep

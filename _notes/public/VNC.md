@@ -1,7 +1,7 @@
 ---
 date: 2021-03-26T23:03:15.489318+01:00
 updated: 2021-03-26T23:03:15.489318+01:00
-tags: wip todo geek
+tags: writing/idea todo geek/wip
 aliases: ["x11vnc", "TeamViewer"]
 description: "Connecting visually to a remote device through SSH"
 ---

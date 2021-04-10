@@ -1,7 +1,7 @@
 ---
 date: 2020-09-04
 updated: 2020-09-05
-tags: qsm book
+tags: reading/book/wip
 permalink: /lanier-social-media-notes
 redirect_from: ["/quit-social-media-notes", "/lanier-quit-social-media", "/quit-social-media-lanier", "/lanier-notes", "/notes-lanier", "/ten-arguments-notes", "/ten-arguments-social", "/ten-arguments-lanier", "/lanier-ten-arguments", "/notes-ten-arguments", "/Notes-on-Ten-Arguments-For-Deleting-Your-Social-Media-Accounts"]
 toc: false

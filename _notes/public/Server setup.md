@@ -1,7 +1,7 @@
 ---
 date: 2020-03-21
 updated: 2021-01-28T12:22:55.367195+01:00
-tags: geek geek/server
+tags: geek/server
 description: "A walktrough of the steps I executed to set up my server"
 ---
 <div class="box">
@@ -15,6 +15,9 @@ description: "A walktrough of the steps I executed to set up my server"
 
 Resources, apps, tutorials and several knowledge sources are mentioned in the [[Server]] page.
 
+<br>
+<br>
+
 ## Docker setup
 
 Please refer to [[Docker Server Setup]] to see how I re-deployed everything on my server through [Docker](https://www.docker.com "Docker").
@@ -22,7 +25,7 @@ Please refer to [[Docker Server Setup]] to see how I re-deployed everything on m
 <br>
 <br>
 
-## System configuration and environment setup
+## Good practices
 
 update [Ubuntu](https://ubuntu.com/server "Ubuntu server website") (`-y` parameter is used to accept by default any question)
 ```sh
@@ -36,9 +39,9 @@ sudo apt autoremove -y && sudo apt autoclean -y
 
 <br>
 
-## Add a limited user
+### Limited user
 
-It’s always better not to work and setup stuff straight from root user, it’s easy to mess everything up and very risky if you’re not 100% sure of what you’re doing (for me, most of the time).
+It is always better not to work and setup stuff straight from root user, it’s easy to mess everything up and very risky if you’re not 100% sure of what you’re doing (for me, most of the time).
 
 add user
 
@@ -53,7 +56,7 @@ adduser -aG tommi sudo
 
 <br>
 
-### Firewall configuration
+### Firewall
 
 Enable default configuration
 ```sh
@@ -77,14 +80,14 @@ sudo ufw allow 'Apache'
 
 <br>
 
-### configure SSH Authentication Key-pair
+### SSH keys
 
 create [ssh](https://www.ssh.com/ssh/ "ssh.com") folder to store allowed keys
 ```sh
 mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
 ```
 
-**on local device**:
+**on local client**:
 ```sh
 ssh-copy-id xplosionmind@100.100.010.1 -p 5002
 ```
@@ -96,17 +99,21 @@ scp -P 5002 ~/.ssh/id_rsa.pub xplosionmind@100.100.010.1:~/.ssh/authorized_keys
 
 Substitute `100.100.010.1` with the server’s IP address, `xplosionmind` with the wanted username, and `5002` with your port
 
-More information on [Linode’s guide](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/ "Use SSH Public Key Authentication on Linux, macOS, and Windows - Linode") on the topic
+#### More information
+
+- [SSH keys explained](https://dev.to/rmoff/ssh-keys-explained-2e2l "SSH keys explained"), a comprehensive yet simple guide to understand how SSH keys management should be done
+- [Linode’s tutorial](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/ "Use SSH Public Key Authentication on Linux, macOS, and Windows - Linode") on the topic
+- 
 
 <br />
 
-### Change default SSH port
+### SSH port
 
 <div class="box yellow">
 	Changing the default SSH port is useful to prevent randomized attacks which attempt to get access to the server from <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers" rel="noopener noreferrer" target="_blank">port 22</a>, the default one.
 </div>
 
-Enable the new SSH port from the firewall. In this case, the process I’ll be following configures port `5522`
+Enable the new SSH port from the firewall. In this case, the process I will be following configures port `5522`
 ```sh
 sudo ufw allow 5522/tcp
 ```
@@ -183,50 +190,56 @@ echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 <br />
 <br />
 
-## Nextcloud configuration
+## Nextcloud
+
+Nextcloud installation, configuration and troubleshooting.
+
+<br>
 
 ### Resources
 
 - [official installation documentation](https://docs.nextcloud.com/server/18/admin_manual/installation/source_installation.html)
 - complete [installation tutorial](https://youtu.be/QB_FEWJ9BB4) for Ubuntu 20.04, in dutch
 - [in-depth guide](https://youtu.be/QXfsi0pwgYw) for Nextcloud 15
-- check vulnerabilities with [Nextcloud Scan](https://scan.nextcloud.com)
+- check vulnerabilities with [Nextcloud Scan](https://scan.nextcloud.com "Nextcloud Scan")
 
-<br />
+<br>
 
 ### Permissions
 
 Firstly, it’s necessary to create the folder where Nextcloud interface, thus public application files, will be stored.
 
 In this case, I configured a directory which is named exactly as the domain where the content it’s hosting will be found, for simplicity.
-```
+
+```sh
 sudo mkdir /var/www/cloud.tommi.space
 ```
 
 then, permissions can be changed, such that Nextcloud itself can handle this data, once installed. As you can see, these permissions must be set `-R` recursively.
-```
+
+```sh
 sudo chown -R $USER:$USER /var/www/cloud.tommi.space
 sudo chmod -R 755 /var/www/cloud.tommi.space
 ```
 
-make the (private) directory where all of nextcloud data will be stored, and change its permissions, too
-```
+make the (private) directory where all of Nextcloud data will be stored, and change its permissions, too
+```sh
 mkdir /home/xplosionmind/nextcloud-data
 sudo chown -R www-data:www-data /home/xplosionmind/nextcloud-data/
 ```
 
 <br>
 
-### Apache configuration file
+### Apache
 
 This is the essential content of an Apache configuration fil for nextcloud. It should be placed in `/etc/apache2/sites-available/`
 
 create the configuration file by running
-```
+```sh
 sudo vim /etc/apache2/sites-available/cloud.tommi.space.conf
 ```
 
-then, add this content
+then, add this content:
 ```apache
 <VirtualHost *:80>
 	ServerAdmin tommiboom@protonmail.com
@@ -243,7 +256,7 @@ then, add this content
 
 ### Install MariaDB
 
-```
+```sh
 sudo apt install mariadb-server
 ```
 
@@ -252,7 +265,7 @@ Basic database configuration
 sudo mysql_secure_installation
 ```
 
-log in MariaDB
+log into MariaDB
 ```
 sudo mariadb
 ```
@@ -315,7 +328,7 @@ unzip nextcloud-18.0.4.zip
 
 ### Install Let's Encrypt
 
-[Certbot](https://certbot.eff.org "Certbot by EFF") will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
+[<span id="certbot">Certbot</span>](https://certbot.eff.org "Certbot by EFF") will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
 
 ```sh
 sudo apt install certbot python3-certbot-apache
@@ -337,7 +350,6 @@ sudo certbot --apache -d cloud.tommi.space -d www.cloud.tommi.space
 <br>
 
 Enable HTTP/2, and rewrite module
-
 ```sh
 sudo apt install php7.4-fpm
 sudo a2enmod proxy_fcgi
@@ -391,7 +403,7 @@ systemctl restart apache2
 
 <br>
 
-### Set the domain and complete setup 
+### Domain linking
 
 - point the chosen domain and subdomain to the server IP address
 - wait for the domain to propagate (it could take up to 48 hours)
@@ -420,7 +432,60 @@ Final adjustments are to be performed from the Nextcloud GUI. The [Nextcloud app
 
 ## Nextcloud Cheat Sheet
 
-See the [[Cheat sheets#Nextcloud|Nextcloud Cheat Sheet]] for list of useful commands to perform when needed (often).
+<br>
+
+### Manually install applications
+
+move to the Nextcloud apps folder
+```sh
+cd /var/www/nextcloud/apps
+```
+
+download the application package from [Nextcloud apps website](https://apps.nextcloud.com/ "Nextcloud Apps")
+```sh
+wget https://github.com/nextcloud/documentserver_community/releases/download/v0.1.5/documentserver_community.tar.gz # url to the package
+```
+
+extract it (by substituting `package_name` with the name of the app package)
+```sh
+tar -xvzf package_name.tar.gz
+```
+
+remove compressed package
+```sh
+rm -rf package_name.tar.gz
+```
+
+change permissions for the app’s directory
+```sh
+chown -R www-data:www-data /var/www/nextcloud/apps/app_name
+chmod -R 755 /var/www/nextcloud/apps/app-name
+```
+
+<br>
+
+### Maintenance mode
+
+enable maintenance mode
+```sh
+sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode --on
+```
+
+disable maintenance mode
+```sh
+sudo -u www-data php /var/www/cloud.tommi.space/public_html/occ maintenance:mode --off
+```
+
+<br>
+
+### Dockerized commands
+
+Using the `occ` command in a dockerized instance
+```sh
+docker-compose exec --user www-data app php occ
+```
+
+More information on the [Nextcloud Docker Hub page](https://hub.docker.com/_/nextcloud "Nextcloud - Docker Hub")
 
 <br>
 <br>
