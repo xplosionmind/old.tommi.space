@@ -2,6 +2,7 @@
 date: 2021-03-22T12:19:14.546861+01:00
 updated: 2021-03-22T12:19:14.546861+01:00
 tags: geek/knowledge geek/app
+aliases: ["Neovim"]
 description: "The best text editor in the world"
 redirect_from: ["/nvim", "/neovim", "/gvim", "/macvim"]
 ---
@@ -53,3 +54,18 @@ Sometimes, when I activate [spell checking](https://vimtricks.com/p/vimtrick-spe
 - [Practical Vim](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/ "Practical Vim, Second Edition") a book - the best book you can find - on Vim, by the same creator of Vim Casts: [Drew Neil](http://drewneil.com/).
 - [Vim subreddit](https://www.reddit.com/r/vim/ "r/vim")
 - [Vim intermediate guide](https://thevaluable.dev/vim-intermediate/ "A Vim Guide for Intermediate Users")
+
+<br>
+<br>
+
+## .vimrc
+
+`.vimrc` is the file containing the vim configuration. For the ones using Neovim, it is `~/.config/nvim/init.vim`.
+
+My configuration file is [here](https://github.com/xplosionmind/dotfiles/blob/main/.config/nvim/init.vim "Tommi’s Vim configuration file")
+
+<br>
+
+### Color schemes
+
+- [Solarized 8](https://vimawesome.com/plugin/solarized-8 "Solarized 8 on Vim Awesome")
