@@ -30,6 +30,9 @@
 	{% if page.ref != nil %}
 		<meta property="og:locale:alternate" content="{% if page.lang == 'it' %}en{% else %}it{% endif %}" />
 	{% endif %}
+	{% if page.latex %}
+		<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+	{% endif %}
 
 	<!-- Plausible Analytics -->
 	<script async defer data-domain="tommi.space" src="https://plausible.io/js/plausible.js"></script>

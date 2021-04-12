@@ -1,7 +1,7 @@
 ---
 date: 2020-05-06
-updated: 2021-03-04T18:44:00.807895+01:00
-tags: geek geek/apps
+updated: 2021-04-12T10:55:25.444366+02:00
+tags: geek/apps
 aliases: ["Software", "Digital Tools"]
 image: "/images/apps.png"
 description: "A comprehensive list of apps I use + interesting apps I have to keep record of."
@@ -23,6 +23,7 @@ toc: false
 - I use Firefox as my main (and only) browser, the awesome **extensions** I use are listed in a dedicated note: [[Firefox]].
 - **[[iOS Apps]]** installed on my [iPhone 12 mini](https://www.apple.com/it/iphone-12/ "iPhone 12")
 - **[[Android Apps]]** right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") running ~~[Oxygen OS](https://www.oneplus.com/oxygenos "OxygenOS on OnePlus’ website")~~ [[Switch to LineageOS|LineageOS]].
+- **[[Linux apps]]**: apps installed on [[Linuxplosion]]
 - **Nextcloud Apps**:   
 I love [Nextcloud](https://nextcloud.com "Nextcloud official website"). The apps I use on my instance are so many and so great I cannot list all of them. They can be found among many others in the [Nextcloud apps store](https://apps.nextcloud.com)
 

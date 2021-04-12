@@ -1,6 +1,6 @@
 ---
 date: 2021-01-20T16:55:39.252241+01:00
-updated: 2021-04-02T12:00:00.252241+01:00
+updated: 2021-04-12T10:50:59.898904+02:00
 tags: geek
 aliases: ["Ubuntu Workstation"]
 redirect_from: ["/workstation", "/ubuntu-pc", "/linux-pc", "/pc", "/PC", "/computer-fisso"]
@@ -96,6 +96,18 @@ to subsequently delete the password, run:
 ```sh
 sudo passwd -d `whoami`
 ```
+
+<br>
+<br>
+
+<br>
+<br>
+
+## Software
+
+Software installed on Linuxplosion
+
+![[Linux apps]]
 
 <br>
 <br>

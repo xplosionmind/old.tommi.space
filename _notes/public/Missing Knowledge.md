@@ -26,17 +26,19 @@ A private list of knowledge I miss about exams I am studying for.
 <br>
 <br>
 
-## Culture
+## Culture and Politics
 
 - Mattarellum
 - Limits to Growth 1972 and 2004
 - US Presidential timeline
+- Israel history
 
 <br>
 <br>
 
 ## Geek
 
+1. [[LaTeX]]
 1. [Learn and configure Syncthing](https://docs.syncthing.net/intro/getting-started.html "Getting Started - Syncthing")
 1. [[Pandoc#To learn]]
 3. [git](https://git-scm.com "git official website")
