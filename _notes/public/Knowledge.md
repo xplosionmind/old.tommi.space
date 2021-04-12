@@ -1,7 +1,7 @@
 ---
 date: 2020-05-07
-updated: 2021-04-04T18:07:27.621612+02:00
-tags: knowledge geek/knowledge
+updated: 2021-04-12T11:16:08.540797+02:00
+tags: geek/knowledge
 aliases: ["Resources", "Learning Resources"]
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
 redirect_from: ["/risorse", "/learning-resources", "/resources", "/conoscenza", "/sapere"]
@@ -55,6 +55,10 @@ Where and how to learn about Computer Sciences topics and anything technology re
 <br>
 
 ![[Bash#Resources]]
+
+<br>
+
+![[LaTeX#Resources]]
 
 <br>
 
