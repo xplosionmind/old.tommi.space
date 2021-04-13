@@ -622,6 +622,14 @@ h3 {
 	}
 }
 
+.tags {
+	padding: var(--big) var(--tiny);
+	.flex {
+		max-height: 30vh;
+		overflow: scroll;
+	}
+}
+
 #toc {
 	padding: 0 10%;
 	li {
@@ -666,6 +674,12 @@ h3 {
 	}
 }
 
+.excerpt {
+	display: block;
+	margin: var(--small) 10%;
+	font: 300 italic .8em var(--font-sans);
+}
+
 .stuff-logo {
 	width: auto;
 	min-width: 50%;
@@ -699,6 +713,10 @@ footer {
 		&:hover,
 		&:focus {
 			opacity: 1;
+		}
+		a {
+			/* override internal link color for “Privacy” */
+			color: var(--primary) !important;
 		}
 	}
 	img {
@@ -952,7 +970,7 @@ button,
 	}
 	.post-preview {
 		.title {
-			margin-top: var(--small);
+			margin-top: var(--regular-less);
 		}
 		img {
 			max-height: unset;

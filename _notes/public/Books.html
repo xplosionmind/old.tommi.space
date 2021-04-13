@@ -57,14 +57,15 @@ todo:
 
 <div class="library">
 	{% for book in site.data.library %}
-	<a href="https://openlibrary.org/isbn/{{ book.isbn }}" rel="noopener noreferrer" target="_blank" title="{{ book.title }} in the Open Library">
-			{% if book.isbn %}
-			<img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg?default=false" alt="{{ book.title }}" title="{{ book.title }}" />
-			{% else %}
+		{% if book.isbn %}
+			<a id="{{ book.title | slugify }}" href="https://openlibrary.org/isbn/{{ book.isbn }}" rel="noopener noreferrer" target="_blank" title="{{ book.title }} in the Open Library">
+				<img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg?default=false" alt="{{ book.title }}" title="{{ book.title }}" />
+		{% else %}
+			<a id="{{ book.title | slugify }}" href="javascript:void(0)" title="{{ book.title }}">
 				<div class="fake-book-cover">
 					<cite>{{ book.title }}</cite>
 				</div>
-			{% endif %}
+		{% endif %}
 			<div class="popup">
 				<div class="half column">
 					<p>title: <strong><cite>{{ book.title }}</cite></strong>

@@ -3,9 +3,9 @@
 		<a href="{{ post.url }}"><h2 class="title">{% if page.lang == 'it'%}Ultimo articolo{% else %}Latest post{% endif %}</h2></a>
 		<div class="half column vertical flex">
 			<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-			<div class="serif">
+			<cite class="excerpt">
 				{{ post.excerpt | truncatewords: 100 }}
-			</div>
+			</cite>
 			<a href="{{ post.url }}" class="written button">{% if page.lang == 'it' %}Leggi{% else %}Read{% endif %}</a>
 		</div>
 		<div class="half column vertical flex">

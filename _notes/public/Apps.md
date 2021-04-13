@@ -57,3 +57,4 @@ Apps which are not installed but it is worth remembering.
 - [Timelines](https://timelines.app/ "Timelines App"), an iOS only app for time tracking. It is incredibly similar to my concept of [[Timeline development|Timeline]], but it has a pro subscription.
 - [pass](https://www.passwordstore.org/ "pass - the standard unix password manager"), the standard Unix password manager
 - [Knil](https://apps.apple.com/app/knil-universal-link-testing/id1195310358 "Knil on Apple App Store"), universal link testing
+- [Regex](https://motionobj.com/regex/ "Regex"), to test Regex expressions. It costs 30€

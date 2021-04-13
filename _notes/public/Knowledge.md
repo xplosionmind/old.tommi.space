@@ -74,7 +74,7 @@ Where and how to learn about Computer Sciences topics and anything technology re
 
 ### Open Street Map
 
-- https://learnosm.org
+![[OpenStreetMap#Resources|OSM]]
 
 <br>
 <br>

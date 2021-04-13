@@ -10,6 +10,7 @@ description: "Un archivio di tutte le cose che faccio e che ho fatto"
 todo:
   - "Move this to a CSV file"
   - "Sort everything BY DATE, with YEAR as H2; current H2s should become tags"
+  - "Update Flickr links"
 ---
 Dato che, per mia natura, sono una trottola che gira ovunque per fare tante (troppe) diverse cose 
 

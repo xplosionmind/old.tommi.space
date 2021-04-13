@@ -8,6 +8,7 @@ todo:
 toc: false
 permalink: /cubo
 redirect_from: ["/il-cubo"]
+location: "Il Cubo"
 ---
 Il Cubo è la spiaggia più bella di Sanremo.\
 Può godere di questo primato in quanto, pur essendo uno stabilimento balneare, non ne possiede alcuna, di spiaggia.

@@ -7,7 +7,10 @@ layout: wrapper
 		{% if page.subtitle %}
 			<h2>{{ page.subtitle }}</h2>
 		{% endif %}
-		<p><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time></p>
+		<p>
+			<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time><br />
+			time to read: {{ content | reading_time_as_s }}
+		</p>
 		<link class="p-author h-card" rel="author" class="p-name" href="/about" content="{{ site.author.name }}" />
 	</div>
 

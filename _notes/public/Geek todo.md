@@ -4,6 +4,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 ---
 1. [[VNC]]
 4. [[Images]]
+1. [[PISE notes development]]
 5. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 6. a jekyll-backlinks repository (for the Liquid thing) as a submodule of tommi.space
 7. Defining a threat model

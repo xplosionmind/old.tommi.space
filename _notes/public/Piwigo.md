@@ -1,7 +1,7 @@
 ---
 date: 2020-12-05
-updated: 2021-02-04T14:39:46.366313+01:00
-tags: geek todo
+updated: 2021-04-13T14:46:12.845281+02:00
+tags: geek
 aliases: ["Quitting Flickr", "Quit Flickr"]
 description: "Thoughts and decisions about quitting Flickr and switching to Piwigo"
 image: "/images/jar/quit-flickr.jpg"
@@ -59,7 +59,8 @@ Why quitting [Flickr](https://www.flickr.com "Flickr") and choosing [Piwigo](htt
 https://images.tommi.space/plugins/download_by_size/action.php?id=16172&part=e&size=medium
 ```
 
-[API settings](https://images.tommi.space/tools/ws.htm "images.tommi.space API")
+- [API settings](https://images.tommi.space/tools/ws.htm "images.tommi.space API")
+- [Piwigo Forum post](https://piwigo.org/forum/viewtopic.php?id=31165 "Embedding images and galleries in HTML - Piwigo Forum")
 
 <br>
 <br>

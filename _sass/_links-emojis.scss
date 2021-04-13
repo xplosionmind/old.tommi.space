@@ -28,7 +28,16 @@ article .box:not(.tags) {
 		&[href*="visions" i] {
 			&::before {
 				content: "🖼 ";
-				/*content: "📷" */
+			}
+		}
+		&[href*="pixelfed.uno" i] {
+			&::before {
+				content: "📷 ";
+			}
+		}
+		&[href*="mastodon.uno" i] {
+			&::before {
+				content: "🐘 ";
 			}
 		}
 		&[href="/about" i],
@@ -96,6 +105,11 @@ article .box:not(.tags) {
 		}
 		&[href^="/places" i] {
 			&::before {
+				content: "📍 ";
+			}
+		}
+		&[href*="openstreetmap" i] {
+			&::before {
 				content: "🗺 ";
 			}
 		}
@@ -154,6 +168,7 @@ article .box:not(.tags) {
 		}
 		&[href*="poetry" i],
 		&[href*="poem" i],
+		&[href*="/pasticci" i],
 		&[href*="poesi" i] {
 			&::before {
 				content: "🖋 ";
@@ -185,6 +200,16 @@ article .box:not(.tags) {
 		&[href*="/storage" i] {
 			&::before {
 				content: "💾 ";
+			}
+		}
+		&[href="https://feedbin.com/starred/473f6605a06ee11a237dd820d772f086.xml"] {
+			&::before {
+				content: "❤️ ";
+			}
+		}
+		&[href="http://getpocket.com/users/xplosionmind/feed/read"] {
+			&::before {
+				content: "👀 ";
 			}
 		}
 	}

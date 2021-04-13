@@ -1,7 +1,7 @@
 ---
 date: 2020-07-20
-updated: 2021-03-16T17:43:07.586334+01:00
-tags: places
+updated: 2021-04-13T14:40:27.796201+02:00
+tags: places wip
 aliases: ["Places"]
 image: "/images/places.jpg"
 permalink: /places
@@ -9,9 +9,11 @@ redirect_from: ["/around-the-world", "/world-places", "/posti", "/luoghi"]
 description: "Places I love around the world"
 main: true
 todo:
-  - "OpenStreetMap API and implementations with maps"
+  - "Put everything together"
 ---
-<cite><a href="https://youtube.com/watch?v=a9eNQZbjpJk" rel="noopener noreferrer" target="_blank" title="Red Hot Chili Peppers - Around The World">Around the World</a></cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places around the world. This is not merely a list of places I’ve been to in my life, but an ever growing and evolving record of the ones I carry in my heart.
+<cite><a href="https://youtube.com/watch?v=a9eNQZbjpJk" rel="noopener noreferrer" target="_blank" title="Red Hot Chili Peppers - Around The World">Around the World</a></cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places around the world. This is not merely a list of places I have been to in my life, but an ever growing and evolving record of the ones I carry in my heart.
+
+<div class="embed-container"><iframe width="100%" height="300px" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/en/map/favorites_593427?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&fullscreenControl=true"></iframe></div>
 
 <br />
 <br />
@@ -68,3 +70,8 @@ todo:
 <br />
 
 <div class="embed-container"><iframe src="https://www.youtube-nocookie.com/embed/a9eNQZbjpJk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<br>
+<br>
+
+More info on how I manage my location data in the [[OpenStreetMap]] page.

@@ -22,3 +22,10 @@ description: "A science, an art. Insights, definitions, quotes, and ideas about 
 ## Articles
 
 - [<cite>The edge of our existence: A particle physicist examines the architecture of society</cite>](https://thebulletin.org/premium/2020-12/the-edge-of-our-existence-a-particle-physicist-examines-the-architecture-of-society/ "The edge of our existence: A particle physicist examines the architecture of society"), by @yangyang_cheng
+
+<br>
+<br>
+
+## Ideas
+
+![[Politics ideas]]

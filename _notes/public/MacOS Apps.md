@@ -1,6 +1,6 @@
 ---
 date: 2021-02-26T10:19:47.219741+01:00
-updated: 2021-04-04T15:58:01.072699+02:00
+updated: 2021-04-13T00:11:01.449282+02:00
 tags: geek/apps
 description: "Right now on my <a href='https://support.apple.com/kb/SP799' rel='noopener noreferrer' target='_blank' title='MacBook Pro 13\" 2019 tech specs'>MacBook Pro 13\" 2019</a>"
 permalink: /macos
@@ -14,6 +14,7 @@ toc: false
 - ~~[Android File Transfer](https://www.android.com/filetransfer/ "Android File Transfer"), the name says it all. It’s simple and it works great~~. I do not own an Android device anymore.
 - [AppCleaner](https://freemacsoft.net/appcleaner "AppCleaner") is not open source, but, damn, it’s so useful I have to keep it.
 - ~~[Audacity](https://www.audacityteam.org/ "Audacity official website"), audio editing software. I know, I have Garage Band which is awesome but… Audacity works the same way anywhere.~~ I need very little sound editing, mixing, etc: GarageBand is fine; furthermore, it's neat, simple and quick.
+- [Background Music](https://github.com/kyleneideck/BackgroundMusic "Background Music on GitHub"), to handle audio sources and audio recording
 - [Backtrack](https://www.backtrack.team/ "Backtrack"), the Holy Graal for university students which get easily distracted (me). It allows you to recover audio up to 5 hours before. It’s not Open Source and I payed 2€ for it. Totally worth it.
 - ~~[balenaEtcher](https://www.balena.io/etcher/ "Etcher"), the safest, simplest and quickest software to flash OS images to external drives.~~ I was not using it so much.
 - ~~[BitBar](https://getbitbar.com "BitBar official website"), run any plugin from the top bar~~. I didn't use it.
@@ -29,6 +30,7 @@ toc: false
 - [Curiosity](https://github.com/Dimillian/RedditOS "RedditOS repository on GitHub"), a MacOS Reddit client
 - [DarkModeBuddy](https://github.com/insidegui/DarkModeBuddy "DarkModeBuddy on GitHub"), a **must have**: MacOS theme changes from light to dark based on surrounding ambient light
 - ~~[Darktable](https://www.darktable.org/ "Darktable official website"), widely used (still, not the first option for pros) photo editing software. I wish I’d love it but, damn, it’s so friggin complicated~~. Using Lightroom. I'm sorry, but it simpler, faster, nicer.
+- [deadbolt](https://github.com/alichtman/deadbolt "deadbolt on GitHub"), file encryption and decryption made easy.
 - ~~[Digikam](https://www.digikam.org/ "Digikam official website"), a photo management software~~. I don't have time to learn it and it isn't so essential.
 - [dupeGuru](https://dupeguru.voltaicideas.net/ "dupeGuru"), a file (specially images) duplicate finder. It would be fantastic, but it does not work with more than 200 photos, for me.
 - [DWAgent](https://www.dwservice.net/en/download.html?_request=main&page=download) by [DWS Service](https://www.dwservice.net/ "DWS Service"), a great, simple and lightweight VNC, thus a program which allows you to access your computer remotely from any web browser.
@@ -65,6 +67,7 @@ toc: false
 - [MacVim](https://macvim-dev.github.io/macvim/ "MacVim official website"), a standalone [[Vim]] app for MacOS. pretty nice to edit files on the go.
 - [Mast](https://apps.apple.com/us/app/mast-for-mastodon/id1437429129 "Mast") is a wonderful, simple and neat [Mastodon](https://joinmastodon.org "Mastodon") [client](https://joinmastodon.org/apps "Mastodon clients"). Unfortunately, it is non-free software, in every sense; it costs 3,50€.
 - ~~[MEGAsync](https://mega.nz/sync "MEGAsync official page"), the synchronization app for [MEGA](https://mega.nz "MEGA official website") Cloud service.~~ I'm not using anymore. Nextcloud + [[Cubbit]] only.
+- [MonoFocus](https://monofocus.app/ "MonoFocus"), focus on one task at a time.
 - [Mumble](https://www.mumble.info "Mumble"), the most common open-source VoIP service. I use it with the awesome [NixNet Services](https://nixnet.services/mumble "Mumble on NixNet Services")
 - [NetNewsWire](https://ranchero.com/netnewswire/ "NetNewsWire official website"), the best [RSS reader](https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators "“Comparison of Feed aggregators” on Wikipedia") ever. I sync it with the awesome [Feedbin](https://feedbin.com "Feedbin").
 - [Nextcloud](https://nextcloud.com/ "Nextcloud official website") desktop client.
@@ -91,6 +94,7 @@ toc: false
 - [TableTool](+++)
 - [Telegram](https://telegram.org/ "Telegram official website"), WhatsApp on steroids. I wish the back-end software was Open Source, too.
 - [Timer](https://github.com/michaelvillar/timer-app "Timer source code on GitHub"), sometimes it's quicker to set it from the laptop than from my smartphone
+- [TinyPNG4Mac](https://github.com/kyleduo/TinyPNG4Mac "TinyPNG4Mac on GitHub"), simply and quickly resize PNGs
 - ~~[The Desk](https://thedesk.top/), something like TweetDeck for Mastodon (and all of the Fediverse apps)~~. Never actually used it. The web client is nicer and just works.
 - [TomatoBar](https://github.com/ivoronin/TomatoBar "TomatoBar on GitHub"), set simple working timers
 - [Tor browser](https://www.torproject.org/), to navigate online completely anonymously
@@ -120,6 +124,7 @@ toc: false
 - [massren](https://github.com/laurent22/massren), batch files renaming using a text editor (works great with vim). It’s developed by the same developer of Joplin
 - [ExifTool](https://exiftool.org/ "ExifTool"), an awesome and extremely useful little tool to edit almost anything in an image EXIF data. I use it to rename my images based on the date and time I shot them. [Here](https://github.com/xplosionmind/exiftool-cheatsheet)’s my Cheat Sheet, which I use myself to get things done, since I don’t remember ExifTool commands from time to time.
 - [yst](https://github.com/jgm/yst), create static websites from YAML data and string templates
+- [lnav](https://lnav.org/ "lnav"), log files navigator
 - [pandoc](https://pandoc.org/ "Pandoc"), a lovely swiss-army knife for document conversion. NOTE: I admire its genius creator, he’s a Philosopher developer whose name is [John MacFarlane](https://www.johnmacfarlane.net/ "John MacFarlane's personal website")
 - ~~[megacmd](https://mega.nz/cmd "MEGA cmd"), a command-line tool to do actually anything with [Mega](https://mega.nz "MEGA")~~, not using MEGA anymore
 - [m-cli](https://github.com/rgcr/m-cli "m-cli source code on GitHub"), Swiss Army knife for MacOS
@@ -133,6 +138,7 @@ toc: false
 - <u class="wavy"><a href="https://you-get.org" rel="noopener noreferrer" target="_blank" title="you-get">you-get</a>, to download stuff from the internet</u>
 - [gping](https://github.com/orf/gping "gping source code on GitHub"), ping with a graph
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl "youtube-dl source code"), a tool to download videos (and audios) from YouTube
+- [z](https://github.com/rupa/z "z on GitHub"), jump around easily among folders in Terminal
 
 <br>
 <br>

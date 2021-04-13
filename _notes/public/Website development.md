@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-03-26T10:03:01.276628+01:00
+updated: 2021-04-13T15:45:48.910792+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -29,10 +29,6 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 
 1. Configure and implement [[Indie Web]]
 	- Note in footer that this website supports Webmentions
-2. Create Newsletter pages
-	- successful subscription page
-	- I am sad you are unsubscribing
-1. `max-height` for tags list in Zibaldone
 1. Full width images in posts
 1. Stop using Algolia and consider faster and simpler alternatives
 	- [Lunr](https://lunrjs.com "Lunr")
@@ -40,18 +36,9 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
 5. Develop a [[Timeline development|timeline]]
-6. Make [[Permanent HTML]]
-7. Update Flickr links in [[Tutto]]
 8. [[The Jam]]: Preview a note when hovering on link
 9. [[The Jam]]: Notes graph
-10. save Nextcloud commands in cheat sheets
-11. `page.location` improvement:
-	1. `location-url` in _data?
-	2. Use coordinates and find a way to create an ecosystem of places
-12. Check the OpenStreetMap API and figure out a way to implement [[Around the world|Places]] in a map interface, integrating it with [[Timeline development|Timeline]]
 13. At the top of the page, add anchors buttons which link to comments, backlinks, etc.
-14. Develop a [[Light]] version of the website
-`<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
 1. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
 2. Configure [Peekalink](https://peekalink.io "Peekalink") in [[Cinema]] to replace [The Movie Database](https://themoviedb.org "The Movie Database") list and quit it.
 3. Avoid having to use special plugins to parse `\[\[wikilinks\]\]`, and use simple markdown links, integrating them in Jekyll with [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links "jekyll-relative-links on GitHub")
@@ -59,29 +46,32 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 		- how to remove invalid links
 		- Folder structure becomes fundamental and links must be changed when file is moved (Obsidian should automatically handle this)
 		- Current Liquid permalinks parsing may not work anymore
-4. Integrate [jekyll-time-to-read](https://github.com/gjtorikian/jekyll-time-to-read/ "jekyll-time-to-read on GitHub")
-5. Integrate [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier/ "jekyll-minifier") if it proves to be better for performance and / or more stable (keep in mind that Netlify offers JS and CSS minification)
-1. OMDb integration
-1. Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts
+1. Movies list integration
+	- https://www.themoviedb.org/documentation/api/discover
+	- https://developers.themoviedb.org/3/getting-started/introduction
+	- https://developers.themoviedb.org/3/configuration/get-api-configuration
+	- https://developer.imdb.com/documentation/data-dictionary/names
+	- https://www.themoviedb.org/settings/api/new/form?type=developer
+2. Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts
 	- create subsections: creative help, hands-on help (e.g. Scambi), technical help, long-term help (collaborations), contacts help (I need to reach somebody and I cannot)
-6. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
-11. [Host pictures on Piwigo](https://piwigo.org/forum/viewtopic.php?id=31165 "Embedding images and galleries in HTML - Piwigo Forum") and display them via API or public link
-7. [Tags](/tags):
+3. [Tags](/tags):
 	- consider switching from a unique page list to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
-8. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
-9. Fetch images previews to complete external links and preferences
+4. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
+5. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
-10. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
-12. Give a consistent framework to all lists (use CSV data or markdown tables only)
-13. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-1. Improve `<noscript>`
+6. Give a consistent framework to all lists (use CSV data or markdown tables only)
+7. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
+8. Minimize JavaScript use
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")
-2. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
-1. cool app image preview if a page is added to a home shortcut
-1. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint")
-3. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
-4. Use [jekyll-auth](https://github.com/benbalter/jekyll-auth/ "jekyll-auth on GitHub") to limit content availability
-5. A script to check overlapping permalinks
+9. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
+10. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
+11. Study Blogger’s `<head>` to improve SEO
+12. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
+13. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+14. A script to check overlapping permalinks
+15. Develop a [[Light]] version of the website `<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
+16. Make [[Permanent HTML]]
+17. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
 
 <ul>
 	{% for p in site.pages %}
@@ -110,6 +100,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 
 ### Further ideas
 
+- Use [jekyll-auth](https://github.com/benbalter/jekyll-auth/ "jekyll-auth on GitHub") to limit content availability
 - Figure out [jekyll-hardlinks](https://0xacab.org/sutty/jekyll/jekyll-hardlinks "jekyll-hardlinks source code")
 - [Generative Art](https://generativeartistry.com "Generative artistry")
 	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/ "Zander Martineau")
@@ -153,6 +144,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 - customize 404 page
 - Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
 - tags description and link to stuff
+- Check the OpenStreetMap API and figure out a way to implement [[Around the world|Places]] in a map interface, integrating it with [[Timeline development|Timeline]] ✅ 2021.04.13
 - checkbox styling
 - CSS cleanup
 - CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
@@ -171,12 +163,14 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 - Hover effects
 - `id` anchor links
 - `{% raw %}{% if page.tags contains 'draft' %}{% endraw %}` print a banner indicating that the page misses something ✅ 2020-12-25
+- [Host pictures on Piwigo](https://piwigo.org/forum/viewtopic.php?id=31165 "Embedding images and galleries in HTML - Piwigo Forum") and display them via API or public link
 - [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js) ❌ decided not to implement it. See [Website log: sidenotes](/meta#sidenotes)
 - Improved and smart use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
 	- `.box` and `.stuff` max heights
 - In [Books](/books) add IDs to every row corresponding to the title of the book (I posted [a question about this on the Jekyll forum](https://talk.jekyllrb.com/t/table-data-id-in-tablerow-loop/5398)) (done but to be improved: IDs are generated for every `td`, I think it's necessary to use a for loop instead of a `tablerow` loop). ✅ 2020.12.31
 - inline code styling
 - input fields styling
+- Integrate [jekyll-time-to-read](https://github.com/gjtorikian/jekyll-time-to-read/ "jekyll-time-to-read on GitHub") ✅ 2021.04.13
 - Language selection straight from landing page - 2020.09.11
 - language switch
 - `letter-spacing` and `word spacing` (it's nice as it is)
@@ -191,6 +185,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	1. use Eva icons
 - [Now page](https://sivers.org/now "Derek Siver's Now Page")
 - page image preview when sending link, see the [Open Graph Protocol](https://ogp.me/ "Open Graph Protocol")
+- `page.location` improvement ✅ 2021.04.13
 - Poetry
 	- section instead of tag
 	- custom styling
