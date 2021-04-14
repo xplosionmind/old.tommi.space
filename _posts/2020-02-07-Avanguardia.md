@@ -18,7 +18,7 @@ Quella nell'aula verde del Politecnico di Torino è l'avanguardia dell'umanità.
 Uno, nel frattempo, sempre quello scemo a cui batte il cuore, nota che la ragazza al suo fianco si è addormentata. Così. Ha chiuso il portatile, incrociato le braccia sul tavolo, e ci ha sprofondato la fronte in mezzo. Quello a sinistra di lei impreca. Non dice nulla ma uno che lo sta guardando può dirlo osservando i suoi occhi roteare con furia e le sue labbra stringersi, probabilmente per un esercizio che sta svolgendo da mezz'ora ma continua a risultare errato, con una piccolissima discrepanza nella radice. Dietro sta un cinese che se fosse in qualunque altro posto indosserebbe una mascherina e verrebbe guardato un po' male, ora. Nell'aula verde, però, sono tutti troppo impegnati a superare gli esami per pensare di poterlo guardare storto. Più in là una ragazza sta guardando un video su YoTube, beh, una pausa concediamogliela. Un tipo decisamente nerd, dall'altra parte del tavolo, con un accento napoletano scambia alcune parole un po' in francese, un po' in inglese con un negretto dal volto ingenuo che non si è mai tolto quel cappellino con cui è entrato questa mattina alle sette.
 
 <figure>
-	<img src="{{ page.image }}" alt="l’aula verde" title="l’aula verde" />
+	<img class="u-photo" src="{{ page.image }}" alt="l’aula verde" title="l’aula verde" />
 	<figcaption>pensa te se uno deve farsi guardare male facendo una figura imbarazzante mettendosi a scattare una foto per il suo stupido blog in mezzo all’aula verde</figcaption>
 </figure>
 

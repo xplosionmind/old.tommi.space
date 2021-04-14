@@ -49,7 +49,7 @@ Fare una cosa alla volta e farla bene non basta. La frase della maglietta che ho
 Fino ad ora, sulla macchina fotografica della mia vita ho sempre montato un 350 millimetri (per i profani alla fotografia, una lente strettissima, un supertele lunghissimo e pesantissimo), che mi sono sempre affannato per puntare qui e lì, velocemente, per scrutare e studiare tutti i dettagli di qualcosa ma, isolandolo dal suo contesto, non ho saputo capirne gli attributi; adesso monterò un bel 24 millimetri, con il quale mi sarà impossibile fossilizzarmi su qualcosa e disperarmi perché spendo pochissimo tempo su un soggetto e ne ho migliaia da ritrarre; con questa lente saprò abbracciare l’integrità del panorame che mi si presenta, gli ostacoli del mio percorso, la relazione fra le diverse emozioni e persone in modo organico e armonioso.
 
 <figure>
-  <img src="{{ page.image }}" title="Due persone che montano un grandangolo - Camogli, settembre 2019" alt="Due persone che montano un grandangolo - Camogli, settembre 2019" />
+  <img class="u-photo"  src="{{ page.image }}" title="Due persone che montano un grandangolo - Camogli, settembre 2019" alt="Due persone che montano un grandangolo - Camogli, settembre 2019" />
   <figcaption>
     Due persone che scattano una foto grandangolare<br />
     Camogli, settembre 2019

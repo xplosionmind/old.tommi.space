@@ -15,7 +15,7 @@ redirect_from: ["/tutta-la-marmellata", "/tutta-marmellata", "/the-whole-jam", "
 <div class="one column">
 	{% include filter-lang.html %}
 	<div class="grid">
-		{% assign jar = site.notes %}
+		{% assign jar = site.notes | sort: 'updated' | reverse %}
 		{% for note in jar %}
 			<a href="{{ note.url }}" lang="{{ note.lang }}" title="{{ note.title }}">
 				<div class="vertical flex box">

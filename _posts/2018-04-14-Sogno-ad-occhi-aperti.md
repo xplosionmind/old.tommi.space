@@ -8,7 +8,7 @@ Qui nel letto in camera mia si sta bene.
 Sono al caldo -anche se è già aprile e non fa troppo freddo-, e posso accoccolarmi nel morbido piumino.<!--more-->
 
 <figure>
-  <img src="{{ page.image }}" alt="La luna sospesa sul picco di una montagna" title="La luna sospesa sul picco di una montagna" />
+  <img class="u-photo" src="{{ page.image }}" alt="La luna sospesa sul picco di una montagna" title="La luna sospesa sul picco di una montagna" />
   <figcaption>fleeting floating evening</figcaption>
 </figure>
 

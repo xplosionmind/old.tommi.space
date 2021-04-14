@@ -1,7 +1,7 @@
 ---
 date: 2020-07-10
-updated: 2021-01-05
-tags: qsm, geek
+updated: 2021-04-13T18:24:17.359997+02:00
+tags: geek
 redirect_from: ["/internet-freedom-notes", "/internet-freedom-roadmap"]
 main: true
 todo:
@@ -38,6 +38,7 @@ I wrote my own [[Road to Internet Freedom]].
 
 Random links about privacy online
 
+- [The Hitchhiker’s guide to Internet Anonymity](https://anonymousplanet.org/ "Anonymous Planet")
 - [Privacy is power, a conversation with Clarissa Véliz](https://www.youtube.com/watch?v=xBCurP2PfdQ)
 - [My Year Without Google](https://onezero.medium.com/one-year-google-free-59e0afb68328)
 - [Free Software, Richard Stallman](https://hyp.is/zEpzAm9jEeqKOxdXSivD-A/www.wired.com/2013/09/why-free-software-is-more-important-now-than-ever-before/)

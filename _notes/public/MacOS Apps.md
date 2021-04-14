@@ -1,6 +1,6 @@
 ---
 date: 2021-02-26T10:19:47.219741+01:00
-updated: 2021-04-13T00:11:01.449282+02:00
+updated: 2021-04-13T18:47:14.824104+02:00
 tags: geek/apps
 description: "Right now on my <a href='https://support.apple.com/kb/SP799' rel='noopener noreferrer' target='_blank' title='MacBook Pro 13\" 2019 tech specs'>MacBook Pro 13\" 2019</a>"
 permalink: /macos
@@ -117,6 +117,7 @@ toc: false
 - [[Vim]] is preinstalled on UNIX-based OSs, but I installed [Neovim](https://neovim.io "Neovim official website") which is so great. I use it on a daily basis and I love it. See [[Vim#Resources]] for learning material.
 - [Mackup](https://github.com/lra/mackup "Mackup on GitHub"), an awesome tool to <u>sync settings among Macs and Linux devices</u>
 - [Animated QR code generator](https://github.com/sylnsfar/qrcode)
+- [deep-daze](https://github.com/lucidrains/deep-daze "deep-daze on GitHub"), artificially generate images by describing content
 - [Exposé](https://github.com/Jack000/Expose), a simple and beautiful static site generator for photoessays
 - [fd](https://github.com/sharkdp/fd "fd source code on GitHub"), `find` improved
 - [fzf](https://github.com/junegunn/fzf), a fuzzy finder which works in some way with Vim but I’m still figuring it out.

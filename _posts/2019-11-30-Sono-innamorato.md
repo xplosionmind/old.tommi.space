@@ -7,7 +7,7 @@ Cosa vuol dire saper scrivere.
 Non ho idea del significato di “saper scrivere”, non riesco assolutamente a comprenderlo, ma contemporaneamente mi sorprendo di quanto inafferrabile sia il concetto finché non si palesa. Leggere e pensare: “adoro questa scrittura”. Ecco. Come accade questo?<!--more--> Esiste una spiegazione universale a questa esclamazione nella nostra testa? Com’è possibile che certi concetti siano espressi magistralmente producendo così tanta emozione? Dove sta esattamente la differenza fra un 8 e un 10 di un tema di italiano?
 
 <figure>
-  <img src="{{ page.image }}" alt="rassegna stampa de Il Post, con Francesco Costa e Luca Sofri, presso il circolo dei lettori" />
+  <img class="u-photo" src="{{ page.image }}" alt="rassegna stampa de Il Post, con Francesco Costa e Luca Sofri, presso il circolo dei lettori" />
   <figcaption>la rassegna stampa di questa mattina al Circolo dei Lettori di Torino, con Luca Sofri e Francesco Costa, durante cui mi sono venute in mente queste domande</figcaption>
 </figure>
 

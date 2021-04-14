@@ -1,8 +1,9 @@
 ---
 date: 2020-05-12
-updated: 2020-12-31
+updated: 2021-04-13T18:34:44.401881+02:00
 tags: design
 redirect_from: /tipografia
+description: "Notes about Typography"
 ---
 Typography is a wonderful world, hidden in plain sight. Here there are some resources for inspiration and study.
 A premise: I have a fetish for Typography. I really do. I often find myself tweaking font faces when instead I have much more important and urgent things to take care of, or I spend a long time watching super technical videos and documentaries on the history of design and visual representation of writing. I wonder how would it be if I chose it as my main interest, alto at a professional level. Nevertheless, I love it, and by checking the insights below, you might be struck by its power and beautiful effectiveness, too.
@@ -17,6 +18,7 @@ A premise: I have a fetish for Typography. I really do. I often find myself twea
 - Font Forge [guide](http://designwithfontforge.com/en-US/index.html).
 - The [Font Library](https://fontlibrary.org/ "Font Library")’s [Guidebook](https://fontlibrary.org/en/guidebook "Guidebook page on Font Library").
 - [*Helvetica*](https://www.imdb.com/title/tt0847817/ "Helvetica on IMDb"), a documentary on the most consequential, widespread, revolutionary yet simple typeface of history.
+- [The Font Bureau](https://fontbureau.typenetwork.com/ "The Font Bureau")
 
 <br>
 

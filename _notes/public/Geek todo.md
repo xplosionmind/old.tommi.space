@@ -1,8 +1,10 @@
 ---
+updated: 2021-04-14T10:36:40.597450+02:00
 tags: geek todo
 aliases: ["Geek stuff", "Geek stuff todo"]
 ---
 1. [[VNC]]
+1. Fix Nuvola Nextcloud reminders
 4. [[Images]]
 1. [[PISE notes development]]
 5. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)

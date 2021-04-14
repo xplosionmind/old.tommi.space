@@ -8,14 +8,6 @@ redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improve
 main: true
 description: "Creative and technical aims, ideas annotation and drafts tracking."
 ---
-## Not Working
-
-- Liquid `| sort` filter!
-- scrollbars always displayed in Linux distros when `overflow: scroll` is on
-
-<br>
-<br>
-
 ## Content
 
 ![[Writing#Website]]
@@ -70,6 +62,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 13. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
 14. A script to check overlapping permalinks
 15. Develop a [[Light]] version of the website `<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
+1. Improve CSS using `:is()`, see [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/:is ":is on MDN")
 16. Make [[Permanent HTML]]
 17. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
 

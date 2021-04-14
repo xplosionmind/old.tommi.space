@@ -34,6 +34,7 @@ group :jekyll_plugins do
   gem "jekyll-auto-image"
   gem "html-proofer"
   gem "jekyll-toc"
+  gem "jekyll-webmention_io"
 # gem "jekyll-admin"
 # gem "jekyll-optional-front-matter"
 #  gem "jekyll-paginate"

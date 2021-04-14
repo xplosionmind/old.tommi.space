@@ -18,7 +18,7 @@ Un fattore ancora più preoccupante è quello della memoria, dell'acquisizione e
 Penso —lasciandomi distrarre— che fra poche ore non sarò in grado di ricostruire quello che ho appena letto, né tantomeno di ripeterlo. Sono dilaniato da una crisi di cui io stesso sono causa, disperato da una pressante instancabile spinte verso l'ignoranza, che è la mia massima preoccupazione.
 
 <figure>
-	<img src="{{page.image}}" title="Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018" alt="Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018" />
+	<img class="u-photo"  src="{{page.image}}" title="Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018" alt="Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018" />
 	<figcaption>
 		Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018
 	</figcaption>

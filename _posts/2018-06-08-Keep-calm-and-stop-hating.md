@@ -5,7 +5,7 @@ image: "/images/posts/2018-06-08-keep-calm-and-stop-hating.jpg"
 ---
 ## Articolo Finale di Inchiostro Digitale
 <!--more-->
-<figure><img src="{{ page.image }}" alt="folla a Firenze" /><figcaption>folla a Firenze, non mi ricordo quando ho fatto la foto</figcaption></figure>
+<figure><img class="u-photo" src="{{ page.image }}" alt="folla a Firenze" /><figcaption>folla a Firenze, non mi ricordo quando ho fatto la foto</figcaption></figure>
 
 Mi dispiace per i pianti disperati dei nostri due lettori -è bene essere schietti: sono, o meglio, siamo pochi- poiché questo è l’ultimo articolo di Inchiostro Digitale per quest’anno scolastico. Lo sto scrivendo con forte entusiasmo e egocentrismo avendo interpretato la richiesta scriverlo da parte di Anna Mastrantuono, caporedattrice del blog che ringrazio pubblicamente per il lavoro svolto durante l’anno, come uno speciale editoriale conclusivo. Abbiamo fatto del nostro meglio, abbiamo mantenuto il ritmo, abbiamo scritto con passione, ma forse non abbiamo avuto la risposta che avremmo desiderato. In ogni caso abbiamo perseverato in quanto redazione appassionata e convinta nella forza del medium più vecchio del mondo, quale è la scrittura su Inchiostro, ora divenuto Digitale. Abbiamo condiviso i nostri pensieri, le nostre perplessità riguardanti il mondo attorno a noi nel miglior modo possibile, consapevoli del fatto che scrivere non ha fatto bene a chi ha letto ma ne ha fatto a noi, persone nuove dopo la stesura di un articolo del quale siamo soddisfatti.
 

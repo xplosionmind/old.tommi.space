@@ -1,7 +1,7 @@
 ---
 date: 2020-03-21
 updated: 2021-03-16T18:51:34.762631+01:00
-tags: geek geek/server
+tags: geek/server
 main: true
 ---
 My server is a surprisingly powerful (considered how much I pay for it) <abbr title="Virtual Private Server">VPS</abbr> hosted in Germany by [Contabo](https://contabo.com "Contabo official website"). It runs [Ubuntu 20.04](https://releases.ubuntu.com/20.04/ "Ubuntu 20.04 release page").
@@ -64,6 +64,7 @@ Useful server apps or services I haven’t installed yet, in order of urgency an
 1. [Firefly III](https://www.firefly-iii.org "Firefly III"), a personal finance management tool
 	- [Docker installation guide](https://docs.firefly-iii.org/firefly-iii/installation/docker/ "FIrefly III Docker installation guide")
 1. [Mailtrain](https://github.com/Mailtrain-org/mailtrain "Mailtrain on GitHub") or, alternatively, [listmonk](https://listmonk.app), newsletter managers
+1. [twtxt](https://github.com/buckket/twtxt "twtxt on GitHub")
 2. [Huginn](https://github.com/huginn/huginn "Huginn repository on GitHub"), an IFTTT Alternative
 3. [Linkding](https://github.com/sissbruecker/linkding "Linkding on GitHub")
 4. [Mail server](#mail-server)

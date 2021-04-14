@@ -9,7 +9,7 @@ Chi non conosce o almeno una volta nella vita non vuole fare un giro sui mitici 
 <!--more-->
 
 <figure>
-	<img src="{{ page.image }}" alt="Tommi in posa davanti a un bus “double-deck”" />
+	<img class="u-photo" src="{{ page.image }}" alt="Tommi in posa davanti a un bus “double-deck”" />
 </figure>
 
 È davvero incredibile quanto i trasporti siano efficienti e tecnologicamente integrati a Londra: sono qui da quasi due settimane per un viaggio studio e devo riconoscere che mi basta dare un occhio su Citymapper o Google Maps per sapere perfettamente il percorso che devo fare ed i vari ritardi, con una gran precisione! Tanto di cappello alla TFL (Transport for London)!

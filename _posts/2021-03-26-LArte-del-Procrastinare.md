@@ -17,7 +17,7 @@ image: "https://images.tommi.space/plugins/download_by_size/action.php?id=16157&
 
 <figure>
 	<a href="https://images.tommi.space/index?/category/desk" rel="noopener noreferrer" target="_blank" title="Collezione di fotografie della mia scrivania, scattate ogni 27 giorni">
-		<img src="{{ page.image }}" title="La mia scrivania il 30 Marzo 2020" alt="La mia scrivania il 30 Marzo 2020" />
+		<img class="u-photo" src="{{ page.image }}" title="La mia scrivania il 30 Marzo 2020" alt="La mia scrivania il 30 Marzo 2020" />
 	</a>
 	<figcaption>Il livello di casino sulla mia scrivania è spesso indice del livello di procrastinazione in cui mi trovo. Per tenerne traccia, da circa un anno, ogni ventisette giorni, no matter what, scatto una foto della mia scrivania, così come è. Cliccando sull’immagine, potete accedere allo storico delle mie scrivanie (come potrete vedere, riesco a procrastinare anche nello scattare le foto). Questa foto, scattata il 30 Marzo 2020, è la prima della serie.</figcaption>
 </figure>
