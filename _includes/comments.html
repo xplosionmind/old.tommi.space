@@ -3,8 +3,6 @@
 	<div id="comments" class="box">
 		<h2 class="title">{% if page.lang 'it' %}Commenti{% else %}Comments{% endif %}</h2>
 
-			{% webmentions page.url %}
-
 			{% comment %}
 			<!-- the following script is not working, and probably comments ar not differentiated for every page -->
 			<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="bfg-ZXp6" data-limit="5" data-color="FCC920" data-dark="1"></script>

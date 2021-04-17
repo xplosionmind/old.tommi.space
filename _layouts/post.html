@@ -8,8 +8,11 @@ layout: wrapper
 			<h2>{{ page.subtitle }}</h2>
 		{% endif %}
 		<p>
-			<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time><br />
-			time to read: {{ content | reading_time_as_s }}
+			<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>
+			{% comment %}
+				<br />
+				time to read: {{ content | reading_time_as_s }}
+			{% endcomment %}
 		</p>
 		<link class="p-author h-card" rel="author" class="p-name" href="/about" content="{{ site.author.name }}" />
 	</div>
