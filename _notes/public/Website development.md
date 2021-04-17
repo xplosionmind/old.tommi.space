@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-04-13T15:45:48.910792+02:00
+updated: 2021-04-17T10:39:22.249035+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -52,19 +52,23 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 5. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
 6. Give a consistent framework to all lists (use CSV data or markdown tables only)
-7. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
-8. Minimize JavaScript use
+7. Join WebRings
+	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub")
+	1. [Recurse Webring](https://webring.recurse.com/ "Recurse Webring")
+	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring")
+8. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
+9. Minimize JavaScript use
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")
-9. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
-10. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
-11. Study Blogger’s `<head>` to improve SEO
-12. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
-13. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-14. A script to check overlapping permalinks
-15. Develop a [[Light]] version of the website `<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
-1. Improve CSS using `:is()`, see [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/:is ":is on MDN")
-16. Make [[Permanent HTML]]
-17. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
+10. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
+11. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
+12. Study Blogger’s `<head>` to improve SEO
+13. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
+14. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+15. A script to check overlapping permalinks
+16. Develop a [[Light]] version of the website `<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
+17. Improve CSS using `:is()`, see [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/:is ":is on MDN")
+18. Make [[Permanent HTML]]
+19. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
 
 <ul>
 	{% for p in site.pages %}

@@ -1,10 +1,21 @@
 ---
 date: 2021-04-12T10:51:23.688402+02:00
-updated: 2021-04-12T10:51:23.688402+02:00
+updated: 2021-04-14T15:35:58.975480+02:00
 tags: geek
 description: "Insights concerning the great LaTeX language"
 toc: false
 ---
+## Premise
+
+> Writing should be a pleasant experience. With the right tools, it can be. LaTeX is powerful but cumbersome to use. With Markdown, we can focus on our writing, and worry about the presentation later.
+
+<p class="cite">Jake Zimmerman, <cite><a href="Reach for Markdown, not LaTeX" rel="noopener noreferrer" target="_blank" title="Reach for Markdown, not LaTeX">Reach for Markdown, not LaTeX</a></cite></p>
+
+My intentions are to <u>avoid LaTeX the most I can</u>. I love Markdown, it is simple and quick. LaTeX becomes useful when it is needed to write or draw complex stuff in a neat way. This is why I need to master it, at least some bit.
+
+<br>
+<br>
+
 ## Resources
 
 - [Wanna learn LaTeX?](https://lukesmith.xyz/articles/latex "Wanna learn LaTeX?") by [Luke Smith](https://lukesmith.xyz/ "Luke Smith")

@@ -54,6 +54,7 @@ Sometimes, when I activate [spell checking](https://vimtricks.com/p/vimtrick-spe
 - [Practical Vim](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/ "Practical Vim, Second Edition") a book - the best book you can find - on Vim, by the same creator of Vim Casts: [Drew Neil](http://drewneil.com/).
 - [Vim subreddit](https://www.reddit.com/r/vim/ "r/vim")
 - [Vim intermediate guide](https://thevaluable.dev/vim-intermediate/ "A Vim Guide for Intermediate Users")
+- [Vim as an IDE](https://blog.jez.io/vim-as-an-ide/ "Vim as an IDE"), a <mark>workshop</mark> by [Jake Zimmerman](https://jez.io "Jake Zimmerman")
 
 <br>
 <br>

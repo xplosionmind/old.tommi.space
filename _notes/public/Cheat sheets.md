@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-updated: 2021-04-06T14:57:47.011159+02:00
+updated: 2021-04-15T16:15:29.756906+02:00
 tags: geek
 aliases: ["Cheat Sheet"]
 description: "I use tech devices a lot, maybe too much, but I do not dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
@@ -63,6 +63,18 @@ nc towel.blinkenlights.nl 23
 - [Shell commands for simple tasks of processing CSV file](https://dev.to/0xbf/shell-commands-for-simple-tasks-of-processing-csv-files-linux-tips-48ea "Shell commands for simple tasks of processing CSV file")
 - [`chmod` guide](https://chmodcommand.com "Chmodcommand")
 - A complete dive in the Terminal language, Bash, by visiting [[Bash]]
+
+<br>
+<br>
+
+## GPG
+
+GnuPG Cheat Sheets:
+
+<script src="https://gist.github.com/turingbirds/3df43f1920a98010667a.js"></script>
+
+- [GnuPG CheatSheet](https://devhints.io/gnupg "GnuPG Cheat Sheet") on [devhints.io](https://devhints.io/ "devhints")
+- [GPG Cheat Sheet](http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/ "GPG Cheat Sheet")
 
 <br>
 <br>

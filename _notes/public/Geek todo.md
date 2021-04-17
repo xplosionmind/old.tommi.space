@@ -4,6 +4,7 @@ tags: geek todo
 aliases: ["Geek stuff", "Geek stuff todo"]
 ---
 1. [[VNC]]
+1. Final [[dotfiles]] configuration and setup
 1. Fix Nuvola Nextcloud reminders
 4. [[Images]]
 1. [[PISE notes development]]
