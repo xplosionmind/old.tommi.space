@@ -111,6 +111,8 @@ plugins:
   - jekyll-auto-image
   - jekyll-email-protect
   - jekyll-toc
+#  - jekyll-webmention_io
+#  - jekyll-lunr
 
 sass:
   style: compressed

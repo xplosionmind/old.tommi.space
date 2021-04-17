@@ -9,9 +9,6 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll"
 
-# Add Liquid-C for faster rendering of Liquid
-gem "liquid-c" # no sensible improvement in performance
-
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -34,11 +31,13 @@ group :jekyll_plugins do
   gem "jekyll-auto-image"
   gem "html-proofer"
   gem "jekyll-toc"
-# gem "jekyll-webmention_io" # this causes trouble
-# gem "jekyll-admin"
-# gem "jekyll-optional-front-matter"
+#  gem "jekyll-lunr"
+  gem "liquid-c"
+#  gem "jekyll-webmention_io" # this causes trouble
+#  gem "jekyll-admin"
+#  gem "jekyll-optional-front-matter"
 #  gem "jekyll-paginate"
-# gem "jekyll-paginate-v2"
+#  gem "jekyll-paginate-v2"
 #  gem "jekyll-archives"
 #  gem "jekyll-youtube"
 #  gem "jekyll-spaceship"

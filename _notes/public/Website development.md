@@ -24,13 +24,12 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 1. Full width images in posts
 1. Stop using Algolia and consider faster and simpler alternatives
 	- [Lunr](https://lunrjs.com "Lunr")
-		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "")
+		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "jekyll-lunr on GitHub")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
 5. Develop a [[Timeline development|timeline]]
 8. [[The Jam]]: Preview a note when hovering on link
 9. [[The Jam]]: Notes graph
-13. At the top of the page, add anchors buttons which link to comments, backlinks, etc.
 1. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
 2. Configure [Peekalink](https://peekalink.io "Peekalink") in [[Cinema]] to replace [The Movie Database](https://themoviedb.org "The Movie Database") list and quit it.
 3. Avoid having to use special plugins to parse `\[\[wikilinks\]\]`, and use simple markdown links, integrating them in Jekyll with [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links "jekyll-relative-links on GitHub")
@@ -128,6 +127,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 - Add [`humans.txt`](http://humanstxt.org "humans.txt") ✅ 2021.01.17
 - Animations (little and simple but effective)
 	- buttons: `x`s and menus (see [Tokyo voice](https://tokyo-voice.jp "Tokyo Voice") or [Trax mag](https://www.traxmag.com "Trax Magazine"))
+- At the top of the page, add anchors buttons which link to comments, backlinks, etc. ✅ 2021.04.17
 - back-to-top button
 - basic colored biiig shapes
 - Backlinks

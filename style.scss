@@ -322,6 +322,7 @@ ol.three {
 	& > p:first-of-type::first-letter {
 		initial-letter: 4;
 		-webkit-initial-letter: 4;
+		font-weight: bolder;
 	}
 	.embed-container {
 		border-radius: var(--radius-l);
@@ -329,9 +330,26 @@ ol.three {
 	}
 }
 
+#goto {
+	position: absolute;
+	top: 6rem;
+	left: 2vw;
+	padding: var(--regular) var(--tiny);
+	background: var(--primary);
+	box-shadow: var(--shadow);
+	border-radius: var(--radius-m);
+	a {
+		transform: scale(.85);
+		color: var(--text);
+		background: var(--background);
+		display: block;
+	}
+}
+
 hr {
-	color: transparent;
-	border-top: 7px dotted var(--grey);
+	/*color: transparent; /* unsupported in Safari */
+	/*border-top: 7px dotted var(--grey); */
+	width: 30%;
 }
 
 .background {
@@ -991,6 +1009,9 @@ button,
 	}
 	.popup {
 		left: 5vw;
+	}
+	#goto {
+		display: none;
 	}
 }
 
