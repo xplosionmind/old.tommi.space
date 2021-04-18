@@ -3,7 +3,9 @@ title: "Zibaldone"
 permalink: /zibenglish
 redirect_from: ["/blog", "/en/zibaldone", "/zibaldone/en"]
 lang: en
-ref: blog
+pagination:
+  enabled: true
+  permalink: '/en/:num/'
 ---
 <div id="feed" class="one column">
 	<div class="page-header row">
@@ -17,7 +19,7 @@ ref: blog
 
 	{% include tags.html %}
 
-	{% for post in site.posts %}
+	{% for post in paginator.posts %}
 		<div class="row">
 			<a href="{{ post.url }}" lang="{{ post.lang }}">
 				<div class="post-preview box">
@@ -48,5 +50,7 @@ ref: blog
 			</a>
 		</div>
 	{% endfor %}
+	
+	{% include pages.html %}
 
 </div>

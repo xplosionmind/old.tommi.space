@@ -5,19 +5,18 @@ permalink: /tags
 layout: white
 description: "Every topic, every recurrency, anything you need to find can be found somewhere in this page."
 todo:
-  - "refactor this page in some cleaner and nicer way"
   - "fix tags containing sub-tags not appearing"
 ---
 {% for tag in site.data.tags %}
 
 	<div class="row tag" id="{{ tag.title | slugify }}">
-		<h2 class="title">{{ tag.title }}</h2>
-		<p>{{ tag.description | markdownify }}</p>
-		<div class="half column">
-			<ul>
+		<div class="border box" style="border-color:{{ tag.color}}">
+			<h2 class="title">{{ tag.title }}</h2>
+			<p>{{ tag.description | markdownify }}</p>
+			<ul class="three">
 				{% for note in site.notes %}
 					{% if note.tags contains tag.title %}
-						<li>🍯 <a href="{{ note.url }}" title="{{ note.title }}">{{ note.title }}</a></li>
+						<li><a href="{{ note.url }}" title="{{ note.title }}">{{ note.title }}</a></li>
 					{% endif %}
 				{% endfor %}
 				{% for ep in site.sconnesso %}
@@ -35,14 +34,9 @@ todo:
 						<li>🥴 <a href="{{ poem.url }}" title="{{ poem.title }}">{{ poem.title }}</a></li>
 					{% endif %}
 				{% endfor %}
-			</ul>
-		</div>
-		<div class="half column">
-			<ul>
-				<h3>Posts</h3>
 				{% for post in site.posts %}
 					{% if post.tags contains tag.title %}
-						<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+						<li>📖 <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 					{% endif %}
 				{% endfor %}
 			</ul>

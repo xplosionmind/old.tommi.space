@@ -1,10 +1,10 @@
 ---
-title: "Zibaldone"
-permalink: /zibaldone
+title: Zibaldone
 lang: it
-ref: blog
+permalink: /zibaldone
 pagination:
-  enabled: false
+  enabled: true
+  permalink: '/:num/'
 ---
 <div id="feed" class="one column">
 	<div class="page-header row">
@@ -18,7 +18,7 @@ pagination:
 
 	{% include tags.html %}
 
-	{% for post in site.posts %}
+	{% for post in paginator.posts %}
 		<div class="row">
 			<a href="{{ post.url }}" lang="{{ post.lang }}">
 				<div class="post-preview box">
@@ -50,19 +50,6 @@ pagination:
 		</div>
 	{% endfor %}
 
-	{% comment %}
-	<ul>
-  		{% if paginator.previous_page %}
-  			<li>
-    			<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  			</li>
-  		{% endif %}
-  		{% if paginator.next_page %}
-  			<li>
-    			<a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  			</li>
-  		{% endif %}
-	</ul>
-	{% endcomment %}
+	{% include pages.html %}
 
 </div>

@@ -33,6 +33,8 @@ exclude:
   - _notes/PISE
   - _notes/university
   - _data/private
+  - _notes/.*
+  - _data/.*
 keep_files:
   - images/
   - assets/
@@ -54,10 +56,13 @@ collections:
 
 # Pagination
 pagination:
-  enabled: false
+  enabled: true
+  sort_reverse: true
   per_page: 5
-  permalink: '/zibaldone/:num/'
   title: ':title :num'
+  trail: 
+    before: 2
+    after: 2
 
 feed:
   path: /feeds/zibaldone.xml
@@ -111,6 +116,7 @@ plugins:
   - jekyll-auto-image
   - jekyll-email-protect
   - jekyll-toc
+  - jekyll-paginate-v2
 #  - jekyll-webmention_io
 #  - jekyll-lunr
 

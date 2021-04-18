@@ -125,6 +125,10 @@ mark {
 	background: var(--primary);
 }
 
+dim {
+	opacity: .5;
+}
+
 a {
 	text-decoration: none;
 	color: var(--link);
@@ -289,16 +293,6 @@ li {
 	}
 }
 
-ul.two,
-ol.two {
-	columns: 2;
-}
-
-ul.three,
-ol.three {
-	columns: 3;
-}
-
 .task-list-item {
 	list-style: none;
 }
@@ -332,16 +326,10 @@ ol.three {
 
 #goto {
 	position: absolute;
-	top: 6rem;
-	left: 2vw;
-	padding: var(--regular) var(--tiny);
-	background: var(--primary);
-	box-shadow: var(--shadow);
-	border-radius: var(--radius-m);
+	bottom: 0;
+	left: 0;
 	a {
 		transform: scale(.85);
-		color: var(--text);
-		background: var(--background);
 		display: block;
 	}
 }
@@ -630,6 +618,17 @@ h3 {
 	margin: var(--bigger) 3%;
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
+	&.little {
+		display: inline-block;
+		border-radius: var(--radius-m);
+		padding: var(--small);
+		background: var(--primary);
+		margin: 3vw;
+		a {
+			color: var(--text);
+			background: var(--background);
+		}
+	}
 	h2,
 	h3 {
 		margin: 0;
@@ -653,6 +652,9 @@ h3 {
 	li {
 		margin-bottom: 0;
 	}
+}
+
+#pag {
 }
 
 .stuff {
@@ -884,10 +886,7 @@ button,
 
 .tag {
 	p {
-		margin: var(--regular) 10%;
-	}
-	li {
-		margin-left: 4vw;
+		margin: 5vh 0;
 	}
 }
 
@@ -1013,11 +1012,27 @@ button,
 	#goto {
 		display: none;
 	}
+	.newsletter {
+		margin: 2vh 0;
+	}
+	#pages {
+		a {
+			padding: 0 var(--small);
+		}
+	}
 }
 
 @media only screen and (min-width: 950px) {
 	.post {
 		padding: 8vh 12vw 15vh;
+	}
+	ul.two,
+	ol.two {
+		columns: 2;
+	}
+	ul.three,
+	ol.three {
+		columns: 3;
 	}
 }
 
