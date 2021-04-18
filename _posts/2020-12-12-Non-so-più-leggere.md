@@ -5,7 +5,7 @@ redirect_from:
   - /analfabetismo
   - /non-so-leggere
 ---
-Le lettere, le parole mi scorrono davanti senza lasciare un segno. È tutto uguale, lontano, criptico, inafferrabile. Come se ciò che leggessi apparisse in una lingua diversa da quella che il mio cervello sa decodificare.
+Le lettere, le parole mi scorrono davanti senza lasciare un segno. È tutto uguale, lontano, criptico, inafferrabile. Come se ciò che leggo apparisse in una lingua diversa da quella che il mio cervello sa decodificare.
 
 Più penso a questo più l'effetto si accentua e diventa inevitabile. Più confido nella lettura e credo nella sua importanza, più mi rivelo incapace di valorizzarla leggendo.
 
