@@ -17,6 +17,7 @@ future: true
 profile: true
 livereload: true
 strict_front_matter: true
+lang: it
 images: "/images"
 post-images: "/images/posts"
 assets: "https://assets.tommi.space/assets"
