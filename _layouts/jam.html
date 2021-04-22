@@ -13,8 +13,8 @@ layout: wrapper
 				creato 
 				{% if page.location != nil %}
 					{% for place in site.data.places %}
-						{% if place.title == page.location %}
-							da <a href="https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18" rel="noopener noreferrer" target="_blank" title="{{ place.title }} su OpenStreetMap">{{ place.title }}</a>
+						{% if place.name == page.location %}
+							da <a href="https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18" rel="noopener noreferrer" target="_blank" title="{{ place.name }} su OpenStreetMap">{{ place.name }}</a>
 						{% else %}
 							da <a href="https://nominatim.openstreetmap.org/search?q={{ page.location | uri_escape }}" rel="noopener noreferrer" target="_blank" title="{{ page.location }} su OpenStreetMap">{{ page.location }}</a>
 						{% endif %}
@@ -25,8 +25,8 @@ layout: wrapper
 				published 
 				{% if page.location != nil %}
 					{% for place in site.data.places %}
-						{% if place.title == page.location %}
-							from <a href="https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18" rel="noopener noreferrer" target="_blank" title="{{ place.title }} on OpenStreetMap">{{ place.title }}</a>
+						{% if place.name == page.location %}
+							from <a href="https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18" rel="noopener noreferrer" target="_blank" title="{{ place.name }} on OpenStreetMap">{{ place.name }}</a>
 						{% else %}
 							from <a href="https://nominatim.openstreetmap.org/search?q={{ page.location | uri_escape }}" rel="noopener noreferrer" target="_blank" title="{{ page.location }} on OpenStreetMap">{{ page.location }}</a>
 						{% endif %}

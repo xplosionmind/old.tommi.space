@@ -33,6 +33,7 @@ exclude:
   - _notes/.trash
   - _notes/PISE
   - _notes/university
+  - _notes/obsidian.css
   - _data/private
   - _notes/.*
   - _data/.*

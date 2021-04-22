@@ -31,7 +31,7 @@
 	--font-monospace: 'Ubuntu Mono', monospace !important; /* substitute with default monospace */
 }
 
-:not(hr):not(blockquote):not(.CodeMirror-cursor):not(td):not(th) {
+:not(hr):not(blockquote):not(.CodeMirror-cursor):not(td):not(th):not(mjx-line) {
 	border: none !important;
 }
 
@@ -270,4 +270,8 @@ blockquote p {
 	background: transparent;
 	color: var(--text);
 	border: 3px solid var(--text);
+}
+
+.center {
+	text-align: center;
 }

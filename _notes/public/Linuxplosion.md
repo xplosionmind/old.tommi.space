@@ -1,6 +1,6 @@
 ---
 date: 2021-01-20T16:55:39.252241+01:00
-updated: 2021-04-12T10:50:59.898904+02:00
+updated: 2021-04-19T23:33:31.438307+02:00
 tags: geek
 aliases: ["Ubuntu Workstation"]
 redirect_from: ["/workstation", "/ubuntu-pc", "/linux-pc", "/pc", "/PC", "/computer-fisso"]
@@ -54,8 +54,10 @@ Linuxplosion is not a [[Server]], hence it should not stay switched on all of th
 <br>
 
 ### Background knowledge
-- https://unix.stackexchange.com/questions/185475/is-there-a-way-to-auto-turn-on-linux-machine#185481
-- https://www.maketecheasier.com/alarm-automatically-power-on-linux/
+- [Is there a way to auto turn-on Linux machine?](https://unix.stackexchange.com/questions/185475/is-there-a-way-to-auto-turn-on-linux-machine "Is there a way to auto turn-on Linux machine?")
+- [Set Alarm to Automatically Power On Linux Computer](https://www.maketecheasier.com/alarm-automatically-power-on-linux/ "Set Alarm to Automatically Power On Linux Computer")
+- [How to Set up an SSH Server on a Home Computer](https://zduey.github.io/tutorials/ssh-server-on-home-computer/ "How to Set up an SSH Server on a Home Computer"), by [Zach Duey](https://zduey.github.io "Zach Duey’s personal website")
+- [Don't Underestimate the Challenge of Building a PC](https://via.hypothes.is/https://www.wired.com/story/dont-underestimate-the-challenge-of-building-a-pc/ "Don't Underestimate the Challenge of Building a PC"), by Alex Cranz on Wired
 
 <br>
 
@@ -117,3 +119,5 @@ Software installed on Linuxplosion
 - Flickr2Piwigo last attempt
 - [Configure WebDAV](https://www.digitalocean.com/community/tutorials/how-to-configure-webdav-access-with-apache-on-ubuntu-18-04 "How To Configure WebDAV Access with Apache on Ubuntu 18.04")
 - [Install PhotoPrism](https://github.com/photoprism/photoprism/discussions/1160 "Build PhotoPrism locally")
+
+[DEV]: https://dev.to "DEV"
