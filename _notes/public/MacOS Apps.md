@@ -1,6 +1,6 @@
 ---
 date: 2021-02-26T10:19:47.219741+01:00
-updated: 2021-04-13T18:47:14.824104+02:00
+updated: 2021-04-28T11:26:00.809466+02:00
 tags: geek/apps
 description: "Right now on my <a href='https://support.apple.com/kb/SP799' rel='noopener noreferrer' target='_blank' title='MacBook Pro 13\" 2019 tech specs'>MacBook Pro 13\" 2019</a>"
 permalink: /macos
@@ -120,6 +120,7 @@ toc: false
 - [deep-daze](https://github.com/lucidrains/deep-daze "deep-daze on GitHub"), artificially generate images by describing content
 - [Exposé](https://github.com/Jack000/Expose), a simple and beautiful static site generator for photoessays
 - [fd](https://github.com/sharkdp/fd "fd source code on GitHub"), `find` improved
+- [fonttools](https://github.com/fonttools/fonttools "fonttools on GitHub"), manipulate font files
 - [fzf](https://github.com/junegunn/fzf), a fuzzy finder which works in some way with Vim but I’m still figuring it out.
 - [gitupdate](https://github.com/nikitavoloboev/gitupdate "gitupdate source code on GitHub"), to commit and push updated files with file names as commit message
 - [massren](https://github.com/laurent22/massren), batch files renaming using a text editor (works great with vim). It’s developed by the same developer of Joplin

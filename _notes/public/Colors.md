@@ -37,11 +37,12 @@ This website’s code snippets use a custom made syntax highlight; its source is
 
 The main colors of [Scambi Festival’s website](https://scambi.org "Scambi")
 
+- `F5EAD7` white-ish tending to ocra
 - `3A83B7` light blue
 - `E2A05A` orange
 - `69088D` purple
 - `1B004D` deep purple
-- `4756A8` dark blue
+- `514A9C` dark blue
 
 <br>
 <br>

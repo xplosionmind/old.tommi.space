@@ -35,9 +35,25 @@ Update 3<sup>rd</sup> December 2020: I've been deluded: like [Playfair Display](
 - Garamond is the most widely used and loved font in the italian publishing industry, and to me it's the best serif font for narrative writing. [EB Garamond](http://www.georgduffner.at/ebgaramond/ "EB Garamond official website") is its renewed, open, digitally friendly alternative, and I use it when I want to use serif in my blog. Its designer is [a great guy](http://georgduffner.at/ "George Duffner personal website")
 
 <br>
+<br>
 
 ## Custom Font
 
 - define a font name
 - cutting the leg of `x`s
 - sideways cutting of letter’s legs
+
+<br>
+<br>
+
+## Font subsetting
+
+In order to make pages load faster, there are ways to drastically reduce a font file size, by basically removing unused glyphs.
+
+```sh
+pyftsubset Inter.ttf \
+  --unicodes="U+0020-007F,U+00A0-00FF,U+2013-204A,U+2150-215F,U+2190-2199,U+21A9,U+21AF,U+2200,U+2203-2209,U+2211,U+221A,U+2325,U+232B,U+2318,U+237A,U+25E6" \
+  --layout-features="" \
+  --flavor="woff2" \
+  --output-file="inter.woff2"
+```

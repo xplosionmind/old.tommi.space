@@ -41,8 +41,7 @@ Esiste una legge matematica che, se trasgredita, porta irreparabili maledizioni 
 
 > I Negroni ordinati da un umano $x$ devono necessariamente essere di numero $2n$; qualora avvenisse il contrario, ed erroneamente o per sfida contro la natura $x$ si trovasse a bere o, ancora peggio, pagare un numero dispari, ergo $2n+1$ di Negroni, $x$ deve aspettarsi un numero $y$ di sciagure nel corso della propria esistenza, dove $y = 2^{2n+1}$. Qualora $y \le 8$ fra tali sciagure sicuramente esisterà la morte.
 
-Il Cubo, è un luogo magico e devo vergognarmi se mai qualcuno venga a trovarmi a Sanremo senza essere ivi portato.
-
+Il Cubo è un luogo magico e devo vergognarmi se mai qualcuno verrà a trovarmi a Sanremo senza essere ivi portato.
 
 [^1]: *Spalmer*: **a.** onda unica al mondo, dalle peculiarità inimitabili e introvabili sul pianeta Terra, eccetto che nel duecento metri di costa antestanti *Il Cubo*.
 [^2]: *Spalmer*: **b.** panino unico al mondo, dagli ingredienti apparentemente banali ma la cui combinazione, insieme al luogo in cui viene addentato (naturalmente, Il Cubo di Sanremo), lo rendono insuperabile; il suo nome è ispirato all’onda omonima di cui sopra.

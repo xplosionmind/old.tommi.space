@@ -6,6 +6,7 @@
 @import "../_sass/highlight";
 @import "../_sass/ubuntu-mono";
 @import "../_sass/links-emojis";
+@import "../_sass/eb-garamond";
 
 html {
 	box-sizing: border-box;
@@ -326,8 +327,8 @@ li {
 
 #goto {
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	top: 4.5vw;
+	right: 0;
 	a {
 		transform: scale(.85);
 		display: block;
@@ -623,7 +624,7 @@ h3 {
 		border-radius: var(--radius-m);
 		padding: var(--small);
 		background: var(--primary);
-		margin: 3vw;
+		margin: 2vw;
 		a {
 			color: var(--text);
 			background: var(--background);

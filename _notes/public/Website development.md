@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-04-17T10:39:22.249035+02:00
+updated: 2021-04-28T12:51:13.127877+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -21,53 +21,56 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 
 1. Configure and implement [[Indie Web]]
 	- Note in footer that this website supports Webmentions
-1. Full width images in posts
-1. Stop using Algolia and consider faster and simpler alternatives
+3. Stop using Algolia and consider faster and simpler alternatives
 	- [Lunr](https://lunrjs.com "Lunr")
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "jekyll-lunr on GitHub")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
-5. Develop a [[Timeline development|timeline]]
-8. [[The Jam]]: Preview a note when hovering on link
-9. [[The Jam]]: Notes graph
-1. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
-2. Configure [Peekalink](https://peekalink.io "Peekalink") in [[Cinema]] to replace [The Movie Database](https://themoviedb.org "The Movie Database") list and quit it.
-3. Avoid having to use special plugins to parse `\[\[wikilinks\]\]`, and use simple markdown links, integrating them in Jekyll with [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links "jekyll-relative-links on GitHub")
+4. Develop a [[Timeline development|timeline]]
+5. [[The Jam]]: Preview a note when hovering on link
+6. [[The Jam]]: Notes graph
+7. Full width images in posts
+8. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
+9. Configure [Peekalink](https://peekalink.io "Peekalink") in [[Cinema]] to replace [The Movie Database](https://themoviedb.org "The Movie Database") list and quit it.
+10. Avoid having to use special plugins to parse `\[\[wikilinks\]\]`, and use simple markdown links, integrating them in Jekyll with [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links "jekyll-relative-links on GitHub")
 	- problems
 		- how to remove invalid links
 		- Folder structure becomes fundamental and links must be changed when file is moved (Obsidian should automatically handle this)
 		- Current Liquid permalinks parsing may not work anymore
-1. Movies list integration
+11. Movies list integration
 	- https://www.themoviedb.org/documentation/api/discover
 	- https://developers.themoviedb.org/3/getting-started/introduction
 	- https://developers.themoviedb.org/3/configuration/get-api-configuration
 	- https://developer.imdb.com/documentation/data-dictionary/names
 	- https://www.themoviedb.org/settings/api/new/form?type=developer
-2. Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts
+12. Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts
 	- create subsections: creative help, hands-on help (e.g. Scambi), technical help, long-term help (collaborations), contacts help (I need to reach somebody and I cannot)
-3. [Tags](/tags):
+13. [Tags](/tags):
 	- consider switching from a unique page list to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
-4. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
-5. Fetch images previews to complete external links and preferences
+14. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
+1. Use typographic animations
+	- [AxisPraxis’ Zycon](https://www.axis-praxis.org/specimens/zycon "Zycon")
+	- [Anicons](https://typogram.github.io/Anicons/ "Anicons")
+15. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
-6. Give a consistent framework to all lists (use CSV data or markdown tables only)
-7. Join WebRings
+16. Give a consistent framework to all lists (use CSV data or markdown tables only)
+17. Join WebRings
 	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub")
 	1. [Recurse Webring](https://webring.recurse.com/ "Recurse Webring")
 	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring")
-8. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
-9. Minimize JavaScript use
+18. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
+19. Minimize JavaScript use
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")
-10. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
-11. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
-12. Study Blogger’s `<head>` to improve SEO
-13. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
-14. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-15. A script to check overlapping permalinks
-16. Develop a [[Light]] version of the website `<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
-17. Improve CSS using `:is()`, see [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/:is ":is on MDN")
-18. Make [[Permanent HTML]]
-19. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
+20. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
+21. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
+22. Study Blogger’s `<head>` to improve SEO
+23. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
+24. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+25. A script to check overlapping permalinks
+26. Develop a [[Light]] version of the website `<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
+27. Improve CSS using `:is()`, see [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/:is ":is on MDN")
+28. Make [[Permanent HTML]]
+29. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
 
 <ul>
 	{% for p in site.pages %}
@@ -198,6 +201,10 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 - *[[Tutto|stuff extended]]*
 - SVG buttons
 - Switch to **SCSS** for styling
+- Switch to [variable fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide "Variable fonts guide on MDN") ✅ 2021.04.28
+	- [How to prepare and use variable fonts on the web](https://thetrevorharmon.com/blog/how-to-prepare-and-use-variable-fonts-on-the-web "How to prepare and use variable fonts on the web \| The Trevor Harmon") by [Trevor Harmon](https://thetrevorharmon.com/ "Trevor Harmon")
+	- [Creating a subset font](https://michaeljherold.com/articles/creating-a-subset-font/ "Creating a subset font") by [Michael Herold](https://michaeljherold.com/ "Michael Herold")
+	- See [[Typography#Font subsetting]]
 - Switch to [[Zettelkasten]]
 	- [git submodules](https://www.taniarascia.com/git-submodules-private-content/)
 	- make backlinks optional: insert `if` statement out of the `div` and make the box appear only if at least one backlink is present
