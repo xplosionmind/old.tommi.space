@@ -120,7 +120,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-toc
   - jekyll-paginate-v2
-  - jekyll-stork
+#  - jekyll-stork
 #  - jekyll-webmention_io
 #  - jekyll-lunr
 
