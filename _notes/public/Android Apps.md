@@ -1,6 +1,6 @@
 ---
 date: 2021-02-26T10:29:32.816156+01:00
-updated: 2021-02-26T10:29:32.816156+01:00
+updated: 2021-05-02T16:29:39.409934+02:00
 tags: geek/apps
 permalink: /android
 redirect_from: ["/android-apps", "/oneplus-apps"]

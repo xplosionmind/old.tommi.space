@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "lunr": "^2.3.9",
-    "lunr-languages": "^1.4.0"
-  }
-}

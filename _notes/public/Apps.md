@@ -1,6 +1,6 @@
 ---
 date: 2020-05-06
-updated: 2021-04-12T10:55:25.444366+02:00
+updated: 2021-05-02T16:30:11.437932+02:00
 tags: geek/apps
 aliases: ["Software", "Digital Tools"]
 image: "/images/apps.png"
@@ -58,3 +58,4 @@ Apps which are not installed but it is worth remembering.
 - [pass](https://www.passwordstore.org/ "pass - the standard unix password manager"), the standard Unix password manager
 - [Knil](https://apps.apple.com/app/knil-universal-link-testing/id1195310358 "Knil on Apple App Store"), universal link testing
 - [Regex](https://motionobj.com/regex/ "Regex"), to test Regex expressions. It costs 30€
+- [WebApps](https://f-droid.org/it/packages/com.tobykurien.webapps/ "WebApps on F-Droid"), to containerize website pages and make them individual WebApps.

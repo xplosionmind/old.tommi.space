@@ -18,6 +18,7 @@ profile: true
 livereload: true
 strict_front_matter: true
 lang: it
+locale: it
 images: "/images"
 post-images: "/images/posts"
 assets: "https://assets.tommi.space/assets"
@@ -119,6 +120,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-toc
   - jekyll-paginate-v2
+  - jekyll-stork
 #  - jekyll-webmention_io
 #  - jekyll-lunr
 

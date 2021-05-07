@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-04-28T12:51:13.127877+02:00
+updated: 2021-05-06T09:45:08.040037+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -24,6 +24,8 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 3. Stop using Algolia and consider faster and simpler alternatives
 	- [Lunr](https://lunrjs.com "Lunr")
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "jekyll-lunr on GitHub")
+	- [Stork](https://stork-search.net/ "Stork search")
+		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork "jekyll-stork plugin")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
 4. Develop a [[Timeline development|timeline]]

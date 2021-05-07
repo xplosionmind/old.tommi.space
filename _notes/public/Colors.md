@@ -1,6 +1,6 @@
 ---
 date: 2020-05-22
-updated: 2021-03-27T17:05:14.292688+01:00
+updated: 2021-05-05T14:22:56.173622+02:00
 tags: design geek/web
 description: "A collection of colors I love and where I use them"
 redirect_from: ["/colours", "/colori"]
@@ -43,6 +43,25 @@ The main colors of [Scambi Festival’s website](https://scambi.org "Scambi")
 - `69088D` purple
 - `1B004D` deep purple
 - `514A9C` dark blue
+
+<br>
+<br>
+
+## pise-notes.club
+
+[pise-notes.club]’s theme colors. Source [SCSS file](https://github.com/xplosionmind/PISE-notes/blob/e53b09b7eb391ac17f1c3a97a005a19412c3d397/style.scss#L13 "PISE Notes SCSS color variables").
+
+- orange: `F26419`
+- light green: `F3F7D9`
+- dark: `C8CBB2`
+- blue: `33658A`
+- light blue: `86BBD8`
+- lightest blue `86BBD822` (it is a quasi-transparent version of light blue)
+- white: `#FFF`
+- light grey: `0002`
+- dark grey: `0009`
+- deep purple: `371350`
+- text: `222`
 
 <br>
 <br>
@@ -144,3 +163,5 @@ Color palettes generators
 
 - [Colormind](http://colormind.io/ "Colormind")
 - [Coolors](https://coolors.co/ "Coolors")
+
+[pise-notes.club]: https://pise-notes.club "PISE Notes"

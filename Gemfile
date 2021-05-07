@@ -54,4 +54,5 @@ group :jekyll_plugins do
 #  gem "jekyll-tagging"
 #  gem "jekyll-auto-image"
 #  gem "premonition"
+  gem "jekyll-stork"
 end

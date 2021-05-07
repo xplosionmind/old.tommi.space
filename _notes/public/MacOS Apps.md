@@ -139,6 +139,7 @@ toc: false
 - [xsv](https://github.com/BurntSushi/xsv "xsv GitHub repository"), CSV management tool.
 - <u class="wavy"><a href="https://you-get.org" rel="noopener noreferrer" target="_blank" title="you-get">you-get</a>, to download stuff from the internet</u>
 - [gping](https://github.com/orf/gping "gping source code on GitHub"), ping with a graph
+- [wkhtmltopdf](https://wkhtmltopdf.org/ "wkhtmltopdf"): generate PDFs from HTML files
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl "youtube-dl source code"), a tool to download videos (and audios) from YouTube
 - [z](https://github.com/rupa/z "z on GitHub"), jump around easily among folders in Terminal
 

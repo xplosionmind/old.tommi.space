@@ -5,9 +5,10 @@ tags: geek/apps
 description: '<a href="https://pandoc.org" rel="noopener noreferrer" target="_blank" title="Pandoc">Pandoc</a> infos and cheat sheet'
 ---
 ## Cheat sheet
+
 Convert a Word file into a Markdown file, following the [CommonMark](https://commonmark.org/ "CommonMark official website") standard
 ```sh
-pandoc input.docx -f docx -t commonmark --wrap=none -o ~/Desktop/output.md
+pandoc ~/Desktop/input.docx -f docx -t commonmark --wrap=none -o ~/Desktop/output.md
 ```
 
 Convert multiple Word files in a folder in a standalone Markdown file
@@ -18,6 +19,11 @@ pandoc *.docx -f docx -t commonmark --wrap=none -s -o ~/Desktop/output.md
 <div class="box">
 	Replace <code>commonmark</code> with <code>markdown_mmd</code> to have more features
 </div>
+
+convert all files in a folder
+```sh
+for f in *.docx; do pandoc "$f" -f docx -t commonmark --wrap=none -s -o "$f".md; done
+```
 
 <br>
 <br>
