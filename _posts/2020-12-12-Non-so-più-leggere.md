@@ -4,6 +4,7 @@ image: "/images/posts/2020-12-12-non-so-piu-leggere.jpg"
 redirect_from:
   - /analfabetismo
   - /non-so-leggere
+  - /non-so-piu-leggere
 ---
 Le lettere, le parole mi scorrono davanti senza lasciare un segno. È tutto uguale, lontano, criptico, inafferrabile. Come se ciò che leggo apparisse in una lingua diversa da quella che il mio cervello sa decodificare.
 
@@ -28,7 +29,7 @@ Scrivo, ma non so leggere. Scrivo, ma non so rileggere e capire quello che ho sc
 
 L'allarmante panorama finora descritto si aggrava ulteriormente, divenendo quasi catastrofico, quando si tratta di inglese, che *dovrebbe essere* la lingua che più utilizzo (leggendo, scrivendo, ascoltando) tutti i giorni. Mi perdo a rileggere per svariati minuti proposizioni che non capisco ma che non sono capace a *scegliere di capire*. Mind you: non è un problema della lingua in sé, né una questione di complessità dei periodi, né tantomeno di contenuti. Si tratta lettura. (punto).
 
-Vorrei quasi presentarmi all'esame che fra sei giorni dovrei sostenere e assistere al triste e grottesco episodio che conseguirebbe al mio scrivere sul foglio d'esame <q>I couldn't study because I don't know how to red anymore</q>. Sarei curioso di scoprire cosa accadrebbe se istituissi un collettivo universitario —dato che ce n'è troppo pochi (senza alcuna critica ai miei adorabili amici che fanno parte di collettivi, vvb)— dedicato al ri-apprendimento dell'antica, fuori moda, complicata arte della lettura.
+Vorrei quasi presentarmi all'esame che fra sei giorni dovrei sostenere e assistere al triste e grottesco episodio che conseguirebbe al mio scrivere sul foglio d'esame <q>I couldn't study because I don't know how to read anymore</q>. Sarei curioso di scoprire cosa accadrebbe se istituissi un collettivo universitario —dato che ce n'è troppo pochi (senza alcuna critica ai miei adorabili amici che fanno parte di collettivi, vvb)— dedicato al ri-apprendimento dell'antica, fuori moda, complicata arte della lettura.
 
 Sarebbe ancora più interessante, quasi quasi lo farei, scrivere un libro sull'incapacità di leggere. Il libro più inutile del mondo: il suo target è esattamente quello di fruire del mezzo scelto.\
 Quasi più assurdo sarebbe farne un podcast, come per dire <q>tranquillo, se non sai più leggere, almeno sai ancora ascoltare</q>.\
