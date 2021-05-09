@@ -58,5 +58,5 @@ description: "This is a basic page used as the reference for a cron job which ev
 
 ## Various
 
-- https://pise-notes.tk
+- https://pise-notes.club
 - https://sconnesso.link

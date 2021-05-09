@@ -65,8 +65,8 @@ body {
 	--grey: var(--light-grey);
 	--other-grey: var(--dark-grey);
 	--transp-text: #0008;
-	--shadow: 5px 5px 15px #0003, -5px -5px 20px #FFFFFFEF;
-	--little-shadow: 2px 2px 3px #0005, -2px -2px 3px #FFF6;
+	--shadow: 5px 5px 20px #0002, -5px -5px 20px #FFF;
+	--little-shadow: 1px 1px 4px #0003, -2px -2px 3px #FFF7;
 	--tool-shadow: 3px 3px 8px #0005, -3px -3px 8px #FFF6;
 	--inner-shadow: inset 3px 3px 5px #0005, inset -3px -3px 5px #FFF3;
 	--inner-little-shadow: inset 2px 2px 3px #0002, inset -2px -2px 3px #FFF3;
@@ -83,7 +83,7 @@ body {
 		filter: var(--invert-dark);
 	}
 	.theme-toggle {
-		filter: brightness(.3);
+		filter: brightness(.5);
 	}
 }
 
@@ -393,7 +393,7 @@ pre {
 }
 
 code {
-	padding: 2px 9px;
+	padding: 2px 6px;
 	box-shadow: var(--inner-little-shadow);
 	border-radius: var(--radius-s);
 }
@@ -655,7 +655,7 @@ h3 {
 }
 
 #toc {
-	padding: 0 10%;
+	margin: 0 10% var(--height);
 	li {
 		margin-bottom: 0;
 	}
@@ -869,6 +869,10 @@ button,
 	&.button {
 		padding: .3rem;
 	}
+}
+
+:not(.light) .theme-toggle {
+	text-shadow: 0 -2px 5px rgba(255,252,249,.5);
 }
 
 .top,

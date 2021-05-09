@@ -25,7 +25,7 @@ layout: wrapper
 		<article class="e-content post">
 
 			{% if page.toc %}
-				<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+				<h3 style="margin-left: 10%">{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
 			{% include toc.html html=content sanitize=true id="toc" %}
 
 			{% endif %}

@@ -27,7 +27,7 @@ To change something, to make things better just [[Quit and switch|switch]] to he
 
 ## Roadmap
 
-Becoming free is [a tricky topic](https://pise-notes.tk/freedom "notes on freedom from Introduction to Philosophy course") by itself, but actually **becoming free** on the internet is very hard, if not impossible.
+Becoming free is [a tricky topic](https://pise-notes.club/freedom "notes on freedom from Introduction to Philosophy course") by itself, but actually **becoming free** on the internet is very hard, if not impossible.
 
 I wrote my own [[Road to Internet Freedom]].
 

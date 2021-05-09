@@ -4,7 +4,7 @@
 		<div class="half column vertical flex">
 			<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 			<cite class="excerpt">
-				{{ post.excerpt | truncatewords: 100 }}
+				{{ post.excerpt | truncatewords: 150 }}
 			</cite>
 			<a href="{{ post.url }}" class="written button">{% if page.lang == 'it' %}Leggi{% else %}Read{% endif %}</a>
 		</div>

@@ -1,6 +1,6 @@
 ---
 date: 2020-02-04
-updated: 2021-03-29T12:47:59.912333+02:00
+updated: 2021-05-09T15:46:57.897676+02:00
 tags: log
 aliases: ["Cose extended", "Tutte le cose", "Stuff extended", "Di tutto e di più", "Done", "Fatto"]
 lang: it
@@ -8,7 +8,7 @@ redirect_from: ["/tuttopiu", "/cose-extended", "/stuff-extended", "/stuff-extend
 main: true
 description: "Un archivio di tutte le cose che faccio e che ho fatto"
 todo:
-  - "Move this to a CSV file"
+  - "Move this to a CSV/YAML file (how to handle links and resources?)"
   - "Sort everything BY DATE, with YEAR as H2; current H2s should become tags"
   - "Update Flickr links"
 ---
@@ -272,6 +272,7 @@ Ho ideato e concepito [quitsocialmedia.club](https://quitsocialmedia.club "Quit 
 - Il 25 ottobre 2020 ho tenuto [questo talk](http://go.tommi.space/MDN-LinuxDay2020) su [MDN Web Docs](https://mdn.dev "MDN homepage") al [Linux Day](https://linuxday.it/2020/ "Linux Day 2020")
 - Il +++ settembre 2020 ho partecipato al[la prima <cite>Filosofia di gruppo</cite>](https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3 "Podcast Filosofia di Gruppo #1") su [[Notes on Ten Arguments For Deleting Your Social Media Accounts|Dieci ragioni per eliminare il proprio account sui social media]] organizzato da [Tlon](https://tlon.it "Sito ufficiale di Tlon"). Il mio intervento è a al minuto `44:45`
 - dall’1 al 6 Marzo 2021 ho gestito [la pagina Instagram](https://instagram.com/sanremonews "Sanremonews su Instagram") di [Sanremonews](https://sanremonews.it "Sanremonews") in occasione del Festival di Sanremo 2021
+- l’8 ed il 9 maggio 2021, ho partecipato al [VeUMEU 2021](https://www.univiu.org/viu-life/veumeu-2021 "Venice Universities’ Model European Union") come parlamentare del Parlamento Europeo, in rappresentanza del Partito Social Democratico del Portogallo.
 
 <br>
 <br>

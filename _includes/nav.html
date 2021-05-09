@@ -5,12 +5,12 @@
 	<nav>
 		<a class="nav-mobile" href="javascript:void(0);" onclick="navtoggle()"><span></span></a>
 		<ul class="nav-list">
-			<li>{% if page.lang == 'it' %}<a href="/about-it" title="Chi sono">Chi sono{% else %}<a href="/about" title="About me">About{% endif %}</a></li>
-			<li>{% if page.lang == 'it' %}<a href="/ora" title="ora">Ora{% else %}<a href="/now" title="Now">Now{% endif %}</a></li>
-			<li>{% if page.lang == 'it' %}<a href="/zibaldone" title="Zibaldone">Zibaldone{% else %}<a href="/zibenglish" title="Zibaldone">Blog{% endif %}</a></li>
-			<li>{% if page.lang == 'it' %}<a href="https://visioni.tommi.space" rel="noopener noreferrer" target="_blank" title="Visioni">Visioni{% else %}<a href="https://visions.tommi.space" rel="noopener noreferrer" target="_blank" title="Visions">Visions{% endif %}</a></li>
+			<li>{% if page.lang == 'it' %}<a href="/about-it" title="Chi sono">Io{% else %}<a href="/about" title="About me">About{% endif %}</a></li>
+			<li>{% if page.lang == 'it' %}<a href="/ora" title="Ciò che sto facendo">Ora{% else %}<a href="/now" title="What I am doing">Now{% endif %}</a></li>
+			<li>{% if page.lang == 'it' %}<a href="/zibaldone" title="Blog">Zibaldone{% else %}<a href="/zibenglish" title="Zibaldone">Blog{% endif %}</a></li>
+			<li>{% if page.lang == 'it' %}<a href="https://visioni.tommi.space" target="_blank" title="Immagini dal mondo di Tommi">Visioni{% else %}<a href="https://visions.tommi.space" target="_blank" title="Pictures from Tommi’s world">Visions{% endif %}</a></li>
 			<li>{% if page.lang == 'it' %}<a href="/cose" title="cose">Cose{% else %}<a href="/stuff" title="Stuff">Stuff{% endif %}</a></li>
-			<li>{% if page.lang == 'it' %}<a href="/marmellata" title="La Marmellata">La Marmellata{% else %}<a href="/jam" title="The Jam">The Jam{% endif %}</a></li>
+			<li>{% if page.lang == 'it' %}<a href="/marmellata" title="La Marmellata">Marmellata{% else %}<a href="/jam" title="The Jam">The Jam{% endif %}</a></li>
 			{% unless page.ref == nil %}
 				<li id="language-selector" class="dropdown"><a onclick="langdropdown()" href="javascript:void(0);" title="language selector"> 🌍 </a>
 				<ul class="dropdown-content">

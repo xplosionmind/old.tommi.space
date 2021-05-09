@@ -72,7 +72,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 26. Develop a [[Light]] version of the website `<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
 27. Improve CSS using `:is()`, see [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/:is ":is on MDN")
 28. Make [[Permanent HTML]]
-29. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.tk "PISE notes")
+29. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
 
 <ul>
 	{% for p in site.pages %}
