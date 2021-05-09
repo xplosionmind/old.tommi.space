@@ -24,6 +24,26 @@
 				</ul>
 			</li>
 			{% endunless %}
+			<script type="text/javascript">
+				const currentTheme = localStorage.getItem("theme");
+				if (currentTheme == "light") {
+					document.body.classList.add("light");
+				}
+			
+				function themetoggle() {
+					document.body.classList.toggle("light");
+			
+					if (document.body.classList.contains("light")) {
+						theme = "light";
+					} else {
+						theme = "dark"
+					}
+			
+					localStorage.setItem("theme", theme);
+				};
+			</script>
+			
+			<li><a onclick="themetoggle()" class="theme-toggle" title="Toggle theme">💡</a></li>
 		</ul>
 	</nav>
 </header>

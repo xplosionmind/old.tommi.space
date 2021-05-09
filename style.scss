@@ -34,7 +34,7 @@ body {
 	--internal-link: var(--blue);
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
-	--transp-text: #FFFA;
+	--transp-text: #FFF9;
 	--shadow: 5px 5px 20px #000000BB, -5px -5px 20px #FFFFFF11;
 	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFFFFF22;
 	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFFFFF11;
@@ -55,7 +55,7 @@ body {
 
 /* LIGHT THEME */
 .light {
-	--background: var(--white-ish);
+	--background: #FFF;
 	--text: var(--black-ish);
 	--deep: white;
 	--link: var(--secondary);
@@ -65,7 +65,7 @@ body {
 	--grey: var(--light-grey);
 	--other-grey: var(--dark-grey);
 	--transp-text: #0008;
-	--shadow: 5px 5px 20px #0005, -5px -5px 20px #FFFFFFEF;
+	--shadow: 5px 5px 15px #0003, -5px -5px 20px #FFFFFFEF;
 	--little-shadow: 2px 2px 3px #0005, -2px -2px 3px #FFF6;
 	--tool-shadow: 3px 3px 8px #0005, -3px -3px 8px #FFF6;
 	--inner-shadow: inset 3px 3px 5px #0005, inset -3px -3px 5px #FFF3;
@@ -81,6 +81,9 @@ body {
 	}
 	.utterances {
 		filter: var(--invert-dark);
+	}
+	.theme-toggle {
+		filter: brightness(.3);
 	}
 }
 
@@ -313,12 +316,15 @@ li {
 	}
 }
 
-.post {
-	& > p:first-of-type::first-letter {
+@supports (initial-letter: 5) or (-webkit-initial-letter: 5) {
+	.post > p:first-of-type::first-letter {
 		initial-letter: 4;
 		-webkit-initial-letter: 4;
 		font-weight: bolder;
 	}
+}
+
+.post {
 	.embed-container {
 		border-radius: var(--radius-l);
 		box-shadow: var(--shadow);
@@ -854,10 +860,6 @@ button,
 		width: 100%;
 		height: 100%;
 	}
-}
-
-.theme-toggle {
-	right: calc(3vw + 4rem);
 }
 
 .tool {
