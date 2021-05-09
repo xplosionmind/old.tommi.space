@@ -123,12 +123,15 @@ plugins:
 #  - jekyll-stork
 #  - jekyll-webmention_io
 #  - jekyll-lunr
+#  - jekyll-wikilinks
 
 sass:
   style: compressed
 
 target-blank:
   rel: external
+
+# wikilinks_collection: "notes"
 
 compress_html:
   clippings: all

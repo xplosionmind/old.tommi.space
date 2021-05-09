@@ -1,0 +1,19 @@
+name: RuboCop
+on: [push, pull_request]
+jobs:
+  build:
+    strategy:
+      matrix:
+        ruby: [3.0]
+    runs-on: ubuntu-latest
+    name: rubocop
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby ${{ matrix.ruby }}
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+      - name: bundle install
+        run: bundle install --jobs 4 --retry 3
+      - name: Run RuboCop
+        run: bundle exec rubocop

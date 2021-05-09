@@ -1,0 +1,20 @@
+current directory: /Users/tommi/tommi.space/vendor/bundle/ruby/3.0.0/gems/liquid-c-4.0.0/ext/liquid_c
+/Users/tommi/.rbenv/versions/3.0.1/bin/ruby -I /Users/tommi/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210508-4479-ulybh1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tommi/tommi.space/vendor/bundle/ruby/3.0.0/gems/liquid-c-4.0.0/ext/liquid_c
+make DESTDIR\= clean
+
+current directory: /Users/tommi/tommi.space/vendor/bundle/ruby/3.0.0/gems/liquid-c-4.0.0/ext/liquid_c
+make DESTDIR\=
+compiling block.c
+compiling lexer.c
+compiling liquid.c
+compiling parser.c
+compiling tokenizer.c
+compiling variable.c
+linking shared-object liquid_c.bundle
+
+current directory: /Users/tommi/tommi.space/vendor/bundle/ruby/3.0.0/gems/liquid-c-4.0.0/ext/liquid_c
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 liquid_c.bundle ./.gem.20210508-4479-m08fui

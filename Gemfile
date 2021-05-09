@@ -55,4 +55,5 @@ group :jekyll_plugins do
 #  gem "jekyll-auto-image"
 #  gem "premonition"
 #  gem "jekyll-stork"
+#  gem "jekyll-wikilinks" # title and permalink should be specified in every note
 end

@@ -38,9 +38,9 @@ body {
 }
 
 .albThumbs li {
-	border-radius: var(--radius-l);
+	border-radius: var(--radius-m);
 	box-shadow: var(--shadow);
-	margin: var(--regular-less) !important;
+	margin: var(--tiny) !important;
 	&:hover {
 		transform: scale(1.05);
 		transition: all .1s;
