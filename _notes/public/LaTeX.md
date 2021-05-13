@@ -9,7 +9,7 @@ toc: false
 
 > Writing should be a pleasant experience. With the right tools, it can be. LaTeX is powerful but cumbersome to use. With Markdown, we can focus on our writing, and worry about the presentation later.
 
-<p class="cite">Jake Zimmerman, <cite><a href="Reach for Markdown, not LaTeX" rel="noopener noreferrer" target="_blank" title="Reach for Markdown, not LaTeX">Reach for Markdown, not LaTeX</a></cite></p>
+<p class="cite">Jake Zimmerman, <cite><a href="Reach for Markdown, not LaTeX"  target="_blank" title="Reach for Markdown, not LaTeX">Reach for Markdown, not LaTeX</a></cite></p>
 
 My intentions are to <u>avoid LaTeX the most I can</u>. I love Markdown, it is simple and quick. LaTeX becomes useful when it is needed to write or draw complex stuff in a neat way. This is why I need to master it, at least some bit.
 
@@ -20,7 +20,7 @@ My intentions are to <u>avoid LaTeX the most I can</u>. I love Markdown, it is s
 
 - [Wanna learn LaTeX?](https://lukesmith.xyz/articles/latex "Wanna learn LaTeX?") by [Luke Smith](https://lukesmith.xyz/ "Luke Smith")
 - [Beautiful Math on Quora - Learn LaTeX in less than 10 minutes](https://math-on-quora.surge.sh/ "An introduction to beautiful math on Quora")
-- <cite><a href="https://tobi.oetiker.ch/lshort/lshort.pdf" rel="noopener noreferrer" target="_blank" title="The Not So Short Introduction to LATEX2ε">The Not So Short Introduction to LaTeX</a></cite>, by [Tobias Oetiker](https://tobi.oetiker.ch/hp/about/ "Tobias Oetiker - About")
+- <cite><a href="https://tobi.oetiker.ch/lshort/lshort.pdf"  target="_blank" title="The Not So Short Introduction to LATEX2ε">The Not So Short Introduction to LaTeX</a></cite>, by [Tobias Oetiker](https://tobi.oetiker.ch/hp/about/ "Tobias Oetiker - About")
 - [LearnLaTeX.org](https://www.learnlatex.org/en/ "Learn LaTeX")
 - [Learn X in Y minutes](https://learnxinyminutes.com/docs/latex/ "Learn latex in Y Minutes")
 

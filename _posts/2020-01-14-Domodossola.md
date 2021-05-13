@@ -22,15 +22,15 @@ Non c’è serenità, per noi qui intrappolati dalla sessione e dai sensi di col
 
 Ma non vita nel senso vita bella vita spensierata vita da innamorati vita da lavoratori vita da filosofi vita da spazzini vita da ricchi vita da geni vita da playboy vita da frati vita da santi vita da delinquenti vita nel senso generale che state pensando.
 
-Vita nel senso stretto, vita nel senso respirare (che poi non respirare forse sarebbe anche meglio), uscire, andare, tornare, dimenticarsi di qualcuno, dimenticarsi di qualcosa, andare a messa, portare a spasso il cane (avercelo), sorridere alla cassiera, prendere una pizza insieme, sperare in un 18, piangere (perché <a href="https://www.instagram.com/p/B46_9F3g4AP/" rel="noopener noreferrer" target="_blank">piangere fa bene</a>) e Brunori <a href="https://open.spotify.com/album/7sYFig64Wpcv9PDq8QRGlV?si=jGGMDzcqTCKeXX2pPm0Nbw" rel="noopener noreferrer" target="_blank">lo insegna</a> meglio di chiunque altro), fare la doccia per più di dieci minuti, pranzare alle 11:30, cenare alle 22, prendere decisioni decisamente poco sagge, disubbidire ma ascoltare, bruciare la frittata (a fare questo riesce solo la mia amica Fra, va menzionato però, in caso in giro ci sia qualche altro poveraccio come lei), amare il proprio pigiama tanto da volerlo sposare, offrire il caffè al tipo gentile in aula studio.
+Vita nel senso stretto, vita nel senso respirare (che poi non respirare forse sarebbe anche meglio), uscire, andare, tornare, dimenticarsi di qualcuno, dimenticarsi di qualcosa, andare a messa, portare a spasso il cane (avercelo), sorridere alla cassiera, prendere una pizza insieme, sperare in un 18, piangere (perché <a href="https://www.instagram.com/p/B46_9F3g4AP/"  target="_blank">piangere fa bene</a>) e Brunori <a href="https://open.spotify.com/album/7sYFig64Wpcv9PDq8QRGlV?si=jGGMDzcqTCKeXX2pPm0Nbw"  target="_blank">lo insegna</a> meglio di chiunque altro), fare la doccia per più di dieci minuti, pranzare alle 11:30, cenare alle 22, prendere decisioni decisamente poco sagge, disubbidire ma ascoltare, bruciare la frittata (a fare questo riesce solo la mia amica Fra, va menzionato però, in caso in giro ci sia qualche altro poveraccio come lei), amare il proprio pigiama tanto da volerlo sposare, offrire il caffè al tipo gentile in aula studio.
 
-Che poi di vite posso dirne quante voglio ma nessuno capirà mai la vita che sto pensando (pensare non è transitivo uff lo so però Brunori, sempre lui, <a href="https://open.spotify.com/track/7bDVh4f0CVKFawrhG84eCU?si=RF4Fy1zcQvyQqLfwGTp8LQ" rel="noopener noreferrer" target="_blank">la vita la pensa</a>, non pensa alla vita, quindi oh, io sono della corrente Brunoriana) e starà pensando quella tutta sua, con le sue cose che dovrebbero andare meglio, quelle fortunate si spera tante, quelle improvvise, quelle pesanti, quelle indimenticabili, quelle fondamentali, quelle di cui sarebbe meglio liberarsi presto.
+Che poi di vite posso dirne quante voglio ma nessuno capirà mai la vita che sto pensando (pensare non è transitivo uff lo so però Brunori, sempre lui, <a href="https://open.spotify.com/track/7bDVh4f0CVKFawrhG84eCU?si=RF4Fy1zcQvyQqLfwGTp8LQ"  target="_blank">la vita la pensa</a>, non pensa alla vita, quindi oh, io sono della corrente Brunoriana) e starà pensando quella tutta sua, con le sue cose che dovrebbero andare meglio, quelle fortunate si spera tante, quelle improvvise, quelle pesanti, quelle indimenticabili, quelle fondamentali, quelle di cui sarebbe meglio liberarsi presto.
 
 Noi ora adesso non è che ci possiamo fare molto insomma, possiamo solo fare così. Di cose tipo l’Iran ce ne accorgiamo una o due settimane dopo, di quello che sta dicendo Salvini in piazza a Domodossola (ma perché è proprio bello Domodossola porca paletta. Ma è una parola favolosa accidenti. Do mo dosss sola. Dalle elementari adoro questa parola e ancora non l’ho usata sul blog mannaggia. Sono incredulo. Ecco, ora ce l’ho infilata ma non so se Salvini è veramente stato lì, era per dire una piazza qualunque), di come sta funzionando il mondo e di tutte queste cose non ci accorgiamo.
 
 Noi, che alcuni sono ingegneri e dovrebbero capire il mondo ed essere i primi a spingerlo avanti nel senso più letterale un domani, noi non ci stiamo capendo un belin. Eppure siamo come dei treni, a cui non interessa se la ferrovia fra 100 200 5000 metri venti kilometri finisce, che vanno a fuoco (non che bruciano: “a fuego”, “a tuono”, “a tavoletta”, perché scrivere velocissimo è troppo poco adatto alla mia discontinua e pressoché completamente scorretta scrittura) tanto di rotaie ci sono solo quelle e molte alternative non si vedono.
 
-E come treni, come <a href="https://youtu.be/5bW7m--WiWE" rel="noopener noreferrer" target="_blank">SQUALI</a> non ci fermiamo, mai, solo per fare la spesa.
+E come treni, come <a href="https://youtu.be/5bW7m--WiWE"  target="_blank">SQUALI</a> non ci fermiamo, mai, solo per fare la spesa.
 
 <br />
 
@@ -40,7 +40,7 @@ E come treni, come <a href="https://youtu.be/5bW7m--WiWE" rel="noopener noreferr
 
 ### Alcune note
 
-Chiedo perdono se non so più usare le virgole ma quelle che mancano se le è mangiate <a href="https://it.wikipedia.org/wiki/Un_amore_(romanzo)" rel="noopener noreferrer" target="_blank">Dino Buzzati</a>.
+Chiedo perdono se non so più usare le virgole ma quelle che mancano se le è mangiate <a href="https://it.wikipedia.org/wiki/Un_amore_(romanzo)"  target="_blank">Dino Buzzati</a>.
 
 E poi.
 
@@ -50,6 +50,6 @@ Allora, o leggete prima solo tutte le parentesi e poi leggete tutto il resto sal
 
 Mi dispiace essermi dilungato così tanto ho disinstallato instagram e twitter e al massimo ogni tanto butto un occhio su Reddit ma questo è un po' l'unico sfogo che posso avere.
 
-Già che ho tirato in mezzo Brunori, ricordo che le canzoni da ascoltare leggendo qui, o meglio, le canzoni della mia vita, sono sempre in <a href="https://open.spotify.com/playlist/5BlTNSfjxRYrJ2nJ9dl9WX?si=yEXHtxo0RHCy_ShsCoaKDg" rel="noopener noreferrer" target="blank">questa playlist</a>.
+Già che ho tirato in mezzo Brunori, ricordo che le canzoni da ascoltare leggendo qui, o meglio, le canzoni della mia vita, sono sempre in <a href="https://open.spotify.com/playlist/5BlTNSfjxRYrJ2nJ9dl9WX?si=yEXHtxo0RHCy_ShsCoaKDg"  target="blank">questa playlist</a>.
 
 E, come sempre, ai due tre centomila uno nessuno arrivati fino qui, un grande abbraccio vi voglio bene anche se forse non vi conosco. A presto (ma speriamo di no, direte voi). E avete anche ragione.

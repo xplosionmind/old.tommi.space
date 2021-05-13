@@ -15,7 +15,7 @@ todo:
 Where and how to learn about Computer Sciences topics and anything technology related.
 
 <div class="blue box">
-	Most of the things one could be looking for are very likely to be found in the <b>AWESOME</b> <a href="https://project-awesome.org" rel="noopener noreferrer" target="_blank" title="Project Awesome">Project Awesome</a>. I am not writing anything about the main sources cited in there.
+	Most of the things one could be looking for are very likely to be found in the <b>AWESOME</b> <a href="https://project-awesome.org"  target="_blank" title="Project Awesome">Project Awesome</a>. I am not writing anything about the main sources cited in there.
 </div>
 
 - [A2Z Learning Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students), a comprehensive and rich repository with almost anything someone keen to improve its developing skills can ask for

@@ -65,7 +65,7 @@ Una volta entrati nel sito, basta individuare la barra di ricerca ed inserire il
 ![A Pirate Bay results page](/images/2020-06-01-torrent/1.jpg)
 
 <div class="yellow box">
-	I nomi dei risultati della ricerca sono sempre lunghissimi e contengono sigle che rivelano informazioni estremamente importanti sul file che contegono. Elencherò di seguito le sigle più importanti; una lista completa può esser cosultataa<a href="https://www.ildottoredeicomputer.it/il-significato-delle-sigle-di-torrent-cam-ts-fs-ws-md/" rel="noopener noreferrer" target="_blank" title="Il Significato delle sigle Torrent">qui</a>) oa<a href="https://en.wikipedia.org/wiki/Pirated_movie_release_types" rel="noopener noreferrer" target="_blank" title="Pirated movie release types">qui</a>.
+	I nomi dei risultati della ricerca sono sempre lunghissimi e contengono sigle che rivelano informazioni estremamente importanti sul file che contegono. Elencherò di seguito le sigle più importanti; una lista completa può esser cosultataa<a href="https://www.ildottoredeicomputer.it/il-significato-delle-sigle-di-torrent-cam-ts-fs-ws-md/"  target="_blank" title="Il Significato delle sigle Torrent">qui</a>) oa<a href="https://en.wikipedia.org/wiki/Pirated_movie_release_types"  target="_blank" title="Pirated movie release types">qui</a>.
 </div>
 
 - `MD`: audio registrato con un microfono da una TV o in un cinema (pessima qualità)

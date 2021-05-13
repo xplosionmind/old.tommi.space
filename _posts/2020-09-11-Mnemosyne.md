@@ -43,7 +43,7 @@ Dopo l’ovvia risposta affermativa del fratello, quella mente geniale sfruttò 
 
 <figure>
   <img class="u-photo" src="{{ page.image }}" alt="André Malraux nel suo studio, mentre confronta e osserva diverse opere d’arte" />
-  <figcaption>Ho trascorso venti minuti per ritrovare quest’immagine bellissima che avevo intravisto tempo fa per poi scoprire che non si tratta di Aby Warburg, ma di <a href="" rel="noopener noreferrer" target="_blank">André Malraux</a>, inventore del <em>Museo Immaginario</em></figcaption>
+  <figcaption>Ho trascorso venti minuti per ritrovare quest’immagine bellissima che avevo intravisto tempo fa per poi scoprire che non si tratta di Aby Warburg, ma di <a href=""  target="_blank">André Malraux</a>, inventore del <em>Museo Immaginario</em></figcaption>
 </figure>
 
 Con l’avvento della prima guerra mondiale, i suoi discepoli, preoccupati per la sorte di quella sterminata fonte di cultura e conoscenza, ma soprattutto per la salute del professore, presero un'immensa chiatta e trasferirono a Londra la biblioteca, che ora è il fighissimo [Warburg Institute](https://warburg.sas.ac.uk/).

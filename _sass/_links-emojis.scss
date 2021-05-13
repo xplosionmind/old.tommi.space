@@ -9,19 +9,19 @@ article .box:not(.tags) {
 			}
 		}
 		&[href*="mailto" i] {
-		&::before {
-			content: " ✉️ ";
+			&::before {
+				content: " ✉️ ";
 			}
 		}
 		&[href^="https://buttondown.email/tommi" i],
 		&[href*="/newsletter" i] {
-		&::before {
-			content: " 💌 ";
+			&::before {
+				content: " 💌 ";
 			}
 		}
 		&[href*="giri" i] {
-		&::before {
-			content: "🧳 ";
+			&::before {
+				content: "🧳 ";
 			}
 		}
 		&[href*="visioni" i],

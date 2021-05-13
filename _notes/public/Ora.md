@@ -8,7 +8,7 @@ hide: true
 comments: false
 ---
 <div class="blue box">
-	Quella che stai leggendo è molto più di una semplice pagina web, è parte di <a href="https://sive.rs/nowff" title="Now page - Derek Sivers" rel="noopener noreferrer" target="_blank">un movimento</a>, nato dal mitico <a href="https://sive.rs" title="Derek Sivers’ personal website" rel="noopener noreferrer" target="_blank">Derek Sivers</a> nel 2015,  e in poco tempo <a href="https://sive.rs/now3" rel="noopener noreferrer" target="_blank">è cresciuta esponenzialmente</a>. Per sapere di più riguardo la filosofia e scoprire <a href="https://nownownow.com" title="NowNowNow" rel="noopener noreferrer" target="_blank">il numero immenso</a> di persone che hanno sposato il progetto, basta visitare <a href="https://nownownow.com/about" title="About NowNowNow" rel="noopener noreferrer" target="_blank">nownownow.com</a>, un <a href="https://it.wikipedia.org/wiki/Webring" rel="noopener noreferrer" target="_blank" title="Webring su Wikipedia"><i>webring</i></a> in sui sono presenti tutti i siti che contengono una pagina <code>/now</code>.
+	Quella che stai leggendo è molto più di una semplice pagina web, è parte di <a href="https://sive.rs/nowff" title="Now page - Derek Sivers"  target="_blank">un movimento</a>, nato dal mitico <a href="https://sive.rs" title="Derek Sivers’ personal website"  target="_blank">Derek Sivers</a> nel 2015,  e in poco tempo <a href="https://sive.rs/now3"  target="_blank">è cresciuta esponenzialmente</a>. Per sapere di più riguardo la filosofia e scoprire <a href="https://nownownow.com" title="NowNowNow"  target="_blank">il numero immenso</a> di persone che hanno sposato il progetto, basta visitare <a href="https://nownownow.com/about" title="About NowNowNow"  target="_blank">nownownow.com</a>, un <a href="https://it.wikipedia.org/wiki/Webring"  target="_blank" title="Webring su Wikipedia"><i>webring</i></a> in sui sono presenti tutti i siti che contengono una pagina <code>/now</code>.
 </div>
 
 Sto:
@@ -27,7 +27,7 @@ Tutto quello che stiamo creando, i contatti e maggiori dettagli su chi siamo e p
 Sto frequentando il corso di [Philosophy, International Studies and Economics](https://unive.it/pise "la pagina del PISE sul sito di Ca' Foscari") a all'[Università Ca’ Foscari University](https://unive.it "il sito web di Ca' Foscari"), nella favolosa [Venezia](https://www.comune.venezia.it/ "Sito web del comune di Venezia"), dove sto vivendo.
 
 <div class="blue box">
-	Ho creato <cite><a href="https://pise-notes.club" rel="noopener noreferrer" target="_blank" title="PISE notes">PISE Notes</a></cite>, in cui raccolgo tutti i miei appunti
+	Ho creato <cite><a href="https://pise-notes.club"  target="_blank" title="PISE notes">PISE Notes</a></cite>, in cui raccolgo tutti i miei appunti
 </div>
 
 <br>

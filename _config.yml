@@ -151,6 +151,7 @@ defaults:
       image: "/images/preview.gif"
       comments: true
       serif: false
+      primary: "#FCC920"
 
   -
     scope:
@@ -205,5 +206,5 @@ defaults:
     values:
       layout: post
       lang: it
-      primary: "var(--green)"
+      primary: "#20CE88"
       permalink: /filinge/:title

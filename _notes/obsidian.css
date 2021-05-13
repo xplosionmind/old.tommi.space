@@ -275,3 +275,11 @@ blockquote p {
 .center {
 	text-align: center;
 }
+
+.missing,
+.wtf {
+  padding: 2px 5px;
+  background: var(--red);
+  color: #FFF;
+  border-radius: 5px;
+}

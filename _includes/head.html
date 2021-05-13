@@ -1,5 +1,8 @@
 <head>
+	<link rel="preload" href="/style.css" type="text/css" as="style" />
+	<link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" />
 	<meta name="color-scheme" content="dark light">
+	<meta charset="utf-8">
 	{% seo %}
 	<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}Zibaldone feed{% else %}blog's feed{% endif %}" href="/feeds/zibaldone.xml" />
 	<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}feed di poesie{% else %}poetry feed{% endif %}" href="/feeds/poetry.xml" />
@@ -8,29 +11,28 @@
 	<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}feed marmellata{% else %}notes feed{% endif %}" href="/feeds/jam.xml" />
 	<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}feed con solo cose nerd{% else %}only geek stuff feed{% endif %}" href="/feeds/geek.xml" />
 	<link rel="alternate" type="application/atom+xml" title="{% if page.lang == 'it'%}Feed Sconnesso{% else %}Podcast feed{% endif %}" href="/feeds/sconnesso.xml" lang="it" />
-	<link href="https://feedbin.com/starred/473f6605a06ee11a237dd820d772f086.xml" type="application/atom+xml" rel="alternate noopener noreferrer" target="_blank" title="{% if page.lang == 'it' %}Connessioni: link a cose interessanti{% else %}Connections: links to interesting stuff on the web{% endif %}" />
+	<link href="https://feedbin.com/starred/473f6605a06ee11a237dd820d772f086.xml" type="application/atom+xml" rel="alternate" title="{% if page.lang == 'it' %}Connessioni: link a cose interessanti{% else %}Connections: links to interesting stuff on the web{% endif %}" />
 
-	<title>{{ page.title }} | Tommi Space</title>
-	<link rel="stylesheet preload" href="/style.css" type="text/css" />
-	<link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<link rel="stylesheet" href="/style.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 	<meta name="mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<link rel="icon" href="/favicon.ico/" type="image/x-icon" />
 	<link rel="icon" href="/logos/favicon.png" type="image/png" />
 	<link rel="apple-touch-icon" sizes="120x120" href="/logos/favicon-120.png" type="image/png" />
 	<link rel="apple-touch-icon" sizes="152x152" href="/logos/favicon-152.png" type="image/png" />
 	<link rel="apple-touch-icon" sizes="157x157" href="/logos/favicon-157.png" type="image/png" />
-	<link rel="apple-touch-icon" sizes="180x180" href="/logos/favicon-180.png" type="image/png" />
+	<link rel="icon apple-touch-icon" sizes="180x180" href="/logos/favicon-180.png" type="image/png" />
 	<meta name="theme-color" content="{{ page.primary }}" />
 	<meta property="og:type" content="website" />
 	<meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}" />
 	<meta property="article:modified_time" content="{% if page.updated %}{{ page.updated }}{% else %}{{ page.last_modified_at | date_to_xmlschema }}{% endif %}" />
 	{% if page.ref != nil %}
 		<meta property="og:locale:alternate" content="{% if page.lang == 'it' %}en{% else %}it{% endif %}" />
+		<link rel="alternate" hreflang="{% if page.lang == 'it' %}en{% else %}it{% endif %}" href="{% for cosa in site.pages %}
+		{% if cosa.ref == page.ref %}{{ cosa.url | absolute_url }}{% endif %}{% endfor %}" />
 	{% endif %}
+
 	{% if page.latex %}
 		<!-- LaTeX support -->
 		<script>
@@ -43,7 +45,7 @@
 				}
 			};
 		</script>
-		<script type="text/javascript" id="MathJax-script" async
+		<script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 		</script>
 	{% endif %}
@@ -128,7 +130,7 @@
 	<link rel="me" href="https://twitter.com/xplosionmind" />
 	{% endcomment %}
 
-	{% if page.primary != nil %}
+	{% if page.primary != '#FCC920' %}
 		<style>
 			body {
 				--primary: {{ page.primary }} !important

@@ -3,7 +3,7 @@ date: 2020-06-10
 updated: 2021-03-28T21:22:19.994794+02:00
 permalink: /qsm
 aliases: ["QSM"]
-description: 'Notes about <a href="https://quitsocialmedia.club" rel="noopener noreferrer" target="_blank" title="Quit Social Media">quitsocialmedia.club</a>'
+description: 'Notes about <a href="https://quitsocialmedia.club"  target="_blank" title="Quit Social Media">quitsocialmedia.club</a>'
 redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-notes", "/quit-social-media-notes", "/quit-social-media"]
 ---
 <div class="blue box">

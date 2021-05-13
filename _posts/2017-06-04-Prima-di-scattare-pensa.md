@@ -33,4 +33,4 @@ Tommaso Marmo – Ufficio Stampa Liceo G.D. Cassini Sanremo
 
 <br>
 
-<a href="https://www.rivieratime.news/prima-di-scattare-pensa" rel="noopener noreferrer" target="_blank">articolo originale</a>
+<a href="https://www.rivieratime.news/prima-di-scattare-pensa"  target="_blank">articolo originale</a>

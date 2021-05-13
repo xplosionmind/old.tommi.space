@@ -2,7 +2,7 @@
 date: 2021-02-26T10:19:47.219741+01:00
 updated: 2021-05-08T18:39:48.405565+02:00
 tags: geek/apps
-description: "Right now on my <a href='https://support.apple.com/kb/SP799' rel='noopener noreferrer' target='_blank' title='MacBook Pro 13\" 2019 tech specs'>MacBook Pro 13\" 2019</a>"
+description: "Right now on my <a href='https://support.apple.com/kb/SP799' target='_blank' title='MacBook Pro 13\" 2019 tech specs'>MacBook Pro 13\" 2019</a>"
 permalink: /macos
 redirect_from: ["/macos-apps", "/mac-apps", "/macos", "/macbook", "/macbook-pro", "/macbookpro", "/tommis-mac", "/tommis-macbook", "/tommis-macbook-pro", "/tommismacbookpro"]
 toc: false
@@ -19,7 +19,7 @@ toc: false
 - ~~[balenaEtcher](https://www.balena.io/etcher/ "Etcher"), the safest, simplest and quickest software to flash OS images to external drives.~~ I was not using it so much.
 - ~~[BitBar](https://getbitbar.com "BitBar official website"), run any plugin from the top bar~~. I didn't use it.
 - ~~[BlackHole](https://blackhole.run/ "BlackHole"), to share any file. Fast and private. Based on [Blockstack](https://blockstack.org/).~~ It’s useless.
-- ~~[Blockstack](https://blockstack.org/), ideally, it’s something **awesome**, definitely game-changing.~~ Practically, it doesn’t work on my Mac (I tried <a href="https://forum.blockstack.org/t/cant-use-any-dapp/10628" rel="noopener noreferrer" target="_blank">everything</a>). I uninstalled and I’m not using it, then.
+- ~~[Blockstack](https://blockstack.org/), ideally, it’s something **awesome**, definitely game-changing.~~ Practically, it doesn’t work on my Mac (I tried <a href="https://forum.blockstack.org/t/cant-use-any-dapp/10628"  target="_blank">everything</a>). I uninstalled and I’m not using it, then.
 - [ChatSecure](https://chatsecure.org "ChatSecure"), a free and open source XMPP messaging client
 - ~~[Cakebrew](https://www.cakebrew.com "Cakebrew"), Homebrew GUI~~, it is useless
 - [Clean Me](https://kevin-de-koninck.github.io/Clean-Me "Clean Me official website"), an Open Source, better, neat and perfectly working alternative to CCleaner written in Swift.
@@ -138,7 +138,7 @@ toc: false
 - [Subliminal](https://github.com/Diaoul/subliminal), a tool to download subtitles
 - [csvdiff](https://github.com/aswinkarthik/csvdiff "csvdiff source code on GitHub"), compare CSV files
 - [xsv](https://github.com/BurntSushi/xsv "xsv GitHub repository"), CSV management tool.
-- <u class="wavy"><a href="https://you-get.org" rel="noopener noreferrer" target="_blank" title="you-get">you-get</a>, to download stuff from the internet</u>
+- <u class="wavy"><a href="https://you-get.org"  target="_blank" title="you-get">you-get</a>, to download stuff from the internet</u>
 - [gping](https://github.com/orf/gping "gping source code on GitHub"), ping with a graph
 - [wkhtmltopdf](https://wkhtmltopdf.org/ "wkhtmltopdf"): generate PDFs from HTML files
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl "youtube-dl source code"), a tool to download videos (and audios) from YouTube

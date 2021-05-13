@@ -2,7 +2,7 @@
 date: 2021-02-26T10:23:12.234891+01:00
 updated: 2021-04-16T09:34:50.841814+02:00
 tags: geek/apps
-description: "Apps installed on my <a href='https://www.apple.com/it/iphone-12/' rel='noopener noreferrer' target='_blank' title='iPhone 12'>iPhone 12 mini</a>"
+description: "Apps installed on my <a href='https://www.apple.com/it/iphone-12/' target='_blank' title='iPhone 12'>iPhone 12 mini</a>"
 permalink: /ios
 redirect_from: ["/ios-apps", "/iphone", "/iphone-apps"]
 toc: false

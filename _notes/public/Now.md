@@ -8,7 +8,7 @@ todo:
   - "history of previous “now”s when updating"
 ---
 <div class="blue box">
-	The one you are reading is more than a simple web page, it is a part of <a href="https://sive.rs/nowff" title="Now page - Derek Sivers" rel="noopener noreferrer" target="_blank">a movement</a> started by the legendary <a href="https://sive.rs" title="Derek Sivers’ personal website" rel="noopener noreferrer" target="_blank">Derek Sivers</a> in 2015, and <a href="https://sive.rs/now3" rel="noopener noreferrer" target="_blank">it grew a lot</a> since then. To know more about the concept and find out <a href="https://nownownow.com" title="NowNowNow" rel="noopener noreferrer" target="_blank">how many people</a> are embracing it, visit <a href="https://nownownow.com/about" title="About NowNowNow" rel="noopener noreferrer" target="_blank">nownownow.com</a>, which is a <a href="https://en.wikipedia.org/wiki/Webring" rel="noopener noreferrer" target="_blank" title="Webring on Wikipedia">webring</a> collecting sites which contain a <code>/now</code> page.
+	The one you are reading is more than a simple web page, it is a part of <a href="https://sive.rs/nowff" title="Now page - Derek Sivers"  target="_blank">a movement</a> started by the legendary <a href="https://sive.rs" title="Derek Sivers’ personal website"  target="_blank">Derek Sivers</a> in 2015, and <a href="https://sive.rs/now3"  target="_blank">it grew a lot</a> since then. To know more about the concept and find out <a href="https://nownownow.com" title="NowNowNow"  target="_blank">how many people</a> are embracing it, visit <a href="https://nownownow.com/about" title="About NowNowNow"  target="_blank">nownownow.com</a>, which is a <a href="https://en.wikipedia.org/wiki/Webring"  target="_blank" title="Webring on Wikipedia">webring</a> collecting sites which contain a <code>/now</code> page.
 </div>
 
 <br>
@@ -22,7 +22,7 @@ What I am doing right now:
 I am attending [Philosophy, International Studies and Economics](https://unive.it/pise "PISE course page on UniVe website") at [Ca' Foscari University](https://unive.it "Ca' Foscari University website") in [Venice](https://www.comune.venezia.it/ "Venice institutional website"), Italy, where I'm living.
 
 <div class="blue box">
-	I made <a href="https://pise-notes.club" rel="noopener noreferrer" target="_blank" title="PISE Notes">PISE Notes</a>, a website in which I collect notes on the course classes.
+	I made <a href="https://pise-notes.club"  target="_blank" title="PISE Notes">PISE Notes</a>, a website in which I collect notes on the course classes.
 </div>
 
 <br>
@@ -32,7 +32,7 @@ I am attending [Philosophy, International Studies and Economics](https://unive.i
 
 With a group of curious, different and crazy guys from all over Italy, I am organizing a cultural Festival. Its name is [<cite>Scambi</cite>](https://scambi.org "Scambi"), and it is taking place in **Sanremo**, during the last week of August 2021. It is already been one year since we started working on this and we founded an association.
 
-Everything about us and what we do is on <a href="https://scambi.org" rel="noopener noreferrer" target="_blank" title="Scambi">our website</a>
+Everything about us and what we do is on <a href="https://scambi.org"  target="_blank" title="Scambi">our website</a>
 
 <br>
 <br>

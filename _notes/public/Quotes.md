@@ -548,7 +548,7 @@ Woody Allen
 > me: <q>I'm scared of having to choose</q>
 > Eliza: <q>What would it mean if you were not scared of having to choose?</q>
 
-<p class="right">from a chat with <a href="https://med-ai.com/models/eliza.html" rel="noopener noreferrer" target="_blank" title="Eliza AI">Eliza AI</a>, 5<sup>th</sup> November 2020</p>
+<p class="right">from a chat with <a href="https://med-ai.com/models/eliza.html"  target="_blank" title="Eliza AI">Eliza AI</a>, 5<sup>th</sup> November 2020</p>
 
 <br>
 <br>
@@ -599,7 +599,7 @@ Woody Allen
 
 > …for God gave us a spirit not of fear but of power and love and self-control.
 
-<p class="cite"><a href="https://www.biblegateway.com/passage/?search=2+Timothy+1.7&version=ESV" rel="noopener noreferrer" target="_blank" title="2 Timothy 1.7">2 Timothy 1.7</a></p> 
+<p class="cite"><a href="https://www.biblegateway.com/passage/?search=2+Timothy+1.7&version=ESV"  target="_blank" title="2 Timothy 1.7">2 Timothy 1.7</a></p> 
 
 <br>
 <br>

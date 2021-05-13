@@ -42,10 +42,10 @@ The basic idea is trying to pinpoint daily events and feelings which could be re
 
 > The **quantified self** refers both to the cultural phenomenon of self-tracking with technology and to a community of users and makers of [self-tracking](https://en.wikipedia.org/wiki/Self-tracking "Self-tracking") tools who share an interest in <q>self-knowledge through numbers</q>. Quantified Self practices overlap with the practice of [lifelogging](https://en.wikipedia.org/wiki/Lifelog "Lifelog") and other trends that <u>incorporate technology and data acquisition into daily life</u>, often with the goal of improving physical, mental, and/or emotional performance.
 
-<p class="cite"><a href="https://en.wikipedia.org/wiki/Quantified_self" rel="noopener noreferrer" target="_blank" title="Quantified self on Wikipedia">Quantified self on Wikipedia</a></p>
+<p class="cite"><a href="https://en.wikipedia.org/wiki/Quantified_self"  target="_blank" title="Quantified self on Wikipedia">Quantified self on Wikipedia</a></p>
 
 <br>
 
 > The key concept is that you will tell the system what you’re trying to achieve, and it will then build you a plan for achieving those goals based on everything it knows about what works and what doesn’t work for people like you.
 
-<p class="cite"><a href="https://danielmiessler.com" rel="noopener noreferrer" target="_blank" title="Daniel Messler">Daniel Messler</a>, <cite><a href="https://danielmiessler.com/blog/the-life-dashboard/" rel="noopener noreferrer" target="_blank" title="The Life Dashboard">The Life Dashboard</a></cite></p>
+<p class="cite"><a href="https://danielmiessler.com"  target="_blank" title="Daniel Messler">Daniel Messler</a>, <cite><a href="https://danielmiessler.com/blog/the-life-dashboard/"  target="_blank" title="The Life Dashboard">The Life Dashboard</a></cite></p>

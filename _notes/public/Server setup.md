@@ -5,7 +5,7 @@ tags: geek/server
 description: "A walktrough of the steps I executed to set up my server"
 ---
 <div class="box">
-	A <strong>huge shout-out</strong> to my friend <a href="http://claudiofaoro.com" title="Claudio's personal website" rel="noopener noreferrer" target="_blank">Claudio</a>, who helped me understand and perform the most tricky passages.
+	A <strong>huge shout-out</strong> to my friend <a href="http://claudiofaoro.com" title="Claudio's personal website"  target="_blank">Claudio</a>, who helped me understand and perform the most tricky passages.
 </div>
 
 <br>
@@ -110,7 +110,7 @@ Substitute `100.100.010.1` with the server’s IP address, `xplosionmind` with t
 ### SSH port
 
 <div class="box yellow">
-	Changing the default SSH port is useful to prevent randomized attacks which attempt to get access to the server from <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers" rel="noopener noreferrer" target="_blank">port 22</a>, the default one.
+	Changing the default SSH port is useful to prevent randomized attacks which attempt to get access to the server from <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers"  target="_blank">port 22</a>, the default one.
 </div>
 
 Enable the new SSH port from the firewall. In this case, the process I will be following configures port `5522`

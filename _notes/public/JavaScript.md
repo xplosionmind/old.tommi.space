@@ -18,7 +18,7 @@ I am stacking here everything I find out on the web which might be useful for wh
 ## Learning resources
 
 - [Derek Sivers’s guide](https://sivers.org/learn-js)
-- <cite><a href="http://www.javascriptbook.com/" rel="noopener noreferrer" target="_blank" title="JavaScript and JQuery">JavaScript and JQuery</a></cite>, a book by [Jon Duckett](https://en.wikipedia.org/wiki/John_Duckett "Jon Duckett on Wikipedia")
+- <cite><a href="http://www.javascriptbook.com/"  target="_blank" title="JavaScript and JQuery">JavaScript and JQuery</a></cite>, a book by [Jon Duckett](https://en.wikipedia.org/wiki/John_Duckett "Jon Duckett on Wikipedia")
 - [10 best JavaScript practices recommended by Top Developers](https://blog.hrithwik.me/10-best-javascript-practices-recommended-by-top-developers "10 best JavaScript practices recommended by Top Developers")
 
 <br>

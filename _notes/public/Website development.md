@@ -29,6 +29,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
 4. Develop a [[Timeline development|timeline]]
+5. Add [`this page is built to last`](https://jeffhuang.com/designed_to_last/)
 5. [[The Jam]]: Preview a note when hovering on link
 6. [[The Jam]]: Notes graph
 7. Full width images in posts
@@ -77,7 +78,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 <ul>
 	{% for p in site.pages %}
 		{% if p.todo != nil %}
-			<li><a href="{{ p.url }}" rel="noopener noreferrer" target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
+			<li><a href="{{ p.url }}"  target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
 				{% for td in p.todo %}
 					<li>{{ td }}</li>
 				{% endfor %}
@@ -87,7 +88,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	
 	{% for p in site.notes %}
 		{% if p.todo != nil %}
-			<li><a href="{{ p.url }}" rel="noopener noreferrer" target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
+			<li><a href="{{ p.url }}"  target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
 				{% for td in p.todo %}
 					<li>{{ td }}</li>
 				{% endfor %}

@@ -25,6 +25,6 @@ tags: archive
 		{% endif %}
 	</p>
 	<div class="flex row">
-		<a class="red written button" href="https://mars.nasa.gov/participate/send-your-name/mars2020/certificate/249520420534" rel="noopener noreferrer" taget="_blank" title="Send your name to Mars - NASA">{% if page.lang == 'it' %}Scopri di più{% else %}Find out more{% endif %}</a>
+		<a class="red written button" href="https://mars.nasa.gov/participate/send-your-name/mars2020/certificate/249520420534"  taget="_blank" title="Send your name to Mars - NASA">{% if page.lang == 'it' %}Scopri di più{% else %}Find out more{% endif %}</a>
 	</div>
 </div>

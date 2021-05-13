@@ -8,7 +8,7 @@
 			<div class="half column vertical flex">
 				<img class="stuff-logo" src="{{ site.logos }}/stuff/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
 				<p>{{ thing.description-it | markdownify }}</p>
-				<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
+				<a href="{{ thing.link }}"  target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
 			</div>
 		</div>
 	{% else %}
@@ -19,7 +19,7 @@
 			<div class="half column vertical flex">
 				<img class="stuff-logo" src="{{ site.logos }}/stuff/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
 				<p>{{ thing.description | markdownify }}</p>
-				<a href="{{ thing.link }}" rel="noopener noreferrer" target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
+				<a href="{{ thing.link }}"  target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
 			</div>
 		</div>
 	{% endif %}

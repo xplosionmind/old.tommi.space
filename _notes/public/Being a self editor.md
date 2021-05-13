@@ -6,7 +6,7 @@ description: "I am a self editor, I am the editor of myself."
 toc: false
 ---
 <div class="blue box">
-	A note: actually, I am the editor of myself in every sense, I publish on my own content I create. Nevertheless, in this case the meaning of the word “<a href="https://www.merriam-webster.com/dictionary/editor" rel="noopener noreferrer" target="_blank" title="“editor” in the Merriam-Webster dictionary">editor</a>” I am referring to is the one related to cinema.
+	A note: actually, I am the editor of myself in every sense, I publish on my own content I create. Nevertheless, in this case the meaning of the word “<a href="https://www.merriam-webster.com/dictionary/editor"  target="_blank" title="“editor” in the Merriam-Webster dictionary">editor</a>” I am referring to is the one related to cinema.
 </div>
 
 I have a ton of thoughts, ideas, knowledge which passes through my mind at every instant, and by editing it I mean selecting what to remember, what no write down, what to focus on.

@@ -19,6 +19,6 @@ Finché noi lettori rimarremo selvaggi, appassionati, disperatamente attaccati a
 
 ### Alcune note
 
-- tutta questa riflessione nasce, oltre che dalla mitica rassegna stampa di questa mattina, soprattutto dal fatto che sono appena tornato dal cinema in cui ho visto <a href="https://www.imdb.com/title/tt7139936" rel="noopener noreferrer" target="_blank">l'ultimo film di Woody Allen</a> (con Selena Gomez!) che mi è piaciuto tantissimo e avevo un sacco di cose da dire ma non sapevo cosa dire.
+- tutta questa riflessione nasce, oltre che dalla mitica rassegna stampa di questa mattina, soprattutto dal fatto che sono appena tornato dal cinema in cui ho visto <a href="https://www.imdb.com/title/tt7139936"  target="_blank">l'ultimo film di Woody Allen</a> (con Selena Gomez!) che mi è piaciuto tantissimo e avevo un sacco di cose da dire ma non sapevo cosa dire.
 - Sono riuscito a cambiare il font dei post, ora mi sembra molto più carino e leggibile, ma potete suggerirmi miglioramenti, non sono molto buono con le scelte estetiche.
 - Il titolo è ovviamente clickbait, ma neanche troppo.

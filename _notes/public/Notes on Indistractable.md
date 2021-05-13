@@ -4,7 +4,7 @@ updated: 2021-02-04T13:56:31.274310+01:00
 tags: reading/book/wip
 toc: false
 ---
-Notes on <cite><a href="https://www.nirandfar.com/indistractable" target="_blank" rel="noopener noreferrer">Indistractable</a></cite> by [Nir Eyal](https://www.nirandfar.com/about-nir-eyal "About page on Nir Eyal official website").
+Notes on <cite><a href="https://www.nirandfar.com/indistractable" target="_blank" >Indistractable</a></cite> by [Nir Eyal](https://www.nirandfar.com/about-nir-eyal "About page on Nir Eyal official website").
 
 > Removing online technology didn't work. I'd just replace one distraction with another.
 

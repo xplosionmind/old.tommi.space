@@ -1,12 +1,17 @@
 ---
 date: 2020-08-04
-updated: 2021-04-13T07:04:35.518587+02:00
+updated: 2021-05-10T09:45:58.341829+02:00
 tags: geek
 permalink: /bugs
 redirect_from: ["/feature-requests", "/bugs-and-feature-requests"]
 description: "Bugs and Feature requests for the apps I use"
 ---
 The [[Apps]] I use the most are open source software in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports.
+
+<div class="yellow box">
+	<h3>Note</h3>
+	Below I write about bugs or features whose reporting I am not aware of. Hence, there are bugs I experience or features I am interested in, but if they are already in development or being discussed I will not mention them.
+</div>
 
 <br>
 <br>
@@ -22,10 +27,16 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 
 <br>
 
+### Shortcuts
+
+- Apple Pay automation: trigger action passing the payed price to a shortcut
+- Create and edit Shortcuts from MacOS or from web browser, so that it can be easier to visualize changes.
+
+<br>
+
 ### Messages
 
 - Improved audio handling
-	- recording stops when screen shuts off
 - Delete for me / delete for everybody option
 
 <br>
@@ -35,7 +46,6 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 
 [Signal](https://signal.org "Signal official website") is the most secure and private messaging app in the world
 
-- markdown syntax (or any text formatting capability)
 - setting to choose to automatically download media and add to Library
 
 <br>
@@ -82,7 +92,8 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 - choose to hide front matter when embedding other notes, even if “show YAML front matter” is switched on for the notes
 - Multiple hotkeys for one action
 - In links, update also headings when their name is changed
-- Tags aliases (e.g. &num;place == &num;places)
+- Tags aliases (e.g. `#place` == `#places`)
+- Make Wikilinks work in HTML tags
 
 <br>
 
@@ -90,7 +101,6 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 
 - in editor mode last 2 letters are hidden. (fixed by setting `.CodeMirror` `overflow: unset` in `obsidian.css`)
 - cursor width not corresponding to a single character’s spacing
-- wiki-like links don’t work in `div`s
 
 <br>
 <br>
@@ -139,7 +149,7 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 [Joplin](http://joplinapp.org) is a wonderful and complete note-taking app.
 
 <div class="red box">
-	<strong>Note</strong>: I stopped using Joplin as my daily driver since November 2020 and I switched to <a href="https://obsidian.md" rel="noopener noreferrer" target="_blank" title="Obsidian official website">Obsidian</a>. The reasons why I did this are in <a href="/switch-to-zettelkasten" title="Switch to Zettelkasten">this blog post</a>.
+	<strong>Note</strong>: I stopped using Joplin as my daily driver since November 2020 and I switched to <a href="https://obsidian.md"  target="_blank" title="Obsidian official website">Obsidian</a>. The reasons why I did this are in <a href="/switch-to-zettelkasten" title="Switch to Zettelkasten">this blog post</a>.
 </div>
 
 ### Features requests
@@ -173,7 +183,7 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 [Zettlr](https://www.zettlr.com) is the best Markdown editor out there.
 
 <div class="red box">
-	Since November 2020 I stopped using Zettlr because its work could be made by <a href="https://obsidian.md" rel="noopener noreferrer" target="_blank" title="Obsidian official website">Obsidian</a>
+	Since November 2020 I stopped using Zettlr because its work could be made by <a href="https://obsidian.md"  target="_blank" title="Obsidian official website">Obsidian</a>
 </div>
 
 - Implement split view: two different notes side by side

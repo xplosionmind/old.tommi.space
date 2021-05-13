@@ -105,8 +105,8 @@ Ah, red, what a color. It is so wonderful I have to keep note of all the nice sh
 - `#DF2935`, Rose Madder
 - `#D7263D`, Crimson
 - `#E63946`, [Quit Social Media](#quitsocialmediaclub) red
-- `#AF0539`, [Ca’ Foscari University](https://unive.it "Ca’Foscari University")’s main theme color, picked <a href="view-source:https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo_Universit%C3%A0_Ca'_Foscari_Venezia.svg#line11" rel="noopener noreferrer" target="_blank" title="The line of the source code of the SVG of the logo of Ca’Foscari containing the HEX code of the color">from the SVG </a>of <a href="{{ "https://en.wikipedia.org/wiki/Ca'_Foscari_University_of_Venice#/media/File:Logo_Università_Ca'_Foscari_Venezia.svg" | uri_escape }}" rel="noopener noreferrer" target="_blank" title="Logo dell’Università Ca’ Foscari di Venezia">University logo</a>
-- `#AC0033`, always [Ca’ Foscari University](https://unive.it "Ca’Foscari University")’s main theme color, but <a href="view-source:https://www.unive.it/#line32" rel="noopener noreferrer" target="_blank" title="Link to Ca’Foscari website source code">picked from the university website’s source code</a>
+- `#AF0539`, [Ca’ Foscari University](https://unive.it "Ca’Foscari University")’s main theme color, picked <a href="view-source:https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo_Universit%C3%A0_Ca'_Foscari_Venezia.svg#line11"  target="_blank" title="The line of the source code of the SVG of the logo of Ca’Foscari containing the HEX code of the color">from the SVG </a>of <a href="{{ "https://en.wikipedia.org/wiki/Ca'_Foscari_University_of_Venice#/media/File:Logo_Università_Ca'_Foscari_Venezia.svg" | uri_escape }}"  target="_blank" title="Logo dell’Università Ca’ Foscari di Venezia">University logo</a>
+- `#AC0033`, always [Ca’ Foscari University](https://unive.it "Ca’Foscari University")’s main theme color, but <a href="view-source:https://www.unive.it/#line32"  target="_blank" title="Link to Ca’Foscari website source code">picked from the university website’s source code</a>
 
 <br>
 <br>

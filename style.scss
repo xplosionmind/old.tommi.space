@@ -84,6 +84,7 @@ body {
 	}
 	.theme-toggle {
 		filter: brightness(.5);
+		text-shadow: none;
 	}
 }
 
@@ -381,7 +382,6 @@ code {
 pre {
 	overflow-x: scroll;
 	padding: var(--regular);
-	translate: 0 -1.1rem;
 	border-radius: var(--radius-m);
 	box-shadow: var(--inner-shadow);
 	scrollbar-width: none;
@@ -655,7 +655,6 @@ h3 {
 }
 
 #toc {
-	margin: 0 10% var(--height);
 	li {
 		margin-bottom: 0;
 	}
@@ -704,7 +703,8 @@ h3 {
 .excerpt {
 	display: block;
 	margin: var(--small) 10%;
-	font: 300 italic .8em var(--font-sans);
+	font: italic .85em var(--font-sans);
+	line-height: 1.5em;
 }
 
 .stuff-logo {
@@ -871,7 +871,7 @@ button,
 	}
 }
 
-:not(.light) .theme-toggle {
+.theme-toggle {
 	text-shadow: 0 -2px 5px rgba(255,252,249,.5);
 }
 
@@ -1040,6 +1040,9 @@ button,
 	ul.three,
 	ol.three {
 		columns: 3;
+	}
+	#toc ul {
+		margin: 0 8%;
 	}
 }
 

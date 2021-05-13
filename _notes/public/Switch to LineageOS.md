@@ -7,7 +7,7 @@ redirect_from: ["/switch-to-lineageos", "/degoogle-android", "/lineage", "/andro
 description: "Removing the default operating system on my Android device and installing LineageOS."
 ---
 <div class="yellow box">
-	LineageOS is unstable. I had to bargain monopoly for (still relative) “privacy” + reliability and I now own and use an iPhone 12 mini. If one day they will make a smaller <a href="https://www.fairphone.com" rel="noopener noreferrer" target="_blank" title="Fairphone">Fairphone</a>, I will immediately go for it and use it with the awesome <a href="https://e.foundation" rel="noopener noreferrer" target="_blank" title="/e/">/e/</a>
+	LineageOS is unstable. I had to bargain monopoly for (still relative) “privacy” + reliability and I now own and use an iPhone 12 mini. If one day they will make a smaller <a href="https://www.fairphone.com"  target="_blank" title="Fairphone">Fairphone</a>, I will immediately go for it and use it with the awesome <a href="https://e.foundation"  target="_blank" title="/e/">/e/</a>
 </div>
 
 In order to remove the Google’s tracking services and obtrusive bits of proprietary code, I decided to install [LineageOS][lineage] on my [OnePlus 6T][device].   

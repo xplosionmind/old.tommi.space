@@ -11,7 +11,7 @@ main: true
 todo:
   - "Put everything together"
 ---
-<cite><a href="https://youtube.com/watch?v=a9eNQZbjpJk" rel="noopener noreferrer" target="_blank" title="Red Hot Chili Peppers - Around The World">Around the World</a></cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places around the world. This is not merely a list of places I have been to in my life, but an ever growing and evolving record of the ones I carry in my heart.
+<cite><a href="https://youtube.com/watch?v=a9eNQZbjpJk"  target="_blank" title="Red Hot Chili Peppers - Around The World">Around the World</a></cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places around the world. This is not merely a list of places I have been to in my life, but an ever growing and evolving record of the ones I carry in my heart.
 
 <div class="embed-container"><iframe width="100%" height="300px" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/en/map/favorites_593427?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&fullscreenControl=true"></iframe></div>
 

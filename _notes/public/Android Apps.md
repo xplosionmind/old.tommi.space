@@ -7,7 +7,7 @@ redirect_from: ["/android-apps", "/oneplus-apps"]
 ---
 <div class="yellow box">
 	<h2>I completely degoogled my device!</h2>
-	This is still <u>an ongoing process</u>, but as of right now I have <b>no Google apps</b> or services on my phone. To use Google open source APIs only, I take advantage of the great <a href="https://microg.org" rel="noopener noreferrer" target="_blank" title="MicroG">MicroG</a> services.<br>
+	This is still <u>an ongoing process</u>, but as of right now I have <b>no Google apps</b> or services on my phone. To use Google open source APIs only, I take advantage of the great <a href="https://microg.org"  target="_blank" title="MicroG">MicroG</a> services.<br>
 	I will be diving deeper into this topic as soon as possible.
 </div>
 

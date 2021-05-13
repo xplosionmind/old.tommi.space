@@ -10,9 +10,9 @@ toc: false
 todo:
   - "explain link colors (yellow external, blue internal (how to make it valid with theme changing))"
 ---
-Online, you may stumble upon it as a <a href="https://dev.to/jbranchaud/the-digital-garden-l10" rel="noener noreferrer" target="_blank" title="The Digital Garden on DEV.to"><cite>Digital Garden</cite></a>, or it may be defined as a *[[Zettelkasten]] system*. Mine, instead, it's definitely less ambitious; yet, it's whipped, fragmented, juicy and sweet. It is a <strong><cite><a href="/jam" rel="noopener noreferrer" target="_blank" title="The Jam">The Jam</a></cite></strong>.
+Online, you may stumble upon it as a <a href="https://dev.to/jbranchaud/the-digital-garden-l10" rel="noener noreferrer" target="_blank" title="The Digital Garden on DEV.to"><cite>Digital Garden</cite></a>, or it may be defined as a *[[Zettelkasten]] system*. Mine, instead, it's definitely less ambitious; yet, it's whipped, fragmented, juicy and sweet. It is a <strong><cite><a href="/jam"  target="_blank" title="The Jam">The Jam</a></cite></strong>.
 
-I happen to make curious discoveries, as well as I end up having interesting thoughts which I need to save before they end up forgotten or while I find the right words to reformulate them and place them in the <a href="/zibenglish" rel="noopener noreferrer" target="_blank" title="Zibaldone"><cite>Zibaldone</cite></a>.
+I happen to make curious discoveries, as well as I end up having interesting thoughts which I need to save before they end up forgotten or while I find the right words to reformulate them and place them in the <a href="/zibenglish"  target="_blank" title="Zibaldone"><cite>Zibaldone</cite></a>.
 
 I take all of these things and I make <cite>The Jam</cite> out of them.
 
@@ -29,7 +29,7 @@ Every single element in The Jam is connected to at least another one: at the end
 </div>
 
 <div class="flex row">
-	<a class="red button" style="color:white;" href="/whole-jam" rel="noopener noreferrer" target="_blank" title="The Whole Jam">The Whole Jam</a>
+	<a class="red button" style="color:white;" href="/whole-jam"  target="_blank" title="The Whole Jam">The Whole Jam</a>
 </div>
 
 {% include filter-lang.html %}
@@ -43,5 +43,5 @@ Every single element in The Jam is connected to at least another one: at the end
 	{% endfor %}
 </ul>
 <div class="flex row">
-	<a class="red button" style="color:white;" href="/whole-jam" rel="noopener noreferrer" target="_blank" title="The Whole Jam">The Whole Jam</a>
+	<a class="red button" style="color:white;" href="/whole-jam"  target="_blank" title="The Whole Jam">The Whole Jam</a>
 </div>

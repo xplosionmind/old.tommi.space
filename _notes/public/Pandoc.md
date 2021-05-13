@@ -2,7 +2,7 @@
 date: 2021-03-29T05:32:27.528245+02:00
 updated: 2021-03-29T05:32:27.528245+02:00
 tags: geek/apps
-description: '<a href="https://pandoc.org" rel="noopener noreferrer" target="_blank" title="Pandoc">Pandoc</a> infos and cheat sheet'
+description: '<a href="https://pandoc.org"  target="_blank" title="Pandoc">Pandoc</a> infos and cheat sheet'
 ---
 ## Cheat sheet
 

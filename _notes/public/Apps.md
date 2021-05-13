@@ -9,23 +9,23 @@ redirect_from: ["/uses", "/installed", "/installed-apps", "/applications", "/app
 toc: false
 ---
 <div class="blue box">
-	Everything in this list is free and Open Source, except where otherwise specified
-</div>
-
-<div class="blue box">
-	Although I literally <b>love</b> some of the apps I installed on my devices, there are some [[Missing digital tools]] that I keep note of, in case someone with more programming expertise than me may be able to develop.
+	Every software I mention is <u>free and Open Source</u>, except where otherwise specified
 </div>
 
 <br>
 
 - Services and apps self-hosted and running on my **server** can be found in the [[Server]] Jar item.
 - **[[MacOS Apps]]** right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale=en_US&viewlocale=en_US "MacBook Pro 13\" 2019 tech specs")
-- I use Firefox as my main (and only) browser, the awesome **extensions** I use are listed in a dedicated note: [[Firefox]].
+- [[Firefox]] is my main browser, and it is awesome. It is made even better by some great **[[Firefox|Firefox extensions]]**.
 - **[[iOS Apps]]** installed on my [iPhone 12 mini](https://www.apple.com/it/iphone-12/ "iPhone 12")
 - **[[Android Apps]]** right now on my lovely [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") running ~~[Oxygen OS](https://www.oneplus.com/oxygenos "OxygenOS on OnePlus’ website")~~ [[Switch to LineageOS|LineageOS]].
 - **[[Linux apps]]**: apps installed on [[Linuxplosion]]
 - **Nextcloud Apps**:   
 I love [Nextcloud](https://nextcloud.com "Nextcloud official website"). The apps I use on my instance are so many and so great I cannot list all of them. They can be found among many others in the [Nextcloud apps store](https://apps.nextcloud.com)
+
+<div class="blue box">
+	Although I literally <b>love</b> some of the apps I installed on my devices, there are some [[Missing digital tools]] that I keep note of, in case someone with more programming expertise than me may be able to develop.
+</div>
 
 <br>
 <br>
@@ -46,7 +46,7 @@ Lists with a ton of apps which are too valuable to be forgotten
 
 Apps which are not installed but it is worth remembering.
 
-- [Andy Works](https://www.andy.works/works "Andy Works"): not boring apps
+- [Andy Works](https://www.andy.works/works "Andy Works"): <q>not boring apps</q>. They are actually wonderful but in the end quite useless; the system default ones are okay.
 - [ad-free](https://abertschi.github.io/ad-free/landing/ "ad-free website"), mute audio while audio ads are played (built to work with Spotify in particular)
 - [Black Light](https://michelf.ca/projects/black-light/ "Black Light"), to add display color filters in MacOS
 - [doing](https://github.com/ttscoff/doing "doing"), a CLI script to remember what you were doing
