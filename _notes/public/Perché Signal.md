@@ -1,12 +1,19 @@
 ---
 date: 2021-05-14T11:03:17.513687+02:00
-updated: 2021-05-14T11:03:17.513687+02:00
+updated: 2021-05-14T11:46:51.466335+02:00
 tags: geek/apps
 lang: it
-redirect_from: ['/signal-it', '/it-signal', '/abbandonare-whatsapp', '/no-whatsapp', '/ciao-whatsapp', '/scegliere-signal']
+redirect_from: ['/signal-it', '/it-signal', '/signal-ita', '/ita-signal', '/abbandonare-whatsapp', '/no-whatsapp', '/ciao-whatsapp', '/scegliere-signal']
 description: 'Perché Signal è così importante e perché preferirlo a WhatsApp è una scelta etica e non puramente da nerd'
 ref: signal
 ---
+<div class='blue box'>
+	<h3>Non ho voglia di leggere e non me ne frega nulla</h3>
+	<i>I got you</i>. Tutto quello che hai bisogno di sapere è in <a href="https://www.ilpost.it/2021/01/13/signal-app-messaggistica/" target="_blank" title="Cos’ha di speciale Signal - Il Post">questo articolo</a>
+</div>
+
+<br>
+
 ## Perché WhatsApp no?
 
 <u class='thick'>WhatsApp è di Facebook</u>. Questo dovrebbe essere sufficiente a spingere chiunque a diffidare di un servizio così utile e diffuso, <u>offerto gratuitamente seppur estremamente costoso da mantenere</u>.  
@@ -32,5 +39,16 @@ Le ragioni per cui preferire Signal a WhatsApp è una scelta non irrilevanti son
 3. Il suo codice sorgente è aperto e pubblicamente verificabile: chiunque può assicurarsi dell’effettiva sicurezza dell’applicazione
 4. Signal è stata creata ed è mantenuta da una fondazione non-profit: tutto ciò che viene implementato su Signal è aggiunto con il solo fine di migliorare l’esperienza dell’utente. La <cite>Signal Foundation</cite> sopravvive unicamente grazie ad [investimenti](https://www.repubblica.it/tecnologia/sicurezza/2018/02/23/news/signal_la_chat_supersicura_di_snowden_riceve_50_milioni_di_dollari_dal_co-fondatore_di_whatsapp-189543734/ 'Signal, la chat supersicura di Snowden riceve 50 milioni di dollari dal co-fondatore di WhatsApp') e [donazioni].
 
+<br>
+<br>
+
+## Altro
+
+Diversi contenuti interessanti riguardo Signal:
+
+- [Cos’ha di speciale Signal](https://www.ilpost.it/2021/01/13/signal-app-messaggistica/ 'Cos’ha di speciale Signal'), su [Il Post]
+- Un’interessante e diverso punto di vista da parte del mitico [Gigio Rancilio](https://twitter.com/gigiorancilio 'Gigio Rancilio su Twitter'), su Avvenire: [<cite>Il successo di Signal (purtroppo) non è solo una vittoria</cite>](https://www.avvenire.it/rubriche/pagine/il-successo-di-signalnon-e-solo-una-vittoria 'Il successo di Signal (purtroppo) non è solo una vittoria'). Attenzione: i timori di Gigio sono inutili, perché ovviamente <u>il crimine organizzato dispone di strumenti di comunicazione criptata indipendentemente dalla loro diffusione</u>; per questo, che Signal e altri sistemi di comunicazione criptata prendano piede non influenza minimamente il fatto che fuorilegge possano comunicare in sicurezza.
+
 [GitHub]: https://github.com/signalapp 'il codice sorgente di Signal su GitHub'
 [donazioni]: https://signal.org/donate/ 'Dona a Signal'
+[Il Post]: https://ilpost.it 'Il Post'
