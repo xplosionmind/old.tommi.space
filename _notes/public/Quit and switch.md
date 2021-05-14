@@ -25,6 +25,7 @@ toc: false
 - [[Switch to Darktable]]
 - [[Quit IMDb]]
 - [[Switch to Linux]]
+- [[Signal|Switch to Signal]]
 
 <br>
 <br>

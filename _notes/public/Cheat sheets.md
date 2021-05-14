@@ -48,9 +48,14 @@ A quick for loop
 for f in *.txt; do pandoc "$f" -s -o "${f%.txt}.rtf"; done
 ```
 
-watch Star Wars - A New Hope in ASCII (not a joke)
+watch <cite>Star Wars - A New Hope</cite> in ASCII (not a joke)
 ```sh
 nc towel.blinkenlights.nl 23
+```
+
+Disk space usage
+```sh
+du
 ```
 
 <br>
