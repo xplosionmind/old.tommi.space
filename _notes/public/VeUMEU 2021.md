@@ -1,7 +1,6 @@
 ---
 date: 2021-04-17T09:58:58.538160+02:00
 updated: 2021-05-10T07:43:50.276703+02:00
-tags: uni
 description: 'Random notes on VeUMEU issues of the 2021 edition'
 ---
 Topics of [VeUMEU 2021]:

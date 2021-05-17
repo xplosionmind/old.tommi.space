@@ -1,14 +1,15 @@
 ---
-updated: 2021-04-14T10:36:40.597450+02:00
+updated: 2021-05-15T12:48:06.449519+02:00
 tags: geek todo
 aliases: ["Geek stuff", "Geek stuff todo"]
 ---
 1. [[VNC]]
-1. Final [[dotfiles]] configuration and setup
 1. Fix Nuvola Nextcloud reminders
+2. Sconnesso on Funkwhale.it
 4. [[Images]]
 1. [[PISE notes development]]
 5. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
+1. [neuron.nvim](https://github.com/oberblastmeister/neuron.nvim 'neuron.nvim on GitHub')
 1. Movies data
 	- https://www.wikidata.org/wiki/Special:ApiSandbox
 	- https://www.mediawiki.org/wiki/API:Main_page
@@ -23,6 +24,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 	1. [Obsidian](https://github.com/Slowbad/obsidian-solarized/blob/master/obsidian.css)
 	- https://apas.gr/2018/11/dark-mode-macos-safari-iterm-vim/
 5. [[Scripts]]
+6. List monk is out of beta
 6. [Integrate](https://github.com/cjeller1592/WriteFreely-API) noblogo.org / Writefreely with Jekyll
 7. [customize](https://writefreely.org/docs/latest/writer/css) noblogo.org / WriteFreely style
 8. [[Missing Knowledge#Geek stuff|Learning geek stuff]]

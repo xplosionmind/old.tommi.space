@@ -6,14 +6,8 @@ lang: it
 redirect_from: ['/signal-it', '/it-signal', '/signal-ita', '/ita-signal', '/abbandonare-whatsapp', '/no-whatsapp', '/ciao-whatsapp', '/scegliere-signal']
 description: 'Perché Signal è così importante e perché preferirlo a WhatsApp è una scelta etica e non puramente da nerd'
 ref: signal
+toc: false
 ---
-<div class='blue box'>
-	<h3>Non ho voglia di leggere e non me ne frega nulla</h3>
-	<i>I got you</i>. Tutto quello che hai bisogno di sapere è in <a href="https://www.ilpost.it/2021/01/13/signal-app-messaggistica/" target="_blank" title="Cos’ha di speciale Signal - Il Post">questo articolo</a>
-</div>
-
-<br>
-
 ## Perché WhatsApp no?
 
 <u class='thick'>WhatsApp è di Facebook</u>. Questo dovrebbe essere sufficiente a spingere chiunque a diffidare di un servizio così utile e diffuso, <u>offerto gratuitamente seppur estremamente costoso da mantenere</u>.  

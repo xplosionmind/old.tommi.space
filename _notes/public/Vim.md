@@ -1,6 +1,6 @@
 ---
 date: 2021-03-22T12:19:14.546861+01:00
-updated: 2021-03-22T12:19:14.546861+01:00
+updated: 2021-05-15T13:50:51.394578+02:00
 tags: geek/knowledge geek/apps
 aliases: ["Neovim"]
 description: "The best text editor in the world"
@@ -41,6 +41,7 @@ Sometimes, when I activate [spell checking](https://vimtricks.com/p/vimtrick-spe
 ### Cheat Sheets
 
 - [Vim Cheat Sheet](https://vim.rtorr.com "Vim Cheat Sheet")
+- [DevHints cheatsheet](https://devhints.io/vim 'Vim cheatsheet - devhints.io')
 
 <br>
 <br>
@@ -61,12 +62,12 @@ Sometimes, when I activate [spell checking](https://vimtricks.com/p/vimtrick-spe
 
 ## .vimrc
 
-`.vimrc` is the file containing the vim configuration. For the ones using Neovim, it is `~/.config/nvim/init.vim`.
+`.vimrc` is the file containing the Vim configuration. For the ones using Neovim, it is `~/.config/nvim/init.vim`.
 
-My configuration file is [here](https://github.com/xplosionmind/dotfiles/blob/main/.config/nvim/init.vim "Tommi’s Vim configuration file")
+[My Neovim configuration file](https://github.com/xplosionmind/dotfiles/blob/main/.config/nvim/init.vim "Tommi’s Vim configuration file")
 
 <br>
 
-### Color schemes
+## Color schemes
 
 - [Solarized 8](https://vimawesome.com/plugin/solarized-8 "Solarized 8 on Vim Awesome")

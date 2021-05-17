@@ -6,6 +6,7 @@ description: 'Why it is important to switch to Signal, and all of the reasons wh
 tags: geek/apps
 ref: signal
 redirect_from: ['/why-signal', '/switch-to-signal', '/signal-switch', '/switch-signal', '/quit-whatsapp', '/bye-whatsapp']
+toc: false
 todo:
   - 'Sconnesso episode'
   - 'Perché è diverso da Telegram'

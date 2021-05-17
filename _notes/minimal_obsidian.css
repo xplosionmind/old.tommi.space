@@ -1,0 +1,157 @@
+/* **********************************************************************************
+ *																					*
+ * 								Custom CSS for Obsidian								*
+ *																					*
+ *		by xplosionmind | https://tommi.space | https://github.com/xplosionmind		*
+ *						this code is published under CC0 license					*
+ *																					*
+ *																					*
+ * *********************************************************************************/
+
+
+:root {
+	--black-ish: #222;
+	--white-ish: #E3E3E3;
+	--dark-grey: #555;
+	--light-grey: #AAA;
+	--yellow: #FCC920;
+	--dark-yellow: #D0A00E;
+	--light-blue: #A8DADC;
+	--blue: #3185FC;
+	--red: #D00;
+	--green: #20CE88;
+	--razzmatazz: #EC0868;
+	--purple: #884EE1;
+	--dark: #533066;
+	--primary: var(--yellow);
+	--primary-light: var(--yellow);
+	--secondary: var(--razzmatazz);
+	--accent: limegreen;
+	--default-font: Inter, -apple-system, sans-serif;
+	--font-monospace: 'Ubuntu Mono', monospace !important; /* substitute with default monospace */
+}
+
+li {
+	margin-bottom: var(--small);
+	line-height: var(--regular-more-em);
+	li {
+		margin-bottom: 0;
+		list-style-type: "–   ";
+		li {
+			list-style-type: "+  ";
+		}
+	}
+}
+
+.run-code-button {
+	border-radius: 5px !important;
+	right: 10px !important;
+}
+
+.copy-code-button {
+	top: 10px !important;
+	right: 10px !important;
+	border-radius: 5px !important;
+}
+
+.theme-light .markdown-preview-view * {
+	text-decoration-color: #22222299 !important;
+}
+
+.theme-dark .markdown-preview-view * {
+	text-decoration-color: #E3E3E399 !important;
+}
+
+blockquote {
+	font-family: "EB Garamond", serif;
+	opacity: .9;
+    margin: 0 10%;
+	border: none !important;
+	border-radius: 10px;
+}
+
+blockquote p {
+	line-height: 1.3em;
+}
+
+.right,
+.cite,
+.date {
+	text-align: right;
+}
+
+.cite::before {
+	content: '~ '
+}
+
+.box {
+	padding: 1.5rem;
+	margin: 2rem 0;
+	border-radius: 1rem;
+	box-shadow: var(--shadow);
+}
+
+.green {
+	background: var(--green);
+	color: var(--black-ish) !important;
+	border-color: var(--green) !important;
+}
+
+.red {
+	background: var(--red);
+	color: white !important;
+	border-color: var(--red) !important;
+}
+
+.red a {
+	color: var(--yellow);
+}
+
+.blue {
+	background: var(--blue);
+	color: white !important;
+	border-color: var(--blue) !important;
+}
+
+.blue a {
+	color: var(--yellow);
+}
+
+.yellow {
+	background: var(--yellow);
+	color: var(--black-ish) !important;
+	border-color: var(--yellow) !important;
+}
+
+.yellow a {
+	color: var(--red);
+}
+
+.razzmatazz {
+	background: var(--razzmatazz);
+	color: white !important;
+	border-color: var(--razzmatazz) !important;
+}
+
+.grey {
+	background: var(--grey);
+	border-color: var(--grey) !important;
+}
+
+.border {
+	background: transparent;
+	color: var(--text);
+	border: 3px solid var(--text);
+}
+
+.center {
+	text-align: center;
+}
+
+.missing,
+.wtf {
+  padding: 2px 5px;
+  background: var(--red);
+  color: #FFF;
+  border-radius: 5px;
+}

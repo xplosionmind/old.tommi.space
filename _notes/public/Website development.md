@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-05-06T09:45:08.040037+02:00
+updated: 2021-05-15T12:44:17.915972+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -8,6 +8,17 @@ redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improve
 main: true
 description: "Creative and technical aims, ideas annotation and drafts tracking."
 ---
+<div class="red box">
+	<h3>⚠️ Problems 🔨</h3>
+	<ul>
+		<li>Language switcher not working in pages which are not located in <code>site.pages</code></li>
+		<li>Italian feed is broken</li>
+	</ul>
+</div>
+
+<br>
+<br>
+
 ## Content
 
 ![[Writing#Website]]

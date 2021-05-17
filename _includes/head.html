@@ -28,9 +28,9 @@
 	<meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}" />
 	<meta property="article:modified_time" content="{% if page.updated %}{{ page.updated }}{% else %}{{ page.last_modified_at | date_to_xmlschema }}{% endif %}" />
 	{% if page.ref != nil %}
-		<meta property="og:locale:alternate" content="{% if page.lang == 'it' %}en{% else %}it{% endif %}" />
-		<link rel="alternate" hreflang="{% if page.lang == 'it' %}en{% else %}it{% endif %}" href="{% for cosa in site.pages %}
-		{% if cosa.ref == page.ref %}{{ cosa.url | absolute_url }}{% endif %}{% endfor %}" />
+		<meta property="og:locale:alternate" content="{%- if page.lang == 'it' -%}en{%- else -%}it{%- endif -%}" />
+		<link rel="alternate" hreflang="{%- if page.lang == 'it' -%}en{% else %}it{%- endif -%}" href="{%- for cosa in site.pages -%}
+		{%- if cosa.ref == page.ref -%}{{ cosa.url | absolute_url }}{%- endif -%}{% endfor -%}" />
 	{% endif %}
 
 	{% if page.latex %}
@@ -72,6 +72,7 @@
 	<link rel="me" href="https://dribbble.com/xplosionmind" title="xplosionmind on Dribbble" />
 	<link rel="me" href="https://exiftool.org/forum/index.php?action=profile;u=9723" title="Tommi on the ExifTool forum" />
 	<link rel="me" href="https://www.flickr.com/xplosionmind/" title="Tommi’s pictures on Flickr" />
+	<link rel="me" href="https://funkwhale.it/@tommi/" title="Tommi on Funkwhale" />
 	<link rel="me" href="https://genius.com/xplosionmind" title="xplosionmind on Genius" />
 	<link rel="authn me" href="https://github.com/xplosionmind" title="xplosionmind on GitHub" />
 	<link rel="me" href="https://gitea.it/tommi" title="Tommi su Gitea.it" />

@@ -289,11 +289,15 @@ input.button {
 li {
 	margin-bottom: var(--small);
 	line-height: var(--regular-more-em);
-	li {
-		margin-bottom: 0;
-		list-style-type: "–   ";
-		li {
-			list-style-type: "+  ";
+	ul {
+		& > li {
+			margin-bottom: 0;
+			list-style-type: "–   ";
+			& > ul {
+				& > li {
+					list-style-type: "+  ";
+				}
+			}
 		}
 	}
 }

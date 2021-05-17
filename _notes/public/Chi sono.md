@@ -1,7 +1,6 @@
 ---
 date: 2021-03-28T19:18:34.334561+02:00
 updated: 2021-03-28T19:18:34.334561+02:00
-tags: me
 permalink: /tommi-uguale
 aliases: ["Tommi =", "Tommi Uguale"]
 toc: false
