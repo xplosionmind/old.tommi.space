@@ -21,6 +21,7 @@ lang: it
 locale: it
 images: "/images"
 post-images: "/images/posts"
+image: '/logos/favicon-180.png'
 assets: "https://assets.tommi.space/assets"
 video: "https://assets.tommi.space/video"
 audio: "https://assets.tommi.space/audio"

@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-05-18T09:22:37.346479+02:00
+updated: 2021-05-18T12:08:02.463731+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -12,8 +12,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 	<h3>⚠️ Problems 🔨</h3>
 	<ul>
 		<li>Language switcher not working in pages which are not located in <code>site.pages</code></li>
-		<li>Italian feed is broken</li>
-		<li>Full pages are displayed wrongly on mobile</li<
+		<li>Full pages are displayed wrongly on mobile</li>
 	</ul>
 </div>
 
