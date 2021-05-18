@@ -218,6 +218,9 @@ input.button {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	p {
+		max-width: 700px;
+	}
 }
 
 .vertical {

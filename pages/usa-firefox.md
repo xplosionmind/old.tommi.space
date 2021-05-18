@@ -10,6 +10,7 @@ redirect_from:
   - /browser-sbagliato
   - /apri-firefox
   - /open-firefox
+lang: it
 ---
 Testa di belin\
 non stai usando il browser che dovresti,\
