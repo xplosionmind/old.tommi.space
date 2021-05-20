@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-05-18T12:08:02.463731+02:00
+updated: 2021-05-20T12:31:06.302747+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -40,7 +40,6 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
 4. Develop a [[Timeline development|timeline]]
-5. Add [`this page is built to last`](https://jeffhuang.com/designed_to_last/)
 6. Restyle full pages
 7. [[The Jam]]: Preview a note when hovering on link
 8. [[The Jam]]: Notes graph
@@ -143,6 +142,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 ## Done
 
 - Add [`humans.txt`](http://humanstxt.org "humans.txt") ✅ 2021.01.17
+- Add [`this page was designed to last`](https://jeffhuang.com/designed_to_last/) - ✅ 2021.05.20
 - Animations (little and simple but effective)
 	- buttons: `x`s and menus (see [Tokyo voice](https://tokyo-voice.jp "Tokyo Voice") or [Trax mag](https://www.traxmag.com "Trax Magazine"))
 - At the top of the page, add anchors buttons which link to comments, backlinks, etc. ✅ 2021.04.17
