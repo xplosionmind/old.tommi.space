@@ -136,6 +136,7 @@ nav {
 		background: var(--background);
 		box-shadow: var(--shadow);
 		transition: .5s;
+		z-index: 1;
 	}
 	nav ul li {
 		float: none;

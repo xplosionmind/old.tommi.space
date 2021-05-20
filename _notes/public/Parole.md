@@ -1,6 +1,6 @@
 ---
 date: 2020-06-06
-updated: 2021-03-11T09:57:55.467194+01:00
+updated: 2021-05-18T15:17:30.687145+02:00
 lang: it
 toc: false
 description: "Leggo e sento tante perole belle (oppure brutte ma con un gran significato) e ho paura di perderle, perciò le annoto qui."
@@ -46,3 +46,4 @@ redirect_from: ["/words"]
 - 2021.03.10 [foster](https://www.merriam-webster.com/dictionary/foster "“foster” on Merriam Webster dictionary")
 - 2021.03.10 [pluralism](https://www.merriam-webster.com/dictionary/pluralism "“pluralism” on Merriam Webster dictionary")
 - 2021.03.11 [grim](https://www.merriam-webster.com/dictionary/grim "“grim” on Merriam Webster dictionary")
+- 2021.05.15 [[Drunch]]

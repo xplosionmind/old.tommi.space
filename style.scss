@@ -744,6 +744,7 @@ footer {
 	box-shadow: var(--shadow);
 	p {
 		opacity: .7;
+		margin: .2em;
 		&:hover,
 		&:focus {
 			opacity: 1;
