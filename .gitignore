@@ -6,6 +6,9 @@ _notes/university
 # Private data
 _data/private
 
+# Obsidian
+_notes/templates
+
 # Notes graph metadata
 _includes/notes_graph.json
 

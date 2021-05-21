@@ -113,18 +113,11 @@ plugins:
   - jekyll-target-blank
   - jekyll-watch
   - jekyll-redirect-from
-  - jekyll-datapage-generator
   - jekyll-debug
   - jekyll-mentions
-  - jekyll-liquify
   - jekyll-auto-image
   - jekyll-email-protect
-  - jekyll-toc
   - jekyll-paginate-v2
-#  - jekyll-stork
-#  - jekyll-webmention_io
-#  - jekyll-lunr
-#  - jekyll-wikilinks
 
 sass:
   style: compressed

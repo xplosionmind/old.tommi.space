@@ -1,0 +1,3 @@
+[submodule "PISE-notes"]
+	path = _notes/PISE
+	url = https://github.com/xplosionmind/pise-notes.git
