@@ -99,8 +99,10 @@ Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. 
 
 ### Bugs
 
+- Markdown links in the format `[example]` are not correctly displayed in embedded notes
 - in editor mode last 2 letters are hidden. (fixed by setting `.CodeMirror` `overflow: unset` in `obsidian.css`)
 - cursor width not corresponding to a single character’s spacing
+
 
 <br>
 <br>

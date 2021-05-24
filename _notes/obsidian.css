@@ -31,6 +31,11 @@
 	--font-monospace: 'Ubuntu Mono', monospace !important; /* substitute with default monospace */
 }
 
+/* fix editor display error */
+.CodeMirror {
+	overflow: unset;
+}
+
 :not(hr):not(blockquote):not(.CodeMirror-cursor):not(td):not(th):not(mjx-line) {
 	border: none !important;
 }
@@ -78,11 +83,6 @@
 /* make the editor appear in mono */
 .CodeMirror-code {
 	font: 1.1em var(--font-monospace);
-}
-
-/* fix an error which causes the last letter of a row to be hidden */
-.CodeMirror {
-	overflow: unset;
 }
 
 code, pre, .cm-s-obsidian .hmd-fold-html-stub, .cm-s-obsidian .hmd-fold-code-stub, .cm-s-obsidian.CodeMirror .HyperMD-hover > .HyperMD-hover-content code, .cm-s-obsidian .cm-formatting-hashtag, .cm-s-obsidian .cm-inline-code, .cm-s-obsidian .HyperMD-codeblock, .cm-s-obsidian .HyperMD-hr, .cm-s-obsidian .cm-hmd-frontmatter, .cm-s-obsidian .cm-hmd-orgmode-markup, .cm-s-obsidian .cm-formatting-code, .cm-s-obsidian .cm-math, .cm-s-obsidian span.hmd-fold-math-placeholder, .cm-s-obsidian .CodeMirror-linewidget kbd, .cm-s-obsidian .hmd-fold-html kbd {

@@ -5,17 +5,14 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 ---
 1. [[VNC]]
 1. Fix Nuvola Nextcloud reminders
-2. Sconnesso on Funkwhale.it
 4. [[Images]]
 1. [[PISE notes development]]
 5. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
-1. [neuron.nvim](https://github.com/oberblastmeister/neuron.nvim 'neuron.nvim on GitHub')
 1. Movies data
 	- https://www.wikidata.org/wiki/Special:ApiSandbox
 	- https://www.mediawiki.org/wiki/API:Main_page
 	- https://www.mediawiki.org/wiki/API:Tutorial
 	- https://www.wikidata.org/wiki/Wikidata:Data_access
-2. a jekyll-backlinks repository (for the Liquid thing) as a submodule of tommi.space
 3. Defining a threat model
 4. Final color schemes
 	1. [iTerm](http://www.iterm2colorschemes.com/ "iTerm2 Color Schemes")
