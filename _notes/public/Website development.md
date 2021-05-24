@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-05-20T12:31:06.302747+02:00
+updated: 2021-05-23T21:57:45.341086+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -13,6 +13,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 	<ul>
 		<li>Language switcher not working in pages which are not located in <code>site.pages</code></li>
 		<li>Full pages are displayed wrongly on mobile</li>
+		<li>`copy page link` button is not working</li>
 	</ul>
 </div>
 
@@ -32,59 +33,62 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 
 1. Configure and implement [[Indie Web]]
 	- Note in footer that this website supports Webmentions
-3. Stop using Algolia and consider faster and simpler alternatives
+1. Configure and implement [ActivityPub]
+	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
+	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
+1. Stop using Algolia and consider faster and simpler alternatives
 	- [Lunr](https://lunrjs.com "Lunr")
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "jekyll-lunr on GitHub")
 	- [Stork](https://stork-search.net/ "Stork search")
 		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork "jekyll-stork plugin")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
-4. Develop a [[Timeline development|timeline]]
-6. Restyle full pages
-7. [[The Jam]]: Preview a note when hovering on link
-8. [[The Jam]]: Notes graph
-9. Full width images in posts
-10. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
-11. Configure [Peekalink](https://peekalink.io "Peekalink") in [[Cinema]] to replace [The Movie Database](https://themoviedb.org "The Movie Database") list and quit it.
-12. Avoid having to use special plugins to parse `\[\[wikilinks\]\]`, and use simple markdown links, integrating them in Jekyll with [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links "jekyll-relative-links on GitHub")
+2. Develop a [[Timeline development|timeline]]
+3. Restyle full pages
+4. [[The Jam]]: Preview a note when hovering on link
+5. [[The Jam]]: Notes graph
+6. Full width images in posts
+7. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
+8. Configure [Peekalink](https://peekalink.io "Peekalink") in [[Cinema]] to replace [The Movie Database](https://themoviedb.org "The Movie Database") list and quit it.
+9. Avoid having to use special plugins to parse `\[\[wikilinks\]\]`, and use simple markdown links, integrating them in Jekyll with [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links "jekyll-relative-links on GitHub")
 	- problems
 		- how to remove invalid links
 		- Folder structure becomes fundamental and links must be changed when file is moved (Obsidian should automatically handle this)
 		- Current Liquid permalinks parsing may not work anymore
-13. Movies list integration
+10. Movies list integration
 	- https://www.themoviedb.org/documentation/api/discover
 	- https://developers.themoviedb.org/3/getting-started/introduction
 	- https://developers.themoviedb.org/3/configuration/get-api-configuration
 	- https://developer.imdb.com/documentation/data-dictionary/names
 	- https://www.themoviedb.org/settings/api/new/form?type=developer
-14. Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts
+11. Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts
 	- create subsections: creative help, hands-on help (e.g. Scambi), technical help, long-term help (collaborations), contacts help (I need to reach somebody and I cannot)
-15. [Tags](/tags):
+12. [Tags](/tags):
 	- consider switching from a unique page list to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
-16. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
-17. Use typographic animations
+13. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
+14. Use typographic animations
 	- [AxisPraxis’ Zycon](https://www.axis-praxis.org/specimens/zycon "Zycon")
 	- [Anicons](https://typogram.github.io/Anicons/ "Anicons")
-18. Fetch images previews to complete external links and preferences
+15. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
-19. Give a consistent framework to all lists (use CSV data or markdown tables only)
-20. Join WebRings
+16. Give a consistent framework to all lists (use CSV data or markdown tables only)
+17. Join WebRings
 	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub")
 	1. [Recurse Webring](https://webring.recurse.com/ "Recurse Webring")
 	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring")
-21. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
-22. Minimize JavaScript use
+18. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
+19. Minimize JavaScript use
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")
-23. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
-24. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
-25. Study Blogger’s `<head>` to improve SEO
-26. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
-27. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-28. A script to check overlapping permalinks
-29. Develop a [[Light]] version of the website `<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
-30. Improve CSS using `:is()`, see [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/:is ":is on MDN")
-31. Make [[Permanent HTML]]
-32. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
+20. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
+21. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
+22. Study Blogger’s `<head>` to improve SEO
+23. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
+24. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+25. A script to check overlapping permalinks
+26. Develop a [[Light]] version of the website `<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
+27. Improve CSS using `:is()`, see [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/:is ":is on MDN")
+28. Make [[Permanent HTML]]
+29. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
 
 <ul>
 	{% for p in site.pages %}
@@ -244,3 +248,5 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 - Use `@import` to add fonts instead of linking their CSS reference files in HTML ✅ 2020.12.25
 - Use [**`flex`**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "A guide to flexbox on GSS Tricks")
 - Use more Emojis ✅ 2020.12.30
+
+[ActivityPub]: https://activitypub.rocks/ 'ActivityPub'

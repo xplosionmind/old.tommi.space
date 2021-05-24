@@ -36,6 +36,7 @@ body {
 	--other-grey: var(--light-grey);
 	--transp-text: #FFF9;
 	--shadow: 5px 5px 20px #000000BB, -5px -5px 20px #FFFFFF11;
+	--opposite-shadow: -5px -5px 20px #000000BB, 5px 5px 20px #FFFFFF11;
 	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFFFFF22;
 	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFFFFF11;
 	--button-shadow: inset 2px 2px 4px #FFF8, inset -2px -2px 4px #0008;
@@ -50,6 +51,7 @@ body {
 
 	&:not(.light) .light {
 		filter: var(--invert);
+		box-shadow: var(--opposite-shadow);
 	}
 }
 
@@ -66,6 +68,7 @@ body {
 	--other-grey: var(--dark-grey);
 	--transp-text: #0008;
 	--shadow: 5px 5px 20px #0002, -5px -5px 20px #FFF;
+	--opposite-shadow: -5px -5px 20px #0002, 5px 5px 20px #FFF;
 	--little-shadow: 1px 1px 4px #0003, -2px -2px 3px #FFF7;
 	--tool-shadow: 3px 3px 8px #0005, -3px -3px 8px #FFF6;
 	--inner-shadow: inset 3px 3px 5px #0005, inset -3px -3px 5px #FFF3;
@@ -78,6 +81,7 @@ body {
 
 	.dark {
 		filter: var(--invert-dark);
+		box-shadow: var(--opposite-shadow);
 	}
 	.utterances {
 		filter: var(--invert-dark);

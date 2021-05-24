@@ -26,9 +26,11 @@ Tutto quello che stiamo creando, i contatti e maggiori dettagli su chi siamo e p
 
 Sto frequentando il corso di [Philosophy, International Studies and Economics](https://unive.it/pise "la pagina del PISE sul sito di Ca' Foscari") a all'[Università Ca’ Foscari University](https://unive.it "il sito web di Ca' Foscari"), nella favolosa [Venezia](https://www.comune.venezia.it/ "Sito web del comune di Venezia"), dove sto vivendo.
 
+{% comment %}
 <div class="blue box">
 	Ho creato <cite><a href="https://pise-notes.club"  target="_blank" title="PISE notes">PISE Notes</a></cite>, in cui raccolgo tutti i miei appunti
 </div>
+{% endcomment %}
 
 <br>
 <br>

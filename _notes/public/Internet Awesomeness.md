@@ -1,6 +1,5 @@
 ---
 date: 2020-10-27
-updated: 2021-03-15T17:31:42.022539+01:00
 tags: geek
 redirect_from: ["/great-websites", "/great-internet", "/internet-greatness"]
 toc: false
@@ -17,6 +16,9 @@ todo:
 
 <ul>
 	{% for web in site.data.internet-awesomeness %}
-		<li><a href="{{ web.url }}"  target="_blank" title="{% if web.website != nil %}{{ web.website }}">{{ web.website }}{% else %}{{ web.url | remove: "https://" }}">{{ web.url | remove: "https://" }}{% endif %}</a>, {{ web.date | date_to_long_string }}
+		<li>
+          <a href="{{ web.url }}"  target="_blank" title="{% if web.website != nil %}{{ web.website }}">
+            {{ web.website }}{% else %}{{ web.url | remove: "https://" }}">{{ web.url | remove: "https://" }}{% endif %}
+          </a>: {{ web.description | markdownify }} — {{ web.date | date_to_long_string }}</li>
 	{% endfor %}
 </ul>

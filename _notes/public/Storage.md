@@ -4,6 +4,7 @@ updated: 2021-04-02T19:41:20.871577+02:00
 tags: geek
 aliases: "Backup"
 redirect_from: ["/backup", "/backups"]
+description: 'Traumatic data loss experiences and backup solutions testing'
 ---
 ## Data loss
 

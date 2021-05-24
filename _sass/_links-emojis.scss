@@ -202,12 +202,12 @@ article .box:not(.tags) {
 				content: "💾 ";
 			}
 		}
-		&[href="https://feedbin.com/starred/473f6605a06ee11a237dd820d772f086.xml"] {
+		&[href*="paDzrTfqL9PbkSX/starred"] {
 			&::before {
 				content: "❤️ ";
 			}
 		}
-		&[href="http://getpocket.com/users/xplosionmind/feed/read"] {
+		&[href="https://wallabag.nixnet.services/feed/tommi/paDzrTfqL9PbkSX/archive"] {
 			&::before {
 				content: "👀 ";
 			}

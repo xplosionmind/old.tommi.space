@@ -21,9 +21,11 @@ What I am doing right now:
 
 I am attending [Philosophy, International Studies and Economics](https://unive.it/pise "PISE course page on UniVe website") at [Ca' Foscari University](https://unive.it "Ca' Foscari University website") in [Venice](https://www.comune.venezia.it/ "Venice institutional website"), Italy, where I'm living.
 
+{% comment %}
 <div class="blue box">
 	I made <a href="https://pise-notes.club"  target="_blank" title="PISE Notes">PISE Notes</a>, a website in which I collect notes on the course classes.
 </div>
+{% endcomment %}
 
 <br>
 <br>

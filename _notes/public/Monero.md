@@ -11,7 +11,7 @@ todo:
   - 'copy address to clipboard'
   - 'make this page full'
 ---
-My Monero address is `88EAxHuUZXafHxuWej5hEqaJZr5wWfpgJLfvz3X5N6zAiK7Tn4SuAjB6MxC8zZKyGYRc6CcGnUT6QUcTp1je8tSbKVx3X3G`.  
+My Monero address is <code style='background:var(--razzmatazz);color:#FFF'>88EAxHuUZXafHxuWej5hEqaJZr5wWfpgJLfvz3X5N6zAiK7Tn4SuAjB6MxC8zZKyGYRc6CcGnUT6QUcTp1je8tSbKVx3X3G</code>.  
 Otherwise, you can get it by scaning the following QR code:
 
 <figure>

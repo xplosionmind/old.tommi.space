@@ -12,12 +12,10 @@ redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-n
 
 ## Improvements
 
-- Drawings images
+- Illustrations
 - `redirect_from: ["/press-kit", "/stampa"]`
 - why the present website will not be updated
 - consider adding ethical ads
-- add gitea / GitLab mirror
-- add `share on Mastodon` button
 
 <br>
 
@@ -26,6 +24,7 @@ redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-n
 - https://video.repubblica.it/tecno-e-scienze/una-vita-senza-big-tech-storie-di-chi-cerca-alternative-ai-giganti-del-web-non-barattiamo-i-nostri-dati-per-i-loro-servizi/384819/385547
 - https://www.lealternative.net/2021/04/02/quit-social-media/
 - https://amreolog.duckdns.org/~/SoftwareLiberoEticaDigitale/perch%C3%A9-ho-deciso-di-lasciare-facebook
+- [](https://www.wired.com/story/twitter-photo-crop-algorithm-favors-white-faces-women/) on Wired
 - troppi troppi GB
 - legittimazione a non uscire per troppo tempo da investire nel cambio
 - Fediverse (specifically mastodon) features list + point out how recent they are
