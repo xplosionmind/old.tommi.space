@@ -46,15 +46,12 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 4. [[The Jam]]: Preview a note when hovering on link
 5. [[The Jam]]: Notes graph
 6. Full width images in posts
-7. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
 10. Movies list integration
 	- https://www.themoviedb.org/documentation/api/discover
 	- https://developers.themoviedb.org/3/getting-started/introduction
 	- https://developers.themoviedb.org/3/configuration/get-api-configuration
 	- https://developer.imdb.com/documentation/data-dictionary/names
 	- https://www.themoviedb.org/settings/api/new/form?type=developer
-11. Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts
-	- create subsections: creative help, hands-on help (e.g. Scambi), technical help, long-term help (collaborations), contacts help (I need to reach somebody and I cannot)
 12. [Tags](/tags):
 	- consider switching from a unique page list to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
 13. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
@@ -134,6 +131,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 
 ## Done
 
+- Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts ✅ 2021-05-25
 - Add [`humans.txt`](http://humanstxt.org "humans.txt") ✅ 2021.01.17
 - Add [`this page was designed to last`](https://jeffhuang.com/designed_to_last/) - ✅ 2021.05.20
 - Animations (little and simple but effective)

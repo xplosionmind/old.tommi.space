@@ -17,8 +17,8 @@ todo:
 <ul>
 	{% for web in site.data.internet-awesomeness %}
 		<li>
-          <a href="{{ web.url }}"  target="_blank" title="{% if web.website != nil %}{{ web.website }}">
-            {{ web.website }}{% else %}{{ web.url | remove: "https://" }}">{{ web.url | remove: "https://" }}{% endif %}
-          </a>: {{ web.description | markdownify }} — {{ web.date | date_to_long_string }}</li>
+			<a href="{{ web.url }}"  target="_blank" title="{% if web.website != nil %}{{ web.website }}">
+				{{ web.website }}{% else %}{{ web.url | remove: "https://" }}">{{ web.url | remove: "https://" }}{% endif %}
+			</a>: {{ web.description }} — {{ web.date | date_to_long_string }}</li>
 	{% endfor %}
 </ul>
