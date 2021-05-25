@@ -21,6 +21,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 	1. [Obsidian](https://github.com/Slowbad/obsidian-solarized/blob/master/obsidian.css)
 	- https://apas.gr/2018/11/dark-mode-macos-safari-iterm-vim/
 5. [[Scripts]]
+1. [twtxt](https://twtxt.readthedocs.io/en/stable/ 'twtxt'), microblogging for hackers
 6. List monk is out of beta
 6. [Integrate](https://github.com/cjeller1592/WriteFreely-API) noblogo.org / Writefreely with Jekyll
 7. [customize](https://writefreely.org/docs/latest/writer/css) noblogo.org / WriteFreely style

@@ -212,5 +212,12 @@ article .box:not(.tags) {
 				content: "👀 ";
 			}
 		}
+		&[href*="xxiivv" i] {
+			&::after {
+				content: url('/logos/xxiivv.svg');
+				max-height: 32px;
+				max-width: 32px;
+			}
+		}
 	}
 }

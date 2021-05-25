@@ -22,6 +22,7 @@ header {
 	font-size: var(--bigger);
 	background: var(--primary);
 	box-shadow: var(--shadow);
+	transform: rotate(-8deg);
 	a {
 		color: var(--background);
 		&:hover,
@@ -33,6 +34,7 @@ header {
 	&:focus {
 		background: var(--razzmatazz);
 		border-bottom: none;
+		transform: rotate(3deg);
 	}
 }
 

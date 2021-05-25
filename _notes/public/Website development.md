@@ -11,9 +11,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 <div class="red box">
 	<h3>⚠️ Problems 🔨</h3>
 	<ul>
-		<li>Language switcher not working in pages which are not located in <code>site.pages</code></li>
 		<li>Full pages are displayed wrongly on mobile</li>
-		<li>`copy page link` button is not working</li>
 	</ul>
 </div>
 
@@ -36,7 +34,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 1. Configure and implement [ActivityPub]
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
-1. Stop using Algolia and consider faster and simpler alternatives
+1. Fast, simple and light full text search
 	- [Lunr](https://lunrjs.com "Lunr")
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "jekyll-lunr on GitHub")
 	- [Stork](https://stork-search.net/ "Stork search")
@@ -49,12 +47,6 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 5. [[The Jam]]: Notes graph
 6. Full width images in posts
 7. Create git submodules / Gists for every file which is significant alone ([[Apps]], [[Server]], [[Server setup]], [[Blogroll]]…)
-8. Configure [Peekalink](https://peekalink.io "Peekalink") in [[Cinema]] to replace [The Movie Database](https://themoviedb.org "The Movie Database") list and quit it.
-9. Avoid having to use special plugins to parse `\[\[wikilinks\]\]`, and use simple markdown links, integrating them in Jekyll with [jekyll-relative-links](https://github.com/benbalter/jekyll-relative-links "jekyll-relative-links on GitHub")
-	- problems
-		- how to remove invalid links
-		- Folder structure becomes fundamental and links must be changed when file is moved (Obsidian should automatically handle this)
-		- Current Liquid permalinks parsing may not work anymore
 10. Movies list integration
 	- https://www.themoviedb.org/documentation/api/discover
 	- https://developers.themoviedb.org/3/getting-started/introduction
@@ -73,8 +65,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	- how to make use of <https://ogp.me> to retrieve data
 16. Give a consistent framework to all lists (use CSV data or markdown tables only)
 17. Join WebRings
-	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub")
-	1. [Recurse Webring](https://webring.recurse.com/ "Recurse Webring")
+	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub") ✅ 2021-05-25
 	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring")
 18. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
 19. Minimize JavaScript use

@@ -617,6 +617,9 @@ h1 {
 	color: var(--text);
 	text-align: center;
 	font-size: var(--height);
+	&:hover {
+		transform: rotate(3deg);
+	}
 }
 
 h2 {
@@ -752,7 +755,6 @@ footer {
 	width: 94%;
 	overflow: hidden;
 	p {
-		margin: .2em;
 		a {
 			/* override internal link color for “Privacy” */
 			color: var(--primary) !important;
@@ -766,11 +768,15 @@ footer {
 audio {
 	width: 100%;
 	box-shadow: var(--shadow);
-	border-radius: var(--radius-m);
 }
 
 .controlBar {
 	background: none !important;
+}
+
+.icon {
+	height: var(--regular);
+	width: auto;
 }
 
 svg.button,
@@ -799,6 +805,12 @@ button,
 	}
 	&:active {
 		box-shadow: var(--inner-shadow);
+	}
+}
+
+.hoverotate {
+	&:hover {
+		transform: rotate(-5deg);
 	}
 }
 
@@ -1001,7 +1013,7 @@ button,
 		width: 20%;
 	}
 	.post-preview {
-		.title {
+		h2 {
 			margin-top: var(--regular-less);
 		}
 		img {
