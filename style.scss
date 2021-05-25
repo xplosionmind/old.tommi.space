@@ -87,7 +87,6 @@ body {
 		filter: var(--invert-dark);
 	}
 	.theme-toggle {
-		filter: brightness(.5);
 		text-shadow: none;
 	}
 }
@@ -134,7 +133,7 @@ mark {
 	background: var(--primary);
 }
 
-dim {
+.dim {
 	opacity: .5;
 }
 
@@ -344,9 +343,14 @@ li {
 }
 
 #goto {
-	position: absolute;
-	top: 4.5vw;
-	right: 0;
+	position: fixed;
+	top: 35vh;
+	left: -14.6rem;
+	&:hover,
+	&:focus {
+		left: 0;
+		opacity: 1;
+	}
 	a {
 		transform: scale(.85);
 		display: block;
@@ -740,27 +744,19 @@ h3 {
 }
 
 footer {
-	margin: var(--bigger) 3%;
-	overflow: hidden;
-	width: 94%;
 	padding: var(--big);
+	margin: var(--bigger) 3%;
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
+	/* not fundamental values which somehow have to be specified or a big mess happens */
+	width: 94%;
+	overflow: hidden;
 	p {
-		opacity: .7;
 		margin: .2em;
-		&:hover,
-		&:focus {
-			opacity: 1;
-		}
 		a {
 			/* override internal link color for “Privacy” */
 			color: var(--primary) !important;
 		}
-	}
-	img {
-		border-radius: 0;
-		margin: auto;
 	}
 	& > .row {
 		justify-content: space-between;
@@ -1028,11 +1024,12 @@ button,
 	.popup {
 		left: 5vw;
 	}
-	#goto {
-		display: none;
-	}
 	.newsletter {
 		margin: 2vh 0;
+	}
+	#goto {
+		left: -13.5rem;
+		opacity: .5;
 	}
 	#pages {
 		a {

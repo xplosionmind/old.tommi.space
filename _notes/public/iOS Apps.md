@@ -27,7 +27,7 @@ toc: false
 - [Frame Grabber](https://github.com/arthurhammer/FrameGrabber "Frame Grabber for iOS"), a light and shiny Open Source app to extract frames from videos.
 - [FTPManager Pr‪o‬](https://apps.apple.com/us/app/ftpmanager-pro/id522627917 "FTPManager Pro"), to easily transfer data to and from my servers and remote devices through SFTP. It costs 3,49€.
 - [GitHub](https://github.com/mobile "GitHub mobile")
-- [Hype](https://apps.apple.com/it/app/hype-carta-conto-e-app/id943405905 "Hype app on App Store"), the mobile client for [Hype](https://www.hype.it/ "Hype official website"). Proprietary software.
+- [Mast](https://apps.apple.com/it/app/hype-carta-conto-e-app/id943405905 "Hype app on App Store"), the mobile client for [Hype](https://www.hype.it/ "Hype official website"). Proprietary software.
 - [Imaging Edge Mobile](https://support.d-imaging.sony.co.jp/app/iemobile/), to import images from [my Sony camera](https://www.sony.com/electronics/interchangeable-lens-cameras/ilce-6500-body-kit).
 - [IO](https://io.italia.it/ "IO Italia"), the very promising  Open Source app to manage Italian public services
 - ~~[iSH](https://ish.app/ "iSH"), a terminal emulator fo iOS~~, not using it

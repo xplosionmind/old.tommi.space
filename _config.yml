@@ -118,6 +118,7 @@ plugins:
   - jekyll-auto-image
   - jekyll-email-protect
   - jekyll-paginate-v2
+#  - jekyll-stork
 
 sass:
   style: compressed

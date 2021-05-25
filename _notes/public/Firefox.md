@@ -2,25 +2,34 @@
 date: 2020-07-03
 updated: 2021-04-09T11:07:45.246+02:00
 tags: geek/apps
-description: "I consider myself a Firefox power user: I love it and I take full advantage of its features. Here’s how I do it."
-redirect_from: ["/firefox-tweaks", "/firefox-settings", "/mozilla-firefox", "/about-config", "/aboutconfig", "/firefox-config"]
+description: 'I consider myself a Firefox power user: I love it and I take full advantage of its features. Here’s how I do it.'
+redirect_from: ['/firefox-tweaks', '/firefox-settings', '/mozilla-firefox', '/about-config', '/aboutconfig', '/firefox-config']
 ---
 ## Shortcuts
 
-Standard shortcuts are in [Firefox shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly "Keyboard Shortcuts - Mozilla Support"), while my custom shortcuts are [[Hotkeys#Firefox|Here]]
+Standard shortcuts are in [Firefox shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly 'Keyboard Shortcuts - Mozilla Support'), while my custom shortcuts are [[Hotkeys#Firefox|Here]]
 
-[Developer toolbox shortcuts](https://developer.mozilla.org/en-US/docs/Tools/Keyboard_shortcuts "Keyboard shortcuts - MDN")
+[Developer toolbox shortcuts](https://developer.mozilla.org/en-US/docs/Tools/Keyboard_shortcuts 'Keyboard shortcuts - MDN')
 
 <br>
 <br>
 
 ## Add-ons and Extensions
 
-Three different add-ons configurations can be found in my [Firefox Collections](https://addons.mozilla.org/en-US/firefox/collections/13538650 "Tommi's Firefox Collections"):
+Three different add-ons configurations can be found in my [Firefox Collections](https://addons.mozilla.org/en-US/firefox/collections/13538650 'Tommi’s Firefox Collections'):
 
-- **[minimal](https://addons.mozilla.org/en-US/firefox/collections/13538650/minimal/) configuration**, must-have add-ons for a safe and optimized browsing experience
-- **[main](https://addons.mozilla.org/en-US/firefox/collections/13538650/main/) configuration**, the main extensions I use + integrated tools to take advantage of the services I use in the best way possible. The main configuration extensions are noted in more detail below, too, but the collection is always up to date
-- **[super](https://addons.mozilla.org/en-US/firefox/collections/13538650/super/) configuration**, extra add-ons to enjoy all the bells and whistles extensions can offer
+- **[minimal](https://addons.mozilla.org/en-US/firefox/collections/13538650/minimal/ '“minimal” extensions collection') configuration**, must-have add-ons for a safe and optimized browsing experience
+- **[main](https://addons.mozilla.org/en-US/firefox/collections/13538650/main/ '“main” extensions collection') configuration**, the main extensions I use + integrated tools to take advantage of the services I use in the best way possible. The main configuration extensions are noted in more detail below, too, but the collection is always up to date
+- **[super](https://addons.mozilla.org/en-US/firefox/collections/13538650/super/ '“super” extensions collection - Firefox AddOns') configuration**, extra add-ons to enjoy all the bells and whistles extensions can offer
+
+<br>
+<br>
+
+## Missing
+
+Even though Firefox is my go-to browser and I absolutely love it, it lacks some features which I really miss and I keep track of them below:
+
+- Easy and quick site-specific tracking, fingerprinting and cookies settings
 
 <br>
 <br>
@@ -80,8 +89,9 @@ A record of all the tweaks I made in Firefox `about:config` page
 - [x] `extensions.formautofill.creditCards.enabled` = `false`
 
 <br>
+<br>
 
-## Sources
+## Resources
 
 - [PrivacyTools](https://www.privacytools.io/browsers/#about_config "about:config section on PrivacyTools")
 - [Mikaela Suomalainen](https://mikaela.info/browser-extensions.html "Browser extensions on mikaela.info")

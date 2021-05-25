@@ -1,5 +1,6 @@
 <div id="goto" class="little box">
-	<a class="button" href="#share" title="Share this post">Share</a>
-	<a class="button" href="#comments" title="Comments for this post">Comments</a>
-	<a class="button" href="#backlinks" title="Other pages linking to this one">Backlinks</a>
+	<a class="button" href="#share" title="{% if page.lang == 'it' %}Condividi questa pagina">Condividi{% else %}Share this page">Share{% endif %}</a>
+	<a class="button" href="#comments" title="{% if page.lang == 'it' %}Commenti a questa pagina">Commenti{% else %}Comments for this post">Comments{% endif %}</a>
+	<a class="button" href="#backlinks" title="{% if page.lang == 'it' %}Pagine che portano a questa pagina{% else %}Other pages linking to this one{% endif %}">Backlinks</a>
+	<a class="button" href="https://www.github.com/{{ site.github_username }}/{{ site.git_repository }}/blob/main/{{ page.path | uri_escape }}" target="_blank"  title="{% if page.lang == 'it' %}Modifica{% else %}Edit{% endif %} {{ page.title }} on GitHub">{% if page.lang == 'it' %}Modifica{% else %}edit{% endif %}</a>
 </div>
