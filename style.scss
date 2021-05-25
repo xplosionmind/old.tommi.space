@@ -697,6 +697,14 @@ h3 {
 	}
 }
 
+#help {
+	position: fixed;
+	bottom: -15rem;
+	&:hover {
+		bottom: 0;
+	}
+}
+
 .box,
 .stuff {
 	p {
@@ -1042,6 +1050,9 @@ button,
 	#goto {
 		left: -13.5rem;
 		opacity: .5;
+	}
+	#help {
+		bottom: -17.5rem;
 	}
 	#pages {
 		a {

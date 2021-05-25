@@ -37,6 +37,10 @@ layout: compress
 			{% include draft.html %}
 		{% endif %}
 
+		{% if page.tags contains 'help' %}
+			{% include help.html %}
+		{% endif %}
+
 		{{ content }}
 
 		{% include footer.html %}

@@ -64,6 +64,7 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 15. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
 16. Give a consistent framework to all lists (use CSV data or markdown tables only)
+22. Study Blogger’s `<head>` to improve SEO
 17. Join WebRings
 	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub") ✅ 2021-05-25
 	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring")
@@ -72,11 +73,8 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")
 20. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
 21. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
-22. Study Blogger’s `<head>` to improve SEO
-23. Replace [Jekyll SEO Tag](https://jekyll.github.io/jekyll-seo-tag/usage/ "How to set the SEO plugin") with Liquid syntax
 24. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
 25. A script to check overlapping permalinks
-26. Develop a [[Light]] version of the website `<a href="https://512kb.club"><img src="https://512kb.club/assets/images/blue-team.svg" /></a>`
 27. Improve CSS using `:is()`, see [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/:is ":is on MDN")
 28. Make [[Permanent HTML]]
 29. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
