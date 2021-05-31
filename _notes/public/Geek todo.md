@@ -1,19 +1,17 @@
 ---
-updated: 2021-05-15T12:48:06.449519+02:00
+updated: 2021-05-27T12:01:05.612756+02:00
 tags: geek todo
 aliases: ["Geek stuff", "Geek stuff todo"]
+description: 'Computer related tasks tracking'
 ---
-1. [[VNC]]
-1. Fix Nuvola Nextcloud reminders
 4. [[Images]]
-1. [[PISE notes development]]
+3. Defining a threat model
 5. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 1. Movies data
 	- https://www.wikidata.org/wiki/Special:ApiSandbox
 	- https://www.mediawiki.org/wiki/API:Main_page
 	- https://www.mediawiki.org/wiki/API:Tutorial
 	- https://www.wikidata.org/wiki/Wikidata:Data_access
-3. Defining a threat model
 4. Final color schemes
 	1. [iTerm](http://www.iterm2colorschemes.com/ "iTerm2 Color Schemes")
 	2. Neovim
@@ -22,7 +20,7 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 	- https://apas.gr/2018/11/dark-mode-macos-safari-iterm-vim/
 5. [[Scripts]]
 1. [twtxt](https://twtxt.readthedocs.io/en/stable/ 'twtxt'), microblogging for hackers
-6. List monk is out of beta
+1. Switch to [Yunohost]
 6. [Integrate](https://github.com/cjeller1592/WriteFreely-API) noblogo.org / Writefreely with Jekyll
 7. [customize](https://writefreely.org/docs/latest/writer/css) noblogo.org / WriteFreely style
 8. [[Missing Knowledge#Geek stuff|Learning geek stuff]]
@@ -81,3 +79,5 @@ aliases: ["Geek stuff", "Geek stuff todo"]
 <br>
 
 ![[Missing Knowledge#Geek|Learn]]
+
+[Yunohost]: https://yunohost.org/ 'Yunohost'

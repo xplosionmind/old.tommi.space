@@ -1,24 +1,13 @@
 ---
 date: 2020-09-14
-updated: 2021-03-27T08:04:11.446542+01:00
+updated: 2021-05-25T22:40:15.269440+02:00
 tags: geek
 image: "/images/backup.jpg"
-permalink: /backup
-redirect_from: ["/mobile-backup-checklist", "/phone-formatting-checklist", "/mobile-formatting", "/phone-backup-checklist", "/phone-backup-checklist", "/phone-backup", "/mobile-backup", "/adb-file-transfer", "/android-file-transfer", "/macos-backup", "/formatting-checklist", "/backup-checklist"]
-toc: 0
+permalink: /backup-checklist
+redirect_from: ["/mobile-backup-checklist", "/phone-formatting-checklist", "/mobile-formatting", "/phone-backup-checklist", "/phone-backup-checklist", "/phone-backup", "/mobile-backup", "/adb-file-transfer", "/android-file-transfer", "/macos-backup", "/formatting-checklist"]
 description: "To keep the phone rolling smoothly, from time to time a classic data backup and factory reset are necessary, but it’s important not to forget what to save before hitting the red button. These are my checklist and importing workflow."
+toc: false
 ---
-## Laptop
-
-- `/Library/User\ Pictures`
-- Custom fonts
-- Custom bash [[Scripts]]
-
-<br>
-<br>
-
-## Mobile
-
 - Export apps settings
 	- OSMAnd+ favorites and settings
 - WiFi passwords
@@ -36,9 +25,9 @@ description: "To keep the phone rolling smoothly, from time to time a classic da
 
 <br>
 
-### Transfer files
+### Transferring files
 
-I use [ADB](http://developer.android.com/tools/help/adb.html) to transfer any file or folder from my Android device to my Mac, and this is how I do it.
+The cleanest way to move files from an Android to a MacOS device is by using [<abbr title="Android Debug Bridge">ADB</abbr>](http://developer.android.com/tools/help/adb.html).
 
 Firstly, connect the phone to the computer.
 
@@ -67,7 +56,7 @@ once the path of the directories which contain the content that has to be copied
 ./adb pull /path/in/phone /destination/path/on/computer
 ```
 
-And it's done. This is how simple, neat, fast, and powerful this process is.
+Done. This is how simple, neat, fast, and powerful this process is.
 
 <br>
 

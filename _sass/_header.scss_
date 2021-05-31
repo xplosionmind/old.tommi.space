@@ -12,7 +12,7 @@ header {
 	position: fixed;
 	top: 2vw;
 	right: 2vw
-	background: var(--background);*/
+	background: var(--background); */
 }
 
 #home {
@@ -126,12 +126,6 @@ nav {
 @media only screen and (max-width: 950px) {
 	.nav {
 		margin: 3vh;
-		&:hover,
-		&:focus {
-			.nav-list {
-				right: 3vh;
-			}
-		}
 	}
 	.nav-mobile {
 		display: block;
@@ -148,16 +142,6 @@ nav {
 	}
 	nav ul li {
 		float: none;
-	}
-	nav {
-		position: fixed;
-		top: 3vh;
-		right: 3vh;
-		width: var(--height);
-		height: var(--height);
-		box-shadow: none;
-		padding: 0;
-		margin: 0;
 	}
 }
 

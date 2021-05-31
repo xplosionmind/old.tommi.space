@@ -1,7 +1,7 @@
 ---
 date: 2021-02-21T14:27:17.050260+01:00
 updated: 2021-02-21T14:27:17.050260+01:00
-tags: music wip
+tags: music
 description: "Classical music I love"
 toc: false
 ---

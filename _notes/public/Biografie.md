@@ -1,14 +1,20 @@
 ---
 date: 2021-03-13T22:12:00.945758+01:00
-updated: 2021-03-19T11:19:47.367683+01:00
+updated: 2021-05-25T23:04:28.889450+02:00
 tags: people
 lang: it
-description: 'Non si tratta solo di chi sono le <a href="/people" title="People">persone</a> e delle cose pazzesche che possono aver detto o fatto; è interessante studiare quanto siano capaci a raccontare di sé stesse. Questa è una collezione di più o meno brevi ammirevoli biografie.'
+description: 'Una collezione di biografie speciali'
 redirect_from: ["/autobiografie", "/autobiographies", "/biographies"]
 toc: false
-todo:
-  - "Improve description as tagline and as introduction"
 ---
-- [Storia di un boxeur latino](https://www.minimumfax.com/shop/product/storia-di-un-boxeur-latino-2273 "Storia di un boxeur latino"), l’autobiografia di [Gianni Minà]({{ "https://it.wikipedia.org/wiki/Gianni_Minà" | uri_escape }} "Gianni Minà su Wikipedia")
-- [Scrittore di libri di montagna](https://www.francescovidotto.com/francesco-vidotto-scrittore-di-libri-di-montagna/ "Francesco Vidotto, Scrittore di libri di montagna"), [Francesco Vidotto](https://www.francescovidotto.com/ "Francesco Vidotto")
-- [Paolo Di Paolo](http://www.paolodipaolo.it/chi-sono/ "Chi sono - Paolo Di Paolo")
+Non si tratta solo di chi sono le <a href="/people" title="People">persone</a> e delle cose pazzesche che possono aver detto o fatto; è interessante studiare come raccontino di sé. Questa è una collezione di più o meno brevi ammirevoli biografie.
+
+<ul>
+{% for bio in site.data.biografie %}
+<li>
+<a href="{{ bio.url }}" target="_blank" title="Biografia di {{ bio.name }}">{{ bio.title }}</a>
+{% if bio.title != bio.name %}
+, {{ bio.name }}
+{% endif %}
+</li>{% endfor %}
+</ul>

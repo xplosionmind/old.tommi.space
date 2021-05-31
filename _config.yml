@@ -52,12 +52,6 @@ collections:
   sconnesso:
     output: true
 
-# CommonMark
-# markdown: CommonMark
-# commonmark:
-#  options: ["FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE", "SMART", "VALIDATE_UTF8", "UNSAFE", "LIBERAL_HTML_TAG", "HARDBREAKS"]
-#  extensions: ["strikethrough", "table", "tasklist", "autolink", "tagfilter"]
-
 # Pagination
 pagination:
   enabled: true
@@ -119,6 +113,8 @@ plugins:
   - jekyll-email-protect
   - jekyll-paginate-v2
 #  - jekyll-stork
+  - jekyll-wikilinks
+#  - jekyll-commonmark
 
 sass:
   style: compressed
@@ -126,7 +122,13 @@ sass:
 target-blank:
   rel: external
 
-# wikilinks_collection: "notes"
+d3_graph_data:
+  enabled: false
+
+#markdown: CommonMark
+#commonmark:
+#  options: ["FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE", "SMART", "VALIDATE_UTF8", "UNSAFE", "LIBERAL_HTML_TAG", "HARDBREAKS"]
+#  extensions: ["strikethrough", "table", "tasklist", "autolink"]
 
 compress_html:
   clippings: all

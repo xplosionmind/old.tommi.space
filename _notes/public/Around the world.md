@@ -16,18 +16,7 @@ toc: false
 <br />
 <br />
 
-<ul>
-	{% for place in site.data.places %}
-		<li>
-			{% if place.url != '' %}
-				<a href="{{ place.url }}" target="_blank" title="{{ place.name }}">{{ place.name }}</a>
-			{% else %}
-				{{ place.name }}
-			{% endif %}
-			, {{ place.city }}
-		</li>
-	{% endfor %}
-</ul>
+<ul>{% for place in site.data.places %}<li>{% if place.url != '' %}<a href="{{ place.url }}" target="_blank" title="{{ place.name }}">{{ place.name }}</a>{% else %}{{ place.name }}{% endif %}, {{ place.city }}</li>{% endfor %}</ul>
 
 <br>
 <br>

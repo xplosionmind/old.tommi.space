@@ -4,6 +4,7 @@ updated: 2020-10-13
 tags: cinema
 redirect_from: ["/moviemaking", "/directing"]
 main: true
+toc: false
 ---
 ## Tips on set
 

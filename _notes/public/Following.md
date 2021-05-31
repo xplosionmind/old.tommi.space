@@ -2,6 +2,8 @@
 date: 2020-06-11
 updated: 2021-01-17
 redirect_from: ["/telegram-following", "/telegram-channels", "/subscriptions", "/newsletters"]
+todo:
+  - 'integrate with [[Webrings]], [[People]], and [[Blogroll]]'
 ---
 In our world, especially on the web, there is **a lot** of content, maybe too much, and it's very easy for me to get anxious because I can't keep up with everything and I can't know or learn what I wanted.\
 For this reason, it's important to be very selective and aware of who I follow and what are the knowledge and news sources I'm subscribed to, in order to find the right equilibrium.

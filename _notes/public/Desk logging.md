@@ -6,6 +6,7 @@ toc: false
 todo:
   - "find a more creative name"
   - "create a photo gallery as with Living Art"
+description: 'Monthly pictures of my desk, wherever I am'
 ---
 Since the beginning of 2019, I've been shooting every 27 days at 12:11 PM my desk, without cleaning or uncluttering it. I'd just shoot a picture of how my desk is at a given moment.
 

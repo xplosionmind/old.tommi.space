@@ -5,6 +5,7 @@ tags: geek
 redirect_from: ["/datasets", "data-sets", "/databases", "/public-data"]
 todo:
   - "Where to find reliable poll results? Official raw data, but simple?"
+  - "Integrate with [[Knowledge]]?"
 ---
 There are hundreds (if not thousands) of free data sets available, ready to be used and analyzed by anyone willing to look for them.  Below is a list of some of the most globally interesting I have come across, but there are many, many more in many different niches.
 

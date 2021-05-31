@@ -112,6 +112,7 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [MIT OpenCourseWare](https://openlearning.mit.edu/courses-programs/mit-opencourseware "MIT OpenCourseWare"), a free, publicly accessible, openly-licensed digital collection of high-quality teaching and learning materials from @MIT, presented in an easily accessible format.
 - [*190 universities just launched 600 free online courses. Here’s the full list.*](https://www.classcentral.com/report/new-courses-october-2018/ "190 universities just launched 600 free online courses. Here’s the full list.")
 - [Oppia](https://www.oppia.org "Oppia") is <q cite="https://www.oppiafoundation.org/about-oppia">an engaging new approach to online learning that caters specifically to the unique needs of the world's most underserved youth</q>.
+- [OMS Central courses](https://omscentral.com/courses 'Courses')
 
 <br>
 <br>

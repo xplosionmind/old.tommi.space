@@ -118,6 +118,7 @@ Software installed on Linuxplosion
 
 - [Configure DDNS for remote SSH access](https://dev.to/juliaria08/comment/1efl6 'DDNS config')
 - Flickr2Piwigo last attempt
+- [Install Czkawka](https://github.com/qarmin/czkawka 'Czkawka on GitHub')
 - [Configure WebDAV](https://www.digitalocean.com/community/tutorials/how-to-configure-webdav-access-with-apache-on-ubuntu-18-04 "How To Configure WebDAV Access with Apache on Ubuntu 18.04")
 - [Install PhotoPrism](https://github.com/photoprism/photoprism/discussions/1160 "Build PhotoPrism locally")
 

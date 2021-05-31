@@ -4,6 +4,8 @@ updated: 2021-02-21T14:14:25.301091+01:00
 tags: music
 main: true
 description: "Insights about music when made, played, or listened"
+todo:
+  - 'Embed Spotify playlists'
 ---
 The music I listen to is in my [[Playlists|playlists]].
 

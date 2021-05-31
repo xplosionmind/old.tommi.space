@@ -1,15 +1,25 @@
 ---
 date: 2020-07-10
-updated: 2021-04-13T18:24:17.359997+02:00
-tags: geek
-redirect_from: ["/internet-freedom-notes", "/internet-freedom-roadmap"]
+updated: 2021-05-28T22:12:21.246600+02:00
+tags: geek draft
+redirect_from: ["/internet-freedom-notes", "/internet-freedom-roadmap", "/internet-freedom-roadmap", "/road-to-internet-freedom", "/internet-freedom-path", "/path-to-internet-freedom"]
+description: 'Insights and steps towards a greater digital awareness and freedom'
 main: true
 todo:
-  - "global refactor"
+  - 'finish to properly write this'
 ---
-This awesome and revolutionary tool we call the Internet is so powerful that it's becoming a threat to the freedom of the average user, who, in exchange for services, hands over his/her data, therefore giving up personal independence and liberty.
+This awesome and revolutionary tool which goes by *the Internet* is <u>so powerful that some of it became a threat to the freedom of its users</u>, who, in exchange for services, indifferently hand over their data, therefore giving up personal independence and liberty.
 
-Here are noted various arguments, thoughts, speeches, documents, ideas and step-by-step guides to achieve **a healthier online experience**.
+Essentially, internet freedom is the concern for two overlapping macro-themes:
+
+- privacy and security of digital tools
+- decentralization and de-monopolization regarding both hardware and software development
+
+Below are noted various arguments, thoughts, speeches, documents, ideas and step-by-step guides in order to better tackle the core issues .
+
+<div class='blue box'>
+	I wish I had both the time and the knowledge to write some in-depth articles about the just mentioned topics. Nevertheless, on the web there are <u>plenty of great content</u> addressing them better than I could possibly do.
+</div>
 
 <br>
 <br>
@@ -20,21 +30,19 @@ Just complaining, waiting for things to get better one way or another, believing
 
 To change something, to make things better just [[Quit and switch|switch]] to healthier, more ethical, often even much better alternatives.
 
-**[[Quit and switch]]**.
+**![[Quit and switch]]**.
 
 <br>
 <br>
 
 ## Roadmap
 
-Becoming free is [a tricky topic](https://pise-notes.club/freedom "notes on freedom from Introduction to Philosophy course") by itself, but actually **becoming free** on the internet is very hard, if not impossible.
-
-I wrote my own [[Road to Internet Freedom]].
+[[Road to Internet Freedom|My personal roadmap]] towards internet awareness and freedom.
 
 <br>
 <br>
 
-## Random resources
+## Resources
 
 Random links about privacy online
 

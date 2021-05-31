@@ -15,7 +15,7 @@ gem "jekyll"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "webrick"
-# gem "jekyll-commonmark" # not working with bi-directional links generator plugin and with pure Liquid toc parser
+#  gem "jekyll-commonmark" # not generating header IDs: https://github.com/github/cmark-gfm/issues/186
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
@@ -55,5 +55,5 @@ group :jekyll_plugins do
 #  gem "jekyll-auto-image"
 #  gem "premonition"
 #  gem "jekyll-stork"
-#  gem "jekyll-wikilinks" # title and permalink should be specified in every note
+  gem "jekyll-wikilinks" # title and permalink should be specified in every note
 end

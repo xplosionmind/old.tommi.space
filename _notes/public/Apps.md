@@ -21,23 +21,11 @@ todo:
 
 Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale=en_US&viewlocale=en_US "MacBook Pro 13\" 2019 tech specs"):
 
-<ul>
-	{% for app in macosapps %}
-		<li>
-			<a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}
-		</li>
-	{% endfor %}
-</ul>
+<ul>{% for app in macosapps %}<li><a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}</li>{% endfor %}</ul>
 
 ### Terminal
 
-<ul>
-	{% for app in terminalapps %}
-		<li>
-			<a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}
-		</li>
-	{% endfor %}
-</ul>
+<ul>{% for app in terminalapps %}<li><a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}</li>{% endfor %}</ul>
 
 <br>
 <br>
@@ -46,13 +34,7 @@ Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale
 
 Apps installed on my [iPhone 12 mini](https://www.apple.com/it/iphone-12/ "iPhone 12"):
 
-<ul>
-	{% for app in iosapps %}
-		<li>
-			<a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}
-		</li>
-	{% endfor %}
-</ul>
+<ul>{% for app in iosapps %}<li><a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}</li>{% endfor %}</ul>
 
 <br>
 <br>
@@ -61,9 +43,7 @@ Apps installed on my [iPhone 12 mini](https://www.apple.com/it/iphone-12/ "iPhon
 
 Apps installed on my [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") running ~~[Oxygen OS](https://www.oneplus.com/oxygenos "OxygenOS on OnePlus’ website")~~ [[Switch to LineageOS|LineageOS]].
 
-<ul>
-	{% for app in androidapps %}
-		<li>
+<ul>{% for app in androidapps %}<li>
 			<a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}
 		</li>
 	{% endfor %}

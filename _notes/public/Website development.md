@@ -77,25 +77,25 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 29. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
 
 <ul>
-	{% for p in site.pages %}
-		{% if p.todo != nil %}
-			<li><a href="{{ p.url }}"  target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
-				{% for td in p.todo %}
-					<li>{{ td }}</li>
-				{% endfor %}
-			</ul></li>
-		{% endif %}
-	{% endfor %}
-	
-	{% for p in site.notes %}
-		{% if p.todo != nil %}
-			<li><a href="{{ p.url }}"  target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
-				{% for td in p.todo %}
-					<li>{{ td }}</li>
-				{% endfor %}
-			</ul></li>
-		{% endif %}
-	{% endfor %}
+{% for p in site.pages %}
+{% if p.todo != nil %}
+<li><a href="{{ p.url }}"  target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
+{% for td in p.todo %}
+<li>{{ td }}</li>
+{% endfor %}
+</ul></li>
+{% endif %}
+{% endfor %}
+
+{% for p in site.notes %}
+{% if p.todo != nil %}
+<li><a href="{{ p.url }}"  target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
+{% for td in p.todo %}
+<li>{{ td }}</li>
+{% endfor %}
+</ul></li>
+{% endif %}
+{% endfor %}
 </ul>
 
 <br>

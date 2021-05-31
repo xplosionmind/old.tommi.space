@@ -4,6 +4,8 @@ updated: 2021-03-22T21:40:09.310978+01:00
 tags: design
 description: "Little insights about the design world"
 main: true
+todo:
+  - 'Integrate websites with [[Webrings]] and [[Blogroll]] and [[Internet Awesomeness]]'
 ---
 ## 101
 
@@ -14,14 +16,14 @@ main: true
 
 ## Typography
 
-[[Typography]] has a dedicated note.
+![[Typography]]
 
 <br>
 <br>
 
 ## Colors
 
-[[Colors]] have a dedicated note.
+![[Colors]]
 
 <br>
 <br>

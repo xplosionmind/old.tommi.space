@@ -17,7 +17,7 @@ redirect_from: ["/colours", "/colori"]
 	<li><code style='background:#E0E0E0;color:#222'>#E0E0E0</code> main text color</li>
 	<li><strong><code style='background:#FCC920;color:#222'>#FCC920</code></strong> primary color</li>
 	<li><code style='background:#3185FC;color:#FFF'>#3185FC</code></li>
-	<li><code style='background:#EC0868;color:#FFF'>#EC0868</code> <cite><a href='https://en.wikipedia.org/wiki/Razzmatazz_(song)' target='_blank' title='Razzmatazz on Wikipedia'>Razzmatazz</a></cite>
+	<li><code style='background:#EC0868;color:#FFF'>#EC0868</code> <cite><a href='https://en.wikipedia.org/wiki/Razzmatazz_(song)' target='_blank' title='Razzmatazz on Wikipedia'>Razzmatazz</a></cite></li>
 	<li><code style='background:#D00;color:#FFF'>#D00</code> warning red</li>
 	<li><code style='background:#32CD32;color:#222'>limegreen</code> (<code>#3185FC</code>)</li>
 	<li><code style='background:#20CE88;color:#222'>#20CE88</code> geek green</li>
@@ -44,8 +44,8 @@ This website’s code snippets use a custom made syntax highlight; its source is
 
 [pise-notes.club]’s theme colors. Source [SCSS file](https://github.com/xplosionmind/PISE-notes/blob/e53b09b7eb391ac17f1c3a97a005a19412c3d397/style.scss#L13 'PISE Notes SCSS color variables').
 
-<div class='yellow'>
-	The website is currently offline since our faculty supervisor asked me to close it.
+<div class='yellow box'>
+The website is currently offline since our faculty supervisor asked me to close it.
 </div>
 
 <ul class='three'>
@@ -121,13 +121,13 @@ Ah, red, what a color. It is so wonderful I have to keep note of all the nice sh
 [Monokai Pro](https://monokai.pro "Monokai Pro") inspired sintax highlight, which does not correspond to [this website code snippets’ syntax](#tommispace-syntax-highlight)
 
 <ul class='three'>
-	<li><code style=background:#2C292D;color:#FFF>#2C292D</code></li>
-	<li><code style=background:#FF1688;color:#FFF>#FF1688</code></li>
-	<li><code style=background:#FC9867;color:#222>#FC9867</code></li>
-	<li><code style=background:#FFD866;color:#222>#FFD866</code></li>
-	<li><code style=background:#A9DC76;color:#222>#A9DC76</code></li>
-	<li><code style=background:#8DD8EF;color:#222>#8DD8EF</code></li>
-	<li><code style=background:#AB9DF2;color:#222>#AB9DF2</code></li>
+	<li><code style='background:#2C292D;color:#FFF'>#2C292D</code></li>
+	<li><code style='background:#FF1688;color:#FFF'>#FF1688</code></li>
+	<li><code style='background:#FC9867;color:#222'>#FC9867</code></li>
+	<li><code style='background:#FFD866;color:#222'>#FFD866</code></li>
+	<li><code style='background:#A9DC76;color:#222'>#A9DC76</code></li>
+	<li><code style='background:#8DD8EF;color:#222'>#8DD8EF</code></li>
+	<li><code style='background:#AB9DF2;color:#222'>#AB9DF2</code></li>
 </ul>
 
 <br>

@@ -4,6 +4,7 @@ updated: 2020-01-03
 tags: zen
 redirect_from: ["/routine", "/habits"]
 toc: false
+description: 'Boundaries to improve living quality'
 ---
 I believe the foundations of a peaceful, productive and full life are composed of a combination of [[Loops|habits]] and [[Boundaries|boundaries]].\
 Below are the ones I set to myself.

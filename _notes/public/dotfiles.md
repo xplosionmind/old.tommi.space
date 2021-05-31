@@ -1,9 +1,12 @@
 ---
 date: 2021-04-14T15:37:21.738273+02:00
-updated: 2021-05-15T14:37:57.841282+02:00
+updated: 2021-05-25T23:39:00.628888+02:00
 tags: geek
 toc: false
+description: 'Configuration files to keep track of'
 ---
+Dotfiles are the same as [[Playlists]] for developers: they define the person who made them. This is the reason why I am collecting the most interesting insights about them in this page.
+
 **My [dotfiles]**
 
 <br>

@@ -1,7 +1,7 @@
 ---
 date: 2020-06-10
 updated: 2021-01-17T0935:48.888963+01:00
-tags: cinema wip
+tags: cinema wip csvfy
 aliases: ["Movies"]
 description: "After watching these movies and series, I wasn’t the same anymore."
 redirect_from: ["/movies", "/film", "/films"]

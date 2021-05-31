@@ -1,4 +1,8 @@
-name,url,title,description,os,opensource,free,uninstalled
+name,url,title,description,os,opensource,price,uninstalled
+haste,https://github.com/seejohnrun/haste-client, on GitHub,"terminal client for <a href=""https://paste.tommi.space"" target=""_blank"" title=""Tommi’s pastebin"">Haste</a>",terminal,1,,
+ncspot,https://github.com/hrkfdn/ncspot, on GitHub,"a terminal <a href=""https://spotify.com"" target=""_blank"" title=""Spotify"">Spotify</a> client",terminal,1,,
+Rustdesk,https://rustdesk.com,,"an open source <a href=""https://teamviewer.com"" target=""_blank"" title=""TeamViewer"">TeamViewer</a> alternative",MacOS,1,,
+Rclone,https://rclone.org/,,a command line program to manage files on cloud storage.,MacOS,1,,
 Adobe Lightroom Classic,https://www.adobe.com/products/photoshop-lightroom-classic.html,,"alas, the best photo editing software out there. I hate Adobe, but it works so damn good. I’m doing my best to completely switch to the two following programs but, damn, it’s so hard. Also: I have to keep Lightroom on my device because it’s impossible to move photography edits committed with Lightroom to Darktable.",MacOS,,,
 Adobe Photoshop,https://www.adobe.com/products/photoshop.html,,". I tried living without it. I couldn't. Hands down, it's the best visual editing software in the world. You could do anything with it.",MacOS,,,
 AEScrypt,https://www.aescrypt.com,,file encrypter and decrypter,MacOS,1,,". I do not use it. If needed, same stuff can be done via CLI"

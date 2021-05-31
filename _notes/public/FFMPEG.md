@@ -1,7 +1,7 @@
 ---
 date: 2021-04-27T08:21:53.156495+02:00
 updated: 2021-04-27T08:21:53.156495+02:00
-tags: geek
+tags: geek/apps
 description: "Swiss army knife for video and audio editing from command line"
 ---
 ## Cheat sheet

@@ -8,6 +8,7 @@ redirect_from: ["/inspiration", "/websites"]
 main: true
 todo:
   - "Integrate with [[Internet Awesomeness]]"
+  - "Somehow integrate with [[Webrings]]"
 ---
 A website appears in this list for at least one of these three reasons:
 

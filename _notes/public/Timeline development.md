@@ -1,7 +1,7 @@
 ---
 date: 2020-12-15T15:56:57.856311+01:00
 updated: 2021-04-06T11:48:30.541372+02:00
-tags: wip geek/idea
+tags: wip geek/idea help/geek
 description: "Developing a timeline which integrates with everything I do and locations all over the world"
 aliases: ["Timeline"]
 toc: false

@@ -1,9 +1,10 @@
 ---
 date: 2021-01-27T22:03:09.864859+01:00
 updated: 2021-01-28T12:23:04.884095+01:00
-tags: geek draft
+tags: geek unfinished
 description: "Setting up stuff with Docker"
 toc: false
+description: 'Configuration of a Docker server'
 ---
 After configuring my [[Server]] as written in [[Server setup]], me and my friend [Claudio](https://claudiofaoro.com "Claudio Faoro's personal website") figured that even if understanding [Docker](https://www.docker.com/ "Docker official website") is boring and tricky, managing and maintaining software through it is much more simple and secure.
 

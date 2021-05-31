@@ -1,7 +1,7 @@
 ---
 date: 2021-04-04T20:19:59.606949+02:00
 updated: 2021-04-04T20:19:59.606949+02:00
-tags: geek/knowledge
+tags: geek/apps
 description: "Mastering git and noting insights to fully exploit its awesomeness"
 ---
 [git](https://git-scm.com "git") is arguably one of the best inventions in the history of Computer Sciences. It is ubiquitous, resourceful, infinite. It is one of the first thing developers (and not only them) need to master in order to be proficient and quick.

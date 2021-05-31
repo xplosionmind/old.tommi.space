@@ -43,5 +43,8 @@ Esiste una legge matematica che, se trasgredita, porta irreparabili maledizioni 
 
 Il Cubo è un luogo magico e devo vergognarmi se mai qualcuno verrà a trovarmi a Sanremo senza essere ivi portato.
 
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=7.81429946422577%2C43.821239081625386%2C7.81655251979828%2C43.82272918510757&amp;layer=mapnik&amp;marker=43.82198330001541%2C7.815425799999957" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=43.82198&amp;mlon=7.81543#map=19/43.82198/7.81543">Visualizza mappa ingrandita</a></small>
+
+
 [^1]: *Spalmer*: **a.** onda unica al mondo, dalle peculiarità inimitabili e introvabili sul pianeta Terra, eccetto che nel duecento metri di costa antestanti *Il Cubo*.
 [^2]: *Spalmer*: **b.** panino unico al mondo, dagli ingredienti apparentemente banali ma la cui combinazione, insieme al luogo in cui viene addentato (naturalmente, Il Cubo di Sanremo), lo rendono insuperabile; il suo nome è ispirato all’onda omonima di cui sopra.

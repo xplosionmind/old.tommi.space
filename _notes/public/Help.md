@@ -4,9 +4,8 @@ updated: 2021-05-25T18:47:53.556691+02:00
 title: 'Help!'
 description: 'Things I need help with'
 toc: false
+tags: help
 ---
-## Premise
-
 I would absolutely love to do the things below, but either:
 - I am not capable;
 - or I do not have time;

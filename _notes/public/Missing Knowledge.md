@@ -48,6 +48,7 @@ A private list of knowledge I miss about exams I am studying for.
 	- [If you are new to cryptocurrency](https://forum.privacytools.io/t/if-you-are-new-to-cryptocurrency/4571 "If you are new to cryptocurrency on PrivacyTools community") on PrivacyTools community
 	- [this](https://www.nytimes.com/2021/04/13/podcasts/the-daily/nft-bitcoin-cryptocurrency.html "Cryptocurrency’s Newest Frontier") unbelievable episode of New York Times’ <cite>The Daily</cite>, explaining why a NYT column was sold for 500k$
 2. Improve OpenStreetMap and OSMand knowledge
+1. Learn using [Rclone](https://rclone.org 'Rclone')
 3. [[JavaScript]]
 4. [Github Actions](https://docs.github.com/en/actions/learn-github-actions "Learn GitHub Actions")
 5. Makefile

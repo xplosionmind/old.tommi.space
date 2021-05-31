@@ -345,7 +345,7 @@ li {
 #goto {
 	position: fixed;
 	top: 35vh;
-	left: -14.6rem;
+	left: -15rem;
 	&:hover,
 	&:focus {
 		left: 0;
@@ -759,9 +759,6 @@ footer {
 	margin: var(--bigger) 3%;
 	border-radius: var(--radius-l);
 	box-shadow: var(--shadow);
-	/* not fundamental values which somehow have to be specified or a big mess happens */
-	width: 94%;
-	overflow: hidden;
 	p {
 		a {
 			/* override internal link color for “Privacy” */
@@ -1048,7 +1045,7 @@ button,
 		margin: 2vh 0;
 	}
 	#goto {
-		left: -13.5rem;
+		left: -13.8rem;
 		opacity: .5;
 	}
 	#help {

@@ -78,3 +78,8 @@ I decided that I will go for a [RAID 1](https://en.wikipedia.org/wiki/Standard_R
 
 - [💽 How to Setup Software RAID with MDADM Comand on Linux Ubuntu in 2021 💾](https://youtu.be/O3Iq9hx8V7U "💽 How to Setup Software RAID with MDADM Comand on Linux Ubuntu in 2021 💾"), a YouTube video of September 2020
 - [Ubuntu 20.04 Mdadm Setup Guide](https://youtu.be/F4YIxh1kkhI "Ubuntu 20.04 Mdadm Setup Guide") a YouTube video
+
+<br>
+<br>
+
+![[Backup checklist]]
