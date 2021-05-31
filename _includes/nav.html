@@ -3,7 +3,7 @@
 		<a href="{% if page.lang == 'it' %}/tuffo{% else %}/home{% endif %}" title="home">Tommi Space</a>
 	</div>
 	<nav>
-		<a class="nav-mobile" href="#!"><span></span></a>
+		<span></span>
 		<ul class="nav-list">
 			<li>{% if page.lang == 'it' %}<a href="/about-it" title="Chi sono">Io{% else %}<a href="/about" title="About me">About{% endif %}</a></li>
 			<li>{% if page.lang == 'it' %}<a href="/ora" title="Ciò che sto facendo">Ora{% else %}<a href="/now" title="What I am doing">Now{% endif %}</a></li>
@@ -12,24 +12,24 @@
 			<li>{% if page.lang == 'it' %}<a href="/cose" title="cose">Cose{% else %}<a href="/stuff" title="Stuff">Stuff{% endif %}</a></li>
 			<li>{% if page.lang == 'it' %}<a href="/marmellata" title="La Marmellata">Marmellata{% else %}<a href="/jam" title="The Jam">The Jam{% endif %}</a></li>
 			{% unless page.ref == nil %}
-				<li id="language-selector" class="dropdown"><a href="#!" title="language selector">🌍</a>
-				<ul class="dropdown-content">
-					{% for cosa in site.pages %}
-					{% if cosa.ref == page.ref %}
-						<li>
-							<a href="{{ cosa.url }}" class="{{ cosa.lang }}" lang="{{ cosa.lang }}">{% if cosa.lang == 'it' %}🇮🇹{% elsif cosa.lang == 'en' %}🇬🇧{% else %}{{ cosa.lang }}{% endif %}</a>
-						</li>
-					{% endif %}
-					{% endfor %}
-					{% for cosa in site.notes %}
-					{% if cosa.ref == page.ref %}
-						<li>
-							<a href="{{ cosa.url }}" class="{{ cosa.lang }}" lang="{{ cosa.lang }}">{% if cosa.lang == 'it' %}🇮🇹{% elsif cosa.lang == 'en' %}🇬🇧{% else %}{{ cosa.lang }}{% endif %}</a>
-						</li>
-					{% endif %}
-					{% endfor %}
-				</ul>
-			</li>
+				<li class="dropdown"><a href="#!" title="language selector">🌍</a>
+					<ul class="dropdown-content">
+						{% for cosa in site.pages %}
+							{% if cosa.ref == page.ref %}
+								<li>
+									<a href="{{ cosa.url }}" class="{{ cosa.lang }}" lang="{{ cosa.lang }}">{% if cosa.lang == 'it' %}🇮🇹{% elsif cosa.lang == 'en' %}🇬🇧{% else %}{{ cosa.lang }}{% endif %}</a>
+								</li>
+							{% endif %}
+						{% endfor %}
+						{% for cosa in site.notes %}
+							{% if cosa.ref == page.ref %}
+								<li>
+									<a href="{{ cosa.url }}" class="{{ cosa.lang }}" lang="{{ cosa.lang }}">{% if cosa.lang == 'it' %}🇮🇹{% elsif cosa.lang == 'en' %}🇬🇧{% else %}{{ cosa.lang }}{% endif %}</a>
+								</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+				</li>
 			{% endunless %}
 			<script>
 				const currentTheme = localStorage.getItem("theme");

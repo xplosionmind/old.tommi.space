@@ -558,6 +558,19 @@ figcaption {
 	text-align: center;
 }
 
+.dropdown-content {
+	display: none;
+}
+
+.dropdown {
+	&:hover,
+	&:focus {
+		.dropdown-content {
+			display: block;
+		}
+	}
+}
+
 .center {
 	text-align: center;
 }
