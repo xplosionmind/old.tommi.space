@@ -20,7 +20,7 @@ pagination:
 
 	{% for post in paginator.posts %}
 		<div class="row">
-			<a href="{{ post.url }}" lang="{{ post.lang }}">
+			<a href="{{ post.url }}" hreflang="{{ post.lang }}" lang="{{ post.lang }}">
 				<div class="post-preview box">
 					<div class="row">
 						<div class="one-fourth column">

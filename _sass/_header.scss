@@ -12,7 +12,7 @@ header {
 	position: fixed;
 	top: 2vw;
 	right: 2vw
-	background: var(--background);*/
+	background: var(--background); */
 }
 
 #home {
@@ -43,29 +43,6 @@ nav {
 	text-align: right;
 	padding: 0 var(--small);
 	box-shadow: var(--shadow);
-	span {
-		top: 1.4rem;
-		left: .7rem;
-	}
-	span,
-	span::before,
-	span::after {
-		display: none;
-		height: 4px;
-		width: 26px;
-		background: var(--text);
-		position: absolute;
-		content: "";
-		box-shadow: var(--little-shadow);
-		border-radius: var(--radius-s) !important;
- 		transition: var(--quicktrans);
-	}
-	span::before {
-		top: .65rem;
-	}
-	span::after {
-		bottom: .65rem;
-	}
 	svg {
 		width: var(--bigger);
 		margin: var(--small);
@@ -103,6 +80,7 @@ nav {
 }
 
 .dropdown-content {
+	display: none;
 	position: absolute;
 	margin-top: var(--small);
 	background: var(--background);
@@ -110,15 +88,47 @@ nav {
 	box-shadow: var(--shadow);
 }
 
+/* Mobile nav */
+.nav-mobile {
+	display: none;
+	height: var(--height);
+	width: var(--height);
+	position: absolute;
+	top: 3vh;
+	right: 3vh;
+	background: var(--background);
+	box-shadow: var(--shadow);
+	span {
+		top: 1.4rem;
+		left: .7rem;
+	}
+	span,
+	span::before,
+	span::after {
+		height: 4px;
+		width: 26px;
+		background: var(--text);
+		position: absolute;
+		display: block;
+		content: "";
+		box-shadow: var(--little-shadow);
+		border-radius: var(--radius-s) !important;
+ 		transition: var(--quicktrans);
+	}
+	span::before {
+		top: .65rem;
+	}
+	span::after {
+		bottom: .65rem;
+	}
+}
+
 @media only screen and (max-width: 950px) {
 	.nav {
 		margin: 3vh;
-		&:hover,
-		&:focus {
-			.nav-list {
-				right: 3vh;
-			}
-		}
+	}
+	.nav-mobile {
+		display: block;
 	}
 	.nav-list {
 		position: fixed;
@@ -128,21 +138,37 @@ nav {
 		background: var(--background);
 		box-shadow: var(--shadow);
 		transition: .5s;
-		z-index: 5;
+		z-index: 1;
 	}
 	nav ul li {
 		float: none;
 	}
-	nav {
-		position: fixed;
-		top: 3vh;
+}
+
+.open-menu {
+	.nav-list {
 		right: 3vh;
-		width: var(--height);
-		height: var(--height);
-		span,
-		span::after,
-		span::before {
-			display: block;
+		transition: .5s;
+	}
+	 .nav-mobile span {
+		background: transparent;
+		box-shadow: none;
+		&::before,
+		&::after {
+			top: 0;
+			box-shadow: none;
 		}
+		&::before {
+			transform: rotate(45deg);
+		}
+		&::after {
+			transform: rotate(-45deg);
+		}
+	}
+}
+
+.dropdown.open-menu {
+	.dropdown-content {
+		display: block;
 	}
 }

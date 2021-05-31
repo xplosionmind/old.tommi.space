@@ -17,7 +17,7 @@ redirect_from: ["/tutta-la-marmellata", "/tutta-marmellata", "/the-whole-jam", "
 	<div class="grid">
 		{% assign jam = site.notes | sort: 'updated' | reverse %}
 		{% for note in jam %}
-			<a href="{{ note.url }}" lang="{{ note.lang }}" title="{{ note.title }}">
+			<a href="{{ note.url }}" lang="{{ note.lang }}" hreflang="{{ note.lang }}" title="{{ note.title }}">
 				<div class="vertical flex box">
 					<h3>{{ note.title }}</h3>
 					{% if note.description %}
