@@ -1,6 +1,6 @@
 ---
 title: "Pages to archive"
-updated: 2021-02-04T12:28:59.166955+01:00
+updated: 2021-06-08T18:16:19.420774+02:00
 layout: none
 sitemap: false
 permalink: /pages-to-archive
@@ -11,7 +11,7 @@ description: "This is a basic page used as the reference for a cron job which ev
 	body {
 		background: #222;
 		color: #EEE;
-		font-family: -apple-system
+		font-family: Inter, -apple-system, sans-serif;
 	}
 	a {
 		color: #FCC920;
@@ -52,6 +52,14 @@ description: "This is a basic page used as the reference for a cron job which ev
 - https://quitsocialmedia.club/what
 - https://quitsocialmedia.club/solutions
 - https://quitsocialmedia.club/links
+
+<br>
+<br>
+
+## Scambi
+
+- https://scambi.org
+- https://scambi.org/blog
 
 <br>
 <br>

@@ -1,4 +1,6 @@
 name,url,title,description,os,opensource,price,uninstalled
+Plash,https://apps.apple.com/it/app/plash/id1494023538, on the App Store,make any website the desktop wallpaper,MacOS,1,,
+Shareful,https://apps.apple.com/it/app/shareful/id1522267256, on the App Store,Supercharge system share menu,MacOS,1,,
 haste,https://github.com/seejohnrun/haste-client, on GitHub,"terminal client for <a href=""https://paste.tommi.space"" target=""_blank"" title=""Tommi’s pastebin"">Haste</a>",terminal,1,,
 ncspot,https://github.com/hrkfdn/ncspot, on GitHub,"a terminal <a href=""https://spotify.com"" target=""_blank"" title=""Spotify"">Spotify</a> client",terminal,1,,
 Rustdesk,https://rustdesk.com,,"an open source <a href=""https://teamviewer.com"" target=""_blank"" title=""TeamViewer"">TeamViewer</a> alternative",MacOS,1,,

@@ -2,7 +2,7 @@
 title: "Abbandonare i Social Media"
 season: "1"
 episode: "2"
-audio: "https://cloud.tommi.space/s/QTiDGFbnkxoJGoK/download/S01E02.wav"
+audio: "https://assets.tommi.space/audio/S01E02.wav"
 length: "2138"
 permalink: /sconnesso/quitsocialmedia
 redirect_from: ["/sconnesso/qsm", "/sconnesso/abbandonare-i-social-media", "/sconnesso/abbandonare-i-social", "/sconnesso/abbandonare-social"]

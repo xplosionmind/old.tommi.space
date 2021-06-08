@@ -1,6 +1,6 @@
 ---
 date: 2021-04-12T10:51:23.688402+02:00
-updated: 2021-04-14T15:35:58.975480+02:00
+updated: 2021-06-08T12:21:53.526892+02:00
 tags: geek
 description: "Insights concerning the great LaTeX language"
 toc: false
@@ -23,6 +23,7 @@ My intentions are to <u>avoid LaTeX the most I can</u>. I love Markdown, it is s
 - <cite><a href="https://tobi.oetiker.ch/lshort/lshort.pdf"  target="_blank" title="The Not So Short Introduction to LATEX2ε">The Not So Short Introduction to LaTeX</a></cite>, by [Tobias Oetiker](https://tobi.oetiker.ch/hp/about/ "Tobias Oetiker - About")
 - [LearnLaTeX.org](https://www.learnlatex.org/en/ "Learn LaTeX")
 - [Learn X in Y minutes](https://learnxinyminutes.com/docs/latex/ "Learn latex in Y Minutes")
+- [[Vim]] integration: [*Neovim, LaTeX and Zathura in perfect harmony*](https://www.preciouschicken.com/blog/posts/neovim-latex-zathura-in-perfect-harmony/ 'Neovim, LaTeX and Zathura in perfect harmony')
 
 <br>
 <br>

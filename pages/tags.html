@@ -13,29 +13,35 @@ todo:
 		<div class="border box" style="border-color:{{ tag.color}}">
 			<h2 class="title">{{ tag.title }}</h2>
 			<p>{{ tag.description | markdownify }}</p>
+			{% capture tagg %}{{ tag.title | downcase | slugify }}{% endcapture %}
 			<ul class="three">
 				{% for note in site.notes %}
-					{% if note.tags contains tag.title %}
+					{% capture p-tag %}{{ note.tags | downcase | slugify }}{% endcapture %}
+					{% if p-tag contains tagg %}
 						<li><a href="{{ note.url }}" title="{{ note.title }}">{{ note.title }}</a></li>
 					{% endif %}
 				{% endfor %}
 				{% for ep in site.sconnesso %}
-					{% if ep.tags contains tag.title %}
+					{% capture p-tag %}{{ ep.tags | downcase | slugify }}{% endcapture %}
+					{% if p-tag contains tagg %}
 						<li>🎙 <a href="{{ ep.url }}" title="{{ ep.title }}">{{ ep.title }}</a></li>
 					{% endif %}
 				{% endfor %}
 				{% for art in site.filinge %}
-					{% if art.tags contains tag.title %}
+					{% capture p-tag %}{{ art.tags | downcase | slugify }}{% endcapture %}
+					{% if p-tag contains tagg %}
 						<li>💭 <a href="{{ art.url }}" title="{{ art.title }}">{{ art.title }}</a></li>
 					{% endif %}
 				{% endfor %}
 				{% for poem in site.poetry %}
-					{% if poem.tags contains tag.title %}
+					{% capture p-tag %}{{ poem.tags | downcase | slugify }}{% endcapture %}
+					{% if p-tag contains tagg %}
 						<li>🥴 <a href="{{ poem.url }}" title="{{ poem.title }}">{{ poem.title }}</a></li>
 					{% endif %}
 				{% endfor %}
 				{% for post in site.posts %}
-					{% if post.tags contains tag.title %}
+					{% capture p-tag %}{{ post.tags | downcase | slugify }}{% endcapture %}
+					{% if p-tag contains tagg %}
 						<li>📖 <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 					{% endif %}
 				{% endfor %}

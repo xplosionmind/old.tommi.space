@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-05-23T21:57:45.341086+02:00
+updated: 2021-06-08T19:08:58.392561+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -8,16 +8,6 @@ redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improve
 main: true
 description: "Creative and technical aims, ideas annotation and drafts tracking."
 ---
-<div class="red box">
-	<h3>⚠️ Problems 🔨</h3>
-	<ul>
-		<li>Full pages are displayed wrongly on mobile</li>
-	</ul>
-</div>
-
-<br>
-<br>
-
 ## Content
 
 ![[Writing#Website]]
@@ -26,8 +16,6 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 <br>
 
 ## Roadmap
-
-Items in the following list are <u>sorted by priority</u>. Thus, quick and easy features might be at the bottom but might also be the first ones to be implemented, while the ones at the top might be the most important, but they may require a longer time and harder work to be completed, so they'll be finished later.
 
 1. Configure and implement [[Indie Web]]
 	- Note in footer that this website supports Webmentions
@@ -41,40 +29,40 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork "jekyll-stork plugin")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
-2. Develop a [[Timeline development|timeline]]
-3. Restyle full pages
+1. Remove JavaScript
+	- [no JS responsive menu](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 'Responsive, Pure CSS Off-Canvas Hamburger Menu')
+	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle')
+2. [[Timeline development]]
+3. Add RSS feed of [[Internet Awesomeness]]
 4. [[The Jam]]: Preview a note when hovering on link
 5. [[The Jam]]: Notes graph
 6. Full width images in posts
-10. Movies list integration
-	- https://www.themoviedb.org/documentation/api/discover
-	- https://developers.themoviedb.org/3/getting-started/introduction
-	- https://developers.themoviedb.org/3/configuration/get-api-configuration
-	- https://developer.imdb.com/documentation/data-dictionary/names
-	- https://www.themoviedb.org/settings/api/new/form?type=developer
-12. [Tags](/tags):
-	- consider switching from a unique page list to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
-13. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
-14. Use typographic animations
+7. Movies list integration
+	- <https://www.themoviedb.org/documentation/api/discover>
+	- <https://developers.themoviedb.org/3/getting-started/introduction>
+	- <https://developers.themoviedb.org/3/configuration/get-api-configuration>
+	- <https://developer.imdb.com/documentation/data-dictionary/names>
+	- <https://www.themoviedb.org/settings/api/new/form?type=developer>
+8. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
+9. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
+10. Use typographic animations
 	- [AxisPraxis’ Zycon](https://www.axis-praxis.org/specimens/zycon "Zycon")
 	- [Anicons](https://typogram.github.io/Anicons/ "Anicons")
-15. Fetch images previews to complete external links and preferences
+11. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
-16. Give a consistent framework to all lists (use CSV data or markdown tables only)
-22. Study Blogger’s `<head>` to improve SEO
-17. Join WebRings
+12. Give a consistent framework to all lists [[CSVfy]]
+13. Study Blogger’s `<head>` to improve SEO
+14. Join WebRings
 	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub") ✅ 2021-05-25
 	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring")
-18. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
-19. Minimize JavaScript use
-	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw "How to  make a CSS-only theme toggle")
-20. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
-21. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
-24. Implement little cool JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-25. A script to check overlapping permalinks
-27. Improve CSS using `:is()`, see [MDN page](https://developer.mozilla.org/en-US/docs/Web/CSS/:is ":is on MDN")
-28. Make [[Permanent HTML]]
-29. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
+15. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
+17. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
+18. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
+19. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+20. A script to check overlapping permalinks
+22. Make [[Permanent HTML]]
+23. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
+1. Set a `.onion` address
 
 <ul>
 {% for p in site.pages %}
@@ -237,3 +225,4 @@ Items in the following list are <u>sorted by priority</u>. Thus, quick and easy 
 - Use more Emojis ✅ 2020.12.30
 
 [ActivityPub]: https://activitypub.rocks/ 'ActivityPub'
+[tags]: /tags 'The Tags Bible'

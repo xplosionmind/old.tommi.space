@@ -1,5 +1,5 @@
 ---
-updated: 2021-05-27T12:01:05.612756+02:00
+updated: 2021-06-02T11:18:05.550601+02:00
 tags: geek todo
 aliases: ["Geek stuff", "Geek stuff todo"]
 description: 'Computer related tasks tracking'
@@ -7,6 +7,7 @@ description: 'Computer related tasks tracking'
 4. [[Images]]
 3. Defining a threat model
 5. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
+1. Add to Wallabag from URL: `https://inputs.tommi.space/?action=add&url=ENCODED_URL`
 1. Movies data
 	- https://www.wikidata.org/wiki/Special:ApiSandbox
 	- https://www.mediawiki.org/wiki/API:Main_page
@@ -16,11 +17,10 @@ description: 'Computer related tasks tracking'
 	1. [iTerm](http://www.iterm2colorschemes.com/ "iTerm2 Color Schemes")
 	2. Neovim
 	3. Macvim
-	1. [Obsidian](https://github.com/Slowbad/obsidian-solarized/blob/master/obsidian.css)
 	- https://apas.gr/2018/11/dark-mode-macos-safari-iterm-vim/
 5. [[Scripts]]
+1. Set [.editorconfig](https://editorconfig.org/ 'editorconfig')
 1. [twtxt](https://twtxt.readthedocs.io/en/stable/ 'twtxt'), microblogging for hackers
-1. Switch to [Yunohost]
 6. [Integrate](https://github.com/cjeller1592/WriteFreely-API) noblogo.org / Writefreely with Jekyll
 7. [customize](https://writefreely.org/docs/latest/writer/css) noblogo.org / WriteFreely style
 8. [[Missing Knowledge#Geek stuff|Learning geek stuff]]
@@ -34,7 +34,6 @@ description: 'Computer related tasks tracking'
 	- **audios**: notes containing shared links of files in Cubbit?
 	- **images**: consider collecting shared links of albums in a private *[[Giri]]*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
 13. Physical notebooks log / timeline. Improve [[analog]] implementation
-14. Add links to Stallman in [[Quit and switch|Just quit]]
 15. Setup [Hype Machine](https://hypem.com)
 16. Update [[Android Apps]] and finalize [[Switch to LineageOS]]
 17. Create a CSS framework

@@ -601,7 +601,7 @@ time {
 	font-weight: 300;
 }
 
-:not(.landing) h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	transition: var(--quicktrans);
 	.anchor {
@@ -632,6 +632,7 @@ h1 {
 	font-size: var(--height);
 	&:hover {
 		transform: rotate(3deg);
+		text-shadow: none !important;
 	}
 }
 

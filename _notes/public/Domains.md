@@ -1,6 +1,6 @@
 ---
 date: 2020-10-27
-updated: 2021-05-28T20:10:44.318405+02:00
+updated: 2021-06-02T10:46:30.624256+02:00
 tags: geek/web idea
 redirect_from: ["/websites-ideas", "/philosophy-websites", "/lifestyle-websites", "/websites creation"]
 toc: false
@@ -25,18 +25,19 @@ description: "Cool domains ideas"
 	- [`rsseverywhe.re`](https://shop.gandi.net/en/domain/suggest?search=rsseverywhe.re)
 	- [`rsseverywhere.org`](https://shop.gandi.net/en/domain/suggest?search=rsseverywhere.org)
 
-- tommi.news
-- tommi.ph
-- tommi.photos
-- tommi.pictures
-- tommi.video
-- tommi.to
-- tommi.ma
-- tommi.media
-- tommi.blog
-- tommi.bo
-- tommi.work
-- tommi.help
-- tommi.studio
-- tommi.sh
-- tommi.guru
+- `tommi.news`
+- `tommi.ph`
+- `tommi.photos`
+- `tommi.pictures`
+- `tommi.video`
+- `tommi.to`
+- `tommi.ma`
+- `tommi.media`
+- `tommi.blog`
+- `tommi.bo`
+- `tommi.work`
+- `tommi.help`
+- `tommi.studio`
+- `tommi.sh`
+- `tommi.guru`
+- `tommi.stream` for microblogging
