@@ -3,13 +3,14 @@ _notes/private/
 _notes/university
 
 # Private data
-_data/private
+_data/private/
 
 # Obsidian
 _notes/templates
 
 # Notes graph metadata
 _includes/notes_graph.json
+*/graph-net-web.json
 
 # not shareable content
 copyrighted-content/

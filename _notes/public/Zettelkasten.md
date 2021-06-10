@@ -8,7 +8,7 @@ permalink: /zettelkasten
 redirect_from: ["/knowldege-management", "/data-management", "/digital-garden"]
 main: true
 ---
-Zettelkasten is a system for storing and accessing notes invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann "Niklas Luhmann on Wikipedia"). I'm very fascinated by its underlying philosophy and approach which I'd love to take advantage of, but I'm still learning and it will take quite a lot of time to fully commit to it.
+Zettelkasten is a system for storing and accessing notes invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann "Niklas Luhmann on Wikipedia"). I am very fascinated by its underlying philosophy and approach which I would love to take advantage of, but I am still learning and it will take quite a lot of time to fully commit to it.
 
 [A full article about the topic](/switch-to-zettelkasten "Switching to Zettelkasten")
 
