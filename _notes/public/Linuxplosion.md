@@ -102,14 +102,11 @@ sudo passwd -d `whoami`
 <br>
 <br>
 
-<br>
-<br>
-
 ## Software
 
 Software installed on Linuxplosion
 
-![[Linux apps]]
+![[Apps#Linuxplosion]]
 
 <br>
 <br>

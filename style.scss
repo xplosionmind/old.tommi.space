@@ -413,6 +413,15 @@ code {
 	border-radius: var(--radius-s);
 }
 
+.missing,
+.bug,
+.wtf {
+  padding: 2px 5px;
+  background: var(--red);
+  color: #FFF;
+  border-radius: var(--radius-s);
+}
+
 .cite {
 	text-align: right;
 	&::before {

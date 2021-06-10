@@ -1,6 +1,5 @@
 ---
 date: 2020-05-06
-updated: 2021-05-25T16:10:25.972109+02:00
 tags: geek/apps
 aliases: ["Software", "Digital Tools"]
 image: "/images/apps.png"
@@ -16,12 +15,15 @@ todo:
 {% assign androidapps = site.data.apps | where: "os", "Android" | sort: 'name' %}
 {% assign iosapps = site.data.apps | where: "os", "iOS" | sort: 'name' %}
 {% assign terminalapps = site.data.apps | where: "os", "terminal" | sort: 'name' %}
+{% assign linuxapps = site.data.apps | where: "os", "Linux" | sort: 'name' %}
 
 ## MacOS
 
 Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale=en_US&viewlocale=en_US "MacBook Pro 13\" 2019 tech specs"):
 
 <ul>{% for app in macosapps %}<li><a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}</li>{% endfor %}</ul>
+
+<br>
 
 ### Terminal
 
@@ -43,11 +45,21 @@ Apps installed on my [iPhone 12 mini](https://www.apple.com/it/iphone-12/ "iPhon
 
 Apps installed on my [OnePlus 6T](https://www.oneplus.com/6t "OnePlus &T") running ~~[Oxygen OS](https://www.oneplus.com/oxygenos "OxygenOS on OnePlus’ website")~~ [[Switch to LineageOS|LineageOS]].
 
-<ul>{% for app in androidapps %}<li>
-			<a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}
-		</li>
-	{% endfor %}
-</ul>
+<div class='yellow box'>
+	<h3>Note</h3>
+	My main phone is now an iPhone 12 mini. My OnePlus 6T comfortably sits in a drawer sadly I will not be opening for a while.
+</div>
+
+<ul>{% for app in androidapps %}<li><a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}</li>{% endfor %}</ul>
+
+<br>
+<br>
+
+## Linuxplosion
+
+Apps which I have installed on my beloved [[Linuxplosion]].
+
+<ul>{% for app in linuxapps %}<li><a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}</li>{% endfor %}</ul>
 
 <br>
 <br>
@@ -88,7 +100,7 @@ Apps which are not installed but it is worth remembering or testing in the futur
 - [World Scribe](https://github.com/MarquisLP/World-Scribe "World Scribe"), an Android app for fictional world-building 
 - [OPAC App](https://opac.app/ "OPAC App"), Android app to access libraries catalogs around the world (not in use since the ones I frequent are not supported)
 - [Timeline](http://thetimelineproj.sourceforge.net/ "Timeline"), a timeline manager, for Linux and Windows only
-- [Timelines](https://timelines.app/ "Timelines App"), an iOS only app for time tracking. It is incredibly similar to my concept of [[Timeline development|Timeline]], but it has a pro subscription.
+- [Timelines](https://timelines.app/ "Timelines App"), an iOS only app for time tracking. It is incredibly similar to my concept of [[Timeline development|Timeline]], but it has a pro subscription which is not worth it.
 - [pass](https://www.passwordstore.org/ "pass - the standard unix password manager"), the standard Unix password manager
 - [Knil](https://apps.apple.com/app/knil-universal-link-testing/id1195310358 "Knil on Apple App Store"), universal link testing
 - [Regex](https://motionobj.com/regex/ "Regex"), to test Regex expressions. It costs 30€

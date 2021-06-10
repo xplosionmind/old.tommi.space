@@ -1,15 +1,20 @@
 ---
 date: 2020-10-27
-updated: 2020-10-27
-tags: zen wip
+updated: 2021-06-10T19:49:19.212728+02:00
+tags: zen
 redirect_from: ["/time", "/time-management", "/moduli"]
-description: "I get distracted very easily, an my mind goes from a topic to a totally different one in no time. While this can be a great quality to be creative (not so much, in the end), it's a very stressful, time-consuming and unproductive lifestyle. This is why I conceived slots."
+toc: false
+description: |
+  I get distracted very easily, an my mind goes from a topic to a totally different one in no time. While this can be a great quality to be creative (not so much, in the end), it is a very stressful, time-consuming and unproductive lifestyle. This is why I conceived slots.
 ---
-Slots are simply **time slots**: half or full hours which I totally dedicate to something. If a new, different thing pops up in my mind, I write it down to remember it, but I get to it only when it's the time to commit to the related slot.
+Slots are simply **time slots**: half or full hours which I devote to something. If a new idea —not strictly related to what I am doing— pops up in my mind, I write it down to remember it, but I get to it only when it is the time to commit to the related slot. Nevertheless, this way of working poses a dilemma: [where would my distraction go if I was capable of focusing?](/distrazione 'Sconnesso: Dove andrebbe la mia distrazione se mi concentrassi?'). Furthermore, this is an ideal lifestyle, but definitely far from my actual way of living; I am trying to compromise and both develop and approach to this method slowly and carefully.
 
-The Slot Philosophy is awesome because slots can be rearranged everyday, and their accomplishment can be tracked through [[Self tracking]] apps such as [Loop Habit Tracker](https://loophabits.org "Loop Habits official website") (which is the one I use).
+***The Slot Philosophy*** is awesome because each slot can be rearranged everyday, and its accomplishment can be tracked through [[Self tracking]] apps such as [Loop Habit Tracker](https://loophabits.org "Loop Habits official website") (which is the one I use).
 
-## My Slots
+<br>
+<br>
+
+## Slots Samples
 
 - `.5` internet awesomeness
 - `1` content creation
@@ -20,3 +25,11 @@ The Slot Philosophy is awesome because slots can be rearranged everyday, and the
 	- listening to music while focusing on words
 - `.5-.8` Physical
 - `.5` wandering (free the mind)
+
+<br>
+<br>
+
+## Tools
+
+- [Timelines](https://timelines.app/ 'Timelines App'), an iOS only app for time tracking. It is incredibly similar to my concept of [[Timeline development|Timeline]], but it has a pro subscription which is not worth it.
+- [Monofocus](https://monofocus.app/ 'Monofocus'), setting WIP short-term tasks and get periodical reminders to focus specifically on one single task only

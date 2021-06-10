@@ -1,6 +1,6 @@
 ---
 date: 2020-12-19
-updated: 2021-03-14T16:39:11.951083+01:00
+updated: 2021-06-10T20:39:55.283667+02:00
 tags: photography idea wip
 toc: false
 todo:
@@ -8,15 +8,8 @@ todo:
   - "create a photo gallery as with Living Art"
 description: 'Monthly pictures of my desk, wherever I am'
 ---
-Since the beginning of 2019, I've been shooting every 27 days at 12:11 PM my desk, without cleaning or uncluttering it. I'd just shoot a picture of how my desk is at a given moment.
+Since the beginning of 2019, every 27 days at 12:11 PM I have been taking a picture of my desk, without cleaning or uncluttering it. I would just shoot a picture of how my desk is at that specific moment.
 
-Here I note all the explanations I give about this apparently nonsense and out of the blue decision, before maybe writing an article about it.
+All of the pictures are in [Desk logging]
 
-<br>
-<br>
-
-## explanation
-
-I've always been one of those people who's never satisfied about how their room is
-
-Every 27 days, no matter what, at exactly 12:11 PM I'll have to take my camera and shoot a photo of my desk. No matter what's on it or how is it. Just to immortalize my main life companion in that moment.
+[Desk logging]: https://images.tommi.space/index?/category/desk 'Desk Logging pictures'

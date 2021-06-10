@@ -34,4 +34,4 @@ toc: false
 <br>
 <br>
 
-More info on how I manage my location data in the [[OpenStreetMap]] page.
+More info on how I manage my location data in the [[OpenStreetMap]] page, while in [[Travel|Travelling]] I collect some notes of useful resources and tips.

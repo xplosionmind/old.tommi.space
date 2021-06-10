@@ -30,12 +30,13 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
 1. Remove JavaScript
-	- [no JS responsive menu](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 'Responsive, Pure CSS Off-Canvas Hamburger Menu')
+	- CSS only [responsive menu](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 'Responsive, Pure CSS Off-Canvas Hamburger Menu')
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle')
+1. Check if HTML minification is working
 2. [[Timeline development]]
 3. Add RSS feed of [[Internet Awesomeness]]
+5. [[The Jam]]: [Notes graph](https://github.com/manunamz/jekyll-wikilinks) visualization
 4. [[The Jam]]: Preview a note when hovering on link
-5. [[The Jam]]: Notes graph
 6. Full width images in posts
 7. Movies list integration
 	- <https://www.themoviedb.org/documentation/api/discover>

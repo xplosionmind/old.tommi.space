@@ -1,10 +1,12 @@
 ---
 date: 2020-12-09
-updated: 2021-03-29T05:30:17.414403+02:00
+updated: 2021-06-10T20:02:41.247165+02:00
 tags: knowledge todo
 aliases: ["Learn", "To learn"]
 description: "What I need / have / would love to learn"
 redirect_from: ["/learn", "/to-learn", "/tolearn", "/missingknowledge", "/learning", "/learning-path"]
+todo:
+  - 'Refactoring and integration with [[Knowledge]] and [[Knowledge management]]'
 ---
 Actually, I do not need to learn these things only, but here I note the main things that sooner or later will make me sit down and bingewatch tutorials on the argument to get a deep understanding of the concept, in order to make use of it in the best possible way. As you can see, it's mainly [geek](/tags#geek "Geek tag page")-related stuff, which is the easier to keep track of.
 
@@ -32,6 +34,7 @@ A private list of knowledge I miss about exams I am studying for.
 - Limits to Growth 1972 and 2004
 - US Presidential timeline
 - Israel history
+- [[2018-05-26 Madonna del Buon Consiglio|Madonna del Buon Consiglio]]
 
 <br>
 <br>
@@ -62,3 +65,10 @@ A private list of knowledge I miss about exams I am studying for.
 12. in-depth CSS learning
 	- [Tania Rascia](https://taniarascia.com)'s [Overview of CSS concepts](https://www.taniarascia.com/overview-of-css-concepts/)
 23. [Learn EQ](https://youtu.be/e4C5DxOepsM)
+
+<br>
+<br>
+
+## Music
+
+![[Music#Learning]]

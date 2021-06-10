@@ -4,10 +4,8 @@ updated: 2021-02-21T14:14:25.301091+01:00
 tags: music
 main: true
 description: "Insights about music when made, played, or listened"
-todo:
-  - 'Embed Spotify playlists'
 ---
-The music I listen to is in my [[Playlists|playlists]].
+The music I listen to is in [[Xplosion Music]].
 
 <br>
 <br>
@@ -19,9 +17,9 @@ The music I listen to is in my [[Playlists|playlists]].
 <br>
 <br>
 
-## Learn
+## Learning
 
-- https://www.rollingstone.com/music/music-lists/best-albums-of-all-time-1062063/
+- [The Best Albums of all Time](https://www.rollingstone.com/music/music-lists/best-albums-of-all-time-1062063/ "The Best Albums of all Time"), according to [Rolling Stone]
 
 <br>
 <br>
@@ -30,3 +28,5 @@ The music I listen to is in my [[Playlists|playlists]].
 
 - [[Music idea due]]
 - [[Idea musicale]]
+
+[Rolling Stone]: https://www.rollingstone.com/ 'Rolling Stone'

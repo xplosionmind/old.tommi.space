@@ -1,7 +1,7 @@
 ---
 date: 2020-02-04
 updated: 2021-05-09T15:46:57.897676+02:00
-tags: log
+tags: log csvfy
 aliases: ["Cose extended", "Tutte le cose", "Stuff extended", "Di tutto e di più", "Done", "Fatto"]
 lang: it
 redirect_from: ["/tuttopiu", "/cose-extended", "/stuff-extended", "/stuff-extended-it", "/stuff-extended/it", "/it/stuff-extended", "/everything", "/done", "/fatto", "/fatte"]
@@ -18,6 +18,35 @@ Dato che, per mia natura, sono una trottola che gira ovunque per fare tante (tro
 Alcuni link fra i seguenti potrebbero essere protetti da password oppure non aggiornati. Se aveste bisogno di accedere a immagini private, <a class="u-email" href="mailto:{{ site.email | encode_email }}" rel="me" title="Scrivimi un'email">scrivetemi</a>.
 </div>
 
+{% comment %}
+<ul>
+	{% for cosa in site.data.tutto %}
+		<li>
+			{% if cosa.start %}
+				Da {{ cosa.start | date_to_string }} a {{ cosa.end | date_to_string }}, 
+			{% else %}
+				{{ cosa.end | date_to_string }}, 
+			{% endif %}
+			{% if cosa.url %}
+				<a href="{{ cosa.url }}" target="_blank" title="{{ cosa.title }}">{{ cosa.title }}</a>, 
+			{% else %}
+				{{ cosa.title }}, 
+			{% endif %}
+			{% if cosa.lat %}
+				<a href="https://openstreetmap.org?mlat={{ cosa.lat }}&mlon={{ cosa.lon }}&zoom=18" target="_blank" title="{{ cosa.location }} su OpenStreetMap">{{ cosa.location }}</a>
+			{% else %}
+				{{ cosa.location }}
+			{% endif %}
+			{% if cosa.notes %}
+				 — {{ cosa.notes }}
+			{% endif %}
+			{% if cosa.data %}
+				<br />risorse: {{ cosa.data }}
+			{% endif %}
+		</li>
+	{% endfor %}
+</ul>
+{% endcomment %}
 <br>
 
 ## Concertini

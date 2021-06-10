@@ -1,0 +1,29 @@
+---
+date: 2020-06-06
+lang: it
+toc: false
+description: "Leggo e sento tante perole belle (oppure brutte ma con un gran significato) e ho paura di perderle, perciò le annoto qui."
+aliases: ["Words"]
+redirect_from: ["/words"]
+todo:
+  - '<b class="wtf">bug</b>: custom url not working'
+---
+<ul class="two">
+	{% for p in site.data.parole %}
+		<li>
+			{{ p.date | date_to_long_string }} 
+			{% if p.url != "" %}
+				{% if p.lang == 'it' %}
+					<a href="https://www.treccani.it/vocabolario/{{ p.word | url_encode }}" target="_blank" title="“{{ p.word }}” nel vocabolario Treccani">{{ p.word }}</a>
+				{% elsif p.lang == 'en' %}
+					<a href="https://www.merriam-webster.com/dictionary/{{ p.word | url_encode }}" target="_blank" title="“{{ p.word }}” on Merriam-Webster dictionary">{{ p.word }}</a>
+				{% else %}
+					{{ p.word }}
+				{% endif %}
+			{% else %}
+				<a href="{{ p.url }}" target="_blank" title="{{ p.word }}">{{ p.word }}</a>
+			{% endif %}
+			{{ p.note }}
+		</li>
+	{% endfor %}
+</ul>
