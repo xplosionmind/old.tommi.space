@@ -1,19 +1,39 @@
 ---
 date: 2020-06-10
-updated: 2021-02-27T16:24:17.190992+01:00
-tag: quote
+updated: 2021-06-11T13:17:08.726918+02:00
+tag: quote csvfy
 toc: false
 description: 'Some are from celebrities, some were pronounced by friends of mine and may have no meaning to the public, in realtà sono quasi tutte in italiano dunque non ha senso che scriva la descrizione in inglese.'
-redirect_from: ["cit", "/citazioni"]
+redirect_from: ['cit', '/citazioni']
 main: true
 todo:
-  - "This file is getting too long! Solutions?"
+  - 'continue transcribing to <code>_data/quotes.csv</code>'
 ---
 <style>
 	.cite {
 		margin-bottom: var(--mastodon);
 	}
 </style>
+{% assign quotes = site.data.quotes | sort: 'date' | reverse %}
+{% for q in quotes %}
+<p class="date">{{ q.date | date_to_long_string }}</p>
+<blockquote lang='{{ q.lang }}'>
+	<p>{{ q.quote }}</p>
+</blockquote>
+<p class="cite">
+	{% if q.work %}
+		{% if q.url %}
+			<cite>{{ q.author }}, <a href="{{ q.url }}" hreflang="{{ q.lang }}" target="_blank" title="{{ p.work }}">{{ p.work }}</a></cite>
+		{% endif %} 
+	{% else %}
+		{{ q.author }}, <cite>{{ p.work }}</cite>
+	{% endif %}
+	{{ q.note }}
+</p>
+<br />
+<br />
+{% endfor %}
+
 > mal cammina qual si fa danno del ben fare altrui
 
 <p class="cite">Dante, Paradiso VI, vv. 131-132</p>
@@ -88,7 +108,7 @@ sempre!
 
 > I read in self-defense
 
-Woody Allen
+<p class="cite">Woody Allen</p>
 
 <br />
 <br />
@@ -603,3 +623,4 @@ Woody Allen
 
 <br>
 <br>
+

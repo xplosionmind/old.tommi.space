@@ -388,7 +388,7 @@ hr {
 
 pre,
 code {
-	font: 400 1.05em var(--font-mono);
+	font: 400 1em var(--font-mono);
 	line-height: 1.2em;
 	background: var(--black-ish);
 	color: #FFF;
@@ -640,7 +640,7 @@ h1 {
 	text-align: center;
 	font-size: var(--height);
 	&:hover {
-		transform: rotate(3deg);
+		transform: rotate(-3deg);
 		text-shadow: none !important;
 	}
 }

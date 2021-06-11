@@ -7,6 +7,7 @@ location: 'Xplosion Attic'
 toc: false
 lang: it
 image: 'https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115115209-67743c90-me.jpg'
+main: true
 ---
 Sin da quando avevo 10 anni sognavo di trasferire la mia cameretta nella soffitta della mia casa a Riva Ligure, dove sono cresciuto.  Riuscii a convincere i miei genitori ad appena 16 anni, mentre solamente nel *lockdown* del fui in grado di trasformarla in uno spazio veramente **mio**, costruendo le mie amate *[[Gianna]]* e *[[Aida]]*.
 

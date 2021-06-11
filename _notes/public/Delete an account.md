@@ -1,31 +1,31 @@
 ---
 date: 2020-08-05
-updated: 2021-05-25T23:32:24.937523+02:00
-tags: geek qsm
+updated: 2021-06-11T12:10:33.420411+02:00
+tags: geek/free
 permalink: /delete
 redirect_from: ["/delete-account", "/GDPR-claim", "/claim-GDPR", "/just-delete-it", "/just-deleteit", "/quit", "/GDPR-delete"]
 description: 'Deleting an account from an online service'
 ---
 The quickest way to delete an account is to just click on the “delete account” button. There are two problems, though:
-1. often, <strong>there’s no button</strong>
-2. if there is, it’s hidden somewhere in the most remote corners of the settings.
+1. often, <strong>there is no button</strong>
+2. if there is, it is hidden somewhere in the most remote corners of the settings.
 
-Below, I show how I attempt to solve both of them. There is a procedure to also request a copy of all the account data.
+Below, I reported how I attempt to overcome this itchy obstacles.
 
 <br>
 <br>
 
 ## Base knowledge
 
-To get this itchy thing done in the quickest and most painless way possible, just [go here](https://justdeleteme.xyz/). If you can’t find the service you wanna get rid of on that wonderful website, though, the process gets more tricky and annoying.
+To get this itchy thing done in the quickest and most painless way possible, just [go here](https://justdeleteme.xyz/ 'Just Delete Me'). If you can’t find the service you wanna get rid of on that wonderful website, though, the process gets more tricky and annoying.
 
-Firstly, you gotta find the Privacy Policy page of the provider and look for an email address that looks like `privacy@<nameoftheprovider>.com`. Secondly, you have to write to this address the message which follows, claiming our [GDPR rights](https://gdpr-info.eu/).
+Firstly, you gotta find the Privacy Policy page of the provider and look for an email address that looks like `privacy@<nameoftheprovider>.com`. Secondly, you have to write to this address the message which follows, claiming our [GDPR rights](https://gdpr-info.eu/ 'Information on GDPR').
 
 There are two possible templates: one if you don’t care to recover your data and activity from the account, and one if you want to request portability (which means asking to get all the things they have about you), too.
 
 ### Documentation
 
-- [Fac-simile Garante Privacy](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/2014184), for Italy, in Italian
+- [Fac-simile Garante Privacy](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/2014184 'Documento del Garante della Privacy'), for Italy, in Italian
 
 <br>
 <br>

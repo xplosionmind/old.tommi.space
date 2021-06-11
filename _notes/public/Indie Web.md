@@ -8,7 +8,7 @@ redirect_from: ["/webmentions", "/indiewebify"]
 toc: false
 ---
 <div>
-	I'm still trying to figure out what the Indie Web actually is and how it works. In the meanwhile, I collect useful links below
+	I am still trying to figure out what the Indie Web actually is, how it works, and how to <i>make</i> it work. In the meanwhile, I am collecting below useful learning resources about it.
 </div>
 
 <br>
@@ -17,6 +17,8 @@ toc: false
 ## About
 
 [IndieWeb](https://indieweb.org "What is IndieWeb?") official website
+
+<br>
 
 ### Readings
 
@@ -38,7 +40,6 @@ toc: false
 - Setup [Bridgy](https://brid.gy/ "Bridgy"), to connect your web site to social media.
 - Setup [twtxt](https://github.com/buckket/twtxt "twtxt source code on GitHub"), a decentralised, minimalist microblogging service for hackers.
 - [jekyll-webmention](https://github.com/aarongustafson/jekyll-webmention_io/ "jekyll-webmention_io on GitHub") plugin
-- https://hugo.md/post/add-webmentions-to-hugo-from-micro-blog/
 
 <br>
 <br>

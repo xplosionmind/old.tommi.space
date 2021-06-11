@@ -5,11 +5,17 @@ tags: draft music
 aliases: "Playlist"
 description: "Soundtracks of my life. The songs which marked my existence and made me who I am."
 redirect_from: ["/canzoni", "/songs", "/playlist", "/playlists"]
+image: '/images/tommis-head-exploding.png'
 todo:
   - find a way to sync playlists and contents
   - write meaning, reasons and explanations for every song
 main: true
 ---
+
+[Classical Xplosion]: https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6 'Classical Xplosion on Spotify'
+[metamusic]: https://open.spotify.com/playlist/5I1sC0lvlsVTlh5jy12bms 'metamusic on Spotify'
+[Xplosion Music Extended]: https://open.spotify.com/playlist/2LLtQtDGNCIEe9tBMuVNg0 'Xplosion Music Extended on Spotify'
+
 <div class="row">
 	<div class="half column">
 		<div class="embed-container" style="height:600px">
@@ -35,10 +41,8 @@ main: true
 
 ## Others
 
-Other relevant playlists I made:
-- *[[Xplosion Music]]* is the soundtrack of my existence (even if my life is not a movie and I am not [Truman Burbank](https://en.wikipedia.org/wiki/The_Truman_Show "The Truman Show on Wiipedia")).
-- *[[Classical Xplosion]]*, an explosion of classical music which makes me jump around graciously and move vehemently in the peaks of power (I cannot dance).
-- *[[Metamusic]]*, music that talks about music.
+- *[Classical Xplosion]*, an explosion of classical music which makes me jump around graciously and move vehemently in the peaks of power (I cannot dance).
+- *[metamusic]*, music that talks about music.
 
 <br>
 
@@ -48,7 +52,7 @@ Other relevant playlists I made:
 
 I decided, with a lot of struggle, to narrow down the selection to <u>only one song for every artist</u>, with very few special exceptions. I did it because I really wanted to identify the music which changed my life in some way or mark a milestone in my growth and evolution.
 
-Nevertheless, since I could never give up some songs which I love but there is no reason strong enough for them to be in my life’s soundtrack, I maintain <cite>Xplosion Music Extended</cite>, which has a broader selection of music that is there for no special reason.
+Nevertheless, since I could never give up some songs which I love but there is no reason strong enough for them to be in my life’s soundtrack, I maintain *[Xplosion Music Extended]*, which has a broader selection of music that is there for no special reason.
 
 Since I could never choose a song over another, the following list follows the alphabetical order of the artist’s name.
 

@@ -1,0 +1,15 @@
+---
+date: 2020-12-20
+updated: 2021-06-11T12:23:25.229993+02:00
+tags: geek
+permalink: /deleted
+redirect_from: ['/deleted-profiles']
+description: 'A list archived links to profiles which I deleted.'
+---
+Links to archived versions of online profiles or accounts I deleted:
+
+<ul>
+	{% for a in site.data.deleted %}
+		<li><a href="{{ a.url }}" target="_blank" title="{{ a.name }}">{{ a.name }}</a>{% if a.note %}, {{ a.note }}{% endif %} — deleted on {{ a.date | date_to_long_string }}</li>
+	{% endfor %}
+</ul>

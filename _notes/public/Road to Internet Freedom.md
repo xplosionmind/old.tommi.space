@@ -1,12 +1,11 @@
 ---
 date: 2020-12-10
 updated: 2021-05-28T22:26:36.932658+02:00
-tags: geek qsm
+tags: geek/free
 aliases: 'My personal roadmap towards an ever growing freedom and awareness in using digital tools'
 toc: false
 ---
 1. ✅ [**<cite>Quit Social Media</cite>**](https://quitsocialmedia.club/roadmap "Quit Social Media roadmap")
-1. 
 1. 🏗 [[Quit and switch]]
 1. Check policies, usage terms, privacy conditions of all the tools and services in use
 1. ✅ [[RSSify]]

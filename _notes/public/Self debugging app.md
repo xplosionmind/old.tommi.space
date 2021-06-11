@@ -1,8 +1,8 @@
 ---
 date: 2020-12-12
-updated: 2020-12-12
-tags: idea geek/idea
-description: "A script which poses you questions to debug you"
+updated: 2021-06-11T06:54:28.843782+02:00
+tags: geek/idea
+description: 'A script which poses you questions to debug you'
 toc: false
 ---
-Something in between [ELIZA AI](http://www.med-ai.com/models/eliza.html "ELIZA is a computer program that emulates a Rogerian psychotherapist") and the [[Self debugging]] method.
+A script which poses you questions to debug you: something similar to [ELIZA AI](http://www.med-ai.com/models/eliza.html "ELIZA is a computer program that emulates a Rogerian psychotherapist") to practice [[Self debugging]].

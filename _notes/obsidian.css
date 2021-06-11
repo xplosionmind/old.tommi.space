@@ -145,11 +145,6 @@ li {
 	text-decoration: none;
 }
 
-hr {
-	color: transparent;
-	border-top: 5px dotted var(--grey) !important;
-}
-
 .markdown-preview-view .internal-link:hover {
 	border-bottom: dashed 2px var(--blue);
 }

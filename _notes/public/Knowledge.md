@@ -39,6 +39,7 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [Project-based learning](https://github.com/tuvtran/project-based-learning "project-based-learning on GitHub")
 - [Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners "Web Development for Beginners on GitHub") by Microsoft
 - [SSH tunnels](https://robotmoon.com/ssh-tunnels/ "A visual guide to SSH tunnels"), a visual guide to SSH tunnels
+- [coding-interview-university](https://github.com/jwasham/coding-interview-university 'coding-interview-university on GitHub'), <q>A complete computer science study plan to become a software engineer</q>.
 
 <br>
 

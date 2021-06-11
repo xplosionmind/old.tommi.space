@@ -1,7 +1,7 @@
 ---
 date: 2021-01-09
 updated: 2021-03-15T16:43:06.449510+01:00
-tags: geek qsm
+tags: geek
 aliases: ["Quitting Mailchimp", "Switch to Mailtrain"]
 description: "Thoughts and decisions about quitting Mailchimp"
 permalink: /quit-mailchimp
@@ -19,13 +19,13 @@ redirect_from: ["/mailchimp", "/quitting-mailchimp", "/mailtrain"]
 ### Self hosted
 
 - [Mailtrain](https://mailtrain.org "Mailtrain")
-- [listmonk](https://listmonk.app "listmonk") (still in beta) 
+- [listmonk](https://listmonk.app "listmonk")
 
 <br>
 
 ### Ad interim
 
-Viable *ad interim* solutions if somebody has the same hard time as me in setting up Mailtrain
+Viable *ad interim* solutions if somebody has the same hard time as me in setting up Mailtrain.
 
 - [Buttondown](https://buttondown.email "Buttondown") (if you subscribe now, you will subscribe through it)
 

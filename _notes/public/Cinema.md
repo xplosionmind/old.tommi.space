@@ -1,59 +1,40 @@
 ---
 date: 2020-06-10
-updated: 2021-01-17T0935:48.888963+01:00
+updated: 2021-06-11T10:06:34.135297+02:00
 tags: cinema wip csvfy
 aliases: ["Movies"]
-description: "After watching these movies and series, I wasn’t the same anymore."
+description: "After watching these movies and series, I was not the same anymore."
 redirect_from: ["/movies", "/film", "/films"]
 main: true
+toc: false
 todo:
   - "Integrate with a CSV data file with all movies"
 ---
-[This list](https://www.themoviedb.org/list/7072508 "“The Best„ on The Movie Database") on [*The Movie Database*](https://themoviedb.org "The Movie Database")
+## <cite lang="it">Santa Maradona</cite>
 
-## <cite>Santa Maradona</cite>
+<p lang="it">Santa Maradona è il mio film preferito.<br />
+Tutto il mio amore per questo film è in “[[Santa Maradona]]„</p>
 
-Tutto il mio amore per questo film è in “[[Santa Maradona]]„
+## Favorites
 
-<br>
-<br>
+A quick list of all of my favorite movies
 
-## *Radiofreccia*
-
-<br>
-<br>
-
-## *La La Land*
-
-<br>
-<br>
-
-## *The Fast and the Furious: Tokyo Drift*
-
-<br>
-<br>
-
-## *The Blues Brothers*
-
-<br>
-<br>
-
-## *Moonrise Kingdom*
-
-<br>
-<br>
-
-- *Friends*
-- *Captain Fantastic*
-- *The School of Rock*
-- *Manhattan*
-- *Perfetti Sconosciuti*
-- *The Truman Show*
-- *The Incredibles*
-- *Whiplash*
-- *The Boat That Rocked*
-- *Ocean's Eleven*
-- *Charlie and the Chocolate Factory*
+- <cite>Radiofreccia</cite>
+- <cite>La La Land</cite>
+- <cite>The Fast and the Furious: Tokyo Drift</cite>
+- <cite>The Blues Brothers</cite>
+- <cite>Moonrise Kingdom</cite>
+- <cite>Friends</cite>
+- <cite>Captain Fantastic</cite>
+- <cite>The School of Rock</cite>
+- <cite>Manhattan</cite>
+- <cite>Perfetti Sconosciuti</cite>
+- <cite>The Truman Show</cite>
+- <cite>The Incredibles</cite>
+- <cite>Whiplash</cite>
+- <cite>The Boat That Rocked</cite>
+- <cite>Ocean's Eleven</cite>
+- <cite>Charlie and the Chocolate Factory</cite>
 
 <br>
 <br>

@@ -1,0 +1,15 @@
+---
+date: 2021-03-28T19:18:34.334561+02:00
+updated: 2021-03-28T19:18:34.334561+02:00
+permalink: /tommi-uguale
+aliases: ["Tommi =", "Tommi Uguale"]
+toc: false
+description: "Tommi =?"
+lang: it
+---
+{% for p in site.data.tommi-uguale %}
+	<h2>{{ p.name }}</h2>
+	<figure>
+		<img src="{{ p.image }}" title="Tommi come {{ p.name }}" alt="{{ p.description }}">
+	</figure>
+{% endfor %}

@@ -1,10 +1,11 @@
 ---
 date: 2020-05-07
-updated: 2021-04-15T16:15:29.756906+02:00
+updated: 2021-06-11T09:44:14.085935+02:00
 tags: geek
 aliases: ["Cheat Sheet"]
 description: "I use tech devices a lot, maybe too much, but I do not dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
 redirect_from: ["/cheatsheet", "/cheatsheets", "/cheat-sheet"]
+image: '/images/terminal.png'
 ---
 ![[Hotkeys]]
 
@@ -48,7 +49,7 @@ A quick for loop
 for f in *.txt; do pandoc "$f" -s -o "${f%.txt}.rtf"; done
 ```
 
-watch <cite>Star Wars - A New Hope</cite> in ASCII (not a joke)
+watch <cite><a href="https://en.wikipedia.org/wiki/Star_Wars_(film)" target="_blank" title="“Star Wars” on Wikipedia">Star Wars - A New Hope</a></cite> in ASCII (not a joke)
 ```sh
 nc towel.blinkenlights.nl 23
 ```
@@ -150,104 +151,3 @@ See [HTML Proofer \> Configuration](https://github.com/gjtorikian/html-proofer#c
 <br>
 
 ![[Server Setup#Nextcloud Cheat Sheet]]
-
-<br>
-<br>
-
-## Docker
-
-<br>
-
-### Notes
-
-- Every docker container has an IP assigned by default
-- by default, docker doesn't assign a terminal to a container when it's run
-- Docker has a built-in DNS serves that allows containers to resolve each other
-	- DNS server runs at `127.0.0.11`
-
-<br>
-
-to list all running containers
-
-```sh
-docker ps
-```
-
-to list running and non-running containers
-
-```sh
-docker ps -a
-```
-
-to list all the details about a container
-
-```sh
-docker inspect some-container
-```
-
-to see all the logs of a container running in a background
-
-```sh
-docker logs some-container
-```
-
-<br>
-
-### Run
-
-```
-docker run some-image
-```
-
-- add `-d` to
-- add `-it` to run an image in an interactive way
-	- add `-i` to check for input
-	- add `-t` to prompt on terminal
-- `-p 80:5000` port-where-user-access:port-of-docker-container
-- to store data in an external directory `docker run -v /opt/daradir:/var/lib/some-app some-app`
-- `-e ENVIRONMENT_VARIABLE=VARIABLE some-app` to change an environment variable
-
-<br>
-
-### Networks
-
-To find which network you're in, use the `inspect` command
-
-<br>
-
-**`bridge`**:
-
-private and internal network
-
-<br>
-
-**`none`**:
-
-no attachment to any network
-
-```
-docker run some-app --network=none
-```
-
-<br>
-
-**`host`**:
-
-to access from the web
-
-```
-docker run some-app --network=host
-```
-
-<br>
-<br>
-
-### Storage
-
-Docker files are in `/var/lib/docker`
-
-<br>
-
-### Questions
-
-- how can I know the Docker Host IP address?

@@ -4,9 +4,9 @@ tags: geek todo
 aliases: ["Geek stuff", "Geek stuff todo"]
 description: 'Computer related tasks tracking'
 ---
-4. [[Images]]
-3. Defining a threat model
-5. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
+1. [[Images]]
+1. Defining a threat model
+1. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 1. Add to Wallabag from URL: `https://inputs.tommi.space/?action=add&url=ENCODED_URL`
 1. Movies data
 	- https://www.wikidata.org/wiki/Special:ApiSandbox

@@ -1,6 +1,6 @@
 ---
 date: 2020-11-10
-updated: 2020-01-03
+updated: 2021-06-11T08:17:38.760759+02:00
 tags: zen
 redirect_from: ["/routine", "/habits"]
 toc: false
@@ -17,10 +17,10 @@ Below are the ones I set to myself.
 - from June 2016, [turning off all push notifications](https://www.wired.com/story/turn-off-your-push-notifications/ "“Turn off your Push Notifications” on Wired"), except alarms and reminders
 	- you don't actually miss any message
 	- you can leave internet and everything turned on, nothing will distract you unless really important and worth your immediate attention
-- from 9<sup>th</sup> November 2020, never use my laptop while in bed, except to watch movies or series
-- by the end of 2020, stop sending voice notes longer than 30-45 seconds
-	- Either write or call. It's way better, most of the time.
-	- communications becomes stressful: if I record long audios, obviously I need to listen to them… and they pile up. This is not good nor healthy.
+- from 9<sup>th</sup> November 2020, never use my laptop while in bed, except to watch movies
+- by the end of 2020, stop sending voice notes longer than 45 seconds
+	- Either write or call.
+	- communications become stressful: if I record long audios, obviously I need to listen to them… and they pile up. This is not good nor healthy.
 - by the end of 2020, [quit Social Media](https://quitsocialmedia.club "Quit Social Media")
 
 <br>

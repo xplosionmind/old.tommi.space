@@ -6,11 +6,11 @@ permalink: /bugs
 redirect_from: ["/feature-requests", "/bugs-and-feature-requests"]
 description: "Bugs and Feature requests for the apps I use"
 ---
-The [[Apps]] I use the most are open source software in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I’ll find enough time to effectively share my reports.
+The [[Apps]] I use the most are open source and in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I will have enough time to effectively share my reports.
 
 <div class="yellow box">
 	<h3>Note</h3>
-	Below I write about bugs or features whose reporting I am not aware of. Hence, there are bugs I experience or features I am interested in, but if they are already in development or being discussed I will not mention them.
+	Below, I take note of improvements or bugs which were not reported by anyone else yet. If there is something I noticed but someone else opened an issue about it, I will at most comment on it, but it will not appear here. In the same way, when I address the ideas I formerly wrote on this page, I successively delete them from here.
 </div>
 
 <br>
