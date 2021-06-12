@@ -1,7 +1,7 @@
 ---
 date: 2020-12-05
 updated: 2021-04-04T11:44:26.316276+02:00
-tag: geek zen
+tag: geek zen main
 aliases: ["Just quit", "Choose the alternative", "Go alternative", "Make the switch"]
 image: "/images/jar/just-quit.jpg"
 description: "Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it's for the best, it's worth it. Below some of the things I'm quitting."
