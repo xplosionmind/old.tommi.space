@@ -10,7 +10,7 @@ aliases: ["OSM", "OpenStreetMaps"]
 
 OpenStreetMap does not have a “favorites” feature, hence I saved my favorite places on [uMap](https://umap.openstreetmap.fr "uMap"), which is not the best solution, since it is quite hard to save places from mobile, but it is nevertheless very useful. Furthermore, I can Import in uMap CSV files, and mine is [here](https://github.com/xplosionmind/tommi.space/blob/main/_data/places.csv "places.csv in tommi.space repository on GitHub"), accessible to Jekyll with the `site.data` Liquid function.
 
-One thing I still need to figure out is how I can implement everything together: keeping [`places.csv`](https://github.com/xplosionmind/tommi.space/blob/main/_data/places.csv "places.csv in tommi.space repository on GitHub") up to date, log new places on [my OpenStreetMap diary](), and add new ones to [my uMap](https://umap.openstreetmap.fr/en/map/favorites_593427 "xplosionmind’s Favorites map"). The public result, namely the combination of the above mentioned, should be nicely displayed in [[Places]].
+One thing I still need to figure out is how I can implement everything together: keeping [`places.csv`](https://github.com/xplosionmind/tommi.space/blob/main/_data/places.csv "places.csv in tommi.space repository on GitHub") up to date, log new places on [my OpenStreetMap diary](), and add new ones to [my uMap](https://umap.openstreetmap.fr/en/map/favorites_593427 "xplosionmind’s Favorites map"). The public result, namely the combination of the above mentioned, should be nicely displayed in *[[Around the world]]*.
 
 <br>
 <br>
