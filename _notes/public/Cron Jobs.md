@@ -1,6 +1,6 @@
 ---
 date: 2021-04-04T17:19:08.168934+02:00
-updated: 2021-04-06T17:18:14.958419+02:00
+updated: 2021-06-15T10:12:15.528197+02:00
 tags: geek/server
 description: "What Cron Jobs are, how to set them up, what are the ones I use"
 ---
@@ -16,7 +16,7 @@ They are great and useful since they can be used to automate any type of task.
 
 ### Short answer
 
-Run `crontab -e`
+Run [`crontab -e`][crontab]
 
 <br>
 
@@ -25,6 +25,7 @@ Run `crontab -e`
 - [<q>How do I set up a Cron Job?</q>](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job "How do I set up a Cron Job? - AskUbuntu") on AskUbuntu
 - [Creating a custom Cron Job](https://help.dreamhost.com/hc/en-us/articles/215767047-Creating-a-custom-Cron-Job "Creating a custom Cron Job"), in DreamHost Knowledge Base
 - More detailed information in [Ubuntu Community Help Wiky](https://help.ubuntu.com/community "Ubuntu Community Help Wik") &rarr; [CronHowto](https://help.ubuntu.com/community/CronHowto "CronHowto in Ubuntu Community Help Wiki")
+- [Crontab Guru](https://crontab.guru 'Crontab Guru'), simple and insightful tool to configure and check [`crontab`s][crontab].
 
 <br>
 
@@ -62,8 +63,8 @@ Cron Jobs logs will be in **`/var/log/cron.log`**
 This Cron Job schedules [[Linuxplosion]] boot, and it switches it off until the following week.
 
 ```sh
-58 18 * * 1 udisksctl mount -b /dev/sda2 && echo "`date`: Linuxplosion is up and running!" >> /home/tommi/rtcwake-log.txt
-0 21 * * 1 echo "`date`: Linuxplosion is going back to sleep until next monday at 7PM." >> /home/tommi/rtcwake-log.txt && sudo rtcwake -m off -t "$(date -d 'next Monday 18:30' '\+%s')"
+35 18 * * 1 sudo udisksctl mount -b /dev/sda2 && echo "`date`: Linuxplosion is up and running!" >> ~/rtcwake-log.txt
+0 21 * * 1 echo "`date`: Linuxplosion is going back to sleep until next monday at 7PM." >> ~/rtcwake-log.txt && sudo rtcwake -m off -t "$(date -d 'next Monday 18:30' '+%s')"
 ```
 
 <br>
@@ -75,3 +76,5 @@ This Cron Job saves a list of predefined pages to [The Wayback Machine](https://
 ```sh
 0 1 * * 1 /usr/local/bin/wayback_archiver https://tommi.space/pages-to-archive --crawl --limit=100 --verbose --log=$HOME/wayback_archiver.log && echo "\n$(date) wayback_archiver success!" >> $HOME/wayback_archiver.log
 ```
+
+[crontab]: https://man.cx/crontab 'crontab’s man page'

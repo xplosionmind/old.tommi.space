@@ -1,10 +1,10 @@
 ---
 date: 2020-05-07
-updated: 2021-06-11T09:44:14.085935+02:00
+updated: 2021-06-15T09:31:59.517652+02:00
 tags: geek
-aliases: ["Cheat Sheet"]
+aliases: ["Cheat Sheet", "cmd", "CLI"]
 description: "I use tech devices a lot, maybe too much, but I do not dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
-redirect_from: ["/cheatsheet", "/cheatsheets", "/cheat-sheet"]
+redirect_from: ["/cheatsheet", "/cheatsheets", "/cheat-sheet", "/terminal", "/cmd", "/cli"]
 image: '/images/terminal.png'
 ---
 ![[Hotkeys]]

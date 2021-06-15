@@ -1,8 +1,8 @@
 ---
 layout: wrapper
 ---
-<div class="h-entry one column">
-	<div class="row page-header">
+<div class="row page-header">
+	<div class="one column">
 		<a class="u-uid u-url" href="{{ page.url | absolute_url }}"><h1 class="p-name">{{ page.title }}</h1></a>
 		{% if page.subtitle %}
 			<h2>{{ page.subtitle }}</h2>
@@ -46,28 +46,33 @@ layout: wrapper
 				{% endif %}
 			{% endif %}
 		</p>
+
+		{% include post-tags.html %}
+		{% include goto.html %}
+
 	</div>
+</div>
 
-	{% include post-tags.html %}
+<div class="row">
+	{% if page.toc %}
+		<div id="toc">
+			<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+			{% include toc.html html=content sanitize=true %}
+		</div>
 
-	{% include goto.html %}
+		<div class="h-entry one" style="float:right">
+	
+	{% else %}
+		<div class="h-entry one column">
+	{% endif %}
 
-	<div class="row">
 		<article class="e-content note{% if page.serif == true %} serif{% endif %}">
-
-			{% if page.toc %}
-				<div id="toc" class="border box">
-					<h3 class="center">{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-					{% include toc.html html=content sanitize=true class="two" %}
-				</div>
-			{% endif %}
-
 			{% include anchor-parser.html html=content anchorBody="#" anchorClass="anchor" %}
 		</article>
+
+		{% include backlinks.html %}
+		{% include share.html %}
+		{% include comments.html %}
+
 	</div>
-
-	{% include backlinks.html %}
-	{% include share.html %}
-	{% include comments.html %}
-
 </div>

@@ -1,11 +1,13 @@
 ---
 date: 2020-10-27
-updated: 2021-06-02T10:46:30.624256+02:00
+updated: 2021-06-14T07:03:47.343718+02:00
 tags: geek/web idea
 redirect_from: ["/websites-ideas", "/philosophy-websites", "/lifestyle-websites", "/websites creation"]
 toc: false
 description: "Cool domains ideas"
 ---
+- **TMI**: **T**oo **M**uch **I**nformation, or **T**o**m**m**i**
+	- **`tmi.*`**
 - [[The Slot Philosophy]]
 	- `time.slots` (not existing TLD)
 	- `slots.time` (not existing TLD)

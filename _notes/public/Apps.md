@@ -106,3 +106,5 @@ Apps which are not installed but it is worth remembering or testing in the futur
 - [Regex](https://motionobj.com/regex/ "Regex"), to test Regex expressions. It costs 30€
 - [WebApps](https://f-droid.org/it/packages/com.tobykurien.webapps/ "WebApps on F-Droid"), to containerize website pages and make them individual WebApps.
 - [Zathura](https://pwmt.org/projects/zathura/ "Zathura")
+- [Slides](https://maaslalani.com/slides/ 'Slides'), terminal-based presentations from markdown files
+- [novelWriter](https://novelwriter.io/ 'novelWriter'), focused on writing very long Markdown files

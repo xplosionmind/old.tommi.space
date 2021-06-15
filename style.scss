@@ -696,14 +696,13 @@ h3 {
 }
 
 #toc {
-	max-height: 50vh;
 	overflow-x: scroll;
-	li {
+	h3 {
 		margin-bottom: 0;
 	}
-}
-
-#pag {
+	li {
+		margin-bottom: unset;
+	}
 }
 
 .stuff {
@@ -1070,7 +1069,7 @@ button,
 		margin: 2vh 0;
 	}
 	#goto {
-		left: -13.8rem;
+		left: -13.4rem;
 		opacity: .5;
 	}
 	#help {
@@ -1080,6 +1079,9 @@ button,
 		a {
 			padding: 0 var(--small);
 		}
+	}
+	#toc {
+		margin-left: var(--regular);
 	}
 }
 
@@ -1095,8 +1097,12 @@ button,
 	ol.three {
 		columns: 3;
 	}
-	#toc ul {
-		margin: 0 8%;
+	#toc {
+		float: right;
+		max-width: 15%;
+		ul {
+			padding: 0 var(--small) 0 1em;
+		}
 	}
 }
 

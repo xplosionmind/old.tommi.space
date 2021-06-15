@@ -40,6 +40,7 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners "Web Development for Beginners on GitHub") by Microsoft
 - [SSH tunnels](https://robotmoon.com/ssh-tunnels/ "A visual guide to SSH tunnels"), a visual guide to SSH tunnels
 - [coding-interview-university](https://github.com/jwasham/coding-interview-university 'coding-interview-university on GitHub'), <q>A complete computer science study plan to become a software engineer</q>.
+- [Build your own x](https://github.com/danistefanovic/build-your-own-x 'build-your-own-x'), a GitHub repository collecting resources to build your own digital tools.
 
 <br>
 
@@ -87,7 +88,14 @@ Where and how to learn about Computer Sciences topics and anything technology re
 <br>
 <br>
 
-## Speeches
+## Culture
+
+- [American Masters Digital Archive](https://www.pbs.org/wnet/americanmasters/archive 'American Masters Digital Archive'), unreleased interviews filmed for past [American Masters](https://en.wikipedia.org/wiki/American_Masters '“American Masters” on Wikipedia') documentaries
+
+<br>
+
+
+### Speeches
 
 - [<cite>This is Water</cite>](https://youtu.be/ms2BvRbjOYo "“This is Water„ by David Foster Wallace on YouTube") by David Foster Wallace
 
