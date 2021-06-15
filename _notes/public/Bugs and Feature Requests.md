@@ -18,7 +18,7 @@ The [[Apps]] I use the most are open source and in active development. Often, I 
 
 ## iOS
 
-Improvements and bugs of iOS which I notice while using [[iOS Apps|my iPhone]]. [iPhone feedback form](https://www.apple.com/feedback/iphone.html "iPhone feedback")
+Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedback form](https://www.apple.com/feedback/iphone.html "iPhone feedback")
 
 - **Siri offline**
 - Clicking multiple times to toggle WiFi and Bluetooth: one click to disable it (white color), two clicks to completely switch it off. Alternatively, adding in the long-press pop-up the option to switch it off completely.

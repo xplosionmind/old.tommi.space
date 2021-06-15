@@ -1,6 +1,5 @@
-{% if page.comments != false %}
-<div class="u-comment row">
-	<div id="comments" class="box">
+{% if page.comments %}
+	<div id="comments" class="u-comment box row">
 		<h2 class="title">{% if page.lang 'it' %}Commenti{% else %}Comments{% endif %}</h2>
 
 			{% comment %}
@@ -17,5 +16,4 @@
 			</script>
 		</div>
 	</div>
-</div>
 {% endif %}

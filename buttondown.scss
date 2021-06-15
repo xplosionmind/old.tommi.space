@@ -29,7 +29,7 @@ h2 {
 	margin-top: 8vh;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: var(--bigger) !important;
+	font-size: $bigger !important;
 }
 
 form {
@@ -37,14 +37,14 @@ form {
 }
 
 input[type="email"] {
-	line-height: var(--bigger);
+	line-height: $bigger;
 	border: none !important;
 	background: var(--background);
 	color: var(--text);
-	border-radius: var(--radius-s) !important;
+	border-radius: $radius-s !important;
 	box-shadow: var(--inner-shadow);
-	padding: var(--small) var(--regular);
-	font-size: var(--bigger);
+	padding: $small $regular;
+	font-size: $bigger;
 	&::placeholder {
 		color: var(--other-grey);
 	}
@@ -53,7 +53,7 @@ input[type="email"] {
 button, .share-network-facebook, .share-network-twitter, .share-network-email {
 	color: var(--black-ish) !important;
 	text-transform: uppercase;
-	border-radius: var(--radius-m) !important;
+	border-radius: $radius-m !important;
 	box-shadow: var(--button-shadow);
 	margin-bottom: 9vh !important;
 	font-weight: 800;

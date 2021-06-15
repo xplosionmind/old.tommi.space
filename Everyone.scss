@@ -17,7 +17,7 @@ body {
 }
 
 .love-awakens {
-	font-size: var(--mastodon);
+	font-size: 4.4rem;
 	font-weight: lighter;
 	text-align: center;
 	margin-top: 0;
@@ -25,8 +25,8 @@ body {
 }
 	
 .page-description {
-	margin: var(--height) auto var(--margin);
-	padding: var(--regular) var(--margin);
+	margin: 3.1rem auto 6.5rem;
+	padding: 1.1rem 6.5rem;
 }
 
 .thing {
@@ -41,11 +41,11 @@ body {
 
 .tool {
 	right: 4vw;
-	padding: var(--small) var(--regular);
+	padding: .5rem 1.1rem;
 }
 
 .button.tool {
-	padding: var(--small) var(--regular);
+	padding: .5rem 1.1rem;
 }
 
 .stuff {
@@ -83,20 +83,24 @@ p {
 	height: auto;
 	margin: 2vw;
 	box-shadow: 5px 5px 20px #00000033, -5px -5px 20px #FFFFFF22;
-	border-radius: var(--radius-l);
+	border-radius: 1rem;
 }
 
 .vertical {
 	height: unset;
 }
 
+#celeb h2 {
+	margin: 3.1rem 0;
+}
+
 @media only screen and (max-width: 700px) {
 	.everyone {
-		font-size: var(--height);
-		margin-top: var(--mastodon);
+		font-size: 3.1rem;
+		margin-top: 4.4rem;
 	}
 	.love-awakens {
-		font-size: var(--big);
+		font-size: 2.5rem;
 	}
 	.page-description {
 		padding: 0;

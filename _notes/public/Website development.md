@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-06-08T19:08:58.392561+02:00
+updated: 2021-06-15T18:11:54.780875+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -31,7 +31,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
 1. Remove JavaScript
 	- CSS only [responsive menu](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 'Responsive, Pure CSS Off-Canvas Hamburger Menu')
-	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle')
+	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle') - 2021-06-15 <b class="bug">bug</b>: if `input` is before `body`, it is automatically moved inside by the browser
 1. Check if HTML minification is working
 2. [[Timeline development]]
 3. Add RSS feed of [[Internet Awesomeness]]

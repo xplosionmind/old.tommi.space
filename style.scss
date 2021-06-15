@@ -22,14 +22,13 @@ body {
 	margin: 0;
 	overflow-wrap: break-word;
 	hyphens: auto;
-	font: var(--regular) var(--font-sans);
+	font: $regular var(--font-sans);
 
 	--background: var(--black-ish);
 	--text: var(--white-ish);
 	--deep: #111;
 	--link: var(--primary);
 	--primary: var(--yellow);
-	--primary-dark: var(--dark-yellow);
 	--secondary: var(--blue);
 	--internal-link: var(--blue);
 	--grey: var(--dark-grey);
@@ -44,7 +43,6 @@ body {
 	--inner-little-shadow: inset 2px 2px 3px #000A, inset -2px -2px 3px #FFF1;
 	--header-shadow: 5px 5px 15px #000D, -5px -5px 15px #FFF2;
 
-	--link-shadow: 1px 1px var(--small) #000f;
 	--title-shadow: -3px -3px 0px var(--text), -3px -2px 1px var(--grey), -2px -3px 1px var(--grey), -2px -2px 0px var(--grey), -1px -1px 0px var(--grey), 0px 0px 0px var(--grey);
 
 	transition: var(--trans);
@@ -56,7 +54,7 @@ body {
 }
 
 /* LIGHT THEME */
-.light {
+.light, .themetoggle:checked + body {
 	--background: #FFF;
 	--text: var(--black-ish);
 	--deep: white;
@@ -74,8 +72,6 @@ body {
 	--inner-shadow: inset 3px 3px 5px #0005, inset -3px -3px 5px #FFF3;
 	--inner-little-shadow: inset 2px 2px 3px #0002, inset -2px -2px 3px #FFF3;
 	--header-shadow: 5px 5px 15px #0003, -5px -5px 15px #FFFF;
-
-	--link-shadow: 0 0 var(--small) #FFFF;
 
 	transition: var(--trans);
 
@@ -100,6 +96,10 @@ body {
 ::before,
 ::after {
 	box-sizing: inherit;
+}
+
+.themetoggle {
+	display: none;
 }
 
 .row {
@@ -155,6 +155,9 @@ a {
 			box-shadow: var(--inner-shadow);
 		}
 	}
+	code {
+		color: var(--primary);
+	}
 }
 
 a,
@@ -182,14 +185,14 @@ article .box:not(.tags) {
 }
 
 input[type="email"] {
-	line-height: var(--bigger);
+	line-height: $bigger;
 	border: none;
 	background: var(--background);
 	color: var(--text);
-	border-radius: var(--radius-s);
+	border-radius: $radius-s;
 	box-shadow: var(--inner-shadow);
-	padding: var(--small) var(--regular);
-	font-size: var(--bigger);
+	padding: $small $regular;
+	font-size: $bigger;
 	max-width: 100%;
 	&::placeholder {
 		color: var(--other-grey);
@@ -211,7 +214,7 @@ input.button {
 
 .user-mention {
 	padding: 0 4px;
-	border-radius: var(--radius-s);
+	border-radius: $radius-s;
 	background: var(--transp-text);
 	color: var(--background);
 }
@@ -234,7 +237,7 @@ input.button {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	grid-gap: var(--regular-less);
+	grid-gap: $regular-less;
 	h3 {
 		text-align: center;
 	}
@@ -253,7 +256,7 @@ input.button {
 .library {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-	grid-gap: var(--tiny);
+	grid-gap: $tiny;
 	a {
 		& > img,
 		& > .fake-book-cover {
@@ -282,19 +285,19 @@ input.button {
 .popup {
 	display: none;
 	position: fixed;
-	padding: var(--twice);
+	padding: $twice;
 	top: 10vh;
 	left: 20vw;
 	width: 60vw;
 	background: var(--background);
-	border-radius: var(--radius-l);
+	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	color: var(--text) !important;
 }
 
 li {
-	margin-bottom: var(--small);
-	line-height: var(--regular-more-em);
+	margin-bottom: $small;
+	line-height: $regular-more-em;
 	ul {
 		& > li {
 			margin-bottom: 0;
@@ -314,9 +317,9 @@ li {
 
 .task-list-item-checkbox {
 	position: relative;
-	right: var(--regular-less);
-	width: var(--regular);
-	height: var(--regular);
+	right: $regular-less;
+	width: $regular;
+	height: $regular;
 }
 
 .poetry,
@@ -337,7 +340,7 @@ li {
 
 .post {
 	.embed-container {
-		border-radius: var(--radius-l);
+		border-radius: $radius-l;
 		box-shadow: var(--shadow);
 	}
 }
@@ -371,7 +374,7 @@ hr {
 .page-header {
 	margin-top: 10vh;
 	h1 {
-		font-size: var(--mastodon);
+		font-size: $mastodon;
 		margin: 0;
 		text-shadow: var(--header-shadow);
 	}
@@ -396,8 +399,8 @@ code {
 
 pre {
 	overflow-x: scroll;
-	padding: var(--regular);
-	border-radius: var(--radius-m);
+	padding: $regular;
+	border-radius: $radius-m;
 	box-shadow: var(--inner-shadow);
 	scrollbar-width: none;
 	code {
@@ -410,7 +413,7 @@ pre {
 code {
 	padding: 2px 6px;
 	box-shadow: var(--inner-little-shadow);
-	border-radius: var(--radius-s);
+	border-radius: $radius-s;
 }
 
 .missing,
@@ -419,7 +422,7 @@ code {
   padding: 2px 5px;
   background: var(--red);
   color: #FFF;
-  border-radius: var(--radius-s);
+  border-radius: $radius-s;
 }
 
 .cite {
@@ -445,7 +448,7 @@ tr {
 }
 
 th {
-	padding: var(--small) var(--regular-less);
+	padding: $small $regular-less;
 
 	/* making the header sticky */
 	position: sticky;
@@ -455,15 +458,15 @@ th {
 
 td {
 	font-size: .8em;
-	padding: var(--tiny) var(--small);
+	padding: $tiny $small;
 }
 
 .table {
 	max-height: 90vh;
 	overflow: scroll;
-	margin: var(--height) 3vw;
+	margin: $height 3vw;
 	border: 3px solid var(--grey);
-	border-radius: var(--radius-l);
+	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	table {
 		width: 100%;
@@ -481,12 +484,12 @@ table {
 		font-weight: 800;
 		margin-bottom: 0;
 		position: relative;
-		bottom: var(--regular);
+		bottom: $regular;
 	}
 	.button {
 		color: var(--white-ish);
 		background: var(--background);
-		margin: var(--tiny) var(--regular-less);
+		margin: $tiny $regular-less;
 	}
 }
 
@@ -539,19 +542,19 @@ table {
 .line {
 	margin: auto;
 	width: 50%;
-	height: var(--small);
-	border-radius: var(--radius-s);
+	height: $small;
+	border-radius: $radius-s;
 	box-shadow: var(--little-shadow);
 }
 
 img {
 	max-width: 100%;
 	display: block;
-	border-radius: var(--radius-l);
+	border-radius: $radius-l;
 }
 
 figure {
-	margin: var(--height) auto;
+	margin: $height auto;
 	img {
 		max-height: 100vh;
 		box-shadow: var(--shadow);
@@ -560,9 +563,9 @@ figure {
 }
 
 figcaption {
-	font: var(--regular) var(--font-serif);
-	line-height: var(--regular);
-	margin-top: var(--regular-less);
+	font: $regular var(--font-serif);
+	line-height: $regular;
+	margin-top: $regular-less;
 	color: var(--other-grey);
 	text-align: center;
 }
@@ -599,10 +602,10 @@ b {
 }
 
 article {
-	font-size: var(--regular-more);
+	font-size: $regular-more;
 	padding: 8vh 5vw 15vh;
 	.box {
-		margin: var(--bigger) 0;
+		margin: $bigger 0;
 	}
 }
 
@@ -627,9 +630,9 @@ h1, h2, h3, h4, h5, h6 {
 .title {
 	font-weight: 800;
 	letter-spacing: .1em;
-	font-size: var(--twice);
+	font-size: $twice;
 	color: transparent;
-	margin: var(--regular) auto;
+	margin: $regular auto;
 	text-shadow: var(--title-shadow);
 	text-align: center;
 	transition: var(--quicktrans);
@@ -638,7 +641,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	color: var(--text);
 	text-align: center;
-	font-size: var(--height);
+	font-size: $height;
 	&:hover {
 		transform: rotate(-3deg);
 		text-shadow: none !important;
@@ -646,14 +649,14 @@ h1 {
 }
 
 h2 {
-	font-size: var(--bigger);
+	font-size: $bigger;
 	.anchor::after {
 		content: '#';
 	}
 }
 
 h3 {
-	font-size: var(--big);
+	font-size: $big;
 	.anchor::after {
 		content: '##';
 	}
@@ -662,14 +665,14 @@ h3 {
 .box {
 	max-width: 100%;
 	color: var(--text);
-	padding: var(--big);
-	margin: var(--bigger) 3%;
-	border-radius: var(--radius-l);
+	padding: $big;
+	margin: $bigger 3%;
+	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	&.little {
 		display: inline-block;
-		border-radius: var(--radius-m);
-		padding: var(--small);
+		border-radius: $radius-m;
+		padding: $small;
 		background: var(--primary);
 		margin: 2vw;
 		a {
@@ -688,7 +691,7 @@ h3 {
 }
 
 .tags {
-	padding: var(--big) var(--tiny);
+	padding: $big $tiny;
 	.flex {
 		max-height: 30vh;
 		overflow: scroll;
@@ -707,8 +710,8 @@ h3 {
 
 .stuff {
 	padding: 4vw 2vw;
-	margin: var(--height) 3vw;
-	border-radius: var(--radius-l);
+	margin: $height 3vw;
+	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	.serif {
 		margin: 0 5%;
@@ -717,7 +720,7 @@ h3 {
 		padding: 0 2vw;
 	}
 	li {
-		margin: var(--regular-less) 10% 0;
+		margin: $regular-less 10% 0;
 	}
 }
 
@@ -732,18 +735,18 @@ h3 {
 .box,
 .stuff {
 	p {
-		margin: var(--regular) 10%;
+		margin: $regular 10%;
 	}
 }
 
 .post-preview {
 	width: auto;
-	margin-top: var(--regular-less);
-	margin-bottom: var(--regular-less);
-	padding: var(--small);
+	margin-top: $regular-less;
+	margin-bottom: $regular-less;
+	padding: $small;
 	justify-content: space-between;
 	.date {
-		margin: 0 var(--regular);
+		margin: 0 $regular;
 	}
 	img {
 		max-height: 24vh;
@@ -752,7 +755,7 @@ h3 {
 
 .excerpt {
 	display: block;
-	margin: var(--small) 10%;
+	margin: $small 10%;
 	font: italic .85em var(--font-sans);
 	line-height: 1.5em;
 }
@@ -766,8 +769,8 @@ h3 {
 }
 
 .last-modified {
-	margin: 0 auto var(--twice);
-	font-size: var(--regular-less);
+	margin: 0 auto $twice;
+	font-size: $regular-less;
 	opacity: .8;
 	text-align: center;
 	line-height: 1.3;
@@ -775,13 +778,13 @@ h3 {
 
 .footnotes {
 	font-size: .8em;
-	margin-top: var(--bigger);
+	margin-top: $bigger;
 }
 
 footer {
-	padding: var(--big);
-	margin: var(--bigger) 3%;
-	border-radius: var(--radius-l);
+	padding: $big;
+	margin: $bigger 3%;
+	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	p {
 		a {
@@ -804,27 +807,27 @@ audio {
 }
 
 .icon {
-	height: var(--regular);
+	height: $regular;
 	width: auto;
 }
 
 svg.button,
 img.button {
-	height: var(--height);
+	height: $height;
 	width: auto;
 	padding: 0;
-	margin: var(--tiny);
+	margin: $tiny;
 	background: var(--primary);
 }
 
 button,
 .button {
 	display: inline-block;
-	padding: var(--small) var(--regular);
-	font-size: var(--bigger);
+	padding: $small $regular;
+	font-size: $bigger;
 	font-weight: 700;
 	text-transform: uppercase;
-	border-radius: var(--radius-m);
+	border-radius: $radius-m;
 	box-shadow: var(--button-shadow);
 	text-align: center;
 	hyphens: none;
@@ -847,32 +850,32 @@ button,
 	--text: var(--background);
 	color: var(--text);
 	background: var(--primary);
-	margin: var(--big);
+	margin: $big;
 }
 
 .smaller {
-	padding: var(--tiny) var(--regular-less);
-	margin: var(--tiny);
-	font-size: var(--big);
-	border-radius: var(--radius-s);
+	padding: $tiny $regular-less;
+	margin: $tiny;
+	font-size: $big;
+	border-radius: $radius-s;
 }
 
 .tiny {
-	padding: 1px var(--small);
-	margin: var(--tiny);
-	font-size: var(--regular-less);
+	padding: 1px $small;
+	margin: $tiny;
+	font-size: $regular-less;
 	border-radius: 4px;
 }
 
 #share {
 	.button {
-		margin-right: var(--small);
+		margin-right: $small;
 		padding: .4rem;
 	}
 }
 
 .filter-by {
-	font-size: var(--bigger);
+	font-size: $bigger;
 	a {
 		margin-right: .7rem;
 	}
@@ -1033,17 +1036,17 @@ button,
 		margin: 0;
 	}
 	.page-header h1 {
-		font-size: var(--height);
+		font-size: $height;
 	}
 	.stuff-logo {
-		margin-top: var(--bigger)
+		margin-top: $bigger
 	}
 	.line {
 		width: 20%;
 	}
 	.post-preview {
 		h2 {
-			margin-top: var(--regular-less);
+			margin-top: $regular-less;
 		}
 		img {
 			max-height: unset;
@@ -1057,7 +1060,7 @@ button,
 		bottom: 3vh;
 	}
 	nav ul li a {
-		padding: 0 var(--regular-more);
+		padding: 0 $regular-more;
 	}
 	p {
 		line-height: 1.5em;
@@ -1077,11 +1080,11 @@ button,
 	}
 	#pages {
 		a {
-			padding: 0 var(--small);
+			padding: 0 $small;
 		}
 	}
 	#toc {
-		margin-left: var(--regular);
+		margin-left: $regular;
 	}
 }
 
@@ -1101,7 +1104,7 @@ button,
 		float: right;
 		max-width: 15%;
 		ul {
-			padding: 0 var(--small) 0 1em;
+			padding: 0 $small 0 1em;
 		}
 	}
 }

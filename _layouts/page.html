@@ -10,13 +10,6 @@ layout: wrapper
 	<div class="row">
 		<article class="page">
 
-			{% if page.toc %}
-				<div id="toc" class="border box">
-					<h3 class="center">{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-					{% include toc.html html=content sanitize=true class="two" %}
-				</div>
-			{% endif %}
-
 			{% include anchor-parser.html html=content anchorBody="#" anchorClass="anchor" %}
 
 		</article>
