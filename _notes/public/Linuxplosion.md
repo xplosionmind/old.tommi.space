@@ -113,10 +113,12 @@ Software installed on Linuxplosion
 
 ## Linuxplosion todo
 
-- [Configure DDNS for remote SSH access](https://dev.to/juliaria08/comment/1efl6 'DDNS config')
-- Flickr2Piwigo last attempt
-- [Install Czkawka](https://github.com/qarmin/czkawka 'Czkawka on GitHub')
-- [Configure WebDAV](https://www.digitalocean.com/community/tutorials/how-to-configure-webdav-access-with-apache-on-ubuntu-18-04 "How To Configure WebDAV Access with Apache on Ubuntu 18.04")
-- [Install PhotoPrism](https://github.com/photoprism/photoprism/discussions/1160 "Build PhotoPrism locally")
+1. [Automate emails sending](https://tecadmin.net/ways-to-send-email-from-linux-command-line/ 'Ways to send email from linux command line')
+1. [Configure DDNS for remote SSH access](https://dev.to/juliaria08/comment/1efl6 'DDNS config')
+1. Flickr2Piwigo last attempt
+1. [Install Czkawka](https://github.com/qarmin/czkawka 'Czkawka on GitHub')
+1. [Configure WebDAV](https://www.digitalocean.com/community/tutorials/how-to-configure-webdav-access-with-apache-on-ubuntu-18-04 "How To Configure WebDAV Access with Apache on Ubuntu 18.04")
+1. [Install IPFS](https://github.com/ipfs/ipfs-desktop)
+1. [Install PhotoPrism](https://github.com/photoprism/photoprism/discussions/1160 "Build PhotoPrism locally")
 
 [DEV]: https://dev.to "DEV"

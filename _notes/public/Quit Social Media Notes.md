@@ -23,6 +23,7 @@ redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-n
 
 ### Content
 
+- https://www.wired.com/story/rss-readers-feedly-inoreader-old-reader/
 - https://newsletters.feedbinusercontent.com/402/402d80607c7a9188299ba6f638ee4d4ceecc2907.html
 - https://nitter.fdn.fr/RobertGReeve/status/1397032784703655938
 - https://video.repubblica.it/tecno-e-scienze/una-vita-senza-big-tech-storie-di-chi-cerca-alternative-ai-giganti-del-web-non-barattiamo-i-nostri-dati-per-i-loro-servizi/384819/385547

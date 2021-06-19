@@ -1,6 +1,6 @@
 ---
 date: 2020-12-15T15:56:57.856311+01:00
-updated: 2021-04-06T11:48:30.541372+02:00
+updated: 2021-06-17T20:48:40.731199+02:00
 tags: geek/idea help
 description: "Developing a timeline which integrates with everything I do and locations all over the world"
 aliases: ["Timeline"]
@@ -26,6 +26,7 @@ Make a huge CSV (or YAML, so that there can be an array of links for every resou
 ## Tools
 
 - [TimelineJS](https://timeline.knightlab.com "TimelineJS")
+- [d3](https://github.com/d3/d3 'd3 repository on GitHub')
 
 <br>
 <br>

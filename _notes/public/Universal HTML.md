@@ -1,7 +1,7 @@
 ---
 date: 2021-03-11T13:24:19.157796+01:00
 updated: 2021-03-11T13:24:21.753242+01:00
-tags: geek/web geek/idea
+tags: geek/idea
 description: "Developing a Universal HTML structure for static websites"
 toc: false
 ---

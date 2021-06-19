@@ -19,7 +19,7 @@ What I am doing right now:
 
 ## Studying
 
-I am attending [Philosophy, International Studies and Economics](https://unive.it/pise "PISE course page on UniVe website") at [Ca' Foscari University](https://unive.it "Ca' Foscari University website") in [Venice](https://www.comune.venezia.it/ "Venice institutional website"), Italy, where I'm living.
+I am living in [Venice](https://www.comune.venezia.it/ "Venice institutional website"), Italy, where I am attending [Philosophy, International Studies and Economics](https://unive.it/pise "PISE course page on UniVe website") at [Ca' Foscari University](https://unive.it "Ca' Foscari University website").
 
 {% comment %}
 <div class="blue box">

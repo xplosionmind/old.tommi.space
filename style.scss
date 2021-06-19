@@ -54,7 +54,7 @@ body {
 }
 
 /* LIGHT THEME */
-.light, .themetoggle:checked + body {
+.light, .themetoggle:checked ~ body {
 	--background: #FFF;
 	--text: var(--black-ish);
 	--deep: white;

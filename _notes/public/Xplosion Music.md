@@ -29,7 +29,7 @@ main: true
 	</div>
 </div>
 
-### Elsewhere
+## Elsewhere
 
 - [*Xplosion Music* on Apple Music](https://music.apple.com/it/playlist/xplosion-music/pl.u-aZb0NorCPK4eLqJ "Xplosion Music")
 - [*Xplosion Music* on Deezer](https://deezer.page.link/APHqYniHa51ZR4GG6 "Xplosion Music")
@@ -39,11 +39,15 @@ main: true
 - [*Xplosion Music* on Openwhyd](https://openwhyd.org/u/5f26be00b484e4fd9104af08/playlist/0 "Xplosion Music on Openwhyd")
 {% endcomment %}
 
+<br>
+<br>
+
 ## Others
 
 - *[Classical Xplosion]*, an explosion of classical music which makes me jump around graciously and move vehemently in the peaks of power (I cannot dance).
 - *[metamusic]*, music that talks about music.
 
+<br>
 <br>
 
 ## Technicalities
