@@ -1,18 +1,10 @@
 <div class="filter-by flex box row">
 
 	<h2 style="margin-right:1rem">
-		{% if page.ref == 'blog' %}
-			{% if page.lang == 'it' %}
-				Filtra articoli per lingua
-			{% else %}
-				Filter posts by language
-			{% endif %}
+		{% if page.lang == 'it' %}
+			Filtra per lingua
 		{% else %}
-			{% if page.lang == 'it' %}
-				Filtra note per lingua
-			{% else %}
-				Filter notes by language
-			{% endif %}
+			Filter by language
 		{% endif %}
 	</h2>
 

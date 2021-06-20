@@ -1,26 +1,25 @@
-<div class="h-card stuff row" id="about">
-	<a href="{% if page.lang == 'it' %}/about-it{% else %}/about{% endif %}"><h2 class="title">{% if page.lang == 'it' %}Chi è questo tipo{% else %}About this weirdo{% endif %}</h2></a>
+<div class="h-card box row" id="about">
 	<div class="half column">
 		<a href="https://images.tommi.space/picture?/21786/category/173-tommi"  target="_blank">
 			<img class="u-photo" src="{{ site.images }}/profile-full.jpg" alt="a photo of me conducting a live show" title="Tommi on stage conducting a live show">
 		</a>
 	</div>
 	<div class="half column">
-
-
 	{% if page.lang == 'it' %}
+
+		<a href="/about-it"><h2 class="title">Chi è questo tipo</h2></a>
 
 		<p>Mi chiamo <span class="p-name">Tommi</span>,</p>
 
-		<p>è possibile vedermi campeggiare sul pianeta Terra ma sono perennemente in viaggio in una dimensione parallela dominata dall'entusiasmo, dalla curiosità e dalla confusione.</p>
+		<p>è possibile vedermi campeggiare sul pianeta Terra, ma sono perennemente in viaggio in una dimensione parallela dominata dall'entusiasmo, dalla curiosità e dalla confusione.</p>
 
-		<p>Mi capita spesso di perdermi, ma mi muovo continuamente (in tutti i sensi) per conoscere nuove persone e scoprire le loro storie. Il mio ipercinetismo rende un allegro individuo perennemente saltellante, talvolta insopportabile. Finora, come scrive il sommo <a href="https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz"  target="_blank" title="Leibniz su Wikipedia">Leibniz</a>, <q cite="https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibnizz">nella mia vita ho cominciato tutto e concluso nulla</q>.</p>
+		<p>Mi capita spesso di perdermi, ma mi muovo continuamente (in tutti i sensi) per conoscere nuove persone e scoprire le loro storie. Il mio ipercinetismo mi rende un allegro individuo perennemente saltellante, talvolta insopportabile. Finora, come scrive il sommo <a href="https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz"  target="_blank" title="Leibniz su Wikipedia">Leibniz</a>, <q cite="https://it.wikipedia.org/wiki/Gottfried_Wilhelm_von_Leibniz">nella mia vita ho cominciato tutto e concluso nulla</q>.</p>
 
-		<p>Lo ammetto, non sono bravo a rispondere alla domanda “chi sei”, ma, diciamocelo, nessuno ne è davvero capace. Chi sono veramente lo raccontano i miei “<a href="/zibaldone" title="Zibaldone - tommi.space">articoli</a>”, <a href="/ora" title="Now page - tommi.space">quello che sto facendo ora</a> e tutto <a href="/cose">quello che faccio nella vita</a>. Tuttavia, per capire meglio il caos che regna nella mia testa, di cui questo sito è la rappresentazione virtuale, bisogna assaggiare <a href="/marmellata"><em>La Marmellata</em></a>.</p>
+		<p>Riconosco di non essere bravo a rispondere alla domanda “chi sei”, ma, diciamocelo, nessuno ne è davvero capace. Chi sono veramente lo raccontano i miei <a href="/zibaldone" title="Zibaldone - tommi.space">pseudo-articoli</a>, il mio <a href="https://sconnesso.link" target="_blank" title="Sconnesso">pseudo-podcast</a>, <a href="/ora" title="Now page - tommi.space">quello che sto facendo ora</a> e tutto <a href="/cose">quello che faccio</a> nella vita. Tuttavia, per vivere veramente il caos che regna nella mia testa, di cui questo sito è la rappresentazione virtuale, è necessario assaggiare <a href="/marmellata"><em>La Marmellata</em></a>.</p>
 
-		<p>Cose pratiche utili:
+		<p>Alcune risorse utili:
 			<ul>
-				<li>il mio <a class="u-url" href="https://europa.eu/!md89Vg"  target="_blank" title="Curriculum Vitae di Tommaso Marmo su Europass">Curriculum Vitae</a> e il mio <a class="u-url" href="https://www.linkedin.com/in/tommasomarmo/"  target="_blank" title="Tommaso Marmo su Linkedin">profilo Linkedin</a></li>
+				<li>il mio <a class="u-url" href="https://europa.eu/!md89Vg"  target="_blank" title="Curriculum Vitae di Tommaso Marmo su Europass">Curriculum Vitae</a> e il mio <a class="u-url" href="https://www.linkedin.com/in/tommasomarmo/" target="_blank" title="Tommaso Marmo su Linkedin">profilo Linkedin</a></li>
 				<li>Il mio<a class="u-email" href="mailto:{{ site.email | encode_email }}" rel="me" title="Scrivimi un'email">indirizzo email</a>. Se possibile, utilizzate la mia <a class="u-key" href="https://api.protonmail.ch/pks/lookup?op=get&search={{ site.email }}" target="_blank" rel="pgpkey authn">chiave PGP</a> (non è necessaria se utilizzate un indirizzo email con <a href="https://protonmail.com"  target="_blank" title="Sito web di ProtonMail">ProtonMail</a>)</li>
 				<li>il mio username sul web è <code class="p-nickname">@tommi</code>, oppure <code>@xplosionmind</code></li>
 			</ul>
@@ -29,17 +28,19 @@
 
 		{% else %}
 
+	<a href="/about"><h2 class="title">About this weirdo</h2></a>
 
 		<p>Hi, I’m <span class="p-name">Tommi</span>.</p>
 
-		<p>I’m an <span class="p-category p-label">enthusiast</span>. I love getting involved in everything which involves human interactions and I’m overthinking addicted. I am a happy guy, but this doesn’t mean I don’t cry (just make me watch the right movie).</p>
-		<p><span class="p-note">The purpose of my whole exsistence is meeting all the people in the world</span>. This is why, When I’m not studying, I try to be as busy as I can. This means, as the great <a href="https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"  target="_blank" title="Leibniz on Wikipedia">Leibnitz</a> said, that <q cite="https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz">in my life I started everything and concluded nothing</q>. You can know more about something of this messy everything by browsing around. If the stuff here is too confused and you get lost, well… welcome to my mind.</p>
-		<p>Things that wander around in my head are written on my <a href="/blog" target="_blank">blog</a> or they are thrown in <a href="/jam" target="_blank" title="The Jam - tommi.space"><em>The Jam</em></a>.</p>
-		<p>Some useful data:
+		<p>I am an <span class="p-category p-label">enthusiast</span>. I love getting involved in everything which involves human interactions and I am overthinking addicted. I am a happy guy, but this does not mean I do not cry—just make me watch the right movie.</p>
+		<p><span class="p-note">The purpose of my whole exsistence is meeting all the people in the world</span>. For this reason, when I am not <a href="/now#studying" target="_blank" title="“Studying„ in Tommi’s Now page">studying</a>, I keep myself busy doing a lot of <a href="/stuff" target="_blank" title="Stuff I do">stuff</a>. As a consequence, as also the great <a href="https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"  target="_blank" title="Leibniz on Wikipedia">Leibnitz</a> said, that <q cite="https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz">in my life I started everything and concluded nothing</q>.<br />
+		You can know more about something of the just mentioned everything by browsing around this virtual representation of my mind.</p>
+
+		<p>Some resources which might be useful:
 			<ul>
 				<li>my <a class="u-url" href="https://www.linkedin.com/in/tommasomarmo/"  target="_blank" title="Tommaso Marmo su Linkedin">Linkedin profile</a> and my <a class="u-url" href="https://europa.eu/!xG43Xd"  target="_blank">Curriculum Vitae</a></li>
-				<li>you can <a class="u-email" href="mailto:{{ site.email | encode_email }}" rel="me" title="Write me an email">write me an email</a>. If possible, please use my <a class="u-key" href="https://api.protonmail.ch/pks/lookup?op=get&search={{ site.email }}" target="_blank" rel="pgpkey authn">PGP key</a> (it’s not necessary if you use a <a href="https://protonmail.com"  target="_blank" title="ProtonMail website">ProtonMail</a> address)</li>
-				<li>my username is <code class="p-nickname">xplosionmind</code> everywhere. If you can’t find it, I’m not there.</li>
+				<li>you can <a class="u-email" href="mailto:{{ site.email | encode_email }}" rel="me" title="Write me an email">write me an email</a>. If possible, please use my <a class="u-key" href="https://api.protonmail.ch/pks/lookup?op=get&search={{ site.email }}" target="_blank" rel="pgpkey authn">PGP key</a> (it is not necessary if you use a <a href="https://protonmail.com"  target="_blank" title="ProtonMail website">ProtonMail</a> address)</li>
+				<li>my username on the internet is always either <code class="p-nickname">xplosionmind</code> or <code class="p-nickname">tommi</code> everywhere.</li>
 			</ul>
 		</p>
 		{% endif %}

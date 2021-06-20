@@ -6,6 +6,7 @@ description: 'Computer related tasks tracking'
 ---
 1. [[Images]]
 1. Defining a threat model
+1. `man mail`
 1. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 1. Add to Wallabag from URL: `https://inputs.tommi.space/?action=add&url=ENCODED_URL`
 1. Movies data
@@ -20,7 +21,6 @@ description: 'Computer related tasks tracking'
 	- https://apas.gr/2018/11/dark-mode-macos-safari-iterm-vim/
 5. [[Scripts]]
 1. Set [.editorconfig](https://editorconfig.org/ 'editorconfig')
-1. [twtxt](https://twtxt.readthedocs.io/en/stable/ 'twtxt'), microblogging for hackers
 6. [Integrate](https://github.com/cjeller1592/WriteFreely-API) noblogo.org / Writefreely with Jekyll
 7. [customize](https://writefreely.org/docs/latest/writer/css) noblogo.org / WriteFreely style
 8. [[Missing Knowledge#Geek stuff|Learning geek stuff]]

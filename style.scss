@@ -644,7 +644,6 @@ h1 {
 	font-size: $height;
 	&:hover {
 		transform: rotate(-3deg);
-		text-shadow: none !important;
 	}
 }
 
@@ -688,6 +687,9 @@ h3 {
 	h4 {
 		margin: 0;
 	}
+	li {
+		margin: $regular-less 10% 0;
+	}
 }
 
 .tags {
@@ -719,9 +721,6 @@ h3 {
 	.column {
 		padding: 0 2vw;
 	}
-	li {
-		margin: $regular-less 10% 0;
-	}
 }
 
 #help {
@@ -732,7 +731,7 @@ h3 {
 	}
 }
 
-.box,
+article .box,
 .stuff {
 	p {
 		margin: $regular 10%;
@@ -917,31 +916,27 @@ button,
 .tool {
 	position: fixed;
 	bottom: 3vw;
-	z-index: 9;
-	&.button {
-		padding: .3rem;
-	}
-}
-
-.theme-toggle {
-	text-shadow: 0 -2px 5px rgba(255,252,249,.5);
-}
-
-.top,
-.bottom {
 	right: 3vw;
+	.button {
+		padding: .3rem;
+		z-index: 8;
+	}
 }
 
-.bottom {
-	transform: rotate(.5turn);
-	box-shadow: inset -2px -2px 4px #FFF8, inset 2px 2px 4px #0008 !important;
-	&:hover {
-		box-shadow: none !important;
-	}
-	&:active {
-		box-shadow: var(--button-shadow) !important;
+#to-bottom {
+	.button {
+		z-index: 9;
+		transform: rotate(.5turn);
+		box-shadow: inset -2px -2px 4px #FFF8, inset 2px 2px 4px #0008 !important;
+		&:hover {
+			box-shadow: none !important;
+		}
+		&:active {
+			box-shadow: var(--button-shadow) !important;
+		}
 	}
 }
+
 
 .tag {
 	p {
