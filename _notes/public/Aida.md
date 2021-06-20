@@ -44,5 +44,4 @@ Per ottimizzare gli spazi, scelsi di appoggiare la scrivania a supporti angolari
 
 <br>
 
-Tutte le foto della costruzione di Aida ed i ritrovamenti storici dei primi progetti di cui è protagonista sono raccolti nel[l’album <cite>Aida</cite>](https://images.tommi.space/index?/category/aida 'Immagini di Aida').
-
+Tutte le foto della costruzione di Aida ed i ritrovamenti storici dei primi progetti di cui è protagonista sono raccolti nell’album [<cite>Aida</cite>](https://images.tommi.space/index?/category/aida 'Immagini di Aida').
