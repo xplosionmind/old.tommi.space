@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-06-15T18:11:54.780875+02:00
+updated: 2021-06-20T21:55:16.623415+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -17,53 +17,54 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Roadmap
 
+1. Clean, lighten and simplify the stylesheet
+	- box padding
+	- use `+` and `~` for titles in boxes
+	- article width and full-width images
+	- remove unused classes
 1. Configure and implement [[Indie Web]]
 	- Note in footer that this website supports Webmentions
-1. Configure and implement [ActivityPub]
+2. Configure and implement [ActivityPub]
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
-1. Fast, simple and light full text search
+3. Fast, simple and light full text search
 	- [Lunr](https://lunrjs.com "Lunr")
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "jekyll-lunr on GitHub")
 	- [Stork](https://stork-search.net/ "Stork search")
 		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork "jekyll-stork plugin")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
-1. Remove JavaScript
+4. Remove JavaScript
 	- CSS only [responsive menu](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 'Responsive, Pure CSS Off-Canvas Hamburger Menu')
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle') - 2021-06-15 <b class="bug">bug</b>: if `input` is before `body`, it is automatically moved inside by the browser
-1. Check if HTML minification is working
-2. [[Timeline development]]
-3. Add RSS feed of [[Internet Awesomeness]]
-5. [[The Jam]]: [Notes graph](https://github.com/manunamz/jekyll-wikilinks) visualization
-4. [[The Jam]]: Preview a note when hovering on link
-6. Full width images in posts
-7. Movies list integration
+7. Add RSS feed of [[Internet Awesomeness]]
+8. [[The Jam]]: [Notes graph](https://github.com/manunamz/jekyll-wikilinks#d3-graph-data 'd3 graph data for jekyl-wikilinks on GitHub') visualization
+9. [[The Jam]]: Preview a note when hovering on link
+10. Full width images in posts
+11. Movies list integration
 	- <https://www.themoviedb.org/documentation/api/discover>
 	- <https://developers.themoviedb.org/3/getting-started/introduction>
 	- <https://developers.themoviedb.org/3/configuration/get-api-configuration>
 	- <https://developer.imdb.com/documentation/data-dictionary/names>
 	- <https://www.themoviedb.org/settings/api/new/form?type=developer>
-8. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
-9. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
-10. Use typographic animations
-	- [AxisPraxis’ Zycon](https://www.axis-praxis.org/specimens/zycon "Zycon")
-	- [Anicons](https://typogram.github.io/Anicons/ "Anicons")
-11. Fetch images previews to complete external links and preferences
+13. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
+15. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
-12. Give a consistent framework to all lists [[CSVfy]]
-13. Study Blogger’s `<head>` to improve SEO
-14. Join WebRings
+16. Give a consistent framework to all lists [[CSVfy]]
+12. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
+17. Study Blogger’s `<head>` to improve SEO
+18. Join WebRings
 	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub") ✅ 2021-05-25
 	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring")
-15. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
-17. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
-18. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
-19. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-20. A script to check overlapping permalinks
-22. Make [[Permanent HTML]]
-23. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
-1. Set a `.onion` address
+6. [[Timeline development]]
+22. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+23. A script to check overlapping permalinks
+19. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
+20. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
+21. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
+24. Make [[Permanent HTML]]
+25. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
+26. Set a `.onion` address
 
 <ul>
 {% for p in site.pages %}
@@ -92,6 +93,9 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 
 ### Further ideas
 
+- Use typographic animations
+	- [AxisPraxis’ Zycon](https://www.axis-praxis.org/specimens/zycon "Zycon")
+	- [Anicons](https://typogram.github.io/Anicons/ "Anicons")
 - Use [jekyll-auth](https://github.com/benbalter/jekyll-auth/ "jekyll-auth on GitHub") to limit content availability
 - Figure out [jekyll-hardlinks](https://0xacab.org/sutty/jekyll/jekyll-hardlinks "jekyll-hardlinks source code")
 - [Generative Art](https://generativeartistry.com "Generative artistry")
@@ -141,7 +145,6 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 - tags description and link to stuff
 - Check the OpenStreetMap API and figure out a way to implement [[Around the world|Places]] in a map interface, integrating it with [[Timeline development|Timeline]] ✅ 2021.04.13
 - checkbox styling
-- CSS cleanup
 - CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
 - cursor styling
 - final header configuration
@@ -195,7 +198,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 - **Sorting** and **filtering** using JavaScript ✅ 2021.01.29
 - *[[Tutto|stuff extended]]*
 - SVG buttons
-- Switch to **SCSS** for styling
+- Switch to **SCSS**
 - Switch to [variable fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide "Variable fonts guide on MDN") ✅ 2021.04.28
 	- [How to prepare and use variable fonts on the web](https://thetrevorharmon.com/blog/how-to-prepare-and-use-variable-fonts-on-the-web "How to prepare and use variable fonts on the web \| The Trevor Harmon") by [Trevor Harmon](https://thetrevorharmon.com/ "Trevor Harmon")
 	- [Creating a subset font](https://michaeljherold.com/articles/creating-a-subset-font/ "Creating a subset font") by [Michael Herold](https://michaeljherold.com/ "Michael Herold")

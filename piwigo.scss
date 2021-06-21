@@ -1,6 +1,8 @@
 ---
 ---
 @import "../_sass/root";
+@import "../_sass/inter";
+@import "../_sass/ubuntu-mono";
 
 body {
 	--background: var(--black-ish);
@@ -13,10 +15,10 @@ body {
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
 	--shadow: 5px 5px 20px #000000FF, -5px -5px 20px #FFFFFF22;
-	--little-shadow: 2px 2px 3px #000000FF, -2px -2px 3px #FFFFFF22;
-	--button-shadow: 3px 3px 8px #000000BB, -3px -3px 8px #FFFFFF22;
-	--inner-shadow: inset 3px 3px 5px #00000088, inset -3px -3px 5px #FFFFFF22;
-	--inner-little-shadow: inset 2px 2px 3px #000000AA, inset -2px -2px 3px #FFFFFF11;
+	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFFFFF22;
+	--button-shadow: inset 2px 2px 4px #FFF8, inset -2px -2px 4px #0008;
+	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF2;
+	--inner-little-shadow: inset 2px 2px 3px #000A, inset -2px -2px 3px #FFF1;
 
 	transition: var(--trans);
 
@@ -182,7 +184,6 @@ input {
 	border-radius: $radius-s;
 	background: var(--deep);
 	color: var(--text);
-	box-shadow: var(--inner-shadow);
 	padding: 2px $small;
 }
 
