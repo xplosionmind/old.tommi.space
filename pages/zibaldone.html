@@ -6,34 +6,35 @@ pagination:
   enabled: true
   permalink: '/:num/'
 ---
-<div id="feed" class="one column">
-	<div class="page-header row">
+<div class="page-header row">
+	<div class="one column">
 		<h1>Zibaldone</h1>
 		<p>Poco a che vedere con la saggezza e la serietà dell’omonimo leopardiano, qui un po’ più di allegria e stupidaggini.</p>
 		<p>Dall’enciclopedia Treccani, <a href="http://treccani.it/vocabolario/zibaldone/"  target="_blank">żibaldóne</a>: […] <cite>Scartafaccio in cui si annotano, senza ordine e man mano che capitano, notizie, appunti, riflessioni, estratti di letture, schemi, abbozzi, ecc.</cite></p>
 		<p>Esattamente quello.</p>
 	</div>
+</div>
 
-	{% include filter-lang.html %}
-
-	{% include tags.html %}
-
+<div class="row">
+	<div class="two-thirds column">
+		{% include tags.html %}
+	</div>
+	<div class="one-third column">
+		{% include filter-lang.html %}
+	</div>
+</div>
+	
+<div class="row">
 	{% for post in paginator.posts %}
-		<div class="row">
+		<div class="one-third column">
 			<a href="{{ post.url }}" hreflang="{{ post.lang }}" lang="{{ post.lang }}">
-				<div class="post-preview box">
-					<div class="row">
-						<div class="one-fourth column">
-							<img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" />
-						</div>
-						<div class="three-fourths column">
-							<h2>{{ post.title }}</h2>
-							<p class="date"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time></p>
-							<cite class="excerpt">
-								{{ post.excerpt | strip_html | truncatewords: 50 }}
-							</cite>
-						</div>
-					</div>
+				<div class="box">
+					<img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" />
+					<h2>{{ post.title }}</h2>
+					<p class="date"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time></p>
+					<cite class="excerpt">
+						{{ post.excerpt | strip_html | truncatewords: 50 }}
+					</cite>
 					<div class="flex">
 						{% for tagg in site.data.tags %}
 							{% for present in post.tags %}
@@ -49,7 +50,6 @@ pagination:
 			</a>
 		</div>
 	{% endfor %}
-
-	{% include pages.html %}
-
 </div>
+
+{% include pages.html %}

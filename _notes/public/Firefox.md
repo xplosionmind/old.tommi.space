@@ -9,9 +9,9 @@ redirect_from: ['/firefox-tweaks', '/firefox-settings', '/mozilla-firefox', '/ab
 
 Three different add-ons configurations can be found in my [Firefox Collections](https://addons.mozilla.org/en-US/firefox/collections/13538650 'Tommi’s Firefox Collections'):
 
-- **[minimal](https://addons.mozilla.org/en-US/firefox/collections/13538650/minimal/ '“minimal” extensions collection') configuration**, must-have add-ons for a safe and optimized browsing experience
-- **[main](https://addons.mozilla.org/en-US/firefox/collections/13538650/main/ '“main” extensions collection') configuration**, the main extensions I use + integrated tools to take advantage of the services I use in the best way possible. The main configuration extensions are noted in more detail below, too, but the collection is always up to date
-- **[super](https://addons.mozilla.org/en-US/firefox/collections/13538650/super/ '“super” extensions collection - Firefox AddOns') configuration**, extra add-ons to enjoy all the bells and whistles extensions can offer
+- [minimal](https://addons.mozilla.org/en-US/firefox/collections/13538650/minimal/ '“minimal” extensions collection') configuration: must-have add-ons for a safe and optimized browsing experience
+- [main](https://addons.mozilla.org/en-US/firefox/collections/13538650/main/ '“main” extensions collection') configuration: the main extensions I use + integrated tools to take advantage of the services I use in the best way possible.
+- [super](https://addons.mozilla.org/en-US/firefox/collections/13538650/super/ '“super” extensions collection - Firefox AddOns') configuration, extra add-ons to enjoy all the bells and whistles extensions can offer
 
 <br>
 <br>
@@ -27,9 +27,9 @@ Standard shortcuts are in [Firefox shortcuts](https://support.mozilla.org/en-US/
 
 ## Missing
 
-Even though Firefox is my go-to browser and I absolutely love it, it lacks some features which I really miss and I keep track of them below:
+Even though Firefox is my go-to browser and I absolutely love it, it lacks some features which I really miss. I keep track of them below:
 
-- Easy and quick site-specific tracking, fingerprinting and cookies settings
+- Easy and quick site-specific tracking, fingerprinting and cookies settings (Like in [[Brave]])
 
 <br>
 <br>

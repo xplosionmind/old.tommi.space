@@ -19,52 +19,53 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 
 1. Clean, lighten and simplify the stylesheet
 	- box padding
-	- use `+` and `~` for titles in boxes
 	- article width and full-width images
 	- remove unused classes
-1. Configure and implement [[Indie Web]]
+1. Clean Piwigo stylesheet
+	1. Links colors
+2. Configure and implement [[Indie Web]]
 	- Note in footer that this website supports Webmentions
-2. Configure and implement [ActivityPub]
+3. Configure and implement [ActivityPub]
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
-3. Fast, simple and light full text search
+4. Fast, simple and light full text search
 	- [Lunr](https://lunrjs.com "Lunr")
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "jekyll-lunr on GitHub")
 	- [Stork](https://stork-search.net/ "Stork search")
 		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork "jekyll-stork plugin")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
-4. Remove JavaScript
+5. Remove JavaScript
 	- CSS only [responsive menu](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 'Responsive, Pure CSS Off-Canvas Hamburger Menu')
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle') - 2021-06-15 <b class="bug">bug</b>: if `input` is before `body`, it is automatically moved inside by the browser
-7. Add RSS feed of [[Internet Awesomeness]]
-8. [[The Jam]]: [Notes graph](https://github.com/manunamz/jekyll-wikilinks#d3-graph-data 'd3 graph data for jekyl-wikilinks on GitHub') visualization
-9. [[The Jam]]: Preview a note when hovering on link
-10. Full width images in posts
-11. Movies list integration
+6. Add RSS feed of [[Internet Awesomeness]]
+7. [[The Jam]]: [Notes graph](https://github.com/manunamz/jekyll-wikilinks#d3-graph-data 'd3 graph data for jekyl-wikilinks on GitHub') visualization
+8. [[The Jam]]: Preview a note when hovering on link
+9. Full width images in posts
+10. Movies list integration
 	- <https://www.themoviedb.org/documentation/api/discover>
 	- <https://developers.themoviedb.org/3/getting-started/introduction>
 	- <https://developers.themoviedb.org/3/configuration/get-api-configuration>
 	- <https://developer.imdb.com/documentation/data-dictionary/names>
 	- <https://www.themoviedb.org/settings/api/new/form?type=developer>
-13. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
-15. Fetch images previews to complete external links and preferences
+11. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
+12. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
-16. Give a consistent framework to all lists [[CSVfy]]
-12. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
-17. Study Blogger’s `<head>` to improve SEO
-18. Join WebRings
+13. Give a consistent framework to all lists [[CSVfy]]
+14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
+15. Study Blogger’s `<head>` to improve SEO
+16. Join WebRings
 	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub") ✅ 2021-05-25
 	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring")
-6. [[Timeline development]]
-22. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-23. A script to check overlapping permalinks
-19. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
-20. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
-21. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
-24. Make [[Permanent HTML]]
-25. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
-26. Set a `.onion` address
+17. [[Timeline development]]
+18. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+19. A script to check overlapping permalinks
+20. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
+21. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
+22. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
+23. Make [[Permanent HTML]]
+24. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
+25. Set a `.onion` address
 
 <ul>
 {% for p in site.pages %}

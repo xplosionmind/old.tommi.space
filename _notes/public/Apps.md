@@ -22,7 +22,7 @@ todo:
 
 Right now on my [MacBook Pro 13" 2019](https://support.apple.com/kb/SP799?locale=en_US&viewlocale=en_US "MacBook Pro 13\" 2019 tech specs"):
 
-<ul>{% for app in macosapps %}<li><a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}</li>{% endfor %}</ul>
+<ul>{% for app in macosapps %}{% unless app.remember == '1' or app.uninstalled %}<li><a href="{{ app.url }}" target="_blank" title="{{ app.name }}{{ app.title }}">{{ app.name }}</a>, {{ app.description }}</li>{% endunless %}{% endfor %}</ul>
 
 <br>
 

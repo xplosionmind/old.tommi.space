@@ -3,7 +3,8 @@
 		<a href="{% if page.lang == 'it' %}/tuffo{% else %}/home{% endif %}" title="home">Tommi Space</a>
 	</div>
 	<nav>
-		<a class="nav-mobile" href="javascript:void(0);" onclick="navtoggle()"><span></span></a>
+		<label class="nav-mobile" for="menutoggle"><span></span></label>
+		<input type="checkbox" id="menutoggle">
 		<ul class="nav-list">
 			<li>{% if page.lang == 'it' %}<a href="/about-it" title="Chi sono">Io{% else %}<a href="/about" title="About me">About{% endif %}</a></li>
 			<li>{% if page.lang == 'it' %}<a href="/ora" title="Ciò che sto facendo">Ora{% else %}<a href="/now" title="What I am doing">Now{% endif %}</a></li>
@@ -12,8 +13,10 @@
 			<li>{% if page.lang == 'it' %}<a href="/cose" title="cose">Cose{% else %}<a href="/stuff" title="Stuff">Stuff{% endif %}</a></li>
 			<li>{% if page.lang == 'it' %}<a href="/marmellata" title="La Marmellata">Marmellata{% else %}<a href="/jam" title="The Jam">The Jam{% endif %}</a></li>
 			{% unless page.ref == nil %}
-				<li id="language-selector" class="dropdown"><a onclick="langdropdown()" href="javascript:void(0);" title="language selector">🌍</a>
-				<ul class="dropdown-content">
+				<li class="dropdown">
+					<label for="langtoggle" title="language selector">🌍</label>
+					<input type="checkbox" id="langtoggle">
+				<ul class="lang-list">
 					{% for cosa in site.pages %}
 					{% if cosa.ref == page.ref %}
 						<li>
@@ -58,21 +61,4 @@
 	</nav>
 </header>
 
-<script>
-function navtoggle() {
-	var x = document.getElementById("nav");
-	if (x.className === "nav") {
-		x.className += " open-menu";
-	} else {
-		x.className = "nav";
-	}
-}
-function langdropdown() {
-	var x = document.getElementById("language-selector");
-	if (x.className === "dropdown") {
-		x.className += " open-menu";
-	} else {
-		x.className = "dropdown";
-	}
-}
 </script>

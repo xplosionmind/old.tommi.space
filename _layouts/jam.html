@@ -70,9 +70,20 @@ layout: wrapper
 			{% include anchor-parser.html html=content anchorBody="#" anchorClass="anchor" %}
 		</article>
 
-		{% include backlinks.html %}
-		{% include share.html %}
-		{% include comments.html %}
+	</div>
+</div>
 
+<div class="row">
+	<div class="one column">
+		{% include backlinks.html %}
+	</div>
+</div>
+
+<div class="row">
+	<div class="half column">
+		{% include share.html %}
+	</div>
+	<div class="half column">
+		{% include comments.html %}
 	</div>
 </div>

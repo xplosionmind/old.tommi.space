@@ -98,7 +98,9 @@ body {
 	box-sizing: inherit;
 }
 
-.themetoggle {
+.themetoggle,
+#menutoggle,
+#langtoggle {
 	display: none;
 }
 
@@ -143,7 +145,6 @@ a {
 	&:hover,
 	&:focus {
 		.title {
-			text-shadow: var(--title-shadow-hover);
 			color: var(--text);
 		}
 	}
@@ -164,7 +165,8 @@ a,
 button,
 .button,
 .aa-suggestion,
-.embed-container {
+.embed-container,
+label {
 	cursor: url({{ site.logos }}/cursor-hover.svg) 16 16, pointer;
 }
 
@@ -190,7 +192,7 @@ input[type="email"] {
 	background: var(--background);
 	color: var(--text);
 	border-radius: $radius-s;
-	box-shadow: var(--inner-shadow);
+	border: solid 2px var(--text);
 	padding: $small $regular;
 	font-size: $bigger;
 	max-width: 100%;
@@ -268,31 +270,8 @@ input.button {
 			margin-top: 15%;
 			border-radius: 3px;
 			box-shadow: var(--little-shadow);
-			min-height: 80%;
-		}
-		&:hover {
-			.popup {
-				display: block;
-			}
 		}
 	}
-	.fake-book-cover {
-		height: 95%;
-		padding: 20% 2px 0;
-	}
-}
-
-.popup {
-	display: none;
-	position: fixed;
-	padding: $twice;
-	top: 10vh;
-	left: 20vw;
-	width: 60vw;
-	background: var(--background);
-	border-radius: $radius-l;
-	box-shadow: var(--shadow);
-	color: var(--text) !important;
 }
 
 li {
@@ -330,15 +309,12 @@ li {
 	}
 }
 
-@supports (initial-letter: 5) or (-webkit-initial-letter: 5) {
-	.post > p:first-of-type::first-letter {
+.post {
+	& > p:first-of-type::first-letter {
 		initial-letter: 4;
 		-webkit-initial-letter: 4;
 		font-weight: bolder;
 	}
-}
-
-.post {
 	.embed-container {
 		border-radius: $radius-l;
 		box-shadow: var(--shadow);
@@ -361,23 +337,11 @@ li {
 }
 
 hr {
-	/*color: transparent; /* unsupported in Safari */
-	/*border-top: 7px dotted var(--grey); */
 	width: 30%;
-}
-
-.background {
-	background: var(--background) !important;
-	color: var(--text) !important;
 }
 
 .page-header {
 	margin-top: 10vh;
-	h1 {
-		font-size: $mastodon;
-		margin: 0;
-		text-shadow: var(--header-shadow);
-	}
 	h2 {
 		margin-top: 0;
 		text-transform: none;
@@ -401,7 +365,6 @@ pre {
 	overflow-x: scroll;
 	padding: $regular;
 	border-radius: $radius-m;
-	box-shadow: var(--inner-shadow);
 	scrollbar-width: none;
 	code {
 		padding: 0;
@@ -449,8 +412,6 @@ tr {
 
 th {
 	padding: $small $regular-less;
-
-	/* making the header sticky */
 	position: sticky;
 	top: 0;
 	background: var(--background);
@@ -465,7 +426,7 @@ td {
 	max-height: 90vh;
 	overflow: scroll;
 	margin: $height 3vw;
-	border: 3px solid var(--grey);
+	border: 3px solid var(--text);
 	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	table {
@@ -619,8 +580,7 @@ h1, h2, h3, h4, h5, h6 {
 	.anchor {
 		opacity: 0;
 	}
-	&:not(.title):hover {
-		text-shadow: var(--header-shadow);
+	&:hover {
 		.anchor {
 			opacity: 1;
 		}
@@ -628,20 +588,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-	font-weight: 800;
-	letter-spacing: .1em;
 	font-size: $twice;
 	color: transparent;
-	margin: $regular auto;
 	text-shadow: var(--title-shadow);
-	text-align: center;
-	transition: var(--quicktrans);
 }
 
 h1 {
+	font-size: $mastodon;
 	color: var(--text);
 	text-align: center;
-	font-size: $height;
+	margin: 0;
+	text-shadow: var(--header-shadow);
 	&:hover {
 		transform: rotate(-3deg);
 	}
@@ -687,9 +644,10 @@ h3 {
 	h4 {
 		margin: 0;
 	}
-	li {
-		margin: $regular-less 10% 0;
-	}
+}
+
+h2 + img {
+	margin-bottom: $regular-less;
 }
 
 .tags {
@@ -701,25 +659,11 @@ h3 {
 }
 
 #toc {
-	overflow-x: scroll;
 	h3 {
 		margin-bottom: 0;
 	}
 	li {
 		margin-bottom: unset;
-	}
-}
-
-.stuff {
-	padding: 4vw 2vw;
-	margin: $height 3vw;
-	border-radius: $radius-l;
-	box-shadow: var(--shadow);
-	.serif {
-		margin: 0 5%;
-	}
-	.column {
-		padding: 0 2vw;
 	}
 }
 
@@ -731,24 +675,9 @@ h3 {
 	}
 }
 
-article .box,
-.stuff {
+article .box {
 	p {
 		margin: $regular 10%;
-	}
-}
-
-.post-preview {
-	width: auto;
-	margin-top: $regular-less;
-	margin-bottom: $regular-less;
-	padding: $small;
-	justify-content: space-between;
-	.date {
-		margin: 0 $regular;
-	}
-	img {
-		max-height: 24vh;
 	}
 }
 
@@ -796,13 +725,11 @@ footer {
 	}
 }
 
-audio {
+audio,
+.controlBar {
 	width: 100%;
 	box-shadow: var(--shadow);
-}
-
-.controlBar {
-	background: none !important;
+	border-radius: $radius-m;
 }
 
 .icon {
@@ -1039,14 +966,6 @@ button,
 	.line {
 		width: 20%;
 	}
-	.post-preview {
-		h2 {
-			margin-top: $regular-less;
-		}
-		img {
-			max-height: unset;
-		}
-	}
 	.grid .box {
 		margin: 0 3%;
 		height: unset;
@@ -1086,6 +1005,12 @@ button,
 @media only screen and (min-width: 950px) {
 	.post {
 		padding: 8vh 12vw 15vh;
+	}
+	.box .column {
+		p,
+		li {
+			margin: $regular 10%;
+		}
 	}
 	ul.two,
 	ol.two {

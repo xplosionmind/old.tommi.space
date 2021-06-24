@@ -22,7 +22,7 @@ Rock’n’roll!
   method="post"
   target="popupwindow"
   onsubmit="window.open('https://buttondown.email/tommi', 'popupwindow')"
-  class="embeddable-buttondown-form"
+  class="flex"
 >
   <input type="email" placeholder="scrivi qui la tua email" name="email" id="bd-email" />
   <input type="hidden" value="1" name="embed" />

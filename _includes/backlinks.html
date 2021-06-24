@@ -21,7 +21,7 @@
 			{% capture current_url_downcase %}{{ page.url | downcase }}{% endcapture %}
 
 			{% for entry in site.pages %}
-				{% unless entry.url contains '.json' or entry.url contains '.csv' or entry.url contains '.css' or entry contains '.txt' or entry.url contains 'home' or entry.url contains 'tuffo' or entry.url contains 'marmellata' or entry.url contains 'jam' %}
+				{% unless entry.url contains '.json' or entry.url contains '.csv' or entry.url contains '.css' or entry contains '.txt' or entry.url contains 'home' or entry.url contains 'tuffo' or entry.url contains 'marmellata' or entry.url contains 'jam' or entry.url == page.url %}
 					{% if entry.content contains page.url or entry.content contains current_url_downcase %}
 						<li>
 							<a href="{{ entry.url }}">{{ entry.title }}</a>

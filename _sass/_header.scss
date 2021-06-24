@@ -53,7 +53,8 @@ nav {
 		li {
 			float: left;
 			margin: 0;
-			a {
+			a,
+			label {
 				display: block;
 				color: var(--text) !important;
 				line-height: $height;
@@ -79,7 +80,7 @@ nav {
 	}
 }
 
-.dropdown-content {
+.lang-list {
 	display: none;
 	position: absolute;
 	margin-top: $small;
@@ -88,7 +89,6 @@ nav {
 	box-shadow: var(--shadow);
 }
 
-/* Mobile nav */
 .nav-mobile {
 	display: none;
 	height: $height;
@@ -145,12 +145,12 @@ nav {
 	}
 }
 
-.open-menu {
-	.nav-list {
+#menutoggle:checked {
+	& + .nav-list {
 		right: 3vh;
 		transition: .5s;
 	}
-	 .nav-mobile span {
+	& ~ .nav-mobile span {
 		background: transparent;
 		box-shadow: none;
 		&::before,
@@ -167,10 +167,8 @@ nav {
 	}
 }
 
-.dropdown.open-menu {
-	.dropdown-content {
-		display: block;
-	}
+#langtoggle:checked + .lang-list {
+	display: block;
 }
 
 .theme-toggle {

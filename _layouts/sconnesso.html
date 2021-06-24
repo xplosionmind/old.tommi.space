@@ -23,9 +23,23 @@ layout: wrapper
 		</article>
 	</div>
 
-	{% include post-tags.html %}
-	{% include share.html %}
-	{% include listen-on.html %}
-	{% include comments.html %}
-
 </div>
+
+<div class="row">
+	<div class="half column">
+		{% include share.html %}
+	</div>
+	<div class="half column">
+		{% include listen-on.html %}
+	</div>
+</div>
+
+<div class="row">
+	<div class="half column">
+		{% include backlinks.html %}
+	</div>
+	<div class="half column">
+		{% include comments.html %}
+	</div>
+</div>
+

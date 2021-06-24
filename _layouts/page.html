@@ -1,10 +1,12 @@
 ---
 layout: wrapper
 ---
-<div class="one column">
-	<div class="page-header row">
-		<h1>{{ page.title }}</h1>
-		{% if page.description != nil %}<p>{{ page.description | markdownify }}</p>{% endif %}
+<div class="row page-header">
+	<div class="one column">
+		<a class="u-uid u-url" href="{{ page.url | absolute_url }}"><h1 class="p-name">{{ page.title }}</h1></a>
+		{% if page.subtitle %}
+			<h2>{{ page.subtitle }}</h2>
+		{% endif %}
 	</div>
 
 	<div class="row">

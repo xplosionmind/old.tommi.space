@@ -1,0 +1,7 @@
+- Incaricometro
+	- fede
+	- animazione
+	- pulizia
+	- VEDERE QUELLO IN TANA
+- Sentire Kaa per uscita
+- Nonna per porta-mascherine

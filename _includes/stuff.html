@@ -1,7 +1,7 @@
 {% assign stuff = site.data.stuff | sort: 'current' %}
 {% for thing in stuff %}
 	{% if page.lang == 'it' %}
-		<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
+		<div class="box row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
 			<div class="half column vertical flex">
 				<img src="{{ site.images }}/stuff/{{ thing.title | slugify }}.jpg" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
 			</div>
@@ -12,7 +12,7 @@
 			</div>
 		</div>
 	{% else %}
-		<div class="stuff row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
+		<div class="box row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
 			<div class="half column vertical flex">
 				<img src="{{ site.images }}/stuff/{{ thing.title | slugify }}.jpg" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
 			</div>
