@@ -7,6 +7,7 @@
 @import "../_sass/ubuntu-mono";
 @import "../_sass/links-emojis";
 @import "../_sass/eb-garamond";
+@import "../_sass/jam-graph";
 
 html {
 	box-sizing: border-box;
@@ -40,7 +41,7 @@ body {
 	--button-shadow: inset 2px 2px 4px #FFF8, inset -2px -2px 4px #0008;
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF2;
 	--inner-little-shadow: inset 2px 2px 3px #000A, inset -2px -2px 3px #FFF1;
-	--header-shadow: 5px 5px 15px #000D, -5px -5px 15px #FFF2;
+	--header-shadow: 5px 5px 15px #000B, -5px -5px 15px #FFF3;
 
 	--title-shadow: -3px -3px 0px var(--text), -3px -2px 1px var(--grey), -2px -3px 1px var(--grey), -2px -2px 0px var(--grey), -1px -1px 0px var(--grey), 0px 0px 0px var(--grey);
 
