@@ -113,7 +113,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-paginate-v2
 #  - jekyll-stork
-#  - jekyll-wikilinks
+  - jekyll-wikilinks
 #  - jekyll-commonmark
 
 sass:

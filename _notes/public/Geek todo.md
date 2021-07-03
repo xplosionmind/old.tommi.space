@@ -10,7 +10,6 @@ description: 'Computer related tasks tracking'
 1. Defining a threat model
 2. `man mail`
 3. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
-4. Add to Wallabag from URL: `https://inputs.tommi.space/?action=add&url=ENCODED_URL`
 5. TMpi
 	1. [Pi-hole](https://pi-hole.net 'Network-wide Ad Blocking')
 	2. [Photoprism](https://docs.photoprism.org/getting-started/raspberry-pi/ 'Running PhotoPrism on a Raspberry Pi') (or on [[Linuxplosion]])

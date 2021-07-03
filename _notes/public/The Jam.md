@@ -24,11 +24,14 @@ Every single element in The Jam is connected to at least another one: at the end
 
 {% include tags.html %}
 
-<div class="flex row">
-	<a class="red button" style="color:white;" href="/whole-jam"  target="_blank" title="The Whole Jam">The Whole Jam</a>
+<div class="row">
+	<div class="half column">
+		{% include filter-lang.html %}
+	</div>
+	<div class="half column flex">
+		<a class="red button" style="color:white;" href="/whole-jam"  target="_blank" title="The Whole Jam">The whole Jam</a>
+	</div>
 </div>
-
-{% include filter-lang.html %}
 
 <ul>
 	{% assign jam = site.notes | where: 'main', 'true' %}

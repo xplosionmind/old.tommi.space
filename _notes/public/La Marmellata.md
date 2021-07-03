@@ -22,11 +22,14 @@ Ogni elemento della Marmellata è connesso ad un altro: in fondo ad ogni nota, f
 
 {% include tags.html %}
 
-<div class="flex row">
-	<a class="red button" style="color:white;" href="/whole-jam"  target="_blank" title="The Whole Jam">Tutte le note</a>
+<div class="row">
+	<div class="half column">
+		{% include filter-lang.html %}
+	</div>
+	<div class="half column flex">
+		<a class="red button" style="color:white;" href="/whole-jam"  target="_blank" title="The Whole Jam">Tutte le note</a>
+	</div>
 </div>
-
-{% include filter-lang.html %}
 
 <ul>
 	{% assign jam = site.notes | where: 'main', 'true' %}

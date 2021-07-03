@@ -1,6 +1,6 @@
 ---
 date: 2020-11-07
-updated: 2021-04-04T11:53:45.837519+02:00
+updated: 2021-07-03T13:10:51.558657+02:00
 tags: geek
 aliases: ["Quitting Spotify"]
 description: "Thoughts and decisions about quitting Spotify"
@@ -26,12 +26,14 @@ It is **very** hard, not only because it is convenient and easy to use, but most
 
 ## Why
 
-Reasons to quit Spotify
+Reasons to quit Spotify:
 
+- I strongly suggest you to read [the first comment](#comments) to this note.
 - [Criticism of Spotify](https://en.m.wikipedia.org/wiki/Criticism_of_Spotify "Criticism of Spotify") on Wikipedia
 - [RMS says this](https://stallman.org/spotify.html "Quit Spotify on Richard Stallman’s website")
 - It costs a lot, and it grants musicians only a tiny share of the overall revenue
-- I prefer not to be tracked and I'd prefer for my listening preferences not to be used for advertising purposes.
+- I prefer not to be tracked and I would prefer for my listening preferences not to be used for advertising purposes.
+- [Several notes and articles](https://www.are.na/sean/spotify-muzak 'spotify.muzak — Are.na')
 
 <br>
 
@@ -53,12 +55,20 @@ Reasons to quit Spotify
 	- [Radio4000](https://radio4000.com/ "R4000 official website")
 	- [Audius Music](https://audius.co/ "Audius Music official website") (not a valid standalone option, it has its own limited music selection)
 	- [Bandcamp](https://bandcamp.com "Bandcamp official website")
-	- [Soundcloud](https://soundcloud.com)
-	- [Open.Audio](https://open.audio)
-	- [Resonate](https://resonate.is)
+	- [Soundcloud](https://soundcloud.com 'Soundcloud')
+	- [Open.Audio](https://open.audio 'Open Audio')
+	- [Resonate](https://resonate.is 'Resonate')
 	- [YouTube](https://yewtu.be "Yewtube, a YouTube alternative client") (obviously from [an Invidious instance](https://github.com/iv-org/invidious "Invidious GitHub repository"))
 	- [FreeTube](https://freetubeapp.io "FreeTube"), open source and private desktop YouTube client
-	- **?**
+	- [Music in the Internet Archive](https://archive.org/details/audio_music 'Internet Archive Music')
+	- [Mixcloud](https://www.mixcloud.com/ 'Mixcloud')
+	- [Fluxblog](http://www.fluxblog.org/ 'Fluxblog')
+	- [Minna Kikeru](https://minnakikeru.com/ 'Minna Kikeru')
+	- [Fungjai](https://www.fungjai.com/ 'Fungjai')
+	- [ethnocloud](https://ethnocloud.com/ 'ethnocloud')
+	- [Microphones in the trees](https://calmintrees.blogspot.com/ 'calmintrees')
+	- [netlabelslist](https://www.clongclongmoo.org/labels/)
+	- [Said the Gramophone](https://www.saidthegramophone.com/ 'Said the Gramophone')
 1. Exporting liked songs?
 2. Importing liked songs in the new service?
 3. [Spotify account deletion consequences](https://community.spotify.com/t5/Spotify-Answers/How-do-I-close-my-Spotify-Account/ta-p/4663172 "How Do I close my Spotify Account - Spotify Support"):

@@ -16,22 +16,17 @@ header {
 }
 
 #home {
-	padding: 0 $regular;
+	color: var(--background);
+	padding: 0 $regular-less;
 	float: left;
 	line-height: $height; 
 	font-size: $bigger;
 	background: var(--primary);
 	box-shadow: var(--shadow);
 	transform: rotate(-8deg);
-	a {
-		color: var(--background);
-		&:hover,
-		&:focus {
-			color: white;
-		}
-	}
 	&:hover,
 	&:focus {
+		color: white;
 		background: var(--razzmatazz);
 		border-bottom: none;
 		transform: rotate(3deg);
@@ -43,16 +38,15 @@ nav {
 	text-align: right;
 	padding: 0 $small;
 	box-shadow: var(--shadow);
-	svg {
-		width: $bigger;
-		margin: $small;
+	background: var(--background);
+	* {
+		background: var(--background);
+		margin: 0 !important;
 	}
 	ul {
-		margin: 0;
 		padding: 0;
 		li {
 			float: left;
-			margin: 0;
 			a,
 			label {
 				display: block;
@@ -83,8 +77,6 @@ nav {
 .lang-list {
 	display: none;
 	position: absolute;
-	margin-top: $small;
-	background: var(--background);
 	overflow: scroll;
 	box-shadow: var(--shadow);
 }
@@ -96,7 +88,6 @@ nav {
 	position: absolute;
 	top: 3vh;
 	right: 3vh;
-	background: var(--background);
 	box-shadow: var(--shadow);
 	span {
 		top: 1.4rem;
@@ -134,11 +125,10 @@ nav {
 		position: fixed;
 		min-width: 50vw;
 		top: 5rem;
-		right: -500px;
-		background: var(--background);
+		right: -200px;
 		box-shadow: var(--shadow);
 		transition: .5s;
-		z-index: 1;
+		z-index: 9;
 	}
 	nav ul li {
 		float: none;

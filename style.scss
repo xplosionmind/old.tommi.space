@@ -11,13 +11,12 @@
 html {
 	box-sizing: border-box;
 	cursor: url({{ site.logos }}/cursor.svg) 16 16, crosshair;
-	background: var(--background);
 	scroll-behavior: smooth;
 }
 
 /* DARK THEME */
 body {
-	background: var(--background);
+	background: linear-gradient(-45deg,#111,#333);
 	color: var(--text);
 	margin: 0;
 	overflow-wrap: break-word;
@@ -55,6 +54,7 @@ body {
 
 /* LIGHT THEME */
 .light, .themetoggle:checked ~ body {
+	background: linear-gradient(-30deg,#E5EFF5,#FFF);
 	--background: #FFF;
 	--text: var(--black-ish);
 	--deep: white;
@@ -144,20 +144,14 @@ a {
 	color: var(--link);
 	&:hover,
 	&:focus {
-		.title {
-			color: var(--text);
-		}
-	}
-	.box {
-		&:hover {
-			box-shadow: none;
-		}
-		&:active {
-			box-shadow: var(--inner-shadow);
-		}
+		box-shadow: none;
+		text-shadow: none;
 	}
 	code {
 		color: var(--primary);
+	}
+	&.box:active {
+		box-shadow: var(--inner-shadow);
 	}
 }
 
@@ -222,7 +216,7 @@ input.button {
 }
 
 .flex {
-	display: flex;
+	display: flex !important;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
@@ -301,6 +295,20 @@ li {
 	height: $regular;
 }
 
+{% comment %}
+.cantiere {
+	min-width: 100vw;
+	overflow-x: hidden;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	transform: translateY(-$height);
+	path {
+		fill: var(--yellow);
+	}
+}
+{% endcomment %}
+
 .poetry,
 .serif {
 	font-family: var(--font-serif) !important; /* important to override default sans serif styling */
@@ -341,10 +349,9 @@ hr {
 }
 
 .page-header {
-	margin-top: 10vh;
+	margin-top: 8vh;
 	h2 {
 		margin-top: 0;
-		text-transform: none;
 		text-align: center;
 	}
 	p {
@@ -365,7 +372,7 @@ pre {
 	overflow-x: scroll;
 	padding: $regular;
 	border-radius: $radius-m;
-	scrollbar-width: none;
+	scrollbar-width: 0;
 	code {
 		padding: 0;
 		line-height: unset;
@@ -446,16 +453,13 @@ table {
 		margin-bottom: 0;
 		position: relative;
 		bottom: $regular;
+		text-shadow: none;
 	}
 	.button {
 		color: var(--white-ish);
 		background: var(--background);
 		margin: $tiny $regular-less;
 	}
-}
-
-.menu {
-	display: flex;
 }
 
 .one {
@@ -471,29 +475,8 @@ table {
 	width: calc(100% / 3);
 }
 
-.one-fourth {
-	width: 25%;
-}
-
 .two-thirds {
 	width: calc(100% / 3 * 2);
-}
-
-.one-fifth {
-	width: 20%;
-}
-
-.two-fifths {
-	width: 40%;
-}
-
-.four-fifths {
-	width: 80%;
-	text-align: left;
-}
-
-.three-fourths {
-	width: 75%;
 }
 
 .column {
@@ -512,6 +495,10 @@ img {
 	max-width: 100%;
 	display: block;
 	border-radius: $radius-l;
+	& + h2,
+	& + h3 {
+		margin-top: revert !important;
+	}
 }
 
 figure {
@@ -521,6 +508,13 @@ figure {
 		box-shadow: var(--shadow);
 		margin: 0 auto;
 	}
+}
+
+.full {
+	all: unset;
+	position: relative;
+	left: -30vw;
+	width: 100vw;
 }
 
 figcaption {
@@ -565,7 +559,7 @@ b {
 article {
 	font-size: $regular-more;
 	padding: 8vh 5vw 15vh;
-	.box {
+	& > .box {
 		margin: $bigger 0;
 	}
 }
@@ -619,10 +613,12 @@ h3 {
 }
 
 .box {
+	display: block;
+	background: var(--background);
 	max-width: 100%;
 	color: var(--text);
 	padding: $big;
-	margin: $bigger 3%;
+	margin: $regular-less 3%;
 	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	&.little {
@@ -646,12 +642,8 @@ h3 {
 	}
 }
 
-h2 + img {
-	margin-bottom: $regular-less;
-}
-
 .tags {
-	padding: $big $tiny;
+	padding: $small $tiny;
 	.flex {
 		max-height: 30vh;
 		overflow: scroll;
@@ -672,12 +664,6 @@ h2 + img {
 	bottom: -15rem;
 	&:hover {
 		bottom: 0;
-	}
-}
-
-article .box {
-	p {
-		margin: $regular 10%;
 	}
 }
 
@@ -946,14 +932,9 @@ button,
 /* mobile display - responsive design */
 @media only screen and (max-width: 950px) {
 	.one,
-	.one-third,
-	.two-thirds,
-	.one-fourth,
-	.three-fourths,
 	.half,
-	.two-fifths,
-	.four-fifths,
-	.one-fifth {
+	.one-third,
+	.two-thirds {
 		width: 100%;
 		margin: 0;
 	}
@@ -999,6 +980,9 @@ button,
 	}
 	#toc {
 		margin-left: $regular;
+	}
+	.full {
+		left: -5vw;
 	}
 }
 

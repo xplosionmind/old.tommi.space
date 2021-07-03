@@ -55,5 +55,5 @@ group :jekyll_plugins do
 #  gem "jekyll-auto-image"
 #  gem "premonition"
 #  gem "jekyll-stork"
-#  gem "jekyll-wikilinks"
+  gem "jekyll-wikilinks"
 end
