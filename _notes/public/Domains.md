@@ -6,7 +6,7 @@ redirect_from: ["/websites-ideas", "/philosophy-websites", "/lifestyle-websites"
 toc: false
 description: "Cool domains ideas"
 ---
-- **TMI**: **T**oo **M**uch **I**nformation, or **T**o**m**m**i**
+- [[T.M.I.|TMI]]: **T**oo **M**uch **I**nformation, or **T**o**m**m**i**
 	- **`tmi.*`**
 - [[The Slot Philosophy]]
 	- `time.slots` (not existing TLD)

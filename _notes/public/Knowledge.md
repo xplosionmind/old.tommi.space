@@ -43,6 +43,7 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [Build your own x](https://github.com/danistefanovic/build-your-own-x 'build-your-own-x'), a GitHub repository collecting resources to build your own digital tools.
 - [app-ideas](https://github.com/florinpop17/app-ideas 'app-ideas on GitHub'), application ideas which can be used to improve one’s own coding skills.
 - [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit 'Best-websites-a-programmer-should-visit on GitHub')
+- [Developer Roadmap](https://roadmap.sh/ 'Developer roadmap'), set of steps to become a developer
 
 <br>
 

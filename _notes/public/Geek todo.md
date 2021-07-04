@@ -34,6 +34,7 @@ description: 'Computer related tasks tracking'
 	- format
 	- readability
 	- can they be stored in pure plain text?
+1. Better health integration with Shortcuts
 15. Update [[Storage|Backup]] and [[Backup checklist]] and add the roadmap to import iOS pictures in MacOS
 16. Sistemare [[To listen]] e trovare soluzione definitiva per [[Quit Spotify]]
 17. cross-environment **tag integration**

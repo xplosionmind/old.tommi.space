@@ -44,13 +44,13 @@ The following list follows an alphabetical order.
 
 Photography websites deserve a dedicated section, since their content takes up more than in other type of websites
 
-- [Antonio Masiello](https://antoniomasiello.portfoliobox.net/)
+- [Antonio Masiello](https://antoniomasiello.portfoliobox.net/ 'Antonio Masiello’s portfolio')
 
 <br>
 
 ## Awards
 
-Websites which award other websites for their design, usability, creativity and responsiveness
+Websites which award other websites for their design, usability, creativity and responsiveness:
 
 - [Awwwards](https://www.awwwards.com/)
 - [WebDesign Inspiration](https://www.webdesign-inspiration.com)
@@ -60,4 +60,4 @@ Websites which award other websites for their design, usability, creativity and 
 
 ## Various
 
-Websites that are not here because of one of the reasons at the top, but I don’t want to forget them. I created [Internet awesomeness](https://t.me/internet_awesomeness "Internet Awesomeness on Telegram"), a telegram channel containing every more or less useful website I stumble upon.
+Websites that are not here because of one of the reasons at the top, but I do not want to forget them. I created [Internet awesomeness](https://t.me/internet_awesomeness "Internet Awesomeness on Telegram"), a telegram channel containing every more or less useful website I stumble upon.

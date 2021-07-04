@@ -79,7 +79,7 @@ GEM
       nokogiri (~> 1.10)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll-wikilinks (0.0.4)
+    jekyll-wikilinks (0.0.5)
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)

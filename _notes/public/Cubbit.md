@@ -22,8 +22,9 @@ toc: false
 0. Waiting for the whole Cubbit source to be made open
 1. Moving and copying files on the web app
 1. Improved photos management
-	- albums and tags?
+	- albums support
 2. WebDAV support
+1. File tagging
 3. Collaborative editing of documents
 4. Customization
 	- using a custom domain

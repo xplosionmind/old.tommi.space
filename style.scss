@@ -201,19 +201,9 @@ input.button {
 	border: none;
 }
 
-.invalid-link {
+.invalid-wiki-link {
 	opacity: .5;
 	cursor: not-allowed;
-	.invalid-link-brackets {
-		opacity: .3;
-	}
-}
-
-.user-mention {
-	padding: 0 4px;
-	border-radius: $radius-s;
-	background: var(--transp-text);
-	color: var(--background);
 }
 
 .flex {
@@ -697,6 +687,7 @@ h3 {
 }
 
 footer {
+	background: var(--background);
 	padding: $big;
 	margin: $bigger 3%;
 	border-radius: $radius-l;
@@ -919,14 +910,8 @@ button,
 	}
 }
 
-
-.grey {
-	background: var(--grey);
-	border-color: var(--grey) !important;
-}
-
 .border {
-	background: transparent;
+	background: var(--background);
 	border: 3px solid var(--text);
 }
 

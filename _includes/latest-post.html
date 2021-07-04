@@ -1,10 +1,9 @@
 {% for post in site.posts limit:1 %}
-	<div class="box row">
-		<a href="{{ post.url }}"><h2 class="title">{% if page.lang == 'it'%}Ultimo articolo{% else %}Latest post{% endif %}</h2></a>
+	<div class="box row" title="{% if page.lang == 'it'%}Ultimo articolo{% else %}Latest post{% endif %}">
 		<div class="half column vertical flex">
 			<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 			<cite class="excerpt">
-				{{ post.excerpt | truncatewords: 150 }}
+				{{ post.excerpt }}
 			</cite>
 			<a href="{{ post.url }}" class="written button">{% if page.lang == 'it' %}Leggi{% else %}Read{% endif %}</a>
 		</div>

@@ -3,6 +3,11 @@
 @import "../_sass/root";
 @import "../_sass/inter";
 @import "../_sass/ubuntu-mono";
+@import "../_sass/eb-garamond";
+
+html {
+	cursor: url(https://tommi.space/logos/cursor.svg) 16 16, crosshair !important;
+}
 
 body {
 	--background: var(--black-ish);
@@ -29,14 +34,6 @@ body {
 
 * {
 	letter-spacing: unset !important;
-}
-
-#ato_header {
-	background: black !important;
-	ul {
-		background: black !important;
-		color: var(--light-grey) !important;
-	}
 }
 
 .albThumbs li {
@@ -68,7 +65,7 @@ body {
 		}
 	}
 	.imageInfoTable {
-		padding: 20px 10px 20px 15px;
+		padding: $regular $small $regular $regular !important;
 		border-radius: 0 0 1rem 1rem;
 	}
 }
@@ -113,6 +110,12 @@ body {
 			color: var(--text) !important;
 		}
 	}
+	#albumActionsSwitcher + .categoryActions {
+		background-color: var(--background) !important;
+		border-radius: $radius-s;
+		box-shadow: var(--shadow) !important;
+		opacity: 1 !important;
+	}
 }
 
 @media only screen and (min-width: 640px) {
@@ -131,6 +134,10 @@ body {
 	}
 	#thumbnails {
 		margin: $regular 5% !important;
+	}
+	#pictureComments {
+		max-width: 800px;
+		margin: $regular auto 3vw;
 	}
 }
 
@@ -177,25 +184,35 @@ body {
 	}
 }
 
+#commentAdd {
+	width: 100% !important;
+	padding: unset !important;
+}
+
+#pictureComments {
+	padding: $regular 3vw;
+	margin: $regular-less 3vw 3vh;
+	box-shadow: var(--shadow);
+	border-radius: $radius-l;
+}
+
 #comments input[type="text"],
 #comments TEXTAREA,
 input {
-	border: none;
+	border: solid 2px var(--text);
 	border-radius: $radius-s;
 	background: var(--deep);
 	color: var(--text);
 	padding: 2px $small;
 }
 
-/* .categoryActions,
-.navigationButtons,
-.actionButtons,
-.albumActionsSwitcher {
-	padding: $tiny;
-	background: var(--light-grey);
-	border-radius: $radius-s;
-	box-shadow: var(--little-shadow);
-} */
+input[value="Submit"] {
+	background: var(--yellow);
+	color: var(--background);
+	font-weight: 700;
+	text-transform: uppercase;
+	box-shadow: var(--button-shadow);
+}
 
 a .pwg-icon {
 	color: var(--text) !important;
@@ -240,6 +257,7 @@ span.menuInfoCat.badge,
 }
 
 a {
+	cursor: url(https://tommi.space/logos/cursor-hover.svg) 16 16, pointer !important;
 	color: var(--text) !important;
 	&:hover {
 		text-decoration: none !important;
@@ -276,4 +294,15 @@ a {
 
 li .bullet {
 	background: url(https://tommi.space/logos/bpm.gif) no-repeat scroll !important;
+}
+
+#copyright {
+	display: none;
+}
+
+.additional_info {
+	font-family: var(--font-serif);
+	font-size: 1em !important;
+	max-width: 750px;
+	padding: 0 10%;
 }
