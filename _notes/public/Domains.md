@@ -7,7 +7,32 @@ toc: false
 description: "Cool domains ideas"
 ---
 - [[T.M.I.|TMI]]: **T**oo **M**uch **I**nformation, or **T**o**m**m**i**
-	- **`tmi.*`**
+	- Pixelfed instance
+		- `tmi.photos`
+		- `tmi.mo`
+		- `tmi.pics`
+		- `tmi.ooo`
+		- `tmi.mn`
+		- `tmi.pub`
+		- `tmi.run`
+		- `tmi.band`
+		- `tmi.beer`
+		- `tmi.cool`
+		- `tmi.bar`
+		- `tmi.rest`
+		- `tmi.rip`
+		- `tmi.center`
+		- `tmi.supplies`
+		- `tmi.fail` (pricey)
+		- `tmi.town` (pricey)
+		- `tmi.baby` (pricey)
+		- `tmi.casino` (pricey)
+		- `tmi.tg` (pricey)
+		- `tmi.pictures` (premium)
+		- `tmi.sucks` (premium)
+		- `tmi.club` (premium)
+		- `tmi.stream` (premium)
+		- `tmi.social` (taken)
 - [[The Slot Philosophy]]
 	- `time.slots` (not existing TLD)
 	- `slots.time` (not existing TLD)
@@ -43,3 +68,5 @@ description: "Cool domains ideas"
 - `tommi.sh`
 - `tommi.guru`
 - `tommi.stream` for microblogging
+- `tommaso.ooo`
+- `tommas.ooo`

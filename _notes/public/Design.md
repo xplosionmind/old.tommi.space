@@ -1,6 +1,6 @@
 ---
 date: 2020-05-12
-updated: 2021-03-22T21:40:09.310978+01:00
+updated: 2021-08-12T10:00:24.613241+02:00
 tags: design
 description: "Little insights about the design world"
 main: true
@@ -56,6 +56,13 @@ todo:
 
 ## Resources
 
-Illustrations, icons and logos
+Free vectors, illustrations, logos and images
 
 - [unDraw](https://undraw.co "unDraw")
+- [Pixeltrue free illustrations](https://www.pixeltrue.com/free-illustrations 'Free illustrations by Pixeltrue')
+- [IllustrationKit](https://illustrationkit.com/ 'Illustration Kit')
+- [Pixabay](https://pixabay.com 'Pixabay')
+- [Freepik](https://www.freepik.com 'Freepik')
+- [The Noun Project](https://thenounproject.com/ 'The Noun Project')
+- [Scale by Flexiple](https://2.flexiple.com/scale/home 'Scale')
+- [Awesome-icons](https://github.com/notlmn/awesome-icons 'awesome-icons on GitHub')

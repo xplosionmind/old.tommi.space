@@ -14,7 +14,7 @@ Non si tratta solo di chi sono le <a href="/people" title="People">persone</a> e
 <li>
 <a href="{{ bio.url }}" target="_blank" title="Biografia di {{ bio.name }}">{{ bio.title }}</a>
 {% if bio.title != bio.name %}
-, {{ bio.name }}
+, {{ bio.who }}
 {% endif %}
 </li>{% endfor %}
 </ul>

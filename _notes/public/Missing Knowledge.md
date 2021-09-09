@@ -1,6 +1,6 @@
 ---
 date: 2020-12-09
-updated: 2021-06-10T20:02:41.247165+02:00
+updated: 2021-09-09T20:57:26.172672+02:00
 tags: knowledge todo
 aliases: ["Learn", "To learn"]
 description: "What I need / have / would love to learn"
@@ -34,6 +34,7 @@ A private list of knowledge I miss about exams I am studying for.
 - Limits to Growth 1972 and 2004
 - US Presidential timeline
 - Israel history
+- Afghanistan history
 - [[2018-05-26 Madonna del Buon Consiglio|Madonna del Buon Consiglio]]
 
 <br>
@@ -41,17 +42,21 @@ A private list of knowledge I miss about exams I am studying for.
 
 ## Geek
 
-1. [[LaTeX]]
+1. Data analysis and graphs with LibreOffice
 1. [Learn and configure Syncthing](https://docs.syncthing.net/intro/getting-started.html "Getting Started - Syncthing")
+1. [[LaTeX]]
+1. [[Vim#To learn]]
 1. [[Pandoc#To learn]]
+2. Designing websites with Inkscape / Illustrator
 3. [git](https://git-scm.com "git official website")
 	- [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 		- Tania Rascia's [guide](https://www.taniarascia.com/git-submodules-private-content/)
 1. Cryptocurrencies
 	- [If you are new to cryptocurrency](https://forum.privacytools.io/t/if-you-are-new-to-cryptocurrency/4571 "If you are new to cryptocurrency on PrivacyTools community") on PrivacyTools community
 	- [this](https://www.nytimes.com/2021/04/13/podcasts/the-daily/nft-bitcoin-cryptocurrency.html "Cryptocurrency’s Newest Frontier") unbelievable episode of New York Times’ <cite>The Daily</cite>, explaining why a NYT column was sold for 500k$
+1. [Computer History](https://github.com/watson/awesome-computer-history 'awesome-computer-history on GitHub')
 2. Improve OpenStreetMap and OSMand knowledge
-1. Learn using [Rclone](https://rclone.org 'Rclone')
+1. [Rclone](https://rclone.org 'Rclone')
 3. [[JavaScript]]
 4. [Github Actions](https://docs.github.com/en/actions/learn-github-actions "Learn GitHub Actions")
 5. Makefile

@@ -1,6 +1,6 @@
 ---
 date: 2020-05-13
-updated: 2021-03-16T17:26:39.174719+01:00
+updated: 2021-08-12T12:20:11.380979+02:00
 tags: geek
 redirect_from: ["/datasets", "data-sets", "/databases", "/public-data", "/dati"]
 permalink: /data
@@ -10,6 +10,7 @@ todo:
 ---
 There are hundreds (if not thousands) of free data sets available, ready to be used and analyzed by anyone willing to look for them.  Below is a list of some of the most globally interesting I have come across, but there are many, many more in many different niches.
 
+- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets 'awesome-public-datasets on GitHub')
 - [Awesome Italian Public Datasets](https://github.com/italia/awesome-italian-public-datasets "Awesome Italian Public Datasets on GitHub")
 - [Mozilla Data Stewardship Landscape Scan](https://airtable.com/shrn9jnFOQByon2i7/tblOrlwkMkuRn4HjV/viwOyRIDzKGemXbLW)
 - [Data.gov](http://data.gov/) The US Government pledged last year to make all government data available freely online. This site is the first stage and acts as a portal to all sorts of amazing information on everything from climate to crime.

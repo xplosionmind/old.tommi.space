@@ -8,8 +8,6 @@ permalink: /missing-tools
 redirect_from: ["/tools-ideas", "/programming-ideas", "/programming", "/development-ideas", "/developing", "/developing-ideas", "/apps-ideas", "/programs", "/ideas", "/missing-apps", "/missing-programs", "/missing-digital-tools", "/dev-ideas", "/software-ideas", "/sw-ideas"]
 main: true
 toc: false
-todo:
-  - "LATER: unique loop for Obsidian and Jekyll"
 ---
 <ul>
 {% for note in site.notes %}

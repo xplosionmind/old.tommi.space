@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-updated: 2021-04-12T11:16:08.540797+02:00
+updated: 2021-08-12T12:25:14.770275+02:00
 tags: geek/knowledge
 aliases: ["Resources", "Learning Resources"]
 description: "A comprehensive list of great online resources for learning and more. Links to official documentation aren't included, since it can usually be found with a quick and trivial research."
@@ -18,6 +18,7 @@ Where and how to learn about Computer Sciences topics and anything technology re
 	Most of the things one could be looking for are very likely to be found in the <b>AWESOME</b> <a href="https://project-awesome.org"  target="_blank" title="Project Awesome">Project Awesome</a>. I am not writing anything about the main sources cited in there.
 </div>
 
+- [What is code?](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/ 'What is code?'), a longread by Paul Ford
 - [A2Z Learning Resources for Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students), a comprehensive and rich repository with almost anything someone keen to improve its developing skills can ask for
 - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books "Free Programming Books"), a GitHub repository which contains, guess what, free e-books to learn programming.
 - [Awesome Humane Tech](https://github.com/humanetech-community/awesome-humane-tech), a list of tools which meets the Humane Tech principles
@@ -44,6 +45,9 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [app-ideas](https://github.com/florinpop17/app-ideas 'app-ideas on GitHub'), application ideas which can be used to improve one’s own coding skills.
 - [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit 'Best-websites-a-programmer-should-visit on GitHub')
 - [Developer Roadmap](https://roadmap.sh/ 'Developer roadmap'), set of steps to become a developer
+- [Crypto101](https://www.crypto101.io/ 'Crypto101'), cryptography fundamentals
+- [Awesome Computer Sciences courses](https://github.com/prakhar1989/awesome-courses 'awesome-courses on GitHub')
+- [Learn to program](https://github.com/karlhorky/learn-to-program 'learn-to-program on GitHub'), a curated set of high quality educational resources.
 
 <br>
 
@@ -51,11 +55,11 @@ Where and how to learn about Computer Sciences topics and anything technology re
 
 <br>
 
-![[JavaScript#Learning resources]]
+![[JavaScript#Resources]]
 
 <br>
 
-![[Python#Learning resources]]
+![[Python#Resources]]
 
 <br>
 
@@ -125,6 +129,7 @@ Where and how to learn about Computer Sciences topics and anything technology re
 - [*190 universities just launched 600 free online courses. Here’s the full list.*](https://www.classcentral.com/report/new-courses-october-2018/ "190 universities just launched 600 free online courses. Here’s the full list.")
 - [Oppia](https://www.oppia.org "Oppia") is <q cite="https://www.oppiafoundation.org/about-oppia">an engaging new approach to online learning that caters specifically to the unique needs of the world's most underserved youth</q>.
 - [OMS Central courses](https://omscentral.com/courses 'Courses')
+- [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge 'the-book-of-secret-knowledge on GitHub')
 
 <br>
 <br>

@@ -78,6 +78,7 @@ Reasons to quit Spotify:
 ### Useful links
 
 - [Quitting Spotify and moving to NewPipe + FreeTube](https://forum.privacytools.io/t/quitting-spotify-and-moving-to-newpipe-freetube/4935 "Quitting Spotify and moving to NewPipe + FreeTube") post on PrivacyTools Community
+- [awesome-music-listening](https://github.com/ybayle/awesome-music-listening 'awesome-music-listening on GitHub'), a repository collecting a ton of online services to listen to music
 
 <br>
 

@@ -7,6 +7,7 @@ lang: it
 image: 'https://images.tommi.space/picture?/16608/category/attic'
 location: 'Xplosion Attic'
 toc: false
+redirect_from: ['/desk', '/xplosion-attic-desk', '/xplosion-attic/desk', '/xplosion-attic/aida']
 ---
 L’idea di Aida fu coltivata nella mia mente sin dal remoto 2014, quando, invece di ascoltare le lezioni di letteratura, impiegavo ore per realizzare progetti di mobili di bancali riciclati.
 

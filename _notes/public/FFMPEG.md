@@ -1,6 +1,6 @@
 ---
 date: 2021-04-27T08:21:53.156495+02:00
-updated: 2021-04-27T08:21:53.156495+02:00
+updated: 2021-08-27T06:50:46.338447+02:00
 tags: geek/apps
 description: "Swiss army knife for video and audio editing from command line"
 ---
@@ -14,6 +14,25 @@ ffmpeg -i ~/in.m4a -ab 128k out.mp3
 Add a background to a transparent PNG, add an audio file and put all of them in a video.
 ```sh
 ffmpeg -i background.png -stream_loop 50 -i animation.png -filter_complex overlay -i voiceover.m4a -c:v libx264 -c:a copy out.mp4
+```
+
+Scale video or image by keeping the aspect ratio and choosing the width.
+```sh
+ffmpeg -i ~/desktop/in.mov -vf scale=720:-1 ~/desktop/out.mp4
+
+# multiple files at a time
+for img in ~/desktop/pics/*.jpg; do ffmpeg -i "$img" -vf scale=1600:-1 "$img"; done;
+```
+
+both scaling and resizing a video
+```sh
+ffmpeg -i ~/desktop/in.mov -vf "scale=720:-1,crop=720:720:0:300" ~/desktop/out.mp4
+```
+
+### Flags
+
+```sh
+-y		# overwrite output flags
 ```
 
 <br>

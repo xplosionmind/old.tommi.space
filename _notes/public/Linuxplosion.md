@@ -5,6 +5,7 @@ tags: geek
 aliases: ["Ubuntu Workstation"]
 redirect_from: ["/workstation", "/ubuntu-pc", "/linux-pc", "/pc", "/PC", "/computer-fisso"]
 description: "<cite>Linuxplosion</cite> is my awesome workstation which I assembled in 2019 to edit [Everyone](/everyone). I now use for my most heavy computing tasks, such as video editing or image processing"
+image: '/images/2019-08-05-linuxplosion-2.jpg'
 ---
 ## About
 

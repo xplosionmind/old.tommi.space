@@ -1,6 +1,22 @@
+let theme_attrs = {};
+// set theme-dependent graph attributes.
+if (document.getElementById('theme-colors-checkbox').checked) {
+  theme_attrs = {
+    "name": "dark",
+    "radius": 2.5,
+    "missing-radius": 2.5,
+  }
+} else {
+    theme_attrs = {
+    "name": "light",
+    "radius": 3,
+    "missing-radius": 1.5,
+  }
+}
+
 function drawNetWeb (theme_attrs) {
     // d3.json has been async'd: https://stackoverflow.com/questions/49768165/code-within-d3-json-callback-is-not-executed 
-    d3.json("/assets/graph-net-web.json")
+    d3.json("{{ site.baseurl }}/assets/graph-net-web.json")
       .then(function(data) {       
           // console.log('d3 is building a tree');
           // console.log(data);      
@@ -121,4 +137,3 @@ function drawNetWeb (theme_attrs) {
           console.log(error);
       });
   }
-}

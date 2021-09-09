@@ -30,7 +30,7 @@ Alcuni link fra i seguenti potrebbero essere protetti da password oppure non agg
 			{% if cosa.url %}
 				<a href="{{ cosa.url }}" target="_blank" title="{{ cosa.title }}">{{ cosa.title }}</a>, 
 			{% else %}
-				{{ cosa.title }}, 
+				<strong>{{ cosa.title }}</strong>, 
 			{% endif %}
 			{% if cosa.lat %}
 				<a href="https://openstreetmap.org?mlat={{ cosa.lat }}&mlon={{ cosa.lon }}&zoom=18" target="_blank" title="{{ cosa.location }} su OpenStreetMap">{{ cosa.location }}</a>
@@ -98,7 +98,7 @@ Con e grazie a [Radioimmaginaria](/cose#radioimmaginaria) ho fatto la maggior pa
 	- [Puntate](/rimm-db#festival-di-sanremo-2016)
 	- [Foto da Radioimmaginaria](https://flic.kr/s/aHskvEz8fk)
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710720019412)
-- dall'8 al 10 aprile 2016, [**<cite>Radiocity</cite>**](http://www.radiocitymilano.it/ "Radiocity Milano") e [**<cite>International Radio Festival</cite>**](https://www.internationalradiofestival.com "International Radio Festival"), Milano
+- dall'8 al 10 aprile 2016, <a href="http://www.radiocitymilano.it/" target="_blank" title="Radiocity Milano">Radiocity</a> e <a href="https://www.internationalradiofestival.com" target="_blank" title="International Radio Festival">International Radio Festival</a>, Milano
 	- [Puntate](https://www.flickr.com/photos/xplosionmind/albums/72157710719651706)
 	- [Foto da Radioimmaginaria](https://www.flickr.com/photos/radioimmaginaria/albums/72157668517426676)
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710719651706)

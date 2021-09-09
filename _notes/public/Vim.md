@@ -6,6 +6,14 @@ aliases: ["Neovim"]
 description: "The best text editor in the world"
 redirect_from: ["/nvim", "/neovim", "/gvim", "/macvim"]
 ---
+## To learn
+
+- buffers management
+- macros recording
+
+<br>
+<br>
+
 ## Cheat Sheet
 
 [Count occurrences](https://vimtricks.com/p/vimtrick-count-occurrences/ "Count occurrences on Vim Tricks")
@@ -48,6 +56,7 @@ Sometimes, when I activate [spell checking](https://vimtricks.com/p/vimtrick-spe
 
 ## Resources
 
+- [vim-galore](https://github.com/mhinz/vim-galore 'vim-galore on GitHub'), a repository collecting all sorts of resources about Vim
 - [Vim casts](https://vimcasts.org/ "Vim casts"), the best video tutorials you can find
 - [Vim help](https://vimhelp.org "Vim help files"), a website made of Vim man pages
 - [Vim cookbook](http://www.oualline.com/vim-cook.html "Vim Cookbook")

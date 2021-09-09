@@ -1,24 +1,26 @@
 ---
 date: 2020-06-25
-updated: 2020-10-26
-ref: people
-description: "Real and fiction characters who left a mark in me"
-redirect_from: ["/characters", "/personages", "/figures"]
-toc: false
+updated: 2021-09-09T21:30:20.987503+02:00
+description: 'Real and fictional characters who left a mark in me'
+redirect_from: ['/characters', '/personages', '/figures', '/persone', '/personaggi', '/figure', '/idols', '/idoli']
 main: true
 ---
-<br />
-<ul>
-	{% for idol in site.data.people %}
-		<li><a href="#{{ idol.name | slugify }}">{{ idol.name }}</a></li>
-	{% endfor %}
-</ul>
-
-<br />
+<style>
+	h-entry.note {
+		width: unset;
+		margin-left: unset;
+		min-width: 70%;
+	}
+</style>
 
 {% for idol in site.data.people %}
-	<h2 id="{{ idol.name | slugify }}" class="title">{{ idol.name }}</h2>
-	<a href="{{ idol.link }}"  target="_blank"><figure><img src="{{ idol.img }}" title="{{ idol.name }}" alt="A photo portraying {{ idol.name }}" /></figure></a>
-	<p>{{ idol.description }}</p>
-	<br />
+	<div class='row'>
+		<h2 id="{{ idol.who | slugify }}" class="title">{{ idol.who }}</h2>
+		<div class='column'>
+			<a href="{{ idol.url }}"  target="_blank"><figure><img src="{{ idol.img }}" title="{{ idol.who }}" alt="An image portraying {{ idol.who }}" /></figure></a>
+		</div>
+		<div class='column'>
+			<p lang='{{ idol.lang }}'>{{ idol.note }}</p>
+		</div>
+	</div>
 {% endfor %}

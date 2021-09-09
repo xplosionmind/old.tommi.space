@@ -78,4 +78,4 @@ e non vuole più muoversi, né uscire.
 [Qui](/everyone.html) il sito ufficiale del corto.
 
 
-(Squalo Consapevole è anche sinonimo di Stambecco Cinetico, che è il mio <a href="https://it.wikipedia.org/wiki/Totem_(nome_scout)"  target="_blank">totem</a> (è davvero bello e ne sono orgoglioso))
+(Squalo Consapevole è anche sinonimo di [[Stambecco Cinetico]], che è il mio <a href="https://it.wikipedia.org/wiki/Totem_(nome_scout)"  target="_blank">totem</a> (è davvero bello e ne sono orgoglioso))

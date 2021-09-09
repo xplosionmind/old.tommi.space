@@ -13,11 +13,12 @@ html {
 	box-sizing: border-box;
 	cursor: url({{ site.logos }}/cursor.svg) 16 16, crosshair;
 	scroll-behavior: smooth;
+	background: linear-gradient(-45deg,#0A0A0A,#3D3D3D);
 }
 
 /* DARK THEME */
 body {
-	background: linear-gradient(-45deg,#111,#333);
+	background: linear-gradient(-45deg,#0A0A0A,#3D3D3D);
 	color: var(--text);
 	margin: 0;
 	overflow-wrap: break-word;
@@ -33,7 +34,7 @@ body {
 	--internal-link: var(--blue);
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
-	--transp-text: #FFF9;
+	--transp-text: #FFF4;
 	--shadow: 5px 5px 20px #000000BB, -5px -5px 20px #FFFFFF11;
 	--opposite-shadow: -5px -5px 20px #000000BB, 5px 5px 20px #FFFFFF11;
 	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFFFFF22;
@@ -42,8 +43,6 @@ body {
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF2;
 	--inner-little-shadow: inset 2px 2px 3px #000A, inset -2px -2px 3px #FFF1;
 	--header-shadow: 5px 5px 15px #000B, -5px -5px 15px #FFF3;
-
-	--title-shadow: -3px -3px 0px var(--text), -3px -2px 1px var(--grey), -2px -3px 1px var(--grey), -2px -2px 0px var(--grey), -1px -1px 0px var(--grey), 0px 0px 0px var(--grey);
 
 	transition: var(--trans);
 
@@ -65,7 +64,7 @@ body {
 	--internal-link: var(--blue);
 	--grey: var(--light-grey);
 	--other-grey: var(--dark-grey);
-	--transp-text: #0008;
+	--transp-text: #0003;
 	--shadow: 5px 5px 20px #0002, -5px -5px 20px #FFF;
 	--opposite-shadow: -5px -5px 20px #0002, 5px 5px 20px #FFF;
 	--little-shadow: 1px 1px 4px #0003, -2px -2px 3px #FFF7;
@@ -90,7 +89,6 @@ body {
 
 * {
 	transition: var(--trans), transform var(--quicktrans), box-shadow var(--quicktrans), text-shadow var(--quicktrans);
-	text-decoration-color: var(--transp-text) !important;
 }
 
 *,
@@ -542,6 +540,10 @@ p {
 	line-height: 1.75em;
 }
 
+u {
+	text-decoration-color: var(--transp-text) !important;
+}
+
 strong,
 b {
 	font-weight: 800;
@@ -574,8 +576,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .title {
 	font-size: $twice;
-	color: transparent;
-	text-shadow: var(--title-shadow);
+	text-shadow: 2px 2px 3px var(--transp-text);
 }
 
 h1 {
@@ -668,7 +669,7 @@ h3 {
 .stuff-logo {
 	width: auto;
 	min-width: 50%;
-	max-width: 100%;
+	max-width: 90%;
 	max-height: 10rem;
 	border-radius: 0;
 }

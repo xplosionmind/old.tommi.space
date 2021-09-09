@@ -10,7 +10,6 @@ toc: false
 todo:
   - 'Sconnesso episode'
   - 'Perché è diverso da Telegram'
-  - 
 ---
 ## Why WhatsApp is not good
 

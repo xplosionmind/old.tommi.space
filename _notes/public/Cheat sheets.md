@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-updated: 2021-06-15T09:31:59.517652+02:00
+updated: 2021-07-14T22:14:45.748402+02:00
 tags: geek
 aliases: ["Cheat Sheet", "cmd", "CLI"]
 description: "I use tech devices a lot, maybe too much, but I do not dive in too technically. The few times I have to get things done with more technical tools, I need some reference."
@@ -54,21 +54,33 @@ watch <cite><a href="https://en.wikipedia.org/wiki/Star_Wars_(film)" target="_bl
 nc towel.blinkenlights.nl 23
 ```
 
+Erase disk
+```sh
+sudo diskutil eraseDisk /dev/disk2 
+```
+
 Disk space usage
 ```sh
-du
+du # dust
+```
+
+[recursively count files in a directory](https://stackoverflow.com/a/9157162 'Recursively counting files in a Linux directory')
+```sh
+find . -type f | wc -l
 ```
 
 <br>
 
 ### Resources
 
+- [The art of command line](https://github.com/jlevy/the-art-of-command-line 'the-art-of-command-line on GitHub'), a repository to master command-line usage
 - [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line), a GitHub repository by [Marcel Bischoff](https://herrbischoff.com/)
 - [Commandlinefu best commands](https://www.commandlinefu.com/commands/browse/sort-by-votes "Commandlinefu best commands"), a record of little great command line tips
 - [Handy Bash Shell Aliases For Linux](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html "30 Handy Bash Shell Aliases For Linux")
 - [Shell commands for simple tasks of processing CSV file](https://dev.to/0xbf/shell-commands-for-simple-tasks-of-processing-csv-files-linux-tips-48ea "Shell commands for simple tasks of processing CSV file")
 - [`chmod` guide](https://chmodcommand.com "Chmodcommand")
-- A complete dive in the Terminal language, Bash, by visiting [[Bash]]
+- [Linux command line](https://github.com/learnbyexample/Linux_command_line 'linux-command-line on GitHub')
+- A complete dive in the Terminal language, [[Bash]]
 
 <br>
 <br>

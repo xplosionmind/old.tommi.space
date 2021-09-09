@@ -8,14 +8,18 @@
 .scambi {
 	background: #F5EAD7;
 	color: #69088D;
+	a {
+		color: #514A9C;
+	}
 	h2 img {
 		display: inline;
 		max-height: 5rem;
-		position: relative;
-		top: 1rem;
 	}
 	.button {
 		color: #F5EAD7;
 		background: #69088D;
+	}
+	u {
+		text-decoration-color: #514A9C !important;
 	}
 }

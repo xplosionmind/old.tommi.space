@@ -7,6 +7,7 @@ todo:
   - "find a more creative name"
   - "create a photo gallery as with Living Art"
 description: 'Monthly pictures of my desk, wherever I am'
+image: '/images/2020-03-30-desk.jpg'
 ---
 Since the beginning of 2019, every 27 days at 12:11 PM I have been taking a picture of my desk, without cleaning or uncluttering it. I would just shoot a picture of how my desk is at that specific moment.
 

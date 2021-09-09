@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-07-03T18:11:52.396915+02:00
+updated: 2021-08-14T12:58:17.293012+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -17,7 +17,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Roadmap
 
-2. Configure and implement [[Indie Web]]
+1. Configure and implement [[Indie Web]]
 	- Note in footer that this website supports Webmentions
 3. Configure and implement [ActivityPub]
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
@@ -29,11 +29,13 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork "jekyll-stork plugin")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
+1. Better [jekyll-feed](https://github.com/jekyll/jekyll-feed 'jekyll-feed') features exploitation
 5. Remove JavaScript
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle') - 2021-06-15 <b class="bug">bug</b>: if `input` is before `body`, it is automatically moved inside by the browser
 7. [[The Jam]]: [Notes graph](https://github.com/manunamz/jekyll-wikilinks#d3-graph-data 'd3 graph data for jekyl-wikilinks on GitHub') visualization
 8. [[The Jam]]: Preview a note when hovering on link
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
+1. [Embed Mastodon feed](https://github.com/DomainDrivenArchitecture/dda-masto-embed 'dda-masto-embed on GitHub')
 10. Movies list integration
 	- <https://www.themoviedb.org/documentation/api/discover>
 	- <https://developers.themoviedb.org/3/getting-started/introduction>
@@ -44,20 +46,23 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 12. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
 13. Give a consistent framework to all lists [[CSVfy]]
+1. Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
+1. Study [awesome-web-animation website](https://awesome-web-animation.netlify.app/ 'Awesome Web Animation')
+2. Flash animation of exploding head emojis while a button is `active` and/or `hover`
 14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
-15. Study Blogger’s `<head>` to improve SEO
-16. Join WebRings
+15. Study [Search Engine Optimization repo](https://github.com/marcobiedermann/search-engine-optimization 'search-sngine-optimization on GitHub') and Blogger’s `<head>` to **improve SEO**
+16. **Join [WebRings](https://en.wikipedia.org/Webring '“Webring” on Wikipedia')**
 	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub") ✅ 2021-05-25
 	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring")
 17. [[Timeline development]]
 18. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
-19. A script to check overlapping permalinks
+19. Integrate a script/plugin to check overlapping permalinks
 20. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
-21. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
 22. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
-23. Make [[Permanent HTML]]
+21. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
 24. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
 25. Set a `.onion` address
+23. Make [[Permanent HTML]]
 
 <ul>
 {% for p in site.pages %}

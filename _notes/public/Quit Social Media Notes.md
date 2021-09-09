@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10
-updated: 2021-03-28T21:22:19.994794+02:00
+updated: 2021-09-08T06:21:55.556144+02:00
 permalink: /qsm
 aliases: ["QSM"]
 description: 'Notes about <a href="https://quitsocialmedia.club"  target="_blank" title="Quit Social Media">quitsocialmedia.club</a>'
@@ -15,14 +15,13 @@ redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-n
 - Drawings images
 - `redirect_from: ["/press-kit", "/stampa"]`
 - why the present website will not be updated
-- consider adding ethical ads
-- add gitea / GitLab mirror
-- add `share on Mastodon` button
 
 <br>
 
 ### Content
 
+- https://peertube.uno/videos/watch/e2875d76-2592-4f58-8f7a-3f749a3c6626?subtitle=it&autoplay=1
+- https://lemmy.ml/post/73732
 - [Privacy vs “I have nothing to hide”](https://kevq.uk/privacy-vs-i-have-nothing-to-hide/ 'Privacy vs “I have nothing to hide”')
 - https://www.wired.com/story/rss-readers-feedly-inoreader-old-reader/
 - https://newsletters.feedbinusercontent.com/402/402d80607c7a9188299ba6f638ee4d4ceecc2907.html
@@ -30,9 +29,10 @@ redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-n
 - https://video.repubblica.it/tecno-e-scienze/una-vita-senza-big-tech-storie-di-chi-cerca-alternative-ai-giganti-del-web-non-barattiamo-i-nostri-dati-per-i-loro-servizi/384819/385547
 - https://www.lealternative.net/2021/04/02/quit-social-media/
 - https://amreolog.duckdns.org/~/SoftwareLiberoEticaDigitale/perch%C3%A9-ho-deciso-di-lasciare-facebook
-- troppi troppi GB
+- [Digital sharecropping](http://www.roughtype.com/?p=634)
+- troppi troppi GB di dati e immagini, dove li mettiamo?
 - legittimazione a non uscire per troppo tempo da investire nel cambio
-- Fediverse (specifically mastodon) features list + point out how recent they are
+- Listing Fediverse (specifically Mastodon) features, and point out how recent is their history
 - in [ma](https://quitsocialmedia.club/ma "“Ma” in quitsocialmedia.club"): ma prendere soluzioni così drastiche, nella storia, non è mai servito a nulla
 - la differenza generazionale
 - differenza con la TV

@@ -1,6 +1,6 @@
 ---
 date: 2021-01-12
-updated: 2021-02-21T14:14:25.301091+01:00
+updated: 2021-08-11T22:44:36.150504+02:00
 tags: music
 main: true
 description: "Insights about music when made, played, or listened"
@@ -20,6 +20,12 @@ The music I listen to is in [[Xplosion Music]].
 ## Learning
 
 - [The Best Albums of all Time](https://www.rollingstone.com/music/music-lists/best-albums-of-all-time-1062063/ "The Best Albums of all Time"), according to [Rolling Stone]
+
+<br>
+
+### Music theory
+
+- [OpenMusicTheory](http://openmusictheory.com/ 'Open Music Theory'), an open-source, interactive, online “text”book for college-level music theory courses.
 
 <br>
 <br>

@@ -1,6 +1,6 @@
 ---
 date: 2021-04-04T11:27:09.382759+02:00
-updated: 2021-04-04T11:27:09.382759+02:00
+updated: 2021-07-19T00:21:41.288556+02:00
 tags: geek
 description: "Insights, guides, notes and ideas about completely switching to Linux."
 ---
@@ -9,3 +9,4 @@ Therefore, I gather here stuff for when I will be ready, or for people like me w
 There you go.
 
 - [Why I Switched to Arch Linux](https://luxagraf.net/src/why-i-switched-arch-linux "Why I Switched to Arch Linux"), by Scott Gilbertson on [Luxagraf `/src/`](https://luxagraf.net/src/ "/src/")
+- [A Newbie's Guide To Wine](https://thekernalblog.github.io/A-Newbie's-Guide-To-Wine/ 'A Newbie's Guide To Wine'), by [The Kernal](https://thekernalblog.github.io/about/ 'About The Kernal')

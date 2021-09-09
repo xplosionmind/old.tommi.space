@@ -1,6 +1,6 @@
 ---
 date: 2020-09-14
-updated: 2021-05-25T22:40:15.269440+02:00
+updated: 2021-09-05T18:20:22.288924+02:00
 tags: geek
 image: "/images/backup.jpg"
 permalink: /backup-checklist
@@ -8,58 +8,17 @@ redirect_from: ["/mobile-backup-checklist", "/phone-formatting-checklist", "/mob
 description: "To keep the phone rolling smoothly, from time to time a classic data backup and factory reset are necessary, but it’s important not to forget what to save before hitting the red button. These are my checklist and importing workflow."
 toc: false
 ---
-- Export apps settings
-	- OSMAnd+ favorites and settings
-- WiFi passwords
-- WhatsApp
-	- important messages
-	- archived messages
-	- global backup
-- images
-- audios
-	- recordings
-	- important WhatsApp audios
-- Contacts (if not synced)
-- Apps notification settings
-- **Two Factor Authentication App**
+- [ ] Export apps settings
+- [ ] Messaging apps (except Telegram and Matrix)
+- [ ] [[Importing workflow|Images]]
+- [ ] Audios
+	- [ ] Recordings
+	- [ ] Important <u>WhatsApp audios</u> (which should be selected and separately saved at the time of reception)
+- [x] Contacts (currently synchronized via iCloud)
+- [x] WiFi passwords (currently synchronized via iCloud keychain)
+- [x] **Two Factor Authentication App** (currently synchronized with KeePass via [Cloud](https://cloud.tommi.space))
 
 <br>
-
-### Transferring files
-
-The cleanest way to move files from an Android to a MacOS device is by using [<abbr title="Android Debug Bridge">ADB</abbr>](http://developer.android.com/tools/help/adb.html).
-
-Firstly, connect the phone to the computer.
-
-Open the terminal and move to the `platform-tools` folder (I keep in `Documents`)
-
-```sh
-cd Documents/platform-tools
-```
-
-Then, check if the two devices are connected correctly by running
-
-```sh
-./adb devices
-```
-
-navigate in the phone's directories
-```sh
-./adb shell
-
-ls -al
-```
-
-once the path of the directories which contain the content that has to be copied on the computer has been noted, execute:
-
-```sh
-./adb pull /path/in/phone /destination/path/on/computer
-```
-
-Done. This is how simple, neat, fast, and powerful this process is.
-
 <br>
 
-### Mobile photo importing workflow
-
-My [[Importing workflow]]
+![[Importing workflow]]

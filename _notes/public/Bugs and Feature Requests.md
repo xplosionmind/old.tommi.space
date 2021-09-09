@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04
-updated: 2021-05-10T09:45:58.341829+02:00
+updated: 2021-09-05T17:34:06.203755+02:00
 tags: geek
 permalink: /bugs
 redirect_from: ["/feature-requests", "/bugs-and-feature-requests"]
@@ -89,10 +89,6 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 ### Feature requests
 
-- choose to hide front matter when embedding other notes, even if “show YAML front matter” is switched on for the notes
-- Multiple hotkeys for one action
-- In links, update also headings when their name is changed
-- Tags aliases (e.g. `#place` == `#places`)
 - Make Wikilinks work in HTML tags
 
 <br>
@@ -100,9 +96,8 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 ### Bugs
 
 - Markdown links in the format `[example]` are not correctly displayed in embedded notes
-- in editor mode last 2 letters are hidden. (fixed by setting `.CodeMirror` `overflow: unset` in `obsidian.css`)
+- in editor mode last 2 letters are hidden. (fixed by setting `.CodeMirror` `overflow: unset` in the CSS theme file)
 - cursor width not corresponding to a single character’s spacing
-
 
 <br>
 <br>

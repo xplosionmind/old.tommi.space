@@ -1,6 +1,6 @@
 ---
 date: 2021-04-14T15:37:21.738273+02:00
-updated: 2021-06-11T06:45:50.115596+02:00
+updated: 2021-08-12T12:17:15.688424+02:00
 tags: geek
 toc: false
 description: 'Configuration files to keep track of'
@@ -15,6 +15,7 @@ Non-metaphorically speaking, dotfiles are <u>plain text configuration files</u>,
 
 ## Resources
 
+- [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles 'awesome-dotfiles on GitHub'), a repository collecting all sorts of resources concerning dotfiles
 - [Jake Zimmerman’s dotfiles](https://github.com/jez/dotfiles "jez’s dotfiles on GitHub")
 - <cite><a href="https://blog.jez.io/noteworthy-dotfile-hacks/"  target="_blank" title="Noteworthy Dotfile Hacks">Noteworthy Dotfile Hacks</a></cite>, by [Jake Zimmerman](https://blog.jez.io "Jake Zimmerman")
 
