@@ -77,6 +77,14 @@ body {
 	}
 }
 
+#linkPrev::before {
+	content: '←';
+}
+
+#linkNext::after {
+	content: '→';
+}
+
 .theImageAndInfos {
 	background: var(--deep);
 }
@@ -129,6 +137,12 @@ body {
 		border-radius: $radius-s;
 		box-shadow: var(--shadow) !important;
 		opacity: 1 !important;
+	}
+	.imageInfoTable, #imageInfos {
+		background: transparent !important;
+	}
+	#imageInfos {
+		padding: 0 3%;
 	}
 }
 
@@ -224,6 +238,7 @@ body {
 	margin: $regular-less 3vw 3vh;
 	box-shadow: var(--shadow);
 	border-radius: $radius-l;
+	background: var(--background) !important;
 }
 
 #comments input[type="text"],
@@ -346,5 +361,8 @@ p.imageComment {
 	font-family: var(--font-serif);
 	a {
 		color: var(--yellow) !important;
+	}
+	*:not(pre,code) {
+		font-family: var(--font-serif);
 	}
 }
