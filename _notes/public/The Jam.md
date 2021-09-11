@@ -7,8 +7,6 @@ permalink: /jam
 redirect_from: ["/the-jam", "/thejar", "/thejam", "/the-jar", "/marmelade"]
 ref: jam
 toc: false
-todo:
-  - "explain link colors (yellow external, blue internal (how to make it valid with theme changing))"
 ---
 Online, you may stumble upon it as a <a href="https://dev.to/jbranchaud/the-digital-garden-l10" rel="noener noreferrer" target="_blank" title="The Digital Garden on DEV.to"><cite>Digital Garden</cite></a>, or it may be defined as a *[[Zettelkasten]] system*. Mine, instead, is definitely less ambitious; yet, it is whipped, fragmented, juicy and sweet. It is **a Jam**.
 

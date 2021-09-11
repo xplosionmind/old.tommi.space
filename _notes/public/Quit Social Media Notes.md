@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10
-updated: 2021-09-08T06:21:55.556144+02:00
+updated: 2021-09-10T19:05:50.204454+02:00
 permalink: /qsm
 aliases: ["QSM"]
 description: 'Notes about <a href="https://quitsocialmedia.club"  target="_blank" title="Quit Social Media">quitsocialmedia.club</a>'
@@ -13,23 +13,12 @@ redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-n
 ## Improvements
 
 - Drawings images
-- `redirect_from: ["/press-kit", "/stampa"]`
 - why the present website will not be updated
 
 <br>
 
 ### Content
 
-- https://peertube.uno/videos/watch/e2875d76-2592-4f58-8f7a-3f749a3c6626?subtitle=it&autoplay=1
-- https://lemmy.ml/post/73732
-- [Privacy vs “I have nothing to hide”](https://kevq.uk/privacy-vs-i-have-nothing-to-hide/ 'Privacy vs “I have nothing to hide”')
-- https://www.wired.com/story/rss-readers-feedly-inoreader-old-reader/
-- https://newsletters.feedbinusercontent.com/402/402d80607c7a9188299ba6f638ee4d4ceecc2907.html
-- https://nitter.fdn.fr/RobertGReeve/status/1397032784703655938
-- https://video.repubblica.it/tecno-e-scienze/una-vita-senza-big-tech-storie-di-chi-cerca-alternative-ai-giganti-del-web-non-barattiamo-i-nostri-dati-per-i-loro-servizi/384819/385547
-- https://www.lealternative.net/2021/04/02/quit-social-media/
-- https://amreolog.duckdns.org/~/SoftwareLiberoEticaDigitale/perch%C3%A9-ho-deciso-di-lasciare-facebook
-- [Digital sharecropping](http://www.roughtype.com/?p=634)
 - troppi troppi GB di dati e immagini, dove li mettiamo?
 - legittimazione a non uscire per troppo tempo da investire nel cambio
 - Listing Fediverse (specifically Mastodon) features, and point out how recent is their history

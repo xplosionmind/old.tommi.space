@@ -10,7 +10,7 @@ description: "Un archivio di tutte le cose che faccio e che ho fatto"
 todo:
   - "Move this to a CSV/YAML file (how to handle links and resources?)"
   - "Sort everything BY DATE, with YEAR as H2; current H2s should become tags"
-  - "Update Flickr links"
+toc: false
 ---
 Dato che, per mia natura, sono una trottola che gira ovunque per fare tante (troppe) diverse cose 
 
@@ -18,9 +18,9 @@ Dato che, per mia natura, sono una trottola che gira ovunque per fare tante (tro
 Alcuni link fra i seguenti potrebbero essere protetti da password oppure non aggiornati. Se aveste bisogno di accedere a immagini private, <a class="u-email" href="mailto:{{ site.email | encode_email }}" rel="me" title="Scrivimi un'email">scrivetemi</a>.
 </div>
 
-{% comment %}
 <ul>
-	{% for cosa in site.data.tutto %}
+	{% assign tutto = site.data.tutto | sort: 'end' %}
+	{% for cosa in tutto %}
 		<li>
 			{% if cosa.start %}
 				Da {{ cosa.start | date_to_string }} a {{ cosa.end | date_to_string }}, 
@@ -46,8 +46,6 @@ Alcuni link fra i seguenti potrebbero essere protetti da password oppure non agg
 		</li>
 	{% endfor %}
 </ul>
-{% endcomment %}
-<br>
 
 ## Concertini
 
