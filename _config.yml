@@ -84,6 +84,9 @@ twitter:
   username: xplosionmind
   card: summary
 
+d3_graph_data:
+  enabled: false
+
 toc:
   list_class: "grey border box"
 
