@@ -36,6 +36,10 @@ body {
 	letter-spacing: unset !important;
 }
 
+body {
+	background: linear-gradient(-45deg,#080808,#333) !important;
+}
+
 .albThumbs li {
 	border-radius: $radius-m;
 	box-shadow: var(--shadow);
@@ -77,15 +81,22 @@ body {
 	background: var(--deep);
 }
 
+.theMainImage {
+	box-shadow: var(--shadow);
+}
+
 .contentWithMenu,
 #copyright,
-#imageToolBar,
 .switchBox {
 	background: var(--background) !important;
 	color: var(--text) !important;
 	a {
 		color: var(--text) !important;
 	}
+}
+
+#imageToolBar {
+	background: transparent !important;
 }
 
 #copyright,
@@ -330,10 +341,9 @@ li .bullet {
 	padding: 0 10%;
 }
 
-.imageComment {
-	p {
-		font-family: var(--font-serif) !important;
-	}
+p.imageComment {
+	padding: 0 5%;
+	font-family: var(--font-serif);
 	a {
 		color: var(--yellow) !important;
 	}
