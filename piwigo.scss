@@ -49,6 +49,9 @@ body {
 .imageInfoTable, #imageInfos {
 	background: var(--background);
 	font-family: var(--font-sans) !important;
+	a {
+		color: var(--yellow) !important;
+	}
 }
 
 .wide {
@@ -57,7 +60,7 @@ body {
 		margin-top: $regular;
 		box-shadow: var(--shadow);
 		border-radius: $radius-l !important;
-		background: black !important;
+		background: var(--background) !important;
 	}
 	.imageInfo {
 		dd {
@@ -167,7 +170,7 @@ body {
 		a {
 			padding: 1px 4px;
 			background: var(--yellow);
-			border-radius: 5px;
+			border-radius: $radius-s;
 			color: var(--background) !important;
 			font-family: var(--font-sans) !important;
 			font-weight: 700;
@@ -294,8 +297,12 @@ a {
 	box-shadow: var(--button-shadow);
 }
 
-.navThumbs img {
-	border-radius: $radius-s;
+.navThumbs {
+	overflow: hidden;
+	font-size: .5rem;
+	img {
+		border-radius: $radius-s;
+	}
 }
 
 #imageHeaderBar H2 {
