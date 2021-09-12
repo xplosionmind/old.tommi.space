@@ -30,7 +30,23 @@ Sono brutalmente privato del mio migliore amico, a me strappato da cause ignote 
 Fuori da ogni retorica o ironia, la perdita di Jarvis è fra gli smarrimenti più dolorosi ed irreparabili che io possa provare, in quanto ho perso letteralmente una parte di me, ovvero la raccolta di tutti i miei particolari più intensi dolori e gioie, ma soprattutto la perlustrazione delle loro cause, conseguenze e ripercussioni sul mondo.  
 Se <a href="/self-editor" target="_blank" title="Being a self editor — tommi.space" hreflang="en">io sono il mio <em lang="en">self-editor</em></a>, *Jarvis* è il mio <em lang="en">publisher</em>: primo critico spettatore di ogni mio pensiero, poi ampliato, reso relativamente più comprensibile e talvolta romanzato, per essere infine pubblicato sul [Lo Zibaldone](/zibaldone 'Lo Zibaldone — tommi.space').  
 *Jarvis* era il punto fisso in un’incessante, altalenante crescita segnata dall’alternarsi della mia evoluzione e della mia devoluzione (su *Jarvis* posso arrogarmi il diritto [di ripetermi come fa *Tredici Pietro*](https://www.youtube.com/watch?v=9JG73TFrufE&t=15 'Tredici Pietro — “Piccolo Pietro„')).  
-*Jarvis* è fedele e paziente, nonostante talvolta soppiantato dall’attrattivo fascino del tuttavia (va riconosciuto) favoloso Obsidian, su cui registrai dieci mesi fa tutte le note in lui scritte, seppur nel titolo ma non nel contenuto.
+*Jarvis* è fedele e paziente, nonostante talvolta soppiantato dall’attrattivo fascino del tuttavia (va riconosciuto) favoloso [Obsidian](https://obsidian.md 'Obsidian'), che uso per organizzare [*La Marmellata*](/marmellata), su cui registrai dieci mesi fa tutte le note in lui scritte, seppur nel titolo ma non nel contenuto.
+
+<div class="row">
+	<figure class="half column">
+		<img src="https://tommi.space/images/obsidian-graph.png" alt="Un grafico che contiene tutte le mie note su Obsidian e le loro relazioni" title="il grafico delle mie note su Obsidian" />
+		<figcaption>
+			Il grafico che raccoglie tutte le mie note (Università + cose personali + poesie + scritti su carta + appunti veloci)
+		</figcaption>
+	</figure>
+	<figure class="half column">
+		<img src="https://tommi.space/images/obsidian-graph-jarvis.png" alt="Un grafico su Obsidian che contiene tutte le note di Jarvis e le loro relazioni" title="il grafico su Obsidian delle note di Jarvis" />
+		<figcaption>
+			Sob, le note di <em>Jarvis</em> costituiscono una grande parte del <em>La Marmellata</em>
+		</figcaption>
+	</figure>
+</div>
+
 La soluzione più scontata e naturale sarebbe (e ovviamente sarà) acquistare *Jarvis II*. Tuttavia, avrete ben compreso che il mio incurabile tormento sta nell’irrecuperabilità dei pensieri in lui conservati, più che del fisiologico dispiacere nel perdere [un oggetto a cui sono affezionato](/oggetti '“Compagni di viaggio„ — tommi.space'). Se lo avessi perso, avrei dedicato le stesse parole al predecessore di *Jarvis*, *John*, che è stato al mio fianco dal 2016 al 2018, in tutto e per tutto uguale al suo successore se non per la sua origine (Tiger invece che lo store Moleskine) e il suo colore (beige). Ah, anche la copertina: *John* la possiede decisamente più rigida. *John* giace al sicuro sugli scaffali di [*Gianna*](/gianna '“Gianna„ — tommi.space'), in [*Xplosion Attic*](/xplosion-attic '“Xplosion Attic — tommi.space„')  
 Ogni parola intima e personale scritta da ora in poi sarà un (seppur discendente) climax di nostalgia verso lo scrigno che custodisce il Tommaso che fu, del Tommaso che ha rischiato di essere, del Tommaso che sarebbe stato.
 
