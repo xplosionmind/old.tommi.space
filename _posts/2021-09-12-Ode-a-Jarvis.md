@@ -34,13 +34,13 @@ Se <a href="/self-editor" target="_blank" title="Being a self editor — tommi.s
 
 <div class="row">
 	<figure class="half column">
-		<img src="https://tommi.space/images/obsidian-graph.png" alt="Un grafico che contiene tutte le mie note su Obsidian e le loro relazioni" title="il grafico delle mie note su Obsidian" />
+		<img class="light" src="https://tommi.space/images/obsidian-graph.png" alt="Un grafico che contiene tutte le mie note su Obsidian e le loro relazioni" title="il grafico delle mie note su Obsidian" />
 		<figcaption>
 			Il grafico che raccoglie tutte le mie note (Università + cose personali + poesie + scritti su carta + appunti veloci)
 		</figcaption>
 	</figure>
 	<figure class="half column">
-		<img src="https://tommi.space/images/obsidian-graph-jarvis.png" alt="Un grafico su Obsidian che contiene tutte le note di Jarvis e le loro relazioni" title="il grafico su Obsidian delle note di Jarvis" />
+		<img class="light" src="https://tommi.space/images/obsidian-graph-jarvis.png" alt="Un grafico su Obsidian che contiene tutte le note di Jarvis e le loro relazioni" title="il grafico su Obsidian delle note di Jarvis" />
 		<figcaption>
 			Sob, le note di <em>Jarvis</em> costituiscono una grande parte del <em>La Marmellata</em>
 		</figcaption>
