@@ -1,7 +1,7 @@
 ---
 date: 2020-02-04
-updated: 2021-05-09T15:46:57.897676+02:00
-tags: log csvfy
+updated: 2021-09-11T17:56:03.753077+02:00
+tags: wip log csvfy
 aliases: ["Cose extended", "Tutte le cose", "Stuff extended", "Di tutto e di più", "Done", "Fatto"]
 lang: it
 redirect_from: ["/tuttopiu", "/cose-extended", "/stuff-extended", "/stuff-extended-it", "/stuff-extended/it", "/it/stuff-extended", "/everything", "/done", "/fatto", "/fatte"]
@@ -47,6 +47,7 @@ Alcuni link fra i seguenti potrebbero essere protetti da password oppure non agg
 	{% endfor %}
 </ul>
 
+{% comment %}
 ## Concertini
 
 Ogni tanto organizzo qualche seratina di musica dal vivo nel ponente ligure (casa mia).
@@ -259,37 +260,7 @@ Ho ideato e concepito [quitsocialmedia.club](https://quitsocialmedia.club "Quit 
 
 ## altro
 
-- dal 26 febbraio al 1 marzo 2016 [**scambio culturale** a Bath](https://www.flickr.com/photos/xplosionmind/albums/72157710719618756), Inghilterra
-	- dal 16 al 23 ottobre 2015, invece, sono venuti i ragazzi di Bath a Sanremo
-- il 17 maggio 2015 ho suonato al [YAMAHA **OrchestranDo Music Festival**](https://www.flickr.com/photos/xplosionmind/albums/72157710385125082), Jesolo
-- dal 29 al 31 maggio 2016, ho suonato al [YAMAHA **Orchestrando Music Festival**](https://www.flickr.com/photos/xplosionmind/albums/72157710718954593)
-- dal 10 al 30 giugno 2018 ho vissuto a Londra, seguendo corsi di inglese. Ho scattato [queste foto](https://www.flickr.com/photos/xplosionmind/albums/72157674701337477).
-- il 17 aprile 2019 ho presentato [il concerto](https://www.flickr.com/photos/xplosionmind/albums/72157691071545563) dell’Orchestra numero 1 delle Scuole Europee di Bruxelles insieme all’Orchestra *Note Libere*, presso il Casino di Sanremo, durante cui ho anche fatto delle riprese per [*Everyone*](/it/everyone)
-- [qui](https://www.flickr.com/photos/xplosionmind/collections/72157711601389668/) ci sono le foto di tutte le gite fatte con la mia classe al Liceo
-	- dal 9 al 13 marzo 2015, [Venezia](https://www.flickr.com/photos/xplosionmind/sets/72157709386427892/)
-	- 26 maggio 2015, [EXPO Milano](https://www.flickr.com/photos/xplosionmind/sets/72157710385211076/)
-	- dal 16 al 18 marzo 2016, [Toscana](https://www.flickr.com/photos/xplosionmind/sets/72157710396054262/)
-	- 6 giugno 2016, [San Fruttuoso](https://www.flickr.com/photos/xplosionmind/sets/72157710727410093/)
-	- dal 12 al 17 marzo 2017, [Sicilia](https://www.flickr.com/photos/xplosionmind/sets/72157710152716696/)
-	- marzo 2018, Germania
-	- dall’8 al 13 aprile 2019, [Barcellona](https://www.flickr.com/photos/xplosionmind/sets/72157691071802133/)
-	- il 29 e 30 aprile 2019, in conclusione del progetto scolastico *In viaggio con l’atomo* [al CERN](https://www.flickr.com/photos/xplosionmind/sets/72157704885644652/) di Ginevra
-- il 30 agosto 2019 in piazza Matteotti a Riva Ligure si è tenuta la **première** del mio primo cortometraggio, [**Everyone**](/it/everyone)
-	- [foto della serata](https://www.flickr.com/photos/xplosionmind/albums/72157710771139417)
-	- [Press Kit](https://go.tommi.space/everyone-stuff)
-- il 12 ottobre 2019, grazie al mio amico [Matteo Cifani](https://instagram.com/matteo_cifani/), mi sono infiltrato come fotografo nel dietro le quinte di [**Rockin1000 - No borders on board**](https://www.rockin1000.com/it/tl_linate.php) a Linate.
-	- [foto](https://flic.kr/s/aHsmHJjZQQ)
-- il 13 ottobre 2019, sempre grazie a Matteo, sono andato in giro per il centro di Milano a fare scatti per la [**Deejay Ten**](https://deejayten.deejay.it/milano/), la maratona di [Radio Deejay](https://deejay.it)
-	- [foto](https://www.flickr.com/photos/xplosionmind/albums/72157711360922608)
-- il maggio 2018 ho vinto la finale della categoria *Advanced* del [**Mouse Trap Grand Prix**](https://www.mousetraprace.com/ "Mouse Trap Race official website"), costruendo la macchinina in grado di percorrere cinque metri e tornare al punto di partenza nel minor tempo possibile, con la sola propulsione di una trappola per topi
-	- [video intervista](https://youtu.be/EgQQ6rDfxr0)
-	- [foto](https://www.flickr.com/photos/xplosionmind/albums/72157714643331677)
-- Sono stato *Helper* ai campi [**ACLE**](https://www.acle.org/) ad Arma di Taggia nelle estati 2016 e 2017
-- Sono volontario di [**Imperia Musicale**](https://www.imperiamusicale.it/), collaborando alla realizzazione degli eventi estivi e invernali organizzati dall’associazione
-	- l’8 agosto 2017, [Imperia Unplugged Festival 2017](https://www.imperiamusicale.it/imperia-unplugged-festival-2017-3-edizione/), con Ermal Meta, Edoardo Chiesa e Emanuele Dabbono
-	- 23 dicembre 2017, [Briciole di Rock](https://www.imperiamusicale.it/eventi/)
-	- l’8 agosto 2018, [Imperia Unplugged Festival 2018](https://www.imperiamusicale.it/imperia-unplugged-festival-2018/)
-- il 7 novembre 2017 sono stato eletto Rappresentante d’Istituto del mio liceo, il [Liceo G.D. Cassini di Sanremo](https://www.liceogdcassini.edu.it/ "Liceo G.D. Cassini di Sanremo")
+- Sono stato <i lang="en">Helper</i> ai campi <a href="https://www.acle.org/" target="_blank" title="ACLE">ACLE</a> ad Arma di Taggia nelle estati 2016 e 2017
 - dal 2014 al 2018 ho partecipato agli allenamenti (anche alle gare, ma con risultati affatto lusinghieri) delle Olimpiadi di Matematica e della [Coppa Gauss a Squadre](http://gauss.dima.unige.it/ "Coppa Gauss - Università di Genova").
 - Sono un appassionatissimo ma non altrettanto perito giocatore di Dungeons & Dragons. La mia prima ed unica campagna fin ora è iniziata nell’ottobre 2015 e si è conclusa ad aprile 2020. Il nostro Game Master si sta ispirando principalmente all’avventura di [<cite>Rise of the Runelords</cite>](https://pathfinderwiki.com/wiki/Rise_of_the_Runelords "Rise of the Runelords on Pathfinder wiki").
 - Dal 2015 al 2018 sono stato aiuto-catechista nel corso dei cresimandi della parrocchia di Santo Stefano al Mare
@@ -297,13 +268,14 @@ Ho ideato e concepito [quitsocialmedia.club](https://quitsocialmedia.club "Quit 
 	- [immagini](https://www.flickr.com/photos/xplosionmind/albums/72157714829053321)
 - Dal 5 al 13 luglio 2020 ho partecipato al workshop di giornalismo de [Il Post](https://ilpost.it "Il Post") a Peccioli. Ho scritto [questo articolo](https://www.ilpost.it/2020/07/12/sgomberi-bogota-coronavirus/ "Gli sgomberi a Bogotà, nonostante il coronavirus - Il Post")
 - Il 25 ottobre 2020 ho tenuto [questo talk](http://go.tommi.space/MDN-LinuxDay2020) su [MDN Web Docs](https://mdn.dev "MDN homepage") al [Linux Day](https://linuxday.it/2020/ "Linux Day 2020")
-- Il +++ settembre 2020 ho partecipato al[la prima <cite>Filosofia di gruppo</cite>](https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3 "Podcast Filosofia di Gruppo #1") su [[Notes on Ten Arguments For Deleting Your Social Media Accounts|Dieci ragioni per eliminare il proprio account sui social media]] organizzato da [Tlon](https://tlon.it "Sito ufficiale di Tlon"). Il mio intervento è a al minuto `44:45`
+- Il <b class="missing">+++</b> settembre 2020 ho partecipato al[la prima <cite>Filosofia di gruppo</cite>](https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3 "Podcast Filosofia di Gruppo #1") su [[Notes on Ten Arguments For Deleting Your Social Media Accounts|Dieci ragioni per eliminare il proprio account sui social media]] organizzato da [Tlon](https://tlon.it "Sito ufficiale di Tlon"). Il mio intervento è a al minuto `44:45`
 - dall’1 al 6 Marzo 2021 ho gestito [la pagina Instagram](https://instagram.com/sanremonews "Sanremonews su Instagram") di [Sanremonews](https://sanremonews.it "Sanremonews") in occasione del Festival di Sanremo 2021
 - l’8 ed il 9 maggio 2021, ho partecipato al [VeUMEU 2021](https://www.univiu.org/viu-life/veumeu-2021 "Venice Universities’ Model European Union") come parlamentare del Parlamento Europeo, in rappresentanza del Partito Social Democratico del Portogallo.
+{% endcomment %}
 
 <br>
 <br>
 
-## Spettatore
+<h2>Spettatore</h2>
 
-Tengo traccia di tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante, in *[[Giri]]*.
+Tengo traccia di tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante, in <a href="/giri" title="Giri"><em>Giri</em></a>.

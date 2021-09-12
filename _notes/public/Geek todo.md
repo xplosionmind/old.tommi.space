@@ -18,6 +18,7 @@ description: 'Computer related tasks tracking'
 	- https://www.mediawiki.org/wiki/API:Main_page
 	- https://www.mediawiki.org/wiki/API:Tutorial
 	- https://www.wikidata.org/wiki/Wikidata:Data_access
+1. TMI Pics custom CSS
 8. Final color schemes
 	1. [iTerm](http://www.iterm2colorschemes.com/ "iTerm2 Color Schemes")
 	2. Neovim
@@ -28,6 +29,7 @@ description: 'Computer related tasks tracking'
 	- format
 	- readability
 	- can they be stored in pure plain text?
+1. Open a PR to add `install with Yunohost` button in Pixelfed README
 1. Bot Club Tenco e Cubbit su Mastodon 
 15. Update [[Storage|Backup]] and [[Backup checklist]] and add the roadmap to import pictures from iOS to MacOS and Linux
 16. Sistemare [[To listen]] e trovare soluzione definitiva per [[Quit Spotify]]
