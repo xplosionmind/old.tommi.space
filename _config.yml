@@ -84,8 +84,8 @@ twitter:
   username: xplosionmind
   card: summary
 
-d3_graph_data:
-  enabled: false
+#d3_graph_data:
+#  enabled: false
 
 toc:
   list_class: "grey border box"
@@ -118,6 +118,7 @@ plugins:
 #  - jekyll-stork
   - jekyll-wikilinks
 #  - jekyll-commonmark
+#  - jekyll-graph
 
 sass:
   style: compressed

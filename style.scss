@@ -7,7 +7,7 @@
 @import "../_sass/ubuntu-mono";
 @import "../_sass/links-emojis";
 @import "../_sass/eb-garamond";
-@import "../_sass/jam-graph";
+/*@import "../_sass/graph";*/
 
 html {
 	box-sizing: border-box;
@@ -980,6 +980,11 @@ button,
 		p,
 		li {
 			margin: $regular 10%;
+		}
+	}
+	.half {
+		figure {
+			margin: $height $bigger;
 		}
 	}
 	ul.two,

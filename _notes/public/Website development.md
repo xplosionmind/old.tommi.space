@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-08-14T12:58:17.293012+02:00
+updated: 2021-09-20T09:45:37.005822+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -29,10 +29,9 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork "jekyll-stork plugin")
 	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
-1. Better [jekyll-feed](https://github.com/jekyll/jekyll-feed 'jekyll-feed') features exploitation
 5. Remove JavaScript
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle') - 2021-06-15 <b class="bug">bug</b>: if `input` is before `body`, it is automatically moved inside by the browser
-7. [[The Jam]]: [Notes graph](https://github.com/manunamz/jekyll-wikilinks#d3-graph-data 'd3 graph data for jekyl-wikilinks on GitHub') visualization
+7. [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
 8. [[The Jam]]: Preview a note when hovering on link
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
 1. [Embed Mastodon feed](https://github.com/DomainDrivenArchitecture/dda-masto-embed 'dda-masto-embed on GitHub')
