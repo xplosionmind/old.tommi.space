@@ -126,7 +126,7 @@ sass:
 target-blank:
   rel: external
 
-#markdown: CommonMark
+#markdown: CommonMark # IDs not generated!
 #commonmark:
 #  options: ["FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE", "SMART", "VALIDATE_UTF8", "UNSAFE", "LIBERAL_HTML_TAG", "HARDBREAKS"]
 #  extensions: ["strikethrough", "table", "tasklist", "autolink"]

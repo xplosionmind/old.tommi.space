@@ -15,7 +15,7 @@ gem "jekyll"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "webrick"
-#  gem "jekyll-commonmark" # not generating header IDs: https://github.com/github/cmark-gfm/issues/186
+  gem "jekyll-commonmark", github: "jekyll/jekyll-commonmark"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
