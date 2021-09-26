@@ -355,7 +355,7 @@ pre {
 	overflow-x: scroll;
 	padding: $regular;
 	border-radius: $radius-m;
-	scrollbar-width: 0;
+	scrollbar-width: 0px;
 	code {
 		padding: 0;
 		line-height: unset;
@@ -599,6 +599,7 @@ h3 {
 }
 
 .box {
+	display: block;
 	background: var(--background);
 	max-width: 100%;
 	color: var(--text);
@@ -624,6 +625,13 @@ h3 {
 	}
 	h4 {
 		margin: 0;
+	}
+}
+
+.zibaldone {
+	.box {
+		max-height: 90vh;
+		overflow: scroll;
 	}
 }
 

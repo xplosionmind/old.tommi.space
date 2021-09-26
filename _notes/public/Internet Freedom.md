@@ -1,12 +1,14 @@
 ---
 date: 2020-07-10
-updated: 2021-09-26T13:23:54+02:00
+updated: 2021-09-26T16:26:59+02:00
 tags: geek
 redirect_from: ['/internet-freedom-notes', '/internet-freedom-roadmap', '/internet-freedom-roadmap', '/road-to-internet-freedom', '/internet-freedom-path', '/path-to-internet-freedom']
 description: Insights and steps towards a greater digital awareness and freedom
 main: true
 todo:
 ---
+## Premise
+
 This awesome and revolutionary tool which goes by *the Internet* is <u>so powerful that in certain ways it is becoming <strong>a threat</strong> to the freedom of its users</u>, who, in exchange for services, <u>indifferently hand over their data</u>, therefore giving up personal independence and liberty.
 
 Essentially, I interpret internet freedom as the joint concern for two overlapping macro-themes:
@@ -21,13 +23,23 @@ Essentially, I interpret internet freedom as the joint concern for two overlappi
 <br>
 <br>
 
+## Time
+
+**Digital awareness is time consuming**.  
+The only excuse I accept from people refusing to inform themselves about how we are being sucked into a worryingly inescapable and uncontrollable ecosystem is that <u>they don’t have time</u>.
+
+I get it. I “wasted” hours, days, reading articles and watching videos concerning the internet, its functioning and its governance. I wish this matter could be simpler and more clear, but understanding internet monopoly both requires a fair amount of technical knowledge and it is a subtle matter.
+
+<br>
+<br>
+
 ## Choose the alternative
 
 Just complaining, waiting for things to get better, believing that a conscious use is enough to keep clear from big tech negative impact is simply bullshit.
 
 To change something and to make things better we need to [[Quit and switch|switch]] to healthier, more ethical, often even cooler alternatives.
 
-![[Quit and switch]].
+![[Quit and switch]]
 
 <br>
 <br>
@@ -48,8 +60,8 @@ Random links about privacy online
 - [My Year Without Google](https://onezero.medium.com/one-year-google-free-59e0afb68328)
 - [Free Software, Richard Stallman](https://hyp.is/zEpzAm9jEeqKOxdXSivD-A/www.wired.com/2013/09/why-free-software-is-more-important-now-than-ever-before/)
 - [Richard Stallman’s website](http://stallman.org "Richard Stallman personal website")
-- [Privacy Tools](https://www.privacytools.io/) **there are a lot of cool references here**
-- [Why Privacy Matters - TED](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters)
+- [Privacy Guides](https://www.privacyguides.org)
+- [Why Privacy Matters - TED Talk](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters '“Why Privacy Matters” on TED Talks')
 - [CryptoPaper](https://github.com/cryptoseb/CryptoPaper)
 - [Andy Yen (ProtonMail CEO) TED Talk](https://www.ted.com/talks/andy_yen_think_your_email_s_private_think_again)
 - [Nothing to hide argument](https://en.wikipedia.org/wiki/Nothing_to_hide_argument)
@@ -83,5 +95,5 @@ Random links about privacy online
 - [Take Control](https://www.humanetech.com/take-control) of your tech life in seven moves
 - [WhatsApp vs Telegram vs Signal](https://beebom.com/whatsapp-vs-telegram-vs-signal/)
 - [Why ditching WhatsApp - Vice](https://www.vice.com/en/article/qj4qjd/whatsapp-data-security-issues)
-- [EFF's Surveillance Self Defense](https://ssd.eff.org/)
+- [EFF’s Surveillance Self Defense](https://ssd.eff.org/)
 - [Open Wireless Movement](https://www.eff.org/pages/openwirelessorg)

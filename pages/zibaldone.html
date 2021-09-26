@@ -6,41 +6,41 @@ pagination:
   enabled: true
   permalink: '/:num/'
 ---
-<div class="page-header row">
-	<div class="one column">
+<div class='page-header row'>
+	<div class='one column'>
 		<h1>Zibaldone</h1>
 		<p>Poco a che vedere con la saggezza e la serietà dell’omonimo leopardiano, qui un po’ più di allegria e stupidaggini.</p>
-		<p>Dall’enciclopedia Treccani, <a href="http://treccani.it/vocabolario/zibaldone/"  target="_blank">żibaldóne</a>: […] <cite class="serif">Scartafaccio in cui si annotano, senza ordine e man mano che capitano, notizie, appunti, riflessioni, estratti di letture, schemi, abbozzi, ecc.</cite></p>
+		<p>Dall’enciclopedia Treccani, <a href='http://treccani.it/vocabolario/zibaldone/'  target='_blank'>żibaldóne</a>: […] <cite class='serif'>Scartafaccio in cui si annotano, senza ordine e man mano che capitano, notizie, appunti, riflessioni, estratti di letture, schemi, abbozzi, ecc.</cite></p>
 		<p>Esattamente quello.</p>
 	</div>
 </div>
 
-<div class="row">
-	<div class="two-thirds column">
+<div class='row'>
+	<div class='two-thirds column'>
 		{% include tags.html %}
 	</div>
-	<div class="one-third column">
+	<div class='one-third column'>
 		{% include filter-lang.html %}
 	</div>
 </div>
 	
-<div class="row">
+<div class='zibaldone row'>
 	{% for post in paginator.posts %}
-		<div class="one-third column">
-			<a class="box" href="{{ post.url }}" hreflang="{{ post.lang }}" lang="{{ post.lang }}">
-				<img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" />
+		<div class='one-third column'>
+			<a class='box' href='{{ post.url }}' hreflang='{{ post.lang }}' lang='{{ post.lang }}'>
+				<img src='{{ post.image }}' alt='{{ post.title }}' title='{{ post.title }}' />
 				<h2>{{ post.title }}</h2>
-				<p class="date"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time></p>
-				<cite class="excerpt">
-					{{ post.excerpt | strip_html | truncatewords: 50 }}
+				<p class='date'><time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{{ post.date | date_to_long_string }}</time></p>
+				<cite class='excerpt'>
+					{{ post.excerpt | strip_html | truncatewords: 40 }}
 				</cite>
-				<div class="flex">
+				<div class='flex'>
 					{% for tagg in site.data.tags %}
 						{% for present in post.tags %}
 							{% capture tag %}{{ tagg.title | downcase | slugify }}{% endcapture %}
 							{% capture post-tag %}{{ present | downcase | slugify }}{% endcapture %}
 							{% if tag == post-tag %}
-								<div rel="tag" class="{{ tag }} smaller written button">{{ tagg.title }}</div>
+								<div rel='tag' class='{{ tag }} smaller written button'>{{ tagg.title }}</div>
 							{% endif %}
 						{% endfor %}
 					{% endfor %}

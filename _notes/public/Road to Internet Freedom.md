@@ -1,8 +1,11 @@
 ---
 date: 2020-12-10
-updated: 2021-05-28T22:26:36.932658+02:00
+updated: 2021-09-26T16:56:41+02:00
 tags: geek/free
-aliases: 'My personal roadmap towards an ever growing freedom and awareness in using digital tools'
+aliases: ['Internet Freedom Roadmap']
+permalink: /internet-freedom-roadmap
+redirect_from: ['/if-roadmap', '/road-to-internet-freedom', '/internet-freedom-path']
+description: 'My personal roadmap towards an ever growing freedom and awareness in using digital tools'
 toc: false
 ---
 1. ✅ [**<cite>Quit Social Media</cite>**](https://quitsocialmedia.club/roadmap "Quit Social Media roadmap")
@@ -15,7 +18,7 @@ toc: false
 1. Reduce the **passive** [digital footprint](https://en.wikipedia.org/wiki/Digital_footprint "Digital footprint on Wikipedia")
 1. ✅ 2021.01.01[[Missing Knowledge|Learn]] and improve [PGP keys management](https://keys.openpgp.org "OpenPGP")
 1. 🏗 Set a private DNS as a system-wide encrypted DNS
-1. ✅ Install and configure [[Server|self-hosted apps]]
+1. ✅ Install and configure [[Server|self-hosted appster]]
 
 <br>
 

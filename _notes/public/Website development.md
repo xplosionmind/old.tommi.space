@@ -31,28 +31,19 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
 5. Remove JavaScript
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle') - 2021-06-15 <b class="bug">bug</b>: if `input` is before `body`, it is automatically moved inside by the browser
-7. [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
+7. 🏗 [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
 8. [[The Jam]]: Preview a note when hovering on link
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
-1. [Embed Mastodon feed](https://github.com/DomainDrivenArchitecture/dda-masto-embed 'dda-masto-embed on GitHub')
 10. Movies list integration
-	- <https://www.themoviedb.org/documentation/api/discover>
-	- <https://developers.themoviedb.org/3/getting-started/introduction>
-	- <https://developers.themoviedb.org/3/configuration/get-api-configuration>
-	- <https://developer.imdb.com/documentation/data-dictionary/names>
-	- <https://www.themoviedb.org/settings/api/new/form?type=developer>
 11. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
-12. Fetch images previews to complete external links and preferences
-	- how to make use of <https://ogp.me> to retrieve data
 13. Give a consistent framework to all lists [[CSVfy]]
 1. Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
 1. Study [awesome-web-animation website](https://awesome-web-animation.netlify.app/ 'Awesome Web Animation')
 2. Flash animation of exploding head emojis while a button is `active` and/or `hover`
 14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
 15. Study [Search Engine Optimization repo](https://github.com/marcobiedermann/search-engine-optimization 'search-sngine-optimization on GitHub') and Blogger’s `<head>` to **improve SEO**
-16. **Join [WebRings](https://en.wikipedia.org/Webring '“Webring” on Wikipedia')**
-	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub") ✅ 2021-05-25
-	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring")
+12. Fetch images previews to complete external links and preferences
+	- how to make use of <https://ogp.me> to retrieve data
 17. [[Nolan]]
 18. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
 19. Integrate a script/plugin to check overlapping permalinks
@@ -144,6 +135,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 - checkbox styling
 - CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
 - cursor styling
+- 🏗 2021.09.26 [Embed Mastodon feed](https://github.com/DomainDrivenArchitecture/dda-masto-embed 'dda-masto-embed on GitHub')
 - final header configuration
 - Fix [jekyll-target-blank](https://github.com/keithmifsud/jekyll-target-blank) plugin, which is **NOT WORKING**! See the [related issue](https://github.com/keithmifsud/jekyll-target-blank/issues/51).
 - **Get rid of jQuery**: it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time. Use pure JavaScript instead ✅ 2020-12-25 **FINALLY** !
@@ -166,6 +158,9 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 - inline code styling
 - input fields styling
 - Integrate [jekyll-time-to-read](https://github.com/gjtorikian/jekyll-time-to-read/ "jekyll-time-to-read on GitHub") ✅ 2021.04.13
+- **Join [WebRings](https://en.wikipedia.org/Webring '“Webring” on Wikipedia')**
+	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub") ✅ 2021-05-25
+	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring") ✅ 2021-09-26
 - Language selection straight from landing page - 2020.09.11
 - language switch
 - `letter-spacing` and `word spacing` (it's nice as it is)
