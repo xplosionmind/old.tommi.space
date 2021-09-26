@@ -31,5 +31,5 @@ Slots are simply **time slots**: half or full hours which I devote to something.
 
 ## Tools
 
-- [Timelines](https://timelines.app/ 'Timelines App'), an iOS only app for time tracking. It is incredibly similar to my concept of [[Timeline development|Timeline]], but it has a pro subscription which is not worth it.
+- [Timelines](https://timelines.app/ 'Timelines App'), an iOS only app for time tracking. It is incredibly similar to my concept of [[Nolan|Timeline]], but it has a pro subscription which is not worth it.
 - [Monofocus](https://monofocus.app/ 'Monofocus'), setting WIP short-term tasks and get periodical reminders to focus specifically on one single task only

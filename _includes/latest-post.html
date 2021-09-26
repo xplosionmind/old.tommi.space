@@ -1,8 +1,8 @@
 {% for post in site.posts limit:1 %}
-	<div class="box row" title="{% if page.lang == 'it'%}Ultimo articolo{% else %}Latest post{% endif %}">
+	<div class='box row' style='overflow:hidden' title="{% if page.lang == 'it'%}Ultimo articolo{% else %}Latest post{% endif %}">
 		<div class="half column vertical flex">
 			<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-			<cite class="excerpt">
+			<cite class='excerpt'>
 				{{ post.excerpt }}
 			</cite>
 			<a href="{{ post.url }}" class="written button">{% if page.lang == 'it' %}Leggi{% else %}Read{% endif %}</a>
@@ -10,5 +10,6 @@
 		<div class="half column vertical flex">
 			<a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" /></a>
 		</div>
+		<div id='latest' class='red button'>{% if page.lang == 'it'%}Ultimo articolo{% else %}Latest article{% endif %}</div>
 	</div>
 {% endfor %}

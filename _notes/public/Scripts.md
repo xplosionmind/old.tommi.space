@@ -20,4 +20,4 @@ The following are ideas for scripts I would like to code both to learn bash and 
 
 ## Slogger
 
-Logging anything happening to my life, saving it in a shared database. A sort of front-end client for the [[Timeline development|Timeline]].
+Logging anything happening to my life, saving it in a shared database. A sort of front-end client for the [[Nolan|Timeline]].

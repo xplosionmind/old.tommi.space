@@ -53,7 +53,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 16. **Join [WebRings](https://en.wikipedia.org/Webring '“Webring” on Wikipedia')**
 	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub") ✅ 2021-05-25
 	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring")
-17. [[Timeline development]]
+17. [[Nolan]]
 18. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
 19. Integrate a script/plugin to check overlapping permalinks
 20. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
@@ -140,7 +140,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 - customize 404 page
 - Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
 - tags description and link to stuff
-- Check the OpenStreetMap API and figure out a way to implement [[Around the world|Places]] in a map interface, integrating it with [[Timeline development|Timeline]] ✅ 2021.04.13
+- Check the OpenStreetMap API and figure out a way to implement [[Around the world|Places]] in a map interface, integrating it with [[Nolan|Timeline]] ✅ 2021.04.13
 - checkbox styling
 - CSV databases (check [this post](https://jekyllrb.com/tutorials/csv-to-table/))
 - cursor styling

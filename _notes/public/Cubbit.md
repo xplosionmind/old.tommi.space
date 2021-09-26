@@ -1,6 +1,6 @@
 ---
 date: 2021-02-04T10:40:50.310184+01:00
-updated: 2021-06-23T21:38:53.649500+02:00
+updated: 2021-09-25T08:02:53.649500+02:00
 tags: geek/apps
 description: 'Bugs, feature request and notes about Cubbit, the decentralized storage system I love and use everyday'
 toc: false
@@ -12,8 +12,6 @@ toc: false
 
 ## Bugs
 
-- Heavy CPU and GPU usage
-
 <br>
 <br>
 
@@ -24,6 +22,8 @@ toc: false
 1. Improved photos management
 	- albums support
 2. WebDAV support
+3. Multiple account support in the apps
+3. Seamlessly moving files from one account to another
 1. File tagging
 3. Collaborative editing of documents
 4. Customization

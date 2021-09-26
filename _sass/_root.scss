@@ -33,7 +33,7 @@ $radius-l: 1rem;
 
 	--title-text-shadow-hover: none;
 
-	--font-sans: Inter, -apple-system, Helvetica, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-	--font-serif: 'EB Garamond', Garamond, 'Simoncini Garamond', Merriweather, serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-	--font-mono: 'Ubuntu Mono', 'Roboto Mono', 'Fira Code', mono, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	--font-sans: Inter, system-ui, -apple-system, Helvetica, Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	--font-serif: 'EB Garamond', Garamond, 'Simoncini Garamond', Merriweather, serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	--font-mono: 'Ubuntu Mono', ui-monospace, 'Roboto Mono', mono;
 }

@@ -1,24 +1,21 @@
 ---
 date: 2020-07-10
-updated: 2021-05-28T22:12:21.246600+02:00
-tags: geek draft
-redirect_from: ["/internet-freedom-notes", "/internet-freedom-roadmap", "/internet-freedom-roadmap", "/road-to-internet-freedom", "/internet-freedom-path", "/path-to-internet-freedom"]
-description: 'Insights and steps towards a greater digital awareness and freedom'
+updated: 2021-09-26T13:23:54+02:00
+tags: geek
+redirect_from: ['/internet-freedom-notes', '/internet-freedom-roadmap', '/internet-freedom-roadmap', '/road-to-internet-freedom', '/internet-freedom-path', '/path-to-internet-freedom']
+description: Insights and steps towards a greater digital awareness and freedom
 main: true
 todo:
-  - 'finish to properly write this'
 ---
-This awesome and revolutionary tool which goes by *the Internet* is <u>so powerful that some of it became a threat to the freedom of its users</u>, who, in exchange for services, indifferently hand over their data, therefore giving up personal independence and liberty.
+This awesome and revolutionary tool which goes by *the Internet* is <u>so powerful that in certain ways it is becoming <strong>a threat</strong> to the freedom of its users</u>, who, in exchange for services, <u>indifferently hand over their data</u>, therefore giving up personal independence and liberty.
 
-Essentially, internet freedom is the concern for two overlapping macro-themes:
+Essentially, I interpret internet freedom as the joint concern for two overlapping macro-themes:
 
-- privacy and security of digital tools
-- decentralization and de-monopolization regarding both hardware and software development
-
-Below are noted various arguments, thoughts, speeches, documents, ideas and step-by-step guides in order to better tackle the core issues .
+- **privacy** and security of digital tools
+- **decentralization** and **de-monopolization** regarding both hardware and software development
 
 <div class='blue box'>
-	I wish I had both the time and the knowledge to write some in-depth articles about the just mentioned topics. Nevertheless, on the web there are <u>plenty of great content</u> addressing them better than I could possibly do.
+	I wish I had both the time and the knowledge to write some in-depth articles about the topics mentioned above, but I am still studying and trying to better tackle the problems of the internet and their roots, in order to form a well-grounded opinion. For this reason, content of this page is pretty random and schematic.
 </div>
 
 <br>
@@ -26,18 +23,18 @@ Below are noted various arguments, thoughts, speeches, documents, ideas and step
 
 ## Choose the alternative
 
-Just complaining, waiting for things to get better one way or another, believing that a conscious use is enough to keep clear from big tech negative impact is simply bullshit.
+Just complaining, waiting for things to get better, believing that a conscious use is enough to keep clear from big tech negative impact is simply bullshit.
 
-To change something, to make things better just [[Quit and switch|switch]] to healthier, more ethical, often even much better alternatives.
+To change something and to make things better we need to [[Quit and switch|switch]] to healthier, more ethical, often even cooler alternatives.
 
-**![[Quit and switch]]**.
+![[Quit and switch]].
 
 <br>
 <br>
 
 ## Roadmap
 
-[[Road to Internet Freedom|My personal roadmap]] towards internet awareness and freedom.
+![[Road to Internet Freedom]]
 
 <br>
 <br>
@@ -46,7 +43,7 @@ To change something, to make things better just [[Quit and switch|switch]] to he
 
 Random links about privacy online
 
-- [The Hitchhiker’s guide to Internet Anonymity](https://anonymousplanet.org/ "Anonymous Planet")
+- [The Hitchhiker’s guide to Internet Anonymity](https://anonymousplanet.org/ 'Anonymous Planet')
 - [Privacy is power, a conversation with Clarissa Véliz](https://www.youtube.com/watch?v=xBCurP2PfdQ)
 - [My Year Without Google](https://onezero.medium.com/one-year-google-free-59e0afb68328)
 - [Free Software, Richard Stallman](https://hyp.is/zEpzAm9jEeqKOxdXSivD-A/www.wired.com/2013/09/why-free-software-is-more-important-now-than-ever-before/)

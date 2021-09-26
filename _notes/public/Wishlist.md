@@ -1,6 +1,6 @@
 ---
 date: 2020-07-17
-updated: 2021-09-02T14:29:30.768380+02:00
+updated: 2021-09-22T11:39:30.768380+02:00
 toc: false
 description: "Stuff I need and things I just would love to have"
 redirect_from: ["/desideri", "/regali"]
@@ -21,6 +21,7 @@ main: true
 7. Watertight bag or backpack
 8. City bike
 11. Books (check the [Books wishlist](/books#wishlist "Books wishlist"))
+12. Ledlenser torch
 12. Ski mask
 13. Snowboard boots
 15. Radio Amateur Rig

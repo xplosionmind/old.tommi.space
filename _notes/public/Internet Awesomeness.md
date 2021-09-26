@@ -1,24 +1,23 @@
 ---
 date: 2020-10-27
 tags: geek
-redirect_from: ["/great-websites", "/great-internet", "/internet-greatness"]
+redirect_from: ['/great-websites', '/great-internet', '/internet-greatness']
 toc: false
-description: "Sources of awesomeness on the World Wide Web."
+description: Sources of awesomeness on the World Wide Web.
 todo:
-  - "definire criteri di appartenenza"
-  - "definire tags (#personal, #tool, #service…) e utilizzarli su Telegram"
-  - "Telegram API / RSS feed per prendere le cose da lì"
-  - "Pubblicare liste di Pocket"
+  - 'definire criteri di appartenenza'
+  - 'definire tags (#personal, #tool, #service…) e utilizzarli anche su Telegram'
+  - 'RSS to Telegram channel'
 ---
-<div class="yellow box">
-  This list is almost empty. It is a very long for me to add some awesome thing here. The most up to date list of my discoveries can be found in <a href="https://t.me/internet_awesomeness" rel="noener noreferrer" target="_blank" title="Internet Awesomeness on Telegram"><cite>Internet Awesomeness</cite></a>, a Telegram channes where I copy and paste links as soon as I stumble upon them
+<div class='yellow box'>
+  Join <a href='https://t.me/internet_awesomeness' target='_blank' title='Internet Awesomeness Telegram channel'><cite>Internet Awesomeness</cite></a> Telegram channel or subscribe to the <a href='/feeds/internet-awesomeness.xml' target='_blank' title='Internet Awesomeness RSS feed'>RSS feed</a> to get new websites I add in real time.
 </div>
 
 <ul>
 	{% for web in site.data.internet-awesomeness %}
 		<li>
-			<a href="{{ web.url }}"  target="_blank" title="{% if web.website != nil %}{{ web.website }}">
-				{{ web.website }}{% else %}{{ web.url | remove: "https://" }}">{{ web.url | remove: "https://" }}{% endif %}
+			<a href='{{ web.url }}'  target='_blank' title='{% if web.website != nil %}{{ web.website }}'>
+				{{ web.website }}{% else %}{{ web.url | remove: "https://" }}'>{{ web.url | remove: "https://" }}{% endif %}
 			</a>: {{ web.description }} — {{ web.date | date_to_long_string }}</li>
 	{% endfor %}
 </ul>

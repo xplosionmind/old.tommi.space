@@ -2,7 +2,7 @@
 date: 2020-10-24
 updated: 2021-03-22T12:14:06.725510+01:00
 tags: zen
-aliases: ["Quantified self", "Life logging", "Life Dashboard"]
+aliases: ['Quantified self', 'Life logging']
 description: "Gaining knowledge and awareness of ourselves by collecting any sort of data which concern us"
 redirect_from: ["/quantified-self", "/lifelogging", "life-logging", "/life-dashboard"]
 ---

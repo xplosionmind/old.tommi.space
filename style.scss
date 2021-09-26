@@ -1,5 +1,6 @@
 ---
 ---
+@import "../_sass/normalize";
 @import "../_sass/root";
 @import "../_sass/inter";
 @import "../_sass/header";
@@ -10,7 +11,6 @@
 /*@import "../_sass/graph";*/
 
 html {
-	box-sizing: border-box;
 	cursor: url({{ site.logos }}/cursor.svg) 16 16, crosshair;
 	scroll-behavior: smooth;
 }
@@ -19,7 +19,6 @@ html {
 body {
 	background: linear-gradient(-45deg,#0A0A0A,#3D3D3D);
 	color: var(--text);
-	margin: 0;
 	overflow-wrap: break-word;
 	hyphens: auto;
 	font: $regular var(--font-sans);
@@ -90,12 +89,6 @@ body {
 	transition: var(--trans), transform var(--quicktrans), box-shadow var(--quicktrans), text-shadow var(--quicktrans);
 }
 
-*,
-::before,
-::after {
-	box-sizing: inherit;
-}
-
 .themetoggle,
 #menutoggle,
 #langtoggle {
@@ -106,7 +99,7 @@ body {
 	&::before,
 	&::after {
 		display: table;
-		content: " ";
+		content: '';
 		clear: both;
 	}
 }
@@ -349,7 +342,9 @@ hr {
 }
 
 pre,
-code {
+code,
+kbd,
+samp {
 	font: 400 1em var(--font-mono);
 	line-height: 1.2em;
 	background: var(--black-ish);
@@ -604,7 +599,6 @@ h3 {
 }
 
 .box {
-	display: block;
 	background: var(--background);
 	max-width: 100%;
 	color: var(--text);
@@ -656,6 +650,14 @@ h3 {
 	&:hover {
 		bottom: 0;
 	}
+}
+
+#latest {
+	position: relative;
+	bottom: -1vh;
+	left: 2vw;
+	transform: rotate(7deg);
+	width: 310px;
 }
 
 .excerpt {
