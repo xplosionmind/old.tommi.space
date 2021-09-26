@@ -16,6 +16,7 @@ layout: none
 			max-width: 100%;
 			hyphens: auto;
 			line-height: 1em;
+			text-shadow: none;
 		}
 		a {
 			width: 100vw;
@@ -23,9 +24,9 @@ layout: none
 			padding: 10%;
 		}
 	</style>
-<body class="full">
-	<a class="vertical flex" href="{{ page.link }}">
-		<h1 style="margin: 1rem auto">{{ page.title }}</h1>
+<body class='full'>
+	<a class='vertical flex' href='{{ page.link }}'>
+		<h1 style='margin: 1rem auto'>{{ page.title }}</h1>
 		{{ content | markdownify }}
 	</a>
 </body>

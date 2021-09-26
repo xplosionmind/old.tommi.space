@@ -13,6 +13,6 @@ redirect_from:
 lang: it
 ---
 Non stai usando il browser che dovresti!
-Sono molto deliso da te.
+Sono molto deluso da te.
 
 Clicca ovunque nella pagina per scaricare Firefox, se già non lo hai.

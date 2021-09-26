@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-09-20T09:45:37.005822+02:00
+updated: 2021-09-26T18:17:55+02:00
 tags: meta geek/web
 aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
 permalink: /development
@@ -18,7 +18,6 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 ## Roadmap
 
 1. Configure and implement [[Indie Web]]
-	- Note in footer that this website supports Webmentions
 3. Configure and implement [ActivityPub]
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
