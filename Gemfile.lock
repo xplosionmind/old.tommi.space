@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jekyll/jekyll-commonmark.git
-  revision: c83efa3f094febc046500bd93eaf3fdd890cadb4
+  revision: 37e262a5635e74f2a2a4b1233f91cf49ac29ee7f
   specs:
     jekyll-commonmark (1.3.1)
       commonmarker (~> 0.22)
@@ -42,7 +42,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    jekyll (4.2.0)
+    jekyll (4.2.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -102,12 +102,8 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     method_source (1.0.0)
-    mini_portile2 (2.6.1)
     minitest (5.14.4)
-    nokogiri (1.12.4)
-      mini_portile2 (~> 2.6.1)
-      racc (~> 1.4)
-    nokogiri (1.12.4-x86_64-darwin)
+    nokogiri (1.12.5-x86_64-darwin)
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
@@ -142,7 +138,6 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
-  ruby
   x86_64-darwin-20
 
 DEPENDENCIES

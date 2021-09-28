@@ -3,7 +3,7 @@ date: 2021-09-26T18:23:45+02:00
 updated: 2021-09-26T18:23:45+02:00
 tags: help geek/idea
 description: 'A social network based on personal and historical events'
-aliases: ['Timeline development', 'Timeline']
+aliases: ['Timeline development', 'Timeline', 'Aby']
 redirect_from: ['/timeline', '/timeline-dev', '/timeline-development']
 ---
 Who I am is also, or mostly, defined by the events which marked my life even before my birth:  
@@ -48,3 +48,10 @@ Add a timeline like [Jeremy Gordon's](https://jgordon.io "Jeremy Gordon") or [ja
 		- https://codepen.io/rprajapatii/pen/AXoWyd (animations with JavaScript)
 		- https://codepen.io/NilsWe/pen/FemfK
 		- https://codepen.io/allisonching/pen/XeLjGd (simple minimal horizontal)
+
+<br>
+<br>
+
+## Alternative name ideas
+
+- *Aby*, in honour of [[Aby Warburg]] (see [*Mnemosyne*](https://tommi.space/mnemosyne '“Mnemosyne„ article on tommi.space'))

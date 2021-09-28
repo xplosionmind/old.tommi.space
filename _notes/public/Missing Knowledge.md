@@ -1,6 +1,6 @@
 ---
 date: 2020-12-09
-updated: 2021-09-09T20:57:26.172672+02:00
+updated: 2021-09-27T11:34:01.+02:00
 tags: knowledge todo
 aliases: ["Learn", "To learn"]
 description: "What I need / have / would love to learn"
@@ -35,6 +35,9 @@ A private list of knowledge I miss about exams I am studying for.
 - US Presidential timeline
 - Israel history
 - Afghanistan history
+- Iraq history
+- Iran History
+- Vietnam War
 - [[2018-05-26 Madonna del Buon Consiglio|Madonna del Buon Consiglio]]
 
 <br>
