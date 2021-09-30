@@ -310,21 +310,6 @@ li {
 	}
 }
 
-#goto {
-	position: fixed;
-	top: 35vh;
-	left: -15rem;
-	&:hover,
-	&:focus {
-		left: 0;
-		opacity: 1;
-	}
-	a {
-		transform: scale(.85);
-		display: block;
-	}
-}
-
 hr {
 	width: 30%;
 }
@@ -605,7 +590,6 @@ h3 {
 	border-radius: $radius-l;
 	box-shadow: var(--shadow);
 	&.little {
-		display: inline-block;
 		border-radius: $radius-m;
 		padding: $small;
 		background: var(--primary);
@@ -651,7 +635,7 @@ h3 {
 
 #help {
 	position: fixed;
-	bottom: -15rem;
+	bottom: -10.5rem;
 	&:hover {
 		bottom: 0;
 	}
@@ -726,7 +710,7 @@ svg.button,
 img.button {
 	height: $height;
 	width: auto;
-	padding: 0;
+	padding: .35rem;
 	margin: $tiny;
 	background: var(--primary);
 }
@@ -776,13 +760,6 @@ button,
 	margin: $tiny;
 	font-size: $regular-less;
 	border-radius: 4px;
-}
-
-#share {
-	.button {
-		margin-right: $small;
-		padding: .4rem;
-	}
 }
 
 .filter-by {
@@ -959,12 +936,15 @@ button,
 	.newsletter {
 		margin: 2vh 0;
 	}
-	#goto {
-		left: -13.4rem;
-		opacity: .5;
+	#goto div {
+		display: flex;
+		overflow: scroll;
+		a {
+			margin-right: $small;
+		}
 	}
 	#help {
-		bottom: -17.5rem;
+		bottom: -15rem;
 	}
 	#pages {
 		a {
@@ -1007,6 +987,19 @@ button,
 		max-width: 15%;
 		ul {
 			padding: 0 $small 0 1em;
+		}
+	}
+	#goto {
+		position: fixed;
+		top: 35vh;
+		left: -15rem;
+		&:hover,
+		&:focus {
+			left: 0;
+		}
+		a {
+			transform: scale(.85);
+			display: block;
 		}
 	}
 }
