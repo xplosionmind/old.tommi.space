@@ -77,14 +77,6 @@ body {
 	}
 }
 
-#linkPrev::before {
-	content: '←';
-}
-
-#linkNext::after {
-	content: '→';
-}
-
 .theImageAndInfos {
 	background: var(--deep);
 }
@@ -190,15 +182,18 @@ body {
 
 #Tags {
 	dd {
-		color: var(--background);
+		font-size: 0;
 		a {
 			padding: 1px 4px;
+			margin: $tiny $small;
+			box-shadow: var(--little-shadow);
 			background: var(--yellow);
+			display: inline-block;
 			border-radius: $radius-s;
 			color: var(--background) !important;
 			font-family: var(--font-sans) !important;
 			font-weight: 700;
-			font-size: .92em;
+			font-size: 1rem;
 			text-transform: uppercase;
 		}
 	}

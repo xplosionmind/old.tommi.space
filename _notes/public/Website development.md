@@ -1,12 +1,12 @@
 ---
 date: 2020-02-02
-updated: 2021-09-26T18:17:55+02:00
+updated: 2021-10-12T09:49:36+02:00
 tags: meta geek/web
-aliases: ["Development", "tommi.space", "Development Roadmap", "Website todo"]
+aliases: ['Development', 'tommi.space', 'Development Roadmap', 'Website todo']
 permalink: /development
-redirect_from: ["/development-roadmap", "/roadmap", "/wip", "/issues", "/improvements", "/dev", "/website-development", "tommi.space"]
+redirect_from: ['/development-roadmap', '/roadmap', '/wip', '/issues', '/improvements', '/dev', '/website-development', 'tommi.space']
 main: true
-description: "Creative and technical aims, ideas annotation and drafts tracking."
+description: 'Creative and technical aims, ideas annotation and drafts tracking.'
 ---
 ## Content
 
@@ -22,41 +22,44 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
 4. Fast, simple and light full text search
-	- [Lunr](https://lunrjs.com "Lunr")
-		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr "jekyll-lunr on GitHub")
-	- [Stork](https://stork-search.net/ "Stork search")
-		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork "jekyll-stork plugin")
-	- [Searchyll](https://github.com/omc/searchyll "Searchyll on GitHub")
-	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search "Awesome Static Websites Services - Search")
+	- [Lunr](https://lunrjs.com 'Lunr')
+		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr 'jekyll-lunr on GitHub')
+	- [Stork](https://stork-search.net/ 'Stork search')
+		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork 'jekyll-stork plugin')
+	- [Searchyll](https://github.com/omc/searchyll 'Searchyll on GitHub')
+	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search 'Awesome Static Websites Services - Search')
+1. [Self-hosted analytics](https://github.com/0xnr/awesome-analytics 'Awesome Analytics on GitHub')
+1. [Self-hosted comments](https://www.taniarascia.com/add-comments-to-static-site/ 'Roll Your Own Comment System for a Static Site') service
 5. Remove JavaScript
-	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle') - 2021-06-15 <b class="bug">bug</b>: if `input` is before `body`, it is automatically moved inside by the browser
+	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle') - 2021-06-15 <b class='bug'>bug</b>: if `input` is before `body`, it is automatically moved inside by the browser
 7. 🏗 [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
 8. [[The Jam]]: Preview a note when hovering on link
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
+10. Browser branding: should it match the background or the accent color?
 10. Movies list integration
-11. [**<cite>Visions</cite>**](https://visions.tommi.space "Visioni - Tommi Space") improvement: see [[Images]] and [[Piwigo]]).
+11. [**<cite>Visions</cite>**](https://visions.tommi.space 'Visioni - Tommi Space') improvement: see [[Images]] and [[Piwigo]]).
 13. Give a consistent framework to all lists [[CSVfy]]
 1. Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
-1. Study [awesome-web-animation website](https://awesome-web-animation.netlify.app/ 'Awesome Web Animation')
+1. Study [awesome-web-animation website](https://awesome-web-animation.netlify.app/ 'Awesome Web Animation'), possibly considering [Isso](https://posativ.org/isso/ 'Isso')
 2. Flash animation of exploding head emojis while a button is `active` and/or `hover`
-14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 "jekyll-paginate on GitHub") and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ "jekyll-csv on GitHub")
+14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 'jekyll-paginate on GitHub') and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ 'jekyll-csv on GitHub')
 15. Study [Search Engine Optimization repo](https://github.com/marcobiedermann/search-engine-optimization 'search-sngine-optimization on GitHub') and Blogger’s `<head>` to **improve SEO**
 12. Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
 17. [[Nolan]]
-18. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ "W3Schools HowTos")
+18. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ 'W3Schools HowTos')
 19. Integrate a script/plugin to check overlapping permalinks
-20. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ "jekyll-exif-data on GitHub") to print a picture place and time in `figcaption` by default
-22. [Integrate Urlint](https://urlint.co/integration/github.html "Urlint") in GitHub to check links
-21. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ "jekyll-git-metadata on GitHub") instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
-24. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite "jekyll-multisite on GitHub") with [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") and [PISE notes](https://pise-notes.club "PISE notes")
+20. Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ 'jekyll-exif-data on GitHub') to print a picture place and time in `figcaption` by default
+22. [Integrate Urlint](https://urlint.co/integration/github.html 'Urlint') in GitHub to check links
+21. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ 'jekyll-git-metadata on GitHub') instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
+24. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite 'jekyll-multisite on GitHub') with [quitsocialmedia.club](https://quitsocialmedia.club 'Quit Social Media') and [PISE notes](https://pise-notes.club 'PISE notes')
 25. Set a `.onion` address
 23. Make [[Permanent HTML]]
 
 <ul>
 {% for p in site.pages %}
 {% if p.todo != nil %}
-<li><a href="{{ p.url }}"  target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
+<li><a href='{{ p.url }}'  target='_blank' title='{{ p.title }}'>{{ p.title }}</a>:<ul>
 {% for td in p.todo %}
 <li>{{ td }}</li>
 {% endfor %}
@@ -66,7 +69,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 
 {% for p in site.notes %}
 {% if p.todo != nil %}
-<li><a href="{{ p.url }}"  target="_blank" title="{{ p.title }}">{{ p.title }}</a>:<ul>
+<li><a href='{{ p.url }}'  target='_blank' title='{{ p.title }}'>{{ p.title }}</a>:<ul>
 {% for td in p.todo %}
 <li>{{ td }}</li>
 {% endfor %}
@@ -80,16 +83,17 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 
 ### Further ideas
 
+- get CSVs from URLs with JavaScript instead of buildtime (pseudo [[Nolan]] implementation)
 - Use typographic animations
-	- [AxisPraxis’ Zycon](https://www.axis-praxis.org/specimens/zycon "Zycon")
-	- [Anicons](https://typogram.github.io/Anicons/ "Anicons")
-- Use [jekyll-auth](https://github.com/benbalter/jekyll-auth/ "jekyll-auth on GitHub") to limit content availability
-- Figure out [jekyll-hardlinks](https://0xacab.org/sutty/jekyll/jekyll-hardlinks "jekyll-hardlinks source code")
-- [Generative Art](https://generativeartistry.com "Generative artistry")
-	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/ "Zander Martineau")
-- [Integrating Telegram comments](https://dev.to/ayanb/integrating-telegram-comments-to-your-website-2fnh "Integrating Telegram Comments to Your Website on DEV.to") ([comments.app](https://comments.app) not working after login)
+	- [AxisPraxis’ Zycon](https://www.axis-praxis.org/specimens/zycon 'Zycon')
+	- [Anicons](https://typogram.github.io/Anicons/ 'Anicons')
+- Use [jekyll-auth](https://github.com/benbalter/jekyll-auth/ 'jekyll-auth on GitHub') to limit content availability
+- Figure out [jekyll-hardlinks](https://0xacab.org/sutty/jekyll/jekyll-hardlinks 'jekyll-hardlinks source code')
+- [Generative Art](https://generativeartistry.com 'Generative artistry')
+	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/ 'Zander Martineau')
+- [Integrating Telegram comments](https://dev.to/ayanb/integrating-telegram-comments-to-your-website-2fnh 'Integrating Telegram Comments to Your Website on DEV.to') ([comments.app](https://comments.app) not working after login)
 - GIFs instead of images
-- [Trigger Netlify builds from external sources](https://writxt.fun/instructions/ "Writxt instructions")
+- [Trigger Netlify builds from external sources](https://writxt.fun/instructions/ 'Writxt instructions')
 - Improve `blockquote`s
 	- <https://codepen.io/valentingalmand/pen/doJvRR>
 	- <https://codepen.io/joshuajcollinsworth/pen/obbvYQ>
@@ -97,13 +101,13 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 - Image gallery creation
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
-	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ "How to build a responsive gallery with flexbox")
+	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ 'How to build a responsive gallery with flexbox')
 - Create Jekyll theme
-- Consider hosting on [[Server]] instead of using [Netlify](https://netlify.com "Netlify")
-	- [jekyll-ftp](https://github.com/JesseHerrick/jekyll-ftp/ "jekyll-ftp on GitHub")
-- Consider switching to [Hugo](https://gohugo.io "Hugo")
-	- [Blogroll automated Generation](https://jlelse.blog/dev/miniflux-blogroll "Miniflux Blogroll")
-- Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com "Humane Tech") and [Victoria Drake](https://victoria.dev)
+- Consider hosting on [[Server]] instead of using [Netlify](https://netlify.com 'Netlify')
+	- [jekyll-ftp](https://github.com/JesseHerrick/jekyll-ftp/ 'jekyll-ftp on GitHub')
+- Consider switching to [Hugo](https://gohugo.io 'Hugo')
+	- [Blogroll automated Generation](https://jlelse.blog/dev/miniflux-blogroll 'Miniflux Blogroll')
+- Stick the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com 'Humane Tech') and [Victoria Drake](https://victoria.dev)
 - [[Typography|Typographic]] improvements
 
 <br>
@@ -112,10 +116,10 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 ## Done
 
 - Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts ✅ 2021-05-25
-- Add [`humans.txt`](http://humanstxt.org "humans.txt") ✅ 2021.01.17
+- Add [`humans.txt`](http://humanstxt.org 'humans.txt') ✅ 2021.01.17
 - Add [`this page was designed to last`](https://jeffhuang.com/designed_to_last/) - ✅ 2021.05.20
 - Animations (little and simple but effective)
-	- buttons: `x`s and menus (see [Tokyo voice](https://tokyo-voice.jp "Tokyo Voice") or [Trax mag](https://www.traxmag.com "Trax Magazine"))
+	- buttons: `x`s and menus (see [Tokyo voice](https://tokyo-voice.jp 'Tokyo Voice') or [Trax mag](https://www.traxmag.com 'Trax Magazine'))
 - At the top of the page, add anchors buttons which link to comments, backlinks, etc. ✅ 2021.04.17
 - back-to-top button
 - basic colored biiig shapes
@@ -125,7 +129,7 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 - “blogroll”: a list of blogs which inspire me, see [Pawlean](https://pawlean.com/blogroll)
 - change mobile browser bar color
 - Color Jam items according to the belonging tag
-- Consider dropping Kramdown for better performance and use [CommonMark](https://github.com/jekyll/jekyll-commonmark "jekyll-commonmark plugin on GitHub") instead ❌ (not working) 2021.01.09
+- Consider dropping Kramdown for better performance and use [CommonMark](https://github.com/jekyll/jekyll-commonmark 'jekyll-commonmark plugin on GitHub') instead ❌ (not working) 2021.01.09
 - custom selection color for text
 - customize 404 page
 - Creative Commons (or, in general, a license) for every image of the site (one for every image or one specified) **FOOTER CC LICENSE**
@@ -149,17 +153,17 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 - Hover effects
 - `id` anchor links
 - `{% raw %}{% if page.tags contains 'draft' %}{% endraw %}` print a banner indicating that the page misses something ✅ 2020-12-25
-- [Host pictures on Piwigo](https://piwigo.org/forum/viewtopic.php?id=31165 "Embedding images and galleries in HTML - Piwigo Forum") and display them via API or public link
+- [Host pictures on Piwigo](https://piwigo.org/forum/viewtopic.php?id=31165 'Embedding images and galleries in HTML - Piwigo Forum') and display them via API or public link
 - [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js) ❌ decided not to implement it. See [Website log: sidenotes](/meta#sidenotes)
 - Improved and smart use of the `vh` and `vw` units. [A guide](https://css-tricks.com/fun-viewport-units/)
 	- `.box` and `.stuff` max heights
 - In [Books](/books) add IDs to every row corresponding to the title of the book (I posted [a question about this on the Jekyll forum](https://talk.jekyllrb.com/t/table-data-id-in-tablerow-loop/5398)) (done but to be improved: IDs are generated for every `td`, I think it's necessary to use a for loop instead of a `tablerow` loop). ✅ 2020.12.31
 - inline code styling
 - input fields styling
-- Integrate [jekyll-time-to-read](https://github.com/gjtorikian/jekyll-time-to-read/ "jekyll-time-to-read on GitHub") ✅ 2021.04.13
+- Integrate [jekyll-time-to-read](https://github.com/gjtorikian/jekyll-time-to-read/ 'jekyll-time-to-read on GitHub') ✅ 2021.04.13
 - **Join [WebRings](https://en.wikipedia.org/Webring '“Webring” on Wikipedia')**
-	1. [xxiivv Webring](https://github.com/XXIIVV/webring "XIIVV Webring on GitHub") ✅ 2021-05-25
-	2. [weird-wide-webring](https://weirdwidewebring.net/ "Weird Wide Webring") ✅ 2021-09-26
+	1. [xxiivv Webring](https://github.com/XXIIVV/webring 'XIIVV Webring on GitHub') ✅ 2021-05-25
+	2. [weird-wide-webring](https://weirdwidewebring.net/ 'Weird Wide Webring') ✅ 2021-09-26
 - Language selection straight from landing page - 2020.09.11
 - language switch
 - `letter-spacing` and `word spacing` (it's nice as it is)
@@ -168,12 +172,12 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 - Make [about](/about) a page
 - Mobile optimisation
 - move `stuff extended` to `The Jam`
-- [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6 "What is Neumorphism") **redesign**
+- [Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6 'What is Neumorphism') **redesign**
 	1. Start by smoothing corners
-	1. go on by using [this tool](https://neumorphism.io/ "Neumorphism")
+	1. go on by using [this tool](https://neumorphism.io/ 'Neumorphism')
 	1. use Eva icons
-- [Now page](https://sivers.org/now "Derek Siver's Now Page")
-- page image preview when sending link, see the [Open Graph Protocol](https://ogp.me/ "Open Graph Protocol")
+- [Now page](https://sivers.org/now 'Derek Siver's Now Page')
+- page image preview when sending link, see the [Open Graph Protocol](https://ogp.me/ 'Open Graph Protocol')
 - `page.location` improvement ✅ 2021.04.13
 - Poetry
 	- section instead of tag
@@ -190,9 +194,9 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 - *[[Tutto|stuff extended]]*
 - SVG buttons
 - Switch to **SCSS**
-- Switch to [variable fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide "Variable fonts guide on MDN") ✅ 2021.04.28
-	- [How to prepare and use variable fonts on the web](https://thetrevorharmon.com/blog/how-to-prepare-and-use-variable-fonts-on-the-web "How to prepare and use variable fonts on the web \| The Trevor Harmon") by [Trevor Harmon](https://thetrevorharmon.com/ "Trevor Harmon")
-	- [Creating a subset font](https://michaeljherold.com/articles/creating-a-subset-font/ "Creating a subset font") by [Michael Herold](https://michaeljherold.com/ "Michael Herold")
+- Switch to [variable fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide 'Variable fonts guide on MDN') ✅ 2021.04.28
+	- [How to prepare and use variable fonts on the web](https://thetrevorharmon.com/blog/how-to-prepare-and-use-variable-fonts-on-the-web 'How to prepare and use variable fonts on the web \| The Trevor Harmon') by [Trevor Harmon](https://thetrevorharmon.com/ 'Trevor Harmon')
+	- [Creating a subset font](https://michaeljherold.com/articles/creating-a-subset-font/ 'Creating a subset font') by [Michael Herold](https://michaeljherold.com/ 'Michael Herold')
 	- See [[Typography#Font subsetting]]
 - Switch to [[Zettelkasten]]
 	- [git submodules](https://www.taniarascia.com/git-submodules-private-content/)
@@ -205,18 +209,18 @@ description: "Creative and technical aims, ideas annotation and drafts tracking.
 	- in every post, show the tags to which it belongs
 	- create unique page for all tags, anchor to choose a single one
 		1. Fix some tags which are repeated multiple times
-		1. Fix gradient not being displayed as text color (check [CSS Tricks](https://css-tricks.com "CSS Tricks")' titles on hover)
+		1. Fix gradient not being displayed as text color (check [CSS Tricks](https://css-tricks.com 'CSS Tricks')' titles on hover)
 		1. Display Jam elements in tags list
 		1. choose once and for all **`categories`** VS **`tags`** (chose `tags`)
 		1. Instead of inlining specific properties, create classes for every tag and create a `for` loop in SCSS accessing `site.data.tags` colors
-- Telegram comments: `<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="bfg-ZXp6" data-limit="5" data-color="FCC920" data-dark="1"></script>` - ❌ 2021.03.26 not working! Also: probably the script works only for individual domains, not for every page.
+- Telegram comments: `<script async src='https://comments.app/js/widget.js?3' data-comments-app-website='bfg-ZXp6' data-limit='5' data-color='FCC920' data-dark='1'></script>` - ❌ 2021.03.26 not working! Also: probably the script works only for individual domains, not for every page.
 - `text-shadow` CSS property in titles and in `a:hover` ✅ 2020.12.30
 - The new [[The Jam|Jam]]:
 	- show only parent/main tags and notes ✅ 2021.01.16
 	- an unstyled simple bullet point list ✅ 2021.01.16
 - Thumbnails in Zibaldone's feed ✅ 2020.12.30
 - Use `@import` to add fonts instead of linking their CSS reference files in HTML ✅ 2020.12.25
-- Use [**`flex`**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "A guide to flexbox on GSS Tricks")
+- Use [**`flex`**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 'A guide to flexbox on GSS Tricks')
 - Use more Emojis ✅ 2020.12.30
 
 [ActivityPub]: https://activitypub.rocks/ 'ActivityPub'

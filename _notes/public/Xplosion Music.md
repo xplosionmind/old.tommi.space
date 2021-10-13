@@ -80,7 +80,7 @@ I love Marvel movies. I actually get crazy before watching any new one. Avengers
 
 ## Amélie No, <cite>Where Did You Sleep Last Night</cite>
 
-This is [a folk American song](https://en.wikipedia.org/wiki/In_the_Pines), famous all over the world because of [the great performance by Nirvana](https://youtu.be/hEMm7gxBYSc). I love this one in particular because it’s part of the soundtrack of a wonderful movie I watched as a juror at Giffoni Film Festival 2018: [<cite>Les Faux Tatouages</cite>](https://www.giffonifilmfestival.it/sezioni-film-2018/4267-fake-tattoos.html "Les Faux Tatouages in Giffoni Film Festival’s catalogue").
+This is [a folk American song](https://en.wikipedia.org/wiki/In_the_Pines), famous all over the world because of [the great performance by Nirvana](https://youtu.be/hEMm7gxBYSc). I love this one in particular because it’s part of the soundtrack of a wonderful movie I watched as a juror at [Giffoni Film Festival 2018](/tutto#gff2018): [<cite>Les Faux Tatouages</cite>](https://www.giffonifilmfestival.it/sezioni-film-2018/4267-fake-tattoos.html "Les Faux Tatouages in Giffoni Film Festival’s catalogue").
 
 <br>
 <br>

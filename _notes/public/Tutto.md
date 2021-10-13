@@ -1,39 +1,39 @@
 ---
 date: 2020-02-04
-updated: 2021-09-11T17:56:03.753077+02:00
+updated: 2021-10-06T15:18:05+02:00
 tags: wip log csvfy
-aliases: ["Cose extended", "Tutte le cose", "Stuff extended", "Di tutto e di più", "Done", "Fatto"]
+aliases: ['Cose extended', 'Tutte le cose', 'Stuff extended', 'Di tutto e di più', 'Done', 'Fatto']
 lang: it
-redirect_from: ["/tuttopiu", "/cose-extended", "/stuff-extended", "/stuff-extended-it", "/stuff-extended/it", "/it/stuff-extended", "/everything", "/done", "/fatto", "/fatte"]
+redirect_from: ['/tuttopiu', '/cose-extended', '/stuff-extended', '/stuff-extended-it', '/stuff-extended/it', '/it/stuff-extended', '/everything', '/done', '/fatto', '/fatte']
 main: true
-description: "Un archivio di tutte le cose che faccio e che ho fatto"
+description: Un archivio di tutte le cose che faccio e che ho fatto
 todo:
-  - "Move this to a CSV/YAML file (how to handle links and resources?)"
-  - "Sort everything BY DATE, with YEAR as H2; current H2s should become tags"
+  - 'Move this to a CSV/YAML file (how to handle links and resources?)'
+  - 'Sort everything BY DATE, with YEAR as H2; current H2s should become tags'
 toc: false
 ---
 Dato che, per mia natura, sono una trottola che gira ovunque per fare tante (troppe) diverse cose 
 
-<div class="yellow box">
-Alcuni link fra i seguenti potrebbero essere protetti da password oppure non aggiornati. Se aveste bisogno di accedere a immagini private, <a class="u-email" href="mailto:{{ site.email | encode_email }}" rel="me" title="Scrivimi un'email">scrivetemi</a>.
+<div class='yellow box'>
+Alcuni link fra i seguenti potrebbero essere protetti da password oppure non aggiornati. Se aveste bisogno di accedere a immagini private, <a class='u-email' href='mailto:{{ site.email | encode_email }}' rel='me' title='Scrivimi un’email'>scrivetemi</a>.
 </div>
 
 <ul>
 	{% assign tutto = site.data.tutto | sort: 'end' %}
 	{% for cosa in tutto %}
-		<li>
+		<li {% if cosa.id %}id='{{ cosa.id }}'{% endif %}>
 			{% if cosa.start %}
 				Da {{ cosa.start | date_to_string }} a {{ cosa.end | date_to_string }}, 
 			{% else %}
 				{{ cosa.end | date_to_string }}, 
 			{% endif %}
 			{% if cosa.url %}
-				<a href="{{ cosa.url }}" target="_blank" title="{{ cosa.title }}">{{ cosa.title }}</a>, 
+				<a href='{{ cosa.url }}' target='_blank' title='{{ cosa.title }}'>{{ cosa.title }}</a>, 
 			{% else %}
 				<strong>{{ cosa.title }}</strong>, 
 			{% endif %}
 			{% if cosa.lat %}
-				<a href="https://openstreetmap.org?mlat={{ cosa.lat }}&mlon={{ cosa.lon }}&zoom=18" target="_blank" title="{{ cosa.location }} su OpenStreetMap">{{ cosa.location }}</a>
+				<a href='https://openstreetmap.org?mlat={{ cosa.lat }}&mlon={{ cosa.lon }}&zoom=18' target='_blank' title='{{ cosa.location }} su OpenStreetMap'>{{ cosa.location }}</a>
 			{% else %}
 				{{ cosa.location }}
 			{% endif %}
@@ -52,10 +52,10 @@ Alcuni link fra i seguenti potrebbero essere protetti da password oppure non agg
 
 Ogni tanto organizzo qualche seratina di musica dal vivo nel ponente ligure (casa mia).
 
-- 9 luglio 2019, [**<cite>Il mio CUBO suona il Rock</cite>**](https://www.facebook.com/events/318752479011472) al [CUBO](https://www.instagram.com/ilcuboofficial "ilcuboofficial - Instagram")
-	- [Foto](https://images.tommi.space/index?/category/91-il_mio_cubo_suona_il_rock "“Il mio Cubo suona il rock” - Visioni")
-	- [Video teaser](https://www.facebook.com/QuelDuoLi/videos/2333791650275489/ "Video teaser su Facebook")
-	- [Video intervista](https://vimeo.com/347306203 "Intervista di Rivieratime")
+- 9 luglio 2019, [**<cite>Il mio CUBO suona il Rock</cite>**](https://www.facebook.com/events/318752479011472) al [CUBO](https://www.instagram.com/ilcuboofficial 'ilcuboofficial - Instagram')
+	- [Foto](https://images.tommi.space/index?/category/91-il_mio_cubo_suona_il_rock '“Il mio Cubo suona il rock” - Visioni')
+	- [Video teaser](https://www.facebook.com/QuelDuoLi/videos/2333791650275489/ 'Video teaser su Facebook')
+	- [Video intervista](https://vimeo.com/347306203 'Intervista di Rivieratime')
 	- stampa
 		- [Riviera Time](https://web.archive.org/web/20200524174632/https://www.rivieratime.news/sanremo-tutto-pronto-per-il-mio-cubo-suona-il-rock-musica-live-con-quel-duo-li-e-cantiere-164/)
 		- [Sanremonews](https://web.archive.org/web/20200524175136/https://www.sanremonews.it/2019/07/08/leggi-notizia/argomenti/eventi-1/articolo/sanremo-domani-il-mio-cubo-suona-il-rock-con-il-live-di-quel-duo-li-e-cantiere-164-video.html)
@@ -97,7 +97,7 @@ Con e grazie a [Radioimmaginaria](/cose#radioimmaginaria) ho fatto la maggior pa
 	- [Puntate](/rimm-db#festival-di-sanremo-2016)
 	- [Foto da Radioimmaginaria](https://flic.kr/s/aHskvEz8fk)
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710720019412)
-- dall'8 al 10 aprile 2016, <a href="http://www.radiocitymilano.it/" target="_blank" title="Radiocity Milano">Radiocity</a> e <a href="https://www.internationalradiofestival.com" target="_blank" title="International Radio Festival">International Radio Festival</a>, Milano
+- dall'8 al 10 aprile 2016, <a href='http://www.radiocitymilano.it/' target='_blank' title='Radiocity Milano'>Radiocity</a> e <a href='https://www.internationalradiofestival.com' target='_blank' title='International Radio Festival'>International Radio Festival</a>, Milano
 	- [Puntate](https://www.flickr.com/photos/xplosionmind/albums/72157710719651706)
 	- [Foto da Radioimmaginaria](https://www.flickr.com/photos/radioimmaginaria/albums/72157668517426676)
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710719651706)
@@ -124,17 +124,17 @@ Con e grazie a [Radioimmaginaria](/cose#radioimmaginaria) ho fatto la maggior pa
 	- [Puntate](rimm-db#festival-di-sanremo-2017)
 	- [Foto di Radioimmaginaria](https://flic.kr/s/aHskRvXnWV)
 	- [Foto mie](https://www.flickr.com/photos/xplosionmind/albums/72157710733326752)
-- 30 marzo 2017, l’**intervista ai [Cantiere 164](https://www.facebook.com/Cantiere164 "Pagina Facebook dei Cantiere 164")** fu l’inizio di una grande stima e amicizia reciproca
+- 30 marzo 2017, l’**intervista ai [Cantiere 164](https://www.facebook.com/Cantiere164 'Pagina Facebook dei Cantiere 164')** fu l’inizio di una grande stima e amicizia reciproca
 	- [Puntata](https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo)
 	- [Foto](https://www.flickr.com/photos/xplosionmind/albums/72157710733018483)
-- dal 21 al 23 aprile 2017, [**<cite>Radiocity</cite>**](http://www.radiocitymilano.it/ "Radiocity Milano"), Milano
+- dal 21 al 23 aprile 2017, [**<cite>Radiocity</cite>**](http://www.radiocitymilano.it/ 'Radiocity Milano'), Milano
 	- [Foto](https://flic.kr/s/aHskYWpS5q)
 - dal 20 al 25 agosto 2017 ho programmato e organizzato tutti gli appuntementi del [**Radiocampo immaginario**](https://www.facebook.com/events/1356117211103947/) a Riva Ligure.
 	- [Puntate](/rimm-db#teen-parade-2017)
 	- [Articolo](https://www.riviera24.it/2017/08/a-riva-ligure-ce-radioimmaginaria-per-il-radiocampo-263655/) su Riviera24
 	- [Un video bellissimo](https://vimeo.com/radioimmaginaria/comeguadagnare)
-- il 6 e 7 settembre 2017, [**<cite>Teen Parade</cite>**](https://vimeo.com/radioimmaginaria/tparade2017 "Teen Parade 2017"), Bologna Fiere
-	- [video](https://vimeo.com/search?q=Teen+Parade+2017 "Tutti i video della Teen Parade 2017 su Vimeo")
+- il 6 e 7 settembre 2017, [**<cite>Teen Parade</cite>**](https://vimeo.com/radioimmaginaria/tparade2017 'Teen Parade 2017'), Bologna Fiere
+	- [video](https://vimeo.com/search?q=Teen+Parade+2017 'Tutti i video della Teen Parade 2017 su Vimeo')
 	- [foto](https://flic.kr/s/aHsm5bZ7rq)
 - dal 6 al 10 febbraio 2018, **Festival di Sanremo 2018**
 	- [puntate](/rimm-db#festival-di-sanremo-2018)
@@ -144,9 +144,9 @@ Con e grazie a [Radioimmaginaria](/cose#radioimmaginaria) ho fatto la maggior pa
 	- [tutte le foto](https://flic.kr/s/aHsmrUxy9Q)
 	- [best of](https://flic.kr/s/aHsmrUxy9Q)
 	- [video](https://vimeo.com/search?q=%22Teen+Parade+2018%22)
-- il 7 settembre 2018, ho presentato l’ultimo mio evento da tipo immaginario, [**<cite>CATCH-EyoU</cite>**](http://www.catcheyou.eu/ "CATCH-EyoU official website"), a Bruxelles
+- il 7 settembre 2018, ho presentato l’ultimo mio evento da tipo immaginario, [**<cite>CATCH-EyoU</cite>**](http://www.catcheyou.eu/ 'CATCH-EyoU official website'), a Bruxelles
 	- [foto](https://www.flickr.com/photos/radioimmaginaria/albums/72157698540493742)
-	- [best of](https://www.spreaker.com/user/ariaimmaginaria/bruxelles-unione-europea "Best of dell'evento")
+	- [best of](https://www.spreaker.com/user/ariaimmaginaria/bruxelles-unione-europea 'Best of dell'evento')
 	- [puntata completa](https://www.spreaker.com/user/ariaimmaginaria/catcheyou-from-brussels)
 
 A settembre 2018, il mio percorso da speaker di Radioimmaginaria si è concluso, ma questa grande famiglia di matti geniali è sempre rimasta nel mio cuore e sono tornato più volte a dar loro una mano, principalmente facendo foto.
@@ -160,13 +160,13 @@ A settembre 2018, il mio percorso da speaker di Radioimmaginaria si è concluso,
 
 ## Scout
 
-[Sono scout](/cose#scouting) da quando ho 8 anni. Con il mio gruppo (il [Costa Balenae](https://www.facebook.com/Agesci-Costabalenae-484902901713104/ "Agesci Costabalenae su Facebook") di Santo Stefano al Mare) ho vissuto speciali e indimenticabili avventure.
+[Sono scout](/cose#scouting) da quando ho 8 anni. Con il mio gruppo (il [Costa Balenae](https://www.facebook.com/Agesci-Costabalenae-484902901713104/ 'Agesci Costabalenae su Facebook') di Santo Stefano al Mare) ho vissuto speciali e indimenticabili avventure.
 
 Premessa per i profani: il <cite>San Giorgio</cite> è l’evento di due o tre giorni in cui si riuniscono i reparti di tutti i gruppi di una zona.
 
 - [San Giorgio 2015](https://www.flickr.com/photos/xplosionmind/albums/72157710372793511), Taggia
 - 6 giugno 2015, [Autofinanziamento a tema pirati](https://www.flickr.com/photos/xplosionmind/albums/72157710384848046), Campo Scout
-- il 13 giugno 2015, tutti gli scout AGESCI in Italia si sono riuniti in piazza San Pietro a Roma per un [incontro con il Papa](https://emiro.agesci.it/tag/agescidalpapa/ "Agesci dal Papa"). Io sono stato estratto come rappresentante della Regione Liguria per incontrarlo di persona
+- il 13 giugno 2015, tutti gli scout AGESCI in Italia si sono riuniti in piazza San Pietro a Roma per un [incontro con il Papa](https://emiro.agesci.it/tag/agescidalpapa/ 'Agesci dal Papa'). Io sono stato estratto come rappresentante della Regione Liguria per incontrarlo di persona
 	- [foto](https://www.flickr.com/photos/xplosionmind/albums/72157710132331486)
 - dal 16 al 23 luglio 2015, [campo estivo](https://www.flickr.com/photos/xplosionmind/albums/72157710386835056), Mendatica
 - 8 e 9 novembre 2015, [passaggi](https://www.flickr.com/photos/xplosionmind/albums/72157710718504578), Carpasio e Cipressa
@@ -205,7 +205,7 @@ A Giffoni non scatto mai molte foto, per questo, oltre a quelli molto scarni sul
 
 ### Giffoni Factory
 
-[Qui](https://www.instagram.com/ipso_factory/ "Ipso Factory su Instagram") si trovano tutti i contenuti che ho creato con la Giffoni Factory.
+[Qui](https://www.instagram.com/ipso_factory/ 'Ipso Factory su Instagram') si trovano tutti i contenuti che ho creato con la Giffoni Factory.
 
 <br>
 <br>
@@ -253,24 +253,24 @@ Ho montato o ripreso la gran parte dei video del nostro canale, chiamato [La Nuo
 
 ## quitsocialmedia.club
 
-Ho ideato e concepito [quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media"). Interviste e pubblicazioni al riguardo sono elencate nel[la sezione “Interviste e pubblicazioni” di quitsocialmedia.club](https://quitsocialmedia.club/stampa#interviste-e-pubblicazioni "Stampa &rarr; Interviste e pubblicazioni - quitsocialmedia.club")
+Ho ideato e concepito [quitsocialmedia.club](https://quitsocialmedia.club 'Quit Social Media'). Interviste e pubblicazioni al riguardo sono elencate nel[la sezione “Interviste e pubblicazioni” di quitsocialmedia.club](https://quitsocialmedia.club/stampa#interviste-e-pubblicazioni 'Stampa &rarr; Interviste e pubblicazioni - quitsocialmedia.club')
 
 <br>
 <br>
 
 ## altro
 
-- Sono stato <i lang="en">Helper</i> ai campi <a href="https://www.acle.org/" target="_blank" title="ACLE">ACLE</a> ad Arma di Taggia nelle estati 2016 e 2017
-- dal 2014 al 2018 ho partecipato agli allenamenti (anche alle gare, ma con risultati affatto lusinghieri) delle Olimpiadi di Matematica e della [Coppa Gauss a Squadre](http://gauss.dima.unige.it/ "Coppa Gauss - Università di Genova").
-- Sono un appassionatissimo ma non altrettanto perito giocatore di Dungeons & Dragons. La mia prima ed unica campagna fin ora è iniziata nell’ottobre 2015 e si è conclusa ad aprile 2020. Il nostro Game Master si sta ispirando principalmente all’avventura di [<cite>Rise of the Runelords</cite>](https://pathfinderwiki.com/wiki/Rise_of_the_Runelords "Rise of the Runelords on Pathfinder wiki").
+- Sono stato <i lang='en'>Helper</i> ai campi <a href='https://www.acle.org/' target='_blank' title='ACLE'>ACLE</a> ad Arma di Taggia nelle estati 2016 e 2017
+- dal 2014 al 2018 ho partecipato agli allenamenti (anche alle gare, ma con risultati affatto lusinghieri) delle Olimpiadi di Matematica e della [Coppa Gauss a Squadre](http://gauss.dima.unige.it/ 'Coppa Gauss - Università di Genova').
+- Sono un appassionatissimo ma non altrettanto perito giocatore di Dungeons & Dragons. La mia prima ed unica campagna fin ora è iniziata nell’ottobre 2015 e si è conclusa ad aprile 2020. Il nostro Game Master si sta ispirando principalmente all’avventura di [<cite>Rise of the Runelords</cite>](https://pathfinderwiki.com/wiki/Rise_of_the_Runelords 'Rise of the Runelords on Pathfinder wiki').
 - Dal 2015 al 2018 sono stato aiuto-catechista nel corso dei cresimandi della parrocchia di Santo Stefano al Mare
 - Il 20 giugno 2020 ho co-organizzato a Sanremo [<cite>Twenty Shoes Against racism</cite>](https://www.sanremonews.it/2020/06/20/leggi-notizia/argomenti/altre-notizie/articolo/sanremo-le-sardine-ponentine-a-pian-di-nave-per-levento-20-shoes-against-racism-foto.html) l’evento di [6000sardine Ponentine](https://www.facebook.com/6000sardineponentine/) contro il razzismo
 	- [immagini](https://www.flickr.com/photos/xplosionmind/albums/72157714829053321)
-- Dal 5 al 13 luglio 2020 ho partecipato al workshop di giornalismo de [Il Post](https://ilpost.it "Il Post") a Peccioli. Ho scritto [questo articolo](https://www.ilpost.it/2020/07/12/sgomberi-bogota-coronavirus/ "Gli sgomberi a Bogotà, nonostante il coronavirus - Il Post")
-- Il 25 ottobre 2020 ho tenuto [questo talk](http://go.tommi.space/MDN-LinuxDay2020) su [MDN Web Docs](https://mdn.dev "MDN homepage") al [Linux Day](https://linuxday.it/2020/ "Linux Day 2020")
-- Il <b class="missing">+++</b> settembre 2020 ho partecipato al[la prima <cite>Filosofia di gruppo</cite>](https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3 "Podcast Filosofia di Gruppo #1") su [[Notes on Ten Arguments For Deleting Your Social Media Accounts|Dieci ragioni per eliminare il proprio account sui social media]] organizzato da [Tlon](https://tlon.it "Sito ufficiale di Tlon"). Il mio intervento è a al minuto `44:45`
-- dall’1 al 6 Marzo 2021 ho gestito [la pagina Instagram](https://instagram.com/sanremonews "Sanremonews su Instagram") di [Sanremonews](https://sanremonews.it "Sanremonews") in occasione del Festival di Sanremo 2021
-- l’8 ed il 9 maggio 2021, ho partecipato al [VeUMEU 2021](https://www.univiu.org/viu-life/veumeu-2021 "Venice Universities’ Model European Union") come parlamentare del Parlamento Europeo, in rappresentanza del Partito Social Democratico del Portogallo.
+- Dal 5 al 13 luglio 2020 ho partecipato al workshop di giornalismo de [Il Post](https://ilpost.it 'Il Post') a Peccioli. Ho scritto [questo articolo](https://www.ilpost.it/2020/07/12/sgomberi-bogota-coronavirus/ 'Gli sgomberi a Bogotà, nonostante il coronavirus - Il Post')
+- Il 25 ottobre 2020 ho tenuto [questo talk](http://go.tommi.space/MDN-LinuxDay2020) su [MDN Web Docs](https://mdn.dev 'MDN homepage') al [Linux Day](https://linuxday.it/2020/ 'Linux Day 2020')
+- Il <b class='missing'>+++</b> settembre 2020 ho partecipato al[la prima <cite>Filosofia di gruppo</cite>](https://tlon.it/wp-content/uploads/2020/09/audio-zoom-1a.mp3 'Podcast Filosofia di Gruppo #1') su [[Notes on Ten Arguments For Deleting Your Social Media Accounts|Dieci ragioni per eliminare il proprio account sui social media]] organizzato da [Tlon](https://tlon.it 'Sito ufficiale di Tlon'). Il mio intervento è a al minuto `44:45`
+- dall’1 al 6 Marzo 2021 ho gestito [la pagina Instagram](https://instagram.com/sanremonews 'Sanremonews su Instagram') di [Sanremonews](https://sanremonews.it 'Sanremonews') in occasione del Festival di Sanremo 2021
+- l’8 ed il 9 maggio 2021, ho partecipato al [VeUMEU 2021](https://www.univiu.org/viu-life/veumeu-2021 'Venice Universities’ Model European Union') come parlamentare del Parlamento Europeo, in rappresentanza del Partito Social Democratico del Portogallo.
 {% endcomment %}
 
 <br>
@@ -278,4 +278,4 @@ Ho ideato e concepito [quitsocialmedia.club](https://quitsocialmedia.club "Quit 
 
 <h2>Spettatore</h2>
 
-Tengo traccia di tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante, in <a href="/giri" title="Giri"><em>Giri</em></a>.
+Tengo traccia di tutto quello a cui ho assistito da spettatore, passivo, ma quasi sempre estasiato e saltellante, in <a href='/giri' title='Giri'><em>Giri</em></a>.

@@ -1,12 +1,13 @@
 ---
 date: 2020-10-27
-updated: 2021-06-14T07:03:47.343718+02:00
+updated: 2021-10-13T01:51:14+02:00
 tags: geek/web idea
-redirect_from: ["/websites-ideas", "/philosophy-websites", "/lifestyle-websites", "/websites creation"]
+redirect_from: ['/websites-ideas', '/philosophy-websites', '/lifestyle-websites', '/websites creation']
 toc: false
-description: "Cool domains ideas"
+description: Cool domains ideas
 ---
 - [[T.M.I.|TMI]]: **T**oo **M**uch **I**nformation, or **T**o**m**m**i**
+	- [TMI Pics](https://tmi.pics)
 - [[The Slot Philosophy]]
 	- `time.slots` (not existing TLD)
 	- `slots.time` (not existing TLD)
@@ -19,7 +20,7 @@ description: "Cool domains ideas"
 	- `awesome.internet` (not existing TLD)
 	- `internet.cool` (taken)
 	- `awesome.website` (taken)
-- [Everyone dedicated website](/everyone "Everyone short movie")
+- [Everyone dedicated website](/everyone 'Everyone short movie')
 	- `everyone.movie`
 - a domain, a name, a format, etc. <u>unlinked from my name</u>
 - [[RSSify|RSS everywhere]]
@@ -31,6 +32,7 @@ description: "Cool domains ideas"
 ## Various
 
 - `tommi.news`
+- **`tommi.stream`**
 - `tommi.ph`
 - `tommi.photos`
 - `tommi.pictures`
@@ -43,14 +45,14 @@ description: "Cool domains ideas"
 - `tommi.work`
 - `tommi.help`
 - `tommi.studio`
-- `tommi.sh`
+- **`tommi.sh`**
 - `tommi.guru`
 - `tommi.stream` for microblogging
 - `tommaso.ooo`
 - `tommas.ooo`
 - `tmi.photos`
 - `tmi.mo`
-- `tmi.pics`
+- `tmi.sh`
 - `tmi.ooo`
 - `tmi.mn`
 - `tmi.pub`
@@ -71,5 +73,5 @@ description: "Cool domains ideas"
 - `tmi.pictures` (premium)
 - `tmi.sucks` (premium)
 - `tmi.club` (premium)
-- `tmi.stream` (premium)
+- **`tmi.stream`** (premium)
 - `tmi.social` (taken)

@@ -2,12 +2,12 @@
 date: 2020-05-22
 updated: 2021-05-24T13:12:32.348223+02:00
 tags: design geek/web
-description: "A collection of colors I love and where I use them"
-redirect_from: ["/colours", "/colori"]
+description: A collection of colors I love and where I use them
+redirect_from: ['/colours', '/colori']
 ---
 ## tommi.space
 
-[tommi.space](https://tommi.space "Tommi Space") [palette](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_root.scss "tommi.space main colors in a CSS file")
+[tommi.space](https://tommi.space 'Tommi Space') [palette](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_root.scss 'tommi.space main colors in a CSS file')
 
 <ul class='three'>
 	<li><code style='background:#111;color:#FFF'>#111</code> deep</li>
@@ -27,14 +27,14 @@ redirect_from: ["/colours", "/colori"]
 
 ### tommi.space Syntax Highlight
 
-This website’s code snippets use a custom made syntax highlight; its source is [here](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_highlight.scss "tommi.space’s highlight.scss").
+This website’s code snippets use a custom made syntax highlight; its source is [here](https://github.com/xplosionmind/tommi.space/blob/main/_sass/_highlight.scss 'tommi.space’s highlight.scss').
 
 <br>
 <br>
 
 ## Scambi
 
-[The main colors](https://come.scambi.org/design#colori 'I colori di Scambi') of [Scambi Festival’s website](https://scambi.org "Scambi")
+[The main colors](https://come.scambi.org/design#colori 'I colori di Scambi') of [Scambi Festival’s website](https://scambi.org 'Scambi')
 
 
 <br>
@@ -67,7 +67,7 @@ The website is currently offline since our faculty supervisor asked me to close 
 
 ## quitsocialmedia.club
 
-[quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") [palette](https://github.com/xplosionmind/quitsocialmedia.club/blob/8763e5636a9716bd947527459e6731ccefa42afc/style.scss#L12 "quitsocialmedia.club’s CSS")
+[quitsocialmedia.club](https://quitsocialmedia.club 'Quit Social Media') [palette](https://github.com/xplosionmind/quitsocialmedia.club/blob/8763e5636a9716bd947527459e6731ccefa42afc/style.scss#L12 'quitsocialmedia.club’s CSS')
 
 <ul class='two'>
 	<li><code style='background:#F1FAEE;color:#1D3557'>#F1FAEE</code></li>
@@ -81,7 +81,7 @@ The website is currently offline since our faculty supervisor asked me to close 
 
 ## Dark and green website
 
-Color scheme for [Philosophy & Engineering](/filosofia "Philosophy section of the blog") blog.
+Color scheme for [Philosophy & Engineering](/filosofia 'Philosophy section of the blog') blog.
 
 <ul class='three'>
 	<li><code style='background:#000;color:#EEE'>#000</code></li>
@@ -108,9 +108,9 @@ Ah, red, what a color. It is so wonderful I have to keep note of all the nice sh
 	<li><code style='background:#D00;color:#FFF'>#D00</code>, dosso corsa</li>
 	<li><code style='background:#DF2935;color:#FFF'>#DF2935</code>, Rose Madder</li>
 	<li><code style='background:#D7263D;color:#FFF'>#D7263D</code>, Crimson</li>
-	<li><code style='background:#E63946;color:#FFF'>#E63946</code>, <a href="#quitsocialmediaclub" title='quitsocialmedia.club palette'>Quit Social Media</a>) red</li>
-	<li><code style='background:#AC0033;color:#FFF'>#AC0033</code>, always <a href="https://unive.it" target="_blank" title="Ca’Foscari University">Ca’Foscari University</a>’s main theme color, but <a href="view-source:https://www.unive.it/#line32"  target="_blank" title="Link to Ca’Foscari website source code">picked from the university website’s source code</a></li>
-	<li><code style='background:#AF0539;color:#FFF'>#AF0539</code>, <a href="https://unive.it" target="_blank" title="Ca’Foscari University">Ca’Foscari University</a>’s main theme color, picked <a href="view-source:https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo_Universit%C3%A0_Ca'_Foscari_Venezia.svg#line11" target="_blank" title="The line of the source code of the SVG of the logo of Ca’Foscari containing the HEX code of the color">from the SVG </a>of <a href="{{ "https://en.wikipedia.org/wiki/Ca'_Foscari_University_of_Venice#/media/File:Logo_Università_Ca'_Foscari_Venezia.svg" | uri_escape }}"  target="_blank" title="Logo dell’Università Ca’ Foscari di Venezia">University logo</a></li>
+	<li><code style='background:#E63946;color:#FFF'>#E63946</code>, <a href='#quitsocialmediaclub' title='quitsocialmedia.club palette'>Quit Social Media</a>) red</li>
+	<li><code style='background:#AC0033;color:#FFF'>#AC0033</code>, always <a href='https://unive.it' target='_blank' title='Ca’Foscari University'>Ca’Foscari University</a>’s main theme color, but <a href='view-source:https://www.unive.it/#line32'  target='_blank' title='Link to Ca’Foscari website source code'>picked from the university website’s source code</a></li>
+	<li><code style='background:#AF0539;color:#FFF'>#AF0539</code>, <a href='https://unive.it' target='_blank' title='Ca’Foscari University'>Ca’Foscari University</a>’s main theme color, picked <a href='view-source:https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo_Universit%C3%A0_Ca'_Foscari_Venezia.svg#line11' target='_blank' title='The line of the source code of the SVG of the logo of Ca’Foscari containing the HEX code of the color'>from the SVG </a>of <a href='{{ 'https://en.wikipedia.org/wiki/Ca'_Foscari_University_of_Venice#/media/File:Logo_Università_Ca'_Foscari_Venezia.svg' | uri_escape }}'  target='_blank' title='Logo dell’Università Ca’ Foscari di Venezia'>University logo</a></li>
 </ul>
 
 <br>
@@ -118,7 +118,7 @@ Ah, red, what a color. It is so wonderful I have to keep note of all the nice sh
 
 ## Syntax highlight
 
-[Monokai Pro](https://monokai.pro "Monokai Pro") inspired sintax highlight, which does not correspond to [this website code snippets’ syntax](#tommispace-syntax-highlight)
+[Monokai Pro](https://monokai.pro 'Monokai Pro') inspired sintax highlight, which does not correspond to [this website code snippets’ syntax](#tommispace-syntax-highlight)
 
 <ul class='three'>
 	<li><code style='background:#2C292D;color:#FFF'>#2C292D</code></li>
@@ -152,7 +152,7 @@ MacOS dark theme system background colors. The accent colors can be found [here]
 
 ## Other palettes
 
-- [<cite>Persistence</cite>](https://www.color-hex.com/color-palette/89620 "Persistence color palette"), a wonderful green gradient palette
+- [<cite>Persistence</cite>](https://www.color-hex.com/color-palette/89620 'Persistence color palette'), a wonderful green gradient palette
 
 <br>
 <br>
@@ -171,7 +171,7 @@ MacOS dark theme system background colors. The accent colors can be found [here]
 
 Color palettes generators
 
-- [Colormind](http://colormind.io/ "Colormind")
-- [Coolors](https://coolors.co/ "Coolors")
+- [Colormind](http://colormind.io/ 'Colormind')
+- [Coolors](https://coolors.co/ 'Coolors')
 
-[pise-notes.club]: https://pise-notes.club "PISE Notes"
+[pise-notes.club]: https://pise-notes.club 'PISE Notes'

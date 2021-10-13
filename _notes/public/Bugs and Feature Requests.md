@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04
-updated: 2021-09-28T00:52:06+02:00
+updated: 2021-10-11T13:04:00+02:00
 tags: geek
 permalink: /bugs
 redirect_from: ['/feature-requests', '/bugs-and-feature-requests']
@@ -39,6 +39,14 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 - Improved audio handling
 - Delete for me / delete for everybody option
+- mark as unread
+
+<br>
+<br>
+
+## Pixelfed
+
+![[Pixelfed#Bugs and Feature Requests]]
 
 <br>
 <br>
@@ -185,3 +193,10 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 </div>
 
 - Implement split view: two different notes side by side
+
+<br>
+<br>
+
+## WBO
+
+- importing, not only exporting SVGs

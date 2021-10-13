@@ -1,18 +1,20 @@
 ---
-updated: 2021-08-11T21:34:57.470673+02:00
+updated: 2021-10-06T11:21:50+02:00
 tags: geek todo
-aliases: ["Geek stuff", "Geek stuff todo"]
-description: 'Computer related tasks tracking'
+aliases: ['Geek stuff', 'Geek stuff todo']
+description: Computer related tasks tracking
 ---
 1. [[Images]] and [[Storage]]
 	1. Memorable pictures archive on Piwigo
-1. Defining a threat model
+1. Defining a [threat model](https://protonmail.com/blog/what-is-a-threat-model/ 'Privacy Decrypted #1: What is a threat model?')
 3. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 5. TMpi
 	1. [Pi-hole](https://pi-hole.net 'Network-wide Ad Blocking')
 	2. [Photoprism](https://docs.photoprism.org/getting-started/raspberry-pi/ 'Running PhotoPrism on a Raspberry Pi') (or on [[Linuxplosion]])
 	3. Local Nextcloud / Yunohost
 	4. Cron Jobs
+1. Finish [Matrix server setup](https://github.com/matrix-org/synapse#id5 'Install Synapse')
+1. Setup [Pi-Hole on Google Cloud](https://github.com/n3m351d4/Pi-Hole-PiVPN-on-Google-Compute-Engine-Free-Tier-with-Full-Tunnel-and-Split-Tunnel-OpenVPN-Configs 'Pi-Hole-PiVPN-on-Google-Compute-Engine-Free-Tier-with-Full-Tunnel-and-Split-Tunnel-OpenVPN-Configs')
 7. Movies data
 	- https://www.wikidata.org/wiki/Special:ApiSandbox
 	- https://www.mediawiki.org/wiki/API:Main_page

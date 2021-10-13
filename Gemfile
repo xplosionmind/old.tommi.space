@@ -2,7 +2,6 @@ source "https://rubygems.org"
 gem "jekyll"
 
 group :jekyll_plugins do
-  gem "webrick"
   gem "jekyll-commonmark", github: "jekyll/jekyll-commonmark"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
@@ -34,7 +33,6 @@ group :jekyll_plugins do
 #  gem "jekyll-timeago"
 #  gem "liquid_pluralize"
 #  gem "liquid_reading_time"
-#  gem "jekyll-gist"
 #  gem "jekyll-twitter-plugin"
 #  gem "jekyll-news-sitemap"
 #  gem "jekyll-git_metadata"

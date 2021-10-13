@@ -23,7 +23,7 @@ GEM
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
-    ethon (0.14.0)
+    ethon (0.15.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     ffi (1.15.4)
@@ -133,7 +133,6 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
-    webrick (1.7.0)
     yell (2.2.2)
     zeitwerk (2.4.2)
 
@@ -158,7 +157,6 @@ DEPENDENCIES
   jekyll-watch
   jekyll-wikilinks
   liquid-c
-  webrick
 
 BUNDLED WITH
    2.2.22
