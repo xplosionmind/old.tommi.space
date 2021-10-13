@@ -184,13 +184,11 @@ body {
 	dd {
 		font-size: 0;
 		a {
-			padding: 1px 4px;
-			margin: $tiny $small;
+			padding: 1px 6px;
+			margin: $tiny;
 			box-shadow: var(--little-shadow);
-			background: var(--yellow);
 			display: inline-block;
 			border-radius: $radius-s;
-			color: var(--background) !important;
 			font-family: var(--font-sans) !important;
 			font-weight: 700;
 			font-size: 1rem;
