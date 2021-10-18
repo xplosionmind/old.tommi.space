@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10
-updated: 2021-09-10T19:05:50.204454+02:00
+updated: 2021-10-14T02:37:50+02:00
 permalink: /qsm
 aliases: ["QSM"]
 description: 'Notes about <a href="https://quitsocialmedia.club"  target="_blank" title="Quit Social Media">quitsocialmedia.club</a>'
@@ -12,6 +12,7 @@ redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-n
 
 ## Improvements
 
+- Inputs feed of links tagged `qsm`
 - Drawings images
 - why the present website will not be updated
 
