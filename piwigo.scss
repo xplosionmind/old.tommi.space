@@ -94,6 +94,13 @@ body {
 	}
 }
 
+.switchBox {
+	background-color: var(--background) !important;
+	box-shadow: var(--shadow);
+	border-radius: $radius-s;
+}
+
+
 #imageToolBar {
 	background: transparent !important;
 }
@@ -134,6 +141,12 @@ body {
 	}
 	#imageInfos {
 		padding: 0 3%;
+	}
+	.linkPrev {
+		margin: 0 10px 15% 0;
+	}
+	.linkNext {
+		margin: 0 15% 10px 0;
 	}
 }
 
@@ -236,7 +249,7 @@ body {
 #comments input[type="text"],
 #comments TEXTAREA,
 input {
-	border: solid 2px var(--text);
+	border: none !important;
 	border-radius: $radius-s;
 	background: var(--deep);
 	color: var(--text);
@@ -249,6 +262,14 @@ input[value="Submit"] {
 	font-weight: 700;
 	text-transform: uppercase;
 	box-shadow: var(--button-shadow);
+}
+
+div.thumbHover {
+	background: var(--primary);
+	border-radius: $radius-s;
+	box-shadow: var(--button-shadow);
+	color: var(--background) !important;
+	font-weight: 800;
 }
 
 a .pwg-icon {
