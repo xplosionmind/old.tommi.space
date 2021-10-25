@@ -29,6 +29,7 @@ body {
 	--link: var(--primary);
 	--primary: var(--yellow);
 	--secondary: var(--blue);
+	--slight: var(--light-blue);
 	--internal-link: var(--blue);
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
@@ -59,6 +60,7 @@ body {
 	--link: var(--secondary);
 	--primary: var(--blue);
 	--secondary: var(--razzmatazz);
+	--slight: var(--dark-blue);
 	--internal-link: var(--blue);
 	--grey: var(--light-grey);
 	--other-grey: var(--dark-grey);
@@ -544,6 +546,7 @@ time {
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	transition: var(--quicktrans);
+	hyphens: none;
 	.anchor {
 		opacity: 0;
 	}
@@ -631,6 +634,7 @@ h3 {
 #toc {
 	h3 {
 		margin-bottom: 0;
+		color: var(--slight);
 	}
 	li {
 		margin-bottom: unset;
@@ -669,7 +673,7 @@ h3 {
 }
 
 .last-modified {
-	margin: 0 auto $twice;
+	margin-top: 0;
 	font-size: $regular-less;
 	opacity: .8;
 	text-align: center;
@@ -995,7 +999,7 @@ button,
 	}
 	#goto {
 		position: fixed;
-		top: 35vh;
+		top: 30vh;
 		left: -15rem;
 		&:hover,
 		&:focus {
