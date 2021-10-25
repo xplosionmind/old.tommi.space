@@ -15,6 +15,7 @@ description: Computer related tasks tracking
 	4. Cron Jobs
 1. Finish [Matrix server setup](https://github.com/matrix-org/synapse#id5 'Install Synapse')
 1. Finish [AdGuard Home](https://adguard.tommi.space 'AdGuard') setup
+1. Update and reformat `subscriptions.csv`
 7. Movies data
 	- https://www.wikidata.org/wiki/Special:ApiSandbox
 	- https://www.mediawiki.org/wiki/API:Main_page
