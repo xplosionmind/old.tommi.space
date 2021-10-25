@@ -1,5 +1,5 @@
 ---
-updated: 2021-10-06T11:21:50+02:00
+updated: 2021-10-25T10:46:38+02:00
 tags: geek todo
 aliases: ['Geek stuff', 'Geek stuff todo']
 description: Computer related tasks tracking
@@ -14,7 +14,7 @@ description: Computer related tasks tracking
 	3. Local Nextcloud / Yunohost
 	4. Cron Jobs
 1. Finish [Matrix server setup](https://github.com/matrix-org/synapse#id5 'Install Synapse')
-1. Setup [Pi-Hole on Google Cloud](https://github.com/n3m351d4/Pi-Hole-PiVPN-on-Google-Compute-Engine-Free-Tier-with-Full-Tunnel-and-Split-Tunnel-OpenVPN-Configs 'Pi-Hole-PiVPN-on-Google-Compute-Engine-Free-Tier-with-Full-Tunnel-and-Split-Tunnel-OpenVPN-Configs')
+1. Finish [AdGuard Home](https://adguard.tommi.space 'AdGuard') setup
 7. Movies data
 	- https://www.wikidata.org/wiki/Special:ApiSandbox
 	- https://www.mediawiki.org/wiki/API:Main_page
