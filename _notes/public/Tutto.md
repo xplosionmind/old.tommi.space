@@ -2,14 +2,14 @@
 date: 2020-02-04
 updated: 2021-10-06T15:18:05+02:00
 tags: wip log csvfy
-aliases: ['Cose extended', 'Tutte le cose', 'Stuff extended', 'Di tutto e di più', 'Done', 'Fatto']
+aliases: Cose extended, Tutte le cose, Stuff extended, Di tutto e di più, Done, Fatto
 lang: it
-redirect_from: ['/tuttopiu', '/cose-extended', '/stuff-extended', '/stuff-extended-it', '/stuff-extended/it', '/it/stuff-extended', '/everything', '/done', '/fatto', '/fatte']
+redirect_from: [/tuttopiu,/cose-extended,/stuff-extended,/stuff-extended-it,/stuff-extended/it, /it/stuff-extended, /everything, /done, /fatto, /fatte]
 main: true
 description: Un archivio di tutte le cose che faccio e che ho fatto
 todo:
-  - 'Move this to a CSV/YAML file (how to handle links and resources?)'
-  - 'Sort everything BY DATE, with YEAR as H2; current H2s should become tags'
+  - Move this to a CSV/YAML file (how to handle links and resources?)
+  - Sort everything BY DATE, with YEAR as H2; current H2s should become tags
 toc: false
 ---
 Dato che, per mia natura, sono una trottola che gira ovunque per fare tante (troppe) diverse cose 

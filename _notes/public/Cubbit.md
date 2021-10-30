@@ -1,8 +1,8 @@
 ---
-date: 2021-02-04T10:40:50.310184+01:00
-updated: 2021-09-25T08:02:53.649500+02:00
+date: 2021-02-04T10:40:50+01:00
+updated: 2021-09-25T08:02:53+02:00
 tags: geek/apps
-description: 'Bugs, feature request and notes about Cubbit, the decentralized storage system I love and use everyday'
+description: Bugs, feature request and notes about Cubbit, the decentralized storage system I love and use everyday
 toc: false
 ---
 [Cubbit] is a brilliant and revolutionary decentralized cloud service. I am among the first backers of the project, I proudly own a Cubbit cell and I love it.

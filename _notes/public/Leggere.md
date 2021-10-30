@@ -2,11 +2,11 @@
 date: 2021-01-12
 updated: 2021-01-12
 tags: reading
-aliases: ["Reading", "Lettura"]
-description: "Insights about reading"
+aliases: Reading, Lettura
+description: Insights about reading
 lang: it
 toc: false
-redirect_from: ["/leggere", "/lettura"]
+redirect_from: ['/leggere', '/lettura']
 main: true
 ---
 ## Investimento
@@ -20,4 +20,4 @@ Leggere è un investimento. L’appagamento che la lettura dà nel breve termine
 
 ## Resources
 
-- [Read more effectively](https://aliabdaal.com/read-more-effectively/ "Read more effectively"), by [Ali Abdaal](https://aliabdaal.com/about/ "Ali Abdaal")
+- [Read more effectively](https://aliabdaal.com/read-more-effectively/ 'Read more effectively'), by [Ali Abdaal](https://aliabdaal.com/about/ 'Ali Abdaal')

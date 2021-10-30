@@ -2,11 +2,11 @@
 date: 2020-06-10
 updated: 2021-10-14T02:37:50+02:00
 permalink: /qsm
-aliases: ["QSM"]
-description: 'Notes about <a href="https://quitsocialmedia.club"  target="_blank" title="Quit Social Media">quitsocialmedia.club</a>'
-redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-notes", "/quit-social-media-notes", "/quit-social-media"]
+aliases: QSM
+description: "Notes about <a href='https://quitsocialmedia.club'  target='_blank' title='Quit Social Media'>quitsocialmedia.club</a>"
+redirect_from: [/quitsocialmedia, /quitsocialmedia.club, /quitsocialmedia-notes, /quit-social-media-notes, /quit-social-media]
 ---
-<div class="blue box">
+<div class='blue box'>
 	Content in this page are random, pretty messed up and both in English and Italian, mostly personal to-dos for Tommi.
 </div>
 
@@ -23,7 +23,7 @@ redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-n
 - troppi troppi GB di dati e immagini, dove li mettiamo?
 - legittimazione a non uscire per troppo tempo da investire nel cambio
 - Listing Fediverse (specifically Mastodon) features, and point out how recent is their history
-- in [ma](https://quitsocialmedia.club/ma "“Ma” in quitsocialmedia.club"): ma prendere soluzioni così drastiche, nella storia, non è mai servito a nulla
+- in [ma](https://quitsocialmedia.club/ma '“Ma” in quitsocialmedia.club'): ma prendere soluzioni così drastiche, nella storia, non è mai servito a nulla
 - la differenza generazionale
 - differenza con la TV
 - l'educazione e la difficoltà
@@ -33,7 +33,7 @@ redirect_from: ["/quitsocialmedia", "/quitsocialmedia.club", "/quitsocialmedia-n
 
 > The present treatise contains everything that I have been able to accomplish in this area. Not that I have attempted to collect here all the different arguments that could be put forward to establish the same results, for this does not seem worthwhile except in cases where no single argument is regarded as sufficiently reliable. What I have done is to take merely the principal and most important arguments and develop them in such a way that I would now venture to put them forward as very certain and evident demonstrations.
 
-<p class="cite">David Hume</p>
+<p class='cite'>David Hume</p>
 
 <br>
 <br>
@@ -59,9 +59,9 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 - It's not just a few ads: lies are fostered
 - paradosso della libertà di espressione contro il monopolio dei mezzi di comunicazione
 - impatto ambientale
-- ricavi economici ("regalo likes")
+- ricavi economici ('regalo likes')
 - cenni di privacy (è uno degli argomenti che più sta a cuore alle società digitali del momento: non occorre focalizzarsi su questo)
-- tempo "perso"
+- tempo 'perso'
 - chi possiede i dati?
 
 <br>
@@ -98,7 +98,7 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 	- pro e contro
 		- fediverse, tutto connesso
 		- scarsa o assente moderazione o censura
-		- impossibilità di "promuovere post"
+		- impossibilità di 'promuovere post'
 		- completa trasparenza
 		- gestito da non profit o addirittura singoli
 		- chiunque può contribuire
@@ -111,7 +111,7 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 		- se lo facessi già su piattaforme alternative, non avrebbe senso, perché raggiungerei coloro che già hanno consapevolezza, e non sarebbe nulal di nuovo per loro
 		- perché dobbiamo usare i social per distruggere i social / perché, su internet, ogni mezzo è lecito per salvare internet
 		- perché dobbiamo dare un forte segnale e rendere un contenuto virale, cosa difficile se non impossibile su altre piattaforme, poiché non hanno sufficienti utenti
- - non "perché?", ma "perché no?"
+ - non 'perché?', ma 'perché no?'
  - non più solo mezzo, anche fine
 
 <br>
@@ -202,7 +202,7 @@ Grazie mille, ti sono davvero grato e sono un sacco felice che tu abbia voluto d
 ## Contact
 
 - [x] veronica.piccolo@unive.it
-- [x] [Vittorio Bertola](https://bertola.eu "Vittorio Bertola personal website")
+- [x] [Vittorio Bertola](https://bertola.eu 'Vittorio Bertola personal website')
 - [x] Carlo
 - [ ] Vlad
 - [x] Settime
@@ -217,8 +217,8 @@ Grazie mille, ti sono davvero grato e sono un sacco felice che tu abbia voluto d
 - [x] Salvatore Cotogno
 - [ ] <https://austinhuang.me/reference>
 - [ ] hello@redecentralize.org
-- [x] [Carissa Véliz](https://www.carissaveliz.com/contact "Carissa Véliz]")
-- [ ] [Alina Utrata](https://www.alinautrata.com "Alina Utrata")
+- [x] [Carissa Véliz](https://www.carissaveliz.com/contact 'Carissa Véliz]')
+- [ ] [Alina Utrata](https://www.alinautrata.com 'Alina Utrata')
 - [ ] ontech@nytimes.com
 - [ ] Sabina Guzzanti (vedi Propaganda del 12.03 al min ~90)
 - [ ] hfbmartinus@gmail.com, Herman Martinus: developer of Bearblog

@@ -1,8 +1,10 @@
 ---
-date: 2021-05-28T22:53:04.011867+02:00
-updated: 2021-05-28T22:53:04.011867+02:00
+date: 2021-05-28T22:53:04+02:00
+updated: 2021-05-28T22:53:04+02:00
 tags: meta geek/apps
-description: 'The tool I build this website with'
+description: The tool I build this website with
+todo:
+  - add the “Jekyll is dead” debacle
 ---
 ## Features requests
 

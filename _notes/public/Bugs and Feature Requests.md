@@ -1,10 +1,11 @@
 ---
 date: 2020-08-04
-updated: 2021-10-11T13:04:00+02:00
+updated: 2021-10-30T03:18:13+02:00
 tags: geek
 permalink: /bugs
-redirect_from: ['/feature-requests', '/bugs-and-feature-requests']
+redirect_from: [/feature-requests, /bugs-and-feature-requests]
 description: Bugs and Feature requests for the apps I use
+image: https://tommi.space/logos/bugs.svg
 ---
 The [[Apps]] I use the most are open source and in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I will have enough time to effectively share my reports.
 
@@ -40,6 +41,12 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 - Improved audio handling
 - Delete for me / delete for everybody option
 - mark as unread
+
+<br>
+
+### Reminders
+
+- Not only based on location but on proximity of a person
 
 <br>
 <br>

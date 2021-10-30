@@ -1,10 +1,11 @@
 ---
 date: 2020-01-03
-updated: 2021-06-10T23:29:07.031563+02:00
+updated: 2021-06-10T23:29:07+02:00
 tags: zen topic
-description: 'The study of studying, or: how to study in a better way'
+description: |
+  The study of studying, or: how to study in a better way
 permalink: /study
-redirect_from: ['/metastudy', '/meta-study', '/studio', '/metastudio', '/meta-studio', '/studiare']
+redirect_from: [/metastudy,/meta-study,/studio,/metastudio,/meta-studio,/studiare,/metodo-di-studio,/metododistudio,/study-method,/studying-method]
 toc: false
 ---
 Literally, *metastudy* should mean “studying study”; actually, it signifies deepening the knowledge of how understanding, learning and remembering something works. I collect here some thoughts concerning <u>how to study better</u>, while keeping in mind that my considerations are strictly personal.

@@ -1,7 +1,8 @@
 ---
-date: 2021-04-17T09:58:58.538160+02:00
-updated: 2021-05-10T07:43:50.276703+02:00
-description: 'Random notes on VeUMEU issues of the 2021 edition'
+date: 2021-04-17T09:58:58+02:00
+updated: 2021-05-10T07:43:50+02:00
+description: Random notes on VeUMEU issues of the 2021 edition
+image: https://www.comune.venezia.it/sites/comune.venezia.it/files/immagini/EuropeDirect/VeUMEU.png
 ---
 Topics of [VeUMEU 2021]:
 - [Right to disconnect]

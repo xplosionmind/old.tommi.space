@@ -1,13 +1,14 @@
 ---
 date: 2020-06-04
-updated: 2021-03-14T16:37:32.667788+01:00
+updated: 2021-10-30T18:48:30+02:00
 tags: track
 permalink: /oggetti
-aliases: ["Oggetti"]
+aliases: Oggetti
 lang: it
-description: "Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi."
-redirect_from: ["/compagni-di-viaggio", "/oggetti", "/cose-smarrite", "/oggetti-smarriti", "/lost-and-found"]
+description: Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi.
+redirect_from: [/compagni-di-viaggio, /oggetti, /cose-smarrite, /oggetti-smarriti, /lost-and-found]
 main: true
+image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/14/20210114191829-c28094bf-me.jpg
 ---
 Sembra esagerato, ma sono così affezionato loro, che gli oggetti di seguito descritti sono diventati dei veri e propri compagni di viaggio. Per questo motivo ho deciso di registrare qui le loro generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.
 
@@ -24,7 +25,7 @@ Ho ereditato da mio papà una forte sensibilità alla luce, quindi raramente son
 
 ### I primi antenati
 
-I primi *Xplosion Sunglasses* degni di questo nome, che possono essere considerati i padri di tutti quelli che li seguiranno, sono un paio di [Ray-Ban Wayfarer Limited Edition](https://nitrolicious.com/wp-content/uploads/2010/06/RB-2140-1033.jpg "Ray-Ban Wayfarar Limited Edition") con una raffigurazione, all’esterno, della mappa della metropolitana di New York.
+I primi *Xplosion Sunglasses* degni di questo nome, che possono essere considerati i padri di tutti quelli che li seguiranno, sono un paio di [Ray-Ban Wayfarer Limited Edition](https://nitrolicious.com/wp-content/uploads/2010/06/RB-2140-1033.jpg 'Ray-Ban Wayfarar Limited Edition') con una raffigurazione, all’esterno, della mappa della metropolitana di New York.
 
 Li vidi per l aprima volta a 12 anni, nella vetrina di un negozio a Savona (non me ne scorderò mai), e da quel momento non smisi di stressare i miei genitori per poterli avere anche io.
 
@@ -36,7 +37,7 @@ Per il capodanno fra il 2017 e il 2018, trascorsi con alcuni amici qualche giorn
 
 Disperato, sono andato a cercare di nuovo il modello su ebay. 738$.
 
-![I miei occhiali, dopo qualche anno, su ebay](/images/2018-01-07-broken-sunglasses.jpg "I miei occhiali, dopo qualche anno, su ebay")
+![I miei occhiali, dopo qualche anno, su ebay](/images/2018-01-07-broken-sunglasses.jpg 'I miei occhiali, dopo qualche anno, su ebay')
 
 <br />
 
@@ -44,9 +45,9 @@ Disperato, sono andato a cercare di nuovo il modello su ebay. 738$.
 
 Ad aprile 2015, partecipai con [Radioimmaginaria](/cose#radioimmaginaria) all’[International Radio Festival](https://www.facebook.com/irfradiofest/), tenutosi nell’[Unicredit Pavilion](https://it.wikipedia.org/wiki/IBM_Studios) in Piazza Gae Aulenti a Milano. È stato fighissimo e tutto quello che abbiamo fatto è raccolto [qui](/tutto#radioimmaginaria).
 
-C’erano un sacco stand di brand e radio molto importanti, fra cui quello di [Blackfin](https://www.blackfin.eu/ "Sito ufficiale Blackfin"). Io, come mio solito, mi aggiravo per il padiglione parlando con tutte le persone che incontravo, disturbando le dirette delle altre radio e facendo un sacco di rumore.
+C’erano un sacco stand di brand e radio molto importanti, fra cui quello di [Blackfin](https://www.blackfin.eu/ 'Sito ufficiale Blackfin'). Io, come mio solito, mi aggiravo per il padiglione parlando con tutte le persone che incontravo, disturbando le dirette delle altre radio e facendo un sacco di rumore.
 
-Riporterò qui la conversazione che tenni con la mitica [Elena Sandre](https://www.facebook.com/elena.sandre.9 "Profilo Facebook di Elena Sandrè"), allo stand Blackfin.
+Riporterò qui la conversazione che tenni con la mitica [Elena Sandre](https://www.facebook.com/elena.sandre.9 'Profilo Facebook di Elena Sandrè'), allo stand Blackfin.
 
 T: <q>Ciao! Stavate cercando un modello affascinante come me?</q>\
 E: <q>Ecco! Proprio uno come te stavamo cercando!</q>\
@@ -95,7 +96,7 @@ Santa Nonna Gogò tornò subito in campo. Per il mio diciannovesimo compleanno, 
 
 ## TBoom Pen
 
-La TBoom Pen è la penna che è sempre nella mia tasca. Rigorosamente, modello [Parker Jotter](https://www.parkerpen.com/jotter-originals "Parker Jotter sul sito ufficiale Parker") con punta a sfera.
+La TBoom Pen è la penna che è sempre nella mia tasca. Rigorosamente, modello [Parker Jotter](https://www.parkerpen.com/jotter-originals 'Parker Jotter sul sito ufficiale Parker') con punta a sfera.
 
 Fu un regalo della mamma nel 2014, e sopra mi fece incidere questa scritta:
 
@@ -108,3 +109,45 @@ Si sono succedute varie TBoom pen, sempre simili fra loro, ma alla fine le ho pe
 Nell'agosto 2020 a Giffoni, si è rotta la sua clip.
 
 A Natale 2020 la mamma mi ha regalato la *Tommi Pen*, l'evoluzione della *TBoom Pen*.
+
+## Taccuini
+
+### Freddie
+
+Il mio primo taccuino in assoluto.  
+Freddie aveva copertina verde forseta l’illustrazione della faccia di una scimmia in copertina.  
+Lo utilizzai fino a febbraio 2018, quando, come uno scemo lo dimenticai all’Ariston, nella sala stampa del Festival di Sanremo, non ritrovandolo più.
+
+<br>
+
+### John
+
+John è un taccuino dalla copertina rigida beige. Lo comprai da Tiger a Genova poco dopo aver realizzato che non avrei più trovato [Freddie](#Freddie 'torna a Freddie').  
+John giace ora fra gli scaffali di [[Gianna]], dove riposa in pace conservando le parole che per me sono preziosi gioielli.  
+Con John ebbe inizio la stirpe dei ***Jay***s, ovvero tutti i taccuini con iniziale “J”.
+
+<br>
+
+### Jarvis
+
+Una volta terminato John, alla Feltrinelli di Genova comprai, nel marzo 2019, <cite>Jarvis</cite>.  
+Ricordare <cite>Jarvis</cite> è doloroso, perché è stato brutalmente smarrito nel corso di [Scambi 2021](https://scambi.org 'Scambi Festival'); per metabolizzare la sua scomparsa, gli ho dedicato [questa ode](/jarvis 'Ode a Jarvis').
+
+<br>
+
+### Jacala I
+
+<cite>Jacala I</cite> è una sottile Moleskine dalla copertina nera, acquistato presso la libreria Toletta a Venezia, il <time datetime='2021-10-14T15:34:31+02:00'>14 Ottobre 2021</time>. Prende il nome dall’[omonimo coccodrillo](https://it.wikipedia.org/wiki/Personaggi_de_Il_libro_della_giungla#Jacala 'Jacala nella lista dei personaggi de Il libro della giungla, su Wikipedia'), personaggio de <cite><a href='https://it.wikipedia.org/wiki/Il_libro_della_giungla' target='_blank' title='“Il libro della giungla„ su Wikipedia'>Il libro della giungla</a></cite> di [Kipling](https://it.wikipedia.org/wiki/Rudyard_Kipling 'Rudyard Kipling su Wikipedia').
+
+<div class='row'>
+	<figure class='half column'>
+		<a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'>
+			<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080113-cf44e5b4-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen' />
+		</a>
+	</figure>
+	<figure class='half column'>
+		<a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'>
+			<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080128-36817480-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen' />
+		</a>
+	</figure>
+</div>

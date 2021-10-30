@@ -1,10 +1,10 @@
 ---
 date: 2020-11-13
 updated: 2020-11-14
-aliases: ['Travelling']
-description: 'Insights about traveling'
+aliases: Travelling
+description: Insights about traveling
 toc: false
-redirect_from: ["/journeys", "/travel-guide", "/travelling", "/traveling", "/backpacking"]
+redirect_from: [/journeys,/travel-guide,/travelling,/traveling,/backpacking]
 ---
 ## Accommodation
 

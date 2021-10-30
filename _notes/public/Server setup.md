@@ -1,11 +1,11 @@
 ---
 date: 2020-03-21
-updated: 2021-01-28T12:22:55.367195+01:00
+updated: 2021-01-28T12:22:55+01:00
 tags: geek/server
-description: "A walktrough of the steps I executed to set up my server"
+description: A walktrough of the steps I executed to set up my server
 ---
-<div class="box">
-	A <strong>huge shout-out</strong> to my friend <a href="http://claudiofaoro.com" title="Claudio's personal website"  target="_blank">Claudio</a>, who helped me understand and perform the most tricky passages.
+<div class='box'>
+	A <strong>huge shout-out</strong> to my friend <a href='http://claudiofaoro.com' title='Claudio’s personal website' target='_blank'>Claudio</a>, who helped me understand and perform the most tricky passages.
 </div>
 
 <br>
@@ -20,14 +20,14 @@ Resources, apps, tutorials and several knowledge sources are mentioned in the [[
 
 ## Docker setup
 
-Please refer to [[Docker Server Setup]] to see how I re-deployed everything on my server through [Docker](https://www.docker.com "Docker").
+Please refer to [[Docker Server Setup]] to see how I re-deployed everything on my server through [Docker](https://www.docker.com 'Docker').
 
 <br>
 <br>
 
 ## Good practices
 
-update [Ubuntu](https://ubuntu.com/server "Ubuntu server website") (`-y` parameter is used to accept by default any question)
+update [Ubuntu](https://ubuntu.com/server 'Ubuntu server website') (`-y` parameter is used to accept by default any question)
 ```sh
 sudo apt update -y && sudo apt upgrade -y
 ```
@@ -82,7 +82,7 @@ sudo ufw allow 'Apache'
 
 ### SSH keys
 
-create [ssh](https://www.ssh.com/ssh/ "ssh.com") folder to store allowed keys
+create [ssh](https://www.ssh.com/ssh/ 'ssh.com') folder to store allowed keys
 ```sh
 mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
 ```
@@ -101,16 +101,16 @@ Substitute `100.100.010.1` with the server’s IP address, `xplosionmind` with t
 
 #### More information
 
-- [SSH keys explained](https://dev.to/rmoff/ssh-keys-explained-2e2l "SSH keys explained"), a comprehensive yet simple guide to understand how SSH keys management should be done
-- [Linode’s tutorial](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/ "Use SSH Public Key Authentication on Linux, macOS, and Windows - Linode") on the topic
+- [SSH keys explained](https://dev.to/rmoff/ssh-keys-explained-2e2l 'SSH keys explained'), a comprehensive yet simple guide to understand how SSH keys management should be done
+- [Linode’s tutorial](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/ 'Use SSH Public Key Authentication on Linux, macOS, and Windows - Linode') on the topic
 - 
 
 <br />
 
 ### SSH port
 
-<div class="box yellow">
-	Changing the default SSH port is useful to prevent randomized attacks which attempt to get access to the server from <a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers"  target="_blank">port 22</a>, the default one.
+<div class='box yellow'>
+	Changing the default SSH port is useful to prevent randomized attacks which attempt to get access to the server from <a href='https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers'  target='_blank'>port 22</a>, the default one.
 </div>
 
 Enable the new SSH port from the firewall. In this case, the process I will be following configures port `5522`
@@ -147,7 +147,7 @@ PermitRootLoogin no # was: yes
 
 ### Install git
 
-install [git](https://git-scm.com/ "git official website")
+install [git](https://git-scm.com/ 'git official website')
 
 ```sh
 apt install git
@@ -157,7 +157,7 @@ apt install git
 
 ### Install zsh
 
-install [zsh](https://www.zsh.org/ "zsh.org")
+install [zsh](https://www.zsh.org/ 'zsh.org')
 
 ```sh
 apt install zsh
@@ -175,16 +175,16 @@ install zsh syntax highlighting
 apt install zsh-syntax-highlighting
 ```
 
-install [oh-my-zsh](https://ohmyz.sh/ "ohmyz.sh")
+install [oh-my-zsh](https://ohmyz.sh/ 'ohmyz.sh')
 
 ```sh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c '$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)'
 ```
 
 enable zsh syntax highlighting
 
 ```sh
-echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+echo 'source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 ```
 
 <br />
@@ -201,7 +201,7 @@ Nextcloud installation, configuration and troubleshooting.
 - [official installation documentation](https://docs.nextcloud.com/server/18/admin_manual/installation/source_installation.html)
 - complete [installation tutorial](https://youtu.be/QB_FEWJ9BB4) for Ubuntu 20.04, in dutch
 - [in-depth guide](https://youtu.be/QXfsi0pwgYw) for Nextcloud 15
-- check vulnerabilities with [Nextcloud Scan](https://scan.nextcloud.com "Nextcloud Scan")
+- check vulnerabilities with [Nextcloud Scan](https://scan.nextcloud.com 'Nextcloud Scan')
 
 <br>
 
@@ -328,7 +328,7 @@ unzip nextcloud-18.0.4.zip
 
 ### Install Let's Encrypt
 
-[<span id="certbot">Certbot</span>](https://certbot.eff.org "Certbot by EFF") will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
+[<span id='certbot'>Certbot</span>](https://certbot.eff.org 'Certbot by EFF') will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
 
 ```sh
 sudo apt install certbot python3-certbot-apache
@@ -369,7 +369,7 @@ sudo service apache2 restart
 In `cloud.tommi.space-le-ssl.conf` add
 ```apache
 <IfModule mod_headers.c>
-      Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
+      Header always set Strict-Transport-Security 'max-age=15552000; includeSubDomains'
 </IfModule>
 ```
 
@@ -386,7 +386,7 @@ sudo vim /etc/apache2/sites-available/cloud.tommi.space/cloud.tommi.space-le-ssl
 
 paste in `<VirtualHost *:443>`
 ```apache
-<Directory "/var/www/cloud.tommi.space/public_html">
+<Directory '/var/www/cloud.tommi.space/public_html'>
 	Options Indexes FollowSymLinks
 	AllowOverride All
 	Require all granted
@@ -409,9 +409,9 @@ systemctl restart apache2
 - wait for the domain to propagate (it could take up to 48 hours)
 - go to `cloud.example.com`, where you should get this page:
 
-<figure><img src="https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg" alt="Nextcloud first setup page" title="Nextcloud first setup page" /><figcaption>Nextcloud first setup page</figcaption></figure>
+<figure><img src='https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg' alt='Nextcloud first setup page' title='Nextcloud first setup page' /><figcaption>Nextcloud first setup page</figcaption></figure>
 
-<div class="yelow box">
+<div class='yelow box'>
 	<u><strong>Do not</strong> insert any data</u> in the dialogue page above until connection is encrypted with <code>https://</code>. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
 </div>
 
@@ -425,7 +425,7 @@ Final adjustments are to be performed from the Nextcloud GUI. The [Nextcloud app
 
 ### fixes
 
-- fix [this](https://github.com/nextcloud/server/issues/8546#issuecomment-514139714 "An issue on Nextcloud repository on GitHub") encryption error
+- fix [this](https://github.com/nextcloud/server/issues/8546#issuecomment-514139714 'An issue on Nextcloud repository on GitHub') encryption error
 
 <br>
 <br>
@@ -441,7 +441,7 @@ move to the Nextcloud apps folder
 cd /var/www/nextcloud/apps
 ```
 
-download the application package from [Nextcloud apps website](https://apps.nextcloud.com/ "Nextcloud Apps")
+download the application package from [Nextcloud apps website](https://apps.nextcloud.com/ 'Nextcloud Apps')
 ```sh
 wget https://github.com/nextcloud/documentserver_community/releases/download/v0.1.5/documentserver_community.tar.gz # url to the package
 ```
@@ -485,14 +485,14 @@ Using the `occ` command in a dockerized instance
 docker-compose exec --user www-data app php occ
 ```
 
-More information on the [Nextcloud Docker Hub page](https://hub.docker.com/_/nextcloud "Nextcloud - Docker Hub")
+More information on the [Nextcloud Docker Hub page](https://hub.docker.com/_/nextcloud 'Nextcloud - Docker Hub')
 
 <br>
 <br>
 
 ## Jitsi Meet
 
-[installation guide](https://www.vultr.com/docs/install-jitsi-meet-on-ubuntu-20-04-lts "Jitsi Meet installation guide - Vultr")
+[installation guide](https://www.vultr.com/docs/install-jitsi-meet-on-ubuntu-20-04-lts 'Jitsi Meet installation guide - Vultr')
 
 allow firewall for ports 100000 to 200000
 
@@ -502,7 +502,7 @@ sudo ufw allow in 10000:20000/udp
 
 Jitsi requires the Java Runtime Environment. Install OpenJDK JRE 8.
 
-<div class="red box">
+<div class='red box'>
 	<b>NOTE</b>: as of right now, Jitsi Meet needs JRE 8, and <u><strong>not a newer version</strong></u>!
 </div>
 
@@ -517,14 +517,14 @@ java -version
 
 setup Java Runtime
 ```sh
-sudo echo "JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")" | sudo tee -a /etc/profile
+sudo echo 'JAVA_HOME=$(readlink -f /usr/bin/java | sed 's:bin/java::')' | sudo tee -a /etc/profile
 sudo source /etc/profile
 ```
 
 download Jitsi Meet and add it to `apt` downloadable list
 ```sh
 wget -qO - https://download.jitsi.org/jitsi-key.gpg.key | sudo apt-key add -
-echo "deb https://download.jitsi.org stable/"  | sudo tee -a /etc/apt/sources.list.d/jitsi-stable.list
+echo 'deb https://download.jitsi.org stable/'  | sudo tee -a /etc/apt/sources.list.d/jitsi-stable.list
 ```
 
 install Jitsi Meet
@@ -541,7 +541,7 @@ sudo ln -s /usr/bin/certbot /usr/sbin/certbot
 sudo /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
 ```
 
-<div class="yellow box">
+<div class='yellow box'>
 	If something around here doesn’t work, no worries: just repeat the command, it should get fixed by itself
 </div>
 
@@ -561,7 +561,7 @@ There are a few very nice things, such as hiding the “Jitsi” watermark from 
 
 ## OpenVPN
 
-To install [OpenVPN](https://openvpn.com "OpenVPN"), I followed exactly this super simple and quick [guide](https://dev.to/phiilu/host-your-own-openvpn-server-in-a-few-seconds-73l "Host Your own OpenVPN Server in a few seconds - DEV"). It actualy took me 15 minutes to make everything work perfectly, and it still does after several months.
+To install [OpenVPN](https://openvpn.com 'OpenVPN'), I followed exactly this super simple and quick [guide](https://dev.to/phiilu/host-your-own-openvpn-server-in-a-few-seconds-73l 'Host Your own OpenVPN Server in a few seconds - DEV'). It actualy took me 15 minutes to make everything work perfectly, and it still does after several months.
 
 <br>
 
@@ -575,7 +575,7 @@ To install [OpenVPN](https://openvpn.com "OpenVPN"), I followed exactly this sup
 
 I chose to deploy [RSS-Bridge]() through Docker. The process is not thoroughly and simply explained for a dumb newbie like me, nevertheless I somehow figured out how to deploy the app.
 
-My version of [the default Docker build](https://github.com/RSS-Bridge/rss-bridge/wiki/Docker "RSS-Bridge Docker setup"):
+My version of [the default Docker build](https://github.com/RSS-Bridge/rss-bridge/wiki/Docker 'RSS-Bridge Docker setup'):
 
 ```sh
 sudo docker create \
@@ -600,5 +600,5 @@ My `whitelist.txt` file:
 What's the real issue, to my surprise, wasn't get RSS-Bridge up and running as much as <u>making it actually work</u>.\
 Below I collected some articles useful to sort thing out.
 
-- [Reconnecting the Web with RSS-Bridge](https://webworxshop.com/reconnecting-the-web-with-rss-bridge/ "Reconnecting the Web with RSS-Bridge")
-- [RSS Bridge and Huginn: Feeds for everything](https://dev.to/mskog/rss-bridge-and-huginn-feeds-for-everything-4ec9 "RSS Bridge and Huginn: Feeds for everything - DEV.to")
+- [Reconnecting the Web with RSS-Bridge](https://webworxshop.com/reconnecting-the-web-with-rss-bridge/ 'Reconnecting the Web with RSS-Bridge')
+- [RSS Bridge and Huginn: Feeds for everything](https://dev.to/mskog/rss-bridge-and-huginn-feeds-for-everything-4ec9 'RSS Bridge and Huginn: Feeds for everything - DEV.to')

@@ -1,12 +1,12 @@
 ---
-date: 2021-05-24T12:06:42.892739+02:00
-updated: 2021-05-25T10:32:29.972244+02:00
+date: 2021-05-24T12:06:42+02:00
+updated: 2021-05-25T10:32:29+02:00
 tags: diy
-description: 'La mia libreria, costruita con bancali riciclati'
-location: 'Xplosion Attic'
+description: La mia libreria, costruita con bancali riciclati
+location: Xplosion Attic
 lang: it
 toc: false
-image: 'https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115120151-facc9f48-me.jpg'
+image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115120151-facc9f48-me.jpg
 ---
 Dopo aver concluso la costruzione di [[Aida]], mi sentivo orgoglioso del lavoro portato a termine, ma è cresciuto in me il desiderio di trovare una collocazione definitiva per i miei libri che fino a quel momento erano rimasti appoggiati per terra, in fila.
 

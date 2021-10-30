@@ -1,9 +1,10 @@
 ---
 date: 2020-05-22
-updated: 2021-05-24T13:12:32.348223+02:00
+updated: 2021-05-24T13:12:32+02:00
 tags: design geek/web
 description: A collection of colors I love and where I use them
-redirect_from: ['/colours', '/colori']
+redirect_from: [/colours, /colori]
+image: https://tommi.space/logos/palette.svg
 ---
 ## tommi.space
 

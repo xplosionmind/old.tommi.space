@@ -2,10 +2,10 @@
 date: 2020-01-03
 updated: 2020-01-03
 tags: zen
-aliases: ["Meditation"]
-redirect_from: ["/meditation"]
+aliases: Meditation
+redirect_from: /meditation
 toc: false
-description: "The art of training the mind to focus and commit to the present by gifting it with few minutes a day of complete nothingness"
+description: The art of training the mind to focus and commit to the present by gifting it with few minutes a day of complete nothingness
 ---
 ## Notes
 

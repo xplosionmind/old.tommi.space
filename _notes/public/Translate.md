@@ -3,7 +3,7 @@ date: 2021-02-04T23:47:35+01:00
 updated: 2021-09-28T00:44:36+02:00
 tags: writing
 toc: false
-description: "English writings to translate in Italian"
+description: English writings to translate in Italian
 ---
 The following is a list of insightful or explanatory writings in English which I absolutely want to share with my Italian friends and family; in order to value the great meaning of these articles, I need to translate them in Italian.
 

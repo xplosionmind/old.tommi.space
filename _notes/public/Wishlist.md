@@ -1,12 +1,13 @@
 ---
 date: 2020-07-17
-updated: 2021-09-22T11:39:30.768380+02:00
+updated: 2021-09-22T11:39:30+02:00
 toc: false
-description: "Stuff I need and things I just would love to have"
-redirect_from: ["/desideri", "/regali"]
+description: Stuff I need and things I just would love to have
+redirect_from: [/desideri,/regali]
+image: https://tommi.space/logos/wishlist.svg
 main: true
 ---
-<div class="yellow box">
+<div class='yellow box'>
 	Items are sorted in order of urgency and need. Things at the top are the ones I need to buy ASAP
 </div>
 
@@ -17,10 +18,10 @@ main: true
 1. Sound card (Focusrite Scarlett 2i2)
 1. Studio microphone
 1. Elgato Cam Link
-6. [Compact point-and-shoot camera](https://www.wired.com/gallery/best-compact-cameras/ "Best compact camerad on WIRED")
+6. [Compact point-and-shoot camera](https://www.wired.com/gallery/best-compact-cameras/ 'Best compact camerad on WIRED')
 7. Watertight bag or backpack
 8. City bike
-11. Books (check the [Books wishlist](/books#wishlist "Books wishlist"))
+11. Books (check the [Books wishlist](/books#wishlist 'Books wishlist'))
 12. Ledlenser torch
 12. Ski mask
 13. Snowboard boots
@@ -29,7 +30,7 @@ main: true
 20. Green Screen
 21. Polaroid camera
 22. Portable turntable
-14. [Boosted Board](https://boostedusa.com/collections/electric-skateboards "Electric skateboards on Boosted Board official website")
+14. [Boosted Board](https://boostedusa.com/collections/electric-skateboards 'Electric skateboards on Boosted Board official website')
 25. Snowboard
 18. Wetsuit
 17. Surf board
@@ -40,7 +41,7 @@ main: true
 
 ## Always welcomed gifts
 
-- [Kauss beer](http://kauss.it "Kauss official website")
+- [Kauss beer](http://kauss.it 'Kauss official website')
 
 <br>
 <br>

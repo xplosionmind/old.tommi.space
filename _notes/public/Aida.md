@@ -1,20 +1,20 @@
 ---
-date: 2021-05-24T12:21:46.245502+02:00
-updated: 2021-05-24T12:21:46.245502+02:00
+date: 2021-05-24T12:21:46+02:00
+updated: 2021-05-24T12:21:46+02:00
 tags: diy
-description: 'La mia scrivania da me costruita con bancali riciclati'
+description: La mia scrivania da me costruita con bancali riciclati
 lang: it
-image: 'https://images.tommi.space/picture?/16608/category/attic'
-location: 'Xplosion Attic'
+location: Xplosion Attic
 toc: false
-redirect_from: ['/desk', '/xplosion-attic-desk', '/xplosion-attic/desk', '/xplosion-attic/aida']
+redirect_from: [/desk,/xplosion-attic-desk,/xplosion-attic/desk,/xplosion-attic/aida]
+image: https://images.tommi.space/picture?/16608/category/attic
 ---
 L’idea di Aida fu coltivata nella mia mente sin dal remoto 2014, quando, invece di ascoltare le lezioni di letteratura, impiegavo ore per realizzare progetti di mobili di bancali riciclati.
 
 Nel 2015 il mio sogno divenne realtà e grazie a mio nonno portai a casa una montagna di pallet, riempiendo la sua Lancia Y.
 
 <figure>
-	<a href="https://images.tommi.space/picture?/16629/category/aida" target=_blank>
+	<a href='https://images.tommi.space/picture?/16629/category/aida' target=_blank>
 		<img src='https://images.tommi.space/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115115610-347fe016.jpg' title='Selfie con i primi bancali recuperati' alt='Selfie con i primi bancali recuperati' />
 	</a>
 	<figcaption>Ancora ero bello, simpatico e giovane. Come un <i>boomer</i> pubblicavo <i>selfie</i> su Instagram per commemorare qualunque momento</figcaption>
@@ -25,8 +25,8 @@ La costruzione cominciò, ma rimase poi interrotta fino al lockdown del 2020, qu
 Terminai la levigazione della parte superiore e stesi due mani di impregnante:
 
 <figure>
-	<a href="https://images.tommi.space/picture?/16618/category/aida" target=_blank>
-		<img src="https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115115528-e0f29a8b-me.jpg" />
+	<a href='https://images.tommi.space/picture?/16618/category/aida' target=_blank>
+		<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115115528-e0f29a8b-me.jpg' />
 	</a>
 </figure>
 

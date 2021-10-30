@@ -1,8 +1,8 @@
 ---
 date: 2020-12-07
-aliases: ["Comprensione posticipata", "rileggere"]
-tags: zen, wit
-lang: "it"
+aliases: Comprensione posticipata, rileggere
+tags: zen wit
+lang: it
 toc: false
 ---
 Un ottimo modo per allenare la mente e sviluppare capacità cognitive e di concentrazione potrebbe essere quello di <u>anticipare</u> in un testo </u>concetti non ancora spiegati</u>, forzando la rilettura e <u>rendendo la comprensione molto più difficile</u>, se non impossibile, in quanto il contenuto chiave si trova più avanti.

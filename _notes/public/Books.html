@@ -1,14 +1,15 @@
 ---
 date: 2020-09-09
-updated: 2021-04-10T11:44:52.971651+02:00
-description: "Books I own and books I’d love to read and/or have"
+updated: 2021-04-10T11:44:52+02:00
+description: Books I own and books I would love to read and/or have
 tags: reading
-redirect_from: ["/library", "/bookshelf", "/libreria", "/libri", "/bookshelf", "/bookshelves"]
+redirect_from: [/library,/bookshelf,/libreria,/libri,/bookshelf,/bookshelves]
+image: https://2.bp.blogspot.com/-Y2qyx9j-qnw/UdbA1Wlxz4I/AAAAAAAAk-M/HLL0JCn5b3U/s640/morgan.jpg
 main: true
 toc: false
 todo:
-  - "Add reading times and gifts"
-  - "fix reading notes display issues"
+  - Add reading times and gifts
+  - fix reading notes display issues
 ---
 <style>
 	li {
@@ -20,24 +21,24 @@ todo:
 <br />
 
 <h3>Jump to</h3>
-<ul id="toc">
-	<li><a href="#wishlist">Wishlist</a></li>
-	<li><a href="#library">Library</a></li>
-	<li><a href="#notes">Notes on books I read</a></li>
+<ul id='toc'>
+	<li><a href='#wishlist'>Wishlist</a></li>
+	<li><a href='#library'>Library</a></li>
+	<li><a href='#notes'>Notes on books I read</a></li>
 </ul>
 
 <br />
 <br />
 
-<h2 class="title" id="Wishlist">Wishlist</h2>
+<h2 class='title' id='Wishlist'>Wishlist</h2>
 
-<div class="yellow box">
+<div class='yellow box'>
 	<h4>Note</h4>
-	If you got here from the <a href="/wishlist" title="My Wishlist">Wishlist</a>, please consider that most of the books below are merely readings I'm interested in and not <strong>books I actually need</strong>. Write me if you intend to gift me with a book (thanks for the idea ❤️)
+	If you got here from the <a href='/wishlist' title='My Wishlist'>Wishlist</a>, please consider that most of the books below are merely readings I'm interested in and not <strong>books I actually need</strong>. Write me if you intend to gift me with a book (thanks for the idea ❤️)
 </div>
 
 
-<ul class="two">
+<ul class='two'>
 	{% for book in site.data.books-wishlist %}
 
 		<li>
@@ -53,21 +54,21 @@ todo:
 <br />
 <br />
 
-<h2 class="title" id="Library">Library</h2>
+<h2 class='title' id='Library'>Library</h2>
 
-<div class="library">
+<div class='library'>
 	{% for book in site.data.library %}
 		{% if book.isbn %}
-			<a id="{{ book.title | slugify }}" href="https://openlibrary.org/isbn/{{ book.isbn }}"  target="_blank" title="{{ book.title }} in the Open Library">
-				<img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg?default=false" alt="{{ book.title }}" title="{{ book.title }}" />
+			<a id='{{ book.title | slugify }}' href='https://openlibrary.org/isbn/{{ book.isbn }}'  target='_blank' title='{{ book.title }} in the Open Library'>
+				<img src='https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg?default=false' alt='{{ book.title }}' title='{{ book.title }}' />
 		{% else %}
-			<a id="{{ book.title | slugify }}" href="javascript:void(0)" title="{{ book.title }}">
-				<div class="fake-book-cover">
+			<a id='{{ book.title | slugify }}' href='javascript:void(0)' title='{{ book.title }}'>
+				<div class='fake-book-cover'>
 					<cite>{{ book.title }}</cite>
 				</div>
 		{% endif %}
-			<div class="popup">
-				<div class="half column">
+			<div class='popup'>
+				<div class='half column'>
 					<p>title: <strong><cite>{{ book.title }}</cite></strong>
 						<br />
 					author: <strong>{{ book.author }}</strong>
@@ -88,8 +89,8 @@ todo:
 						location: {{ book.location }}
 					</p>
 				</div>
-				<div class="half column">
-					<img src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false" title="{{ book.title }}" />
+				<div class='half column'>
+					<img src='https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg?default=false' title='{{ book.title }}' />
 				</div>
 			</div>
 		</a>
@@ -100,12 +101,12 @@ todo:
 <br />
 <br />
 
-<h2 class="title" id="notes">Notes</h2>
+<h2 class='title' id='notes'>Notes</h2>
 <p>All of my public notes on what I read</p>
 <ul>
 	{% for note in site.notes %}
-		{% if note.tags contains "book" %}
-			<li><cite><a href="{{ note.url }}" rel="noener noreferrer" target="_blank" title="{{ note.title }}">{{ note.title }}</a></cite></li>
+		{% if note.tags contains 'book' %}
+			<li><cite><a href='{{ note.url }}' rel='noener noreferrer' target='_blank' title='{{ note.title }}'>{{ note.title }}</a></cite></li>
 		{% endif %}
 	{% endfor %}
 </ul>

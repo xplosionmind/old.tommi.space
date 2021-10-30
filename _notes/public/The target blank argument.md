@@ -2,11 +2,11 @@
 date: 2020-10-13
 updated: 2021-05-13T15:18:10.646418+02:00
 tags: geek
-title: "The target=\"_blank\" argument"
+title: The target=\"_blank\" argument
 permalink: /target-blank
-redirect_from: ['/target-blank-argument', '/noopener', '/noreferrer', '/rel-noopener', '/rel-noreferrer', '/rel-noopener-noreferrer']
+redirect_from: [/target-blank-argument, /noopener, /noreferrer, /rel-noopener, /rel-noreferrer, /rel-noopener-noreferrer, /noopener-noreferrer, /noopenernoreferrer]
 toc: false
-description: 'Thoughts about target=_blank and rel=noopener'
+description: Thoughts about target=_blank and rel=noopener
 ---
 <div class='red box'>
 	<code>rel="noopener"</code> is now set by default in all modern browsers, as seen in <a href="https://mathiasbynens.github.io/rel-noopener/"  target="_blank" title="rel=noopener">About rel=noopener</a>

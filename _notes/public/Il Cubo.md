@@ -1,14 +1,14 @@
 ---
-date: 2021-02-02T11:00:18.972059+01:00
-updated: 2021-02-11T20:03:15.116107+01:00
+date: 2021-02-02T11:00:18+01:00
+updated: 2021-02-11T20:03:15+01:00
 tags: places
 todo:
-  - "Foto del Cubo"
-  - "Foto del Tommi Boom"
+  - Foto del Cubo
+  - Foto del Tommi Boom
 toc: false
 permalink: /cubo
-redirect_from: ["/il-cubo"]
-location: "Il Cubo"
+redirect_from: ['/il-cubo']
+location: Il Cubo
 lang: it
 latex: true
 ---
@@ -21,7 +21,7 @@ Il Cubo è la roccaforte della socialità e della leggerezza, ultimo baluardo sa
 
 Il Cubo è l’incarnazione terrena dell’ideale tomistico di bar sulla spiaggia.
 
-Al Cubo non esiste genere musicale che non trovi un momento adatto per essere riprodotto. Non a caso, Il Cubo è la casa de [Il Mio CUBO suona il Rock](/tutto#concertini "“Concertini” in Tutto")
+Al Cubo non esiste genere musicale che non trovi un momento adatto per essere riprodotto. Non a caso, Il Cubo è la casa de [Il Mio CUBO suona il Rock](/tutto#concertini '“Concertini” in Tutto')
 
 I genitori del Cubo sono Andrea e Silvia, *arguably* i due meno associali e più umani ristoratori del ponente ligure:  
 Andrea, in particolare mentre surfa con mirabile abilità una *Spalmer*[^1], sfoggia un’invidiabile chioma di capelli d’oro tanto che, quando timidamente salvai per la prima volta il suo numero in rubrica, lo salvai *Andrea Capellidoro*;  
@@ -33,7 +33,7 @@ All’imbrunire, non esiste luogo migliore del Cubo in cui essere, sorseggiando,
 
 Se Super Pippo frequentasse il Cubo, sarebbe la persona più felice del mondo. Con il suo dolcissimo sorriso, la Stefi sommerge gli *abitué* con inesauribili montagne di arachidi, donando loro attimi di platonica gioia.
 
-Il Cubo è perfetto per studiare: sia nel periodo della sessione estiva che di quella autunnale, recandovisi, facilmente ci si potrà imbattere in assembramenti di ingegneri (che nella sessione invernale, invece, affollano [l’aula verde](/avanguardia "L’Avanguardia")) crucciati a risolvere un problema di cui già sanno di non saper giungere a soluzione, ma che sono consapevoli che il solo scervellarsi seduti ad un tavolino del Cubo può aumentare il loro quoziente intellettivo di almeno dodici punti.
+Il Cubo è perfetto per studiare: sia nel periodo della sessione estiva che di quella autunnale, recandovisi, facilmente ci si potrà imbattere in assembramenti di ingegneri (che nella sessione invernale, invece, affollano [l’aula verde](/avanguardia 'L’Avanguardia')) crucciati a risolvere un problema di cui già sanno di non saper giungere a soluzione, ma che sono consapevoli che il solo scervellarsi seduti ad un tavolino del Cubo può aumentare il loro quoziente intellettivo di almeno dodici punti.
 
 Presso il Cubo è stata pronunciata [la celeberrima frase](/quotes#pista-studiare-sopravvalutato) dell’altrettanto famoso Pista, che naturalmente corrobora la tesi del paragrafo precedente.
 
@@ -43,10 +43,10 @@ Esiste una legge matematica che, se trasgredita, porta irreparabili maledizioni 
 
 Il Cubo è un luogo magico e devo vergognarmi se mai qualcuno verrà a trovarmi a Sanremo senza essere ivi portato.
 
-<div class="embed-container">
-	<iframe class="light" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=7.81429946422577%2C43.821239081625386%2C7.81655251979828%2C43.82272918510757&amp;layer=mapnik&amp;marker=43.82198330001541%2C7.815425799999957"></iframe>
+<div class='embed-container'>
+	<iframe class='light' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://www.openstreetmap.org/export/embed.html?bbox=7.81429946422577%2C43.821239081625386%2C7.81655251979828%2C43.82272918510757&amp;layer=mapnik&amp;marker=43.82198330001541%2C7.815425799999957'></iframe>
 </div>
-<a href="https://www.openstreetmap.org/?mlat=43.82198&amp;mlon=7.81543#map=19/43.82198/7.81543">Visualizza mappa ingrandita</a>
+<a href='https://www.openstreetmap.org/?mlat=43.82198&amp;mlon=7.81543#map=19/43.82198/7.81543'>Visualizza mappa ingrandita</a>
 
 [^1]: *Spalmer*: **a.** onda unica al mondo, dalle peculiarità inimitabili e introvabili sul pianeta Terra, eccetto che nel duecento metri di costa antestanti *Il Cubo*.
 [^2]: *Spalmer*: **b.** panino unico al mondo, dagli ingredienti apparentemente banali ma la cui combinazione, insieme al luogo in cui viene addentato (naturalmente, Il Cubo di Sanremo), lo rendono insuperabile; il suo nome è ispirato all’onda omonima di cui sopra.

@@ -2,10 +2,10 @@
 date: 2020-12-15T15:56:57+01:00
 updated: 2021-09-26T18:32:04+02:00
 tags: geek/idea help
-description: 'An ideal software which collects data on what you do, analyzing and showing you a summary of time you spend'
-aliases: ['Life dashboard']
+description: An ideal software which collects data on what you do, analyzing and showing you a summary of time you spend
+aliases: Life dashboard
 toc: false
-redirect_from: ['/nolan-app', '/nolanapp']
+redirect_from: [/nolan-app,/nolanapp]
 ---
 *Nolan* is a cross-device software aimed at collecting painstakingly all of the activity done by its owner on their devices, and automatically synchronizing and analyzing everything on a server, either owned by the user or by a third party, but by zero-knowledge-encrypting all of the traffic.
 

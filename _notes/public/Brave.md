@@ -1,9 +1,10 @@
 ---
-date: 2021-04-21T15:48:12.385342+02:00
-updated: 2021-05-27T08:38:50.892721+02:00
+date: 2021-04-21T15:48:12+02:00
+updated: 2021-05-27T08:38:50+02:00
 tags: geek/apps
-description: "Things to know and remember about Brave"
+description: Things to know and remember about Brave
 toc: false
+images: https://tommi.space/images/brave.png
 ---
 On the internet, the debate concerning Brave is firing up. Even if my main browser remains the great [[Firefox]], I think that Brave developers’ choices are clever and very promising. I have installed it and I use it occasionally.
 
@@ -14,7 +15,7 @@ On the internet, the debate concerning Brave is firing up. Even if my main brows
 
 ### Pro Brave
 
-- [Hating Brave is Cool!](https://lukesmith.xyz/articles/brave "Hating Brave is Cool!") by [Luke Smith](https://lukesmith.xyz/ "Luke Smith’s personal website")
+- [Hating Brave is Cool!](https://lukesmith.xyz/articles/brave 'Hating Brave is Cool!') by [Luke Smith](https://lukesmith.xyz/ 'Luke Smith’s personal website')
 
 <br>
 

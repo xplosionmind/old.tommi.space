@@ -1,10 +1,10 @@
 ---
 date: 2021-05-15T15:32:12+02:00
-updated: 2021-05-17T18:22:10.051072+02:00
+updated: 2021-05-17T18:22:10+02:00
 tags: mot
-location: 'Brillo Parlante'
+location: Brillo Parlante
 toc: false
-image: '/images/brillo-parlante.jpg'
+image: https://tommi.space/images/brillo-parlante.jpg
 ---
 It is definitely too late for lunch, but the classical meals of a mid-afternoon snack do not seem really attracting.  
 In addition, you feel like a Spritz would be the most perfect drink to please your tongue with.  

@@ -2,10 +2,10 @@
 date: 2020-12-10
 updated: 2021-09-26T16:56:41+02:00
 tags: geek/free
-aliases: ['Internet Freedom Roadmap']
+aliases: Internet Freedom Roadmap
 permalink: /internet-freedom-roadmap
-redirect_from: ['/if-roadmap', '/road-to-internet-freedom', '/internet-freedom-path']
-description: 'My personal roadmap towards an ever growing freedom and awareness in using digital tools'
+redirect_from: [/if-roadmap,/road-to-internet-freedom,/internet-freedom-path]
+description: My personal roadmap towards an ever growing freedom and awareness in using digital tools
 toc: false
 ---
 1. ✅ [**<cite>Quit Social Media</cite>**](https://quitsocialmedia.club/roadmap "Quit Social Media roadmap")

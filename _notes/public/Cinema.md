@@ -1,18 +1,19 @@
 ---
 date: 2020-06-10
-updated: 2021-06-11T10:06:34.135297+02:00
+updated: 2021-06-11T10:06:34+02:00
 tags: cinema wip csvfy
-aliases: ["Movies"]
-description: "After watching these movies and series, I was not the same anymore."
-redirect_from: ["/movies", "/film", "/films"]
+aliases: Movies
+description: After watching these movies and series, I was not the same anymore.
+redirect_from: [/movies, /film, /films]
+image: https://www.lascimmiapensa.com/wp-content/uploads/2020/03/597c9296ed82967974a455aef591ecfc.jpg
 main: true
 toc: false
 todo:
-  - "Integrate with a CSV data file with all movies"
+  - Integrate with a CSV data file with all movies
 ---
-## <cite lang="it">Santa Maradona</cite>
+## <cite lang='it'>Santa Maradona</cite>
 
-<p lang="it">Santa Maradona è il mio film preferito.<br />
+<p lang='it'>Santa Maradona è il mio film preferito.<br />
 Tutto il mio amore per questo film è in “[[Santa Maradona]]„</p>
 
 ## Favorites
@@ -43,5 +44,5 @@ A quick list of all of my favorite movies
 
 Streaming movies and TV series
 
-- [perestroika.it](https://perestroika.it "Perestroika"), to stream Russian movies with Italian subtitles
-- [Scaricare film, come si deve](/scaricare-film "Scaricare film, come si deve"), una guida in italiano per scaricare film tramite torrent
+- [perestroika.it](https://perestroika.it 'Perestroika'), to stream Russian movies with Italian subtitles
+- [Scaricare film, come si deve](/scaricare-film 'Scaricare film, come si deve'), una guida in italiano per scaricare film tramite torrent

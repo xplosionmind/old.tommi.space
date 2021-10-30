@@ -1,8 +1,8 @@
 ---
-date: 2021-04-27T08:21:53.156495+02:00
-updated: 2021-08-27T06:50:46.338447+02:00
+date: 2021-04-27T08:21:53+02:00
+updated: 2021-08-27T06:50:46+02:00
 tags: geek/apps
-description: "Swiss army knife for video and audio editing from command line"
+description: Swiss army knife for video and audio editing from command line
 ---
 ## Cheat sheet
 
@@ -21,12 +21,12 @@ Scale video or image by keeping the aspect ratio and choosing the width.
 ffmpeg -i ~/desktop/in.mov -vf scale=720:-1 ~/desktop/out.mp4
 
 # multiple files at a time
-for img in ~/desktop/pics/*.jpg; do ffmpeg -i "$img" -vf scale=1600:-1 "$img"; done;
+for img in ~/desktop/pics/*.jpg; do ffmpeg -i '$img' -vf scale=1600:-1 '$img'; done;
 ```
 
 both scaling and resizing a video
 ```sh
-ffmpeg -i ~/desktop/in.mov -vf "scale=720:-1,crop=720:720:0:300" ~/desktop/out.mp4
+ffmpeg -i ~/desktop/in.mov -vf 'scale=720:-1,crop=720:720:0:300' ~/desktop/out.mp4
 ```
 
 ### Flags
@@ -39,15 +39,15 @@ ffmpeg -i ~/desktop/in.mov -vf "scale=720:-1,crop=720:720:0:300" ~/desktop/out.m
 
 ### Cheat sheets
 
-- [Devhints cheatsheet](https://devhints.io/ffmpeg "FFMPEG - Devhints")
-- [GitHub Gist](https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730 "FFmpeg cheat sheet - GitHub Gist")
+- [Devhints cheatsheet](https://devhints.io/ffmpeg 'FFMPEG - Devhints')
+- [GitHub Gist](https://gist.github.com/steven2358/ba153c642fe2bb1e47485962df07c730 'FFmpeg cheat sheet - GitHub Gist')
 
 <br>
 
 ## Resources
 
-- [FFMPEG examples](https://dev.to/sleeplessbyte/ffmpeg-examples-51l7) by [Derk-Jan Karrenbeld](https://derk-jan.com/ "Derk-Jan Karrenbeld") on [DEV]
-- [Using Command Line To Cut Out Media Files](https://dev.to/nabbisen/ffmpeg-using-command-line-to-cut-out-video-files-1o3a "ffmpeg: Using Command Line To Cut Out Media Files")
-- [Automated video editing](https://dev.to/dak425/cut-up-video-and-audio-with-just-ffmpeg-4l4m "Cut up video and audio with just ffmpeg!")
+- [FFMPEG examples](https://dev.to/sleeplessbyte/ffmpeg-examples-51l7) by [Derk-Jan Karrenbeld](https://derk-jan.com/ 'Derk-Jan Karrenbeld') on [DEV]
+- [Using Command Line To Cut Out Media Files](https://dev.to/nabbisen/ffmpeg-using-command-line-to-cut-out-video-files-1o3a 'ffmpeg: Using Command Line To Cut Out Media Files')
+- [Automated video editing](https://dev.to/dak425/cut-up-video-and-audio-with-just-ffmpeg-4l4m 'Cut up video and audio with just ffmpeg!')
 
-[DEV]: https://dev.to "DEV"
+[DEV]: https://dev.to 'DEV'

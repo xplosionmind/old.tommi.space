@@ -1,10 +1,11 @@
 ---
-date: 2021-05-25T17:26:38.048097+02:00
-updated: 2021-05-25T17:26:38.048097+02:00
+date: 2021-05-25T17:26:38+02:00
+updated: 2021-05-25T17:26:38+02:00
 tags: geek
-description: 'Webrings this website belongs to'
-redirect_from: ['/wr', '/wrs']
+description: Webrings this website belongs to
+redirect_from: [/wr,/wrs]
 toc: false
+image: https://tommi.space/logos/webrings.svg
 ---
 Webrings this website belongs to:
 

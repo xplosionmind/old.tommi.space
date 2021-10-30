@@ -1,9 +1,9 @@
 ---
 date: 2020-12-08
 tags: zen
-title: "Self improvement"
-aliases: ["Zen", "Lifestyle"]
-description: "Practices for improving the self, its connection to the surrounding environment and living life in the best possible way"
+title: Self improvement
+aliases: Zen, Lifestyle
+description: Practices for improving the self, its connection to the surrounding environment and living life in the best possible way
 toc: false
 main: true
 ---

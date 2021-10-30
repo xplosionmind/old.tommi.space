@@ -1,8 +1,8 @@
 ---
 date: 2020-12-08
 updated: 2020-12-08
-tags: zen, draft
-aliases: "Habits"
+tags: zen draft
+aliases: Habits
 redirect_from: /habits
 toc: false
 ---

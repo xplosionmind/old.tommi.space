@@ -1,18 +1,18 @@
 ---
 date: 2021-01-10
-updated: 2021-04-04T19:19:30.972682+02:00
+updated: 2021-04-04T19:19:30+02:00
 tags: geek
-description: "Using only the keyboard on a computer immediately makes everything twice as slower, but on the long run four times faster"
-aliases: ["Shortcuts", "Keyboard Shortcuts", "Keybindings"]
-redirect_from: ["/shortcuts", "/keyboard-shortcuts", "/keybindings"]
+description: Using only the keyboard on a computer immediately makes everything twice as slower, but on the long run four times faster
+aliases: ['Shortcuts', 'Keyboard Shortcuts', 'Keybindings']
+redirect_from: ['/shortcuts', '/keyboard-shortcuts', '/keybindings']
 ---
 ## Firefox
 
-Standard shortcuts are in [Firefox shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly "Keyboard Shortcuts - Mozilla Support")
+Standard shortcuts are in [Firefox shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly 'Keyboard Shortcuts - Mozilla Support')
 
 |                    Action                     | keybinding |
 |:---------------------------------------------:|:----------:|
-| Copy the URL of the current page to clipboard | ~~`⌥` + `C`~~ now using `yy` with [Vimium](https://github.com/philc/vimium "Vimium on GitHub") |
+| Copy the URL of the current page to clipboard | ~~`⌥` + `C`~~ now using `yy` with [Vimium](https://github.com/philc/vimium 'Vimium on GitHub') |
 
 
 <br>

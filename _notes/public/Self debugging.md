@@ -1,9 +1,9 @@
 ---
 date: 2020-12-08
-updated: 2021-06-08T19:47:45.699530+02:00
+updated: 2021-06-08T19:47:45+02:00
 tags: zen
 title: Self-debugging
-description: 'Debugging the self as if it was a malfunctioning software.'
+description: Debugging the self as if it was a malfunctioning software.
 ---
 *Self debugging* consists in the process of sitting down, forgetting about everything else, and <u>debugging yourself as if you were a buggy program</u>. The aim is trying to find out what is going on at a deeper level, without ending up throwing away, repressing, or wrongly addressing the core of some personal issue.
 

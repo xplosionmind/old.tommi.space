@@ -17,7 +17,7 @@ layout: wrapper
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-				il <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%e %B %Y' }}</time>
+				il <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{% include date-it.html %}</time>
 			{% else %}
 				published 
 				{% if page.location != nil %}
@@ -33,9 +33,9 @@ layout: wrapper
 			{% if page.lang == 'it' %}
 				ultima modifica: 
 				{% if page.updated != nil %}
-					<time class="dt-updated" datetime="{{ page.updated }}">{{ page.updated | date: '%e %B %Y alle %k:%m' }}</time>
+					<time class="dt-updated" datetime="{{ page.updated }}">{% include date-up-it.html %}</time>
 				{% else %}
-					<time class="dt-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: '%e %B %Y alle %k:%m' }}</time>
+					<time class="dt-updated" datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% include date-mod-it.html %}</time>
 				{% endif %}
 			{% else %}
 				latest edit: 

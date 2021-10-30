@@ -1,11 +1,11 @@
 ---
-title: "Pages to archive"
-updated: 2021-06-08T18:16:19.420774+02:00
+title: Pages to archive
+updated: 2021-06-08T18:16:19+02:00
 layout: none
 sitemap: false
 permalink: /pages-to-archive
-redirect_from: ["/wayback_archiver", "/wayback-archiver"]
-description: "This is a basic page used as the reference for a cron job which every week crawls all of the pages in the following list and saves them to the Wayback Machine of the Internet Archive."
+redirect_from: ['/wayback_archiver', '/wayback-archiver']
+description: This is a basic page used as the reference for a cron job which every week crawls all of the pages in the following list and saves them to the Wayback Machine of the Internet Archive.
 ---
 <style>
 	body {

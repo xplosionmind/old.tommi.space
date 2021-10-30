@@ -1,18 +1,19 @@
 ---
 date: 2021-01-09
-updated: 2021-03-14T10:27:50.026127+01:00
+updated: 2021-03-14T10:27:50+01:00
 tags: draft geek/web meta
-aliases: ["Meta"]
+aliases: Meta
 permalink: /meta
-redirect_from: ["/website-log", "/websitelog", "/log"]
-description: "Since I put a lot of care and attention to details in this website (probably even too much) I figured out it's worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts."
+redirect_from: [/website-log,/websitelog,/log]
+description: Since I put a lot of care and attention to details in this website (probably even too much) I figured out it is worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts.
+image: https://tommi.space/images/website-log.png
 main: true
 ---
-<p class="date">9<sup>th</sup> January 2021</p>
+<p class='date'>9<sup>th</sup> January 2021</p>
 
 ## Sidenotes
 
-Sidenotes are awesome, and after taking a look at [Koos Loijesteijn post](https://www.kooslooijesteijn.net/blog/sidenotes-without-js "Sidenotes without JavaScript") about them, I figured it would be great to implement them on here, too.
+Sidenotes are awesome, and after taking a look at [Koos Loijesteijn post](https://www.kooslooijesteijn.net/blog/sidenotes-without-js 'Sidenotes without JavaScript') about them, I figured it would be great to implement them on here, too.
 
 I decided not to, for now, for three main reasons:
 1. They are impossible to be implemented in Markdown, they need **a lot** of HTML and I don't have the skills for making a Jekyll plugin to transform footnotes in sidenotes (but it may be [[Website log#Sidenotes|a great idea]] to create one)
@@ -23,14 +24,14 @@ I decided not to, for now, for three main reasons:
 
 ### Further reading
 
-- [A lovely overview](https://www.gwern.net/Sidenotes "Sidenotes in Web Design") of sidenotes implementation techniques and a thorough explanation of their philosophy
-- [Koos Loijesteijn's sidenotes source code](https://github.com/kslstn/sidenotes "kslstn's “Sidenotes” on GitHub")
-- [Tufte CSS](https://edwardtufte.github.io/tufte-css/ "Tufte CSS")
+- [A lovely overview](https://www.gwern.net/Sidenotes 'Sidenotes in Web Design') of sidenotes implementation techniques and a thorough explanation of their philosophy
+- [Koos Loijesteijn's sidenotes source code](https://github.com/kslstn/sidenotes 'kslstn's “Sidenotes” on GitHub')
+- [Tufte CSS](https://edwardtufte.github.io/tufte-css/ 'Tufte CSS')
 
 <br>
 <br>
 
-<p class="date">14 March 2021</p>
+<p class='date'>14 March 2021</p>
 
 ## Minimalizing
 

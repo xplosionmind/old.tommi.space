@@ -1,11 +1,11 @@
 ---
 date: 2020-12-23
-updated: 2021-09-05T18:22:06.925161+02:00
+updated: 2021-09-05T18:22:06+02:00
 tags: geek
-description: "How to import and manage pictures and videos in the most seamless way possible"
-aliases: ["Photo importing workflow"]
+description: How to import and manage pictures and videos in the most seamless way possible
+aliases: Photo importing workflow
 permalink: /import
-redirect_from: ["/photo-import", "/photos-import", "/import-photo", "/import-photos", "/photos-importing", "/importing-photos", "/photo-importing-workflow", "/photo-importing-workflow", "/media-importing", "/media-import", "/media-importing-workflow", "/import-workflow", "/importing-workflow"]
+redirect_from: ['/photo-import', '/photos-import', '/import-photo', '/import-photos', '/photos-importing', '/importing-photos', '/photo-importing-workflow', '/photo-importing-workflow', '/media-importing', '/media-import', '/media-importing-workflow', '/import-workflow', '/importing-workflow']
 ---
 Let’s be honest: importing and managing personal media without relying on big tech software is a stressful, itchy, and exhausting process. I am constantly trying to make it as simple, quick, and reliable as possible, but I am having a hard time. Below I noted some some of my experiments and the steps I currently follow.
 
@@ -15,7 +15,7 @@ Let’s be honest: importing and managing personal media without relying on big 
 ## Basically
 
 1. import everything in an isolated folder
-1. run [DupeGuru](https://dupeguru.voltaicideas.net "DupeGuru official website") (VIDEOS MANAGEMENT?)
+1. run [DupeGuru](https://dupeguru.voltaicideas.net 'DupeGuru official website') (VIDEOS MANAGEMENT?)
 1. run [[Exiftool]]
 
 <br>
@@ -25,7 +25,7 @@ Let’s be honest: importing and managing personal media without relying on big 
 
 ### Android
 
-The cleanest way to move files from an <u>Android to a MacOS</u> device is by using [<abbr title="Android Debug Bridge">ADB</abbr>](http://developer.android.com/tools/help/adb.html).
+The cleanest way to move files from an <u>Android to a MacOS</u> device is by using [<abbr title='Android Debug Bridge'>ADB</abbr>](http://developer.android.com/tools/help/adb.html).
 
 1. Connect the phone to the computer;
 1. Open the terminal and move to the `platform-tools` folder (I keep in `Documents`): `cd Documents/platform-tools`;
@@ -46,7 +46,7 @@ I still haven’t figured the best way to transfer a lot of images from iPhone t
 
 To save pictures from my iPhone to [[Linuxplosion]] I use [[PhotoSync]]. Here are the key steps I performed to set everything up:
 
-1. [make a desktop computer remotely reachable via SSH](https://dev.to/zduey/how-to-set-up-an-ssh-server-on-a-home-computer "How to Set up an SSH Server on a Home Computer - DEV")
-1. Importing pictures automatically [via SFTP](https://www.photosync-app.com/support/basics/answers/how-to-transfer-to-a-linux-device.html "How to transfer to a Linux device? - PhotoSync")
+1. [make a desktop computer remotely reachable via SSH](https://dev.to/zduey/how-to-set-up-an-ssh-server-on-a-home-computer 'How to Set up an SSH Server on a Home Computer - DEV')
+1. Importing pictures automatically [via SFTP](https://www.photosync-app.com/support/basics/answers/how-to-transfer-to-a-linux-device.html 'How to transfer to a Linux device? - PhotoSync')
 1. I configured PhotoSync so that directories based on date are automatically created.
 1. I set a weekly reminder to make me start the import when Linuxplosion [[Linuxplosion#Schedule|is scheduled to be on]]

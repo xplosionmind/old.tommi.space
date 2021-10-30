@@ -1,10 +1,10 @@
 ---
-date: 2021-03-14T09:59:49.566533+01:00
-updated: 2021-03-14T09:59:49.566533+01:00
+date: 2021-03-14T09:59:49+01:00
+updated: 2021-03-14T09:59:49+01:00
 tags: geek/web design topic
-description: "Finding an equilibrium between great design and maximum performance with minimal size."
+description: Finding an equilibrium between great design and maximum performance with minimal size.
 ---
-If my personality was a website ([and it is](https://tommi.space "my website’s homepage")), it would be colorful, full of images, crazy, yet meaningful and emphatic.
+If my personality was a website ([and it is](https://tommi.space 'my website’s homepage')), it would be colorful, full of images, crazy, yet meaningful and emphatic.
 
 The challenge, nevertheless, is not about achieving this goal by stuffing tons of content in a webpage and in its code, but it is rather about finding the perfect equilibrium between what accomplishes the purpose of transmitting the right message to the viewer/reader and what bloats the site and makes the user experience a distracting mess.
 
@@ -19,4 +19,4 @@ Below, I gather some quotes, links, thoughts and resources about this topic. I l
 
 ## Writings
 
-- [Big Fat Websites](https://herman.bearblog.dev/big-fat-websites/ "Big Fat Websites"), a blog post by [Herman Martinus](https://herman.bearblog.dev "Herman Martinus") (who is also the creator of the super light and minimal blogging platfrom [Bearblog](https://bearblog.dev/ "Bearblog"))
+- [Big Fat Websites](https://herman.bearblog.dev/big-fat-websites/ 'Big Fat Websites'), a blog post by [Herman Martinus](https://herman.bearblog.dev 'Herman Martinus') (who is also the creator of the super light and minimal blogging platfrom [Bearblog](https://bearblog.dev/ 'Bearblog'))

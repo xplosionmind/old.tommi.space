@@ -1,10 +1,10 @@
 ---
-date: 2021-09-02T22:24:06.160660+02:00
-updated: 2021-09-06T04:57:41.402658+02:00
+date: 2021-09-02T22:24:06+02:00
+updated: 2021-09-06T04:57:41+02:00
 tags: scout
-aliases: ['Totem', 'Nome di caccia']
-redirect_from: ['/totem', '/stambeccocinetico', '/nomedicaccia', '/nome-di-caccia']
-location: 'Val Codera'
+aliases: Totem, Nome di caccia
+redirect_from: [/totem, /stambeccocinetico, /nomedicaccia, /nome-di-caccia]
+location: Val Codera
 ---
 *Stambecco Cinetico* è il mio [totem](https://it.wikipedia.org/wiki/Totem_(nome_scout) '“Totem” su Wikipedia'), o nome di caccia.
 

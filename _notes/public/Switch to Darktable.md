@@ -1,11 +1,11 @@
 ---
-date: 2021-01-25T08:30:35.576476+01:00
-updated: 2021-04-04T11:36:05.407937+02:00
+date: 2021-01-25T08:30:35+01:00
+updated: 2021-04-04T11:36:05+02:00
 tags: geek
-aliases: ["Quit Lightroom", "Quit Lightroom and switch to Darktable"]
+aliases: Quit Lightroom, Quit Lightroom and switch to Darktable
 permalink: /darktable
-redirect_from: ["/lightroom-to-darktable", "/lightroom", "/quit-lightroom"]
-description: "Experiments and attempts of moving away of proprietary photo editing software and embracing open formats."
+redirect_from: ['/lightroom-to-darktable', '/lightroom', '/quit-lightroom']
+description: Experiments and attempts of moving away of proprietary photo editing software and embracing open formats.
 ---
 Arguably, Lightroom is overall the best batch photo editing software out there. Nevertheless, it comes at a cost which is bot literal and ethical. Switching to Darkroom might be itchy, complicated, annoying and long, but it is a great advantage on the long term.
 
@@ -13,8 +13,8 @@ Arguably, Lightroom is overall the best batch photo editing software out there. 
 
 ## Lightroom to Darktable
 
-- [*Lightroom to open source alternatives*](https://mathiashueber.com/lightroom-to-open-source-alternatives/ "Lightroom to open source alternatives on Mathias Hueber's blog"), by [Mathias Hueber](https://mathiashueber.com/ "www.MathiasHueber.com")
-- [*Lightoom and Darktable: the verdict two years after switching*](https://www.dpreview.com/forums/thread/4134864 "Lightoom and Darktable: the verdict two years after switching"), by [Bob Keefer](https://bobkeeferphoto.com/ "Bob Keefer") on [DPReview](https://www.dpreview.com/ "DPReview")
+- [*Lightroom to open source alternatives*](https://mathiashueber.com/lightroom-to-open-source-alternatives/ 'Lightroom to open source alternatives on Mathias Hueber’s blog'), by [Mathias Hueber](https://mathiashueber.com/ 'www.MathiasHueber.com')
+- [*Lightoom and Darktable: the verdict two years after switching*](https://www.dpreview.com/forums/thread/4134864 'Lightoom and Darktable: the verdict two years after switching'), by [Bob Keefer](https://bobkeeferphoto.com/ 'Bob Keefer') on [DPReview](https://www.dpreview.com/ 'DPReview')
 
 <br>
 

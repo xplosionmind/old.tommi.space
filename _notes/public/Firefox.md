@@ -1,9 +1,10 @@
 ---
 date: 2020-07-03
-updated: 2021-06-02T09:40:17.076844+02:00
+updated: 2021-06-02T09:40:17+02:00
 tags: geek/apps
-description: 'I consider myself a Firefox power user: I love it and I take full advantage of its features. Here’s how I do it.'
-redirect_from: ['/firefox-tweaks', '/firefox-settings', '/mozilla-firefox', '/about-config', '/aboutconfig', '/firefox-config']
+description: |
+  I consider myself a Firefox power user: I love it and I take full advantage of its features. Here’s how I do it.
+redirect_from: [/firefox-tweaks, /firefox-settings, /mozilla-firefox, /about-config, /aboutconfig, /firefox-config]
 ---
 ## Add-ons and Extensions
 

@@ -1,10 +1,10 @@
 ---
 date: 2020-12-24
-updated: 2021-06-21T10:04:50.960817+02:00
+updated: 2021-06-21T10:04:50+02:00
 tags: geek
-aliases: "Backup"
-redirect_from: ["/backup", "/backups"]
-description: 'Notes concerning storage management, viable solutions and systems tsting'
+aliases: Backup
+redirect_from: [/backup, /backups]
+description: Notes concerning storage management, viable solutions and systems tsting
 ---
 To better understand my positions about this topic and their reasons, it would be useful to read my experience with [[Data loss|data loss]].
 
@@ -46,18 +46,18 @@ The solution I found out to be working greatly up to now is the one described in
 
 ## Resources
 
-- This [lecture on *Backups*](https://missing.csail.mit.edu/2019/backups/ "Backups - Missing Semester"), from MIT’s [Missing Semester](https://missing.csail.mit.edu/ "The Missing Semester") is useful to understand the reasoning behind safe backups. Note that what *The Missing Semester* evolves around is code, hence small if not tiny plain text files, while our interest is in huge amounts of data, such as high quality videos and images.
-- [<cite>An engineer’s guide to cloud capacity planning</cite>](https://increment.com/cloud/an-engineers-guide-to-cloud-capacity-planning/ "An engineer’s guide to cloud capacity planning")
+- This [lecture on *Backups*](https://missing.csail.mit.edu/2019/backups/ 'Backups - Missing Semester'), from MIT’s [Missing Semester](https://missing.csail.mit.edu/ 'The Missing Semester') is useful to understand the reasoning behind safe backups. Note that what *The Missing Semester* evolves around is code, hence small if not tiny plain text files, while our interest is in huge amounts of data, such as high quality videos and images.
+- [<cite>An engineer’s guide to cloud capacity planning</cite>](https://increment.com/cloud/an-engineers-guide-to-cloud-capacity-planning/ 'An engineer’s guide to cloud capacity planning')
 
 <br>
 <br>
 
 ## RAID
 
-On [[Linuxplosion]], I am considering to configure a [RAID 1](https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_1 "“RAID Levels” on Wikipedia") storage system. Below, some notes about this.
+On [[Linuxplosion]], I am considering to configure a [RAID 1](https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_1 '“RAID Levels” on Wikipedia') storage system. Below, some notes about this.
 
-- [💽 How to Setup Software RAID with MDADM Comand on Linux Ubuntu in 2021 💾](https://youtu.be/O3Iq9hx8V7U "💽 How to Setup Software RAID with MDADM Comand on Linux Ubuntu in 2021 💾"), a YouTube video of September 2020
-- [Ubuntu 20.04 Mdadm Setup Guide](https://youtu.be/F4YIxh1kkhI "Ubuntu 20.04 Mdadm Setup Guide") a YouTube video
+- [💽 How to Setup Software RAID with MDADM Comand on Linux Ubuntu in 2021 💾](https://youtu.be/O3Iq9hx8V7U '💽 How to Setup Software RAID with MDADM Comand on Linux Ubuntu in 2021 💾'), a YouTube video of September 2020
+- [Ubuntu 20.04 Mdadm Setup Guide](https://youtu.be/F4YIxh1kkhI 'Ubuntu 20.04 Mdadm Setup Guide') a YouTube video
 
 <br>
 <br>

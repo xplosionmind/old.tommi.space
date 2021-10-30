@@ -1,8 +1,8 @@
 ---
-date: 2021-03-27T08:04:15.775867+01:00
-updated: 2021-06-08T20:29:30.446679+02:00
+date: 2021-03-27T08:04:15+01:00
+updated: 2021-06-08T20:29:30+02:00
 tags: geek/idea
-description: 'Scripts I need to create'
+description: Scripts I need to create
 toc: false
 ---
 The following are ideas for scripts I would like to code both to learn bash and to automate most of the commands I frequently perform manually.

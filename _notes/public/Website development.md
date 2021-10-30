@@ -1,11 +1,12 @@
 ---
 date: 2020-02-02
-updated: 2021-10-25T23:08:45+02:00
+updated: 2021-10-28T21:41:28+02:00
 tags: meta geek/web
-aliases: ['Development', 'tommi.space', 'Development Roadmap', 'Website todo']
+aliases: Development, tommi.space, Development Roadmap, Website todo
 permalink: /development
-redirect_from: ['/development-roadmap', '/roadmap', '/wip', '/issues', '/improvements', '/dev', '/website-development', 'tommi.space']
+redirect_from: [/development-roadmap,/roadmap,/wip,/issues,/improvements,/dev,/website-development,/tommi.space]
 main: true
+image: https://tommi.space/images/posts/2020-04-18-making-this-website.jpg
 description: Creative and technical aims, ideas annotation and drafts tracking.
 ---
 ## Content
@@ -19,8 +20,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### v0.1
 
-1. Month translation in Italian pages
-2. Page image
+1. Page image
 3. Cantiere background
 10. Browser branding color: should it match the background or the accent color?
 15. Study [Search Engine Optimization repo](https://github.com/marcobiedermann/search-engine-optimization 'search-sngine-optimization on GitHub') and Blogger’s `<head>` to **improve SEO**
@@ -29,6 +29,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### v1
 
+1. Switch to [Eleventy](https://11ty.dev '11ty') or [Bridgetown](https://www.bridgetownrb.com/ 'Bridgetown')
 1. Revise notes
 	- which ones are tagged `main`
 	- description, image, content
@@ -53,6 +54,9 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork 'jekyll-stork plugin')
 	- [Searchyll](https://github.com/omc/searchyll 'Searchyll on GitHub')
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search 'Awesome Static Websites Services - Search')
+	- including aliases in the search
+	- search for tags specifically
+	- combination of search elements
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
 14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 'jekyll-paginate on GitHub') and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ 'jekyll-csv on GitHub')
 
@@ -63,7 +67,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 1. Configure and implement [ActivityPub]
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
-1. [**<cite>Visions</cite>**](https://visions.tommi.space 'Visioni - Tommi Space') improvement: see [[Images]] and [[Piwigo]]).
+1. [**<cite>Visions</cite>**](https://visions.tommi.space 'Visioni - Tommi Space') improvement: see [[Images#Gallery improvement]] and [[Piwigo]]).
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
 	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ 'How to build a responsive gallery with flexbox')
@@ -144,6 +148,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Done
 
+- ✅ 2021-10-30 Month translation in Italian pages
 - Join [weird-wide-webring](https://weirdwidewebring.net/ 'Weird Wide Webring') ✅ 2021-09-26
 - Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts ✅ 2021-05-25
 - Add [`this page was designed to last`](https://jeffhuang.com/designed_to_last/) - ✅ 2021.05.20
