@@ -20,6 +20,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### v0.1
 
+1. Accounts for loop does not work
 1. Cantiere background
 1. `if` condition for empty CSV cells in `_data`?
 10. Browser branding color: should it match the background or the accent color?
