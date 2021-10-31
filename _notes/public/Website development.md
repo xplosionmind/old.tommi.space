@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-10-31T06:55:28+02:00
+updated: 2021-10-31T07:59:32+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo
 permalink: /development
@@ -20,11 +20,8 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### v0.1
 
-1. Page image
-	- multiple OGP images
-	- Should GIFs in OGP be tagged as videos?
-	- More OGP image meta in
-3. Cantiere background
+1. Cantiere background
+1. `if` condition for empty CSV cells in `_data`?
 10. Browser branding color: should it match the background or the accent color?
 15. Study [Search Engine Optimization repo](https://github.com/marcobiedermann/search-engine-optimization 'search-sngine-optimization on GitHub') and Blogger’s `<head>` to **improve SEO**
 
