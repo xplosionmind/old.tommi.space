@@ -1,6 +1,6 @@
 ---
 date: 2021-04-27T08:21:53+02:00
-updated: 2021-08-27T06:50:46+02:00
+updated: 2021-10-30T23:33:52+02:00
 tags: geek/apps
 description: Swiss army knife for video and audio editing from command line
 ---
@@ -28,6 +28,13 @@ both scaling and resizing a video
 ```sh
 ffmpeg -i ~/desktop/in.mov -vf 'scale=720:-1,crop=720:720:0:300' ~/desktop/out.mp4
 ```
+
+Creating an animated GIF from images
+```sh
+ffmpeg -framerate 4 -pattern_type glob -i '*.png' quotes.gif
+```
+
+<br>
 
 ### Flags
 

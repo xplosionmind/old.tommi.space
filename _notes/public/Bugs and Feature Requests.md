@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04
-updated: 2021-10-30T03:18:13+02:00
+updated: 2021-10-31T00:15:18+02:00
 tags: geek
 permalink: /bugs
 redirect_from: [/feature-requests, /bugs-and-feature-requests]
@@ -9,7 +9,7 @@ image: https://tommi.space/logos/bugs.svg
 ---
 The [[Apps]] I use the most are open source and in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I will have enough time to effectively share my reports.
 
-<div class="yellow box">
+<div class='yellow box'>
 	<h3>Note</h3>
 	Below, I take note of improvements or bugs which were not reported by anyone else yet. If there is something I noticed but someone else opened an issue about it, I will at most comment on it, but it will not appear here. In the same way, when I address the ideas I formerly wrote on this page, I successively delete them from here.
 </div>
@@ -19,13 +19,14 @@ The [[Apps]] I use the most are open source and in active development. Often, I 
 
 ## iOS
 
-Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedback form](https://www.apple.com/feedback/iphone.html "iPhone feedback")
+Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedback form](https://www.apple.com/feedback/iphone.html 'iPhone feedback')
 
 - **Siri offline**
 - Clicking multiple times to toggle WiFi and Bluetooth: one click to disable it (white color), two clicks to completely switch it off. Alternatively, adding in the long-press pop-up the option to switch it off completely.
 - More selective notifications options, as in Android: select only specific types of notifications to mute
 - Extended screenshots
 - Allow making downtime schedule correspond to all of the events in a calendar, e.g. for University
+- **contextual volume**: automatically set the volume based on the loudness of the environment
 
 <br>
 
@@ -60,7 +61,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 ## Signal
 
-[Signal](https://signal.org "Signal official website") is the most secure and private messaging app in the world
+[Signal](https://signal.org 'Signal official website') is the most secure and private messaging app in the world
 
 - setting to choose to automatically download media and add to Library
 
@@ -69,7 +70,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 ## Loop habit tracker
 
-[Loop Habit Tracker](https://loophabits.org "Loop Habit Tracker official website") is an open source app for [[Self tracking]]
+[Loop Habit Tracker](https://loophabits.org 'Loop Habit Tracker official website') is an open source app for [[Self tracking]]
 
 - Add the capability of inserting daily numbers instead of boolean values only. (e.g. to track how many candies I ate)
 
@@ -93,7 +94,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 ## Hypothes.is
 
-[Hypothes.is](https://hypothes.is "Hypothes.is") is an annotation and highlighting service for web pages
+[Hypothes.is](https://hypothes.is 'Hypothes.is') is an annotation and highlighting service for web pages
 
 - design improvement
 - WebMentions and IndieWeb integration
@@ -120,7 +121,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 ## 1Writer
 
-[1Writer](https://1writerapp.com/ "1Writer") is arguably the best Markdown writer app for iOS
+[1Writer](https://1writerapp.com/ '1Writer') is arguably the best Markdown writer app for iOS
 
 - Scroll to top / scroll to bottom buttons
 - Custom display front matter
@@ -141,9 +142,9 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 ## Oxygen OS
 
-[Oxygen OS](https://www.oneplus.com/it/oxygenos "OnePlus’ Oxygen OS") is the Android flavor developed and used by [OnePlus](https://oneplus.com "OnePlus")
+[Oxygen OS](https://www.oneplus.com/it/oxygenos 'OnePlus’ Oxygen OS') is the Android flavor developed and used by [OnePlus](https://oneplus.com 'OnePlus')
 
-<div class="red box">
+<div class='red box'>
 	I stopped using my OnePlus 6T as my main device in February 2018
 </div>
 
@@ -161,8 +162,8 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 [Joplin](http://joplinapp.org) is a wonderful and complete note-taking app.
 
-<div class="red box">
-	<strong>Note</strong>: I stopped using Joplin as my daily driver since November 2020 and I switched to <a href="https://obsidian.md"  target="_blank" title="Obsidian official website">Obsidian</a>. The reasons why I did this are in <a href="/switch-to-zettelkasten" title="Switch to Zettelkasten">this blog post</a>.
+<div class='red box'>
+	<strong>Note</strong>: I stopped using Joplin as my daily driver since November 2020 and I switched to <a href='https://obsidian.md'  target='_blank' title='Obsidian official website'>Obsidian</a>. The reasons why I did this are in <a href='/switch-to-zettelkasten' title='Switch to Zettelkasten'>this blog post</a>.
 </div>
 
 ### Features requests
@@ -173,7 +174,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 - Keyboard Shortcut for To-Do/Note conversion
 - display To-Dos on top after reminder rung
 - when a completed to-do has an indented point, dim it too
-- remove the delete confirmation button by adding a "Trash" notebook which empties itself automatically every x days
+- remove the delete confirmation button by adding a 'Trash' notebook which empties itself automatically every x days
 - multiple simultaneous note editing
 - **MOBILE ONLY**: when clicking on reminder's notification, go to the reminder in question
 - Notebook pinning
@@ -195,8 +196,8 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 [Zettlr](https://www.zettlr.com) is the best Markdown editor out there.
 
-<div class="red box">
-	Since November 2020 I stopped using Zettlr because its work could be made by <a href="https://obsidian.md"  target="_blank" title="Obsidian official website">Obsidian</a>
+<div class='red box'>
+	Since November 2020 I stopped using Zettlr because its work could be made by <a href='https://obsidian.md'  target='_blank' title='Obsidian official website'>Obsidian</a>
 </div>
 
 - Implement split view: two different notes side by side

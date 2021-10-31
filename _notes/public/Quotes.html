@@ -17,14 +17,14 @@ todo:
 </style>
 {% assign quotes = site.data.quotes | sort: 'date' | reverse %}
 {% for q in quotes %}
-<p class="date">{{ q.date | date_to_long_string }}</p>
+<p class='date' datetime='{{ q.date | date_to_xmlschema }}'>{{ q.date | date_to_long_string }}</p>
 <blockquote lang='{{ q.lang }}'{% if q.id != nil %} id='{{ q.id }}'{% endif %}>
 	<p>{{ q.quote }}</p>
 </blockquote>
-<p class="cite">
+<p class='cite'>
 	{% if q.work %}
 		{% if q.url %}
-			<cite>{{ q.author }}, <a href="{{ q.url }}" hreflang="{{ q.lang }}" target="_blank" title="{{ p.work }}">{{ p.work }}</a></cite>
+			<cite>{{ q.author }}, <a href='{{ q.url }}' hreflang='{{ q.lang }}' target='_blank' title='{{ p.work }}'>{{ p.work }}</a></cite>
 		{% endif %} 
 	{% else %}
 		{{ q.author }}, <cite>{{ p.work }}</cite>
