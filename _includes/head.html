@@ -56,7 +56,9 @@
 	<script async defer data-domain="tommi.space" src="https://visits.tommi.space/js/index.js"></script>
 
 	{% for me in site.data.accounts %}
-		<link rel='me{{ me.attributes }}' href='{{ me.url }}' title='Tommi on {{ me.platform }}' />
+		{% unless me.deleted %}
+			<link rel='me{{ me.attributes }}' href='{{ me.url }}' title='Tommi on {{ me.platform }}' />
+		{% endunless %}
 	{% endfor %}
 
 
