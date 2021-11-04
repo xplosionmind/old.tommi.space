@@ -1,7 +1,6 @@
 ---
 title: Pages to archive
 updated: 2021-06-08T18:16:19+02:00
-layout: none
 sitemap: false
 permalink: /pages-to-archive
 redirect_from: ['/wayback_archiver', '/wayback-archiver']
