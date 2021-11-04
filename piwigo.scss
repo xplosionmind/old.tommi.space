@@ -238,6 +238,13 @@ body {
 	padding: unset !important;
 }
 
+.commentElement {
+	padding: 10px !important;
+	max-width: 100% !important;
+	background-color: var(--background) !important;
+	box-shadow: var(--shadow);
+}
+
 #pictureComments {
 	padding: $regular 3vw;
 	margin: $regular-less 3vw 3vh;
