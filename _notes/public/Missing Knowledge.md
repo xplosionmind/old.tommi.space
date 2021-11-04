@@ -1,10 +1,10 @@
 ---
 date: 2020-12-09
-updated: 2021-09-27T11:34:01.+02:00
+updated: 2021-11-04T12:01:01+01:00
 tags: knowledge todo
 aliases: Learn, To learn
 description: What I need / have / would love to learn
-redirect_from: ['/learn', '/to-learn', '/tolearn', '/missingknowledge', '/learning', '/learning-path']
+redirect_from: [/learn, /to-learn, /tolearn, /missingknowledge, /learning, /learning-path]
 todo:
   - 'Refactoring and integration with [[Knowledge]] and [[Knowledge management]]'
 ---
@@ -54,6 +54,7 @@ A private list of knowledge I miss about exams I am studying for.
 3. [git](https://git-scm.com 'git official website')
 	- [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 		- Tania Rascia’s [guide](https://www.taniarascia.com/git-submodules-private-content/)
+1. Learn [Percollate](https://github.com/danburzo/percollate): turning web pages into ebooks.
 1. Cryptocurrencies
 	- [If you are new to cryptocurrency](https://forum.privacytools.io/t/if-you-are-new-to-cryptocurrency/4571 'If you are new to cryptocurrency on PrivacyTools community') on PrivacyTools community
 	- [this](https://www.nytimes.com/2021/04/13/podcasts/the-daily/nft-bitcoin-cryptocurrency.html 'Cryptocurrency’s Newest Frontier') unbelievable episode of New York Times’ <cite>The Daily</cite>, explaining why a NYT column was sold for 500k$

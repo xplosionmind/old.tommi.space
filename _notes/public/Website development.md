@@ -20,9 +20,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### v0.1
 
-1. Accounts for loop does not work
 1. Cantiere background
-1. `if` condition for empty CSV cells in `_data`?
 10. Browser branding color: should it match the background or the accent color?
 15. Study [Search Engine Optimization repo](https://github.com/marcobiedermann/search-engine-optimization 'search-sngine-optimization on GitHub') and Blogger’s `<head>` to **improve SEO**
 
@@ -30,7 +28,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### v1
 
-1. Switch to [Eleventy](https://11ty.dev '11ty') or [Bridgetown](https://www.bridgetownrb.com/ 'Bridgetown')
+1. Switch to [Eleventy](https://11ty.dev '11ty')
 1. Revise notes
 	- which ones are tagged `main`
 	- description, image, content
