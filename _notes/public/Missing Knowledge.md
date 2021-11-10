@@ -1,6 +1,6 @@
 ---
 date: 2020-12-09
-updated: 2021-11-04T12:01:01+01:00
+updated: 2021-11-07T23:51:08+01:00
 tags: knowledge todo
 aliases: Learn, To learn
 description: What I need / have / would love to learn
@@ -46,6 +46,7 @@ A private list of knowledge I miss about exams I am studying for.
 ## Geek
 
 1. Data analysis and graphs with LibreOffice
+1. Learn and use [jq](https://github.com/stedolan/jq 'jq on GitHub')
 1. [Learn and configure Syncthing](https://docs.syncthing.net/intro/getting-started.html 'Getting Started - Syncthing')
 1. [[LaTeX]]
 1. [[Vim#To learn]]
@@ -54,7 +55,7 @@ A private list of knowledge I miss about exams I am studying for.
 3. [git](https://git-scm.com 'git official website')
 	- [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 		- Tania Rascia’s [guide](https://www.taniarascia.com/git-submodules-private-content/)
-1. Learn [Percollate](https://github.com/danburzo/percollate): turning web pages into ebooks.
+1. Learn [Percollate](https://github.com/danburzo/percollate 'percollate on GitHub'): turning web pages into ebooks.
 1. Cryptocurrencies
 	- [If you are new to cryptocurrency](https://forum.privacytools.io/t/if-you-are-new-to-cryptocurrency/4571 'If you are new to cryptocurrency on PrivacyTools community') on PrivacyTools community
 	- [this](https://www.nytimes.com/2021/04/13/podcasts/the-daily/nft-bitcoin-cryptocurrency.html 'Cryptocurrency’s Newest Frontier') unbelievable episode of New York Times’ <cite>The Daily</cite>, explaining why a NYT column was sold for 500k$
@@ -62,6 +63,10 @@ A private list of knowledge I miss about exams I am studying for.
 2. Improve OpenStreetMap and OSMand knowledge
 1. [Rclone](https://rclone.org 'Rclone')
 3. [[JavaScript]]
+1. Understanding WhatsApp and Signal backups
+	- format
+	- readability
+	- can they be stored in pure plain text?
 4. [Github Actions](https://docs.github.com/en/actions/learn-github-actions 'Learn GitHub Actions')
 5. Makefile
 	1. [How to write a self-documenting Makefile](https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/ 'How to write a self-documenting Makefile on victoria.dev')

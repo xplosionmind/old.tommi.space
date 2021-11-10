@@ -1,6 +1,6 @@
 ---
 date: 2020-12-23
-updated: 2021-05-23T22:06:36+02:00
+updated: 2021-11-07T10:59:32+01:00
 tags: geek
 aliases: Delete Google, DeGoogle
 redirect_from: [/delete-google, /quitgoogle, /quit-google, /google, /de-google, /ungoogle]

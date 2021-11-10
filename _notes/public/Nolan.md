@@ -1,11 +1,10 @@
 ---
 date: 2020-12-15T15:56:57+01:00
-updated: 2021-09-26T18:32:04+02:00
+updated: 2021-11-07T11:09:08+01:00
 tags: geek/idea help
 description: An ideal software which collects data on what you do, analyzing and showing you a summary of time you spend
 aliases: Life dashboard
-toc: false
-redirect_from: [/nolan-app,/nolanapp]
+redirect_from: [/nolan-app,/nolanapp,/life-dashboard,/dashboard,/lifedashboard,/personal-management-system]
 ---
 *Nolan* is a cross-device software aimed at collecting painstakingly all of the activity done by its owner on their devices, and automatically synchronizing and analyzing everything on a server, either owned by the user or by a third party, but by zero-knowledge-encrypting all of the traffic.
 
@@ -26,3 +25,10 @@ As a result, *Nolan* makes a huge CSV or JSON database with a **timeline** of *e
 - Take `page.date` and `page.updated` values of the websites’ pages to automatically know the moments when they were being created/edited
 - get from mobile OS stats the time spent on apps and how often they are opened.
 - somehow integrate with CalDAV and add personal calendar events
+
+<br>
+<br>
+
+## Sources and inspiration
+
+The existing software closest to what Nolan does is [personal-management-system](https://github.com/Volmarg/personal-management-system 'personal-management-system’s source code on GitHub')

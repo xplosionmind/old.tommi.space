@@ -1,6 +1,6 @@
 ---
 date: 2021-02-14T16:08:46+01:00
-updated: 2021-03-22T12:13:59+01:00
+updated: 2021-11-09T11:36:35+01:00
 tags: mot topic quote
 description: A science, an art. Insights, definitions, quotes, and ideas about Politics.
 ---
@@ -15,6 +15,18 @@ description: A science, an art. Insights, definitions, quotes, and ideas about P
 <br>
 
 > who gets what
+
+<br>
+
+### Socialism
+
+> a movement centered on uncompromising opposition to capitalism, giving pre-eminence to the economic aspect of life, convinced that the end of capitalism will usher in an era of permanent prosperity, peace, and progress; aimed at achieving an egalitarian and brotherly society through the abolition of most or all individual ownership of property; strengthened by the certainty of possessing the truth and the key to happiness for all.
+
+<p class='cite'>Massimo Salvadori, <cite>Modern Socialism</cite> (1968), p. 4</p>
+
+> For many socialists, socialism was a secular faith with all the attributes of religion. As believers often do, socialists tended to live among themselves and <u>to alienate themselves from the rest of the community</u>. In nonsocialists they saw enemies with whom no reconciliation was possible, or else future converts who could be emancipated from ignorance with whom contacts took the form of missionary activities.
+
+<p class='cite'>Massimo Salvadori, <cite>Modern Socialism</cite> (1968), p. 10</p>
 
 <br>
 <br>

@@ -23,10 +23,6 @@ description: Computer related tasks tracking
 	3. Macvim
 9. [[Scripts]]
 13. [[Missing Knowledge#Geek stuff|Learning geek stuff]]
-14. Understanding WhatsApp and Signal backups
-	- format
-	- readability
-	- can they be stored in pure plain text?
 1. Bot Club Tenco su Mastodon 
 15. Update [[Storage|Backup]] and [[Backup checklist]] and add the roadmap to import pictures from iOS to MacOS and Linux
 16. Sistemare [[To listen]] e trovare soluzione definitiva per [[Quit Spotify]]
