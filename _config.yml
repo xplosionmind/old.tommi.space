@@ -145,8 +145,6 @@ webmentions:
 #    reposts: _includes/webmentions/reposts.html
 #    webmentions: _includes/webmentions/webmentions.html
 
-What’s checked
-
 compress_html:
   clippings: all
   comments: all
