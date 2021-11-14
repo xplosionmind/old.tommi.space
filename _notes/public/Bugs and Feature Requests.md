@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04
-updated: 2021-10-31T00:15:18+02:00
+updated: 2021-11-14T16:58:02+01:00
 tags: geek
 permalink: /bugs
 redirect_from: [/feature-requests, /bugs-and-feature-requests]
@@ -27,13 +27,13 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 - Extended screenshots
 - Allow making downtime schedule correspond to all of the events in a calendar, e.g. for University
 - **contextual volume**: automatically set the volume based on the loudness of the environment
+- Repeat and shuffle controls in the player on the lock screen
 
 <br>
 
 ### Shortcuts
 
 - Apple Pay automation: trigger action passing the payed price to a shortcut
-- Create and edit Shortcuts from MacOS or from web browser, so that it can be easier to visualize changes.
 
 <br>
 
@@ -48,6 +48,13 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 ### Reminders
 
 - Not only based on location but on proximity of a person
+
+<br>
+<br>
+
+## MacOS
+
+- Change default AirDrop destination folder (e.g. `Desktop` instead of `Downloads`)
 
 <br>
 <br>
@@ -208,3 +215,10 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 ## WBO
 
 - importing, not only exporting SVGs
+
+<br>
+<br>
+
+## YunoHost
+
+![[YunoHost#Feature requests]]

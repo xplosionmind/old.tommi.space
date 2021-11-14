@@ -2,31 +2,31 @@ title: Tommi Space
 email: surfing@tommi.space
 description: >-
   A virtual representation of the mess inside Tommi’s mind
-baseurl: ""
-url: "https://tommi.space"
+baseurl: ''
+url: 'https://tommi.space'
 author:
   name: Tommi
   username: tommi
-  picture: "/images/profile.jpg"
-logo: "/favicon.ico"
+  picture: '/images/profile.jpg'
+logo: '/favicon.ico'
 publisher: Tommi
 timezone: Europe/Rome
 github_username: xplosionmind
-git_repository: "tommi.space"
+git_repository: 'tommi.space'
 future: true
 profile: true
 livereload: true
 strict_front_matter: true
 lang: it
 locale: it
-images: "/images"
-post-images: "/images/posts"
+images: '/images'
+post-images: '/images/posts'
 image: '/logos/favicon-180.png'
-assets: "https://assets.tommi.space/assets"
-video: "https://assets.tommi.space/video"
-audio: "https://assets.tommi.space/audio"
-logos: "/logos"
-fonts: "/fonts"
+assets: 'https://assets.tommi.space/assets'
+video: 'https://assets.tommi.space/video'
+audio: 'https://assets.tommi.space/audio'
+logos: '/logos'
+fonts: '/fonts'
 exclude:
   - riordinare/
   - _notes/private/
@@ -79,7 +79,7 @@ feed:
 # SEO
 social:
   name: xplosionmind
-tagline: "Tommi’s virtual mind"
+tagline: 'Tommi’s virtual mind'
 twitter:
   username: xplosionmind
   card: summary
@@ -87,20 +87,17 @@ twitter:
 #d3_graph_data:
 #  enabled: false
 
-toc:
-  list_class: "grey border box"
-
 podcast:
   title: Sconnesso
-  description: "Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso."
-  url: "/sconnesso.xml"
-  author: "Tommi"
-  email: "sono@sconnesso.link"
-  link: "https://sconnesso.link"
-  logo: "/images/sconnesso.jpg"
-  type: "episodic"
-  complete: "yes"
-  block: "no"
+  description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso.'
+  url: '/sconnesso.xml'
+  author: 'Tommi'
+  email: 'sono@sconnesso.link'
+  link: 'https://sconnesso.link'
+  logo: '/images/sconnesso.jpg'
+  type: 'episodic'
+  complete: 'yes'
+  block: 'no'
 
 plugins:
   - jekyll-feed
@@ -119,6 +116,7 @@ plugins:
   - jekyll-wikilinks
 #  - jekyll-commonmark
 #  - jekyll-graph
+#  - jekyll-webmention_io
 
 sass:
   style: compressed
@@ -128,8 +126,8 @@ target-blank:
 
 #markdown: CommonMark # IDs not generated!
 #commonmark:
-#  options: ["FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE", "SMART", "VALIDATE_UTF8", "UNSAFE", "LIBERAL_HTML_TAG", "HARDBREAKS"]
-#  extensions: ["strikethrough", "table", "tasklist", "autolink"]
+#  options: ['FOOTNOTES', 'STRIKETHROUGH_DOUBLE_TILDE', 'SMART', 'VALIDATE_UTF8', 'UNSAFE', 'LIBERAL_HTML_TAG', 'HARDBREAKS']
+#  extensions: ['strikethrough', 'table', 'tasklist', 'autolink']
 
 compress_html:
   clippings: all
@@ -142,38 +140,38 @@ permalink: /:title
 defaults:
   -
     scope:
-      path: ""
+      path: ''
     values:
-      layout: "wrapper"
-      lang: "en"
-      image: "/images/preview.gif"
+      layout: 'wrapper'
+      lang: 'en'
+      image: '/images/preview.gif'
       comments: true
       serif: false
-      primary: "#FCC920"
+      primary: '#FCC920'
 
   -
     scope:
-      path: ""
+      path: ''
       type: posts
     values:
       layout: post
       lang: it
-      excerpt_separator: "<!--more-->"
+      excerpt_separator: '<!--more-->'
 
   -
     scope:
-      path: ""
+      path: ''
       type: poetry
     values:
       layout: poetry
       lang: it
       permalink: /:title
-      primary: "teal"
-      description: "Parole disordinate, fra le nuvole e lo spazio"
+      primary: 'teal'
+      description: 'Parole disordinate, fra le nuvole e lo spazio'
 
   -
     scope:
-      path: ""
+      path: ''
       type: notes
     values:
       layout: jam
@@ -184,25 +182,25 @@ defaults:
 
   -
     scope:
-      path: ""
+      path: ''
       type: sconnesso
     values:
       layout: sconnesso
       lang: it
       permalink: /sconnesso/:title
-      primary: "var(--purple)"
-      author: "Tommi"
-      categories: "sconnesso"
-      episodeType: "full"
-      explicit: "no"
-      image: "/images/sconnesso.jpg"
+      primary: 'var(--purple)'
+      author: 'Tommi'
+      categories: 'sconnesso'
+      episodeType: 'full'
+      explicit: 'no'
+      image: '/images/sconnesso.jpg'
 
   -
     scope:
-      path: ""
+      path: ''
       type: filinge
     values:
       layout: post
       lang: it
-      primary: "#20CE88"
+      primary: '#20CE88'
       permalink: /filinge/:title
