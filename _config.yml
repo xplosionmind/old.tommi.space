@@ -130,8 +130,7 @@ target-blank:
 #  extensions: ['strikethrough', 'table', 'tasklist', 'autolink']
 
 webmentions:
-  username: tommi
-  cache_folder: .cache
+  username: tommi.space
   cache_bad_uris_for: 5
   legacy_domains:
     - https://www.tommi.space
