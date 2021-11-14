@@ -35,6 +35,8 @@
 		{%- if cosa.ref == page.ref -%}{{ cosa.url | absolute_url }}{%- endif -%}{% endfor -%}' />
 	{% endif %}
 
+	{% webmentions_head %}
+
 	{% if page.latex %}
 		<!-- LaTeX support -->
 		<script>

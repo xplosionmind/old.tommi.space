@@ -22,7 +22,7 @@ group :jekyll_plugins do
 #  gem 'jekyll-toc'
 #  gem 'jekyll-lunr'
   gem 'liquid-c'
-#  gem 'jekyll-webmention_io', git: 'git@github.com:aarongustafson/jekyll-webmention_io'
+  gem 'jekyll-webmention_io', git: 'git@github.com:aarongustafson/jekyll-webmention_io'
 #  gem 'jekyll-admin'
 #  gem 'jekyll-optional-front-matter'
 #  gem 'jekyll-paginate'

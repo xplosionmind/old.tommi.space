@@ -116,7 +116,7 @@ plugins:
   - jekyll-wikilinks
 #  - jekyll-commonmark
 #  - jekyll-graph
-#  - jekyll-webmention_io
+  - jekyll-webmention_io
 
 sass:
   style: compressed
@@ -128,6 +128,24 @@ target-blank:
 #commonmark:
 #  options: ['FOOTNOTES', 'STRIKETHROUGH_DOUBLE_TILDE', 'SMART', 'VALIDATE_UTF8', 'UNSAFE', 'LIBERAL_HTML_TAG', 'HARDBREAKS']
 #  extensions: ['strikethrough', 'table', 'tasklist', 'autolink']
+
+webmentions:
+  username: tommi
+  cache_folder: .cache
+  cache_bad_uris_for: 5
+  legacy_domains:
+    - https://www.tommi.space
+    - http://tommasomarmo.com
+#  templates:
+#    count: _includes/webmentions/count.html
+#    likes: _includes/webmentions/likes.html
+#    links: _includes/webmentions/links.html
+#    posts: _includes/webmentions/posts.html
+#    replies: _includes/webmentions/replies.html
+#    reposts: _includes/webmentions/reposts.html
+#    webmentions: _includes/webmentions/webmentions.html
+
+What’s checked
 
 compress_html:
   clippings: all
