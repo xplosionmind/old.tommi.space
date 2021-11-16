@@ -45,5 +45,5 @@ group :jekyll_plugins do
 #  gem 'jekyll-stork'
   gem 'jekyll-wikilinks'
 #  gem 'jekyll-favicon'     my favicons are not uniform
-#  gem 'jekyll-graph'
+  gem 'jekyll-graph'
 end
