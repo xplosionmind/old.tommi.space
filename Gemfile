@@ -4,7 +4,7 @@ gem 'webrick'
 gem 'eventmachine', git: 'git@github.com:eventmachine/eventmachine'
 
 group :jekyll_plugins do
-  gem 'jekyll-commonmark', github: 'jekyll/jekyll-commonmark'
+#  gem 'jekyll-commonmark', github: 'jekyll/jekyll-commonmark' # heading IDs are not generated
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
@@ -22,7 +22,7 @@ group :jekyll_plugins do
 #  gem 'jekyll-toc'
 #  gem 'jekyll-lunr'
   gem 'liquid-c'
-  gem 'jekyll-webmention_io', git: 'git@github.com:aarongustafson/jekyll-webmention_io'
+#  gem 'jekyll-webmention_io', git: 'git@github.com:aarongustafson/jekyll-webmention_io'
 #  gem 'jekyll-admin'
 #  gem 'jekyll-optional-front-matter'
 #  gem 'jekyll-paginate'

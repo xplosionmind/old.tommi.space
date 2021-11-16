@@ -1,32 +1,34 @@
 ---
 date: 2020-12-05
-updated: 2021-04-04T11:44:26+02:00
+updated: 2021-11-16T11:57:56+01:00
 tag: geek zen main
 aliases: Just quit, Choose the alternative, Go alternative, Make the switch
 image: https://tommi.space/images/jar/just-quit.jpg
 description:
   Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it is for the best, it is worth it. Below some of the things I am quitting.
 permalink: /switch
-redirect_from: [/make-the-switch,/quit-and-switch,/quit-switch,/choose-the-alternative', '/alternative-software', '/alternative']
+redirect_from: [/make-the-switch,/quit-and-switch,/quit-switch,/choose-the-alternative, /alternative-software, /alternative]
 main: true
 toc: false
+todo: update
 ---
 <div class='blue box'>
 	Most of the times, the best thing to do is to [[Delete an account|just delete it]]
 </div>
 
-- [**<cite>Quit Social Media</cite>**](https://quitsocialmedia.club) ✅
-- [[Quit Google]] ✅
+- ✅ [**<cite>Quit Social Media</cite>**](https://quitsocialmedia.club)
+- ✅ [[Quit Google]]
 - ~~[[Quit Spotify]]~~: it is hard to live without it.
-- Quit Flickr and [[Piwigo|Switch to Piwigo]] ✅ 2020.12.23 - 2021.01.18
-- [[Quit listing]]
-- [[Quit Mailchimp]] (even if I almost never used it)
-- [[Switch to LineageOS]]
-- [[Quit Netflix]]
-- [[Switch to Darktable]]
-- [[Quit IMDb]]
-- [[Switch to Linux]]
-- [[Signal|Switch to Signal]]
+- ✅ Quit [Flickr](https://flickr.com 'Flickr') and [[Piwigo|Switch to Piwigo]] 2020.12.23 - 2021.01.18
+- 😵‍💫 [[Quit listing]]
+- 🚧 [[Quit Mailchimp]] (even if I almost never used it)
+- ⏸/❌ [[Switch to LineageOS]]
+- ✅ [[Quit Netflix]]
+- 🚧/❌ [[Switch to Darktable]]
+- ✅+🚧 [[Quit IMDb]]
+- 🚧 [[Switch to Linux]]
+- 🚧 [[Signal|Switch to Signal]]
+- 🚧 <time datetime='2021-11-16T11:43:34+01:00'>2021.11.16</time> - WIP Quit [GitHub](https://github.com/xplosionmind 'GitHub') and [[GiTMI|self-host a Gitea instance]], [GiTMI](https://gitmi.dev 'GiTMI homepage')
 
 <br>
 <br>

@@ -1,6 +1,6 @@
 ---
 date: 2020-11-10
-updated: 2021-06-11T08:17:38+02:00
+updated: 2021-11-16T16:15:37+01:00
 tags: zen
 redirect_from: [/routine,/habits]
 toc: false
@@ -22,6 +22,7 @@ Below are the ones I set to myself.
 	- Either write or call.
 	- communications become stressful: if I record long audios, obviously I need to listen to them… and they pile up. This is not good nor healthy.
 - by the end of 2020, [quit Social Media](https://quitsocialmedia.club 'Quit Social Media')
+- since <time datetime='2021-11-16T16:15:49+01:00'>16 November 2021</time>, do not watch more than a TV series episode a day — a.k.a. prevent binge-watching
 
 <br>
 <br>

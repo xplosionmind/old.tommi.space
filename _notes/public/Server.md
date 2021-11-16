@@ -1,8 +1,10 @@
 ---
 date: 2020-03-21
-updated: 2021-03-16T18:51:34.762631+01:00
-tags: geek/server
+updated: 2021-03-16T18:51:34+01:00
+tags: geek/server draft
 main: true
+aliases: Xplosion Server
+redirect_from: [/xplosion-server,/xplosionserver]
 ---
 My server is a surprisingly powerful (considered how much I pay for it) <abbr title="Virtual Private Server">VPS</abbr> hosted in Germany by [Contabo](https://contabo.com "Contabo official website"). It runs [Ubuntu 20.04](https://releases.ubuntu.com/20.04/ "Ubuntu 20.04 release page").
 

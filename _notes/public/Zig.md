@@ -9,11 +9,12 @@ redirect_from: [/timeline, /timeline-dev, /timeline-development]
 Who I am is also, or mostly, defined by the events which marked my life even before my birth:  
 *Zig* is a social network where people share dates which are significant to them. It is named in honor of [Zigmunt Bauman](https://en.wikipedia.org/wiki/Zigmunt_Bauman 'Zigmunt Bauman on Wikipedia'), great historian and sociologist.
 
-A profile is made by the important milestones in both his/her life and in history in general.
+A profile is made by the important milestones in both his/her life and in history in general. To put it briefly and simply, <u><cite>Zig</cite> is a <i>social medium</i> </u>
 
 *Zig* should:
 - share dates of both historical and personal events
 - integrate with [ActivityPub](https://activitypub.rocks 'ActivityPub') and therefore join the [Fediverse](https://en.wikipedia.org/wiki/Fediverse '“Fediverse„ on Wikipedia')
+- collect other 
 - integrate with [[Nolan]], and be its “public front-end”
 
 <br>
@@ -54,4 +55,4 @@ Add a timeline like [Jeremy Gordon's](https://jgordon.io "Jeremy Gordon") or [ja
 
 ## Alternative name ideas
 
-- *Aby*, in honour of [[Aby Warburg]] (see [*Mnemosyne*](https://tommi.space/mnemosyne '“Mnemosyne„ article on tommi.space'))
+- *Aby*, in honor of [[Aby Warburg]] (see [*Mnemosyne*](https://tommi.space/mnemosyne '“Mnemosyne„ article on tommi.space'))

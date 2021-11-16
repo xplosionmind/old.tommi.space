@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-10-31T07:59:32+01:00
+updated: 2021-11-16T16:15:28+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo
 permalink: /development
@@ -33,6 +33,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 	- which ones are tagged `main`
 	- description, image, content
 	- consistency and effective cross-referencing
+1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, looping through the last few pages updated recently (based on `page.updated`)
 2. 🏗 [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
 1. [Self-hosted analytics](https://github.com/0xnr/awesome-analytics 'Awesome Analytics on GitHub')
 1. [Self-hosted comments](https://www.taniarascia.com/add-comments-to-static-site/ 'Roll Your Own Comment System for a Static Site') service
@@ -40,7 +41,8 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 1. Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
 18. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ 'W3Schools HowTos')
 1. better TOC positioning and spacing
-1.  [[Typography]] improvements
+1. [[Typography]] improvements
+1. [Reading progress bar](https://css-tricks.com/fun-viewport-units/#getting-weird 'Fun viewport units - CSS Tricks')
 
 <br>
 
