@@ -59,7 +59,7 @@ layout: wrapper
 	{% if page.toc %}
 		<div id='toc'>
 			<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-			{% include toc.html html=content sanitize=true %}
+			{% include toc.html html=content %}
 		</div>
 
 		<div class='one' style='float:right'>
