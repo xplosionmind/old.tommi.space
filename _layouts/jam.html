@@ -14,7 +14,7 @@ layout: wrapper
 				{% if page.location != nil %}
 					{% for place in site.data.places %}
 						{% if place.name == page.location %}
-							presso <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18'  target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
+							presso <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
 						{% endif %}
 					{% endfor %}
 				{% endif %}
@@ -24,7 +24,7 @@ layout: wrapper
 				{% if page.location != nil %}
 					{% for place in site.data.places %}
 						{% if place.name == page.location %}
-							nearby <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18'  target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>
+							nearby <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>
 						{% endif %}
 					{% endfor %}
 				{% endif %}
@@ -49,6 +49,10 @@ layout: wrapper
 			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
 		</p>
 
+		{% capture content_with_ids %}
+			{% include anchor-parser.html html=content anchorClass='anchor' generateId=true %}
+		{% endcapture %}
+
 		{% include post-tags.html %}
 		{% include goto.html %}
 
@@ -59,7 +63,7 @@ layout: wrapper
 	{% if page.toc %}
 		<div id='toc'>
 			<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-			{% include toc.html html=content %}
+			{% include toc.html html=content_with_ids sanitize=true %}
 		</div>
 
 		<div class='one' style='float:right'>
@@ -69,7 +73,7 @@ layout: wrapper
 	{% endif %}
 
 		<article class='e-content note{% if page.serif == true %} serif{% endif %}'>
-			{% include anchor-parser.html html=content anchorBody='#' anchorClass='anchor' %}
+			{{ content_with_ids }}
 		</article>
 
 	</div>

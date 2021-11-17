@@ -9,10 +9,7 @@ image: https://tommi.space/logos/bugs.svg
 ---
 The [[Apps]] I use the most are open source and in active development. Often, I notice bugs or I have ideas of possible improvements but I rarely have time to file a proper issue for every bug or a exhaustive post for a feature request. Thus, in this list I quickly note all the thoughts which pop up in my mind, hoping some day I will have enough time to effectively share my reports.
 
-<div class='yellow box'>
-	<h3>Note</h3>
-	Below, I take note of improvements or bugs which were not reported by anyone else yet. If there is something I noticed but someone else opened an issue about it, I will at most comment on it, but it will not appear here. In the same way, when I address the ideas I formerly wrote on this page, I successively delete them from here.
-</div>
+<div class='yellow box'><h3>Note</h3>Below, I take note of improvements or bugs which were not reported by anyone else yet. If there is something I noticed but someone else opened an issue about it, I will at most comment on it, but it will not appear here. In the same way, when I address the ideas I formerly wrote on this page, I successively delete them from here.</div>
 
 <br>
 <br>
@@ -151,9 +148,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 [Oxygen OS](https://www.oneplus.com/it/oxygenos 'OnePlus’ Oxygen OS') is the Android flavor developed and used by [OnePlus](https://oneplus.com 'OnePlus')
 
-<div class='red box'>
-	I stopped using my OnePlus 6T as my main device in February 2018
-</div>
+<div class='red box'>I stopped using my OnePlus 6T as my main device in February 2018</div>
 
 - match the lock screen and ambient display design (right now digital clocks have two different fonts and sizes)
 - add the capability to customize the alert slider
@@ -169,9 +164,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 [Joplin](http://joplinapp.org) is a wonderful and complete note-taking app.
 
-<div class='red box'>
-	<strong>Note</strong>: I stopped using Joplin as my daily driver since November 2020 and I switched to <a href='https://obsidian.md'  target='_blank' title='Obsidian official website'>Obsidian</a>. The reasons why I did this are in <a href='/switch-to-zettelkasten' title='Switch to Zettelkasten'>this blog post</a>.
-</div>
+<div class='red box'><strong>Note</strong>: I stopped using Joplin as my daily driver since November 2020 and I switched to <a href='https://obsidian.md'  target='_blank' title='Obsidian official website'>Obsidian</a>. The reasons why I did this are in <a href='/switch-to-zettelkasten' title='Switch to Zettelkasten'>this blog post</a>.</div>
 
 ### Features requests
 
@@ -203,9 +196,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 [Zettlr](https://www.zettlr.com) is the best Markdown editor out there.
 
-<div class='red box'>
-	Since November 2020 I stopped using Zettlr because its work could be made by <a href='https://obsidian.md'  target='_blank' title='Obsidian official website'>Obsidian</a>
-</div>
+<div class='red box'>Since November 2020 I stopped using Zettlr because its work could be made by <a href='https://obsidian.md'  target='_blank' title='Obsidian official website'>Obsidian</a></div>
 
 - Implement split view: two different notes side by side
 

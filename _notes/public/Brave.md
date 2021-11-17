@@ -21,4 +21,4 @@ On the internet, the debate concerning Brave is firing up. Even if my main brows
 
 ### Against Brave
 
-- [Don’t use Brave](https://aspenuwu.me/blog/dont-use-brave/ 'No, you shouldn't use Brave') by [Aspen](https://aspenuwu.me/ 'Aspen’s personal website')
+- [Don’t use Brave](https://aspenuwu.me/blog/dont-use-brave/ 'No, you shouldn\'t use Brave') by [Aspen](https://aspenuwu.me/ 'Aspen’s personal website')

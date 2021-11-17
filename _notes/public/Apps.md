@@ -46,10 +46,7 @@ Apps installed on my [iPhone 12 mini](https://www.apple.com/it/iphone-12/ 'iPhon
 
 Apps installed on my [OnePlus 6T](https://www.oneplus.com/6t 'OnePlus &T') running ~~[Oxygen OS](https://www.oneplus.com/oxygenos 'OxygenOS on OnePlus’ website')~~ [[Switch to LineageOS|LineageOS]].
 
-<div class='yellow box'>
-	<h3>Note</h3>
-	My main phone is now an iPhone 12 mini. My OnePlus 6T comfortably sits in a drawer sadly I will not be opening for a while.
-</div>
+<div class='yellow box'><h3>Note</h3>My main phone is now an iPhone 12 mini. My OnePlus 6T comfortably sits in a drawer sadly I will not be opening for a while.</div>
 
 <ul>{% for app in androidapps %}<li><a href='{{ app.url }}' target='_blank' title='{{ app.name }}{{ app.title }}'>{{ app.name }}</a>, {{ app.description }}</li>{% endfor %}</ul>
 
@@ -69,9 +66,7 @@ Apps which I have installed on my beloved [[Linuxplosion]].
 
 The services I self-hosted which are running on my server can be found in the [[Server]] Jam ingredient.
 
-<div class='blue box'>
-	Although I literally <b>love</b> some of the apps I installed on my devices, there are some [[Missing digital tools]] that I keep note of, in case someone with more programming expertise than me may be able to develop.
-</div>
+<div class='blue box'>Although I literally <b>love</b> some of the apps I installed on my devices, there are some [[Missing digital tools]] that I keep note of, in case someone with more programming expertise than me may be able to develop.</div>
 
 <br>
 <br>

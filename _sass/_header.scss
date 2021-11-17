@@ -61,7 +61,8 @@ nav {
 				}
 				&:hover,
 				&:focus{
-					text-shadow: var(--link-shadow);
+					text-shadow: var(--glow);
+					filter: none;
 				}
 				&:active {
 					opacity: .6;

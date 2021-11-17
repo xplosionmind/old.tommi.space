@@ -1,8 +1,8 @@
 ---
 date: 2020-06-25
-updated: 2021-09-09T21:30:20.987503+02:00
-description: 'Real and fictional characters who left a mark in me'
-redirect_from: ['/characters', '/personages', '/figures', '/persone', '/personaggi', '/figure', '/idols', '/idoli']
+updated: 2021-09-09T21:30:20+02:00
+description: Real and fictional characters who left a mark in me
+redirect_from: [/characters, /personages, /figures, /persone, /personaggi, /figure, /idols, /idoli]
 main: true
 ---
 <style>
@@ -15,12 +15,27 @@ main: true
 
 {% for idol in site.data.people %}
 	<div class='row'>
-		<h2 id="{{ idol.who | slugify }}" class="title">{{ idol.who }}</h2>
+		<h2 id='{{ idol.who | slugify }}' class='title'>{{ idol.who }} <a href='#{{ idol.who | slugify }}' class='anchor'>#</a></h2>
 		<div class='column'>
-			<a href="{{ idol.url }}"  target="_blank"><figure><img src="{{ idol.img }}" title="{{ idol.who }}" alt="An image portraying {{ idol.who }}" /></figure></a>
+			<a href='{{ idol.url }}'  target='_blank'><figure><img src='{{ idol.img }}' title='{{ idol.who }}' alt='An image portraying {{ idol.who }}' /></figure></a>
 		</div>
 		<div class='column'>
 			<p lang='{{ idol.lang }}'>{{ idol.note }}</p>
 		</div>
 	</div>
 {% endfor %}
+
+<h2>More</h2>
+
+<p>
+	Notes on this website involving/mentioning/related to people:
+</p>
+<ul>
+	{% for note in site.notes %}
+		{% if note.tags contains 'people' %}
+			<li>
+				<a href='{{ note.url }}' title='{{ note.title }}' hreflang='{{ note.lang }}'>{{ note.title }}</a> - {% if note.description %}{{ note.description }}{% else %}{{ note.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>

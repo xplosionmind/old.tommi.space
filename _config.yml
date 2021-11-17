@@ -111,7 +111,7 @@ plugins:
   - jekyll-paginate-v2
 #  - jekyll-stork
   - jekyll-wikilinks
-#  - jekyll-commonmark
+  - jekyll-commonmark
   - jekyll-graph
   - jekyll-webmention_io
 
@@ -136,10 +136,10 @@ graph:
 webmentions:
   username: tommi.space
   cache_bad_uris_for: 5
-  legacy_domains:
-    - https://www.tommi.space
-    - http://tommasomarmo.com
-  templates:
+#  legacy_domains:
+#    - https://www.tommi.space
+#    - https://tommasomarmo.com
+#  templates:
 #    count: _includes/webmentions/count.html
 #    likes: _includes/webmentions/likes.html
 #    links: _includes/webmentions/links.html

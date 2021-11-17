@@ -19,15 +19,17 @@ layout: wrapper
 		</p>
 	</div>
 
+	{% capture content_with_ids %}
+		{% include anchor-parser.html html=content anchorBody='#' anchorClass='anchor' generateId='true' %}
+	{% endcapture %}
+
 	{% include post-tags.html %}
 
 	{% include goto.html %}
 
 	<div class='row'>
 		<article class='e-content post'>
-
-			{% include anchor-parser.html html=content anchorBody='#' anchorClass='anchor' %}
-
+			{{ content_with_ids }}
 		</article>
 	</div>
 

@@ -20,23 +20,12 @@ Da questa pagina è possibile partire per navigare all'interno della Marmellata.
 
 Ogni elemento della Marmellata è connesso ad un altro: in fondo ad ogni nota, fra i [*backlinks*](#backlinks) sono elencate tutte le pagine in cui la nota corrente è stata menzionata.
 
-{% include tags.html %}
+{%- include tags.html -%}
 
-<div class='row'>
-	<div class='half column'>
-		{% include filter-lang.html %}
-	</div>
-	<div class='half column flex'>
-		<a class='red button' style='color:white;' href='/whole-jam'  target='_blank' title='The Whole Jam'>Tutte le note</a>
-	</div>
-</div>
+<div class='row'><div class='half column'>{%- include filter-lang.html -%}</div><div class='half column flex'><a class='red button' style='color:white;' href='/whole-jam'  target='_blank' title='The Whole Jam'>Tutte le note</a></div></div>
 
-<ul>
-	{% assign jam = site.notes | where: 'main', 'true' %}
-	{% for note in jam %}
-		<li lang='{{ note.lang }}'><a href='{{ note.url }}' lang='{{ note.lang }}'>{{ note.title }}</a> - {% if note.description %}{{ note.description | markdownify | strip_html | truncatewords: 30 }}{% else %}{{ note.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
-	{% endfor %}
-</ul>
+<ul>{%- assign jam = site.notes | where: 'main', 'true' -%}{%- for note in jam -%}<li lang='{{ note.lang }}'><a href='{{ note.url }}' lang='{{ note.lang }}'>{{ note.title }}</a>&ensp;—&ensp;{%- if note.description -%}{{ note.description | markdownify | strip_html | truncatewords: 30 }}{%- else -%}{{ note.excerpt | strip_html | truncatewords: 30 }}{%- endif -%}</li>{%- endfor -%}</ul>
+
 <div class='flex row'>
 	<a class='red button' style='color:white;' href='/whole-jam'  target='_blank' title='The Whole Jam'>Tutte le note</a>
 </div>

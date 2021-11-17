@@ -19,9 +19,7 @@ Nella speranza di una meno sporadica frequentazione (non esclusivamente relativa
 
 *Al Canton* è il mio locale preferito a Venezia. Checché ne possano dire gli amanti dei banalissimi mondani bar del Campo.
 
-<div class='embed-container'>
-	<iframe width='425' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://www.openstreetmap.org/export/embed.html?bbox=12.315689557453881%2C45.4335643076138%2C12.317942613026391%2C45.43501358465862&amp;layer=mapnik&amp;marker=45.434288950788584%2C12.316816085240134' style='border: 1px solid black'></iframe><br/><small><a href='https://www.openstreetmap.org/?mlat=45.43429&amp;mlon=12.31682#map=19/45.43429/12.31682'>Visualizza mappa ingrandita</a></small>
-</div>
+<div class='embed-container'><iframe width='425' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://www.openstreetmap.org/export/embed.html?bbox=12.315689557453881%2C45.4335643076138%2C12.317942613026391%2C45.43501358465862&amp;layer=mapnik&amp;marker=45.434288950788584%2C12.316816085240134' style='border: 1px solid black'></iframe><br/><small><a href='https://www.openstreetmap.org/?mlat=45.43429&amp;mlon=12.31682#map=19/45.43429/12.31682'>Visualizza mappa ingrandita</a></small></div>
 
 <br>
 

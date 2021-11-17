@@ -9,9 +9,7 @@ description: Boundaries to improve living quality
 I believe the foundations of a peaceful, productive and full life are composed of a combination of [[Loops|habits]] and [[Boundaries|boundaries]].\
 Below are the ones I set to myself.
 
-<div class='blue box'>
-	The following decisions go hand in hand with [[The Slot Philosophy]], which is my main approach to [[Self improvement]]
-</div>
+<div class='blue box'>The following decisions go hand in hand with [[The Slot Philosophy]], which is my main approach to [[Self improvement]]</div>
 
 - from 2013, stop playing any videogame and stop installing any game app on my mobile
 - from June 2016, [turning off all push notifications](https://www.wired.com/story/turn-off-your-push-notifications/ '“Turn off your Push Notifications” on Wired'), except alarms and reminders

@@ -4,7 +4,7 @@ gem 'webrick'
 gem 'eventmachine', git: 'https://github.com/eventmachine/eventmachine.git'
 
 group :jekyll_plugins do
-#  gem 'jekyll-commonmark', github: 'jekyll/jekyll-commonmark' # TOC links are not generated
+  gem 'jekyll-commonmark', github: 'jekyll/jekyll-commonmark'
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'

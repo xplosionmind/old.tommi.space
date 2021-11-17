@@ -1,12 +1,14 @@
 ---
 date: 2020-02-01
-updated: 2021-06-11T06:36:46+02:00
+updated: 2021-11-17T15:19:41+01:00
 tags: meta
 aliases: The Jar, Jar, Marmelade
 permalink: /jam
 redirect_from: [/the-jam,/thejar,/thejam,/the-jar,/marmelade]
 ref: jam
 toc: false
+todo:
+  - update “main” pages
 ---
 Online, you may stumble upon it as a <a href='https://dev.to/jbranchaud/the-digital-garden-l10' rel='noener noreferrer' target='_blank' title='The Digital Garden on DEV.to'><cite>Digital Garden</cite></a>, or it may be defined as a *[[Zettelkasten]] system*. Mine, instead, is definitely less ambitious; yet, it is whipped, fragmented, juicy and sweet. It is **a Jam**.
 
@@ -31,12 +33,8 @@ Every single element in The Jam is connected to at least another one: at the end
 	</div>
 </div>
 
-<ul>
-	{% assign jam = site.notes | where: 'main', 'true' %}
-	{% for note in jam %}
-		<li lang='{{ note.lang }}'><a href='{{ note.url }}' lang='{{ note.lang }}'>{{ note.title }}</a> - {% if note.description %}{{ note.description | strip_html | truncatewords: 30 }}{% else %}{{ note.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
-	{% endfor %}
-</ul>
+<ul>{%- assign jam = site.notes | where: 'main', 'true' -%}{%- for note in jam -%}<li lang='{{ note.lang }}'><a href='{{ note.url }}' lang='{{ note.lang }}'>{{ note.title }}</a> - {% if note.description %}{{ note.description }}{%- else -%}{{ note.excerpt | strip_html | truncatewords: 30 }}{%- endif -%}</li>{%- endfor -%}</ul>
+
 <div class='flex row'>
 	<a class='red button' style='color:white;' href='/whole-jam'  target='_blank' title='The Whole Jam'>The Whole Jam</a>
 </div>
