@@ -1,10 +1,11 @@
 ---
 date: 2020-06-10
-updated: 2021-10-14T02:37:50+02:00
+updated: 2021-11-18T11:49:39+01:00
 permalink: /qsm
-aliases: QSM
-description: "Notes about <a href='https://quitsocialmedia.club'  target='_blank' title='Quit Social Media'>quitsocialmedia.club</a>"
-redirect_from: [/quitsocialmedia, /quitsocialmedia.club, /quitsocialmedia-notes, /quit-social-media-notes, /quit-social-media]
+aliases: QSM, quitsocialmedia.club notes
+description: |
+  Notes about <a href='https://quitsocialmedia.club'  target='_blank' title='Quit Social Media'>quitsocialmedia.club</a>
+redirect_from: [/quitsocialmedia, /quitsocialmedia.club, /quitsocialmedia-notes, /quit-social-media-notes, /quit-social-media, /qsm-notes, /qsmnotes]
 ---
 <div class='blue box'>
 	Content in this page are random, pretty messed up and both in English and Italian, mostly personal to-dos for Tommi.
@@ -15,6 +16,7 @@ redirect_from: [/quitsocialmedia, /quitsocialmedia.club, /quitsocialmedia-notes,
 - Inputs feed of links tagged `qsm`
 - Drawings images
 - why the present website will not be updated
+- rebranding / renaming?
 
 <br>
 

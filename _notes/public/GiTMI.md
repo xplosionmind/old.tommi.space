@@ -1,6 +1,6 @@
 ---
 date: 2021-11-16T09:35:47+01:00
-updated: 2021-11-16T16:09:48+01:00
+updated: 2021-11-18T12:55:48+01:00
 tags: geek/server
 description: |
   Notes about moving out of <a href='https://github.com/xplosionmind' target='_blank' title='my GitHub profile'>GitHub</a> and setting up a self-hosted <a href='https://gitea.com' target='_blank' title='Gitea'>Gitea</a> instance.
@@ -45,6 +45,9 @@ A schematic log of what I am doing, setting up and maintaining [GiTMI][gitmi]
 
 1. 🚧 Mirror GitHub repositories
 1. 🚧 Migrate GitHub repositories (once federation is fully implemented)
+2. Custom CSS?
+3. Discussions instead of issues?
+4. Mobile client?
 
 <br>
 <br>

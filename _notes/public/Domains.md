@@ -1,13 +1,45 @@
 ---
 date: 2020-10-27
-updated: 2021-10-13T01:51:14+02:00
+updated: 2021-11-18T11:57:03+01:00
 tags: geek/web idea
-redirect_from: ['/websites-ideas', '/philosophy-websites', '/lifestyle-websites', '/websites creation']
-toc: false
-description: Cool domains ideas
+redirect_from: [/websites-ideas, /philosophy-websites, /lifestyle-websites, /websites-creation, /domain, /domain-names, /tld, /tlds]
+description: Cool domains ideas, notes and tracking
 ---
-- [[T.M.I.|TMI]]: **T**oo **M**uch **I**nformation, or **T**o**m**m**i**
-	- [TMI Pics](https://tmi.pics)
+[tommi.space]: https://tommi.space 'The virtual representation of Tommi’s mind'
+[tommasomarmo.com]: https://tommasomarmo.com 'The virtual representation of Tommi’s mind'
+[tmi.pics]: https://tmi.pics 'TMI Pics'
+[quitsocialmedia.club]: https://quitsocialmedia.club 'Quit Social Media'
+[sconnesso.link]: https://sconnesso.link 'Sconnesso'
+[gitmi.dev]: https://gitmi.dev 'GiTMI'
+## Purposes
+
+Ideas and purposes I do not know a name for yet, but for which I would like to get a domain:
+- **<cite>TMI Stream</cite>**, my microblogging frontpage
+- a domain, a name, a format <u>unlinked from my name</u>
+- [various less important others](#various)
+
+<br>
+<br>
+
+## Names
+
+### Taken
+
+Domain names I am using:
+
+- [`tommi.space`][tommi.space], this very website
+- [`tmi.pics`][tmi.pics], where I host my [[Pixelfed]] instance.
+- [`quitsocialmedia.club`][quitsocialmedia.club], where [[Quit Social Media Notes|quitsocialmedia.club]] is hosted
+- [`sconnesso.link`][sconnesso.link], where <cite>Sconnesso</cite> is hosted
+- [`tommasomarmo.com`][tommasomarmo.com], which redirects to `tommi.space`
+- [`gitmi.dev`][gitmi.dev], where [[GiTMI]] is hosted
+- ~~`pise-notes.club`, where I used to host my [[PISE]] notes~~
+- ~~`matto.club`, general purpose domain I bought for [[YunoHost]]~~
+
+<br>
+
+### Various
+
 - [[The Slot Philosophy]]
 	- `time.slots` (not existing TLD)
 	- `slots.time` (not existing TLD)
@@ -22,17 +54,17 @@ description: Cool domains ideas
 	- `awesome.website` (taken)
 - [Everyone dedicated website](/everyone 'Everyone short movie')
 	- `everyone.movie`
-- a domain, a name, a format, etc. <u>unlinked from my name</u>
+	- 
 - [[RSSify|RSS everywhere]]
-	- [`rsseverywhe.re`](https://shop.gandi.net/en/domain/suggest?search=rsseverywhe.re)
-	- [`rsseverywhere.org`](https://shop.gandi.net/en/domain/suggest?search=rsseverywhere.org)
+	- `rsseverywhe.re`
+	- `rsseverywhere.org`
 
 <br>
 
-## Various
+### Tommi
 
 - `tommi.news`
-- **`tommi.stream`**
+- `tommi.stream`
 - `tommi.ph`
 - `tommi.photos`
 - `tommi.pictures`
@@ -45,14 +77,26 @@ description: Cool domains ideas
 - `tommi.work`
 - `tommi.help`
 - `tommi.studio`
-- **`tommi.sh`**
+- `tommi.sh`
 - `tommi.guru`
-- `tommi.stream` for microblogging
+- `tommi.stream`
+
+<br>
+
+### Tommaso
+
 - `tommaso.ooo`
 - `tommas.ooo`
-- `tmi.photos`
-- `tmi.mo`
+
+<br>
+
+### TMI
+
+[[T.M.I.|TMI]] stands for **T**oo **M**uch **I**nformation, or **T**o**m**m**i**.
+
+- I already own [**`tmi.pics`**][tmi.pics], where I host my [[Pixelfed]] instance.
 - `tmi.sh`
+- `tmi.mo`
 - `tmi.ooo`
 - `tmi.mn`
 - `tmi.pub`
@@ -73,5 +117,6 @@ description: Cool domains ideas
 - `tmi.pictures` (premium)
 - `tmi.sucks` (premium)
 - `tmi.club` (premium)
-- **`tmi.stream`** (premium)
+- `tmi.stream` (premium)
+- `tmi.fyi` (taken)
 - `tmi.social` (taken)

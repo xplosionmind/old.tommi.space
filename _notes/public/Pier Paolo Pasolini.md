@@ -25,6 +25,15 @@ Scelta **esteriore**, non autentica perché standard. -> **provocazione** trans-
 
 ---
 
+- The first spark of disobedience when forced to join the army and refused to follow and order, fleeing to Casarsa →
+- Territoriality: the value of local languages and local people (as of 2015, only 46,2% of the Italian population knows a local dialect)
+
+> L'altro è sempre infinitamente meno importante dell'io ma sono gli altri che fanno la storia.
+
+<p class='cite'>Pier Paolo Pasolini, <cite>Lettera a Giovanna Bemporad</cite>, 1947</p>
+
+---
+
 - Tangentopoli
 - Assemblea costituente
 - proporzionale
