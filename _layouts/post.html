@@ -1,51 +1,53 @@
 ---
 layout: wrapper
 ---
-<div class='h-entry one column'>
-	<div class='page-header row'>
-		<a class='u-uid u-url' href='{{ page.url }}'><h1 class='p-name'>{{ page.title }}</h1></a>
-		{% if page.subtitle %}
-			<h2>{{ page.subtitle }}</h2>
-		{% endif %}
-		<p>
-			<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>
-				{% if page.lang == 'it' %}
-					{% include date-it.html %}
-				{% else %}
-					{{ page.date | date: '%d %B %Y' }}
-				{% endif %}
-			</time>
-			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
-		</p>
+<div class='h-entry'>
+	<div class='one column'>
+		<div class='page-header row'>
+			<a class='u-uid u-url' href='{{ page.url }}'><h1 class='p-name'>{{ page.title }}</h1></a>
+			{% if page.subtitle %}
+				<h2>{{ page.subtitle }}</h2>
+			{% endif %}
+			<p>
+				<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>
+					{% if page.lang == 'it' %}
+						{% include date-it.html %}
+					{% else %}
+						{{ page.date | date: '%d %B %Y' }}
+					{% endif %}
+				</time>
+				<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
+			</p>
+		</div>
+
+		{% capture content_with_ids %}
+			{% include anchor-parser.html html=content anchorBody='#' anchorClass='anchor' generateId='true' %}
+		{% endcapture %}
+
+		{% include post-tags.html %}
+
+		{% include goto.html %}
+
+		<div class='row'>
+			<article class='e-content post'>
+				{{ content_with_ids }}
+			</article>
+		</div>
+
 	</div>
-
-	{% capture content_with_ids %}
-		{% include anchor-parser.html html=content anchorBody='#' anchorClass='anchor' generateId='true' %}
-	{% endcapture %}
-
-	{% include post-tags.html %}
-
-	{% include goto.html %}
 
 	<div class='row'>
-		<article class='e-content post'>
-			{{ content_with_ids }}
-		</article>
+		<div class='one column'>
+		{% include backlinks.html %}
+		</div>
 	</div>
 
-</div>
-
-<div class='row'>
-	<div class='one column'>
-	{% include backlinks.html %}
-	</div>
-</div>
-
-<div class='row'>
-	<div class='half column'>
-		{% include share.html %}
-	</div>
-	<div class='half column'>
-		{% include comments.html %}
+	<div class='row'>
+		<div class='half column'>
+			{% include share.html %}
+		</div>
+		<div class='half column'>
+			{% include comments.html %}
+		</div>
 	</div>
 </div>

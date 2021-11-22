@@ -37,3 +37,8 @@ Scelta **esteriore**, non autentica perché standard. -> **provocazione** trans-
 - Tangentopoli
 - Assemblea costituente
 - proporzionale
+
+---
+
+- Omologazione dei modelli imposti dalla televisione vs omologazione social media
+- 

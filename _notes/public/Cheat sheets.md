@@ -1,8 +1,8 @@
 ---
 date: 2020-05-07
-updated: 2021-07-14T22:14:45+02:00
+updated: 2021-11-22T13:17:04+01:00
 tags: geek
-aliases: Cheat Sheet, cmd, CLI
+aliases: Cheat Sheet, cmd, CLI, Command Line, Terminal
 description:
   I use tech devices a lot, maybe too much, but I do not dive in too technically. The few times I have to get things done with more technical tools, I need some reference.
 redirect_from: [/cheatsheet,/cheatsheets,/cheat-sheet,/terminal,/cmd,/cli]
@@ -68,6 +68,11 @@ du # dust
 [recursively count files in a directory](https://stackoverflow.com/a/9157162 'Recursively counting files in a Linux directory')
 ```sh
 find . -type f | wc -l
+```
+
+[Take a screenshot](https://www.take-a-screenshot.org/ 'ᐅ How to take a screenshot'):
+```sh
+man screencapture
 ```
 
 <br>

@@ -8,7 +8,7 @@ redirect_from: [/addio-jarvis, /lost-jarvis, /jarvis-lost, /i-lost-jarvis, /ode-
 tags: zen
 image: https://tommi.space/images/posts/2021-09-12-ode-a-jarvis.jpg
 toc: false
-description: 'Triste addio ad un insostituibile compagno di viaggio, nonché accettazione dello smarrimento di una parte di me'
+description: Triste addio ad un insostituibile compagno di viaggio, nonché accettazione dello smarrimento di una parte di me
 ---
 <q>Il pensiero di un uomo nasce innanzitutto dalla sua nostalgia</q>, mi legge Valeria, mentre, accarezzati dai *Giardini raggio di Sole* a Verona esploriamo le genialità pensate da [Albert Camus](https://it.wikipedia.org/wiki/Albert_Camus 'Albert Camus su Wikipedia') e da lui conservate ne <cite><a href='https://it.wikipedia.org/wiki/Il_mito_di_Sisifo' target='_blank' title='“Il mito di Sisifo„ su Wikipedia'>Il mito di Sisifo</a></cite>.
 

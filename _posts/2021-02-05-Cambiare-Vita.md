@@ -1,7 +1,7 @@
 ---
 title: Cambiare Vita
 subtitle: E fare le cose bene
-image: "/images/camogli-grandangolo.jpg"
+image: https://tommi.space/images/camogli-grandangolo.jpg
 jekyll-mentions: https://instagram.com
 ---
 Penso sia inutile sottolinearlo: è un periodo del cavolo.\

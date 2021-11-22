@@ -21,6 +21,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 ### v0.1
 
 1. **Fix**: different Gem dependencies locally and in Netlify: different `_config.yml`
+2. **Update** Social media links in footer
 1. Cantiere background
 10. Browser branding color: should it match the background or the accent color?
 15. Study [Search Engine Optimization repo](https://github.com/marcobiedermann/search-engine-optimization 'search-sngine-optimization on GitHub') and Blogger’s `<head>` to **improve SEO**
