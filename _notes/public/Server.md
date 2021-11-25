@@ -29,10 +29,10 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 ## Installed
 
 - [Nextcloud](https://nextcloud.com "Nextcloud official website")
-	- [[Server setup#Nextcloud configuration|configuration and installation walk-through]]
-	- [[Server setup#Nextcloud cheatsheet|Nextcloud cheatsheet]]
+	- [[Server setup#Nextcloud]]
+	- [[Server setup#Nextcloud Cheat Sheett]]
 - [Jitsi Meet](https://jitsi.org "Jitsi Meet official website")
-	- [[Server setup#Install Jitsi Meet|Jitsi Meet configuration and installation walk-through]]
+	- [[Server setup#Jitsi Meet|Jitsi Meet configuration and installation walk-through]]
 - [OpenVPN](https://openvpn.net "OpenVPN official website") - ✅ 2020.01.01
 	- to install it, I followed this super simple and quick [guide](https://dev.to/phiilu/host-your-own-openvpn-server-in-a-few-seconds-73l "Host Your own OpenVPN Server in a few seconds - DEV")
 - ~~[PolitePol](https://github.com/taroved/pol), transform any webpage in a RSS feed - ✅ 2020.01.01~~.
@@ -91,9 +91,7 @@ Useful server apps or services I haven’t installed yet, in order of urgency an
 
 ## Docker
 
-I hate Docker. Probably, it is because I don’t get it. I believe that if one day I will finally learn how it works, my life is going to change and everything will become easier. For this reason, I'm keeping at hand useful stuff which work and integrate with it.
-
-![[Cheat sheets#Docker]]
+I hate Docker. Probably, it is because I don’t get it. I believe that if one day I will finally learn how it works, my life is going to change and everything will become easier. For this reason, I am keeping at hand useful stuff which work and integrate with it.
 
 <br>
 <br>

@@ -131,7 +131,7 @@ See [HTML Proofer \> Configuration](https://github.com/gjtorikian/html-proofer#c
 
 ## Linux
 
-![[Linuxplosion#Cheat Sheet]]
+![[Linuxplosion#Cheat sheet]]
 
 <br>
 <br>

@@ -12,8 +12,22 @@ layout: wrapper
 				<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>
 					{% if page.lang == 'it' %}
 						{% include date-it.html %}
+						{% if page.location != nil %}
+							{% for place in site.data.places %}
+								{% if place.name == page.location %}
+									 — <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
+								{% endif %}
+							{% endfor %}
+						{% endif %}
 					{% else %}
-						{{ page.date | date: '%d %B %Y' }}
+						{{ page.date | date: '%d %B %Y' }}, 
+						{% if page.location != nil %}
+							{% for place in site.data.places %}
+								{% if place.name == page.location %}
+									nearby <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>
+								{% endif %}
+							{% endfor %}
+						{% endif %}
 					{% endif %}
 				</time>
 				<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>

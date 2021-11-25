@@ -2,6 +2,8 @@
 date: 2020-03-21
 updated: 2021-01-28T12:22:55+01:00
 tags: geek/server
+aliases: Server configuration, VPS configuration
+redirect_from: [/server-configuration,/serversetup,/server-setup,/server-config]
 description: A walktrough of the steps I executed to set up my server
 ---
 <div class='box'>
@@ -419,7 +421,8 @@ systemctl restart apache2
 
 ### Final adjustments
 
-Final adjustments are to be performed from the Nextcloud GUI. The [Nextcloud apps](https://apps.nextcloud.com/) I installed are listed [[Apps#Nextcloud]]
+Final adjustments are to be performed from the Nextcloud GUI.  
+There are a lot of very useful [Nextcloud apps](https://apps.nextcloud.com/ 'Nextcloud apps store') which are trivial to install.
 
 <br>
 

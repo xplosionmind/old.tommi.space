@@ -29,11 +29,6 @@ See also [[Importing workflow]]
 <br>
 <br>
 
-![[Piwigo albums check]]
-
-<br>
-<br>
-
 ## Resources
 
 Where to get free stock photos

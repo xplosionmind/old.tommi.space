@@ -59,7 +59,7 @@ Linuxplosion is not a [[Server]], hence it should not stay switched on all of th
 - [Is there a way to auto turn-on Linux machine?](https://unix.stackexchange.com/questions/185475/is-there-a-way-to-auto-turn-on-linux-machine 'Is there a way to auto turn-on Linux machine?')
 - [Set Alarm to Automatically Power On Linux Computer](https://www.maketecheasier.com/alarm-automatically-power-on-linux/ 'Set Alarm to Automatically Power On Linux Computer')
 - [How to Set up an SSH Server on a Home Computer](https://zduey.github.io/tutorials/ssh-server-on-home-computer/ 'How to Set up an SSH Server on a Home Computer'), by [Zach Duey](https://zduey.github.io 'Zach Duey’s personal website')
-- [Don't Underestimate the Challenge of Building a PC](https://via.hypothes.is/https://www.wired.com/story/dont-underestimate-the-challenge-of-building-a-pc/ 'Don't Underestimate the Challenge of Building a PC'), by Alex Cranz on Wired
+- [Don't Underestimate the Challenge of Building a PC](https://via.hypothes.is/https://www.wired.com/story/dont-underestimate-the-challenge-of-building-a-pc/ 'Don\'t Underestimate the Challenge of Building a PC'), by Alex Cranz on Wired
 
 <br>
 

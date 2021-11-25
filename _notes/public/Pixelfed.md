@@ -1,7 +1,7 @@
 ---
 date: 2021-10-01T11:28:00+02:00
 updated: 2021-10-15T09:23:11+02:00
-aliases: ['TMI Pics', 'T.M.I. Pics', 'tmi.pics']
+aliases: TMI Pics, T.M.I. Pics, tmi.pics
 tags: geek/apps
 description: Notes on the awesome Fediverse social Pixelfed
 ---

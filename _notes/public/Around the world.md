@@ -8,6 +8,7 @@ description: Places I love around the world
 image: https://tommi.space/images/places.jpg
 main: true
 toc: false
+todo: loop through all the notes and posts from that location
 ---
 <cite><a href='https://youtube.com/watch?v=a9eNQZbjpJk'  target='_blank' title='Red Hot Chili Peppers - Around The World'>Around the World</a></cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places around the world. This is not merely a list of places I have been to in my life, but an ever growing and evolving record of the ones I carry in my heart.
 

@@ -22,7 +22,7 @@ pandoc *.docx -f docx -t commonmark --wrap=none -s -o ~/Desktop/output.md
 
 convert all files in a folder
 ```sh
-for f in *.docx; do pandoc '$f' -f docx -t commonmark --wrap=none -s -o '$f'.md; done
+for f in *.docx; do pandoc "$f" -f docx -t commonmark --wrap=none -s -o "$f".md; done
 ```
 
 <br>
