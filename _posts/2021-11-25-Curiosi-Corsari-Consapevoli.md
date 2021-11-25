@@ -1,6 +1,6 @@
 ---
 date: 2021-11-25T16:54:18+01:00
-updated: 2021-11-25T20:24:50+01:00
+updated: 2021-11-25T23:37:22+01:00
 tags: philosophy
 permalink: /cfz
 redirect_from: [/corsari,/curiosi-corsari-consapevoli,/zattere]
@@ -19,7 +19,7 @@ excerpt: |
 
 Il muto respiro dei libri penetra l’atmosfera della maestosa soffitta in cui il nostro pensiero fluttua, impregnandosi per osmosi di una subilime curiosità alla quale neppur nolenti sapremmo sfuggire. Non è vero, nota Margherita, in realtà le sfuggiamo troppo spesso: la nostra cupidigia gnoseologica non è stabile, ma un continuo oscillare, o meglio un vibrare, poiché siamo perennemente tesi nel desiderio di conoscenza che riconosciamo essere insaziabile.
 
-Zattere così galleggia, trasportando i propri Curiosi Corsari verso la remota bramata Consapevolezza di ciò che sono e dell’Universo in cui abitano. A differenza dei nostri complementari complici che abitano l’[aula verde] a qualche centinaio di chilometri da qui, se rimanessimo bloccati qui non ce ne accorgeremmo: il nostro corale peregrinare intellettuale va ben oltre la contingenza fisica in cui siamo intrappolati. Sogniamo della vita così intensamente da dimenticare che stiamo vivendo e  
+[Zattere] così galleggia, trasportando i propri Curiosi Corsari verso la remota bramata Consapevolezza di ciò che sono e dell’Universo in cui abitano. A differenza dei nostri complementari complici che abitano l’[aula verde] a qualche centinaio di chilometri da qui, se rimanessimo bloccati qui non ce ne accorgeremmo: il nostro corale peregrinare intellettuale va ben oltre la contingenza fisica in cui siamo intrappolati. Sogniamo della vita così intensamente da dimenticare che stiamo vivendo e  
 nel momento in cui un’esigenza fisiologica ci riporta alla realtà, costringendoci a muoverci verso la toilette, finalmente possiamo accorgerci della bellezza che ci circonda.
 
 Siamo Belli, belli e forti della nostra ignoranza non indolente, armata fino ai denti di un desiderio di scoperta e speranza, siamo e non sono, perché non ci preoccupiamo di cosa voglio ma di cosa vogliamo. Viviamo e studiamo e viviamo riscaldati dal respiro muto dei libri, in una mutuale ricerca della Consapevolezza, quella dannata, che, fatta eccezione per Giulio e Salvatore residenti in Campo Santa Margherita sopra il Fontego urlate <q>CUMPÀ</q> sotto la loro finestra e vi accoglieranno ben lieti di spiegarvi perché sono un’eccezione (parleranno di neuroscienza e biologia e DARWIN, *ermeneuticamente parlando*), dannatissima, dicevamo, più cerchiamo e meno troviamo.
