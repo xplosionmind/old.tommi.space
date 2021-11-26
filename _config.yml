@@ -127,6 +127,9 @@ target-blank:
 graph:
   tree:
     enabled: false
+  path:
+    assets: '/'
+    scripts: '/js'
 
 #markdown: CommonMark
 #commonmark:
