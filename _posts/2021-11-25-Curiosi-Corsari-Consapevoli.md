@@ -10,14 +10,14 @@ image: https://tommi.space/images/zattere.jpg
 description: |
   Cronache da una vita collettiva, ondeggiante in un Universo confuso ma magico.
 excerpt: |
-  Il muto respiro dei libri penetra l’atmosfera della maestosa soffitta in cui il nostro pensiero fluttua, impregnandosi per osmosi di una subilime curiosità alla quale neppur nolenti sapremmo sfuggire. Non è vero, nota Margherita, in realtà le sfuggiamo troppo spesso: la nostra cupidigia gnoseologica non è stabile, ma un continuo oscillare, o meglio un vibrare, poiché siamo perennemente tesi nel desiderio di conoscenza che riconosciamo essere insaziabile.
+  Il muto respiro dei libri penetra l’atmosfera della maestosa soffitta in cui il nostro pensiero fluttua, impregnandosi per osmosi di una sublime curiosità alla quale neppur nolenti sapremmo sfuggire. Non è vero, nota Margherita, in realtà le sfuggiamo troppo spesso: la nostra cupidigia gnoseologica non è stabile, ma un continuo oscillare, o meglio un vibrare, poiché siamo perennemente tesi nel desiderio di conoscenza che riconosciamo essere insaziabile.
 ---
 <figure>
   <img src='{{ page.image }}' alt='Foto davanti a Zattere in una mattina di acqua alta' />
   <figcaption>21 giugno 2021. Una mattina di acqua alta davanti a Zattere</figcaption>
 </figure>
 
-Il muto respiro dei libri penetra l’atmosfera della maestosa soffitta in cui il nostro pensiero fluttua, impregnandosi per osmosi di una subilime curiosità alla quale neppur nolenti sapremmo sfuggire. Non è vero, nota Margherita, in realtà le sfuggiamo troppo spesso: la nostra cupidigia gnoseologica non è stabile, ma un continuo oscillare, o meglio un vibrare, poiché siamo perennemente tesi nel desiderio di conoscenza che riconosciamo essere insaziabile.
+Il muto respiro dei libri penetra l’atmosfera della maestosa soffitta in cui il nostro pensiero fluttua, impregnandosi per osmosi di una sublime curiosità alla quale neppur nolenti sapremmo sfuggire. Non è vero, nota Margherita, in realtà le sfuggiamo troppo spesso: la nostra cupidigia gnoseologica non è stabile, ma un continuo oscillare, o meglio un vibrare, poiché siamo perennemente tesi nel desiderio di conoscenza che riconosciamo essere insaziabile.
 
 [Zattere] così galleggia, trasportando i propri Curiosi Corsari verso la remota bramata Consapevolezza di ciò che sono e dell’Universo in cui abitano. A differenza dei nostri complementari complici che abitano l’[aula verde] a qualche centinaio di chilometri da qui, se rimanessimo bloccati qui non ce ne accorgeremmo: il nostro corale peregrinare intellettuale va ben oltre la contingenza fisica in cui siamo intrappolati. Sogniamo della vita così intensamente da dimenticare che stiamo vivendo e  
 nel momento in cui un’esigenza fisiologica ci riporta alla realtà, costringendoci a muoverci verso la toilette, finalmente possiamo accorgerci della bellezza che ci circonda.
