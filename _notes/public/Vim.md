@@ -1,6 +1,6 @@
 ---
 date: 2021-03-22T12:19:14+01:00
-updated: 2021-05-24T16:20:13+02:00
+updated: 2021-11-26T10:14:35+01:00
 tags: geek/knowledge geek/apps
 aliases: Neovim
 description: The best text editor in the world
@@ -23,6 +23,11 @@ image: https://tommi.space/logos/vim.svg
 ```
 
 <br>
+
+Toggling spell checking
+```vim
+:set spell "nospell
+```
 
 Sometimes, when I activate [spell checking](https://vimtricks.com/p/vimtrick-spell-checking-in-vim/ 'Spell checking in Vim'), I need to change the language, since [my `init.vim` file](https://github.com/xplosionmind/dotfiles/blob/main/.config/nvim/init.vim 'my init.vim') has `set spelllang=it` by default
 ```vim
