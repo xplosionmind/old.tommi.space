@@ -138,6 +138,8 @@ graph:
 
 webmentions:
   username: tommi.space
+  pages: true
+  collections: true
   cache_bad_uris_for: 5
 #  legacy_domains:
 #    - https://www.tommi.space

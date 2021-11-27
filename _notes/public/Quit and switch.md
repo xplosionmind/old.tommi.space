@@ -1,7 +1,7 @@
 ---
 date: 2020-12-05
 updated: 2021-11-16T11:57:56+01:00
-tag: geek zen main
+tag: geek zen
 aliases: Just quit, Choose the alternative, Go alternative, Make the switch
 image: https://tommi.space/images/jar/just-quit.jpg
 description:

@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/aarongustafson/jekyll-webmention_io.git
-  revision: 85c6b7d9a7ebed1e8ba3bba5d8e2ebfe78c3f47d
+  revision: 65efd7dd058b165e39789611ac3021106ec1180b
   specs:
-    jekyll-webmention_io (3.3.5)
+    jekyll-webmention_io (3.3.6)
       htmlbeautifier (~> 1.1)
       jekyll (>= 3.2.0, < 5.0)
       json (~> 2.0)
