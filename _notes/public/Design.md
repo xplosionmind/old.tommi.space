@@ -1,11 +1,12 @@
 ---
 date: 2020-05-12
-updated: 2021-10-25T22:25:18+02:00
+updated: 2021-11-30T11:11:38+01:00
 tags: design
 description: Little insights about the design world
 main: true
 todo:
   - 'Integrate websites with [[Webrings]] and [[Blogroll]] and [[Internet Awesomeness]]'
+  - refactor
 ---
 ## 101
 
@@ -29,6 +30,12 @@ todo:
 <br>
 
 ## Web Design
+
+### CSS
+
+[A repository](/css) collecting CSS snippets I use, in different programs.
+
+<br>
 
 ### Stunning websites
 

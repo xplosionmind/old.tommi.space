@@ -1,6 +1,6 @@
 ---
 date: 2020-12-09
-updated: 2021-11-07T23:51:08+01:00
+updated: 2021-12-07T11:44:10+01:00
 tags: knowledge todo
 aliases: Learn, To learn
 description: What I need / have / would love to learn
@@ -53,6 +53,7 @@ A private list of knowledge I miss about exams I am studying for.
 1. [[Pandoc#To learn]]
 2. Designing websites with Inkscape / Illustrator
 3. [git](https://git-scm.com 'git official website')
+	- [git credentials](https://git-scm.com/docs/gitcredentials)
 	- [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 		- Tania Rascia’s [guide](https://www.taniarascia.com/git-submodules-private-content/)
 1. Learn [Percollate](https://github.com/danburzo/percollate 'percollate on GitHub'): turning web pages into ebooks.

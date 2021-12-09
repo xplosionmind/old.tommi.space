@@ -91,15 +91,15 @@ mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
 
 **on local client**:
 ```sh
-ssh-copy-id xplosionmind@100.100.010.1 -p 5002
+ssh-copy-id tommi@100.100.010.1 -p 5002
 ```
 
 Alternatively:
 ```sh
-scp -P 5002 ~/.ssh/id_rsa.pub xplosionmind@100.100.010.1:~/.ssh/authorized_keys
+scp -P 5002 ~/.ssh/id_rsa.pub tommi@100.100.010.1:~/.ssh/authorized_keys
 ```
 
-Substitute `100.100.010.1` with the server’s IP address, `xplosionmind` with the wanted username, and `5002` with your port
+Substitute `100.100.010.1` with the server’s IP address, `tommi` with the wanted username, and `5002` with your port
 
 #### More information
 
@@ -226,8 +226,8 @@ sudo chmod -R 755 /var/www/cloud.tommi.space
 
 make the (private) directory where all of Nextcloud data will be stored, and change its permissions, too
 ```sh
-mkdir /home/xplosionmind/nextcloud-data
-sudo chown -R www-data:www-data /home/xplosionmind/nextcloud-data/
+mkdir /home/tommi/nextcloud-data
+sudo chown -R www-data:www-data /home/tommi/nextcloud-data/
 ```
 
 <br>
@@ -583,7 +583,7 @@ My version of [the default Docker build](https://github.com/RSS-Bridge/rss-bridg
 ```sh
 sudo docker create \
 --name=rss-bridge \
---volume /home/xplosionmind/whitelist.txt:/app/whitelist.txt \
+--volume /home/tommi/whitelist.txt:/app/whitelist.txt \
 --publish 3001:80 \
 rssbridge/rss-bridge:latest
 ```

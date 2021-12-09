@@ -38,6 +38,8 @@ A schematic log of what I am doing, setting up and maintaining [GiTMI][gitmi]
 1. <time datetime='2021-11-16T08:44:40+01:00'>2021.11.16, 8:44</time> [Finding out](https://mastodon.uno/@tommi/107285620570565058 'My toot after finding out that Fedeproxy is being funded and developed') that forges’ [federation is actually going to happen](https://social.gitea.io/@gitea/107006650861897944 'Gitea’s toot announcing the achievement of a first step towards federation')
 2. <time datetime='2021-11-16T10:17:40+01:00'>2021.11.16, 10:17</time> Impulsively getting [gitmi.dev](https://gitmi.dev 'GiTMI') domain
 3. <time datetime='2021-11-16T10:25:40+01:00'>2021.11.16, 10:25</time> Installing [Gitea][gitea] on [[Server|Xplosion Server]]
+4. Downloading and using [GitTouch] as a mobile client
+5. Solving [connection issues] via client CLI by editing the 
 
 <br>
 
@@ -45,9 +47,8 @@ A schematic log of what I am doing, setting up and maintaining [GiTMI][gitmi]
 
 1. 🚧 Mirror GitHub repositories
 1. 🚧 Migrate GitHub repositories (once federation is fully implemented)
-2. Custom CSS?
+2. [Custom CSS](https://docs.gitea.io/en-us/customizing-gitea/ 'Customizing Gitea - Docs')
 3. Discussions instead of issues?
-4. Mobile client?
 
 <br>
 <br>
@@ -59,9 +60,21 @@ A collection of inspiring and/or useful articles
 - [A forum thread concerning my migration](https://forum.fedeproxy.eu/t/migrating-from-github-to-self-hosted-gitea/ 'Migrating from GitHub to self-hosted Gitea'), on [fedeproxy]’s forum
 - [Migrating to Gitea][rusingh-migration], by [rusingh]
 
+<br>
+<br>
+
+## config
+
+My Gitea configuration file, located in `/opt/gitea/custom/conf/app.ini`
+
+```
+
+```
+
 [fedeproxy]: https://fedeproxy.eu/ 'fedeproxy official website'
 [gitmi]: https://gitmi.dev 'GiTMI homepage'
 [gitea]: https://gitea.com 'Gitea official website'
 [rusingh-migration]: https://rusingh.com/github-codeberg-gitea-migrations/ '“GitHub to Codeberg to… Gitea?„ on Ru Singh’s blog'
 [rusingh]: https://rusingh.com 'Ru Singh’s personal website'
 [mte90-contribute-to-opensource]: https://leanpub.com/contributetoopensource-therightway/ '“Contribute to opensource: the right way„ by Daniele Scasciafratte'
+[GitTouch]: https://github.com/git-touch/git-touch 'git-touch on GitHub'

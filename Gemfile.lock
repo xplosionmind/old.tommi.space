@@ -58,7 +58,7 @@ GEM
       rainbow (~> 3.0)
       typhoeus (~> 1.3)
       yell (~> 2.0)
-    htmlbeautifier (1.4.0)
+    htmlbeautifier (1.4.1)
     http_parser.rb (0.8.0)
     httparty (0.15.7)
       multi_xml (>= 0.5.2)

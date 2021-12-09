@@ -1,6 +1,6 @@
 ---
 date: 2021-09-26T18:23:45+02:00
-updated: 2021-09-26T18:23:45+02:00
+updated: 2021-12-08T14:04:45+01:00
 tags: help geek/idea
 description: A social network based on personal and historical events
 aliases: Timeline development, Timeline, Aby
@@ -53,6 +53,19 @@ Add a timeline like [Jeremy Gordon's](https://jgordon.io "Jeremy Gordon") or [ja
 <br>
 <br>
 
-## Alternative name ideas
+## Naming
+
+Alternative name ideas:
 
 - *Aby*, in honor of [[Aby Warburg]] (see [*Mnemosyne*](https://tommi.space/mnemosyne '“Mnemosyne„ article on tommi.space'))
+
+<br>
+<br>
+
+## Elsewhere
+
+- [Timeline with reelvant dates (object creation/modification/content age)](https://community.anytype.io/t/timeline-with-reelvant-dates-object-creation-modification-content-age/3569), on [Anytype]’s community
+- [Organizing all notes in the graph as a timeline](https://forum.obsidian.md/t/organizing-all-notes-in-the-graph-as-a-timeline/), on [Obsidian]’s forum
+
+[Anytype]: https://anytype.io 'Anytype'
+[Obsidian]: https://obsidian.md 'Obsidian'
