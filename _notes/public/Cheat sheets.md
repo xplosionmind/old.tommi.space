@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07
-updated: 2021-11-22T13:17:04+01:00
+updated: 2021-12-10T17:00:50+01:00
 tags: geek
 aliases: Cheat Sheet, cmd, CLI, Command Line, Terminal
 description:
@@ -73,6 +73,11 @@ find . -type f | wc -l
 [Take a screenshot](https://www.take-a-screenshot.org/ 'ᐅ How to take a screenshot'):
 ```sh
 man screencapture
+```
+
+[Subliminal](https://subliminal.readthedocs.io/en/latest/user/cli.html 'Subliminal documentation')
+```sh
+subliminal --opensubtitles xplosionmind 'z#5Br1&9b7niM~QZ$2hJTkn2gQRReJWy4i8zwuF6Pc1wXA#fVIcykUjb' download -l en La.Casa.de.Papel.S05E10.1080p.WEB-DL.DUAL.5.1.mkv
 ```
 
 <br>

@@ -1,6 +1,6 @@
 ---
 date: 2020-06-25
-updated: 2021-09-09T21:30:20+02:00
+updated: 2021-12-14T13:27:19+01:00
 description: Real and fictional characters who left a mark in me
 redirect_from: [/characters, /personages, /figures, /persone, /personaggi, /figure, /idols, /idoli]
 main: true
@@ -15,7 +15,7 @@ main: true
 
 {% for idol in site.data.people %}
 	<div class='row'>
-		<h2 id='{{ idol.who | slugify }}' class='title'>{{ idol.who }} <a href='#{{ idol.who | slugify }}' class='anchor'>#</a></h2>
+		<h2 class='title'>{{ idol.who }}</h2>
 		<div class='column'>
 			<a href='{{ idol.url }}'  target='_blank'><figure><img src='{{ idol.img }}' title='{{ idol.who }}' alt='An image portraying {{ idol.who }}' /></figure></a>
 		</div>
