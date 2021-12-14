@@ -31,3 +31,4 @@ pandoc -s in.md --citeproc -o out.pdf
 - [Delightful Open Science — tools](https://codeberg.org/teaserbot-labs/delightful-open-science#user-content-tools 'easerbot-labs/delightful-open-science: Curated list of resources, organizations and free software that are supporting the field of open science.'), a repository
 - [Manubot](https://manubot.org 'Manubot')
 - <cite>[The tools and services I used to write, edit and self-publish my book](https://kerkour.com/book-self-publishing-pandoc/ 'The tools and services I used to write, edit and self-publish my book')</cite>, by [Sylvain Kerkour](https://kerkour.com/ 'Sylvain Kerkour’s personal website')
+- I take advantage of [obsidian-citation-plugin](https://github.com/hans/obsidian-citation-plugin 'obsidian-citation-plugin on GitHub') in order to add citations to what I am writing in [Obsidian](https://obsidian.md 'Obsidian')
