@@ -5,7 +5,7 @@
 		{% comment %}
 			<!-- the following script is not working, and probably comments ar not differentiated for every page -->
 			<script async src='https://comments.app/js/widget.js?3' data-comments-app-website='bfg-ZXp6' data-limit='5' data-color='FCC920' data-dark='1'></script>
-		{% endcomment %}
+			<!-- utteranc.es is wonderful, but a GitHub account is needed in order to comment. -->
 		<script src='https://utteranc.es/client.js'
 			repo='xplosionmind/tommi.space'
 			issue-term='title'
@@ -14,9 +14,11 @@
 			crossorigin='anonymous'
 			async>
 		</script>
-		<h2>Webmentions</h2>
-		<div id='webmentions'>
-			{% webmentions page.url %}
-		</div>
+		{% endcomment %}
+		<script defer
+			src='https://bla.tommi.space/js/commento.js'
+			data-no-fonts='true'>
+		</script>
+		<div id='commento'></div>
 	</div>
 {% endif %}
