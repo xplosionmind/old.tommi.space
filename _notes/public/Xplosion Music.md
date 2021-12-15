@@ -1,6 +1,6 @@
 ---
-date: 2020-07-17
-updated: 2021-02-21T14:30:26+01:00
+date: 2020-07-17T02:00:00+02:00
+updated: 2021-12-15T22:39:42+01:00
 tags: draft music
 aliases: Playlist
 description: Soundtracks of my life. The songs which marked my existence and made me who I am.
@@ -160,7 +160,7 @@ I was in my car, driving home. This song popped out from the stereo, it pumped m
 
 ## Cantiere 164, <cite>Stella Cometa</cite>
 
-<p lang='it'>I <a href='https://www.facebook.com/Cantiere164' target='_blank' title='Pagina Facebook dei Cantiere 164'>Cantiere 164</a> sono dei grandi. Ci siamo conosciuti il 30 aprile 2017, quando sono venuti a Sanremo per essere <a href='https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo' target='_blank' title='L’intervista ai Cantiere 164'>intervistati da Radioimmaginaria</a>. Da quel giorno, abbiamo stretto un grande legame di amicizia e stima reciproca, del quale sono molto orgoglioso. Li ho portati a suonare alla <a href='' target='_blank' title=''></a>Teen Parade e sono stati i protagonisti del primo <cite><a href='https://images.tommi.space/index?/category/il-mio-cubo-suona-il-rock' target='_blank' title='Foto di Il mio CUBO Suona il Rock'>Il mio CUBO Suona il Rock</a></cite>.<br />
+<p lang='it'>I <a href='https://www.facebook.com/Cantiere164' target='_blank' title='Pagina Facebook dei Cantiere 164'>Cantiere 164</a> sono dei grandi. Ci siamo conosciuti il 30 aprile 2017, quando sono venuti a Sanremo per essere <a href='https://www.spreaker.com/user/ariaimmaginaria/smo-lavori-in-corso-per-il-titolo' target='_blank' title='L’intervista ai Cantiere 164'>intervistati da Radioimmaginaria</a>. Da quel giorno, abbiamo stretto un grande legame di amicizia e stima reciproca, del quale sono molto orgoglioso. Li ho portati a suonare alla <a href='' target='_blank' title=''></a>Teen Parade e sono stati i protagonisti del primo <cite><a href='https://images.tommi.space/index?/category/il-mio-cubo-suona-il-rock' target='_blank' title='Foto di Il mio CUBO Suona il Rock'>Il mio CUBO Suona il Rock</a></cite>.<br>
 <cite><a href='https://www.youtube.com/watch?v=N1S_QhjhqdY' target='_blank' title='Il videoclip di Stella Cometa'>Stella Cometa</a></cite> è il brano che stavano promuovendo quando ci siamo incontrati e, per quando anche gli altri pezzi siano una forza, per me questo resterà sempre il numero uno.</p>
 
 <br>

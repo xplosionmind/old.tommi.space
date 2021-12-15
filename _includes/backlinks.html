@@ -1,15 +1,15 @@
-<div class="box" id="backlinks">
+<section class='box' id='backlinks'>
 	<h2>Backlinks</h2>
-	<p class="center">
+	<p class='center'>
 		{% if page.lang == 'it' %}
-			Le pagine del sito che contengono un link a questa pagina.<br />
-			Curioso riguardo cosa voglia dire? Leggi <a href="https://it.wikipedia.org/wiki/Backlink"  target="_blank" title="Backlink su Wikipedia">questo articolo</a>.
+			Le pagine del sito che contengono un link a questa pagina.<br>
+			Curioso riguardo cosa voglia dire? Leggi <a href='https://it.wikipedia.org/wiki/Backlink' target='_blank' title='Backlink su Wikipedia'>questo articolo</a>.
 		{% else %}
-			All the pages of this website containing a link to the current page.<br />Curious about what this means? Check <a href="https://en.wikipedia.org/wiki/Backlink"  target="_blank" title="Backlink on Wikipedia">this article</a>.
+			All the pages of this website containing a link to the current page.<br>Curious about what this means? Check <a href='https://en.wikipedia.org/wiki/Backlink' target='_blank' title='Backlink on Wikipedia'>this article</a>.
 		{% endif %}
 	</p>
 
-	{% if jekyll.environment == "production" %}
+	{% if jekyll.environment == 'production' %}
 		{% comment %}+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 		+                                                                      +
 		+      100% Liquid backlinks parser based on pages permalinks.         +
@@ -24,7 +24,7 @@
 				{% unless entry.url contains '.json' or entry.url contains '.csv' or entry.url contains '.css' or entry contains '.txt' or entry.url contains 'home' or entry.url contains 'tuffo' or entry.url contains 'marmellata' or entry.url contains 'jam' or entry.url == page.url %}
 					{% if entry.content contains page.url or entry.content contains current_url_downcase %}
 						<li>
-							<a href="{{ entry.url }}">{{ entry.title }}</a>
+							<a href='{{ entry.url }}'>{{ entry.title }}</a>
 							{% if entry.description %}
 								- {{ entry.description }}
 							{% else %}
@@ -36,7 +36,7 @@
 						{% capture redirect_ %}/{{ redirect }}{% endcapture %}
 						{% if entry.content contains redirect_ %}
 							<li>
-								<a href="{{ entry.url }}">{{ entry.title }}</a>
+								<a href='{{ entry.url }}'>{{ entry.title }}</a>
 								{% if entry.description %}
 									- {{ entry.description }}
 								{% else %}
@@ -55,15 +55,15 @@
 					{% if entry.content contains page.url or entry.content contains current_url_downcase %}
 						{% case collection_name %}
 							{% when 'notes' %}
-							<li><a href="{{ entry.url }}">{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
+							<li><a href='{{ entry.url }}'>{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
 							{% when 'sconnesso' %}
-								<li>🎙️  <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+								<li>🎙️ <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
 							{% when 'posts' %}
-								<li>📖 <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+								<li>📖 <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
 							{% when 'filinge' %}
-								<li>💭 <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+								<li>💭 <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
 							{% else %}
-								<li><a href="{{ entry.url }}">{{ entry.title }}</a> - {{ entry.excerpt | strip_html | truncatewords: 30 }}</li>
+								<li><a href='{{ entry.url }}'>{{ entry.title }}</a> - {{ entry.excerpt | strip_html | truncatewords: 30 }}</li>
 						{% endcase %}
 					{% endif %}
 
@@ -72,15 +72,15 @@
 						{% if entry.content contains redirect_ %}
 							{% case collection_name %}
 								{% when 'notes' %}
-									<li><a href="{{ entry.url }}">{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
+									<li><a href='{{ entry.url }}'>{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
 								{% when 'sconnesso' %}
-									<li>🎙️  <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+									<li>🎙️ <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
 								{% when 'posts' %}
-									<li>📖 <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+									<li>📖 <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
 								{% when 'filinge' %}
-									<li>💭 <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+									<li>💭 <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
 								{% else %}
-									<li><a href="{{ entry.url }}">{{ entry.title }}</a> - {{ entry.description }}</li>
+									<li><a href='{{ entry.url }}'>{{ entry.title }}</a> - {{ entry.description }}</li>
 							{% endcase %}
 						{% endif %}
 					{% endfor %}
@@ -91,4 +91,4 @@
 	{% else %}
 		<code>You are in development environment!</code>
 	{% endif %}
-</div>
+</section>

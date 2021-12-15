@@ -1,6 +1,6 @@
 ---
-date: 2020-06-04
-updated: 2020-07-03
+date: 2020-06-04T02:00:00+02:00
+updated: 2021-12-15T22:39:42+01:00
 aliases: Compagni di viaggio
 lang: it
 description: Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi.
@@ -16,7 +16,7 @@ Sapete bene tutti quanto io sia appassionato, quasi ossessionato, dalle storie: 
 ## Occhiali
 
 Ho ereditato da mio papà una forte sensibilità alla luce, quindi raramente sono senza un paio di occhiali da sole addosso. Molti di quelli che non mi conoscono, ne fanno esclusivamente una questione di stile, ma non è del tutto così: c’è una base di necessità.
-<br />
+<br>
 
 ### I primi antenati
 
@@ -34,7 +34,7 @@ Disperato, sono andato a cercare di nuovo il modello su ebay. 738$.
 
 [I miei occhiali, dopo qualche anno, su ebay]({{ site.images}}/2018-01-07-broken-sunglasses.jpg)
 
-<br />
+<br>
 
 ### I Blackfin
 
@@ -62,7 +62,7 @@ Risparmio le mie urla di esaltazione e non potrei comunque esprimere i salti di 
 
 I Blackfin sono occhiali geniali, con montatura in titanio ultrasottile e ultraleggera, estremamente robusti e flessibili. Nonostante questo, il mio classico ipercinetismo è comunque riuscito a rompere una stanghetta. Dopo alcuni mesi di utilizzo, ha cominciato a piegarsi, poi si è rotta. Fui così costretto a lasciarli in un cassetto, finchè, a novembre di quest’anno, non mi sono trasferito a Torino per l’università, riuscendo così a trovare un rivenditore ufficiale Blackfin e farli riparare. Giacciono ora custoditi religiosamente nella loro custodia, da cui non sono più stati estratti per evitare altri irreparabili danni.
 
-<br />
+<br>
 
 ### La dinastia Oakley
 
@@ -82,14 +82,14 @@ Filò tutto liscio per un po’ di tempo, ma, proprio quando abbassai la guardia
 
 Fu la fine della dinastia *Oakley*.
 
-<br />
+<br>
 
 ### Ritorno al Futuro
 
 Santa Nonna Gogò tornò subito in campo. Per il mio diciannovesimo compleanno, andammo, per l’ennesima volta, in negozio. Questa fase, quella attuale che si spera duri ancora per molto, si chiama *Ritorno al Futuro* non per caso. *Ritorno*, perché torno alla prima generazione di marca di occhiali; *futuro*, perché il modello che ho scelto è quello dei [Ray-Ban Meteor](https://www.ray-ban.com/italy/occhiali-da-sole/RB2168%20UNISEX%20008-meteor%20classic-nero/8053672994674?category_Id=1687953), che ha uno stile simile a quello dei classici Wayferer, ma con un tocco di novità che gli dà un che di sofisticato e dà un’aria da regista a chi li indossa. Io li ho scelti proprio per quello, in quell’estate stavamo finendo di girare [*Everyone*](/everyone-it).
 
-<br />
-<br />
+<br>
+<br>
 
 ## TBoom Pen
 

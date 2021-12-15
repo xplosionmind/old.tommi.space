@@ -25,26 +25,26 @@ perché non la conosco abbastanza, o meglio, non conosco sufficienti
 trucchi per sedurla, solleticarla, smuoverla e farla uscire fuori.
 Perché non sono capace, non riesco a farla vibrare come Jimi Hendrix
 riesce suonando ogni singola nota. Non riesco a modellare una frase e
-farla scivolare naturalmente dall'inchiostro della penna, o farla
-apparire magicamente sul mio display esattamente come l'ho pensata. Lo
+farla scivolare naturalmente dall’inchiostro della penna, o farla
+apparire magicamente sul mio display esattamente come l’ho pensata. Lo
 faccio lo stesso, però. Scrivo, e sbaglio, e metto le "e" dopo la
 virgola, e utilizzo termini letterari o invento forme sintattiche
 complesse solo per ovviare alla mia mancanza, sbagliando. Invece non
 muore, anzi cresce, sempre più importante e rispettata crescendo
 esponenzialmente la mia ammirazione per ciò che nasce da tutto questo
 pasticcio. Quello che viene fuori dalle parole, quelle che compongono
-l'essenza della nostra comunicazione e sono l'essenza di noi stessi. Le
+l’essenza della nostra comunicazione e sono l’essenza di noi stessi. Le
 parole sono chi siamo. Poterle leggere, sapere trovare quelle giuste,
 associarle e confonderle con maestria è un'arte che deve perdere
 automatismo e meccanicità, ma acquistare consapevolezza ed entusiasmo.
-L'entusiasmo, la benzina del lettore selvaggio che smette di curarsi
+L’entusiasmo, la benzina del lettore selvaggio che smette di curarsi
 delle formalità e ignora totalmente tutti i crucci che ho esposto finora
-perché strappato dalla totale venerazione dell'effetto stupefacente che
+perché strappato dalla totale venerazione dell’effetto stupefacente che
 anche solo una decina di pagine possono avere su di lui. Finché un
 lettore rimarrà selvaggio, appassionato, disperatamente attaccato ai
 suoi libri ed ai suoi mondi paralleli che sarà incapace di abbandonare
 per il resto della propria vita, io potrò evitare di preoccuparmi di
-come racconto le mie cavolate, ma avrò sempre l'obbligo di mostrare il
+come racconto le mie cavolate, ma avrò sempre l’obbligo di mostrare il
 massimo rispetto e continuare ad amare coloro che mi permettono di farle
 uscire dalla stupida illusione della mia testa renderle vere, per tutti:
 le parole.

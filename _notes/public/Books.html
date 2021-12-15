@@ -22,7 +22,7 @@ todo:
 	{% for book in site.data.library %}
 		{% if book.isbn %}
 			<a id='{{ book.title | slugify }}' href='https://openlibrary.org/isbn/{{ book.isbn }}' target='_blank' title='{{ book.title }} in the Open Library'>
-				<img src='https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg?default=false' alt='{{ book.title }}' title='{{ book.title }}' />
+				<img src='https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg?default=false' alt='{{ book.title }}' title='{{ book.title }}'>
 		{% else %}
 			<a id='{{ book.title | slugify }}' href='javascript:void(0)' title='{{ book.title }}'>
 				<div>

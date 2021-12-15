@@ -1,6 +1,6 @@
 ---
-date: 2021-03-29T05:44:07.934195+02:00
-updated: 2021-03-29T05:44:07.934195+02:00
+date: 2021-03-29T05:44:07+02:00
+updated: 2021-12-15T22:39:42+01:00
 tags: geek/apps
 ---
 ## Cheat Sheet
@@ -19,7 +19,7 @@ exiftool -s -G
 
 <div class="blue box">
 	<strong><code>-s</code></strong> is used to show the names in ExifTool commands format. <i>e.g.: instead of "Create Date" you see "CreateDate"</i>
-	<br />
+	<br>
 	<strong><code>-G</code></strong> is used to show the metadata Group to which the metadata tag belongs.
 </div>
 
@@ -56,7 +56,7 @@ exiftool '-FileName<CreateDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 	<b><code>-r</code></b> makes the analysis <i>recursive</i>: subfolders are scanned, too.
 </div>
 
-<br />
+<br>
 
 ### Directories
 

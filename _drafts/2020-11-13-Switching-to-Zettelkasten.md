@@ -8,7 +8,7 @@ This is bad, and it is the symptom of a broader problem, which is how I relate w
 
 After this long premise to frame the context of this article and my feelings prior to its conclusion, I will get to the point.
 
-I believe the most relevant problem, which makes everything else harder, if not impossible, is the case of **knowledge management**. I have [a dedicated item](/knowledge "Knowlegde") in [*The Jam*](/jam "The Jam") containing a few insights about the topic, to which up to now I did not pay much attention. Now, it is time to start using a great, brilliant system: **Zettelkasten**. More on the system later, let's focus of my current note-taking workflow, my necessities and my purpose.
+I believe the most relevant problem, which makes everything else harder, if not impossible, is the case of **knowledge management**. I have [a dedicated item](/knowledge "Knowlegde") in [*The Jam*](/jam "The Jam") containing a few insights about the topic, to which up to now I did not pay much attention. Now, it is time to start using a great, brilliant system: **Zettelkasten**. More on the system later, let’s focus of my current note-taking workflow, my necessities and my purpose.
 
 <div class="box">
 note: I am writing this post <i>while</i> performing the transition, so what I am keeping note of is helpful also to me, in order to understand my actual needs and scopes.
@@ -48,7 +48,7 @@ Before diving-in the Zettelkasten switch process, allow me to point out my needs
 1. **Portability**: I need to <u>access to everything everywhere, anytime</u>. (actually, accessing stuff from my phone and my computer would be enough, but logging to cloud.tommi.space from any device and editing something on the go would not be bad)
 1. **Privacy**: ideally, I need to have <u>in the same place</u> both private and public notes.
 1. **Compatibility**: Jekyll uses Kramdown, Zettlr uses mainly Pandoc, and it is not clear what Joplin uses: there are a ton of flavors of Markdown, and even more rendering engines. I want to be able to <u>make use of the same features everywhere</u>; I may just adapt to the CommonMark standard, but it lacks features which are very important to me, such as the ability to add classes to any paragraph without using HTML, which, among the ones listed before, only Kramdown has.
-1. **Conversion**: let's be honest: I can say Markdown is simple and wonderful as much as I want, but, outside the geeks circle, almost nobody knows it. I want to be able to <u>quickly convert any of my notes</u>, mainly in `.pdf`, `.docx`, `.odt` and `.html`; I can do this with Pandoc, of course, but I want it to be <u>as painless and seamless as possible</u>.
+1. **Conversion**: let’s be honest: I can say Markdown is simple and wonderful as much as I want, but, outside the geeks circle, almost nobody knows it. I want to be able to <u>quickly convert any of my notes</u>, mainly in `.pdf`, `.docx`, `.odt` and `.html`; I can do this with Pandoc, of course, but I want it to be <u>as painless and seamless as possible</u>.
 1. **Versatility**: from this point of view, I am very demanding. My aim is to come up with a method capable of including different content formats on different devices: I would love to be able to link notes I write by pen on my notebook, as well as voice notes recorded on my phone, and be able to reference them in my markdown files.
 1. **Simplicity**: if I need to share some content with somebody, or to suggest my system to a friend, it has to be <u>powerful and complete, yet simple and easy</u> to understand.
 1. **Metadata**   
@@ -67,12 +67,12 @@ The system which checks most if not all of the boxes is [Zettelkasten](https://e
 
 ### Drawbacks
 
-- It's hard to abandon the beloved and evergreen **folder structure**:   
+- It’s hard to abandon the beloved and evergreen **folder structure**:   
 for Zettelkasten to be effective, you need to loosen the rigid structure used by folders. A better explanation of why and how is in [this medium post](https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6)
 - Zettelkasten [**can be dangerous**](https://medium.com/@nickmilo22/my-pkm-story-3763985b7a3e) and counter-productive:   
 you have to manage your knowlegde in the right way, which is not the *only* way. If you don't care about the effectiveness of your system and filling it with random stuff, it may blow up.
 
-First of all, let's point out that the best app created up to now with a specific focus on Zettelkasten is [Obsidian](https://obsidian.md). It's very recent and it has a few controversies, especially about the fact that it's independently developed but not open source, but most importantly that is uses a propietary formatting and reference system using `[[` and `]]` as internal links delimiters. Nevertheless, we're focusing on the system, not the app. With a few adaptations, the software may also change, in the future.
+First of all, let’s point out that the best app created up to now with a specific focus on Zettelkasten is [Obsidian](https://obsidian.md). It’s very recent and it has a few controversies, especially about the fact that it’s independently developed but not open source, but most importantly that is uses a propietary formatting and reference system using `[[` and `]]` as internal links delimiters. Nevertheless, we are focusing on the system, not the app. With a few adaptations, the software may also change, in the future.
 
 ### Moving out of previous systems
 

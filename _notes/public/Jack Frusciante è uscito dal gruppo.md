@@ -1,6 +1,6 @@
 ---
-date: 2020-05-11
-updated: 2020-12-23
+date: 2020-05-11T02:00:00+02:00
+updated: 2021-12-15T23:24:39+01:00
 tags: reading/book
 lang: it
 permalink: /jack-frusciante
@@ -59,9 +59,9 @@ redirect_from: ["/jack-frusciante-note", "/jack-frusciante-notes", "/jack-frusci
 - Henry Rollins Band, `p. 109`
 - Doors - Libra (“It’s the strangest life I’ve ever known”)
 - Sunnyside of The Street, `p. 114`
-- The Smiths - There's a Light That Never Goes Out, `p. 115`
+- The Smiths - There’s a Light That Never Goes Out, `p. 115`
 - Morrissey, `p. 116`
-- We're The Flowers, `p. 116`
+- We are The Flowers, `p. 116`
 - In The Dustbin, `p. 116`
 - Cineclub Lumière, `p. 117`
 - Versione disco remix di Holidays in Cambodia dei Dead Kennedys, `p. 118`

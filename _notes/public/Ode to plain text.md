@@ -1,11 +1,12 @@
 ---
-date: 2020-12-31
+date: 2020-12-31T01:00:00+01:00
 updatd: 2020-12-31
 tags: geek zen
 aliases: Plain text, KISS
 permalink: /plain-text
 redirect_from: ['/ode-to-plain-text']
 toc: false
+updated: 2021-12-15T23:16:20+01:00
 ---
 I'm not a developer, but I’m a geek.
 
@@ -18,7 +19,7 @@ Most of the time, the answer is the same:\
 
 What plain text is and how does it work [I leave it to Wikipedia](https://en.wikipedia.org/wiki/Plain_text 'Plain text on Wikipedia'), allow me to focus on how wonderful it is.
 
-There's nothing much to point out, to be honest, it's *plain clear* how cool plain text files are: why exploiting complicated, different, useless-feature packed software to achieve what can be done by using a simple text file?
+There’s nothing much to point out, to be honest, it’s *plain clear* how cool plain text files are: why exploiting complicated, different, useless-feature packed software to achieve what can be done by using a simple text file?
 
 - Stop creating playlists on Spotify, just copy and paste links in a plain text file.
 - Stop archiving articles in Pocket or read-it-later apps: a text file with a list of links would do!

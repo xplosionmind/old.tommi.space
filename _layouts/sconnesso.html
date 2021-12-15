@@ -1,44 +1,63 @@
 ---
 layout: wrapper
 ---
-<link class="p-author h-card" rel="author" class="p-name" href="/about" content="{{ site.author.name }}" />
-
-<div class="h-entry one column">
-	<div class="page-header row">
-		<a class="u-uid" href="{{ page.url }}"><h1 class="p-name">{{ page.title }}</h1></a>
-		<p>Episodio {{ page.episode }}, <time class="dt-published" datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time></p>
+<main class='h-entry one column'>
+	<div class='page-header row'>
+		<a class='u-uid u-url' href='{{ page.url }}'><h1 class='p-name'>{{ page.title }}</h1></a>
+		<p class='last-modified'>
+			{% if page.location != nil %}
+				{% for place in site.data.places %}
+					{% if place.name contains page.location %}
+						<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+			<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{% include date-it.html %}</time>
+			 — Episodio {{ page.episode }}
+		</p>
+<a class='p-author h-card' rel='author' href='/about'>{{ site.author.name }}</a>
 	</div>
 
 	{% include post-tags.html %}
 
-	<div class="row">
-		<article class="e-content">
+	<div class='row'>
+		<article class='e-content'>
 
 			<audio controls preload='auto'>
 				<source src='{{ page.audio }}'>
 			</audio>
 
-			{% include anchor-parser.html html=content anchorBody="#" anchorClass="anchor" %}
+			{% capture content_with_ids %}
+				{% include anchor-parser.html html=content anchorClass='anchor' generateId=true %}
+			{% endcapture %}
 
+			{% if page.toc %}
+				<div id='toc'>
+					<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+					{% include toc.html html=content_with_ids %}
+				</div>
+			{% endif %}
+			{{ content_with_ids }}
 		</article>
 	</div>
 
-</div>
+</main>
 
-<div class="row">
-	<div class="half column">
+<div class='row'>
+	<div class='half column'>
 		{% include share.html %}
 	</div>
-	<div class="half column">
+	<div class='half column'>
 		{% include listen-on.html %}
+		{% include webmentions.html %}
 	</div>
 </div>
 
-<div class="row">
-	<div class="half column">
+<div class='row'>
+	<div class='half column'>
 		{% include backlinks.html %}
 	</div>
-	<div class="half column">
+	<div class='half column'>
 		{% include comments.html %}
 	</div>
 </div>

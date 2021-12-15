@@ -10,7 +10,7 @@ After configuring my [[Server]] as written in [[Server setup]], me and my friend
 
 So one night we backed up all of my data on the server, we completely wiped it clean, and we reinstalled Ubuntu 20.04 from scratch. After doing this, we reinstalled everything through Docker.
 
-Actually, it's quite useless to thoroughly write and explain all of the steps to do this since there are some very well written guides which I'll link below.
+Actually, it’s quite useless to thoroughly write and explain all of the steps to do this since there are some very well written guides which I'll link below.
 
 - [Initial server setup](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04 'Initial Server Setup with Ubuntu 20.04')
 - [How to install and use Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04 'How to install and use Docker on Ubuntu 20.04')

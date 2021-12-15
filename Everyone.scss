@@ -58,24 +58,24 @@ p {
 }
 
 .embed-container {
-  --video--width: 1920;
-  --video--height: 1080;
+	--video--width: 1920;
+	--video--height: 1080;
 
-  position: relative;
-  padding-bottom: calc(var(--video--height) / var(--video--width) * 100%);
-  overflow: hidden;
-  max-width: 100%;
-  background: transparent;
+	position: relative;
+	padding-bottom: calc(var(--video--height) / var(--video--width) * 100%);
+	overflow: hidden;
+	max-width: 100%;
+	background: transparent;
 }
 
 .embed-container iframe,
 .embed-container object,
 .embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .mosaic {

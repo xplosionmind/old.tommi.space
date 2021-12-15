@@ -1,6 +1,6 @@
 ---
-date: 2020-08-04
-updated: 2021-11-14T16:58:02+01:00
+date: 2020-08-04T02:00:00+02:00
+updated: 2021-12-15T22:39:42+01:00
 tags: geek
 permalink: /bugs
 redirect_from: [/feature-requests, /bugs-and-feature-requests]
@@ -178,7 +178,7 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 - multiple simultaneous note editing
 - **MOBILE ONLY**: when clicking on reminder's notification, go to the reminder in question
 - Notebook pinning
-- `<br />` shortcut
+- `<br>` shortcut
 - Join the *Common Mark* standard
 - don’t create the `_resources` folder when exporting a note which hasn't any attachments
 - Toggle an automatic table of content creation

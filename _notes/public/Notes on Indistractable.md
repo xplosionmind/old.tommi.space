@@ -1,6 +1,6 @@
 ---
-date: 2020-12-13
-updated: 2021-02-04T13:56:31.274310+01:00
+date: 2020-12-13T01:00:00+01:00
+updated: 2021-12-15T23:17:12+01:00
 tags: reading/book/wip
 toc: false
 ---
@@ -13,8 +13,8 @@ p.7
 
 From Plato's <cite><a href="https://classics.mit.edu/Plato/phaedrus.html">Phaedrus</a></cite>: Socrates points out that the written word <q cite="Socrates">forgetfulness in the learners’ soul</q>
 
-The first, main and primary cause of distraction is not themore immediate one, the one intuitively linked to our activity, but it's much deeper, and it lies in our response:\
-> Distraction, it turns out, isn't about the distraction itself; rather, it's about how we respond to it.
+The first, main and primary cause of distraction is not themore immediate one, the one intuitively linked to our activity, but it’s much deeper, and it lies in our response:\
+> Distraction, it turns out, isn't about the distraction itself; rather, it’s about how we respond to it.
 
 p.25
 

@@ -1,6 +1,6 @@
 ---
-date: 2020-06-10
-updated: 2021-06-11T10:06:34+02:00
+date: 2020-06-10T02:00:00+02:00
+updated: 2021-12-15T22:39:42+01:00
 tags: cinema wip csvfy
 aliases: Movies
 description: After watching these movies and series, I was not the same anymore.
@@ -13,7 +13,7 @@ todo:
 ---
 ## <cite lang='it'>Santa Maradona</cite>
 
-<p lang='it'>Santa Maradona è il mio film preferito.<br />
+<p lang='it'>Santa Maradona è il mio film preferito.<br>
 Tutto il mio amore per questo film è in “[[Santa Maradona]]„</p>
 
 ## Favorites

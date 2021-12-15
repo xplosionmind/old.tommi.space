@@ -1,4 +1,4 @@
-<div class='box'>
+<section class='box'>
 	<h2>🏗 WIP section 🛠</h2>
 	<p>{% if page.lang == 'it' %}
 		Questa sezione dovrebbe contenere uno splendido grafico che mostra le relazioni fra questa pagina e tutte le altre su <a href='/tuffo' target='_blank' title='tommi.space'>tommi.space</a>, ma include capacità di programmazione elevate e ancora <a href='/development#roadmap' hreflang='en' target='_blank' title='tommi.space development roadmap'>ci sto lavorando</a>.
@@ -9,10 +9,10 @@
 		import JekyllGraph from '/js/jekyll-graph.js';
 		export default class GraphNav extends JekyllGraph {
 			constructor() {
-    			super();
+				super();
 				this.drawNetWeb();
 			}
 		}
 	</script>
 	<div id='jekyll-graph'></div>
-</div>
+</section>

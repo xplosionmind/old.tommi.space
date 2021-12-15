@@ -1,6 +1,6 @@
 ---
-date: 2020-07-03
-updated: 2021-06-02T09:40:17+02:00
+date: 2020-07-03T02:00:00+02:00
+updated: 2021-12-15T23:17:13+01:00
 tags: geek/apps
 description: |
   I consider myself a Firefox power user: I love it and I take full advantage of its features. Here’s how I do it.
@@ -53,7 +53,7 @@ A record of all the tweaks I made in Firefox `about:config` page
 
 - [x] `privacy.resistFingerprinting` = `true` - A result of the Tor Uplift effort, this preference makes Firefox more resistant to browser fingerprinting.
 - [ ] `privacy.resistFingerprinting.letterboxing` = `true` so letterboxing is used to hide real browser size.
-- [x] `privacy.trackingprotection.enabled` = `true` - This is Mozilla's new built-in tracking protection. One of it's benefits is blocking tracking (i.e. Google Analytics) on privileged pages where add-ons that usually do that are disabled.
+- [x] `privacy.trackingprotection.enabled` = `true` - This is Mozilla's new built-in tracking protection. One of it’s benefits is blocking tracking (i.e. Google Analytics) on privileged pages where add-ons that usually do that are disabled.
 - [ ] `dom.event.clipboardevents.enabled` = `false` - Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.
 - [ ] `media.eme.enabled` = `false` - Disables playback of DRM-controlled HTML5 content, which, if enabled, automatically downloads the Widevine Content Decryption Module provided by Google Inc. Details
 	- [ ] `media.gmp-widevinecdm.enabled` = `false` - Disables the Widevine Content Decryption Module provided by Google Inc., used for the playback of DRM-controlled HTML5 content.
@@ -79,7 +79,7 @@ A record of all the tweaks I made in Firefox `about:config` page
 - [x] `browser.safebrowsing.downloads.remote.enabled` = `false` - Prevents Firefox from sending information about downloaded executable files to Google Safe Browsing to determine whether it should be blocked for safety reasons. [Details](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work#w_what-information-is-sent-to-mozilla-or-its-partners-when-phishing-and-malware-protection-are-enabled)
 - [x] `network.IDN_show_punycode` = `true` - Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. [Source](https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636)
 - [ ] `network.trr.bootstrapAddress` = `149.112.112.112` (Resolver 2 of [Quad9](https://quad9.net/)) -  DNS server to use for resolving the DoH name.
-- [ ] `media.peerconnection.enabled` = `false` - While software like NoScript prevents this, it's probably a good idea to block this protocol directly as well, just to be safe. Note: This <u>disables browser-based call functionality that is used for webapps</u>
+- [ ] `media.peerconnection.enabled` = `false` - While software like NoScript prevents this, it’s probably a good idea to block this protocol directly as well, just to be safe. Note: This <u>disables browser-based call functionality that is used for webapps</u>
 - [x] `services.sync.prefs.sync.privacy.trackingprotection.enabled` = `true`
 - [x] `dom.gamepad.extensions.lightindicator` = `true` - seems like a cool thing to do
 - [x] `dom.gamepad.extensions.multitouch` = `true` - seems like another cool thing to do

@@ -11,11 +11,11 @@ Questo, perdonatemi, casino rende ancora più arduo il compito di chi accetta l�
 
 Di solito, c’è un buco, o meglio, [un *dognut*](https://youtu.be/AQPXDVXr47I): o tutti i piccoli frammenti ci sono, e rendono la trama frizzante e piccante al punto giusto da costituire un thriller degno di tale nome, oppure ci sono empatia, gioia, tremenda disperazione, e rimangono negli occhi degli spettatori tante lacrime quanti punti interrogativi. Non accade quasi mai che entrambi riescano a convivere, qualcosa manca sempre, la ciambella ha un vuoto in mezzo.
 
-<br />
+<br>
 
 [***Knives Out***](https://www.imdb.com/title/tt8946378/) colma ogni possibile vuoto, armonizzando con la rara maestria di [Rian Johnson](https://www.imdb.com/name/nm0426059/) tensione e dolcezza (a proposito di ciambelle), *involvement* e *feelings*.
 
-Il giorno in cui ho guardato [*Match Point*](https://www.imdb.com/title/tt0416320/) è stigmatizzato nella mia memoria come il giorno in cui per la prima volta nella mia vita ho veramente ***capito*** un film. Woody Allen c’era quasi arrivato. Un’ampia contestualizzazione del movente, un sorprendente ma non banale delitto, una ben oliata macchina di informazioni che non stonano affatto, di cui avevo finalmente capito il significato: la lettura di Delitto e Castigo (e i sottili tratti psicologici in comune fra Chris e [Raskol'nikov](https://it.wikipedia.org/wiki/Rodion_Romanovi%C4%8D_Raskol%27nikov)), l’anello, il diario, le metafore tennistiche, l’opera, la famiglia.
+Il giorno in cui ho guardato [*Match Point*](https://www.imdb.com/title/tt0416320/) è stigmatizzato nella mia memoria come il giorno in cui per la prima volta nella mia vita ho veramente ***capito*** un film. Woody Allen c’era quasi arrivato. Un’ampia contestualizzazione del movente, un sorprendente ma non banale delitto, una ben oliata macchina di informazioni che non stonano affatto, di cui avevo finalmente capito il significato: la lettura di Delitto e Castigo (e i sottili tratti psicologici in comune fra Chris e [Raskol’nikov](https://it.wikipedia.org/wiki/Rodion_Romanovi%C4%8D_Raskol%27nikov)), l’anello, il diario, le metafore tennistiche, l’opera, la famiglia.
 
 Mi sto perdendo a scrivere di *Match Point* quando non è l’argomento di questo articolo e a cui avrei dovuto dedicare un pensiero a tempo debito. Tornando a noi:
 

@@ -1,6 +1,6 @@
 ---
-date: 2020-06-04
-updated: 2021-10-30T18:48:30+02:00
+date: 2020-06-04T02:00:00+02:00
+updated: 2021-12-15T22:39:42+01:00
 tags: track
 permalink: /oggetti
 aliases: Oggetti
@@ -39,7 +39,7 @@ Disperato, sono andato a cercare di nuovo il modello su ebay. 738$.
 
 ![I miei occhiali, dopo qualche anno, su ebay](/images/2018-01-07-broken-sunglasses.jpg 'I miei occhiali, dopo qualche anno, su ebay')
 
-<br />
+<br>
 
 ### I Blackfin
 
@@ -85,14 +85,14 @@ Filò tutto liscio per un po’ di tempo, ma, proprio quando abbassai la guardia
 
 Fu la fine della dinastia *Oakley*.
 
-<br />
+<br>
 
 ### Ritorno al Futuro
 
 Santa Nonna Gogò tornò subito in campo. Per il mio diciannovesimo compleanno, andammo, per l’ennesima volta, in negozio. Questa fase, quella attuale che si spera duri ancora per molto, si chiama *Ritorno al Futuro* non per caso. *Ritorno*, perché torno alla prima generazione di marca di occhiali; *futuro*, perché il modello che ho scelto è quello dei [Ray-Ban Meteor](https://www.ray-ban.com/italy/occhiali-da-sole/RB2168%20UNISEX%20008-meteor%20classic-nero/8053672994674?category_Id=1687953), che ha uno stile simile a quello dei classici Wayferer, ma con un tocco di novità che gli dà un che di sofisticato e dà un’aria da regista a chi li indossa. Io li ho scelti proprio per quello, in quell’estate stavamo finendo di girare [*Everyone*](/everyone-it).
 
-<br />
-<br />
+<br>
+<br>
 
 ## TBoom Pen
 
@@ -140,7 +140,7 @@ Ricordare <cite>Jarvis</cite> è doloroso, perché è stato brutalmente smarrito
 <cite>Jacala I</cite> è una sottile Moleskine dalla copertina nera, acquistato presso la libreria Toletta a Venezia, il <time datetime='2021-10-14T15:34:31+02:00'>14 Ottobre 2021</time>. Prende il nome dall’[omonimo coccodrillo](https://it.wikipedia.org/wiki/Personaggi_de_Il_libro_della_giungla#Jacala 'Jacala nella lista dei personaggi de Il libro della giungla, su Wikipedia'), personaggio de <cite><a href='https://it.wikipedia.org/wiki/Il_libro_della_giungla' target='_blank' title='“Il libro della giungla„ su Wikipedia'>Il libro della giungla</a></cite> di [Kipling](https://it.wikipedia.org/wiki/Rudyard_Kipling 'Rudyard Kipling su Wikipedia').
 
 <div class='row'>
-<figure class='half column'><a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'><img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080113-cf44e5b4-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen' /></a>
+<figure class='half column'><a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'><img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080113-cf44e5b4-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'></a>
 </figure>
-<figure class='half column'><a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'><img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080128-36817480-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen' /></a></figure>
+<figure class='half column'><a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'><img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080128-36817480-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'></a></figure>
 </div>

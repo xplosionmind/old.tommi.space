@@ -1,6 +1,6 @@
 ---
-date: 2020-10-27
-updated: 2020-10-27
+date: 2020-10-27T01:00:00+01:00
+updated: 2021-12-15T23:17:12+01:00
 tags: zen draft
 aliases: Slots
 redirect_from: ['/time', '/time-management', '/moduli']
@@ -10,7 +10,7 @@ toc: false
 todo:
   - merge with slots
 ---
-Slots are simply **time slots**: half or full hours which I totally dedicate to something. If a new, different thing pops up in my mind, I write it down to remember it, but I get to it only when it's the time to commit to the related slot.
+Slots are simply **time slots**: half or full hours which I totally dedicate to something. If a new, different thing pops up in my mind, I write it down to remember it, but I get to it only when it’s the time to commit to the related slot.
 
 The Slot Philosophy is awesome because slots can be rearranged everyday, and their accomplishment can be tracked through [[Self tracking]] apps such as [Loop Habit Tracker](https://loophabits.org) (which is the one I use).
 

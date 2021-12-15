@@ -1,6 +1,6 @@
 ---
-date: 2020-12-05
-updated: 2021-10-26T11:14:35+02:00
+date: 2020-12-05T01:00:00+01:00
+updated: 2021-12-15T23:17:12+01:00
 tags: geek
 aliases: Quitting Flickr, Quit Flickr
 description: Thoughts and decisions about quitting Flickr and switching to Piwigo
@@ -28,7 +28,7 @@ Why quitting [Flickr](https://www.flickr.com 'Flickr') and choosing [Piwigo](htt
 
 1. Start the 30 days free trial of Piwigo
 2. Install [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr2Piwigo plugin page') plugin and follow [this guide](https://piwigo.com/blog/2013/05/21/import-from-flickr-to-piwigo2/ 'Import from Flickr to Piwigo - Piwigo blog') to import all of the pictures which are stored on Flickr.
-	1. What is not noted in the blog post is that <u>the process is sloooow but stable</u>, even though it's better than I expected; on Flickr I had 17452 photos and it took me ~18 hours to import two thirds of them.
+	1. What is not noted in the blog post is that <u>the process is sloooow but stable</u>, even though it’s better than I expected; on Flickr I had 17452 photos and it took me ~18 hours to import two thirds of them.
 	2. After this, the process got stuck and I believe it was because the server was too stressed. So, I stopped for a few hours.
 	3. For several days I attempted to continue the import, but there are the last ~1000 pictures which are mysteriously stuck and I couldn't find any way to import them through the plugin. I opened [an issue](https://github.com/mistic100/Flickr2Piwigo/issues/58 '“Import stuck”, issue in Flickr2Piwigo repository on GitHub') about this.
 
@@ -69,7 +69,7 @@ https://images.tommi.space/plugins/download_by_size/action.php?id=16172&part=e&s
 
 ## Feature requests
 
-- ~~One thing I am still trying to figure out is how to make more pictures appear for a gallery page. They are too few and it's really complicated to modify the size of the thumbnail to make them look nice~~. ✅ 2021.01.07 it is sufficient to go in the settings page of the user in question and change the value of “number of photos per page”
+- ~~One thing I am still trying to figure out is how to make more pictures appear for a gallery page. They are too few and it’s really complicated to modify the size of the thumbnail to make them look nice~~. ✅ 2021.01.07 it is sufficient to go in the settings page of the user in question and change the value of “number of photos per page”
 - Server/photos backup
 
 <br>

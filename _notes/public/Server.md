@@ -1,6 +1,6 @@
 ---
-date: 2020-03-21
-updated: 2021-03-16T18:51:34+01:00
+date: 2020-03-21T01:00:00+01:00
+updated: 2021-12-15T23:17:12+01:00
 tags: geek/server draft
 main: true
 aliases: Xplosion Server
@@ -37,9 +37,9 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 	- to install it, I followed this super simple and quick [guide](https://dev.to/phiilu/host-your-own-openvpn-server-in-a-few-seconds-73l "Host Your own OpenVPN Server in a few seconds - DEV")
 - ~~[PolitePol](https://github.com/taroved/pol), transform any webpage in a RSS feed - ✅ 2020.01.01~~.
 	- it doesn't work on Twitter or Instagram
-	- **It's stupid**: [RSS bridge](https://github.com/RSS-Bridge/rss-bridge "RSS Bridge on GitHub") is much more stable, cool, and effective.
+	- **It’s stupid**: [RSS bridge](https://github.com/RSS-Bridge/rss-bridge "RSS Bridge on GitHub") is much more stable, cool, and effective.
 	- **uninstalled**
-- [RSS bridge](https://github.com/RSS-Bridge/rss-bridge "RSS Bridge on GitHub"), apparently, a more common, effective and popular alternative to PolitePol. It's now running at <http://167.86.82.148:3001> ✅ 2021.01.24, [[Server setup#RSS-Bridge|setup]]
+- [RSS bridge](https://github.com/RSS-Bridge/rss-bridge "RSS Bridge on GitHub"), apparently, a more common, effective and popular alternative to PolitePol. It’s now running at <http://167.86.82.148:3001> ✅ 2021.01.24, [[Server setup#RSS-Bridge|setup]]
 
 <br>
 <br>

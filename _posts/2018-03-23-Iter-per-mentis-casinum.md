@@ -7,7 +7,7 @@ Premetto che segue un articolo estremamente personale, oserei quasi dire egoista
 Forse nemmeno è un articolo, è più il flusso di pensieri che sta tormentando me e condizionando la mia stessa esistenza {posso sembrare esagerato e temo di esserlo effettivamente, ma non sto enfatizzando: è così} non solo durante questo viaggio in bus interminabile, con meraviglioso bianco panorama bavarese, ascoltando musica africana (<a href="https://youtu.be/bmXvpuseXWU"  target="_blank">Expensive Shit</a>) di Fela Kuti in questo momento), ma da qualche mese a questa parte.
 
 <figure>
-  <img class="u-photo" src="{{ page.image }}" alt="uno scorcio del paesaggio tedesco" />
+  <img class="u-photo" src="{{ page.image }}" alt="uno scorcio del paesaggio tedesco">
   <figcaption>uno scorcio del paesaggio tedesco</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ Derivano di conseguenza pensieri più strettamente connessi alla società attual
 
 FALSO.
 
-L'unico giudizio esatto che potreste avere di me è che sono pazzo. Ergo, se non sapete chi sono, se non so chi sono {postulando che non sapere cosa si vuole può essere inteso come non sapere chi si è}, cosa devo fare? Pasqua è vicina e non posso negare che le riflessioni e le messe della Quaresima aiutino, tuttavia continuo a non capire.
+L’unico giudizio esatto che potreste avere di me è che sono pazzo. Ergo, se non sapete chi sono, se non so chi sono {postulando che non sapere cosa si vuole può essere inteso come non sapere chi si è}, cosa devo fare? Pasqua è vicina e non posso negare che le riflessioni e le messe della Quaresima aiutino, tuttavia continuo a non capire.
 
 Ho scritto identità pubblica e **social**: sono due cose collegate? _Nefas scire_, dice Orazio. In ogni caso, se l'unico obiettivo a cui mi sento davvero di puntare è quello di compiere una qualche **rivoluzione** o fare la svolta, devo capire dove cavolo andranno a finire i social. Ci sono tutti, ci sono miliardi di visualizzazioni, di condivisioni, di profili, di pagine, ma soprattutto di video. Poiché quest'ultimo è l'ambito al quale presto più attenzione, non posso negare che in particolare stia soffrendo troppo la commercializzazione (che è un termine limitato e non rende al meglio ciò che intendo esprimere) di ogni contenuto visivo sul web. Per fare la svolta occorre dunque rimanere dentro al "mondo dei social" e condizionarlo in maniera originale dall'interno o uscirne e fare riscoprire all'umanità che può essere social in altri modi? {sto generalizzando, ma non raccontiamoci balle: chi più chi meno, nessuno è davvero in grado di non essere social al 100%}
 

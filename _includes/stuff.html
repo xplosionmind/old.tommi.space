@@ -1,25 +1,25 @@
 {% assign stuff = site.data.stuff | sort: 'current' %}
 {% for thing in stuff %}
 	{% if page.lang == 'it' %}
-		<div class="box row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-			<div class="half column vertical flex">
-				<img src="{{ site.images }}/stuff/{{ thing.title | slugify }}.jpg" title="{{ thing.alt-it }}" alt="{{ thing.alt-it }}" />
+		<div class='box row' style='color: {{ thing.color }}; background: {{ thing.background }}' id='{{ thing.title | slugify }}'>
+			<div class='half column vertical flex'>
+				<img src='{{ site.images }}/stuff/{{ thing.title | slugify }}.jpg' title='{{ thing.alt-it }}' alt='{{ thing.alt-it }}'>
 			</div>
-			<div class="half column vertical flex">
-				<img class="stuff-logo" src="{{ site.logos }}/stuff/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
+			<div class='half column vertical flex'>
+				<img class='stuff-logo' src='{{ site.logos }}/stuff/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
 				<p>{{ thing.description-it | markdownify }}</p>
-				<a href="{{ thing.link }}"  target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button-it }}</a>
+				<a href='{{ thing.link }}'  target='_blank' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button-it }}</a>
 			</div>
 		</div>
 	{% else %}
-		<div class="box row" style="color: {{ thing.color }}; background: {{ thing.background }}" id="{{ thing.title | slugify }}">
-			<div class="half column vertical flex">
-				<img src="{{ site.images }}/stuff/{{ thing.title | slugify }}.jpg" title="{{ thing.alt }}" alt="{{ thing.alt }}" />
+		<div class='box row' style='color: {{ thing.color }}; background: {{ thing.background }}' id='{{ thing.title | slugify }}'>
+			<div class='half column vertical flex'>
+				<img src='{{ site.images }}/stuff/{{ thing.title | slugify }}.jpg' title='{{ thing.alt }}' alt='{{ thing.alt }}'>
 			</div>
-			<div class="half column vertical flex">
-				<img class="stuff-logo" src="{{ site.logos }}/stuff/{{ thing.logo }}" alt="{{ thing.title }} logo" title="{{ thing.title }}" />
+			<div class='half column vertical flex'>
+				<img class='stuff-logo' src='{{ site.logos }}/stuff/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
 				<p>{{ thing.description | markdownify }}</p>
-				<a href="{{ thing.link }}"  target="_blank" class="written button" style="color: {{ thing.background }}; background: {{ thing.color }};">{{ thing.button }}</a>
+				<a href='{{ thing.link }}'  target='_blank' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button }}</a>
 			</div>
 		</div>
 	{% endif %}

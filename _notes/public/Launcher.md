@@ -1,6 +1,6 @@
 ---
-date: 2020-05-30
-updated: 2020-08-07
+date: 2020-05-30T02:00:00+02:00
+updated: 2021-12-15T22:39:42+01:00
 tags: geek
 toc: false
 description: Every geek worth to be called so has a custom launcher. This is the story of how I changed my preferred one for my first time, after several years.
@@ -24,7 +24,7 @@ Here’s the launchers (in alphabetical order):
 
 I’ll dig more in depth to understand how they works and which one suits my needs in the best way and I’ll come back in a few days with my verdict.
 
-<br />
+<br>
 
 <p class='date'>1<sup>st</sup> June 2020</p>
 
@@ -49,7 +49,7 @@ Gimme a KISS.
 
 Bye
 
-<br />
+<br>
 
 <p class='date'>7<sup>th</sup> August 2020</p>
 

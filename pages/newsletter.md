@@ -24,10 +24,10 @@ Rock’n’roll!
   onsubmit="window.open('https://buttondown.email/tommi', 'popupwindow')"
   class="flex"
 >
-  <input type="email" placeholder="scrivi qui la tua email" name="email" id="bd-email" />
-  <input type="hidden" value="1" name="embed" />
-  <input type="hidden" name="tag" value="tommi.space" />
-  <input class="blue written button" type="submit" value="Iscriviti" />
+  <input type="email" placeholder="scrivi qui la tua email" name="email" id="bd-email">
+  <input type="hidden" value="1" name="embed">
+  <input type="hidden" name="tag" value="tommi.space">
+  <input class="blue written button" type="submit" value="Iscriviti">
 </form>
 
 <br>

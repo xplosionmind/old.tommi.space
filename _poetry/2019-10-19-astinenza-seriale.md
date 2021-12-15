@@ -28,6 +28,6 @@ quello che inverte la gravità
 così ci siamo seduti sul soffitto  
 e finalmente abbiamo potuto guardare Netflix.
 
-<br />
+<br>
 
 T 

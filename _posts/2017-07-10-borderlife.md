@@ -4,7 +4,7 @@ tags:
   - radioimmaginaria
 image: "/images/posts/2017-07-10-borderlife-3.jpg"
 ---
-<figure><img class="u-photo" src="{{ page.image }}" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" /></figure>
+<figure><img class="u-photo" src="{{ page.image }}" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso"></figure>
 <!--more-->
 Ho 16 anni, quasi 17, è estate, sono contento di essere in vacanza e me la godo.
 
@@ -26,25 +26,25 @@ Tuttavia, sono ottimista: sento che un giorno, qualcuno di quelli che si vedono 
 
 Noi siamo fortunati, noi possiamo fare qualcosa, dobbiamo farci sentire, **dobbiamo amare**! Noi siamo adolescenti, noi possiamo essere ascoltati. Loro sono gente in gamba simpatica, solo molto sfortunata. Invidio loro solamente una cosa, sanno giocare a calcio troppo meglio di me.
 
-<br />
-<br />
+<br>
+<br>
 
 P.S.: la mia amica Anna, che è venuta con me per qualche giorno, ha scritto qualcosa di più profondo ed importante che dovete leggere, [qui](rivieratime.news/qual-futuro-dellumanita-vive-al-ponte/ "Qual è il futuro dell’umanità che vive sotto al ponte?").
 
 <figure>
-<img src="{{ site.post-images }}/2017-07-10-borderlife-1.jpg" />
-<br />
-<img src="{{ site.post-images }}/2017-07-10-borderlife-2.jpg" />
-<br />
-<img src="{{ site.post-images }}/2017-07-10-borderlife-3.jpg" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso" />
-<br />
-<img src="{{ site.post-images }}/2017-07-10-borderlife-4.jpg" />
-<br />
-<img src="{{ site.post-images }}/2017-07-10-borderlife-5.jpg" />
-<br />
-<img src="{{ site.post-images }}/2017-07-10-borderlife-6.jpg" />
-<br />
-<img src="{{ site.post-images }}/2017-07-10-borderlife-7.jpg" />
-<br />
-<img src="{{ site.post-images }}/2017-07-10-borderlife-8.jpg" />
+<img src="{{ site.post-images }}/2017-07-10-borderlife-1.jpg">
+<br>
+<img src="{{ site.post-images }}/2017-07-10-borderlife-2.jpg">
+<br>
+<img src="{{ site.post-images }}/2017-07-10-borderlife-3.jpg" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso">
+<br>
+<img src="{{ site.post-images }}/2017-07-10-borderlife-4.jpg">
+<br>
+<img src="{{ site.post-images }}/2017-07-10-borderlife-5.jpg">
+<br>
+<img src="{{ site.post-images }}/2017-07-10-borderlife-6.jpg">
+<br>
+<img src="{{ site.post-images }}/2017-07-10-borderlife-7.jpg">
+<br>
+<img src="{{ site.post-images }}/2017-07-10-borderlife-8.jpg">
 </figure>

@@ -1,6 +1,6 @@
 ---
-date: 2020-03-21
-updated: 2021-01-28T12:22:55+01:00
+date: 2020-03-21T01:00:00+01:00
+updated: 2021-12-15T23:17:13+01:00
 tags: geek/server
 aliases: Server configuration, VPS configuration
 redirect_from: [/server-configuration,/serversetup,/server-setup,/server-config]
@@ -107,7 +107,7 @@ Substitute `100.100.010.1` with the server’s IP address, `tommi` with the want
 - [Linode’s tutorial](https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/ 'Use SSH Public Key Authentication on Linux, macOS, and Windows - Linode') on the topic
 - 
 
-<br />
+<br>
 
 ### SSH port
 
@@ -155,7 +155,7 @@ install [git](https://git-scm.com/ 'git official website')
 apt install git
 ```
 
-<br />
+<br>
 
 ### Install zsh
 
@@ -189,8 +189,8 @@ enable zsh syntax highlighting
 echo 'source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 ```
 
-<br />
-<br />
+<br>
+<br>
 
 ## Nextcloud
 
@@ -328,7 +328,7 @@ unzip nextcloud-18.0.4.zip
 
 <br>
 
-### Install Let's Encrypt
+### Install Let’s Encrypt
 
 [<span id='certbot'>Certbot</span>](https://certbot.eff.org 'Certbot by EFF') will be use to establish a secure connection to the instance. To make things simple, it’s the one which makes an unencrypted `http://` connection magically become an encrypted `https://` connection
 
@@ -411,7 +411,7 @@ systemctl restart apache2
 - wait for the domain to propagate (it could take up to 48 hours)
 - go to `cloud.example.com`, where you should get this page:
 
-<figure><img src='https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg' alt='Nextcloud first setup page' title='Nextcloud first setup page' /><figcaption>Nextcloud first setup page</figcaption></figure>
+<figure><img src='https://www.itzgeek.com/wp-content/uploads/2019/06/Install-Nextcloud-on-RHEL-8-%E2%80%93-Setup-Nextcloud.jpg' alt='Nextcloud first setup page' title='Nextcloud first setup page'><figcaption>Nextcloud first setup page</figcaption></figure>
 
 <div class='yelow box'>
 	<u><strong>Do not</strong> insert any data</u> in the dialogue page above until connection is encrypted with <code>https://</code>. To obtain a SSL Certificate, thus an encrypted connection, follow the next step.
@@ -600,7 +600,7 @@ My `whitelist.txt` file:
 
 ### Customization
 
-What's the real issue, to my surprise, wasn't get RSS-Bridge up and running as much as <u>making it actually work</u>.\
+What’s the real issue, to my surprise, wasn't get RSS-Bridge up and running as much as <u>making it actually work</u>.\
 Below I collected some articles useful to sort thing out.
 
 - [Reconnecting the Web with RSS-Bridge](https://webworxshop.com/reconnecting-the-web-with-rss-bridge/ 'Reconnecting the Web with RSS-Bridge')

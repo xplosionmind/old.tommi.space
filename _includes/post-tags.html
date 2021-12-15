@@ -1,11 +1,11 @@
-<div class="flex row">
+<section class='flex row'>
 	{% for tagg in site.data.tags %}
 		{% for present in page.tags %}
 			{% capture tag %}{{ tagg.title | downcase | slugify }}{% endcapture %}
 			{% capture post-tag %}{{ present | downcase | slugify }}{% endcapture %}
 			{% if post-tag contains tag %}
-				<a href="/tags#{{ tag }}" rel="tag" class="{{ tag }} smaller written button p-category">{{ tagg.title }}</a>
+				<a href='/tags#{{ tag }}' rel='tag' class='{{ tag }} smaller written button p-category'>{{ tagg.title }}</a>
 			{% endif %}
 		{% endfor %}
 	{% endfor %}
-</div>
+</section>

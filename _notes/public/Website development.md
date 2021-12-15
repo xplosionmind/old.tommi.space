@@ -1,8 +1,8 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2021-12-15T13:41:56+01:00
+updated: 2021-12-16T00:04:57+01:00
 tags: meta geek/web
-aliases: Development, tommi.space, Development Roadmap, Website todo
+aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
 redirect_from: [/development-roadmap,/roadmap,/wip,/issues,/improvements,/dev,/website-development,/tommi.space]
 main: true
@@ -14,9 +14,6 @@ created: 2021-12-15T01:25:49+01:00
 
 ![[Writing#Website]]
 
-<br>
-<br>
-
 ## Roadmap
 
 ### v1
@@ -25,21 +22,11 @@ created: 2021-12-15T01:25:49+01:00
 	- which ones are tagged `main`
 	- description, image, content
 	- consistency and effective cross-referencing
-1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, looping through the last few pages updated recently (based on `page.updated`)
 2. 🏗 [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
-1. [Self-hosted analytics](https://stats.tommi.space 'My self-hosted analytics service')
-13. Give a consistent framework to all lists [[CSVfy]]
-1. Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
-18. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ 'W3Schools HowTos')
-1. better TOC positioning and spacing
-1. [[Typography]] improvements
-1. [Reading progress bar](https://css-tricks.com/fun-viewport-units/#getting-weird 'Fun viewport units - CSS Tricks')
-
-<br>
 
 ### v2
 
-1. Consider witching to [Eleventy](https://11ty.dev '11ty')
+1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, looping through the last few pages updated recently (based on `page.updated`)
 1. Fast, simple and light full text search
 	- [Lunr](https://lunrjs.com 'Lunr')
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr 'jekyll-lunr on GitHub')
@@ -50,10 +37,9 @@ created: 2021-12-15T01:25:49+01:00
 	- including aliases in the search
 	- search for tags specifically
 	- combination of search elements
+1. [Self-hosted analytics](https://stats.tommi.space 'My self-hosted analytics service')
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
 14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 'jekyll-paginate on GitHub') and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ 'jekyll-csv on GitHub')
-
-<br>
 
 ### v3
 1. Configure and implement [[Indie Web]]
@@ -70,8 +56,6 @@ created: 2021-12-15T01:25:49+01:00
 8. [[The Jam]]: Preview a note when hovering on link
 3. [Watchlog](https://github.com/xplosionmind/data/blob/main/watchlog.csv 'watchlog.csv on GitHub') implementation
 
-<br>
-
 ### v4
 
 - get CSVs from URLs with JavaScript instead of buildtime (pseudo [[Nolan]] implementation)
@@ -80,10 +64,9 @@ created: 2021-12-15T01:25:49+01:00
 - [Generative Art](https://generativeartistry.com 'Generative artistry')
 	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/ 'Zander Martineau')
 
-<br>
-
 ### further improvements
 
+- [Reading progress bar](https://css-tricks.com/fun-viewport-units/#getting-weird 'Fun viewport units - CSS Tricks')
 - Join [xxiivv Webring](https://github.com/XXIIVV/webring 'XIIVV Webring on GitHub')
 - Remove JavaScript
 	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle') - 2021-06-15 <b class='bug'>bug</b>: if `input` is before `body`, it is automatically moved inside by the browser
@@ -110,8 +93,6 @@ created: 2021-12-15T01:25:49+01:00
 - Consider sticking the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com 'Humane Tech') and [Victoria Drake](https://victoria.dev)
 - Consider switching to [Hugo](https://gohugo.io 'Hugo')
 
-<br>
-
 ### page-specific improvements
 
 <ul>
@@ -136,11 +117,10 @@ created: 2021-12-15T01:25:49+01:00
 {% endfor %}
 </ul>
 
-<br>
-<br>
-
 ## Done
 
+- ✅ <time datetime='2021-12-16T00:06:34+01:00'>2021-12-16</time> Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
+- ✅ <time datetime='2021-12-16T00:05:15+01:00'>2021-12-16</time> better TOC positioning and spacing
 - ✅ <time datetime='2021-12-15T01:24:54+01:00'>2021-12-15</time> ~~[Self-hosted comments](https://www.taniarascia.com/add-comments-to-static-site/ 'Roll Your Own Comment System for a Static Site') service~~ Switched from [utteranc.es](https://utteranc.es 'Utterances') (that needed an authentication and it was GitHub-based) to a [self-hosted](https://bla.tommi.space 'Tommi’s comments') [Commento](https://commento.io 'Commento official website') instance.
 - ✅ 2021-10-30 Month translation in Italian pages
 - Join [weird-wide-webring](https://weirdwidewebring.net/ 'Weird Wide Webring') ✅ 2021-09-26
@@ -155,10 +135,10 @@ created: 2021-12-15T01:25:49+01:00
 	- show only parent/main tags and notes ✅ 2021.01.16
 	- an unstyled simple bullet point list ✅ 2021.01.16
 - Add [`humans.txt`](http://humanstxt.org 'humans.txt') ✅ 2021.01.17
-- In [Books](/books) add IDs to every row corresponding to the title of the book (I posted [a question about this on the Jekyll forum](https://talk.jekyllrb.com/t/table-data-id-in-tablerow-loop/5398)) (done but to be improved: IDs are generated for every `td`, I think it's necessary to use a for loop instead of a `tablerow` loop). ✅ 2020.12.31
+- In [Books](/books) add IDs to every row corresponding to the title of the book (I posted [a question about this on the Jekyll forum](https://talk.jekyllrb.com/t/table-data-id-in-tablerow-loop/5398)) (done but to be improved: IDs are generated for every `td`, I think it’s necessary to use a for loop instead of a `tablerow` loop). ✅ 2020.12.31
 - `text-shadow` CSS property in titles and in `a:hover` ✅ 2020.12.30
 - Use more Emojis ✅ 2020.12.30
-- Thumbnails in Zibaldone's feed ✅ 2020.12.30
+- Thumbnails in Zibaldone’s feed ✅ 2020.12.30
 - **Get rid of jQuery**: it’s used just in one case and it’s not worth it: downloading it takes around 1.5s of the website loading time. Use pure JavaScript instead ✅ 2020-12-25 **FINALLY** !
 - `{% raw %}{% if page.tags contains 'draft' %}{% endraw %}` print a banner indicating that the page misses something ✅ 2020-12-25
 - Use `@import` to add fonts instead of linking their CSS reference files in HTML ✅ 2020.12.25
@@ -208,7 +188,7 @@ created: 2021-12-15T01:25:49+01:00
 - input fields styling
 - Language selection straight from landing page - 2020.09.11
 - language switch
-- `letter-spacing` and `word spacing` (it's nice as it is)
+- `letter-spacing` and `word spacing` (it’s nice as it is)
 - light/dark mode switch button (I'm deep and dark / I'm bright and shiny)
 - list of belonging tags at the top of the post page
 - Make [about](/about) a page

@@ -18,7 +18,7 @@ Quella nell'aula verde del Politecnico di Torino è l'avanguardia dell'umanità.
 Uno, nel frattempo, sempre quello scemo a cui batte il cuore, nota che la ragazza al suo fianco si è addormentata. Così. Ha chiuso il portatile, incrociato le braccia sul tavolo, e ci ha sprofondato la fronte in mezzo. Quello a sinistra di lei impreca. Non dice nulla ma uno che lo sta guardando può dirlo osservando i suoi occhi roteare con furia e le sue labbra stringersi, probabilmente per un esercizio che sta svolgendo da mezz'ora ma continua a risultare errato, con una piccolissima discrepanza nella radice. Dietro sta un cinese che se fosse in qualunque altro posto indosserebbe una mascherina e verrebbe guardato un po' male, ora. Nell'aula verde, però, sono tutti troppo impegnati a superare gli esami per pensare di poterlo guardare storto. Più in là una ragazza sta guardando un video su YoTube, beh, una pausa concediamogliela. Un tipo decisamente nerd, dall'altra parte del tavolo, con un accento napoletano scambia alcune parole un po' in francese, un po' in inglese con un negretto dal volto ingenuo che non si è mai tolto quel cappellino con cui è entrato questa mattina alle sette.
 
 <figure>
-	<img class="u-photo" src="{{ page.image }}" alt="l’aula verde" title="l’aula verde" />
+	<img class="u-photo" src="{{ page.image }}" alt="l’aula verde" title="l’aula verde">
 	<figcaption>pensa te se uno deve farsi guardare male facendo una figura imbarazzante mettendosi a scattare una foto per il suo stupido blog in mezzo all’aula verde</figcaption>
 </figure>
 
@@ -65,15 +65,15 @@ Fiuu, non c’è problema.
 
 C’è bisogno accada molto peggio perché due ingegneri sconosciuti si parlino.
 
-<br />
+<br>
 
 ### Alcune note
 
 - Sono molto migliorato, con le parentesi! Che gioia, sono molte meno e più brevi! La seconda gioia più bella di oggi dopo l'asciuga mani.
-- Su Spotify ho aggiunto alcune playlist di genere: <a href="https://open.spotify.com/playlist/3qDRvzxctHpIJHkQkfh4iw?si=h55YC_wKQnWJkMy--7AqrA"  target="_blank">colonne sonore</a>, <a href="https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6?si=MvQdPWo0RZm6-fuojJ9qkA"  target="_blank">classica</a>, <a href="https://open.spotify.com/playlist/5RLKmuPGMLXNEYjsiX1jcQ?si=PLE_KOL9TIe3Y7cFhw8q0A"  target="_blank">jazz</a> (ancora un po' scarna) e poi <a href="https://youtu.be/18EmOXEsmlw"  target="_blank">**È USCITO L'ALBUM DEI GREEN DAY**</a>.
+- Su Spotify ho aggiunto alcune playlist di genere: <a href="https://open.spotify.com/playlist/3qDRvzxctHpIJHkQkfh4iw?si=h55YC_wKQnWJkMy--7AqrA"  target="_blank">colonne sonore</a>, <a href="https://open.spotify.com/playlist/6HoYKPeXi13rNZF9ppraP6?si=MvQdPWo0RZm6-fuojJ9qkA"  target="_blank">classica</a>, <a href="https://open.spotify.com/playlist/5RLKmuPGMLXNEYjsiX1jcQ?si=PLE_KOL9TIe3Y7cFhw8q0A"  target="_blank">jazz</a> (ancora un po' scarna) e poi <a href="https://youtu.be/18EmOXEsmlw"  target="_blank">**È USCITO L’ALBUM DEI GREEN DAY**</a>.
 - Sto preparando un articolo di quelli seri, che per scriverli ci si mette un po' e sono anche dettagliati e precisi. Riguarda la tecnologia e come senza rendercene conto regaliamo la nostra identità digitale in cambio di servizi gratuiti che salvano ogni nostra azione, in particolare Google.
 - Dall'ultima volta che ho scritto è passato meno tempo della media. Mi dispiace. Scusate prometto che cerco di essere meno assillante e più cose che scrivo tenerle per me senza pubblicarle.
 
-<br />
+<br>
 
 Un abbraccio.

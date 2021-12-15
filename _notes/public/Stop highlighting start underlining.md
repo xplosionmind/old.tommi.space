@@ -1,6 +1,6 @@
 ---
-date: 2020-12-11T00:00:00.000Z
-updated: 2021-01-09T18:37:33+01:00
+date: 2020-12-11T01:00:00+01:00
+updated: 2021-12-15T23:16:20+01:00
 title: Stop highlighting, start underlining
 tags: zen wit reading
 toc: false
@@ -29,7 +29,7 @@ This is more a matter of [[Design]]. In general, I prefer when there are less co
 
 ## Styling
 
-An appendix for techies: as you may have noticed, underlined text in this website is a bit darker (or brighter, if you are in light mode) than the text. This is because <u>I love when the underlining is subtle an simple</u>. I did this by using a very nice CSS property: [`text-decoration-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style 'text-decoration-style on MDN'). In this website's CSS I set it up like this:
+An appendix for techies: as you may have noticed, underlined text in this website is a bit darker (or brighter, if you are in light mode) than the text. This is because <u>I love when the underlining is subtle an simple</u>. I did this by using a very nice CSS property: [`text-decoration-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style 'text-decoration-style on MDN'). In this website’s CSS I set it up like this:
 
     /* Instead of using a weaker grey, I decreased the opacity of the original text color, instead */
     * {

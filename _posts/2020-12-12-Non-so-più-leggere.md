@@ -19,7 +19,7 @@ Ancora più preoccupante è il fattore riguardante la memoria, l'acquisizione e 
 Penso —lasciandomi distrarre— che fra poche ore non sarò in grado di ricostruire quello che ho appena letto, né tantomeno di ripeterlo. Sono dilaniato da una crisi di cui io stesso sono causa, disperato da una pressante instancabile spinte verso l'ignoranza, che è la mia massima preoccupazione.
 
 <figure>
-	<img class="u-photo"  src="{{page.image}}" title="Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018" alt="Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018" />
+	<img class="u-photo"  src="{{page.image}}" title="Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018" alt="Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018">
 	<figcaption>
 		Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018
 	</figcaption>
@@ -27,7 +27,7 @@ Penso —lasciandomi distrarre— che fra poche ore non sarò in grado di ricost
 
 Scrivo, ma non so leggere. Scrivo, ma non so rileggere e capire quello che ho scritto, intuendo il significato delle mie parole solamente ricordandomi di averle minuziosamente cercate e scelte. Non so rispondermi nel chiedermi se la frase che ho appena digitato ha un senso, non so definire –conseguentemente non so seguire gli standard di— una grammatica istintiva che non saprei spiegare.
 
-L'allarmante panorama finora descritto si aggrava ulteriormente, divenendo quasi catastrofico, quando si tratta di inglese, che *dovrebbe essere* la lingua che più utilizzo (leggendo, scrivendo, ascoltando) tutti i giorni. Mi perdo a rileggere per svariati minuti proposizioni che non so *scegliere* di capire. Mind you: non è un problema della lingua in sé, né una questione di complessità dei periodi, né tantomeno di contenuti. Si tratta lettura. (punto).
+L’allarmante panorama finora descritto si aggrava ulteriormente, divenendo quasi catastrofico, quando si tratta di inglese, che *dovrebbe essere* la lingua che più utilizzo (leggendo, scrivendo, ascoltando) tutti i giorni. Mi perdo a rileggere per svariati minuti proposizioni che non so *scegliere* di capire. Mind you: non è un problema della lingua in sé, né una questione di complessità dei periodi, né tantomeno di contenuti. Si tratta lettura. (punto).
 
 {% comment %}
 	Vorrei quasi presentarmi all'esame che fra sei giorni dovrei sostenere e assistere al triste e grottesco episodio che conseguirebbe al mio scrivere sul foglio d'esame <q>I couldn't study because I don't know how to read anymore</q>. Sarei curioso di scoprire cosa accadrebbe se istituissi un collettivo universitario —dato che ce n'è troppo pochi (senza alcuna critica ai miei adorabili amici che fanno parte di collettivi, vvb)— dedicato al ri-apprendimento dell'antica, fuori moda, complicata arte della lettura.
@@ -36,7 +36,7 @@ L'allarmante panorama finora descritto si aggrava ulteriormente, divenendo quasi
 {% comment %}
 Sarebbe interessante scrivere un libro sull'incapacità di leggere. Il libro più inutile del mondo: il suo pubblico corrisponde esattamente ad una popolazione incapace di fruire del mezzo scelto.  
 Quasi più assurdo sarebbe farne un podcast, come per dire <q>tranquillo, se non sai più leggere, almeno sai ancora ascoltare</q>.  
-L'apoteosi dell'incredulità sarebbe però ricevere anche questa volta quei pochi messaggi che, dopo che pubblico qualcosa, mi fanno gioire il cuore per settimane; solitamente recitano: <q>Tommmiiiiiiii è davvero bello il tuo ultimo articolo, mi ci ritrovo un sacco</q>. Avete saputo leggere, e avete capito, allora è una gran cavolata. **Sfido** i due tre lettori di queste parole a farlo. Anzi, vi prego, fatelo, alla condizione che mi lasciate pubblicare la conversazione conseguente.  
+L’apoteosi dell'incredulità sarebbe però ricevere anche questa volta quei pochi messaggi che, dopo che pubblico qualcosa, mi fanno gioire il cuore per settimane; solitamente recitano: <q>Tommmiiiiiiii è davvero bello il tuo ultimo articolo, mi ci ritrovo un sacco</q>. Avete saputo leggere, e avete capito, allora è una gran cavolata. **Sfido** i due tre lettori di queste parole a farlo. Anzi, vi prego, fatelo, alla condizione che mi lasciate pubblicare la conversazione conseguente.  
 Se avessi un campione di lettori più ampio potrei sperare di ricevere comunque un commento o un messaggio, non perché ho sfidato a farlo, ma perché veramente il mittente non ha capito dove sta l'assurdità della questione, dimostrando dunque di non saper leggere e aggregandosi insieme a me alla schiera infernale degli analfabeti.
 {% endcomment %}
 
@@ -47,7 +47,7 @@ Dovrei chiedere di ripetermi *summa brevitate* alcuni passaggi relativamente spe
 Mi manca essere studente ingegnere, e lamentarmi del fatto che formule e calcoli non sono nella mia indole, ma conoscendo almeno il significato di numeri, formule, assiomi, dimostrazioni con cui avrei a che fare tutti i giorni.
 {% endcomment %}
 
-L'ultimo mezzo freddo e macchinoso che ho per capire ciò che leggo sono gli elenchi puntati. La loro schematicità supera la mia incapacità di elaborare espressioni prosaiche e arrivano dritti alla mia testa, salvandomi dalla privazione di conoscenza alla quale tanto incoerentemente aspiro. Peccato che gli elenchi puntati siano il primo passo [verso il più vacuo analfabetismo](/quit-listing).
+L’ultimo mezzo freddo e macchinoso che ho per capire ciò che leggo sono gli elenchi puntati. La loro schematicità supera la mia incapacità di elaborare espressioni prosaiche e arrivano dritti alla mia testa, salvandomi dalla privazione di conoscenza alla quale tanto incoerentemente aspiro. Peccato che gli elenchi puntati siano il primo passo [verso il più vacuo analfabetismo](/quit-listing).
 
 Non ho inventato nulla: davvero mi trovo in questa sorprendente, scomoda e piuttosto critica. Non sono però letteralmente un analfabeta, né sono patologicamente incapace di leggere: non mi è completamente impossibile attribuire un significato a quello che leggo. Il mio problema è molto più sottile, subdolo e perciò potenzialmente più venefico: ho perso la dote di lettura profonda che mi pregiavo di possedere, che arricchisce e nutre la mente dei nobili di spirito, ho smarrito (sto smarrendo) la capacità di andare oltre l'esplicito ed immergermi negli oscuri dell'implicito, del sottinteso, negli abissi bui dei diversi campi semantici, che possono essere illuminati solo con la bellezza di ciò che è lasciato all'interpretazione del lettore.
 

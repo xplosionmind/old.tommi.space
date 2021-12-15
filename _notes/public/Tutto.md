@@ -1,6 +1,6 @@
 ---
-date: 2020-02-04
-updated: 2021-10-06T15:18:05+02:00
+date: 2020-02-04T01:00:00+01:00
+updated: 2021-12-15T22:39:42+01:00
 tags: wip log csvfy
 aliases: Cose extended, Tutte le cose, Stuff extended, Di tutto e di più, Done, Fatto
 lang: it
@@ -41,7 +41,7 @@ Alcuni link fra i seguenti potrebbero essere protetti da password oppure non agg
 				 — {{ cosa.notes }}
 			{% endif %}
 			{% if cosa.data %}
-				<br />risorse: {{ cosa.data }}
+				<br>risorse: {{ cosa.data }}
 			{% endif %}
 		</li>
 	{% endfor %}

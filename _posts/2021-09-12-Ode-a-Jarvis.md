@@ -13,7 +13,7 @@ description: Triste addio ad un insostituibile compagno di viaggio, nonché acce
 <q>Il pensiero di un uomo nasce innanzitutto dalla sua nostalgia</q>, mi legge Valeria, mentre, accarezzati dai *Giardini raggio di Sole* a Verona esploriamo le genialità pensate da [Albert Camus](https://it.wikipedia.org/wiki/Albert_Camus 'Albert Camus su Wikipedia') e da lui conservate ne <cite><a href='https://it.wikipedia.org/wiki/Il_mito_di_Sisifo' target='_blank' title='“Il mito di Sisifo„ su Wikipedia'>Il mito di Sisifo</a></cite>.
 
 <figure>
-	<img class='u-photo' src='{{ page.image }}' title='Valeria immortalata mentre mi legge Camus con venerazione' alt='Valeria che legge, seduta su una panchina dei Giardini raggio di Sole, a Verona' />
+	<img class='u-photo' src='{{ page.image }}' title='Valeria immortalata mentre mi legge Camus con venerazione' alt='Valeria che legge, seduta su una panchina dei Giardini raggio di Sole, a Verona'>
 	<figcaption>Valeria immortalata mentre mi legge Camus con venerazione</figcaption>
 </figure>
 
@@ -34,13 +34,13 @@ Se <a href='/self-editor' target='_blank' title='Being a self editor — tommi.s
 
 <div class='row'>
 	<figure class='half column'>
-		<img class='light' src='https://tommi.space/images/obsidian-graph.png' alt='Un grafico che contiene tutte le mie note su Obsidian e le loro relazioni' title='il grafico delle mie note su Obsidian' />
+		<img class='light' src='https://tommi.space/images/obsidian-graph.png' alt='Un grafico che contiene tutte le mie note su Obsidian e le loro relazioni' title='il grafico delle mie note su Obsidian'>
 		<figcaption>
 			Il grafico che raccoglie tutte le mie note (Università + cose personali + poesie + scritti su carta + appunti veloci)
 		</figcaption>
 	</figure>
 	<figure class='half column'>
-		<img class='light' src='https://tommi.space/images/obsidian-graph-jarvis.png' alt='Un grafico su Obsidian che contiene tutte le note di Jarvis e le loro relazioni' title='il grafico su Obsidian delle note di Jarvis' />
+		<img class='light' src='https://tommi.space/images/obsidian-graph-jarvis.png' alt='Un grafico su Obsidian che contiene tutte le note di Jarvis e le loro relazioni' title='il grafico su Obsidian delle note di Jarvis'>
 		<figcaption>
 			Sob, le note di <em>Jarvis</em> costituiscono una grande parte del <em>La Marmellata</em>
 		</figcaption>
@@ -74,12 +74,12 @@ Mi sono rassegnato al fatto che Jarvis non tornerà più fra le mie mani. Con so
 <div class='row'>
 	<figure class='half column'>
 		<a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'>
-			<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080113-cf44e5b4-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen' />
+			<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080113-cf44e5b4-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'>
 		</a>
 	</figure>
 	<figure class='half column'>
 		<a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'>
-			<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080128-36817480-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen' />
+			<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080128-36817480-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'>
 		</a>
 	</figure>
 </div>

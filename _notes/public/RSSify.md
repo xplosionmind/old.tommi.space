@@ -1,6 +1,6 @@
 ---
-date: 2021-01-05
-updated: 2021-03-15T14:31:05+01:00
+date: 2021-01-05T01:00:00+01:00
+updated: 2021-12-15T23:17:12+01:00
 tags: geek
 aliases: RSS everywhere, RSS everything, RSSfication
 permalink: /rss
@@ -33,7 +33,7 @@ Mainly, the point is this: let’s use RSS to connect and exploit the power of a
 
 ## Tools
 
-- [PolitePol](https://github.com/taroved/pol 'PolitePol repository on GitHub') is a great tool transform any webpage in a RSS feed. It is [madly expensive](https://politepol.com/en/prices 'PolitePol'), so I set it up on my server. You may check and use it by visiting [pol.tommi.space](https://pol.tommi.space 'PolitePol'); very surprisingly I was able to configure it but it doesn't work for Twitter and Instagram, as I hoped. Therefore, it's quite useless.
+- [PolitePol](https://github.com/taroved/pol 'PolitePol repository on GitHub') is a great tool transform any webpage in a RSS feed. It is [madly expensive](https://politepol.com/en/prices 'PolitePol'), so I set it up on my server. You may check and use it by visiting [pol.tommi.space](https://pol.tommi.space 'PolitePol'); very surprisingly I was able to configure it but it doesn't work for Twitter and Instagram, as I hoped. Therefore, it’s quite useless.
 - [RSS-Bridge](https://github.com/RSS-Bridge/rss-bridge 'RSS Bridge on GitHub'), it parses RSS feeds from several internet services.
 - [Feedbin](https://feedbin.com 'Feedbin official website') is the RSS reader I use. It is awesome.
 - [NetNewsWire](http://netnewswireapp.com 'NetNewsWire official website') is the client for both iOS and MacOS which synchronizes with Feedbin.

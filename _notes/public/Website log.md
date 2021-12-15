@@ -1,6 +1,6 @@
 ---
-date: 2021-01-09
-updated: 2021-03-14T10:27:50+01:00
+date: 2021-01-09T01:00:00+01:00
+updated: 2021-12-15T23:17:12+01:00
 tags: draft geek/web meta
 aliases: Meta
 permalink: /meta
@@ -20,7 +20,7 @@ I decided not to, for now, for three main reasons:
 2. I could easily create an {% raw %}`{% include sidenotes.html %}`{% endraw %} where I could pass as arguments both the note content and the word linked to it, but it wouldn't satisfy me for two reasons:
 	1. In the case of printing, it would be a great mess.
 	2. On other readers or Markdown parsers outside of Jekyll I'd have a massive chunk of unrendered ugly text
-3. Considered the reasons above, <u>it's not worth it</u>. I use footnotes very few times (even though I massively over-use parentheses (as I am doing right now)) and with the lovely arrow[^test] automatically created, it's painless to use them.
+3. Considered the reasons above, <u>it’s not worth it</u>. I use footnotes very few times (even though I massively over-use parentheses (as I am doing right now)) and with the lovely arrow[^test] automatically created, it’s painless to use them.
 
 ### Further reading
 
@@ -28,27 +28,27 @@ I decided not to, for now, for three main reasons:
 - [Koos Loijesteijn's sidenotes source code](https://github.com/kslstn/sidenotes 'kslstn's “Sidenotes” on GitHub')
 - [Tufte CSS](https://edwardtufte.github.io/tufte-css/ 'Tufte CSS')
 
-<br>
-<br>
-
 <p class='date'>14 March 2021</p>
 
 ## Minimalizing
 
 ![[Minimalizing]]
 
-<br>
-<br>
-
 ## Analytics
 
 +++
 
-<br>
-<br>
+<p class='date'><time datetime='2021-12-16T00:10:28+01:00'>Thursday 16 December 2021</time></p>
 
-## Algolia Search
+## Search
 
-+++
+Notes concerning search implementation.
+
+### Algolia
+
+It is not the best solution, but it is still valid temporarily.
+
+1. Follow [these instructions](https://www.algolia.com/doc/tools/crawler/netlify-plugin/quick-start/ 'Quickstart for Using Algolia on Netlify ')
+
 
 [^test]: Lovely arrow test ->

@@ -5,7 +5,7 @@ tags: ["zen"]
 ---
 Sono agitato.
 
-Fremo (letteralmente), esasperato dall'opprimente mole di [frammenti](/frammenti) da cui vengo colpito e non riesco a catturarli completamente. L'energia positiva che mi pervade, carica di entusiasmo, vorrebbe abbracciare l'incommensurabile quantità di conoscenza che incontra in ogni momento e si sforza per estendersi e racchuiderla. Esagerando, inevitabilmente esplode in una miriade di schegge e proiettili.
+Fremo (letteralmente), esasperato dall'opprimente mole di [frammenti](/frammenti) da cui vengo colpito e non riesco a catturarli completamente. L’energia positiva che mi pervade, carica di entusiasmo, vorrebbe abbracciare l'incommensurabile quantità di conoscenza che incontra in ogni momento e si sforza per estendersi e racchuiderla. Esagerando, inevitabilmente esplode in una miriade di schegge e proiettili.
 
 <!-- more -->
 

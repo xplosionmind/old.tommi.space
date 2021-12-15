@@ -1,6 +1,6 @@
 ---
 date: 2021-05-24T12:06:42+02:00
-updated: 2021-05-25T10:32:29+02:00
+updated: 2021-12-15T22:41:31+01:00
 tags: diy
 description: La mia libreria, costruita con bancali riciclati
 location: Xplosion Attic
@@ -33,7 +33,7 @@ Ho avviato così la costruzione di <cite>Gianna</cite>, che prende il nome dal[l
 
 <figure>
 	<a href='https://images.tommi.space/picture?/16662/category/gianna' target='_blank'>
-		<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115120151-facc9f48-me.jpg' title="Gianna completa" alt='Gianna con i libri su di sé, in tutto il suo splendore' />
+		<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115120151-facc9f48-me.jpg' title="Gianna completa" alt='Gianna con i libri su di sé, in tutto il suo splendore'>
 	</a>	
 </figure>
 

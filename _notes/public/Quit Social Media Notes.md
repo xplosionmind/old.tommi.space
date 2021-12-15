@@ -1,6 +1,6 @@
 ---
-date: 2020-06-10
-updated: 2021-11-18T11:49:39+01:00
+date: 2020-06-10T02:00:00+02:00
+updated: 2021-12-15T23:16:20+01:00
 permalink: /qsm
 aliases: QSM, quitsocialmedia.club notes
 description: |
@@ -56,9 +56,9 @@ L’idea è quella di redarre un manifesto che unisca e raccolga tutti i motivi 
 
 ## Arguments
 
-- ~~There's no history, archive or any sort of record for **ads**: posts are visible and invisible, they appear, accomplish their job, and then they vanish immediately, forever~~. Not so much anymore, with facebook, you could search ads
+- ~~There’s no history, archive or any sort of record for **ads**: posts are visible and invisible, they appear, accomplish their job, and then they vanish immediately, forever~~. Not so much anymore, with facebook, you could search ads
 - what is shown you have no control over what you are shown
-- It's not just a few ads: lies are fostered
+- It’s not just a few ads: lies are fostered
 - paradosso della libertà di espressione contro il monopolio dei mezzi di comunicazione
 - impatto ambientale
 - ricavi economici ('regalo likes')

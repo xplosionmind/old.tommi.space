@@ -12,7 +12,7 @@ layout: page
 {% for album in site.data.albums %}
 <div class="row">
 	<figure>
-		<a href="/{{ album.title | slugify }}"><img src="{{ album.preview }}" title="{{ album.title }}" alt="{{ album.alt-it }}" /></a>
+		<a href="/{{ album.title | slugify }}"><img src="{{ album.preview }}" title="{{ album.title }}" alt="{{ album.alt-it }}"></a>
 		<p>{{ album.title }}</p>
 	</figure>
 </div>

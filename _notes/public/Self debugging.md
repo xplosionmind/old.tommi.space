@@ -1,6 +1,6 @@
 ---
-date: 2020-12-08
-updated: 2021-06-08T19:47:45+02:00
+date: 2020-12-08T01:00:00+01:00
+updated: 2021-12-15T23:17:13+01:00
 tags: zen
 title: Self-debugging
 description: Debugging the self as if it was a malfunctioning software.
@@ -23,7 +23,7 @@ description: Debugging the self as if it was a malfunctioning software.
 		1. Try to come up with a solution
 		1. think if there may be other solutions	
 		2. reflect on the applicability of those solutions
-1. Take a few other minutes tinkering about the conclusion you got to and appreciate what's been achieved. Not much has been achieved? Start a new debug
+1. Take a few other minutes tinkering about the conclusion you got to and appreciate what’s been achieved. Not much has been achieved? Start a new debug
 
 <br>
 <br>

@@ -1,6 +1,6 @@
 ---
-date: 2020-12-09
-updated: 2021-12-07T11:44:10+01:00
+date: 2020-12-09T01:00:00+01:00
+updated: 2021-12-15T23:17:12+01:00
 tags: knowledge todo
 aliases: Learn, To learn
 description: What I need / have / would love to learn
@@ -8,7 +8,7 @@ redirect_from: [/learn, /to-learn, /tolearn, /missingknowledge, /learning, /lear
 todo:
   - 'Refactoring and integration with [[Knowledge]] and [[Knowledge management]]'
 ---
-Actually, I do not need to learn these things only, but here I note the main things that sooner or later will make me sit down and bingewatch tutorials on the argument to get a deep understanding of the concept, in order to make use of it in the best possible way. As you can see, it's mainly [geek](/tags#geek 'Geek tag page')-related stuff, which is the easier to keep track of.
+Actually, I do not need to learn these things only, but here I note the main things that sooner or later will make me sit down and bingewatch tutorials on the argument to get a deep understanding of the concept, in order to make use of it in the best possible way. As you can see, it’s mainly [geek](/tags#geek 'Geek tag page')-related stuff, which is the easier to keep track of.
 
 <br>
 <br>

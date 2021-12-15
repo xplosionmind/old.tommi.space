@@ -1,6 +1,6 @@
 ---
-date: 2020-08-20
-updated: 2021-12-13T16:16:16+01:00
+date: 2020-08-20T02:00:00+02:00
+updated: 2021-12-15T22:39:42+01:00
 tags: event/giffoni questions
 lang: it
 toc: false
@@ -49,8 +49,8 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 - Siamo noi i padroni dei gatti o sono i gatti padroni di noi?
 - Come si fa lo screenshot di uno screensaver?
 
-<br />
-<br />
+<br>
+<br>
 
 
 1. baciarsi con le mascherine vale come tradimento?
@@ -65,8 +65,8 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 1. Cosa pensi dei capelli di Donald Trump?
 1. Siamo noi i padroni dei nostri gatti o sono i gatti padroni di noi?
 
-<br />
-<br />
+<br>
+<br>
 
 1. Dove sono le onde quando il mare è calmo?
 1. Qual è la durata perfetta di un abbraccio?
@@ -92,8 +92,8 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 1. perché disegnamo le stelle con cinque punte?
 1. perché passiamo così poco tempo ad essere bambini e così tanto tempo ad essere adulti?
 
-<br />
-<br />
+<br>
+<br>
 
 1. si può svirgolare una virgola?
 1. lo sfondo del tuo telefono
@@ -106,21 +106,21 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 1. con quale mano tocchi ferro?
 1. Quanti GB pesa un sogno?
 
-<br />
-<br />
+<br>
+<br>
 
 1. con il distanziamento sociale ha senso mettersi il profumo?
 1. quando bevi il cappucino, la schiuma la prendi subito oppure bevi tutto e poi la togli con il cucchiaino?
 
-<br />
-<br />
+<br>
+<br>
 
 
 - un tramonto livido di sincerità
 - oggi troppo stanco, sognerò domani
 
-<br />
-<br />
+<br>
+<br>
 
 - devi scrivere una telenovela, hai pronta la sceneggiatura ma ti mancano i nomi dei personaggi, come li chiami?
 - È più lunga la mattina o il pomeriggio?

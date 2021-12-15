@@ -1,6 +1,6 @@
 ---
-date: 2021-01-15
-updated: 2021-03-12T17:28:29+01:00
+date: 2021-01-15T01:00:00+01:00
+updated: 2021-12-15T23:17:12+01:00
 redirect_from: [/name-on-mars, /mars, /name-mars]
 description: My name is engraved in a plate on NASA’s Perseverance rover which is on Mars
 tags: archive
@@ -19,9 +19,9 @@ tags: archive
 	</div>
 	<p>
 		{% if page.lang == 'it' %}
-			Esatto, è incredibile ma vero. La scorsa estate ho compilato un modulo per mandare il mio nome su Marte, poi è stato registrato in un chip microscopico sul rover della @NASA <cite>Perseverance</cite>.<br />Ora, sta atterrando sul magico pianeta rosso.
+			Esatto, è incredibile ma vero. La scorsa estate ho compilato un modulo per mandare il mio nome su Marte, poi è stato registrato in un chip microscopico sul rover della @NASA <cite>Perseverance</cite>.<br>Ora, sta atterrando sul magico pianeta rosso.
 		{% else %}
-			That's right, you read correctly. Last summer I filled a form to send my name on Mars, it has been recorded upon @NASA's rover <cite>Perseverance</cite> and it's landing on Mars!
+			That’s right, you read correctly. Last summer I filled a form to send my name on Mars, it has been recorded upon @NASA's rover <cite>Perseverance</cite> and it’s landing on Mars!
 		{% endif %}
 	</p>
 	<div class='flex row'>

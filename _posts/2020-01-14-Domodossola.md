@@ -12,11 +12,11 @@ Cosa c’è di nuovo in una città? Quale particolare fragranza di smog, quale s
 
 La libertà di vivere da soli, fare la spesa e cucinare per smascherare definitivamente la goffaggine più disastrosa in cucina, sfrecciare in bicicletta davanti al semaforo arancione (o giallo dipende dalle correnti di pensiero o dall’istruttore di scuola guida) assaporando con un sorriso il clacson della macchina appena superata, uscire alle 7 e tornare alle 23, continuare incessantemente a pensare a quell’integrale, forse conveniva risolverlo prima per parti e sostituire l’incognita solo dopo, non perdonarsi di non esserci arrivati prima, aprire il portone e farsi pungere dal freddo aggressivo che senza pietà si rifugia negli angoli più tiepidi e delicati del corpo, la consegna dei pacchi di Amazon in mezza giornata,
 
-<br />
+<br>
 
 è estenuantemente estasiante.
 
-<br />
+<br>
 
 Non c’è serenità, per noi qui intrappolati dalla sessione e dai sensi di colpa che con sé porta, a braccetto con il desiderio di poter tornare indietro nel tempo per fare tutto meglio -o non farlo proprio-, se non quella della vita.
 
@@ -32,11 +32,11 @@ Noi, che alcuni sono ingegneri e dovrebbero capire il mondo ed essere i primi a 
 
 E come treni, come <a href="https://youtu.be/5bW7m--WiWE"  target="_blank">SQUALI</a> non ci fermiamo, mai, solo per fare la spesa.
 
-<br />
+<br>
 
-<figure><img class="u-photo" src="{{ page.image }}" alt="alberi capillari in Corso Racconigi a Torino" /><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
+<figure><img class="u-photo" src="{{ page.image }}" alt="alberi capillari in Corso Racconigi a Torino"><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
 
-<br />
+<br>
 
 ### Alcune note
 

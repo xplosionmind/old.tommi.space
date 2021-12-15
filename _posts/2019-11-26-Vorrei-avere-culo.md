@@ -7,7 +7,7 @@ Scegliere. La difficoltà di una scelta è data da una quantità spesso soffocan
 Perché facciamo scelte sbagliate?
 
 Esistono scelte sbagliate?
-<figure><img class="u-photo" src="{{ page.image }}" alt="un simpatico cartello che mostra che in qualunque direzione vai, arrivi a Salerno" /><figcaption>Non è difficile scegliere di andare a Salerno (cartello reale: ho scattato questa foto a Giffoni Valle Piana due anni fa)</figcaption></figure>
+<figure><img class="u-photo" src="{{ page.image }}" alt="un simpatico cartello che mostra che in qualunque direzione vai, arrivi a Salerno"><figcaption>Non è difficile scegliere di andare a Salerno (cartello reale: ho scattato questa foto a Giffoni Valle Piana due anni fa)</figcaption></figure>
 Se esistono, come facciamo a capire quando sono veramente errate?
 
 È un casino. Un gran pasticcio dal quale, tuttavia, è necessario e fondamentale liberarsi. Eppure, concentrandosi sulle domande, si può riconoscere che effettivamente sono tutte e tre legate al ticchettio delle lancette sull’orologio.

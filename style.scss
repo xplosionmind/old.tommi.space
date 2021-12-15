@@ -132,22 +132,6 @@ span.citation {
 	opacity: .5;
 }
 
-{% comment %}
-.type {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  /* border-right: .15em solid orange; The typwriter cursor */
-  /* white-space: nowrap; Keeps the content on a single line */
-  /* margin: 0 auto; Gives that scrolling effect as the typing happens */
-  animation: 
-    typing 3.5s steps(30, end),
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-{% endcomment %}
-
 a {
 	text-decoration: none;
 	color: var(--link);
@@ -346,6 +330,7 @@ pre {
 	border-radius: $radius-m;
 	scrollbar-width: 0px;
 	code {
+		background: none;
 		padding: 0;
 		box-shadow: unset;
 	}
@@ -360,10 +345,10 @@ code {
 .missing,
 .bug,
 .wtf {
-  padding: 2px 5px;
-  background: var(--red);
-  color: #FFF;
-  border-radius: $radius-s;
+	padding: 2px 5px;
+	background: var(--red);
+	color: #FFF;
+	border-radius: $radius-s;
 }
 
 .cite {
@@ -377,7 +362,7 @@ code {
 }
 
 blockquote {
-  	margin: 0 3vw;
+	margin: 0 3vw;
 	padding: 0;
 	font: 1em var(--font-serif);
 	opacity: .9;
@@ -542,10 +527,10 @@ b {
 
 article {
 	h2 {
-		margin-top: $height;
+		margin-top: $mastodon;
 	}
 	h3 {
-		margin-top: $twice;
+		margin-top: $height;
 	}
 	font-size: $regular-more;
 	padding: 8vh 5vw 15vh;

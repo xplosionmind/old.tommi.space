@@ -1,6 +1,6 @@
 ---
-date: 2020-11-13
-updated: 2021-01-25T12:24:39+01:00
+date: 2020-11-13T01:00:00+01:00
+updated: 2021-12-15T23:17:12+01:00
 tags: zen knowledge topic
 aliases: Digital Garden, Wiki
 description: |
@@ -36,7 +36,7 @@ Zettelkasten is a system for storing and accessing notes invented by [Niklas Luh
 ## Software
 
 - [Obsidian](https://obsidian.md 'Obsidian'), a fresh, recent, powerful and intriguing Zettlekasten-centered app.   
-It's not open source, there have been a lot of discussions about this, yet it's arguably the best.
+It’s not open source, there have been a lot of discussions about this, yet it’s arguably the best.
 	- [Zettelkasten with Obsidian, a video](https://youtu.be/hGLVu4ODs0w 'Zettelkasten with Obsidian')
 	- [A Zettelkasten about Zettelkasten in Obsidian](https://forum.obsidian.md/t/obsidian-zettelkasten/)
 - [Neuron](https://neuron.zettel.page), a great open-source app to manage Zettelkasten notes from CLI.

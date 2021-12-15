@@ -9,7 +9,7 @@ tags: scout
 image: https://tommi.space/images/posts/2021-09-19-tirocinanti-saltellanti.jpg
 description: Ovvero perché lo scoutismo è molto più di quella cosa banale che appare essere.
 excerpt: |
-  C’è un’inevitabile quasirritante reazione di tristezza e delusione nelle conversazioni fra amici, nel momento in cui salta fuori un argomento, motivo di chiacchierata risate e prese per il culo come qualunque altro.<br />No.<br /><u>Lo scoutismo non può e non deve essere ridotto</u> a quei simpatici bigotti in uniforme che aiutano le vecchiette ad attraversare la strada o, ancora peggio, a quell’associazione paramilitare che ti lava il cervello da quando sei piccolo.
+  C’è un’inevitabile quasirritante reazione di tristezza e delusione nelle conversazioni fra amici, nel momento in cui salta fuori un argomento, motivo di chiacchierata risate e prese per il culo come qualunque altro.<br>No.<br><u>Lo scoutismo non può e non deve essere ridotto</u> a quei simpatici bigotti in uniforme che aiutano le vecchiette ad attraversare la strada o, ancora peggio, a quell’associazione paramilitare che ti lava il cervello da quando sei piccolo.
 ---
 C’è un’inevitabile quasirritante reazione di tristezza e delusione nelle conversazioni fra amici, nel momento in cui salta fuori un argomento, motivo di chiacchierata risate e prese per il culo come qualunque altro.  
 No.  
@@ -29,7 +29,7 @@ I tirocinanti sono un manipolo di saltellanti ~ventunenni che adorano stare fra 
 In particolare, alcuni giorni fa, una ventina di loro, provenienti della [zona di Mestre](https://www.facebook.com/agescizonamestre/ 'Pagina Facebook della zona AGESCI Mestre') (e dintorni) si sono riuniti a San Lorenzo, la parrocchia del Duomo di Mestre.
 
 <figure>
-  <img src='https://tommi.space/images/posts/2021-09-19-tirocinanti-saltellanti.jpg' alt='Foto dei venti tirocinanti, in uniforme, che hanno partecipato al campo' title='I partecipanti al CFT della zona di Mestre a settembre 2021' />
+  <img src='https://tommi.space/images/posts/2021-09-19-tirocinanti-saltellanti.jpg' alt='Foto dei venti tirocinanti, in uniforme, che hanno partecipato al campo' title='I partecipanti al CFT della zona di Mestre a settembre 2021'>
   <figcaption>I partecipanti al CFT della zona di Mestre a settembre 2021</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ Questi squinternati immortalati nella foto qui sopra, fra cui —per loro sventu
 Sono stato contento di avere stretto il rapporto con i mitici Fede ed Enrico, miei “omologhi” nel [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'pagina Facebook del gruppo Mira 1'), il gruppo la cui [<abbr title='Comunità Capi'>Co.Ca.</abbr>](https://it.wikipedia.org/wiki/Comunit%C3%A0_Capi '“Comunità Capi„ su Wikipedia') mi ha accolto alcuni mesi fa, dopo la mia partenza dal [*Costa Balenae*](https://m.facebook.com/Agesci-Costabalenae-484902901713104/ 'Pagina Facebook del gruppo Costa Balenae'), di conoscere Maria e Chiara, nostre “omologhe” nel [Mira 2](https://agescimiradue.altervista.org/ 'sito web del gruppo Mira 2'), ma soprattutto felice di condividere esperienze, dubbi e soddisfazioni con altri simpatici ragazzi molto più in gamba di me.
 
 <figure>
-  <img class='u-photo' src='https://tommi.space/images/posts/2021-09-19-promesse.jpg' alt='Foto dei nostri diversi fazzolettoni appesi tutti insieme' title='i nostri diversi fazzolettoni appesi tutti insieme' />
+  <img class='u-photo' src='https://tommi.space/images/posts/2021-09-19-promesse.jpg' alt='Foto dei nostri diversi fazzolettoni appesi tutti insieme' title='i nostri diversi fazzolettoni appesi tutti insieme'>
   <figcaption>Per tre giorni siamo stati una comunità: abbiamo appeso da una parte tutte le nostre diverse e colorate promesse e ne abbiamo indossato una nuova, che ci univa tutti sotto uno stesso colore, casualmente praticamente identico a quello della camicia.</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ Per ammutolire i detrattori accecati dallo stereotipo, ho tentato di addentrarmi
 
 Per allontanarci dalla banale stereotipizzazione che mi suscita quel quasinervosismo raccontato all’inizio, credo sia sufficiente riconoscere la complessità e la grande serietà con cui l’educazione di uno scout è affrontata. Il metodo scout è <u>lo strumento più bello e ideale in cui io mi sia imbattuto</u> che tuttavia riesca comunque ad essere applicato così precisamente. Il metodo scout, al contrario dei più studiati e universalmente riconosciuti modelli economici, sociali, pedagogici e politici (che io conosco) non solo appare utopico e rivoluzionario, ma è già meravigliosamente attuato e, con orgoglio, io sono protagonista di una minuscola fettina di questa messa in atto.
 
-> Lo scopo dell’associazione è contribuire, secondo il principio dell'autoeducazione, alla crescita dei ragazzi come persone significative e felici.
+> Lo scopo dell’associazione è contribuire, secondo il principio dell’autoeducazione, alla crescita dei ragazzi come persone significative e felici.
 
 Non credo sia necessario aggiungere altro.
 
@@ -86,7 +86,7 @@ Alla prossima!
 
 L’<abbr title='Associazione Guide E Scout Cattolici Italiani'>AGESCI</abbr> è l’unione dell’ASCI (Associazione Scout Cattolici Italiani) e dell’AGI (Associazione Guide Italiane). L’unione delle due associazioni, avvenuta il [4 maggio 1974](https://it.scoutwiki.org/4_maggio '4 maggio 1974 su ScoutWiki'), dà vita ad una struttura organizzativa <u>unica in Italia</u> (forse anche nel mondo, ma non ne sono certo), la **diarchia**: ad ogni livello della gerarchia scout, i rappresentanti/capi/referenti sono sempre in due e sono sempre <u>un maschio e una femmina</u>. Lo scoutismo, in altre parole, è il primo e massimo promotore della parità di diritti fra i generi, pur riconoscendo le differenti qualità contraddistinguono uomo e donna, dando dunque ad entrambi i sessi la possibilità di essere ugualmente rappresentati.
 
-> L'associazione adotta i principi e il metodo della democrazia. Affida gli incarichi educativi e di governo, a una donna e a un uomo congiuntamente, con pari dignità e responsabilità.
+> L’associazione adotta i principi e il metodo della democrazia. Affida gli incarichi educativi e di governo, a una donna e a un uomo congiuntamente, con pari dignità e responsabilità.
 
 <br>
 <br>

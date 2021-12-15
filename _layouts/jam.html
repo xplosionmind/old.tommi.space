@@ -1,7 +1,7 @@
 ---
 layout: wrapper
 ---
-<div class='h-entry'>
+<main class='h-entry'>
 	<div class='row page-header'>
 		<div class='one column'>
 			<a class='u-uid u-url' href='{{ page.url | absolute_url }}'><h1 class='p-name'>{{ page.title }}</h1></a>
@@ -13,7 +13,7 @@ layout: wrapper
 					{% if page.location != nil %}
 						{% for place in site.data.places %}
 							{% if place.name contains page.location %}
-								presso <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+								<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
 							{% endif %}
 						{% endfor %}
 					{% endif %}
@@ -28,7 +28,7 @@ layout: wrapper
 					{% endif %}
 					<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{{ page.date | date: '%e %B %Y' }}</time>
 				{% endif %}
-				<br />
+				<br>
 				{% if page.lang == 'it' %}
 					ultima modifica: 
 					{% if page.updated != nil %}
@@ -90,4 +90,4 @@ layout: wrapper
 			{% include comments.html %}
 		</div>
 	</div>
-</div>
+</main>

@@ -16,13 +16,13 @@ Questo articolo contiene le istruzioni step-by-step per scaricare contenuti mult
 	<b>Nota</b>: queste istruzioni vanno eseguite da computer, da telefono è molto più complicato e noioso, per cui conviene scaricare il film da computer e poi trasferirlo su telefono con il cloud o via cavo.
 </div>
 
-<br />
+<br>
 
 ## Scaricare VLC
 
 Non è fondamentale, ma soprattutto nel caso in cui si desideri vedere un film mentre ancora si sta scaricando, consiglio fortemente di usare [VLC](https://www.videolan.org/vlc/ "VLC official website"), il riproduttore multimediale più diffuso al mondo. Permette anche di gestire al meglio i sottotitoli e ha un sacco di opzioni che potrebbero risparmiarvi un sacco di rotture di scatole in caso di difficoltà. È gratuito e open source.
 
-<br />
+<br>
 
 ## Condivisione peer-to-peer
 
@@ -34,7 +34,7 @@ Ovviamente, se il file non è presente fisicamente in nessun server su internet,
 
 A questo punto, il funzionamento è chiaro: sui siti di condivisione torrent, vengono caricati unicamente i file torrent o i loro magnet link. Così, chi cerca ad esempio un film, si troverà di fronte diverse versioni dello stesso film (con qualità diversa, risoluzione maggiore o minore, divverente lingua audio…) e potrà scegliere quella con più seeders (persone che stanno condividendo il film) in quel momento.
 
-<br />
+<br>
 
 ## Scaricare un torrent client
 
@@ -50,7 +50,7 @@ Una volta installato qBittorrent, consiglio di aprirlo e, almeno la prima volta,
 	<b>NOTA</b>: utilizzando un client torrent, o in generale scaricando un file con il protocollo p2p, viene mostrato a tutti l’elenco degli indirizzi IP di chi sta condividendo il file. In pratica, chiunque può “vederti” e sapere in quale nazione sei, più altre informazioni molto generali sulla tua connessione e sul tuo dispositivo (quale client torrent usi, che sistema operativo, da dove hai scaricato il torrent, ecc…). In linea di massima, questo non è un rischio, ma per ovviare a questo problema, si può utilizzare un VPN. Io utilizzo ProtonVPN.
 </div>
 
-<br />
+<br>
 
 ## Scaricare il file torrent
 
@@ -85,7 +85,7 @@ Una volta che si è selezionato il film, cliccando comparirà una pagina, in cui
 	<b>ATTENZIONE</b>: in moltissimi casi, la scritta “download torrent” è una pubblicità; cliccarci può portare a risultati sipacevoli. Individuare con criterio il pulsante giusto. Di solito, la scritta che funziona è quella più sobria e meno grande, come quella nell’immagine sopra.
 </div>
 
-<br />
+<br>
 
 ## Completare il download
 
@@ -97,7 +97,7 @@ Successivamente, si aprirà qBittorrent e vi mostrerà una finestra simile a que
 
 In caso aveste intenzione di cominciare a guardare il film immediatamente, basta spuntare “download in sequential order”, o il corrispettivo in italiano che non mi ricordo.
 
-<br />
+<br>
 
 ## Sottotitoli
 
@@ -113,7 +113,7 @@ I risultati possono essere ordinati per numero di download. Di solito, più down
 	<b>NOTA</b>: i sottotitoli potrebbero essere basati su file di film diversi da quello da voi scaricato, dalla durata lievemente differente. In questo caso ci sono due alternative: o si traslano i sottotitoli già scaricati, oppure si scarica un altro file, finchè non si trova quello giusto.
 </div>
 
-<br />
+<br>
 
 ## Serie TV
 

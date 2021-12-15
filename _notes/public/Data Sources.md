@@ -1,17 +1,17 @@
 ---
-date: 2020-05-13
-updated: 2021-08-12T12:20:11.380979+02:00
+date: 2020-05-13T02:00:00+02:00
+updated: 2021-12-15T23:11:36+01:00
 tags: geek
-redirect_from: ["/datasets", "data-sets", "/databases", "/public-data", "/dati"]
+redirect_from: [/datasets,/data-sets,/databases,/public-data,/dati]
 permalink: /data
 todo:
-  - "Where to find reliable poll results? Official raw data, but simple?"
-  - "Integrate with [[Knowledge]]?"
+  - Where to find reliable poll results? Official raw data, but simple?
+  - 'Integrate with [[Knowledge]]?'
 ---
 There are hundreds (if not thousands) of free data sets available, ready to be used and analyzed by anyone willing to look for them.  Below is a list of some of the most globally interesting I have come across, but there are many, many more in many different niches.
 
 - [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets 'awesome-public-datasets on GitHub')
-- [Awesome Italian Public Datasets](https://github.com/italia/awesome-italian-public-datasets "Awesome Italian Public Datasets on GitHub")
+- [Awesome Italian Public Datasets](https://github.com/italia/awesome-italian-public-datasets 'Awesome Italian Public Datasets on GitHub')
 - [Mozilla Data Stewardship Landscape Scan](https://airtable.com/shrn9jnFOQByon2i7/tblOrlwkMkuRn4HjV/viwOyRIDzKGemXbLW)
 - [Data.gov](http://data.gov/) The US Government pledged last year to make all government data available freely online. This site is the first stage and acts as a portal to all sorts of amazing information on everything from climate to crime.
 - [US Census Bureau](http://www.census.gov/data.html) A wealth of information on the lives of US citizens covering population data, geographic data and education.
@@ -36,7 +36,7 @@ There are hundreds (if not thousands) of free data sets available, ready to be u
 - [National Climatic Data Center](http://www.ncdc.noaa.gov/data-access/quick-links#loc-clim) Huge collection of environmental, meteorological and climate data sets from the US National Climatic Data Center. The world’s largest archive of weather data.
 - [DBPedia](http://wiki.dbpedia.org/) Wikipedia is comprised of millions of pieces of data, structured and unstructured on every subject under the sun. DBPedia is an ambitious project to catalogue and create a public, freely distributable database allowing anyone to analyze this data.
 - [New York Times](http://developer.nytimes.com/docs) Searchable, indexed archive of news articles going back to 1851.
-- ~~Freebase, a community-compiled database of structured data about people, places and things, with over 45 million entries~~. [Deprecated](https://en.wikipedia.org/wiki/Freebase "Freebase on Wikipedia")
+- ~~Freebase, a community-compiled database of structured data about people, places and things, with over 45 million entries~~. [Deprecated](https://en.wikipedia.org/wiki/Freebase 'Freebase on Wikipedia')
 - [Million Song Data Set](http://aws.amazon.com/datasets/6468931156960467) Metadata on over a million songs and pieces of music. Part of Amazon Web Services.
 - [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.html) is a dataset specifically pre-processed for machine learning.
 - [Pew Research Center](http://www.pewinternet.org/datasets/) offers its raw data from its fascinating research into American life.
