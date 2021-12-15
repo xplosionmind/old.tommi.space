@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02
-updated: 2021-11-16T19:56:28+01:00
+updated: 2021-12-15T01:25:49+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo
 permalink: /development
@@ -8,6 +8,7 @@ redirect_from: [/development-roadmap,/roadmap,/wip,/issues,/improvements,/dev,/w
 main: true
 image: https://tommi.space/images/posts/2020-04-18-making-this-website.jpg
 description: Creative and technical aims, ideas annotation and drafts tracking.
+created: 2021-12-15T01:25:49+01:00
 ---
 ## Content
 
@@ -30,7 +31,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### v1
 
-1. Switch to [Eleventy](https://11ty.dev '11ty')
 1. Revise notes
 	- which ones are tagged `main`
 	- description, image, content
@@ -38,7 +38,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, looping through the last few pages updated recently (based on `page.updated`)
 2. 🏗 [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
 1. [Self-hosted analytics](https://github.com/0xnr/awesome-analytics 'Awesome Analytics on GitHub')
-1. [Self-hosted comments](https://www.taniarascia.com/add-comments-to-static-site/ 'Roll Your Own Comment System for a Static Site') service
 13. Give a consistent framework to all lists [[CSVfy]]
 1. Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
 18. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ 'W3Schools HowTos')
@@ -50,6 +49,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### v2
 
+1. Consider witching to [Eleventy](https://11ty.dev '11ty')
 1. Fast, simple and light full text search
 	- [Lunr](https://lunrjs.com 'Lunr')
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr 'jekyll-lunr on GitHub')
@@ -151,6 +151,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Done
 
+- ✅ <time datetime='2021-12-15T01:24:54+01:00'>2021-12-15</time> ~~[Self-hosted comments](https://www.taniarascia.com/add-comments-to-static-site/ 'Roll Your Own Comment System for a Static Site') service~~ Switched from [utteranc.es](https://utteranc.es 'Utterances') (that needed an authentication and it was GitHub-based) to a [self-hosted](https://bla.tommi.space 'Tommi’s comments') [Commento](https://commento.io 'Commento official website') instance.
 - ✅ 2021-10-30 Month translation in Italian pages
 - Join [weird-wide-webring](https://weirdwidewebring.net/ 'Weird Wide Webring') ✅ 2021-09-26
 - Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts ✅ 2021-05-25
