@@ -1,6 +1,6 @@
 ---
-date: 2020-02-02
-updated: 2021-12-15T01:25:49+01:00
+date: 2020-02-02T01:00:00+01:00
+updated: 2021-12-15T13:41:56+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo
 permalink: /development
@@ -19,16 +19,6 @@ created: 2021-12-15T01:25:49+01:00
 
 ## Roadmap
 
-### v0.1
-
-1. **Fix**: different Gem dependencies locally and in Netlify: different `_config.yml`
-2. **Update** Social media links in footer
-1. Cantiere background
-10. Browser branding color: should it match the background or the accent color?
-15. Study [Search Engine Optimization repo](https://github.com/marcobiedermann/search-engine-optimization 'search-sngine-optimization on GitHub') and Blogger’s `<head>` to **improve SEO**
-
-<br>
-
 ### v1
 
 1. Revise notes
@@ -37,7 +27,7 @@ created: 2021-12-15T01:25:49+01:00
 	- consistency and effective cross-referencing
 1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, looping through the last few pages updated recently (based on `page.updated`)
 2. 🏗 [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
-1. [Self-hosted analytics](https://github.com/0xnr/awesome-analytics 'Awesome Analytics on GitHub')
+1. [Self-hosted analytics](https://stats.tommi.space 'My self-hosted analytics service')
 13. Give a consistent framework to all lists [[CSVfy]]
 1. Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
 18. Implement little cool extra JavaScript features, from [W3schools](https://www.w3schools.com/howto/ 'W3Schools HowTos')

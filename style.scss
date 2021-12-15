@@ -4,21 +4,16 @@
 @import "../_sass/root";
 @import "../_sass/inter";
 @import "../_sass/header";
-@import "../_sass/highlight";
 @import "../_sass/ubuntu-mono";
-@import "../_sass/links-emojis";
 @import "../_sass/eb-garamond";
-@import "../_sass/commento";
 /*@import "../_sass/graph";*/
 
 html {
 	cursor: url({{ site.logos }}/cursor.svg) 16 16, crosshair;
 	scroll-behavior: smooth;
-}
 
 /* DARK THEME */
-body {
-	background: linear-gradient(-45deg,#0A0A0A,#3D3D3D);
+	background: var(--black-ish);
 	color: var(--text);
 	overflow-wrap: break-word;
 	hyphens: auto;
@@ -26,7 +21,7 @@ body {
 
 	--background: var(--black-ish);
 	--text: var(--white-ish);
-	--deep: #111;
+	--deep: var(--dark-blue);
 	--link: var(--primary);
 	--primary: var(--yellow);
 	--secondary: var(--blue);
@@ -35,15 +30,13 @@ body {
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
 	--transp-text: #FFF4;
-	--shadow: 5px 5px 20px #000000BB, -5px -5px 20px #FFFFFF11;
-	--opposite-shadow: -5px -5px 20px #000000BB, 5px 5px 20px #FFFFFF11;
-	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFFFFF22;
-	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFFFFF11;
-	--button-shadow: inset 2px 2px 4px #FFF8, inset -2px -2px 4px #0008;
-	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF2;
-	--inner-little-shadow: inset 2px 2px 3px #000A, inset -2px -2px 3px #FFF1;
-	--header-shadow: 5px 5px 15px #000B, -5px -5px 15px #FFF3;
-	--glow: 0 0 15px #FCC92055;
+	--shadow: 5px 5px 20px #00000099, -5px -5px 20px #FFF3CC22;
+	--opposite-shadow: -5px -5px 20px #000000BB, 5px 5px 20px #FFF3CC11;
+	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFF3CC22;
+	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFF3CC11;
+	--button-shadow: inset 2px 2px 4px #FFF3CC88, inset -2px -2px 4px #0008;
+	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
+	--inner-little-shadow: inset 2px 2px 3px #000A, inset -2px -2px 3px #FFF3CC11;
 
 	transition: var(--trans);
 
@@ -55,46 +48,39 @@ body {
 		 }
 	}
 	{% endcomment %}
-	&:not(.light) .light {
+	&:not(html.light) .light {
 		filter: var(--invert);
 		box-shadow: var(--opposite-shadow);
 	}
 }
 
 /* LIGHT THEME */
-.light, .themetoggle:checked ~ body {
-	background: linear-gradient(-30deg,#E5EFF5,#FFF);
-	--background: #FFF;
-	--text: var(--black-ish);
-	--deep: white;
-	--link: var(--secondary);
-	--primary: var(--blue);
-	--secondary: var(--razzmatazz);
-	--slight: var(--dark-blue);
-	--internal-link: var(--blue);
-	--grey: var(--light-grey);
-	--other-grey: var(--dark-grey);
-	--transp-text: #0003;
-	--shadow: 5px 5px 20px #0002, -5px -5px 20px #FFF;
-	--opposite-shadow: -5px -5px 20px #0002, 5px 5px 20px #FFF;
-	--little-shadow: 1px 1px 4px #0003, -2px -2px 3px #FFF7;
-	--tool-shadow: 3px 3px 8px #0005, -3px -3px 8px #FFF6;
-	--inner-shadow: inset 3px 3px 5px #0005, inset -3px -3px 5px #FFF3;
-	--inner-little-shadow: inset 2px 2px 3px #0002, inset -2px -2px 3px #FFF3;
-	--header-shadow: 5px 5px 15px #0003, -5px -5px 15px #FFFF;
-	--glow: 0 0 15px #3185FC55;
+@media screen and (prefers-color-scheme: light) {
+	html {
+		background: linear-gradient(-30deg,#E5EFF5,#FFF);
+		--background: #FFF;
+		--text: var(--black-ish);
+		--deep: #FFF;
+		--link: var(--secondary);
+		--primary: var(--blue);
+		--secondary: var(--razzmatazz);
+		--slight: var(--dark-blue);
+		--internal-link: var(--blue);
+		--grey: var(--light-grey);
+		--other-grey: var(--dark-grey);
+		--transp-text: #11305B33;
+		--shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22;
+		--opposite-shadow: -5px -5px 20px #11305B22, 5px 5px 20px #FFF3CC22;
+		--little-shadow: 1px 1px 4px #11305B33, -2px -2px 3px #FFF3CC77;
+		--tool-shadow: 3px 3px 8px #11305B55, -3px -3px 8px #FFF3CC66;
+		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
+		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
 
-	transition: var(--trans);
-
+		transition: var(--trans);
+	}
 	.dark {
 		filter: var(--invert-dark);
 		box-shadow: var(--opposite-shadow);
-	}
-	.utterances {
-		filter: var(--invert-dark);
-	}
-	.theme-toggle {
-		text-shadow: none;
 	}
 }
 
@@ -102,7 +88,6 @@ body {
 	transition: var(--trans), transform var(--quicktrans), box-shadow var(--quicktrans), text-shadow var(--quicktrans);
 }
 
-.themetoggle,
 #menutoggle,
 #langtoggle {
 	display: none;
@@ -585,7 +570,7 @@ h1 {
 	color: var(--text);
 	text-align: center;
 	margin: 0;
-	text-shadow: var(--header-shadow);
+	text-shadow: var(--little-shadow);
 	&:hover {
 		transform: rotate(-3deg);
 	}
@@ -665,14 +650,6 @@ h3 {
 	&:hover {
 		bottom: 0;
 	}
-}
-
-#latest {
-	position: relative;
-	bottom: -1vh;
-	left: 2vw;
-	transform: rotate(7deg);
-	width: 310px;
 }
 
 .excerpt {
@@ -1029,4 +1006,7 @@ button,
 	}
 }
 
+@import "../_sass/links-emojis";
+@import "../_sass/highlight";
+@import "../_sass/commento";
 @import "../_sass/temporary";

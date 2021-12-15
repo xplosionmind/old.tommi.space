@@ -16,9 +16,11 @@ header {
 }
 
 #home {
+	position: fixed;
+	top: 2vw;
+	left: 2vw;
 	color: var(--background);
 	padding: 0 $regular-less;
-	float: left;
 	line-height: $height; 
 	font-size: $bigger;
 	background: var(--primary);
@@ -38,9 +40,7 @@ nav {
 	text-align: right;
 	padding: 0 $small;
 	box-shadow: var(--shadow);
-	background: var(--background);
 	* {
-		background: var(--background);
 		margin: 0 !important;
 	}
 	ul {
@@ -92,7 +92,7 @@ nav {
 	box-shadow: var(--shadow);
 	span {
 		top: 1.4rem;
-		left: .7rem;
+		left: .8rem;
 	}
 	span,
 	span::before,
@@ -133,6 +133,7 @@ nav {
 	}
 	nav ul li {
 		float: none;
+		background: var(--background)
 	}
 }
 
@@ -160,8 +161,4 @@ nav {
 
 #langtoggle:checked + .lang-list {
 	display: block;
-}
-
-.theme-toggle {
-	text-shadow: 0 -2px 5px rgba(255,252,249,.5);
 }

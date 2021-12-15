@@ -32,3 +32,4 @@ pandoc -s in.md --citeproc -o out.pdf
 - [Manubot](https://manubot.org 'Manubot')
 - <cite>[The tools and services I used to write, edit and self-publish my book](https://kerkour.com/book-self-publishing-pandoc/ 'The tools and services I used to write, edit and self-publish my book')</cite>, by [Sylvain Kerkour](https://kerkour.com/ 'Sylvain Kerkour’s personal website')
 - I take advantage of [obsidian-citation-plugin](https://github.com/hans/obsidian-citation-plugin 'obsidian-citation-plugin on GitHub') in order to add citations to what I am writing in [Obsidian](https://obsidian.md 'Obsidian')
+- [Zotero best practices](https://forum.obsidian.md/t/zotero-best-practices/ 'Zotero best practices') on [Obsidian’s forum](https://forum.obsisian.md 'Obsidian Community Forum')
