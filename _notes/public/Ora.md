@@ -1,6 +1,6 @@
 ---
-date: 2020-10-16
-updated: 2021-11-10T10:04:49+01:00
+date: 2020-10-16T02:00:00+02:00
+updated: 2021-12-15T21:28:18+01:00
 ref: now
 lang: it
 description: Le cose che sto facendo
@@ -23,9 +23,6 @@ Tutto quello che stiamo creando (è tanto, tantissimo), i contatti e maggiori de
 	<a href='https://images.tommi.space/index?/category/scambi-2021' target='_blank' title='Visioni da Scambi 2021'>Galleria immagini Scambi 2021</a>
 </div>
 
-<br>
-<br>
-
 ## Studiando
 
 Sto frequentando il corso di [*Philosophy, International Studies and Economics*](https://unive.it/pise 'la pagina del PISE sul sito di Ca’ Foscari') a all’[Università Ca’ Foscari](https://unive.it 'il sito web di Ca’ Foscari'), nella favolosa [Venezia](https://www.comune.venezia.it/ 'Sito web del comune di Venezia'), dove abito.
@@ -45,8 +42,9 @@ Specificamente, i corsi che sto seguendo (*ergo* i miei prossimi esami 🤞🏼)
 </div>
 {% endcomment %}
 
-<br>
-<br>
+## Servizio scout
+
+Sto servendo come aiuto-capo nel reparto del gruppo AGESCI [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'Pagina Facebook del Mira 1') di Oriago di Mira (VE).
 
 ## Altro
 
@@ -56,9 +54,6 @@ Nel mentre, continuo a girare il più possibile e fare cose di ogni sorta. I pro
 <br>
 
 ---
-
-<br>
-<br>
 
 ## Fatto
 

@@ -2,219 +2,221 @@ p,
 li,
 article .box:not(.tags) {
 	a {
-		&[href*="jam" i],
-		&[href*="marmellata" i] {
+		&[href*='jam' i],
+		&[href*='marmellata' i] {
 			&::before {
-				content: "🍯 ";
+				content: '🍯 ';
 			}
 		}
-		&[href*="mailto" i] {
+		&[href*='mailto' i] {
 			&::before {
-				content: " ✉️ ";
+				content: ' ✉️ ';
 			}
 		}
-		&[href^="https://buttondown.email/tommi" i],
-		&[href*="/newsletter" i] {
+		&[href^='https://buttondown.email/tommi' i],
+		&[href*='/newsletter' i] {
 			&::before {
-				content: " 💌 ";
+				content: ' 💌 ';
 			}
 		}
-		&[href*="giri" i] {
+		&[href*='giri' i] {
 			&::before {
-				content: "🧳 ";
+				content: '🧳 ';
 			}
 		}
-		&[href*="visioni" i],
-		&[href*="visions" i] {
+		&[href*='visioni' i],
+		&[href*='visions' i] {
 			&::before {
-				content: "🖼 ";
+				content: '🖼 ';
 			}
 		}
-		&[href*="pixelfed.uno" i] {
+		&[href*='pixelfed.uno' i],
+		&[href*='pixelfed.social' i],
+		&[href*='tmi.pics' i] {
 			&::before {
-				content: "📷 ";
+				content: '📷 ';
 			}
 		}
-		&[href*="mastodon.uno" i] {
+		&[href*='mastodon.uno' i] {
 			&::before {
-				content: "🐘 ";
+				content: '🐘 ';
 			}
 		}
-		&[href="/about" i],
-		&[href*="about-it" i] {
+		&[href='/about' i],
+		&[href*='about-it' i] {
 			&::before {
-				content: "🙋🏻‍♂️ ";
+				content: '🙋🏻‍♂️ ';
 			}
 		}
-		&[href*="/zibaldone" i],
-		&[href*="/zibenglish" i],
-		&[href="/blog" i] {
+		&[href*='/zibaldone' i],
+		&[href*='/zibenglish' i],
+		&[href='/blog' i] {
 			&::before {
-				content: "📜 ";
-				/*content: "📖"; */
+				content: '📜 ';
+				/*content: '📖'; */
 			}
 		}
-		&[href*="unive.it" i] {
+		&[href*='unive.it' i] {
 			&::before {
-				content: "🎓 ";
+				content: '🎓 ';
 			}
 		}
-		&[href*="cinema" i],
-		&[href*="film" i] {
+		&[href*='cinema' i],
+		&[href*='film' i] {
 			&::before {
-				content: "🎬 ";
+				content: '🎬 ';
 			}
 		}
-		&[href*="music" i],
-		&[href*="playlist" i] {
+		&[href*='music' i],
+		&[href*='playlist' i] {
 			&::before {
-				content: "🎧 ";
+				content: '🎧 ';
 			}
 		}
-		&[href*="server" i],
-		&[href*="linuxplosion" i] {
+		&[href*='server' i],
+		&[href*='linuxplosion' i] {
 			&::before {
-				content: "📟 ";
+				content: '📟 ';
 			}
 		}
-		&[href^="/radio" i] {
+		&[href^='/radio' i] {
 			&::before {
-				content: "📡 ";
+				content: '📡 ';
 			}
 		}
-		&[href*="photography" i] {
+		&[href*='photography' i] {
 			&::before {
-				content: "📸 ";
+				content: '📸 ';
 			}
 		}
-		&[href*="books" i] {
+		&[href*='books' i] {
 			&::before {
-				content: "📚 ";
+				content: '📚 ';
 			}
 		}
-		&[href^="/read" i] {
+		&[href^='/read' i] {
 			&::before {
-				content: "📖 ";
+				content: '📖 ';
 			}
 		}
-		&[href*="zettelkasten" i],
-		&[href*="knowledge" i] {
+		&[href*='zettelkasten' i],
+		&[href*='knowledge' i] {
 			&::before {
-				content: "🧠 ";
+				content: '🧠 ';
 			}
 		}
-		&[href^="/places" i] {
+		&[href^='/places' i] {
 			&::before {
-				content: "📍 ";
+				content: '📍 ';
 			}
 		}
-		&[href*="openstreetmap" i] {
+		&[href*='openstreetmap' i] {
 			&::before {
-				content: "🗺 ";
+				content: '🗺 ';
 			}
 		}
-		&[href^="/dev" i] {
+		&[href^='/dev' i] {
 			&::before {
-				content: "💻 ";
+				content: '💻 ';
 			}
 		}
-		&[href^="/tutto" i] {
+		&[href^='/tutto' i] {
 			&::before {
-				content: "🤯 ";
+				content: '🤯 ';
 			}
 		}
-		&[href*="design" i] {
+		&[href*='design' i] {
 			&::before {
-				content: "📐 ";
+				content: '📐 ';
 			}
 		}
-		&[href^="/meta" i] {
+		&[href^='/meta' i] {
 			&::before {
-				content: "👨🏻‍💻 ";
+				content: '👨🏻‍💻 ';
 			}
 		}
-		&[href*="quote" i] {
+		&[href*='quote' i] {
 			&::before {
-				content: "💬 ";
+				content: '💬 ';
 			}
 		}
-		&[href^="/self" i],
-		&[href^="/mind" i] {
+		&[href^='/self' i],
+		&[href^='/mind' i] {
 			&::before {
-				content: "🧘🏻‍♂️ ";
+				content: '🧘🏻‍♂️ ';
 			}
 		}
-		&[href*="people" i] {
+		&[href*='people' i] {
 			&::before {
-				content: "🕺🏻 ";
+				content: '🕺🏻 ';
 			}
 		}
-		&[href*="quit" i],
-		&[href*="switch" i] {
+		&[href*='quit' i],
+		&[href*='switch' i] {
 			&::before {
-				content: "🔄 ";
+				content: '🔄 ';
 			}
 		}
-		&[href*="blogroll" i],
-		&[href*="idea" i] {
+		&[href*='blogroll' i],
+		&[href*='idea' i] {
 			&::before {
-				content: "💡 ";
+				content: '💡 ';
 			}
 		}
-		&[href*="wish" i] {
+		&[href*='wish' i] {
 			&::before {
-				content: "🧞‍♂️ ";
+				content: '🧞‍♂️ ';
 			}
 		}
-		&[href*="poetry" i],
-		&[href*="poem" i],
-		&[href*="/pasticci" i],
-		&[href*="poesi" i] {
+		&[href*='poetry' i],
+		&[href*='poem' i],
+		&[href*='/pasticci' i],
+		&[href*='poesi' i] {
 			&::before {
-				content: "🖋 ";
+				content: '🖋 ';
 			}
 		}
-		&[href*="/filinge" i],
-		&[href*="/filosofia" i],
-		&[href*="/philosophy" i] {
+		&[href*='/filinge' i],
+		&[href*='/filosofia' i],
+		&[href*='/philosophy' i] {
 			&::before {
-				content: "💭 ";
+				content: '💭 ';
 			}
 		}
-		&[href*="/ital" i] {
+		&[href*='/ital' i] {
 			&::before {
-				content: "🇮🇹 ";
+				content: '🇮🇹 ';
 			}
 		}
-		&[href*="/sconnesso" i] {
+		&[href*='/sconnesso' i] {
 			&::before {
-				content: "🎙 ";
+				content: '🎙 ';
 			}
 		}
-		&[href^="/geek" i],
-		&[href^="/feeds/geek" i] {
+		&[href^='/geek' i],
+		&[href^='/feeds/geek' i] {
 			&::before {
-				content: "💻 ";
+				content: '💻 ';
 			}
 		}
-		&[href*="/storage" i] {
+		&[href*='/storage' i] {
 			&::before {
-				content: "💾 ";
+				content: '💾 ';
 			}
 		}
-		&[href*="paDzrTfqL9PbkSX/starred"] {
+		&[href*='paDzrTfqL9PbkSX/starred'] {
 			&::before {
-				content: "❤️ ";
+				content: '❤️ ';
 			}
 		}
-		&[href="https://wallabag.nixnet.services/feed/tommi/paDzrTfqL9PbkSX/archive"] {
+		&[href='https://wallabag.nixnet.services/feed/tommi/paDzrTfqL9PbkSX/archive'] {
 			&::before {
-				content: "👀 ";
+				content: '👀 ';
 			}
 		}
 		&.user-mention {
 			&::before {
-				content: "🧑 ";
+				content: '🧑🏻 ';
 			}
 		}
 	}

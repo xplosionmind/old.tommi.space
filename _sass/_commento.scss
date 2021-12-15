@@ -14,46 +14,47 @@
 * default Commento CSS) */
 
 .commento-root {
-  * {
-    color: var(--text);
-  }
+	* {
+		color: var(--text);
+	}
 }
 
 /* Commento default */
 
 .commento-root-min-height {
-  min-height:430px;
+	min-height:430px;
 }
+
 .commento-root {
-  overflow-x:hidden;
-  padding:0;
-  width:100%;
-  * {
-    line-height:1.5;
-  }
-  blockquote {
-    margin:0 0 0 8px;
-    padding:0 0 0 5px;
-	border-left:2px solid #adb5bd;
-	color:#868e96;
-  }
-  .commento-button {
-	display:inline-flex;
-	justify-content:center;
-	align-items:center;
-	text-align:center;
-	cursor:pointer;
-	font-weight:700;
-	line-height:24px;
-	font-size:14px;
-	padding:6px 8px;
-	box-shadow:0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
-	border:none;
-	border-radius:$radius-s;
-	color:#fff;
-	margin-left:5px;
-	margin-right:5px;
-  }
+	overflow-x:hidden;
+	padding:0;
+	width:100%; /*
+	* {
+		line-height:1.5;
+	}
+  	blockquote {
+    	margin:0 0 0 8px;
+    	padding:0 0 0 5px;
+		border-left:2px solid #adb5bd;
+		color:#868e96;
+  	}
+  	.commento-button {
+		display:inline-flex;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+		cursor:pointer;
+		font-weight:700;
+		line-height:24px;
+		font-size:14px;
+		padding:6px 8px;
+		box-shadow:0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+		border:none;
+		border-radius:$radius-s;
+		color:#fff;
+		margin-left:5px;
+		margin-right:5px;
+  	}
 	.commento-login {
 		width:100%;
 	}
@@ -780,4 +781,5 @@ textarea {
 	.commento-sort-policy-buttons-container .commento-sort-policy-buttons .commento-sort-policy-button-selected {
 		color:#1971c2;
 		font-weight:700;
-	}
+	}*/
+}

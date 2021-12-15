@@ -11,23 +11,23 @@ layout: wrapper
 			<p>
 				<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>
 					{% if page.lang == 'it' %}
+						{% if page.location != nil %}
+							{% for place in site.data.places %}
+								{% if place.name contains page.location %}
+									 <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+								{% endif %}
+							{% endfor %}
+						{% endif %}
 						{% include date-it.html %}
-						{% if page.location != nil %}
-							{% for place in site.data.places %}
-								{% if place.name == page.location %}
-									 — <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
-								{% endif %}
-							{% endfor %}
-						{% endif %}
 					{% else %}
-						{{ page.date | date: '%d %B %Y' }}, 
 						{% if page.location != nil %}
 							{% for place in site.data.places %}
-								{% if place.name == page.location %}
-									nearby <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>
+								{% if place.name contains page.location %}
+									<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
 								{% endif %}
 							{% endfor %}
 						{% endif %}
+						{{ page.date | date: '%e %B %Y' }} 
 					{% endif %}
 				</time>
 				<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
@@ -35,7 +35,7 @@ layout: wrapper
 		</div>
 
 		{% capture content_with_ids %}
-			{% include anchor-parser.html html=content anchorBody='#' anchorClass='anchor' generateId='true' %}
+			{% include anchor-parser.html html=content anchorClass='anchor' generateId='true' %}
 		{% endcapture %}
 
 		{% include post-tags.html %}
@@ -43,7 +43,13 @@ layout: wrapper
 		{% include goto.html %}
 
 		<div class='row'>
-			<article class='e-content post'>
+			<article class='e-content post{% if page.serif %} serif{% endif %}'>
+				{% if page.toc %}
+					<div id='toc'>
+						<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+						{% include toc.html html=content_with_ids ordered=true %}
+					</div>
+				{% endif %}
 				{{ content_with_ids }}
 			</article>
 		</div>

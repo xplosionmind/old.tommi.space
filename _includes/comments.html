@@ -1,6 +1,6 @@
 {% if page.comments %}
 	<div id='comments' class='u-comment box row'>
-		<h2 class='title'>{% if page.lang 'it' %}Commenti{% else %}Comments{% endif %}</h2>
+		<h2 class='title'>{% if page.lang == 'it' %}Commenti{% else %}Comments{% endif %}</h2>
 
 		{% comment %}
 			<!-- the following script is not working, and probably comments ar not differentiated for every page -->
@@ -17,7 +17,6 @@
 		{% endcomment %}
 		<script defer
 			src='https://bla.tommi.space/js/commento.js'
-		  	data-css-override='/style.css'
 			data-no-fonts='true'>
 		</script>
 		<div id='commento'></div>

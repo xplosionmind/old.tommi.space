@@ -116,6 +116,10 @@ nav {
 }
 
 @media only screen and (max-width: 950px) {
+	#home {
+		top: 3vh;
+		left: 2vh;
+	}
 	.nav {
 		margin: 3vh;
 	}
@@ -126,7 +130,7 @@ nav {
 		position: fixed;
 		min-width: 50vw;
 		top: 5rem;
-		right: -200px;
+		right: -240px;
 		box-shadow: var(--shadow);
 		transition: .5s;
 		z-index: 9;

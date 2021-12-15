@@ -19,9 +19,6 @@ pandoc -s in.md --citeproc -o out.pdf
 - add [`--bibliography`](https://pandoc.org/MANUAL.html#option--bibliography '--bibliography in PanDoc’s User Manual') in the case a `bibliography` field is not present in YAML metadata for the document
 - add [`--toc`](https://pandoc.org/MANUAL.html#option--toc '--toc in PanDoc’s User Manual') in the case a Table of Contents is intended to be added and a `toc` boolean (`toc: true`) is not present in YAML metadata for the document
 
-<br>
-<br>
-
 ## Resources
 
 - <cite>[Setup for writing in Markdown, citing with Zotero, and publishing with Pandoc](https://www.simonlindgren.com/notes/2019/11/15/setup-for-writing-in-markdown-citing-with-zotero-and-publishing-with-pandoc 'Setup for writing in Markdown, citing with Zotero, and publishing with Pandoc')</cite>

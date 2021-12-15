@@ -19,9 +19,6 @@ todo: loop through all the notes and posts from that location
 
 <ul>{% for place in site.data.places %}<li>{% if place.url != '' %}<a href='{{ place.url }}' target='_blank' title='{{ place.name }}'>{{ place.name }}</a>{% else %}{{ place.name }}{% endif %}, {{ place.city }}</li>{% endfor %}</ul>
 
-<br>
-<br>
-
 ## Resources
 
 - [The Treasure Map](https://the-treasure-map.herokuapp.com 'The Treasure Map')

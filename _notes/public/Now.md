@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16
-updated: 2021-11-10T00:15:03+01:00
+updated: 2021-12-15T21:25:29+01:00
 ref: now
 description: Stuff I am up to in these days
 comments: false
@@ -14,8 +14,6 @@ todo:
 <br>
 
 What I am doing right now:
-
-<br>
 
 ## Studying
 
@@ -35,17 +33,15 @@ Specifically, my upcoming exams:
 </div>
 {% endcomment %}
 
-<br>
-<br>
+## Scout chief service
+
+I am currently serving as a scout chief in the <q>Reparto Corona Boreale</q> for the scout group [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'Facebook page of Mira 1') in Oriago di Mira (VE).
 
 ## Working on <cite>Scambi Festival</cite>
 
 With [a group of curious and crazy guys](https://scambi.org/en/about-us/ 'About us - Scambi Festival') from all over Italy, I founded and work at a Festival of workshops named [<cite>Scambi</cite>](https://scambi.org 'Scambi'), taking place in **Sanremo**, during the last week of August. The first edition, in 2021, has been a great success. We cannot wait for the second to happen, we are already working on it!
 
 Everything about our festival is on <a href='https://scambi.org'  target='_blank' title='Scambi'>our website</a>
-
-<br>
-<br>
 
 ## Projects, ideas, and collaborations
 
@@ -55,9 +51,6 @@ In the meanwhile, I am continuing to wander around Italy to take part and/or ass
 <br>
 
 ---
-
-<br>
-<br>
 
 ## Done
 
@@ -70,5 +63,3 @@ from `2020-10-16` to `2021-02-10`:
 ### Quitting Social Media
 
 I made the life-changing choice of <u class='double'>deleting all of my Social Media accounts</u> by the end of 2020. (I'm a bit late, but I'm getting there) There are a lot of reasons why I got to this point, and I discuss about this topic&emsp;**a l l&emsp;t h e&emsp;t i m e**&emsp;with my friends. At the moment my aim is to put together resources, articles, videos, documentaries and documents in [this website](https://quitsocialmedia.club 'Quit Social Media'). Randomly stuffed, everything is [in these notes](https://quitsocialmedia.club/notes 'Quit Social Media Notes'), in the meanwhile.
-
-<br>

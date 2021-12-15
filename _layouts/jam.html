@@ -10,25 +10,23 @@ layout: wrapper
 			{% endif %}
 			<p class='last-modified'>
 				{% if page.lang == 'it' %}
-					creato 
 					{% if page.location != nil %}
 						{% for place in site.data.places %}
-							{% if place.name == page.location %}
-								presso <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>
+							{% if place.name contains page.location %}
+								presso <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
 							{% endif %}
 						{% endfor %}
 					{% endif %}
-					il <time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{% include date-it.html %}</time>
+					<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{% include date-it.html %}</time>
 				{% else %}
-					published 
 					{% if page.location != nil %}
 						{% for place in site.data.places %}
-							{% if place.name == page.location %}
-								nearby <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>
+							{% if place.name contains page.location %}
+								<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
 							{% endif %}
 						{% endfor %}
 					{% endif %}
-					on <time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{{ page.date | date: '%e %B %Y' }}</time>
+					<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{{ page.date | date: '%e %B %Y' }}</time>
 				{% endif %}
 				<br />
 				{% if page.lang == 'it' %}
@@ -60,19 +58,14 @@ layout: wrapper
 	</div>
 
 	<div class='row'>
-		{% if page.toc %}
-			<div id='toc'>
-				<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-				{% include toc.html html=content_with_ids sanitize=true %}
-			</div>
-
-			<div class='one' style='float:right'>
-	
-		{% else %}
-			<div class='one column'>
-		{% endif %}
-
-			<article class='e-content note{% if page.serif == true %} serif{% endif %}'>
+		<div class='one column'>
+			<article class='e-content note{% if page.serif %} serif{% endif %}'>
+				{% if page.toc %}
+					<div id='toc'>
+						<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+						{% include toc.html html=content_with_ids %}
+					</div>
+				{% endif %}
 				{{ content_with_ids }}
 			</article>
 

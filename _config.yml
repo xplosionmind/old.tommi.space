@@ -170,7 +170,6 @@ defaults:
       lang: 'en'
       image: '/images/preview.gif'
       comments: true
-      serif: false
       primary: '#FCC920'
 
   -

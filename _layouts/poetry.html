@@ -1,19 +1,19 @@
 ---
 layout: wrapper
 ---
-<div class="h-entry">
-<div class="row page-header">
-	<div class="one column">
-		<a class="u-uid" href="{{ page.url }}"><h1 class="p-name">{{ page.title }}</h1></a>
+<div class='h-entry'>
+<div class='row page-header'>
+	<div class='one column'>
+		<a class='u-uid' href='{{ page.url }}'><h1 class='p-name'>{{ page.title }}</h1></a>
 		{% if page.subtitle %}
 			<h2>{{ page.subtitle }}</h2>
 		{% endif %}
-		{% comment %}<a class="u-url" href="{{ site.url }}{{ page.url }}"><h1 class="p-name">{{ page.title }}</h1></a>{% endcomment %}
+		{% comment %}<a class='u-url' href='{{ site.url }}{{ page.url }}'><h1 class='p-name'>{{ page.title }}</h1></a>{% endcomment %}
 	</div>
 </div>
-<div class="row">
-	<div class="one column">
-		<article class="e-content poetry">
+<div class='row'>
+	<div class='one column'>
+		<article class='e-content serif post'>
 			{{ content }}
 		</article>
 	</div>
