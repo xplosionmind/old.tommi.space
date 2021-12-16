@@ -4,6 +4,7 @@
 @import '../_sass/root';
 @import '../_sass/inter';
 @import '../_sass/header';
+@import '../_sass/search';
 @import '../_sass/ubuntu-mono';
 @import '../_sass/eb-garamond';
 /*@import '../_sass/graph';*/
@@ -980,7 +981,7 @@ button,
 		left: 2vw;
 		bottom: 0;
 		width: 18vw;
-		height: 5.8rem;
+		height: 7.5rem;
 		font-size: 1rem;
 		h3 {
 			&::after,

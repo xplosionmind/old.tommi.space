@@ -18,11 +18,7 @@ created: 2021-12-15T01:25:49+01:00
 
 ### v1
 
-1. Revise notes
-	- which ones are tagged `main`
-	- description, image, content
-	- consistency and effective cross-referencing
-2. 🏗 [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
+1. 🏗 [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
 
 ### v2
 
