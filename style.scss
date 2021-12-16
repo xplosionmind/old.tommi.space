@@ -10,7 +10,7 @@
 /*@import '../_sass/graph';*/
 
 html {
-	cursor: url({{ site.logos }}/cursor.svg) 16 16, crosshair;
+	cursor: url(/logos/cursor.svg) 16 16, crosshair;
 	scroll-behavior: smooth;
 
 /* DARK THEME */
@@ -155,7 +155,7 @@ button,
 .aa-suggestion,
 .embed-container,
 label {
-	cursor: url({{ site.logos }}/cursor-hover.svg) 16 16, pointer;
+	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
 }
 
 p,
@@ -174,18 +174,24 @@ article .box:not(.tags) {
 	}
 }
 
-input[type='email'] {
-	line-height: $bigger;
+input {
+	line-height: $big;
 	border: none;
 	background: var(--background);
 	color: var(--text);
-	border-radius: $radius-s;
-	border: solid 2px var(--text);
+	border-radius: $radius-m;
 	padding: $small $regular;
+	box-shadow: var(--inner-shadow);
 	font-size: $bigger;
 	max-width: 100%;
+	outline: none;
 	&::placeholder {
 		color: var(--other-grey);
+	}
+	&:focus,
+	&:active,
+	&:hover {
+		border: solid 2px var(--text);
 	}
 }
 
@@ -545,6 +551,7 @@ h1, h2, h3, h4, h5, h6 {
 	transition: var(--quicktrans);
 	line-height: 1;
 	hyphens: none;
+	margin: 0;
 	.anchor {
 		opacity: 0;
 	}
@@ -606,11 +613,7 @@ h3 {
 	}
 	h2,
 	h3 {
-		margin-top: 0;
 		text-align: center;
-	}
-	h4 {
-		margin: 0;
 	}
 }
 
@@ -746,7 +749,6 @@ button,
 	--text: var(--background);
 	color: var(--text);
 	background: var(--primary);
-	margin: $big;
 }
 
 .smaller {
