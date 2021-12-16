@@ -1,6 +1,6 @@
 ---
 date: 2021-01-20T16:55:39+01:00
-updated: 2021-10-28T21:07:59+02:00
+updated: 2021-12-16T18:07:06+01:00
 tags: geek
 aliases: Ubuntu Workstation
 redirect_from: [/workstation,/ubuntu-pc,/linux-pc,/pc,/PC,/computer-fisso]
@@ -51,7 +51,7 @@ I currently do not use *Linuxplosion* much since it is not in the house where I 
 
 ## Schedule
 
-Linuxplosion is not a [[Server]], hence it should not stay switched on all of the time (also because it is so powerful that it sucks a lot of power). Nevertheless, I needed to make it magically turn on by itself at a given day of the week, so that I can [[Importing workflow#Mobile|import media from my phone]]. To do so, I run [[Cron Jobs#rtcwake|this Cron Job]].
+Linuxplosion is not a [[Server]], hence it should not stay switched on all of the time (also because it is so powerful that it sucks a lot of power). Nevertheless, I needed to make it magically turn on by itself at a given day of the week, so that I can [[Importing workflow|import media from my phone]]. To do so, I run [[Cron Jobs#rtcwake|this Cron Job]].
 
 <br>
 

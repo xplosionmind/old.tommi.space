@@ -1,6 +1,6 @@
 ---
-date: 2020-05-07
-updated: 2021-12-10T17:00:50+01:00
+date: 2020-05-07T02:00:00+02:00
+updated: 2021-12-16T18:04:29+01:00
 tags: geek
 aliases: Cheat Sheet, cmd, CLI, Command Line, Terminal
 description:
@@ -170,7 +170,7 @@ See [HTML Proofer \> Configuration](https://github.com/gjtorikian/html-proofer#c
 
 ![[git#Cheat sheet]]
 
-<br>
-<br>
+
+## Nextcloud manteinance
 
 ![[Server Setup#Nextcloud Cheat Sheet]]

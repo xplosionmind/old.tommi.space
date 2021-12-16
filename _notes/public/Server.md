@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2021-12-15T23:17:12+01:00
+updated: 2021-12-16T18:03:33+01:00
 tags: geek/server draft
 main: true
 aliases: Xplosion Server
@@ -29,8 +29,8 @@ My server is a surprisingly powerful (considered how much I pay for it) <abbr ti
 ## Installed
 
 - [Nextcloud](https://nextcloud.com "Nextcloud official website")
-	- [[Server setup#Nextcloud]]
-	- [[Server setup#Nextcloud Cheat Sheett]]
+	- Installation walk-through: [[Server setup#Nextcloud]]
+	- Mantainance cheat sheet: [[Server setup#Nextcloud Cheat Sheet]]
 - [Jitsi Meet](https://jitsi.org "Jitsi Meet official website")
 	- [[Server setup#Jitsi Meet|Jitsi Meet configuration and installation walk-through]]
 - [OpenVPN](https://openvpn.net "OpenVPN official website") - ✅ 2020.01.01

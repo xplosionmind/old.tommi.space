@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04T02:00:00+02:00
-updated: 2021-12-15T22:39:42+01:00
+updated: 2021-12-16T18:01:51+01:00
 tags: geek
 permalink: /bugs
 redirect_from: [/feature-requests, /bugs-and-feature-requests]
@@ -52,13 +52,6 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 ## MacOS
 
 - Change default AirDrop destination folder (e.g. `Desktop` instead of `Downloads`)
-
-<br>
-<br>
-
-## Pixelfed
-
-![[Pixelfed#Bugs and Feature Requests]]
 
 <br>
 <br>

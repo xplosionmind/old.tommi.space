@@ -65,15 +65,15 @@
 			siteId: 'c7f3a969-424a-450b-8636-2d477af82e76',
 			branch: 'main',
 			selector: 'div#search',
+			placeholder: '🔍 Search here…',
 			analytics: 'false',
-			detached: 'false',
-			debug: 'true',
+			detached: false,
 		});
 	</script>
 
 	<!-- Plausible Analytics -->
 	<script async defer data-domain='tommi.space' src='https://visits.tommi.space/js/index.js'></script>
-	<script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"tommi",utcoffset:"1"}))};sessionStorage.setItem("_swa","1");</script>
+	<script>if(!sessionStorage.getItem('_swa')&&document.referrer.indexOf(location.protocol+'//'+location.host)!== 0){fetch('https://counter.dev/track?'+new URLSearchParams({referrer:document.referrer,screen:screen.width+'x'+screen.height,user:'tommi',utcoffset:'1'}))};sessionStorage.setItem('_swa','1');</script>
 
 	{% for me in site.data.accounts %}
 		{% unless me.deleted %}

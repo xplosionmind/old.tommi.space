@@ -8,10 +8,10 @@ layout: compress
 
 	<body {% if page.class %}class='{{ page.class }}'{% endif %}>
 		<a id='to-top' class='tool' href='#' title='scroll to top'>
-			<svg class='button'  viewBox='0 0 24 24' style='background:var(--background)'><path d='M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z' fill='var(--primary)'/></svg>
+			<svg class='button'  viewBox='0 0 24 24' style='background:var(--deep)'><path d='M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z' fill='var(--text)'/></svg>
 		</a>
 		<a id='to-bottom' class='tool' href='#0' title='scroll to bottom'>
-			<svg class='button'  viewBox='0 0 24 24' style='background:var(--background)'><path d='M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z' fill='var(--primary)'/></svg>
+			<svg class='button'  viewBox='0 0 24 24' style='background:var(--deep)'><path d='M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z' fill='var(--text)'/></svg>
 		</a>
 
 		<script>
@@ -45,14 +45,10 @@ layout: compress
 		{{ content }}
 
 		<div class='row'>
-			<div class='one column'>
-				<div id='search'></div>
-			</div>
-		</div>
-
-		<div class='row'>
 			{% include footer.html %}
 		</div>
+
+		<div id='search'></div>
 	
 	</body>
 	{% webmentions_js %}

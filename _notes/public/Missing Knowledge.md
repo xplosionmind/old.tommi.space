@@ -1,6 +1,6 @@
 ---
 date: 2020-12-09T01:00:00+01:00
-updated: 2021-12-15T23:17:12+01:00
+updated: 2021-12-16T18:07:57+01:00
 tags: knowledge todo
 aliases: Learn, To learn
 description: What I need / have / would love to learn
@@ -22,7 +22,7 @@ A private list of knowledge I miss about exams I am studying for.
 <br>
 
 <div class='blue box'>
-	Gaps in knowledge should be covered with the right [[Resources|Learning Resources]], and remembered with an effective [[Knowledge management]].
+	Gaps in knowledge should be covered with the right [[Knowledge|Learning Resources]], and remembered with an effective [[Knowledge management]].
 </div>
 
 <br>

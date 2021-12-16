@@ -264,12 +264,11 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 /**
 1. Correct the odd appearance in Chrome and Safari.
-2. Correct the outline style in Safari.
+2. Correct the outline style in Safari. (it is styled wrongly in Firefox)
 */
 
 [type='search'] {
 	-webkit-appearance: textfield; /* 1 */
-	outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -302,3 +301,4 @@ Add the correct display in Chrome and Safari.
 summary {
 	display: list-item;
 }
+

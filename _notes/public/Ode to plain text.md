@@ -6,7 +6,7 @@ aliases: Plain text, KISS
 permalink: /plain-text
 redirect_from: ['/ode-to-plain-text']
 toc: false
-updated: 2021-12-15T23:16:20+01:00
+updated: 2021-12-16T18:05:49+01:00
 ---
 I'm not a developer, but I’m a geek.
 
@@ -23,7 +23,7 @@ There’s nothing much to point out, to be honest, it’s *plain clear* how cool
 
 - Stop creating playlists on Spotify, just copy and paste links in a plain text file.
 - Stop archiving articles in Pocket or read-it-later apps: a text file with a list of links would do!
-- Stop writing stuff in rich text editors, necessarily creating compatibility issues when sharing, use the lovely [[Markdown]] instead
+- Stop writing stuff in rich text editors, necessarily creating compatibility issues when sharing, use the lovely [Markdown](https://en.wikipedia.org/wiki/Markdown 'Markdown on Wikipedia') instead
 
 <br>
 <br>
