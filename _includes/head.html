@@ -56,6 +56,20 @@
 		</script>
 	{% endif %}
 
+	<!-- Algolia search -->
+	<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js'></script>
+	<script type='text/javascript'>
+		algoliasearchNetlify({
+			appId: 'PGDJCLQ0E0',
+			apiKey: 'dbb8d1d0973ddcbf32dba14ada9f2615',
+			siteId: 'c7f3a969-424a-450b-8636-2d477af82e76',
+			branch: 'main',
+			selector: 'div#search',
+			analytics: 'false',
+			debug: 'true',
+		});
+	</script>
+
 	<!-- Plausible Analytics -->
 	<script async defer data-domain='tommi.space' src='https://visits.tommi.space/js/index.js'></script>
 	<script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"tommi",utcoffset:"1"}))};sessionStorage.setItem("_swa","1");</script>

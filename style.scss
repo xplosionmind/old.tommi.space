@@ -407,18 +407,18 @@ table {
 }
 
 .landing {
-	background: var(--primary);
+	background: var(--yellow);
 	h1 {
-		color: var(--background);
+		color: var(--black-ish);
 		font-weight: 800;
 		margin-bottom: 0;
 		position: relative;
 		bottom: $regular;
-		text-shadow: 4px 4px 20px #0006;
+		text-shadow: 3px 3px 10px #11305B66;
 	}
 	.button {
 		color: var(--white-ish);
-		background: var(--background);
+		background: var(--dark-blue);
 		margin: $tiny $regular-less;
 	}
 }
@@ -869,7 +869,18 @@ button,
 	background: var(--blue);
 	border-color: var(--blue) !important;
 	&:not(.border) {
-		--text: white;
+		--text: #FFF;
+		--link: var(--yellow);
+		--internal-link: var(--link);
+		--transp-text: #FFFA;
+	}
+}
+
+.dark-blue {
+	background: var(--dark-blue);
+	border-color: var(--dark-blue) !important;
+	&:not(.border) {
+		--text: #FFF;
 		--link: var(--yellow);
 		--internal-link: var(--link);
 		--transp-text: #FFFA;

@@ -2,39 +2,37 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="{% if page.lang == 'it' %}it{% else %}en{% endif %}" prefix="og: http://ogp.me/ns#" dir="ltr">
+<html lang='{% if page.lang == 'it' %}it{% else %}en{% endif %}' prefix='og: http://ogp.me/ns#' dir='ltr'>
 
 	{% include head.html %}
 
 	<body {% if page.class %}class='{{ page.class }}'{% endif %}>
-		<a id="to-top" class="tool" href="#" title="scroll to top">
-			<svg class="button"  viewBox="0 0 24 24" style="background:var(--background)"><path d="M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z" fill="var(--primary)"/></svg>
+		<a id='to-top' class='tool' href='#' title='scroll to top'>
+			<svg class='button'  viewBox='0 0 24 24' style='background:var(--background)'><path d='M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z' fill='var(--primary)'/></svg>
 		</a>
-		<a id="to-bottom" class="tool" href="#0" title="scroll to bottom">
-			<svg class="button"  viewBox="0 0 24 24" style="background:var(--background)"><path d="M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z" fill="var(--primary)"/></svg>
+		<a id='to-bottom' class='tool' href='#0' title='scroll to bottom'>
+			<svg class='button'  viewBox='0 0 24 24' style='background:var(--background)'><path d='M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z' fill='var(--primary)'/></svg>
 		</a>
 
 		<script>
 			{% comment %}
 				/*NOT WORKING:*/document.getElementsByClassname('invalid-wiki-link').setAttribute('title', 'This note is private');
 			{% endcomment %}
-			scrollbottom = document.getElementById("to-bottom");
-			scrolltop = document.getElementById("to-top");
+			scrollbottom = document.getElementById('to-bottom');
+			scrolltop = document.getElementById('to-top');
 			window.onscroll = function() {scroll()};
 			function scroll() {
 				if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-					scrollbottom.style.display = "none";
-					scrolltop.style.display = "block";
+					scrollbottom.style.display = 'none';
+					scrolltop.style.display = 'block';
 				} else {
-					scrollbottom.style.display = "block";
-					scrolltop.style.display = "none";
+					scrollbottom.style.display = 'block';
+					scrolltop.style.display = 'none';
 				}
 			}
 		</script>
 
 		{% include nav.html %}
-
-		{% include search.html %}
 
 		{% if page.tags contains 'draft' or page.tags contains 'wip' %}
 			{% include draft.html %}
@@ -46,7 +44,13 @@ layout: compress
 
 		{{ content }}
 
-		<div class="row">
+		<div class='row'>
+			<div class='one column'>
+				<div id='search'></div>
+			</div>
+		</div>
+
+		<div class='row'>
 			{% include footer.html %}
 		</div>
 	
