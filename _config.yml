@@ -121,12 +121,12 @@ sass:
 target-blank:
   rel: external
 
-graph:
-  enabled: true
-  net_web:
-    enabled: true
-  tree:
-    enabled: false
+#graph:
+#  enabled: true
+#  net_web:
+#    enabled: true
+#  tree:
+#    enabled: false
 
 markdown: CommonMark
 commonmark:

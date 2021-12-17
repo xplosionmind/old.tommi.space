@@ -150,6 +150,12 @@ a {
 	&.box:active {
 		box-shadow: var(--inner-shadow);
 	}
+	img {
+		& + h2,
+		& + h3 {
+			margin-top: $regular-more;
+		}
+	}
 }
 
 a,
@@ -464,9 +470,9 @@ img {
 	max-width: 100%;
 	display: block;
 	border-radius: $radius-l;
-	+ h2,
-	+ h3 {
-		margin-top: $regular-more !important;
+	& + h2,
+	& + h3 {
+		margin-top: $regular-more;
 	}
 }
 
@@ -477,7 +483,7 @@ figure {
 		box-shadow: var(--shadow);
 		margin: 0 auto;
 	}
-	+ figure {
+	& + figure {
 		img {
 			margin: 0 $small 0 0;
 		}
@@ -613,6 +619,9 @@ h3 {
 	h3 {
 		text-align: center;
 	}
+	.written.button {
+		margin: $regular-more $small;
+	}
 }
 
 .zibaldone {
@@ -731,7 +740,6 @@ button,
 	box-shadow: var(--button-shadow);
 	text-align: center;
 	hyphens: none;
-	margin: $small;
 	&:hover,
 	&:focus {
 		box-shadow: none;

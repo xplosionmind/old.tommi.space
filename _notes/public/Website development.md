@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2021-12-17T10:55:48+01:00
+updated: 2021-12-17T13:12:26+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -20,11 +20,7 @@ created: 2021-12-15T01:25:49+01:00
 ## Roadmap
 
 - <b class='wtf'>bug</b>: subtags not read correctly
-- on mobile, fixed menu, too
-- margin of `h2` and `.title` in `.box`
-- button top and bottom margins
-- stuff boxes hypens
-- mobile menu list transparency
+- <b class='wtf'>bug</b>: Algolia search results not appearing
 
 <br>
 

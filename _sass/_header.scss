@@ -86,10 +86,11 @@ nav {
 	display: none;
 	height: $height;
 	width: $height;
-	position: absolute;
+	position: fixed;
 	top: 3vh;
 	right: 3vh;
 	box-shadow: var(--shadow);
+	background: var(--deep);
 	span {
 		top: 1.4rem;
 		left: .8rem;
@@ -131,6 +132,7 @@ nav {
 		min-width: 50vw;
 		top: 5rem;
 		right: -240px;
+		background: var(--background);
 		box-shadow: var(--shadow);
 		transition: .5s;
 		z-index: 9;
