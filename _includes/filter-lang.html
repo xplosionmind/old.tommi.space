@@ -16,31 +16,31 @@
 
 <script>
 function toggleit() {
-	var x = document.querySelectorAll('li[lang='en'], .one .row > a[hreflang='en'], .grid a[hreflang='en']');
+	var x = document.querySelectorAll("li[lang='en'], .one .row > a[hreflang='en'], .grid a[hreflang='en']");
 	var i;
 	for (i = 0; i < x.length; i++) {
 		x[i].style.display = 'none';
 	}
-	var x = document.querySelectorAll('li[lang='it'], .one .row > a[hreflang='it'], .grid a[hreflang='it']');
+	var x = document.querySelectorAll("li[lang='it'], .one .row > a[hreflang='it'], .grid a[hreflang='it']");
 	var i;
 	for (i = 0; i < x.length; i++) {
 		x[i].style.display = 'revert';
 	}
 }
 function toggleen() {
-	var x = document.querySelectorAll('li[lang='it'], .one .row > a[hreflang='it'], .grid a[hreflang='it']');
+	var x = document.querySelectorAll("li[lang='it'], .one .row > a[hreflang='it'], .grid a[hreflang='it']");
 	var i;
 	for (i = 0; i < x.length; i++) {
 		x[i].style.display = 'none';
 	}
-	var x = document.querySelectorAll('li[lang='en'], .one .row > a[hreflang='en'], .grid a[hreflang='en']');
+	var x = document.querySelectorAll("li[lang='en'], .one .row > a[hreflang='en'], .grid a[hreflang='en']");
 	var i;
 	for (i = 0; i < x.length; i++) {
 		x[i].style.display = 'revert';
 	}
 }
 function toggleall() {
-	var x = document.querySelectorAll('li[lang='en'], li[lang='it'], .one .row > a[hreflang='en'], .one .row > a[hreflang='it'], .grid a[hreflang='it'], .grid a[hreflang='en']');
+	var x = document.querySelectorAll("li[lang='en'], li[lang='it'], .one .row > a[hreflang='en'], .one .row > a[hreflang='it'], .grid a[hreflang='it'], .grid a[hreflang='en']");
 	var i;
 	for (i = 0; i < x.length; i++) {
 		x[i].style.display = 'revert';

@@ -1,15 +1,18 @@
 ---
 date: 2020-12-05T01:00:00+01:00
-updated: 2021-12-17T11:14:29+01:00
+updated: 2021-12-17T11:41:49+01:00
 tags: geek
 aliases: Quitting Flickr, Quit Flickr
 description: Thoughts and decisions about quitting Flickr and switching to Piwigo
 image: https://tommi.space/images/jar/quit-flickr.jpg
-redirect_from: [/flickr, /piwigo, /quitting-flickr, /switch-to-piwigo, /piwigo-switch]
+redirect_from: [/flickr, /quitting-flickr, /switch-to-piwigo, /piwigo-switch]
 ---
-<div class='blue box'>
-	The process of quitting <a href='https://flickr.com' target='_blank' title='Flickr'>Flickr</a> and switching to [[Piwigo]] took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, but it took me all of Q1 of 2021 to completely configure the gallery and optimize the workflow, for good.
-</div>
+<div class='blue box'>Switching to Piwigo is one of the steps my path to [[Internet Freedom]].</div>
+
+The process of quitting [Flickr](https://flickr.com 'Flickr') and switching to [[Piwigo]] took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, but it took me all of Q1 of 2021 to completely configure the gallery and optimize the workflow, for good.
+
+<br>
+<br>
 
 ## Why quitting Flickr
 
@@ -51,28 +54,11 @@ I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr
 3. Setting a **custom domain**: there is no option to do it automatically from the settings, so I sent an email to Piwigo support in order to make <https://tommi.piwigo.com> match <https://images.tommi.space>, then, from my DNS records, I created several redirections such as <https://visions.tommi.space> or <https://gallery.tommi.space>, and they all point to the domain I wrote in the email
 1. Improve private albums sharing, with [ShareAlbum plugin](https://github.com/petitssuisses/piwigo-ShareAlbum/ 'piwigo-ShareAlbum on GitHub')
 2. Read Piwigo privacy policy to check reliability for private pictures
-
-<br>
-<br>
-
-## Embed image
-
-
-<br>
-<br>
-
-## Feature requests
-
-- ~~One thing I am still trying to figure out is how to make more pictures appear for a gallery page. They are too few and it’s really complicated to modify the size of the thumbnail to make them look nice~~. ✅ 2021.01.07 it is sufficient to go in the settings page of the user in question and change the value of “number of photos per page”
-- Server/photos backup
+1. ❌ Importing album descriptions
+1. ❌ Importing Collections as parent albums
 
 <br>
 
-
-- Import album descriptions
-- Import Collections as parent albums
+---
 
 <br>
-<br>
-
-Switching to Piwigo is one of the steps my path to [[Internet Freedom]].
