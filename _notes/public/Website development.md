@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2021-12-17T01:38:07+01:00
+updated: 2021-12-17T10:55:48+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -20,6 +20,11 @@ created: 2021-12-15T01:25:49+01:00
 ## Roadmap
 
 - <b class='wtf'>bug</b>: subtags not read correctly
+- on mobile, fixed menu, too
+- margin of `h2` and `.title` in `.box`
+- button top and bottom margins
+- stuff boxes hypens
+- mobile menu list transparency
 
 <br>
 
@@ -53,7 +58,7 @@ created: 2021-12-15T01:25:49+01:00
 1. Configure and implement [ActivityPub]
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
-1. [**<cite>Visions</cite>**](https://visions.tommi.space 'Visioni - Tommi Space') improvement: see [[Images#Gallery improvement]] and [[Piwigo]]).
+1. [**<cite>Visions</cite>**](https://visions.tommi.space 'Visioni - Tommi Space') improvement: see [[Images#Gallery improvement]] and [[Flickr to Piwigo]]).
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
 	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ 'How to build a responsive gallery with flexbox')

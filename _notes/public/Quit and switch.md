@@ -1,6 +1,6 @@
 ---
-date: 2020-12-05
-updated: 2021-11-16T11:57:56+01:00
+date: 2020-12-05T01:00:00+01:00
+updated: 2021-12-17T10:55:48+01:00
 tag: geek zen
 aliases: Just quit, Choose the alternative, Go alternative, Make the switch
 image: https://tommi.space/images/jar/just-quit.jpg
@@ -19,7 +19,7 @@ todo: update
 - ✅ [**<cite>Quit Social Media</cite>**](https://quitsocialmedia.club)
 - ✅ [[Quit Google]]
 - ~~[[Quit Spotify]]~~: it is hard to live without it.
-- ✅ Quit [Flickr](https://flickr.com 'Flickr') and [[Piwigo|Switch to Piwigo]] 2020.12.23 - 2021.01.18
+- ✅ Quit [Flickr](https://flickr.com 'Flickr') and [[Flickr to Piwigo|Switch to Piwigo]] 2020.12.23 - 2021.01.18
 - 😵‍💫 [[Quit listing]]
 - 🚧 [[Quit Mailchimp]] (even if I almost never used it)
 - ⏸/❌ [[Switch to LineageOS]]

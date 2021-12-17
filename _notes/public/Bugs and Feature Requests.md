@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04T02:00:00+02:00
-updated: 2021-12-16T18:01:51+01:00
+updated: 2021-12-17T10:55:48+01:00
 tags: geek
 permalink: /bugs
 redirect_from: [/feature-requests, /bugs-and-feature-requests]
@@ -149,9 +149,9 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 <br>
 <br>
 
-![[Piwigo#Bugs]]
+![[Flickr to Piwigo#Bugs]]
 
-![[Piwigo#Feature requests]]
+![[Flickr to Piwigo#Feature requests]]
 
 ## Joplin
 

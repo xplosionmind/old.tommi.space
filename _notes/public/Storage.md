@@ -1,6 +1,6 @@
 ---
-date: 2020-12-24
-updated: 2021-06-21T10:04:50+02:00
+date: 2020-12-24T01:00:00+01:00
+updated: 2021-12-17T10:55:48+01:00
 tags: geek
 aliases: Backup
 redirect_from: [/backup, /backups]
@@ -26,7 +26,7 @@ To better understand my positions about this topic and their reasons, it would b
 
 ## Doubts
 
-- Can I rely on [[Piwigo]] alone to host all of my JPGs, even my private ones? *No*
+- Can I rely on [[Flickr to Piwigo]] alone to host all of my JPGs, even my private ones? *No*
 	- is it reliable? How much do I risk of losing my data? *Not too much. Not more reliable than any server around the world*.
 	- is it secure? Are my private pictures somehow server-side encrypted? *[**No encryption**](https://piwigo.org/forum/viewtopic.php?id=31166 'How much can I trust Piwigo with my private pictures?'). Not the best option to backup pictures*
 - Does it make sense to use my [[Cubbit]]'s 4TB for long-term picture storage? *It does, as long as [[Cubbit#Feature requests|some features]] will be included*

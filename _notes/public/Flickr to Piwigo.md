@@ -1,6 +1,6 @@
 ---
 date: 2020-12-05T01:00:00+01:00
-updated: 2021-12-15T23:17:12+01:00
+updated: 2021-12-17T11:14:29+01:00
 tags: geek
 aliases: Quitting Flickr, Quit Flickr
 description: Thoughts and decisions about quitting Flickr and switching to Piwigo
@@ -8,12 +8,12 @@ image: https://tommi.space/images/jar/quit-flickr.jpg
 redirect_from: [/flickr, /piwigo, /quitting-flickr, /switch-to-piwigo, /piwigo-switch]
 ---
 <div class='blue box'>
-	The process of quitting <a href='https://flickr.com' target='_blank' title='Flickr'>Flickr</a> and switching to <a href='https://piwigo.org' target='_blank' title='Piwigo'>Piwigo</a> took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, but it took me all of Q1 of 2021 to completely configure the gallery and optimize the workflow, for good.
+	The process of quitting <a href='https://flickr.com' target='_blank' title='Flickr'>Flickr</a> and switching to [[Piwigo]] took place between the 21<sup>st</sup> and 23<sup>rd</sup> December 2020, but it took me all of Q1 of 2021 to completely configure the gallery and optimize the workflow, for good.
 </div>
 
 ## Why quitting Flickr
 
-Why quitting [Flickr](https://www.flickr.com 'Flickr') and choosing [Piwigo](http://piwigo.org 'Piwigo') instead:
+Why quitting [Flickr](https://www.flickr.com 'Flickr') and choosing [[Piwigo]] instead:
 
 - Flickr is hosted on Amazon’s servers
 - [Piwigo is open source](https://github.com/piwigo 'Piwigo on GitHub') and ethical, while Flickr is proprietary software.
@@ -41,7 +41,7 @@ Why quitting [Flickr](https://www.flickr.com 'Flickr') and choosing [Piwigo](htt
 	There are some very important features which are missing in Piwigo. I track them <a href='#bugs' title='Piwigo bugs and feature requests'>here</a>
 </div>
 
-I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr2Piwigo in Piwigo Extensions Marketplace'), a plugin to [[Piwigo|import pictures from Flickr]].
+I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr2Piwigo in Piwigo Extensions Marketplace'), a plugin to [[Flickr to Piwigo|import pictures from Flickr]].
 
 1. Since importing photos from Flickr is very effective and most of the metadata is preserved, there is almost no configuration to be done, for what concerns the pictures.
 	1. For some reason, the albums’ cover images do not always correspond, so they must be updated.
@@ -57,12 +57,6 @@ I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr
 
 ## Embed image
 
-```url
-https://images.tommi.space/plugins/download_by_size/action.php?id=16172&part=e&size=medium
-```
-
-- [API settings](https://images.tommi.space/tools/ws.htm 'images.tommi.space API')
-- [Piwigo Forum post](https://piwigo.org/forum/viewtopic.php?id=31165 'Embedding images and galleries in HTML - Piwigo Forum')
 
 <br>
 <br>
