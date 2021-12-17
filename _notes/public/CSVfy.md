@@ -1,7 +1,7 @@
 ---
 date: 2021-04-06T11:37:50+02:00
-updated: 2021-04-06T11:37:50+02:00
-tags: geek wip
+updated: 2021-12-17T01:22:36+01:00
+tags: geek/wip
 aliases: CSVfication
 permalink: /csv
 redirect_from: [/csvfication, /csvification, /csvify, /csvfy]

@@ -1,7 +1,7 @@
 ---
 date: 2020-02-04T01:00:00+01:00
-updated: 2021-12-15T22:39:42+01:00
-tags: wip log csvfy
+updated: 2021-12-17T01:22:54+01:00
+tags: geek/wip log csvfy
 aliases: Cose extended, Tutte le cose, Stuff extended, Di tutto e di più, Done, Fatto
 lang: it
 redirect_from: [/tuttopiu,/cose-extended,/stuff-extended,/stuff-extended-it,/stuff-extended/it, /it/stuff-extended, /everything, /done, /fatto, /fatte]

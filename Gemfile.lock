@@ -12,6 +12,17 @@ GIT
       webmention (~> 0.1.6)
 
 GIT
+  remote: https://github.com/digitalsparky/jekyll-minifier.git
+  revision: be6d0d56b1fc9eade93b4d5a4933d0340aee1d71
+  specs:
+    jekyll-minifier (0.1.8)
+      cssminify2 (~> 2.0)
+      htmlcompressor (~> 0.4)
+      jekyll (>= 3.5)
+      json-minify (~> 0.0.3)
+      uglifier (~> 4.1)
+
+GIT
   remote: https://github.com/jekyll/jekyll-commonmark.git
   revision: 37e262a5635e74f2a2a4b1233f91cf49ac29ee7f
   specs:
@@ -20,7 +31,7 @@ GIT
 
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: fafcc2ce4eaea23df4fd5e803d624f53951d997b
+  revision: 30f795f5a7e0740379fe9354c3a2554427b703ed
   specs:
     jekyll (4.2.1)
       addressable (~> 2.4)
@@ -53,6 +64,7 @@ GEM
     colorator (1.1.0)
     commonmarker (0.23.2)
     concurrent-ruby (1.1.9)
+    cssminify2 (2.0.1)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -74,6 +86,7 @@ GEM
       typhoeus (~> 1.3)
       yell (~> 2.0)
     htmlbeautifier (1.4.1)
+    htmlcompressor (0.4.0)
     http_parser.rb (0.8.0)
     httparty (0.15.7)
       multi_xml (>= 0.5.2)
@@ -118,6 +131,8 @@ GEM
       jekyll (~> 4.2.0)
       nokogiri (~> 1.12.3)
     json (2.6.1)
+    json-minify (0.0.3)
+      json (> 0)
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -191,6 +206,7 @@ DEPENDENCIES
   jekyll-graph
   jekyll-last-modified-at
   jekyll-mentions
+  jekyll-minifier!
   jekyll-paginate-v2
   jekyll-redirect-from
   jekyll-seo-tag

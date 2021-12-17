@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2021-12-16T00:04:57+01:00
+updated: 2021-12-17T01:38:07+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -12,13 +12,22 @@ created: 2021-12-15T01:25:49+01:00
 ---
 ## Content
 
-![[Writing#Website]]
+![[Writing ideas#Website]]
+
+<br>
+<br>
 
 ## Roadmap
+
+- <b class='wtf'>bug</b>: subtags not read correctly
+
+<br>
 
 ### v1
 
 1. 🏗 [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
+
+<br>
 
 ### v2
 
@@ -37,8 +46,10 @@ created: 2021-12-15T01:25:49+01:00
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
 14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 'jekyll-paginate on GitHub') and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ 'jekyll-csv on GitHub')
 
+<br>
+
 ### v3
-1. Configure and implement [[Indie Web]]
+
 1. Configure and implement [ActivityPub]
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
@@ -52,6 +63,8 @@ created: 2021-12-15T01:25:49+01:00
 8. [[The Jam]]: Preview a note when hovering on link
 3. [Watchlog](https://github.com/xplosionmind/data/blob/main/watchlog.csv 'watchlog.csv on GitHub') implementation
 
+<br>
+
 ### v4
 
 - get CSVs from URLs with JavaScript instead of buildtime (pseudo [[Nolan]] implementation)
@@ -59,6 +72,8 @@ created: 2021-12-15T01:25:49+01:00
 - [[Anytype]] implementation
 - [Generative Art](https://generativeartistry.com 'Generative artistry')
 	- always-changing colors, see Zander Martineau’s [website](https://zander.wtf/ 'Zander Martineau')
+
+<br>
 
 ### further improvements
 
@@ -71,10 +86,10 @@ created: 2021-12-15T01:25:49+01:00
 - Fetch images previews to complete external links and preferences
 	- how to make use of <https://ogp.me> to retrieve data
 - Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ 'jekyll-exif-data on GitHub') to print a picture place and time in `figcaption` by default
-21. Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ 'jekyll-git-metadata on GitHub') instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
-25. `.onion` address
-23. [[Permanent HTML]]
-24. Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite 'jekyll-multisite on GitHub') with [quitsocialmedia.club](https://quitsocialmedia.club 'Quit Social Media') and [PISE notes](https://pise-notes.club 'PISE notes')
+- Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ 'jekyll-git-metadata on GitHub') instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
+- `.onion` address
+- [[Permanent HTML]]
+- Use [jekyll-multisite](https://github.com/sumdog/jekyll-multisite 'jekyll-multisite on GitHub') with [quitsocialmedia.club](https://quitsocialmedia.club 'Quit Social Media') and [PISE notes](https://pise-notes.club 'PISE notes')
 - Use typographic animations
 	- [AxisPraxis’ Zycon](https://www.axis-praxis.org/specimens/zycon 'Zycon')
 	- [Anicons](https://typogram.github.io/Anicons/ 'Anicons')
@@ -89,7 +104,9 @@ created: 2021-12-15T01:25:49+01:00
 - Consider sticking the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com 'Humane Tech') and [Victoria Drake](https://victoria.dev)
 - Consider switching to [Hugo](https://gohugo.io 'Hugo')
 
-### page-specific improvements
+<br>
+
+### page-specific to-dos
 
 <ul>
 {% for p in site.pages %}
@@ -113,13 +130,16 @@ created: 2021-12-15T01:25:49+01:00
 {% endfor %}
 </ul>
 
+<br>
+<br>
+
 ## Done
 
 - ✅ <time datetime='2021-12-16T00:06:34+01:00'>2021-12-16</time> Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
 - ✅ <time datetime='2021-12-16T00:05:15+01:00'>2021-12-16</time> better TOC positioning and spacing
 - ✅ <time datetime='2021-12-15T01:24:54+01:00'>2021-12-15</time> ~~[Self-hosted comments](https://www.taniarascia.com/add-comments-to-static-site/ 'Roll Your Own Comment System for a Static Site') service~~ Switched from [utteranc.es](https://utteranc.es 'Utterances') (that needed an authentication and it was GitHub-based) to a [self-hosted](https://bla.tommi.space 'Tommi’s comments') [Commento](https://commento.io 'Commento official website') instance.
 - ✅ 2021-10-30 Month translation in Italian pages
-- Join [weird-wide-webring](https://weirdwidewebring.net/ 'Weird Wide Webring') ✅ 2021-09-26
+- ✅ Configure and implement [[Indie Web]]
 - Add a “**Looking for help**” page where are listed all the things (tagged `help`) for which I would love to receive assistance and thoughts ✅ 2021-05-25
 - Add [`this page was designed to last`](https://jeffhuang.com/designed_to_last/) - ✅ 2021.05.20
 - Switch to [variable fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide 'Variable fonts guide on MDN') ✅ 2021.04.28

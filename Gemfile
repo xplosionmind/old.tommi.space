@@ -44,4 +44,5 @@ group :jekyll_plugins do
 	gem 'jekyll-wikilinks'
 #	gem 'jekyll-favicon' # my favicons are not uniform
 	gem 'jekyll-graph'
+	gem 'jekyll-minifier', github: 'digitalsparky/jekyll-minifier'
 end

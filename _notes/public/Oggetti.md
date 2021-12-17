@@ -5,6 +5,7 @@ aliases: Compagni di viaggio
 lang: it
 description: Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi.
 redirect_from: ['/compagni-di-viaggio', '/oggetti', '/cose-smarrite', '/oggetti-smarriti', '/lost-and-found']
+image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080113-cf44e5b4-me.jpg
 ---
 È un comportamento che sembra esagerato, ma sono così affezionato loro, che, più che essere parte di me, sono diventati dei veri e propri compagni di viaggio. Per questo motivo ho deciso di registrare qui le loro generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.
 
@@ -38,25 +39,21 @@ Disperato, sono andato a cercare di nuovo il modello su ebay. 738$.
 
 ### I Blackfin
 
-Ad aprile 2015, partecipai con [Radioimmaginaria](/tutto#radioimmaginaria) all’[International Radio Festival](https://www.facebook.com/irfradiofest/), tenutosi nell’[Unicredit Pavilion](https://it.wikipedia.org/wiki/IBM_Studios) in Piazza Gae Aulenti a Milano. È stato fighissimo e tutto quello che abbiamo fatto è raccolto [qui](/tutto#radioimmaginaria).
+Ad aprile 2015, partecipai con [Radioimmaginaria](/tutto#radioimmaginaria) all’[International Radio Festival](https://www.facebook.com/irfradiofest/), tenutosi nell’[Unicredit Pavilion](https://it.wikipedia.org/wiki/IBM_Studios '“IBM Studios” su Wikipedia') in Piazza Gae Aulenti a Milano. È stato fighissimo e tutto quello che abbiamo fatto è raccolto [qui](/tutto#radioimmaginaria).
 
-C’erano un sacco stand di brand e radio molto importanti, fra cui quello di [Blackfin](https://www.blackfin.eu/). Io, come mio solito, mi aggiravo per il padiglione parlando con tutte le persone che incontravo, disturbando le dirette delle altre radio e facendo un sacco di rumore.
+C’erano un sacco stand di brand e radio molto importanti, fra cui quello di [Blackfin](https://www.blackfin.eu/ 'Blackfin'). Io, come mio solito, mi aggiravo per il padiglione parlando con tutte le persone che incontravo, disturbando le dirette delle altre radio e facendo un sacco di rumore.
 
-Riporterò qui la conversazione che tenni con la mitica [Elena Sandre](https://www.facebook.com/elena.sandre.9), allo stand Blackfin.
+Riporterò qui la conversazione che tenni con la mitica [Elena Sandre](https://www.facebook.com/elena.sandre.9 'Profilo Facebook di Elena'), allo stand Blackfin.
 
-T: “Ciao! Stavate cercando un modello affascinante come me?”
-
-E: “Ecco! Proprio uno come te stavamo cercando!”
-
-“Scegli un paio di occhiali”
-
-Io, credendo mi facessero fare delle foto e basta, mi entusiasmai e scelsi un bel paio
-
-T: “ah, davvero? Wow, ok… non credevo qualcuno mi avrebbe mai preso sul serio”
+T: <q>Ciao! Stavate cercando un modello affascinante come me?</q>  
+E: <q>Ecco! Proprio uno come te stavamo cercando!</q>  
+<q>Scegli un paio di occhiali</q>
+Io, credendo mi avrebbero fatto fare delle foto e basta, mi entusiasmai e scelsi un bel paio.
+T: <q>ah, davvero? Wow, ok… non credevo qualcuno mi avrebbe mai preso sul serio</q>
 
 Una volta scelto un paio favoloso, che così belli la Blackfin per me mai ne ha più fatti, già stavo pensando a tutte le pose stupide da fare con quegli occhiali, quando mi accortsi che Elena stava mettendo gli occhiali in una scatola.
 
-E: “Ecco qua, sono tuoi!”
+E: <q>Ecco qua, sono tuoi!</q>
 
 Risparmio le mie urla di esaltazione e non potrei comunque esprimere i salti di gioia e la mia faccia dopo aver ricevuto quell’enorme confezione.
 
@@ -68,11 +65,11 @@ I Blackfin sono occhiali geniali, con montatura in titanio ultrasottile e ultral
 
 Questi sono gli occhiali con un significato meno forte, ma storia decisamente rocambolesca. Si sono succeduto due modelli, *Oakley I* e *Oakley II*.
 
-Dalla dinastia [Oakley](https://www.oakley.com/), gli occhiali sono ufficialmente diventati materia della nonna, da loro in poi, è sempre stata lei a regalarmi occhiali.
+Dalla dinastia [Oakley](https://www.oakley.com/ 'Oakley'), gli occhiali sono ufficialmente diventati materia della nonna, da loro in poi, è sempre stata lei a regalarmi occhiali.
 
 Appena si erano rotti i Blackfin, la nonna disse “basta, è ora che la nonna ti regali un paio di occhiali”.
 
-Così, andammo in negozio e io puntai immediatamente gli [Oakley Frogskins](https://www.oakley.com/en-ie/product/W0OO9013?variant=888392327024), con montatura trasparente e lenti a specchio blu. Li scelsi perché erano gli stessi che portavano i miei istruttori di vela quando ero piccolo. Inoltre, sono totalmente costruiti in plastica, senza nessuna componente che si possa arrugginire: sono perfetti per chi come me va ovunque e fa qualunque cosa e non può curarsi di trattare bene gli occhiali. Mi sbagliavo.
+Così, andammo in negozio e io puntai immediatamente gli [Oakley Frogskins](https://www.oakley.com/en-ie/product/W0OO9013?variant=888392327024 'Oakley Frogskins sul sito di Oakley'), con montatura trasparente e lenti a specchio blu. Li scelsi perché erano gli stessi che portavano i miei istruttori di vela quando ero piccolo. Inoltre, sono totalmente costruiti in plastica, senza nessuna componente che si possa arrugginire: sono perfetti per chi come me va ovunque e fa qualunque cosa e non può curarsi di trattare bene gli occhiali. Mi sbagliavo.
 
 Presi l’abitudine di portare gli occhiali 24/7, e nei pochi momenti in cui non stavano sul mio naso, erano nelle mie tasche, con una stanghetta fuori (pensandoci, ora, non riesco a capacitarmi del perché).
 
@@ -93,7 +90,7 @@ Santa Nonna Gogò tornò subito in campo. Per il mio diciannovesimo compleanno, 
 
 ## TBoom Pen
 
-La TBoom Pen è la penna che è sempre nella mia tasca. Rigorosamente, modello [Parker Jotter](https://www.parkerpen.com/jotter-originals) con punta a sfera.
+La <cite>TBoom Pen</cite> è la penna che è sempre nella mia tasca. Rigorosamente, modello [Parker Jotter](https://www.parkerpen.com/jotter-originals 'Jotter originals on Parker’s website') con punta a sfera.
 
 Fu un regalo della mamma nel 2014, e sopra mi fece incidere questa scritta:
 

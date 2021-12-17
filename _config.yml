@@ -114,6 +114,7 @@ plugins:
   - jekyll-commonmark
   - jekyll-graph
   - jekyll-webmention_io
+  - jekyll-minifier
 
 sass:
   style: compressed
@@ -121,20 +122,17 @@ sass:
 target-blank:
   rel: external
 
-#d3_graph_data:
-#  enabled: false
-
 graph:
+  enabled: true
+  net_web:
+    enabled: true
   tree:
     enabled: false
-  path:
-    assets: '/'
-    scripts: '/js'
 
-#markdown: CommonMark
-#commonmark:
-#  options: ['FOOTNOTES', 'STRIKETHROUGH_DOUBLE_TILDE', 'SMART', 'VALIDATE_UTF8', 'UNSAFE', 'LIBERAL_HTML_TAG', 'HARDBREAKS']
-#  extensions: ['strikethrough', 'table', 'tasklist', 'autolink']
+markdown: CommonMark
+commonmark:
+  options: ['FOOTNOTES', 'STRIKETHROUGH_DOUBLE_TILDE', 'SMART', 'VALIDATE_UTF8', 'UNSAFE', 'LIBERAL_HTML_TAG', 'HARDBREAKS']
+  extensions: ['strikethrough', 'table', 'tasklist', 'autolink']
 
 webmentions:
   username: tommi.space
@@ -153,11 +151,8 @@ webmentions:
 #    reposts: _includes/webmentions/reposts.html
 #    webmentions: _includes/webmentions/webmentions.html
 
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: all
+jekyll-minifier:
+  compress_css: false
 
 permalink: /:title
 

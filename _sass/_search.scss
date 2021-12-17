@@ -7,7 +7,7 @@
 }
 
 #search {
-  --right-margin: calc(4vw + 3.6rem);
+  --right-margin: calc(3vw + 4rem);
   position: fixed;
   bottom: calc(3vw + .5rem);
   right: var(--right-margin);
@@ -45,8 +45,21 @@
   }
 }
 
-.landing #search {
-  position: unset;
+.landing{
+  #search {
+    bottom: 15vh;
+    right: unset;
+    input {
+      box-shadow: none;
+      background: none;
+      &:hover,
+      &:active,
+      &:focus {
+        box-shadow: var(--shadow);
+        background: var(--deep);
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 950px) {
@@ -56,7 +69,7 @@
       &:hover,
       &:focus,
       &:active {
-        width: calc(100vw - var(--right-margin))
+        width: calc(97vw - var(--right-margin) - .4rem)
       }
     }
   }

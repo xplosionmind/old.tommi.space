@@ -1,7 +1,7 @@
 ---
 date: 2021-08-12T11:27:16+02:00
-updated: 2021-08-12T11:27:16+02:00
-tags: book
+updated: 2021-12-17T01:08:54+01:00
+tags: reading/book
 description: Riflessioni sull’omonimo libro del grande Tiziano Terzani
 redirect_from: [/terzani-indovino,/indovino-terzani]
 lang: it

@@ -27,12 +27,12 @@ html {
 	--primary: var(--yellow);
 	--secondary: var(--blue);
 	--slight: var(--light-blue);
-	--internal-link: var(--blue);
+	--internal-link: var(--orange);
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
 	--transp-text: #FFF4;
-	--shadow: 5px 5px 20px #00000099, -5px -5px 20px #FFF3CC22;
-	--opposite-shadow: -5px -5px 20px #000000BB, 5px 5px 20px #FFF3CC11;
+	--shadow: 5px 5px 20px #0009, -5px -5px 20px #FFF3CC22; 
+	--opposite-shadow: -5px -5px 20px #0001, 5px 5px 20px #FFFC;
 	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFF3CC22;
 	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFF3CC11;
 	--button-shadow: inset 2px 2px 4px #FFF3CC88, inset -2px -2px 4px #0008;
@@ -49,10 +49,6 @@ html {
 		 }
 	}
 	{% endcomment %}
-	&:not(html.light) .light {
-		filter: var(--invert);
-		box-shadow: var(--opposite-shadow);
-	}
 }
 
 /* LIGHT THEME */
@@ -66,12 +62,12 @@ html {
 		--primary: var(--blue);
 		--secondary: var(--razzmatazz);
 		--slight: var(--dark-blue);
-		--internal-link: var(--blue);
+		--internal-link: var(--darkmatazz);
 		--grey: var(--light-grey);
 		--other-grey: var(--dark-grey);
 		--transp-text: #11305B33;
 		--shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22;
-		--opposite-shadow: -5px -5px 20px #11305B22, 5px 5px 20px #FFF3CC22;
+		--opposite-shadow: -5px -5px 20px #0006, 5px 5px 20px #FFF3;
 		--little-shadow: 1px 1px 4px #11305B33, -2px -2px 3px #FFF3CC77;
 		--tool-shadow: 3px 3px 8px #11305B55, -3px -3px 8px #FFF3CC66;
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
@@ -81,6 +77,13 @@ html {
 	}
 	.dark {
 		filter: var(--invert-dark);
+		box-shadow: var(--opposite-shadow);
+	}
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	.light {
+		filter: var(--invert);
 		box-shadow: var(--opposite-shadow);
 	}
 }
@@ -296,7 +299,7 @@ li {
 }
 
 .post {
-	& > p:first-of-type::first-letter {
+	> p:first-of-type::first-letter {
 		initial-letter: 4;
 		-webkit-initial-letter: 4;
 		font-weight: bolder;
@@ -334,7 +337,7 @@ pre {
 	overflow-x: scroll;
 	padding: $regular;
 	border-radius: $radius-m;
-	scrollbar-width: 0px;
+	scrollbar-width: none;
 	code {
 		background: none;
 		padding: 0;
@@ -461,20 +464,20 @@ img {
 	max-width: 100%;
 	display: block;
 	border-radius: $radius-l;
-	& + h2,
-	& + h3 {
+	+ h2,
+	+ h3 {
 		margin-top: $regular-more !important;
 	}
 }
 
 figure {
-	margin: $height auto;
+	margin: auto;
 	img {
 		max-height: 100vh;
 		box-shadow: var(--shadow);
 		margin: 0 auto;
 	}
-	& + figure {
+	+ figure {
 		img {
 			margin: 0 $small 0 0;
 		}
@@ -532,15 +535,12 @@ b {
 }
 
 article {
-	h2 {
-		margin-top: $mastodon;
-	}
-	h3 {
-		margin-top: $height;
+	h2, h3 {
+		margin: revert;
 	}
 	font-size: $regular-more;
 	padding: 8vh 5vw 15vh;
-	& > .box {
+	> .box {
 		margin: $bigger 0;
 	}
 }
@@ -563,7 +563,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .title {
 	font-size: $twice;
-	text-shadow: 2px 2px 3px var(--transp-text);
 }
 
 h1 {
@@ -618,7 +617,7 @@ h3 {
 
 .zibaldone {
 	.box {
-		max-height: 90vh;
+		max-height: 99vh;
 		overflow: scroll;
 	}
 }
@@ -632,9 +631,12 @@ h3 {
 }
 
 #toc {
-	h3,
+	margin-bottom: $big;
+	h3 {
+		text-shadow: var(--little-shadow);
+		color: var(--slight);
+	}
 	a {
-		margin-bottom: 0;
 		color: var(--slight);
 	}
 	li {
@@ -665,8 +667,8 @@ h3 {
 	border-radius: 0;
 }
 
-.last-modified {
-	margin-top: 0;
+.metadata {
+	line-height: 1;
 	font-size: $regular-less;
 	opacity: .8;
 	text-align: center;
@@ -692,7 +694,7 @@ footer {
 			color: var(--primary) !important;
 		}
 	}
-	& > .row {
+	> .row {
 		justify-content: space-between;
 	}
 }
@@ -729,6 +731,7 @@ button,
 	box-shadow: var(--button-shadow);
 	text-align: center;
 	hyphens: none;
+	margin: $small;
 	&:hover,
 	&:focus {
 		box-shadow: none;
@@ -993,8 +996,10 @@ button,
 		left: 2vw;
 		bottom: 0;
 		width: 18vw;
-		height: 7.5rem;
+		height: 4.9rem;
 		font-size: 1rem;
+		overflow: scroll;
+		scrollbar-width: none;
 		h3 {
 			&::after,
 			&::before {
@@ -1003,16 +1008,16 @@ button,
 		}
 		&:hover,
 		&:focus {
-			height: unset;
+			height: 60vh;
 		}
 	}
 	#goto {
 		position: fixed;
 		top: 30vh;
-		right: -14.5rem;
+		left: -15.8rem;
 		&:hover,
 		&:focus {
-			right: 0;
+			left: 0;
 		}
 		a {
 			transform: scale(.85);

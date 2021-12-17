@@ -16,12 +16,8 @@ main: true
 {% for idol in site.data.people %}
 	<div class='row'>
 		<h2 class='title'>{{ idol.who }}</h2>
-		<div class='column'>
-			<a href='{{ idol.url }}'  target='_blank'><figure><img src='{{ idol.img }}' title='{{ idol.who }}' alt='An image portraying {{ idol.who }}'></figure></a>
-		</div>
-		<div class='column'>
-			<p lang='{{ idol.lang }}'>{{ idol.note }}</p>
-		</div>
+		<a href='{{ idol.url }}'  target='_blank'><figure><img src='{{ idol.img }}' title='{{ idol.who }}' alt='An image portraying {{ idol.who }}'></figure></a>
+		<p lang='{{ idol.lang }}'>{{ idol.note }}</p>
 	</div>
 {% endfor %}
 

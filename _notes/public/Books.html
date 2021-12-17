@@ -4,17 +4,20 @@ updated: 2021-04-10T11:44:52+02:00
 description: Books I own and books I would love to read and/or have
 tags: reading
 redirect_from: [/library,/bookshelf,/libreria,/libri,/bookshelf,/bookshelves]
-image: https://2.bp.blogspot.com/-Y2qyx9j-qnw/UdbA1Wlxz4I/AAAAAAAAk-M/HLL0JCn5b3U/s640/morgan.jpg
+image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115120147-9340ca01-me.jpg
 main: true
 todo:
-  - Add reading times and gifts
-  - fix reading notes display issues
+  - integrate with <a href='https://bookwyrm.social' target='_blank' title='Bookwyrm'>Bookwyrm</a>
+  - updated picture of Gianna
 ---
 <style>
 	li {
 		margin-bottom: 0;
 	}
 </style>
+
+<br>
+<br>
 
 <h2>Library</h2>
 
@@ -33,15 +36,21 @@ todo:
 	{% endfor %}
 </div>
 
+<br>
+<br>
+
 <h2>Notes</h2>
 <p>All of my public notes on what I read</p>
-<ul>
+<ul class='two'>
 	{% for note in site.notes %}
-		{% if note.tags contains 'book' %}
-			<li><cite><a href='{{ note.url }}' rel='noener noreferrer' target='_blank' title='{{ note.title }}'>{{ note.title }}</a></cite></li>
+		{% if note.tags contains 'reading/book' or note.tags contains 'reading/book/wip' %}
+			<li><cite><a href='{{ note.url }}' target='_blank' title='{{ note.title }}'>{{ note.title }}</a></cite></li>
 		{% endif %}
 	{% endfor %}
 </ul>
+
+<br>
+<br>
 
 <h2>Wishlist</h2>
 
@@ -53,10 +62,9 @@ todo:
 
 <ul class='two'>
 	{% for book in site.data.books-wishlist %}
-
 		<li>
-			{% if book.author != '' %}
-				{{ book.author }}
+			{% if book.author %}
+				{{ book.author }} – 
 			{% endif %}
 			<cite>{{ book.title }}</cite>
 		</li>

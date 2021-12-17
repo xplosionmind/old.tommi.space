@@ -1,22 +1,27 @@
-.commento-root {
-  input[type="text"],
-  textarea {
-    color: var(--text);
-	background: var(--deep);
-	border-radius: $radius-m;
-	box-shadow: var(--inner-shadow);
-  }
-}
-
 /* overriding
 * (to be removed 
 * if I manage to avoid loading
 * default Commento CSS) */
 
 .commento-root {
-	* {
-		color: var(--text);
-	}
+  input[type='text'],
+  textarea {
+    color: var(--text) !important;
+	background: var(--deep) !important;
+	border-radius: $radius-m !important;
+	box-shadow: var(--inner-shadow) !important;
+	border: none !important;
+  }
+}
+
+.commento-card {
+	border: none !important;
+	border-radius: $radius-s;
+	box-shadow: var(--little-shadow);
+}
+
+#commento-footer {
+	display: none;
 }
 
 /* Commento default */
