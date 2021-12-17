@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2021-12-17T13:12:26+01:00
+updated: 2021-12-17T13:26:35+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -21,6 +21,7 @@ created: 2021-12-15T01:25:49+01:00
 
 - <b class='wtf'>bug</b>: subtags not read correctly
 - <b class='wtf'>bug</b>: Algolia search results not appearing
+- <b class='wtf'>bug</b>: wrong posts arrangement in Zibaldone desktop
 
 <br>
 
@@ -78,6 +79,7 @@ created: 2021-12-15T01:25:49+01:00
 
 ### further improvements
 
+- [[GiTMI|Migrate]] the source code of this website [from GitHub](https://github.com/xplosionmind/tommi.space 'tommi.space on GitHub') to [GiTMI](https://gitmi.dev 'my self-hosted Gitea')
 - [Reading progress bar](https://css-tricks.com/fun-viewport-units/#getting-weird 'Fun viewport units - CSS Tricks')
 - Join [xxiivv Webring](https://github.com/XXIIVV/webring 'XIIVV Webring on GitHub')
 - Remove JavaScript

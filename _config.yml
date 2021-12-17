@@ -152,6 +152,8 @@ webmentions:
 
 jekyll-minifier:
   compress_css: false
+  compress_javascript: false
+  compress_json: false
 
 permalink: /:title
 
