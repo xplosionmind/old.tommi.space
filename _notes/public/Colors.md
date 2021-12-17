@@ -1,6 +1,6 @@
 ---
-date: 2020-05-22
-updated: 2021-05-24T13:12:32+02:00
+date: 2020-05-22T02:00:00+02:00
+updated: 2021-12-17T13:54:57+01:00
 tags: design geek/web
 description: A collection of colors I love and where I use them
 redirect_from: [/colours, /colori]
@@ -82,7 +82,7 @@ The website is currently offline since our faculty supervisor asked me to close 
 
 ## Dark and green website
 
-Color scheme for [Philosophy & Engineering](/filosofia 'Philosophy section of the blog') blog.
+Color scheme for [Philosophy & Engineering](Filosofia.md 'Philosophy section of the blog') blog.
 
 <ul class='three'>
 <li><code style='background:#000;color:#EEE'>#000</code></li>

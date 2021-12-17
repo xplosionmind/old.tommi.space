@@ -1,21 +1,13 @@
 ---
 ---
-@import "../_sass/root";
-@import "../_sass/inter";
-@import "../_sass/ubuntu-mono";
-@import "../_sass/eb-garamond";
+@import '../_sass/root';
+@import '../_sass/inter';
+@import '../_sass/ubuntu-mono';
+@import '../_sass/eb-garamond';
 
-html {
-	cursor: url(/logos/cursor.svg) 16 16, crosshair;
-	scroll-behavior: smooth;
-
-/* DARK THEME */
-	background: var(--black-ish);
-	color: var(--text);
-	overflow-wrap: break-word;
-	hyphens: auto;
-	font: $regular var(--font-sans);
-
+html,
+body {
+	/* DARK THEME */
 	--background: var(--black-ish);
 	--text: var(--white-ish);
 	--deep: var(--dark-blue);
@@ -36,13 +28,22 @@ html {
 	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
 
 	transition: var(--trans);
-
+	background: var(--black-ish) !important;
+	color: var(--text) !important;
+	overflow-wrap: break-word;
+	hyphens: auto;
+	font: $regular var(--font-sans) !important;
+	cursor: url(/logos/cursor.svg) 16 16, crosshair;
+	scroll-behavior: smooth;
 }
 
 /* LIGHT THEME */
 @media screen and (prefers-color-scheme: light) {
-	html {
-		background: linear-gradient(-30deg,#E5EFF5,#FFF);
+	html,
+	body {
+		transition: var(--trans);
+
+		background: linear-gradient(-30deg,#E5EFF5,#FFF) !important;
 		--background: #FFF;
 		--text: var(--black-ish);
 		--deep: #FFF;
@@ -60,8 +61,6 @@ html {
 		--tool-shadow: 3px 3px 8px #11305B55, -3px -3px 8px #FFF3CC66;
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
 		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
-
-		transition: var(--trans);
 	}
 }
 
@@ -282,7 +281,7 @@ html {
 	background: var(--background) !important;
 }
 
-#comments input[type="text"],
+#comments input[type='text'],
 #comments TEXTAREA,
 input {
 	border: none !important;
@@ -292,7 +291,7 @@ input {
 	padding: 2px $small;
 }
 
-input[value="Submit"] {
+input[value='Submit'] {
 	background: var(--primary);
 	color: var(--background);
 	font-weight: 700;
@@ -356,7 +355,7 @@ a {
 	&:hover {
 		text-decoration: none !important;
 	}
-	&[href="identification.php"] {
+	&[href='identification.php'] {
 		opacity: .3;
 	}
 }
