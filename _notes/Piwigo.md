@@ -1,8 +1,8 @@
 ---
 date: 2021-12-17T10:55:25+01:00
-updated: 2021-12-17T11:38:54+01:00
+updated: 2021-12-17T11:47:47+01:00
 tags: geek
-image: 
+image: https://piwigo.org/plugins/piwigo-piwigodotorg/images/piwigo.org.svg
 description: |
   Some notes about <a href='https://piwigo.org' target='_blank' title='Piwigo official website'>Piwigo</a>, a great solution for hosting and storing images. I use it on <a href='https://images.tommi.space' target='_blank' title='Tommi’s images'>images.tommi.space</a>.
 ---
@@ -32,6 +32,8 @@ For the reasons pointed out above, even doing simple tasks as embedding have no 
 Useful info:
 - [API settings](https://images.tommi.space/tools/ws.htm 'images.tommi.space API')
 - [My post](https://piwigo.org/forum/viewtopic.php?id=31165 'Embedding images and galleries in HTML - Piwigo Forum') on Piwigo’s forum
+
+<br>
 
 ### Galleries
 

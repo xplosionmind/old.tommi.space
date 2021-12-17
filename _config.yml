@@ -109,10 +109,9 @@ plugins:
   - jekyll-auto-image
   - jekyll-email-protect
   - jekyll-paginate-v2
-#  - jekyll-stork
   - jekyll-wikilinks
   - jekyll-commonmark
-  - jekyll-graph
+#  - jekyll-graph
   - jekyll-webmention_io
   - jekyll-minifier
 
