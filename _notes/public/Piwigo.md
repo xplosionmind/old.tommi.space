@@ -1,6 +1,6 @@
 ---
 date: 2021-12-17T10:55:25+01:00
-updated: 2021-12-17T11:47:47+01:00
+updated: 2021-12-17T14:05:47+01:00
 tags: geek
 image: https://piwigo.org/plugins/piwigo-piwigodotorg/images/piwigo.org.svg
 description: |
@@ -49,3 +49,10 @@ Some things I have to write here that I would forget otherwise
 - Change **number of photos per page**:
 	1. Go to user settings
 	2. Change the value for <q>number of photos per page</q>
+
+<br>
+<br>
+
+## Todo
+
+- Configure collections

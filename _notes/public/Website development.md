@@ -19,9 +19,11 @@ created: 2021-12-15T01:25:49+01:00
 
 ## Roadmap
 
-- <b class='wtf'>bug</b>: subtags not read correctly
-- <b class='wtf'>bug</b>: Algolia search results not appearing
-- <b class='wtf'>bug</b>: wrong posts arrangement in Zibaldone desktop
+- <b class='missing'>bug</b>: subtags not read correctly
+- <b class='missing'>bug</b>: Algolia search results not appearing
+- <b class='missing'>bug</b>: wrong posts arrangement in Zibaldone desktop
+- <b class='wtf'>improvement</b>: better cursor, since right now it is not so visible on some sections
+- <b class='wtf'>improvement</b>: main image animation is not supported often: change it to a static beautiful one
 
 <br>
 

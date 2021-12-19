@@ -5,7 +5,6 @@ description: Computer related tasks tracking
 ---
 1. Shortcuts on Mac
 1. [[Images]] and [[Storage]]
-	1. Memorable pictures archive on Piwigo
 1. Defining a [threat model](https://protonmail.com/blog/what-is-a-threat-model/ 'Privacy Decrypted #1: What is a threat model?')
 3. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 1. Finish [Matrix server setup](https://github.com/matrix-org/synapse#id5 'Install Synapse')
@@ -37,6 +36,11 @@ description: Computer related tasks tracking
 <br>
 <br>
 
+![[Piwigo#Todo]]
+
+<br>
+<br>
+
 ![[Website development#Roadmap]]
 
 <br>
@@ -48,19 +52,6 @@ description: Computer related tasks tracking
 <br>
 
 ![[Bugs and Feature Requests]]
-
-## Backup
-
-- Campo migranti S. Antonio
-- 2016 \> phone
-- 2017 \> phone
-- 2017.12.22 Briciole di Rock, Imperia Musicale
-- giff 2017
-- acle 2017
-- 2020 factory video
-- 2019 \> phone
-- ALL media
-- barcellona school trip phone
 
 <br>
 <br>

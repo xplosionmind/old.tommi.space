@@ -151,6 +151,7 @@ webmentions:
 #    webmentions: _includes/webmentions/webmentions.html
 
 jekyll-minifier:
+  exclude: '/feeds/*'
   compress_css: false
   compress_javascript: false
   compress_json: false
