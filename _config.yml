@@ -165,7 +165,7 @@ defaults:
     values:
       layout: 'wrapper'
       lang: 'en'
-      image: '/images/preview.gif'
+      image: '/images/cloud.jpg'
       comments: true
       primary: '#FCC920'
 

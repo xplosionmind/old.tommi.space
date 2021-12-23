@@ -1,6 +1,6 @@
 ---
 date: 2020-11-07T01:00:00+01:00
-updated: 2021-12-15T23:17:13+01:00
+updated: 2021-12-23T18:50:34+01:00
 tags: geek
 aliases: Quitting Spotify
 description: Thoughts and decisions about quitting Spotify
@@ -8,14 +8,12 @@ permalink: /quit-spotify
 redirect_from: [/spotify,/quitting-spotify]
 image: https://tommi.space/images/jar/quit-spotify.jpg
 ---
-Quitting Spotify is hard.
-
 <div class='yellow box'>
 	<b>Update</b>: I figured I heve to come to a compromise: Spotify is actually useful and not all bad. Yes, it has its issues, but in the end music listening is one of the few things I want to do <i lang='it'>e basta</i>, without having to waste time on a better way to do it.<br>
-	For now, I am sticking with Spotify. If you have simple, neat, inexpensive, and effective solutions, please get in touch!
+	For now, I am sticking with Spotify. If you know other simple, neat, inexpensive, and effective solutions, please get in touch!
 </div>
 
-It is **very** hard, not only because it is convenient and easy to use, but mostly because almost everyone else uses it; thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. For these reasons, quitting and finding another tool to listen to music isn't enough: it’s necessary to substitute the playlist creation and sharing workflow of Spotify while keeping it accessible and easy to experience for anybody.
+Quitting Spotify is hard. It is **very** hard, not only because it is convenient and easy to use, but mostly because almost everyone else uses it; thus creating playlists, sharing music and interacting with other music lovers becomes way harder without it. For these reasons, quitting and finding another tool to listen to music isn't enough: it’s necessary to substitute the playlist creation and sharing workflow of Spotify while keeping it accessible and easy to experience for anybody.
 
 <div class='blue box'>
 	Quitting Spotify is one of the steps of the path to [[Internet Freedom]], and it follows the “[[Quit and switch]]” philosophy.
@@ -75,17 +73,30 @@ Reasons to quit Spotify:
 
 <br>
 
-### Useful links
+### Resources
 
 - [Quitting Spotify and moving to NewPipe + FreeTube](https://forum.privacytools.io/t/quitting-spotify-and-moving-to-newpipe-freetube/4935 'Quitting Spotify and moving to NewPipe + FreeTube') post on PrivacyTools Community
 - [awesome-music-listening](https://github.com/ybayle/awesome-music-listening 'awesome-music-listening on GitHub'), a repository collecting a ton of online services to listen to music
+- I switched commenting service, but I received a very insightful comment about this topic, so I am embedding it below:
+
+<div class='embed-container'><iframe src='https://github.com/xplosionmind/tommi.space/issues/28#issuecomment-845355211'></iframe></div>
+
+
+<br>
+## Quitting
+
+As of the time of writing, the best alternative is using [Deezer](https://deezer.com 'Deezer') with [Freezer](https://freezer.life 'Freezer') on mobile and from the web client on desktop.
+
+Up to now, my free subscription is definitely enough, but once Freezer will be closed (it is going to happen, sooner or later) I am willing to pay the premium Deezer membership.
+
+One thing I am going to actually miss is the weekly email with new releases from Spotify. I am managing to replace this with a future-proof system which uses RSS-Bridge to generate a feed for a Discogs list. Discogs is great as a database, but it does not have very little known music.
 
 <br>
 
 ### On desktop
 
-Use a combination of the alternatives above, since none is as complete as Spotify.\
-The purpose is to <u>differentiate</u> as much as possible all of the streaming services to value competition and avoid monopolization. The most promising software is [FreeTube](https://freetubeapp.io 'FreeTube').
+Use a combination of the alternatives above, since none is as complete as Spotify.  
+The purpose is to <u>differentiate</u> as much as possible all of the streaming services to value fair competition. The most promising software is [FreeTube](https://freetubeapp.io 'FreeTube').
 
 Ideally, the best way would be to download and store locally all of the music I listen to, as I did up to 3 years ago, but I have to admit it’s not convenient at all, from every point of view.
 
@@ -96,14 +107,3 @@ Ideally, the best way would be to download and store locally all of the music I 
 	- How to like songs
 	- How to import Spotify liked songs
 	- How to improve bitrate (it’s limited to 128kbps)
-
-<br>
-<br>
-
-## Quitting
-
-As of the time of writing, I am using [Deezer](https://deezer.com 'Deezer') with [Freezer](https://freezer.life 'Freezer') on mobile and from the web client on desktop.
-
-Up to now, my free subscription is definitely enough, but once Freezer will be closed (it is going to happen, sooner or later) I am willing to pay the premium Deezer membership.
-
-One thing I am going to actually miss is the weekly email with new releases from Spotify. I am managing to replace this with a future-proof system which uses RSS-Bridge to generate a feed for a Discogs list. Discogs is great as a database, but it does not have very little known music.

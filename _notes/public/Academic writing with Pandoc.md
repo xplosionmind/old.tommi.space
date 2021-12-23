@@ -1,12 +1,13 @@
 ---
 date: 2021-12-06T11:39:18+01:00
-updated: 2021-12-08T11:27:12+01:00
+updated: 2021-12-23T18:56:49+01:00
 tags: geek
 description: Notes on writing and rendering long writings with citations via PanDoc
 permalink: /pandoc-workflow
 redirect_from: ['/academic-writing-with-pandoc','/pandoc-paper','/paper-pandoc','/thesis-pandoc','/pandoc-pub','/pandoc-citeproc','/citeproc','/pandoc-bibliography', '/markdown-longwriting', '/longwriting-markdown']
 aliases: Thesis writing workflow with Pandoc, Long writing in Markdown
 toc: false
+image: https://s3.amazonaws.com/libapps/accounts/109251/images/Screen_Shot_2017-01-06_at_4.18.48_PM.png
 ---
 It is my intention to write my thesis in [[LaTeX]], by using [[Pandoc]] as my main conversion tool. I am noting here my process of defining my workflow.
 
