@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2021-12-20T10:57:33+01:00
+updated: 2021-12-23T22:05:04+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -18,7 +18,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Roadmap
 
-- <b class='missing'>bug</b>: Sconnesso feed is broken
 - <b class='missing'>bug</b>: subtags not read correctly
 - <b class='missing'>bug</b>: Algolia search results not appearing
 - <b class='missing'>bug</b>: wrong posts arrangement in Zibaldone desktop
@@ -139,6 +138,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Done
 
+- ✅ <time datetime='2021-12-23T22:03:42+01:00'>2021-12-23</time> fixed broken RSS feeds
 - ✅ <time datetime='2021-12-23T21:31:47+01:00'>2021-12-23</time> improve cursor visibility
 - ✅ <time datetime='2021-12-16T00:06:34+01:00'>2021-12-16</time> Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
 - ✅ <time datetime='2021-12-16T00:05:15+01:00'>2021-12-16</time> better TOC positioning and spacing
