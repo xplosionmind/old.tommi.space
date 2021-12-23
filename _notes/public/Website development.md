@@ -22,7 +22,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 - <b class='missing'>bug</b>: subtags not read correctly
 - <b class='missing'>bug</b>: Algolia search results not appearing
 - <b class='missing'>bug</b>: wrong posts arrangement in Zibaldone desktop
-- <b class='wtf'>improvement</b>: better cursor, since right now it is not so visible on some sections
 - <b class='wtf'>improvement</b>: main image animation is not supported often: change it to a static beautiful one
 
 <br>
@@ -140,6 +139,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Done
 
+- ✅ <time datetime='2021-12-23T21:31:47+01:00'>2021-12-23</time> improve cursor visibility
 - ✅ <time datetime='2021-12-16T00:06:34+01:00'>2021-12-16</time> Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
 - ✅ <time datetime='2021-12-16T00:05:15+01:00'>2021-12-16</time> better TOC positioning and spacing
 - ✅ <time datetime='2021-12-15T01:24:54+01:00'>2021-12-15</time> ~~[Self-hosted comments](https://www.taniarascia.com/add-comments-to-static-site/ 'Roll Your Own Comment System for a Static Site') service~~ Switched from [utteranc.es](https://utteranc.es 'Utterances') (that needed an authentication and it was GitHub-based) to a [self-hosted](https://bla.tommi.space 'Tommi’s comments') [Commento](https://commento.io 'Commento official website') instance.

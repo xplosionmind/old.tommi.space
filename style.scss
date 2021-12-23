@@ -10,10 +10,10 @@
 /*@import '../_sass/graph';*/
 
 html {
-	cursor: url(/logos/cursor.svg) 16 16, crosshair;
 	scroll-behavior: smooth;
 
 /* DARK THEME */
+	cursor: url(/logos/cursor-dark.svg) 16 16, crosshair;
 	background: var(--black-ish);
 	color: var(--text);
 	overflow-wrap: break-word;
@@ -54,6 +54,7 @@ html {
 /* LIGHT THEME */
 @media screen and (prefers-color-scheme: light) {
 	html {
+		cursor: url(/logos/cursor-light.svg) 16 16, crosshair;
 		background: linear-gradient(-30deg,#E5EFF5,#FFF);
 		--background: #FFF;
 		--text: var(--black-ish);
