@@ -60,10 +60,13 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    ansi (1.5.0)
+    ast (2.4.2)
     coderay (1.1.3)
     colorator (1.1.0)
     commonmarker (0.23.2)
     concurrent-ruby (1.1.9)
+    crass (1.0.6)
     cssminify2 (2.0.1)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
@@ -72,6 +75,29 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.8.1)
+    faraday (1.8.0)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0.1)
+      faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.1)
+      faraday-patron (~> 1.0)
+      faraday-rack (~> 1.0)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
+    faraday-excon (1.1.0)
+    faraday-http-cache (2.2.0)
+      faraday (>= 0.8)
+    faraday-httpclient (1.0.1)
+    faraday-net_http (1.0.1)
+    faraday-net_http_persistent (1.2.0)
+    faraday-patron (1.0.0)
+    faraday-rack (1.0.0)
+    faraday_middleware (1.2.0)
+      faraday (~> 1.0)
     ffi (1.15.4)
     forwardable-extended (2.6.0)
     html-pipeline (2.14.0)
@@ -95,11 +121,23 @@ GEM
     ipaddr (1.2.3)
     jekyll-auto-image (1.1.3)
       jekyll
+    jekyll-crypto (0.1.3)
+      jekyll (~> 4)
+      json (~> 2.3)
     jekyll-debug (0.0.2)
       liquid (>= 2.5, < 5.0)
       pry (~> 0.10)
       rb-readline (~> 0.5)
     jekyll-email-protect (1.1.0)
+    jekyll-embed-urls (0.4.3)
+      faraday (~> 1.3)
+      faraday-http-cache (~> 2.2)
+      faraday_middleware (~> 1)
+      jekyll (~> 4)
+      loofah (~> 2.9)
+      ogp (~> 0.4)
+      ruby-oembed (~> 0.15)
+      url-privacy (~> 0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-graph (0.0.5)
@@ -125,6 +163,8 @@ GEM
     jekyll-target-blank (2.0.0)
       jekyll (>= 3.0, < 5.0)
       nokogiri (~> 1.10)
+    jekyll-unique-urls (0.1.2)
+      jekyll (~> 4)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jekyll-wikilinks (0.0.8)
@@ -144,12 +184,21 @@ GEM
     listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    loofah (2.13.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.5.9)
     mercenary (0.4.0)
     method_source (1.0.0)
     minitest (5.15.0)
     multi_xml (0.6.0)
+    multipart-post (2.1.1)
     nokogiri (1.12.5-x86_64-darwin)
       racc (~> 1.4)
+    oga (3.3)
+      ast
+      ruby-ll (~> 2.1)
+    ogp (0.5.0)
+      oga (~> 3.3)
     openssl (2.2.1)
       ipaddr
     parallel (1.21.0)
@@ -168,6 +217,11 @@ GEM
     rb-readline (0.5.5)
     rexml (3.2.5)
     rouge (3.27.0)
+    ruby-ll (2.1.2)
+      ansi
+      ast
+    ruby-oembed (0.15.0)
+    ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -181,6 +235,7 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.1.0)
+    url-privacy (0.1.0)
     webmention (0.1.6)
       httparty (~> 0.15.5)
       json
@@ -198,8 +253,10 @@ DEPENDENCIES
   jekyll!
   jekyll-auto-image
   jekyll-commonmark!
+  jekyll-crypto
   jekyll-debug
   jekyll-email-protect
+  jekyll-embed-urls
   jekyll-feed
   jekyll-graph
   jekyll-last-modified-at
@@ -210,6 +267,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-target-blank
+  jekyll-unique-urls
   jekyll-watch
   jekyll-webmention_io!
   jekyll-wikilinks

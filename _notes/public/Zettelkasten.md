@@ -1,6 +1,6 @@
 ---
 date: 2020-11-13T01:00:00+01:00
-updated: 2021-12-15T23:17:12+01:00
+updated: 2021-12-24T00:04:15+01:00
 tags: zen knowledge topic
 aliases: Digital Garden, Wiki
 description: |
@@ -40,3 +40,4 @@ Itâ€™s not open source, there have been a lot of discussions about this, yet itâ
 	- [Zettelkasten with Obsidian, a video](https://youtu.be/hGLVu4ODs0w 'Zettelkasten with Obsidian')
 	- [A Zettelkasten about Zettelkasten in Obsidian](https://forum.obsidian.md/t/obsidian-zettelkasten/)
 - [Neuron](https://neuron.zettel.page), a great open-source app to manage Zettelkasten notes from CLI.
+- [Quartz](https://quartz.jzhao.xyz/ 'Quartz official website'), the best implementation of a digital graden I found on the web up to now

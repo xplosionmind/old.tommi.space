@@ -1,6 +1,6 @@
 ---
-date: 2020-05-07
-updated: 2021-10-28T21:01:57+02:00
+date: 2020-05-07T02:00:00+02:00
+updated: 2021-12-24T00:17:23+01:00
 tags: geek/knowledge
 aliases: Resources, Learning Resources
 description:

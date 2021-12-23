@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2021-12-23T22:05:04+01:00
+updated: 2021-12-23T23:32:11+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -19,9 +19,8 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 ## Roadmap
 
 - <b class='missing'>bug</b>: subtags not read correctly
-- <b class='missing'>bug</b>: Algolia search results not appearing
+- <b class='missing'>bug</b>: impossible to position Algolia search results as `fixed`
 - <b class='missing'>bug</b>: wrong posts arrangement in Zibaldone desktop
-- <b class='wtf'>improvement</b>: main image animation is not supported often: change it to a static beautiful one
 
 <br>
 
@@ -55,6 +54,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 1. Configure and implement [ActivityPub]
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
+	- [Nautilus](https://github.com/aaronpk/Nautilus 'Nautilus on GitHub')
 1. [**<cite>Visions</cite>**](https://visions.tommi.space 'Visioni - Tommi Space') improvement: see [[Images#Gallery improvement]] and [[Flickr to Piwigo]]).
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
@@ -79,15 +79,14 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### further improvements
 
+- Configure and implement [jekyll-embed-urls](https://0xacab.org/sutty/jekyll/jekyll-embed-urls 'jekyll-embed-urls repository')
 - [[GiTMI|Migrate]] the source code of this website [from GitHub](https://github.com/xplosionmind/tommi.space 'tommi.space on GitHub') to [GiTMI](https://gitmi.dev 'my self-hosted Gitea')
 - [Reading progress bar](https://css-tricks.com/fun-viewport-units/#getting-weird 'Fun viewport units - CSS Tricks')
 - Join [xxiivv Webring](https://github.com/XXIIVV/webring 'XIIVV Webring on GitHub')
 - Remove JavaScript
-	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle') - 2021-06-15 <b class='bug'>bug</b>: if `input` is before `body`, it is automatically moved inside by the browser
+	- CSS only [dark/light mode **toggle**](https://youtu.be/b4FBTr5pSgw 'How to  make a CSS-only theme toggle') - 2021-06-15 <b class='missing'>bug</b>: if `input` is before `body`, it is automatically moved inside by the browser
 - Study [awesome-web-animation website](https://awesome-web-animation.netlify.app/ 'Awesome Web Animation'), possibly considering [Isso](https://posativ.org/isso/ 'Isso')
 - Flash animation of exploding head emojis while a button is `active` and/or `hover`
-- Fetch images previews to complete external links and preferences
-	- how to make use of <https://ogp.me> to retrieve data
 - Use [jekyll-exif-data](https://github.com/NiklasEi/jekyll-exif-data/ 'jekyll-exif-data on GitHub') to print a picture place and time in `figcaption` by default
 - Consider using [jekyll-git-metadata](https://github.com/ivantsepp/jekyll-git_metadata/ 'jekyll-git-metadata on GitHub') instead of jekyll-modified-at and insert a “last updated” entry on homepage (or footer)
 - `.onion` address
@@ -96,10 +95,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 - Use typographic animations
 	- [AxisPraxis’ Zycon](https://www.axis-praxis.org/specimens/zycon 'Zycon')
 	- [Anicons](https://typogram.github.io/Anicons/ 'Anicons')
-- Use [jekyll-auth](https://github.com/benbalter/jekyll-auth/ 'jekyll-auth on GitHub') to limit content availability
-- Figure out [jekyll-hardlinks](https://0xacab.org/sutty/jekyll/jekyll-hardlinks 'jekyll-hardlinks source code')
-- GIFs instead of images
-- [Trigger Netlify builds from external sources](https://writxt.fun/instructions/ 'Writxt instructions')
+- prefer animated GIFs over static images
 - Create Jekyll theme
 - Consider hosting on [[Server]] instead of using [Netlify](https://netlify.com 'Netlify')
 	- [jekyll-ftp](https://github.com/JesseHerrick/jekyll-ftp/ 'jekyll-ftp on GitHub')
@@ -140,6 +136,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 - ✅ <time datetime='2021-12-23T22:03:42+01:00'>2021-12-23</time> fixed broken RSS feeds
 - ✅ <time datetime='2021-12-23T21:31:47+01:00'>2021-12-23</time> improve cursor visibility
+- ✅ <time datetime='2021-12-23T20:15:42+01:00'>2021-12-23</time> change preview
 - ✅ <time datetime='2021-12-16T00:06:34+01:00'>2021-12-16</time> Check [HTML best practices](https://hail2u.github.io/html-best-practices/ 'HTML best practices')
 - ✅ <time datetime='2021-12-16T00:05:15+01:00'>2021-12-16</time> better TOC positioning and spacing
 - ✅ <time datetime='2021-12-15T01:24:54+01:00'>2021-12-15</time> ~~[Self-hosted comments](https://www.taniarascia.com/add-comments-to-static-site/ 'Roll Your Own Comment System for a Static Site') service~~ Switched from [utteranc.es](https://utteranc.es 'Utterances') (that needed an authentication and it was GitHub-based) to a [self-hosted](https://bla.tommi.space 'Tommi’s comments') [Commento](https://commento.io 'Commento official website') instance.
@@ -169,9 +166,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 	- convert Zetelkasten links to ordinary links ✅ 2020.12.12
 	- Backlinking ✅ 2020.12.03
 - Scroll-to-bottom button which transforms into scroll-to-top after a certain height scrolling the page ✅ 2020.01.17
-
-<br>
-
 - Animations (little and simple but effective)
 	- buttons: `x`s and menus (see [Tokyo voice](https://tokyo-voice.jp 'Tokyo Voice') or [Trax mag](https://www.traxmag.com 'Trax Magazine'))
 - back-to-top button
@@ -248,9 +242,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 		1. choose once and for all **`categories`** VS **`tags`** (chose `tags`)
 		1. Instead of inlining specific properties, create classes for every tag and create a `for` loop in SCSS accessing `site.data.tags` colors
 - Use [**`flex`**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 'A guide to flexbox on GSS Tricks')
-
-<br>
-
 - Telegram comments: `<script async src='https://comments.app/js/widget.js?3' data-comments-app-website='bfg-ZXp6' data-limit='5' data-color='FCC920' data-dark='1'></script>` - ❌ 2021.03.26 not working! Also: probably the script works only for individual domains, not for every page.
 - [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js) ❌ decided not to implement it (for the moment). See [Website log: sidenotes](/meta#sidenotes)
 

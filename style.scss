@@ -887,6 +887,10 @@ button,
 		--internal-link: var(--link);
 		--transp-text: #FFFA;
 	}
+	&::selection {
+		background: var(--yellow);
+		background: var(--black-ish);
+	}
 }
 
 .dark-blue {
@@ -908,6 +912,9 @@ button,
 		--link: var(--red);
 		--internal-link: var(--link);
 		--transp-text: #0007;
+	}
+	&::selection {
+		background: var(--red);
 	}
 }
 

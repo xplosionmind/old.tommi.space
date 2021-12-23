@@ -45,4 +45,7 @@ group :jekyll_plugins do
 #	gem 'jekyll-favicon' # my favicons are not uniform
 	gem 'jekyll-graph'
 	gem 'jekyll-minifier', github: 'digitalsparky/jekyll-minifier'
+    gem 'jekyll-unique-urls'
+    gem 'jekyll-embed-urls'
+#    gem 'jekyll-crypto' # password is visible in the source code: useless
 end

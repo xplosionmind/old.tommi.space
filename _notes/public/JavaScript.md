@@ -1,6 +1,6 @@
 ---
 date: 2021-04-04T19:24:15+02:00
-updated: 2021-12-15T13:03:38+01:00
+updated: 2021-12-23T23:52:37+01:00
 tags: geek/knowledge
 description: Insights about JavaScript, a great tool but also a nightmare.
 created: 2021-12-15T13:03:38+01:00
@@ -18,7 +18,7 @@ I am stacking here everything I find out on the web which might be useful for wh
 
 ## Resources
 
-- [awesome-JavaScript-learning](https://github.com/micromata/awesome-javascript-learning 'awesome-javascrpt-learning on GitHub') repository
+- [My Learn Javascript list](https://github.com/stars/xplosionmind/lists/javascript '“JavaScript„ list on GitHub') on GitHub
 - [Derek Sivers’s guide](https://sivers.org/learn-js)
 - <cite><a href='http://www.javascriptbook.com/'  target='_blank' title='JavaScript and JQuery'>JavaScript and JQuery</a></cite>, a book by [Jon Duckett](https://en.wikipedia.org/wiki/John_Duckett 'Jon Duckett on Wikipedia')
 - [10 best JavaScript practices recommended by Top Developers](https://blog.hrithwik.me/10-best-javascript-practices-recommended-by-top-developers '10 best JavaScript practices recommended by Top Developers')
