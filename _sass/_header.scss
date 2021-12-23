@@ -77,8 +77,9 @@ nav {
 
 .lang-list {
 	display: none;
+	top: 5rem;
+	right: -100px;
 	position: absolute;
-	overflow: scroll;
 	box-shadow: var(--shadow);
 }
 
@@ -116,6 +117,11 @@ nav {
 	}
 }
 
+#langtoggle:checked + .lang-list {
+	display: block;
+	right: 3vh;
+}
+
 @media only screen and (max-width: 950px) {
 	#home {
 		top: 3vh;
@@ -141,6 +147,9 @@ nav {
 		float: none;
 		background: var(--background)
 	}
+	#langtoggle:checked + .lang-list {
+		right: 3vw;
+	}
 }
 
 #menutoggle:checked {
@@ -163,8 +172,4 @@ nav {
 			transform: rotate(-45deg);
 		}
 	}
-}
-
-#langtoggle:checked + .lang-list {
-	display: block;
 }

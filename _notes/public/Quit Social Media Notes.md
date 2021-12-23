@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10T02:00:00+02:00
-updated: 2021-12-15T23:16:20+01:00
+updated: 2021-12-22T11:03:50+01:00
 permalink: /qsm
 aliases: QSM, quitsocialmedia.club notes
 description: |
@@ -17,6 +17,7 @@ redirect_from: [/quitsocialmedia, /quitsocialmedia.club, /quitsocialmedia-notes,
 - Drawings images
 - why the present website will not be updated
 - rebranding / renaming?
+- Setup [Crowdin](https://crowdin.com) for localization
 
 <br>
 

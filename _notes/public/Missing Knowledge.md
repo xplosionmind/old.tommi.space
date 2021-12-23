@@ -1,6 +1,6 @@
 ---
 date: 2020-12-09T01:00:00+01:00
-updated: 2021-12-16T18:07:57+01:00
+updated: 2021-12-23T16:07:41+01:00
 tags: knowledge todo
 aliases: Learn, To learn
 description: What I need / have / would love to learn
@@ -46,6 +46,8 @@ A private list of knowledge I miss about exams I am studying for.
 ## Geek
 
 1. Data analysis and graphs with LibreOffice
+2. [Github Actions](https://docs.github.com/en/actions/learn-github-actions 'Learn GitHub Actions')
+	1. [Wayback Machine](https://github.com/marketplace/actions/wayback-machine '“Wayback Machine„ GitHub Action')
 1. Learn and use [jq](https://github.com/stedolan/jq 'jq on GitHub')
 1. [Learn and configure Syncthing](https://docs.syncthing.net/intro/getting-started.html 'Getting Started - Syncthing')
 1. [[LaTeX]]
@@ -68,7 +70,6 @@ A private list of knowledge I miss about exams I am studying for.
 	- format
 	- readability
 	- can they be stored in pure plain text?
-4. [Github Actions](https://docs.github.com/en/actions/learn-github-actions 'Learn GitHub Actions')
 5. Makefile
 	1. [How to write a self-documenting Makefile](https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/ 'How to write a self-documenting Makefile on victoria.dev')
 6. [using fzf](https://www.youtube.com/watch?v=qgG5Jhi_Els)
@@ -79,7 +80,7 @@ A private list of knowledge I miss about exams I am studying for.
 11. [[Bash]]
 12. in-depth CSS learning
 	- [Tania Rascia](https://taniarascia.com)'s [Overview of CSS concepts](https://www.taniarascia.com/overview-of-css-concepts/)
-23. [Learn EQ](https://youtu.be/e4C5DxOepsM)
+13. [Learn EQ](https://youtu.be/e4C5DxOepsM)
 
 <br>
 <br>

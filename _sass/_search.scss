@@ -7,11 +7,9 @@
 }
 
 #search {
-  display: none; /* hiding until it is fixed */
-  --right-margin: calc(3vw + 4rem);
   position: fixed;
   bottom: calc(3vw + .5rem);
-  right: var(--right-margin);
+  right: calc(3vw + 4rem);
   input {
     width: 3.1rem;
     font-size: 1.7rem;
@@ -35,9 +33,11 @@
 }
 
 .aa-Panel {
-  position: fixed;
+  /*position: fixed;
   bottom: calc(3vw + .5rem + $height);
-  top: unset !important;
+  top: auto !important;
+  left: auto !important;
+  right: calc(3vw + 4rem) !important;*/ /* ERROR: not showing up! */
   background: var(--background);
   border-radius: $radius-m;
   box-shadow: var(--shadow);
@@ -70,7 +70,7 @@
       &:hover,
       &:focus,
       &:active {
-        width: calc(97vw - var(--right-margin) - .4rem)
+        width: calc(94vw - 4.4rem);
       }
     }
   }

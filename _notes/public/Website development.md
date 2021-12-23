@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2021-12-17T13:26:35+01:00
+updated: 2021-12-20T10:57:33+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -8,7 +8,6 @@ redirect_from: [/development-roadmap,/roadmap,/wip,/issues,/improvements,/dev,/w
 main: true
 image: https://tommi.space/images/posts/2020-04-18-making-this-website.jpg
 description: Creative and technical aims, ideas annotation and drafts tracking.
-created: 2021-12-15T01:25:49+01:00
 ---
 ## Content
 
@@ -19,6 +18,7 @@ created: 2021-12-15T01:25:49+01:00
 
 ## Roadmap
 
+- <b class='missing'>bug</b>: Sconnesso feed is broken
 - <b class='missing'>bug</b>: subtags not read correctly
 - <b class='missing'>bug</b>: Algolia search results not appearing
 - <b class='missing'>bug</b>: wrong posts arrangement in Zibaldone desktop

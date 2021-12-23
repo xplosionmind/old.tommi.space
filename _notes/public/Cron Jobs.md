@@ -1,6 +1,6 @@
 ---
 date: 2021-04-04T17:19:08+02:00
-updated: 2021-06-15T10:12:15+02:00
+updated: 2021-12-23T16:06:04+01:00
 tags: geek/server
 description: What Cron Jobs are, how to set them up, what are the ones I use
 ---
@@ -43,7 +43,7 @@ then run
 sudo service rsyslog restart && sudo service cron restart
 ```
 
-Cron Jobs logs will be in **`/var/log/cron.log`**
+Cron Jobs logs will appear in **`/var/log/cron.log`**
 
 <br>
 <br>
@@ -76,5 +76,9 @@ This Cron Job saves a list of predefined pages to [The Wayback Machine](https://
 ```sh
 0 1 * * 1 /usr/local/bin/wayback_archiver https://tommi.space/pages-to-archive --crawl --limit=100 --verbose --log=$HOME/wayback_archiver.log && echo "\n$(date) wayback_archiver success!" >> $HOME/wayback_archiver.log
 ```
+
+<div class='red box'>
+	<a href='https://github.com/buren/wayback_archiver/issues/46' target='_blank' title='The issue I opened for this script not working'>I spent too much time</a> trying to make this script work on [[Server|Xplosion Server]] with [[YunoHost]]. Hence, I am not using this Cron Job anymore, but <a href='https://github.com/marketplace/actions/wayback-machine' target='_blank' title='“Wayback Machine„ GitHub Action'>this GitHub Action</a> instead
+</div>
 
 [crontab]: https://man.cx/crontab 'crontab’s man page'
