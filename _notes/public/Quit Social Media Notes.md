@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10T02:00:00+02:00
-updated: 2021-12-22T11:03:50+01:00
+updated: 2021-12-24T18:38:36+01:00
 permalink: /qsm
 aliases: QSM, quitsocialmedia.club notes
 description: |
@@ -207,19 +207,14 @@ Grazie mille, ti sono davvero grato e sono un sacco felice che tu abbia voluto d
 - [x] veronica.piccolo@unive.it
 - [x] [Vittorio Bertola](https://bertola.eu 'Vittorio Bertola personal website')
 - [x] Carlo
-- [ ] Vlad
 - [x] Settime
-- [ ] Claudio
-- [ ] Mozilla Italia
-- [ ] Internet Freedom Festival
 - [ ] Derek Sivers
 - [x] Jaron Lanier
 - [ ] Awesome Humane Tech
-- [ ] Redecentealize
+- [ ] [Redecentralize](mailto:hello@redecentralize.org)
 - [x] Clarice Subiaco
 - [x] Salvatore Cotogno
 - [ ] <https://austinhuang.me/reference>
-- [ ] hello@redecentralize.org
 - [x] [Carissa Véliz](https://www.carissaveliz.com/contact 'Carissa Véliz]')
 - [ ] [Alina Utrata](https://www.alinautrata.com 'Alina Utrata')
 - [ ] ontech@nytimes.com

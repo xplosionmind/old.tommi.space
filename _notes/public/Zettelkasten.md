@@ -1,6 +1,6 @@
 ---
 date: 2020-11-13T01:00:00+01:00
-updated: 2021-12-24T00:04:15+01:00
+updated: 2021-12-24T19:14:11+01:00
 tags: zen knowledge topic
 aliases: Digital Garden, Wiki
 description: |
@@ -10,6 +10,17 @@ redirect_from: [/knowldege-management,/data-management,/digital-garden]
 image: https://upload.wikimedia.org/wikipedia/commons/3/33/Zettelkasten_%28514941699%29.jpg
 ---
 Zettelkasten is a system for storing and accessing notes invented by [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann 'Niklas Luhmann on Wikipedia'). I am very fascinated by its underlying philosophy and approach which I would love to take advantage of, but I am still learning and it will take quite a lot of time to fully commit to it.
+
+<br>
+<br>
+
+## The Problem
+
+The problem of Zettlekasten is that there is a worrying risk (at least, for me) to end up spending a ridiculously great amount of time collecting and organizing thoughts and knowledge, and less and less time actually learning something valuable or formulating intelligent ideas.
+
+Either one can find an equilibrium among the two—but it requires very strong self-awareness and intelligence—,or she is better of dropping this knowledge management system.
+
+The most suited—yet exaggerated—example to express my feeling is what happened to [[Aby Warburg]]. Enthusiastic and psyched about his plan to create <cite>[Atlas Mnemosyne](https://warburg.library.cornell.edu/about '“About the Mnemosyne Atlas„ - Warburg Library')</cite>, he got overwhelmed with a tremendous amount of inputs, and [he ended up schizophrenic](https://en.wikipedia.org/wiki/Aby_Warburg#Return_to_Hamburg 'Final moments of Aby Warburg’s life on Wikipedia').
 
 <br>
 <br>

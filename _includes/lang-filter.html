@@ -1,16 +1,14 @@
-<section class='filter-by box'>
-
-	<h2>
+<section id='lang-filter' class='box'>
+	<h3>
 		{% if page.lang == 'it' %}
 			Filtra per lingua
 		{% else %}
 			Filter by language
 		{% endif %}
-	</h2>
-
+	</h3>
 	<div class='flex'>
-		<a onclick='toggleen()' href='javascript:void(0);' title='{% if page.lang == 'it' %}Mostra solo articoli in inglese{% else %}Show only posts in English{% endif %}'>🇬🇧</a>
-		<a onclick='toggleit()' href='javascript:void(0);' title='{% if page.lang == 'it' %}Mostra solo articoli in italiano{% else %}Show only posts in Italian{% endif %}'>🇮🇹</a>
+		<a onclick='toggleen()' href='javascript:void(0);' title='{% if page.lang == 'it' %}Mostra solo articoli in inglese{% else %}Show only posts in English{% endif %}'>🇬🇧&emsp;</a>
+		<a onclick='toggleit()' href='javascript:void(0);' title='{% if page.lang == 'it' %}Mostra solo articoli in italiano{% else %}Show only posts in Italian{% endif %}'>🇮🇹&emsp;</a>
 		<a onclick='toggleall()' href='javascript:void(0);' title='{% if page.lang == 'it' %}Mostra tutti gli articoli{% else %}Show all the posts{% endif %}'>🌏</a>
 	</div>
 

@@ -1,23 +1,23 @@
 ---
 date: 2020-12-09T01:00:00+01:00
-updated: 2021-12-23T16:07:41+01:00
+updated: 2021-12-24T16:58:55+01:00
 tags: knowledge todo
 aliases: Learn, To learn
-description: What I need / have / would love to learn
+description: |
+  Directions to lead my curiosity towards, a.k.a. what I have to learn
 redirect_from: [/learn, /to-learn, /tolearn, /missingknowledge, /learning, /learning-path]
-todo:
-  - 'Refactoring and integration with [[Knowledge]] and [[Knowledge management]]'
 ---
-Actually, I do not need to learn these things only, but here I note the main things that sooner or later will make me sit down and bingewatch tutorials on the argument to get a deep understanding of the concept, in order to make use of it in the best possible way. As you can see, it’s mainly [geek](/tags#geek 'Geek tag page')-related stuff, which is the easier to keep track of.
+{{ page.description }}
 
 <br>
 <br>
 
 ## University
 
-A private list of knowledge I miss about exams I am studying for.
+A private list of knowledge gaps in [[Now#Studying|exams I am studying for]].
 
 ![[missing]]
+
 <br>
 <br>
 
@@ -28,16 +28,23 @@ A private list of knowledge I miss about exams I am studying for.
 <br>
 <br>
 
-## Culture and Politics
+## History
+
+- Israel history
+- Afghanistan history
+- Iraq history
+- Iran history
+- Vietnam War
+
+<br>
+<br>
+
+## Politics
 
 - Mattarellum
 - Limits to Growth 1972 and 2004
 - US Presidential timeline
-- Israel history
-- Afghanistan history
-- Iraq history
-- Iran History
-- Vietnam War
+
 - [[2018-05-26 Madonna del Buon Consiglio|Madonna del Buon Consiglio]]
 
 <br>
@@ -46,8 +53,6 @@ A private list of knowledge I miss about exams I am studying for.
 ## Geek
 
 1. Data analysis and graphs with LibreOffice
-2. [Github Actions](https://docs.github.com/en/actions/learn-github-actions 'Learn GitHub Actions')
-	1. [Wayback Machine](https://github.com/marketplace/actions/wayback-machine '“Wayback Machine„ GitHub Action')
 1. Learn and use [jq](https://github.com/stedolan/jq 'jq on GitHub')
 1. [Learn and configure Syncthing](https://docs.syncthing.net/intro/getting-started.html 'Getting Started - Syncthing')
 1. [[LaTeX]]
@@ -56,8 +61,6 @@ A private list of knowledge I miss about exams I am studying for.
 2. Designing websites with Inkscape / Illustrator
 3. [git](https://git-scm.com 'git official website')
 	- [git credentials](https://git-scm.com/docs/gitcredentials)
-	- [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
-		- Tania Rascia’s [guide](https://www.taniarascia.com/git-submodules-private-content/)
 1. Learn [Percollate](https://github.com/danburzo/percollate 'percollate on GitHub'): turning web pages into ebooks.
 1. Cryptocurrencies
 	- [If you are new to cryptocurrency](https://forum.privacytools.io/t/if-you-are-new-to-cryptocurrency/4571 'If you are new to cryptocurrency on PrivacyTools community') on PrivacyTools community

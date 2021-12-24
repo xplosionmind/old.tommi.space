@@ -3,31 +3,14 @@ layout: none
 ---
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-	<style>
-		body {
-			background: var(--primary);
-		}
-		h1,a,a:visited {
-			color: var(--background);
-		}
-		h1 {
-			font-size: 8rem;
-			max-width: 100%;
-			hyphens: auto;
-			line-height: 1em;
-			text-shadow: none;
-		}
-		a {
-			width: 100vw;
-			height: 100vh;
-			padding: 10%;
-		}
-	</style>
-<body class='full'>
-	<a class='vertical flex' href='{{ page.link }}'>
-		<h1 style='margin: 1rem auto'>{{ page.title }}</h1>
-		{{ content | markdownify }}
-	</a>
-</body>
+	<head>
+		<link rel='stylesheet' href='/style.css' type='text/css' as='style'>
+		<link rel='preload' href='/fonts/inter.woff2' as='font' type='font/woff2'>
+	</head>
+	<body class='full'>
+		<a class='vertical flex' href='{{ page.link }}'>
+			<h1>{{ page.title }}</h1>
+			{{ content | markdownify }}
+		</a>
+	</body>
 </html>

@@ -1,6 +1,5 @@
 p,
-li,
-article .box:not(.tags) {
+li {
 	a {
 		&[href*='jam' i],
 		&[href*='marmellata' i] {
@@ -94,6 +93,7 @@ article .box:not(.tags) {
 				content: '📚 ';
 			}
 		}
+		&[href*='leggere' i],
 		&[href^='/read' i] {
 			&::before {
 				content: '📖 ';
@@ -210,6 +210,11 @@ article .box:not(.tags) {
 			}
 		}
 		&[href='https://wallabag.nixnet.services/feed/tommi/paDzrTfqL9PbkSX/archive'] {
+			&::before {
+				content: '👀 ';
+			}
+		}
+		&[href*='xplosion-attic' i] {
 			&::before {
 				content: '👀 ';
 			}

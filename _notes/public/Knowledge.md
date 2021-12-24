@@ -1,17 +1,25 @@
 ---
 date: 2020-05-07T02:00:00+02:00
-updated: 2021-12-24T00:17:23+01:00
-tags: geek/knowledge
+updated: 2021-12-24T17:05:42+01:00
+tags: knowledge
 aliases: Resources, Learning Resources
-description:
-  A comprehensive list of great online resources for learning and more. Links to official documentation are not included, since it can usually be found with a quick and trivial research.
-redirect_from: ['/risorse', '/learning-resources', '/resources', '/conoscenza', '/sapere']
+description: |
+  An eternally incomplete yet continuously growing collection of the sources of my knowledge
+redirect_from: [/risorse,/learning-resources,/resources,/conoscenza,/sapere]
 main: true
-todo:
-  - 'merge with [[Data]]'
-  - 'Better integrate with [[Missing Knowledge]]'
-  - 'Reference Images#Resources, Design#Resources together with Data'
 ---
+Almost every single portion of this website is a more or less organized collection of what I know and how I connect my knowledge. Nevertheless, it is useful to keep track in this page of some insightful resources that I would lose otherwise.
+
+<br>
+<br>
+
+## University
+
+On this website there is very little concerning what I study for university and my notes, that I am forced to keep private for copyright reasons. I spent a lot of time and efforts to develop [pise-notes.club](https://web.archive.org/web/20210521084059/https://pise-notes.club/ 'Snapshot of the website'), a website where I collected all of my university notes, but the [PISE](https://unive.it/pise 'Philosophy, International Studies and Economics') head professor made me take it down.
+
+<br>
+<br>
+
 ## Geek
 
 Where and how to learn about Computer Sciences topics and anything technology related.
@@ -104,16 +112,17 @@ Where and how to learn about Computer Sciences topics and anything technology re
 <br>
 
 
-### Speeches
+### Talks
 
-- [<cite>This is Water</cite>](https://youtu.be/ms2BvRbjOYo '“This is Water„ by David Foster Wallace on YouTube') by David Foster Wallace
+- [<cite>This is Water</cite>](https://youtube.com/embed/ms2BvRbjOYo '“This is Water„ by David Foster Wallace on YouTube') by David Foster Wallace
+- <cite>[Dealing with prejudice](https://www.youtube.com/embed/fRwvAMeidz4 'Stephen Fry - Dealing with Prejudice')</cite> by Stephen Fry
 
 <br>
 <br>
 
 ## Costituzione italiana
 
-<p lang='it'>È assurdo che, nonostante cittadino italiano, io abbia una così scarsa conoscenza della Costituzione e delle leggi che governano il mio paese. Ho chiesto ad amici che studiano giurisprudenza di indicarmi dove e come posso cercare articoli in base a parole chiave o in base al contesto. Purtroppo lo stato italiano non offre un sistema ufficiale per cercare le informazioni e la digitalizzazione della Costituzione ha funzionalità estremamente limitate rispetto alle potenzialità che internet offrirebbe. In ogni caso, l’utilizzo di questi servizi diversi può essere molto utile</p>
+<p lang='it'>È assurdo che io abbia una così scarsa conoscenza della Costituzione e delle leggi che governano il mio paese. Ho chiesto ad amici che studiano giurisprudenza di indicarmi dove e come posso cercare articoli in base a parole chiave o in base al contesto. Purtroppo lo stato italiano non offre un sistema ufficiale per cercare le informazioni e la digitalizzazione della Costituzione ha funzionalità estremamente limitate rispetto alle potenzialità che internet offrirebbe. In ogni caso, l’utilizzo di questi servizi diversi può essere molto utile</p>
 
 - [La Costituzione](https://www.senato.it/1024 'La Costituzione italiana') sul sito web del Senato italiano
 - [Brocardi](https://www.brocardi.it/ 'Brocardi'): Consulenze legali, codici commentati, dizionario giuridico e notizie.
@@ -139,16 +148,31 @@ Where and how to learn about Computer Sciences topics and anything technology re
 ## Free eBooks
 
 - [The Internet Archive](https://archive.org 'The Internet Archive')
+- [Open Library](https://openlibrary.org/ 'Open Library') (loaning e-books)
 - [The Gutenberg Proect](https://www.gutenberg.org 'Project Gutenberg')
 - [z-lib.org](https://z-lib.org 'z-lib.org')
 - [Eureka ddl](https://eurekaddl.icu/ 'Eureka ddl')
-- [Open Library](https://openlibrary.org/ 'Open Library') (just to take e-books on loan)
-- [The Pirate Bay](https://thepiratebay.org 'The Pirate Bay')
+- [The Pirate Bay](https://thepiratebay.org 'The Pirate Bay') (Torrent)
 - [Library Genesis](http://libgen.rs/ 'Library Genesis')
 - [Academic Torrents](https://academictorrents.com/ 'Academic Torrents')
-- [Textbook Nova](https://textbooknova.com)
-- [Manybooks](http://www.manybooks.net)
+- [Textbook Nova](https://textbooknova.com 'Textbook Nova')
+- [Manybooks](http://www.manybooks.net 'Manybooks')
 - [Online Self Education](https://onlineselfeducation.com/) (registrations number is limited and access is allowed only to logged users)
 - [Online Library of Liberty](http://oll.libertyfund.org)
 - [AvaxHome](https://avxhm.is)
 - [Books Depository](https://www.bookdepository.com/publishers/T-N-T-Books)
+
+<br>
+<br>
+
+![[Images#Resources]]
+
+<br>
+<br>
+
+![[Design#Resources]]
+
+<br>
+<br>
+
+![[Data Sources]]

@@ -1,11 +1,10 @@
 <section class='tags box'>
 	<a href='/tags'><h2 class='title'>Tags</h2></a>
 	<div class='flex'>
-		<a href='/poetry' style='color: #522E38; background: linear-gradient(160deg, #FFC2D4, #FF7AA2);' class='smaller written button'>Pasticci</a>
-		<a href='/filosofia' style='color: #F0F0CE; background: linear-gradient(160deg, #02C39A, #05668D)' class='smaller written button'>Filosofia</a>
-		{% assign tags = site.data.tags %}
-		{% for tag in tags %}
-			<a href='/tags#{{ tag.title | slugify }}' rel='tag' class='smaller written button {{ tag.title | slugify }}' title='{{ tag.title }} tag'>{{ tag.title }}</a>
+		<a href='/poetry' style='color: #522E38; background: linear-gradient(160deg, #FFC2D4, #FF7AA2);' class='smaller button'>Pasticci</a>
+		<a href='/filosofia' style='color: #F0F0CE; background: linear-gradient(160deg, #02C39A, #05668D)' class='smaller button'>Filosofia</a>
+		{% for tag in site.data.tags %}
+			<a href='/tags#{{ tag.title | slugify }}' rel='tag' class='smaller button {{ tag.title | slugify }}' title='{{ tag.title }} tag'>{{ tag.title }}</a>
 		{% endfor %}
 	</div>
 </section>
