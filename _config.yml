@@ -168,7 +168,7 @@ defaults:
     values:
       layout: wrapper
       lang: en
-      image: /images/cloud.jpg
+      image: /logos/tommi.space.wip.png
       comments: true
       primary: '#FCC920'
 
