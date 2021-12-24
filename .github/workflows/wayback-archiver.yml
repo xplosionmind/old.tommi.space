@@ -1,12 +1,16 @@
+name: Archive on Wayback Machine
+
 on:
   schedule:
     - cron:  '0 0 * * 1'
-name: Archive on Wayback Machine
+
 jobs:
-  tommispace:
-    uses: JamieMagee/wayback@v1.3.15
-    with:
-      url: tommi.space/home
-      saveErrors: true
-      saveOutlinks: true
-      saveScreenshot: true
+  wayback:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: JamieMagee/wayback@v1.3.15
+        with:
+          url: tommi.space/home
+          saveErrors: true
+          saveOutlinks: true
+          saveScreenshot: true
