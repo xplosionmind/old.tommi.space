@@ -12,3 +12,9 @@ jobs:
           saveErrors: true
           saveOutlinks: true
           saveScreenshot: true
+      - uses: JamieMagee/wayback@v1.3.15
+        with:
+          url: tommi.space/tuffo
+          saveErrors: true
+          saveOutlinks: true
+          saveScreenshot: true
