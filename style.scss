@@ -150,7 +150,7 @@ a {
 	li & {
 		font-weight: 500;
 		&:hover {
-			filter: hue-rotate(.3turn);
+			filter: hue-rotate(.7turn);
 			display: inline-block;
 		}
 		&[href^='/'],

@@ -1,5 +1,5 @@
 ---
-updated: 2021-12-24T19:01:32+01:00
+updated: 2021-12-26T17:07:13+01:00
 tags: geek geek/server todo
 description: Computer related tasks tracking
 date: 2021-12-24T18:40:14+01:00
@@ -16,6 +16,7 @@ date: 2021-12-24T18:40:14+01:00
 	2. Neovim
 	3. Macvim
 9. [[Scripts]]
+1. Consistent resume creation ([HackMyResume](https://github.com/hacksalot/HackMyResume 'HackMyResume on GitHub'))
 1. Create Mastodon Bots:
 	- Club Tenco
 	- UniVe

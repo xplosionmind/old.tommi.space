@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07T02:00:00+02:00
-updated: 2021-12-16T18:04:29+01:00
+updated: 2021-12-25T00:16:39+01:00
 tags: geek
 aliases: Cheat Sheet, cmd, CLI, Command Line, Terminal
 description:
@@ -78,6 +78,30 @@ man screencapture
 [Subliminal](https://subliminal.readthedocs.io/en/latest/user/cli.html 'Subliminal documentation')
 ```sh
 subliminal --opensubtitles xplosionmind 'z#5Br1&9b7niM~QZ$2hJTkn2gQRReJWy4i8zwuF6Pc1wXA#fVIcykUjb' download -l en La.Casa.de.Papel.S05E10.1080p.WEB-DL.DUAL.5.1.mkv
+```
+
+Downgrade package with [Homebrew](https://brew.sh 'Homebrew')
+```sh
+# remove current version
+brew uninstall navi
+
+# find formula/bottle
+# launches url
+brew info --github navi
+
+# from github url
+# 1. locate version 
+# 2. click 'History'
+# 3. locate for the version from @BrewTestBot
+# 4. click 'Commit' > 'View File' > Raw
+# 5. fetch using `cURL`
+curl -O https://raw.githubusercontent.com/Homebrew/homebrew-core/7c7f18795fac61747fe383d7c22ec183d5283362/Formula/navi.rb
+
+# install older version
+brew install navi.rb && rm navi.rb
+
+# optional, pin until fix is known
+brew pin navi
 ```
 
 <br>

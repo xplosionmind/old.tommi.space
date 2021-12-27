@@ -104,7 +104,8 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 
 ### Feature requests
 
-- Make Wikilinks work in HTML tags
+- Make Wikilinks work inside HTML tags
+- Plug-in to connect to spaced-repetition software
 
 <br>
 
@@ -200,6 +201,14 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 ## WBO
 
 - importing, not only exporting SVGs
+
+<br>
+<br>
+
+## Fediverse
+
+- Standard import/export/migration protocol
+- Select language before posting
 
 <br>
 <br>
