@@ -186,10 +186,12 @@ GEM
       nokogiri (>= 1.5.9)
     mercenary (0.4.0)
     method_source (1.0.0)
+    mini_portile2 (2.6.1)
     minitest (5.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
-    nokogiri (1.12.5-x86_64-darwin)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     oga (3.3)
       ast
@@ -242,7 +244,6 @@ GEM
     yell (2.2.2)
 
 PLATFORMS
-  x86_64-darwin-20
   x86_64-darwin-21
 
 DEPENDENCIES
@@ -270,4 +271,4 @@ DEPENDENCIES
   liquid-c
 
 BUNDLED WITH
-   2.2.31
+   2.3.3
