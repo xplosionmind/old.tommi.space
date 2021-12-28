@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 659683dbb2336006a4fa8b962ce27888046757bb
+  revision: 0967c710978efab0f41e511490bdb15805b99237
   specs:
     jekyll (4.2.1)
       addressable (~> 2.4)
@@ -121,9 +121,6 @@ GEM
     ipaddr (1.2.3)
     jekyll-auto-image (1.1.3)
       jekyll
-    jekyll-crypto (0.1.3)
-      jekyll (~> 4)
-      json (~> 2.3)
     jekyll-debug (0.0.2)
       liquid (>= 2.5, < 5.0)
       pry (~> 0.10)
@@ -253,7 +250,6 @@ DEPENDENCIES
   jekyll!
   jekyll-auto-image
   jekyll-commonmark!
-  jekyll-crypto
   jekyll-debug
   jekyll-email-protect
   jekyll-embed-urls

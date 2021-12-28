@@ -7,7 +7,7 @@ _data/private/
 
 # Obsidian
 _notes/templates
-*/obsidian*.css
+_notes/.obsidian
 
 # Notes graph metadata
 _includes/notes_graph.json
