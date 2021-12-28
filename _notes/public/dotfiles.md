@@ -1,6 +1,6 @@
 ---
 date: 2021-04-14T15:37:21+02:00
-updated: 2021-08-12T12:17:15+02:00
+updated: 2021-12-28T06:55:35+01:00
 tags: geek
 toc: false
 description: Configuration files to keep track of
@@ -20,4 +20,4 @@ Non-metaphorically speaking, dotfiles are <u>plain text configuration files</u>,
 - [Jake Zimmerman’s dotfiles](https://github.com/jez/dotfiles 'jez’s dotfiles on GitHub')
 - <cite><a href='https://blog.jez.io/noteworthy-dotfile-hacks/'  target='_blank' title='Noteworthy Dotfile Hacks'>Noteworthy Dotfile Hacks</a></cite>, by [Jake Zimmerman](https://blog.jez.io 'Jake Zimmerman')
 
-[dotfiles]: https://github.com/xplosionmind/dotfiles/blob/main/.config/nvim/init.vim 'xplosionmind/dotfiles on GitHub'
+[dotfiles]: https://github.com/xplosionmind/dotfiles 'xplosionmind/dotfiles on GitHub'

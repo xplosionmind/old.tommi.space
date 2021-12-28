@@ -1,6 +1,6 @@
 ---
 date: 2020-05-07T02:00:00+02:00
-updated: 2021-12-25T00:16:39+01:00
+updated: 2021-12-28T11:51:40+01:00
 tags: geek
 aliases: Cheat Sheet, cmd, CLI, Command Line, Terminal
 description:
@@ -64,6 +64,13 @@ Disk space usage
 ```sh
 du # dust
 ```
+
+With `say`, convert a text file to an audio file with Apple’s TTS engine:
+```sh
+say -v Alex -f file.txt -o "output.m4a"
+```
+
+- `-v` allows you to select the kind of voice for the output
 
 [recursively count files in a directory](https://stackoverflow.com/a/9157162 'Recursively counting files in a Linux directory')
 ```sh

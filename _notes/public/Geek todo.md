@@ -1,10 +1,12 @@
 ---
-updated: 2021-12-26T17:07:13+01:00
+date: 2020-12-27T06:40:14+01:00
+updated: 2021-12-28T06:55:35+01:00
 tags: geek geek/server todo
 description: Computer related tasks tracking
-date: 2021-12-24T18:40:14+01:00
 ---
 1. [[Images]] and [[Storage]]
+2. Configure [Ultrasonics](https://github.com/XDGFX/ultrasonics 'Ultrasonics on GitHub'), playlist synchronization among music streaming services
+1. Better [Brewfile](https://github.com/Homebrew/homebrew-bundle 'homebrew-bundle on GitHub') for [[dotfiles]]
 1. Defining a [threat model](https://protonmail.com/blog/what-is-a-threat-model/ 'Privacy Decrypted #1: What is a threat model?')
 3. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 1. Solve [[GiTMI]] push and pull error
@@ -21,7 +23,6 @@ date: 2021-12-24T18:40:14+01:00
 	- Club Tenco
 	- UniVe
 2. Update [[Storage|Backup]] and [[Backup checklist]] and add the roadmap to import pictures from iOS to MacOS and Linux
-3. Sistemare [[To listen]] e trovare soluzione definitiva per [[Quit Spotify]]
 4. Cross-environment **[[Tags]] integration**
 	- **audios**: notes containing shared links of files in Cubbit?
 	- **images**: consider collecting shared links of albums in a private *[Giri](/giri 'Giri')*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
