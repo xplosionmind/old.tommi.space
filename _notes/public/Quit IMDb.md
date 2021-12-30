@@ -1,6 +1,6 @@
 ---
 date: 2021-01-25T09:54:12+01:00
-updated: 2021-11-15T12:53:43+01:00
+updated: 2021-12-30T11:28:10+01:00
 tags: geek
 redirect_from: [/imdb,/quitimdb,/tmdb,/quit-tmdb,/quittmdb,/quitmdb]
 description: It is owned by Amazon, and it is destroying the profoundness and sacredness of cinema.
@@ -12,10 +12,20 @@ description: It is owned by Amazon, and it is destroying the profoundness and sa
 <br>
 <br>
 
-- Is the social aspect of cinema databases actually useful / used / irreplaceable?
-- Using the CSV exported from IMDb to parse a movie list
-- How to easily and automatically retrieve links from IMDb / TMDb for new imports
+## The Movie Database
 
-I temporarily [[Quit IMDb|switched]] to [The Movie Database](https://www.themoviedb.org/u/xplosionmind 'My account on The Movie Database') on <time datetime='2020-12-20T12:51:23+01:00'>20 December 2020</time>
+~~I temporarily [[Quit IMDb|switched]] to [The Movie Database](https://www.themoviedb.org/u/xplosionmind 'My account on The Movie Database') on <time datetime='2020-12-20T12:51:23+01:00'>20 December 2020</time>~~. It lacks some movies and it does not feel like home. Not worth it.
 
-My aim of a permanent, long-term solution is developing a Fediverse, ActivityPub implemented app: *[[Moviewyrm]]*.
+<br>
+<br>
+
+## CSV
+
+In the true spirit of love for [[Ode to plain text|plain text]], I am now using [this Apple Shortcut](https://www.icloud.com/shortcuts/7980054a36b64e06a83b9ebb3bfcf175 '“Add to Watchlog„ shortcut') to add anything I watch to [a CSV file](https://github.com/xplosionmind/data/blob/main/watchlog.csv 'watchlog.csv — xplosionmind/data on GitHub') in [my <q>data</q> repository](https://github.com/xplosionmind/data 'xplosionmind/data on GitHub'). More than an actual alternative to IMDb, this is a temporary solution for [[Self tracking]] purposes.
+
+<br>
+<br>
+
+## Moviewyrm
+
+My aim of a permanent, long-term solution is developing a [Fediverse](https://fediverse.party 'Fediverse Partying'), [ActivityPub](https://activitypub.rocks 'What is ActivityPub') implemented app: *[[Moviewyrm]]*.

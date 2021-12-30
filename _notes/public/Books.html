@@ -23,16 +23,18 @@ todo:
 
 <div class='library'>
 	{% for book in site.data.library %}
-		{% if book.isbn %}
-			<a id='{{ book.title | slugify }}' href='https://openlibrary.org/isbn/{{ book.isbn }}' target='_blank' title='{{ book.title }} in the Open Library'>
-				<img src='https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg?default=false' alt='{{ book.title }}' title='{{ book.title }}'>
-		{% else %}
-			<a id='{{ book.title | slugify }}' href='javascript:void(0)' title='{{ book.title }}'>
-				<div>
-					<b>{{ book.author }}</b> - <cite>{{ book.title }}</cite>
-				</div>
-		{% endif %}
+		{% unless book.location == 'given away' or book.location == 'sold' or book.location contains 'gift' %}
+			{% if book.isbn %}
+				<a href='https://openlibrary.org/isbn/{{ book.isbn }}' target='_blank' title='{{ book.title }} in the Open Library'>
+					<img src='https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg?default=false' alt='{{ book.title }}' title='{{ book.title }}'>
+			{% else %}
+				<a href='javascript:void(0)' title='{{ book.title }}'>
+					<div>
+						<b>{{ book.author }}</b> - <cite>{{ book.title }}</cite>
+					</div>
+			{% endif %}
 		</a>
+		{% endunless %}
 	{% endfor %}
 </div>
 

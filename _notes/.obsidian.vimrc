@@ -1,1 +1,0 @@
-/Users/tommi/Cirry/dotfiles/.config/nvim/init.vim
