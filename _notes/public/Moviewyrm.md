@@ -8,9 +8,11 @@ description: |
 <cite>**Moviewyrm**</cite> is {{ page.description }}
 
 I believe it can be fundamentally identical to Bookwyrm, with some core differences:
+
 - it uses [OMDb](https://www.omdbapi.com/ 'Open Movie Database API')/[TMDb](https://themoviedb.org 'The Moviie Database')/[IMDb](https://imdb.com 'Internet Movie Database')/[Wikidata](https://wikidata.org 'Wikidata') APIs, instead of [OpenLibrary](https://openlibrary.org 'Open Library') and [Inventaire](https://inventaire.io 'Inventaire')
 - Instead of <q>started reading</q> and <q>finished reading</q>, only a <q>watched</q> switch.
 - Instead of a <q>want to read</q> label, a <q>Watchlist</q> label.
+- Integration with [Stremio](https://strem.io 'Stremio official website')
 
 <br>
 <br>

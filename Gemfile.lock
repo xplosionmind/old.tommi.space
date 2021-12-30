@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 0967c710978efab0f41e511490bdb15805b99237
+  revision: c34fa6181ee2a8acafd09e5b33b4dd2a191463bb
   specs:
     jekyll (4.2.1)
       addressable (~> 2.4)
@@ -45,6 +45,7 @@ GIT
       liquid (~> 4.0)
       mercenary (>= 0.3.6, < 0.5)
       pathutil (~> 0.9)
+      psych (~> 3.3)
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
@@ -207,6 +208,7 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
+    psych (3.3.2)
     public_suffix (4.0.6)
     racc (1.6.0)
     rainbow (3.0.0)

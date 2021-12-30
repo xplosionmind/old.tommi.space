@@ -1,7 +1,7 @@
 ---
 date: 2021-01-27T22:03:09+01:00
 updated: 2021-01-28T12:23:04+01:00
-tags: geek unfinished
+tags: geek dumped
 description: Setting up stuff with Docker
 toc: false
 description: Configuration of a Docker server

@@ -1,41 +1,33 @@
 ---
 date: 2020-06-10T02:00:00+02:00
-updated: 2021-12-15T22:39:42+01:00
-tags: cinema wip csvfy
+updated: 2021-12-30T20:11:12+01:00
+tags: cinema
 aliases: Movies
 description: After watching these movies and series, I was not the same anymore.
 redirect_from: [/movies, /film, /films]
 image: https://www.lascimmiapensa.com/wp-content/uploads/2020/03/597c9296ed82967974a455aef591ecfc.jpg
 main: true
 toc: false
-todo:
-  - Integrate with a CSV data file with all movies
 ---
-## <cite lang='it'>Santa Maradona</cite>
+<p lang='it'>Il mio concetto di cinema può essere a sommi capi rappsesentato da ciò che è per me [[Woody Allen]].</p>
 
-<p lang='it'>Santa Maradona è il mio film preferito.<br>
-Tutto il mio amore per questo film è in “[[Santa Maradona]]„</p>
+<br>
+<br>
 
 ## Favorites
 
-A quick list of all of my favorite movies
+A temporary list of my favorite movies, even though [[Moviewyrm|I am working on a better solution]].
 
-- <cite>Radiofreccia</cite>
-- <cite>La La Land</cite>
-- <cite>The Fast and the Furious: Tokyo Drift</cite>
-- <cite>The Blues Brothers</cite>
-- <cite>Moonrise Kingdom</cite>
-- <cite>Friends</cite>
-- <cite>Captain Fantastic</cite>
-- <cite>The School of Rock</cite>
-- <cite>Manhattan</cite>
-- <cite>Perfetti Sconosciuti</cite>
-- <cite>The Truman Show</cite>
-- <cite>The Incredibles</cite>
-- <cite>Whiplash</cite>
-- <cite>The Boat That Rocked</cite>
-- <cite>Ocean's Eleven</cite>
-- <cite>Charlie and the Chocolate Factory</cite>
+{% assign favorites = site.data.watchlog | where: 'favorite', '1' | sort: 'name' %}
+
+<ul class='two'>{% for fav in favorites %}<li><cite><a href='https://imdb.com/title/{{ fav.imdb }}' target='_blank' title='“{{ fav.title }}„ on IMDb'>{{ fav.title }}</a></cite></li>{% endfor %}</ul>
+
+<br>
+
+### <cite lang='it'>Santa Maradona</cite>
+
+<p lang='it'>Santa Maradona è il mio film preferito.<br>
+Tutto il mio amore per questo film è concentrato in *[[Santa Maradona]]*</p>
 
 <br>
 <br>
@@ -45,4 +37,18 @@ A quick list of all of my favorite movies
 Streaming movies and TV series
 
 - [perestroika.it](https://perestroika.it 'Perestroika'), to stream Russian movies with Italian subtitles
-- [Scaricare film, come si deve](/scaricare-film 'Scaricare film, come si deve'), una guida in italiano per scaricare film tramite torrent
+- [Scaricare film, come si deve](/scaricare-film 'Scaricare film, come si deve'), una mia guida in italiano per scaricare film tramite torrent
+
+<br>
+<br>
+
+## Watchlist
+
+Movies I intend to watch are logged in [[Watchlist|my Watchlist]].
+
+<br>
+<br>
+
+## Watchlog
+
+Movies I watched are logged in [[Watchlog]].
