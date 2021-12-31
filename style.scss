@@ -947,7 +947,7 @@ button,
 	}
 	#goto div {
 		display: flex;
-		overflow: scroll;
+		overflow-x: scroll;
 		a {
 			margin-right: $small;
 		}
