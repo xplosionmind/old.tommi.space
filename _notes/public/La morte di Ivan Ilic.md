@@ -2,6 +2,7 @@
 date: 2021-12-25T16:07:34+01:00
 updated: 2021-12-27T21:48:19+01:00
 tags: reading/book
+title: La morte di Ivan Il’ič
 lang: it
 ---
 ## Straniamento
