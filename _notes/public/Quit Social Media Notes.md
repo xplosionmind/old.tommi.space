@@ -23,6 +23,8 @@ redirect_from: [/quitsocialmedia, /quitsocialmedia.club, /quitsocialmedia-notes,
 
 ### Content
 
+- Add https://joinfediverse.wiki/
+- Add [The power of Decentralization](https://tommi.space/the-power-of-decentralization)
 - troppi troppi GB di dati e immagini, dove li mettiamo?
 - legittimazione a non uscire per troppo tempo da investire nel cambio
 - Listing Fediverse (specifically Mastodon) features, and point out how recent is their history

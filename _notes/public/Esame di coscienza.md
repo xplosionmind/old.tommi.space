@@ -23,4 +23,4 @@ L’importanza di un esame di coscienza giornaliero per [[Self improvement|il mi
 <br>
 <br>
 
-Simile al <cite lang='en'><a href='https://emotional.codes/feelings-checkin/' target='_blank' title='“Feelings Checkin„ on emotional.codes' hreflang='en'>Feelings Checkin</a></cite> di <a href='https://wesleayac.com' target='_blank' hreflang='en' title='Wesley’s personal website'>Wesley Aptekar-Cassels</a>, che contiene alcune ottime domande di partenza.
+Simile al <cite lang='en'><a href='https://emotional.codes/daily-checkin/' target='_blank' title='“Daily Checkin„ on emotional.codes' hreflang='en'>Daily Checkin</a></cite> di <a href='https://wesleayac.com' target='_blank' hreflang='en' title='Wesley’s personal website'>Wesley Aptekar-Cassels</a>, che contiene alcune ottime domande di partenza.
