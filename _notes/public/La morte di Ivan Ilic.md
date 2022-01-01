@@ -1,10 +1,13 @@
 ---
 date: 2021-12-25T16:07:34+01:00
-updated: 2022-01-01T17:37:33+01:00
+updated: 2022-01-01T17:58:56+01:00
 tags: reading/book
 title: La morte di Ivan Il’ič
+permalink: /ivan-ilic
+redirect_from: [/la-morte-di-ivan-ilic,/morte-ivan-ilic,/morte-di-ivan-ilic,/tolstoj-ivan-ilic,/tolstoj/ivan-ilic,/tolstoj/la-morte-di-ivan-ilic]
 lang: it
-created: 2022-01-01T17:20:49+01:00
+image: https://covers.openlibrary.org/b/id/12499003-L.jpg
+description: Note ed estratti da un romanzo breve ma intenso, vero e geniale.
 ---
 ## Straniamento
 
