@@ -61,3 +61,4 @@ Format ispirato da <cite>[[Il Titolone Superlungo]]</cite>
 - cos’è un fiore in radio?
 - la memoria si misura in bit o in secondi?
 - quanto è tondo un quadrato?
+- come si fa ad essere con la testa fra le nuvole se si è sopra le nuvole?
