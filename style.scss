@@ -137,6 +137,10 @@ span.citation {
 	opacity: .5;
 }
 
+.transparent {
+	color: #0000;
+}
+
 a {
 	text-decoration: none;
 	color: var(--link);
@@ -328,6 +332,10 @@ hr {
 	p {
 		padding: 0 10%;
 	}
+}
+
+.mono {
+	font-family: var(--font-mono);
 }
 
 pre,

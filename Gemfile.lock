@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: c34fa6181ee2a8acafd09e5b33b4dd2a191463bb
+  revision: df765950babd6ed4fe46aad3fc25c05c5249b0c6
   specs:
     jekyll (4.2.1)
       addressable (~> 2.4)
@@ -136,7 +136,7 @@ GEM
       ogp (~> 0.4)
       ruby-oembed (~> 0.15)
       url-privacy (~> 0)
-    jekyll-feed (0.15.1)
+    jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-graph (0.0.5)
       jekyll-namespaces (~> 0.0.3)
