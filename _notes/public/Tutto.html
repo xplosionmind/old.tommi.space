@@ -19,27 +19,27 @@ Alcuni link fra i seguenti potrebbero essere protetti da password oppure non agg
 	{% assign tutto = site.data.tutto | sort: 'end' | reverse %}
 	{% for cosa in tutto %}
 		<li id='{{ cosa.title | slugify }}-{{ cosa.end | date: "%Y" }}'>
-			{% if cosa.start %}
-				Dal {{ cosa.start | date: "%Y-%m-%d" }} al {{ cosa.end | date: "%Y-%m-%d" }}, 
-			{% else %}
-				{{ cosa.end | date: "%Y-%m-%d" }}, 
-			{% endif %}
 			{% if cosa.url %}
-				<a href='{{ cosa.url }}' target='_blank' title='{{ cosa.title }}'>{{ cosa.title }}</a>, 
+				<a href='{{ cosa.url }}' target='_blank' title='{{ cosa.title }}'>{{ cosa.title }}</a>
 			{% else %}
-				<strong>{{ cosa.title }}</strong>, 
+				<strong>{{ cosa.title }}</strong>
+			{% endif %}
+			{% if cosa.start %}
+				, {{ cosa.start | date: "%Y-%m-%d" }} – {{ cosa.end | date: "%Y-%m-%d" }}
+			{% else %}
+				, {{ cosa.end | date: "%Y-%m-%d" }}
 			{% endif %}
 			{% if cosa.coordinates %}
-				<a href='https://openstreetmap.org?mlat={{ cosa.coordinates[0] }}&mlon={{ cosa.coordinates[1] }}&zoom=18' target='_blank' title='{{ cosa.location }} su OpenStreetMap'>{{ cosa.location }}</a>
+				, <a href='https://openstreetmap.org?mlat={{ cosa.coordinates[0] }}&mlon={{ cosa.coordinates[1] }}&zoom=18' target='_blank' title='{{ cosa.location }} su OpenStreetMap'>{{ cosa.location }}</a>
 			{% elsif cosa.location == 'online' %}
 			{% else %}
-				{{ cosa.location }}
+				, {{ cosa.location }}
 			{% endif %}
 			{% if cosa.notes %}
-				 ‣ {{ cosa.notes }}
+				<br>‣ {{ cosa.notes }}
 			{% endif %}
 			{% if cosa.tags != nil or cosa.aliases != nil %}
-				<span class='mono dim'> ∙ {% for alias in cosa.aliases %} {{ alias }}{% endfor %}{% for tag in cosa.tags %} <span rel='tag'>{{ tag }}</span>{% endfor %}</span>
+				<span class='mono dim'> ∙ {% for alias in cosa.aliases %} {{ alias }}{% endfor %}{% for tag in cosa.tags %} <span rel='tag'>{{ tag }}</span>{% endfor %}</span>
 			{% endif %}
 			{% if cosa.data %}
 				<ul>{% for datum in cosa.data %}
