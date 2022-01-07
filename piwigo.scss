@@ -33,7 +33,8 @@ body {
 	overflow-wrap: break-word;
 	hyphens: auto;
 	font: $regular var(--font-sans) !important;
-	cursor: url(/logos/cursor.svg) 16 16, crosshair;
+	cursor: url(https://tommi.space/logos/cursor-dark.svg) 16 16, crosshair;
+g) 16 16, crosshair;
 	scroll-behavior: smooth;
 }
 
@@ -43,7 +44,8 @@ body {
 	body {
 		transition: var(--trans);
 
-		background: linear-gradient(-30deg,#E5EFF5,#FFF) !important;
+		cursor: url(https://tommi.space/logos/cursor-light.svg) 16 16, crosshair;
+
 		--background: #FFF;
 		--text: var(--black-ish);
 		--deep: #FFF;
@@ -62,6 +64,7 @@ body {
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
 		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
 	}
+
 	#urlshackicon {
 		filter: invert(90%) sepia(8%) saturate(5793%) hue-rotate(181deg) brightness(100%) contrast(106%);
 	}
@@ -281,9 +284,10 @@ body {
 		z-index: 10000 !important;
 	}
 	dd {
-		li, #menuTagCloud {
+		li {
 			a {
 				color: var(--text) !important;
+				font-size: unset !important;
 			}
 		}
 	}
@@ -311,6 +315,7 @@ body {
 	padding: $regular $tiny $small !important;
 	background-image: linear-gradient(to bottom,rgba(0,0,0,0.01),rgba(0,0,0,0.8)) !important;
 	text-shadow: 1px 1px 5px #000E;
+	height: unset !important;
 	h4 {
 		margin: $small $small 0 $small !important;
 		line-height: 1;
@@ -318,6 +323,7 @@ body {
 	div {
 		margin: 0 $small;
 		opacity: .6;
+		font-size: .8;
 	}
 }
 
@@ -419,8 +425,13 @@ a .pwg-icon {
 .titrePage h2 span.badge,
 span.menuInfoCat.badge,
 #menubar .menuInfoCat {
+	font: .9em var(--font-sans) !important;
 	color: var(--text) !important;
 	opacity: .5;
+	&::before,
+	&::after {
+		display: none !important;
+	}
 	/* background: var(--grey) !important;
 	box-shadow: var(--little-shadow);
 	border-radius: $radius-s; */
