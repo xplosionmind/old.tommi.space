@@ -1,6 +1,6 @@
 ---
 date: 2020-06-10T02:00:00+02:00
-updated: 2021-12-24T18:38:36+01:00
+updated: 2022-01-05T20:23:39+01:00
 permalink: /qsm
 aliases: QSM, quitsocialmedia.club notes
 description: |
@@ -10,7 +10,6 @@ redirect_from: [/quitsocialmedia, /quitsocialmedia.club, /quitsocialmedia-notes,
 <div class='blue box'>
 	Content in this page are random, pretty messed up and both in English and Italian, mostly personal to-dos for Tommi.
 </div>
-
 ## Improvements
 
 - Inputs feed of links tagged `qsm`

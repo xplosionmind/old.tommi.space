@@ -1,13 +1,15 @@
 ---
 date: 2022-01-02T23:12:57+01:00
-updated: 2022-01-03T09:50:35+01:00
+updated: 2022-01-03T22:11:25+01:00
 tags: cinema/film
 toc: false
 description: About the awesome wonderful genius Musical by the awesome wonderful genius <a href='/people#jonathan-larson' target='_blank' title='Jonathan Larson among my favorite people — tommi.space'>Jonathan Larson</a>
 image: https://static.onecms.io/wp-content/uploads/sites/6/2019/01/rent-6-2000.jpg
 ---
 How can a musical be so inspiring and true I really cannot understand.  
-I just know I deeply love [Jonathan Larson](/people#jonathan-larson 'Jonathan Larson among my favorite people — tommi.space')
+I just know I deeply love [Jonathan Larson](/people#jonathan-larson 'Jonathan Larson among my favorite people — tommi.space').
+
+[Here](https://www.awesomefilm.com/script/rent.txt 'The whole script of “Rent„ (2005)') is the whole script.
 
 <br>
 <br>
@@ -36,6 +38,14 @@ I just know I deeply love [Jonathan Larson](/people#jonathan-larson 'Jonathan La
 > To the Village Voice  
 > To any passing fad  
 > **To being an us**-for once-, **instead of a them**
+
+<br>
+
+At 1:23:44, like [[Pier Paolo Pasolini]]:
+
+> Anyone out of the mainstream  
+> Is anyone in the mainstream?  
+> Anyone alive with a sex drive
 
 <br>
 <br>

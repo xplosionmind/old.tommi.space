@@ -62,6 +62,9 @@ body {
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
 		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
 	}
+	#urlshackicon {
+		filter: invert(90%) sepia(8%) saturate(5793%) hue-rotate(181deg) brightness(100%) contrast(106%);
+	}
 }
 
 * {
@@ -98,10 +101,20 @@ body {
 		dd {
 			font-family: var(--font-mono) !important;
 		}
+		dd, dt {
+			display: table-cell !important;
+		}
 	}
 	.imageInfoTable {
 		padding: $regular $small $regular $regular !important;
 		border-radius: 0 0 1rem 1rem;
+	}
+}
+
+.Copyrights_name {
+	display: none;
+	&:has(a) {
+		display: table-row;
 	}
 }
 
@@ -130,7 +143,32 @@ body {
 
 
 #imageToolBar {
-	background: transparent !important;
+	background: var(--deep) !important;
+	padding: .5rem;
+	margin: 0 3%;
+	box-shadow: var(--shadow);
+	border-radius: .3rem;
+}
+
+.uc-icon-star-filled,
+.uc-icon-star {
+	color: inherit !important;
+}
+
+#urlshackicon {
+	padding: 0 3px;
+	filter: invert(16%) sepia(25%) saturate(3007%) hue-rotate(189deg) brightness(95%) contrast(98%);
+}
+
+/* Image preview */
+#tooltip {
+	background: url('../images/ajax-loader.gif') no-repeat scroll 12px 12px var(--background) !important;
+	padding: 0 !important;
+	border-radius: $radius-l !important;
+	box-shadow: var(--shadow) !important;
+	span {
+		display: none;
+	}
 }
 
 #copyright,
@@ -175,6 +213,12 @@ body {
 	}
 	.linkNext {
 		margin: 0 15% 10px 0;
+	}
+	.actionButtonsWrapper .actionButtons {
+		border-radius: $radius-m;
+		box-shadow: var(--little-shadow) !important;
+		background-color: var(--background) !important;
+		opacity: 1 !important;
 	}
 }
 
@@ -290,6 +334,7 @@ input {
 	background: var(--deep);
 	color: var(--text);
 	padding: 2px $small;
+	box-shadow: var(--inner-shadow);
 }
 
 input[value='Submit'] {
@@ -309,7 +354,7 @@ div.thumbHover {
 }
 
 a .pwg-icon {
-	color: var(--text) !important;
+	color: var(--slight) !important;
 }
 
 .pwg-icon.pwg-icon-menu {
@@ -329,7 +374,7 @@ a .pwg-icon {
 .titrePage {
 	background: none !important;
 	color: var(--text);
-	line-height: 45px !important;
+	line-height: unset !important;
 	padding: $small !important;
 	margin: $small 3%;
 	h2 {
@@ -434,4 +479,33 @@ textarea {
 	border: none !important;
 	border-radius: $radius-s;
 	min-height: $big;
+}
+
+#map {
+	border-radius: $radius-l;
+	box-shadow: var(--shadow);
+	.imageInfos & {
+		border-radius: $radius-m;
+		box-shadow: var(--little-shadow);
+	}
+}
+
+#map-info {
+	display: block !important;
+	dt {
+		display: none !important;
+	}
+	dd {
+		margin: 0 !important;
+		display: block !important;
+	}
+}
+
+/* Admin row */
+#ato_header > ul > li > *, #ato_header_closed:not(.smartpocket) > * {
+	text-shadow: none !important;
+}
+
+#ato-header {
+	background: var(--other-grey) !important;
 }

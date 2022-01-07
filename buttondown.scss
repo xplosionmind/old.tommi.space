@@ -37,9 +37,12 @@ html, body, .app-container {
 }
 
 @media screen and (prefers-color-scheme: light) {
-	html, body, .app-container {
-		cursor: url(https://tommi.space/logos/cursor-light.svg) 16 16, crosshair;
+	html {
 		background: linear-gradient(-30deg,#E5EFF5,#FFF) !important;
+	}
+	body, .app-container {
+		cursor: url(https://tommi.space/logos/cursor-light.svg) 16 16, crosshair;
+		background: none !important;
 		--background: #FFF;
 		--text: var(--black-ish);
 		--deep: #FFF;

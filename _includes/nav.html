@@ -18,7 +18,7 @@
 					{% for cosa in site.pages %}
 					{% if cosa.ref == page.ref %}
 						<li>
-							<a href='{{ cosa.url }}' class='{{ cosa.lang }}' lang='{{ cosa.lang }}'>{% if cosa.lang == 'it' %}🇮🇹{% elsif cosa.lang == 'en' %}🇬🇧{% else %}{{ cosa.lang }}{% endif %}</a>
+							<a href='{{ cosa.url }}' class='{{ cosa.lang }}' hreflang='{{ cosa.lang }}' lang='{{ cosa.lang }}'>{% if cosa.lang == 'it' %}🇮🇹{% elsif cosa.lang == 'en' %}🇬🇧{% else %}{{ cosa.lang }}{% endif %}</a>
 						</li>
 					{% endif %}
 					{% endfor %}

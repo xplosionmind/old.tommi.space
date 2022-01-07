@@ -1,6 +1,6 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2021-12-30T00:20:00+01:00
+updated: 2022-01-04T16:27:48+01:00
 tags: geek geek/server todo
 description: Computer related tasks tracking
 ---
@@ -23,6 +23,7 @@ description: Computer related tasks tracking
 	- **audios**: notes containing shared links of files in Cubbit?
 	- **images**: consider collecting shared links of albums in a private *[Giri](/giri 'Giri')*, or integrate some sort of authentication wall (as with Flickr currently) in the public one. Does it make sense? Not too much of a waste of time?
 5. Configure [h5ai](https://larsjung.de/h5ai/ 'h5ai') on [assets.tommi.space](https://assets.tommi.space 'Tommi’s assets')
+1. Configure and install [sensible.vim](https://github.com/tpope/vim-sensible 'sensible.vim on GitHub'), to associate keybindings to commands on Vim
 6. Better understanding of [Storj](https://storj.io 'Storj'), and consider using it as a CDN for tommi.space
 7. Use [Hype Machine](https://hypem.com 'Hype Machine')
 8. Create a CSS framework
