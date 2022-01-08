@@ -28,7 +28,7 @@ body {
 	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
 
 	transition: var(--trans);
-	background: var(--black-ish) !important;
+	background: var(--background) !important;
 	color: var(--text) !important;
 	overflow-wrap: break-word;
 	hyphens: auto;
@@ -323,7 +323,7 @@ body {
 	div {
 		margin: 0 $small;
 		opacity: .6;
-		font-size: .8;
+		font-size: .8em;
 	}
 }
 
