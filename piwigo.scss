@@ -316,6 +316,7 @@ g) 16 16, crosshair;
 	background-image: linear-gradient(to bottom,rgba(0,0,0,0.01),rgba(0,0,0,0.8)) !important;
 	text-shadow: 1px 1px 5px #000E;
 	height: unset !important;
+	max-height: 60%;
 	h4 {
 		margin: $small $small 0 $small !important;
 		line-height: 1;
