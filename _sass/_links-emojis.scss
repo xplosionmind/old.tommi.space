@@ -12,6 +12,11 @@ li {
 				content: ' ✉️ ';
 			}
 		}
+		&.u-key {
+			&::before {
+				content: '🔐 ';
+			}
+		}
 		&[href^='https://buttondown.email/tommi' i],
 		&[href*='/newsletter' i] {
 			&::before {

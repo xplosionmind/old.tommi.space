@@ -5,6 +5,7 @@
 		{% else %}
 		This section should contain a beautifull graph displaying the relations among this note and all of the others on <a href='/home' target='_blank' title='tommi.space'>tommi.space</a>. Unfortunately, showing it requires great coding skills and I am <a href='/development#roadmap' target='_blank' title='tommi.space development roadmap'>still working on it</a>.
 	{% endif %}</p>
+	<div id='jekyll-graph'></div>
 	<script>
 		import JekyllGraph from '/assets/js/jekyll-graph.js';
 		export default class GraphNav extends JekyllGraph {
@@ -14,5 +15,4 @@
 			}
 		}
 	</script>
-	<div id='jekyll-graph'></div>
 </section>

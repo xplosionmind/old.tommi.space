@@ -22,10 +22,8 @@ I am living in [Venice](https://www.comune.venezia.it/ 'Venice institutional web
 Specifically, my upcoming exams:
 - [Political Philosophy I](https://www.unive.it/data/course/332324 'Political Philosophy I course page')
 - [Political Philosophy II](https://www.unive.it/data/course/332323 'Political Philosophy II course page'), focused on [[Politics#Socialism]]
-- [Moral Philosophy](https://www.unive.it/data/course/332325 'Moral Philosophy course page')
 - [Economics of Labor and Welfare](https://www.unive.it/data/course/332328 'Economics of Labor and Welfare course page')
 - [Contemporary History](https://www.unive.it/data/course/357781 'Contemporary History course page')
-- [Global Internet Governance](https://www.univiu.org/fall-2021?view=resource&id=1437 'Global Internet Governance in “Globalization Program„ VIU courses'), at [Venice International University](https://univiu.org 'Venice International University')
 
 {% comment %}
 <div class='blue box'>
@@ -33,33 +31,27 @@ Specifically, my upcoming exams:
 </div>
 {% endcomment %}
 
+<br>
+<br>
+
 ## Scout chief service
 
 I am currently serving as a scout chief in the <q>Reparto Corona Boreale</q> for the scout group [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'Facebook page of Mira 1') in Oriago di Mira (VE).
+
+<br>
+<br>
 
 ## Working on <cite>Scambi Festival</cite>
 
 With [a group of curious and crazy guys](https://scambi.org/en/about-us/ 'About us - Scambi Festival') from all over Italy, I founded and work at a Festival of workshops named [<cite>Scambi</cite>](https://scambi.org 'Scambi'), taking place in **Sanremo**, during the last week of August. The first edition, in 2021, has been a great success. We cannot wait for the second to happen, we are already working on it!
 
-Everything about our festival is on <a href='https://scambi.org'  target='_blank' title='Scambi'>our website</a>
+<div class='flex row'>
+	<a href='https://scambi.org/en/editions/scambi-2021'  target='_blank' title='Highlights of Scambi 2021'>Scambi 2021 Highlights</a>
+</div>
+
+<br>
+<br>
 
 ## Projects, ideas, and collaborations
 
 In the meanwhile, I am continuing to wander around Italy to take part and/or assist to interesting things that happen. I take note of the most important stuff [here](/stuff 'Stuff - tommi.space'), and [[Tutto|here]] I log everything (literally anything) I have done.
-
-<br>
-<br>
-
----
-
-## Done
-
-What I was previously doing:
-
-<br>
-
-from `2020-10-16` to `2021-02-10`:
-
-### Quitting Social Media
-
-I made the life-changing choice of <u class='double'>deleting all of my Social Media accounts</u> by the end of 2020. (I'm a bit late, but I'm getting there) There are a lot of reasons why I got to this point, and I discuss about this topic&emsp;**a l l&emsp;t h e&emsp;t i m e**&emsp;with my friends. At the moment my aim is to put together resources, articles, videos, documentaries and documents in [this website](https://quitsocialmedia.club 'Quit Social Media'). Randomly stuffed, everything is [in these notes](https://quitsocialmedia.club/notes 'Quit Social Media Notes'), in the meanwhile.

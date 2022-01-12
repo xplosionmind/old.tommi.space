@@ -20,8 +20,11 @@ Insieme ad un gruppo di matti, curiosi e diversi amici provenienti da ogni angol
 Tutto quello che stiamo creando (è tanto, tantissimo), i contatti e maggiori dettagli su chi siamo e perché lo facciamo possono essere trovati sul [nostro sito web](https://scambi.org 'Scambi') e sui nostri [social](https://instagram.com/scambifestival 'Scambi Festival su Instagram') (ahimé, mi costringono ad averli).
 
 <div class='flex row'>
-	<a href='https://images.tommi.space/index?/category/scambi-2021' target='_blank' title='Visioni da Scambi 2021'>Galleria immagini Scambi 2021</a>
+	<a class='button' href='https://scambi.org/edizioni/scambi-2021' target='_blank' title='Scambi 2021'>Highlights Scambi 2021</a>
 </div>
+
+<br>
+<br>
 
 ## Studiando
 
@@ -30,11 +33,8 @@ Sto frequentando il corso di [*Philosophy, International Studies and Economics*]
 Specificamente, i corsi che sto seguendo (*ergo* i miei prossimi esami 🤞🏼):
 - [Political Philosophy I](https://www.unive.it/data/insegnamento/332324 'Political Philosophy I course page')
 - [Political Philosophy II](https://www.unive.it/data/insegnamento/332323 'Political Philosophy II course page'), corso monotematico sul [[Politics#Socialism]]
-- [Moral Philosophy](https://www.unive.it/data/insegnamento/332325 'Moral Philosophy course page')
 - [Economics of Labor and Welfare](https://www.unive.it/insegnamento/course/332328 'Economics of Labor and Welfare course page')
 - [Contemporary History](https://www.unive.it/data/insegnamento/357781 'Contemporary History course page')
-- [Global Internet Governance](https://www.univiu.org/fall-2021?view=resource&id=1437 'Global Internet Governance in “Globalization Program„ VIU courses'), presso la [Venice International University](https://univiu.org 'Venice International University')
-
 
 {% comment %}
 <div class='blue box'>
@@ -42,28 +42,16 @@ Specificamente, i corsi che sto seguendo (*ergo* i miei prossimi esami 🤞🏼)
 </div>
 {% endcomment %}
 
+<br>
+<br>
+
 ## Servizio scout
 
 Sto servendo come aiuto-capo nel reparto del gruppo AGESCI [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'Pagina Facebook del Mira 1') di Oriago di Mira (VE).
 
-## Altro
+<br>
+<br>
+
+## Tutto il resto
 
 Nel mentre, continuo a girare il più possibile e fare cose di ogni sorta. I progetti principali a cui sto partecipando sono [qui](/cose 'Cose'); invece, una lista completa e più esaustiva dei singoli eventi, progetti, idee, eccetera in cui mi trovo in mezzo è [qui](/tutto 'Tutto').
-
-<br>
-<br>
-
----
-
-## Fatto
-
-Quello che ho fatto, ovvero le cose che erano precedentemente /now
-
-<br>
-
-Dal `2020-10-16` al `2021-02-10`:
-
-### Abbandonando i Social Media
-
-Ho scelto di <u class='double'>eliminare tutti i miei profili sui Social</u> entro fine 2020 (sono in po' in ritardo, ma ci sono quasi). Ci sono un sacco di motivi, spiegazioni e ideali per cui ho preso questa decisione e ne **discuto&ensp;c o n t i n u a m e n t e**&ensp;con tutte le persone che incontro.\
-Prima di farlo, il mio obiettivo è raccogliere studi, articoli, documentari e risorse di ogni genere sull'argomento su [quitsocialmedia.club](https://quitsocialmedia.club 'Quit Social Media'). Finché non avrò completato, miei appunti si trovano [qui](https://quitsocialmedia.club/notes 'Quit Social Media Notes').

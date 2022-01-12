@@ -3,8 +3,8 @@ date: 2021-04-13T14:03:40+02:00
 updated: 2021-04-13T14:03:40+02:00
 tags: geek
 description: Info and nice stuff about OpenStreetMap
-redirect_from: ['/osm', '/openstreetmaps']
-aliases: ['OSM', 'OpenStreetMaps']
+redirect_from: [/osm,/openstreetmaps,/maps]
+aliases: OSM, OpenStreetMaps
 ---
 ## Favorites
 

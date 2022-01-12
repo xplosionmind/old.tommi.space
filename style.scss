@@ -107,6 +107,10 @@ html {
 	}
 }
 
+address{
+	display: inline;
+}
+
 mark {
 	background: var(--primary);
 	color: var(--background);

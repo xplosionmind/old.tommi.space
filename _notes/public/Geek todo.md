@@ -1,6 +1,6 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2022-01-04T16:27:48+01:00
+updated: 2022-01-11T21:24:15+01:00
 tags: geek geek/server todo
 description: Computer related tasks tracking
 ---
@@ -8,7 +8,7 @@ description: Computer related tasks tracking
 1. Defining a [threat model](https://protonmail.com/blog/what-is-a-threat-model/ 'Privacy Decrypted #1: What is a threat model?')
 3. Integrate audios, albums and images in log/daily Zettelkasten system (unique images and audios links to be opened)
 1. Solve [[GiTMI]] push and pull error
-1. [Setup AdGuard Home](https://adguard.tommi.space 'AdGuard') setup
+1. [Setup AdGuard Home](https://adguard.tommi.space 'AdGuard')
 1. [Setup Matrix server](https://github.com/matrix-org/synapse#id5 'Install Synapse')
 9. [[Scripts]]
 1. Consistent resume creation ([HackMyResume](https://github.com/hacksalot/HackMyResume 'HackMyResume on GitHub'))

@@ -1,6 +1,6 @@
 ---
 date: 2021-03-27T08:04:15+01:00
-updated: 2021-06-08T20:29:30+02:00
+updated: 2022-01-11T21:30:19+01:00
 tags: geek/idea
 description: Scripts I need to create
 toc: false
@@ -21,3 +21,10 @@ The following are ideas for scripts I would like to code both to learn bash and 
 ## Slogger
 
 Logging anything happening to my life, saving it in a shared database. A sort of front-end client for the [[Nolan|Timeline]].
+
+<br>
+<br>
+
+## Smart caps
+
+Finding some simple way to take documents formed by capitals or small caps only, and format them according to arbitrary criteria.
