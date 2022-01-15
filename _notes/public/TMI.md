@@ -9,7 +9,7 @@ permalink: /tmi
 redirect_from: [/t.m.i., /too-much-information, /toomuchinformation, /toomuchinfo, /too-much-info]
 description: Too Much Information, an acronym which perfectly defines my tomminess
 ---
-From Wikitionary entry for [too much information][tmi]:
+Wikitionary entry for [too much information][tmi]:
 
 > An expression indicating that someone has revealed information that is too personal and made the listener or reader uncomfortable.
 
