@@ -331,10 +331,11 @@ hr {
 .page-header {
 	text-align: center;
 	h2 {
+		color: var(--slight);
 		margin-top: 0;
 	}
 	p {
-		padding: 0 10%;
+		margin: $small;
 	}
 }
 
@@ -683,10 +684,10 @@ h3 {
 }
 
 #toc {
-	margin-bottom: $big;
 	h3 {
 		text-shadow: var(--little-shadow);
 		color: var(--slight);
+		margin: 0;
 	}
 	a {
 		color: var(--slight);
@@ -992,10 +993,11 @@ button,
 		left: 2vw;
 		bottom: 0;
 		width: 18vw;
-		height: 4.9rem;
+		height: 4.3rem;
 		font-size: 1rem;
 		overflow: scroll;
 		scrollbar-width: none;
+		margin-bottom: 8vh;
 		h3 {
 			&::after,
 			&::before {

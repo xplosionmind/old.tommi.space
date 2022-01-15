@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: e3cbe584f2a78141bf7f53cfef8cf237b3f4c201
+  revision: 9fac4c6ec71626bd9bb595c53d6ce674fefa0a83
   specs:
     jekyll (4.2.1)
       addressable (~> 2.4)
@@ -103,7 +103,7 @@ GEM
     faraday-retry (1.0.3)
     faraday_middleware (1.2.0)
       faraday (~> 1.0)
-    ffi (1.15.4)
+    ffi (1.15.5)
     forwardable-extended (2.6.0)
     html-pipeline (2.14.0)
       activesupport (>= 2)
@@ -183,7 +183,7 @@ GEM
     liquid (4.0.3)
     liquid-c (4.0.0)
       liquid (>= 3.0.0)
-    listen (3.7.0)
+    listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     loofah (2.13.0)
@@ -215,7 +215,7 @@ GEM
     psych (3.3.2)
     public_suffix (4.0.6)
     racc (1.6.0)
-    rainbow (3.0.0)
+    rainbow (3.1.1)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -225,7 +225,7 @@ GEM
     ruby-ll (2.1.2)
       ansi
       ast
-    ruby-oembed (0.16.0)
+    ruby-oembed (0.16.1)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
     sassc (2.4.0)

@@ -45,7 +45,7 @@ Domain names I am using:
 	- `slots.time` (not existing TLD)
 	- `time.ninja` (taken)
 	- `slot.it` (taken)
-- [[Internet Awesomeness]]
+- [Internet Awesomeness](/internet-awesomeness 'Awesome websites — tommi.space')
 	- `internet.ninja`
 	- `awesome.int`
 	- `internet.awesome` (not existing TLD)
@@ -93,7 +93,7 @@ Domain names I am using:
 
 ### TMI
 
-[[T.M.I.|TMI]] stands for **T**oo **M**uch **I**nformation, or **T**o**m**m**i**.
+[[TMI]] stands for **T**oo **M**uch **I**nformation, or **T**o**m**m**i**.
 
 - I already own [**`tmi.pics`**][tmi.pics], where I host my [[Pixelfed]] instance.
 - `tmi.sh`
