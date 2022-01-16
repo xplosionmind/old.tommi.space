@@ -2,7 +2,6 @@
 date: 2021-03-09T18:53:20+01:00
 updated: 2021-12-17T00:53:20+01:00
 tags: reading/book/wip
-description: Notes on a great book on Web Typography by Richard Rutter
 toc: false
 image: http://webtypography.net/i/web-typography-book.png
 description: |

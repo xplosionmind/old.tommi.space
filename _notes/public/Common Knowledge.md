@@ -4,6 +4,7 @@ updated: 2022-01-15T18:50:38+01:00
 tags: topic knowledge
 description: Thoughts about the imporance of giving equal access to knowledge to all
 image: 'https://miro.medium.com/max/2000/1*O4jG21GILfzDuZ4eWvH7_Q.png'
+toc: false
 ---
 The undervaluation of common knowledge is something quite worrying for me. The ubiquitous overwhelming amount of information we are fed with continuously obfuscates the cruciality of having open access to educational resources that go beyond the YouTube tutorial (that is openly accessible—still, it is not common knowledge since it is hosted on a proprietary platforms which could shut down from one day to another).
 
