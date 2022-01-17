@@ -315,7 +315,7 @@ li {
 .serif {
 	font-family: var(--font-serif);
 	p {
-		line-height: 1.5em;
+		line-height: 1.3em;
 	}
 }
 
@@ -519,6 +519,22 @@ figure {
 		line-height: 1em;
 		text-shadow: none;
 		margin: 1rem auto;
+	}
+}
+
+.poetry {
+	background: var(--yellow);
+	color: var(--black-ish);
+	min-height: 100vh;
+	cursor: url(/logos/cursor-dark.svg) 16 16, crosshair;
+	a {
+		color: var(--dark-blue)
+	}
+	li {
+		list-style-type: none;
+	}
+	h1 {
+		padding-top: 8vh;
 	}
 }
 
@@ -1025,6 +1041,13 @@ button,
 			transform: scale(.85);
 			display: block;
 		}
+	}
+	.poetry h2 {
+		position: fixed;
+		top: 8vh;
+		left: 1vw;
+		transform: rotate(90deg);
+		transform-origin: left bottom;
 	}
 }
 

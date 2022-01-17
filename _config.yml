@@ -189,8 +189,9 @@ defaults:
       layout: poetry
       lang: it
       permalink: /:title
-      primary: 'teal'
       description: 'Parole disordinate, fra le nuvole e lo spazio'
+      class: poetry
+      image: /images/cloud.jpg
 
   -
     scope:

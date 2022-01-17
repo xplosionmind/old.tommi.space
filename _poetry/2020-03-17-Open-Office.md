@@ -1,5 +1,5 @@
 ---
-title: "Open Office"
+title: Open Office
 date: 2020-03-17
 lang: it
 ---

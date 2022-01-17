@@ -1,5 +1,5 @@
 ---
-title: "Polizia cinese"
+title: Polizia cinese
 date: 2019-10-12
 lang: it
 ---

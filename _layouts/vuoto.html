@@ -14,7 +14,9 @@ layout: none
 				</article>
 			</main>
 		{% else %}
-			{{ content }}
+			<main class='{{ page.class }}'>
+				{{ content }}
+			</main>
 		{% endif %}
 	</body>
 </html>
