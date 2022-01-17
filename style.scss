@@ -215,7 +215,7 @@ input.button {
 
 .invalid-wiki-link {
 	opacity: .5;
-	cursor: not-allowed;
+	cursor: url(/logos/forbidden-cursor.svg) 16 16, not-allowed;
 }
 
 .embed-wrapper {
@@ -711,6 +711,10 @@ h3 {
 	li {
 		line-height: 1;
 	}
+	ul,
+	ol {
+		padding-left: 1.2rem;
+	}
 }
 
 #help {
@@ -1007,22 +1011,12 @@ button,
 	#toc {
 		position: fixed;
 		left: 2vw;
-		bottom: 0;
+		bottom: 2vw;
 		width: 18vw;
-		height: 4.3rem;
 		font-size: 1rem;
-		overflow: scroll;
-		scrollbar-width: none;
-		margin-bottom: 8vh;
-		h3 {
-			&::after,
-			&::before {
-				content: '\2193';
-			}
-		}
-		&:hover,
-		&:focus {
-			height: 60vh;
+		opacity: .6;
+		&:hover {
+			opacity: 1;
 		}
 		.post & {
 			width: 23vw;

@@ -26,7 +26,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### v1
 
-1. 🏗 [[The Jam]]: implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
+1. 🏗 [The Jam](/jam 'The Jam'): implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
 
 <br>
 
@@ -62,7 +62,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 2. Improved building workflow
 	1. Integrate URL checking services in the workflow
 		- [Urlint](https://urlint.co/integration/github.html 'Urlint')
-8. [[The Jam]]: Preview a note when hovering on link
+8. [The Jam](/jam 'The Jam'): Preview a note when hovering on link
 3. [Watchlog](https://github.com/xplosionmind/data/blob/main/watchlog.csv 'watchlog.csv on GitHub') implementation
 
 <br>
@@ -149,7 +149,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 - `page.location` improvement ✅ 2021.04.13
 - Check the OpenStreetMap API and figure out a way to implement [[Around the world|Places]] in a map interface, integrating it with [[Nolan|Timeline]] ✅ 2021.04.13
 - **Sorting** and **filtering** using JavaScript ✅ 2021.01.29
-- The new [[The Jam|Jam]]:
+- The new [Jam](/jam 'The Jam'):
 	- show only parent/main tags and notes ✅ 2021.01.16
 	- an unstyled simple bullet point list ✅ 2021.01.16
 - Add [`humans.txt`](http://humanstxt.org 'humans.txt') ✅ 2021.01.17
@@ -221,7 +221,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 - Privacy Policy
 - RSS Feed
 - Self-host media and heavy files on `assets.tommi.space` to make git folder lighter
-- separate website/repo/domain for web and online resources or for geek stuff in general (configured as *[[The Jam|The Jar]]*
+- separate website/repo/domain for web and online resources or for geek stuff in general (configured as *[The Jam](/jam 'The Jam')*
 - Serif font styling in posts
 - Share button
 - [Share on Jekyll showcase](https://github.com/planetjekyll/showcase/pull/23)

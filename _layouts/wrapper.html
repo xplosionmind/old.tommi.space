@@ -13,24 +13,6 @@
 			<svg class='button'  viewBox='0 0 24 24' style='background:var(--deep)'><path d='M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z' fill='var(--text)'/></svg>
 		</a>
 
-		<script>
-			{% comment %}
-				/*NOT WORKING:*/document.getElementsByClassname('invalid-wiki-link').setAttribute('title', 'This note is private');
-			{% endcomment %}
-			scrollbottom = document.getElementById('to-bottom');
-			scrolltop = document.getElementById('to-top');
-			window.onscroll = function() {scroll()};
-			function scroll() {
-				if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-					scrollbottom.style.display = 'none';
-					scrolltop.style.display = 'block';
-				} else {
-					scrollbottom.style.display = 'block';
-					scrolltop.style.display = 'none';
-				}
-			}
-		</script>
-
 		{% include nav.html %}
 
 		{% if page.tags contains 'draft' or page.tags contains 'wip' %}
@@ -49,6 +31,35 @@
 			{% include footer.html %}
 		</div>
 	
+		<script>
+			var private = document.getElementsByClassName('invalid-wiki-link');
+			for (var i=0; i < private.length; i++) {
+				private[i].setAttribute('title', 'This note is private');
+			};
+			scrollbottom = document.getElementById('to-bottom');
+			scrolltop = document.getElementById('to-top');
+			toc = document.getElementById('toc');
+			var body = document.body, html = document.documentElement;
+			var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+			footer = 3000;
+			height -= footer;
+			window.onscroll = function() {scroll()};
+			function scroll() {
+				if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+					scrollbottom.style.display = 'none';
+					scrolltop.style.display = 'block';
+				} else {
+					scrollbottom.style.display = 'block';
+					scrolltop.style.display = 'none';
+				};
+				if (document.body.scrollTop > height || document.documentElement.scrollTop > height) {
+					toc.style.display = 'none';
+				} else {
+					toc.style.display = 'block';
+				}
+			}
+		</script>
+
 	</body>
 	{% webmentions_js %}
 </html>

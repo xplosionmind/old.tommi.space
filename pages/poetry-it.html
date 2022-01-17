@@ -13,7 +13,8 @@ description: |
 <h1>{{ page.title }}</h1>
 <article class='serif' style='padding-top:0;text-align:center;'>
 	{{ page.description | markdownify }}
-	<ul>{% for poem in site.poetry | sort: 'date' | reverse %}
+	{% assign poetry = site.poetry | sort: 'date' | reverse %}
+	<ul>{% for poem in poetry %}
 		<li><a href='{{ poem.url }}' title='{{ poem.title }}'>{{ poem.title }}</a></li>
 	{% endfor %}</ul>
 </article>

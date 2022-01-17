@@ -26,19 +26,17 @@
 					if (!default_url)
 							default_url = 'https://'; 
 			
-					var instance = prompt('Enter your instance’s address: (for example https://mastodon.uno)', default_url);
+					var instance = prompt('Enter your instance’s address: (for example mastodon.uno)', default_url);
 					if (instance) { 
 							if ( !instance.startsWith('https://') && !instance.startsWith('http://') )
 									instance = 'https://' + instance;  
 							var url   = window.location.href;
-							var title = document.querySelectorAll('meta[property='og:title']')[0].getAttribute('content'); 
-							if (!title)    var title = document.getElementsByTagName('title')[0].innerHTML;
+							var title = document.getElementsByTagName('title')[0].innerHTML;
 							if ( !instance.endsWith('/') )
 									instance = instance + '/'; 
 							localStorage['mastodon_instance'] = instance; 
-							hashtags     =  '#quitsocialmedia';
-							var author   = '@xplosionmind@mastodon.uno'; 
-							mastodon_url = instance + 'share?text=' + encodeURIComponent(title + '\n\n' + url + '\n\n' + hashtags + ' ' + author);
+							var author   = '@tommi@mastodon.uno'; 
+							mastodon_url = instance + 'share?text=' + encodeURIComponent(title + '\n\n' + url + '\n\n' + author);
 							window.open(mastodon_url, '_blank');
 					}
 			}
