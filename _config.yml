@@ -115,7 +115,7 @@ plugins:
   - jekyll-graph
   - jekyll-webmention_io
   - jekyll-minifier
-#  - jekyll-unique-urls
+  - jekyll-unique-urls
   - jekyll-embed-urls
 
 sass:

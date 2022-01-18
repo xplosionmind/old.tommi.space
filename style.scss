@@ -328,17 +328,6 @@ hr {
 	width: 30%;
 }
 
-.page-header {
-	text-align: center;
-	h2 {
-		color: var(--slight);
-		margin-top: 0;
-	}
-	p {
-		margin: $small;
-	}
-}
-
 .mono {
 	font-family: var(--font-mono);
 }
@@ -560,6 +549,9 @@ figcaption {
 
 .center {
 	text-align: center;
+	h2 {
+		color: var(--slight);
+	}
 }
 
 .right,
@@ -616,10 +608,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+	display: inline-block;
 	font-size: $mastodon;
 	color: var(--text);
 	text-align: center;
-	margin: 0;
+	margin: 8vh 3vw 0;
 	text-shadow: var(--little-shadow);
 	&:hover {
 		transform: rotate(-3deg);
@@ -953,7 +946,7 @@ button,
 		width: 100%;
 		margin: 0;
 	}
-	.page-header h1 {
+	section h1 {
 		font-size: $height;
 	}
 	.stuff-logo {

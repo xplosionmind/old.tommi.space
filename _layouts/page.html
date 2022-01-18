@@ -2,21 +2,18 @@
 layout: wrapper
 ---
 <main class='h-entry'>
-	<div class='row page-header'>
-		<div class='one column'>
-			<a class='u-uid u-url' href='{{ page.url | absolute_url }}'><h1 class='p-name'>{{ page.title }}</h1></a>
-			{% if page.subtitle %}
-				<h2>{{ page.subtitle }}</h2>
-			{% endif %}
-				<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
-			</p>
+	<section class='row center'>
+		<a class='u-uid u-url' href='{{ page.url | absolute_url }}'><h1 class='p-name'>{{ page.title }}</h1></a>
+		{% if page.subtitle %}
+			<h2>{{ page.subtitle }}</h2>
+		{% endif %}
+			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
+		</p>
 
-			{% capture content_with_ids %}
-				{% include anchor-parser.html html=content anchorClass='anchor' generateId=true %}
-			{% endcapture %}
-
-		</div>
-	</div>
+		{% capture content_with_ids %}
+			{% include anchor-parser.html html=content anchorClass='anchor' generateId=true %}
+		{% endcapture %}
+	</section>
 
 	<div class='row'>
 		<div class='one column'>

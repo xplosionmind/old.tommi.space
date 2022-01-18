@@ -1,0 +1,9 @@
+---
+permalink: /test
+---
+{% assign all = site.pages | sort: 'updated' | reverse %}
+<ul>
+  {% for page in all %}
+    <li>{{ page.updated }} - {{ page.title }} - {{ page.url }}</li>
+  {% endfor %}
+</ul>

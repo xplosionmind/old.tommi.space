@@ -1,8 +1,8 @@
 <section class='flex row'>
 	{% for tagg in site.data.tags %}
+		{% assign tag = tagg.title | downcase | slugify %}
 		{% for present in page.tags %}
-			{% capture tag %}{{ tagg.title | downcase | slugify }}{% endcapture %}
-			{% capture post-tag %}{{ present | downcase | slugify }}{% endcapture %}
+			{% assign post-tag = present | downcase | slugify %}
 			{% if post-tag contains tag %}
 				<a href='/tags#{{ tag }}' rel='tag' class='{{ tag }} smaller written button p-category'>{{ tagg.title }}</a>
 			{% endif %}

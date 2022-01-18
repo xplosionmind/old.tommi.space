@@ -38,7 +38,6 @@
 			};
 			scrollbottom = document.getElementById('to-bottom');
 			scrolltop = document.getElementById('to-top');
-			toc = document.getElementById('toc');
 			var body = document.body, html = document.documentElement;
 			var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
 			footer = 3000;
@@ -52,11 +51,13 @@
 					scrollbottom.style.display = 'block';
 					scrolltop.style.display = 'none';
 				};
-				if (document.body.scrollTop > height || document.documentElement.scrollTop > height) {
-					toc.style.display = 'none';
-				} else {
-					toc.style.display = 'block';
-				}
+				{% if page.toc %}
+					if (document.body.scrollTop > height || document.documentElement.scrollTop > height) {
+						document.getElementById('toc').style.display = 'none';
+					} else {
+						document.getElementById('toc').style.display = 'block';
+					}
+				{% endif %}
 			}
 		</script>
 

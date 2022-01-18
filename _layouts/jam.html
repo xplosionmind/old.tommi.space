@@ -2,60 +2,58 @@
 layout: wrapper
 ---
 <main class='h-entry'>
-	<div class='row page-header'>
-		<div class='one column'>
-			<a class='u-uid u-url' href='{{ page.url | absolute_url }}'><h1 class='p-name'>{{ page.title }}</h1></a>
-			{% if page.subtitle %}
-				<h2>{{ page.subtitle }}</h2>
+	<section class='row center'>
+		<a class='u-uid u-url' href='{{ page.url | absolute_url }}'><h1 class='p-name'>{{ page.title }}</h1></a>
+		{% if page.subtitle %}
+			<h2>{{ page.subtitle }}</h2>
+		{% endif %}
+		<p class='metadata'>
+			{% if page.lang == 'it' %}
+				{% if page.location != nil %}
+					{% for place in site.data.places %}
+						{% if place.name contains page.location %}
+							<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+				<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{% include date-it.html %}</time>
+			{% else %}
+				{% if page.location != nil %}
+					{% for place in site.data.places %}
+						{% if place.name contains page.location %}
+							<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+				<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{{ page.date | date: '%e %B %Y' }}</time>
 			{% endif %}
-			<p class='metadata'>
-				{% if page.lang == 'it' %}
-					{% if page.location != nil %}
-						{% for place in site.data.places %}
-							{% if place.name contains page.location %}
-								<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
-							{% endif %}
-						{% endfor %}
-					{% endif %}
-					<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{% include date-it.html %}</time>
+			<br>
+			{% if page.lang == 'it' %}
+				ultima modifica: 
+				{% if page.updated != nil %}
+					<time class='dt-updated' datetime='{{ page.updated }}'>{% include date-up-it.html %}</time>
 				{% else %}
-					{% if page.location != nil %}
-						{% for place in site.data.places %}
-							{% if place.name contains page.location %}
-								<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
-							{% endif %}
-						{% endfor %}
-					{% endif %}
-					<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{{ page.date | date: '%e %B %Y' }}</time>
+					<time class='dt-updated' datetime='{{ page.last_modified_at | date_to_xmlschema }}'>{% include date-mod-it.html %}</time>
 				{% endif %}
-				<br>
-				{% if page.lang == 'it' %}
-					ultima modifica: 
-					{% if page.updated != nil %}
-						<time class='dt-updated' datetime='{{ page.updated }}'>{% include date-up-it.html %}</time>
-					{% else %}
-						<time class='dt-updated' datetime='{{ page.last_modified_at | date_to_xmlschema }}'>{% include date-mod-it.html %}</time>
-					{% endif %}
+			{% else %}
+				latest edit: 
+				{% if page.updated != nil %}
+					<time class='dt-updated' datetime='{{ page.updated }}'>{{ page.updated | date: '%e %B %Y at %k:%m' }}</time>
 				{% else %}
-					latest edit: 
-					{% if page.updated != nil %}
-						<time class='dt-updated' datetime='{{ page.updated }}'>{{ page.updated | date: '%e %B %Y at %k:%m' }}</time>
-					{% else %}
-						<time class='dt-updated' datetime='{{ page.last_modified_at | date_to_xmlschema }}'>{{ page.last_modified_at | date: '%e %B %Y at %k:%m' }}</time>
-					{% endif %}
+					<time class='dt-updated' datetime='{{ page.last_modified_at | date_to_xmlschema }}'>{{ page.last_modified_at | date: '%e %B %Y at %k:%m' }}</time>
 				{% endif %}
-				<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
-			</p>
+			{% endif %}
+			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
+		</p>
 
-			{% capture content_with_ids %}
-				{% include anchor-parser.html html=content anchorClass='anchor' generateId=true %}
-			{% endcapture %}
+		{% capture content_with_ids %}
+			{% include anchor-parser.html html=content anchorClass='anchor' generateId=true %}
+		{% endcapture %}
 
-			{% include post-tags.html %}
-			{% include goto.html %}
+		{% include post-tags.html %}
+		{% include goto.html %}
 
-		</div>
-	</div>
+	</section>
 
 	<div class='row'>
 		<div class='one column'>

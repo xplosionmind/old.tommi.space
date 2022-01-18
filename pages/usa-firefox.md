@@ -1,15 +1,11 @@
 ---
 layout: full
-title: "Usa Firefox"
-link: "https://www.mozilla.org/it/firefox/new/"
-description: "Reminder di usare Firefox"
-image: "https://3u26hb1g25wn1xwo8g186fnd-wpengine.netdna-ssl.com/files/2019/10/Fx-Browser-icon-fullColor.svg"
+title: Usa Firefox
+link: 'https://www.mozilla.org/it/firefox/new/'
+description: Reminder di usare Firefox
+image: 'https://3u26hb1g25wn1xwo8g186fnd-wpengine.netdna-ssl.com/files/2019/10/Fx-Browser-icon-fullColor.svg'
 permalink: /usa-firefox
-redirect_from:
-  - /use-firefox
-  - /browser-sbagliato
-  - /apri-firefox
-  - /open-firefox
+redirect_from: [/use-firefox,/browser-sbagliato,/apri-firefox,/open-firefox]
 lang: it
 ---
 Non stai usando il browser che dovresti!
