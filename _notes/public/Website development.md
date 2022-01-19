@@ -26,6 +26,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### v1
 
+1. Improve [Webmentions](https://aarongustafson.github.io/jekyll-webmention_io/ 'Documentation for jekyll-webmention_io plugin') templating and display
 1. 🏗 [The Jam](/jam 'The Jam'): implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
 
 <br>

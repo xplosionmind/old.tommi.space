@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16T02:00:00+02:00
-updated: 2021-12-15T21:28:18+01:00
+updated: 2022-01-19T13:13:03+01:00
 ref: now
 lang: it
 description: Le cose che sto facendo
@@ -15,13 +15,7 @@ Sto:
 
 ## Organizzando <cite>Scambi Festival</cite>
 
-Insieme ad un gruppo di matti, curiosi e diversi amici provenienti da ogni angolo d’Europa lavoro a [<cite>Scambi</cite>](https://scambi.org 'Scambi'), il **festival dei laboratori [paneuretici](https://scambi.org/paneuretico 'L’universo paneuretico di Scambi')**, la cui seconda edizione si terrà alla Pigna di Sanremo, dal 25 al 28 agosto 2022.
-
-Tutto quello che stiamo creando (è tanto, tantissimo), i contatti e maggiori dettagli su chi siamo e perché lo facciamo possono essere trovati sul [nostro sito web](https://scambi.org 'Scambi') e sui nostri [social](https://instagram.com/scambifestival 'Scambi Festival su Instagram') (ahimé, mi costringono ad averli).
-
-<div class='flex row'>
-	<a class='button' href='https://scambi.org/edizioni/scambi-2021' target='_blank' title='Scambi 2021'>Highlights Scambi 2021</a>
-</div>
+{% include scambi.html %}
 
 <br>
 <br>
@@ -32,9 +26,8 @@ Sto frequentando il corso di [*Philosophy, International Studies and Economics*]
 
 Specificamente, i corsi che sto seguendo (*ergo* i miei prossimi esami 🤞🏼):
 - [Political Philosophy I](https://www.unive.it/data/insegnamento/332324 'Political Philosophy I course page')
-- [Political Philosophy II](https://www.unive.it/data/insegnamento/332323 'Political Philosophy II course page'), corso monotematico sul [[Politics#Socialism]]
+- [Political Philosophy II](https://www.unive.it/data/insegnamento/332323 'Political Philosophy II course page'), corso monotematico sul [[Politics#Socialism|Socialismo]]
 - [Economics of Labor and Welfare](https://www.unive.it/insegnamento/course/332328 'Economics of Labor and Welfare course page')
-- [Contemporary History](https://www.unive.it/data/insegnamento/357781 'Contemporary History course page')
 
 {% comment %}
 <div class='blue box'>

@@ -4,12 +4,11 @@ updated: 2022-01-05T20:23:39+01:00
 permalink: /qsm
 aliases: QSM, quitsocialmedia.club notes
 description: |
-  Notes about <a href='https://quitsocialmedia.club'  target='_blank' title='Quit Social Media'>quitsocialmedia.club</a>
+  Random messed up multilingual notes about <a href='https://quitsocialmedia.club'  target='_blank' title='Quit Social Media'>quitsocialmedia.club</a>
 redirect_from: [/quitsocialmedia, /quitsocialmedia.club, /quitsocialmedia-notes, /quit-social-media-notes, /quit-social-media, /qsm-notes, /qsmnotes]
 ---
-<div class='blue box'>
-	Content in this page are random, pretty messed up and both in English and Italian, mostly personal to-dos for Tommi.
-</div>
+{{ page.description }}
+
 ## Improvements
 
 - Inputs feed of links tagged `qsm`

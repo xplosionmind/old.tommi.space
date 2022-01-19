@@ -61,7 +61,7 @@ layout: wrapper
 				{% if page.toc %}
 					<div id='toc'>
 						<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-						{% include toc.html html=content_with_ids %}
+						{% include toc.html html=content_with_ids skip_no_ids=true %}
 					</div>
 				{% endif %}
 				{{ content_with_ids }}
@@ -71,21 +71,12 @@ layout: wrapper
 	</div>
 
 	<div class='row'>
-		<div class='half column'>
-			{% include backlinks.html %}
-		</div>
-		<div class='half column'>
-			{% include jam-graph.html %}
-		</div>
-	</div>
-
-	<div class='row'>
-		<div class='half column'>
+		<div class='one column'>
 			{% include share.html %}
-			{% include webmentions.html %}
-		</div>
-		<div class='half column'>
+			{% include backlinks.html %}
+			{% include jam-graph.html %}
 			{% include comments.html %}
+			{% include webmentions.html %}
 		</div>
 	</div>
 </main>

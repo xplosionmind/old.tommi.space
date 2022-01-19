@@ -341,10 +341,9 @@ samp {
 }
 
 pre {
-	overflow-x: scroll;
 	padding: $regular;
 	border-radius: $radius-m;
-	scrollbar-width: none;
+	white-space: pre-wrap;
 	code {
 		background: none;
 		padding: 0;

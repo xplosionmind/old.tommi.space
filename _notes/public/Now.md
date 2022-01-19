@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16
-updated: 2021-12-15T21:25:29+01:00
+updated: 2022-01-19T13:12:55+01:00
 ref: now
 description: Stuff I am up to in these days
 comments: false
@@ -23,7 +23,6 @@ Specifically, my upcoming exams:
 - [Political Philosophy I](https://www.unive.it/data/course/332324 'Political Philosophy I course page')
 - [Political Philosophy II](https://www.unive.it/data/course/332323 'Political Philosophy II course page'), focused on [[Politics#Socialism]]
 - [Economics of Labor and Welfare](https://www.unive.it/data/course/332328 'Economics of Labor and Welfare course page')
-- [Contemporary History](https://www.unive.it/data/course/357781 'Contemporary History course page')
 
 {% comment %}
 <div class='blue box'>
@@ -43,15 +42,11 @@ I am currently serving as a scout chief in the <q>Reparto Corona Boreale</q> for
 
 ## Working on <cite>Scambi Festival</cite>
 
-With [a group of curious and crazy guys](https://scambi.org/en/about-us/ 'About us - Scambi Festival') from all over Italy, I founded and work at a Festival of workshops named [<cite>Scambi</cite>](https://scambi.org 'Scambi'), taking place in **Sanremo**, during the last week of August. The first edition, in 2021, has been a great success. We cannot wait for the second to happen, we are already working on it!
-
-<div class='flex row'>
-	<a href='https://scambi.org/en/editions/scambi-2021'  target='_blank' title='Highlights of Scambi 2021'>Scambi 2021 Highlights</a>
-</div>
+{% include scambi.html %}
 
 <br>
 <br>
 
 ## Projects, ideas, and collaborations
 
-In the meanwhile, I am continuing to wander around Italy to take part and/or assist to interesting things that happen. I take note of the most important stuff [here](/stuff 'Stuff - tommi.space'), and [[Tutto|here]] I log everything (literally anything) I have done.
+In the meanwhile, I am continuing to wander around Italy to take part and/or assist to interesting things that happen. I take note of the most important stuff [here](/stuff 'Stuff - tommi.space'), and <a href='/tutto' hreflang='it' target='_blank' title='Tutto quello che ho fatto'>here</a> I log everything (literally anything) I have done.

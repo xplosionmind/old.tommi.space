@@ -10,31 +10,16 @@
 	</p>
 
 	{% if jekyll.environment == 'production' %}
-		{% comment %}+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-		+                                                                      +
-		+      100% Liquid backlinks parser based on pages permalinks.         +
-		+                                                                      +
-		++++++++++++++++++++++++++++++++++++++++++++++++++++++++{% endcomment %}
-
 		<ul>
-			{% capture current_url %}{{ page.url }}{% endcapture %}
 			{% capture current_url_downcase %}{{ page.url | downcase }}{% endcapture %}
+			{% assign done = page.url %}
 
-			{% for entry in site.pages %}
-				{% unless entry.url contains '.json' or entry.url contains '.csv' or entry.url contains '.css' or entry contains '.txt' or entry.url contains 'home' or entry.url contains 'tuffo' or entry.url contains 'marmellata' or entry.url contains 'jam' or entry.url == page.url %}
+			{% assign all = site.pages | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | sort: 'updated' | reverse %}
+			{% for entry in all %}
+				{% unless entry.url contains '.json' or entry.url contains '.csv' or entry.url contains '.css' or entry contains '.txt' or entry.url contains 'home' or entry.url contains 'tuffo' or entry.url contains 'marmellata' or entry.url contains 'jam' or entry.url contains 'feeds/' %}
 					{% if entry.content contains page.url or entry.content contains current_url_downcase %}
-						<li>
-							<a href='{{ entry.url }}'>{{ entry.title }}</a>
-							{% if entry.description %}
-								- {{ entry.description }}
-							{% else %}
-								- {{ entry.excerpt | strip_html | truncatewords: 30 }}
-							{% endif %}
-						</li>
-					{% endif %}
-					{% for redirect in page.redirect_from | split '/' %}
-						{% capture redirect_ %}/{{ redirect }}{% endcapture %}
-						{% if entry.content contains redirect_ %}
+						{% unless done == entry.url %}
+							{% assign done = entry.url %}
 							<li>
 								<a href='{{ entry.url }}'>{{ entry.title }}</a>
 								{% if entry.description %}
@@ -43,49 +28,24 @@
 									- {{ entry.excerpt | strip_html | truncatewords: 30 }}
 								{% endif %}
 							</li>
+						{% endunless %}
+					{% endif %}
+					{% for redirect in page.redirect_from %}
+						{% if entry.content contains redirect %}
+							{% unless done == entry.url %}
+								{% assign done = entry.url %}
+								<li>
+									<a href='{{ entry.url }}'>{{ entry.title }}</a>
+									{% if entry.description %}
+										- {{ entry.description }}
+									{% else %}
+										- {{ entry.excerpt | strip_html | truncatewords: 30 }}…
+									{% endif %}
+								</li>
+							{% endunless %}
 						{% endif %}
 					{% endfor %}
 				{% endunless %}
-			{% endfor %}
-
-			{% for collection in site.collections %}
-				{% assign collection_name = collection.label %}
-				{% for entry in site.[collection_name] %}
-
-					{% if entry.content contains page.url or entry.content contains current_url_downcase %}
-						{% case collection_name %}
-							{% when 'notes' %}
-							<li><a href='{{ entry.url }}'>{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
-							{% when 'sconnesso' %}
-								<li>🎙️ <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
-							{% when 'posts' %}
-								<li>📖 <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
-							{% when 'filinge' %}
-								<li>💭 <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
-							{% else %}
-								<li><a href='{{ entry.url }}'>{{ entry.title }}</a> - {{ entry.excerpt | strip_html | truncatewords: 30 }}</li>
-						{% endcase %}
-					{% endif %}
-
-					{% for redirect in page.redirect_from | split '/' %}
-						{% capture redirect_ %}/{{ redirect }}{% endcapture %}
-						{% if entry.content contains redirect_ %}
-							{% case collection_name %}
-								{% when 'notes' %}
-									<li><a href='{{ entry.url }}'>{{ entry.title }}</a> - {% if entry.description %}{{ entry.description }}{% else %}{{ entry.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
-								{% when 'sconnesso' %}
-									<li>🎙️ <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
-								{% when 'posts' %}
-									<li>📖 <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
-								{% when 'filinge' %}
-									<li>💭 <a href='{{ entry.url }}'>{{ entry.title }}</a></li>
-								{% else %}
-									<li><a href='{{ entry.url }}'>{{ entry.title }}</a> - {{ entry.description }}</li>
-							{% endcase %}
-						{% endif %}
-					{% endfor %}
-
-				{% endfor %}
 			{% endfor %}
 		</ul>
 	{% else %}

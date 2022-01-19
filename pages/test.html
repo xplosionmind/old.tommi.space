@@ -1,9 +1,15 @@
 ---
 permalink: /test
 ---
-{% assign all = site.pages | sort: 'updated' | reverse %}
+{% comment %}
+{% assign all = site.pages | where_exp: "page", "page.url != '/redirect.html'" | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | sort: 'last_modified_at' | reverse %}
 <ul>
   {% for page in all %}
-    <li>{{ page.updated }} - {{ page.title }} - {{ page.url }}</li>
+    {% unless page.url contains '.css' or page.url contains '.html' %}
+      <li>{{ page.last_modified_at }} - {{ page.title }} - {{ page.url }}</li>
+    {% endunless %}
   {% endfor %}
 </ul>
+
+ | where_exp: "page", "page.url contains '.html' or page.url contains '.md'"
+{% endcomment %}

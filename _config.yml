@@ -120,6 +120,7 @@ plugins:
 
 sass:
   style: compressed
+  sourcemap: never
 
 target-blank:
   rel: external

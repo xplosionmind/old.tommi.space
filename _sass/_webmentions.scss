@@ -6,14 +6,14 @@
 	.p-author {
 		display: inline-block;
 	}
+	.u-photo {
+		display: inline-block;
+		max-height: $big;
+		box-shadow: var(--little-shadow);
+	}
 	p {
 		margin: 0;
 	}
-}
-.u-photo {
-	display: inline-block;
-	max-height: $big;
-	box-shadow: var(--little-shadow);
 }
 .webmention__pubdate {
 	opacity: .8;
