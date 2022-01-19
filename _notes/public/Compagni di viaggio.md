@@ -141,6 +141,6 @@ Ricordare <cite>Jarvis</cite> è doloroso, perché è stato brutalmente smarrito
 
 <div class='row'>
 <figure class='half column'><a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'><img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080113-cf44e5b4-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'></a>
-</figure>
-<figure class='half column'><a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'><img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080128-36817480-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'></a></figure>
+</picture></figure>
+<figure class='half column'><a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'><img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080128-36817480-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'></a></picture></figure>
 </div>

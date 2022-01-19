@@ -38,23 +38,23 @@ Non c'è un punto di arrivo finale, e non è umano attendere che la [*Now page*]
 
 Fare una cosa alla volta e farla bene non basta. La frase della maglietta che ho riportato sopra tralascia i punti di vista dell’emozione, della paura, dell’insoddifazione. Io metto da parte l’impossibile, perseguo ideali di libertà e giuscizia, con impegno; e come dovrei sentirmi? Sembra naturale ed immediato che all’impegnarsi per una cosa buona e giusta conseguano gioia, compiacimento e convinzione, ma non è così. Sono necessari degli ulteriori passi, un impegno ancora maggiore, un punto di vista grandangolare che possa abbracciare la totalità delle nostre pulsioni e collocarle in uno schema ampio, collettivo.
 
-<figure>
+<figure><picture>
   <img src="/images/camogli-supertele.jpg" title="Un ragazzo con un 350mm - Camogli, settembre 2019" alt="Un ragazzo con un 350mm - Camogli, settembre 2019">
   <figcaption>
     Un ragazzo con un 350mm<br>
     Camogli, settembre 2019
   </figcaption>
-</figure>
+</picture></figure>
 
 Fino ad ora, sulla macchina fotografica della mia vita ho sempre montato un 350 millimetri (per i profani alla fotografia, una lente strettissima, un supertele lunghissimo e pesantissimo), che mi sono sempre affannato per puntare qui e lì, velocemente, per scrutare e studiare tutti i dettagli di qualcosa ma, isolandolo dal suo contesto, non ho saputo capirne gli attributi; adesso monterò un bel 24 millimetri, con il quale mi sarà impossibile fossilizzarmi su qualcosa e disperarmi perché spendo pochissimo tempo su un soggetto e ne ho migliaia da ritrarre; con questa lente saprò abbracciare l’integrità del panorame che mi si presenta, gli ostacoli del mio percorso, la relazione fra le diverse emozioni e persone in modo organico e armonioso.
 
-<figure>
+<figure><picture>
   <img class="u-photo"  src="{{ page.image }}" title="Due persone che montano un grandangolo - Camogli, settembre 2019" alt="Due persone che montano un grandangolo - Camogli, settembre 2019">
   <figcaption>
     Due persone che scattano una foto grandangolare<br>
     Camogli, settembre 2019
   </figcaption>
-</figure>
+</picture></figure>
 
 Ciò che resta da fare è esclusivamente uscire di casa e cominciare a scattare.
 

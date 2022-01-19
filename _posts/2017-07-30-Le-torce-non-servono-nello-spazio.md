@@ -6,10 +6,10 @@ image: "/images/posts/2017-07-30-le-torce-non-servono-nello-spazio.jpg"
 Non è solo adrenalina, scienza, scoperta, desiderio, speranza, orbita, è Vita.
 Il buon vecchio Paolo Nespoli ritorna sulla ISS (International Space Station): ha 60 anni, due figli e potrebbe dirsi soddisfatto.
 
-<figure>
+<figure><picture>
   <img class="u-photo" src="{{ page.image }}" alt="un astronauta guarda fuori dal finestrino della Soyuz appena atterrata">
   <figcaption>oltre - &copy; NASA</figcaption>
-</figure>
+</picture></figure>
 
 No, risposta sbagliata, anzi, una risposta incresciosa se sei un astronauta; Paolo infatti non solo si dice, ma si dimostra assetato, energico e curioso, avendo appena cominciato la missione europea VITA (Vitality, Innovation, Technology, Ability) orbitando a 400.000 metri dal suolo terrestre. Tutti i dettagli di ciò che farà e che ha in testa l’astronauta italiano più anziano sono esaustivamente contemplati nell’indimenticabile [questa intervista](https://www.wired.it/scienza/spazio/2017/07/27/intervista-paolo-nespoli-astronauta/ "intervista a Paolo Nespoli")</a> su Wired.
 

@@ -12,10 +12,10 @@ description: |
 excerpt: |
   Il muto respiro dei libri penetra l’atmosfera della maestosa soffitta in cui il nostro pensiero fluttua, impregnandosi per osmosi di una sublime curiosità alla quale neppur nolenti sapremmo sfuggire. Non è vero, nota Margherita, in realtà le sfuggiamo troppo spesso: la nostra cupidigia gnoseologica non è stabile, ma un continuo oscillare, o meglio un vibrare, poiché siamo perennemente tesi nel desiderio di conoscenza che riconosciamo essere insaziabile.
 ---
-<figure>
+<figure><picture>
   <img src='{{ page.image }}' alt='Foto davanti a Zattere in una mattina di acqua alta'>
   <figcaption>21 giugno 2021. Una mattina di acqua alta davanti a Zattere</figcaption>
-</figure>
+</picture></figure>
 
 Il muto respiro dei libri penetra l’atmosfera della maestosa soffitta in cui il nostro pensiero fluttua, impregnandosi per osmosi di una sublime curiosità alla quale neppur nolenti sapremmo sfuggire. Non è vero, nota Margherita, in realtà le sfuggiamo troppo spesso: la nostra cupidigia gnoseologica non è stabile, ma un continuo oscillare, o meglio un vibrare, poiché siamo perennemente tesi nel desiderio di conoscenza che riconosciamo essere insaziabile.
 
@@ -24,10 +24,10 @@ nel momento in cui un’esigenza fisiologica ci riporta alla realtà, costringen
 
 Siamo Belli, belli e forti della nostra ignoranza non indolente, armata fino ai denti di un desiderio di scoperta e speranza, siamo e non sono, perché non ci preoccupiamo di cosa voglio ma di cosa vogliamo. Viviamo e studiamo e viviamo riscaldati dal respiro muto dei libri, in una mutuale ricerca della Consapevolezza, quella dannata, che—fatta eccezione per Giulio e Salvatore residenti in Campo Santa Margherita sopra il Fontego urlate <q>CUMPÀ</q> sotto la loro finestra e vi accoglieranno ben lieti di spiegarvi perché sono un’eccezione (parleranno di neuroscienza e biologia e DARWIN, *ermeneuticamente parlando*)—dannatissima, dicevamo, più cerchiamo e meno troviamo.
 
-<figure>
+<figure><picture>
   <img src='/images/zattere-in.jpg' alt='Foto all’interno di Zattere'>
   <figcaption>Unica foto in mio possesso—di bellezza discutibile—dell’interno di Zattere</figcaption>
-</figure>
+</picture></figure>
 
 Reciprocamente ci stimoliamo scontrandoci in agguerrite rispettose conversazioni che raramente non mutano in metafisiche e riescono a concludersi entro poche decine di minuti. Ci nutriamo ~~di Relazioni e di Spritz~~ di Spritz e di Relazioni, che esordiscono ma non si limitano ad un incontro fortuito, ah ciao tu sei l’amico del coinquilino di Genoveffa ci siamo beccati due sere fa al Morion, ma si intrecciano e si ritrovano continuamente, infittendo sempre di più il tessuto di quel caldo maglione che Venezia indossa quando si colora di vita.
 
@@ -37,10 +37,10 @@ Non siamo pirati, ma Corsari: deprediamo le navi dei vigliacchi egoisti indiffer
 
 Sogniamo e dialoghiamo e dialogando esploriamo ed esplorando inciampiamo e inciampando cambiamo idea ma cambiando idea siamo sempre gioiosi di essere noi, una inarrestabile ciurma che fa delle individuali finitezza e insufficienza la propria più grande e imbattibile forza da Curiosi Corsari Consapevoli—~~nel mar dei Sargassi~~ nella laguna veneta ~~sopra una zattera fatta di assi~~ dentro a Zattere come dei matti.
 
-<figure>
+<figure><picture>
   <img src='/images/zattere-terri.jpg' alt='Una foto di Terri che sorride dalla sua postazione di studio a Zattere' title='Terri nella sua favolosa postazione di studio a Zattere'>
   <figcaption>Nel frattempo Marghe è andata via e andando a salutare Terri l’ho sfruttata come modella per mostrare la postazione studio standard a Zattere (gran bell’astuccio)</figcaption>
-</figure>
+</picture></figure>
 
 <br>
 
@@ -54,15 +54,15 @@ ho dovuto aspettare due anni prima di trovare la forza ed il coraggio di diventa
 Devo ringraziare di cuore la dolce Margherita, a cui tornando dal bagno ho detto <q>è bellissimo. È bellissimo vederci qui, insieme</q>, per aver saputo rispondere: <q>avevi scritto la stessa cosa per il Politecnico</q>, facendomi rendere conto che <q>è il momento di scrivere la versione veneziana de <cite><a href='/avanguardia' target='_blank' title='L’Avanguardia'>L’Avanguardia</a></cite></q> (tendo ad arrogarmi diritti platonici, mettendo in bocca di altri quello che voglio dire io, ma non in questo caso).  
 È difficile raccontare in modo astratto romanzato pressoché vaneggiante il *feeling* dell’essere a Zattere a studiare senza aggiungere qualche paragrafo sul [PISE], il più vituperato corso di laurea a Ca’ Foscari, nonché [la mia facoltà](/ora#studiando 'Quello che sto studiando ora'); a tempo debito (magari post-lauream, se ci arriveremo), con la giusta ispirazione, pubblicherò anche la mia filosofia sull’approccio a questo corso particolare ma favoloso—se preso per il verso giusto.
 
-<figure>
+<figure><picture>
   <a href='https://tmi.pics/p/tommi/351702549995808759' target='_blank' title='Guarda su TMI Pics'><img src='https://tmi.pics/storage/m/_v2/342068457308819456/2a69c66ec-4b94d5/UnsmKc4snKlI/nZpQcBfpcBGGnS0349Xkz364QQpxC7AbC2M1ouT0.jpg' alt='Foto in silhouette di un tipo che si gira una sigaretta all’uscita di Zattere mentre piove con il sole'></a>
   <figcaption>7 ottobre 2021. Un tipo si gira una sigaretta all’uscita di Zattere, mentre piove con il sole</figcaption>
-</figure>
+</picture></figure>
 
-<figure>
+<figure><picture>
   <img src='/images/zattere-chiara.jpg' alt='Foto i Chiara che si copre gli occhi con lo sfondo di un tramonto a Zattere'>
   <figcaption>23 novembre 2021. Chiara succube della mia <i lang='en'>overwhelmingness</i> si perde un favoloso tramonto da Zattere</figcaption>
-</figure>
+</picture></figure>
 
 [Zattere]: https://www.unive.it/cfz 'Ca’ Foscari Zattere - Cultural Flow Zone'
 [aula verde]: /avanguardia 'L’Avanguardia'

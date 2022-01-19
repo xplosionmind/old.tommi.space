@@ -6,9 +6,9 @@ redirect_from: ["/annichilimento-social"]
 ---
 Stamattina presto continuavo a rigirarmi nel letto e non trovavo pace. Un po’ come Zeno, che, seppur consapevole della sua assurdità, soffre disperatamente di una malattia "immaginaria", forse unicamente frutto della sua fantasia. Se però nel suo caso distrazioni di carattere amoroso e, come noi diremmo, trip mentali assurdi lo distraevano dal suo dolore, nel mio caso -e, credo, nel nostro- sono quelle che in fondo mancano e quelle che noi riteniamo distrazioni se non proprio la causa, sono ciò che più enfatizza la nostra sofferenza.
 
-<figure>
+<figure><picture>
   <img class="u-photo" src="{{ page.image }}" title="una specie di stupido flowchart a spiegazione della mia scelta" alt="una specie di stupido flowchart a spiegazione della mia scelta">
-</figure>
+</picture></figure>
 
 Non nego, anche se io stesso me ne stupisco, che sto convivendo da qualche giorno con la grandissima delusione di esser stato bocciato all’esame di teoria della patente. Sto dunque vivendo un po’ nel limbo: non concludo quasi nulla, sono assonnato, debole e deluso. È inevitabile dunque rifugiarsi nell’ozio e nella nullafacenza, particolarmente nocivi in questo caso perché nel ventunesimo secolo corrispondono con lo [scrollare](https://instagram.com/scrollordie) il feed di instagram.
 
@@ -27,9 +27,9 @@ Per prima condivido qui la breve lettera di Michele Ferrari, mio mentore e fonda
 
 _Non so quanto sia corretto pubblicare uno screenshot, però Mic mi ha dato il permesso e tutta la mia famiglia è abbonata ad Avvenire quindi se a Marco Tarquinio capiterà di leggere -comunque assai improbabile- gli chiedo di chiudere un occhio e ricordarsi delle belle foto che ho fatto per la festa di Avvenire l’anno scorso a Ventimiglia…_
 
-<figure>
+<figure><picture>
   <img src="/images/posts/2018-09-23-che-palle-instagram-1.png" alt="Articolo di Michele Ferrari su Avvenire">
-</figure>
+</picture></figure>
 
 
 Io da poco, ahimé, ho deciso di abbandonare Radioimmaginaria per cominciare nuove avventure, ma sono cresciuto molto grazie al progetto e quello che dice Mic è troppo vero. Assolutamente bisogna ascoltare e girare un po’ su [Radioimmaginaria](https://radioimmaginaria.it) per capire quanto, anche senza social, si possa fare sul serio.
@@ -44,21 +44,21 @@ Per secondo consiglio [questa guida](https://www.wired.com/story/wired-guide-to-
 
 ### THREE.
 
-<figure>
+<figure><picture>
   <img src="/images/posts/2018-09-23-che-palle-instagram-2.jpg" alt="una foto di me con Giuseppe Montesano" title="una foto di me con Giuseppe Montesano">
   <figcaption>
     io e il grande Giuseppe Montesano al Salone del Libro di Torino 2018 (non mi assumo nessuna responsabilità sullo stato dei miei capelli)
   </figcaption>
-</figure>
+</picture></figure>
 
 Per concludere, cito un passo di uno dei miei libri preferiti, che VA LETTO assolutamente se si vuole almeno provare a diventare persone serie: _Come diventare Vivi - Vademecum per lettori selvaggi_ di Giuseppe Montesano che, oltre ad essere scrittore, è un prof. di filosofia ed io ho avuto il piacere di conoscerlo al Salone del Libro di Torino lo scorso maggio. Approfitto di questa parentesi per salutarlo e ringraziarlo per essere stato l’unico ad avermi convinto a terminare _Delitto e Castigo_ di Dostoevskij, che all’inizio mi ha fatto impazzire e lo avrei subito abbandonato, altrimenti.
 
-<figure>
+<figure><picture>
   <img src="/images/posts/2018-09-23-che-palle-instagram-3.jpg" alt="la scansione di due pagine di Come diventare Vivi - Vademecum per lettori selvaggi di Giuseppe Montesano" title="la scansione di due pagine di Come diventare Vivi - Vademecum per lettori selvaggi di Giuseppe Montesano">
   <figcaption>
     Due pagine di <cite>Come diventare Vivi - Vademecum per lettori selvaggi</cite> di Giuseppe Montesano
   </figcaption>
-</figure>
+</picture></figure>
 
 Direi che ho abbastanza rotto le scatole e che posso finirla qui, ma prima devo ammettere che nel mio caso c’è un’ulteriore dipendenza, quella di condividere momenti e sparare cavolate ridicole facendo le storie, dunque da ora farò tutto su Twitter, dove l’inquinamento della mente è minore, e qui sul blog; di certo non riesco a smettere, tanto raccontare stupidaggini male non fa (a me) ahaha.
 

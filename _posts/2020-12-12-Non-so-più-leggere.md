@@ -18,12 +18,12 @@ Questo problema è talmente grave ed alienante che persino rileggendo queste par
 Ancora più preoccupante è il fattore riguardante la memoria, l'acquisizione e conservazione di nozioni, ragionamenti, ogni sorta di conoscenza a lungo termine.  
 Penso —lasciandomi distrarre— che fra poche ore non sarò in grado di ricostruire quello che ho appena letto, né tantomeno di ripeterlo. Sono dilaniato da una crisi di cui io stesso sono causa, disperato da una pressante instancabile spinte verso l'ignoranza, che è la mia massima preoccupazione.
 
-<figure>
+<figure><picture>
 	<img class="u-photo"  src="{{page.image}}" title="Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018" alt="Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018">
 	<figcaption>
 		Un poeta mercenario sul lungo Tamigi. Londra, giugno 2018
 	</figcaption>
-</figure>
+</picture></figure>
 
 Scrivo, ma non so leggere. Scrivo, ma non so rileggere e capire quello che ho scritto, intuendo il significato delle mie parole solamente ricordandomi di averle minuziosamente cercate e scelte. Non so rispondermi nel chiedermi se la frase che ho appena digitato ha un senso, non so definire –conseguentemente non so seguire gli standard di— una grammatica istintiva che non saprei spiegare.
 

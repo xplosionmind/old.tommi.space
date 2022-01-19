@@ -15,9 +15,9 @@ Purtroppo le immagini testimoni dell’evoluzione di *Xplosion Attic* negli anni
 
 [Xplosion Attic Pictures]: https://images.tommi.space/index?/category/attic 'Xplosion Attic Pictures'
 
-<figure>
+<figure><picture>
 	<a href='https://images.tommi.space/index?/category/attic' title='Raccolta di immagini di Xplosion Attic' target='_blank'>
 		<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115115209-67743c90-me.jpg' alt='un’immagine della soffitta in una giornata di Sole' title='ma quanto è bella'>
 	</a>
 	<figcaption><cite>Xplosion Attic</cite> a seguito dell’ultima riorganizzazione in soffitta, a maggio 2020</figcaption>
-</figure>
+</picture></figure>

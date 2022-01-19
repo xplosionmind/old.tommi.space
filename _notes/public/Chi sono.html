@@ -9,7 +9,7 @@ lang: it
 ---
 {% for p in site.data.tommi-uguale %}
 	<h2>{{ p.name }}</h2>
-	<figure>
+	<figure><picture>
 		<img src='{{ p.image }}' title='Tommi come {{ p.name }}' alt='{{ p.description }}'>
-	</figure>
+	</picture></figure>
 {% endfor %}

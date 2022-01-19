@@ -35,12 +35,12 @@ Reasons to quit Spotify:
 
 <br>
 
-<figure>
+<figure><picture>
 	<img src='/images/Spotify-close-account.jpg' title='repercussions of closing Spotify account' alt='repercussions of closing Spotify account'>
 	<figcaption>
 		Closing the account means deleting all playlists, thus the account can't be closed, but it must be kept with free subscription.
 	</figcaption>
-</figure>
+</picture></figure>
 
 <br>
 <br>

@@ -5,7 +5,7 @@ image: "/images/posts/2017-06-04-prima-di-scattare-pensa.jpg"
 ---
 È un attimo, un istante fulmineo che può passare alla storia o può essere dimenticato 0.1 secondi dopo averlo scattato. È quell’immagine che hai rincorso per tutta la vita, è la perfezione, oppure è l’ennesima, sfocata e -forse- senza senso.
 <!--more-->
-<figure><img class="u-photo" title="renewable energy" alt="a streetlamp lit by sunlight" src="{{ page.image }}"></figure>
+<figure><picture><img class="u-photo" title="renewable energy" alt="a streetlamp lit by sunlight" src="{{ page.image }}"></picture></figure>
 
 È il mondo della fotografia, dell’inquinamento visivo, come sarebbe opportuno chiamarlo. È molto, molto difficile -oggi- trovare uno scatto che impressioni, che ricorderemo sempre con le stesse emozioni o che ce ne susciterà di nuove ogni volta che la rivedremo.
 

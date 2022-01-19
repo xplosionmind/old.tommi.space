@@ -31,11 +31,11 @@ Ho avviato così la costruzione di <cite>Gianna</cite>, che prende il nome dal[l
 4. [Appoggiare le assi](https://images.tommi.space/picture?/16660/category/gianna 'Immagine delle assi appoggiate sui supporti') smembrate sui supporti
 5. Aggiungere i libri ed ammirare il risultato finale:
 
-<figure>
+<figure><picture>
 	<a href='https://images.tommi.space/picture?/16662/category/gianna' target='_blank'>
 		<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/15/20210115120151-facc9f48-me.jpg' title="Gianna completa" alt='Gianna con i libri su di sé, in tutto il suo splendore'>
 	</a>	
-</figure>
+</picture></figure>
 
 [Gianna]: https://it.wikipedia.org/wiki/Gianna%2FVisto_che_mi_vuoi_lasciare 'Gianna su Wikipedia'
 [Rino Gaetano]: https://it.wikipedia.org/wiki/Rino_Gaetano 'Rino Gaetano su Wikipedia'

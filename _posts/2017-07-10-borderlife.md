@@ -4,7 +4,7 @@ tags:
   - radioimmaginaria
 image: "/images/posts/2017-07-10-borderlife-3.jpg"
 ---
-<figure><img class="u-photo" src="{{ page.image }}" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso"></figure>
+<figure><picture><img class="u-photo" src="{{ page.image }}" alt="un migrante disegna a terra con un gesso" title="un migrante disegna a terra con un gesso"></picture></figure>
 <!--more-->
 Ho 16 anni, quasi 17, è estate, sono contento di essere in vacanza e me la godo.
 
@@ -31,7 +31,7 @@ Noi siamo fortunati, noi possiamo fare qualcosa, dobbiamo farci sentire, **dobbi
 
 P.S.: la mia amica Anna, che è venuta con me per qualche giorno, ha scritto qualcosa di più profondo ed importante che dovete leggere, [qui](rivieratime.news/qual-futuro-dellumanita-vive-al-ponte/ "Qual è il futuro dell’umanità che vive sotto al ponte?").
 
-<figure>
+<figure><picture>
 <img src="{{ site.post-images }}/2017-07-10-borderlife-1.jpg">
 <br>
 <img src="{{ site.post-images }}/2017-07-10-borderlife-2.jpg">
@@ -47,4 +47,4 @@ P.S.: la mia amica Anna, che è venuta con me per qualche giorno, ha scritto qua
 <img src="{{ site.post-images }}/2017-07-10-borderlife-7.jpg">
 <br>
 <img src="{{ site.post-images }}/2017-07-10-borderlife-8.jpg">
-</figure>
+</picture></figure>

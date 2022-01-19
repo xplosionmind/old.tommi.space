@@ -12,10 +12,10 @@ description: Triste addio ad un insostituibile compagno di viaggio, nonché acce
 ---
 <q>Il pensiero di un uomo nasce innanzitutto dalla sua nostalgia</q>, mi legge Valeria, mentre, accarezzati dai *Giardini raggio di Sole* a Verona esploriamo le genialità pensate da [Albert Camus](https://it.wikipedia.org/wiki/Albert_Camus 'Albert Camus su Wikipedia') e da lui conservate ne <cite><a href='https://it.wikipedia.org/wiki/Il_mito_di_Sisifo' target='_blank' title='“Il mito di Sisifo„ su Wikipedia'>Il mito di Sisifo</a></cite>.
 
-<figure>
+<figure><picture>
 	<img class='u-photo' src='{{ page.image }}' title='Valeria immortalata mentre mi legge Camus con venerazione' alt='Valeria che legge, seduta su una panchina dei Giardini raggio di Sole, a Verona'>
 	<figcaption>Valeria immortalata mentre mi legge Camus con venerazione</figcaption>
-</figure>
+</picture></figure>
 
 Queste parole così semplicemente autentiche con la loro verità colpiscono quella dannata nostalgia che continua ad aggrovigliarsi attorno alla nostalgia disperata e incolmabile conseguente allo smarrimento del mio *Jarvis*, nonché taccuino da me inseparabile in cui gli ultimi trentadue mesi della mia esistenza sono stati, con trasporto e dedizione, eviscerati i miei più profondi, recondti e remotamente astratti ragionamenti.  
 Sono brutalmente privato del mio migliore amico, a me strappato da cause ignote che rendono la sua infausta sparizione ancora più dilaniante.
@@ -32,18 +32,18 @@ Se <a href='/self-editor' target='_blank' title='Being a self editor — tommi.s
 *Jarvis* era il punto fisso in un’incessante, altalenante crescita segnata dall’alternarsi della mia evoluzione e della mia devoluzione (su *Jarvis* posso arrogarmi il diritto [di ripetermi come fa *Tredici Pietro*](https://www.youtube.com/watch?v=9JG73TFrufE&t=15 'Tredici Pietro — “Piccolo Pietro„')).  
 *Jarvis* è fedele e paziente, nonostante talvolta soppiantato dall’attrattivo fascino del tuttavia (va riconosciuto) favoloso [Obsidian](https://obsidian.md 'Obsidian'), che uso per organizzare [*La Marmellata*](/marmellata), su cui registrai dieci mesi fa tutte le note in lui scritte, seppur nel titolo ma non nel contenuto.
 
-<figure>
+<figure><picture>
 	<img class='light' src='https://tommi.space/images/obsidian-graph.png' alt='Un grafico che contiene tutte le mie note su Obsidian e le loro relazioni' title='il grafico delle mie note su Obsidian'>
 	<figcaption>
 		Il grafico che raccoglie tutte le mie note (Università + cose personali + poesie + scritti su carta + appunti veloci)
 	</figcaption>
-</figure>
-<figure>
+</picture></figure>
+<figure><picture>
 	<img class='light' src='https://tommi.space/images/obsidian-graph-jarvis.png' alt='Un grafico su Obsidian che contiene tutte le note di Jarvis e le loro relazioni' title='il grafico su Obsidian delle note di Jarvis'>
 	<figcaption>
 		Sob, le note di <em>Jarvis</em> costituiscono una grande parte del <em>La Marmellata</em>
 	</figcaption>
-</figure>
+</picture></figure>
 
 La soluzione più scontata e naturale sarebbe (e ovviamente sarà) acquistare *Jarvis II*. Tuttavia, avrete ben compreso che il mio incurabile tormento sta nell’irrecuperabilità dei pensieri in lui conservati, più che del fisiologico dispiacere nel perdere [un oggetto a cui sono affezionato](/oggetti '“Compagni di viaggio„ — tommi.space'). Se lo avessi perso, avrei dedicato le stesse parole al predecessore di *Jarvis*, *John*, che è stato al mio fianco dal 2016 al 2018, in tutto e per tutto uguale al suo successore se non per la sua origine (Tiger invece che lo store Moleskine) e il suo colore (beige). Ah, anche la copertina: *John* la possiede decisamente più rigida. *John* giace al sicuro sugli scaffali di [*Gianna*](/gianna '“Gianna„ — tommi.space'), in [*Xplosion Attic*](/xplosion-attic '“Xplosion Attic — tommi.space„')  
 Ogni parola intima e personale scritta da ora in poi sarà un (seppur discendente) climax di nostalgia verso lo scrigno che custodisce il Tommaso che fu, del Tommaso che ha rischiato di essere, del Tommaso che sarebbe stato.
@@ -69,13 +69,13 @@ Dato che domattina ricominciano le mie lezioni e mi sono ripromesso che non avre
 
 Mi sono rassegnato al fatto che Jarvis non tornerà più fra le mie mani. Con sofferenza, ho finalmente ricominciato a scrivere, comprando [[Compagni di viaggio#Jacala I]].
 
-<figure>
+<figure><picture>
 	<a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'>
 		<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080113-cf44e5b4-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'>
 	</a>
-</figure>
-<figure>
+</picture></figure>
+<figure><picture>
 	<a href='https://images.tommi.space/index?/category/jacala' target='_blank' title='Visioni di Jacala'>
 		<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080128-36817480-me.jpg' alt='Una foto di Jacala chiuso con sopra appoggiata la TBoom pen'>
 	</a>
-</figure>
+</picture></figure>

@@ -23,10 +23,10 @@ In other words, *drunch* is something similar to a brunch, but in the afternoon,
 
 The term comes from the ancient English words *dinner*, *lunch*, and *drunk*, joined together in a pleasantly sweet union by the scholars [Alice Bleasdale] (a.k.a *amiah*) and [Tommi Boom] (a.k.a *amioh*), while having the very first so-called ***drunch*** of history, seated at a table of the legendary *[[Brillo Parlante]]*, the <time datetime="2021-05-16">16<sup>th</sup> May 2021</time>.
 
-<figure>
+<figure><picture>
 	<img src='{{ page.image }}' alt='Alice seated at a table of Brillo Parlante' title='Alice contemplating the view at Brillo Parlante'>
 	<figcaption>An historical image of the very moment when the idea of <em>drunch</em> was conceived</figcaption>
-</figure>
+</picture></figure>
 
 [Alice Bleasdale]: https://instagram.com/alice_bleasdale
 [Tommi Boom]: https://tommi.space/about

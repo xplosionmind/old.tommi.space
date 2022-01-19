@@ -34,7 +34,7 @@ E come treni, come <a href="https://youtu.be/5bW7m--WiWE"  target="_blank">SQUAL
 
 <br>
 
-<figure><img class="u-photo" src="{{ page.image }}" alt="alberi capillari in Corso Racconigi a Torino"><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></figure>
+<figure><picture><img class="u-photo" src="{{ page.image }}" alt="alberi capillari in Corso Racconigi a Torino"><figcaption>capillari (anche se in un momento di rari luce e colore)</figcaption></picture></figure>
 
 <br>
 

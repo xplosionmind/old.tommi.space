@@ -12,13 +12,13 @@ image: https://tommi.space/images/2019-08-05-linuxplosion-2.jpg
 
 The original fundamental purpose of building <cite>Linuxplosion</cite> was editing [Everyone](/everyone 'Everyone'). Some computerphiles friends joined me in finding the best components to use, as well as in assembling the computer. In particular, a huge shout-out to my friend Giorgio, who had the patience of bearing with me during all of the assembling process.
 
-<figure>
+<figure><picture>
 	<img src='/images/2019-08-05-linuxplosion-1.jpg' alt='Giorgio inserting a component of the PC into the case' title='Giorgio inserting a component of the PC into the case'>
-</figure>
+</picture></figure>
 
-<figure>
+<figure><picture>
 	<img src='/images/2019-08-05-linuxplosion-2.jpg' alt='The CPU cooler and the graphic card in evidence on the left side of the case' title='The CPU cooler and the graphic card in evidence on the left side of the case'>
-</figure>
+</picture></figure>
 
 I worked as a plumber all of August 2019 to buy it, and it has definitely been worth it. We finished assembling it the 5<sup>th</sup> of August.
 

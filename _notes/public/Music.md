@@ -26,10 +26,10 @@ Probably, as [Gilad Edelman](https://www.wired.com/author/gilad-edelman/ 'Gilad 
 While suggestions Spotify or its similars advance are [based on calculus and emotion-less considerations](/the-power-of-decentralization#algorithms-as-black-boxes '“Algorithms as Black Boxes„ section in my essay “The Power of Decentralization„'), getting into a physical place provides a matchless feeling that makes up for any annoyance. If you do not know what you intend to listen, it is not a machine providing you (feeding you with) a suggestion.
 
 <br>
-<figure>
+<figure><picture>
 	<img src='https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2020/12/24/20201224164521-98446d01-me.jpg' alt='An image of me playing the guitar'>
 	<figcaption>During my 18<sup>th</sup> birthday at [[Il Cubo]] I was pretending to know how to play a guitar in a very embarrassing situation</figcaption>
-</figure>
+</picture></figure>
 
 <br>
 

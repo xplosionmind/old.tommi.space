@@ -27,7 +27,7 @@ html {
 	--primary: var(--yellow);
 	--secondary: var(--blue);
 	--slight: var(--light-blue);
-	--internal-link: var(--orange);
+	--internal-link: var(--secondary);
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
 	--transp-text: #FFF4;
@@ -63,7 +63,7 @@ html {
 		--primary: var(--blue);
 		--secondary: var(--razzmatazz);
 		--slight: var(--dark-blue);
-		--internal-link: var(--darkmatazz);
+		--internal-link: var(--primary);
 		--grey: var(--light-grey);
 		--other-grey: var(--dark-grey);
 		--transp-text: #11305B33;
@@ -148,23 +148,46 @@ span.citation {
 a {
 	text-decoration: none;
 	color: var(--link);
+	font-weight: 500;
 	&:hover,
 	&:focus {
 		box-shadow: none;
 		text-shadow: none;
-		transform: scale(1.1);
 	}
-	p &,
-	li & {
-		font-weight: 500;
+	.note p &,
+	.note li &,
+	.post p &,
+	.post li & {
+		position: relative;
+		color: inherit;
+		padding: 0 4px;
+		margin: 0 -4px;
+		&::after {
+			content: '';
+			display: block;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			height: 10%;
+			background: var(--link);
+			z-index: -1;
+			transition: var(--quicktrans);
+			border-radius: 3px;
+		}
 		&:hover {
-			filter: hue-rotate(.7turn);
-			display: inline-block;
+			color: var(--background) !important;
+			&::after {
+				height: 100% !important;
+			}
 		}
 		&[href^='/'],
 		&[href^='#'],
 		&[href^='https://tommi.space' i] {
 			color: var(--internal-link);
+			&::after {
+				height: 0%;
+			}
 		}
 	}
 	code {
@@ -477,18 +500,27 @@ img {
 }
 
 figure {
-	margin: auto;
+	margin: 0 auto;
 	img {
 		max-height: 100vh;
 		box-shadow: var(--shadow);
 		margin: 0 auto;
 	}
 	& + figure {
-		img {
-			margin: 0 $small 0 0;
-		}
+		margin-top: $bigger;
+	}
+	& + figure.column {
+		margin: 0 0 0 $big;
 	}
 }
+
+figcaption {
+	font: $regular var(--font-serif);
+	margin: $regular-less 10% 0;
+	color: var(--other-grey);
+	text-align: center;
+}
+
 
 .full {
 	background: var(--primary);
@@ -524,13 +556,6 @@ figure {
 	h1 {
 		padding-top: 8vh;
 	}
-}
-
-figcaption {
-	font: $regular var(--font-serif);
-	margin-top: $regular-less;
-	color: var(--other-grey);
-	text-align: center;
 }
 
 .dropdown-content {
