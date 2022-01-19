@@ -1,0 +1,28 @@
+#webmentions {
+	article {
+		font-size: revert;
+		padding: 0;
+	}
+	.p-author {
+		display: inline-block;
+	}
+	p {
+		margin: 0;
+	}
+}
+.u-photo {
+	display: inline-block;
+	max-height: $big;
+	box-shadow: var(--little-shadow);
+}
+.webmention__pubdate {
+	opacity: .8;
+}
+.webmentions__list {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: $regular;
+}
+.webmention__content .u-mention {
+	content: '❗️'; /* not understanding what the content of this class is */
+}
