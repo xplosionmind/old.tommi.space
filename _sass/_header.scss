@@ -1,45 +1,46 @@
 header {
-	height: $height;
-	margin: 2vw;
+	height: $mastodon;
 	text-transform: uppercase;
-	font-weight: 700;
 	* {
 		border-radius: $radius-m;
 		list-style-type: none !important;
+		font-weight: 700 !important;
+		z-index: 9;
 	}
-	/* activate the following if you choose to make the header fixed */
-	/*z-index: 9;
-	position: fixed;
-	top: 2vw;
-	right: 2vw
-	background: var(--background); */
 }
 
 #home {
 	position: fixed;
-	top: 2vw;
-	left: 2vw;
-	color: var(--background);
+	top: 1.5vw;
+	left: 5vw;
 	padding: 0 $regular-less;
 	line-height: $height; 
 	font-size: $bigger;
-	background: var(--primary);
+	color: var(--black-ish);
+	background: var(--yellow);
 	box-shadow: var(--shadow);
 	transform: rotate(-8deg);
+	border: 2px solid var(--black-ish);
 	&:hover,
 	&:focus {
-		color: white;
-		background: var(--razzmatazz);
-		border-bottom: none;
-		transform: rotate(3deg);
+		color: #FFF;
+		background: var(--red);
+		border-color: #FFF;
+		transform: rotate(3deg) scale(1.1) skew(8deg);
+	}
+	&:target {
+		color: var(--primary);
 	}
 }
 
 nav {
-	float: right;
+	position: fixed;
+	top: 1.5vw;
+	right: 6vw;
 	text-align: right;
 	padding: 0 $small;
 	box-shadow: var(--shadow);
+	background: var(--background);
 	* {
 		margin: 0 !important;
 	}
@@ -88,26 +89,26 @@ nav {
 	height: $height;
 	width: $height;
 	position: fixed;
-	top: 3vh;
+	top: 1vh;
 	right: 3vh;
 	box-shadow: var(--shadow);
 	background: var(--deep);
 	span {
 		top: 1.4rem;
-		left: .8rem;
+		left: .7rem;
 	}
 	span,
 	span::before,
 	span::after {
 		height: 4px;
-		width: 26px;
+		width: 1.7rem;
 		background: var(--text);
 		position: absolute;
 		display: block;
 		content: '';
 		box-shadow: var(--little-shadow);
 		border-radius: $radius-s !important;
- 		transition: var(--quicktrans);
+ 		transition: $quicktrans;
 	}
 	span::before {
 		top: .65rem;
@@ -124,8 +125,8 @@ nav {
 
 @media only screen and (max-width: 950px) {
 	#home {
-		top: 3vh;
-		left: 2vh;
+		top: 2vh;
+		left: 1vh;
 	}
 	.nav {
 		margin: 3vh;
@@ -137,7 +138,7 @@ nav {
 		position: fixed;
 		min-width: 50vw;
 		top: 5rem;
-		right: -240px;
+		right: -500px;
 		background: var(--background);
 		box-shadow: var(--shadow);
 		transition: .5s;

@@ -28,9 +28,9 @@ audio: https://assets.tommi.space/audio
 logos: /logos
 fonts: /fonts
 exclude:
-  - riordinare/
-  - _notes/private/
-  - _notes/templates/
+  - riordinare
+  - _notes/private
+  - _notes/templates
   - _notes/.obsidian
   - _notes/.trash
   - _notes/PISE
@@ -38,10 +38,10 @@ exclude:
   - _notes/obsidian.css
   - _data/private
   - _notes/.*
-  - _data/.*
+  - _data/.git
 keep_files:
-  - images/
-  - assets/
+  - images
+  - logos
 collections:
   poetry:
     output: true

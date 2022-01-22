@@ -11,9 +11,12 @@
 
 html {
 	scroll-behavior: smooth;
+	background: url(/logos/cantiere.svg), #000;
+	cursor: url(/logos/cursor.svg) 16 16, crosshair;
+}
 
 /* DARK THEME */
-	cursor: url(/logos/cursor-dark.svg) 16 16, crosshair;
+body {
 	background: var(--black-ish);
 	color: var(--text);
 	overflow-wrap: break-word;
@@ -21,13 +24,13 @@ html {
 	font: $regular var(--font-sans);
 
 	--background: var(--black-ish);
-	--text: var(--white-ish);
+	--text: var(--white);
 	--deep: var(--dark-blue);
 	--link: var(--primary);
 	--primary: var(--yellow);
 	--secondary: var(--blue);
 	--slight: var(--light-blue);
-	--internal-link: var(--secondary);
+	--internal-link: var(--blue);
 	--grey: var(--dark-grey);
 	--other-grey: var(--light-grey);
 	--transp-text: #FFF4;
@@ -39,7 +42,7 @@ html {
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
 	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
 
-	transition: var(--trans);
+	transition: $trans;
 
 	{% comment %}
 	&.cantiere {
@@ -53,17 +56,15 @@ html {
 
 /* LIGHT THEME */
 @media screen and (prefers-color-scheme: light) {
-	html {
-		cursor: url(/logos/cursor-light.svg) 16 16, crosshair;
-		background: linear-gradient(-30deg,#E5EFF5,#FFF);
+	body {
 		--background: #FFF;
+		background: var(--background);
 		--text: var(--black-ish);
 		--deep: #FFF;
-		--link: var(--secondary);
-		--primary: var(--blue);
-		--secondary: var(--razzmatazz);
+		--link: var(--primary);
+		--primary: var(--red);
+		--secondary: var(--blue);
 		--slight: var(--dark-blue);
-		--internal-link: var(--primary);
 		--grey: var(--light-grey);
 		--other-grey: var(--dark-grey);
 		--transp-text: #11305B33;
@@ -74,7 +75,7 @@ html {
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
 		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
 
-		transition: var(--trans);
+		transition: $trans;
 	}
 	.dark {
 		filter: var(--invert-dark);
@@ -89,8 +90,14 @@ html {
 	}
 }
 
+.cantiere {
+	margin: 3vw;
+	border-radius: $radius-l;
+	box-shadow: 5px 5px 2.5vw #000C;
+}
+
 * {
-	transition: var(--trans), transform var(--quicktrans), box-shadow var(--quicktrans), text-shadow var(--quicktrans);
+	transition: $trans, transform $quicktrans, box-shadow $quicktrans, text-shadow $quicktrans, margin $quicktrans;
 }
 
 #menutoggle,
@@ -148,38 +155,18 @@ span.citation {
 a {
 	text-decoration: none;
 	color: var(--link);
-	font-weight: 500;
 	&:hover,
 	&:focus {
 		box-shadow: none;
 		text-shadow: none;
 	}
-	.note p &,
-	.note li &,
-	.post p &,
-	.post li & {
-		position: relative;
-		color: inherit;
-		padding: 0 4px;
-		margin: 0 -4px;
-		&::after {
-			content: '';
-			display: block;
-			position: absolute;
-			bottom: 0;
-			right: 0;
-			width: 100%;
-			height: 10%;
-			background: var(--link);
-			z-index: -1;
-			transition: var(--quicktrans);
-			border-radius: 3px;
-		}
-		&:hover {
-			color: var(--background) !important;
-			&::after {
-				height: 100% !important;
-			}
+	p &,
+	li & {
+		font-weight: 500;
+		&:hover,
+		&:focus {
+			margin-bottom: -2px;
+			border-bottom: 2px solid var(--primary);
 		}
 		&[href^='/'],
 		&[href^='#'],
@@ -238,7 +225,7 @@ input.button {
 
 .invalid-wiki-link {
 	opacity: .5;
-	cursor: url(/logos/forbidden-cursor.svg) 16 16, not-allowed;
+	cursor: url(/logos/cursor-forbidden.svg) 16 16, not-allowed;
 }
 
 .embed-wrapper {
@@ -310,7 +297,7 @@ li {
 	ul {
 		li {
 			margin-bottom: 0;
-			list-style-type: '–   ';
+			list-style-type: '–  ';
 			ul {
 				list-style-type: '+  ';
 			}
@@ -453,16 +440,22 @@ table {
 }
 
 .landing {
-	background: var(--yellow);
+	margin: 0;
+	background: none;
+	height: 100vh;
 	h1 {
-		color: var(--black-ish);
+		color: var(--white);
 		font-weight: 800;
-		margin-bottom: 0;
-		bottom: $regular;
-		text-shadow: 3px 3px 10px #11305B55;
+		margin: 0 $small $bigger;
+		text-shadow: 2px 2px 5px #11305B33;
+		background: var(--red);
+		border: 5px solid var(--white);
+		padding: 1vw 3vw;
+		box-shadow: var(--shadow);
+		border-radius: $radius-l;
 	}
 	.button {
-		color: var(--white-ish);
+		color: var(--white);
 		background: var(--dark-blue);
 		margin: $tiny $regular-less;
 	}
@@ -545,16 +538,17 @@ figcaption {
 .poetry {
 	background: var(--yellow);
 	color: var(--black-ish);
-	min-height: 100vh;
-	cursor: url(/logos/cursor-dark.svg) 16 16, crosshair;
+	text-align: center;
 	a {
 		color: var(--dark-blue)
 	}
-	li {
+	ul {
+		padding: 0;
 		list-style-type: none;
 	}
-	h1 {
-		padding-top: 8vh;
+	h1,
+	h2 {
+		padding-top: 6vh;
 	}
 }
 
@@ -601,11 +595,12 @@ b {
 }
 
 article {
+	position: relative;
+	font-size: $regular-more;
+	padding: 8vh 5vw 15vh;
 	h2, h3 {
 		margin: revert;
 	}
-	font-size: $regular-more;
-	padding: 8vh 5vw 15vh;
 	> .box {
 		margin: $bigger 0;
 	}
@@ -613,7 +608,7 @@ article {
 
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
-	transition: var(--quicktrans);
+	transition: $quicktrans;
 	line-height: 1;
 	hyphens: none;
 	margin: 0;
@@ -730,12 +725,13 @@ h3 {
 	}
 	ul,
 	ol {
-		padding-left: 1.2rem;
+		padding-left: 1.3rem;
 	}
 }
 
 #help {
 	position: fixed;
+	z-index: 7;
 	bottom: -10.5rem;
 	&:hover {
 		bottom: 0;
@@ -873,7 +869,7 @@ button,
 .tool {
 	position: fixed;
 	bottom: 3vw;
-	right: 3vw;
+	right: 4vw;
 	.button {
 		padding: .3rem;
 		z-index: 8;
@@ -1026,24 +1022,21 @@ button,
 		columns: 3;
 	}
 	#toc {
-		position: fixed;
-		left: 2vw;
-		bottom: 2vw;
+		position: absolute;
+		left: -13vw;
+		top: 10vh;
 		width: 18vw;
 		font-size: 1rem;
-		opacity: .6;
-		&:hover {
-			opacity: 1;
-		}
 		.post & {
 			width: 23vw;
 		}
 	}
 	#goto {
 		position: fixed;
-		width: 250px;
+		width: 16rem;
 		top: 30vh;
-		left: -15rem;
+		left: -17rem;
+		z-index: 8;
 		&:hover,
 		&:focus {
 			left: 0;
@@ -1052,13 +1045,6 @@ button,
 			transform: scale(.85);
 			display: block;
 		}
-	}
-	.poetry h2 {
-		position: fixed;
-		top: 8vh;
-		left: 1vw;
-		transform: rotate(90deg);
-		transform-origin: left bottom;
 	}
 }
 

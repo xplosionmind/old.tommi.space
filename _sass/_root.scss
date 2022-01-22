@@ -12,10 +12,12 @@ $mastodon: 4rem;
 $radius-s: .4rem;
 $radius-m: .6rem;
 $radius-l: 1rem;
+$trans .5s ease-out;
+$quicktrans .1s ease-in-out;
 
 :root {
 	--black-ish: #222;
-	--white-ish: #E3E3E3;
+	--white: #E3E3E3;
 	--dark-grey: #555;
 	--light-grey: #AAA;
 	--yellow: #FCC920;
@@ -31,9 +33,6 @@ $radius-l: 1rem;
 	
 	--invert: grayscale(.5) invert(.9) brightness(.95) hue-rotate(180deg);
 	--invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
-
-	--trans: .5s ease-out;
-	--quicktrans: .1s ease-in-out;
 
 	--title-text-shadow-hover: none;
 

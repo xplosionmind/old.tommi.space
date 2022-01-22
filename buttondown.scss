@@ -14,7 +14,7 @@ html, body, .app-container {
 	font: $regular var(--font-sans);
 
 	--background: var(--black-ish);
-	--text: var(--white-ish);
+	--text: var(--white);
 	--deep: var(--dark-blue);
 	--link: var(--primary);
 	--primary: var(--yellow);
@@ -32,7 +32,7 @@ html, body, .app-container {
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
 	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
 
-	transition: var(--trans);
+	transition: $trans;
 
 }
 
@@ -61,12 +61,12 @@ html, body, .app-container {
 		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
 		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
 
-		transition: var(--trans);
+		transition: $trans;
 	}
 }
 
 #app {
-	color: var(--white-ish) !important;
+	color: var(--white) !important;
 }
 
 .subject {

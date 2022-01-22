@@ -9,7 +9,7 @@ html,
 body {
 	/* DARK THEME */
 	--background: var(--black-ish);
-	--text: var(--white-ish);
+	--text: var(--white);
 	--deep: var(--dark-blue);
 	--link: var(--primary);
 	--primary: var(--yellow);
@@ -27,7 +27,7 @@ body {
 	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
 	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
 
-	transition: var(--trans);
+	transition: $trans;
 	background: var(--background) !important;
 	color: var(--text) !important;
 	overflow-wrap: break-word;
@@ -41,7 +41,7 @@ body {
 @media screen and (prefers-color-scheme: light) {
 	html,
 	body {
-		transition: var(--trans);
+		transition: $trans;
 
 		cursor: url('https://tommi.space/logos/cursor-light.svg') 16 16, crosshair;
 
