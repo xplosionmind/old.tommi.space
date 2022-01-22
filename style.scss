@@ -140,8 +140,8 @@ span.citation {
 }
 
 ::selection {
-	color: var(--background);
-	background: var(--primary);
+	color: var(--black-ish);
+	background: var(--yellow);
 }
 
 .dim {
@@ -939,7 +939,7 @@ button,
 	background: var(--yellow);
 	border-color: var(--yellow) !important;
 	--link: var(--red);
-	--internal-link: var(--link);
+	--internal-link: var(--blue);
 	&::selection {
 		background: var(--red);
 	}
