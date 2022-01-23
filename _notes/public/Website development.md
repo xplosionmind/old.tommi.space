@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2021-12-23T23:32:11+01:00
+updated: 2022-01-23T09:12:42+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -33,7 +33,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ### v2
 
-1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, looping through the last few pages updated recently (based on `page.updated`)
+1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, [looping through](https://talk.jekyllrb.com/t/loop-through-all-pages-of-the-website/6880 'Loop through ALL pages in a website - Jekyll Talk') the last few pages updated recently (based on `page.updated`)
 1. Fast, simple and light full text search
 	- [Lunr](https://lunrjs.com 'Lunr')
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr 'jekyll-lunr on GitHub')
@@ -44,7 +44,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 	- including aliases in the search
 	- search for tags specifically
 	- combination of search elements
-1. [Self-hosted analytics](https://stats.tommi.space 'My self-hosted analytics service')
+1. Self-hosted analytics
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
 14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 'jekyll-paginate on GitHub') and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ 'jekyll-csv on GitHub')
 
@@ -102,7 +102,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 	- [jekyll-ftp](https://github.com/JesseHerrick/jekyll-ftp/ 'jekyll-ftp on GitHub')
 	- [Blogroll automated Generation](https://jlelse.blog/dev/miniflux-blogroll 'Miniflux Blogroll')
 - Consider sticking the menu bar to the bottom instead of sticking it to the top, as in [Humane Tech website](https://humanetech.com 'Humane Tech') and [Victoria Drake](https://victoria.dev)
-- Consider switching to [Hugo](https://gohugo.io 'Hugo')
+- Consider switching to [Eleventy](https://11ty.dev 'Eleventy') or [Hugo](https://gohugo.io 'Hugo')
 
 <br>
 

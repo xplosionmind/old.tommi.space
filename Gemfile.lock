@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/aarongustafson/jekyll-webmention_io.git
-  revision: 65efd7dd058b165e39789611ac3021106ec1180b
+  revision: 6aa3cd49b89cbfe7436030be0901a67f4794801c
   specs:
     jekyll-webmention_io (3.3.6)
       htmlbeautifier (~> 1.1)
@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 4ec6902cdbd907339ca6367eac480322dcb14e22
+  revision: 1306cd7be936333332618e7c2be9a2b8f89efad6
   specs:
     jekyll (4.2.1)
       addressable (~> 2.4)
@@ -169,7 +169,7 @@ GEM
       jekyll (~> 4)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll-wikilinks (0.0.8)
+    jekyll-wikilinks (0.0.9)
       jekyll (~> 4.2.0)
       nokogiri (~> 1.12.3)
     json (2.6.1)
