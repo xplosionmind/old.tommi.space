@@ -56,9 +56,3 @@ I used [Flickr2Piwigo](https://piwigo.org/ext/extension_view.php?eid=612 'Flickr
 2. Read Piwigo privacy policy to check reliability for private pictures
 1. ❌ Importing album descriptions
 1. ❌ Importing Collections as parent albums
-
-<br>
-
----
-
-<br>

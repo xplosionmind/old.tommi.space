@@ -10,7 +10,7 @@ pagination:
 <section class='center row'>
 	<h1>Zibaldone</h1>
 	<p class='one column'><em>Zibaldone di Pensieri</em> is a great collection of notes by the great italian author Giacomo Leopardi. These writings don’t have even a tiny bit of profoundness, power and wit of the original collection. Just a touch of glee, craziness of my everyday life.<br>
-	Translating the definition by Treccani encyclopedia, <a href='http://treccani.it/vocabolario/zibaldone/'  target='_blank'>żibaldóne</a>: […] <cite class='serif'>Notebook where unordered news, notes, thoughts, quotes, schemes, sketches are noted</cite>.<br>
+		Translating the definition by <a href='https://treccani.it' target='_blank' hreflang='it' lang='it' title='Enciclopedia Treccani'>Treccani</a> encyclopedia, <a href='https://treccani.it/vocabolario/zibaldone/' hreflang='it' lang='it' target='_blank'>żibaldóne</a>: […] <cite class='serif'>Notebook where unordered news, notes, thoughts, quotes, schemes, sketches are noted</cite>.<br>
 	Exactly that.</p>
 </section>
 
@@ -29,19 +29,17 @@ pagination:
 			<a class='box' href='{{ post.url }}' hreflang='{{ post.lang }}' lang='{{ post.lang }}'>
 				<img src='{{ post.image }}' alt='{{ post.title }}' title='{{ post.title }}'>
 				<h2>{{ post.title }}</h2>
-				<p class='date'><time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{{ post.date | date_to_long_string }}</time></p>
+				<p class='date'>{% if page.location %}{{ page.location }}, {% endif %}<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{{ post.date | date_to_long_string }}</time></p>
 				<cite class='excerpt'>
 					{{ post.excerpt | strip_html | truncatewords: 40 }}
 				</cite>
 				<div class='flex'>
-					{% for tagg in site.data.tags %}
-						{% for present in post.tags %}
-							{% capture tag %}{{ tagg.title | downcase | slugify }}{% endcapture %}
-							{% capture post-tag %}{{ present | downcase | slugify }}{% endcapture %}
-							{% if tag == post-tag %}
-								<div rel='tag' class='{{ tag }} smaller written button'>{{ tagg.title }}</div>
-							{% endif %}
-						{% endfor %}
+					{% assign posttags = post.tags | downcase | remove: ' ' | join: ' ' | replace: '/', ' ' %}
+					{% for tag in site.data.tags %}
+						{% assign slugtag = tag.title | downcase | remove: ' ' %}
+						{% if posttags contains slugtag %}
+							<div rel='tag' class='{{ slugtag }} smaller written button'>{{ tag.title }}</div>
+						{% endif %}
 					{% endfor %}
 				</div>
 			</a>

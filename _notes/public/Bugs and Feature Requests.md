@@ -151,10 +151,6 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 <br>
 <br>
 
-![[Flickr to Piwigo#Bugs]]
-
-![[Flickr to Piwigo#Feature requests]]
-
 ## Joplin
 
 [Joplin](http://joplinapp.org) is a wonderful and complete note-taking app.

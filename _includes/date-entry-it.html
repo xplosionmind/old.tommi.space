@@ -1,5 +1,5 @@
-{{ page.date | date: '%e ' }}
-{% assign mese = page.date | date: '%m' %}
+{{ entry.date | date: '%e ' }}
+{% assign mese = entry.date | date: '%m' %}
 {% case mese %}
 {% when '01' %}Gennaio
 {% when '02' %}Febbraio
@@ -14,4 +14,4 @@
 {% when '11' %}Novembre
 {% when '12' %}Dicembre
 {% endcase %}
-{{ page.date | date: ' %Y' }}
+{{ entry.date | date: ' %Y' }}

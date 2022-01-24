@@ -226,7 +226,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 - Serif font styling in posts
 - Share button
 - [Share on Jekyll showcase](https://github.com/planetjekyll/showcase/pull/23)
-- *[[Tutto|stuff extended]]*
+- [Stuff extended](/tutto)
 - SVG buttons
 - Switch to **SCSS**
 	- [How to prepare and use variable fonts on the web](https://thetrevorharmon.com/blog/how-to-prepare-and-use-variable-fonts-on-the-web 'How to prepare and use variable fonts on the web \| The Trevor Harmon') by [Trevor Harmon](https://thetrevorharmon.com/ 'Trevor Harmon')

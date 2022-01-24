@@ -1,48 +1,24 @@
-.aa-SourceFooter,
-.aa-ItemIcon,
-.aa-ClearButton,
-.aa-ClearIcon,
-.aa-Label {
-  display: none;
-}
-
 #search {
   position: fixed;
   bottom: calc(3vw + .5rem);
   right: calc(4vw + 4rem);
-  input {
-    width: 3.1rem;
-    font-size: 1.7rem;
-    background: var(--deep);
-    box-shadow: var(--button-shadow);
-    padding: $small .67rem;
-    outline: none;
-    &::placeholder {
-      opacity: 1;
-    }
-    &:hover,
-    &:focus,
-    &:active {
-      width: 30vw;
-      box-shadow: var(--little-shadow);
-      &::placeholder {
-        opacity: revert;
-      }
-    }
+  width: 3.1rem;
+  font-size: 1.7rem;
+  background: var(--deep);
+  box-shadow: var(--button-shadow);
+  padding: $small .67rem;
+  outline: none;
+  &::placeholder {
+    opacity: 1;
   }
-}
-
-.aa-Panel {
-  /*position: fixed;
-  bottom: calc(3vw + .5rem + $height);
-  top: auto !important;
-  left: auto !important;
-  right: calc(3vw + 4rem) !important;*/ /* ERROR: not showing up! */
-  background: var(--background);
-  border-radius: $radius-m;
-  box-shadow: var(--shadow);
-  li {
-    list-style-type: none;
+  &:hover,
+  &:focus,
+  &:active {
+    width: 30vw;
+    box-shadow: var(--shadow);
+    &::placeholder {
+      opacity: revert;
+    }
   }
 }
 
@@ -50,28 +26,40 @@
   #search {
     bottom: 15vh;
     right: unset;
-    input {
-      box-shadow: none;
-      background: none;
-      &:hover,
-      &:active,
-      &:focus {
-        box-shadow: var(--shadow);
-        background: var(--deep);
-      }
+    box-shadow: none;
+    background: none;
+    &:hover,
+    &:active,
+    &:focus {
+      background: var(--deep);
     }
+  }
+}
+
+#search-results {
+  position: fixed;
+  bottom: calc(4vw + 3.6rem);
+  right: 3vw;
+  max-width: 94vw;
+  overflow: hidden;
+  background: var(--background);
+  border-radius: $radius-l;
+  box-shadow: var(--shadow);
+  div {
+    margin: 1rem 5%;
   }
 }
 
 @media only screen and (max-width: 950px) {
   #search {
     bottom: calc(3vh + .5rem);
-    input {
-      &:hover,
-      &:focus,
-      &:active {
-        width: calc(94vw - 4.4rem);
-      }
+    &:hover,
+    &:focus,
+    &:active {
+      width: calc(94vw - 4.4rem);
     }
+  }
+  #search-results {
+    bottom: calc(4vh + 3.6rem);
   }
 }

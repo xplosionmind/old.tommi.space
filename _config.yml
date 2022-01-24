@@ -142,7 +142,6 @@ webmentions:
   pages: true
   collections: true
   cache_bad_uris_for: 5
-  debug: true
 #  legacy_domains:
 #    - https://www.tommi.space
 #    - https://tommasomarmo.com

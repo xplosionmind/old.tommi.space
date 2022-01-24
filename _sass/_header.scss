@@ -64,6 +64,7 @@ nav {
 				&:focus{
 					transform: scale(1.1) rotate(3deg);
 					filter: none;
+					border-bottom: none;
 				}
 				&:active {
 					opacity: .6;

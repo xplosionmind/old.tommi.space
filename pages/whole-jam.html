@@ -30,14 +30,12 @@ layout: large
 					<p>{{ note.excerpt | strip_html | truncatewords: 30 }}</p>
 				{% endif %}
 				<div class='flex'>
-					{% for tagg in site.data.tags %}
-						{% for present in note.tags %}
-							{% capture tag %}{{ tagg.title | downcase | slugify }}{% endcapture %}
-							{% capture post-tag %}{{ present | downcase | slugify }}{% endcapture %}
-							{% if post-tag contains tag %}
-								<div rel='tag' class='{{ tag }} tiny written button'>{{ tagg.title }}</div>
-							{% endif %}
-						{% endfor %}
+					{% assign notetags = note.tags | downcase | remove: ' ' | join: ' ' | replace: '/', ' ' %}
+					{% for tag in site.data.tags %}
+						{% assign slugtag = tag.title | downcase | remove: ' ' %}
+						{% if notetags contains slugtag %}
+							<div rel='tag' class='{{ tag }} tiny written button'>{{ tag.title }}</div>
+						{% endif %}
 					{% endfor %}
 				</div>
 			</div>

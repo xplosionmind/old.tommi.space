@@ -1,0 +1,15 @@
+---
+layout: ~
+---
+{% assign all = site.posts | concat: site.pages | concat: site.poetry | concat: site.filinge | concat: site.notes | concat: site.sconnesso | sort: 'updated' | reverse %}
+[
+  {% for entry in all %}{% unless page.path contains 'redirect.html' %}
+  {
+    "title":        {{ entry.title | strip_html | jsonify }},
+    "tag":          ["{{ entry.tags | join: '", "'}}"],
+    "url":          "{{ entry.url }}",
+    "date":         "{{ entry.date | date_to_long_string }}",
+    "description":  {{ entry.description | strip_html | replace: '\n', ' ' | jsonify }},
+    "content":      {{ entry.content | strip_html | replace: '\n', ' ' | replace: '\ ', '\\n' | jsonify }}
+}{% unless forloop.last %},{% endunless %}{% endunless %}{% endfor %}
+]

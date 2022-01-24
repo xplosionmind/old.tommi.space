@@ -8,40 +8,17 @@ todo:
   - fix tags containing sub-tags not appearing
 ---
 {% for tag in site.data.tags %}
-	<div class='row tag' id='{{ tag.title | slugify }}'>
-		<div class='border box' style='border-color:{{ tag.color}}'>
-			<h2 class='title'>{{ tag.title }}</h2>
-			<p>{{ tag.description | markdownify }}</p>
-			{% capture tagg %}{{ tag.title | downcase | slugify }}{% endcapture %}
+	<div class='row'>
+		<div id='{{ tag.title | remove: ' ' }}' class='tag box'>
+			<h2 class='{{ tag.title | remove: ' ' }} title'>{{ tag.title }}</h2>
+			{{ tag.description | markdownify }}
+			{% assign slugtag = tag.title | downcase | remove: ' ' %}
+			{% assign all = site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | sort: "updated" | reverse %}
 			<ul class='three'>
-				{% for note in site.notes %}
-					{% capture p-tag %}{{ note.tags | downcase | slugify }}{% endcapture %}
-					{% if p-tag contains tagg %}
-						<li><a href='{{ note.url }}' title='{{ note.title }}'>{{ note.title }}</a></li>
-					{% endif %}
-				{% endfor %}
-				{% for ep in site.sconnesso %}
-					{% capture p-tag %}{{ ep.tags | downcase | slugify }}{% endcapture %}
-					{% if p-tag contains tagg %}
-						<li>🎙 <a href='{{ ep.url }}' title='{{ ep.title }}'>{{ ep.title }}</a></li>
-					{% endif %}
-				{% endfor %}
-				{% for art in site.filinge %}
-					{% capture p-tag %}{{ art.tags | downcase | slugify }}{% endcapture %}
-					{% if p-tag contains tagg %}
-						<li>💭 <a href='{{ art.url }}' title='{{ art.title }}'>{{ art.title }}</a></li>
-					{% endif %}
-				{% endfor %}
-				{% for poem in site.poetry %}
-					{% capture p-tag %}{{ poem.tags | downcase | slugify }}{% endcapture %}
-					{% if p-tag contains tagg %}
-						<li>🥴 <a href='{{ poem.url }}' title='{{ poem.title }}'>{{ poem.title }}</a></li>
-					{% endif %}
-				{% endfor %}
-				{% for post in site.posts %}
-					{% capture p-tag %}{{ post.tags | downcase | slugify }}{% endcapture %}
-					{% if p-tag contains tagg %}
-						<li>📖 <a href='{{ post.url }}' title='{{ post.title }}'>{{ post.title }}</a></li>
+				{% for entry in all %}
+					{% assign thistag = entry.tags | downcase | remove: ' ' | replace: '/', ' ' %}
+					{% if thistag contains slugtag %}
+						<li><a href='{{ entry.url }}' title='{{ entry.title }}'>{{ entry.title }}</a></li>
 					{% endif %}
 				{% endfor %}
 			</ul>

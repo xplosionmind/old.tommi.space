@@ -13,7 +13,7 @@ As a result, *Nolan* makes a huge CSV or JSON database with a **timeline** of *e
 
 *Nolan* is some sort of a **life dashboard**: it cross-analyzes stuff you do -both online and offline- where you do it, for how long you do it, how often you do it, maybe even near whom you do it, and eventually it sums up the results serving them to you.
 
-- subsections of this everything are put in more specific pages of the websites to add accomplishments (e.g. [[Server]], [[Tutto]], [[Giri]])
+- subsections of this everything are put in more specific pages of the websites to add accomplishments (e.g. [[Server]], [Tutto](/tutto), [[Giri]])
 - use tags to split stuff into the above mentioned subsections
 - add **locations**, too! Check OSM API to integrate the system
 

@@ -163,6 +163,7 @@ a {
 	p &,
 	li & {
 		font-weight: 500;
+		transition: margin-bottom $quicktrans;
 		&:hover,
 		&:focus {
 			margin-bottom: -2px;
@@ -354,6 +355,8 @@ pre {
 	padding: $regular;
 	border-radius: $radius-m;
 	white-space: pre-wrap;
+	background: var(--dark-blue);
+	color: var(--white);
 	code {
 		background: none;
 		padding: 0;
@@ -401,14 +404,15 @@ blockquote {
 	font: 1em var(--font-serif);
 	opacity: .9;
 	p {
-		line-height: unset;
+		line-height: 1.5em;
 	}
 }
 
 td,
 th,
 tr {
-	border: solid 1px var(--grey);
+	border: none;
+	outline: solid .5px var(--slight);
 }
 
 th {
@@ -444,18 +448,18 @@ table {
 	background: none;
 	height: 100vh;
 	h1 {
-		color: var(--white);
+		color: #FFF;
 		font-weight: 800;
 		margin: 0 $small $bigger;
 		text-shadow: 2px 2px 5px #11305B33;
 		background: var(--red);
-		border: 5px solid var(--white);
+		border: 5px solid #FFF;
 		padding: 1vw 3vw;
 		box-shadow: var(--shadow);
 		border-radius: $radius-l;
 	}
 	.button {
-		color: var(--white);
+		color: #FFF;
 		background: var(--dark-blue);
 		margin: $tiny $regular-less;
 	}
@@ -891,14 +895,21 @@ button,
 }
 
 {% for tag in site.data.tags %}
-	.{{ tag.title | slugify }} {
+	.{{ tag.title | remove: ' ' }} {
 		color: {{ tag.color }};
 		background: {{ tag.background }};
-		a {
-			color: {{ tag.color }};
-		}
 	}
 {% endfor %}
+
+.tag {
+	h2 {
+		border-radius: $radius-m;
+		padding: $small;
+	}
+	p {
+		text-align: center;
+	}
+}
 
 .green {
 	color: var(--black-ish);
@@ -940,8 +951,9 @@ button,
 	border-color: var(--yellow) !important;
 	--link: var(--red);
 	--internal-link: var(--blue);
-	&::selection {
+	::selection {
 		background: var(--red);
+		color: #FFF;
 	}
 }
 
@@ -954,7 +966,7 @@ button,
 .border {
 	color: var(--text) !important;
 	background: var(--background) !important;
-	border: 3px solid var(--text);
+	border: 5px solid var(--text);
 }
 
 /* mobile display - responsive design */

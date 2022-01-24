@@ -1,11 +1,9 @@
 <section class='flex row'>
 	{% for tagg in site.data.tags %}
-		{% assign tag = tagg.title | downcase | slugify %}
-		{% for present in page.tags %}
-			{% assign post-tag = present | downcase | slugify %}
-			{% if post-tag contains tag %}
+		{% assign tag = tagg.title | downcase | remove: ' ' %}
+		{% assign thistag = page.tags | downcase | remove: ' ' | replace '/', ' ' | join ' ' %}
+		{% if thistag contains tag %}
 				<a href='/tags#{{ tag }}' rel='tag' class='{{ tag }} smaller written button p-category'>{{ tagg.title }}</a>
-			{% endif %}
-		{% endfor %}
+		{% endif %}
 	{% endfor %}
 </section>

@@ -1,0 +1,14 @@
+<input type='text' id='search' placeholder='🔍 Search here…'></input>
+<section id='search-results'></section>
+
+<script type='text/javascript' src='https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js'></script>
+<script>SimpleJekyllSearch({
+	searchInput: document.getElementById('search'),
+	resultsContainer: document.getElementById('search-results'),
+	json: '/search.json',
+	searchResultTemplate: "<div><a href='{url}'><h3 class='center'>{title}</h3></a>{description}</div>",
+	noResultsText: '{% if page.lang == "it" %}Nessun risultato{% else %}No result found{% endif %}',
+	fuzzy: false,
+	limit: 10,
+	exclude: []
+})</script>
