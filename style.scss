@@ -685,7 +685,7 @@ h3 {
 	h3 {
 		margin: 0;
 	}
-	.written.button {
+	.written.button:not(.tiny) {
 		margin: $regular-more $small;
 	}
 }

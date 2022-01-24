@@ -34,7 +34,7 @@ layout: large
 					{% for tag in site.data.tags %}
 						{% assign slugtag = tag.title | downcase | remove: ' ' %}
 						{% if notetags contains slugtag %}
-							<div rel='tag' class='{{ tag }} tiny written button'>{{ tag.title }}</div>
+							<div rel='tag' class='{{ slugtag }} tiny written button'>{{ tag.title }}</div>
 						{% endif %}
 					{% endfor %}
 				</div>

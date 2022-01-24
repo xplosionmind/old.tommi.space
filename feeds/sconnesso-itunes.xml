@@ -53,9 +53,7 @@ title: Sconnesso
 			<link>{{ episode.url | absolute_url }}</link>
 			<pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
 			<itunes:keywords>
-				{% for tag in episode.tags %}
-					{{ tag | xml_escape }}
-				{% endfor %}
+				{{ episode.tags | join: ', ' | xml_escape }}
 			</itunes:keywords>
 			<itunes:duration>{{ episode.length | xml_escape }}</itunes:duration>
 			<guid isPermaLink='true'>{{ site.url }}{{ episode.url }}</guid>
