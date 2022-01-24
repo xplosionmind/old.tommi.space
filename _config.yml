@@ -21,7 +21,7 @@ lang: it
 locale: it
 images: /images
 post-images: /images/posts
-image: /logos/favicon-180.png
+image: /logos/tommi.space.wip.png
 assets: https://assets.tommi.space/assets
 video: https://assets.tommi.space/video
 audio: https://assets.tommi.space/audio
@@ -117,6 +117,7 @@ plugins:
   - jekyll-minifier
   - jekyll-unique-urls
   - jekyll-embed-urls
+  - jekyll-file-size
 
 sass:
   style: compressed
@@ -229,3 +230,9 @@ defaults:
       lang: it
       primary: '#20CE88'
       permalink: /filinge/:title
+
+  -
+    scope:
+      path: /feeds/
+    values:
+      layout: ~

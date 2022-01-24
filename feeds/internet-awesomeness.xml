@@ -1,30 +1,28 @@
 ---
-layout: null
 url: /internet-awesomeness-feed
 title: Internet Awesomeness feed
 description: Internet Awesomeness entries
 ---
 <?xml version='1.0' encoding='utf-8'?>
-<rss version='2.0' xmlns:content='http://purl.org/rss/1.0/modules/content/' xmlns:atom='http://www.w3.org/2005/Atom' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:sy='http://purl.org/rss/1.0/modules/syndication/'>
+<rss version='2.0'>
 	<channel>
 		<title>Internet Awesomeness — {{ site.title }}</title>
-		<description>Entries of Tommi’s “Internet Awesomeness”, a collection of links to awesome stuff on the internet.</description>
+		<description>{{ "Entries of Tommi’s <a href='https://tommi.space/internet-awesomeness' target='_blank' title='Internet Awesomeness'>Internet Awesomeness</a>, a collection of links to awesome stuff on the internet." | xml_escape }}</description>
 		<link>https://tommi.space/internet-awesomeness</link>
-		<atom:link href='{{ page.url | absolute_url }}' rel='self' type='application/atom+xml'/>
-		<lastBuildDate>{% for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
+		{% assign awesomeness = site.data.internet-awesomeness | sort: 'added' | reverse %}
+		<lastBuildDate>{% for entry in awesomeness limit:1 %}{{ entry.added | date_to_rfc822 }}{% endfor %}</lastBuildDate>
 		<image>
 			<url>{{ site.image | absolute_url }}</url>
 			<title>Internet Awesomeness — {{ site.title }}</title>
 			<link>https://tommi.space/internet-awesomeness</link>
 		</image>
 		<language>en</language>
-		<managingEditor>{{ site.email }}</managingEditor>
-		<webMaster>{{ site.email }}</webMaster>
-		{% assign awesomeness = site.data.internet-awesomeness | sort: 'date' | reverse %}
+		<managingEditor>{{ site.email }} (Tommi)</managingEditor>
+		<webMaster>{{ site.email }} (Tommi)</webMaster>
 		{% for website in awesomeness %}
 			<item>
 				<title>{{ website.title | xml_escape }}</title>
-				<pubDate>{{ w.added | date_to_rfc822 }}</pubDate>
+				{% if w.added %}<pubDate>{{ w.added | date_to_rfc822 }}</pubDate>{% endif %}
 				<description>{{ website.description | xml_escape | strip_newlines }}</description>
 				<link>{{ website.url }}</link>
 				<guid>{{ website.url }}</guid>

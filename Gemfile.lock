@@ -142,6 +142,7 @@ GEM
       url-privacy (~> 0)
     jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-file-size (0.0.7)
     jekyll-graph (0.0.5)
       jekyll-namespaces (~> 0.0.3)
       jekyll-wikilinks (~> 0.0.8)
@@ -261,6 +262,7 @@ DEPENDENCIES
   jekyll-email-protect
   jekyll-embed-urls
   jekyll-feed
+  jekyll-file-size
   jekyll-graph
   jekyll-last-modified-at
   jekyll-mentions

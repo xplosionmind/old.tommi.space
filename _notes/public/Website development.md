@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-01-23T09:12:42+01:00
+updated: 2022-01-24T16:52:08+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -18,8 +18,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 ## Roadmap
 
-- <b class='missing'>bug</b>: subtags not read correctly
-- <b class='missing'>bug</b>: impossible to position Algolia search results as `fixed`
 - <b class='missing'>bug</b>: wrong posts arrangement in Zibaldone desktop
 
 <br>
@@ -34,16 +32,12 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 ### v2
 
 1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, [looping through](https://talk.jekyllrb.com/t/loop-through-all-pages-of-the-website/6880 'Loop through ALL pages in a website - Jekyll Talk') the last few pages updated recently (based on `page.updated`)
-1. Fast, simple and light full text search
+1. Improve search
 	- [Lunr](https://lunrjs.com 'Lunr')
 		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr 'jekyll-lunr on GitHub')
 	- [Stork](https://stork-search.net/ 'Stork search')
 		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork 'jekyll-stork plugin')
-	- [Searchyll](https://github.com/omc/searchyll 'Searchyll on GitHub')
 	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search 'Awesome Static Websites Services - Search')
-	- including aliases in the search
-	- search for tags specifically
-	- combination of search elements
 1. Self-hosted analytics
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
 14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 'jekyll-paginate on GitHub') and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ 'jekyll-csv on GitHub')
@@ -59,7 +53,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 1. [**<cite>Visions</cite>**](https://visions.tommi.space 'Visioni - Tommi Space') improvement: see [[Images#Gallery improvement]] and [[Flickr to Piwigo]]).
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
-	- Tania Rascia's guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ 'How to build a responsive gallery with flexbox')
+	- Tania Rascia’s guide for a [responsive gallery](https://www.taniarascia.com/how-to-build-a-responsive-image-gallery-with-flexbox/ 'How to build a responsive gallery with flexbox')
 2. Improved building workflow
 	1. Integrate URL checking services in the workflow
 		- [Urlint](https://urlint.co/integration/github.html 'Urlint')

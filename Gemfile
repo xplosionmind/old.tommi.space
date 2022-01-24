@@ -48,4 +48,5 @@ group :jekyll_plugins do
     gem 'jekyll-unique-urls'
     gem 'jekyll-embed-urls'
 #    gem 'jekyll-crypto' # password is visible in the source code: useless
+    gem 'jekyll-file-size'
 end
