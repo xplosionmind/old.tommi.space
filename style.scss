@@ -874,15 +874,14 @@ button,
 	position: fixed;
 	bottom: 3vw;
 	right: 4vw;
+	z-index: 2;
 	.button {
 		padding: .3rem;
-		z-index: 8;
 	}
 }
 
 #to-bottom {
 	.button {
-		z-index: 9;
 		transform: rotate(.5turn);
 		box-shadow: inset -2px -2px 4px #FFF8, inset 2px 2px 4px #0008 !important;
 		&:hover {

@@ -1,11 +1,11 @@
 ---
 date: 2021-01-27T22:03:09+01:00
-updated: 2021-01-28T12:23:04+01:00
+updated: 2022-01-24T15:51:02+01:00
 tags: geek dumped
 toc: false
 description: Configuration of a Docker server
 ---
-After configuring my [[Server]] as written in [[Server setup]], me and my friend [Claudio](https://claudiofaoro.com 'Claudio Faoro's personal website') figured that even if understanding [Docker](https://www.docker.com/ 'Docker official website') is boring and tricky, managing and maintaining software through it is much more simple and secure.
+After configuring my [[Server]] as written in [[Server setup]], me and my friend [Claudio](https://claudiofaoro.com 'Claudio Faoro’s personal website') figured that even if understanding [Docker](https://www.docker.com/ 'Docker official website') is boring and tricky, managing and maintaining software through it is much more simple and secure.
 
 So one night we backed up all of my data on the server, we completely wiped it clean, and we reinstalled Ubuntu 20.04 from scratch. After doing this, we reinstalled everything through Docker.
 

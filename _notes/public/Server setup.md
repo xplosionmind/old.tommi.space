@@ -1,11 +1,15 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2021-12-15T23:17:13+01:00
+updated: 2022-01-24T15:46:05+01:00
 tags: geek/server
 aliases: Server configuration, VPS configuration
-redirect_from: [/server-configuration,/serversetup,/server-setup,/server-config]
+redirect_from: [/server-configuration,/serversetup,/server-config,/nextcloud,/nextcloud-setup,/nextcloud-config]
 description: A walktrough of the steps I executed to set up my server
 ---
+<div class='red box'>
+	Everything in this page is not revised and out of date, since I am using <a href='https://yunohost.org' target='_blank' title='YunoHost'>YunoHost</a> to manage my server now. On <a href='https://server.tommi.space' target='_blank' title='Tommi’s server'>server.tommi.space</a> there is the public front-end of the administration panel.
+</div>
+
 <div class='box'>
 	A <strong>huge shout-out</strong> to my friend <a href='http://claudiofaoro.com' title='Claudio’s personal website' target='_blank'>Claudio</a>, who helped me understand and perform the most tricky passages.
 </div>
