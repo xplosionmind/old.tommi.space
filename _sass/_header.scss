@@ -146,10 +146,11 @@ nav {
 
 @media only screen and (max-width: 950px) {
 	#home {
-		left: 5vw;
-		right: 5vw;
-		margin: 0 auto;
+		left: 50%;
+		margin-left: -8rem;
+		width: 16rem;
 		top: 2vh;
+		text-align: center;
 	}
 	.nav {
 		margin: 3vh;
