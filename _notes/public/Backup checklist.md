@@ -1,10 +1,10 @@
 ---
 date: 2020-09-14
-updated: 2021-09-05T18:20:22+02:00
+updated: 2022-01-25T08:47:10+01:00
 tags: geek
 image: https://tommi.space/images/backup.jpg
 permalink: /backup-checklist
-redirect_from: [/mobile-backup-checklist, /phone-formatting-checklist, /mobile-formatting, /phone-backup-checklist, /phone-backup-checklist, /phone-backup, /mobile-backup, /adb-file-transfer, /android-file-transfer, /macos-backup, /formatting-checklist]
+redirect_from: [/mobile-backup-checklist, /phone-formatting-checklist, /mobile-formatting, /phone-backup-checklist, /phone-backup, /mobile-backup, /adb-file-transfer, /android-file-transfer, /macos-backup, /formatting-checklist]
 description: To keep the phone rolling smoothly, from time to time a classic data backup and factory reset are necessary, but it’s important not to forget what to save before hitting the red button. These are my checklist and importing workflow.
 toc: false
 ---

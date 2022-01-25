@@ -1,8 +1,7 @@
 ---
 date: 2020-11-10
-updated: 2021-11-16T16:15:37+01:00
+updated: 2022-01-25T09:00:45+01:00
 tags: zen
-redirect_from: [/routine,/habits]
 toc: false
 description: Boundaries to improve living quality
 ---

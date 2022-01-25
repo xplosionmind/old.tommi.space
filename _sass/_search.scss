@@ -8,6 +8,7 @@
   box-shadow: var(--button-shadow);
   padding: $small .67rem;
   outline: none;
+  z-index: 9;
   &::placeholder {
     opacity: 1;
   }

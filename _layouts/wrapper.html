@@ -3,6 +3,10 @@
 <!DOCTYPE html>
 <html lang='{% if page.lang == 'it' %}it{% else %}en{% endif %}' prefix='og: http://ogp.me/ns#' dir='ltr'>
 
+	{% if page.ref %}
+		{% assign alternate = site.pages | concat: site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | where_exp: "entry", "entry.lang != page.lang" | find: "ref", page.ref %}
+	{% endif %}
+
 	{% include head.html %}
 
 	<body class='cantiere {{ page.class }}'>

@@ -64,24 +64,17 @@ pagination:
 
 feed:
   path: /feeds/zibaldone.xml
-  tags:
-    path: /feeds/
-    only:
-      - geek
   collections:
     poetry:
       path: /feeds/poetry.xml
-    filinge:
-      path: /feeds/filinge.xml
     notes:
       path: /feeds/jam.xml
 
 # SEO
 social:
-  name: xplosionmind
+  name: tommi
 tagline: Tommi’s virtual mind
 twitter:
-  username: xplosionmind
   card: summary
 
 podcast:

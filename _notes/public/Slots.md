@@ -1,11 +1,11 @@
 ---
 date: 2020-10-27
-updated: 2021-06-10T19:49:19.212728+02:00
+updated: 2022-01-25T08:48:47+01:00
 tags: zen
-redirect_from: ["/time", "/time-management", "/moduli"]
 toc: false
-description: |
-  I get distracted very easily, an my mind goes from a topic to a totally different one in no time. While this can be a great quality to be creative (not so much, in the end), it is a very stressful, time-consuming and unproductive lifestyle. This is why I conceived slots.
+description: I get distracted very easily, an my mind goes from a topic to a totally different one in no time. While this can be a great quality to be creative (not so much, in the end), it is a very stressful, time-consuming and unproductive lifestyle. This is why I conceived slots.
+todo:
+  - Check duplication with “The Slot Philosophy”
 ---
 Slots are simply **time slots**: half or full hours which I devote to something. If a new idea —not strictly related to what I am doing— pops up in my mind, I write it down to remember it, but I get to it only when it is the time to commit to the related slot. Nevertheless, this way of working poses a dilemma: [where would my distraction go if I was capable of focusing?](/distrazione 'Sconnesso: Dove andrebbe la mia distrazione se mi concentrassi?'). Furthermore, this is an ideal lifestyle, but definitely far from my actual way of living; I am trying to compromise and both develop and approach to this method slowly and carefully.
 

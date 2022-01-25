@@ -1,11 +1,10 @@
 ---
 date: 2020-07-10
-updated: 2021-09-26T16:26:59+02:00
+updated: 2022-01-25T08:39:00+01:00
 tags: geek
-redirect_from: ['/internet-freedom-notes', '/internet-freedom-roadmap', '/internet-freedom-roadmap', '/road-to-internet-freedom', '/internet-freedom-path', '/path-to-internet-freedom']
+redirect_from: [/internet-freedom-notes]
 description: Insights and steps towards a greater digital awareness and freedom
 main: true
-todo:
 ---
 ## Premise
 

@@ -1,6 +1,6 @@
 ---
 date: 2020-10-27T01:00:00+01:00
-updated: 2021-12-15T23:17:12+01:00
+updated: 2022-01-25T08:48:49+01:00
 tags: zen draft
 aliases: Slots
 redirect_from: ['/time', '/time-management', '/moduli']
@@ -8,7 +8,7 @@ description:
   I get distracted very easily, an my mind goes from a topic to a totally different one in no time. While this can be a great quality to be creative (not so much, in the end), it is a very stressful, time-consuming and unproductive lifestyle. This is why I conceived slots.
 toc: false
 todo:
-  - merge with slots
+  - Check duplication with “Slots”
 ---
 Slots are simply **time slots**: half or full hours which I totally dedicate to something. If a new, different thing pops up in my mind, I write it down to remember it, but I get to it only when it’s the time to commit to the related slot.
 

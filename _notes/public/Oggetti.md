@@ -1,11 +1,12 @@
 ---
 date: 2020-06-04T02:00:00+02:00
-updated: 2021-12-15T22:39:42+01:00
+updated: 2022-01-25T08:35:34+01:00
 aliases: Compagni di viaggio
 lang: it
 description: Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi.
-redirect_from: ['/compagni-di-viaggio', '/oggetti', '/cose-smarrite', '/oggetti-smarriti', '/lost-and-found']
 image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/10/16/20211016080113-cf44e5b4-me.jpg
+todo:
+  - fix duplication with “Compagni di viaggio”
 ---
 È un comportamento che sembra esagerato, ma sono così affezionato loro, che, più che essere parte di me, sono diventati dei veri e propri compagni di viaggio. Per questo motivo ho deciso di registrare qui le loro generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.
 

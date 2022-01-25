@@ -1,14 +1,14 @@
 ---
 date: 2020-06-04T02:00:00+02:00
-updated: 2021-12-15T22:39:42+01:00
+updated: 2022-01-25T08:35:31+01:00
 tags: track
-permalink: /oggetti
 aliases: Oggetti
 lang: it
 description: Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi.
-redirect_from: [/compagni-di-viaggio, /oggetti, /cose-smarrite, /oggetti-smarriti, /lost-and-found]
 main: true
 image: https://images.tommi.space/i?/uploads/j/b/u/jbuqxznr00//2021/01/14/20210114191829-c28094bf-me.jpg
+todo: 
+  - fix duplication with “Oggetti”
 ---
 Sembra esagerato, ma sono così affezionato loro, che gli oggetti di seguito descritti sono diventati dei veri e propri compagni di viaggio. Per questo motivo ho deciso di registrare qui le loro generazioni, succedutesi in tempi (ahimè) relativamente molto brevi, a causa della mia irreparabile insopportabile sbadataggine.
 

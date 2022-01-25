@@ -97,7 +97,7 @@ body {
 }
 
 * {
-	transition: $trans, transform $quicktrans, box-shadow $quicktrans, text-shadow $quicktrans, margin $quicktrans;
+	transition: $trans, transform $quicktrans, box-shadow $quicktrans, text-shadow $quicktrans, border $quicktrans;
 }
 
 #menutoggle,
@@ -163,7 +163,6 @@ a {
 	p &,
 	li & {
 		font-weight: 500;
-		transition: margin-bottom $quicktrans;
 		&:hover,
 		&:focus {
 			margin-bottom: -2px;
@@ -201,7 +200,6 @@ label {
 
 input {
 	border: none;
-	outline: none;
 	background: var(--background);
 	color: var(--text);
 	border-radius: $radius-m;
@@ -215,7 +213,8 @@ input {
 	&:focus,
 	&:active,
 	&:hover {
-		outline: solid 2px var(--text);
+		border: solid 2px var(--text);
+		outline: none;
 	}
 }
 
@@ -457,12 +456,34 @@ table {
 		padding: 1vw 3vw;
 		box-shadow: var(--shadow);
 		border-radius: $radius-l;
+		animation: pulse 1s infinite;
 	}
 	.button {
 		color: #FFF;
 		background: var(--dark-blue);
 		margin: $tiny $regular-less;
 	}
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .one {
@@ -993,9 +1014,6 @@ button,
 	.tool {
 		bottom: 3vh;
 	}
-	nav ul li a {
-		padding: 0 $regular-more;
-	}
 	.popup {
 		left: 5vw;
 	}
@@ -1022,6 +1040,10 @@ button,
 		p,
 		li {
 			margin: $regular 10%;
+		}
+		& + .column h2,
+		& + .column h3 {
+			margin-top: var(--regular-more);
 		}
 	}
 	ul.two,
