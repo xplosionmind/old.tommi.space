@@ -1,39 +1,35 @@
 ---
 ---
 body {
-	background: linear-gradient(135deg, #9DB5C1, #415462);
-	/* background: #415462; */ /* fallback color */
+	background: linear-gradient(135deg, #9DB5C1, #415462), #415462;
 	font-family: Helvetica, 'Helvetica Neue', Inter, sans-serif;
-	overflow-x: hidden;
 	line-break: loose;
 	cursor: auto; /* CREATE CUSTOM CURSOR */
 	font-weight: lighter;
-	--text: white
+	--text: #415462;
 }
 
-.everyone {
+h1 {
 	font-size: 9rem;
-	margin-bottom: 0;
-}
-
-.love-awakens {
-	font-size: 4.4rem;
-	font-weight: lighter;
-	text-align: center;
-	margin-top: 0;
-	color: #D8E9F0;
+	margin: 8vh auto 0;
+	text-shadow: 2px 2px 10px #415462AA;
+	color: #FFF;
+	& + h2 {
+		font-size: 4.4rem;
+		font-weight: lighter;
+		text-align: center;
+		margin-top: 0;
+		color: #D8E9F0;
+		text-shadow: 1px 1px 7px #415462AA;
+		& + p {
+			margin: 5vh auto;
+			max-width: 50rem;
+			padding: 5vw;
+			color: #FFF;
+		}
+	}
 }
 	
-.page-description {
-	margin: 3.1rem auto 6.5rem;
-	padding: 1.1rem 6.5rem;
-}
-
-.thing {
-	text-align: center;
-	padding: 0 5%;
-}
-
 .button {
 	color: #415462;
 	background: white;
@@ -91,19 +87,16 @@ p {
 }
 
 #celeb h2 {
+	color: #FFF;
 	margin: 3.1rem 0;
 }
 
 @media only screen and (max-width: 700px) {
-	.everyone {
-		font-size: 3.1rem;
-		margin-top: 4.4rem;
-	}
-	.love-awakens {
-		font-size: 2.5rem;
-	}
-	.page-description {
-		padding: 0;
+	h1 {
+		font-size: 3.2rem;
+		& + h2 {
+			font-size: 2.5rem;
+		}
 	}
 	#imdb {
 		margin-bottom: 3rem;

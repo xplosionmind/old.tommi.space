@@ -544,6 +544,7 @@ figcaption {
 	background: var(--primary);
 	width: 100vw;
 	height: 100vh;
+	overflow-x: hidden;
 	a:hover {
 		transform: none;
 	}
@@ -652,7 +653,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	display: inline-block;
 	font-size: $mastodon;
 	color: var(--text);
 	text-align: center;
