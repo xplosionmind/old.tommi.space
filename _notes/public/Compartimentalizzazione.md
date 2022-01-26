@@ -6,4 +6,4 @@ toc: false
 lang: it
 description: Sul riuscire a compartimentalizzare pensieri a seconda di situazioni e necessità
 ---
-![[La morte di Ivan Il’ič#Compartimentalizzazione]]
+![[La morte di Ivan Ilic#Compartimentalizzazione]]

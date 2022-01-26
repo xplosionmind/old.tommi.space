@@ -1,8 +1,11 @@
 ---
 ---
-body {
+html {
 	background: linear-gradient(135deg, #9DB5C1, #415462), #415462;
+}
+body {
 	font-family: Helvetica, 'Helvetica Neue', Inter, sans-serif;
+	background: none;
 	line-break: loose;
 	cursor: auto; /* CREATE CUSTOM CURSOR */
 	font-weight: lighter;
@@ -29,24 +32,21 @@ h1 {
 		}
 	}
 }
+
+h2 {
+	font-size: 2.2rem;
+}
 	
 .button {
-	color: #415462;
-	background: white;
-}
-
-.tool {
-	right: 4vw;
-	padding: .5rem 1.1rem;
-}
-
-.button.tool {
-	padding: .5rem 1.1rem;
+	color: #FFF;
+	background: linear-gradient(120deg, #9DB5C1, #415462);
+	padding-top: .8rem;
 }
 
 .box {
 	/* background: #89AEB9; */
-	box-shadow: 5px 5px 20px #00000033, -5px -5px 20px #FFFFFF22;
+	box-shadow: 5px 5px 20px #41526299, -5px -5px 20px #FFFFFF22;
+	margin: 5vh 5vw;
 }
 
 p {
@@ -88,14 +88,14 @@ p {
 
 #celeb h2 {
 	color: #FFF;
-	margin: 3.1rem 0;
+	margin: 8vh 3vw;
 }
 
 @media only screen and (max-width: 700px) {
 	h1 {
 		font-size: 3.2rem;
 		& + h2 {
-			font-size: 2.5rem;
+			font-size: 2rem;
 		}
 	}
 	#imdb {

@@ -8,7 +8,7 @@ toc: false
 ---
 Metathinking means focusing on and thinking about how to think. It is very illuminating if seldom practiced, being aware of doing it. It becomes sick and harmful when it becomes the primary focus of one’s thinking, meaning that it becomes relentlessly impossible to avoid thinking about thinking. It seems absurd, but I experienced this.
 
-The effect of metathinking is something similar to [[La morte di Ivan Ilic#La morte|what Ivan Il’Ič mind goes through near his death]].
+The effect of metathinking is something similar to [[La morte di Ivan Ilic#La morte|what Ivan Ilic mind goes through near his death]].
 
 <blockquote><p>…C’è poi questa cosa, che quando hai un pensiero che ti ossessiona tutto lo rinforza e l'assillo diventa persecuzione. Durante quei giorni di vagabondaggio Andrea abita un mondo gravido; per strada milioni di neonati in carrozzina e donne incite e cartelloni pubblicitari di indumenti pre-maman, e ovunque si volta ci sono asili nido e scuole materne. E dunque ero io, pensa…</p><blockquote>
 

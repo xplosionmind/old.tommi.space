@@ -5,4 +5,4 @@ tags: topic reading
 lang: it
 description: L’atto di ripensare da capo un concetto già conosciuto
 ---
-![[La morte di Ivan Il’ič#Straniamento]]
+![[La morte di Ivan Ilic#Straniamento]]

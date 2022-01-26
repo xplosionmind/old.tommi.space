@@ -446,6 +446,7 @@ table {
 	margin: 0;
 	background: none;
 	height: 100vh;
+	overflow-x: hidden;
 	h1 {
 		color: #FFF;
 		font-weight: 800;
@@ -609,6 +610,9 @@ figcaption {
 
 p {
 	line-height: 1.7em;
+	&.one.column {
+		padding: 0 3vw;
+	}
 }
 
 u {
@@ -1030,6 +1034,12 @@ button,
 	#help {
 		bottom: -15rem;
 	}
+	.box .column {
+		& + .column h2,
+		& + .column h3 {
+			margin-top: $regular-more;
+		}
+	}
 }
 
 @media only screen and (min-width: 950px) {
@@ -1040,10 +1050,6 @@ button,
 		p,
 		li {
 			margin: $regular 10%;
-		}
-		& + .column h2,
-		& + .column h3 {
-			margin-top: var(--regular-more);
 		}
 	}
 	ul.two,
