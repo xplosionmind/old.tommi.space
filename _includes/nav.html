@@ -1,7 +1,7 @@
 <header id='nav' class='nav'>
 	<a id='home' href='{% if page.lang == "it" %}/tuffo{% else %}/home{% endif %}' title='home'>Tommi Space</a>
 	<nav>
-		<input type='checkbox' id='menutoggle'>
+		<input aria-hidden='true' type='checkbox' id='menutoggle'>
 		<label class='nav-mobile' for='menutoggle'><span></span></label>
 		<ul class='nav-list'>
 			<li>{% if page.lang == 'it' %}<a href='/about-it' title='Chi sono'>Io{% else %}<a href='/about' title='About me'>About{% endif %}</a></li>
@@ -14,7 +14,7 @@
 				{% assign alternate = site.pages | concat: site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | where_exp: "entry", "entry.lang != page.lang" | find: "ref", page.ref %}
 				<li class='dropdown'>
 					<label for='langtoggle' title='language selector'>🌍</label>
-					<input type='checkbox' id='langtoggle'>
+					<input aria-hidden='true' type='checkbox' id='langtoggle'>
 				<ul class='lang-list'>
 					<li><a rel='alternate' href='{{ alternate.url }}' hreflang='{{ alternate.lang }}' title='{{ alternate.title }}'>{% if alternate.lang == 'it' %}🇮🇹{% elsif alternate.lang == 'en' %}🇬🇧{% else %}{{ alternate.lang }}{% endif %}</a></li>
 				</ul>

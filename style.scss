@@ -908,15 +908,15 @@ button,
 	}
 }
 
-#to-bottom {
+#scrollbutton[href='#0'] {
 	.button {
-		transform: rotate(.5turn);
-		box-shadow: inset -2px -2px 4px #FFF8, inset 2px 2px 4px #0008 !important;
+		transform: rotate(180deg);
+		box-shadow: inset -2px -2px 4px #FFF8, inset 2px 2px 4px #0008;
 		&:hover {
-			box-shadow: none !important;
+			box-shadow: none;
 		}
 		&:active {
-			box-shadow: var(--button-shadow) !important;
+			box-shadow: var(--button-shadow);
 		}
 	}
 }

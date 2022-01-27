@@ -1,5 +1,5 @@
 {% assign stuff = site.data.stuff | sort: 'current' %}
-<section id='stuff'>{% for thing in stuff %}
+<section id='stuff' class='row'>{% for thing in stuff %}
 	{% if page.lang == 'it' %}
 		<div class='box row' style='color: {{ thing.color }}; background: {{ thing.background }}' id='{{ thing.title | slugify }}'>
 			<div class='half column vertical flex'>
