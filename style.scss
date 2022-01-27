@@ -4,7 +4,6 @@
 @import '../_sass/root';
 @import '../_sass/inter';
 @import '../_sass/header';
-@import '../_sass/search';
 @import '../_sass/ubuntu-mono';
 @import '../_sass/eb-garamond';
 /*@import '../_sass/graph';*/
@@ -774,6 +773,10 @@ h3 {
 	line-height: 1.5em;
 }
 
+#stuff {
+	margin-top: 8vh;
+}
+
 .stuff-logo {
 	width: auto;
 	min-width: 50%;
@@ -1038,6 +1041,11 @@ button,
 		& + .column h2,
 		& + .column h3 {
 			margin-top: $regular-more;
+		}
+	}
+	footer {
+		& > .row {
+			justify-content: center;
 		}
 	}
 }

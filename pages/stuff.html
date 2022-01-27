@@ -10,27 +10,4 @@ description: The most relevant portion of stuff I do and I did around the world 
 	<p>{{ page.description }} In case you are not satisfied, do not worry: I can offer you <a href='/tutto' hreflang='it' target='_blank' title='Tutto'>everything</a>.</p>
 </section>
 
-<div class='row'>
-	<div class='one column flex'>
-		<h3>Table of contents</h3>
-		<ul>
-			{% assign stuff=site.data.stuff %}
-			<li>Ongoing stuff
-				<ul>
-					{% for thing in stuff %}{% if thing.current == '1' %}
-					<li><a href='#{{ thing.title | slugify }}'>{{ thing.title }}</a></li>
-					{% endif %}{% endfor %}
-				</ul>
-			</li>
-			<li>Previous stuff
-				<ul>
-					{% for thing in stuff %}{% unless thing.current == '1' %}
-						<li><a href='#{{ thing.title | slugify }}'>{{ thing.title }}</a></li>
-					{% endunless %}{% endfor %}
-				</ul>
-			</li>
-		</ul>
-	</div>
-</div>
-
 {% include stuff.html %}

@@ -1,6 +1,6 @@
 ---
 date: 2021-12-25T16:07:34+01:00
-updated: 2022-01-01T17:58:56+01:00
+updated: 2022-01-27T10:24:49+01:00
 tags: reading/book
 title: La morte di Ivan Il’ič
 permalink: /ivan-ilic
@@ -19,7 +19,7 @@ description: Note ed estratti da un romanzo breve ma intenso, vero e geniale.
 <br>
 <br>
 
-## <i lang='fr'>Il faut que jeunesse se passe</i>
+## Il faut que jeunesse se passe
 
 > Negli affari, nonostante la sua giovane età e la sua inclinazione alla più leggera spensieratezza, era straordinariamente riservato, formale e persino severo; ma in società era spesso frivolo e arguto, sempre bonario,
 decoroso e <i lang='fr'>bon enfant</i>, come dicevano di lui il suo capo e la moglie del capo, dei quali era diventato intimo.  

@@ -5,33 +5,11 @@ permalink: /cose
 redirect_from: [/stuff-it, /it/stuff, /stuff/it]
 ref: stuff
 description: La più rilevante porzione di cose che faccio e ho fatto in nell’abbondante ventina di anni di mia esistenza.
+todo: To refactor completely
 ---
 <section class='one column center'>
 	<h1>Cose in giro</h1>
 	<p>{{ page.description }} In caso foste particolarmente affamati ed una porzione non bastasse, non disperate: posso offrire <a href='/tutto' title='Di tutto e di più'>di tutto e di più</a></p>
 </section>
-
-<div class='row'>
-	<section class='one column flex'>
-		<h3>Indice dei contenuti</h3>
-		<ul>
-			{% assign stuff=site.data.stuff %}
-			<li>Cose in corso</a>
-				<ul>
-					{% for thing in stuff %}{% if thing.current == '1' %}
-					<li><a href='#{{ thing.title | slugify }}'>{{ thing.title }}</a></li>
-					{% endif %}{% endfor %}
-				</ul>
-			</li>
-			<li>Cose precedenti
-				<ul>
-					{% for thing in stuff %}{% unless thing.current == '1' %}
-						<li><a href='#{{ thing.title | slugify }}'>{{ thing.title }}</a></li>
-					{% endunless %}{% endfor %}
-				</ul>
-			</li>
-		</ul>
-	</section>
-</div>
 
 {% include stuff.html %}
