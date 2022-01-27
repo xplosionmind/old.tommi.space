@@ -1,6 +1,5 @@
 ---
 date: 2020-02-26
-updated: 2022-01-25T08:43:08+01:00
 tags: geek/idea idea
 aliases: Programming ideas, Development ideas, Missing Apps
 description: Ideas for programs which would be very useful, but I did not find yet
@@ -9,12 +8,7 @@ redirect_from: [/tools-ideas,/programming-ideas,/programming,/development-ideas,
 main: true
 toc: false
 ---
+{{ page.description }}
+
 {% assign notes = site.notes | where_exp: "note", "note.tags contains 'geek/idea'" | sort: 'updated' | reverse %}
-<ul>
-	{% for note in notes %}
-		<li id='{{ note.title | slugify }}'><strong>
-			<a href='{{ note.url }}' target='_blank' title='{{ note.title }}'>{{ note.title }}</a></strong>: 
-			{% if note.description %}{{ note.description}}{% else %}{{ note.content | strip_html | truncatewords: 30 }}{% endif %}
-		</li>
-	{% endfor %}
-</ul>
+<ul>{% for note in notes %}<li id='{{ note.title | slugify }}'><strong><a href='{{ note.url }}' target='_blank' title='{{ note.title }}'>{{ note.title }}</a></strong>: {% if note.description %}{{ note.description}}{% else %}{{ note.content | strip_html | truncatewords: 30 }}{% endif %}</li>{% endfor %}</ul>

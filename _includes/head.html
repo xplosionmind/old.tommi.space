@@ -28,8 +28,13 @@
 		<link rel='alternate' hreflang='{{ alternate.lang }}' href='{{ alternate.url }}'>
 	{% endif %}
 
+	<!-- IndieAuth + IndieWeb -->
 	{% webmentions_head %}
 	<link rel='microsub' href='https://aperture.p3k.io/microsub/571'>
+	<link rel='openid.delegate' href='https://tommi.space'>
+	<link rel='openid.server' href='https://openid.indieauth.com/openid'>
+	<link rel='authorization_endpoint' href='https://indieauth.com/auth'>
+	<link rel='token_endpoint' href='https://tokens.indieauth.com/token'>
 	{% comment %}{% jekyll_graph %}{% endcomment %}
 
 	{% if page.latex %}
@@ -47,22 +52,20 @@
 		<script id='MathJax-script' async src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js'></script>
 	{% endif %}
 
-	<!-- Plausible Analytics -->
-	<script async defer data-domain='tommi.space' src='https://visits.tommi.space/js/index.js'></script>
-	<!-- counter.dev Analytics -->
-	<script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"tommi",utcoffset:"1"}))};sessionStorage.setItem("_swa","1");</script>
+	{% if jekyll.environment == 'production' %}
+		<!-- Plausible Analytics -->
+		<script async defer data-domain='tommi.space' src='https://visits.tommi.space/js/index.js'></script>
 
-	{% for me in site.data.accounts %}
-		{% unless me.deleted %}
-			<link rel='me{{ me.attributes }}' href='{{ me.url }}' title='Tommi on {{ me.platform }}'>
-		{% endunless %}
+		<!-- counter.dev Analytics -->
+		<script async defer>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"tommi",utcoffset:"1"}))};sessionStorage.setItem("_swa","1");</script>
+	{% endif %}
+
+	{% assign accounts = site.data.accounts | where_exp: 'account', 'account.deleted == nil and account.url != nil' %}
+	{% for account in accounts %}
+		<link rel='me{{ account.attributes }}' href='{{ account.url }}' title='Tommi on {{ account.platform }}'>
 	{% endfor %}
 
 	<link rel='me pgpkey' href='https://api.protonmail.ch/pks/lookup?op=get&search=surfing@tommi.space'>
-	<link rel='openid.delegate' href='https://tommi.space'>
-	<link rel='openid.server' href='https://openid.indieauth.com/openid'>
-	<link rel='authorization_endpoint' href='https://indieauth.com/auth'>
-	<link rel='token_endpoint' href='https://tokens.indieauth.com/token'>
 
 	{% if page.primary != '#FCC920' %}
 		<style>
