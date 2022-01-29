@@ -16,9 +16,12 @@ _includes/notes_graph.json
 # not shareable content
 copyrighted-content/
 to-publish/
+slides/
 /various
 */copyrighted-content
 */*/copyrighted-content
+*/slides/
+*/*/slides/
 private
 */private
 */*/private
