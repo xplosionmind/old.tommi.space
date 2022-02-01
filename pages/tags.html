@@ -13,7 +13,7 @@ todo:
 			<h2 class='{{ tag.title | remove: ' ' }} title'>{{ tag.title }}</h2>
 			{{ tag.description | markdownify }}
 			{% assign slugtag = tag.title | downcase | remove: ' ' %}
-			{% assign all = site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | sort: "updated" | reverse %}
+			{% assign all = site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | sort: 'updated' | reverse %}
 			<ul class='three'>
 				{% for entry in all %}
 					{% assign thistag = entry.tags | downcase | remove: ' ' | replace: '/', ' ' %}

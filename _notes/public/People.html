@@ -13,9 +13,10 @@ main: true
 	}
 </style>
 
-{% for idol in site.data.people %}
+{% assign people = site.data.people | sort: 'who' %}
+{% for idol in people %}
 	<div class='row'>
-		<h2 class='title'>{{ idol.who }}</h2>
+		<h2 class='center title'>{{ idol.who }}</h2>
 		<a href='{{ idol.url }}'  target='_blank'><figure><picture><img src='{{ idol.img }}' title='{{ idol.who }}' alt='An image portraying {{ idol.who }}'></picture></figure></a>
 		<p lang='{{ idol.lang }}'>{{ idol.note }}</p>
 	</div>
@@ -27,10 +28,12 @@ main: true
 	Notes on this website involving/mentioning/related to people:
 </p>
 <ul>
-	{% for note in site.notes %}
-		{% if note.tags contains 'people' %}
+	{% assign all = site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | where_exp: 'note', 'note.title != page.title' | sort: 'updated' | reverse %}
+	{% for note in all %}
+		{% assign slugtag = note.tags | downcase | remove: ' ' | replace '/', ' ' | join ' ' %}
+		{% if slugtag contains 'people' %}
 			<li>
-				<a href='{{ note.url }}' title='{{ note.title }}' hreflang='{{ note.lang }}'>{{ note.title }}</a> - {% if note.description %}{{ note.description }}{% else %}{{ note.excerpt | strip_html | truncatewords: 30 }}{% endif %}</li>
+				<a href='{{ note.url }}' title='{{ note.title }}' hreflang='{{ note.lang }}'>{{ note.title }}</a> - {% if note.description %}{{ note.description }}{% else %}{{ note.content | strip_html | truncatewords: 30 }}{% endif %}</li>
 			</li>
 		{% endif %}
 	{% endfor %}
