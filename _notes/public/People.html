@@ -30,10 +30,10 @@ main: true
 <ul>
 	{% assign all = site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | where_exp: 'note', 'note.title != page.title' | sort: 'updated' | reverse %}
 	{% for note in all %}
-		{% assign slugtag = note.tags | downcase | remove: ' ' | replace '/', ' ' | join ' ' %}
+		{% assign slugtag = note.tags | downcase | remove: ' ' | replace: '/', ' ' | join: ' ' %}
 		{% if slugtag contains 'people' %}
 			<li>
-				<a href='{{ note.url }}' title='{{ note.title }}' hreflang='{{ note.lang }}'>{{ note.title }}</a> - {% if note.description %}{{ note.description }}{% else %}{{ note.content | strip_html | truncatewords: 30 }}{% endif %}</li>
+				<a href='{{ note.url }}' title='{{ note.title }}' hreflang='{{ note.lang }}'>{{ note.title }}</a> - {% if note.description %}{{ note.excerpt }}{% else %}{{ note.content | strip_html | truncatewords: 30 }}{% endif %}</li>
 			</li>
 		{% endif %}
 	{% endfor %}
