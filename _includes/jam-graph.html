@@ -7,12 +7,13 @@
 	{% endif %}</p>
 	{% comment %}
 	<div id='jekyll-graph'></div>
-	<script type='module'>
+	<script>
 		import JekyllGraph from '/assets/js/jekyll-graph.js';
 		export default class GraphNav extends JekyllGraph {
 			constructor() {
 				super();
 				this.drawNetWeb();
+				this.drawTree();
 				console.log("Test:");
 				console.log(this.graph);
 				console.log(this.graphDiv);

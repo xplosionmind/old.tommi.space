@@ -105,7 +105,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-wikilinks
   - jekyll-commonmark
-  - jekyll-graph
+#  - jekyll-graph
   - jekyll-webmention_io
   - jekyll-minifier
   - jekyll-unique-urls
@@ -119,12 +119,10 @@ sass:
 target-blank:
   rel: external
 
-graph:
-  enabled: true
-  net_web:
-    enabled: true
-  tree:
-    enabled: false
+#graph:
+#  enabled: true
+#  net_web:
+#    enabled: true
 
 markdown: CommonMark
 commonmark:
@@ -226,6 +224,6 @@ defaults:
 
   -
     scope:
-      path: /feeds/
+      path: feeds
     values:
       layout: ~

@@ -1,9 +1,10 @@
 ---
 date: 2021-11-15T12:46:39+01:00
-updated: 2021-12-30T11:59:04+01:00
+updated: 2022-02-02T23:49:12+01:00
 tags: geek/apps geek/idea geek/free help
 description: |
   Concept of an IMDb/TMDb alternative, a fork of <a href='https://joinbookwyrm.org' target='_blank' title='Bookwyrm'>Bookwyrm</a> made for movies.
+toc: false
 ---
 <cite>**Moviewyrm**</cite> is {{ page.description }}
 
@@ -14,9 +15,4 @@ I believe it can be fundamentally identical to Bookwyrm, with some core differen
 - Instead of a <q>want to read</q> label, a <q>Watchlist</q> label.
 - Integration with [Stremio](https://strem.io 'Stremio official website')
 
-<br>
-<br>
-
-I wrote a forum post concerning this:
-
-https://socialhub.activitypub.rocks/t/fediverse-platform-for-movies/
+I opened [this thread](https://socialhub.activitypub.rocks/t/fediverse-platform-for-movies/2202) on the topic on [SocialHub](https://socialhub.activitypub.rocks '“Fediverse platform for Movies!” on SocialHub').

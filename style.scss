@@ -760,7 +760,8 @@ h3 {
 #help {
 	position: fixed;
 	z-index: 7;
-	bottom: -10.5rem;
+	bottom: -16rem;
+	width: 20rem;
 	&:hover {
 		bottom: 0;
 	}
