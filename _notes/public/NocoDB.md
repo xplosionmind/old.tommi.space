@@ -12,3 +12,4 @@ toc: false
 	- importing data and automatically merging duplicates
 	- “append” two tables
 - date importing format
+- adding the cross reference of “link to another value” to the same column (e.g. PIX)
