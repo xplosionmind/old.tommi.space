@@ -1,15 +1,23 @@
 ---
 date: 2021-03-28T19:18:34+02:00
-updated: 2021-03-28T19:18:34+02:00
+updated: 2022-02-06T18:49:07+01:00
 permalink: /tommi-uguale
 aliases: Tommi =, Tommi Uguale
 toc: false
 description: 'Tommi =?'
 lang: it
+descriptions: Elementi di Tommi in altre persone e elementi di altre persone in Tommi
 ---
 {% for p in site.data.tommi-uguale %}
 	<h2>{{ p.name }}</h2>
-	<figure><picture>
-		<img src='{{ p.image }}' title='Tommi come {{ p.name }}' alt='{{ p.description }}'>
-	</picture></figure>
+	<figure>
+		{% if p.src contains 'audio' %}
+			<figcaption>{{ p.description }}</figcaption>
+			<audio controls src='{{ p.src }}'></audio>
+		{% else %}
+			<picture><img src='{{ p.src }}' title='Tommi come {{ p.name }}' alt='{{ p.description }}'></picture>
+		{% endif %}
+	</figure>
+	<br />
+	<br />
 {% endfor %}

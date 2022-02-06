@@ -1,6 +1,6 @@
 ---
 date: 2022-02-05T10:01:54+01:00
-updated: 2022-02-05T12:01:15+01:00
+updated: 2022-02-06T17:47:50+01:00
 location: home
 tags: geek/app wip
 toc: false
@@ -13,3 +13,5 @@ toc: false
 	- “append” two tables
 - date importing format
 - adding the cross reference of “link to another value” to the same column (e.g. PIX)
+- migration to another instance
+	- import/export NocoDB formats
