@@ -1,7 +1,7 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang='{% if page.lang == 'it' %}it{% else %}en{% endif %}' prefix='og: http://ogp.me/ns#' dir='ltr'>
+<html lang='{% case page.lang %}{% when 'it' %}it{% when 'fr' %}fr{% else %}en{% endcase %}' prefix='og: http://ogp.me/ns#' dir='ltr'>
 
 	{% include head.html %}
 
