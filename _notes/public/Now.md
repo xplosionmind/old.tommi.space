@@ -33,7 +33,7 @@ Specifically, my upcoming exams:
 <br>
 <br>
 
-## Scout chief service
+## Serving as Scout Chief
 
 I am currently serving as a scout chief in the <q>Reparto Corona Boreale</q> for the scout group [Mira 1](https://www.facebook.com/AgesciGruppoMira1/ 'Facebook page of Mira 1') in Oriago di Mira (VE).
 

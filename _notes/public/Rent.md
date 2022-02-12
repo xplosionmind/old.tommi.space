@@ -1,6 +1,6 @@
 ---
 date: 2022-01-02T23:12:57+01:00
-updated: 2022-01-03T22:11:25+01:00
+updated: 2022-02-06T23:37:05+01:00
 tags: cinema/film
 toc: false
 description: About the awesome wonderful genius Musical by the awesome wonderful genius <a href='/people#jonathan-larson' target='_blank' title='Jonathan Larson among my favorite people — tommi.space'>Jonathan Larson</a>
@@ -47,6 +47,12 @@ At 1:23:44, like [[Pier Paolo Pasolini]]:
 > Is anyone in the mainstream?  
 > Anyone alive with a sex drive
 
+### Creation
+
+> The opposite of war isn’t peace, it’s creation
+
+What the Pope underscored in <a href='https://www.raiplay.it/video/2022/02/Sua-Santita-Papa-Francesco---Che-Tempo-Che-Fa-06022022-b952f77e-474f-4d8b-bba2-153e49b646e3.html' target='_blank' title='Intervista a Papa Francesco - Che Tempo Che Fa' hreflang='it'>his interview</a> at minute 10.
+
 <br>
 <br>
 
@@ -58,4 +64,3 @@ Mimi and Roger (1:40:40) as Dolores and Andrea in *[[Santa Maradona]]*
 > <q>It doesn’t matter</q>
 > <q>It was before I met you…</q>
 > <q>I don’t care</q>
-

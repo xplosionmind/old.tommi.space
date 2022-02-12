@@ -1,6 +1,6 @@
 ---
 date: 2020-08-04T02:00:00+02:00
-updated: 2021-12-17T13:16:54+01:00
+updated: 2022-02-08T12:45:49+01:00
 tags: geek
 permalink: /bugs
 redirect_from: [/feature-requests, /bugs-and-feature-requests]
@@ -62,6 +62,21 @@ Improvements and bugs of iOS which I notice while using my iPhone. [iPhone feedb
 [Signal](https://signal.org 'Signal official website') is the most secure and private messaging app in the world
 
 - setting to choose to automatically download media and add to Library
+- grouping messages according to what reactions are added to them so that it is easy to get back to them later (for example: when I react to a message with the eyes, I can go to a section where I can check all of the messages with eyes reaction, regardless of the chat)
+
+<br>
+<br>
+
+## Element
+
+- grouping messages according to what reactions are added to them so that it is easy to get back to them later (for example: when I react to a message with the eyes, I can go to a section where I can check all of the messages with eyes reaction, regardless of the chat)
+
+<br>
+<br>
+
+## Telegram
+
+- grouping messages according to what reactions are added to them so that it is easy to get back to them later (for example: when I react to a message with the eyes, I can go to a section where I can check all of the messages with eyes reaction, regardless of the chat)
 
 <br>
 <br>
