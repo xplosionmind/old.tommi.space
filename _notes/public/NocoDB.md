@@ -1,6 +1,6 @@
 ---
 date: 2022-02-05T10:01:54+01:00
-updated: 2022-02-08T12:38:51+01:00
+updated: 2022-02-12T21:05:28+01:00
 location: home
 tags: geek/app wip
 toc: false
@@ -15,4 +15,4 @@ toc: false
 - adding the cross reference of “link to another value” to the same column (e.g. PIX)
 - migration to another instance
 	- import/export NocoDB formats
-- How to update NocoDB on Heroku
+- Filter out sensitive columns in certain views

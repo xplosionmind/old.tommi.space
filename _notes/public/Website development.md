@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-01-27T15:13:42+01:00
+updated: 2022-02-12T12:24:55+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -29,11 +29,6 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, [looping through](https://talk.jekyllrb.com/t/loop-through-all-pages-of-the-website/6880 'Loop through ALL pages in a website - Jekyll Talk') the last few pages updated recently (based on `page.updated`)
 1. Improve search
-	- [Lunr](https://lunrjs.com 'Lunr')
-		- [jekyll-lunr](https://0xacab.org/sutty/jekyll/jekyll-lunr 'jekyll-lunr on GitHub')
-	- [Stork](https://stork-search.net/ 'Stork search')
-		- [jekyll-stork](https://0xacab.org/sutty/jekyll/jekyll-stork 'jekyll-stork plugin')
-	- [a simpler and lighter search service](https://project-awesome.org/agarrharr/awesome-static-website-services#search 'Awesome Static Websites Services - Search')
 1. Self-hosted analytics
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
 14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 'jekyll-paginate on GitHub') and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ 'jekyll-csv on GitHub')
