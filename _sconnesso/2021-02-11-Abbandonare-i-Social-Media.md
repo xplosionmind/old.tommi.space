@@ -8,7 +8,7 @@ permalink: /sconnesso/quitsocialmedia
 redirect_from: ["/sconnesso/qsm", "/sconnesso/abbandonare-i-social-media", "/sconnesso/abbandonare-i-social", "/sconnesso/abbandonare-social"]
 image: "https://quitsocialmedia.club/logos/qsm.png"
 ---
-[quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") è il sito web attorno a cui ruota questo episodio, in particolare, viene letta la pagina “[Perché]({{ "https://quitsocialmedia.club/perché" | uri_escape }} "Perché - quitsocialmedia.club")”.
+[quitsocialmedia.club](https://quitsocialmedia.club "Quit Social Media") è il sito web attorno a cui ruota questo episodio, in particolare, viene letta la pagina “[Perché]({{ "https://quitsocialmedia.club/perché" | url_encode }} "Perché - quitsocialmedia.club")”.
 
 Un ringraziamento ai favolosi lettori: Sveva, Alessandro, Michela, Luca, Meggie, Livia, Marta e Matto.
 

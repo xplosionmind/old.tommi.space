@@ -3,7 +3,6 @@ permalink: /it/everyone
 redirect_from: [/everyone-it,/everyone/it]
 title: Everyone, il cortometraggio
 ref: Everyone
-layout: none
 lang: it
 image: https://tommi.space/images/everyone.jpg
 description: Un assonnato stanco dolce coccoloso cortometraggio che sbadiglia 🥱, sull’amore e sulle nonne e sui cuscini e sul pigiama e… 😴
@@ -11,9 +10,6 @@ description: Un assonnato stanco dolce coccoloso cortometraggio che sbadiglia �
 <!DOCTYPE html>
 <html lang='it'>
 <head>
-
-	{% seo %}
-
 	<meta charset='UTF-8'>
 	<link href='/style.css' type='text/css' rel='stylesheet'>
 <link rel='stylesheet' type='text/css' href='/Everyone.css'>
@@ -22,6 +18,7 @@ description: Un assonnato stanco dolce coccoloso cortometraggio che sbadiglia �
 <link rel='icon' href='{{ site.logos }}/favicon64.png' sizes='64x64'>
 <link rel='icon' href='{{ site.logos }}/favicon.png' sizes='160x160'>
 	<title>{{ page.title }}</title>
+	{% comment %}FIX {% seo %}{% endcomment %}
 </head>
 
 <a href='/home' target='_blank' class='button tool'>home</a>

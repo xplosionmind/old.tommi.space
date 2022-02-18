@@ -1,12 +1,12 @@
 ---
 date: 2020-05-11T02:00:00+02:00
-updated: 2021-12-15T23:24:39+01:00
+updated: 2022-02-18T16:46:45+01:00
 tags: reading/book
 lang: it
 permalink: /jack-frusciante
 redirect_from: ["/jack-frusciante-note", "/jack-frusciante-notes", "/jack-frusciante-quotes", "/brizzi-frusciante"]
 ---
-[Enrico Brizzi](https://it.wikipedia.org/wiki/Enrico_Brizzi "Enrico Brizzi su Wikipedia") aveva la mia età quando scrisse <cite><a href="{{ "https://it.wikipedia.org/wiki/Jack_Frusciante_è_uscito_dal_gruppo" | uri_escape }}"  target="_blank">Jack Frusciante è uscito dal gruppo</a></cite>. Volevo capire quanto quello che aveva nella testa corrisponda a quello che ho io ora, perciò ho stilato una lista di tutte le reference, le citazioni, le persone e i personaggi citati nel libro, così come [le parole](#vocabolario "Vocabolario di Jack Frusciante è uscito dal gruppo") che Brizzi ha scelto.
+[Enrico Brizzi](https://it.wikipedia.org/wiki/Enrico_Brizzi "Enrico Brizzi su Wikipedia") aveva la mia età quando scrisse <cite><a href="{{ "https://it.wikipedia.org/wiki/Jack_Frusciante_è_uscito_dal_gruppo" | url_encode }}"  target="_blank">Jack Frusciante è uscito dal gruppo</a></cite>. Volevo capire quanto quello che aveva nella testa corrisponda a quello che ho io ora, perciò ho stilato una lista di tutte le reference, le citazioni, le persone e i personaggi citati nel libro, così come [le parole](#vocabolario "Vocabolario di Jack Frusciante è uscito dal gruppo") che Brizzi ha scelto.
 
 - Madness
 - Specials

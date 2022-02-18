@@ -13,8 +13,7 @@ primary: var(--green)
 
 	<div class='row'>
 		<div class='one column'>
-			{% assign filinge = site.filinge | reverse %}
-			{% for post in filinge %}
+			{% for post in filinge reversed %}
 				<a href='{{ post.url }}'>
 					<div class='preview box'>
 						<h2 class='title'>{{ post.title }}</h2>

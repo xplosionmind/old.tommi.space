@@ -3,8 +3,9 @@ title: Zibaldone
 lang: it
 permalink: /zibaldone
 pagination:
-  enabled: true
-  permalink: '/:num/'
+  data: collections.post
+  size: 6
+  alias: posts
 ---
 <section class='center row'>
 	<h1>Zibaldone</h1>
@@ -23,7 +24,7 @@ pagination:
 </div>
 	
 <div class='zibaldone flex row'>
-	{% for entry in paginator.posts %}
+	{% for entry in posts %}
 		<div class='one-third'>
 			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.lang }}' lang='{{ entry.lang }}'>
 				<img src='{{ entry.image }}' alt='{{ entry.title }}' title='{{ entry.title }}'>

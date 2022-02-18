@@ -1,3 +1,8 @@
+# Eleventy stuff
+node_modules
+dist
+.env
+
 # Private notes
 _notes/private/
 _notes/university
@@ -7,7 +12,7 @@ _data/private/
 
 # Obsidian
 _notes/templates
-_notes/.obsidian
+*/obsidian*.css
 
 # Notes graph metadata
 _includes/notes_graph.json
@@ -16,12 +21,9 @@ _includes/notes_graph.json
 # not shareable content
 copyrighted-content/
 to-publish/
-slides/
 /various
 */copyrighted-content
 */*/copyrighted-content
-*/slides/
-*/*/slides/
 private
 */private
 */*/private

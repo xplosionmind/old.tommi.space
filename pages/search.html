@@ -5,8 +5,7 @@ description: look for anything in tommi.space
 ---
 <script src='https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js'></script>
 <script>
-{% assign all = site.notes | concat: site.posts | concat: site.poetry | concat: site.filinge | sort: 'date' | reverse %}
-var documents = [{% for entry in all %}{
+var documents = [{% for entry in collections.all reversed %}{
     'id': {% increment id %},
     'url': '{{ entry.url | absolute_url }}',
     'title': '{{ entry.title }}',

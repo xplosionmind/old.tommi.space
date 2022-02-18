@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-02-12T12:24:55+01:00
+updated: 2022-02-18T17:00:29+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -230,6 +230,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 - Use [**`flex`**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 'A guide to flexbox on GSS Tricks')
 - Telegram comments: `<script async src='https://comments.app/js/widget.js?3' data-comments-app-website='bfg-ZXp6' data-limit='5' data-color='FCC920' data-dark='1'></script>` - ❌ 2021.03.26 not working! Also: probably the script works only for individual domains, not for every page.
 - [implement side-notes](https://www.kooslooijesteijn.net/blog/sidenotes-without-js) ❌ decided not to implement it (for the moment). See [Website log: sidenotes](/meta#sidenotes)
+
 
 [ActivityPub]: https://activitypub.rocks/ 'ActivityPub'
 [tags]: /tags 'The Tags Bible'

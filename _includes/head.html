@@ -5,8 +5,6 @@
 	<meta name='color-scheme' content='dark light'>
 	<link rel='stylesheet' href='/style.css' type='text/css'>
 
-	{% seo %}
-
 	<link rel='icon' href='/logos/favicon.png' type='image/png'>
 	<link rel='apple-touch-icon' sizes='120x120' href='/logos/favicon-120.png' type='image/png'>
 	<link rel='apple-touch-icon' sizes='152x152' href='/logos/favicon-152.png' type='image/png'>
@@ -29,7 +27,6 @@
 	{% endif %}
 
 	<!-- IndieAuth + IndieWeb -->
-	{% webmentions_head %}
 	<link rel='microsub' href='https://aperture.p3k.io/microsub/571'>
 	<link rel='openid.delegate' href='https://tommi.space'>
 	<link rel='openid.server' href='https://openid.indieauth.com/openid'>
@@ -81,4 +78,7 @@
 	<link rel='alternate' type='application/atom+xml' title='{% if page.lang == "it"%}feed marmellata{% else %}notes feed{% endif %}' href='/feeds/jam.xml' hreflang='en'>
 	<link rel='alternate' type='application/rss+xml' title='{% if page.lang == "it"%}Sconnesso{% else %}Sconnesso podcast{% endif %}' href='/feeds/sconnesso.xml' hreflang='it'>
 	<link rel='alternate' type='application/rss+xml' title='Internet Awesomeness feed' href='/feeds/interner-awesomeness.xml' hreflang='en'>
+
+	{% comment %}FIX {% seo %}{% endcomment %}
+
 </head>
