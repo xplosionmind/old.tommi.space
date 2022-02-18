@@ -33,7 +33,7 @@ main: true
 		{% assign slugtag = note.tags | downcase | remove: ' ' | replace: '/', ' ' | join: ' ' %}
 		{% if slugtag contains 'people' %}
 			<li>
-				<a href='{{ note.url }}' title='{{ note.title }}' hreflang='{{ note.lang }}'>{{ note.title }}</a> - {% if note.description %}{{ note.excerpt }}{% else %}{{ note.content | strip_html | truncatewords: 30 }}{% endif %}</li>
+				<a href='{{ note.url }}' title='{{ note.title }}' hreflang='{{ note.lang }}'>{{ note.title }}</a> - {% if note.description %}{{ note.description }}{% else %}{{ note.content | markdownify | strip_html | truncatewords: 30 }}{% endif %}</li>
 			</li>
 		{% endif %}
 	{% endfor %}
