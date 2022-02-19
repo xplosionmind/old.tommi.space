@@ -9,7 +9,7 @@
 	<body class='full'>
 		<a class='vertical flex' href='{{ page.link }}'>
 			<h1>{{ page.title }}</h1>
-			{{ content | markdownify }}
+			{% comment %}FIX{{ content | markdownify }}{% endcomment %}
 		</a>
 	</body>
 </html>

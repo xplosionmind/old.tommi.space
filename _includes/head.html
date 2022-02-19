@@ -17,14 +17,14 @@
 	<meta name='apple-mobile-web-app-capable' content='yes'>
 	<meta name='theme-color' content='{{ page.primary }}'>
 	<meta property='og:type' content='website'>
-	{%- if page.date %}<meta property='og:article:published_time' content='{{ page.date | date_to_xmlschema }}'>{% endif %}
-	<meta property='article:modified_time' content='{% if page.updated %}{{ page.updated }}{% else %}{{ page.last_modified_at | date_to_xmlschema }}{% endif %}'>
+	{%- if page.date %}<meta property='og:article:published_time' content='{{ page.date | 'date_to_xmlschema' }}'>{% endif %}
+	<meta property='article:modified_time' content='{% if page.updated %}{{ page.updated }}{% else %}{{ page.last_modified_at | 'date_to_xmlschema' }}{% endif %}'>
 	<meta name='twitter:card' content='{% if page.image %}summary_large_image{% else %}summary{% endif %}'>
-	{% if page.ref %}
+	{% comment %}FIX{% if page.ref %}
 		{% assign alternate = site.pages | concat: site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | where_exp: "entry", "entry.lang != page.lang" | find: "ref", page.ref %}
 		<meta property='og:locale:alternate' content='{{ alternate.lang }}'>
 		<link rel='alternate' hreflang='{{ alternate.lang }}' href='{{ alternate.url }}'>
-	{% endif %}
+	{% endif %}{% endcomment %}
 
 	<!-- IndieAuth + IndieWeb -->
 	<link rel='microsub' href='https://aperture.p3k.io/microsub/571'>
@@ -56,10 +56,10 @@
 		<script async defer>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"tommi",utcoffset:"1"}))};sessionStorage.setItem("_swa","1");</script>
 	{% endif %}
 
-	{% assign accounts = site.data.accounts | where_exp: 'account', 'account.deleted == nil and account.url != nil' %}
+	{% comment %}{% assign accounts = site.data.accounts | where_exp: 'account', 'account.deleted == nil and account.url != nil' %}
 	{% for account in accounts %}
 		<link rel='me{{ account.attributes }}' href='{{ account.url }}' title='Tommi on {{ account.platform }}'>
-	{% endfor %}
+	{% endfor %}{% endcomment %}
 
 	<link rel='me pgpkey' href='https://api.protonmail.ch/pks/lookup?op=get&search=surfing@tommi.space'>
 

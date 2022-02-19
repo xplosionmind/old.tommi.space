@@ -12,13 +12,13 @@ layout: wrapper
 					{% endif %}
 				{% endfor %}
 			{% endif %}
-			<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>{% include date-it.html %}</time>
+			<time class='dt-published' datetime='{{ page.date | 'date_to_xmlschema' }}'>{% render 'date-it.html' %}</time>
 			 — Episodio {{ page.episode }}
 		</p>
 		<a class='p-author h-card' rel='author' href='/about'>{{ site.author.name }}</a>
 	</section>
 
-	{% include post-tags.html %}
+	{% render 'post-tags.html' %}
 
 	<div class='row'>
 		<article class='e-content'>
@@ -28,13 +28,13 @@ layout: wrapper
 			</audio>
 
 			{% capture content_with_ids %}
-				{% include anchor-parser.html html=content anchorClass='anchor' generateId=true %}
+				{% render 'anchor-parser.html', html: 'content', anchorClass='anchor' generateId=true %}
 			{% endcapture %}
 
 			{% if page.toc %}
 				<div id='toc'>
 					<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-					{% include toc.html html=content_with_ids %}
+					{% render toc.html html=content_with_ids %}
 				</div>
 			{% endif %}
 			{{ content_with_ids }}
@@ -45,19 +45,19 @@ layout: wrapper
 
 <div class='row'>
 	<div class='half column'>
-		{% include share.html %}
+		{% render share.html %}
 	</div>
 	<div class='half column'>
-		{% include listen-on.html %}
+		{% render listen-on.html %}
 	</div>
 </div>
 
 <div class='row'>
 	<div class='half column'>
-		{% include backlinks.html %}
+		{% render backlinks.html %}
 	</div>
 	<div class='half column'>
-		{% include comments.html %}
+		{% render comments.html %}
 	</div>
 </div>
 

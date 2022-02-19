@@ -12,10 +12,10 @@ layout: large
 </style>
 <div class='row'>
 	<div class='one-third column'>
-		{% include lang-filter.html %}
+		{% render 'lang-filter.html' %}
 	</div>
 	<div class='two-thirds column'>
-		{% include tags.html %}
+		{% render 'tags.html' %}
 	</div>
 </div>
 <div class='grid'>
@@ -25,7 +25,7 @@ layout: large
 			<div class='vertical flex box'>
 				<h3>{{ note.title }}</h3>
 				{% if note.description %}
-					<p>{{ note.description | markdownify | strip_html | truncatewords: 30 }}</p>
+					<p>{% comment %}FIX{{ note.description | markdownify | strip_html | truncatewords: 30 }}{% endcomment %}</p>
 				{% else %}
 					<p>{{ note.excerpt | strip_html | truncatewords: 30 }}</p>
 				{% endif %}

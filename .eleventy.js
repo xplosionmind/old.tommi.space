@@ -1,6 +1,8 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 //const pluginSeo = require('eleventy-plugin-seo');
 const pluginRss = require('@11ty/eleventy-plugin-rss')
+const markdownIt = require('markdown-it')
+const markdownItRenderer = new markdownIt()
 
 module.exports = function (eleventyConfig) {
   return {
@@ -13,7 +15,6 @@ module.exports = function (eleventyConfig) {
    // Liquid //
   //********//
   eleventyConfig.setLiquidOptions({
-    dynamicPartials: false,
     strictVariables: false,
     strictFilters: false,
     jekyllInclude: true
@@ -22,6 +23,9 @@ module.exports = function (eleventyConfig) {
     const arr = [...collection];
     return arr.reverse();
   });
+  eleventyConfig.addFilter('markdownify', (str) => {
+    return markdownItRenderer.renderInline(str)
+  })
 
     //*********//
    // Plugins //

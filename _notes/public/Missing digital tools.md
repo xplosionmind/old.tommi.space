@@ -11,5 +11,5 @@ updated: 2022-02-02T23:42:49+01:00
 ---
 {{ page.description }}
 
-{% assign notes = site.notes | where_exp: "note", "note.tags contains 'geek/idea'" | sort: 'updated' | reverse %}
-<ul>{% for note in notes %}<li id='{{ note.title | slugify }}'><strong><a href='{{ note.url }}' title='{{ note.title }}'>{{ note.title }}</a></strong>: {% if note.description %}{{ note.description}}{% else %}{{ note.content | markdownify | strip_html | truncatewords: 30 }}{% endif %}</li>{% endfor %}</ul>
+{% comment %}FIX{% assign notes = site.notes | where_exp: "note", "note.tags contains 'geek/idea'" | sort: 'updated' | reverse %}
+<ul>{% for note in notes %}<li id='{{ note.title | slugify }}'><strong><a href='{{ note.url }}' title='{{ note.title }}'>{{ note.title }}</a></strong>: {% if note.description %}{{ note.description}}{% else %}{{ note.content | markdownify | strip_html | truncatewords: 30 }}{% endif %}</li>{% endfor %}</ul>{% endcomment %}

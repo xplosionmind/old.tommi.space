@@ -10,7 +10,7 @@ description: A collection of wonderful failures of my foolish attempt at drawing
 ---
 <h1>{{ page.title }}</h1>
 <article class='serif' style='padding-top:0;text-align:center;'>
-	{{ page.description | markdownify }}
+	{% comment %}FIX{{ page.description | markdownify }}{% endcomment %}
 	{% assign poetry = site.poetry | sort: 'date' | reverse %}
 	<ul>{% for poem in poetry %}
 		<li><a href='{{ poem.url }}' title='{{ poem.title }}'>{{ poem.title }}</a></li>

@@ -7,9 +7,9 @@ title: All of Tommi’s craziness
 	<description>{{ "All of the <a href='https://tommi.space/zibenglish' target='_blank' title='Tommi’s blog'>posts</a>, <a href='https://tommi.space/jam' target='_blank' title='The whole Jam: all of Tommi’s notes'>notes</a>, <a href='https://tommi.space/poetry' target='_blank' title='Tommi’s poems'>poems</a>, <a href='https://tommi.space/sconnesso' target='_blank' title='“Sconnesso„ - Tommi’s podcast'>podcast episodes</a>, <a href='https://tommi.space/jam' target='_blank' title='The Jam'>Jam</a> ingredients, thoughts, ice creams, hairdryers, apples, and bananas published on tommi.space" | xml_escape }}</description>
 	<link>{{ site.url }}</link>
 	{% assign all = site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | sort: 'date' | sort: 'updated' | reverse %}
-	<lastBuildDate>{% for entry in all limit:1 %}{{ entry.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
+	<lastBuildDate>{% for entry in all limit:1 %}{{ entry.date | 'date_to_rfc822' }}{% endfor %}</lastBuildDate>
 	<image>
-		<url>{{ site.image | absolute_url }}</url>
+		<url>{{ site.image | prepend: 'https://tommi.space' }}</url>
 		<title>{{ page.title }}</title>
 		<link>{{ site.url }}</link>
 	</image>
@@ -21,10 +21,10 @@ title: All of Tommi’s craziness
 		{% unless entry.path contains 'redirect.html' %}
 			<item>
 				<title>{{ entry.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
-			    <pubDate>{{ entry.date | date_to_rfc822 }}</pubDate>
+			    <pubDate>{{ entry.date | 'date_to_rfc822' }}</pubDate>
 				<description>{{ entry.content | replace: '"/', '"https://tommi.space/' | replace: "'/", "'https://tommi.space/" | xml_escape | strip_newlines }}</description>
-				<link>{{ entry.url | absolute_url }}</link>
-				<guid isPermaLink='true'>{{ entry.url | absolute_url }}</guid>
+				<link>{{ entry.url | prepend: 'https://tommi.space' }}</link>
+				<guid isPermaLink='true'>{{ entry.url | prepend: 'https://tommi.space' }}</guid>
 			</item>
 		{% endunless %}
 	{% endfor %}

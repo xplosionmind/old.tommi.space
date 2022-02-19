@@ -12,7 +12,7 @@ Webrings this website belongs to:
 <ul>
 	{% for w in site.data.webrings %}
 		{% if w.joined %}
-			<li><a href='{{ w.url }}' target='_blank' title='{{ w.name }}'>{{ w.name }}</a>, joined on {{ w.joined | date_to_long_string }}</li>
+			<li><a href='{{ w.url }}' target='_blank' title='{{ w.name }}'>{{ w.name }}</a>, joined on {{ w.joined | date: '%d %B %Y' }}</li>
 		{% endif %}
 	{% endfor %}
 </ul>
@@ -24,6 +24,6 @@ Webrings I am interested in:
 
 <ul>
 	{% for w in site.data.webrings %}
-		<li><a href='{{ w.url }}' target='_blank' title='{{ w.name }}'>{{ w.name }}</a>, joined on {{ w.joined | date_to_long_string }}</li>
+		<li><a href='{{ w.url }}' target='_blank' title='{{ w.name }}'>{{ w.name }}</a>, joined on {{ w.joined | date: '%d %B %Y' }}</li>
 	{% endfor %}
 </ul>

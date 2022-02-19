@@ -7,10 +7,10 @@ description: look for anything in tommi.space
 <script>
 var documents = [{% for entry in collections.all reversed %}{
     'id': {% increment id %},
-    'url': '{{ entry.url | absolute_url }}',
+    'url': '{{ entry.url | prepend: 'https://tommi.space' }}',
     'title': '{{ entry.title }}',
     'lang': '{{ entry.lang }}',
-    'body': {{ entry.content | markdownify | strip_html | strip_newlines | jsonify }}
+    {% comment %}FIX'body': {{ entry.content | markdownify | strip_html | strip_newlines | jsonify }}{% endcomment %}
     }{% unless forloop.last %}, {% endunless %}{% endfor %}];
 
 var idx = lunr(function () {

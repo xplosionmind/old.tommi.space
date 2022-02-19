@@ -12,9 +12,9 @@ todo:
 	{% for giro in site.data.giri %}
 		<li>
 			{% if giro.start %}
-				Da {{ giro.start | date_to_string }} a {{ giro.end | date_to_string }}, 
+				Da {{ giro.start | date: '%d %B %Y' }} a {{ giro.end | date: '%d %B %Y' }}, 
 			{% else %}
-				{{ giro.end | date_to_string }}, 
+				{{ giro.end | date: '%d %B %Y' }}, 
 			{% endif %}
 			{% if giro.url %}
 				<a href="{{ giro.url }}" target="_blank" title="{{ giro.title }}">{{ giro.title }}</a>, 

@@ -22,6 +22,6 @@ todo:
 	{% assign awesomeness = site.data.internet-awesomeness | sort: 'added' | reverse %}
 	{% for web in awesomeness %}
 		<li>
-			<a href='{{ web.url }}' target='_blank' title='{% if web.title %}{{ web.title }}'>{{ web.title }}{% else %}{{ web.url | remove: 'https://' }}'>{{ web.url | remove: 'https://' }}{% endif %}</a>: {{ web.description }} — <time datetime='{{ web.added | date_to_xmlschema }}'>{{ web.added | date_to_long_string }}</time></li>
+			<a href='{{ web.url }}' target='_blank' title='{% if web.title %}{{ web.title }}'>{{ web.title }}{% else %}{{ web.url | remove: 'https://' }}'>{{ web.url | remove: 'https://' }}{% endif %}</a>: {{ web.description }} — <time datetime='{{ web.added | 'date_to_xmlschema' }}'>{{ web.added | date: '%d %B %Y' }}</time></li>
 	{% endfor %}
 </ul>

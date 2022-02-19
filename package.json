@@ -20,7 +20,8 @@
   "devDependencies": {
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.3",
-    "eleventy-plugin-seo": "^0.5.2"
+    "eleventy-plugin-seo": "^0.5.2",
+    "markdown-it": "^12.3.2"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
@@ -184,7 +185,6 @@
     "lru-cache": "^4.1.5",
     "luxon": "^1.28.0",
     "map-cache": "^0.2.2",
-    "markdown-it": "^10.0.0",
     "maximatch": "^0.1.0",
     "mdurl": "^1.0.1",
     "merge2": "^1.4.1",

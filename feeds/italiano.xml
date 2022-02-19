@@ -8,9 +8,9 @@ description: Tutti i contenuti in italiano da <a href='https://tommi.space' targ
 	<description>{{ page.description | xml_escape }}</description>
 	<link>{{ site.url }}/tuffo</link>
 	{% assign all = site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | where: 'lang', 'it' | sort: 'date' | sort: 'updated' | reverse %}
-	<lastBuildDate>{% for entry in all limit:1 %}{{ entry.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
+	<lastBuildDate>{% for entry in all limit:1 %}{{ entry.date | 'date_to_rfc822' }}{% endfor %}</lastBuildDate>
 	<image>
-		<url>{{ site.image | absolute_url }}</url>
+		<url>{{ site.image | prepend: 'https://tommi.space' }}</url>
 		<title>{{ page.title }}</title>
 		<link>{{ site.url }}/tuffo</link>
 	</image>
@@ -22,11 +22,11 @@ description: Tutti i contenuti in italiano da <a href='https://tommi.space' targ
 		{% unless page.path contains 'redirect.html' %}
 			<item>
 				<title>{{ entry.title | xml_escape }}</title>
-				<pubDate>{{ entry.date | date_to_rfc822 }}</pubDate>
+				<pubDate>{{ entry.date | 'date_to_rfc822' }}</pubDate>
 				<description>{{ entry.content | replace: '"/', '"https://tommi.space/' | replace: "'/", "'https://tommi.space/" | xml_escape | strip_newlines }}</description>
 </description>
-				<link>{{ entry.url | absolute_url }}</link>
-				<guid isPermaLink='true'>{{ entry.url | absolute_url }}</guid>
+				<link>{{ entry.url | prepend: 'https://tommi.space' }}</link>
+				<guid isPermaLink='true'>{{ entry.url | prepend: 'https://tommi.space' }}</guid>
 			</item>
 		{% endunless %}
 	{% endfor %}

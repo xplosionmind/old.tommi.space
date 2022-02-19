@@ -11,16 +11,16 @@ ref: home
 	<br>Buon divertimento.</p>
 </section>
 
-{% include about.html %}
+{% render 'about.html' %}
 
-{% include scambi.html %}
+{% render 'scambi.html' %}
 
 <div class='row'>
-	{% include quitsocialmedia.html %}
-	{% include sconnesso.html %}
+	{% render 'quitsocialmedia.html' %}
+	{% render 'sconnesso.html' %}
 </div>
 
-{% include latest-post.html %}
+{% render 'latest-post.html' %}
 
 <div class='row'>
 	<div class='half column'>

@@ -13,7 +13,7 @@ description: Uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi 
 		<h1>{{ site.podcast.title }}</h1>
 		<p>{{ site.podcast.description }}</p>
 
-		{% include listen-on.html %}
+		{% render 'listen-on.html' %}
 
 	</section>
 
@@ -22,7 +22,7 @@ description: Uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi 
 			<a href='{{ episode.url }}'>
 				<div class='flex box'>
 					<h2>{{ episode.title }}</h2>
-					<p class='right'>{{ episode.date | date_to_long_string }}</p>
+					<p class='right'>{{ episode.date | date: '%d %B %Y' }}</p>
 				</div>
 			</a>
 		</div>

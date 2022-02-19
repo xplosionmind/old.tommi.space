@@ -11,7 +11,7 @@ todo:
 	<div class='row'>
 		<div id='{{ tag.title | remove: ' ' }}' class='tag box'>
 			<h2 class='{{ tag.title | remove: ' ' }} title'>{{ tag.title }}</h2>
-			{{ tag.description | markdownify }}
+			{% comment %}FIX{{ tag.description | markdownify }}{% endcomment %}
 			{% assign slugtag = tag.title | downcase | remove: ' ' %}
 			{% assign all = site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | sort: 'updated' | reverse %}
 			<ul class='three'>

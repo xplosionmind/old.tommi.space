@@ -26,11 +26,11 @@ image: /logos/jam.png
 
 <p>Every single element in The Jam is connected to at least another one: at the end of every note, in the <strong><a href='#backlinks' target='_blank' title='This note’s backlinks'>backlinks</a></strong>, are listed all of the pages which link to the current one.</p>
 
-{% include tags.html %}
+{% render 'tags.html' %}
 
 <div class='row'>
 	<div class='half column'>
-		{% include lang-filter.html %}
+		{% render 'lang-filter.html' %}
 	</div>
 	<div class='half column flex'>
 		<a class='red button' style='color:white;' href='/whole-jam'  target='_blank' title='The Whole Jam'>The whole Jam</a>

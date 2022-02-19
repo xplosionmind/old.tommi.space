@@ -11,7 +11,7 @@
 			<li>{% if page.lang == 'it' %}<a href='/cose' title='cose'>Cose{% else %}<a href='/stuff' title='Stuff'>Stuff{% endif %}</a></li>
 			<li>{% if page.lang == 'it' %}<a href='/marmellata' title='La Marmellata'>Marmellata{% else %}<a href='/jam' title='The Jam'>The Jam{% endif %}</a></li>
 			<li><a href='/search' title='Search'>🔍</a>
-			{% if page.ref %}
+			{% comment %}{% if page.ref %}
 				{% assign alternate = site.pages | concat: site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | where_exp: "entry", "entry.lang != page.lang" | find: "ref", page.ref %}
 				<li class='dropdown'>
 					<label for='langtoggle' title='language selector'>🌍</label>
@@ -20,7 +20,7 @@
 						<li><a rel='alternate' href='{{ alternate.url }}' hreflang='{{ alternate.lang }}' title='{{ alternate.title }}'>{% if alternate.lang == 'it' %}🇮🇹{% elsif alternate.lang == 'en' %}🇬🇧{% else %}{{ alternate.lang }}{% endif %}</a></li>
 					</ul>
 				</li>
-			{% endif %}
+			{% endif %}{% endcomment %}
 		</ul>
 	</nav>
 </header>

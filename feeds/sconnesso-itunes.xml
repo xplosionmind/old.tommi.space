@@ -10,9 +10,9 @@ title: Sconnesso
 		<link>{{ site.podcast.link }}</link>
 		<itunes:author>{{ site.podcast.author }}</itunes:author>
 		<itunes:email>{{ site.podcast.email }}</itunes:email>
-		<itunes:image href='{{ site.podcast.logo | absolute_url }}'/>
+		<itunes:image href='{{ site.podcast.logo | prepend: 'https://tommi.space' }}'/>
 		<image>
-			<url>{{ site.podcast.logo | absolute_url }}</url>
+			<url>{{ site.podcast.logo | prepend: 'https://tommi.space' }}</url>
 			<title>Sconnesso</title>
 			<link>{{ site.url }}</link>
 		</image>
@@ -42,21 +42,21 @@ title: Sconnesso
 			<itunes:episodeType>{{ episode.episodeType }}</itunes:episodeType>
 			<itunes:explicit>{{ episode.explicit }}</itunes:explicit>
 			{% if page.image != nil %}
-			<itunes:image href='{{ page.image | absolute_url }}' />
+			<itunes:image href='{{ page.image | prepend: 'https://tommi.space' }}' />
 				<image>
-					<url>{{ page.image | absolute_url }}</url>
+					<url>{{ page.image | prepend: 'https://tommi.space' }}</url>
 					<title>{{ episode.title }}</title>
-					<link>{{ site.url | absolute_url }}</link>
+					<link>{{ site.url | prepend: 'https://tommi.space' }}</link>
 				</image>
 			{% endif %}
-			<link>{{ episode.url | absolute_url }}</link>
-			<pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
+			<link>{{ episode.url | prepend: 'https://tommi.space' }}</link>
+			<pubDate>{{ episode.date | 'date_to_rfc822' }}</pubDate>
 			<itunes:keywords>
 				{{ episode.tags | join: ', ' | xml_escape }}
 			</itunes:keywords>
 			<itunes:duration>{{ episode.length | xml_escape }}</itunes:duration>
 			<guid isPermaLink='true'>{{ site.url }}{{ episode.url }}</guid>
-			<enclosure url='{{ episode.audio | absolute_url }}' length='{{ episode.length | xml_escape }}' type='audio/wav' />
+			<enclosure url='{{ episode.audio | prepend: 'https://tommi.space' }}' length='{{ episode.length | xml_escape }}' type='audio/wav' />
 			<itunes:summary>
 				{{ episode.content | xml_escape | strip_newlines }}
 			</itunes:summary>

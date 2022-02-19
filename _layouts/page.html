@@ -3,7 +3,7 @@ layout: wrapper
 ---
 <main class='h-entry'>
 	<section class='row center'>
-		<a class='u-uid u-url' href='{{ page.url | absolute_url }}'><h1 class='p-name'>{{ page.title }}</h1></a>
+		<a class='u-uid u-url' href='{{ page.url | prepend: 'https://tommi.space' }}'><h1 class='p-name'>{{ page.title }}</h1></a>
 		{% if page.subtitle %}
 			<h2>{{ page.subtitle }}</h2>
 		{% endif %}
@@ -11,7 +11,7 @@ layout: wrapper
 		</p>
 
 		{% capture content_with_ids %}
-			{% include anchor-parser.html html=content anchorClass='anchor' generateId=true %}
+			{% render 'anchor-parser.html', html: 'content', anchorClass: 'anchor', generateId: 'true' %}
 		{% endcapture %}
 	</section>
 
@@ -21,7 +21,7 @@ layout: wrapper
 				{% if page.toc %}
 					<div id='toc'>
 						<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-						{% include toc.html html=content_with_ids skip_no_ids=true %}
+						{% render 'toc.html', html: 'content_with_ids', skip_no_ids: 'true' %}
 					</div>
 				{% endif %}
 				{{ content_with_ids }}

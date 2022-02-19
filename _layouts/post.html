@@ -8,7 +8,7 @@ layout: wrapper
 			<h2>{{ page.subtitle }}</h2>
 		{% endif %}
 		<p>
-			<time class='dt-published' datetime='{{ page.date | date_to_xmlschema }}'>
+			<time class='dt-published' datetime='{{ page.date | 'date_to_xmlschema' }}'>
 				{% if page.lang == 'it' %}
 					{% if page.location != nil %}
 						{% for place in site.data.places %}
@@ -17,7 +17,7 @@ layout: wrapper
 							{% endif %}
 						{% endfor %}
 					{% endif %}
-					{% include date-it.html %}
+					{% render 'date-it.html' %}
 				{% else %}
 					{% if page.location != nil %}
 						{% for place in site.data.places %}
@@ -34,12 +34,12 @@ layout: wrapper
 	</section>
 
 	{% capture content_with_ids %}
-		{% include anchor-parser.html html=content anchorClass='anchor' generateId='true' %}
+		{% render 'anchor-parser.html', html: 'content', anchorClass: 'anchor', generateId: 'true' %}
 	{% endcapture %}
 
-	{% include post-tags.html %}
+	{% render 'post-tags.html' %}
 
-	{% include goto.html %}
+	{% render 'goto.html' %}
 
 	<div class='row'>
 		<div class='one column'>
@@ -47,7 +47,7 @@ layout: wrapper
 				{% if page.toc %}
 					<div id='toc'>
 						<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-						{% include toc.html html=content_with_ids ordered=true skip_no_ids=true %}
+						{% render 'toc.html', html: 'content_with_ids', ordered: 'true', skip_no_ids: 'true' %}
 					</div>
 				{% endif %}
 				{{ content_with_ids }}
@@ -57,16 +57,16 @@ layout: wrapper
 
 	<div class='row'>
 		<div class='one column'>
-		{% include backlinks.html %}
+		{% render 'backlinks.html' %}
 		</div>
 	</div>
 
 	<div class='row'>
 		<div class='half column'>
-			{% include share.html %}
+			{% render 'share.html' %}
 		</div>
 		<div class='half column'>
-			{% include comments.html %}
+			{% render 'comments.html' %}
 		</div>
 	</div>
 </main>

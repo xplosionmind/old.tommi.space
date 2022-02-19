@@ -7,7 +7,7 @@
 			</div>
 			<div class='half column vertical flex'>
 				<img class='stuff-logo' src='{{ site.logos }}/stuff/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
-				<p>{{ thing.description-it | markdownify }}</p>
+				<p>{% comment %}FIX{{ thing.description-it | markdownify }}{% endcomment %}</p>
 				<a href='{{ thing.link }}'  target='_blank' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button-it }}</a>
 			</div>
 		</div>
@@ -18,7 +18,7 @@
 			</div>
 			<div class='half column vertical flex'>
 				<img class='stuff-logo' src='{{ site.logos }}/stuff/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
-				<p>{{ thing.description | markdownify }}</p>
+				<p>{% comment %}FIX{{ thing.description | markdownify }}{% endcomment %}</p>
 				<a href='{{ thing.link }}'  target='_blank' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button }}</a>
 			</div>
 		</div>

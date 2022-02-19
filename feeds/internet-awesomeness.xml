@@ -10,9 +10,9 @@ description: Internet Awesomeness entries
 		<description>{{ "Entries of Tommi’s Internet Awesomeness, a collection of links to awesome stuff on the internet." | xml_escape }}</description>
 		<link>https://tommi.space/internet-awesomeness</link>
 		{% assign awesomeness = site.data.internet-awesomeness | sort: 'added' | reverse %}
-		<lastBuildDate>{% for entry in awesomeness limit:1 %}{{ entry.added | date_to_rfc822 }}{% endfor %}</lastBuildDate>
+		<lastBuildDate>{% for entry in awesomeness limit:1 %}{{ entry.added | 'date_to_rfc822' }}{% endfor %}</lastBuildDate>
 		<image>
-			<url>{{ site.image | absolute_url }}</url>
+			<url>{{ site.image | prepend: 'https://tommi.space' }}</url>
 			<title>Internet Awesomeness — {{ site.title }}</title>
 			<link>https://tommi.space/internet-awesomeness</link>
 		</image>
@@ -22,7 +22,7 @@ description: Internet Awesomeness entries
 		{% for website in awesomeness %}
 			<item>
 				<title>{{ website.title | xml_escape }}</title>
-				{% if website.added %}<pubDate>{{ website.added | date_to_rfc822 }}</pubDate>{% endif %}
+				{% if website.added %}<pubDate>{{ website.added | 'date_to_rfc822' }}</pubDate>{% endif %}
 				<description>{{ website.description | xml_escape | strip_newlines }}</description>
 				<link>{{ website.url }}</link>
 				<guid>{{ website.url }}</guid>
