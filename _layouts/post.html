@@ -17,7 +17,7 @@ layout: wrapper
 							{% endif %}
 						{% endfor %}
 					{% endif %}
-					{% render 'date-it.html' %}
+					{% include date-it.html %}
 				{% else %}
 					{% if page.location != nil %}
 						{% for place in site.data.places %}
@@ -34,12 +34,12 @@ layout: wrapper
 	</section>
 
 	{% capture content_with_ids %}
-		{% render 'anchor-parser.html', html: 'content', anchorClass: 'anchor', generateId: 'true' %}
+		{% include anchor-parser.html', html: 'content', anchorClass: 'anchor', generateId: 'true' %}
 	{% endcapture %}
 
-	{% render 'post-tags.html' %}
+	{% include post-tags.html %}
 
-	{% render 'goto.html' %}
+	{% include goto.html %}
 
 	<div class='row'>
 		<div class='one column'>
@@ -47,7 +47,7 @@ layout: wrapper
 				{% if page.toc %}
 					<div id='toc'>
 						<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-						{% render 'toc.html', html: 'content_with_ids', ordered: 'true', skip_no_ids: 'true' %}
+						{% include toc.html', html: 'content_with_ids', ordered: 'true', skip_no_ids: 'true' %}
 					</div>
 				{% endif %}
 				{{ content_with_ids }}
@@ -57,16 +57,16 @@ layout: wrapper
 
 	<div class='row'>
 		<div class='one column'>
-		{% render 'backlinks.html' %}
+		{% include backlinks.html %}
 		</div>
 	</div>
 
 	<div class='row'>
 		<div class='half column'>
-			{% render 'share.html' %}
+			{% include share.html %}
 		</div>
 		<div class='half column'>
-			{% render 'comments.html' %}
+			{% include comments.html %}
 		</div>
 	</div>
 </main>

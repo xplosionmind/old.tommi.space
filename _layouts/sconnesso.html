@@ -12,13 +12,13 @@ layout: wrapper
 					{% endif %}
 				{% endfor %}
 			{% endif %}
-			<time class='dt-published' datetime='{{ page.date | 'date_to_xmlschema' }}'>{% render 'date-it.html' %}</time>
+			<time class='dt-published' datetime='{{ page.date | 'date_to_xmlschema' }}'>{% include date-it.html %}</time>
 			 — Episodio {{ page.episode }}
 		</p>
 		<a class='p-author h-card' rel='author' href='/about'>{{ site.author.name }}</a>
 	</section>
 
-	{% render 'post-tags.html' %}
+	{% include post-tags.html %}
 
 	<div class='row'>
 		<article class='e-content'>
@@ -28,7 +28,7 @@ layout: wrapper
 			</audio>
 
 			{% capture content_with_ids %}
-				{% render 'anchor-parser.html', html: 'content', anchorClass='anchor' generateId=true %}
+				{% include anchor-parser.html', html: 'content', anchorClass='anchor' generateId=true %}
 			{% endcapture %}
 
 			{% if page.toc %}

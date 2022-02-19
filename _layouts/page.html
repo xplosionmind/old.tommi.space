@@ -11,7 +11,7 @@ layout: wrapper
 		</p>
 
 		{% capture content_with_ids %}
-			{% render 'anchor-parser.html', html: 'content', anchorClass: 'anchor', generateId: 'true' %}
+			{% include anchor-parser.html', html: 'content', anchorClass: 'anchor', generateId: 'true' %}
 		{% endcapture %}
 	</section>
 
@@ -21,7 +21,7 @@ layout: wrapper
 				{% if page.toc %}
 					<div id='toc'>
 						<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-						{% render 'toc.html', html: 'content_with_ids', skip_no_ids: 'true' %}
+						{% include toc.html', html: 'content_with_ids', skip_no_ids: 'true' %}
 					</div>
 				{% endif %}
 				{{ content_with_ids }}

@@ -19,7 +19,7 @@ description: Tutti i contenuti in italiano da <a href='https://tommi.space' targ
 	<webMaster>{{ site.email }} (Tommi)</webMaster>
 	<copyright>Creative Commons Attribution-ShareAlike 4.0 International</copyright>
 	{% for entry in all %}
-		{% unless page.path contains 'redirect.html' %}
+		{% unless page.path contains 'redirect.html %}
 			<item>
 				<title>{{ entry.title | xml_escape }}</title>
 				<pubDate>{{ entry.date | 'date_to_rfc822' }}</pubDate>

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang='{% if page.lang == 'it' %}it{% else %}en{% endif %}' xmlns:og='http://opengraphprotocol.org/schema/'></html>
 
-	{% render 'head.html' %}
+	{% include head.html %}
 
 	<body>
 		{% if page.textonly %}

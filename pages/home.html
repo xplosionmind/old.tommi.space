@@ -3,7 +3,6 @@ title: home
 permalink: /home
 lang: en
 ref: home
-todo:
 ---
 <section class='row'>
 	<p class='one column center'>You just entered an overwhelming, mindblowing, and confused space inside the immense Universe of the World Wide Web. This place is <strong>a perpetual work in progress</strong> populated by thoughts, drivel, visions, questions, sort-of-answers, kinda-intuitions, contraddictions, disorderly attempts of reordering stuff, representations of chaos.
@@ -11,16 +10,16 @@ todo:
 	<br>Have fun!</p>
 </section>
 
-{% render 'about.html' %}
+{% include about.html %}
 
-{% render 'scambi.html' %}
+{% include scambi.html %}
 
 <div class='row'>
-	{% render 'quitsocialmedia.html' %}
-	{% render 'sconnesso.html' %}
+	{% include quitsocialmedia.html %}
+	{% include sconnesso.html %}
 </div>
 
-{% render 'latest-post.html' %}
+{% include latest-post.html %}
 
 <div class='row'>
 	<div class='half column'>

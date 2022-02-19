@@ -1,15 +1,10 @@
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+//const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 //const pluginSeo = require('eleventy-plugin-seo');
-const pluginRss = require('@11ty/eleventy-plugin-rss')
-const markdownIt = require('markdown-it')
-const markdownItRenderer = new markdownIt()
+//const pluginRss = require('@11ty/eleventy-plugin-rss');
+//const markdownIt = require('markdown-it');
+//const markdownItRenderer = new markdownIt();
 
-module.exports = function (eleventyConfig) {
-  return {
-    dir: {
-      layouts: '_layouts'
-    }
-  };
+module.exports = function(eleventyConfig) {
 
     //********//
    // Liquid //
@@ -19,18 +14,23 @@ module.exports = function (eleventyConfig) {
     strictFilters: false,
     jekyllInclude: true
   });
-  eleventyConfig.addLiquidFilter('reverse', (collection) => {
+  return {
+    dir: {
+      layouts: '_layouts'
+    }
+  }
+/*  eleventyConfig.addLiquidFilter('reverse', (collection) => {
     const arr = [...collection];
     return arr.reverse();
   });
   eleventyConfig.addFilter('markdownify', (str) => {
     return markdownItRenderer.renderInline(str)
-  })
+  })*/
 
     //*********//
    // Plugins //
   //*********//
-  eleventyConfig.addPlugin(syntaxHighlight);
+/*  eleventyConfig.addPlugin(syntaxHighlight);
   //eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSeo, {
     title: 'Tommi Space',
@@ -39,5 +39,6 @@ module.exports = function (eleventyConfig) {
     author: 'Tommi',
     twitter: 'xplosionmind',
     image: '/logos/tommi.space.wip.png'
-  });
+  });*/
+  console.log();
 };

@@ -18,7 +18,7 @@ title: All of Tommi’s craziness
 	<webMaster>{{ site.email }} (Tommi)</webMaster>
 	<copyright>Creative Commons Attribution-ShareAlike 4.0 International</copyright>
 	{% for entry in all %}
-		{% unless entry.path contains 'redirect.html' %}
+		{% unless entry.path contains 'redirect.html %}
 			<item>
 				<title>{{ entry.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
 			    <pubDate>{{ entry.date | 'date_to_rfc822' }}</pubDate>

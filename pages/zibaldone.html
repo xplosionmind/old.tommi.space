@@ -16,10 +16,10 @@ pagination:
 
 <div class='row'>
 	<div class='two-thirds column'>
-		{% render 'tags.html' %}
+		{% include tags.html %}
 	</div>
 	<div class='one-third column'>
-		{% render 'lang-filter.html' %}
+		{% include lang-filter.html %}
 	</div>
 </div>
 	
@@ -29,7 +29,7 @@ pagination:
 			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.lang }}' lang='{{ entry.lang }}'>
 				<img src='{{ entry.image }}' alt='{{ entry.title }}' title='{{ entry.title }}'>
 				<h2>{{ entry.title }}</h2>
-				<p class='date'>{% if post.location %}{{ post.location }}, {% endif %}<time class='dt-published' datetime='{{ post.date | 'date_to_xmlschema' }}'>{% render 'date-entry-it.html' %}<time></p>
+				<p class='date'>{% if post.location %}{{ post.location }}, {% endif %}<time class='dt-published' datetime='{{ post.date | 'date_to_xmlschema' }}'>{% include date-entry-it.html %}<time></p>
 				<cite class='excerpt'>
 					{{ entry.excerpt | strip_html | truncatewords: 40 }}
 				</cite>
@@ -47,4 +47,4 @@ pagination:
 	{% endfor %}
 </div>
 
-{% render 'pages.html' %}
+{% include pages.html %}

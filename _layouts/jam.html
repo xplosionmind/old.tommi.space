@@ -16,7 +16,7 @@ layout: wrapper
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-				<time class='dt-published' datetime='{{ page.date | 'date_to_xmlschema' }}'>{% render 'date-it.html' %}</time>
+				<time class='dt-published' datetime='{{ page.date | 'date_to_xmlschema' }}'>{% include date-it.html %}</time>
 			{% else %}
 				{% if page.location != nil %}
 					{% for place in site.data.places %}
@@ -33,7 +33,7 @@ layout: wrapper
 				{% if page.updated != nil %}
 					<time class='dt-updated' datetime='{{ page.updated }}'>{% render date-up-it.html %}</time>
 				{% else %}
-					<time class='dt-updated' datetime='{{ page.last_modified_at | 'date_to_xmlschema' }}'>{% render 'date-mod-it.html' %}</time>
+					<time class='dt-updated' datetime='{{ page.last_modified_at | 'date_to_xmlschema' }}'>{% include date-mod-it.html %}</time>
 				{% endif %}
 			{% else %}
 				latest edit: 
@@ -47,11 +47,11 @@ layout: wrapper
 		</p>
 
 		{% capture content_with_ids %}
-			{% render 'anchor-parser.html', html: 'content', anchorClass: 'anchor', generateId: 'true' %}
+			{% include anchor-parser.html', html: 'content', anchorClass: 'anchor', generateId: 'true' %}
 		{% endcapture %}
 
-		{% render 'post-tags.html' %}
-		{% render 'goto.html' %}
+		{% include post-tags.html %}
+		{% include goto.html %}
 
 	</section>
 
@@ -61,7 +61,7 @@ layout: wrapper
 				{% if page.toc %}
 					<div id='toc'>
 						<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-						{% render 'toc.html', html: 'content_with_ids', skip_no_ids: 'true' %}
+						{% include toc.html', html: 'content_with_ids', skip_no_ids: 'true' %}
 					</div>
 				{% endif %}
 				{{ content_with_ids }}
@@ -72,9 +72,9 @@ layout: wrapper
 
 	<div class='row'>
 		<div class='one column'>
-			{% render 'share.html' %}
-			{% render 'backlinks.html' %}
-			{% render 'comments.html' %}
+			{% include share.html %}
+			{% include backlinks.html %}
+			{% include comments.html %}
 		</div>
 	</div>
 </main>

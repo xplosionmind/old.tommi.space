@@ -42,7 +42,7 @@ I am currently serving as a scout chief in the <q>Reparto Corona Boreale</q> for
 
 ## Working on <cite>Scambi Festival</cite>
 
-{% render 'scambi.html' %}
+{% include scambi.html %}
 
 <br>
 <br>

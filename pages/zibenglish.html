@@ -17,10 +17,10 @@ pagination:
 
 <div class='row'>
 	<div class='two-thirds column'>
-		{% render 'tags.html' %}
+		{% include tags.html %}
 	</div>
 	<div class='one-third column'>
-		{% render 'lang-filter.html' %}
+		{% include lang-filter.html %}
 	</div>
 </div>
 
@@ -48,5 +48,5 @@ pagination:
 	{% endfor %}
 </div>
 
-{% render 'pages.html' %}
+{% include pages.html %}
 
