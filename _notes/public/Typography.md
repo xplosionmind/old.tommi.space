@@ -1,6 +1,6 @@
 ---
 date: 2020-05-12T02:00:00+02:00
-updated: 2021-12-15T23:17:11+01:00
+updated: 2022-02-20T15:20:33+01:00
 tags: design
 redirect_from: /tipografia
 description: Notes about Typography
@@ -41,7 +41,7 @@ Update 3<sup>rd</sup> December 2020: I've been deluded: like [Playfair Display](
 
 In order to make pages load faster, there are ways to drastically reduce a font file size, by basically removing unused glyphs.
 
-```sh
+```shellsession
 pyftsubset Inter.ttf \
   --unicodes='U+0020-007F,U+00A0-00FF,U+2013-204A,U+2150-215F,U+2190-2199,U+21A9,U+21AF,U+2200,U+2203-2209,U+2211,U+221A,U+2325,U+232B,U+2318,U+237A,U+25E6' \
   --layout-features='' \

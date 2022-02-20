@@ -1,6 +1,6 @@
 ---
 date: 2021-03-29T05:44:07+02:00
-updated: 2021-12-15T22:39:42+01:00
+updated: 2022-02-20T15:19:41+01:00
 tags: geek/apps
 ---
 ## Cheat Sheet
@@ -13,7 +13,7 @@ Scripts for the awesome [ExifTool](https://exiftool.org/ "ExifTool"). I use them
 
 ### Show metadata
 
-```sh
+```shellsession
 exiftool -s -G
 ```
 
@@ -27,7 +27,7 @@ exiftool -s -G
 
 ### Strip metadata
 
-```sh
+```shellsession
 exiftool "=-all"
 ```
 
@@ -45,7 +45,7 @@ Images shot at the same moment (photo bursts, for example) are being sorted with
 Since there are many parameters which <u>might contain conflicting times</u>, there are several different tags which can be analyzed. I sorted them such that the first ones are the ones which are more likely to be found but probably not exact, while the last ones are very precise tags, but less likely to be found in an image metadata see <a href="https://exiftool.org/forum/index.php?topic=12325.0"  target="_blank" title="">this post</a> on the <a href="https://exiftool.org/forum/"  target="_blank" title="ExifTool Forum">ExifTool forum</a>.
 </div>
 
-```sh
+```shellsession
 exiftool '-FileName<FileModifyDate' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 exiftool '-FileName<DateTimeCreated' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
 exiftool '-FileName<DateTimeOriginal' -d %Y.%m.%d\ -\ %H.%M.%S%%c.%%le -r ./*
@@ -66,7 +66,7 @@ Organize files in directories based on each image’s dimensions (resolution)
 	<strong>NOTE</strong>: newly created directories are created in pwd
 </div>
 
-```sh
+```shellsession
 "-Directory<imagesize" ./*
 ```
 
@@ -74,7 +74,7 @@ Organize files in directories based on each image’s dimensions (resolution)
 
 Move files to folders based on year and month
 
-```sh
+```shellsession
 exiftool '-Directory<FileModifyDate' -d ./%Y/%Y.%m -r ./*
 exiftool '-Directory<DateTimeCreated' -d ./%Y/%Y.%m -r ./*
 exiftool '-Directory<CreateDate' -d ./%Y/%Y.%m -r ./*

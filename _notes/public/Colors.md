@@ -1,6 +1,6 @@
 ---
 date: 2020-05-22T02:00:00+02:00
-updated: 2022-02-18T16:46:45+01:00
+updated: 2022-02-20T15:11:42+01:00
 tags: design geek/web
 description: A collection of colors I love and where I use them
 redirect_from: [/colours, /colori]

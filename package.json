@@ -4,6 +4,8 @@
   "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/c7f3a969-424a-450b-8636-2d477af82e76/deploy-status)](https://app.netlify.com/sites/xplosionmind/deploys)",
   "main": "jam-graph.js",
   "scripts": {
+    "build": "eleventy",
+    "debug": "DEBUG=Eleventy:* eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +20,10 @@
   },
   "homepage": "https://github.com/xplosionmind/tommi.space#readme",
   "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
+    "csv-parse": "^5.0.4",
     "eleventy-plugin-seo": "^0.5.2",
     "markdown-it": "^12.3.2"
   },

@@ -1,6 +1,6 @@
 ---
 date: 2021-01-27T22:03:09+01:00
-updated: 2022-01-24T15:51:02+01:00
+updated: 2022-02-20T15:19:06+01:00
 tags: geek dumped
 toc: false
 description: Configuration of a Docker server
@@ -23,6 +23,6 @@ Actually, it’s quite useless to thoroughly write and explain all of the steps 
 ## Useful commands
 
 occ through Docker
-```sh
+```shellsession
 docker-compose exec --user www-data app php occ db:add-missing-indices
 ```
