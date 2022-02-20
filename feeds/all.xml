@@ -22,7 +22,7 @@ title: All of Tommi’s craziness
 			<item>
 				<title>{{ entry.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
 			    <pubDate>{{ entry.date | 'date_to_rfc822' }}</pubDate>
-				<description>{{ entry.content | replace: '"/', '"https://tommi.space/' | replace: "'/", "'https://tommi.space/" | xml_escape | strip_newlines }}</description>
+				<description>{{ entry.content | xml_escape | strip_newlines }}</description>{% comment %}FIX replace: "'/", "'https://tommi.space/"{% endcomment %} 
 				<link>{{ entry.url | prepend: 'https://tommi.space' }}</link>
 				<guid isPermaLink='true'>{{ entry.url | prepend: 'https://tommi.space' }}</guid>
 			</item>

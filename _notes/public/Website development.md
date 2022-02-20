@@ -9,6 +9,14 @@ main: true
 image: https://tommi.space/images/posts/2020-04-18-making-this-website.jpg
 description: Creative and technical aims, ideas annotation and drafts tracking.
 ---
+## Eleventy
+
+- Anchor parser
+- toc
+
+<br>
+<br>
+
 ## Content
 
 ![[Writing ideas#Website]]

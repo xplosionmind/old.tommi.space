@@ -28,13 +28,13 @@ layout: wrapper
 			</audio>
 
 			{% capture content_with_ids %}
-				{% include anchor-parser.html', html: 'content', anchorClass='anchor' generateId=true %}
+				{% comment %}FIX{% include anchor-parser.html, html: 'content', anchorClass='anchor' generateId=true %}{% endcomment %}
 			{% endcapture %}
 
 			{% if page.toc %}
 				<div id='toc'>
 					<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-					{% render toc.html html=content_with_ids %}
+					{% comment %}{% render toc.html html=content_with_ids %}{% endcomment %}
 				</div>
 			{% endif %}
 			{{ content_with_ids }}

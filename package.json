@@ -21,11 +21,15 @@
   "homepage": "https://github.com/xplosionmind/tommi.space#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-navigation": "^0.3.2",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
     "csv-parse": "^5.0.4",
     "eleventy-plugin-seo": "^0.5.2",
-    "markdown-it": "^12.3.2"
+    "markdown-it": "^12.3.2",
+    "markdown-it-anchor": "^8.4.1",
+    "run-all": "^1.0.1",
+    "sass": "^1.49.8"
   },
   "dependencies": {
     "@11ty/eleventy-upgrade-help": "^1.0.1",

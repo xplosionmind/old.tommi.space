@@ -19,8 +19,7 @@ layout: large
 	</div>
 </div>
 <div class='grid'>
-	{% assign jam = site.notes | sort: 'updated' | reverse %}
-	{% for note in jam %}
+	{% for note in notes %}
 		<a href='{{ note.url }}' lang='{{ note.lang }}' hreflang='{{ note.lang }}' title='{{ note.title }}'>
 			<div class='vertical flex box'>
 				<h3>{{ note.title }}</h3>
@@ -30,7 +29,7 @@ layout: large
 					<p>{{ note.excerpt | strip_html | truncatewords: 30 }}</p>
 				{% endif %}
 				<div class='flex'>
-					{% assign notetags = note.tags | downcase | remove: ' ' | join: ' ' | replace: '/', ' ' %}
+					{% assign notetags = note.tags | downcase | remove: ' ' | join: ' ' %}{% comment %}FIX replace: '/', ' ' {% endcomment %}
 					{% for tag in site.data.tags %}
 						{% assign slugtag = tag.title | downcase | remove: ' ' %}
 						{% if notetags contains slugtag %}

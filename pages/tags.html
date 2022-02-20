@@ -16,7 +16,7 @@ todo:
 			{% assign all = site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | sort: 'updated' | reverse %}
 			<ul class='three'>
 				{% for entry in all %}
-					{% assign thistag = entry.tags | downcase | remove: ' ' | replace: '/', ' ' %}
+					{% assign thistag = entry.tags | downcase | remove: ' ' %}{% comment %}FIX replace: '/', ' ' {% endcomment %}
 					{% if thistag contains slugtag %}
 						<li><a href='{{ entry.url }}' title='{{ entry.title }}'>{{ entry.title }}</a></li>
 					{% endif %}

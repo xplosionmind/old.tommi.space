@@ -35,7 +35,7 @@ pagination:
 					{{ post.excerpt | strip_html | truncatewords: 40 }}
 				</cite>
 				<div class='flex'>
-					{% assign posttags = post.tags | downcase | remove: ' ' | join: ' ' | replace: '/', ' ' %}
+					{% assign posttags = post.tags | downcase | remove: ' ' | join: ' ' %}{% comment %}FIX replace: '/', ' ' {% endcomment %}
 					{% for tag in site.data.tags %}
 						{% assign slugtag = tag.title | downcase | remove: ' ' %}
 						{% if posttags contains slugtag %}

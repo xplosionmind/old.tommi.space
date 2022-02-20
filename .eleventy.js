@@ -3,7 +3,10 @@ const pluginSeo = require('eleventy-plugin-seo');
 //const pluginRss = require('@11ty/eleventy-plugin-rss');
 const markdownIt = require('markdown-it');
 const markdownItRenderer = new markdownIt();
+const markdownItAnchor = require('markdown-it-anchor'); // to implement
 const csvParse = require('csv-parse/sync').parse;
+const pluginNavigation = require('@11ty/eleventy-navigation'); // to implement
+
 
 module.exports = function(eleventyConfig) {
 
@@ -21,7 +24,19 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.addFilter('markdownify', (str) => {
     return markdownItRenderer.renderInline(str)
-  })
+  });
+
+    //*************//
+   // Collections //
+  //*************//
+  eleventyConfig.addCollection('posts',
+  collection => collection
+    .getAllSorted()
+    .filter(item => item.url && item.inputPath.startsWith('./_posts/')));
+  eleventyConfig.addCollection('notes',
+  collection => collection
+    .getAllSorted()
+    .filter(item => item.url && item.inputPath.startsWith('./_notes/')));
 
     //*********//
    // Plugins //

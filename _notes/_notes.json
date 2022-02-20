@@ -1,0 +1,4 @@
+{
+    "layout": "jam",
+    "permalink": "/{{ page.fileSlug }}/"
+}
