@@ -1,12 +1,30 @@
----
----
-@import '../_sass/normalize';
-@import '../_sass/root';
-@import '../_sass/inter';
-@import '../_sass/header';
-@import '../_sass/ubuntu-mono';
-@import '../_sass/eb-garamond';
-/*@import '../_sass/graph';*/
+@use 'parts/normalize';
+@use 'parts/root';
+@use 'parts/inter';
+@use 'parts/header';
+@use 'parts/ubuntu-mono';
+@use 'parts/eb-garamond';
+@use 'parts/links-emojis';
+@use 'parts/highlight';
+@use 'parts/commento';
+@use 'parts/temporary';
+
+$tiny: .2rem;
+$small: .5rem;
+$regular-less: .9rem;
+$regular: 1.1rem;
+$regular-more: 1.3rem;
+$regular-more-em: 1.3em;
+$big: 1.6rem;
+$bigger: 1.8rem;
+$twice: 2.2rem;
+$height: 3.1rem;
+$mastodon: 4rem;
+$radius-s: .4rem;
+$radius-m: .6rem;
+$radius-l: 1rem;
+$trans: .5s ease-out;
+$quicktrans: .1s ease-in-out;
 
 html {
 	scroll-behavior: smooth;
@@ -43,14 +61,6 @@ body {
 
 	transition: $trans;
 
-	{% comment %}
-	&.cantiere {
-		 background: #1D1D1D url('/logos/cantiere.svg');
-		 .type mark {
-			 background: var(--background);
-		 }
-	}
-	{% endcomment %}
 }
 
 /* LIGHT THEME */
@@ -922,12 +932,12 @@ button,
 	}
 }
 
-{% for tag in site.data.tags %}
+/*{% for tag in site.data.tags %}
 	.{{ tag.title | remove: ' ' }} {
 		color: {{ tag.color }};
 		background: {{ tag.background }};
 	}
-{% endfor %}
+{% endfor %}*/
 
 .tag {
 	h2 {
@@ -1095,8 +1105,3 @@ button,
 		}
 	}
 }
-
-@import '../_sass/links-emojis';
-@import '../_sass/highlight';
-@import '../_sass/commento';
-@import '../_sass/temporary';

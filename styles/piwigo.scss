@@ -1,9 +1,17 @@
----
----
-@import '../_sass/root';
-@import '../_sass/inter';
-@import '../_sass/ubuntu-mono';
-@import '../_sass/eb-garamond';
+@use 'parts/root';
+@use 'parts/inter';
+@use 'parts/ubuntu-mono';
+@use 'parts/eb-garamond';
+
+$tiny: .2rem;
+$small: .5rem;
+$regular: 1.1rem;
+$big: 1.6rem;
+$height: 3.1rem;
+$radius-s: .4rem;
+$radius-m: .6rem;
+$radius-l: 1rem;
+$trans: .5s ease-out;
 
 html,
 body {
@@ -531,7 +539,7 @@ textarea {
 		box-shadow: var(--little-shadow);
 	}
 	#osmmap & {
-		max-width: calc(100%-6vh);
+		max-width: calc(100% - 6vh);
 		margin: 3vh auto;
 	}
 }

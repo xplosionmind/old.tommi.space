@@ -2,6 +2,7 @@
 title: home
 lang: en
 ref: home
+layout: wrapper
 ---
 <section class='row'>
 	<p class='one column center'>You just entered an overwhelming, mindblowing, and confused space inside the immense Universe of the World Wide Web. This place is <strong>a perpetual work in progress</strong> populated by thoughts, drivel, visions, questions, sort-of-answers, kinda-intuitions, contraddictions, disorderly attempts of reordering stuff, representations of chaos.
@@ -9,21 +10,20 @@ ref: home
 	<br>Have fun!</p>
 </section>
 
-{% include about.html %}
+{% render about.html %}
 
-{% include scambi.html %}
+{% render scambi.html %}
 
 <div class='row'>
-	{% include quitsocialmedia.html %}
-	{% include sconnesso.html %}
+	{% render quitsocialmedia.html %}
+	{% render sconnesso.html %}
 </div>
 
-{% include latest-post.html %}
+{% render latest-post.html %}
 
 <div class='row'>
 	<div class='half column'>
 		<section class='razzmatazz border box'>
-			<div class='jekyll-graph'></div>
 			<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
 			<p>I take this things, I throw them into <a href='/jam' title='The Jam'><em>The Jam</em></a>.</p>
 			<p>I hope it can be useful to you.</p>

@@ -38,6 +38,12 @@ module.exports = function(eleventyConfig) {
     .getAllSorted()
     .filter(item => item.url && item.inputPath.startsWith('./_notes/')));
 
+    //******//
+   // Scss //
+  //******//
+  eleventyConfig.addWatchTarget('./styles');
+  eleventyConfig.addPassthroughCopy({ './styles': '/' });
+
     //*********//
    // Plugins //
   //*********//

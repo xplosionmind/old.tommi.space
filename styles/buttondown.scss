@@ -1,8 +1,15 @@
----
----
-@import '../_sass/inter';
-@import '../_sass/root';
-@import '../_sass/eb-garamond';
+@use 'parts/inter';
+@use 'parts/root';
+@use 'parts/eb-garamond';
+
+$tiny: .2rem;
+$small: .5rem;
+$regular: 1.1rem;
+$bigger: 1.8rem;
+$radius-s: .4rem;
+$radius-m: .6rem;
+$radius-l: 1rem;
+$trans: .5s ease-out;
 
 html, body, .app-container {
 	scroll-behavior: smooth;
