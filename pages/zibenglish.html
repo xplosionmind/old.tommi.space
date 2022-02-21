@@ -1,12 +1,7 @@
 ---
 title: Zibaldone
-permalink: /zibenglish
-redirect_from: [/blog, /en/zibaldone, /zibaldone/en]
+redirect_from: [/blog/, /en/zibaldone/, /zibaldone/en/]
 lang: en
-pagination:
-  data: collections.post
-  size: 6
-  alias: posts
 ---
 <section class='center row'>
 	<h1>Zibaldone</h1>
@@ -17,15 +12,16 @@ pagination:
 
 <div class='row'>
 	<div class='two-thirds column'>
-		{% include tags.html %}
+		{% render tags.html %}
 	</div>
 	<div class='one-third column'>
-		{% include lang-filter.html %}
+		{% render lang-filter.html %}
 	</div>
 </div>
 
 <div class='zibaldone flex row'>
-	{% for post in posts %}
+	{% assign postts = collections.posts | sort: 'date' | reverse %}
+	{% for post in postts %}
 		<div class='one-third'>
 			<a class='box' href='{{ post.url }}' hreflang='{{ post.lang }}' lang='{{ post.lang }}'>
 				<img src='{{ post.image }}' alt='{{ post.title }}' title='{{ post.title }}'>
@@ -47,6 +43,3 @@ pagination:
 		</div>
 	{% endfor %}
 </div>
-
-{% include pages.html %}
-

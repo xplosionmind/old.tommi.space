@@ -14,6 +14,12 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 - Anchor parser
 - toc
 - page recirection language
+- last modified at
+- pagination
+- Wikilinks
+- Sconnesso format
+- SEO
+- global vs. local tags pinpointing
 
 <br>
 <br>

@@ -2,9 +2,8 @@
 title: Privacy
 ref: privacy
 lang: it
-description: "La Privacy Policy di tommi.space"
-permalink: /privacy-it
-redirect_from: ["/privacy/it", "/it/privacypolicy", "/it/privacy-policy", "/it/privacy", "/trattamentodati", "/trattamento-dati"]
+description: La Privacy Policy di tommi.space
+redirect_from: [/privacy/it/, /it/privacy/]
 layout: page
 ---
 I dati statistici riguardanti i visitatori di questo sito sono raccolti ed analizzati tramite [Plausible](https://plausible.io "Plausible"), la cui Privacy Policy può essere consultata [qui](https://plausible.io/privacy "Privacy Policy di Plausible").  

@@ -1,5 +1,4 @@
 ---
-permalink: /everyone
 redirect_from: [/everyone-short-movie,/everyone-love-awakens]
 title: Everyone, Love Awakens
 ref: Everyone
@@ -10,7 +9,7 @@ todo: convert Flickr to Piwigo img URLs
 ---
 <!DOCTYPE html>
 <html lang='en'>
-	{% include head.html %}
+	{% render head.html %}
 <link rel='stylesheet' type='text/css' href='/everyone.css'>
 <body>
 
@@ -93,14 +92,14 @@ todo: convert Flickr to Piwigo img URLs
 		<a href='https://cloud.tommi.space/s/qSpX5ixJd8bMA6R' target='_blank' class='written button' title='A shared folder containing information and details about Everyone for the press'>download</a>
 	</div>
 	<div class='two-thirds column vertical flex'>
-		<img src='{{ site.images }}/everyone-on-set.jpg' alt='a shot of the crew on set' title='on set'>
+		<img src='/images/everyone-on-set.jpg' alt='a shot of the crew on set' title='on set'>
 	</div>
 </div>
 
 
 <div id='imdb' class='box row'>
 	<div class='half column vertical flex'>
-		<img src='{{ site.images }}/everyone-imdb.png' title='Everyone poster' alt='Everyone poster'>
+		<img src='/images/everyone-imdb.png' title='Everyone poster' alt='Everyone poster'>
 	</div>
 	<div class='half column vertical flex'>
 		<h2>We’re not serious, but we try to look so</h2>

@@ -1,6 +1,5 @@
 ---
 title: Sconnesso
-permalink: /sconnesso/
 redirect_from: [/podcast, /voice, /audio]
 lang: it
 ref: sconnesso
@@ -10,14 +9,14 @@ description: Uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi 
 ---
 <main class='one column'>
 	<section class='center row'>
-		<h1>{{ site.podcast.title }}</h1>
-		<p>{{ site.podcast.description }}</p>
+		<h1>Sconnesso</h1>
+		<p>{{ description }}</p>
 
-		{% include listen-on.html %}
+		{% render listen-on.html %}
 
 	</section>
 
-	{% for episode in site.sconnesso %}
+	{% for episode in sconnesso %}
 		<div class='row'>
 			<a href='{{ episode.url }}'>
 				<div class='flex box'>
@@ -28,4 +27,4 @@ description: Uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi 
 		</div>
 	{% endfor %}
 
-	</main>
+</main>

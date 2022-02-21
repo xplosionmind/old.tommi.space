@@ -2,8 +2,7 @@
 title: Privacy
 ref: privacy
 lang: en
-permalink: /privacy
-redirect_from: ["/privacy-policy", "/privacypolicy"]
+redirect_from: [/privacy-policy/, /privacypolicy/]
 layout: page
 ---
 Visitors data concerning this website are handled by [Plausible](https://plausible.io "Plausible"), whose Privacy Policy is [here](https://plausible.io/privacy "Plausible Privacy Policy").  

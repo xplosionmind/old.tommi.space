@@ -1,22 +1,21 @@
 ---
 title: The tags bible
 lang: en
-permalink: /tags
 layout: large
 description: Every topic, every recurrency, anything you need to find can be found somewhere in this page.
 todo:
   - fix tags containing sub-tags not appearing
 ---
-{% for tag in site.data.tags %}
+{% for tag in tags %}
 	<div class='row'>
 		<div id='{{ tag.title | remove: ' ' }}' class='tag box'>
 			<h2 class='{{ tag.title | remove: ' ' }} title'>{{ tag.title }}</h2>
-			{% comment %}FIX{{ tag.description | markdownify }}{% endcomment %}
+			{{ tag.description | markdownify }}
 			{% assign slugtag = tag.title | downcase | remove: ' ' %}
-			{% assign all = site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | sort: 'updated' | reverse %}
+			{% assign all = collections.all | sort: 'updated' | reverse %}
 			<ul class='three'>
 				{% for entry in all %}
-					{% assign thistag = entry.tags | downcase | remove: ' ' %}{% comment %}FIX replace: '/', ' ' {% endcomment %}
+					{% assign thistag = entry.tags | downcase | remove: ' ' | replace: '/', ' ' %}
 					{% if thistag contains slugtag %}
 						<li><a href='{{ entry.url }}' title='{{ entry.title }}'>{{ entry.title }}</a></li>
 					{% endif %}

@@ -11,16 +11,16 @@ layout: wrapper
 			<time class='dt-published' datetime='{{ date | 'date_to_xmlschema' }}'>
 				{% if lang == 'it' %}
 					{% if location != nil %}
-						{% for place in site.data.places %}
+						{% for place in places %}
 							{% if place.name contains location %}
 								 <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
 							{% endif %}
 						{% endfor %}
 					{% endif %}
-					{% include date-it.html %}
+					{% render date-it.html %}
 				{% else %}
 					{% if location != nil %}
-						{% for place in site.data.places %}
+						{% for place in places %}
 							{% if place.name contains location %}
 								<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
 							{% endif %}
@@ -33,13 +33,9 @@ layout: wrapper
 		</p>
 	</section>
 
-	{% capture content_with_ids %}
-		{% comment %}FIX{% include anchor-parser.html, html: 'content', anchorClass: 'anchor', generateId: 'true' %}{% endcomment %}
-	{% endcapture %}
+	{% render post-tags.html %}
 
-	{% include post-tags.html %}
-
-	{% include goto.html %}
+	{% render goto.html %}
 
 	<div class='row'>
 		<div class='one column'>
@@ -47,26 +43,25 @@ layout: wrapper
 				{% if toc %}
 					<div id='toc'>
 						<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-						{% comment %}{% include toc.html, html: 'content_with_ids', ordered: 'true', skip_no_ids: 'true' %}{% endcomment %}
 					</div>
 				{% endif %}
-				{{ content_with_ids }}
+				{{ content }}
 			</article>
 		</div>
 	</div>
 
 	<div class='row'>
 		<div class='one column'>
-		{% include backlinks.html %}
+		{% render backlinks.html %}
 		</div>
 	</div>
 
 	<div class='row'>
 		<div class='half column'>
-			{% include share.html %}
+			{% render share.html %}
 		</div>
 		<div class='half column'>
-			{% include comments.html %}
+			{% render comments.html %}
 		</div>
 	</div>
 </main>

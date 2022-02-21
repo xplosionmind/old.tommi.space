@@ -3,7 +3,7 @@ layout: wrapper
 ---
 <main class='h-entry'>
 	<section class='row center'>
-		<a class='u-uid u-url' href='{{ url | prepend: 'https://tommi.space' }}'><h1 class='p-name'>{{ title }}</h1></a>
+		<a class='u-uid u-url' href='{{ url | prepend: 'https://tommi.space' }}'><h1 class='p-name'>{% if title %}{{ title }}{% else %}{% endif %}</h1></a>
 		{% if subtitle %}
 			<h2>{{ subtitle }}</h2>
 		{% endif %}
@@ -32,23 +32,15 @@ layout: wrapper
 				ultima modifica: 
 				{% if updated != nil %}
 					<time class='dt-updated' datetime='{{ updated }}'>{% render date-up-it.html %}</time>
-				{% else %}
-					<time class='dt-updated' datetime='{{ last_modified_at | 'date_to_xmlschema' }}'>{% render date-mod-it.html %}</time>
 				{% endif %}
 			{% else %}
 				latest edit: 
 				{% if updated != nil %}
 					<time class='dt-updated' datetime='{{ updated }}'>{{ updated | date: '%e %B %Y at %k:%m' }}</time>
-				{% else %}
-					<time class='dt-updated' datetime='{{ last_modified_at | 'date_to_xmlschema' }}'>{{ last_modified_at | date: '%e %B %Y at %k:%m' }}</time>
 				{% endif %}
 			{% endif %}
 			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
 		</p>
-
-		{% capture content_with_ids %}
-			{% comment %}FIX{% render anchor-parser.html, html: 'content', anchorClass: 'anchor', generateId: 'true' %}{% endcomment %}
-		{% endcapture %}
 
 		{% render post-tags.html %}
 		{% render goto.html %}
@@ -61,10 +53,9 @@ layout: wrapper
 				{% if toc %}
 					<div id='toc'>
 						<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-						{% comment %}FIX toc.html{% render toc.html, html: 'content_with_ids', skip_no_ids: 'true' %}{% endcomment %}
 					</div>
 				{% endif %}
-				{{ content_with_ids }}
+				{{ content }}
 			</article>
 
 		</div>

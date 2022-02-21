@@ -2,8 +2,8 @@
 date: 2021-11-25T16:54:18+01:00
 updated: 2021-11-25T23:37:22+01:00
 tags: philosophy
-permalink: /cfz
-redirect_from: [/corsari,/curiosi-corsari-consapevoli,/zattere]
+permalink: /cfz/
+redirect_from: [/corsari/,/curiosi-corsari-consapevoli/,/zattere/]
 location: Ca’ Foscari Zattere
 toc: false
 image: https://tommi.space/images/zattere.jpg
@@ -13,7 +13,7 @@ excerpt: |
   Il muto respiro dei libri penetra l’atmosfera della maestosa soffitta in cui il nostro pensiero fluttua, impregnandosi per osmosi di una sublime curiosità alla quale neppur nolenti sapremmo sfuggire. Non è vero, nota Margherita, in realtà le sfuggiamo troppo spesso: la nostra cupidigia gnoseologica non è stabile, ma un continuo oscillare, o meglio un vibrare, poiché siamo perennemente tesi nel desiderio di conoscenza che riconosciamo essere insaziabile.
 ---
 <figure><picture>
-  <img src='{{ page.image }}' alt='Foto davanti a Zattere in una mattina di acqua alta'>
+  <img src='{{ image }}' alt='Foto davanti a Zattere in una mattina di acqua alta'>
   <figcaption>21 giugno 2021. Una mattina di acqua alta davanti a Zattere</figcaption>
 </picture></figure>
 

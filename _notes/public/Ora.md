@@ -15,7 +15,7 @@ Sto:
 
 ## Organizzando <cite>Scambi Festival</cite>
 
-{% include scambi.html %}
+{% render scambi.html %}
 
 <br>
 <br>

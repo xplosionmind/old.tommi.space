@@ -3,10 +3,10 @@
 	{% if page.lang == 'it' %}
 		<div class='box row' style='color: {{ thing.color }}; background: {{ thing.background }}' id='{{ thing.title | slugify }}'>
 			<div class='half column vertical flex'>
-				<img src='{{ site.images }}/stuff/{{ thing.title | slugify }}.jpg' title='{{ thing.alt-it }}' alt='{{ thing.alt-it }}'>
+				<img src='/images/stuff/{{ thing.title | slugify }}.jpg' title='{{ thing.alt-it }}' alt='{{ thing.alt-it }}'>
 			</div>
 			<div class='half column vertical flex'>
-				<img class='stuff-logo' src='{{ site.logos }}/stuff/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
+				<img class='stuff-logo' src='/logos/stuff/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
 				<p>{% comment %}FIX{{ thing.description-it | markdownify }}{% endcomment %}</p>
 				<a href='{{ thing.link }}'  target='_blank' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button-it }}</a>
 			</div>
@@ -14,10 +14,10 @@
 	{% else %}
 		<div class='box row' style='color: {{ thing.color }}; background: {{ thing.background }}' id='{{ thing.title | slugify }}'>
 			<div class='half column vertical flex'>
-				<img src='{{ site.images }}/stuff/{{ thing.title | slugify }}.jpg' title='{{ thing.alt }}' alt='{{ thing.alt }}'>
+				<img src='/images/stuff/{{ thing.title | slugify }}.jpg' title='{{ thing.alt }}' alt='{{ thing.alt }}'>
 			</div>
 			<div class='half column vertical flex'>
-				<img class='stuff-logo' src='{{ site.logos }}/stuff/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
+				<img class='stuff-logo' src='/logos/stuff/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
 				<p>{% comment %}FIX{{ thing.description | markdownify }}{% endcomment %}</p>
 				<a href='{{ thing.link }}'  target='_blank' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button }}</a>
 			</div>

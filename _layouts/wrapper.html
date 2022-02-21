@@ -3,27 +3,27 @@
 <!DOCTYPE html>
 <html lang='{% case lang %}{% when 'it' %}it{% when 'fr' %}fr{% else %}en{% endcase %}' prefix='og: http://ogp.me/ns#' dir='ltr'>
 
-	{% include head.html %}
+	{% render head.html %}
 
 	<body class='cantiere{% if class %} {{ class }}{% endif %}'>
 		<a id='scrollbutton' class='tool' href='#' aria-label='scroll to top' title='scroll to top'>
 			<svg class='button' viewBox='0 0 24 24' style='background:var(--deep)' aria-hidden='true'><path d='M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z' fill='var(--text)'/></svg>
 		</a>
 
-		{% include nav.html %}
+		{% render nav.html %}
 
 		{% if tags contains 'draft' or tags contains 'wip' %}
-			{% include draft.html %}
+			{% render draft.html %}
 		{% endif %}
 
 		{% if tags contains 'help' %}
-			{% include help.html %}
+			{% render help.html %}
 		{% endif %}
 
 		{{ content }}
 
 		<div class='row'>
-			{% include footer.html %}
+			{% render footer.html %}
 		</div>
 	
 		<script type='text/javascript'>

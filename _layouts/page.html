@@ -11,7 +11,7 @@ layout: wrapper
 		</p>
 
 		{% capture content_with_ids %}
-			{% comment %}FIX{% include anchor-parser.html, html: 'content', anchorClass: 'anchor', generateId: 'true' %}{% endcomment %}
+			{% comment %}FIX{% render anchor-parser.html, html: 'content', anchorClass: 'anchor', generateId: 'true' %}{% endcomment %}
 		{% endcapture %}
 	</section>
 
@@ -21,7 +21,7 @@ layout: wrapper
 				{% if page.toc %}
 					<div id='toc'>
 						<h3>{% if page.lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-						{% comment %}FIX toc.html{% include toc.html, html: 'content_with_ids', skip_no_ids: 'true' %}{% endcomment %}
+						{% comment %}FIX toc.html{% render toc.html, html: 'content_with_ids', skip_no_ids: 'true' %}{% endcomment %}
 					</div>
 				{% endif %}
 				{{ content_with_ids }}
