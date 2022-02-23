@@ -1,6 +1,6 @@
 ---
 date: 2021-01-27T22:03:09+01:00
-updated: 2022-02-20T15:19:06+01:00
+updated: 2022-02-23T19:42:20+01:00
 tags: geek dumped
 toc: false
 description: Configuration of a Docker server

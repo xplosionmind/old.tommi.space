@@ -7,7 +7,7 @@ permalink: /missing-tools
 redirect_from: [/tools-ideas,/programming-ideas,/programming,/development-ideas,/developing,/developing-ideas,/apps-ideas,/ideas, /missing-apps,/missing-programs,/missing-digital-tools,/dev-ideas,/software-ideas,/sw-ideas]
 main: true
 toc: false
-updated: 2022-02-20T15:11:42+01:00
+updated: 2022-02-23T19:42:20+01:00
 ---
 {{ page.description }}
 

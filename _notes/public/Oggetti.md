@@ -1,6 +1,6 @@
 ---
 date: 2020-06-04T02:00:00+02:00
-updated: 2022-01-25T08:35:34+01:00
+updated: 2022-02-23T19:42:20+01:00
 aliases: Compagni di viaggio
 lang: it
 description: Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi.

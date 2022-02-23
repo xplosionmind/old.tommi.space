@@ -1,6 +1,6 @@
 ---
 date: 2021-03-29T05:44:07+02:00
-updated: 2022-02-20T15:19:41+01:00
+updated: 2022-02-23T19:42:20+01:00
 tags: geek/apps
 ---
 ## Cheat Sheet

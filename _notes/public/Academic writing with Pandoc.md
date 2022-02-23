@@ -1,6 +1,6 @@
 ---
 date: 2021-12-06T11:39:18+01:00
-updated: 2022-02-20T15:20:22+01:00
+updated: 2022-02-23T19:42:20+01:00
 tags: geek
 description: Notes on writing and rendering long writings with citations via PanDoc
 permalink: /pandoc-workflow

@@ -1,6 +1,6 @@
 ---
 date: 2021-01-20T16:55:39+01:00
-updated: 2022-02-20T15:20:12+01:00
+updated: 2022-02-23T19:42:20+01:00
 tags: geek
 aliases: Ubuntu Workstation
 redirect_from: [/workstation,/ubuntu-pc,/linux-pc,/pc,/PC,/computer-fisso]

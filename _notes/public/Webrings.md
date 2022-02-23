@@ -1,6 +1,6 @@
 ---
 date: 2021-05-25T17:26:38+02:00
-updated: 2022-02-20T15:11:42+01:00
+updated: 2022-02-23T19:42:20+01:00
 tags: geek
 description: Webrings this website belongs to
 redirect_from: [/wr,/wrs]
