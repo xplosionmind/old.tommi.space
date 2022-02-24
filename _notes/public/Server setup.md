@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21T01:00:00+01:00
-updated: 2022-02-23T19:42:20+01:00
+updated: 2022-02-24T10:51:30+01:00
 tags: geek/server
 aliases: Server configuration, VPS configuration
 redirect_from: [/server-configuration,/serversetup,/server-config,/nextcloud,/nextcloud-setup,/nextcloud-config]

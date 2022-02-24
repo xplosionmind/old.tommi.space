@@ -1,6 +1,6 @@
 ---
 date: 2021-03-29T05:32:27+02:00
-updated: 2022-02-23T19:42:20+01:00
+updated: 2022-02-24T10:51:30+01:00
 tags: geek/apps
 description: "<a href='https://pandoc.org'  target='_blank' title='Pandoc'>Pandoc</a> infos and cheat sheet"
 ---

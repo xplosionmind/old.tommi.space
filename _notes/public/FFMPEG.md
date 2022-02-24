@@ -1,6 +1,6 @@
 ---
 date: 2021-04-27T08:21:53+02:00
-updated: 2022-02-23T19:42:20+01:00
+updated: 2022-02-24T10:51:30+01:00
 tags: geek/apps
 description: Swiss army knife for video and audio editing from command line
 ---

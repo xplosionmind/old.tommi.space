@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-02-23T19:42:20+01:00
+updated: 2022-02-24T11:19:36+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development
@@ -20,6 +20,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 - Sconnesso format
 - SEO
 - global vs. local tags pinpointing
+- automatic Sconnesso audios transctiptions
 
 <br>
 <br>

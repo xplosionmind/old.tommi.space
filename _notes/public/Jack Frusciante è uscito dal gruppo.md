@@ -1,6 +1,6 @@
 ---
 date: 2020-05-11T02:00:00+02:00
-updated: 2022-02-23T19:42:20+01:00
+updated: 2022-02-24T10:51:30+01:00
 tags: reading/book
 lang: it
 permalink: /jack-frusciante

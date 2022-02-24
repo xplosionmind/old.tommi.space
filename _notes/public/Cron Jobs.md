@@ -1,6 +1,6 @@
 ---
 date: 2021-04-04T17:19:08+02:00
-updated: 2022-02-23T19:42:20+01:00
+updated: 2022-02-24T10:51:30+01:00
 tags: geek/server
 description: What Cron Jobs are, how to set them up, what are the ones I use
 ---

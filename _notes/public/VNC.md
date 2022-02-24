@@ -1,6 +1,6 @@
 ---
 date: 2021-03-26T23:03:15+01:00
-updated: 2022-02-23T19:42:20+01:00
+updated: 2022-02-24T10:51:30+01:00
 tags: writing/idea todo geek
 aliases: x11vnc, TeamViewer
 description: Connecting visually to a remote device through SSH
