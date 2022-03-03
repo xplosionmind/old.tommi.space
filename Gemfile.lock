@@ -65,7 +65,7 @@ GEM
     ast (2.4.2)
     coderay (1.1.3)
     colorator (1.1.0)
-    commonmarker (0.23.2)
+    commonmarker (0.23.4)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
     cssminify2 (2.0.1)
@@ -188,12 +188,12 @@ GEM
       nokogiri (>= 1.5.9)
     mercenary (0.4.0)
     method_source (1.0.0)
-    mini_portile2 (2.6.1)
     minitest (5.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
-    nokogiri (1.12.5)
-      mini_portile2 (~> 2.6.1)
+    nokogiri (1.12.5-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
     oga (3.3)
       ast
@@ -248,6 +248,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   html-proofer
