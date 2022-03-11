@@ -1,7 +1,7 @@
 [submodule "_notes/PISE"]
 	path = _notes/PISE
-	url = git@github.com:xplosionmind/pise-notes.git
+	url = git@codeberg.org:tommi/PISE-notes.git
 
 [submodule "_data"]
 	path = _data
-	url = git@github.com:xplosionmind/data.git
+	url = git@codeberg.org:tommi/data.git
