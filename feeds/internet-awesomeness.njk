@@ -1,0 +1,32 @@
+---
+title: Internet Awesomeness
+subtitle: Internet Awesomeness entries
+altUrl: https://tommi.space/internet-awesomeness/
+permalink: /internet-awesomeness.xml
+lang: en
+todo:
+ - #bug origin data file not read
+---
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title>{{ title }}</title>
+  <subtitle>{{ subtitle }}</subtitle>
+  <link href='{{ feedUrl }}' rel='self'/>
+  <link href='{{ altUrl }}' rel='alternate'/>
+  <updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ altUrl }}</id>
+  <author>
+    <name>{{ author.name }}</name>
+    <email>{{ author.email }}</email>
+  </author>
+  {%- for entry in internet-awesomeness %}
+  {% set absolutePostUrl %}{{ entry.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  <entry>
+    <title>{{ entry.title }}</title>
+    <link href='{{ absolutePostUrl }}'/>
+    <updated>{{ entry.added | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type='html'>{{ entry.description }}</content>
+  </entry>
+  {%- endfor %}
+</feed>

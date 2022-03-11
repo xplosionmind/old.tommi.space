@@ -1,0 +1,52 @@
+---
+title: home
+lang: en
+ref: home
+layout: wrapper
+---
+<section class='row'>
+	<p class='one column center'>You just entered an overwhelming, mindblowing, and confused space inside the immense Universe of the World Wide Web. This place is <strong>a perpetual work in progress</strong> populated by thoughts, drivel, visions, questions, sort-of-answers, kinda-intuitions, contraddictions, disorderly attempts of reordering stuff, representations of chaos.
+	<br>Welcome to tommi.space, <u>the virtual representation of Tommi’s mind</u>.
+	<br>Have fun!</p>
+</section>
+
+{% render about.html, lang: lang %}
+
+{% render scambi.html, lang: lang %}
+
+<div class='row'>
+	{% render quitsocialmedia.html, lang: lang %}
+	{% render sconnesso.html %}
+</div>
+
+{% render latest-post.html, lang: lang, collections: collections %}
+
+<div class='row'>
+	<div class='half column'>
+		<section class='razzmatazz border box'>
+			<p>There’s stuff I find out I wish I knew before, or stuff I just can’t keep from sharing but it’s not enough to make an article, or resources so great and useful that the whole world should know and use, or cool oddities I note and it’s nice to have them always ready at hand.</p>
+			<p>I take this things, I throw them into <a href='/jam' title='The Jam'><em>The Jam</em></a>.</p>
+			<p>I hope it can be useful to you.</p>
+			<div class='flex row'>
+				<a class='razzmatazz written button' href='/jam' title='The Jam'>Dive in 🥄</a>
+			</div>
+		</section>
+	</div>
+	<div class='half column'>
+		<section class='blue border box' style='padding:0 0 2rem 0'>
+			<a href='/stuff' title='Stuff'>
+				<img src='/tommi-exploding.png' alt='a picture of Tommi’s head exploding with a great mess inside it'>
+			</a>
+			<div style='margin:0 10%'>
+				<p>I do too many things.</p>
+				<p>To both remember and share them, on this website I keep track of everything I do.</p>
+				<p>You can check the most important things I do in <a href='/stuff' title='Stuff'><em>Stuff</em></a>, while events and shows and concerts etc. I assist to are <a href='/giri' title='Giri'>here</a>.<br>
+				Everything else is <a href='/tutto' title='tutto'>here</a>.
+				</p>
+			</div>
+			<div class='flex row'>
+				<a class='blue written button' href='/stuff' title='Stuff'>Start from here 🚀</a>
+			</div>
+		</section>
+	</div>
+</div>

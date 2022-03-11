@@ -1,0 +1,34 @@
+---
+date: 2020-06-10
+updated: 2021-10-30T19:13:45+02:00
+tag: quote csvfy
+toc: false
+description: Some are from celebrities, some were pronounced by friends of mine and may have no meaning to the public, in realtà sono quasi tutte in italiano dunque non ha senso che scriva la descrizione in inglese.
+redirect_from: [cit, /citazioni]
+image: https://tommi.space/quotes.gif
+main: true
+todo:
+  - add tags
+---
+<style>
+	.cite {
+		margin-bottom: 4rem;
+	}
+</style>
+{% assign quotes = site.data.quotes | sort: 'date' | reverse %}
+{% for q in quotes %}
+<p class='date' datetime='{{ q.date | 'date_to_xmlschema' }}'>{{ q.date | date: '%d %B %Y' }}</p>
+<blockquote lang='{{ q.lang }}'{% if q.id != nil %} id='{{ q.id }}'{% endif %}>
+	<p>{{ q.quote }}</p>
+</blockquote>
+<p class='cite'>
+	{% if q.work %}
+		{% if q.url %}
+			<cite>{{ q.author }}, <a href='{{ q.url }}' hreflang='{{ q.lang }}' target='_blank' title='{{ p.work }}'>{{ p.work }}</a></cite>
+		{% endif %} 
+	{% else %}
+		{{ q.author }}, <cite>{{ p.work }}</cite>
+	{% endif %}
+	{{ q.note }}
+</p>
+{% endfor %}

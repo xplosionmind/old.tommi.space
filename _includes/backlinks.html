@@ -1,7 +1,7 @@
 <section class='box' id='backlinks'>
 	<h2>Backlinks</h2>
 	<p class='center'>
-		{% if page.lang == 'it' %}
+		{% if lang == 'it' %}
 			Le pagine del sito che contengono un link a questa pagina.<br>
 			Curioso riguardo cosa voglia dire? Leggi <a href='https://it.wikipedia.org/wiki/Backlink' target='_blank' title='Backlink su Wikipedia'>questo articolo</a>.
 		{% else %}
@@ -9,46 +9,40 @@
 		{% endif %}
 	</p>
 
-	{% if jekyll.environment == 'production' %}
-		<ul>
-			{% capture current_url_downcase %}{{ page.url | downcase }}{% endcapture %}
-			{% assign done = page.url %}
 
-			{% assign all = site.pages | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | sort: 'updated' | reverse %}
-			{% for entry in all %}
-				{% unless entry.url contains '.json' or entry.url contains '.csv' or entry.url contains '.css' or entry contains '.txt' or entry.url contains 'home' or entry.url contains 'tuffo' or entry.url contains 'marmellata' or entry.url contains 'jam' or entry.url contains 'feeds/' %}
-					{% if entry.content contains page.url or entry.content contains current_url_downcase %}
-						{% unless done == entry.url %}
-							{% assign done = entry.url %}
-							<li>
-								<a href='{{ entry.url }}'>{{ entry.title }}</a>
-								{% if entry.description %}
-									- {{ entry.description }}
-								{% else %}
-									- {{ entry.excerpt | strip_html | truncatewords: 30 }}
-								{% endif %}
-							</li>
-						{% endunless %}
-					{% endif %}
-					{% for redirect in page.redirect_from %}
-						{% if entry.content contains redirect %}
-							{% unless done == entry.url %}
-								{% assign done = entry.url %}
-								<li>
-									<a href='{{ entry.url }}'>{{ entry.title }}</a>
-									{% if entry.description %}
-										- {{ entry.description }}
-									{% else %}
-										- {{ entry.excerpt | strip_html | truncatewords: 30 }}…
-									{% endif %}
-								</li>
-							{% endunless %}
+	{% comment %} #TODO fix and improve <ul>
+		{% capture current_url_downcase %}{{ url | downcase }}{% endcapture %}
+		{% assign done = url %}
+
+		{% for entry in collections.all %}
+			{% if entry.content contains url or entry.content contains current_url_downcase %}
+				{% unless done == entry.url %}
+					{% assign done = entry.url %}
+					<li>
+						<a href='{{ entry.url }}'>{{ entry.title }}</a>
+						{% if entry.description %}
+							- {{ entry.description }}
+						{% else %}
+							- {{ entry.excerpt | strip_html | truncatewords: 30 }}
 						{% endif %}
-					{% endfor %}
+					</li>
 				{% endunless %}
+			{% endif %}
+			{% for redirect in redirect_from %}
+				{% if entry.content contains redirect %}
+					{% unless done == entry.url %}
+						{% assign done = entry.url %}
+						<li>
+							<a href='{{ entry.url }}'>{{ entry.title }}</a>
+							{% if entry.description %}
+								- {{ entry.description }}
+							{% else %}
+								- {{ entry.excerpt | strip_html | truncatewords: 30 }}…
+							{% endif %}
+						</li>
+					{% endunless %}
+				{% endif %}
 			{% endfor %}
-		</ul>
-	{% else %}
-		<code>You are in development environment!</code>
-	{% endif %}
+		{% endfor %}
+	</ul>{% endcomment %}
 </section>

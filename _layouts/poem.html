@@ -1,0 +1,12 @@
+---
+layout: vuoto
+---
+<h2>{{ title }}</h2>
+<article class='serif'>
+	{{ content }}
+</article>
+{% if lang == 'it' %}
+	<a class='tool' href='/pasticci' title='Tutte le poesie'>indietro</a>
+{% else %}
+	<a class='tool' href='/poetry' title='All of the poems'>back</a>
+{% endif %}

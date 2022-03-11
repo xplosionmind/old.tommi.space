@@ -16,7 +16,7 @@ layout: wrapper
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-				<time class='dt-published' datetime='{{ date | 'date_to_xmlschema' }}'>{% render date-it.html %}</time>
+				<time class='dt-published' datetime='{{ date | 'date_to_xmlschema' }}'>{% render date-it.html, date: date %}</time>
 			{% else %}
 				{% if location != nil %}
 					{% for place in site.data.places %}
@@ -31,7 +31,7 @@ layout: wrapper
 			{% if lang == 'it' %}
 				ultima modifica: 
 				{% if updated != nil %}
-					<time class='dt-updated' datetime='{{ updated }}'>{% render date-up-it.html %}</time>
+					<time class='dt-updated' datetime='{{ updated }}'>{% render date-it.html, date: updated %}</time>
 				{% endif %}
 			{% else %}
 				latest edit: 
@@ -43,18 +43,18 @@ layout: wrapper
 		</p>
 
 		{% render post-tags.html %}
-		{% render goto.html %}
+		{% render goto.html, lang: lang, path: page.inputPath %}
 
 	</section>
+
+	<aside id='toc'>
+		<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+		{{ content | toc }}
+	</aside>
 
 	<div class='row'>
 		<div class='one column'>
 			<article class='e-content note{% if serif %} serif{% endif %}'>
-				{% if toc %}
-					<div id='toc'>
-						<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-					</div>
-				{% endif %}
 				{{ content }}
 			</article>
 
@@ -63,9 +63,9 @@ layout: wrapper
 
 	<div class='row'>
 		<div class='one column'>
-			{% render share.html %}
-			{% render backlinks.html %}
-			{% render comments.html %}
+			{% render share.html, lang: lang, title: title, url: page.url %}
+			{% render backlinks.html, lang: lang %}
+			{% render comments.html, lang: lang %}
 		</div>
 	</div>
 </main>

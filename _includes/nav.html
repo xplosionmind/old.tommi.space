@@ -1,26 +1,25 @@
-<header id='nav' class='nav'>
-	<a id='home' href='{% if page.lang == "it" %}/tuffo{% else %}/home{% endif %}' title='home'>Tommi Space</a>
-	<nav>
+<header class='nav'>
+	<a id='home' href='{% if lang == 'it' %}/tuffo{% else %}/home{% endif %}' title='home'>Tommi Space</a>
+	<nav id='nav'>
 		<input aria-hidden='true' type='checkbox' id='menutoggle'>
 		<label class='nav-mobile' for='menutoggle'><span></span></label>
 		<ul class='nav-list'>
-			<li>{% if page.lang == 'it' %}<a href='/about-it' title='Chi sono'>Io{% else %}<a href='/about' title='About me'>About{% endif %}</a></li>
-			<li>{% if page.lang == 'it' %}<a href='/ora' title='Ciò che sto facendo'>Ora{% else %}<a href='/now' title='What I am doing'>Now{% endif %}</a></li>
-			<li>{% if page.lang == 'it' %}<a href='/zibaldone' title='Blog'>Zibaldone{% else %}<a href='/zibenglish' title='Zibaldone'>Blog{% endif %}</a></li>
-			<li>{% if page.lang == 'it' %}<a href='https://visioni.tommi.space' target='_blank' title='Immagini dal mondo di Tommi'>Visioni{% else %}<a href='https://visions.tommi.space' target='_blank' title='Pictures from Tommi’s world'>Visions{% endif %}</a></li>
-			<li>{% if page.lang == 'it' %}<a href='/cose' title='cose'>Cose{% else %}<a href='/stuff' title='Stuff'>Stuff{% endif %}</a></li>
-			<li>{% if page.lang == 'it' %}<a href='/marmellata' title='La Marmellata'>Marmellata{% else %}<a href='/jam' title='The Jam'>The Jam{% endif %}</a></li>
+			<li>{% if lang == 'it' %}<a href='/about-it' title='Chi sono'>Io{% else %}<a href='/about' title='About me'>About{% endif %}</a></li>
+			<li>{% if lang == 'it' %}<a href='/ora' title='Ciò che sto facendo'>Ora{% else %}<a href='/now' title='What I am doing'>Now{% endif %}</a></li>
+			<li>{% if lang == 'it' %}<a href='/zibaldone' title='Blog'>Zibaldone{% else %}<a href='/zibenglish' title='Zibaldone'>Blog{% endif %}</a></li>
+			<li>{% if lang == 'it' %}<a href='https://visioni.tommi.space' target='_blank' title='Immagini dal mondo di Tommi'>Visioni{% else %}<a href='https://visions.tommi.space' target='_blank' title='Pictures from Tommi’s world'>Visions{% endif %}</a></li>
+			{% comment %}<li>{% if lang == 'it' %}<a href='/cose' title='cose'>Cose{% else %}<a href='/stuff' title='Stuff'>Stuff{% endif %}</a></li>{% endcomment %}
+			<li>{% if lang == 'it' %}<a href='/marmellata' title='La Marmellata'>Marmellata{% else %}<a href='/jam' title='The Jam'>The Jam{% endif %}</a></li>
 			<li><a href='/search' title='Search'>🔍</a>
-			{% comment %}{% if page.ref %}
-				{% assign alternate = site.pages | concat: site.posts | concat: site.poetry | concat: site.notes | concat: site.filinge | concat: site.sconnesso | where_exp: "entry", "entry.lang != page.lang" | find: "ref", page.ref %}
+			{% if alternate %}
 				<li class='dropdown'>
 					<label for='langtoggle' title='language selector'>🌍</label>
 					<input aria-hidden='true' type='checkbox' id='langtoggle'>
 					<ul class='lang-list'>
-						<li><a rel='alternate' href='{{ alternate.url }}' hreflang='{{ alternate.lang }}' title='{{ alternate.title }}'>{% if alternate.lang == 'it' %}🇮🇹{% elsif alternate.lang == 'en' %}🇬🇧{% else %}{{ alternate.lang }}{% endif %}</a></li>
+						<li><a rel='alternate' href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}' title='{{ alternate.data.title }}'>{% if alternate.data.lang == 'it' %}🇮🇹{% elsif alternate.data.lang == 'en' %}🇬🇧{% else %}{{ alternate.data.lang }}{% endif %}</a></li>
 					</ul>
 				</li>
-			{% endif %}{% endcomment %}
+			{% endif %}
 		</ul>
 	</nav>
 </header>

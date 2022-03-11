@@ -1,0 +1,31 @@
+---
+title: Tommi in italiano
+subtitle: Tutti i contenuti in italiano da tommi.space
+altUrl: https://tommi.space/tuffo/
+permalink: italiano.xml
+---
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title>{{ title }}</title>
+  <subtitle>{{ subtitle }}</subtitle>
+  <link href='{{ feedUrl }}' rel='self'/>
+  <link href='{{ altUrl }}' />
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ altUrl }}</id>
+  <author>
+    <name>{{ author.name }}</name>
+    <email>{{ author.email }}</email>
+  </author>
+  {%- for entry in collections.all | reverse %}
+    {% if entry.data.lang == 'it' %}
+      {% set absolutePostUrl %}{{ entry.url | url | absoluteUrl(altUrl) }}{% endset %}
+      <entry>
+        <title>{{ entry.data.title }}</title>
+        <link href='{{ absolutePostUrl }}'/>
+        <updated>{{ entry.date | dateToRfc3339 }}</updated>
+        <id>{{ absolutePostUrl }}</id>
+        <content type='html'>{{ entry.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+      </entry>
+    {% endif %}
+  {%- endfor %}
+</feed>

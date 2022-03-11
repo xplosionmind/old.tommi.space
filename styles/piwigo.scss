@@ -41,7 +41,7 @@ body {
 	overflow-wrap: break-word;
 	hyphens: auto;
 	font: $regular var(--font-sans) !important;
-	cursor: url('https://tommi.space/logos/cursor-dark.svg') 16 16, crosshair;
+	cursor: url('https://tommi.space/cursor-dark.svg') 16 16, crosshair;
 	scroll-behavior: smooth;
 }
 
@@ -51,7 +51,7 @@ body {
 	body {
 		transition: $trans;
 
-		cursor: url('https://tommi.space/logos/cursor-light.svg') 16 16, crosshair;
+		cursor: url('https://tommi.space/cursor-light.svg') 16 16, crosshair;
 
 		--background: #FFF;
 		--text: var(--black-ish);
@@ -446,7 +446,7 @@ span.menuInfoCat.badge,
 }
 
 a {
-	cursor: url('https://tommi.space/logos/cursor-hover.svg') 16 16, pointer !important;
+	cursor: url('https://tommi.space/cursor-hover.svg') 16 16, pointer !important;
 	color: var(--text) !important;
 	&:hover {
 		text-decoration: none !important;
@@ -486,7 +486,7 @@ a {
 }
 
 li .bullet {
-	background: url('https://tommi.space/logos/bpm.gif') no-repeat scroll !important;
+	background: url('https://tommi.space/bpm.gif') no-repeat scroll !important;
 }
 
 #copyright {

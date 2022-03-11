@@ -1,0 +1,72 @@
+---
+title: Sconnesso
+image: /sconnesso.jpg
+feedUrl: https://tommi.space/sconnesso-itunes.xml
+altUrl: https://sconnesso.link/
+description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso.'
+---
+<?xml version='1.0' encoding='utf-8'?>
+<rss version='2.0' xmlns:content='http://purl.org/rss/1.0/modules/content/' xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'>
+	<channel>
+		<title>{{ title }}</title>
+		<description>{{ description | xml_escape | strip_newlines }}</description>
+		<itunes:subtitle>{{ description | xml_escape | strip_newlines }}</itunes:subtitle>
+		<link>{{ altUrl }}</link>
+		<itunes:author>{{ author }}</itunes:author>
+		<itunes:email>{{ email }}</itunes:email>
+		<itunes:image href='{{ image | url }}'/>
+		<image>
+			<url>{{ image | url }}</url>
+			<title>Sconnesso</title>
+			<link>{{ altUrl }}</link>
+		</image>
+		<language>it</language>
+		<managingEditor>{{ email }} ({{ author }})</managingEditor>
+		<webMaster>{{ email }} ({{ author }})</webMaster>
+		<copyright>copyright © ({{ author }})</copyright>
+		<itunes:owner>
+			<itunes:name>{{ author }}</itunes:name>
+			<itunes:email>{{ email }}</itunes:email>
+		</itunes:owner>
+		<itunes:category text='Society &amp; Culture'>
+			<itunes:category text='Personal Journals'/>
+		</itunes:category>
+		<itunes:type>episodic</itunes:type>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:complete>true</itunes:complete>
+		<itunes:block>false</itunes:block>
+
+		{% for episode in collections.sconnesso %}
+			{% increment counter %}
+			<item>
+				<title>{{ episode.data.title | xml_escape }}</title>
+				<itunes:author>{{ author }}</itunes:author>
+				<itunes:season>{{ episode.data.season }}</itunes:season>
+				<itunes:episode>{{ episode.data.episode }}</itunes:episode>
+				<itunes:order>{{ counter }}</itunes:order>
+				<itunes:episodeType>full</itunes:episodeType>
+				<itunes:explicit>{{ episode.data.explicit }}</itunes:explicit>
+				<itunes:image href='{{ image | url }}' />
+				<image>
+					<url>{{ image | url }}</url>
+					<title>{{ episode.data.title }}</title>
+					<link>{{ altUrl }}</link>
+				</image>
+				<link>{{ episode.url | url }}</link>
+				<pubDate>{{ episode.date | dateToRfc3339 }}</pubDate>
+				<itunes:keywords>
+					{%- for tag in episode.tags -%}{{ tag }}, {%- endfor -%}
+				</itunes:keywords>
+				<itunes:duration>{{ episode.length | xml_escape }}</itunes:duration>
+				<guid isPermaLink='true'>{{ episode.url | url }}</guid>
+				<enclosure url='{{ sourceUrl }}{{ episode.data.audio }}' length='{{ episode.data.length | xml_escape }}' type='audio/wav' />
+				<itunes:summary>
+					{{ episode.content | xml_escape | strip_newlines }}
+				</itunes:summary>
+				<description>
+					{{ episode.content | xml_escape | strip_newlines }}
+				</description>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>

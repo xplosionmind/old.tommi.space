@@ -1,9 +1,8 @@
-node_modules
 riordinare/
-_notes/templates/
-_notes/.obsidian
-_notes/.trash
-_notes/PISE
-_notes/obsidian.css
-_notes/.*
+content/notes/templates/
+content/notes/.obsidian
+content/notes/.trash
+content/notes/PISE
+content/notes/obsidian.css
+content/notes/.*
 _data/.*

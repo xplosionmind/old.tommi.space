@@ -1,7 +1,7 @@
 ---
 layout: wrapper
 ---
-<main class='h-entry'>
+<main class='h-entry post'>
 	<section class='center row'>
 		<a class='u-uid u-url' href='{{ url }}'><h1 class='p-name'>{{ title }}</h1></a>
 		{% if subtitle %}
@@ -17,7 +17,7 @@ layout: wrapper
 							{% endif %}
 						{% endfor %}
 					{% endif %}
-					{% render date-it.html %}
+					{% render date-it.html, date: date %}
 				{% else %}
 					{% if location != nil %}
 						{% for place in places %}
@@ -34,17 +34,16 @@ layout: wrapper
 	</section>
 
 	{% render post-tags.html %}
+	{% render goto.html, lang: lang, path: page.inputPath %}
 
-	{% render goto.html %}
+	<aside id='toc'>
+		<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+		{{ content | toc: '"ul":"false"' }}
+	</aside>
 
 	<div class='row'>
 		<div class='one column'>
-			<article class='e-content post{% if serif %} serif{% endif %}'>
-				{% if toc %}
-					<div id='toc'>
-						<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-					</div>
-				{% endif %}
+			<article class='e-content{% if serif %} serif{% endif %}'>
 				{{ content }}
 			</article>
 		</div>
@@ -52,16 +51,16 @@ layout: wrapper
 
 	<div class='row'>
 		<div class='one column'>
-		{% render backlinks.html %}
+		{% render backlinks.html, lang: lang %}
 		</div>
 	</div>
 
 	<div class='row'>
 		<div class='half column'>
-			{% render share.html %}
+			{% render share.html, lang: lang, title: title, url: page.url %}
 		</div>
 		<div class='half column'>
-			{% render comments.html %}
+			{% render comments.html, lang: lang %}
 		</div>
 	</div>
 </main>

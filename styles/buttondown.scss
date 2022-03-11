@@ -13,7 +13,7 @@ $trans: .5s ease-out;
 
 html, body, .app-container {
 	scroll-behavior: smooth;
-	cursor: url(https://tommi.space/logos/cursor-dark.svg) 16 16, crosshair;
+	cursor: url(https://tommi.space/cursor-dark.svg) 16 16, crosshair;
 	background: var(--black-ish) !important;
 	color: var(--text) !important;
 	overflow-wrap: break-word;
@@ -48,7 +48,7 @@ html, body, .app-container {
 		background: linear-gradient(-30deg,#E5EFF5,#FFF) !important;
 	}
 	body, .app-container {
-		cursor: url(https://tommi.space/logos/cursor-light.svg) 16 16, crosshair;
+		cursor: url(https://tommi.space/cursor-light.svg) 16 16, crosshair;
 		background: none !important;
 		--background: #FFF;
 		--text: var(--black-ish);

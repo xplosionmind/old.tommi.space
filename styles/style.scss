@@ -5,7 +5,7 @@
 @use 'parts/ubuntu-mono';
 @use 'parts/eb-garamond';
 @use 'parts/links-emojis';
-@use 'parts/highlight';
+@use 'parts/tags';
 @use 'parts/commento';
 @use 'parts/temporary';
 
@@ -28,8 +28,8 @@ $quicktrans: .1s ease-in-out;
 
 html {
 	scroll-behavior: smooth;
-	background: url(/logos/cantiere.svg), #000;
-	cursor: url(/logos/cursor.svg) 16 16, crosshair;
+	background: url(/cantiere.svg), #000;
+	cursor: url(/cursor.svg) 16 16, crosshair;
 }
 
 /* DARK THEME */
@@ -204,7 +204,7 @@ a,
 button,
 .button,
 label {
-	cursor: url(/logos/cursor-hover.svg) 16 16, pointer;
+	cursor: url(/cursor-hover.svg) 16 16, pointer;
 }
 
 input {
@@ -232,9 +232,9 @@ input.button {
 	border: none;
 }
 
-.invalid-wiki-link {
+.invalid-wikilink {
 	opacity: .5;
-	cursor: url(/logos/cursor-forbidden.svg) 16 16, not-allowed;
+	cursor: url(/cursor-forbidden.svg) 16 16, not-allowed;
 }
 
 .embed-wrapper {
@@ -275,6 +275,7 @@ input.button {
 		font-size: .8em;
 		font-weight: 300;
 		line-height: 1.3em;
+		margin: 5%;
 	}
 	.box {
 		margin: 0;
@@ -338,9 +339,13 @@ li {
 	}
 }
 
-.post > p:first-of-type::first-letter {
+.post article > p:first-of-type::first-letter {
 	initial-letter: 4;
 	font-weight: bolder;
+}
+
+main {
+	position: relative;
 }
 
 hr {
@@ -573,10 +578,15 @@ figcaption {
 
 .poetry {
 	background: var(--yellow);
+	--text: var(--black-ish) !important;
+	--little-shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22 !important;
 	color: var(--black-ish);
 	text-align: center;
+	p.one {
+		margin-bottom: 10vh;
+	}
 	a {
-		color: var(--dark-blue)
+		color: var(--dark-blue) !important;
 	}
 	ul {
 		padding: 0;
@@ -932,13 +942,6 @@ button,
 	}
 }
 
-/*{% for tag in site.data.tags %}
-	.{{ tag.title | remove: ' ' }} {
-		color: {{ tag.color }};
-		background: {{ tag.background }};
-	}
-{% endfor %}*/
-
 .tag {
 	h2 {
 		border-radius: $radius-m;
@@ -1059,10 +1062,14 @@ button,
 			justify-content: center;
 		}
 	}
+	#toc,
+	#goto {
+		margin: 5vh 3vw 0;
+	}
 }
 
 @media only screen and (min-width: 950px) {
-	.post {
+	.post article {
 		padding: 8vh 12vw 15vh;
 	}
 	.box .column {
@@ -1080,9 +1087,9 @@ button,
 		columns: 3;
 	}
 	#toc {
-		position: absolute;
-		left: -13vw;
-		top: 10vh;
+		position: fixed;
+		left: 4vw;
+		bottom: 1vw;
 		width: 18vw;
 		font-size: 1rem;
 		.post & {

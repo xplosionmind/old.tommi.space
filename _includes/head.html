@@ -1,15 +1,15 @@
 <head>
 	<meta charset='utf-8'>
 	<link rel='preload' href='/style.css' type='text/css' as='style'>
-	<link rel='preload' href='/fonts/inter.woff2' as='font' type='font/woff2'>
+	<link rel='preload' href='/inter.woff2' as='font' type='font/woff2'>
 	<meta name='color-scheme' content='dark light'>
 	<link rel='stylesheet' href='/style.css' type='text/css'>
 
-	<link rel='icon' href='/logos/favicon.png' type='image/png'>
-	<link rel='apple-touch-icon' sizes='120x120' href='/logos/favicon-120.png' type='image/png'>
-	<link rel='apple-touch-icon' sizes='152x152' href='/logos/favicon-152.png' type='image/png'>
-	<link rel='apple-touch-icon' sizes='167x167' href='/logos/favicon-167.png' type='image/png'>
-	<link rel='apple-touch-icon' sizes='180x180' href='/logos/favicon-180.png' type='image/png'>
+	<link rel='icon' href='/favicon.png' type='image/png'>
+	<link rel='apple-touch-icon' sizes='120x120' href='/favicon-120.png' type='image/png'>
+	<link rel='apple-touch-icon' sizes='152x152' href='/favicon-152.png' type='image/png'>
+	<link rel='apple-touch-icon' sizes='167x167' href='/favicon-167.png' type='image/png'>
+	<link rel='apple-touch-icon' sizes='180x180' href='/favicon-180.png' type='image/png'>
 
 	<title>{{ title }} | Tommi’s mind</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
@@ -18,7 +18,7 @@
 	<meta name='apple-mobile-web-app-capable' content='yes'>
 	<meta name='theme-color' content='{{ primary }}'>
 	<meta property='og:type' content='website'>
-	{% if page.date %}<meta property='og:article:published_time' content='{{ page.date | 'date_to_xmlschema' }}'>{% endif %}
+	{% if page.date %}<meta property='og:article:published_time' content='{{ date | 'date_to_xmlschema' }}'>{% endif %}
 	{% if updated %}<meta property='article:modified_time' content='{{ updated | 'date_to_xmlschema' }}'>{% endif %}
 	<meta name='twitter:card' content='summary_large_image'>
 	{% comment %}FIX{% if ref %}
@@ -62,12 +62,12 @@
 	{% endfor %}
 	<link rel='me pgpkey' href='https://api.protonmail.ch/pks/lookup?op=get&search=surfing@tommi.space'>
 
-	<link rel='alternate' type='application/rss+xml' title='{% if lang == 'it' %}Everything{% else %}Tutto{% endif %}' href='/feeds/all.xml' hreflang='en'>
-	{% if lang == 'it' %}<link rel='alternate' type='application/rss+xml' title='Tutto in italiano' href='/feeds/italiano.xml' hreflang='it'>{% endif %}
-	<link rel='alternate' type='application/atom+xml' title='{% if lang == 'it' %}Zibaldone{% else %}blog’s feed{% endif %}' href='/feeds/zibaldone.xml' hreflang='it'>
-	<link rel='alternate' type='application/atom+xml' title='{% if lang == 'it' %}poesie{% else %}poetry{% endif %}' href='/feeds/poetry.xml' hreflang='it'>
-	<link rel='alternate' type='application/atom+xml' title='{% if lang == 'it' %}feed marmellata{% else %}notes feed{% endif %}' href='/feeds/jam.xml' hreflang='en'>
-	<link rel='alternate' type='application/rss+xml' title='{% if lang == 'it' %}Sconnesso{% else %}Sconnesso podcast{% endif %}' href='/feeds/sconnesso.xml' hreflang='it'>
-	<link rel='alternate' type='application/rss+xml' title='Internet Awesomeness feed' href='/feeds/interner-awesomeness.xml' hreflang='en'>
+	<link rel='alternate' type='application/rss+xml' title='{% if lang == 'it' %}Everything{% else %}Tutto{% endif %}' href='/all.xml' hreflang='en'>
+	{% if lang == 'it' %}<link rel='alternate' type='application/rss+xml' title='Tutto in italiano' href='/italiano.xml' hreflang='it'>{% endif %}
+	<link rel='alternate' type='application/atom+xml' title='{% if lang == 'it' %}Zibaldone{% else %}blog’s feed{% endif %}' href='/zibaldone.xml' hreflang='it'>
+	<link rel='alternate' type='application/atom+xml' title='{% if lang == 'it' %}poesie{% else %}poetry{% endif %}' href='/poetry.xml' hreflang='it'>
+	<link rel='alternate' type='application/atom+xml' title='{% if lang == 'it' %}feed marmellata{% else %}notes feed{% endif %}' href='/jam.xml' hreflang='en'>
+	<link rel='alternate' type='application/rss+xml' title='{% if lang == 'it' %}Sconnesso{% else %}Sconnesso podcast{% endif %}' href='/sconnesso.xml' hreflang='it'>
+	<link rel='alternate' type='application/rss+xml' title='Internet Awesomeness feed' href='/interner-awesomeness.xml' hreflang='en'>
 
 </head>
