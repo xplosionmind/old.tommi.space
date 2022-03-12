@@ -1,6 +1,6 @@
 ---
 date: 2020-06-04T02:00:00+02:00
-updated: 2022-01-25T08:35:34+01:00
+updated: 2022-02-24T10:51:30+01:00
 aliases: Compagni di viaggio
 lang: it
 description: Gli oggetti da cui non mi separo mai. Quando li smarrisco o perdo la cognizione di dove sono in quel momento (spesso, addosso a me), entro in crisi.
@@ -76,7 +76,7 @@ Presi l’abitudine di portare gli occhiali 24/7, e nei pochi momenti in cui non
 
 Con questa intelligentissima operazione, persi per ben due volte la stanghetta sinistra dei miei occhiali, la prima volta mi venne sostituita gratuitamente, la seconda volta non mi osavo nemmeno a entrare in negozio, così, la mamma trovò online un’occasione incredibile e comprammo in supersconto *Oakley II*. L’unico problema era che *Oakley II* aveva [montatura nera](https://www.oakley.com/en-ie/product/W0OO9013?variant=888392454690), *Oakley I*, invece, trasparente. Così, cominciai a girare con *Oakley I* e stanghette di colori diversi, ma dopo un po’ finii per indossare solo *Oakley II*.
 
-Filò tutto liscio per un po’ di tempo, ma, proprio quando abbassai la guardia, la sera in cui suonarono [gli Zen Circus a Balla coi Cinghiali]({{ site.images }}/2018-08-25-Zen-Circus-a-Balla-coi-Cinghiali.mov) (esattamente dopo la canzone del video, quando la gente cominciò a pogare), gli occhiali mi caddero e finirono per terra, calpestati un sacco di volte dalla folla. Persi una stanghetta, ma tutto ciò che rimase era graffiato e rovinato.
+Filò tutto liscio per un po’ di tempo, ma, proprio quando abbassai la guardia, la sera in cui suonarono [gli Zen Circus a Balla coi Cinghiali](/images/2018-08-25-Zen-Circus-a-Balla-coi-Cinghiali.mov) (esattamente dopo la canzone del video, quando la gente cominciò a pogare), gli occhiali mi caddero e finirono per terra, calpestati un sacco di volte dalla folla. Persi una stanghetta, ma tutto ciò che rimase era graffiato e rovinato.
 
 Fu la fine della dinastia *Oakley*.
 

@@ -1,0 +1,15 @@
+---
+date: 2020-02-26
+tags: geek/idea idea
+aliases: Programming ideas, Development ideas, Missing Apps
+description: Ideas for programs which would be very useful, but I did not find yet
+permalink: /missing-tools
+redirect_from: [/tools-ideas,/programming-ideas,/programming,/development-ideas,/developing,/developing-ideas,/apps-ideas,/ideas, /missing-apps,/missing-programs,/missing-digital-tools,/dev-ideas,/software-ideas,/sw-ideas]
+main: true
+toc: false
+updated: 2022-02-02T23:42:49+01:00
+---
+{{ page.description }}
+
+{% assign notes = site.notes | where_exp: "note", "note.tags contains 'geek/idea'" | sort: 'updated' | reverse %}
+<ul>{% for note in notes %}<li id='{{ note.title | slugify }}'><strong><a href='{{ note.url }}' title='{{ note.title }}'>{{ note.title }}</a></strong>: {% if note.description %}{{ note.description}}{% else %}{{ note.content | markdownify | strip_html | truncatewords: 30 }}{% endif %}</li>{% endfor %}</ul>

@@ -1,6 +1,6 @@
 ---
 date: 2020-12-31T01:00:00+01:00
-updatd: 2022-03-02
+updatd: 2020-12-31
 tags: geek zen
 aliases: Plain text, KISS
 permalink: /plain-text
@@ -8,7 +8,7 @@ redirect_from: ['/ode-to-plain-text']
 toc: false
 updated: 2021-12-16T18:05:49+01:00
 ---
-I am not a developer, but I am a geek.
+I'm not a developer, but I’m a geek.
 
 As a geek who admires developers and their work, I can't but share the underlying philosophy pursued by them: [the KISS principle](https://en.wikipedia.org/wiki/KISS_principle 'KISS principle on Wikipedia'). Keep It Simple and Stupid.
 
@@ -32,4 +32,3 @@ There’s nothing much to point out, to be honest, it’s *plain clear* how cool
 
 - [I <3 plain text files](https://deterministic.space/ode-to-plain-text-files.html 'I <3 plain text files by Pascal Hertleif') by @killercup
 - [Plain Text Reigns Supreme](https://llogiq.github.io/2015/09/14/plaintext.html 'Plain Text Reigns Supreme') by [Andre Bogus](https://llogiq.github.io)
-- <cite>[Write plain text files](https://sive.rs/plaintext '“Write plain text files„ — Derek Sivers')</cite>, by [Derek Sivers](https://sive.rs 'Derek Sivers’ personal website')

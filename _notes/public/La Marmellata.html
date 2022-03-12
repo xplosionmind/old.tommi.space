@@ -24,11 +24,11 @@ image: /logos/jam.png
 
 <p>Ogni elemento della Marmellata è connesso ad un altro: in fondo ad ogni nota, fra i <em><a href='#backlinks' target='_blank' title='I backlink di questa nota'>backlink</a></em> sono elencate tutte le pagine in cui la nota corrente è stata menzionata.</p>
 
-{% include tags.html %}
+{% render tags.html %}
 
 <div class='row'>
 	<div class='half column'>
-		{% include lang-filter.html %}
+		{% render lang-filter.html %}
 	</div>
 	<div class='half column flex'>
 		<a class='red button' style='color:white;' href='/whole-jam'  target='_blank' title='The Whole Jam'>Tutte le note</a>
@@ -42,7 +42,7 @@ image: /logos/jam.png
 			<a href='{{ note.url }}' lang='{{ note.lang }}'>{{ note.title }}</a>
 			&ensp;—&ensp;
 			{% if note.description %}
-				{{ note.description | markdownify | strip_html | truncatewords: 30 }}
+				{% comment %}FIX{{ note.description | markdownify | strip_html | truncatewords: 30 }}{% endcomment %}
 			{% else %}
 				{{ note.excerpt | strip_html | truncatewords: 30 }}
 			{% endif %}

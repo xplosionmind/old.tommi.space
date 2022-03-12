@@ -12,9 +12,9 @@ redirect_from: ['/lost-and-found', '/lostandfound', '/lostfound', '/lost-found',
 <ul>
 	{% for o in lost %}
 		<li>
-			{{ o.what }}, lost on {{ o.lost | date_to_long_string }}
+			{{ o.what }}, lost on {{ o.lost | date: '%d %B %Y' }}
 			{% if o.found != nil %}
-				, found on {{ o.found | date_to_long_string }}
+				, found on {{ o.found | date: '%d %B %Y' }}
 			{% endif %} 
 			{{ note }}
 		</li>

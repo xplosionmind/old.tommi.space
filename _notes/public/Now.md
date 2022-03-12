@@ -1,6 +1,6 @@
 ---
 date: 2020-10-16
-updated: 2022-01-19T13:12:55+01:00
+updated: 2022-02-24T10:51:30+01:00
 ref: now
 description: Stuff I am up to in these days
 comments: false
@@ -42,7 +42,7 @@ I am currently serving as a scout chief in the <q>Reparto Corona Boreale</q> for
 
 ## Working on <cite>Scambi Festival</cite>
 
-{% include scambi.html %}
+{% render scambi.html %}
 
 <br>
 <br>

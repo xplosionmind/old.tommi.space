@@ -1,0 +1,22 @@
+---
+date: 2021-03-06T13:42:23.069822+01:00
+updated: 2021-03-06T13:42:23.069822+01:00
+tags: log
+description: A record of the stuff I lose and (hopefully) find
+toc: false
+aliases: ['Lost']
+permalink: /lost
+redirect_from: ['/lost-and-found', '/lostandfound', '/lostfound', '/lost-found', '/lost-stuff', '/found']
+---
+{% assign lost = site.data.lost | sort: 'found' | reverse %}
+<ul>
+	{% for o in lost %}
+		<li>
+			{{ o.what }}, lost on {{ o.lost | date_to_long_string }}
+			{% if o.found != nil %}
+				, found on {{ o.found | date_to_long_string }}
+			{% endif %} 
+			{{ note }}
+		</li>
+	{% endfor %}
+</ul>
