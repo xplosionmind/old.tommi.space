@@ -1,0 +1,146 @@
+@use 'parts/inter';
+@use 'parts/root';
+@use 'parts/eb-garamond';
+
+$tiny: .2rem;
+$small: .5rem;
+$regular: 1.1rem;
+$bigger: 1.8rem;
+$radius-s: .4rem;
+$radius-m: .6rem;
+$radius-l: 1rem;
+$trans: .5s ease-out;
+
+html, body, .app-container {
+	scroll-behavior: smooth;
+	cursor: url(https://tommi.space/cursor-dark.svg) 16 16, crosshair;
+	background: var(--black-ish) !important;
+	color: var(--text) !important;
+	overflow-wrap: break-word;
+	hyphens: auto;
+	font: $regular var(--font-sans);
+
+	--background: var(--black-ish);
+	--text: var(--white);
+	--deep: var(--dark-blue);
+	--link: var(--primary);
+	--primary: var(--yellow);
+	--secondary: var(--blue);
+	--slight: var(--light-blue);
+	--internal-link: var(--orange);
+	--grey: var(--dark-grey);
+	--other-grey: var(--light-grey);
+	--transp-text: #FFF4;
+	--shadow: 5px 5px 20px #0009, -5px -5px 20px #FFF3CC22; 
+	--opposite-shadow: -5px -5px 20px #0001, 5px 5px 20px #FFFC;
+	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFF3CC22;
+	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFF3CC11;
+	--button-shadow: inset 2px 2px 4px #FFF3CC88, inset -2px -2px 4px #0008;
+	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
+	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
+
+	transition: $trans;
+
+}
+
+@media screen and (prefers-color-scheme: light) {
+	html {
+		background: linear-gradient(-30deg,#E5EFF5,#FFF) !important;
+	}
+	body, .app-container {
+		cursor: url(https://tommi.space/cursor-light.svg) 16 16, crosshair;
+		background: none !important;
+		--background: #FFF;
+		--text: var(--black-ish);
+		--deep: #FFF;
+		--link: var(--secondary);
+		--primary: var(--blue);
+		--secondary: var(--razzmatazz);
+		--slight: var(--dark-blue);
+		--internal-link: var(--darkmatazz);
+		--grey: var(--light-grey);
+		--other-grey: var(--dark-grey);
+		--transp-text: #11305B33;
+		--shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22;
+		--opposite-shadow: -5px -5px 20px #0006, 5px 5px 20px #FFF3;
+		--little-shadow: 1px 1px 4px #11305B33, -2px -2px 3px #FFF3CC77;
+		--tool-shadow: 3px 3px 8px #11305B55, -3px -3px 8px #FFF3CC66;
+		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
+		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
+
+		transition: $trans;
+	}
+}
+
+#app {
+	color: var(--white) !important;
+}
+
+.subject {
+	margin: 8vh 0;
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width:900px) {
+	.body {
+		padding: 3vh 5vw;
+	}
+}
+
+h2 {
+	margin-top: 8vh;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: $bigger !important;
+}
+
+form {
+	margin-top: 9vh !important;
+}
+
+input[type="email"] {
+	line-height: $bigger;
+	border: none !important;
+	background: var(--background);
+	color: var(--text);
+	border-radius: $radius-s !important;
+	box-shadow: var(--inner-shadow);
+	padding: $small $regular;
+	font-size: $bigger;
+	&::placeholder {
+		color: var(--other-grey);
+	}
+}
+
+button, .share-network-facebook, .share-network-twitter, .share-network-email {
+	color: var(--black-ish) !important;
+	text-transform: uppercase;
+	border-radius: $radius-m !important;
+	box-shadow: var(--button-shadow);
+	margin-bottom: 9vh !important;
+	font-weight: 800;
+	&[disabled] {
+		box-shadow: none !important;
+	}
+}
+
+label {
+	color: var(--light-grey) !important;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 500;
+	&:hover {
+		filter: hue-rotate(.3turn);
+	}
+}
+
+blockquote {
+	background: none;
+	color: var(--text);
+	margin: 0 5vw;
+	p {
+		font-family: var(--serif);
+	}
+}

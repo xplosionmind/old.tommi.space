@@ -1,8 +1,8 @@
 <div id='hotlinewebring' class='box center'>
-	this website is part of the
-	<h2><a href='https://hotlinewebring.club' target='_blank' title='Hotline Webring'>Hotline Webring</a></h2>
+	{% if lang == 'it' %}<span lang='it'>Questo sito è parte dello</span>{% else %}This website is part of the{% endif %}
+	<h2><a href='https://hotlinewebring.club' title='Hotline Webring'>Hotline Webring</a></h2>
 	<div class='flex'>
-		<a class='tiny button' href='https://hotlinewebring.club/tommi/previous' target='_blank' title='Previous website in the webring'>previous</a>
-		<a class='tiny button' href='https://hotlinewebring.club/tommi/next' target='_blank' title='Next website in the webring'>next</a>
+		<a class='tiny button' href='https://hotlinewebring.club/tommi/previous' title='{% if lang == 'it' %}Sito precedente nel webring' lang='it' hreflang='en'>precedente{% else %}Previous website in the webring'>previous{% endif %}</a>
+		<a class='tiny button' href='https://hotlinewebring.club/tommi/next' title='{% if lang == 'it' %}Sito successivo nel webring' lang='it' hreflang='en'>successivo{% else %}Next website in the webring'>next{% endif %}</a>
 	</div>
 </div>

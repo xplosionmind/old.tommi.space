@@ -1,0 +1,37 @@
+---
+title: Zibaldone
+redirect_from: [/blog/, /en/zibaldone/, /zibaldone/en/]
+lang: en
+ref: Zibaldone
+description: Things getting out of Tommi’s head, in the form of articles
+---
+<section class='center row'>
+	<h1>Zibaldone</h1>
+	<p class='one column'><em>Zibaldone di Pensieri</em> is a great collection of notes by the great italian author Giacomo Leopardi. These writings don’t have even a tiny bit of profoundness, power and wit of the original collection. Just a touch of glee, craziness of my everyday life.<br>
+		Translating the definition by <a href='https://treccani.it' target='_blank' hreflang='it' lang='it' title='Enciclopedia Treccani'>Treccani</a> encyclopedia, <a href='https://treccani.it/vocabolario/zibaldone/' hreflang='it' lang='it' target='_blank'>żibaldóne</a>: […] <cite class='serif'>Notebook where unordered news, notes, thoughts, quotes, schemes, sketches are noted</cite>.<br>
+	Exactly that.</p>
+</section>
+
+<div class='row'>
+	<div class='two-thirds column'>
+		{% render tags.html %}
+	</div>
+	<div class='one-third column'>
+		{% render lang-filter.html, lang: lang %}
+	</div>
+</div>
+
+<div class='zibaldone flex row'>
+	{% for entry in collections.posts %}
+		<div class='one-third'>
+			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
+				<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}' title='{{ entry.data.title }}'>
+				<h2>{{ entry.data.title }}</h2>
+				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | 'date_to_xmlschema' }}'>{% render date-it.html, date: entry.date %}<time></p>
+				<cite class='excerpt'>
+					{{ entry.data.description }}
+				</cite>
+			</a>
+		</div>
+	{% endfor %}
+</div>

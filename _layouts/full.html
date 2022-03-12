@@ -1,16 +1,13 @@
----
-layout: none
----
 <!DOCTYPE html>
 <html>
 	<head>
 		<link rel='stylesheet' href='/style.css' type='text/css' as='style'>
-		<link rel='preload' href='/fonts/inter.woff2' as='font' type='font/woff2'>
+		<link rel='preload' href='/inter.woff2' as='font' type='font/woff2'>
 	</head>
 	<body class='full'>
 		<a class='vertical flex' href='{{ page.link }}'>
-			<h1>{{ page.title }}</h1>
-			{{ content | markdownify }}
+			<h1>{{ title }}</h1>
+			{{ content }}
 		</a>
 	</body>
 </html>

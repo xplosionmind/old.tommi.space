@@ -1,0 +1,4 @@
+Sitemap: https://tommi.space/sitemap.xml
+
+User-agent: *
+Disallow:

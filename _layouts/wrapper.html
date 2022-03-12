@@ -1,36 +1,38 @@
----
----
 <!DOCTYPE html>
-<html lang='{% case page.lang %}{% when 'it' %}it{% when 'fr' %}fr{% else %}en{% endcase %}' prefix='og: http://ogp.me/ns#' dir='ltr'>
+<html lang='{% case lang %}{% when 'it' %}it{% when 'fr' %}fr{% else %}en{% endcase %}' prefix='og: http://ogp.me/ns#' dir='ltr'>
 
-	{% include head.html %}
+	{% if ref %}
+		{% for entry in collections.all %}
+			{% if entry.data.ref == ref and entry.data.lang != lang %}
+				{% assign alternate = entry %}
+			{% endif %}
+		{% endfor %}
+	{% endif %}
 
-	<body class='cantiere{% if page.class %} {{ page.class }}{% endif %}'>
+	{% render head.html, title: title, primary: primary, lang: lang, alternate: alternate %}
+
+	<body class='cantiere{% if class %} {{ class }}{% endif %}'>
 		<a id='scrollbutton' class='tool' href='#' aria-label='scroll to top' title='scroll to top'>
 			<svg class='button' viewBox='0 0 24 24' style='background:var(--deep)' aria-hidden='true'><path d='M18 15a1 1 0 0 1-.64-.23L12 10.29l-5.37 4.32a1 1 0 0 1-1.41-.15 1 1 0 0 1 .15-1.41l6-4.83a1 1 0 0 1 1.27 0l6 5a1 1 0 0 1 .13 1.41A1 1 0 0 1 18 15z' fill='var(--text)'/></svg>
 		</a>
 
-		{% include nav.html %}
+		{% render nav.html, lang: lang, alternate: alternate %}
 
-		{% if page.tags contains 'draft' or page.tags contains 'wip' %}
-			{% include draft.html %}
+		{% if tags contains 'draft' or tags contains 'wip' %}
+			{% render draft.html, lang: lang %}
 		{% endif %}
 
-		{% if page.tags contains 'help' %}
-			{% include help.html %}
+		{% if tags contains 'help' %}
+			{% render head.html, lang: lang, lang: lang %}
 		{% endif %}
 
 		{{ content }}
 
 		<div class='row'>
-			{% include footer.html %}
+			{% render footer.html, lang: lang %}
 		</div>
 	
 		<script type='text/javascript'>
-			var private = document.getElementsByClassName('invalid-wiki-link');
-			for (var i=0; i < private.length; i++) {
-				private[i].setAttribute('title', 'This note is private');
-			};
 			scrollbutton = document.getElementById('scrollbutton');
 			window.onscroll = function() {scroll()};
 			function scroll() {

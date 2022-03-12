@@ -1,0 +1,25 @@
+:root {
+	--black-ish: #222;
+	--white: #E3E3E3;
+	--dark-grey: #555;
+	--light-grey: #AAA;
+	--yellow: #FCC920;
+	--blue: #3185FC;
+	--dark-blue: #11305B;
+	--light-blue: #ADCFFF;
+	--red: #D00;
+	--green: #88D18A;
+	--razzmatazz: #EC0868;
+	--purple: #884EE1;
+	--orange: #FF6024;
+	--darkmatazz: #D0031F;
+	
+	--invert: grayscale(.5) invert(.9) brightness(.95) hue-rotate(180deg);
+	--invert-dark: grayscale(.1) invert(1) brightness(1.1) hue-rotate(180deg);
+
+	--title-text-shadow-hover: none;
+
+	--font-sans: Inter, system-ui, -apple-system, Helvetica, Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	--font-serif: 'EB Garamond', Garamond, 'Simoncini Garamond', Merriweather, serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	--font-mono: 'Ubuntu Mono', ui-monospace, 'Roboto Mono', mono;
+}

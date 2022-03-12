@@ -1,6 +1,6 @@
-[submodule "_notes/PISE"]
-	path = _notes/PISE
-	url = git@codeberg.org:tommi/PISE-notes.git
+[submodule "content/notes/PISE"]
+	path = content/notes/PISE
+	url = git@codeberg.org:tommi/pise-notes.git
 
 [submodule "_data"]
 	path = _data

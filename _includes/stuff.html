@@ -1,26 +1,26 @@
-{% assign stuff = site.data.stuff | sort: 'current' %}
+{% comment %}#TODO to refactor completely
 <section id='stuff' class='row'>{% for thing in stuff %}
 	{% if page.lang == 'it' %}
 		<div class='box row' style='color: {{ thing.color }}; background: {{ thing.background }}' id='{{ thing.title | slugify }}'>
 			<div class='half column vertical flex'>
-				<img src='{{ site.images }}/stuff/{{ thing.title | slugify }}.jpg' title='{{ thing.alt-it }}' alt='{{ thing.alt-it }}'>
+				<img src='/{{ thing.title | slugify }}.jpg' title='{{ thing.alt-it }}' alt='{{ thing.alt-it }}'>
 			</div>
 			<div class='half column vertical flex'>
-				<img class='stuff-logo' src='{{ site.logos }}/stuff/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
-				<p>{{ thing.description-it | markdownify }}</p>
-				<a href='{{ thing.link }}'  target='_blank' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button-it }}</a>
+				<img class='stuff-logo' src='/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
+				<p>FIX{{ thing.description-it | markdownify }}</p>
+				<a href='{{ thing.link }}'  class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button-it }}</a>
 			</div>
 		</div>
 	{% else %}
 		<div class='box row' style='color: {{ thing.color }}; background: {{ thing.background }}' id='{{ thing.title | slugify }}'>
 			<div class='half column vertical flex'>
-				<img src='{{ site.images }}/stuff/{{ thing.title | slugify }}.jpg' title='{{ thing.alt }}' alt='{{ thing.alt }}'>
+				<img src='/{{ thing.title | slugify }}.jpg' title='{{ thing.alt }}' alt='{{ thing.alt }}'>
 			</div>
 			<div class='half column vertical flex'>
-				<img class='stuff-logo' src='{{ site.logos }}/stuff/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
-				<p>{{ thing.description | markdownify }}</p>
-				<a href='{{ thing.link }}'  target='_blank' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button }}</a>
+				<img class='stuff-logo' src='/{{ thing.logo }}' alt='{{ thing.title }} logo' title='{{ thing.title }}'>
+				<p>FIX{{ thing.description | markdownify }}</p>
+				<a href='{{ thing.link }}' class='written button' style='color: {{ thing.background }}; background: {{ thing.color }};'>{{ thing.button }}</a>
 			</div>
 		</div>
 	{% endif %}
-{% endfor %}</section>
+	{% endfor %}</section>{% endcomment %}

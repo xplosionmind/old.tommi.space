@@ -1,19 +1,10 @@
----
----
 /* TEAM */
 Author: Tommi
 Contact: surfing@tommi.space
-Twitter: @xplosionmind
-Mastodon: @xplosionmind@mastodon.online
+Mastodon: @tommi@mastodon.uno
 Location: Italy
 
-
-/* THANKS */
-Suggestions and tips: Claudio Faoro, https://claudiofaoro.com
-
-
 /* SITE */
-Last update: {{ site.last_modified_at }}
-Standards: HTML5, CSS3, pure JavaScript (the latter used in very few cases)
+Standards: HTML5, CSS3, pure JavaScript
 Components: none
-Software: Jekyll
+Software: Eleventy

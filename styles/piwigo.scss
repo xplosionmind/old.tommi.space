@@ -1,0 +1,574 @@
+@use 'parts/root';
+@use 'parts/inter';
+@use 'parts/ubuntu-mono';
+@use 'parts/eb-garamond';
+
+$tiny: .2rem;
+$small: .5rem;
+$regular: 1.1rem;
+$big: 1.6rem;
+$height: 3.1rem;
+$radius-s: .4rem;
+$radius-m: .6rem;
+$radius-l: 1rem;
+$trans: .5s ease-out;
+
+html,
+body {
+	/* DARK THEME */
+	--background: var(--black-ish);
+	--text: var(--white);
+	--deep: var(--dark-blue);
+	--link: var(--primary);
+	--primary: var(--yellow);
+	--secondary: var(--blue);
+	--slight: var(--light-blue);
+	--internal-link: var(--orange);
+	--grey: var(--dark-grey);
+	--other-grey: var(--light-grey);
+	--transp-text: #FFF4;
+	--shadow: 5px 5px 20px #0009, -5px -5px 20px #FFF3CC22; 
+	--opposite-shadow: -5px -5px 20px #0001, 5px 5px 20px #FFFC;
+	--little-shadow: 2px 2px 3px #000000EF, -2px -2px 3px #FFF3CC22;
+	--tool-shadow: 3px 3px 8px #000A, -3px -3px 8px #FFF3CC11;
+	--button-shadow: inset 2px 2px 4px #FFF3CC88, inset -2px -2px 4px #0008;
+	--inner-shadow: inset 3px 3px 5px #0008, inset -3px -3px 5px #FFF3CC22;
+	--inner-little-shadow: inset 2px 2px 4px #0008, inset -2px -2px 3px #FFF3CC11;
+
+	transition: $trans;
+	background: var(--background) !important;
+	color: var(--text) !important;
+	overflow-wrap: break-word;
+	hyphens: auto;
+	font: $regular var(--font-sans) !important;
+	cursor: url('https://tommi.space/cursor-dark.svg') 16 16, crosshair;
+	scroll-behavior: smooth;
+}
+
+/* LIGHT THEME */
+@media screen and (prefers-color-scheme: light) {
+	html,
+	body {
+		transition: $trans;
+
+		cursor: url('https://tommi.space/cursor-light.svg') 16 16, crosshair;
+
+		--background: #FFF;
+		--text: var(--black-ish);
+		--deep: #FFF;
+		--link: var(--secondary);
+		--primary: var(--blue);
+		--secondary: var(--razzmatazz);
+		--slight: var(--dark-blue);
+		--internal-link: var(--darkmatazz);
+		--grey: var(--light-grey);
+		--other-grey: var(--dark-grey);
+		--transp-text: #11305B33;
+		--shadow: 5px 5px 20px #11305B22, -5px -5px 20px #FFF3CC22;
+		--opposite-shadow: -5px -5px 20px #0006, 5px 5px 20px #FFF3;
+		--little-shadow: 1px 1px 4px #11305B33, -2px -2px 3px #FFF3CC77;
+		--tool-shadow: 3px 3px 8px #11305B55, -3px -3px 8px #FFF3CC66;
+		--inner-shadow: inset 3px 3px 5px #11305B55, inset -3px -3px 5px #FFF3CC22;
+		--inner-little-shadow: inset 2px 2px 3px #11305B22, inset -2px -2px 3px #FFF3CC33;
+	}
+
+	#urlshackicon {
+		filter: invert(90%) sepia(8%) saturate(5793%) hue-rotate(181deg) brightness(100%) contrast(106%);
+	}
+}
+
+* {
+	letter-spacing: unset !important;
+}
+
+.albThumbs li {
+	border-radius: $radius-m;
+	box-shadow: var(--shadow);
+	margin: $tiny !important;
+	&:hover {
+		transform: scale(1.05);
+		transition: all .1s;
+	}
+}
+
+.imageInfoTable, #imageInfos {
+	background: var(--background);
+	font-family: var(--font-sans) !important;
+	a {
+		color: var(--link) !important;
+	}
+}
+
+.wide {
+	#imageInfos {
+		margin-right: $regular;
+		margin-top: $regular;
+		box-shadow: var(--shadow);
+		border-radius: $radius-l !important;
+		background: var(--background) !important;
+	}
+	.imageInfo {
+		dd, dt {
+			display: table-cell !important;
+		}
+	}
+	.imageInfoTable {
+		padding: $regular $small $regular $regular !important;
+		border-radius: 0 0 1rem 1rem;
+	}
+}
+
+.imageInfo {
+	dd {
+		font-family: var(--font-mono) !important;
+	}
+}
+
+.Copyrights_name {
+	display: none;
+	&:has(a) {
+		display: table-row;
+	}
+}
+
+.theImageAndInfos {
+	background: var(--deep);
+}
+
+#theMainImage {
+	max-width: 100% !important;
+	height: auto !important;
+	box-shadow: var(--shadow);
+}
+
+.contentWithMenu,
+#copyright,
+.switchBox {
+	color: var(--text) !important;
+	a {
+		color: var(--text) !important;
+	}
+}
+
+.switchBox {
+	background-color: var(--background) !important;
+	box-shadow: var(--shadow);
+	border-radius: $radius-s;
+}
+
+
+#imageToolBar {
+	background: var(--deep) !important;
+	padding: 6px .5rem 9px !important;
+	margin: 0 3% !important;
+	box-shadow: var(--shadow);
+	border-radius: $radius-m;
+}
+
+.uc-icon-star-filled,
+.uc-icon-star {
+	color: inherit !important;
+}
+
+#urlshackicon {
+	padding: 0 6px;
+	filter: invert(16%) sepia(25%) saturate(3007%) hue-rotate(189deg) brightness(95%) contrast(98%);
+}
+
+/* Image preview */
+#tooltip {
+	background: none !important;
+	padding: 0 !important;
+	border-radius: $radius-l !important;
+	box-shadow: var(--shadow) !important;
+	border: solid 2px var(--text);
+	span {
+		display: none !important;
+		color: transparent !important;
+	}
+	img {
+		border-radius: $radius-l !important;
+	}
+}
+
+/* hide legend */
+.thumbLegend {
+	display: none;
+}
+
+#copyright,
+#copyright a,
+.browsePathSeparator {
+	opacity: .5;
+}
+
+.imageInfoTable ul {
+	list-style-tipe: unset;
+	li:only-child {
+		list-style-type: none;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	aside#menubar {
+		top: 80px !important;
+		left: $regular;
+		border-radius: $radius-m;
+		box-shadow: var(--shadow);
+		opacity: 1;
+	}
+	.contentWithMenu .titrePage h2,
+	.contentWithMenu .browsePath {
+		text-indent: 60px !important;
+	}
+	#menubar {
+		background: var(--background) !important;
+		color: var(--text) !important;
+		a {
+			color: var(--text) !important;
+		}
+	}
+	#albumActionsSwitcher + .categoryActions {
+		background-color: var(--background) !important;
+		border-radius: $radius-s;
+		box-shadow: var(--shadow) !important;
+		opacity: 1 !important;
+		z-index: 10000 !important;
+	}
+	.imageInfoTable, #imageInfos {
+		background: transparent !important;
+	}
+	#imageInfos {
+		padding: 0 3%;
+	}
+	.linkPrev {
+		margin: 0 10px 15% 0;
+	}
+	.linkNext {
+		margin: 0 15% 10px 0;
+	}
+	.actionButtonsWrapper .actionButtons {
+		border-radius: $radius-m;
+		box-shadow: var(--little-shadow) !important;
+		background-color: var(--background) !important;
+		opacity: 1 !important;
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	#menubar {
+		height: $height;
+		line-height: $height;
+		background: var(--primary) !important;
+		color: var(--background) !important;
+		margin: 2vw !important;
+		border-radius: $radius-m;
+		box-shadow: var(--shadow);
+		padding: 0 $regular !important;
+		a {
+			color: var(--background) !important;
+		}
+	}
+	#thumbnails {
+		margin: $regular 5% !important;
+	}
+	#pictureComments {
+		max-width: 800px;
+		margin: $regular auto 3vw;
+	}
+}
+
+#menubar {
+	width: unset !important;
+	padding: $regular $small $small;
+	text-transform: uppercase;
+	font-weight: 700;
+	dd, .switchBox, .categoryActions {
+		background: var(--background) !important;
+		color: var(--text) !important;
+		border-radius: $radius-m;
+		box-shadow: var(--shadow) !important;
+		z-index: 10000 !important;
+	}
+	dd {
+		li {
+			a {
+				color: var(--text) !important;
+				font-size: unset !important;
+			}
+		}
+	}
+}
+
+#Tags {
+	display: inline-block !important;
+	dd {
+		font-size: 0;
+		a {
+			padding: 1px 6px;
+			margin: $tiny;
+			box-shadow: var(--little-shadow);
+			display: inline-block;
+			border-radius: $radius-s;
+			font-family: var(--font-sans) !important;
+			font-weight: 700;
+			font-size: 1rem;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.albLegend {
+	padding: $regular $tiny $small !important;
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0.01),rgba(0,0,0,0.8)) !important;
+	text-shadow: 1px 1px 5px #000E;
+	height: unset !important;
+	max-height: 60%;
+	h4 {
+		margin: $small $small 0 $small !important;
+		line-height: 1;
+	}
+	div {
+		margin: 0 $small;
+		opacity: .6;
+		font-size: .8em;
+	}
+}
+
+#qsearchInput {
+	border: none;
+	background: #0002;
+	color: var(--transp-text);
+	box-shadow: none;
+	&::placeholder {
+		color: var(--transp-text);
+	}
+}
+
+#commentAdd {
+	width: 100% !important;
+	padding: unset !important;
+}
+
+.commentElement {
+	padding: 10px !important;
+	max-width: 100% !important;
+	background-color: var(--background) !important;
+	box-shadow: var(--shadow);
+}
+
+#pictureComments {
+	padding: $regular 3vw;
+	margin: 3vh auto;
+	box-shadow: var(--shadow);
+	border-radius: $radius-l;
+	background: var(--background) !important;
+}
+
+#comments {
+	h3 {
+		display: none;
+	}
+}
+
+#comments input[type='text'],
+#comments TEXTAREA,
+input {
+	border: none !important;
+	border-radius: $radius-s;
+	background: var(--deep);
+	color: var(--text);
+	padding: 2px $small;
+	box-shadow: var(--inner-shadow);
+}
+
+input[value='Submit'] {
+	background: var(--primary);
+	color: var(--background);
+	font-weight: 700;
+	text-transform: uppercase;
+	box-shadow: var(--button-shadow);
+}
+
+div.thumbHover {
+	background: var(--primary);
+	border-radius: $radius-s;
+	box-shadow: var(--button-shadow);
+	color: var(--background) !important;
+	font-weight: 800;
+}
+
+a .pwg-icon {
+	color: var(--slight) !important;
+}
+
+.pwg-icon.pwg-icon-menu {
+	padding: $small !important;
+	margin: $small;
+	background: var(--primary) !important;
+	border-radius: $radius-s;
+	box-shadow: var(--little-shadow);
+	opacity: 1 !important;
+	color: var(--background) !important;
+}
+
+.albumActionsSwitcher {
+	width: unset !important;
+}
+
+.titrePage {
+	background: none !important;
+	color: var(--text);
+	line-height: unset !important;
+	padding: $small !important;
+	margin: $small 3%;
+	h2 {
+		a {
+			color: var(--text) !important;
+		}
+	}
+}
+
+/* Style albums population */
+.titrePage h2 span.badge,
+span.menuInfoCat.badge,
+#menubar .menuInfoCat {
+	font: .9em var(--font-sans) !important;
+	color: var(--text) !important;
+	opacity: .5;
+	&::before,
+	&::after {
+		display: none !important;
+	}
+	/* background: var(--grey) !important;
+	box-shadow: var(--little-shadow);
+	border-radius: $radius-s; */
+}
+
+a {
+	cursor: url('https://tommi.space/cursor-hover.svg') 16 16, pointer !important;
+	color: var(--text) !important;
+	&:hover {
+		text-decoration: none !important;
+	}
+	&[href='identification.php'] {
+		opacity: .3;
+	}
+}
+
+.navigationBar * {
+	color: var(--other-grey) !important;
+}
+
+.calItem {
+	padding: $tiny $small !important;
+	border-radius: $radius-s !important;
+	border: none !important;
+	box-shadow: var(--button-shadow);
+}
+
+.navThumbs {
+	overflow: hidden;
+	font-size: .5rem;
+	img {
+		border-radius: $radius-s;
+	}
+}
+
+#imageHeaderBar H2 {
+	font-weight: 800;
+	color: var(--text);
+}
+
+.imageNumber {
+	font-weight: 300;
+	color: var(--text);
+}
+
+li .bullet {
+	background: url('https://tommi.space/bpm.gif') no-repeat scroll !important;
+}
+
+#copyright {
+	display: none;
+}
+
+.additional_info {
+	font-family: var(--font-serif);
+	text-align: center;
+	font-size: 1em !important;
+	padding: 0 15%;
+}
+
+p.imageComment {
+	padding: 0 5%;
+	font-family: var(--font-serif);
+	a {
+		color: var(--link) !important;
+	}
+	*:not(pre,code) {
+		font-family: var(--font-serif);
+	}
+}
+
+.piwishack {
+	border: none !important;
+	border-radius: $radius-l;
+	box-shadow: var(--shadow);
+	.header,
+	.tab,
+	.tabselected {
+		display: none;
+	}
+	* {
+		border: none !important;
+	}
+}
+
+textarea {
+	border: none !important;
+	border-radius: $radius-s;
+	min-height: $big;
+}
+
+#map {
+	border-radius: $radius-l;
+	box-shadow: var(--shadow);
+	.imageInfos & {
+		border-radius: $radius-m;
+		box-shadow: var(--little-shadow);
+	}
+	#osmmap & {
+		max-width: calc(100% - 6vh);
+		margin: 3vh auto;
+	}
+}
+
+#map-info {
+	display: block !important;
+	dt {
+		display: none !important;
+	}
+	dd {
+		margin: 0 !important;
+		display: block !important;
+	}
+}
+
+/* Admin row */
+#ato_header {
+	background: var(--grey) !important;
+}
+
+#ato_header_closed {
+	background: var(--razzmatazz) !important;
+}
+
+#ato_header > ul > li > *,
+#ato_header_closed:not(.smartpocket) > * {
+	text-shadow: none !important;
+}
+
+#ato-header {
+	background: var(--other-grey) !important;
+}

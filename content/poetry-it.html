@@ -1,0 +1,20 @@
+---
+title: Fake poetry
+permalink: /pasticci/
+redirect_from: [/poesia/,/poesie-selezione/,/selezione-poesie/,/pasticci-belli/,/pasticcibelli/,/poetry/it/,/it/poetry/,/poetry-it/]
+lang: it
+ref: poetry
+layout: vuoto
+class: poetry
+description: |
+  Non è come mangiare un gelato, la scrittura: se la addenti, non ti assale quell’immobilismo per cui il tuo cervello si contrae e non sei in grado di pensare ad altro per cinque virgola due secondi. La scrittura, invece, scalda e dilata, estende e quieta.<br />
+  Di seguito alcuni miei morsi di scrittura, vi prego di fare attenzione a non lasciarci un canino.
+---
+<h1>{{ title }}</h1>
+<article class='serif center'>
+	<p class='one'>{{ description }}</p>
+	<ul>{% for poem in collections.poetry %}
+		<li><a href='{{ poem.url }}' title='{{ poem.data.title }}'>{{ poem.data.title }}</a></li>
+	{% endfor %}</ul>
+</article>
+<a class='tool' href='/tuffo' title='Torna alla home'>indietro</a>

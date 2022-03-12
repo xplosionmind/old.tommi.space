@@ -1,0 +1,30 @@
+---
+title: Zibaldone
+subtitle: Tutti gli articoli dal blog di tommi.space
+altUrl: https://tommi.space/zibaldone
+feedUrl: https://tommi.space/zibaldone.xml
+permalink: /zibaldone.xml
+---
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title>{{ title }}</title>
+  <subtitle>{{ subtitle }}</subtitle>
+  <link href='{{ feedUrl }}' rel='self'/>
+  <link href='{{ altUrl }}' rel='alternate' />
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ altUrl }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for post in collections.posts | reverse %}
+  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(altUrl) }}{% endset %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href='{{ absolutePostUrl }}'/>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type='html'>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>

@@ -1,0 +1,17 @@
+---
+title: Fake poetry
+redirect_from: [/poetry-selection/,/fake-poetry/,/fakepoetry/]
+lang: en
+ref: poetry
+layout: vuoto
+class: poetry
+description: A collection of wonderful failures of my foolish attempt at drawing images with my words you are invited to laugh at
+---
+<h1>{{ title }}</h1>
+<article class='center serif'>
+	<p class='one'>{{ description }}</p>
+	<ul>{% for poem in collections.poetry %}
+		<li><a href='{{ poem.url }}' title='{{ poem.data.title }}'>{{ poem.data.title }}</a></li>
+	{% endfor %}</ul>
+</article>
+<a class='tool' href='/home' title='go back home'>Back</a>

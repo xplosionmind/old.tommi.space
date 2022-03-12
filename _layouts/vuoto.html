@@ -1,10 +1,7 @@
----
-layout: ~
----
 <!DOCTYPE html>
-<html lang='{% if page.lang == 'it' %}it{% else %}en{% endif %}' xmlns:og='http://opengraphprotocol.org/schema/'></html>
+<html lang='{% if page.lang == 'it' %}it{% else %}en{% endif %}' xmlns:og='http://opengraphprotocol.org/schema/'>
 
-	{% include head.html %}
+	{% render head.html, title: title, primary: primary, lang: lang, alternate: alternate %}
 
 	<body>
 		{% if page.textonly %}
@@ -14,7 +11,7 @@ layout: ~
 				</article>
 			</main>
 		{% else %}
-			<main class='{{ page.class }}'>
+			<main class='{{ class }}'>
 				{{ content }}
 			</main>
 		{% endif %}

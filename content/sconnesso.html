@@ -1,0 +1,39 @@
+---
+title: Sconnesso
+redirect_from: [/podcast/,/audio/]
+lang: it
+primary: var(--purple)
+image: /sconnesso.jpg
+description: Uno pseudo-podcast in cui, per alcuni minuti, racconto ciò che mi sorprende. Sconnesso è sbagliato, ma non scorretto. È atipico, ma non è poi così originale. È curato, ma non studiato alla perfezione. È esasperante, ma mai noioso. È improvvisato, ma non raffazzonato. Non è preparato, ma è attentamente pensato. È confuso e disordinato, ma non complicato. È sconnesso, ma non disconnesso.
+---
+<main>
+	<section class='row'>
+		<div class='center one column'>
+			<h1>Sconnesso</h1>
+			<p>{{ description }}</p>
+		</div>
+	</section>
+
+	<section class='row'>
+		<div class='box'>
+			<div class='half column'>
+				<img src='{{ image }}' />
+			</div>
+			<div class='half column'>
+				<h3>Stagione 1</h3>
+				<ul>
+					{% for episode in collections.sconnesso %}
+						<li>
+							<a href='{{ episode.url }}'>{{ episode.data.title }}</a>, <time dateTime='{{ episode.date | 'date_to_xmlschema' }}'>{{ episode.date | date: '%d %B %Y' }}</time>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class='row'>
+		<div class='one column'>
+			{% render listen-on.html, lang: lang %}
+		</div>
+	</section>
+</main>

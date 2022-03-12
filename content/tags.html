@@ -1,0 +1,18 @@
+---
+title: The tags bible
+lang: en
+layout: large
+description: Every topic, every recurrency, anything you need to find can be found somewhere in this page.
+todo:
+  - '#TODO refactor completely'
+---
+{% for tag in tags %}
+	<div class='row'>
+		<div id='{{ tag.title | remove: ' ' }}' class='tag box'>
+			<h2 class='{{ tag.title | remove: ' ' }} title'>{{ tag.title }}</h2>
+			{{ tag.description }}
+			<ul class='three'>
+			</ul>
+		</div>
+	</div>
+{% endfor %}
