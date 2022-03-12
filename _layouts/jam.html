@@ -3,54 +3,56 @@ layout: wrapper
 ---
 <main class='h-entry'>
 	<section class='row center'>
-		<a class='u-uid u-url' href='{{ url | prepend: 'https://tommi.space' }}'><h1 class='p-name'>{% if title %}{{ title }}{% else %}{% endif %}</h1></a>
+		<a class='u-uid u-url' href='{{ page.url | prepend: 'https://tommi.space' }}'><h1 class='p-name'>{% if title %}{{ title }}{% else %}{% endif %}</h1></a>
 		{% if subtitle %}
 			<h2>{{ subtitle }}</h2>
 		{% endif %}
 		<p class='metadata'>
 			{% if lang == 'it' %}
-				{% if location != nil %}
-					{% for place in site.data.places %}
+				{% if location %}
+					{% for place in places %}
 						{% if place.name contains location %}
 							<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-				<time class='dt-published' datetime='{{ date | 'date_to_xmlschema' }}'>{% render date-it.html, date: date %}</time>
+				<time class='dt-published' datetime='{{ date | date: '%FT%T%:z' }}'>{% render date-it.html, date: date %}</time>
 			{% else %}
-				{% if location != nil %}
-					{% for place in site.data.places %}
+				{% if location %}
+					{% for place in places %}
 						{% if place.name contains location %}
 							<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
 						{% endif %}
 					{% endfor %}
 				{% endif %}
-				<time class='dt-published' datetime='{{ date | 'date_to_xmlschema' }}'>{{ date | date: '%e %B %Y' }}</time>
+				<time class='dt-published' datetime='{{ date | date: '%FT%T%:z' }}'>{{ date | date: '%e %B %Y' }}</time>
 			{% endif %}
 			<br>
 			{% if lang == 'it' %}
-				ultima modifica: 
-				{% if updated != nil %}
+				{% if updated %}
+					ultima modifica: 
 					<time class='dt-updated' datetime='{{ updated }}'>{% render date-it.html, date: updated %}</time>
 				{% endif %}
 			{% else %}
-				latest edit: 
-				{% if updated != nil %}
+				{% if updated %}
+					latest edit: 
 					<time class='dt-updated' datetime='{{ updated }}'>{{ updated | date: '%e %B %Y at %k:%m' }}</time>
 				{% endif %}
 			{% endif %}
 			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
 		</p>
 
-		{% render post-tags.html %}
+		{% render post-tags.html, tags: tags %}
 		{% render goto.html, lang: lang, path: page.inputPath %}
 
 	</section>
 
-	<aside id='toc'>
-		<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-		{{ content | toc }}
-	</aside>
+	{% if toc %}
+		<aside id='toc'>
+			<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+			{{ content | toc }}
+		</aside>
+	{% endif %}
 
 	<div class='row'>
 		<div class='one column'>

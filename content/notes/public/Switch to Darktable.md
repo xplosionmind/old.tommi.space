@@ -3,8 +3,11 @@ date: 2021-01-25T08:30:35+01:00
 updated: 2021-04-04T11:36:05+02:00
 tags: geek
 aliases: Quit Lightroom, Quit Lightroom and switch to Darktable
-permalink: /darktable
-redirect_from: ['/lightroom-to-darktable', '/lightroom', '/quit-lightroom']
+permalink: /darktable/
+redirect_from:
+  - /lightroom-to-darktable
+  - /lightroom/
+  - /quit-lightroom/
 description: Experiments and attempts of moving away of proprietary photo editing software and embracing open formats.
 ---
 Arguably, Lightroom is overall the best batch photo editing software out there. Nevertheless, it comes at a cost which is bot literal and ethical. Switching to Darkroom might be itchy, complicated, annoying and long, but it is a great advantage on the long term.

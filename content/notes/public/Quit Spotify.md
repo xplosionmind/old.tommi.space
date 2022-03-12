@@ -4,8 +4,11 @@ updated: 2021-12-23T18:50:34+01:00
 tags: geek
 aliases: Quitting Spotify
 description: Thoughts and decisions about quitting Spotify
-permalink: /quit-spotify
-redirect_from: [/spotify,/quitting-spotify]
+permalink: /quit-spotify/
+redirect_from:
+  - /spotify/
+  - /deezer/
+  - /apple-music/
 image: https://tommi.space/jar/quit-spotify.jpg
 ---
 <div class='yellow box'>

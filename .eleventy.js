@@ -4,7 +4,7 @@ const pluginFind = require('eleventy-plugin-find'); // #blocked #upstream-bug: n
 const pluginSafeLinks = require('@sardine/eleventy-plugin-external-links');
 const pluginSitemap = require('@quasibit/eleventy-plugin-sitemap');
 const pluginSeo = require('eleventy-plugin-seo');
-const pluginTinyHTML = require('@sardine/eleventy-plugin-tinyhtml');
+const pluginTinyHTML = require('@sardine/eleventy-plugin-tinyhtml'); // #blocked #upstream-bug error parsing script tags
 const pluginTinySVG = require('@sardine/eleventy-plugin-tinysvg');
 const pluginTOC = require('eleventy-plugin-toc');
 const pluginRSS = require('@11ty/eleventy-plugin-rss');
@@ -120,7 +120,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginTinySVG, {
     baseUrl: 'assets/svg/',
   });
-  eleventyConfig.addPlugin(pluginTinyHTML);
+  //eleventyConfig.addPlugin(pluginTinyHTML);
   eleventyConfig.addPlugin(pluginTOC, {
     ul: true,
   });

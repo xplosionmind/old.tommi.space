@@ -1,13 +1,16 @@
 ---
 date: 2020-06-10T02:00:00+02:00
 updated: 2022-02-24T10:51:30+01:00
-permalink: /qsm
+permalink: /qsm/
 aliases: QSM, quitsocialmedia.club notes
 description: |
   Random messed up multilingual notes about <a href='https://quitsocialmedia.club'  target='_blank' title='Quit Social Media'>quitsocialmedia.club</a>
-redirect_from: [/quitsocialmedia, /quitsocialmedia.club, /quitsocialmedia-notes, /quit-social-media-notes, /quit-social-media, /qsm-notes, /qsmnotes]
+redirect_from:
+  - /quitsocialmedia/
+  - /quitsocialmedia.club/
+  - /quit-social-media-notes/
 ---
-{{ page.description }}
+{{ description }}
 
 ## Improvements
 

@@ -1,7 +1,7 @@
 ---
 date: 2020-01-03
 updated: 2020-01-03
-tags: zen
+tags: zen drafts
 aliases: Meditation
 redirect_from: /meditation
 toc: false

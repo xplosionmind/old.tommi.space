@@ -4,8 +4,11 @@ updated: 2021-03-15T16:43:06+01:00
 tags: geek
 aliases: Quitting Mailchimp, Switch to Mailtrain, Switch to Buttondown
 description: Thoughts and decisions about quitting Mailchimp
-permalink: /quit-mailchimp
-redirect_from: ['/mailchimp', '/quitting-mailchimp', '/mailtrain', '/buttondown']
+permalink: /quit-mailchimp/
+redirect_from:
+  - /mailchimp/
+  - /mailtrain/
+  - /buttondown/
 ---
 ## Why
 

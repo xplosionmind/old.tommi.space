@@ -3,8 +3,12 @@ date: 2021-01-05T01:00:00+01:00
 updated: 2021-12-15T23:17:12+01:00
 tags: geek
 aliases: RSS everywhere, RSS everything, RSSfication
-permalink: /rss
-redirect_from: [/rssify, rss-everywhere, /rss-everything, /rssification, /rssfication]
+permalink: /rss/
+redirect_from:
+  - /rssify/
+  - /rssfy/
+  - /rss-everywhere/
+  - /rss-everything/
 description: Conversion to RSS, everywhere. It is the right way
 ---
 I am an [RSS](https://en.wikipedia.org/wiki/RSS 'RSS') lover.   

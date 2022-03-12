@@ -1,6 +1,6 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-03-11T13:45:12+01:00
+updated: 2022-03-12T15:30:32+01:00
 tags: meta geek/web
 aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development/
@@ -22,6 +22,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 - post excerpt
 - [Multilingual sitemap](https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap)
 - fix tags syntax in templates’ front matter
+- how wikilinks URL are generated (as of right now, underscores instead of spaces)
 
 <br>
 <br>

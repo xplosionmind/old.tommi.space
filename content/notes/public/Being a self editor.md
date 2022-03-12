@@ -5,8 +5,8 @@ tags: wit zen
 description: I am a self editor, I am the editor of myself.
 toc: false
 aliases: Self editor
-permalink: /self-editor
-redirect_from: [/being-a-self-editor,/self-editing,/life-editing]
+permalink: /self-editor/
+redirect_from: [/being-a-self-editor/,/self-editing/,/life-editing/]
 image: https://www.newbluefx.com/wp-content/uploads/2015/04/top-10-edited-sequences.jpg
 ---
 <div class='blue box'>Literally, I actually am the editor of myself, since I publish by my own the content I create. In this page, nevertheless, I will be referring to the word “<a href='https://www.merriam-webster.com/dictionary/editor' target='_blank' title='“editor” in the Merriam-Webster dictionary'>editor</a>” for its cinema meaning.</div>

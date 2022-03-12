@@ -1,6 +1,7 @@
 ---
 date: 2018-12-23
 tags: archive/dnd
+lang: it
 ---
 1. Non mi ricordo dove son nato, il ricordo più remoto che ho è di quando stavo suonando, con mio papà che mi insegnava, in una locanda del mio paese, di cui  non ricordo assolutamente nulla.
 2. Ricordo il volto di mio papà, non so chi fosse mia mamma. Sono moltissimi anni che non ho rapporti con loro. Mio papà era un bardo estremamente celebre che morì quando io ero adolescente. Mia mamma maga potentissima, che mi guidò verso la maturità ma mi procurò moltissime rogne, avendo nemici temibili che le davano la caccia. Per questo e per la mia serenità mi fece l’incantesimo che segue.

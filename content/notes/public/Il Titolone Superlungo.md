@@ -7,7 +7,7 @@ toc: false
 description:  |
   Appunti per il format più formattato della storia, ideato e realizzato a <a href='https://giffonifilmfestival.it' target='_blank' title='Giffoni Film Festival'>Giffoni Film Festival 2020</a>, ma mai andato in onda
 ---
-{{ page.description }}
+{{ description }}
 
 <br>
 <br>
@@ -31,7 +31,7 @@ Questo è il Titolone Superlungo, e voi non sarete più gli stessi
 1. Abbiamo trovato la risposta a una delle più grandi domande della vita. Tu la conosci la risposta?
 2. Qual è la tua parola preferita?
 3. La parola che non ti piace…?
-5. Pillola rossa o pillola blu...
+5. Pillola rossa o pillola blu…
 	- se è un’altra pillola, di che colore è e che cosa fa?
 7. Puoi avere un super potere per un giorno solo… quale scegli?
 8. Una cosa che sicuramente farai in futuro.

@@ -7,7 +7,7 @@ description: It is owned by Amazon, and it is destroying the profoundness and sa
 ---
 ## Why
 
-{{ page.description }}
+{{ description }}
 
 <br>
 <br>

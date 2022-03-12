@@ -1,15 +1,14 @@
 ---
 date: 2020-02-26
+updated: 2022-02-24T10:51:30+01:00
 tags: geek/idea idea
 aliases: Programming ideas, Development ideas, Missing Apps
 description: Ideas for programs which would be very useful, but I did not find yet
-permalink: /missing-tools
-redirect_from: [/tools-ideas,/programming-ideas,/programming,/development-ideas,/developing,/developing-ideas,/apps-ideas,/ideas, /missing-apps,/missing-programs,/missing-digital-tools,/dev-ideas,/software-ideas,/sw-ideas]
+permalink: /missing-tools/
+redirect_from: [/tools-ideas/,/programming-ideas/,/development-ideas/,/developing-ideas,/apps-ideas/,/missing-apps/,/missing-digital-tools/]
 main: true
 toc: false
-updated: 2022-02-24T10:51:30+01:00
 ---
-{{ page.description }}
+{{ description }}
 
-{% comment %}FIX{% assign notes = site.notes | where_exp: "note", "note.tags contains 'geek/idea'" | sort: 'updated' | reverse %}
-<ul>{% for note in notes %}<li id='{{ note.title | slugify }}'><strong><a href='{{ note.url }}' title='{{ note.title }}'>{{ note.title }}</a></strong>: {% if note.description %}{{ note.description}}{% else %}{{ note.content | markdownify | strip_html | truncatewords: 30 }}{% endif %}</li>{% endfor %}</ul>{% endcomment %}
+{% comment %}FIX<ul>{% for note in collections.jam %}{% for tag in note.tags %}{% if tag contains 'geek/idea' %}<li id='{{ note.data.title | slugify }}'><strong><a href='{{ note.url }}' title='{{ note.data.title }}'>{{ note.data.title }}</a></strong>: {% if note.data.description %}{{ note.data.description}}{% else %}{{ note.data.content | markdownify | strip_html | truncatewords: 30 }}{% endif %}</li>{% endif %}{% endfor %}</ul>{% endcomment %}

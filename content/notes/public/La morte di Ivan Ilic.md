@@ -3,8 +3,8 @@ date: 2021-12-25T16:07:34+01:00
 updated: 2022-01-27T10:24:49+01:00
 tags: reading/book
 title: La morte di Ivan Il’ič
-permalink: /ivan-ilic
-redirect_from: [/la-morte-di-ivan-ilic,/morte-ivan-ilic,/morte-di-ivan-ilic,/tolstoj-ivan-ilic,/tolstoj/ivan-ilic,/tolstoj/la-morte-di-ivan-ilic]
+permalink: /ivan-ilic/
+redirect_from: [/la-morte-di-ivan-ilic/,/tolstoj-ivan-ilic/]
 lang: it
 image: https://covers.openlibrary.org/b/id/12499003-L.jpg
 description: Note ed estratti da un romanzo breve ma intenso, vero e geniale.

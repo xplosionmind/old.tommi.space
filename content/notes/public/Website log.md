@@ -3,8 +3,12 @@ date: 2021-01-09T01:00:00+01:00
 updated: 2022-02-24T10:51:30+01:00
 tags: draft geek/web meta
 aliases: Meta, Changelog
-permalink: /meta
-redirect_from: [/website-log,/websitelog,/log,/changelog]
+permalink: /meta/
+redirect_from:
+  - /website-log/
+  - /websitelog/
+  - /log/
+  - /changelog/
 description: Since I put a lot of care and attention to details in this website (probably even too much) I figured out it is worth sharing my decisions about implementations and features in a log, so that the overall design philosophy of tommi.space is summarized in one place and I can keep track of my thoughts.
 image: https://tommi.space/website-log.png
 main: true

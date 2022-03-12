@@ -3,8 +3,8 @@ date: 2021-04-06T11:37:50+02:00
 updated: 2022-02-09T00:06:05+01:00
 tags: geek/wip
 aliases: CSVfication
-permalink: /csv
-redirect_from: [/csvfication, /csvification, /csvify, /csvfy]
+permalink: /csv/
+redirect_from: [/csvfication/,/csvfy/]
 description: What makes CSVs wonderful and how do I use them
 toc: false
 image: https://www.creativemotions.it/wp-content/uploads/2021/04/Cose-un-file-CSV-e-come-aprire-il-formato-file-CSV.jpg

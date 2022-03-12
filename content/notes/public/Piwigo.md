@@ -6,7 +6,7 @@ image: https://piwigo.org/plugins/piwigo-piwigodotorg/piwigo.org.svg
 description: |
   Some notes about <a href='https://piwigo.org' target='_blank' title='Piwigo official website'>Piwigo</a>, a great solution for hosting and storing images. I use it on <a href='https://images.tommi.space' target='_blank' title='Tommi’s images'>images.tommi.space</a>.
 ---
-{{ page.description }}
+{{ description }}
 
 <br>
 <br>

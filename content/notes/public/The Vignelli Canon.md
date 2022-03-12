@@ -6,4 +6,4 @@ description: |
 updated: 2022-01-24T15:17:42+01:00
 image: 'https://covers.openlibrary.org/b/id/7285000-L.jpg'
 ---
-{{ page.description }}
+{{ description }}

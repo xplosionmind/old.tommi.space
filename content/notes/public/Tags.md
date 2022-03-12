@@ -3,7 +3,7 @@ date: 2021-12-24T18:40:13+01:00
 updated: 2021-12-24T18:58:11+01:00
 tags: meta geek knowledge wip
 description: How I label everything I write and collect and according to what criteria.
-permalink: /tags-notes
+permalink: /tags-notes/
 ---
 {{ page.description }}
 

@@ -2,8 +2,8 @@
 date: 2020-07-20T02:00:00+02:00
 tags: places
 aliases: Places
-permalink: /places
-redirect_from: [/around-the-world,/world-places,/posti,/luoghi]
+permalink: /places/
+redirect_from: [/around-the-world/,/world-places/,/posti,/luoghi/]
 description: Places I love around the world
 image: https://tommi.space/places.jpg
 main: true

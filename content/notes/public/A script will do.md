@@ -5,7 +5,7 @@ tags: geek/idea
 toc: false
 description: Why it is important to work with simple and specific scripts rather than dealing with complex extensive software
 aliases: Some scripts will do, Scripting, Low-level scripting
-permalink: /script
+permalink: /script/
 redirect_from: ['/a-script-will-do', /'scripting', '/some-scripts-will-do', '/some-scripts-would-do', '/low-level-scripting']
 image: https://i.ytimg.com/vi/PPQ8m8xQAs8/hqdefault.jpg
 ---

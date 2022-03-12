@@ -2,8 +2,8 @@
 date: 2020-12-15T01:00:00+01:00
 updated: 2021-12-15T23:17:13+01:00
 tags: reading wit
-permalink: /just-read
-redirect_from: ["/reading-is-enough", "/reading-enough", "/readingisenough"]
+permalink: /just-read/
+redirect_from: /reading-is-enough/
 toc: false
 ---
 All over the web the saying goes that <q>reading without taking notes is like not reading at all</q>. But, to me, it’s not quite so.

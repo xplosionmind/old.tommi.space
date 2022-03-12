@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang='{% if page.lang == 'it' %}it{% else %}en{% endif %}' xmlns:og='http://opengraphprotocol.org/schema/'>
+<html lang='{% if lang == 'it' %}it{% else %}en{% endif %}' xmlns:og='http://opengraphprotocol.org/schema/'>
 
-	{% render head.html, title: title, primary: primary, lang: lang, alternate: alternate %}
+	{% render head.html, latex: latex, date: date, updated: updated, title: title, primary: primary, lang: lang, alternate: alternate %}
 
 	<body>
-		{% if page.textonly %}
+		{% if textonly %}
 			<main class='one column'>
 				<article>
 					{{content}}

@@ -1,10 +1,9 @@
 ---
 date: 2020-10-13
-updated: 2021-05-13T15:18:10.646418+02:00
+updated: 2021-05-13T15:18:10+02:00
 tags: geek
 title: The target=\"_blank\" argument
-permalink: /target-blank
-redirect_from: [/target-blank-argument, /noopener, /noreferrer, /rel-noopener, /rel-noreferrer, /rel-noopener-noreferrer, /noopener-noreferrer, /noopenernoreferrer]
+permalink: /target-blank/
 toc: false
 description: Thoughts about target=_blank and rel=noopener
 ---

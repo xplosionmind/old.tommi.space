@@ -1,17 +1,16 @@
 ---
+date: 2021-12-15T22:39:41+01:00
+updated: 2021-12-15T23:28:02+01:00
 tags: archive/radioimmaginaria data
 lang: it
 title: Tutte le mie puntate su Radioimmaginaria
 aliases: Tutte le mie puntate su Radioimaginaria, Puntate Radioimmaginaria
-permalink: /rimm-db
-redirect_from: ['/radioimmaginaria-db', '/rimm-database', '/rimm-episodes', '/puntate-rimm', '/tutto-radioimmaginaria', '/rimm-tutto', '/radioimmaginaria-tutto', '/tutto-rimm', '/puntate-radioimmaginaria', '/radioimmaginaria-puntate']
+permalink: /rimm-db/
 description: |
   Un database incompleto (mancano gli ultimi anni, alcuni eventi alcune puntate in mezzo) di tutte le puntate di Radioimmaginaria a cui ho partecipato.<br>I post di Facebook nei link non sono pubblici: Radioimmaginaria non usa più i social.<br>Gli hashtag nei titoli delle puntate indicano la redazione o, in caso di eventi, il nome del programma.<br><mark>&num;you2</mark> sono le puntate in inglese, <mark>&num;toiaussi</mark> quelle in francese, <mark>&num;tete</mark> quelle in spagnolo.
 todo:
   - convert to a CSV or JSON file
   - refactor
-date: 2021-12-15T22:39:41+01:00
-updated: 2021-12-15T23:28:02+01:00
 ---
 - 2014.01.12 [Scoutismo](https://spreaker.com/user/ariaimmaginaria/scout) (min 11:20)
 - 2014.02.12 Prima intervista in assoluto, [Mario Guglielmi](https://spreaker.com/user/ariaimmaginaria/mario-guglielmi)

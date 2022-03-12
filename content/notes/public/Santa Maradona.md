@@ -9,7 +9,7 @@ image: https://images.tommi.space/uploads/j/b/u/jbuqxznr00//2021/07/03/202107031
 video: https://www.youtube-nocookie.com/embed/SElehi4oD3w
 lang: it
 ---
-{{ page.description }}
+{{ description }}
 
 - [I libri costano troppo?](https://www.ciwati.it/2020/12/27/libri-costano-ovvero-della-circolazione/ '«I libri costano troppo?» ovvero della “circolazione”')
 - Da Santa Maradona ho copiato l’idea dei [[Titoli di coda|titoli di coda]].

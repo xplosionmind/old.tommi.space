@@ -2,8 +2,8 @@
 date: 2020-08-05
 updated: 2021-06-11T12:10:33+02:00
 tags: geek/free
-permalink: /delete
-redirect_from: [/delete-account,/GDPR-claim,/claim-GDPR,/just-delete-it,/just-deleteit,/quit,/GDPR-delete,/elimina-account]
+permalink: /delete/
+redirect_from: [/delete-account/,/GDPR-claim/,/claim-GDPR/,/just-delete-it/,/just-deleteit/,/quit/,/GDPR-delete/,/elimina-account/]
 description: Deleting an account from an online service
 ---
 The quickest way to delete an account is to just click on the “delete account” button. There are two problems, though:

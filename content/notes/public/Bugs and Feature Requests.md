@@ -2,8 +2,8 @@
 date: 2020-08-04T02:00:00+02:00
 updated: 2022-02-08T12:45:49+01:00
 tags: geek
-permalink: /bugs
-redirect_from: [/feature-requests, /bugs-and-feature-requests]
+permalink: /bugs/
+redirect_from: [/feature-requests/, /bugs-and-feature-requests/]
 description: Bugs and Feature requests for the apps I use
 image: https://tommi.space/bugs.svg
 ---

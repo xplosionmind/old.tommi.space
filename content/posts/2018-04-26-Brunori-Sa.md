@@ -2,7 +2,7 @@
 date: 2018-04-26
 image: /2018-04-26-brunori-sa.jpg
 title: 'Brunori Sa, e io? {e noi?}'
-permalink: /Brunori-Sa
+permalink: /Brunori-Sa/
 ---
 È davvero tardi e domani ho una verifica di storia: dovrei dormire.
 

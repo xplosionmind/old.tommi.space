@@ -6,7 +6,7 @@ description: |
   Concept of an IMDb/TMDb alternative, a fork of <a href='https://joinbookwyrm.org' target='_blank' title='Bookwyrm'>Bookwyrm</a> made for movies.
 toc: false
 ---
-<cite>**Moviewyrm**</cite> is {{ page.description }}
+<cite>**Moviewyrm**</cite> is {{ description }}
 
 I believe it can be fundamentally identical to Bookwyrm, with some core differences:
 

@@ -7,7 +7,7 @@ redirect_from: [/dnd,/rise-of-the-runelords,/dungeons-and-dragons,/dungeons-&-dr
 description: |
   Appunti e risorse per giocare a <a href='https://it.wikipedia.org/wiki/Pathfinder_gioco_di_ruolo' target='_blank' title='“Pathfinder„ su Wikipedia'>Pathfinder</a>/<a href='https://it.wikipedia.org/wiki/Dungeons_%26_Dragons' target='_blank' title='Dungeons & Dragons on Wikipedia'>Dungeons & Dragons</a>
 ---
-{{ page.description }}
+{{ description }}
 
 <br>
 <br>

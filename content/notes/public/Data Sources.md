@@ -2,8 +2,8 @@
 date: 2020-05-13T02:00:00+02:00
 updated: 2021-12-15T23:11:36+01:00
 tags: geek
-redirect_from: [/datasets,/data-sets,/databases,/public-data,/dati]
-permalink: /data
+redirect_from: [/datasets/,/data-sets,/public-data/,/dati/]
+permalink: /data/
 todo:
   - Where to find reliable poll results? Official raw data, but simple?
   - 'Integrate with [[Knowledge]]?'

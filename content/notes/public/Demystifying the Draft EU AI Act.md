@@ -2,7 +2,7 @@
 date: 2021-11-08T15:01:16+01:00
 updated: 2021-11-08T15:01:16+01:00
 tags: uni
-permalink: /veale-lecture
+permalink: /veale-lecture/
 ---
 By [Michael Veale](https://michae.lv 'Michael Veale’s personal website')
 

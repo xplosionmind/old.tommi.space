@@ -3,9 +3,9 @@ date: 2020-12-23
 updated: 2022-01-25T08:31:44+01:00
 tags: geek
 description: How to import and manage pictures and videos in the most seamless way possible
-aliases: Photo importing workflow
-permalink: /import
-redirect_from: [/photo-import,/photos-import,/import-photo,/import-photos,/photos-importing,/importing-photos,/photo-importing-workflow,/media-importing,/media-import,/media-importing-workflow,/import-workflow,/importing-workflow]
+aliases: Photo importing workflow, Media importing workflow
+permalink: /import/
+redirect_from: [/photo-import/,/media-importing/,/media-import/,/media-importing-workflow/,/importing-workflow/]
 ---
 Let’s be honest: importing and managing personal media without relying on big tech software is a stressful, itchy, and exhausting process. I am constantly trying to make it as simple, quick, and reliable as possible, but I am having a hard time. Below I noted some some of my experiments and the steps I currently follow.
 

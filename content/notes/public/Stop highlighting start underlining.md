@@ -4,8 +4,12 @@ updated: 2021-12-15T23:16:20+01:00
 title: Stop highlighting, start underlining
 tags: zen wit reading
 toc: false
-permalink: /underline
-redirect_from: [/underlining, /stop-highlighting, /start-underlining, /stop-highlighting-start-underlining]
+permalink: /underline/
+redirect_from:
+  - /underlining/
+  - /stop-highlighting/
+  - /start-underlining/
+  - /stop-highlighting-start-underlining/
 main: true
 ---
 Highlighting is strong, excessive, distracting, aggressive.\

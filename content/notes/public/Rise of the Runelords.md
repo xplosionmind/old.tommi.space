@@ -6,7 +6,7 @@ description: |
   Appunti sulla campagna <a href='https://pathfinderwiki.com/wiki/Rise_of_the_Runelords' target='_blank' hreflang='en' title='“Rise of the Runelords„ on Pathfinder Wiki'>Rise of the Runelords</a>
 image: https://www.boardgameoracle.com/en-CA/boardgame/price/HCmHTwIsuf/pathfinder-adventure-card-game-rise-of-the-runelords-base-set
 ---
-{{ page.description }}. [Immagini della campagna](https://images.tommi.space/index?/category/rise-of-the-runelords '“Rise of the Runelords„ in Visioni')
+{{ description }}. [Immagini della campagna](https://images.tommi.space/index?/category/rise-of-the-runelords '“Rise of the Runelords„ in Visioni')
 
 <br>
 <br>

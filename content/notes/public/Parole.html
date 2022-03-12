@@ -9,7 +9,7 @@ redirect_from: ['/words']
 <ul class='two'>
 	{% for p in site.data.parole %}
 		<li>
-			<time datetime='{{ p.date | 'date_to_xmlschema' }}'>{{ p.date | date: '%d %B %Y' }}</time>
+			<time datetime='{{ p.date | date: '%FT%T%:z' }}'>{{ p.date | date: '%d %B %Y' }}</time>
 			{% if p.url %}
 				<a href='{{ p.url }}' target='_blank' title='{{ p.word }}'>{{ p.word }}</a>
 			{% else %}

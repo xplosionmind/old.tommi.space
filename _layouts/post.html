@@ -3,26 +3,26 @@ layout: wrapper
 ---
 <main class='h-entry post'>
 	<section class='center row'>
-		<a class='u-uid u-url' href='{{ url }}'><h1 class='p-name'>{{ title }}</h1></a>
+		<a class='u-uid u-url' href='{{ page.url | prepend: 'https://tommi.space' }}'><h1 class='p-name'>{{ title }}</h1></a>
 		{% if subtitle %}
 			<h2>{{ subtitle }}</h2>
 		{% endif %}
 		<p>
-			<time class='dt-published' datetime='{{ date | 'date_to_xmlschema' }}'>
+			<time class='dt-published' datetime='{{ date | date: '%FT%T%:z' }}'>
 				{% if lang == 'it' %}
-					{% if location != nil %}
+					{% if location %}
 						{% for place in places %}
 							{% if place.name contains location %}
-								 <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+								 <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
 							{% endif %}
 						{% endfor %}
 					{% endif %}
 					{% render date-it.html, date: date %}
 				{% else %}
-					{% if location != nil %}
+					{% if location %}
 						{% for place in places %}
 							{% if place.name contains location %}
-								<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
+								<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
 							{% endif %}
 						{% endfor %}
 					{% endif %}
@@ -33,13 +33,16 @@ layout: wrapper
 		</p>
 	</section>
 
-	{% render post-tags.html %}
+	{% render post-tags.html, tags: tags %}
 	{% render goto.html, lang: lang, path: page.inputPath %}
 
-	<aside id='toc'>
-		<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
-		{{ content | toc: '"ul":"false"' }}
-	</aside>
+	{% if toc %}
+		<aside id='toc'>
+			<h3>{% if lang == 'it' %}Indice{% else %}Table of contents{% endif %}</h3>
+			{{ content | toc: '"ul":"false"' }}
+		</aside>
+	{% endif %}
+
 
 	<div class='row'>
 		<div class='one column'>

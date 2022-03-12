@@ -1,12 +1,11 @@
 ---
 date: 2020-12-31T01:00:00+01:00
-updatd: 2022-03-02
+updated: 2022-03-02
 tags: geek zen
 aliases: Plain text, KISS
-permalink: /plain-text
-redirect_from: ['/ode-to-plain-text']
+permalink: /plain-text/
+redirect_from: /ode-to-plain-text/
 toc: false
-updated: 2021-12-16T18:05:49+01:00
 ---
 I am not a developer, but I am a geek.
 

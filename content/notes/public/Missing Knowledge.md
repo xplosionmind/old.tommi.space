@@ -7,7 +7,7 @@ description: |
   Directions to lead my curiosity towards, a.k.a. what I have to learn
 redirect_from: [/learn, /to-learn, /tolearn, /missingknowledge, /learning, /learning-path]
 ---
-{{ page.description }}
+{{ description }}
 
 <br>
 <br>

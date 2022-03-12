@@ -4,8 +4,12 @@ updated: 2021-12-30T18:57:35+01:00
 tags: zen
 title: Self improvement
 aliases: Zen, Lifestyle
-permalink: /zen
-redirect_from: [/selfimprovement,/self-improvement,/personal-growth,/self-growth,/improving,/lifestyle]
+permalink: /zen/
+redirect_from:
+  - /self-improvement
+  - /self-growth/
+  - /improving/
+  - /lifestyle/
 description: Practices for improving the self, its connection to the surrounding environment and living life in the best possible way
 toc: false
 main: true

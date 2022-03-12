@@ -3,22 +3,22 @@ layout: wrapper
 ---
 <main class='h-entry one column'>
 	<section class='center row'>
-		<a class='u-uid u-url' href='{{ url }}'><h1 class='p-name'>{{ title }}</h1></a>
+		<a class='u-uid u-url' href='{{ page.url }}'><h1 class='p-name'>{{ title }}</h1></a>
 		<p class='metadata'>
-			{% if page.location != nil %}
-				{% for place in site.data.places %}
-					{% if place.name contains page.location %}
-						<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' target='_blank' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+			{% if location %}
+				{% for place in places %}
+					{% if place.name contains location %}
+						<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
 					{% endif %}
 				{% endfor %}
 			{% endif %}
-			<time class='dt-published' datetime='{{ date | 'date_to_xmlschema' }}'>{% render date-it.html, date: date %}</time>
+			<time class='dt-published' datetime='{{ date | date: '%FT%T%:z' }}'>{% render date-it.html, date: date %}</time>
 			 — Episodio {{ episode }}
 		</p>
 		<a class='p-author h-card' rel='author' href='/about'>Tommi</a>
 	</section>
 
-	{% render post-tags.html %}
+	{% render post-tags.html, tags: tags %}
 
 	<div class='row'>
 		<article class='e-content'>

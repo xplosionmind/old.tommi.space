@@ -1,9 +1,16 @@
 ---
 date: 2020-09-04
 updated: 2022-01-25T08:45:56+01:00
-tags: reading/book/wip
-permalink: /lanier-social-media-notes
-redirect_from: [/quit-social-media-lanier-notes,/lanier-quit-social-media,/quit-social-media-lanier,/lanier-notes,/notes-lanier,/ten-arguments-notes,/ten-arguments-social,/ten-arguments-lanier,/lanier-ten-arguments,/notes-ten-arguments,/Notes-on-Ten-Arguments-For-Deleting-Your-Social-Media-Accounts]
+tags: reading/book
+permalink: /lanier-social-media-notes/
+redirect_from:
+  - /quit-social-media-lanier-notes/
+  - /lanier-quit-social-media/
+  - /quit-social-media-lanier/
+  - /ten-arguments-notes/
+  - /ten-arguments-lanier/
+  - /lanier-ten-arguments/
+  - /Notes-on-Ten-Arguments-For-Deleting-Your-Social-Media-Accounts/]
 toc: false
 ---
 Notes from the great book by [Jaron Lanier](http://jaronlanier.com), [*Ten Arguments for Deleting Your Social Media Accounts*](http://www.jaronlanier.com/tenarguments.html), which I discovered almost at the end of my journey in creating [quitsocialmedia.club](https://quitsocialmedia.club). It explains in a better and more detailed way what I have been thinking about for months now.

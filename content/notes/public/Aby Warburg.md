@@ -7,6 +7,7 @@ tags:
 lang: it
 description: Una personalità incredibile dal genio inimitabile
 image: 'http://www.warburg-haus.de/wp-content/uploads/aby-warburg-bio/010_1895_katchina-479x600.jpg'
+toc: false
 ---
 Acquistava i libri in duplice copia: una veniva tenuta in biblioteca, dell’altra venivano scomposte le pagine e messe in relazione a quelle di altri volumi
 

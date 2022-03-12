@@ -6,8 +6,12 @@ aliases: Just quit, Choose the alternative, Go alternative, Make the switch
 image: https://tommi.space/jar/just-quit.jpg
 description:
   Quitting systems, software, bad habits is always hard and often painful. Nevertheless, if it is for the best, it is worth it. Below some of the things I am quitting.
-permalink: /switch
-redirect_from: [/make-the-switch,/quit-and-switch,/quit-switch,/choose-the-alternative, /alternative-software, /alternative]
+permalink: /switch/
+redirect_from:
+  - /quit-and-switch/
+  - /quit-switch/
+  - /alternative-software/
+  - /alternative/
 main: true
 toc: false
 todo: update

@@ -11,7 +11,7 @@
 
 
 	{% comment %} #TODO fix and improve <ul>
-		{% capture current_url_downcase %}{{ url | downcase }}{% endcapture %}
+		{% capture current_url_downcase %}{{ page.url | downcase }}{% endcapture %}
 		{% assign done = url %}
 
 		{% for entry in collections.all %}
