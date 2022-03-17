@@ -1,7 +1,10 @@
 ---
 date: 2021-11-20T12:07:53+01:00
-updated: 2021-11-20T12:20:17+01:00
-tags: people knowledge zen
+updated: 2022-03-14T14:56:03+01:00
+tags:
+  - people
+  - knowledge
+  - zen
 lang: it
 toc: false
 description: L’effetto ed il valore di godere della lettura di una biografia.

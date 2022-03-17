@@ -1,7 +1,10 @@
 ---
 date: 2021-01-09T01:00:00+01:00
-updated: 2022-02-24T10:51:30+01:00
-tags: draft geek/web meta
+updated: 2022-03-14T12:32:59+01:00
+tags:
+  - draft
+  - geek/web
+  - meta
 aliases: Meta, Changelog
 permalink: /meta/
 redirect_from:

@@ -6,7 +6,7 @@ description:
   Why it is important to switch to Signal, and all of the reasons why it is an ethical choice and not a merely technical one
 tags: geek/apps
 ref: signal
-redirect_from: ['/why-signal', '/switch-to-signal', '/signal-switch', '/switch-signal', '/quit-whatsapp', '/bye-whatsapp']
+redirect_from: ['/quit-whatsapp/']
 toc: false
 ---
 ## Why WhatsApp is not good

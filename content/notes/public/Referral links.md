@@ -1,6 +1,6 @@
 ---
 date: 2021-02-04T13:30:10+01:00
-updated: 2021-02-04T13:30:10+01:00
+updated: 2022-03-14T14:50:40+01:00
 tags: geek
 aliases: Referral Codes
 permalink: /referral/

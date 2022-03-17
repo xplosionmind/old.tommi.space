@@ -1,6 +1,6 @@
 ---
 date: 2020-08-05
-updated: 2021-06-11T12:10:33+02:00
+updated: 2022-03-14T14:59:48+01:00
 tags: geek/free
 permalink: /delete/
 redirect_from: [/delete-account/,/GDPR-claim/,/claim-GDPR/,/just-delete-it/,/just-deleteit/,/quit/,/GDPR-delete/,/elimina-account/]

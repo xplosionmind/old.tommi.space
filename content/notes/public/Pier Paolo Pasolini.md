@@ -1,7 +1,9 @@
 ---
 date: 2021-11-17T10:23:35+01:00
-updated: 2021-12-15T22:54:18+01:00
-tags: uni people
+updated: 2022-03-14T14:52:05+01:00
+tags:
+  - uni
+  - people
 ---
 - Novità che giace unicamente nella provocazione? p.VII
 - provocatorietà > oggettività p. IX

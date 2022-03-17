@@ -1,9 +1,11 @@
 ---
 date: 2021-10-25T15:16:14+02:00
 updated: 2021-10-25T15:44:32+02:00
-tags: zen people
-aliases: ['Relation', 'Relationships', 'Relationship']
-redirect_from: ['/relation', '/relationships', '/relationship']
+tags:
+  - zen
+  - people
+aliases: Relationships
+redirect_from: '/relationships/'
 descriptions: reflecting on definitions and ways to improve relationships with the world and its inhabitants.
 ---
 ## People

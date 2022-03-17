@@ -1,7 +1,9 @@
 ---
 date: 2021-10-02T03:00:03+02:00
 updated: 2021-10-02T03:00:03+02:00
-tags: cinema/series draft
+tags:
+  - cinema/series
+  - draft
 ---
 Probably it was just me, oblivious, off-social media and absolutely distracted, but season two of <cite>The Morning Show</cite> got back a bit low-key. Not much enthusiasm, a bunch of mildly unsurprising news; by looking at the whole picture, it all just appeared like a different look of the previous season.
 

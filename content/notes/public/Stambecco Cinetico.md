@@ -3,10 +3,10 @@ date: 2021-09-02T22:24:06+02:00
 updated: 2021-09-06T04:57:41+02:00
 tags: scout
 aliases: Totem, Nome di caccia
-redirect_from: [/totem, /stambeccocinetico, /nomedicaccia, /nome-di-caccia]
+redirect_from: [/totem/, /stambeccocinetico/]
 location: Val Codera
 ---
-*Stambecco Cinetico* è il mio [totem](https://it.wikipedia.org/wiki/Totem_(nome_scout) '“Totem” su Wikipedia'), o nome di caccia.
+<cite>Stambecco Cinetico</cite> è il mio [totem](https://it.wikipedia.org/wiki/Totem_(nome_scout) '“Totem” su Wikipedia'), o nome di caccia.
 
 Lo ricevetti il 2 agosto 2019, durante la magica [Route in Val Codera](https://images.tommi.space/index?/category/route-2019-val-codera 'Immagini della Route 2019 in Val Codera'), in una notte di improvvisa pioggia e temporale.
 

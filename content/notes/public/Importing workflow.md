@@ -1,6 +1,6 @@
 ---
 date: 2020-12-23
-updated: 2022-01-25T08:31:44+01:00
+updated: 2022-03-14T14:58:10+01:00
 tags: geek
 description: How to import and manage pictures and videos in the most seamless way possible
 aliases: Photo importing workflow, Media importing workflow

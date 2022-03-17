@@ -1,14 +1,15 @@
 const fs = require('fs');
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight'); // #TODO not working
 const pluginFind = require('eleventy-plugin-find'); // #blocked #upstream-bug: not working
+const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight'); // #TODO not working
+const pluginImage = require('@11ty/eleventy-img'); // #TODO: understand how to make this work for local paths
 const pluginSafeLinks = require('@sardine/eleventy-plugin-external-links');
 const pluginSitemap = require('@quasibit/eleventy-plugin-sitemap');
 const pluginSeo = require('eleventy-plugin-seo');
-const pluginTinyHTML = require('@sardine/eleventy-plugin-tinyhtml'); // #blocked #upstream-bug error parsing script tags
 const pluginTinySVG = require('@sardine/eleventy-plugin-tinysvg');
 const pluginTOC = require('eleventy-plugin-toc');
 const pluginRSS = require('@11ty/eleventy-plugin-rss');
 const csvParse = require('csv-parse/sync').parse;
+const miniHtml = require('html-minifier');
 
 // HTML Headers ID generation
 /* #TODO: what walue to pass as `html`?
@@ -26,15 +27,17 @@ const markdownIt = require('markdown-it');
 const markdownItRenderer = new markdownIt();
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
+const markdownItFootnotes = require('markdown-it-footnote');
 const markdownItWikilinks = require('markdown-it-wikilinks')({
   'uriSuffix': '',
   'makeAllLinksAbsolute': true,
   'class': 'wikilink'
 });
 const mdOptions = {
-  html: true
+  html: true,
+  fence: false
 };
-const markdownLib = markdownIt(mdOptions).use(markdownItWikilinks).use(markdownItAttrs).use(markdownItAnchor);
+const markdownLib = markdownIt(mdOptions).disable('fence').use(markdownItWikilinks).use(markdownItAttrs).use(markdownItAnchor).use(markdownItFootnotes);
 
 
 module.exports = function(eleventyConfig) {
@@ -92,10 +95,6 @@ module.exports = function(eleventyConfig) {
       return b.date - a.date;
     });
   });
-  /*eleventyConfig.addCollection('poetry',
-  collection => collection
-    .getAllSorted()
-    .filter(item => item.url && item.inputPath.startsWith('./content/poetry/')));*/
 
   // Post excerpt
   eleventyConfig.setFrontMatterParsingOptions({ excerpt: true, excerpt_separator: '<!--excerpt-->'});
@@ -115,12 +114,11 @@ module.exports = function(eleventyConfig) {
   //*********//
   eleventyConfig.setLibrary('md', markdownLib);
   eleventyConfig.addPlugin(pluginFind);
-  eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginSafeLinks);
   eleventyConfig.addPlugin(pluginTinySVG, {
     baseUrl: 'assets/svg/',
   });
-  //eleventyConfig.addPlugin(pluginTinyHTML);
   eleventyConfig.addPlugin(pluginTOC, {
     ul: true,
   });
@@ -139,6 +137,19 @@ module.exports = function(eleventyConfig) {
     image: '/tommi.space.wip.png'
   });
   eleventyConfig.addDataExtension('csv', contents => csvParse(contents, {columns: true, skip_empty_lines: true}));
+
+  eleventyConfig.addTransform('miniHtml', function(content, outputPath) {
+    if( this.outputPath && this.outputPath.endsWith('.html') ) {
+      let minified = miniHtml.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      });
+      return minified;
+    }
+
+    return content;
+  });
 
     //*****//
    // 404 //

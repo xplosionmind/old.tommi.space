@@ -1,7 +1,9 @@
 ---
 date: 2020-12-31T01:00:00+01:00
-updated: 2022-03-02
-tags: geek zen
+updated: 2022-03-14T14:54:20+01:00
+tags:
+  - geek
+  - zen
 aliases: Plain text, KISS
 permalink: /plain-text/
 redirect_from: /ode-to-plain-text/

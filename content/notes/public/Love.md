@@ -1,7 +1,9 @@
 ---
 date: 2021-10-28T19:11:57+02:00
-updated: 2021-10-28T19:11:57+02:00
-tags: draft topic
+updated: 2022-03-14T14:55:56+01:00
+tags:
+  - draft
+  - topic
 ---
 Parlare dell’amore ne toglie il romanticismo: <cite>Ecce Bombo</cite>, 40:22
 

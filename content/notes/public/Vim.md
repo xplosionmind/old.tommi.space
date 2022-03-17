@@ -1,10 +1,11 @@
 ---
 date: 2021-03-22T12:19:14+01:00
-updated: 2022-02-08T09:12:15+01:00
-tags: geek/knowledge geek/apps
+updated: 2022-03-14T12:34:49+01:00
+tags:
+  - geek/knowledge
+  - geek/apps
 aliases: Neovim
 description: The best text editor in the world
-redirect_from: [/nvim,/neovim,/gvim,/macvim]
 image: https://tommi.space/vim.svg
 ---
 ## To learn

@@ -1,7 +1,9 @@
 ---
 date: 2020-10-27
-updated: 2021-11-18T11:57:03+01:00
-tags: geek/web idea
+updated: 2022-03-14T14:59:11+01:00
+tags:
+  - geek/web
+  - idea
 redirect_from: [/websites-ideas, /philosophy-websites, /lifestyle-websites, /websites-creation, /domain, /domain-names, /tld, /tlds]
 description: Cool domains ideas, notes and tracking
 ---

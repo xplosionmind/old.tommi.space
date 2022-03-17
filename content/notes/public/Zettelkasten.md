@@ -1,7 +1,10 @@
 ---
 date: 2020-11-13T01:00:00+01:00
-updated: 2021-12-24T19:14:11+01:00
-tags: zen knowledge topic
+updated: 2022-03-14T12:31:04+01:00
+tags:
+  - zen
+  - knowledge
+  - topic
 aliases: Digital Garden, Wiki
 description: |
   A wonderfully clever way to manage knowledge and ideas as well as memories and lecture notes: the ultimate digital brain database system.

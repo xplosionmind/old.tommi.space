@@ -21,7 +21,18 @@ ref: home
 </div>
 
 {% render latest-post.html, lang: lang, collections: collections %}
-
+	<section class='box row' style='overflow:hidden' title='{% if lang == 'it' %}Ultimo articolo{% else %}Latest post{% endif %}'>
+		<div class='two-thirds column vertical flex'>
+			<a href='{{ post.url }}'><h2>{{ post.data.title }}</h2></a>
+			<cite class='excerpt'>
+				{{ post.data.description }}
+			</cite>
+			<a href='{{ post.url }}' class='written button'>{% if lang == 'it' %}Leggi{% else %}Read{% endif %}</a>
+		</div>
+		<div class='one-third column vertical flex'>
+			<a href='{{ post.url }}'><img src='{{ post.data.image }}' alt='{{ post.data-title }}' title='{{ post.data.title }}'></a>
+		</div>
+	</section>
 <div class='row'>
 	<div class='half column'>
 		<section class='razzmatazz border box'>

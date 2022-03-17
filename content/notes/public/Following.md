@@ -1,17 +1,17 @@
 ---
 date: 2020-06-11T02:00:00+02:00
-updated: 2021-12-15T23:16:22+01:00
-redirect_from: ["/telegram-following", "/telegram-channels", "/subscriptions", "/newsletters"]
+updated: 2022-03-14T14:58:24+01:00
+redirect_from: ['/telegram-following/', '/telegram-channels/', '/subscriptions/', '/newsletters/']
 todo:
   - 'integrate with [[Webrings]], [[People]], and [[Blogroll]]'
 ---
-In our world, especially on the web, there is **a lot** of content, maybe too much, and it’s very easy for me to get anxious because I can't keep up with everything and I can't know or learn what I wanted.\
+In our world, especially on the web, there is **a lot** of content, maybe too much, and it’s very easy for me to get anxious because I can't keep up with everything and I can't know or learn what I wanted.  
 For this reason, it’s important to be very selective and aware of who I follow and what are the knowledge and news sources I'm subscribed to, in order to find the right equilibrium.
 
 This is a comprehensive list of stuff I follow on the internet.
 Stuff means: Newsletters by people, newsletters by magazines, newsletters by computers, feeds of various sort, Telegram channels, Telegram Groups, Facebook Groups, Facebook Pages, people’s blogs.
 
-<div class="blue box">
+<div class='blue box'>
 	Content which is in Italian has its description in Italian
 </div>
 
@@ -19,7 +19,7 @@ Stuff means: Newsletters by people, newsletters by magazines, newsletters by com
 
 ## RSS
 
-Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS "RSS on Wikipedia"). I think the whole world should use it. It’s such a clever, useful, simple, neat, old but solid technology that I believe it could [replace social media](https://quitsocialmedia.club/solution#rss "RSS as a Solution on Quit Social Media").\
+Gosh, I love [RSS](https://en.wikipedia.org/wiki/RSS 'RSS on Wikipedia'). I think the whole world should use it. It’s such a clever, useful, simple, neat, old but solid technology that I believe it could [replace social media](https://quitsocialmedia.club/solution#rss 'RSS as a Solution on Quit Social Media').  
 I'm working hard to build an independent infrastructure on my [[Server|server]] capable of gettings social media feeds and making them RSS feeds I can subscribe to. In the meanwhile, I'm slowly and steadily transitioning to use exclusively it, and below there’s a link to my feed subscriptions.
 
 [**My Feed Subscriptions**](/assets/subscriptions.xml) - last updated on Nov 4<sup>th</sup>, 2020
@@ -30,8 +30,8 @@ I'm working hard to build an independent infrastructure on my [[Server|server]] 
 ## Telegram
 
 My Telegram channels:
-- [Maledetto Sia Copernico!](https://t.me/maledettocopernico "Maledetto sia Copernico"), occasional quick thoughts and links
-- [Internet Awesomeness](https://t.me/internet_awesomeness "Internet Awesomeness"), links of resources, websites and great stuff from the internet.
+- [Maledetto Sia Copernico!](https://t.me/maledettocopernico 'Maledetto sia Copernico'), occasional quick thoughts and links
+- [Internet Awesomeness](https://t.me/internet_awesomeness 'Internet Awesomeness'), links of resources, websites and great stuff from the internet.
 
 ### Following
 

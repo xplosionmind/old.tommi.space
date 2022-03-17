@@ -1,12 +1,14 @@
 ---
 date: 2021-01-12
-updated: 2021-01-12
-tags: reading
+updated: 2022-03-14T14:56:34+01:00
+tags:
+  - reading
+  - topic
 aliases: Reading, Lettura
 description: Insights about reading
 lang: it
 toc: false
-redirect_from: ['/leggere', '/lettura']
+redirect_from: ['/lettura/', '/reading/']
 main: true
 ---
 ## Investimento

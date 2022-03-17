@@ -1,7 +1,8 @@
 ---
 date: 2020-02-26
-updated: 2022-02-24T10:51:30+01:00
-tags: geek/idea idea
+updated: 2022-03-14T14:55:50+01:00
+tags:
+  - geek/idea
 aliases: Programming ideas, Development ideas, Missing Apps
 description: Ideas for programs which would be very useful, but I did not find yet
 permalink: /missing-tools/

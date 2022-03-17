@@ -1,10 +1,12 @@
 ---
 date: 2020-07-02
-updated: 2021-03-11T12:40:41+01:00
-tags: geek/web design
+updated: 2022-03-14T15:01:13+01:00
+tags:
+  - geek/web
+  - design
 aliases: Website inspiration
 description: Blogs or websites worth remembering.
-redirect_from: [/inspiration, /websites]
+redirect_from: [/inspiration/, /websites/]
 main: true
 todo:
   - 'Integrate with [[Internet Awesomeness]]'

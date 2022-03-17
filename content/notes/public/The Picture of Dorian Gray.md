@@ -1,6 +1,6 @@
 ---
 date: 2021-01-07T01:00:00+01:00
-updated: 2021-12-15T23:17:13+01:00
+updated: 2022-03-14T13:53:11+01:00
 tags: reading/book/wip
 description: 
 permalink: /dorian-gray/

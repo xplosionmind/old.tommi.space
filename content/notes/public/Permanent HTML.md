@@ -1,9 +1,10 @@
 ---
 date: 2021-03-11T13:00:22+01:00
-updated: 2021-06-08T18:20:46+02:00
-tags: geek/web meta
+updated: 2022-03-14T14:52:14+01:00
+tags:
+  - geek/web
+  - meta
 description: Building websites with an HTML structure which does not need to be changed when CSS changes
-redirect_from: ['/css-changes', '/permanentids', '/ids', '/change-css', '/permanent-ids', '/keep-html', '/eternal-html']
 aliases: ['Permanent IDs', 'CSS Changes']
 toc: false
 ---

@@ -1,6 +1,6 @@
 ---
 date: 2020-09-14
-updated: 2022-01-25T08:47:10+01:00
+updated: 2022-03-14T15:02:08+01:00
 tags: geek
 image: https://tommi.space/backup.jpg
 permalink: /backup-checklist/

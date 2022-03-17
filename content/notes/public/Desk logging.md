@@ -1,7 +1,10 @@
 ---
 date: 2020-12-19
-updated: 2021-06-10T20:39:55+02:00
-tags: photography idea wip
+updated: 2022-03-14T14:59:43+01:00
+tags:
+  - photography
+  - idea
+  - wip
 toc: false
 description: monthly pictures of my desk, wherever I am
 image: https://tommi.space/2020-03-30-desk.jpg

@@ -7,33 +7,31 @@ layout: wrapper
 		{% if subtitle %}
 			<h2>{{ subtitle }}</h2>
 		{% endif %}
-		<p>
-			<time class='dt-published' datetime='{{ date | date: '%FT%T%:z' }}'>
-				{% if lang == 'it' %}
-					{% if location %}
-						{% for place in places %}
-							{% if place.name contains location %}
-								 <a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
-							{% endif %}
-						{% endfor %}
-					{% endif %}
-					{% render date-it.html, date: date %}
-				{% else %}
-					{% if location %}
-						{% for place in places %}
-							{% if place.name contains location %}
-								<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
-							{% endif %}
-						{% endfor %}
-					{% endif %}
-					{{ date | date: '%e %B %Y' }} 
+		<p class='metadata'>
+			{% if lang == 'it' %}
+				{% if location %}
+					{% for place in places %}
+						{% if place.name contains location %}
+							<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} su OpenStreetMap'>{{ place.name }}</a>, 
+						{% endif %}
+					{% endfor %}
 				{% endif %}
-			</time>
+				<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render date-it.html, date: date %}</time>
+			{% else %}
+				{% if location %}
+					{% for place in places %}
+						{% if place.name contains location %}
+							<a href='https://openstreetmap.org?mlat={{ place.lat }}&mlon={{ place.lon }}&zoom=18' title='{{ place.name }} on OpenStreetMap'>{{ place.name }}</a>, 
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+				<time class='dt-published' datetime='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ date | date: '%e %B %Y' }}</time>
+			{% endif %}
 			<a rel='author' class='p-author h-card' href='https://tommi.space/about'>Tommi</a>
 		</p>
 	</section>
 
-	{% render post-tags.html, tags: tags %}
+	{% render page-tags.html, tags: tags, site: site, size: 'smaller' %}
 	{% render goto.html, lang: lang, path: page.inputPath %}
 
 	{% if toc %}
@@ -54,7 +52,7 @@ layout: wrapper
 
 	<div class='row'>
 		<div class='one column'>
-		{% render backlinks.html, lang: lang %}
+		{% render backlinks.html, raw_url: page.url, all_pages: collections.all, lang: lang %}
 		</div>
 	</div>
 

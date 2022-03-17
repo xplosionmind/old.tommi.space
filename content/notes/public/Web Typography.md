@@ -7,7 +7,7 @@ image: http://webtypography.net/i/web-typography-book.png
 description: |
   Notes on a great book on Web Typography by <a href='http://clagnut.com/' target='_blank' title='Richard Rutter'>Richard Rutter</a>.
 ---
-{{ page.description }}
+{{ description }}
 
 <p class='date'><time datetime='2021-12-17T00:53:43+01:00'>17 December 2021</time></p>
 

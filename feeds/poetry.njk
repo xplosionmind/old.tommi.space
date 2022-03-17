@@ -1,0 +1,30 @@
+---
+title: Pasticci Poetici
+subtitle: Il flusso sconnesso e indecifrabile delle forsesensate poesie di Tommi
+altUrl: https://tommi.space/pasticci/
+permalink: /poetry.xml
+lang: it
+---
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title>{{ title }}</title>
+  <subtitle>{{ subtitle }}</subtitle>
+  <link href='{{ feedUrl }}' rel='self'/>
+  <link href='{{ altUrl }}'/>
+  <updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ altUrl }}</id>
+  <author>
+    <name>{{ author.name }}</name>
+    <email>{{ author.email }}</email>
+  </author>
+  {%- for entry in collections.poetry | reverse %}
+  {% set absolutePostUrl %}{{ entry.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  <entry>
+    <title>{{ entry.data.title }}</title>
+    <link href='{{ absolutePostUrl }}'/>
+    <updated>{{ entry.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type='html'>{{ entry.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>

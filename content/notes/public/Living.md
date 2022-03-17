@@ -1,9 +1,11 @@
 ---
 date: 2021-03-13
-updated: 2021-12-17T13:53:17+01:00
-tags: zen topic
+updated: 2022-03-14T14:56:14+01:00
+tags:
+ - zen
+ - topic
 aliases: Live, Vivere, Life Philosophy
-redirect_from: ['/live', '/vivere', '/life', '/vita']
+redirect_from: ['/live/', '/vivere/', '/life/']
 todo:
   - Add Giovanni Paolo II tazza cit.
 ---

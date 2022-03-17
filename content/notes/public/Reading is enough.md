@@ -1,7 +1,9 @@
 ---
 date: 2020-12-15T01:00:00+01:00
-updated: 2021-12-15T23:17:13+01:00
-tags: reading wit
+updated: 2022-03-14T14:51:21+01:00
+tags:
+  - reading
+  - wit
 permalink: /just-read/
 redirect_from: /reading-is-enough/
 toc: false

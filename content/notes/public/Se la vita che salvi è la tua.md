@@ -1,17 +1,16 @@
 ---
 date: 2022-01-18T09:33:21+01:00
 updated: 2022-01-19T10:00:55+01:00
-tags: reading/book reading book
-redirect_from: [/se-la-vita-che-salvi-e-la-tua,/se-la-vita-che-salvi,/selavitachesalvi,/geda-vita,/geda-salvi]
+tags:
+  - reading/book
+redirect_from: [/se-la-vita-che-salvi-e-la-tua/,/se-la-vita-che-salvi/,/geda-vita/,/vita-che-salvi/]
 description: |
   Estratti e pensieri da <a href='https://openlibrary.org/works/OL23116226W/Se_la_vita_che_salvi_%C3%A8_la_tua' target='_blank' title='“Se la vita che salvi è la tua„ su Open Library'>Se la vita che salvi è la tu</a> di <a href='https://it.wikipedia.org/wiki/Fabio_Geda' target='_blank' title='Fabio Geda su Wikipedia'>Fabio Geda</a>
 toc: false
 lang: it
-image: 'https://covers.openlibrary.org/b/id/12508398-L.jpg'
-image_x: 0.5
-image_y: 0.172
+image: https://covers.openlibrary.org/b/id/12508398-L.jpg
 ---
-{{ page.description }}
+{{ description }}
 
 > La sua risata riempie il cortile. Ti piace Kandinskij? Tu credi in Dio?  
 > Scusa?  

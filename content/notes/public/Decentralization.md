@@ -1,7 +1,11 @@
 ---
 date: 2021-12-13T13:08:50+01:00
-updated: 2021-12-13T13:08:50+01:00
-tags: draft idea geek philosophy
+updated: 2022-03-14T15:00:47+01:00
+tags:
+  - draft
+  - idea
+  - geek
+  - philosophy
 description: Notes concerning decentralization under a technological and political perspective
 toc: false
 ---

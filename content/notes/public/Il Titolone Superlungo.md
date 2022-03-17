@@ -1,7 +1,9 @@
 ---
 date: 2020-08-20T02:00:00+02:00
-updated: 2021-12-15T22:39:42+01:00
-tags: event/giffoni questions
+updated: 2022-03-14T14:57:52+01:00
+tags:
+  - event/giffoni
+  - questions
 lang: it
 toc: false
 description:  |

@@ -1,6 +1,6 @@
 ---
 date: 2020-12-08T01:00:00+01:00
-updated: 2021-12-30T18:57:35+01:00
+updated: 2022-03-14T14:50:31+01:00
 tags: zen
 title: Self improvement
 aliases: Zen, Lifestyle

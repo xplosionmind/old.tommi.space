@@ -1,6 +1,6 @@
 ---
 date: 2021-12-15T22:41:31+01:00
-updated: 2021-12-15T22:41:31+01:00
+updated: 2022-03-14T14:54:32+01:00
 title: Monero
 description: My Monero address
 image: https://getmonero.org/press-kit/symbols/monero-symbol-480.png

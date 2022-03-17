@@ -1,7 +1,9 @@
 ---
 date: 2021-01-20
-updated: 2021-07-03T18:34:18.517887+02:00
-tags: analog/jarvis reading/book
+updated: 2022-03-14T14:59:59+01:00
+tags:
+  - analog/jarvis
+  - reading/book
 ---
 > in realtà l’innovazione tecnologica non riduce la quantità di lavoro ma innalza  standard qualitativi della produzione come spiega con efficacia il giornalista Oliver Burkeman
 

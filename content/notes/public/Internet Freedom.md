@@ -1,8 +1,8 @@
 ---
 date: 2020-07-10
-updated: 2022-01-25T08:39:00+01:00
+updated: 2022-03-14T14:58:50+01:00
 tags: geek
-redirect_from: [/internet-freedom-notes]
+redirect_from: [/internet-freedom-notes/]
 description: Insights and steps towards a greater digital awareness and freedom
 main: true
 ---

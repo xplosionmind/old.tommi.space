@@ -1,9 +1,11 @@
 ---
 date: 2020-10-27T01:00:00+01:00
 updated: 2022-01-25T08:48:49+01:00
-tags: zen draft
+tags:
+  - zen
+  - draft
 aliases: Slots
-redirect_from: ['/time', '/time-management', '/moduli']
+redirect_from: ['/time/', '/time-management/', '/moduli/']
 description:
   I get distracted very easily, an my mind goes from a topic to a totally different one in no time. While this can be a great quality to be creative (not so much, in the end), it is a very stressful, time-consuming and unproductive lifestyle. This is why I conceived slots.
 toc: false

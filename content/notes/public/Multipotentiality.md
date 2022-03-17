@@ -1,8 +1,11 @@
 ---
 date: 2022-01-29T11:56:14+01:00
-updated: 2022-01-29T12:02:53+01:00
+updated: 2022-03-14T14:57:05+01:00
 location: Zattere
-tags: knowledge topic wip
+tags:
+  - knowledge
+  - topic
+  - wip
 aliases: Multipotenzialità, Multipotentialite
 description: Exploring the idea of moving across different interests and fields without never sticking to one only — essentially, me.
 toc: false

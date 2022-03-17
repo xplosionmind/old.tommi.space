@@ -1,7 +1,9 @@
 ---
 date: 2020-12-27T06:40:14+01:00
-updated: 2022-01-11T21:24:15+01:00
-tags: geek geek/server todo
+updated: 2022-03-14T14:58:56+01:00
+tags:
+  - geek/server
+  - todo
 description: Computer related tasks tracking
 ---
 1. [[Images]] and [[Storage]]

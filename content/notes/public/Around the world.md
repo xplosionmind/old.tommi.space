@@ -9,16 +9,19 @@ image: https://tommi.space/places.jpg
 main: true
 toc: false
 todo: loop through all the notes and posts from that location
-updated: 2021-12-15T22:39:42+01:00
+updated: 2022-03-14T15:01:59+01:00
 ---
-<cite><a href='https://youtube.com/watch?v=a9eNQZbjpJk'  target='_blank' title='Red Hot Chili Peppers - Around The World'>Around the World</a></cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places around the world. This is not merely a list of places I have been to in my life, but an ever growing and evolving record of the ones I carry in my heart.
+<cite>[Around the World](https://youtube.com/watch?v=a9eNQZbjpJk 'Red Hot Chili Peppers - Around The World')</cite> is a song that I love by Red Hot Chili Peppers. It talks about the beauty of all the different and astounding places around the world. This is not merely a list of places I have been to in my life, but an ever growing and evolving record of the ones I carry in my heart.
 
 <div class='embed-container'><iframe width='100%' height='300px' frameborder='0' allowfullscreen src='//umap.openstreetmap.fr/en/map/favorites_593427?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false'></iframe></div>
 
 <br>
 <br>
 
-<ul>{% for place in site.data.places %}<li>{% if place.url != '' %}<a href='{{ place.url }}' target='_blank' title='{{ place.name }}'>{{ place.name }}</a>{% else %}{{ place.name }}{% endif %}, {{ place.city }}</li>{% endfor %}</ul>
+<ul>{% for place in places %}<li>{% if place.url != '' %}<a href='{{ place.url }}' title='{{ place.name }}'>{{ place.name }}</a>{% else %}{{ place.name }}{% endif %}, {{ place.city }}</li>{% endfor %}</ul>
+
+<br>
+<br>
 
 ## Resources
 

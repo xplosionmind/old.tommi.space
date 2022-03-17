@@ -15,7 +15,7 @@ primary: var(--green)
 		<div class='one column'>
 			<ul class='two'>
 				{% for post in collections.filinge reversed %}
-				<li><time datetime='{{ post.date | date: '%FT%T%:z' }}'>{% render date-it.html, date: post.date %}</time>- <a href='{{ post.url }}'>{{ post.data.title }}</a></li>
+				<li><time datetime='{{ post.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render date-it.html, date: post.date %}</time>- <a href='{{ post.url }}'>{{ post.data.title }}</a></li>
 				{% endfor %}
 			</ul>
 		</div>

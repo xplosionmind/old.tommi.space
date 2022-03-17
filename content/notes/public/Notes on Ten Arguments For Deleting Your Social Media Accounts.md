@@ -1,6 +1,6 @@
 ---
 date: 2020-09-04
-updated: 2022-01-25T08:45:56+01:00
+updated: 2022-03-14T14:53:35+01:00
 tags: reading/book
 permalink: /lanier-social-media-notes/
 redirect_from:

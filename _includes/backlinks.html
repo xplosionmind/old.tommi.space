@@ -10,37 +10,37 @@
 	</p>
 
 
-	{% comment %} #TODO fix and improve <ul>
-		{% capture current_url_downcase %}{{ page.url | downcase }}{% endcapture %}
-		{% assign done = url %}
-
-		{% for entry in collections.all %}
-			{% if entry.content contains url or entry.content contains current_url_downcase %}
-				{% unless done == entry.url %}
-					{% assign done = entry.url %}
+	{% comment %}#fix not working, probably because of collections not passing through<ul>
+		{% capture page_url %}{{ raw_url | downcase | remove: '/' }}{% endcapture %}
+		{% capture done %}{{ page_url }}{% endcapture %}
+		{% for entry in all_pages %}
+			{% capture entry_url %}{% entry.url | downcase | remove: '/' %}{% endcapture %}
+			{% if entry.content contains page_url %}
+				{% if done != entry_url %}
+					{% assign done = entry_url %}
 					<li>
-						<a href='{{ entry.url }}'>{{ entry.title }}</a>
-						{% if entry.description %}
-							- {{ entry.description }}
+						<a href='{{ entry_url }}' title='{{ entry.data.title }}'>{{ entry.data.title }}</a>
+						{% if entry.data.description %}
+							- {{ entry.data.description }}
 						{% else %}
-							- {{ entry.excerpt | strip_html | truncatewords: 30 }}
+							- {{ entry.content | strip_html | truncatewords: 30 }}
 						{% endif %}
 					</li>
-				{% endunless %}
+				{% endif %}
 			{% endif %}
 			{% for redirect in redirect_from %}
 				{% if entry.content contains redirect %}
-					{% unless done == entry.url %}
-						{% assign done = entry.url %}
+					{% if done != entry_url %}
+						{% assign done = entry_url %}
 						<li>
-							<a href='{{ entry.url }}'>{{ entry.title }}</a>
+							<a href='{{ entry_url }}'>{{ entry.title }}</a>
 							{% if entry.description %}
 								- {{ entry.description }}
 							{% else %}
 								- {{ entry.excerpt | strip_html | truncatewords: 30 }}…
 							{% endif %}
 						</li>
-					{% endunless %}
+					{% endif %}
 				{% endif %}
 			{% endfor %}
 		{% endfor %}

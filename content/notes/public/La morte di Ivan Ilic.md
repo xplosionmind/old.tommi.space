@@ -1,6 +1,6 @@
 ---
 date: 2021-12-25T16:07:34+01:00
-updated: 2022-01-27T10:24:49+01:00
+updated: 2022-03-14T14:56:30+01:00
 tags: reading/book
 title: La morte di Ivan Il’ič
 permalink: /ivan-ilic/

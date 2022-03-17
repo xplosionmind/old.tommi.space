@@ -1,7 +1,9 @@
 ---
 date: 2021-10-14T17:20:13+02:00
-updated: 2021-12-01T08:42:27+01:00
-tags: draft geek/apps
+updated: 2022-03-14T15:03:04+01:00
+tags:
+  - draft
+  - geek/apps
 description: A powerful knowledge management software, in early development
 image: https://avatars.githubusercontent.com/u/50837219
 toc: false

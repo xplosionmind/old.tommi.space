@@ -1,6 +1,6 @@
 ---
 date: 2021-02-02T11:00:18+01:00
-updated: 2021-02-11T20:03:15+01:00
+updated: 2022-03-14T14:57:41+01:00
 tags: places
 todo:
   - Foto del Cubo

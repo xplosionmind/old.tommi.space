@@ -1,9 +1,9 @@
 ---
 date: 2020-07-17
-updated: 2021-09-22T11:39:30+02:00
+updated: 2022-03-14T12:32:14+01:00
 toc: false
 description: Stuff I need and things I just would love to have
-redirect_from: [/desideri,/regali]
+redirect_from: [/desideri/,/regali/]
 image: https://tommi.space/wishlist.svg
 main: true
 ---

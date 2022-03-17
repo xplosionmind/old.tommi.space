@@ -1,10 +1,12 @@
 ---
 date: 2021-09-26T18:23:45+02:00
 updated: 2021-12-08T14:04:45+01:00
-tags: help geek/idea
+tags:
+  - help
+  - geek/idea
 description: A social network based on personal and historical events
 aliases: Timeline development, Timeline, Aby
-redirect_from: [/timeline, /timeline-dev, /timeline-development]
+redirect_from: [/timeline/,/timeline-development/]
 ---
 Who I am is also, or mostly, defined by the events which marked my life even before my birth:  
 *Zig* is a social network where people share dates which are significant to them. It is named in honor of [Zigmunt Bauman](https://en.wikipedia.org/wiki/Zigmunt_Bauman 'Zigmunt Bauman on Wikipedia'), great historian and sociologist.

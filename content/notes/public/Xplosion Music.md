@@ -1,10 +1,12 @@
 ---
 date: 2020-07-17T02:00:00+02:00
-updated: 2021-12-15T22:39:42+01:00
-tags: draft music
+updated: 2022-03-14T12:31:56+01:00
+tags:
+  - draft
+  - music
 aliases: Playlist
 description: Soundtracks of my life. The songs which marked my existence and made me who I am.
-redirect_from: [/canzoni,/songs,/playlist,/playlists]
+redirect_from: [/canzoni/,/songs/,/playlist/,/playlists/]
 image: https://tommi.space/tommis-head-exploding.png
 todo:
   - find a way to sync playlists and contents

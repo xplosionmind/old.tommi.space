@@ -1,9 +1,7 @@
 ---
 date: 2020-10-13
-updated: 2020-10-13
+updated: 2022-03-14T14:58:33+01:00
 tags: cinema
-redirect_from: ["/moviemaking", "/directing"]
-main: true
 toc: false
 ---
 ## Tips on set

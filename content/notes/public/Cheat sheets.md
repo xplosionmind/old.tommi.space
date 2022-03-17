@@ -1,11 +1,11 @@
 ---
 date: 2020-05-07T02:00:00+02:00
-updated: 2022-02-24T10:51:30+01:00
+updated: 2022-03-14T15:01:26+01:00
 tags: geek
 aliases: Cheat Sheet, cmd, CLI, Command Line, Terminal
 description:
   I use tech devices a lot, maybe too much, but I do not dive in too technically. The few times I have to get things done with more technical tools, I need some reference.
-redirect_from: [/cheatsheet,/cheatsheets,/cheat-sheet,/terminal,/cmd,/cli]
+redirect_from: [/cheatsheet/,/cheatsheets/,/cheat-sheet/,/terminal/,/cli/]
 image: https://tommi.space/terminal.png
 ---
 ![[Hotkeys]]

@@ -4,7 +4,7 @@ updated: 2022-01-25T09:01:16+01:00
 tags: zen
 aliases: Quantified self, Life logging
 description: Gaining knowledge and awareness of ourselves by collecting any sort of data which concern us
-redirect_from: [/quantified-self, /lifelogging, life-logging]
+redirect_from: [/quantified-self/,/life-logging/]
 ---
 I found out about [Quantified Self](https://en.wikipedia.org/wiki/Quantified_self 'Quantified Self on Wikipedia') from [the list about it](https://project-awesome.org/woop/awesome-quantified-self 'Awesome Quantified Self') on [Project Awesome](https://project-awesome.org 'Project Awesome'). I am trying to embrace this philosophy and lifestyle, because I believe in it. Nevertheless, I am struggling a lot with the logging part, since I am a scatterbrain.
 

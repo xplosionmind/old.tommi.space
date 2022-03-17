@@ -3,7 +3,7 @@ date: 2020-03-21T01:00:00+01:00
 updated: 2022-02-24T10:51:30+01:00
 tags: geek/server
 aliases: Server configuration, VPS configuration
-redirect_from: [/server-configuration,/serversetup,/server-config,/nextcloud,/nextcloud-setup,/nextcloud-config]
+redirect_from: [/server-configuration/,/nextcloud/]
 description: A walktrough of the steps I executed to set up my server
 ---
 <div class='red box'>

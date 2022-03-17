@@ -1,8 +1,8 @@
 ---
 date: 2020-05-12T02:00:00+02:00
-updated: 2022-02-24T10:51:30+01:00
+updated: 2022-03-14T12:34:15+01:00
 tags: design
-redirect_from: /tipografia
+redirect_from: /tipografia/
 description: Notes about Typography
 image: https://tommi.space/typography.svg
 ---

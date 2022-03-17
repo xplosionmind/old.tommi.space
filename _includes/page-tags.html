@@ -1,0 +1,10 @@
+<section class='flex row'>
+	{% for tag in site.tags %}
+		{% for rawtag in tags %}
+			{% capture postag %}{{ rawtag | replace: '/', ' ' }}{% endcapture %}
+			{% if postag contains tag.title %}
+				<a href='/tags#{{ tag.title | replace: ' ', '-' | downcase }}' rel='tag' class='{{ tag.title | replace: ' ', '-' | downcase }} {{ size }} written button p-category'>{{ tag.title }}</a>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+</section>

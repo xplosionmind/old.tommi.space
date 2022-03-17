@@ -1,7 +1,9 @@
 ---
 date: 2021-05-24
-updated: 2021-10-29T16:39:15+02:00
-tags: geek todo
+updated: 2022-03-14T14:57:37+01:00
+tags:
+  - geek
+  - todo
 aliases: Pictures, Images management
 ---
 - Mouse Trap Car Grand Prix on Piwigo

@@ -1,7 +1,10 @@
 ---
 date: 2021-03-14T09:59:49+01:00
-updated: 2021-03-14T09:59:49+01:00
-tags: geek/web design topic
+updated: 2022-03-14T14:58:03+01:00
+tags:
+  - geek/web
+  - design
+  - topic
 description: Finding an equilibrium between great design and maximum performance with minimal size.
 ---
 If my personality was a website ([and it is](https://tommi.space 'my website’s homepage')), it would be colorful, full of images, crazy, yet meaningful and emphatic.

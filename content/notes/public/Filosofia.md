@@ -1,7 +1,9 @@
 ---
 date: 2021-12-17T13:53:30+01:00
-updated: 2021-12-17T13:53:30+01:00
-tags: knowleedge topic
+updated: 2022-03-14T14:58:28+01:00
+tags:
+  - knowleedge
+  - topic
 ---
 > Per Massimo Cacciari il problema che colpisce chi fa filosofia è <q>un problema su cui l’opinione comune sorvola, che non coglie, non afferra. La disposizione, la vocazione filosofica, invece, lì vede un abisso. Per l’opinione pubblica che si muoia può essere un fatto normale, che si nasca può essere un fatto normale o – usando dei termini filosofici propri – perché dovrebbe meravigliare che ci sia l’essere invece del nulla? Un filosofo invece non lo trova normale. Non è meraviglioso che esista tutta questa infinita molteplicità di enti, di cui nessuno uguale all’altro, nessuno identico all’altro, tuttavia in relazione gli uni con gli altri? Non è tutto ciò meraviglioso, tremendo e meraviglioso? Non è tutto ciò un problema?</q>
 >

@@ -1,7 +1,9 @@
 ---
 date: 2020-06-10
 updated: 2021-10-30T19:13:45+02:00
-tag: quote csvfy
+tag:
+  - quote
+  - csvfy
 toc: false
 description: Some are from celebrities, some were pronounced by friends of mine and may have no meaning to the public, in realtà sono quasi tutte in italiano dunque non ha senso che scriva la descrizione in inglese.
 redirect_from: [cit, /citazioni]
@@ -17,7 +19,7 @@ todo:
 </style>
 {% assign quotes = site.data.quotes | sort: 'date' | reverse %}
 {% for q in quotes %}
-<p class='date' datetime='{{ q.date | date: '%FT%T%:z' }}'>{{ q.date | date: '%d %B %Y' }}</p>
+<p class='date' datetime='{{ q.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ q.date | date: '%d %B %Y' }}</p>
 <blockquote lang='{{ q.lang }}'{% if q.id != nil %} id='{{ q.id }}'{% endif %}>
 	<p>{{ q.quote }}</p>
 </blockquote>

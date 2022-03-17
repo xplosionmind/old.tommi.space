@@ -1,7 +1,6 @@
 ---
 date: 2020-10-27T01:00:00+01:00
 tags: geek
-redirect_from: [/great-websites,/great-internet,/internet-greatness]
 toc: false
 description: Sources of awesomeness on the World Wide Web.
 todo:
@@ -22,6 +21,6 @@ todo:
 	{% assign awesomeness = site.data.internet-awesomeness | sort: 'added' | reverse %}
 	{% for web in awesomeness %}
 		<li>
-			<a href='{{ web.url }}' target='_blank' title='{% if web.title %}{{ web.title }}'>{{ web.title }}{% else %}{{ web.url | remove: 'https://' }}'>{{ web.url | remove: 'https://' }}{% endif %}</a>: {{ web.description }} — <time datetime='{{ web.added | date: '%FT%T%:z' }}'>{{ web.added | date: '%d %B %Y' }}</time></li>
+			<a href='{{ web.url }}' target='_blank' title='{% if web.title %}{{ web.title }}'>{{ web.title }}{% else %}{{ web.url | remove: 'https://' }}'>{{ web.url | remove: 'https://' }}{% endif %}</a>: {{ web.description }} — <time datetime='{{ web.added | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ web.added | date: '%d %B %Y' }}</time></li>
 	{% endfor %}
 </ul>

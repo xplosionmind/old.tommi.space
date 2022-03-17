@@ -1,9 +1,9 @@
 ---
 date: 2021-05-14T11:03:17+02:00
-updated: 2021-05-14T11:46:51+02:00
+updated: 2022-03-14T14:52:55+01:00
 tags: geek/apps
 lang: it
-redirect_from: [/signal-it, /it-signal, /signal-ita, /ita-signal, /abbandonare-whatsapp, /no-whatsapp, /ciao-whatsapp, /scegliere-signal]
+redirect_from: [/signal-it/]
 description: Perché Signal è così importante e perché preferirlo a WhatsApp è una scelta etica e non puramente da nerd
 ref: signal
 toc: false

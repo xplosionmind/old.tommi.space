@@ -1,7 +1,11 @@
 ---
 date: 2021-11-15T12:46:39+01:00
-updated: 2022-02-02T23:49:12+01:00
-tags: geek/apps geek/idea geek/free help
+updated: 2022-03-14T14:54:28+01:00
+tags:
+  - geek/apps
+  - geek/idea
+  - geek/free
+  - help
 description: |
   Concept of an IMDb/TMDb alternative, a fork of <a href='https://joinbookwyrm.org' target='_blank' title='Bookwyrm'>Bookwyrm</a> made for movies.
 toc: false

@@ -1,6 +1,6 @@
 ---
 date: 2021-01-09
-updated: 2021-03-15T16:43:06+01:00
+updated: 2022-03-14T14:51:45+01:00
 tags: geek
 aliases: Quitting Mailchimp, Switch to Mailtrain, Switch to Buttondown
 description: Thoughts and decisions about quitting Mailchimp

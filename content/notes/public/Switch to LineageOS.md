@@ -1,12 +1,12 @@
 ---
 date: 2020-12-10
-updated: 2021-04-04T11:44:07+02:00
+updated: 2022-03-14T14:50:00+01:00
 tags: geek
 permalink: /lineageos/
 redirect_from:
   - /switch-to-lineageos/
   - /degoogle-android/
-  - /degoogled-android
+  - /degoogled-android/
   - /lineage/
 description: Removing the default operating system on my Android device and installing LineageOS.
 ---

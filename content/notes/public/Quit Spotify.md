@@ -1,6 +1,6 @@
 ---
 date: 2020-11-07T01:00:00+01:00
-updated: 2021-12-23T18:50:34+01:00
+updated: 2022-03-14T14:51:36+01:00
 tags: geek
 aliases: Quitting Spotify
 description: Thoughts and decisions about quitting Spotify

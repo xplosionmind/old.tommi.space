@@ -1,8 +1,11 @@
 ---
 date: 2022-02-05T10:01:54+01:00
-updated: 2022-02-12T21:05:28+01:00
+updated: 2022-03-14T14:53:39+01:00
 location: home
-tags: geek/app wip
+tags:
+  - geek/app
+  - knowledge/geek
+  - wip
 toc: false
 ---
 - How to set both `Year` and `MultiSelect`

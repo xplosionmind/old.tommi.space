@@ -1,6 +1,6 @@
 ---
 date: 2020-03-16
-updated: 2022-01-03T18:45:44+01:00
+updated: 2022-03-14T14:50:58+01:00
 tags: archive/dnd
 description: |
   Appunti sulla campagna <a href='https://pathfinderwiki.com/wiki/Rise_of_the_Runelords' target='_blank' hreflang='en' title='“Rise of the Runelords„ on Pathfinder Wiki'>Rise of the Runelords</a>

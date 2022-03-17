@@ -1,7 +1,9 @@
 ---
 date: 2020-12-09T01:00:00+01:00
-updated: 2021-12-26T15:52:41+01:00
-tags: knowledge todo
+updated: 2022-03-14T14:54:43+01:00
+tags:
+  - knowledge
+  - todo
 aliases: Learn, To learn
 description: |
   Directions to lead my curiosity towards, a.k.a. what I have to learn

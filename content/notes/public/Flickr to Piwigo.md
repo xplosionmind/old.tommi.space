@@ -1,6 +1,6 @@
 ---
 date: 2020-12-05T01:00:00+01:00
-updated: 2021-12-17T11:41:49+01:00
+updated: 2022-03-14T14:59:21+01:00
 tags: geek
 aliases: Quitting Flickr, Quit Flickr
 description: Thoughts and decisions about quitting Flickr and switching to Piwigo

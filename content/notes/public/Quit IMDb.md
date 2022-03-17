@@ -1,8 +1,8 @@
 ---
 date: 2021-01-25T09:54:12+01:00
-updated: 2021-12-30T11:28:10+01:00
+updated: 2022-03-14T14:52:10+01:00
 tags: geek
-redirect_from: [/imdb,/quitimdb,/tmdb,/quit-tmdb,/quittmdb,/quitmdb]
+redirect_from: [/imdb/]
 description: It is owned by Amazon, and it is destroying the profoundness and sacredness of cinema.
 ---
 ## Why

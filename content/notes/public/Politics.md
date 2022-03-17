@@ -1,7 +1,10 @@
 ---
 date: 2021-02-14T16:08:46+01:00
 updated: 2021-11-09T11:36:35+01:00
-tags: mot topic quote
+tags:
+  - mot
+  - topic
+  - quote
 description: A science, an art. Insights, definitions, quotes, and ideas about Politics.
 ---
 > Politics is the ongoing competition between people, usually in groups, to <u>shape policy in their favor</u>.

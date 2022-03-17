@@ -1,6 +1,6 @@
 ---
 date: 2020-12-10
-updated: 2021-09-26T16:56:41+02:00
+updated: 2022-03-14T14:50:45+01:00
 tags: geek/free
 aliases: Internet Freedom Roadmap
 permalink: /internet-freedom-roadmap/

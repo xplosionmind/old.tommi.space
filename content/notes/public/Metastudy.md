@@ -1,8 +1,10 @@
 ---
 date: 2020-01-03T01:00:00+01:00
-updated: 2022-01-25T09:08:54+01:00
-tags: zen topic
-description: 'The study of studying, or: to study better'
+updated: 2022-03-17T12:14:56+01:00
+tags:
+  - zen
+  - topic
+description: 'The study of studying, or'
 permalink: /study/
 aliases: Study method, Metodo di studio
 redirect_from:

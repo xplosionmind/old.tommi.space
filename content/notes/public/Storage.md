@@ -3,7 +3,7 @@ date: 2020-12-24T01:00:00+01:00
 updated: 2021-12-17T10:55:48+01:00
 tags: geek
 aliases: Backup
-redirect_from: [/backup, /backups]
+redirect_from: [/backup/, /backups/]
 description: Notes concerning storage management, viable solutions and systems tsting
 ---
 To better understand my positions about this topic and their reasons, it would be useful to read my experience with [[Data loss|data loss]].

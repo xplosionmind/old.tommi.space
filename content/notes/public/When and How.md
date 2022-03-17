@@ -1,8 +1,10 @@
 ---
 date: 2021-12-08T22:44:08+01:00
 updated: 2021-12-09T11:55:40+01:00
-tags: draft politics
-redirect_from: [/when-how,/how-when,/how-and-when]
+tags:
+  - draft
+  - politics
+redirect_from: [/when-how/,/how-when/,/how-and-when/]
 ---
 There is no actual meaning for what happens in the world right now. There is no what, there is no real why, everything, anything, is reduced to a matter of timing and exposition.
 

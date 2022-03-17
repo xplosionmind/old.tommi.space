@@ -28,21 +28,21 @@ image: /jam.png
 
 <p>Every single element in The Jam is connected to at least another one: at the end of every note, in the <strong><a href='#backlinks' target='_blank' title='This note’s backlinks'>backlinks</a></strong>, are listed all of the pages which link to the current one.</p>
 
-{% render tags.html %}
+{% render tags.html, site: site %}
 
 <div class='row'>
 	<div class='half column'>
 		{% render lang-filter.html, lang: lang %}
 	</div>
 	<div class='half column flex'>
-		<a class='red button' style='color:white;' href='/whole-jam'  target='_blank' title='The Whole Jam'>The whole Jam</a>
+		<a class='red button' style='color:white;' href='/whole-jam' title='The Whole Jam'>The whole Jam</a>
 	</div>
 </div>
 
-<ul>{%- assign jam = site.notes | where: 'main', 'true' -%}{%- for note in jam -%}<li lang='{{ note.lang }}'><a href='{{ note.url }}' lang='{{ note.lang }}'>{{ note.title }}</a>&ensp;—&ensp;{% if note.description %}{{ note.description }}{%- else -%}{{ note.excerpt | strip_html | truncatewords: 30 }}{%- endif -%}</li>{%- endfor -%}</ul>
+<ul>{% for note in collections.jam %}{% if note.main %}<li lang='{{ note.lang }}'><a href='{{ note.url }}' lang='{{ note.lang }}'>{{ note.title }}</a>&ensp;—&ensp;{% if note.description %}{{ note.description }}{% endif %}</li>{% endif %}{% endfor %}</ul>
 
 <div class='flex row'>
-	<a class='red button' style='color:white;' href='/whole-jam'  target='_blank' title='The Whole Jam'>The Whole Jam</a>
+	<a class='red button' style='color:white;' href='/whole-jam' title='The Whole Jam'>The Whole Jam</a>
 </div>
 
 <div class='yellow box'>

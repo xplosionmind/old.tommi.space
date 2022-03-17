@@ -1,7 +1,7 @@
 ---
 date: 2021-01-15T01:00:00+01:00
-updated: 2021-12-15T23:17:12+01:00
-redirect_from: [/name-on-mars, /mars, /name-mars]
+updated: 2022-03-14T14:55:36+01:00
+redirect_from: [/on-mars/, /mars/]
 description: My name is engraved in a plate on NASA’s Perseverance rover which is on Mars
 tags: archive
 ---

@@ -9,7 +9,7 @@
 		{% endfor %}
 	{% endif %}
 
-	{% render head.html, latex: latex, date: date, title: title, primary: primary, lang: lang, alternate: alternate %}
+	{% render head.html, latex: latex, date: date, title: title, primary: primary, lang: lang, alternate: alternate, accounts: accounts %}
 
 	<body class='cantiere{% if class %} {{ class }}{% endif %}'>
 		<a id='scrollbutton' class='tool' href='#' aria-label='scroll to top' title='scroll to top'>

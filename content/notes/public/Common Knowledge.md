@@ -1,7 +1,9 @@
 ---
 date: 2022-01-15T18:19:22+01:00
-updated: 2022-01-15T18:50:38+01:00
-tags: topic knowledge
+updated: 2022-03-14T15:00:11+01:00
+tags:
+  - topic
+  - knowledge
 description: Thoughts about the imporance of giving equal access to knowledge to all
 image: 'https://miro.medium.com/max/2000/1*O4jG21GILfzDuZ4eWvH7_Q.png'
 toc: false

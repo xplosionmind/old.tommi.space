@@ -4,14 +4,19 @@ lang: en
 layout: large
 description: Every topic, every recurrency, anything you need to find can be found somewhere in this page.
 todo:
-  - '#TODO refactor completely'
 ---
-{% for tag in tags %}
+{% for tag in site.tags %}
 	<div class='row'>
-		<div id='{{ tag.title | remove: ' ' }}' class='tag box'>
-			<h2 class='{{ tag.title | remove: ' ' }} title'>{{ tag.title }}</h2>
-			{{ tag.description }}
+		<div id='{{ tag.title | downcase | replace: ' ', '-' }}' class='tag box'>
+			<h2 class='{{ tag.title | downcase | replace: ' ', '-' }} title'>{{ tag.title }}</h2>
+			<p class='one'>{{ tag.description | markdownify }}</p>
 			<ul class='three'>
+				{% for entry in collections.all %}
+					{% capture postags %}{{ entry.data.tags | join: ' ' | replace: '/', ' ' }}{% endcapture %}
+					{% if postags contains tag.title %}
+						<li><a href='{{ entry.url }}' title='{{ entry.data.title }}'>{{ entry.data.title }}</a></li>
+					{% endif %}
+				{% endfor %}
 			</ul>
 		</div>
 	</div>

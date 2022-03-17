@@ -1,7 +1,10 @@
 ---
 date: 2021-12-17T13:51:09+01:00
-updated: 2021-12-17T13:51:09+01:00
-tags: zen knowledge topic
+updated: 2022-03-14T14:59:28+01:00
+tags:
+  - zen
+  - knowledge
+  - topic
 description: Notes concerning happiness
 ---
 > Consequently, the utilitarian can argue that we need a body of laws which will be respected, even when breaking one of these on a particular occasion would, if it were permitted, lead to an increase in happiness. This can be called indirect utilitarianism. The idea is that if we all reason directly in utilitarian terms things will go very badly. Hence we need to follow non-utilitarian reasoning —obey the laws to maximize happiness.

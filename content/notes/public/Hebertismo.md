@@ -1,7 +1,9 @@
 ---
 date: 2020-12-19T01:00:00+01:00
-updated: 2021-12-15T22:54:18+01:00
-tags: zen draft
+updated: 2022-03-14T14:58:14+01:00
+tags:
+  - zen
+  - draft
 lang: it
 description: Cos’è l’Hebertismo
 ---

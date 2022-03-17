@@ -1,6 +1,6 @@
 ---
 date: 2021-05-15T15:32:12+02:00
-updated: 2021-05-17T18:19:55.984260+02:00
+updated: 2022-03-14T15:01:32+01:00
 tags: places
 location: Brillo Parlante
 toc: false

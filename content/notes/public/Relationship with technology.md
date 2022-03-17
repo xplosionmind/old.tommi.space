@@ -1,8 +1,10 @@
 ---
 date: 2021-03-13
 updated: 2021-04-14T10:35:45+02:00
-tags: zen topic
-aliases: ['Relationship with computers']
+tags:
+  - zen
+  - topic
+aliases: Relationship with computers
 todo: Highlight salient parts
 description: About the relationship between humans and technology
 toc: false

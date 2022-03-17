@@ -1,6 +1,6 @@
 ---
 date: 2020-05-13T02:00:00+02:00
-updated: 2021-12-15T23:11:36+01:00
+updated: 2022-03-14T15:00:02+01:00
 tags: geek
 redirect_from: [/datasets/,/data-sets,/public-data/,/dati/]
 permalink: /data/

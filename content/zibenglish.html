@@ -14,7 +14,7 @@ description: Things getting out of Tommi’s head, in the form of articles
 
 <div class='row'>
 	<div class='two-thirds column'>
-		{% render tags.html %}
+		{% render tags.html, site: site %}
 	</div>
 	<div class='one-third column'>
 		{% render lang-filter.html, lang: lang %}
@@ -27,10 +27,11 @@ description: Things getting out of Tommi’s head, in the form of articles
 			<a class='box' href='{{ entry.url }}' hreflang='{{ entry.data.lang }}' lang='{{ entry.data.lang }}'>
 				<img src='{{ entry.data.image }}' alt='{{ entry.data.title }}' title='{{ entry.data.title }}'>
 				<h2>{{ entry.data.title }}</h2>
-				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%FT%T%:z' }}'>{% render date-it.html, date: entry.date %}<time></p>
+				<p class='date'>{% if entry.data.location %}{{ entry.data.location }}, {% endif %}<time class='dt-published' datetime='{{ entry.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% render date-it.html, date: entry.date %}<time></p>
 				<cite class='excerpt'>
 					{{ entry.data.description }}
 				</cite>
+				{% render entry-tags.html, tags: entry.data.tags, site: site, size: 'tiny' %}
 			</a>
 		</div>
 	{% endfor %}

@@ -3,9 +3,6 @@ title: The whole Jam
 description: Every single ingredient of <cite>The Jam</cite>
 redirect_from: [/tutta-la-marmellata/,/tutta-marmellata/,/the-whole-jam/,/wholejam/,/whole-jar/,/wholejar/,/the-whole-jar/]
 layout: large
-todo:
-  - '#TODO fix tags display and excerpts'
-  - '#TODO fix description rendering'
 ---
 <style>
 	.grid div {
@@ -17,7 +14,7 @@ todo:
 		{% render lang-filter.html, lang: lang %}
 	</div>
 	<div class='two-thirds column'>
-		{% render tags.html %}
+		{% render tags.html, site: site %}
 	</div>
 </div>
 <div class='grid'>
@@ -28,11 +25,7 @@ todo:
 				{% if note.data.description %}
 					<p>{{ note.data.description | strip_html | truncatewords: 30 }}</p>
 				{% endif %}
-				<div class='flex'>
-					{% for tag in note.data.tags %}
-						<div rel='tag' class='{{ tag }} tiny written button'>{{ tag }}</div>
-					{% endfor %}
-				</div>
+				{% render entry-tags.html, tags: note.data.tags, site: site, size: 'tiny' %}
 			</div>
 		</a>
 	{% endfor %}

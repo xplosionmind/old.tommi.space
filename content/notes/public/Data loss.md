@@ -1,7 +1,10 @@
 ---
 date: 2021-06-21T09:51:42+02:00
-updated: 2021-12-15T23:16:20+01:00
-tags: geek log draft
+updated: 2022-03-14T15:00:40+01:00
+tags:
+  - geek
+  - log
+  - draft
 ---
 ## Data loss
 

@@ -1,6 +1,6 @@
 ---
 date: 2021-04-21T15:48:12+02:00
-updated: 2021-05-27T08:38:50+02:00
+updated: 2022-03-14T15:00:55+01:00
 tags: geek/apps
 description: Things to know and remember about Brave
 toc: false

@@ -1,6 +1,6 @@
 ---
 date: 2020-12-23
-updated: 2021-11-07T10:59:32+01:00
+updated: 2022-03-14T14:52:34+01:00
 tags: geek
 aliases: Delete Google, DeGoogle
 redirect_from:

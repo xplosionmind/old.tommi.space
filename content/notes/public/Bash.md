@@ -1,6 +1,6 @@
 ---
 date: 2021-04-04T19:51:22+02:00
-updated: 2021-12-23T23:54:09+01:00
+updated: 2022-03-14T15:02:03+01:00
 tags: geek/knowledge
 description: Stuff about Bash
 toc: false

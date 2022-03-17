@@ -1,7 +1,9 @@
 ---
 date: 2020-10-21
-updated: 2020-10-25
-tags: geek event
+updated: 2022-03-14T14:57:56+01:00
+tags:
+  - geek
+  - event
 permalink: /MDN-Linux-Day/
 lang: it
 description: Appunti e risorse della presentazione di MDN Web Docs al Linux Day 2020.

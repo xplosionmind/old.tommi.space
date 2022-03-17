@@ -1,6 +1,6 @@
 ---
 date: 2021-04-06T11:37:50+02:00
-updated: 2022-02-09T00:06:05+01:00
+updated: 2022-03-14T15:00:33+01:00
 tags: geek/wip
 aliases: CSVfication
 permalink: /csv/

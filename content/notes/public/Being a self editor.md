@@ -1,7 +1,9 @@
 ---
 date: 2021-02-04T13:58:44+01:00
-updated: 2021-06-08T18:24:15+02:00
-tags: wit zen
+updated: 2022-03-14T15:01:06+01:00
+tags:
+  - wit
+  - zen
 description: I am a self editor, I am the editor of myself.
 toc: false
 aliases: Self editor

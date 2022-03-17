@@ -1,6 +1,8 @@
 ---
 updated: 2021-06-10T20:46:20+02:00
-tags: cinema csvfy
+tags:
+  - cinema
+  - csvfy
 aliases: End Credits
 description: Titoli di coda indimenticabili.
 lang: it

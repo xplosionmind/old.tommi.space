@@ -1,6 +1,6 @@
 ---
 date: 2021-01-03
-updated: 2022-01-03T18:31:19+01:00
+updated: 2022-03-14T14:52:43+01:00
 tags: archive/dnd
 aliases: Dungeons & Dragons
 redirect_from: [/dnd,/rise-of-the-runelords,/dungeons-and-dragons,/dungeons-&-dragons,/d&d]

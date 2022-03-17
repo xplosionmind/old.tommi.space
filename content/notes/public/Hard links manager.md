@@ -1,7 +1,9 @@
 ---
-date: 2021-07-18T15:04:47.192551+02:00
-updated: 2021-08-12T12:15:56.655921+02:00
-tags: geek/idea help
+date: 2021-07-18T15:04:47+02:00
+updated: 2022-03-14T14:58:44+01:00
+tags:
+  - geek/idea
+  - help
 toc: false
 ---
 The core idea behind this software is really simple: creating, managing and keeping synchronized hard links of all the files in specific directories.

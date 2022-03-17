@@ -18,7 +18,7 @@ toc: false
 
 A temporary list of my favorite movies, even though [[Moviewyrm|I am working on a better solution]].
 
-{% assign favorites = site.data.watchlog | where: 'favorite', '1' | sort: 'name' %}
+{% assign favorites = watchlog | where: 'favorite', '1' | sort: 'name' %}
 
 <ul class='two'>{% for fav in favorites %}<li><cite><a href='https://imdb.com/title/{{ fav.imdb }}' target='_blank' title='“{{ fav.title }}„ on IMDb'>{{ fav.title }}</a></cite></li>{% endfor %}</ul>
 

@@ -4,46 +4,46 @@ updated: 2021-12-17T01:22:54+01:00
 tags: log
 aliases: Cose extended, Tutte le cose, Stuff extended, Di tutto e di più, Done, Fatto
 lang: it
-redirect_from: [/tuttopiu,/cose-extended,/stuff-extended,/stuff-extended-it,/stuff-extended/it, /it/stuff-extended, /everything, /done, /fatto, /fatte]
+redirect_from: [/tuttopiu/,/cose-extended/,/stuff-extended/,/everything/,/done/,/fatto/]
 main: true
 description: Un archivio di (quasi) tutte le cose che faccio e che ho fatto, in ordine cronologico e inverso
 toc: false
 ---
-<p>{{ page.description }}</p>
+<p>{{ description }}</p>
 
 <div class='yellow box'>
 Alcuni link fra i seguenti potrebbero essere protetti da password oppure non aggiornati. Se aveste bisogno di accedere a contenuti privati, <a class='u-email' href='mailto:surfing@tommi.space' rel='me' title='Scrivimi un’email'>scrivetemi</a>.
 </div>
 
 <ul>
-	{% assign tutto = site.data.tutto | sort: 'end' | reverse %}
+	{% assign tutto = tutto | sort: 'end' | reverse %}
 	{% for cosa in tutto %}
-		<li id='{{ cosa.title | slugify }}-{{ cosa.end | date: "%Y" }}'>
+		<li id='{{ cosa.title | slugify }}-{{ cosa.end | date: '%Y' }}'>
 			{% if cosa.url %}
-				<a href='{{ cosa.url }}' target='_blank' title='{{ cosa.title }}'>{{ cosa.title }}</a>
+				<a href='{{ cosa.url }}' title='{{ cosa.title }}'>{{ cosa.title }}</a>
 			{% else %}
 				<strong>{{ cosa.title }}</strong>
 			{% endif %}
 			{% if cosa.start %}
-				, {{ cosa.start | date: "%Y-%m-%d" }} – {{ cosa.end | date: "%Y-%m-%d" }}
+				, {% render date-it.html, date: cosa.start %} ore {{ cosa.start | date: '%H:%M' }} – {% render date-it.html, date: cosa.end %} ore {{ cosa.end | date: '%H:%M' }}
 			{% else %}
-				, {{ cosa.end | date: "%Y-%m-%d" }}
+				, {% render date-it.html, date: cosa.end %}
 			{% endif %}
 			{% if cosa.coordinates %}
-				, <a href='https://openstreetmap.org?mlat={{ cosa.coordinates[0] }}&mlon={{ cosa.coordinates[1] }}&zoom=18' target='_blank' title='{{ cosa.location }} su OpenStreetMap'>{{ cosa.location }}</a>
+				, <a href='https://openstreetmap.org?mlat={{ cosa.coordinates[0] }}&mlon={{ cosa.coordinates[1] }}&zoom=18' title='{{ cosa.location }} su OpenStreetMap'>{{ cosa.location }}</a>
 			{% elsif cosa.location == 'online' %}
 			{% else %}
 				, {{ cosa.location }}
 			{% endif %}
 			{% if cosa.notes %}
-				<br>‣ {{ cosa.notes }}
+				<br>☞ {{ cosa.notes }}
 			{% endif %}
 			{% if cosa.tags != nil or cosa.aliases != nil %}
 				<span class='mono dim'> ∙ {% for alias in cosa.aliases %} {{ alias }}{% endfor %}{% for tag in cosa.tags %} <span rel='tag'>{{ tag }}</span>{% endfor %}</span>
 			{% endif %}
 			{% if cosa.data %}
 				<ul>{% for datum in cosa.data %}
-					<li><a href='{{ datum.url }}' target='_blank' title='{{ datum.what }}'>{{ datum.what }}</a></li>
+					<li><a href='{{ datum.url }}' title='{{ datum.what }}'>{{ datum.what }}</a></li>
 				{% endfor %}</ul>
 			{% endif %}
 		</li>

@@ -1,7 +1,9 @@
 ---
 date: 2020-05-22T02:00:00+02:00
-updated: 2022-02-24T10:51:30+01:00
-tags: design geek/web
+updated: 2022-03-14T15:00:14+01:00
+tags:
+  - design
+  - geek/web
 description: A collection of colors I love and where I use them
 redirect_from: [/colours, /colori]
 image: https://tommi.space/palette.svg
@@ -41,6 +43,7 @@ This website’s code snippets use a custom made syntax highlight; its source is
 <br>
 <br>
 
+{% comment %}
 ## pise-notes.club
 
 [pise-notes.club]’s theme colors. Source [SCSS file](https://github.com/xplosionmind/PISE-notes/blob/e53b09b7eb391ac17f1c3a97a005a19412c3d397/style.scss#L13 'PISE Notes SCSS color variables').
@@ -65,10 +68,11 @@ The website is currently offline since our faculty supervisor asked me to close 
 
 <br>
 <br>
+{% endcomment %}
 
 ## quitsocialmedia.club
 
-[quitsocialmedia.club](https://quitsocialmedia.club 'Quit Social Media') [palette](https://github.com/xplosionmind/quitsocialmedia.club/blob/8763e5636a9716bd947527459e6731ccefa42afc/style.scss#L12 'quitsocialmedia.club’s CSS')
+[quitsocialmedia.club](https://quitsocialmedia.club 'Quit Social Media')’s [CSS palette](https://codeberg.org/tommi/quitsocialmedia.club/src/branch/main/style.scss#L26 'quitsocialmedia.club’s CSS')
 
 <ul class='two'>
 <li><code style='background:#F1FAEE;color:#1D3557'>#F1FAEE</code></li>
@@ -111,7 +115,7 @@ Ah, red, what a color. It is so wonderful I have to keep note of all the nice sh
 <li><code style='background:#D7263D;color:#FFF'>#D7263D</code>, Crimson</li>
 <li><code style='background:#E63946;color:#FFF'>#E63946</code>, <a href='#quitsocialmediaclub' title='quitsocialmedia.club palette'>Quit Social Media</a>) red</li>
 <li><code style='background:#AC0033;color:#FFF'>#AC0033</code>, always <a href='https://unive.it' target='_blank' title='Ca’Foscari University'>Ca’Foscari University</a>’s main theme color, but <a href='view-source:https://www.unive.it/#line32'  target='_blank' title='Link to Ca’Foscari website source code'>picked from the university website’s source code</a></li>
-<li><code style='background:#AF0539;color:#FFF'>#AF0539</code>, <a href='https://unive.it' target='_blank' title='Ca’Foscari University'>Ca’Foscari University</a>’s main theme color, picked <a href="view-source:https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo_Universit%C3%A0_Ca'_Foscari_Venezia.svg#line11" target='_blank' title='The line of the source code of the SVG of the logo of Ca’Foscari containing the HEX code of the color'>from the SVG </a>of <a href='{{ "https://en.wikipedia.org/wiki/Ca'_Foscari_University_of_Venice#/media/File:Logo_Università_Ca'_Foscari_Venezia.svg" | url_encode }}'  target='_blank' title='Logo dell’Università Ca’ Foscari di Venezia'>University logo</a></li>
+<li><code style='background:#AF0539;color:#FFF'>#AF0539</code>, <a href='https://unive.it' target='_blank' title='Ca’Foscari University'>Ca’Foscari University</a>’s main theme color, picked from the SVG of <a href="https://en.wikipedia.org/wiki/Ca'_Foscari_University_of_Venice#/media/File:Logo_Università_Ca'_Foscari_Venezia.svg" title="Logo dell’Università Ca’ Foscari di Venezia">University logo</a></li>
 </ul>
 
 <br>

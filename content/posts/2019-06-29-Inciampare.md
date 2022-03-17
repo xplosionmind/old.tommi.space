@@ -9,7 +9,7 @@ Un’ombra, è sempre più leggera, più veloce, più allegra, più dolce, meno 
 <q>**Chi striscia non inciampa**</q>
 
 <figure><picture>
-  <img class='u-photo' src'{{ image }}' alt='una lupetta che percorre in qeuilibrio una manichetta (sì sembra strano ma se vedeste la foto capireste)'>
+  <img class='u-photo' src='{{ image }}' alt='una lupetta che percorre in qeuilibrio una manichetta (sì sembra strano ma se vedeste la foto capireste)'>
 </picture></figure>
 
 ho imparato da chi inciampando ha saputo creare un mondo unico e magico.

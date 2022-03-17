@@ -1,5 +1,6 @@
 ---
 date: 2020-06-06
+tags: log
 lang: it
 toc: false
 description: Leggo e sento tante perole belle (oppure brutte ma con un gran significato) e ho paura di perderle, perciò le annoto qui.
@@ -9,7 +10,7 @@ redirect_from: ['/words']
 <ul class='two'>
 	{% for p in site.data.parole %}
 		<li>
-			<time datetime='{{ p.date | date: '%FT%T%:z' }}'>{{ p.date | date: '%d %B %Y' }}</time>
+			<time datetime='{{ p.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ p.date | date: '%d %B %Y' }}</time>
 			{% if p.url %}
 				<a href='{{ p.url }}' target='_blank' title='{{ p.word }}'>{{ p.word }}</a>
 			{% else %}

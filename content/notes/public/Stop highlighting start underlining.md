@@ -1,6 +1,6 @@
 ---
 date: 2020-12-11T01:00:00+01:00
-updated: 2021-12-15T23:16:20+01:00
+updated: 2022-03-14T14:50:24+01:00
 title: Stop highlighting, start underlining
 tags: zen wit reading
 toc: false
@@ -12,7 +12,7 @@ redirect_from:
   - /stop-highlighting-start-underlining/
 main: true
 ---
-Highlighting is strong, excessive, distracting, aggressive.\
+Highlighting is strong, excessive, distracting, aggressive.  
 Underlining is soft, neat, light, instead.
 
 While <mark>highlighting screams</mark>: <q>LOOK AT ME COME ON!</q>, <u>underlining</u> raises a hand and timidly tells you: <q>hey! Remember this!</q>

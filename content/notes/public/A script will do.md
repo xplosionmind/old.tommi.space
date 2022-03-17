@@ -1,6 +1,6 @@
 ---
 date: 2021-12-08T11:47:55+01:00
-updated: 2021-12-23T18:54:57+01:00
+updated: 2022-03-14T15:01:55+01:00
 tags: geek/idea
 toc: false
 description: Why it is important to work with simple and specific scripts rather than dealing with complex extensive software

@@ -1,7 +1,9 @@
 ---
 date: 2020-12-07
 aliases: Comprensione posticipata, rileggere
-tags: zen wit
+tags:
+  - zen
+  - wit
 lang: it
 toc: false
 ---

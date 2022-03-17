@@ -9,7 +9,7 @@ Questo è proprio il momento chiave, QUEL momento.
 
 Adesso cominciano a scorrere quelle ore che tutti ricordano per tutta la loro vita.
 <!--more-->
-<figure><picture><img class='u-photo' src='{{ image }}' alt='una classe al lavoro'<figcaption>Un’inquadratura di una scena in classe del mio corto <cite>[Everyone](https://tommi.space/it/everyone '“Everyone - Love Awakens„')</cite>, che dovremmo finire di girare appena conclusa la maturità</figcaption></picture></figure>
+<figure><picture><img class='u-photo' src='{{ image }}' alt='una classe al lavoro'><figcaption>Un’inquadratura di una scena in classe del mio corto <cite><a href='https://tommi.space/it/everyone' title='“Everyone - Love Awakens„'>Everyone</a></cite>, che dovremmo finire di girare appena conclusa la maturità</figcaption></picture></figure>
 
 In questi tre giorni che ci separano dall’inizio dell’esame di maturità ogni attimo è **cruciale**, ogni scelta determinante, ogni pensiero potenzialmente sconvolgente.
 
