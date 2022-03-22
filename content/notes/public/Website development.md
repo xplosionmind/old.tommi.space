@@ -1,8 +1,8 @@
 ---
 date: 2020-02-02T01:00:00+01:00
-updated: 2022-03-14T12:33:46+01:00
+updated: 2022-03-22T10:28:18+01:00
 tags: meta geek/web
-aliases: Development, tommi.space, Development Roadmap, Website todo, Meta
+aliases: tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development/
 redirect_from: [/development-roadmap/,/roadmap/,/wip/,/issues/,/improvements/,/dev/,/website-development/,/tommi.space/]
 main: true
@@ -47,9 +47,10 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 1. Temporary *pseudo-[[Zig]]*: a “changelog” section in homepage, [looping through](https://talk.jekyllrb.com/t/loop-through-all-pages-of-the-website/6880 'Loop through ALL pages in a website - Jekyll Talk') the last few pages updated recently (based on `page.updated`)
 1. Improve search
-1. Self-hosted analytics
+2. Add a section in each note where `if more`, in the front matter `more: https://en.wikipedia.org/wiki/Love` (encyclopedia page of the same topic)
+3. Self-hosted analytics
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
-14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag, see [jekyll-paginate](https://github.com/sverrirs/jekyll-paginate-v2 'jekyll-paginate on GitHub') and [jekyll-csv](https://github.com/theyworkforyou/jekyll-csv/ 'jekyll-csv on GitHub')
+14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag
 
 <br>
 

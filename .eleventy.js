@@ -28,7 +28,6 @@ const md = markdownIt({
 .use(require('markdown-it-container'))
 .use(require('markdown-it-collapsible'))
 .use(require('markdown-it-abbr'))
-.use(require('markdown-it-html5-media'))
 .use(require('markdown-it-mathjax3'));
 const mdRender = new md();
 

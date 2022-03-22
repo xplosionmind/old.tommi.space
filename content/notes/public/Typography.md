@@ -1,6 +1,6 @@
 ---
 date: 2020-05-12T02:00:00+02:00
-updated: 2022-03-14T12:34:15+01:00
+updated: 2022-03-21T22:45:06+01:00
 tags: design
 redirect_from: /tipografia/
 description: Notes about Typography
@@ -19,6 +19,11 @@ A premise: I have a fetish for Typography. I really do. I often find myself twea
 - [*Helvetica*](https://www.imdb.com/title/tt0847817/ 'Helvetica on IMDb'), a documentary on the most consequential, widespread, revolutionary yet simple typeface of history.
 - [The Font Bureau](https://fontbureau.typenetwork.com/ 'The Font Bureau')
 
+![Steve Jobs about the value of Typography](https://youtu.be/UF8uR6Z6KLc?t=209)
+
+<br>
+<br>
+
 ## Fonts
 
 - [Smelvetica](http://tholman.com/post/smelvetica 'Smelvetica on Tim Holman website'), a funny customization of [Helvetica](https://en.wikipedia.org/wiki/Helvetica 'Helvetica on Wikipedia') by [Tim Holman](https://tholman.com 'Tim Holman's website').
@@ -31,11 +36,17 @@ Update 3<sup>rd</sup> December 2020: I've been deluded: like [Playfair Display](
 - [Graphik](https://commercialtype.com/catalog/graphik), Sans Serif
 - Garamond is the most widely used and loved font in the italian publishing industry, and to me it’s the best serif font for narrative writing. [EB Garamond](http://www.georgduffner.at/ebgaramond/ 'EB Garamond official website') is its renewed, open, digitally friendly alternative, and I use it when I want to use serif in my blog. Its designer is [a great guy](http://georgduffner.at/ 'George Duffner personal website')
 
+<br>
+<br>
+
 ## Custom Font
 
 - define a font name
 - cutting the leg of `x`s
 - sideways cutting of letter’s legs
+
+<br>
+<br>
 
 ## Font subsetting
 
