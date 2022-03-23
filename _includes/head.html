@@ -1,27 +1,51 @@
+{% assign absoluteUrl = url | prepend: 'https://tommi.space' %}
 <head>
+	<!-- Basic -->
 	<meta charset='utf-8'>
-	<link rel='preload' href='/style.css' type='text/css' as='style'>
-	<link rel='preload' href='/inter.woff2' as='font' type='font/woff2'>
-	<meta name='color-scheme' content='dark light'>
-	<link rel='stylesheet' href='/style.css' type='text/css'>
-
-	<link rel='icon' href='/favicon.png' type='image/png'>
-	<link rel='apple-touch-icon' sizes='120x120' href='/favicon-120.png' type='image/png'>
-	<link rel='apple-touch-icon' sizes='152x152' href='/favicon-152.png' type='image/png'>
-	<link rel='apple-touch-icon' sizes='167x167' href='/favicon-167.png' type='image/png'>
-	<link rel='apple-touch-icon' sizes='180x180' href='/favicon-180.png' type='image/png'>
-	<title>{{ title }} | Tommi’s mind</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
 	<meta name='mobile-web-app-capable' content='yes'>
 	<meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
 	<meta name='apple-mobile-web-app-capable' content='yes'>
-	<meta name='theme-color' content='{{ primary }}'>
-	<meta property='og:type' content='website'>
+	<meta name='color-scheme' content='dark light'>
+
+	<!-- Assets -->
+	<link rel='preload' href='/style.css' type='text/css' as='style'>
+	<link rel='preload' href='/inter.woff2' as='font' type='font/woff2'>
+	<link rel='stylesheet' href='/style.css' type='text/css'>
+
+	<!-- Favicon -->
+	<link rel='icon' href='/favicon-16x16.png' type='image/png' sizes='16x16'>
+	<link rel='icon' href='/favicon-32x32.png' type='image/png' sizes='32x32'>
+	<link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>
+	<link rel='apple-touch-icon' sizes='120x120' href='/favicon-120.png' type='image/png'>
+	<link rel='apple-touch-icon' sizes='152x152' href='/favicon-152.png' type='image/png'>
+	<link rel='apple-touch-icon' sizes='167x167' href='/favicon-167.png' type='image/png'>
+	<link rel='apple-touch-icon' sizes='180x180' href='/favicon-180.png' type='image/png'>
+
+	<!-- Metadata -->
+	<title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
+	{% if description %}
+		<meta name='description' content='{{ description | strip_html | replace: "'", " " }}'>
+		<meta property='og:description' content='{{ description | strip_html | replace: "'", " " }}'>
+	{% else %}
+		<meta name='description' content='{{ site.description }}'>
+		<meta property='og:description' content='{{ site.description }}'>
+	{% endif %}
+	<meta property='og:author' content='{{ site.author.name }}'>
+	<meta property='og:site_name' content='{{ site.title }}'>
+	<meta property='og:url' content='{{ absoluteUrl }}'>
 	{% if date %}<meta property='og:article:published_time' content='{{ date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% endif %}
 	{% if updated %}<meta property='article:modified_time' content='{{ updated | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{% endif %}
-	<meta name='twitter:card' content='summary_large_image'>
-	{% if alternate %}<meta property='og:locale:alternate' content='{{ alternate.data.lang }}'>
-	<link rel='alternate' hreflang='{{ alternate.data.lang }}' href='{{ alternate.url | url }}'>{% endif %}
+	<meta property='og:image' content='{% if image %}{{ image }}{% else %}{{ site.image }}{% endif %}'>
+	<meta name='twitter:card' content='{% if layout == post %}summary_large_image{% else %}summary{% endif %}'>
+	{% if layout == post or layout == jam or layout == poem or layout == sconnesso %}<meta property='og:type' content='article'>{% endif %}
+	<link rel='canonical' href='{{ absoluteUrl }}'>
+	<meta property='og:author' content='{{ site.author.name }}'>
+	<meta property='og:locale' content='{{ lang }}'>
+	{% if alternate %}
+		<meta property='og:locale:alternate' content='{{ alternate.data.lang }}'>
+		<link rel='alternate' hreflang='{{ alternate.data.lang }}' href='{{ alternate.url | url }}'>
+	{% endif %}
 
 	<!-- IndieAuth + IndieWeb -->
 	<link rel='microsub' href='https://aperture.p3k.io/microsub/571'>
@@ -29,20 +53,18 @@
 	<link rel='openid.server' href='https://openid.indieauth.com/openid'>
 	<link rel='authorization_endpoint' href='https://indieauth.com/auth'>
 	<link rel='token_endpoint' href='https://tokens.indieauth.com/token'>
+	<link rel='pingback' href='https://webmention.io/tommi.space/xmlrpc'>
+	<link rel='webmention' href='https://webmention.io/tommi.space/webmention'>
 
-	{% comment %}{% if latex %}
-		<!-- LaTeX support -->
-		<script>MathJax = {tex: {inlineMath: [["$", "$"]]},svg: {fontCache: "global"}};</script>
-		<script id='MathJax-script' async src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js'></script>
-	{% endif %}{% endcomment %}
-
+	<!-- All of Tommi’s Accounts -->
 	{% for account in accounts %}
-		{% if account.deleted == nil and account.url != nil %}
+		{% if account.deleted == '' and account.url != '' %}
 			<link rel='me{{ account.attributes }}' href='{{ account.url }}' title='Tommi on {{ account.platform }}'>
 		{% endif %}
 	{% endfor %}
-	<link rel='me pgpkey' href='https://api.protonmail.ch/pks/lookup?op=get&search=surfing@tommi.space'>
+	<link rel='me pgpkey' href='https://api.protonmail.ch/pks/lookup?op=get&search={{ author.email }}'>
 
+	<!-- RSS Feeds -->
 	<link rel='alternate' type='application/rss+xml' title='{% if lang == 'it' %}Everything{% else %}Tutto{% endif %}' href='/all.xml' hreflang='en'>
 	{% if lang == 'it' %}<link rel='alternate' type='application/rss+xml' title='Tutto in italiano' href='/italiano.xml' hreflang='it'>{% endif %}
 	<link rel='alternate' type='application/atom+xml' title='{% if lang == 'it' %}Zibaldone{% else %}blog’s feed{% endif %}' href='/zibaldone.xml' hreflang='it'>
@@ -51,5 +73,34 @@
 	<link rel='alternate' type='application/rss+xml' title='{% if lang == 'it' %}Sconnesso{% else %}Sconnesso podcast{% endif %}' href='/sconnesso.xml' hreflang='it'>
 	<link rel='alternate' type='application/rss+xml' title='Internet Awesomeness feed' href='/interner-awesomeness.xml' hreflang='en'>
 
-	{% seo %}
+	<script type='application/ld+json'>
+		{
+			"name":"{{ site.author.name }}",
+			"description":"{{ site.description }}",
+			"author": {
+				"@type":"Person",
+				"name":"{{ site.author.name }}"
+			},
+			"@type":"WebSite",
+			"url":"{{ site.url }}",
+			"image":"{{ site.image | prepend: 'https://tommi.space' }}",
+			"headline":"{{ site.title }}",
+			"sameAs":[
+				"https://github.com/xplosionmind"
+			],
+			"@context":"http://schema.org"
+		}
+	</script>
+
+	<!-- Page-specific styling -->
+	{% if primary %}
+		<style>
+			:root {
+				--primary: {{ primary }} !important;
+			}
+		</style>
+		<meta name='theme-color' content='{{ primary }}'>
+	{% else %}
+		<meta name='theme-color' content='{{ site.primary }}'>
+	{% endif %}
 </head>

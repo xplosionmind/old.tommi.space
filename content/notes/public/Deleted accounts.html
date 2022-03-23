@@ -10,7 +10,7 @@ Links to archived versions of online profiles or accounts I deleted:
 <ul>{% comment %}#bug not printing the platform’s name{% endcomment %}
 	{% for a in accounts %}
 		{% if a.deleted != '' %}
-			<li><a href='{{ a.url }}' title='{{ a.platform }}'>{{ a.plaftorm }}</a>{% if a.note %}, {{ a.note }}{% endif %}, deleted on <time datetime='{{ a.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ a.date | date: '%d %B %Y' }}</time></li>
+			<li><a href='{{ a.url }}' title='{{ a.platform }}'>{{ a.plaftorm }}</a>{% if a.note %}, {{ a.note }}{% endif %}{% if a.date %}, deleted on <time datetime='{{ a.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}'>{{ a.date | date: '%d %B %Y' }}</time>{% endif %}</li>
 		{% endif %}
 	{% endfor %}
 </ul>

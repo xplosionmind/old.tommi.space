@@ -1,7 +1,9 @@
 ---
 date: 2020-02-02T01:00:00+01:00
 updated: 2022-03-22T10:28:18+01:00
-tags: meta geek/web
+tags:
+  - meta
+  - geek/web
 aliases: tommi.space, Development Roadmap, Website todo, Meta
 permalink: /development/
 redirect_from: [/development-roadmap/,/roadmap/,/wip/,/issues/,/improvements/,/dev/,/website-development/,/tommi.space/]
@@ -9,24 +11,6 @@ main: true
 image: /2020-04-18-making-this-website.jpg
 description: Creative and technical aims, ideas annotation and drafts tracking.
 ---
-## Eleventy
-
-- page redirection language
-- last modified at
-- pagination
-- improved Wikilinks
-- SEO
-- global vs. local tags pinpointing
-- automatic Sconnesso audios transctiptions
-- automatic CV compiling implementation
-- post excerpt
-- [Multilingual sitemap](https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap)
-- fix tags syntax in templates’ front matter
-- how wikilinks URL are generated (as of right now, underscores instead of spaces)
-
-<br>
-<br>
-
 ## Content
 
 ![[Writing ideas#Website]]
@@ -40,6 +24,10 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 
 1. Improve [Webmentions](https://aarongustafson.github.io/jekyll-webmention_io/ 'Documentation for jekyll-webmention_io plugin') templating and display
 1. 🏗 [The Jam](/jam 'The Jam'): implement [jekyll-graph](https://github.com/manunamz/jekyll-graph 'jekyll-graph on GitHub')
+1. page redirection language
+1. Blog posts pagination
+1. improved Wikilinks
+1. [Multilingual sitemap](https://github.com/quasibit/eleventy-plugin-sitemap#create-a-multilingual-sitemap)
 
 <br>
 
@@ -49,6 +37,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 1. Improve search
 2. Add a section in each note where `if more`, in the front matter `more: https://en.wikipedia.org/wiki/Love` (encyclopedia page of the same topic)
 3. Self-hosted analytics
+1. automatic CV compiling implementation
 9. Full width images in posts and `article`’s `max-width` instead of `padding`
 14. Consider switching from [a unique page with all tags][tags] to individual pages for each tag
 
@@ -60,6 +49,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 	- [RSS to ActivityPub](https://github.com/dariusk/rss-to-activitypub 'rss-to-activitypub on GitHub')
 	- [Bridgy Fed](https://fed.brid.gy/ 'Bridgy Fed')
 	- [Nautilus](https://github.com/aaronpk/Nautilus 'Nautilus on GitHub')
+1. automatic [[Sconnesso]] audios transctiptions
 1. [**<cite>Visions</cite>**](https://visions.tommi.space 'Visioni - Tommi Space') improvement: see [[Images#Gallery improvement]] and [[Flickr to Piwigo]]).
 	- <https://github.com/maxvoltar/photo-stream>
 	- <http://benschwarz.github.io/gallery-css/>
@@ -117,7 +107,7 @@ description: Creative and technical aims, ideas annotation and drafts tracking.
 {% if p.data.todo %}
 <li><a href='{{ p.url }}' title='{{ p.data.title }}'>{{ p.data.title }}</a>:<ul>
 {% for task in p.data.todo %}
-<li>{{ task }}</li>
+<li>{{ task | markdownify }}</li>
 {% endfor %}
 </ul></li>
 {% endif %}

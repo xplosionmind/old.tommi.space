@@ -1,0 +1,94 @@
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #FFF; /* fg1 / fg */
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #101010; /* bg0_h */
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+}
+
+.token {
+	&.comment,
+	&.prolog,
+	&.cdata {
+		color: var(--light-grey); /* fg4 / gray1 */
+	}
+	&.delimiter,
+	&.boolean,
+	&.keyword,
+	&.selector,
+	&.important,
+	&.atrule {
+		color: var(--orange); /* red2 */
+	}
+	&.operator,
+	&.punctuation,
+	&.attr-name {
+		color: var(--light-blue); /* fg4 / gray1 */
+	}
+	&.tag,
+	&.tag .punctuation,
+	&.doctype,
+	&.builtin {
+		color: var(--yellow); /* yellow2 */
+	}
+	&.entity,
+	&.number,
+	&.symbol {
+		color: var(--razzmatazz); /* purple2 */
+	}
+	&.property,
+	&.constant,
+	&.variable {
+		color: var(--orange); /* red2 */
+	}
+	&.string,
+	&.char {
+		color: var(--green); /* green2 */
+	}
+	&.attr-value,
+	&.attr-value .punctuation {
+		color: var(--light-grey); /* fg4 / gray1 */
+	}
+	&.url {
+		color: var(--green); /* green2 */
+		text-decoration: underline;
+	}
+	&.function {
+		color: var(--yellow); /* yellow2 */
+	}
+	&.regex {
+		background: var(--green); /* green2 */
+	}
+	&.bold {
+		font-weight: bold;
+	}
+	&.italic {
+		font-style: italic;
+	}
+	&.inserted {
+		background: #88D18A66; /* fg4 / gray1 */
+	}
+	&.deleted {
+		background: #D009; /* red2 */
+	}
+}

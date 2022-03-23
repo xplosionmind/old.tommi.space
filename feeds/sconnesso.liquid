@@ -13,7 +13,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 		<itunes:subtitle>{{ description | xml_escape | strip_newlines }}</itunes:subtitle>
 		<link>{{ altUrl }}</link>
 		<atom:link href='{{ feedUrl }}' rel='self' type='application/rss+xml'/>
-		<itunes:author>{{ author }}</itunes:author>
+		<itunes:author>{{ author.name }}</itunes:author>
 		<itunes:email>{{ email }}</itunes:email>
 		<itunes:image href='{{ image | url }}'/>
 		<image>
@@ -22,12 +22,12 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 			<link>{{ altUrl }}</link>
 		</image>
 		<language>it</language>
-		<managingEditor>{{ email }} ({{ author }})</managingEditor>
-		<webMaster>{{ email }} ({{ author }})</webMaster>
-		<copyright>copyright © ({{ author }})</copyright>
+		<managingEditor>{{ author.email }} ({{ author.name }})</managingEditor>
+		<webMaster>{{ author.email }} ({{ author.name }})</webMaster>
+		<copyright>copyright © ({{ author.name }})</copyright>
 		<itunes:owner>
-			<itunes:name>{{ author }}</itunes:name>
-			<itunes:email>{{ email }}</itunes:email>
+			<itunes:name>{{ author.name }}</itunes:name>
+			<itunes:email>{{ author.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:category text='Society &amp; Culture'>
 			<itunes:category text='Personal Journals'/>
@@ -41,7 +41,7 @@ description: 'Sconnesso è uno pseudo-podcast in cui, per alcuni minuti, raccont
 			{% increment counter %}
 			<item>
 				<title>{{ episode.data.title | xml_escape }}</title>
-				<itunes:author>{{ author }}</itunes:author>
+				<itunes:author>{{ author.name }}</itunes:author>
 				<itunes:season>{{ episode.data.season }}</itunes:season>
 				<itunes:episode>{{ episode.data.episode }}</itunes:episode>
 				<itunes:order>{{ counter }}</itunes:order>

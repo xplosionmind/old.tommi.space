@@ -2,9 +2,9 @@
 date: 2020-03-21T01:00:00+01:00
 updated: 2022-01-24T15:50:17+01:00
 tags: geek/server
-main: true
 aliases: Xplosion Server
 redirect_from: [/xplosion-server/,/xplosionserver/]
+description: Information and insights concerning the configuration and manteinance of Tommi’s server
 ---
 <div class='red box'>
 	Everything in this page is out of date, since I am using <a href='https://yunohost.org' target='_blank' title='YunoHost'>YunoHost</a> to manage my server now. On <a href='https://server.tommi.space' target='_blank' title='Tommi’s server'>server.tommi.space</a> there is the public front-end of the administration panel.

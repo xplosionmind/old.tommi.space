@@ -8,6 +8,7 @@
 @use 'parts/tags';
 @use 'parts/commento';
 @use 'parts/temporary';
+@use 'parts/syntax-highlight';
 
 $tiny: .2rem;
 $small: .5rem;
@@ -809,9 +810,6 @@ h3 {
 .metadata {
 	line-height: 1.1;
 	opacity: .8;
-	time {
-		font-family: var(--font-mono);
-	}
 }
 
 .footnotes {

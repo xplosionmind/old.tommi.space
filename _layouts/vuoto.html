@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='{% if lang == 'it' %}it{% else %}en{% endif %}' xmlns:og='http://opengraphprotocol.org/schema/'>
 
-	{% render head.html, latex: latex, date: date, updated: updated, title: title, primary: primary, lang: lang, alternate: alternate, accounts: accounts %}
+	{% render head.html, latex: latex, date: date, updated: updated, title: title, description: description, primary: primary, lang: lang, alternate: alternate, accounts: accounts, site: site, url: page.url, layout: layout %}
 
 	<body>
 		{% if textonly %}

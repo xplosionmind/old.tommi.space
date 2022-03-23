@@ -18,14 +18,14 @@ Here is {{ description }}.
 Right now on my <a href='https://support.apple.com/kb/SP799' title='MacBook Pro 13-inch 2019 tech specs'>MacBook Pro 13-inch 2019</a>:
 
 <ul>
-{% for app in apps %}
-{% if app.os contains 'MacOS' and app.uninstalled == '' and app.remember == '' %}
-<li>
-<a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-{{ app.description }}. {% if app.price != '' %}<mark>{{ app.price }}€</mark>.{% endif %}
-</li>
-{% endif %}
-{% endfor %}
+  {% for app in apps -%}
+    {% if app.os contains 'MacOS' and app.uninstalled == '' and app.remember == '' -%}
+      <li>
+        <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
+        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
+      </li>
+    {% endif -%}
+  {% endfor -%}
 </ul>
 
 <br>
@@ -34,14 +34,14 @@ Right now on my <a href='https://support.apple.com/kb/SP799' title='MacBook Pro 
 ### Terminal
 
 <ul>
-{% for app in apps %}
-{% if app.os contains 'terminal' and app.uninstalled == '' and app.remember == '' %}
-<li>
-<a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-{{ app.description }}. {% if app.price != '' %}<mark>{{ app.price }}€</mark>.{% endif %}
-</li>
-{% endif %}
-{% endfor %}
+  {% for app in apps -%}
+    {% if app.os contains 'terminal' and app.uninstalled == '' and app.remember == '' -%}
+      <li>
+        <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
+        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif --%}
+      </li>
+    {% endif -%}
+  {% endfor -%}
 </ul>
 
 <br>
@@ -52,14 +52,14 @@ Right now on my <a href='https://support.apple.com/kb/SP799' title='MacBook Pro 
 Apps installed on my [iPhone 12 mini](https://www.apple.com/it/iphone-12 'iPhone 12 mini'):
 
 <ul>
-{% for app in apps %}
-{% if app.os contains 'iOS' and app.uninstalled == '' and app.remember == '' %}
-<li>
-<a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-{{ app.description }}. {% if app.price != '' %}<mark>{{ app.price }}€</mark>.{% endif %}
-</li>
-{% endif %}
-{% endfor %}
+  {% for app in apps -%}
+    {% if app.os contains 'iOS' and app.uninstalled == '' and app.remember == '' -%}
+      <li>
+        <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
+        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
+      </li>
+    {% endif -%}
+  {% endfor -%}
 </ul>
 
 <br>
@@ -72,14 +72,14 @@ Apps installed on my <a href='https://www.oneplus.com/6t' title='OnePlus 6T'>One
 <div class='yellow box'><h3>Note</h3>My main phone is now an iPhone 12 mini. My OnePlus 6T comfortably sits in a drawer sadly I will not be opening for a while.</div>
 
 <ul>
-{% for app in apps %}
-{% if app.os contains 'Android' and app.uninstalled == '' and app.remember == '' %}
-<li>
-<a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-{{ app.description }}. {% if app.price != '' %}<mark>{{ app.price }}€</mark>.{% endif %}
-</li>
-{% endif %}
-{% endfor %}
+  {% for app in apps -%}
+    {% if app.os contains 'Android' and app.uninstalled == '' and app.remember == '' -%}
+      <li>
+        <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
+        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
+      </li>
+    {% endif -%}
+  {% endfor -%}
 </ul>
 
 <br>
@@ -90,14 +90,14 @@ Apps installed on my <a href='https://www.oneplus.com/6t' title='OnePlus 6T'>One
 Apps which I have installed on my beloved <a href='/linuxplosion' title='Linuxplosion - tommi.space'>Linuxplosion</a>
 
 <ul>
-{% for app in apps %}
-{% if app.os contains 'MacOS' and app.uninstalled == '' and app.remember == '' %}
-<li>
-<a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-{{ app.description }}. {% if app.price != '' %}<mark>{{ app.price }}€</mark>.{% endif %}
-</li>
-{% endif %}
-{% endfor %}
+  {% for app in apps -%}
+    {% if app.os contains 'MacOS' and app.uninstalled == '' and app.remember == '' -%}
+      <li>
+        <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
+        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
+      </li>
+    {% endif -%}
+  {% endfor -%}
 </ul>
 
 <br>
@@ -127,14 +127,14 @@ Lists with a ton of apps which are too valuable to be forgotten
 Apps which are not installed but it is worth remembering or testing in the future.
 
 <ul>
-{% for app in apps %}
-{% if app.remember != '' %}
-<li>
-<a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
-{{ app.description }}. {% if app.price != '' %}<mark>{{ app.price }}€</mark>.{% endif %}
-</li>
-{% endif %}
-{% endfor %}
+  {% for app in apps -%}
+    {% if app.remember != '' -%}
+      <li>
+        <a href='{{ app.url }}' title='{{ app.name | append: app.title }}'>{{ app.name }}</a>, 
+        {{ app.description }}. {% if app.price != '' -%}<mark>{{ app.price }}€</mark>.{% endif -%}
+      </li>
+    {% endif -%}
+  {% endfor -%}
 </ul>
 
 <br>
@@ -142,6 +142,8 @@ Apps which are not installed but it is worth remembering or testing in the futur
 
 ## Missing digital tools
 
-<div class='blue box'>Although I literally <b>love</b> some of the apps I installed on my devices, there are some <a href='/missing-digital-tools' title='Missing Digital Tools - tommi.space'>Missing digital tools</a> that I keep note of, in case someone with more programming expertise than me may be able to develop.</div>
+<div class='blue box'>
+  Although I literally <b>love</b> some of the apps I installed on my devices, there are some <a href='/missing-digital-tools' title='Missing Digital Tools - tommi.space'>Missing digital tools</a> that I keep note of, in case someone with more programming expertise than me may be able to develop.
+</div>
 
 ![[Missing digital tools]]

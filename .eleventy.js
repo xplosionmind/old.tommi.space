@@ -1,5 +1,6 @@
 const fs = require('fs');
 const miniHtml = require('html-minifier');
+const _ = require('lodash')
 
 // HTML Headers ID generation
 /* #TODO: what walue to pass as `html`?
@@ -13,11 +14,23 @@ for (const h of rootHHTML.querySelectorAll('h1, h2, h3, h4, h5, h6')) {
 }*/
 
 // Markdown //
+function wikilinkSlugifier(pageName) {
+  pageName = pageName.trim()
+  pageName = pageName.split('/').map(require('sanitize-filename')).join('/')
+  pageName = pageName.replace(/\s+/, '-')
+  return pageName
+}
 const markdownIt = require('markdown-it')
 const md = markdownIt({
   html: true,
   fence: false
-}).disable('fence')
+})
+.use(require('markdown-it-wikilinks')({
+  uriSuffix: '',
+  makeAllLinksAbsolute: true,
+  class: 'wikilink',
+  postProcessPageName: wikilinkSlugifier
+})).disable('code')
 .use(require('markdown-it-attrs'))
 .use(require('markdown-it-anchor'))
 .use(require('markdown-it-footnote'))
@@ -29,7 +42,6 @@ const md = markdownIt({
 .use(require('markdown-it-collapsible'))
 .use(require('markdown-it-abbr'))
 .use(require('markdown-it-mathjax3'));
-const mdRender = new md();
 
 module.exports = function(eleventyConfig) {
 
@@ -37,11 +49,6 @@ module.exports = function(eleventyConfig) {
    // Global variables //
   //******************//
   eleventyConfig.addGlobalData('image', '/tommi.space.wip.png');
-  eleventyConfig.addGlobalData('primary', '#FCC920');
-  eleventyConfig.addGlobalData('author', {
-    name: 'Tommi',
-    email: 'surfing@tommi.space'
-  });
 
   eleventyConfig.setFrontMatterParsingOptions({
     permalink: '/{{ page.fileSlug }}/',
@@ -53,14 +60,18 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLiquidOptions({
     strictVariables: false,
     strictFilters: false,
-    jekyllInclude: true
+    jekyllInclude: true,
+    //trimOutputLeft: true,
+    //trimOutputRight: true,
+    //trimTagLeft: true,
+    //trimTagRight: true,
   });
   eleventyConfig.addLiquidFilter('reverse', (collection) => {
     const arr = [...collection];
     return arr.reverse();
   });
   eleventyConfig.addFilter('markdownify', (str) => {
-    return mdRender.renderInline(str)
+    return md.renderInline(str);
   });
 
     //*************//
@@ -105,10 +116,10 @@ module.exports = function(eleventyConfig) {
   //*********//
   eleventyConfig.setLibrary('md', md);
   eleventyConfig.addPlugin(require('eleventy-plugin-find'));
-  eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight')); // #TODO not working
+  eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
   eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-external-links'));
   eleventyConfig.addPlugin(require('@sardine/eleventy-plugin-tinysvg'), {
-    baseUrl: 'assets/svg/',
+    baseUrl: 'assets/svg/'
   });
   eleventyConfig.addPlugin(require('eleventy-plugin-toc'), {
     ul: true,

@@ -3,7 +3,7 @@ date: 2020-02-07
 image: /2020-02-07-avanguardia.jpg
 title: L’avanguardia
 permalink: /avanguardia/
-redirect_from: ['/lavanguardia', '/l-avanguardia']
+redirect_from: /l-avanguardia/
 ---
 Si muore di caldo, eppure è quel caldo che anche se uno ha caldo per nulla al mondo si sfilerebbe la felpa, quella pesante che mantiene in quello stato per cui viene annullata anche la forza di chiudere gli occhi, costretti perciò a scorrere stanchi su [exercise.polito.it](https://exercise.polito.it 'Esercizi - Politecnico di Torino') nella speranza di osservare un'ispirazione per risolvere un equazione.
 
@@ -24,7 +24,7 @@ Uno, nel frattempo, sempre quello scemo a cui batte il cuore, nota che la ragazz
 
 Fisica II, Analisi II, Ingegneria Strutturale, Analisi I, Elettrotecnica, Fisiologia, Circuiti, Idrologia, Impianti Industriali, uno sbircia curioso con troppa indiscrezione e riesce a leggere alcuni dei libri furiosamente sfogliati dagli avanguardisti, che ogni tanto schiantano la propria schiena sullo schienale, sbuffando scoraggiati. Poi, ad un orario variabile, entrano gli arabi. Ah, gli arabi. Uno si accorge che arrivano perché probabilmente non hanno mai imparato a parlare sottovoce. Cominciano ad andare a salutare le persone (gli arabi sono amici di tutti, ti salutano e stringono la mano anche se non li hai mai visti prima) fanno il giro dell'aula per guardare il codice di quelli che stanno programmando, valutano un po' l'atmosfera, poi se ne vanno. Non si sa dove. Forse nell'aula studio con i vetri (che forse ha un numero ma uno non lo sa, in gergo è così).
 
-Il bello è che uno può stare tutto il giorno gomito a gomito con una ragazza bellissima o con un programmatore fortissimo che sta creando un programma pazzesco e non scambia con loro nemmeno una parola. Zero. No, una forse. "È libero qui?" "Sì." Fine.
+Il bello è che uno può stare tutto il giorno gomito a gomito con una ragazza bellissima o con un programmatore fortissimo che sta creando un programma pazzesco e non scambia con loro nemmeno una parola. Zero. No, una forse. <q>È libero qui?</q> <q>Sì.</q> Fine.
 
 Sono così, gli ingegneri. Hanno questa malattia strana per cui possiedono l'etica e la rettitudine morale di un padre costituente, ma la socievolezza di Clint Eastwood in Gran Torino. Non fraintendiate, uno può conoscere mille persone e avere moltissimi legami in aula studio - anche se non è arabo - ma non potrà mai **farsi** degli amici, lì.
 
@@ -38,7 +38,7 @@ if (a>=2) {
 }
 else {
 		printf("wtf? Impossible.\n\n");
-}
+} // yes, I am a very sad person
 ```
 
 Poi uno va a fare la pipì. Probabilmente, della sua giornata tipo in aula studio, che comincia alle 7:30 per assicurarsi il posto quello bello e finisce alle 19:30 con un numero di neuroni attivi a malapena sufficiente per portarsi a casa intero, il momento più rilassante. Scende le scale e va nel bagno. Si concede un lavaggio di mani lungo e con abbondante sapone. Per viziarsi proprio e concedersi una pausa di qualità, uno schiaccia due volte il pulsante dell’asciuga mani, lasciandosi coccolare dal calore rassicurante del suo unico vero consolatore in tutto il Politecnico. Successivamente, risale le scale e se proprio gli va di culo (potevo dire “se gli va bene”. La parolaccia l’ho messa per te, nonna. Un bacio) incontra uno o due arabi che lo salutano sorridendo, altrimenti si trascina nuovamente in aula verde per tornare a studiare.
